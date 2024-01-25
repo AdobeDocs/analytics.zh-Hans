@@ -3,7 +3,7 @@ description: 付费搜索检测在“搜索引擎”和“搜索关键词”报�
 title: 付费搜索检测
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 [!UICONTROL 付费搜索检测]在[!UICONTROL “搜索引擎”]和[!UICONTROL “搜索关键词”]报表中区分付费搜索与免费搜索。可指定从中使用付费广告的搜索引擎，并可指定在从付费广告访问的 URL 中找到的字符串。
 
-## 配置选项 {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## 配置选项 {#configuration}
 
 下表介绍用于[配置付费搜索检测](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)的各个字段和选项。
 

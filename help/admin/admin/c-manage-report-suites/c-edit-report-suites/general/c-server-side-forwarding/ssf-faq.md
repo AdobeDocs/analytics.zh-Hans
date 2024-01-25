@@ -3,7 +3,8 @@ description: 关于服务器端转发相关特性、功能和问题的常见问�
 title: 服务器端转发常见问题解答
 feature: Server-Side Forwarding
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 96%

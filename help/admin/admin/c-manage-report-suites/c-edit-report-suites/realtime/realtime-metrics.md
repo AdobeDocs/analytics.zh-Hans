@@ -1,13 +1,13 @@
 ---
 description: 列出实时报表所支持的指标和维度。还支持分类（如果已定义）。
-title: 受支持的实时指标和维度（管理）
+title: 受支持的实时量度和维度（管理）
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 列出实时报表所支持的指标和维度。还支持分类（如果已定义）。
 
-## 支持的指标 {#section_514ED8B382494C47BFC0657894D1AF94}
+## 支持的指标 {#metrics}
 
 * 收入
 * 订购
@@ -28,7 +28,7 @@ ht-degree: 100%
 * 实例
 * 自定义事件 1-100（如果在报表包中启用）
 
-## 支持的维度 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## 支持的维度 {#dimensions}
 
 * 页面
 * 搜索关键词

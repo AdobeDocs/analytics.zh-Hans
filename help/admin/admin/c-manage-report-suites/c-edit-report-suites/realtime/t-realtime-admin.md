@@ -3,10 +3,10 @@ description: 设置实时报表的管理步骤。
 title: 实时报表配置
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 设置实时报表的管理步骤。
 
-在 Reports &amp; Analytics 中设置实时报表包括选择报表包并为其配置至多 3 个报表。
+在Adobe Analytics中设置实时报表包括选择报表包并为其配置至多3个报表。
 
 1. 选择您要为其启用实时报表的报表包。
 
@@ -55,6 +55,6 @@ ht-degree: 100%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 保存并查看报表]**。
 
-   在初始报表设置中，最多需要 20 分钟数据才会开始传输。之后，数据会立即可用。有关查看实时报表的信息，请参阅[运行实时报表](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=zh-Hans)。
+   在初始报表设置中，最多需要 20 分钟数据才会开始传输。从那时起，数据立即可用。
 
 1. 默认情况下，所有用户均有权访问实时报表。

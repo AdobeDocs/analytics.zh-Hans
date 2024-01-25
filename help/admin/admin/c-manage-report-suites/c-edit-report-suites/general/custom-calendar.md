@@ -1,12 +1,13 @@
 ---
-description: 不同于公历模式的日历选项。相关选项包括 4-4-5、4-5-4 与 5-4-4 日历模式，三者均是零售行业的标准模式。此外，报告还提供一个选项，您可自行设置完全自定义的日历。
-title: 自定义日历
+description: 不同于公历模式的日历选项。相关选项包括 4-4-5、4-5-4 与 5-4-4 日历模式，三者均是零售行业的标准模式。报表还提供了可完全自定义的日历，您可以自行设置。
+title: 自定义日程表
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 97%
 
 ---
 
