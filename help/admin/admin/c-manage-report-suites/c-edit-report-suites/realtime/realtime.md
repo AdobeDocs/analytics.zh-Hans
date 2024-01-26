@@ -3,10 +3,10 @@ description: 实时显示 Web 页面流量和并对页面查看次数进行排�
 title: 实时报表
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 96%
+source-wordcount: '582'
+ht-degree: 94%
 
 ---
 
@@ -14,17 +14,13 @@ ht-degree: 96%
 
 实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
 
-
-
 >[!NOTE]
 >
 >实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅 [实时报表配置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-以下是一段视频概述：
+要查看实时报表，请导航至：
 
->[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
-
-**[!UICONTROL 网站量度]** > **[!UICONTROL 实时]**
+**[!UICONTROL 工作区]** > **[!UICONTROL 报表]** > **[!UICONTROL 参与]** > **[!UICONTROL 实时]**.
 
 实时回答以下问题：我的网站上有什么趋势，为什么？它可以让营销人员快速响应并主动管理营销内容和促销活动的表现。报告的实时数据延迟不超过两分钟，并且会每分钟自动更新。
 
@@ -52,7 +48,7 @@ ht-degree: 96%
 
 仅管理员或“全部报表访问”和“高级报表”权限组中的所有用户有权设置和查看实时报表。而且，实时报表确实遵守权限设置。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。
 
-## 由 A4T 配置导致的数据滞后 {#section_806CE36354FC4C539A0DED9266A5C704}
+## 由 A4T 配置导致的数据滞后 {#latency}
 
 在 Adobe Target 中启用 A4T 集成后，您在 Adobe Analytics 中会额外经历 5 至 10 分钟的滞后。这额外增加的滞后允许您将 Analytics 和 Target 中的数据存储到同一个点击上，从而允许您按页面和网站部分来细分测试。
 
