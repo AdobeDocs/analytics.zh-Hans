@@ -3,10 +3,10 @@ description: 区段管理器提供多种编排区段的方式，如共享、过�
 title: 管理区段（区段管理器）
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 42%
+source-wordcount: '749'
+ht-degree: 30%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 42%
 
 区段管理器提供多种编排区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
 
-Analytics 区段管理器显示了您拥有的所有区段以及共享给您的所有区段。管理员级别的用户可以查看组织内的所有区段。此概述说明了用户界面和区段管理器的功能。
+Analytics 区段管理器显示了您拥有的所有区段以及共享给您的所有区段。管理员级别的用户可以查看组织内的所有区段。此概述介绍了区段管理器的用户界面和功能。
 
 ![区段管理器](assets/segments-manager.png)
 
@@ -67,8 +67,8 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
    | 标记（在列选择器中未选择，因此列不显示） | 应用到区段的标记，由您或与您共享该区段的人添加。 |
    | 共享对象 | 列出您共享该区段的个人或组（仅管理员）或所有人（仅管理员）。 <p>当您或与您共享区段时，区段名称旁边会显示一个共享图标。</p> |
    | 修改日期 | 显示最后一次修改区段的日期。 |
-   | 用在 | 显示区段当前使用的组件数。 <p>例如，如果该区段在40个项目和2个警报中使用，则此列的值显示为 [!UICONTROL **42个组件**].</p> <p>选择此列中的值可查看使用区段的位置的细分(例如， [!UICONTROL **项目(40)**]， [!UICONTROL **警报(2)**])。</p><p>区段可用于以下任何组件类型中：</p> <ul><li>警报</li><li>项目</li><li>计划项目</li><li>计算量度</li></ul><p>此信息可帮助您确定某个组件是否对组织中的用户有用、在何处使用该组件以及是否需要删除或修改该组件。</p><p>查看此列时，请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>此 [!UICONTROL **使用位置**] 默认情况下不显示列。 [配置列](#configure-columns) 以显示。</li><li>如果此列中没有给定组件的数据，但它具有 [!UICONTROL **上次使用时间**] 日期，该组件可能用于分析而没有保存。</li></ul><p>您可以使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 以及此信息，以帮助您跟踪并更好地了解组织中如何使用组件。</p> |
-   | 上次使用时间 | 显示上次在以下任意组件类型中使用区段的日期： <ul><li>警报</li><li>计算量度</li><li>项目</li><li>计划项目</li><li>区段</li></ul> <p>此信息可帮助您确定某个组件是否对组织中的用户有用、在何处使用该组件以及是否需要删除或修改该组件。</p><p>查看此列时，请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>对于某些组件，如果上次在2023年9月之前使用该组件，则此列可能不包含数据。</li></ul><p>您可以使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 以及此信息，以帮助您跟踪并更好地了解组织中如何使用组件。 |
+   | 用在 | 显示区段当前使用的组件数。 <p>例如，如果该区段在40个项目和2个警报中使用，则此列的值显示为 [!UICONTROL **42个组件**].</p> <p>选择此列中的值可查看使用区段的位置的细分(例如， [!UICONTROL **项目(40)**]， [!UICONTROL **警报(2)**])。</p><p>区段可用于以下任何组件类型中：</p> <ul><li>警报</li><li>项目</li><li>计划项目</li><li>计算量度</li></ul><p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看此列时，请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>此 [!UICONTROL **使用位置**] 默认情况下不显示列。 [配置列](#configure-columns) 以显示。</li><li>如果此列中没有给定组件的数据，但它具有 [!UICONTROL **上次使用时间**] 日期，该组件可能用于分析而没有保存。</li><li>此信息仅供系统管理员使用。</li></ul><p>您可以使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 以及此信息，以帮助您跟踪并更好地了解组织中如何使用组件。</p> |
+   | 上次使用时间 | 显示上次在以下任意组件类型中使用区段的日期： <ul><li>警报</li><li>计算量度</li><li>项目</li><li>计划项目</li><li>区段</li></ul> <p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看此列时，请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>对于某些组件，如果上次在2023年9月之前使用该组件，则此列可能不包含数据。</li><li>此信息仅供系统管理员使用。</li></ul><p>您可以使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 以及此信息，以帮助您跟踪并更好地了解组织中如何使用组件。 |
 
    {style="table-layout:auto"}
 

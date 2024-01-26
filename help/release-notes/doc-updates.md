@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '4994'
-ht-degree: 99%
+source-wordcount: '5047'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 1 月** | |
+| 组件迁移适用于单个IMS组织 | 阐明 [组件迁移](/help/admin/admin/component-migration/component-migration.md) 不支持跨IMS组织迁移。 |
+| 阐明某些信息仅供管理员使用 | 添加了信息来声明“上次使用”和“用于”列，详见 [计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 和 [区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md) 仅适用于系统管理员。 |
 | 媒体平均受众访问分钟数文档更新 | 更新了[媒体平均受众访问分钟数面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的信息，以提高清晰度。<p>其中的改进包括：</p> <ul><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li></ul> |
 
 ### 2023 {#23}
@@ -142,7 +144,7 @@ ht-degree: 99%
 | Adobe Analytics 登陆页面更新 | [更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。](/help/analyze/landing.md) |
 | [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | 此面板允许您浏览所选维度项目之后或之前的项目。 |
 | [!UICONTROL 页面摘要]工作区面板 | 此面板为您选择的页面提供深入分析。 |
-| 关于暂停旧版计划报告的新主题 | 有效 **2022年4月15日**，Adobe打算暂停所有创建日期超过两年的计划报告 |
+| 关于暂停旧版计划报告的新主题 | 从 **2022 年 4 月 15 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划报告 |
 | **2022 年 2 月** |
 | 移动记分卡项目预览模式 | 该[预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#preview?lang=zh-Hans)允许您在保存和共享记分卡之前预览体验。 |
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

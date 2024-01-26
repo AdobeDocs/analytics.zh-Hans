@@ -3,10 +3,10 @@ description: 介绍为将组件和项目从Adobe Analytics迁移到Customer Jour
 title: 准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: cc7267cc7f6d0223d151fb6378fce149742258d7
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 15%
+source-wordcount: '872'
+ht-degree: 9%
 
 ---
 
@@ -16,38 +16,38 @@ ht-degree: 15%
 
 ## 先决条件
 
-在准备好迁移项目及其相关组件之前，您首先需要：
+在项目及其相关组件准备好迁移之前，您首先需要执行中的步骤 [Adobe Analytics的演变](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hans) 在《Adobe Customer Journey Analytics指南》中。 这些步骤包括：
 
-* 使用以下任一方法将数据摄取到Adobe Experience Platform中，以便在Customer Journey Analytics中查看Adobe Analytics报表包数据：
+1. 使用以下任一方法将数据摄取到Adobe Experience Platform中，以便在Customer Journey Analytics中查看Adobe Analytics报表包数据：
 
-  >[!NOTE]
-  >
-  >  在使用WebSDK摄取数据时，必须手动映射所有架构字段。 (有关映射过程的详细信息，请参见 [将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
+   >[!NOTE]
+   >
+   >  在使用WebSDK摄取数据时，必须手动映射所有架构字段。 (有关映射过程的详细信息，请参见 [将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
 
 
    * 要使用Adobe Analytics源连接器，您需要：
 
-      * [设置报表包以引入Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [设置报表包以引入Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      * [摄取和使用数据](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=zh-Hans)
+      1. [摄取和使用数据](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=zh-Hans)
 
    * 要使用WebSDK，您需要：
 
-      * [设置报表包以引入Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [设置报表包以引入Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      * [通过Adobe Experience Platform Web SDK引入数据](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [通过Adobe Experience Platform Web SDK引入数据](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-* 创建 [连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=zh-Hans) 和 [数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 并摄取数据。
+1. 创建 [连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) 和 [数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 并摄取数据。
 
-* 确保Customer Journey Analytics中的用户已设置到正在映射数据的数据视图。
+1. 确保Customer Journey Analytics中的用户已设置到正在映射数据的数据视图。
 
-  有关更多信息，请参阅 [Admin Console中的Customer Journey Analytics权限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics访问控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   有关更多信息，请参阅 [Admin Console中的Customer Journey Analytics权限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics访问控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
-  权限选项卡是 Admin Console 中每个产品配置文件的一部分。您可以将用户添加到特定的产品配置文件。然后将权限分配给特定的数据视图，并指定用户在产品配置文件中拥有的权限。
+   “权限”选项卡是Admin Console中每个产品配置文件的一部分。 您可以将用户添加到特定的产品配置文件。然后，将权限分配给特定的数据视图，并指定用户在产品配置文件中拥有的权限。
 
-* 作为一个组织，决定如何映射组件。
+1. 作为一个组织，决定如何映射组件。
 
-  有关更多信息，请参阅以下部分， [作为组织决定如何映射组件](#decide-as-an-organization-how-you-will-map-components).
+   有关更多信息，请参阅以下部分， [作为组织决定如何映射组件](#decide-as-an-organization-how-you-will-map-components).
 
 ## 了解迁移中包含的内容
 
@@ -83,7 +83,7 @@ Customer Journey Analytics中尚未存在的区段、日期范围和计算指标
 | **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) 由执行迁移的用户定义 |
 | **[策划](/help/analyze/analysis-workspace/curate-share/curate.md)** | 否 |
 | **[共享](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 否 |
-| **[批注](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 否 |
+| **[注释](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 否 |
 | **[文件夹结构](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 否 |
 | **[描述](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
 | **[标记](/help/analyze/landing.md)** | 否 |
@@ -123,7 +123,7 @@ Customer Journey Analytics不支持以下可视化和面板。 如果在迁移�
 >
 >迁移过程会识别Adobe Analytics项目中无法自动映射到Customer Journey Analytics中组件的组件，并且允许您手动映射这些组件。
 >
->**对一个项目所做的任何映射都将应用于整个组织中的所有未来项目，而不管哪个用户正在执行迁移。 除非联系客户关怀团队，否则无法修改或撤消这些映射。**
+>**对一个项目所做的任何映射都适用于整个IMS组织中的所有未来项目，无论哪个用户正在执行迁移。 除非联系客户关怀团队，否则无法修改或撤消这些映射。**
 >
 >因此，在迁移任何项目之前，贵组织必须决定如何映射维度和量度，这一点非常重要。 这样做可避免单个管理员在仅考虑单个项目时在思洛存储器中进行决策。
 >
