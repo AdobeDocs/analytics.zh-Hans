@@ -3,10 +3,10 @@ description: 设置实时报表的管理步骤。
 title: 实时报表配置
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
+source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 86%
+source-wordcount: '219'
+ht-degree: 77%
 
 ---
 
@@ -18,19 +18,10 @@ ht-degree: 86%
 
 1. 选择您要为其启用实时报表的报表包。
 
-   导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]** > **[!UICONTROL 查看所有报表 > 网站量度]** > **[!UICONTROL 实时]**，然后从顶部的下拉列表中选择报表包：
+   导航到 **[!UICONTROL 分析]** > **[!UICONTROL 管理员>报表包]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+1. 单击 **[!UICONTROL 编辑设置]** > **[!UICONTROL 实时]**.
 
-   如果某个报表包未设置实时报表功能，而您尝试查看该报表包的实时报表，则会显示一条消息，让您设置该报表包。
-
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
-
-1. 单击&#x200B;**[!UICONTROL 配置]**（齿轮图标）以运行[!UICONTROL 报表包管理器]。
-
-   （也可以通过 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员 > 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 实时]**&#x200B;获取。）
-
-1. 打开&#x200B;**[!UICONTROL 启用实时设置]**。
 1. 为至多 3 个表报设置实时数据收集，每个报表具有 1 个量度和 3 个维度或分类。
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
