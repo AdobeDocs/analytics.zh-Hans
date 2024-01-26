@@ -3,10 +3,11 @@ title: Util.getQueryParam
 description: 返回查询字符串参数的值。
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 80%
+source-wordcount: '268'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 80%
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 数据元素]选项卡，然后单击所需的数据元素（或创建数据元素）。
-4. 设置 [!UICONTROL 扩展] 下拉列表 **[!UICONTROL 核心]**&#x200B;和 [!UICONTROL 数据元素类型] to **[!UICONTROL 查询字符串参数]**.
+4. 设置 [!UICONTROL 扩展名] 下拉列表至 **[!UICONTROL 核心]**，和 [!UICONTROL 数据元素类型] 到 **[!UICONTROL 查询字符串参数]**.
 5. 在文本字段中输入查询字符串参数。
 
 查询字符串参数值会存储在数据元素中。然后，您可以引用规则中的数据元素来分配所需的变量。

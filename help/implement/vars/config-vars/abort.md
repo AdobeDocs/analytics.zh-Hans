@@ -3,25 +3,26 @@ title: abort
 description: abort 变量是一个布尔值，用于阻止将点击发送到 Adobe 数据收集服务器。
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 48%
+source-wordcount: '331'
+ht-degree: 44%
 
 ---
 
 # abort
 
-`abort` 变量是一个布尔值，用于阻止将下一个跟踪调用发送到 Adobe。Web SDK中存在类似的功能，允许您返回 `false` 在发送XDM事件之前。
+此 `abort` 变量是一个布尔值，用于阻止将下一个跟踪调用发送到Adobe。 Web SDK中存在类似的功能，可让您返回 `false` 发送XDM事件之前。
 
 ## 取消使用Web SDK扩展发送事件
 
-使用 [!UICONTROL 在事件发送回调之前开启] 代码编辑器和返回 `false`.
+使用 [!UICONTROL 在事件发送回调前开启] 代码编辑器和返回 `false`.
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** 按钮位于 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 下 [!UICONTROL 数据收集]，单击 **[!UICONTROL 在事件发送回调代码之前编辑]** 按钮。
+1. 下 [!UICONTROL 数据收集]，单击 **[!UICONTROL 编辑在事件发送回调代码之前]** 按钮。
 1. 在代码编辑器中，将以下代码置于要中止向Edge发送数据的任何条件下：
 
 ```js
@@ -30,7 +31,7 @@ return false;
 
 ## 手动实施Web SDK时取消发送事件
 
-使用 `onBeforeEventSend` 回调和返回 `false`. 参见 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
+使用 `onBeforeEventSend` 回调和返回 `false`. 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
 
 ```js
 alloy("configure"), {

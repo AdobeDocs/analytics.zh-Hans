@@ -3,9 +3,10 @@ title: cookieDomainPeriods
 description: 帮助 AppMeasurement 了解当您的域的后缀中有句点时，应使用哪个域来存储 Cookie。
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 88%
 
 ---
@@ -26,7 +27,7 @@ AppMeasurement 可通过检查域和域的后缀确定其 Cookie 位置。对于
 
 ## 使用Web SDK的域名段
 
-Web SDK可以在没有此变量的情况下确定正确的Cookie存储域。
+在没有此变量的情况下，Web SDK可以确定正确的Cookie存储域。
 
 ## 使用Adobe Analytics扩展的域名段
 

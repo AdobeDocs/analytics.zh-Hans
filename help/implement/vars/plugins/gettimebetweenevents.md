@@ -3,9 +3,10 @@ title: getTimeBetweenEvents
 description: 测量两个事件之间的间隔时间。
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 91%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 91%
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
-尚不支持在Web SDK中使用此插件。
+尚不支持使用此插件在Web SDK中使用。
 
-## 使用Adobe Analytics扩展安装插件
+## 使用Adobe Analytics扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -66,9 +67,9 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`stp`**（必需，字符串）：“停止计时器”事件。由 Analytics“停止计时器”事件构成的以逗号分隔的字符串。
 * **`res`**（必需，布尔）：“重置计时器”选项。如果要在计时器启动时开始记录时间，并在计时器停止后重置计时器，则设置为 `true`。如果要记录时间但不停止计时器，则设置为 `false`。如果设置为 `false`，则在 events 变量记录到停止事件后，计时器将继续运行。
 
-   >[!TIP]
-   >
-   >如果将此参数设置为 `false`，则强烈建议您设置下面的 `rte` 参数。
+  >[!TIP]
+  >
+  >如果将此参数设置为 `false`，则强烈建议您设置下面的 `rte` 参数。
 * **`cn`**（可选，字符串）：存储了首个事件的时间的 Cookie 名称。默认值为 `"s_tbe"`。
 * **`etd`**（可选，整数）：Cookie 的过期时间（以天为单位）。如果希望 Cookie 在浏览器会话结束时过期，则设置为 `0`。如果未设置任何值，则将使用默认值，即 1 天。
 * **`fmt`**（可选，字符串）：返回秒数时采用的时间格式（默认值为“无”）

@@ -3,10 +3,11 @@ title: trackExternalLinks
 description: 对退出链接启用或禁用自动链接跟踪。
 feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 59%
+source-wordcount: '324'
+ht-degree: 60%
 
 ---
 
@@ -20,14 +21,14 @@ Adobe 提供跟踪出站链接的功能，无需为每个退出链接手动设�
 
 使用 [!UICONTROL 启用点击数据收集] 复选框。 此复选框处理退出链接和下载链接。
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** 按钮位于 [!UICONTROL Adobe Experience Platform Web SDK].
 1. 下 [!UICONTROL 数据收集]，单击 **[!UICONTROL 启用点击数据收集]** 复选框。
 
 ## 启用或禁用手动实施Web SDK的点击收集
 
-使用以下方式配置SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). 字段是一个布尔值，可确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。将此值设置为 `false` （如果要禁用自动链接跟踪）。 此设置处理下载链接和退出链接的自动链接跟踪。
+使用配置SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。将此值设置为 `false` （如果要禁用自动链接跟踪）。 此设置处理下载链接和退出链接的自动链接跟踪。
 
 ```json
 alloy("configure", {

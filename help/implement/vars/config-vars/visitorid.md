@@ -3,10 +3,11 @@ title: visitorID
 description: 使用自定义访客 ID。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 71%
+source-wordcount: '333'
+ht-degree: 72%
 
 ---
 
@@ -47,4 +48,4 @@ s.visitorID = "abc123";
 
 ## 使用Web SDK和Experience Edge的访客ID
 
-Experience Edge允许您使用XDM的 [标识映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为的一部分 [数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#analytics). 配置完毕后，在发送一个事件（其中包含为此命名空间指定的值）时，系统会自动将其用作Analytics中的访客ID。
+Experience Edge允许您使用XDM的 [标识映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为的一部分 [数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). 配置完毕后，在发送一个事件（其中包含为此命名空间指定的值）时，系统会自动将其用作Analytics中的访客ID。

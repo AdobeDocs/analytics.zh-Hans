@@ -3,9 +3,10 @@ title: dynamicVariablePrefix
 description: 允许您自定义标识动态变量的字符串。
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 76%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 76%
 
 ## 使用Web SDK的动态变量前缀
 
-Web SDK不使用动态变量格式。 相反，您可以使用数据流映射来使用单个源字段填充多个目标字段。 参见 [使用Web SDK的动态变量](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 了解更多信息。
+Web SDK不使用动态变量格式。 相反，您可以使用数据流映射来使用单个源字段填充多个目标字段。 请参阅 [使用Web SDK的动态变量](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 以了解更多信息。
 
 ## 使用Adobe Analytics扩展的动态变量前缀
 

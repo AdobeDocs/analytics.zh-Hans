@@ -3,10 +3,11 @@ title: trackingServerSecure
 description: 确定在 HTTPS 页面上发送图像请求的位置。
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 68%
+source-wordcount: '431'
+ht-degree: 66%
 
 ---
 
@@ -22,12 +23,12 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 
 Web SDK使用 [!UICONTROL 边缘域] 处理跟踪服务器和安全跟踪服务器。 您可以设置所需的 [!UICONTROL 边缘域] 值。
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** 按钮位于 [!UICONTROL Adobe Experience Platform Web SDK].
 1. 设置所需的 **[!UICONTROL 边缘域]** 文本字段。
 
-参见 [配置Adobe Experience Platform Web SDK扩展](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hans) 有关更多信息，请参阅Web SDK文档。
+请参阅 [配置Adobe Experience Platform Web SDK扩展](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hans) 有关更多信息，请参阅Web SDK文档。
 
 >[!TIP]
 >
@@ -35,7 +36,7 @@ Web SDK使用 [!UICONTROL 边缘域] 处理跟踪服务器和安全跟踪服务�
 
 ## 边缘域手动实施Web SDK
 
-使用以下方式配置SDK [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans). 字段是一个字符串，可确定要将数据发送到的域。
+使用配置SDK [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans). 字段是一个字符串，可确定要将数据发送到的域。
 
 ```json
 alloy("configure", {
@@ -43,7 +44,7 @@ alloy("configure", {
 });
 ```
 
-## 使用Adobe Analytics扩展的SSL跟踪服务器
+## 使用Adobe Analytics扩展的SSL Tracking Server
 
 [!UICONTROL SSL 跟踪服务器]是配置 Adobe Analytics 扩展时位于[!UICONTROL 常规]折叠面板下的字段。
 

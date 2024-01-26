@@ -3,10 +3,11 @@ title: getTimeParting
 description: 测量特定操作发生的时间。
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 78%
+source-wordcount: '801'
+ht-degree: 77%
 
 ---
 
@@ -22,28 +23,28 @@ Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维�
 >
 >此插件的 4.0+ 版本与以往版本有显著差异。Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
 
-## 使用Web SDK扩展安装插件
+## 使用Web SDK扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Web SDK结合使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Web SDK结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 标记]** 然后，单击左侧的所需标记属性。
+1. 单击 **[!UICONTROL 标记]** 单击左侧的，然后单击所需的标记属性。
 1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
 1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
-1. 单击 **[!UICONTROL 数据元素]** 然后，单击左侧的所需数据元素。
+1. 单击 **[!UICONTROL 数据元素]** 单击左侧的，然后单击所需的数据元素。
 1. 使用以下配置设置所需的数据元素名称：
    * 扩展：常用Web SDK插件
-   * 数据元素: `getTimeParting`
+   * 数据元素： `getTimeParting`
 1. 设置 `Time Zone` 参数。
 1. 保存并发布对数据元素所做的更改。
 
-## 手动安装插件以实施Web SDK
+## 安装插件以手动实施Web SDK
 
-尚不支持在Web SDK的手动实施中使用此插件。
+尚不支持在手动实施Web SDK时使用此插件。
 
-## 使用Adobe Analytics扩展安装插件
+## 使用Adobe Analytics扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -144,7 +145,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.1（2018 年 11 月 26 日）
 
-* 对 Internet Explorer 浏览器问题进行了修复。他们可以返回时间，但只能返回访客的本地时间。
+* 对 Internet Explorer 浏览器问题进行了修复。此类浏览器可以返回时间，但只能返回访客所在地区的本地时间。
 
 ### 6.0（2018 年 8 月 14 日）
 

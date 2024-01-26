@@ -3,10 +3,11 @@ title: 使用 AMP 实施
 description: 在 AMP 页面上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 73%
+source-wordcount: '919'
+ht-degree: 70%
 
 ---
 
@@ -78,7 +79,7 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 </amp-analytics>
 ```
 
-此 `<amp-analytics>` 标记支持变量替换，因此AMP能够提供它感知到的数据值。 有关更多信息，请参阅 GitHub 上的 [ 中支持的变量`amp-analytics`。](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)
+此 `<amp-analytics>` 标记支持变量替换，因此AMP能够提供它感知到的数据值。 请参阅 [中支持的变量 `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) ，以了解更多信息。
 
 >[!NOTE]
 >
@@ -146,7 +147,7 @@ Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie�
 
 这种方法会通过添加至 `iframeMessage` 请求参数的查询字符串参数，将数据发送至实用工具网页。这些查询字符串参数可以随意命名，只要将 `stats.html` 页面配置为从这些参数中收集数据即可。
 
-`"adobeanalytics_nativeConfig"` 模板还能基于 标记的 `extraUrlParams` 部分中列出的变量，添加查询字符串参数。`<amp-analytics>`上例中包含 `pageName` 和 `v1` 参数。
+此 `"adobeanalytics_nativeConfig"` 模板还基于 `extraUrlParams` 的部分 `<amp-analytics>` 标记之前。 上例中包含 `pageName` 和 `v1` 参数。
 
 >[!IMPORTANT]
 >

@@ -3,9 +3,10 @@ title: 集成模块
 description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '883'
 ht-degree: 98%
 
 ---
@@ -41,7 +42,7 @@ ht-degree: 98%
 
 ### 将集成模块放入实施中
 
-在您的网站上实施集成模块需要访问Adobe Experience Platform数据收集。 如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
+在网站上实施集成模块需要访问Adobe Experience Platform数据收集。 如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击要编辑的标记属性。

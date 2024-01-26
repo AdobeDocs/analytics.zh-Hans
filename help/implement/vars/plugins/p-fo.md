@@ -3,10 +3,11 @@ title: p_fo（仅限第一页）
 description: 确保某些例程在每页上仅触发一次。
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 78%
+source-wordcount: '708'
+ht-degree: 77%
 
 ---
 
@@ -16,27 +17,27 @@ ht-degree: 78%
 
 `p_fo` 插件是用于检查特定 JavaScript 对象是否存在的实用工具。如果特定对象不存在，则此插件将创建该对象并返回 `true`。如果页面上已存在特定 JavaScript 对象，则将返回 `false`。此插件可用于确保代码仅在页面上运行一次。有一些其他插件需要此插件代码才能正常运行。如果您不担心代码在某个页面上运行的次数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
-## 使用Web SDK扩展安装插件
+## 使用Web SDK扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Web SDK结合使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Web SDK结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 标记]** 然后，单击左侧的所需标记属性。
+1. 单击 **[!UICONTROL 标记]** 单击左侧的，然后单击所需的标记属性。
 1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
 1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
-1. 单击 **[!UICONTROL 数据元素]** 然后，单击左侧的所需数据元素。
+1. 单击 **[!UICONTROL 数据元素]** 单击左侧的，然后单击所需的数据元素。
 1. 使用以下配置设置所需的数据元素名称：
    * 扩展：常用Web SDK插件
-   * 数据元素: `p_fo`
+   * 数据元素： `p_fo`
 1. 保存并发布对数据元素所做的更改。
 
-## 手动安装插件以实施Web SDK
+## 安装插件以手动实施Web SDK
 
-尚不支持在Web SDK的手动实施中使用此插件。
+尚不支持在手动实施Web SDK时使用此插件。
 
-## 使用Adobe Analytics扩展安装插件
+## 使用Adobe Analytics扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。

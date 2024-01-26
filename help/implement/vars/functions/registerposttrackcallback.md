@@ -3,9 +3,10 @@ title: registerPostTrackCallback
 description: 在向 Adobe 发送点击后创建回调函数。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '349'
 ht-degree: 72%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 72%
 
 ## 使用Web SDK扩展的后跟踪回调
 
-即将推出!
+即将推出！
 
 ## 手动实施Web SDK的后跟踪回调
 

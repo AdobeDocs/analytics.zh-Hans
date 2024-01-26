@@ -3,10 +3,11 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 92%
+source-wordcount: '2618'
+ht-degree: 89%
 
 ---
 
@@ -20,14 +21,14 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 ## 版本 2.25.0
 
-发布日期：**2023 年 9 月 12 日**
+发行日期： **2023年9月12日**
 
 * 添加了可选方法 [`bufferRequests()`](vars/functions/bufferrequests.md) 用于在浏览器不支持信标API或页面卸载时取消请求时提高捕获请求的可靠性。
 * 添加了保护功能，以防止对单个跟踪请求进行多个跟踪后回调。
 
 ## 版本 2.24.0
 
-发行日期：**2023 年 7 月 18 日**
+发行日期： **2023年7月18日**
 
 * 添加了可选配置变量 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 用于对包含双字节编码字符的链接URL进行解码。
 * 为具有错误的高熵用户代理客户端提示API的浏览器添加了其他错误处理。
@@ -353,8 +354,8 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 发行日期：**2015 年 5 月 21 日**
 
-* 从 iOS SDK 4.5 版开始，新增的 iOS 扩展允许您从 Apple Watch 应用程序、“今天”小组件、照片编辑小组件和所有其他 iOS 扩展应用程序中收集使用情况数据。
-* 从 Android SDK 版本 4.5 开始，新增的 Android 扩展允许您从 Android 可穿戴应用程序中收集数据。
+* 从iOS SDK 4.5版开始，新增的iOS扩展允许您从Apple Watch应用程序、“今天”小组件、照片编辑小组件和所有其他iOS扩展应用程序中收集使用数据。
+* 从Android SDK 4.5版开始，新增的Android扩展允许您从Android可穿戴应用程序中收集数据。
 * 包括 Visitor API 1.4。
 * 更新了 AudienceManagement 模块，以便使用 DIL 版本 6.0。
 
@@ -375,7 +376,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 发行日期：**2015 年 2 月 19 日**
 
 * 保持所有延迟跟踪调用的处理连贯一致，这可以修复延迟期间已备份变量（例如，已单击的对象）的问题。
-* 首次跟踪调用后更改为不执行自动反向链接跟踪，以便第 2 次、第 3 次（依此类推）跟踪调用在&#x200B;*`s.referrer`*&#x200B;于首次跟踪调用之前被手动设置时，不会将反向链接计算两次。
+* 首次跟踪调用后更改为不执行自动反向链接跟踪，以便第2次、第3次（依此类推）跟踪调用（通常为链接跟踪）在以下情况下不会将反向链接计算两次： *`s.referrer`* 于首次跟踪调用之前被手动设置时，不会将反向链接计算两次。
 * 更新了分发 zip 文件以包括 Visitor API 1.3.5。
 
 ## 版本 1.4.2

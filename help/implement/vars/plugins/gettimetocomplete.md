@@ -3,10 +3,11 @@ title: getTimeToComplete
 description: 测量完成一项任务所需的时间。
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 88%
+source-wordcount: '600'
+ht-degree: 89%
 
 ---
 
@@ -18,11 +19,11 @@ ht-degree: 88%
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
-尚不支持在Web SDK中使用此插件。
+尚不支持使用此插件在Web SDK中使用。
 
-## 使用Adobe Analytics扩展安装插件
+## 使用Adobe Analytics扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。

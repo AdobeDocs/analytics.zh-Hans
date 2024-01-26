@@ -3,9 +3,10 @@ title: eVar（变量）
 description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '402'
 ht-degree: 96%
 
 ---
@@ -34,7 +35,7 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
+5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
 6. 找到 [!UICONTROL eVar] 部分。
 
 您可以将 eVar 设置为一个值或一个数据元素。您还可以从其他 Analytics 变量复制值。

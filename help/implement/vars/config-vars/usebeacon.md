@@ -3,10 +3,11 @@ title: useBeacon
 description: 通过 useBeacon，您可以强制 AppMeasurement 使用浏览器 sendBeacon API
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 61%
+source-wordcount: '391'
+ht-degree: 62%
 
 ---
 
@@ -22,22 +23,22 @@ ht-degree: 61%
 
 当访客使用的浏览器不支持 `useBeacon` 时，将忽略 `navigator.sendBeacon()` 变量。使用此变量需要 AppMeasurement 2.16.0 或更高版本。
 
-## 使用Web SDK扩展的sendBeacon API
+## 通过Web SDK扩展使用sendBeacon API
 
-的 **[!UICONTROL 文档将卸载]** “操作配置”中的复选框可确定发送到Adobe的数据是否使用sendBeacon API。
+此 **[!UICONTROL 文档将卸载]** 操作配置中的复选框可确定发送到Adobe的数据是否使用sendBeacon API。
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到 [!UICONTROL 规则] 选项卡，然后单击所需的规则。
-1. 在 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加新操作。
-1. 设置 [!UICONTROL 扩展] 下拉列表 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 操作类型] to **[!UICONTROL 发送事件]**
+1. 下 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加新操作。
+1. 设置 [!UICONTROL 扩展名] 下拉列表至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 操作类型] 到 **[!UICONTROL 发送事件]**
 1. 单击复选框 **[!UICONTROL 文档将卸载]** 在右边。
 
-如果选中此框，则使用sendBeacon API将数据发送到Adobe。 默认情况下，该复选框处于未选中状态。
+如果选中此框，则会使用sendBeacon API将数据发送到Adobe。 默认情况下，该复选框处于未选中状态。
 
 ## 使用sendBeacon API手动实施Web SDK
 
-已设置 `documentUnloading` to `true` 发送事件时。 如果未设置，则其默认值为 `false`.
+设置 `documentUnloading` 到 `true` 发送事件时。 如果未设置，则其默认值为 `false`.
 
 ```json
 alloy("sendEvent", {
@@ -46,13 +47,13 @@ alloy("sendEvent", {
 });
 ```
 
-请参阅 [使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) （位于Web SDK文档中）以了解更多信息。
+请参阅 [使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) 有关更多信息，请参阅Web SDK文档。
 
-## 使用Adobe Analytics扩展的信标
+## 使用Adobe Analytics扩展的“使用信标”
 
 Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement和Analytics扩展的s.useBeacon自定义代码编辑器中的s.useBeacon
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.useBeacon
 
 `s.useBeacon` 变量是一个布尔值，用于确定 AppMeasurement 是否使用浏览器的 `navigator.sendBeacon()` 方法。其默认值为 `false`。如果要使用 `navigator.sendBeacon()` 的异步特性，请在调用跟踪函数之前将此变量设置为 `true`。
 

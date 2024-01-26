@@ -3,7 +3,8 @@ title: 重点审查（每个网站发布后）
 description: 按照以下步骤操作以确保您的实施无误并与 KPI 保持一致。
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: fdb134bd75fce450ac891c2742be2045f7c5e4db
+role: Admin, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 74%

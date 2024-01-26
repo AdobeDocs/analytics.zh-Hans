@@ -3,10 +3,11 @@ title: 负责现有的 Adobe Analytics 实施
 description: 面向刚开始使用现有 Adobe Analytics 实施的管理员的说明。
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 87%
+source-wordcount: '161'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 87%
 
 ![行动手册](assets/inherited-impl-playbook.png)
 
-查看技术负责人 Sarah Owen 提供的一些技巧。Sarah 是 Adobe Analytics 冠军，她分享了有关如何使用《继承实施行动手册》来接管现有实施的想法：
+查看技术负责人 Sarah Owen 提供的一些技巧。Sarah是Adobe Analytics Champion，她分享了有关如何使用《继承实施行动手册》来负责现有实施的想法：
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 

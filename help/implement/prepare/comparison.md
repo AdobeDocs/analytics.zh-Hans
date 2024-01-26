@@ -3,10 +3,11 @@ title: 比较实施方法
 description: 了解每种用于将数据发送到 Adobe Analytics 的方法的优点。
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+role: Admin, Developer, Leader
+source-git-commit: c476a1a19ae514f75fce8bd8e6d447d85de67a84
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 59%
+source-wordcount: '489'
+ht-degree: 56%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 59%
 
 ## Web
 
-| | [AppMeasurement](/help/implement/js/overview.md) | [Adobe Analytics 扩展](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Web SDK 扩展](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
+| | [AppMeasurement](/help/implement/js/overview.md) | [Adobe Analytics扩展](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Web SDK扩展](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
-| 实施要求 | 在每个页面上参考 `AppMeasurement.js`，定义变量，使用 `s.t()` 发送数据 至Adobe Analytics | 在每个页面上加载引用标记，使用数据收集UI定义变量并将数据发送到Adobe Analytics | 引用 `Alloy.js` 在每个页面上，使用 `alloy("sendEvent",{})` 合成XDM对象并使用Edge Network将所需数据发送到Adobe Analytics | 引用标记加载器在每个页面上，使用数据收集UI构建XDM对象，并使用Edge Network将所需数据发送到Adobe Analytics |
+| 实施要求 | 引用 `AppMeasurement.js` 在每个页面上，定义变量，使用发送数据 `s.t()` 至Adobe Analytics | 在每个页面上加载引用标记，使用数据收集UI定义变量并将数据发送到Adobe Analytics | 引用 `Alloy.js` 在每个页面上，使用 `alloy("sendEvent",{})` 合成XDM对象并使用Edge Network将所需数据发送到Adobe Analytics | 引用标记加载器在每个页面上，使用数据收集UI构建XDM对象，并使用Edge Network将所需数据发送到Adobe Analytics |
 | 数据目标 | 直接发送到 Adobe Analytics | 直接发送到 Adobe Analytics | 发送到 Adobe Experience Platform Edge，后者会将数据转发到 Adobe Analytics | 发送到 Adobe Experience Platform Edge，后者会将数据转发到 Adobe Analytics |
 | 难以进行实施调整 | 每次实施更改都需要访问网站代码 | 更改网站代码一次以安装加载器标记；可在数据收集 UI 中进行所有进一步的实施更新 | 每次实施更改都需要访问网站代码 | 更改网站代码一次以安装加载器标记；可在数据收集 UI 中进行所有进一步的实施更新 |
 | 如何处理 A4T | A4T 调用包含在已发送到 Adobe 的点击中 | A4T 调用包含在已发送到 Adobe 的点击中 | A4T 调用作为单独的点击发送 | A4T 调用作为单独的点击发送 |

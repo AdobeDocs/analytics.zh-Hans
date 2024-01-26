@@ -3,9 +3,10 @@ title: 迁移到 AppMeasurement for JavaScript
 description: 确定从 H 码迁移实施所需的内容。
 feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 91%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 91%
 
 1. **下载新的 AppMeasurement 文件**：登录到 Adobe Analytics，然后导航到“管理员”>“所有管理员”>“代码管理器”以访问新文件。下载的压缩文件包含一个缩小的 `AppMeasurement.js` 文件，以及媒体和集成模块。
 1. **将 `s_code.js` 自定义项复制到`AppMeasurement.js`**：将 `s_code.js` 中 `DO NOT ALTER ANYTHING BELOW THIS LINE` 部分之前的所有代码移到 `AppMeasurement.js` 的开头。
-1. **更新所有插件**:确保使用 `s_code.js` 文件。 此步骤包括媒体和集成模块。
+1. **更新所有插件**：确保使用中列出的每个插件的最新版本， `s_code.js` 文件。 此步骤包括媒体和集成模块。
 1. **部署 AppMeasurement.js 文件**：将 `AppMeasurement.js` 文件上传到 Web 服务器。
 1. **更新脚本引用以指向`AppMeasurement.js`**：确保所有页面都引用 `AppMeasurement.js` 而不是 `s_code.js`。
 

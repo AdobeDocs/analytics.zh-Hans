@@ -3,9 +3,10 @@ title: formatTime
 description: 将秒数转换为以分钟、小时等为单位的等效值。
 feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '582'
 ht-degree: 88%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 88%
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
-尚不支持在Web SDK中使用此插件。
+尚不支持使用此插件在Web SDK中使用。
 
-## 使用Adobe Analytics扩展安装插件
+## 使用Adobe Analytics扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。

@@ -3,10 +3,11 @@ title: 购买事件
 description: 使用购买事件收集“订单数”、“件数”和“收入”量度的数据。
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 75%
+source-wordcount: '451'
+ht-degree: 74%
 
 ---
 
@@ -22,11 +23,11 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->收入不是乘以数量字段。例如， `s.products="Womens;Socks;5;4.50"` 不会向收入传递$22.50;超过$4.50。请确保您的实施传递了所列数量的总收入。 例如：`s.products="Womens;Socks;5;22.50"`。
+>收入不是乘以数量字段。例如， `s.products="Womens;Socks;5;4.50"` 不会向收入传递$22.50，而是传递$4.50。确保您的实施传递了所列数量的总收入。 例如：`s.products="Womens;Socks;5;22.50"`。
 
 ## 使用Web SDK设置购买事件
 
-购买事件为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
+购买事件为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
 
 * 订单将映射到 `commerce.purchases.value`。
 * 件数将映射到所有 `productListItems[].quantity` 字段的总和。
@@ -38,8 +39,8 @@ ht-degree: 75%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
-6. 找到 [!UICONTROL 事件] ，并设置 [!UICONTROL 事件] 下拉列表 [!UICONTROL 购买].
+5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+6. 找到 [!UICONTROL 活动] 部分，并设置 [!UICONTROL 活动] 下拉列表至 [!UICONTROL 购买].
 
 其他因变量，如 `products` 和 `purchaseID` 在Adobe Experience Platform数据收集的Analytics扩展中没有专用字段。 对这些变量使用遵循 AppMeasurement 语法的自定义代码编辑器。
 

@@ -3,9 +3,10 @@ title: tl
 description: 向 Adobe 发送链接跟踪调用。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 80%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 80%
 
 ## 使用Web SDK进行链接跟踪
 
-Web SDK不区分页面查看调用和链接跟踪调用；二者均使用 `sendEvent` 命令。 如果您希望Adobe Analytics将给定的XDM事件计为链接跟踪调用，请确保XDM数据包含或已映射到 `web.webInteraction.name`, `web.webInteraction.URL`和 `web.webInteraction.type`.
+Web SDK不区分页面查看调用和链接跟踪调用；两者都使用 `sendEvent` 命令。 如果您希望Adobe Analytics将给定XDM事件计为链接跟踪调用，请确保您的XDM数据包含或映射到 `web.webInteraction.name`， `web.webInteraction.URL`、和 `web.webInteraction.type`.
 
 * 链接名称映射到 `web.webInteraction.name`.
 * 链接URL映射到 `web.webInteraction.URL`.
@@ -40,18 +41,18 @@ alloy("sendEvent", {
 
 ## 使用Adobe Analytics扩展进行链接跟踪
 
-Adobe Analytics扩展有一个专用位置来设置链接跟踪调用。
+Adobe Analytics扩展有一个专门用于设置链接跟踪调用的位置。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
-1. 在 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加操作。
-1. 设置 [!UICONTROL 扩展] 下拉列表 **[!UICONTROL Adobe Analytics]**&#x200B;和 [!UICONTROL 操作类型] to **[!UICONTROL 发送信标]**.
+1. 下 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加操作。
+1. 设置 [!UICONTROL 扩展名] 下拉列表至 **[!UICONTROL Adobe Analytics]**，和 [!UICONTROL 操作类型] 到 **[!UICONTROL 发送信标]**.
 1. 单击 `s.tl()` 单选按钮。
 
-不能在Analytics扩展中设置任何可选参数。
+您不能在Analytics扩展中设置任何可选参数。
 
-## AppMeasurement和Analytics扩展自定义代码编辑器中的s.tl()方法
+## AppMeasurement中的s.tl()方法和Analytics扩展自定义代码编辑器
 
 当您要向 Adobe 发送跟踪调用时，请调用 `s.tl()` 方法。
 

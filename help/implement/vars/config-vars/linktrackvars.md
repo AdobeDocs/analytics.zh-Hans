@@ -3,10 +3,11 @@ title: linkTrackVars
 description: 指定要包含在链接跟踪图像请求中的变量。
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 61%
+source-wordcount: '331'
+ht-degree: 62%
 
 ---
 
@@ -18,11 +19,11 @@ ht-degree: 61%
 
 ## 使用Web SDK确定要包含在XDM事件中的变量
 
-Web SDK不排除链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 用于在将数据发送到Adobe之前清除或设置所需字段的回调。 参见 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
+Web SDK不排除链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 在将数据发送到Adobe之前进行回调以清除或设置所需的字段。 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
 
 ## 使用Adobe Analytics扩展程序的链接跟踪调用中的变量
 
-此变量会根据界面中设置的变量自动填充到后端，因此在使用Adobe Analytics扩展的实施中始终会设置此变量。
+此变量会根据界面中设置的变量自动填充到后端，因此实施始终使用Adobe Analytics扩展来设置此变量。
 
 >[!IMPORTANT]
 >

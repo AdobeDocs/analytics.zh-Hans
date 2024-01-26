@@ -3,10 +3,11 @@ title: getVisitDuration
 description: 跟踪访客在网站上停留的时间。
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 71%
+source-wordcount: '546'
+ht-degree: 70%
 
 ---
 
@@ -16,27 +17,27 @@ ht-degree: 71%
 
 `getVisitDuration` 插件可跟踪访客在某个时间点之前在网站上停留的时间（以分钟为单位）。如果您希望跟踪截至某个时间点为止访客在网站上停留的总时间，或跟踪访客执行某项活动所用的时间，Adobe 建议您使用此插件。此插件不会跟踪事件之间的间隔时间；如果需要使用此功能，请使用 [`getTimeBetweenEvents`](gettimebetweenevents.md) 插件。
 
-## 使用Web SDK扩展安装插件
+## 使用Web SDK扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Web SDK结合使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Web SDK结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 标记]** 然后，单击左侧的所需标记属性。
+1. 单击 **[!UICONTROL 标记]** 单击左侧的，然后单击所需的标记属性。
 1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
 1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
-1. 单击 **[!UICONTROL 数据元素]** 然后，单击左侧的所需数据元素。
+1. 单击 **[!UICONTROL 数据元素]** 单击左侧的，然后单击所需的数据元素。
 1. 使用以下配置设置所需的数据元素名称：
    * 扩展：常用Web SDK插件
-   * 数据元素: `getVisitDuration`
+   * 数据元素： `getVisitDuration`
 1. 保存并发布对数据元素所做的更改。
 
-## 手动安装插件以实施Web SDK
+## 安装插件以手动实施Web SDK
 
-尚不支持在Web SDK的手动实施中使用此插件。
+尚不支持在手动实施Web SDK时使用此插件。
 
-## 使用Adobe Analytics扩展安装插件
+## 使用Adobe Analytics扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。

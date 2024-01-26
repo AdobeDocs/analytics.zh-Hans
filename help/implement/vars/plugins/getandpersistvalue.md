@@ -3,7 +3,8 @@ title: getAndPersistValue
 description: 存储稍后可随时检索的值。
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 70%
@@ -14,30 +15,30 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。它的作用与 [!UICONTROL 存储持续时间] 中的Adobe Analytics扩展功能。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果 [!UICONTROL 存储持续时间] Analytics扩展中的功能已足够。 如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。eVar 的内置持久性不需要使用此插件，因为 eVar 会由 Adobe 保留在服务器端。
+`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。其作用与 [!UICONTROL 存储持续时间] Adobe Experience Platform数据收集中的Adobe Analytics扩展中的功能。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。在以下情况下，无需使用此插件 [!UICONTROL 存储持续时间] Analytics扩展中的功能便已足够。 如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。eVar 的内置持久性不需要使用此插件，因为 eVar 会由 Adobe 保留在服务器端。
 
-## 使用Web SDK扩展安装插件
+## 使用Web SDK扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Web SDK结合使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Web SDK结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 标记]** 然后，单击左侧的所需标记属性。
+1. 单击 **[!UICONTROL 标记]** 单击左侧的，然后单击所需的标记属性。
 1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
 1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
-1. 单击 **[!UICONTROL 数据元素]** 然后，单击左侧的所需数据元素。
+1. 单击 **[!UICONTROL 数据元素]** 单击左侧的，然后单击所需的数据元素。
 1. 使用以下配置设置所需的数据元素名称：
    * 扩展：常用Web SDK插件
-   * 数据元素: `getAndPersistValue`
+   * 数据元素： `getAndPersistValue`
 1. 在右侧设置所需的参数。
 1. 保存并发布对数据元素所做的更改。
 
-## 手动安装插件以实施Web SDK
+## 安装插件以手动实施Web SDK
 
-尚不支持在Web SDK的手动实施中使用此插件。
+尚不支持在手动实施Web SDK时使用此插件。
 
-## 使用Adobe Analytics扩展安装插件
+## 使用Adobe Analytics扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。

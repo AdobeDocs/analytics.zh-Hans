@@ -3,9 +3,10 @@ title: 营销活动跟踪工作流程
 description: 使用 Adobe Analytics 跟踪您的营销工作。
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
-source-git-commit: c118d42667c4a1af55929834b87d148a5973bed9
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---

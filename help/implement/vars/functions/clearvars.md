@@ -1,12 +1,13 @@
 ---
 title: clearVars
-description: 从实例对象中清除以下值。此函数会删除以下元素（将其设为“未定义”）。
+description: 清除实例对象中的值。
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 72%
+source-wordcount: '186'
+ht-degree: 67%
 
 ---
 
@@ -41,7 +42,7 @@ ht-degree: 72%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击“+”图标
-5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 清除变量].
+5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 清除变量].
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.clearVars()
 

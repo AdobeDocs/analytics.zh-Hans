@@ -3,7 +3,8 @@ title: 使用Adobe Experience Platform Edge Network服务器API实施Adobe Analy
 description: 使用Adobe Experience Platform Edge Network服务器API将数据发送到Adobe Analytics。
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 33%

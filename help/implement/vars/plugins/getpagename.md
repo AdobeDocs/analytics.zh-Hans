@@ -3,10 +3,11 @@ title: getPageName
 description: 从当前网站路径创建一个简单易读的 pageName。
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 76%
+source-wordcount: '684'
+ht-degree: 75%
 
 ---
 
@@ -16,28 +17,28 @@ ht-degree: 76%
 
 `getPageName` 插件可为当前 URL 创建一个简单易读且格式友好的版本。如果您希望在报告中使用易于设置且便于理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建议您使用此插件。如果已经有 `pageName` 变量的命名结构（如通过数据层命名），则无需使用此插件。当没有其他解决方案可用来设置 `pageName` 变量时，最好使用此插件。
 
-## 使用Web SDK扩展安装插件
+## 使用Web SDK扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Web SDK结合使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Web SDK结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 标记]** 然后，单击左侧的所需标记属性。
+1. 单击 **[!UICONTROL 标记]** 单击左侧的，然后单击所需的标记属性。
 1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
 1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
-1. 单击 **[!UICONTROL 数据元素]** 然后，单击左侧的所需数据元素。
+1. 单击 **[!UICONTROL 数据元素]** 单击左侧的，然后单击所需的数据元素。
 1. 使用以下配置设置所需的数据元素名称：
    * 扩展：常用Web SDK插件
-   * 数据元素: `getPageName`
+   * 数据元素： `getPageName`
 1. 在右侧设置所需的参数。
 1. 保存并发布对数据元素所做的更改。
 
-## 手动安装插件以实施Web SDK
+## 安装插件以手动实施Web SDK
 
-尚不支持在Web SDK的手动实施中使用此插件。
+尚不支持在手动实施Web SDK时使用此插件。
 
-## 使用Adobe Analytics扩展安装插件
+## 使用Adobe Analytics扩展安装此插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。

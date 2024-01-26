@@ -3,10 +3,11 @@ title: 为数字助理实施 Analytics
 description: 在数字助理（如 Amazon Alexa 或 Google Home）上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1258'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +112,7 @@ Cache-Control: no-cache
 
 每个数字助理都使用自己的算法来检测意图，然后将意图传递至“应用程序”，以便应用程序了解要采取什么行动。这些意图是对请求的简洁表达。
 
-例如，如果用户表示“Siri，从我的银行应用中向 John 支付昨晚的晚餐费 20 美元”，意图有可能是类似于 *sendMoney*。
+例如，如果用户说“Siri，从我的银行应用中向John支付昨晚的晚餐费20美元”，则其意图可能如下 *sendMoney*.
 
 通过将其中每个请求作为 eVar 发送，您将能够对会话应用程序的每个意图运行路径报告。此外，请确保您的应用程序可以处理无意图的请求。 Adobe 建议将“未指定意图”传入给意图上下文数据变量，而不是忽略变量。
 

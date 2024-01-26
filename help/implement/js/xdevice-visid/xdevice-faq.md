@@ -3,7 +3,8 @@ title: 跨设备访客识别常见问题解答
 description: 关于跨设备访客识别的常见问题解答
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # 跨设备访客识别常见问题解答
 
-关于跨设备访客识别的常见问题解答 
+关于跨设备访客识别的常见问题解答。
 
 +++跨设备访客识别与跨设备分析之间有何不同？跨设备访客识别使用 `visitorID` 变量将设备绑定在一起，但存在一些主要限制。此识别方法的一个最大限制便是：除非已经识别了设备，否则会排除未经验证的点击。这些未经验证的点击可能会导致您的独特访客计数虚增。
 

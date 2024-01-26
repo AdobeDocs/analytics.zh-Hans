@@ -3,7 +3,8 @@ title: 创建解决方案设计文档
 description: 了解解决方案设计文档是什么，以及如何在组织中使用它。
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 97%
@@ -41,7 +42,7 @@ ht-degree: 97%
 
 ## 其他资源
 
-定义解决方案设计文档是一个相当复杂的项目，尤其是对于以前从未创建过此类文档的组织而言。如果需要其他帮助，Adobe 将会为您提供专门的咨询服务，以帮助贵组织启动并运行 Adobe Analytics。如果您希望获得Adobe的专业服务，请联系您的Adobe客户团队。 您可以填写一份[技术实施前调查问卷](assets/technical-pre-implementation-questionnaire.pdf)，以便 Adobe 知道如何根据贵组织的需求提供帮助。
+定义解决方案设计文档是一个相当复杂的项目，尤其是对于以前从未创建过此类文档的组织而言。如果需要其他帮助，Adobe 将会为您提供专门的咨询服务，以帮助贵组织启动并运行 Adobe Analytics。如果您想获得Adobe的专业服务，请与您的Adobe客户团队联系。 您可以填写一份[技术实施前调查问卷](assets/technical-pre-implementation-questionnaire.pdf)，以便 Adobe 知道如何根据贵组织的需求提供帮助。
 
 另外还有一些 Adobe 合作伙伴专门负责帮助创建解决方案设计文档，以及在您的网站上实施 Adobe Analytics。
 

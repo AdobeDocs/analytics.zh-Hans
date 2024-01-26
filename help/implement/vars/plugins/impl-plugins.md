@@ -3,7 +3,8 @@ title: 插件概述
 description: 将代码粘贴到您的网站上以引入新功能。
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 96%
@@ -18,7 +19,7 @@ ht-degree: 96%
 
 Adobe 提供了多种安装给定插件的方法：
 
-* 使用Adobe Analytics扩展的“常用Analytics插件”扩展
+* 通过Adobe Analytics扩展使用“常用Analytics插件”扩展
 * 使用自定义代码编辑器粘贴插件代码
 * 将插件代码粘贴到 `AppMeasurement.js` 文件
 

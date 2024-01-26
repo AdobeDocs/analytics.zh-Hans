@@ -3,16 +3,17 @@ title: charSet
 description: charSet 变量可确定 Adobe 用于解析图像请求的编码。
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 66%
+source-wordcount: '227'
+ht-degree: 65%
 
 ---
 
 # charSet
 
-此 `charSet` 变量可将传入数据转换为UTF-8，以便Adobe进行存储和报告。 大部分网站不需要设置此变量。
+此 `charSet` 变量可将传入数据转换为UTF-8，以便Analytics进行存储和报告。Adobe可使用变量将传入数据转换为UTF-8。 大部分网站不需要设置此变量。
 
 只有当您在报表中看到了乱码值 ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) 时才设置此变量。如果您的网站在不同页面上使用不同编码，您可逐页设置此变量。
 
@@ -20,7 +21,7 @@ ht-degree: 66%
 
 Web SDK当前仅支持UTF-8，不提供更改编码的选项。
 
-## Adobe Analytics扩展中的字符集
+## Adobe Analytics扩展中的“字符集”
 
 “字符集”是 [!UICONTROL 常规] 在Adobe Experience Platform数据收集中配置Adobe Analytics扩展时的折叠面板。
 

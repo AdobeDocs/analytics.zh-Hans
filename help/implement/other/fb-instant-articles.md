@@ -3,9 +3,10 @@ title: 使用 Facebook Instant Articles 实施
 description: 在 Facebook Instant Articles 页面上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '471'
 ht-degree: 100%
 
 ---

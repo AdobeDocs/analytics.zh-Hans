@@ -3,7 +3,8 @@ title: 在标记中创建 Analytics 属性
 description: 使用标记创建一个空间，以自定义数据的收集方式。
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%

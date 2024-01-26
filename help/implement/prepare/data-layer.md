@@ -3,9 +3,10 @@ title: 创建数据层
 description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Analytics 中使用它来映射变量。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '460'
 ht-degree: 100%
 
 ---

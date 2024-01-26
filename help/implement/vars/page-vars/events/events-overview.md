@@ -3,9 +3,10 @@ title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 90%
 
 ---
@@ -45,19 +46,19 @@ ht-degree: 90%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
 6. 找到[!UICONTROL 事件]部分。
 
 可使用以下几项功能：
 
 * 一个下拉列表，允许您选择要包含的事件
 * 用于序列化的可选文本字段。请参阅[事件序列化](event-serialization.md)以了解更多信息。
-* 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，选择 `event1` 在下拉列表下，包括 `10` 在此字段中递增 `event1` 在报告中排名第10。
+* 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，选择 `event1` 位于下拉列表下并包括 `10` 在此字段中递增 `event1` 在报表中增加10%。
 * 用于添加其他事件的按钮。您可以在合理的范围内向单个规则添加所需数量的事件。
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.events
 
-`s.events` 变量是一个字符串，其中包含要包含在点击中的以逗号分隔的事件列表。变量最多允许64,000字节，实际上允许的事件数量与点击需求相同。 有效的值包括：
+`s.events` 变量是一个字符串，其中包含要包含在点击中的以逗号分隔的事件列表。变量最多允许64,000字节，实际上可以根据点击需要允许尽可能多的事件。 有效的值包括：
 
 * `event1` - `event1000`：自定义事件，根据需要进行设置。在贵组织的[解决方案设计文档](../../../prepare/solution-design.md)中记录如何使用每个事件。可用事件的数量取决于贵组织的 Analytics 合同。大多数使用非传统合同的组织具有 1,000 个可用的自定义事件。如果您不确定有多少个自定义事件可供使用，请联系您的Adobe客户团队。
 * `purchase`：将[“订单”](/help/components/metrics/orders.md)量度以 1 为单位递增，并采用 `products` 变量中设置的值来计算[“件数”](/help/components/metrics/units.md)和[“收入”](/help/components/metrics/revenue.md)。有关更多信息，请参阅[购买事件](event-purchase.md)。
