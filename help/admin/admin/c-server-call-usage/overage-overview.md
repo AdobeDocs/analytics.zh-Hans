@@ -3,16 +3,15 @@ description: Adobe Analytics“服务器调用使用情况”功能概述。
 title: “服务器调用使用情况”概述
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
 
-# “服务器调用使用情况”概述
-
-## 为何要监控服务器调用使用情况并发出警报？ {#section_060C29BF1D00444B85892AD1FCF55290}
+# 服务器调用使用情况
 
 Adobe Analytics“服务器调用使用情况”功能可根据您的请求为您提供透明的浏览器及移动设备服务器调用使用情况数据。此功能允许您访问以下项：
 
@@ -31,7 +30,7 @@ Adobe Analytics“服务器调用使用情况”功能可根据您的请求为�
 * **权限：**&#x200B;要访问“服务器调用使用情况”功能板和“警报生成器/管理器”，您必须是 Adobe Analytics 管理员。
 * **权限：**&#x200B;管理员能够向非管理员用户授予访问权限：此权限称作&#x200B;**[!UICONTROL 服务器调用使用情况]**。请参阅[“服务器调用使用情况”权限](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
 
-## 重要术语 {#section_CBA348A039F34563B097CD8890AB358D}
+## 重要术语 {#terminology}
 
 下面是对“服务器调用使用情况”重要术语的概要介绍：
 
@@ -80,7 +79,7 @@ Adobe Analytics“服务器调用使用情况”功能可根据您的请求为�
  </tbody> 
 </table>
 
-## “服务器调用使用情况”权限 {#section_FCC58EB635954A32990D4E67B52B4369}
+## “服务器调用使用情况”权限 {#permission}
 
 “服务器调用使用情况”权限会自动授予 Analytics 管理员。此权限允许用户访问该功能板和创建服务器调用警报。管理员可以选择向非管理员用户授予此权限。
 

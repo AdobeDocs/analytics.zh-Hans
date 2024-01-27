@@ -4,9 +4,10 @@ subtopic: Users and groups
 title: 用户和产品管理
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 100%
 >
 >用户和产品管理已移至 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。要开始管理 Adobe Analytics 用户的用户权限，请参阅 [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md)。
 
-## 面向 Adobe Admin Console 管理员的帮助资源 {#section_C13BBB89E4F248F193358BB3A59DD502}
+## 面向 Adobe Admin Console 管理员的帮助资源 {#help}
 
 | 任务或资源 | 描述 |
 | --- | --- |

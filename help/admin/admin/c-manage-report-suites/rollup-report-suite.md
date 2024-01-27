@@ -1,26 +1,21 @@
 ---
-description: 介绍各种报表包类型并比较全局报表包和汇总报表包
-title: 报表包方法
+description: 全局报表包的描述
+title: 全局报表包
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 90%
 
 ---
 
-# 报表包方法
-
-<!-- change filename since page name changed? -->
-
-可将报表包配置为&#x200B;*全局报表包*&#x200B;或&#x200B;*汇总报表包*。
-
-## 全局报表包
+# 全局报表包
 
 全局报表包从您的组织拥有的所有域和应用程序收集数据。它要求实施方式将所有图像请求都发送到单个报表包。
 
-Adobe 建议在大多数情况下实施全局报表包。有关实施全局报表包的优点，请参阅[全局报表包注意事项](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)。
+Adobe 建议在大多数情况下实施全局报表包。有关实施全局报表包的优点，请参阅[全局报表包注意事项](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hans)。
 
 可使用&#x200B;*多包标记*&#x200B;和&#x200B;*虚拟报表包*&#x200B;方法将贵公司全局报表包数据的子集提供给不同的最终用户。
 
@@ -38,13 +33,13 @@ Adobe 建议在大多数情况下实施全局报表包。有关实施全局报�
 
 使用虚拟报表包代替多包标记一般是最佳实践，但虚拟报表包有一些局限。请参阅[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)以确定何种报表包方法对于您的业务需求是最佳选择。有关虚拟报表包与多包标记功能的深入比较，请参阅“[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)“
 
-## 汇总报表
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] 是唯一一个支持汇总报表的工具。 Reports &amp; Analytics于2024年1月17日终止生命周期。
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

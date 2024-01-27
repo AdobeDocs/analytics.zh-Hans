@@ -3,10 +3,11 @@ description: “报表包使用情况”选项卡提供与您的账单公司关�
 title: 查看报表包使用情况
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +31,8 @@ ht-degree: 100%
 
 ![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
 
+## 仪表板设置 {#settings}
+
 | 栏目 | 定义 |
 |--- |--- |
 | 报表包名称 | 报表包的友好名称 |
@@ -39,8 +42,9 @@ ht-degree: 100%
 | 移动设备主调用 (%) | 当前使用时段内发起的所有移动设备主服务器调用（及其占总数的百分比）。 |
 | 移动设备次级调用 (%) | 当前使用时段内发起的所有移动设备次级服务器调用（及其占总数的百分比）。 |
 
+{style="table-layout:auto"}
 
-## 下载“使用情况”报表 {#section_D7345660B5E043CD8850954216509A3D}
+## 下载“使用情况”报表 {#download}
 
 此选项允许您下载当前使用时段内的数据，及之前的时间段内（最早可达 2015 年 1 月）的数据。此报表将下载为 .csv 文件。
 
@@ -55,6 +59,8 @@ ht-degree: 100%
 | 包含的报表包 | 此列表中将包含您在“报表服务器使用情况”页面上选择的任何报表包。 |
 | 包含的调用类型 | 指定以下选项的任一组合：所有调用（默认）、主调用、次级调用、移动设备主调用、移动设备次级调用。 |
 | 时间范围 | 您可以选择当前使用时段，也可以指定自定义的时间范围。对于自定义的时间范围，请指定范围起始时间和范围结束时间。<br>**注意：**&#x200B;您不能下载 2015 年 1 月之前的使用情况数据。</br> |
+
+{style="table-layout:auto"}
 
 1. 单击&#x200B;**[!UICONTROL 下载]**。
 

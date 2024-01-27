@@ -3,14 +3,15 @@ description: 如何将 Analytics 用户帐户迁移到 Adobe Admin Console 作�
 title: 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '743'
+ht-degree: 97%
 
 ---
 
-# 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 
 如何将 Analytics 用户帐户迁移到 Adobe Admin Console 作为 Enterprise ID 或 Federated ID。
 
@@ -127,7 +128,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>确保<span class="term">域</span>和<span class="term">电子邮件</span>列中的域与先决条件</a>中建立的域匹配。 </p> </td> 
+   <td colname="col2"> <p>确保中的域 <span class="term"> 域</span> 和 <span class="term"> 电子邮件</span> 列中的域与先决条件中建立的域匹配</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国家/地区代码 </p> </td> 

@@ -3,9 +3,10 @@ description: 添加或管理“服务器调用使用情况”警报。设置警�
 title: “服务器调用使用情况”警报
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -13,8 +14,6 @@ ht-degree: 100%
 # “服务器调用使用情况”警报
 
 设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
-
-## 概述
 
 现有的&#x200B;**[!UICONTROL 警报管理]**&#x200B;用户界面中将新增一个警报类别，即[服务器调用使用情况警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=zh-Hans)。
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 * 单击“当前使用情况”选项卡或“报表包使用情况”选项卡右上角的&#x200B;**[!UICONTROL 管理警报]**；或
 * 在 Adobe Analytics 中导航到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 警报]**。
 
-## 创建“服务器调用使用情况”警报 {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## 创建“服务器调用使用情况”警报 {#create}
 
 要创建更多警报，请
 
@@ -58,7 +57,7 @@ ht-degree: 100%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 管理“服务器调用使用情况”警报 {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## 管理“服务器调用使用情况”警报 {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -75,5 +74,7 @@ ht-degree: 100%
    | 重命名 | 您可以重命名所有警报（默认警报除外）。 |
    | 批准 | 您可以批准警报，以使其成为“官方”警报。 |
    | 启用/禁用 | 您可以启用或禁用所有警报，甚至包括默认警报。 |
-   | 续订 | 选择一个或多个警报后，可续订这些警报。这会将它们的过期日期延长一年的时间（从单击[!UICONTROL 续订]之日算起，而不考虑它们的原始过期日期）。 |
+   | 续订 | 在选择了一个或多个警报后，可以进行续订。这会将它们的过期日期延长一年的时间（从单击[!UICONTROL 续订]之日算起，而不考虑它们的原始过期日期）。 |
    | 导出到 CSV | 请参阅[下载“使用情况”报表](/help/admin/admin/c-server-call-usage/report-suite-usage.md) |
+
+   {style="table-layout:auto"}

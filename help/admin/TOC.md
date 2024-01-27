@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '631'
 ht-degree: 94%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 94%
             + [实时报告配置](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [受支持的实时量度和维度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [管理报告包](admin/c-manage-report-suites/report-suites-admin.md)
-      + [汇总报告包和全局报告包](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [全局报表包](admin/c-manage-report-suites/rollup-report-suite.md)
       + [保存报告包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [下载报告包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新的报告包 {#c-new-report-suite}

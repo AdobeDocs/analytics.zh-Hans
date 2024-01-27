@@ -3,10 +3,11 @@ title: 按 IP 地址排除
 description: 防止在报表中出现由某些 IP 地址生成的数据。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 95%
+source-wordcount: '219'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 95%
 >
 >按 IP 地址排除的点击按[服务器调用](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)计费。
 
-您可以使用通配符指示符(&#42;)以排除一定范围的地址。 例如，`[!DNL 0.0.*.0]` 将排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之间的所有 IP 地址。最多可以排除 50 个不同的 IP 地址。
+您可以使用通配指示符(&#42;)，以排除某个范围的地址。 例如，`[!DNL 0.0.*.0]` 将排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之间的所有 IP 地址。最多可以排除 50 个不同的 IP 地址。
 
 >[!TIP]
 >
