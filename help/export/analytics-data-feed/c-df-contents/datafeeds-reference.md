@@ -6,9 +6,9 @@ title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3897'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 99%
 | **`color`** | 颜色深度 ID，它基于 `c_color` 列的值。引用 `color_depth.tsv` 查找表。 | 无符号 smallint |
 | **`connection_type`** | 表示连接类型的数值 ID。在[连接类型](/help/components/dimensions/connection-type.md)维度中使用的变量。引用 `connection_type.tsv` 查找表。 | 无符号 tinyint |
 | **`cookies`** | 在 [Cookie 支持](/help/components/dimensions/cookie-support.md)维度中使用的变量。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
-| **`country`** | 数值ID表示在 `country.tsv` 查找。 | 无符号 smallint |
+| **`country`** | 表示在 `country.tsv` 查找中找到的值的数值 ID。 | 无符号 smallint |
 | **`ct_connect_type`** | 与 `connection_type` 列相关。最常见的值为 LAN/Wifi、Mobile Carrier 和 Modem。 | char(20) |
 | **`curr_factor`** | 确定货币的小数位，用于货币兑换。例如，美元使用两个小数位，因此该列的值为 2。 | tinyint |
 | **`curr_rate`** | 交易时的汇率。Adobe 与 XE 合作，以确定当天的汇率。 | decimal(24,12) |
@@ -112,10 +112,10 @@ ht-degree: 99%
 | **`mcvisid`** | Experience Cloud 访客 ID. 一个 128 位的数字（由两个 64 位的数字拼接而成），共占据了 19 位数。 | varchar(255) |
 | **`mobile_id`** | 如果用户使用了移动设备，则为移动设备的数字 ID。`mobile_attributes.tsv`[动态查找](dynamic-lookups.md)的关键值。 | int |
 | **`mobileaction`** | 移动设备操作。在 Mobile Services 中调用 `trackAction` 时自动收集此项。应用程序支持自动的操作路径。 | varchar(100) |
-| **`mobileappid`** | 移动设备应用程序 ID。采用以下格式存储应用程序名称和版本： `[AppName] [BundleVersion]` | varchar(255) |
+| **`mobileappid`** | 移动应用程序 ID。采用以下格式存储应用程序名称和版本：`[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | 用于 Apteligent Data Connector。Apteligent 中使用的应用程序 ID。 | varchar(255) |
 | **`mobileappperformancecrashid`** | 用于 Apteligent Data Connector。Apteligent 中使用的崩溃 ID。 | varchar(255) |
-| **`mobileappstoreobjectid`** | 用于 Appfigures Data Connector。应用商店对象ID。 | varchar(255) |
+| **`mobileappstoreobjectid`** | 用在 Appfigures Data Connector 中。应用程序商店对象 ID。 | varchar(255) |
 | **`mobilebeaconmajor`** | Mobile Services 信标主要 | varchar(100) |
 | **`mobilebeaconminor`** | Mobile Services 信标次要 | varchar(100) |
 | **`mobilebeaconproximity`** | Mobile Services 信标邻近性 | varchar(255) |
