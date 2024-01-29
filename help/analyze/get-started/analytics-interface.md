@@ -4,9 +4,9 @@ title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2101'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
 
 ## “报告”选项卡
 
-使用 [!UICONTROL **报表**] 左侧边栏中的区域 [!UICONTROL **工作区**] 选项卡。 有关更多信息，请参阅在 [Adobe Analytics 登录页面](/help/analyze/landing.md)中的&#x200B;*导航“报告”选项卡*。
+请使用 [!UICONTROL **Workspace**] 选项卡上左边栏中的&#x200B;[!UICONTROL **报告**]&#x200B;区域。有关更多信息，请参阅在 [Adobe Analytics 登录页面](/help/analyze/landing.md)中的&#x200B;*导航“报告”选项卡*。
 
 ## “组件”选项卡
 
@@ -113,8 +113,8 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 日志 | 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。 | [日志](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hans) |
    | Advertising Analytics | 可配置 Adobe Analytics 以并排显示所有 Google 和 Bing 付费搜索数据。 | [配置 Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=zh-Hans) |
    | 数据馈送 | 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 | [Analytics 数据馈送概述](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hans) |
-   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。 | [按 IP 地址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
-   | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报表包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。 | [按 IP 地址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hans) |
+   | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报表包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=zh-Hans) |
    | 数据治理隐私标签 | 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。 | [为报表包数据设置标签](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=zh-Hans) |
    | 公司设置主页 | 通过“公司设置”页面，您可以配置设置以将其应用于您的组织所管理的所有报表包。 | [公司设置概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hans) |
    | 安全管理器 | 通过安全管理器，您可以控制对报表数据的访问。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 | [安全管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=zh-Hans) |
