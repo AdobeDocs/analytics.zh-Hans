@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ AN-323975、AN-325383、AN-325809、AN-326787、AN-331611、AN-331818、AN-33212
 
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]** 的 EOL | 2024 年 1 月 10 日 | 有效 **2024年1月17日**，已停止Adobe [!DNL Reports & Analytics] 及其随附的报告和功能。 支持的报表、可视化图表和底层技术 [!DNL Reports & Analytics] 不再满足Adobe的技术标准。 大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。<p>2024年1月17日，我们终止了多项与Reports &amp; Analytics相关的功能，其中包括但不限于：计划报表、数据提取和DL报表。 2024年1月17日之后，不再发送任何计划报告。 此外，从2024年1月17日起，您无法再计划未来报表。 |
-| **终止使用[!UICONTROL 发布列表]功能** | 2024 年 1 月 10 日 | 作为Reports &amp; Analytics EOL的一部分， [!UICONTROL 发布列表] 生命周期结束日期 **2024年1月17日**. 您无法再创建新或访问现有 [!UICONTROL 发布列表] 发送或计划 [!UICONTROL Analysis Workspace] 项目。 |
+| **[!DNL Reports & Analytics]** 的 EOL | 2024 年 1 月 10 日 | 自 **2024 年 1 月 17 日**&#x200B;起，Adobe 不再提供 [!DNL Reports & Analytics] 及其随附的报告和功能。为 [!DNL Reports & Analytics] 助力的报告、可视化和底层技术不再符合 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。<p>我们在 2024 年 1 月 17 日终止了许多相关的 Reports &amp; Analytics 功能，包括但不限于：计划报告、数据提取和 DL 报告。2024 年 1 月 17 日后不再发送任何计划报告。此外，自 2024 年 1 月 17 日起，您无法再安排今后的报告。 |
+| **终止使用[!UICONTROL 发布列表]功能** | 2024 年 1 月 10 日 | 作为终止使用 Reports &amp; Analytics 的一部分，**2024 年 1 月 17 日**&#x200B;终止使用[!UICONTROL 发布列表]。您无法再创建新的或访问现有的[!UICONTROL 发布列表]以发送或安排 [!UICONTROL Analysis Workspace] 项目。 |
 | **结束 Data Workbench 的生命周期** | 2024 年 1 月 2 日 | Adobe 在 **2023 年 12 月 31 日**&#x200B;结束了 Data Workbench 的生命周期。请参阅 [Data Workbench 生命周期结束公告](https://express.adobe.com/page/GSu6oKOD88GAj/)以了解详情。如有任何问题，请与您组织的 Adobe 账户经理联系。 |
 | **迁移到 Adobe I/O OAuth 服务器到服务器凭据** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 凭据的 Adobe Analytics API 和 Livestream 客户必须在 **2025 年 1 月 1 日**&#x200B;之前迁移到 Adobe I/O OAuth 服务器到服务器凭据。从 2024 年 5 月 1 日开始，Adobe I/O 将不允许创建新的 JWT 凭据。使用 JWT 的客户必须创建新的 OAuth 服务器到服务器凭据或将他们现有的 JWT 凭据迁移到 OAuth 服务器到服务器凭据。客户还必须更新其客户端应用程序以使用新的 OAuth 服务器到服务器凭据。 <ul><li>[从服务帐户 (JWT) 凭据迁移](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[采用 OAuth 的新旧应用程序的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[使用新的 OAuth 服务器到服务器凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常见问题解答](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 

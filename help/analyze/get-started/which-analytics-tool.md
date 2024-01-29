@@ -6,7 +6,7 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 93%
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
 
-**[Adobe Analytics功能板](/help/analyze/mobile-app/home.md)** 允许用户通过移动设备访问直观的记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
+通过 **[Adobe Analytics 功能板](/help/analyze/mobile-app/home.md)**，用户可移动访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
 
-**[Report Builder](/help/analyze/report-builder/home.md)** 是Microsoft Excel的加载项。 通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
+**[Report Builder](/help/analyze/report-builder/home.md)** 是 Microsoft Excel 的加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
 
 **[Activity Map](/help/analyze/activity-map/activity-map.md)** 是Adobe Analytics中的一项功能，可直观地表示用户在网页和移动设备应用程序上的参与情况。 它允许营销人员和分析人员跟踪和分析用户交互，如点击次数、悬停和滚动行为。
 
@@ -76,8 +76,8 @@ ht-degree: 93%
 **[Report Builder](/help/analyze/report-builder/home.md)** 的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
-* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。绑定数据的更永久的解决方案是数据源（请参阅将数据导入Analytics）。
-* 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。更永久的绑入数据解决方案是数据源（请参阅“将数据导入到 Analytics”）。
+* 用于合并不同维度报表中的数据（例如，合并促销活动展示次数报表和促销活动点击转化报表）。
 * 通过汇总或并排显示在同一表格中，将不同报告包的数据合并在一起。
 * 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
 
