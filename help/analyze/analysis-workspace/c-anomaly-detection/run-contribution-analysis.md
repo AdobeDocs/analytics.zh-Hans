@@ -5,9 +5,9 @@ role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 1. （可选）在折线图或表中单击了&#x200B;**[!UICONTROL 运行贡献分析]**&#x200B;后，可通过[排除维度](#section_F6932F4BF74544B5872164E7B1E0C6FC)来缩小分析范围（并且因此而提高分析速度）。
 
 1. 在加载贡献分析时，请稍候。此过程可能需要用相当长一段时间，具体取决于报表包的大小和维度的数量。贡献分析可以对每个维度的前 50,000 项执行分析。
-1. 然后，Analysis Workspace将直接在此项目中加载一个新的贡献分析面板。
+1. 然后，Analysis Workspace 将一个新的“贡献分析”面板直接加载到此项目中。
 
    * 显示当天&#x200B;**访问**&#x200B;次数的可视化。
    * 用于上下文的每月&#x200B;**访问趋势线**。
