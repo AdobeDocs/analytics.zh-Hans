@@ -1,18 +1,18 @@
 ---
-description: Analysis Workspace、Report Builder、Data Warehouse和Data Workbench的系统要求和比较
+description: Analysis Workspace、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较
 title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Analytics 产品比较和要求
 
-本页包含各种Adobe Analytics产品的比较：Analysis Workspace、Report Builder、Data Warehouse、数据馈送和Analytics API 2.0。
+此页面包含各种 Adobe Analytics 产品的比较：Analysis Workspace、Report Builder、Data Warehouse、数据馈送和 Analytics API 2.0。
 
 有关使用哪种 Adobe Analytics 产品的信息，请参阅[我应该使用哪种 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)。
 
@@ -29,11 +29,11 @@ ht-degree: 86%
 | **多个报告包** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是 | 否 | 是 | 否 | 是 |
 | **划分数** | 无限制 | 最高 2 | 无限制 | 无限制 | 无限制，跨多个查询运行 |
 | **区段划分** <br> [了解详情](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 是 | 是 | 是，具有[限制](/help/components/segmentation/seg-reference/seg-compatibility.md) | 否 | 是 |
-| **计算指标** <br> [了解详情](/help/components/c-calcmetrics/cm-overview.md) | 是，具有[归因](/help/analyze/analysis-workspace/attribution/overview.md) | 是，且具有归因 | 是 | 否 | 是，具有[归因](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **计算指标** <br> [了解详情](/help/components/c-calcmetrics/cm-overview.md) | 是，具有[归因](/help/analyze/analysis-workspace/attribution/overview.md) | 是，具有归因 | 是 | 否 | 是，具有[归因](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **营销渠道** <br> [了解详情](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 是 | 是 | 是 | 是 - [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 是 |
 | **同类群组分析** | [是](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 是 | 否 | 否 | 否 |
 | **归因** | 是，具有[归因](/help/analyze/analysis-workspace/attribution/overview.md) | 有限制 | 否 | 否 | 是，具有[归因](/help/analyze/analysis-workspace/attribution/overview.md) | 否 |
-| **策划**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 - 项目和虚拟报告包 | 否 | 否 | 否 | 是 — 仅虚拟报表包 |
+| **策划**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 - 项目和虚拟报告包 | 否 | 否 | 否 | 是 - 仅限虚拟报告包 |
 | **项目共享**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，具有项目角色 | 是 | 否 | 否 | 否 |
 | **计划提交** | 是 | 是 | 是 | 是 | 否 |
 | **提交目标** | 电子邮件 | 电子邮件、FTP、SFTP、[发布到 Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC 和电子邮件 | Amazon S3、Azure RBAC、Azure SAS 和 Google Cloud Platform | - |
