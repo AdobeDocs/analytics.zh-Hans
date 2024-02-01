@@ -6,7 +6,7 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 是 Microsoft Excel 的加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
 
-**[Activity Map](/help/analyze/activity-map/activity-map.md)** 是Adobe Analytics中的一项功能，可直观地表示用户在网页和移动设备应用程序上的参与情况。 它允许营销人员和分析人员跟踪和分析用户交互，如点击次数、悬停和滚动行为。
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** 是 Adobe Analytics 中的一项功能，它用视觉方式展示用户使用网页和移动应用程序的情况。它使营销人员和分析人员可跟踪和分析用户交互，如点击、悬停和滚动行为。
 
 ## 将数据导入到 Adobe Analytics 中 {#import}
 

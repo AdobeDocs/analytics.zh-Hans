@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
 source-wordcount: '5047'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 1 月** | |
-| 组件迁移适用于单个IMS组织 | 阐明 [组件迁移](/help/admin/admin/component-migration/component-migration.md) 不支持跨IMS组织迁移。 |
-| 阐明某些信息仅供管理员使用 | 添加了信息来声明“上次使用”和“用于”列，详见 [计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 和 [区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md) 仅适用于系统管理员。 |
+| 组件迁移适用于单独的 IMS 组织 | 阐明了[组件迁移](/help/admin/admin/component-migration/component-migration.md)不支持跨 IMS 组织迁移。 |
+| 阐明了仅管理员有某些信息可用 | 添加了陈述仅系统管理员有在[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中所述的“上次使用时间”和“用在”列可用的信息。 |
 | 媒体平均受众访问分钟数文档更新 | 更新了[媒体平均受众访问分钟数面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的信息，以提高清晰度。<p>其中的改进包括：</p> <ul><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li></ul> |
 
 ### 2023 {#23}
