@@ -1,20 +1,21 @@
 ---
-title: 将数据源文件上传到Adobe
+title: 将数据源文件上载到Adobe
 description: 将数据源文件上传到Adobe Analytics以供摄取的进程。
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
-# 将数据源文件上传到Adobe
+# 将数据源文件上载到Adobe
 
-向Adobe发送数据源文件涉及典型的经过身份验证的FTP工作流程。 您可以使用Windows资源管理器、Finder或专用FTP客户端将所需文件上传到Adobe的FTP位置。
+向Adobe发送数据源文件涉及典型的经过身份验证的FTP工作流。 您可以使用Windows资源管理器、Finder或专用FTP客户端将所需文件上传到Adobe的FTP位置。
 
-在中找到FTP凭据 [数据源管理器](manage.md). 每个数据源都有一个指向其的链接 **[!UICONTROL FTP信息]**. 每个FTP位置都专用于该特定数据源；您不能对多个数据源使用相同的FTP位置。
+在中找到FTP凭据 [数据源管理器](manage.md). 每个数据源都有一个指向其 **[!UICONTROL FTP信息]**. 每个FTP位置都专用于该特定数据源；您不能对多个数据源使用相同的FTP位置。
 
 出于安全原因，将禁用持续30天以上没有任何活动的FTP位置。
 
@@ -26,9 +27,9 @@ ht-degree: 1%
 
 * 文件具有 `.fin` 扩展。 确保您的操作系统允许您查看和编辑文件类型。
 * 文件为空。 不要将数据存储在中 `.fin` 文件。
-* 该文件与数据源文件具有完全相同的名称。 例如，如果您上传的数据源文件名为 `example.txt`，则 `.fin` 文件 **必须** 已命名 `example.fin`. 如果它们的名称不同，则Adobe永远不会处理数据源文件。
+* 该文件与数据源文件具有完全相同的名称。 例如，如果您上传一个名为的数据源文件， `example.txt`， `.fin` 文件 **必须** 已命名 `example.fin`. 如果它们的名称不同，则Adobe永远不会处理数据源文件。
 
-一旦数据源文件和 `.fin` 文件将上传到FTP站点，Adobe会处理该文件。 不上传 `.fin` 文件，直到数据源文件完全上传。 如果 `.fin` 文件提前上传，Adobe检索并摄取部分上传的文件，从而引发可能的错误。
+一旦数据源文件和 `.fin` 文件上传到FTP站点，Adobe会处理该文件。 不上传 `.fin` 文件，直到数据源文件完全上传为止。 如果 `.fin` 文件提前上传，Adobe检索并摄取部分上传的文件，从而引发可能的错误。
 
 ## 处理顺序
 
@@ -36,7 +37,7 @@ ht-degree: 1%
 
 ## 处理时间
 
-为了确保文件处理速度最快，Adobe建议每个日期将指标数据聚合到一行中。 例如，此数据源文件虽然有效，但处理速度会较慢：
+为确保文件处理速度最快，Adobe建议将每个日期的量度数据聚合到单行中。 例如，此数据源文件尽管有效，但处理速度会较慢：
 
 | `date` | `eVar1` | `event1` | `event2` | `event3` |
 | --- | --- | --- | --- | --- |

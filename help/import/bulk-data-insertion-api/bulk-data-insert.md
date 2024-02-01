@@ -1,13 +1,14 @@
 ---
 title: 批量数据插入 API
-description: 批量数据插入 API（BDIA）是一种 Adobe Analytics 功能，允许您以文件的形式批量上传服务器调用数据，而不是使用客户端库（如 AppMeasurement）。这些批处理文件中的服务器调用可以是当前（实时）数据或历史数据。它是 Adobe Analytics API 早期版本中数据插入 API 的更具可扩展性的后续版本。
+description: 批量数据插入API (BDIA)是一种Adobe Analytics功能，允许您以文件的形式批量上传服务器调用数据，而不是使用客户端库(如AppMeasurement)。
 solution: Analytics
 feature: API
 exl-id: c9d23fae-2800-42bb-8f8d-adf915cadc62
-source-git-commit: b1ebf6e3548ef73217ffff1cbfb66af82e38fb8f
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 84%
 
 ---
 

@@ -3,10 +3,11 @@ title: 数据源文件格式
 description: 正确生成文件以用于数据源。
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 7%
+source-wordcount: '533'
+ht-degree: 5%
 
 ---
 
@@ -16,14 +17,14 @@ ht-degree: 7%
 
 * 文件位于 `.txt` 格式。
 * 注释的行以“`#`&#39;，和是可选的。
-* 第一个未注释行包含文件的标头。
+* 第一个非注释行包含文件的标头。
 * 每行的第一个值是日期，它使用格式 `MM/DD/YYYY` 或 `MM/DD/YYYY/HH/mm/SS`.
-* 每行的值（包括标题）均采用制表符分隔。
+* 每行的值（包括标题）均采用制表符分隔形式。
 * 每行必须至少有一个维度和一个量度。
 
 ## 评论
 
-任何以“ ”开头的行`#`&#39;是注释。 下载数据源模板文件时，前两行是注释。
+任何以&#39;开头的行`#`&#39;是注释。 下载数据源模板文件时，前两行是注释。
 
 * 第一个注释指示您为数据源配置的模板类型、创建数据源的后端用户ID以及数据源ID。
 * 第二个注释为模板文件中包含的每个标头提供友好名称。
@@ -32,13 +33,13 @@ ht-degree: 7%
 
 ## 标头
 
-上传数据源文件时，需要列标题。 这些列标题不区分大小写，但需要空格(例如， `eVar1` 是无效的标头，而 `EVAR 1` 有效)。 列标题适用于所有报表包。 请使用下表确保正确设置了数据源文件中的每个标头。
+上传数据源文件时，需要列标题。 这些列标题不区分大小写，但需要空格(例如， `eVar1` 是无效标头，而 `EVAR 1` 有效)。 列标题适用于所有报表包。 请使用下表确保正确设置了数据源文件中的每个标头。
 
 >[!TIP]
 >
 >如果数据源文件中包含正确的标头，则可以从头开始创建数据源文件。 单个文件中可以包含的标头数量没有限制；但是，每行最多只能包含4096字节。
 
-| 维度 | 数据源标头 |
+| 维度 | 数据源标题 |
 | --- | --- |
 | [类别](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` — `Evar 250` |
@@ -51,9 +52,9 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-Dimension和指标进入相同的标题行。
+Dimension和量度进入相同的标题行。
 
-| 度量 | 数据源标头 |
+| 量度 | 数据源标题 |
 | --- | --- |
 | [购物车加货](/help/components/metrics/cart-additions.md) | `Cart Adds` |
 | [购物车减货](/help/components/metrics/cart-removals.md) | `Cart Removes` |
@@ -67,7 +68,7 @@ Dimension和指标进入相同的标题行。
 
 {style="table-layout:auto"}
 
-Adobe不支持任何其他维度或指标的数据源。 如果要求使用上表所列以外的变量，请考虑使用 [批量数据插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) 而是。
+Adobe不支持任何其他维度或指标的数据源。 如果需要上述表格中所列以外的变量，请考虑使用 [批量数据插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) 而是。
 
 ## 日期
 
@@ -76,13 +77,13 @@ Adobe不支持任何其他维度或指标的数据源。 如果要求使用上�
 * **`MM/DD/YY/HH/mm/SS`**
 * **`MM/DD/YY`**
 
-省略小时/分钟/秒会自动将时间戳设置为当天的中午12点。
+若省略小时/分钟/秒，则会自动将时间戳设置为当天的中午12点。
 
-单个数据源文件最多可支持90天的唯一天数。 如果要在上载中包含90天以上的唯一天数，请将数据拆分为多个文件。
+单个数据源文件最多可支持90个唯一日期。 如果您想在上传中包含90天以上的唯一天数，请将数据拆分为多个文件。
 
 ## Dimension和指标数据
 
-每行中日期之后的后续值包含要上传的数据。 每一行都对应相应的时间戳。 确保每行的制表符数量相同。 列可以按任意顺序排列；确保每行中的数据与顶部的标题对齐。 单行可以包含的最大数据量为4096字节。
+每行中日期之后的后续值包含要上传的数据。 每一行对应于相应的时间戳。 确保每行的制表符数量相同。 列可以按任意顺序；确保每行中的数据与顶部的标题一致。 单行可以包含的最大数据量为4096字节。
 
 Dimension数据不能包含分号(`;`)。 包含分号的行将被跳过。
 

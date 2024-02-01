@@ -3,10 +3,10 @@ title: 导入付费搜索指标
 description: 配置 Adobe Analytics 以跟踪您的付费搜索指标（如 Google AdWords、MSN、Yahoo 等等）的步骤。使用数据源。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 下面这些步骤展示如何配置与 AdWords 的集成，以导入关键词数据以及展示次数、点击次数、每次点击成本等指标。
 
-这些步骤解释如何设置每次点击付费数据的一次性导入。但是，通过[!UICONTROL 数据源]，可使用此处所述的文件格式持续导入数据。根据您的付费搜索平台，您有可能可以安排定期导出（每天、每月等）、设置将这些导出转换为 Adobe Analytics 所需的文件格式的自动化过程以及将这些文件上传到 Adobe Analytics 中以生成付费搜索集成报表。
+这些步骤说明了如何设置每次点击付费数据的一次性导入。 但是，通过[!UICONTROL 数据源]，可使用此处所述的文件格式持续导入数据。根据您的付费搜索平台，您有可能可以安排定期导出（每天、每月等）、设置将这些导出转换为 Adobe Analytics 所需的文件格式的自动化过程以及将这些文件上传到 Adobe Analytics 中以生成付费搜索集成报表。
 
 ## 先决条件
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 a. 从所有列复制并粘贴数据。
 b. 单击**[!UICONTROL 数据 > 分列]**。
 c. 在向导的第 1 步中，确保选中了**[!UICONTROL 分隔符号]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
-d. 在向导的第 2 步中，根据创建 URL 的方式指定分隔符（? 或 &amp;），然后单击**[!UICONTROL 下一步]**。
+d.在向导的第2步中，根据创建URL的方式指定分隔符(？ 或&amp;)，然后单击 **[!UICONTROL 下一个]**.
 e. 在向导的第 3 步中，预览您的数据，并确保其中一列为“trackingcodename=trackingcode”。如果有其他变量，请（使用 &amp; 作为分隔符）重复这些步骤。
 f. 删除跟踪代码、展示次数、点击次数和成本之外的所有列。添加一个名为 Date 的新列，并按以下顺序整理您的各个列：Date :: Tracking code :: Impressions :: Clicks :: Cost。
 1. 将这些数据添加到您在上方的“设置数据源”部分中下载的模板。
