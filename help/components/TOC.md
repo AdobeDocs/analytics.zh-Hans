@@ -5,7 +5,7 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
 ht-degree: 100%
 
