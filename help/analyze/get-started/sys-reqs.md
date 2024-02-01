@@ -3,14 +3,14 @@ title: Adobe Analytics 系统要求
 description: 为使用 Adobe Analytics 而需满足的系统要求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 90%
 
 ---
 
-# Adobe Analytics 系统要求和先决条件
+# Adobe Analytics系统要求和先决条件
 
 在开始以管理员身份实施 Adobe Analytics 或以分析师或最终用户身份使用 Adobe Analytics 之前，您首先应熟悉以下先决条件和系统要求：
 
@@ -20,13 +20,11 @@ ht-degree: 100%
 
 * 有效的 Adobe Analytics 许可证
 
-  Adobe Analytics 需要站点许可证。请联系您的 Adobe 帐户代表以获取更多信息。<!--is this phrased correctly? Is this important? -->
+  Adobe Analytics 需要站点许可证。有关更多信息，请与您的Adobe客户代表联系。
 
 * 受支持的浏览器
 
   每个访问 Adobe Analytics 的用户都必须使用受支持的浏览器。有关详细信息，请参阅 [Adobe Analytics 系统要求](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=zh-Hans)。
-
-<!-- are there more? -->
 
 ## 系统要求
 
@@ -41,13 +39,9 @@ ht-degree: 100%
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE]
->
-> Adobe 已于 2018 年 11 月 13 日停止在 Adobe Analytics 中支持 Microsoft Internet Explorer 11。
-
 ### 非浏览器解决方案的系统要求
 
 有关此类解决方案的系统要求，请参阅链接的解决方案页面。
 
 * [Report Builder系统要求](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench 系统要求](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)
+

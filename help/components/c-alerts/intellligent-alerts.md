@@ -3,10 +3,10 @@ description: 智能警报系统允许对警报进行更细粒度的控制，并�
 title: 智能警报
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 68%
 
 ---
 
@@ -48,35 +48,33 @@ ht-degree: 93%
 
 % 阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度， [不同模型](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 用于计算每个数据点距离标准有多远（多少标准偏差）。 设定的阈值越低，异常会越多。例如，同 99% 的相比，90% 的阈值会产生更多的异常。过去，在时间粒度为每小时的情况下，为了让触发的异常保持低水平，专门设定了 99.75% 和 99.99% 这两个阈值。
 
-<table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 问题 </th> 
-   <th colname="col2" class="entry"> 回答 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>问题：警报异常检测会将距离标准值多久的数据确定为异常数据？</b> </p> </td> 
-   <td colname="col2"> <p>培训期因选定的时间粒度而异。请参阅<a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">异常检测</a>中使用的统计技术，以了解更多详细信息。下面是小结： </p> 
-    <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
-     <li id="li_E246091A3F1E484C8444AF4052FCA784">每月：15 个月及去年的相应日期范围 </li> 
-     <li id="li_CC014FB38AE1492B9647E990C29BFB3C">每周：15 周及去年的相应日期范围 </li> 
-     <li id="li_2517EE2097534324BE9C1B54CD181A62">每天：35 天及去年的相应日期范围 </li> 
-     <li id="li_710BC8B009354542AA4962A59A646099">每小时：336 个小时 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>问题：如果我只想收到峰值异常行为警报或谷值异常行为警报，我可以使用异常功能吗？还是我需要使用绝对值？</b> </p> </td> 
-   <td colname="col2"> <p>使用绝对值仍会同时触发谷值警报和峰值警报。您无法将谷值警报和峰值警报分离开来。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>问题：我可以将警报配置为仅在一天中的特定时间触发吗（如上班时间与非上班时间）？</b> </p> </td> 
-   <td colname="col2"> <p>当前还不可以。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>问题：我可以获得用虚线制成的“预期值”表格吗？表格中会包含一些预期值的结果吗？</b> </p> </td> 
-   <td colname="col2"> <p>在 Workspace 中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=zh-Hans"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。它使用固定的 30 天训练周期，固定的 95% 间隔。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ 警报的异常检测可以多早地确定数据异常？
+
+培训期因选定的时间粒度而异。请参阅<a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">异常检测</a>中使用的统计技术，以了解更多详细信息。下面是小结：
+
+* 每月：15 个月及去年的相应日期范围
+* 每周：15 周及去年的相应日期范围
+* 每天：35 天及去年的相应日期范围
+* 每小时：336 个小时
+
++++
+
++++ 要仅在行为状况突然减少或增加时收到警报，我可以使用异常功能吗？还是需要使用绝对值？
+
+使用绝对值仍会在峰值和峰值时触发警报。 您无法将谷值警报和峰值警报分离开来。
+
++++
+
++++ 我是否可以将警报配置为仅在一天中的特定时间触发（例如只在营业时间触发，不在非营业时间触发）？
+
+当前还不可以。
+
++++
+
++++ 我能否获得包含虚线的“预期值”表格，或某种显示相关数值的输出结果？
+
+在Workspace中无法实现，但您可以在Report Builder中实现。 请参阅 [此视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=zh-Hans) 有关Report Builder中的异常检测。
+
+请记住，Report Builder 使用的是略微简单的异常检测方法。它使用固定的 30 天训练周期，固定的 95% 间隔。
+
++++

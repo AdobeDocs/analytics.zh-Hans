@@ -3,10 +3,11 @@ title: CDA 工作区模板
 description: 描述 Analysis Workspace 内 CDA 模板中的每个字段。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 96%
+source-wordcount: '380'
+ht-degree: 93%
 
 ---
 
@@ -32,5 +33,5 @@ Adobe 提供一个模板以查看重要的跨设备性能数据。
    * 报表粒度：按日压缩通常比按月或按年压缩更小。单个用户在一天内使用多种设备的几率比整个月内使用多种设备的几率更小。分段、过滤或使用划分维度也可能会获得较低的压缩率。
 * **基于人员的区段**：包含区段下拉列表，允许您查看设备特定数据。 此面板鼓励对区段进行实验，以了解包括或排除设备类型对报表有何影响。
 * **分析跨设备历程**：根据设备类型提供流量和流失报告。
-* **跨设备归因**：将历程 和归因 IQ 的功能结合使用。
+* **跨设备归因**：将历程IQ和归因的功能结合在一起。
 * **其他提示与技巧**：可让您充分利用 CDA 的有用主题。

@@ -1,16 +1,17 @@
 ---
-title: 将虚拟报表包限制在特定日期
+title: 将虚拟报告包限制在特定日期
 description: 了解如何将虚拟报表包日期范围限制为仅关注拼接数据。
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 35%
+source-wordcount: '284'
+ht-degree: 41%
 
 ---
 
-# 将虚拟报表包限制在特定日期
+# 将虚拟报告包限制在特定日期
 
 当我们启用合并时，合并过程在特定日期开始。我们假设该日期为 6 月 1 日。CDA虚拟报表包将包含6月1日之前未拼合的数据。 您可能希望在6月1日之前隐藏虚拟报表包中的任何数据，以便分析可以重点关注拼合开始后的日期范围。
 

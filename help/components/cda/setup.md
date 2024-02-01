@@ -3,10 +3,11 @@ title: 设置 Cross-Device Analytics
 description: 配置虚拟报表包以启用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 92%
+source-wordcount: '533'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 92%
 >
 >在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。请参阅[概述页面](overview.md)和所需的拼合方法（分别为[基于字段的拼合](field-based-stitching.md)或[设备图](device-graph.md)），了解先决条件和限制。
 
-## 向客户关怀部门提交工单以在您的跨设备报表包上预配 CDA
+## 1.向客户关怀部门提交工单以在跨设备报表包上配置CDA
 
 CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过程，请联系客户关怀部门并准备提供以下信息：
 
@@ -31,7 +32,7 @@ CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过
 
 向客户关怀部门提供此信息后，他们将与 Adobe 工程团队合作，为您选择的报表包启用 CDA 处理。
 
-## 创建跨设备虚拟报表包以查看跨设备视图
+## 2.创建跨设备虚拟报表包以查看跨设备视图
 
 有权创建虚拟报表包的管理员可以按如下方式创建 CDA 虚拟报表包：
 
