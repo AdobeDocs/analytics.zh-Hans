@@ -3,9 +3,9 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: ht
-source-wordcount: '2101'
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
+workflow-type: tm+mt
+source-wordcount: '2066'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,6 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 日期范围 | Analysis Workspace 包含用户在构建分析时可以使用的默认日期范围列表。此外，您可以创建自定义日期范围并将其提供给 Analysis Workspace 中的用户。 | [创建自定义日期范围](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虚拟报表包 | 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。 | [虚拟报表包概述](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans) |
    | 警报 | 智能警报允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。 | [智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=zh-Hans) |
-   | 日程表事件 | 对于特定时段的趋势报表，日程表事件允许您以图形方式显示事件，并查看促销活动或其他事件是否对网站流量、收入或任何其他量度产生影响。 | [日程表事件](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=zh-Hans) |
    | 批注 | 工作区中注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。它们可让您将日程表活动与特定维度和指标关联起来。 | [管理批注](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=zh-Hans) |
    | 分类集 | 分类集提供单一界面来管理分类和规则。 <p>分类是在生成报表时对 Analytics 变量数据进行分类，然后以不同的方式显示数据的方法。您在变量值和与该值相关的元数据之间建立关系。分类可用于大多数自定义维度，例如跟踪代码、props 和 eVar。</p> | [分类集概述](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hans) |
    | 位置 | 为了从云目标导入 Adobe Analytics 分类数据，您首先需要添加并配置要收集分类数据的位置。您可以创建、编辑或删除位置。 | [位置管理器](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=zh-Hans) |
