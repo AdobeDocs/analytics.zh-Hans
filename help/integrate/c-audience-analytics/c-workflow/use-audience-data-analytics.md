@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: 在 Analytics 中使用受众数据
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 89%
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 您可以在整个Analytics中使用Adobe Audience Manager受众维度。 集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众 ID 存储在“mc_audiences”列中。这些维度当前在 Data Workbench 或 Livestream 中不可用。有关如何利用受众维度的一些示例包括：
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#workspace}
 
 在Analysis Workspace中，Adobe Audience Manager区段显示为两个维度。
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 
    ![](assets/aw-mcaudiences.png)
 
-## 区段比较 {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## 区段比较 {#compare}
 
 [区段比较](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=zh-Hans)可发现两个区段间在统计上的最显著差异。区段比较可通过以下两种方式来使用受众数据：1) 作为正在进行比较的 2 个区段，2) 作为“排名最前的维度项目”表中的项目。
 
@@ -41,7 +41,7 @@ ht-degree: 89%
 
    ![](assets/aud-segcompare.png)
 
-## Analysis Workspace 中的客户历程（流量） {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Analysis Workspace 中的客户历程（流量） {#flow}
 
 Adobe Audience Manager区段数据是按点击传递到Analytics中的，表示访客在该时间点所具有的受众成员资格。 这意味着，访客可能归属于一个区段（例如“感知”），然后又有资格访问另外一个获得授权的区段（例如“注意事项”）。您可以在 Analysis Workspace 中使用[流量](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)显示访客在各受众之间的历程。
 
@@ -55,7 +55,7 @@ Adobe Audience Manager区段数据是按点击传递到Analytics中的，表示�
 
 受众还可用于[流失可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)。
 
-## Analysis Workspace 中的维恩可视化 {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Analysis Workspace 中的维恩可视化 {#venn}
 
 [维恩可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=zh-Hans)显示最多 3 个区段之间的叠加。
 
@@ -69,7 +69,7 @@ Adobe Audience Manager区段数据是按点击传递到Analytics中的，表示�
 
 ![](assets/venn-viz.png)
 
-## 区段生成器 {#section_2AA81852A1404AB894472CA8959461B6}
+## 区段生成器 {#builder}
 
 您可以整合 Analytics [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中的受众维度，以及 Analytics 收集到的行为信息。
 

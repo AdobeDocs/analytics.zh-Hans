@@ -3,10 +3,10 @@ description: 围绕 Advertising Analytics 的常见问题。
 title: Advertising analytics 常见问题解答
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 51%
+source-wordcount: '1303'
+ht-degree: 37%
 
 ---
 
@@ -161,29 +161,18 @@ AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 
 
 ## 自动跟踪与手动跟踪 {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 问题 </th> 
-   <th colname="col2" class="entry"> 回答 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>问：设置我的广告帐户时，它显示<b>自动跟踪</b>可能产生意想不到的后果。会产生什么样的后果？ </p> </td> 
-   <td colname="col2"> <p>答： 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">自动模式将尝试以正确的格式将 URL 参数附加到跟踪模板/目标 URL 的末尾。<b>但是，您有责任确保添加的网址参数能够正确保持到最终登陆页面。</b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">自动模式可以将关键字插入到登陆 URL 中，而您的 Web 服务器可能不支持包含特殊字符的关键字。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>问：如果我最初设置了手动或自动跟踪，稍后<b>可以切换</b>到其他跟踪模式吗？会产生哪些影响？ </p> </td> 
-   <td colname="col2"> <p>答：是的，您可以切换，但在进行切换之前，您需要删除旧的跟踪逻辑。这可能导致在切换当天出现一段跟踪停机时间（特别是从手动切换到自动时）。因此，除非绝对必要，否则建议不要进行切换。 </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>从手动切换到自动</b>：删除手动添加到跟踪模板的内容，然后将 Advertising Analytics UI 中的切换开关从手动切换到自动并保存设置。请注意，系统可能需要长达几小时时间来填充自动跟踪代码。 </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>从自动切换到手动</b>：在 Advertising Analytics 设置 UI 中将切换开关从手动更新为自动，然后尽快部署手动跟踪代码。在部署手动跟踪代码时，如果您在搜索引擎跟踪模板中看到自动跟踪代码，请将其删除。 </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ 在设置我的广告帐户时，它声明<b> 自动跟踪</b> 可能导致意想不到的后果。 会产生什么样的后果？
+
+自动模式会尝试以正确格式将URL参数附加到跟踪模板/目标URL的末尾。 <b>但是，您有责任确保添加的URL参数能够正确保持到最终登陆页面。 自动模式可以将关键字插入到登陆 URL 中，而您的 Web 服务器可能不支持包含特殊字符的关键字。
+
++++
+
++++ 如果我最初设置了手动或自动跟踪，那么我以后能否切换到另一种跟踪模式？ 会产生哪些影响？
+
+可以，您可以切换跟踪模式，但在切换之前需要删除旧的跟踪逻辑。 这可能导致在切换当天出现一段跟踪停机时间（特别是从手动切换到自动时）。因此，我们建议不要切换，除非绝对必要。
+
+* 从手动切换到自动：删除手动添加到跟踪模板的内容，然后在Advertising Analytics UI中将切换开关从手动切换到自动并保存设置。 请注意，系统可能需要几个小时才能填充自动跟踪代码。
+
+* 从自动切换到手动：在Advertising Analytics设置UI中，将切换从手动更新为自动，然后尽可能快速地部署手动跟踪代码。 在部署手动跟踪代码时，如果您在搜索引擎跟踪模板中看到自动跟踪代码，请将其删除。
+
++++
