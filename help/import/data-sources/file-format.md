@@ -4,7 +4,7 @@ description: 正确生成文件以用于数据源。
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 5%
@@ -74,8 +74,8 @@ Adobe不支持任何其他维度或指标的数据源。 如果需要上述表�
 
 每行中的第一个值 **必须** 是日期。 日期格式必须为以下格式之一：
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 若省略小时/分钟/秒，则会自动将时间戳设置为当天的中午12点。
 
