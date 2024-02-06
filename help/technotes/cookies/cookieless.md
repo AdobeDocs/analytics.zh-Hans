@@ -3,9 +3,10 @@ title: 减轻浏览器 Cookie 限制影响的选项
 description: 了解如何减轻浏览器 Cookie 限制的影响以改进 Adobe Analytics 的数据收集。
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---

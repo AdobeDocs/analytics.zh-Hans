@@ -3,19 +3,21 @@ description: 了解如何在Adobe Analytics中启用Adobe Campaign Standard报�
 title: 如何将Adobe Campaign Standard报表集成到Adobe Analytics？
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 67%
 
 ---
+
 
 # Adobe Campaign Standard报表
 
 有关如何配置此集成的更多信息，请参阅 [Adobe Campaign 文档](https://helpx.adobe.com/cn/campaign/standard/integrating/using/about-campaign-analytics-integration.html)。
 
 >[!IMPORTANT]
->本文适用于Adobe Campaign **标准** 仅报告。 参见 [此处](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) 用于添加Adobe Campaign **Classic** 报告。
+>本文适用于Adobe Campaign **标准** 仅报告。 请参阅 [此处](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) 用于添加Adobe Campaign **Classic** 报表。
 
 Adobe Analytics与Adobe Campaign Standard之间的此集成：
 
@@ -29,7 +31,7 @@ Adobe Analytics与Adobe Campaign Standard之间的此集成：
 
 ## 步骤 1. 启用Adobe Campaign Standard报表 {#section_C685EF10505045708A6536BB13F6CD58}
 
-要在Analytics中查看Campaign Standard数据，您首先必须在报表包管理器中启用Campaign报告功能。
+要在Analytics中查看Campaign Standard数据，您首先必须在报表包管理器中启用Campaign报表功能。
 
 1. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign 报告]**。
 1. 单击&#x200B;**[!UICONTROL 启用 Campaign 报表]**。
@@ -50,13 +52,13 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 
 | 分类 | 描述 |
 | --- | --- |
-| [!UICONTROL 提交 ID] | 您在Campaign中看到的内部投放名称 |
-| [!UICONTROL 提交标签] | Campaign中的投放 — 单个投放/循环投放/交易投放 |
+| [!UICONTROL 投放ID] | 您在Campaign中看到的内部投放名称 |
+| [!UICONTROL 投放标签] | Campaign中的投放 — 单个投放/循环投放/交易投放 |
 | [!UICONTROL 营销活动 ID] | 您在Campaign中看到的内部营销活动名称 |
-| [!UICONTROL 促销活动标签] | Adobe Campaign中的营销活动 |
-| [!UICONTROL 执行的提交标签] | 单个执行的投放的列表 |
+| [!UICONTROL 营销活动标签] | Adobe Campaign中的营销活动 |
+| [!UICONTROL 执行的投放标签] | 单个执行的投放列表 |
 
-## Adobe Analytics中可用的Adobe Campaign Standard维度和量度 {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics中可用的Adobe Campaign Standard维度和指标 {#section_F33385C9660644AF84172EC39601469B}
 
 在 Adobe Analytics 报表包的 Campaign 中可以使用以下&#x200B;**指标**：
 
