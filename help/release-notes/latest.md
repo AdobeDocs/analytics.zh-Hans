@@ -3,48 +3,48 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 55c08fd64b2fbac0e21af10896773c2530fa64a8
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 42%
 
 ---
 
-# 当前 Adobe Analytics 发行说明（2024 年 1 月）
+# 当前的 Adobe Analytics 发行说明（2024 年 2 月）
 
-**上次更新日期**：2024 年 1 月 10 日
+**上次更新**：2024年2月14日
 
-这些发行说明涵盖 2024 年 1 月至 2024 年 2 月 13 日的发行期。Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖2024年2月14日至2024年3月11日的发行期。 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse 更新** | Data Warehouse 现在有以下改进：<ul><li>在创建 Data Warehouse 请求时，用户现在可通过启用名为&#x200B;[!UICONTROL **提供给组织中的用户**]&#x200B;的新切换开关，将请求提供给组织中的所有用户。<p>有关详细信息，请参阅 [Data Warehouse 请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)。</p></li><li>在创建或管理 Data Warehouse 报告目标时，系统管理员现在可通过启用名为&#x200B;[!UICONTROL **显示所有目标**]&#x200B;的切换开关，显示组织中的用户创建的帐户和位置。<p>有关详细信息，请参阅[配置 Data Warehouse 请求的报告目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。</p></li> | 不适用 | 2024 年 1 月 10 日 |
-| **关键量度摘要可视化的更新** | 在使用关键量度摘要可视化时，根据您选择的“比较日期范围”选项是相对于主要日期范围还是固定日期，现在可自动更新比较日期范围。[了解详情](/help/analyze/analysis-workspace/visualizations/key-metric.md)。 | 不适用 | 2024 年 1 月 17 日 |
+| **Activity MapWeb SDK，无需额外付费** | 目前，Activity Map链接事件会计为自己的事件，并产生额外费用。 此增强功能采用一些链接事件并将它们打包到下一次点击中，这与AppMeasurement处理事件的方式类似。 |  | 2024年2月14日 |
+| **提高默认低流量阈值** | 在 **2024年4月中**，Adobe将开始增加默认报表包的低流量阈值，如下所示： ![低流量阈值](assets/thresholds.png) 这将仅影响当前设置低于新阈值的变量。 这些更改将以增量方式进行，我们预计工作将在 **5月底**. 在推出这些增加时，您可能会注意到高基数变量的更改：<ul><li>可能有更多维度值可用于报表。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报表包可能包含更多数据。</li></ul> | 2024年4月中旬 | 2024年5月底 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修复
 
-* 修复了以下分类问题：AN-314821、AN-326839、AN-332079、AN-332704、AN-332812、AN-332902、AN-332975、AN-333300、AN-333023、AN-333033、AN-333174、AN-333910、AN-334097、AN-334208、AN-334373、AN-334439、AN-334698、AN-334838、AN-334848、AN-334987、AN-335046、AN-335082、AN-335202、AN-335203、AN-335254、AN-335322、AN-335552、AN-335591、AN-335603、AN-335610、AN-335617、AN-335699、AN-335891、AN-335901、AN-336063、AN-336072、AN-336193、AN-336479、AN-336684、AN-336801、AN-337370、AN-337398
-* 修复了以下分类规则生成器问题：AN-332390、AN-332573、AN-332718、AN-332927、AN-333248、AN-333953、AN-334647、AN-334736、AN-334910、AN-335642、AN-335683、AN-335811、AN-336033、AN-336569、AN-336852、AN-336875、AN-336902、AN-337190
-* 修复了以下 A4T 问题：AN-334564、AN-336178
-* 修复了以下使用服务器调用的问题：AN-332568、AN-333105、AN-333167、AN-333983、AN-334209、AN-334278
-* 修复了以下 Data Warehouse 问题：AN-333010、AN-333076、AN-330227、AN-331580、AN-333350、AN-334291、AN-334283、AN-334287、AN-334301、AN-334385、AN-334453、AN-334977、AN-335079、AN-335171、AN-335245、AN-335426、AN-335680、AN-335818、AN-336087、AN-337308
-* 修复了以下数据馈送问题：AN-332241、AN-332366、AN-332617、AN-332654、AN-332702、AN-332723、AN-333014、AN-333166、AN-334037、AN-334125、AN-334211、AN-334216、AN-334235、AN-334976、AN-335158、AN-335368、AN-335408、AN-335468、AN-335471、AN-335528、AN-335596、AN-335662、AN-335733、AN-335883、AN-335894、AN-335968、AN-336098、AN-336192、AN-336243、AN-336659、AN-336977、AN-337117、AN-337219、AN-337262、AN-337393、AN-337462、AN-337854
-* 修复了以下 Report Builder 问题：AN-335246、AN-336311
-* 修复了以下 Analysis Workspace 问题：AN-323760、AN-324191、AN-324913、AN-330126、AN-332808、AN-333168、AN-333382、AN-334839、AN-336040、AN-337043
+* 修复了以下分类问题：AN-319515、AN-337559、AN-338149、AN-338702、AN-338769、AN-338891、AN-339327、AN-339649、AN-339668、AN-339669、AN-339776、AN-339822、AN-340017、AN-340202、AN-340476；
+* 修复了以下分类规则生成器问题：AN-338385、AN-338399、AN-338592、AN-338810、AN-338893、AN-339431、AN-339894、AN-339933、AN-340201、AN-340309；
+* 修复了以下A4T问题：AN-334830；AN-336194；AN-338309；AN-338650；
+* 修复了以下数据收集问题：AN-339323
+* 修复了以下Data Warehouse问题：AN-335542、AN-331425、AN-337215、AN-338445、AN-338643、AN-338651、AN-339461、AN-340066、AN-340207、AN-340460
+* 修复了以下数据馈送问题：AN-335952、AN-338653、AN-339508、AN-339681、AN-340418
+* 修复了以下数据源问题：AN-338648
+* 修复了以下Analysis Workspace问题：AN-326509、AN-336186、AN-336190、AN-336309、AN-337922、AN-338094、AN-338323、AN-338556、AN-339600、AN-340445
 
-### 其他修复
+### 其他 Analytics 修复
 
-AN-323975、AN-325383、AN-325809、AN-326787、AN-331611、AN-331818、AN-332124、AN-332272、AN-332911、AN-333070、AN-333302、AN-333377、AN-333904、AN-333928、AN-333968、AN-334056、AN-334099、AN-334191、AN-334207、AN-334776、AN-335206、AN-335294、AN-335320、AN-335394、AN-335443、AN-335967、AN-336099、AN-337452、AN-337463
+AN-328239、AN-332908、AN-335449、AN-335517、AN-336075、AN-336100、AN-336128、AN-338088、AN-338270、AN-338393、AN-338494、AN-339326、AN-339742、AN-339883、AN-340419；
 
 ## Adobe Analytics 管理员的重要注意事项 {#admin}
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 添加了 Adobe API 对象成员 | 2024 年 1 月 17 日 | Adobe 可能会无通知或在版本控制中无变更地将可选的请求和响应成员（名称/值对）添加到现有的 API 对象。此类添加应为不令您的实施发生中断的更改。Adobe 建议您参考与我们的 API 集成的任何第三方工具的 API 文档，以便在处理过程中忽略不了解的此类添加。如果没有首先通过发行说明提供标准通知，Adobe 不会删除参数或添加所需参数。 |
+| 添加了 Adobe API 对象成员 | 2024 年 1 月 17 日 | Adobe可随时向现有API对象添加可选请求和响应成员（名称/值对），而无需通知或更改版本控制。 Adobe建议您参阅与我们的API集成的任何第三方工具的API文档，以便在处理过程中忽略此类添加（如果无法理解）。 如果实施正确，此类添加内容将对您的实施产生不间断的更改。 如果没有首先通过发行说明提供标准通知，Adobe 不会删除参数或添加所需参数。 |
 | `getPageLoadTime` 插件被弃用 | 2024 年 1 月 10 日 | 不再支持此插件。其代码利用了 performance.timing 方法，而（据 MDN 称）该方法已被[弃用](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)。更新插件的工作已经开始。 |
 
 {style="table-layout:auto"}
@@ -53,9 +53,6 @@ AN-323975、AN-325383、AN-325809、AN-326787、AN-331611、AN-331818、AN-33212
 
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]** 的 EOL | 2024 年 1 月 10 日 | 自 **2024 年 1 月 17 日**&#x200B;起，Adobe 不再提供 [!DNL Reports & Analytics] 及其随附的报告和功能。为 [!DNL Reports & Analytics] 助力的报告、可视化和底层技术不再符合 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。<p>我们在 2024 年 1 月 17 日终止了许多相关的 Reports &amp; Analytics 功能，包括但不限于：计划报告、数据提取和 DL 报告。2024 年 1 月 17 日后不再发送任何计划报告。此外，自 2024 年 1 月 17 日起，您无法再安排今后的报告。 |
-| **终止使用[!UICONTROL 发布列表]功能** | 2024 年 1 月 10 日 | 作为终止使用 Reports &amp; Analytics 的一部分，**2024 年 1 月 17 日**&#x200B;终止使用[!UICONTROL 发布列表]。您无法再创建新的或访问现有的[!UICONTROL 发布列表]以发送或安排 [!UICONTROL Analysis Workspace] 项目。 |
-| **结束 Data Workbench 的生命周期** | 2024 年 1 月 2 日 | Adobe 在 **2023 年 12 月 31 日**&#x200B;结束了 Data Workbench 的生命周期。请参阅 [Data Workbench 生命周期结束公告](https://express.adobe.com/page/GSu6oKOD88GAj/)以了解详情。如有任何问题，请与您组织的 Adobe 账户经理联系。 |
 | **迁移到 Adobe I/O OAuth 服务器到服务器凭据** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 凭据的 Adobe Analytics API 和 Livestream 客户必须在 **2025 年 1 月 1 日**&#x200B;之前迁移到 Adobe I/O OAuth 服务器到服务器凭据。从 2024 年 5 月 1 日开始，Adobe I/O 将不允许创建新的 JWT 凭据。使用 JWT 的客户必须创建新的 OAuth 服务器到服务器凭据或将他们现有的 JWT 凭据迁移到 OAuth 服务器到服务器凭据。客户还必须更新其客户端应用程序以使用新的 OAuth 服务器到服务器凭据。 <ul><li>[从服务帐户 (JWT) 凭据迁移](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[采用 OAuth 的新旧应用程序的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[使用新的 OAuth 服务器到服务器凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常见问题解答](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 {style="table-layout:auto"}
