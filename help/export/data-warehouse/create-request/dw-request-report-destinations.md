@@ -3,9 +3,9 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2308'
 ht-degree: 10%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 10%
 
       | 字段 | 函数 |
       |---------|----------|
-      | [!UICONTROL **存储段名称**] | Amazon S3帐户中要将Adobe Analytics数据发送到的存储段。 确保Adobe提供的用户ARN有权将文件上传到此存储段。 |
+      | [!UICONTROL **存储段名称**] | Amazon S3帐户中要将Adobe Analytics数据发送到的存储段。 <p>确保Adobe提供的用户ARN具有 `S3:PutObject` 权限以将文件上传到此存储段。 此权限允许用户ARN上传初始文件并覆盖文件以供后续上传。</p> |
       | [!UICONTROL **密钥前缀**] | 存储桶中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如， folder_name/ |
 
       {style="table-layout:auto"}
@@ -149,7 +149,7 @@ ht-degree: 10%
 
       | 字段 | 函数 |
       |---------|----------|
-      | [!UICONTROL **存储段名称**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 有关授予权限的信息，请参见 [将主体添加到存储段级别策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) 在Google Cloud文档中。 |
+      | [!UICONTROL **存储段名称**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 <p>确保您已向Adobe提供的承担者授予以下任一权限：<ul><li>`roles/storage.objectCreator`：如果要将承担者限制为仅在GCP帐户中创建文件，请使用此权限。 </br>**重要提示：** 如果将此权限用于计划报告，则必须对每个新的计划导出使用唯一的文件名。 否则，报告生成将失败，因为主体无权覆盖现有文件。</li><li>`roles/storage.objectUser`：如果您希望承担者有权查看、列出、更新和删除GCP帐户中的文件，请使用此权限。</br>此权限允许承担者覆盖现有文件以进行后续上传，而无需为每个新的计划导出自动生成唯一的文件名。</li></ul><p>有关授予权限的信息，请参见 [将主体添加到存储段级别策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) 在Google Cloud文档中。</p> |
       | [!UICONTROL **密钥前缀**] | 存储桶中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如， folder_name/ |
 
       {style="table-layout:auto"}

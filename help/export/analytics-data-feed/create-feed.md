@@ -3,10 +3,10 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 19%
+source-wordcount: '3215'
+ht-degree: 17%
 
 ---
 
@@ -93,18 +93,18 @@ ht-degree: 19%
          |---------|----------|
          | [!UICONTROL **帐户名称**] | 帐户的名称。 这可以是您选择的任何名称。 |
          | [!UICONTROL **帐户描述**] | 帐户的描述。 |
-         | [!UICONTROL **角色 ARN**] | 您必须提供一个角色ARN(Amazon资源名称)，Adobe可以使用该角色来访问Amazon S3帐户。 为此，您需要为源帐户创建IAM权限策略，将策略附加到用户，然后为目标帐户创建角色。 有关具体信息，请参阅 [此AWS文档](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-         | [!UICONTROL **用户 ARN**] | 用户ARN(Amazon资源名称)由Adobe提供。 您必须将此用户附加到您创建的策略。 |
+         | [!UICONTROL **角色ARN**] | 您必须提供一个角色ARN(Amazon资源名称)，Adobe可以使用该角色来访问Amazon S3帐户。 为此，您需要为源帐户创建IAM权限策略，将策略附加到用户，然后为目标帐户创建角色。 有关具体信息，请参阅 [此AWS文档](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+         | [!UICONTROL **用户ARN**] | 用户ARN(Amazon资源名称)由Adobe提供。 您必须将此用户附加到您创建的策略。 |
 
          {style="table-layout:auto"}
 
-         1. 选择 [!UICONTROL **添加位置**]，然后指定以下信息：
+      1. 选择 [!UICONTROL **添加位置**]，然后指定以下信息：
 
          | 字段 | 函数 |
          |---------|----------|
          | [!UICONTROL **名称**] | 帐户的名称。 |
          | [!UICONTROL **描述**] | 帐户的描述。 |
-         | [!UICONTROL **存储段**] | Amazon S3帐户中要将Adobe Analytics数据发送到的存储段。 确保Adobe提供的用户ARN有权将文件上传到此存储段。 |
+         | [!UICONTROL **分段**] | Amazon S3帐户中要将Adobe Analytics数据发送到的存储段。 <p>确保Adobe提供的用户ARN具有 `S3:PutObject` 权限以将文件上传到此存储段。 此权限允许用户ARN上传初始文件并覆盖文件以供后续上传。</p> |
          | [!UICONTROL **前缀**] | 存储桶中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/` |
 
          {style="table-layout:auto"}
@@ -151,9 +151,9 @@ ht-degree: 19%
          |---------|----------|
          | [!UICONTROL **帐户名称**] | Azure RBAC帐户的名称。 此名称显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **帐户描述**] | Azure RBAC帐户的描述。 此描述显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
-         | [!UICONTROL **应用程序 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **租户 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **机密**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **应用程序Id**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **租户ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **密码**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -211,11 +211,11 @@ ht-degree: 19%
          |---------|----------|
          | [!UICONTROL **帐户名称**] | Azure SAS帐户的名称。 此名称显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **帐户描述**] | Azure SAS帐户的描述。 此描述显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
-         | [!UICONTROL **应用程序 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **租户 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **密钥保管库 URI**] | <p>Azure密钥库中SAS令牌的路径。  要配置Azure SAS，您需要使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参见 [有关如何从Azure密钥库中设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参见 [有关如何分配密钥保管库访问策略的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-         | [!UICONTROL **密钥保管库机密名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥库的 **密钥库** 设置页面。 有关信息，请参见 [有关如何从Azure密钥库中设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-         | [!UICONTROL **机密**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **应用程序Id**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **租户ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **密钥保险库URI**] | <p>Azure密钥库中SAS令牌的路径。  要配置Azure SAS，您需要使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参见 [有关如何从Azure密钥库中设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参见 [有关如何分配密钥保管库访问策略的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **密钥保管库秘密名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥库的 **密钥库** 设置页面。 有关信息，请参见 [有关如何从Azure密钥库中设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **密码**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ ht-degree: 19%
 
 +++
 
-   +++Google Cloud Platform
+   +++Google云平台
 
    您可以直接将馈送发送到Google Cloud Platform (GCP)存储桶。 此目标类型只需要您的GCP帐户名称和位置（存储段）名称。
 
@@ -274,14 +274,14 @@ ht-degree: 19%
 
          {style="table-layout:auto"}
 
-         1. 选择 [!UICONTROL **添加位置**]，然后指定以下信息：
+      1. 选择 [!UICONTROL **添加位置**]，然后指定以下信息：
 
          | 字段 | 函数 |
          |---------|----------|
          | [!UICONTROL **主体**] | 主体由Adobe提供。 您必须授予权限才能接收此主体的源。 |
          | [!UICONTROL **名称**] | 帐户的名称。 |
          | [!UICONTROL **描述**] | 帐户的描述。 |
-         | [!UICONTROL **存储段**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 |
+         | [!UICONTROL **分段**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 <p>确保您已向Adobe提供的承担者授予以下任一权限：<ul><li>`roles/storage.objectCreator`：如果要将承担者限制为仅在GCP帐户中创建文件，请使用此权限。 </br>**重要提示：** 如果将此权限用于计划报告，则必须对每个新的计划导出使用唯一的文件名。 否则，报告生成将失败，因为主体无权覆盖现有文件。</li><li>（推荐） `roles/storage.objectUser`：如果您希望承担者有权查看、列出、更新和删除GCP帐户中的文件，请使用此权限。</br>此权限允许承担者覆盖现有文件以进行后续上传，而无需为每个新的计划导出自动生成唯一的文件名。</li></ul><p>有关授予权限的信息，请参见 [将主体添加到存储段级别策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) 在Google Cloud文档中。</p> |
          | [!UICONTROL **前缀**] | 存储桶中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/` |
 
          {style="table-layout:auto"}
@@ -297,7 +297,7 @@ ht-degree: 19%
    | 字段 | 函数 |
    |---------|----------|
    | [!UICONTROL **删除转义字符**] | 在收集数据时，某些字符（如换行符）可能会导致问题。 如果您希望从馈送文件中删除这些字符，请选中此框。 |
-   | [!UICONTROL **压缩格式**] | 使用的压缩类型。 **** Gzip 以 `.tar.gz` 格式输出文件。**** Zip 以 `.zip` 格式输出文件。 |
+   | [!UICONTROL **压缩格式**] | 使用的压缩类型。 **Gzip** 输出文件 `.tar.gz` 格式。 **Zip** 输出文件 `.zip` 格式。 |
    | [!UICONTROL **包装类型**] | 选择 **多个文件** 用于大多数数据馈送。 此选项会将您的数据分页为未压缩的2 GB块。 （如果选择了多个文件，且报表时间范围的未压缩数据小于2 GB，则会发送一个文件。） 选择 **单个文件** 输出 `hit_data.tsv` 文件合并为一个可能非常庞大的文件。 |
    | [!UICONTROL **清单**] | Adobe是否应该投放 [清单文件](c-df-contents/datafeeds-contents.md#feed-manifest) 在馈送间隔内未收集到数据时发送到目标。 如果您选择 **清单文件**，则在未收集到数据时会收到类似于以下内容的清单文件：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **列模板**] | 创建多个数据馈送时，Adobe建议创建列模板。 选择列模板会自动包含模板中指定的列。默认情况下，Adobe 也提供了多个模板。 |

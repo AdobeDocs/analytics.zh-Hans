@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '5047'
-ht-degree: 100%
+source-wordcount: '5095'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2024 年 2 月** | |
+| 添加了将文件上传到Data Warehouse和数据馈送中的Amazon S3和GCP存储桶的权限要求 | 添加了在以下情况下将文件上传到Amazon S3和Google Cloud Platform存储桶的确切权限要求 [配置目标以进行Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [为数据馈送配置目标时](/help/export/analytics-data-feed/create-feed.md). |
 | **2024 年 1 月** | |
 | 组件迁移适用于单独的 IMS 组织 | 阐明了[组件迁移](/help/admin/admin/component-migration/component-migration.md)不支持跨 IMS 组织迁移。 |
 | 阐明了仅管理员有某些信息可用 | 添加了陈述仅系统管理员有在[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中所述的“上次使用时间”和“用在”列可用的信息。 |
