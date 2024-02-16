@@ -3,7 +3,7 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 55c08fd64b2fbac0e21af10896773c2530fa64a8
+source-git-commit: d52e4d41ac0fc6ce6db04e491fc33bac2284f040
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 42%
@@ -12,7 +12,7 @@ ht-degree: 42%
 
 # 当前的 Adobe Analytics 发行说明（2024 年 2 月）
 
-**上次更新**：2024年2月14日
+**上次更新**：2024年2月16日
 
 这些发行说明涵盖2024年2月14日至2024年3月11日的发行期。 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -20,7 +20,7 @@ ht-degree: 42%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Activity MapWeb SDK，无需额外付费** | 目前，Activity Map链接事件会计为自己的事件，并产生额外费用。 此增强功能采用一些链接事件并将它们打包到下一次点击中，这与AppMeasurement处理事件的方式类似。 |  | 2024年2月14日 |
+| **Activity MapWeb SDK，无需额外付费** | 目前，Activity Map链接事件会计为自己的事件，并产生额外费用。 此增强功能采用一些链接事件并将它们打包到下一次点击中，这与AppMeasurement处理事件的方式类似。 |  | 2024年3月6日 |
 | **提高默认低流量阈值** | 在 **2024年4月中**，Adobe将开始增加默认报表包的低流量阈值，如下所示： ![低流量阈值](assets/thresholds.png) 这将仅影响当前设置低于新阈值的变量。 这些更改将以增量方式进行，我们预计工作将在 **5月底**. 在推出这些增加时，您可能会注意到高基数变量的更改：<ul><li>可能有更多维度值可用于报表。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报表包可能包含更多数据。</li></ul> | 2024年4月中旬 | 2024年5月底 |
 
 {style="table-layout:auto"}
