@@ -3,10 +3,10 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
+source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
 workflow-type: tm+mt
-source-wordcount: '3215'
-ht-degree: 17%
+source-wordcount: '3348'
+ht-degree: 16%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 17%
          | [!UICONTROL **描述**] | 位置的描述。 此描述显示在 [!UICONTROL **选择位置**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **帐户**] | Azure存储帐户。 |
          | [!UICONTROL **容器**] | 您指定的帐户中要将Adobe Analytics数据发送到的容器。 确保授予将文件上载到您之前创建的Azure应用程序的权限。 |
-         | [!UICONTROL **前缀**] | 容器中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/` |
+         | [!UICONTROL **前缀**] | 容器中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/`<p>确保已授予您在配置Azure RBAC帐户时指定的应用程序ID `Storage Blob Data Contributor` 角色以访问容器（文件夹）。</p> <p>有关更多信息，请参阅 [Azure内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
 
          {style="table-layout:auto"}
 
@@ -213,7 +213,7 @@ ht-degree: 17%
          | [!UICONTROL **帐户描述**] | Azure SAS帐户的描述。 此描述显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **应用程序Id**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **租户ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **密钥保险库URI**] | <p>Azure密钥库中SAS令牌的路径。  要配置Azure SAS，您需要使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参见 [有关如何从Azure密钥库中设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参见 [有关如何分配密钥保管库访问策略的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **密钥保险库URI**] | <p>Azure密钥库中SAS令牌的路径。  要配置Azure SAS，您需要使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参见 [有关如何从Azure密钥库中设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>创建密钥库URI后：<ul><li>在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。</li><li>确保应用程序ID已被授予 `Key Vault Certificate User` 用于访问密钥保管库URI的内置角色。</br><p>有关更多信息，请参阅 [Azure内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>有关信息，请参见 [有关如何分配密钥保管库访问策略的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
          | [!UICONTROL **密钥保管库秘密名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥库的 **密钥库** 设置页面。 有关信息，请参见 [有关如何从Azure密钥库中设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **密码**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
@@ -226,7 +226,7 @@ ht-degree: 17%
          | [!UICONTROL **名称**] | 位置的名称。 此名称显示在 [!UICONTROL **选择位置**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **描述**] | 位置的描述。 此描述显示在 [!UICONTROL **选择位置**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **容器**] | 您指定的帐户中要将Adobe Analytics数据发送到的容器。 |
-         | [!UICONTROL **前缀**] | 容器中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/` |
+         | [!UICONTROL **前缀**] | 容器中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/`<p>确保在配置Azure SAS帐户时，您在密钥库机密名称字段中指定的SAS令牌存储具有 `Write` 许可。 这允许SAS令牌在Azure容器中创建文件。 <p>如果您还希望SAS令牌覆盖文件，请确保SAS令牌存储具有 `Delete` 许可。</p><p>有关更多信息，请参阅 [Blob存储资源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) 在Azure Blob Storage文档中。</p> |
 
          {style="table-layout:auto"}
 
