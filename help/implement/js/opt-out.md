@@ -4,10 +4,10 @@ description: 了解如何为网站的访客创建实施选择退出链接。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e196e94e891ca7a6b4b1f50482cb342f2339ea8f
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 71%
+source-wordcount: '590'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
-> **此帮助页面让Adobe Analytics客户能够为其用户提供选择退出链接。 如果您不是Adobe Analytics客户，请参阅 [Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html) 以控制Adobe如何使用您的信息。**
+> 本文提供 **（计划）实施Adobe Analytics的Adobe Analytics客户** ，其中包含有关如何为网站用户提供选择退出链接的说明。 <p><p>
+> 如果您是 **访问已实施Adobe Analytics的网站**，而您想要选择退出， **<span style="color:red">本文不适合您</span>**. 请参阅 [Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html) 以控制Adobe如何使用您的信息。
 
 某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。Adobe让您能够向网站访客提供一种方法，禁止对其信息进行分析。
 
