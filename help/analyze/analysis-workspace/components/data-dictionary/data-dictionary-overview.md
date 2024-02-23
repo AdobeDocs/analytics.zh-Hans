@@ -4,9 +4,9 @@ title: 数据词典概述
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: ht
-source-wordcount: '532'
+source-git-commit: 48e75fc4e9cc60bfd6865f7e80060c07ecf25ad8
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -65,8 +65,6 @@ Analytics 管理员负责整理有关数据词典中每个组件的信息，并�
 
   ![信息弹出窗口中的“数据词典”图标](assets/data-dictionary-access-infopopover.png)
   <!--update screenshot; this was taken from a mock-->
-
-* 从菜单：[!UICONTROL **帮助**] > [!UICONTROL **数据词典**]。
 
 有关数据词典中提供的不同选项的详细信息，请参阅[查看数据词典中的组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)。
 
