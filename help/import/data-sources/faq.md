@@ -4,10 +4,10 @@ description: 有关数据源的常见问题解答。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 +++我是否可以删除使用数据源导入的数据？
 
-**不适用。** 使用数据源上传到报表的数据是 **永久**. 导入后，即使按照Adobe，也无法将其删除。 Adobe强烈建议先将数据源数据上传到测试报表包，然后再上传到生产报表包。
+是的。您可以使用以下方式删除此数据 [数据修复API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). 此外，Adobe强烈建议先将数据源数据上传到测试报表包，然后再将其上传到生产报表包。
 +++
 
 +++一次可导入多少数据？
