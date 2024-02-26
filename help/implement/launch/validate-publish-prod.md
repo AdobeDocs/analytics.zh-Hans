@@ -4,7 +4,7 @@ description: 了解如何使用 Adobe Experience Platform 标记将 Adobe Analyt
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 89%
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 Experience Cloud Debugger 是一个可显示页面上存在的所有 Experience Cloud 标记的扩展。
 
-1. 为以下任一对象安装扩展： [铬黄](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或Firefox。
+1. 为以下任一对象安装扩展： [铬黄](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或Firefox。
 2. 导航到已实施标记的开发网站。
 3. 单击浏览器中的 Adobe Experience Cloud Debugger 图标。
 4. 如果一切都已正确实施，则应会看到 Adobe Analytics、标记和 Adobe Experience Cloud 访客 ID 服务中的内容。
