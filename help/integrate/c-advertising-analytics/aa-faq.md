@@ -3,9 +3,9 @@ description: 围绕 Advertising Analytics 的常见问题。
 title: Advertising analytics 常见问题解答
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1300'
 ht-degree: 37%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 37%
 
 +++ 是否需要成为Adobe Advertising Cloud或Adobe Advertising Cloud (AMO)客户才能访问此功能？
 
-不需要，此功能适用于非Advertising Cloud和非AMO客户。 </p> <p>AMO 客户可以利用现有的 Analytics-AMO 集成；他们将无法使用 Ad Analytics。
+不需要，此功能适用于非Advertising Cloud和非AMO客户。
+
+AMO 客户可以利用现有的 Analytics-AMO 集成；他们将无法使用 Ad Analytics。
 
 +++
 
@@ -104,7 +106,7 @@ Advertising Analytics利用一系列自定义API，通过Adobe Advertising Cloud
 +++ 我正在尝试将我的Advertising Analytics帐户映射到特定的报表包，但该帐户在报表包模式中不可用。 为什么？
 
 在将报表包分配到Advertising Analytics帐户之前，需要先执行以下操作 [已配置Advertising Analytics报表](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-此操作可通过单独的管理员页面完成，访问方式如下：管理员>报表包> [选择报表包] >编辑设置> Advertising Analytics配置。
+此操作可通过单独的管理员页面完成，访问方式如下：管理员>报表包> `[select report suite]` >编辑设置> Advertising Analytics配置。
 
 +++
 
@@ -114,7 +116,7 @@ Advertising Analytics利用一系列自定义API，通过Adobe Advertising Cloud
 
 +++
 
-+++ Advertising Analytics指标是否可在以下报告中报告： <b>营销渠道</b> 报告？
++++ Advertising Analytics指标是否可在以下报告中报告： *营销渠道* 报告？
 
 不可以，营销渠道报表中不包含这些指标。
 
@@ -126,13 +128,13 @@ Advertising Analytics利用一系列自定义API，通过Adobe Advertising Cloud
 
 +++
 
-+++ 什么可以是 <b>在点击前捕获</b>？ 即使没有点击次数，我们是否也会捕获展示次数、成本、平均位置等数据？ </p> </td>
++++ 什么可以是 *在点击前捕获*？ 即使没有点击次数，我们是否也会捕获展示次数、成本、平均位置等数据？
 
 AMO ID将捕获以下搜索引擎指标：展示次数、成本、点击次数、平均位置和平均质量分数。 如果没有点击次数，但具有展示次数，则仍会将展示次数/位置/质量分数数据发送到 Analytics。一般情况下，如果没有点击次数，则也不会有成本。
 
 +++
 
-+++ 此数据是在哪个级别捕获的？ <b>访客？点击级别？</b>
++++ 此数据是在哪个级别捕获的？ *访客？点击级别？*
 
 搜索引擎量度是在点击级别捕获的，且关联到AMO ID（及其分类）。 此类数据是摘要级别的数据，未关联到访问次数/访客数。因此，搜索引擎指标只能在属于点击级别范围且基于 AMO ID（或其分类）的区段中使用。
 
@@ -140,7 +142,7 @@ AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 
 
 +++
 
-+++ 我们是只捕获google.com还是 <b>国家/地区版本</b> (例如google.co.uk、google.it、google.fr或google.de)？
++++ 我们是只捕获google.com还是 *国家/地区版本* (例如google.co.uk、google.it、google.fr或google.de)？
 
 广告平台分类可捕获以下值：“Google Adwords”和“Bing Ads”。 通常的最佳做法是将国家/地区代码包含在营销活动名称中。之后，您可以进一步过滤或分段（例如，如果所有促销活动均以 countrycode_ 开头，则创建一个以“UK_”开头的促销活动 (AMO ID) 区段，可提供仅与 UK 有关的数据）。
 
@@ -152,7 +154,7 @@ AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 
 
 +++
 
-+++ 是否有包括其他广告渠道的计划，例如 <b>显示</b> 或 <b>Social</b>？
++++ 是否有包括其他广告渠道的计划，例如 *显示* 或 *Social*？
 
 否，目前我们在路线图中没有关于这些其他渠道的计划。
 
@@ -161,9 +163,9 @@ AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 
 
 ## 自动跟踪与手动跟踪 {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ 在设置我的广告帐户时，它声明<b> 自动跟踪</b> 可能导致意想不到的后果。 会产生什么样的后果？
++++ 在设置我的广告帐户时，它声明 *自动跟踪* 可能导致意想不到的后果。 会产生什么样的后果？
 
-自动模式会尝试以正确格式将URL参数附加到跟踪模板/目标URL的末尾。 <b>但是，您有责任确保添加的URL参数能够正确保持到最终登陆页面。 自动模式可以将关键字插入到登陆 URL 中，而您的 Web 服务器可能不支持包含特殊字符的关键字。
+自动模式会尝试以正确格式将URL参数附加到跟踪模板/目标URL的末尾。 但是，您有责任确保添加的URL参数能够正确保持到最终登陆页面。 自动模式可以将关键字插入到登陆 URL 中，而您的 Web 服务器可能不支持包含特殊字符的关键字。
 
 +++
 
