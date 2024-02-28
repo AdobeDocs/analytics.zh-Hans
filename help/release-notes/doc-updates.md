@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5186'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 97%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 2 月** | |
+| 有关管理Data Warehouse请求的信息更新 | 阐明了默认情况下，用户只能查看他们在以下情况下创建的请求 [管理Data Warehouse请求](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | 项目共享文档更新 | 添加了关于如何 [查看共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>还简化了 [共享单个或多个项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | 在Data Warehouse和数据馈送中添加了将文件上传到Azure SAS和Azure RBAC的权限要求 | 添加了在以下情况下将文件上传到Azure SAS和Azure RBAC的确切权限要求 [配置目标以进行Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [为数据馈送配置目标时](/help/export/analytics-data-feed/create-feed.md). |
 | 添加了将文件上传到Data Warehouse和数据馈送中的Amazon S3和GCP存储桶的权限要求 | 添加了在以下情况下将文件上传到Amazon S3和Google Cloud Platform存储桶的确切权限要求 [配置目标以进行Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [为数据馈送配置目标时](/help/export/analytics-data-feed/create-feed.md). |

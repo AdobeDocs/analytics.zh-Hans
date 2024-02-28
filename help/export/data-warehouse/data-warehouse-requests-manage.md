@@ -4,9 +4,9 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1148'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,13 @@ ht-degree: 4%
 
 ## 查看请求
 
+默认情况下，您只能查看您创建的请求，除非用户已选择让其请求对组织中的其他人可见（如中所述） [Data Warehouse请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md))。 系统管理员可以查看所有请求。
+
+要查看Data Warehouse请求，请执行以下操作：
+
 1. 在Adobe Analytics中，选择 [!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**].
 
-   “Data Warehouse”页显示您已提出的所有请求。 <!-- just those you have made? -->数据显示在每列中。 您可以 [配置哪些列](#configure-columns) 可见。
+   “Data Warehouse”页显示您已提出的所有请求。 数据显示在每列中。 您可以 [配置哪些列](#configure-columns) 可见。
 
    <!-- add screenshot of main page -->
 
@@ -41,7 +45,7 @@ ht-degree: 4%
 
 * 并非与请求关联的所有字段都可以编辑。 无法编辑的字段将灰显。
 
-* 编辑其他用户请求的管理员需要选择他们可以访问的新帐户和位置。
+* 编辑其他用户请求的管理员必须选择他们可以访问的新帐户和位置。
 
 要编辑计划请求，请执行以下操作：
 
