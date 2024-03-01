@@ -4,20 +4,20 @@ description: 了解如何使用标记和 Analytics 扩展实施 Adobe Analytics
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 89%
+source-wordcount: '365'
+ht-degree: 83%
 
 ---
 
 # 使用 Adobe Analytics 扩展实施 Analytics
 
-在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe 目前推荐的方法是使用 Adobe Experience Platform 中的标记进行实施。
+在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe当前推荐的方法是通过 [标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans) 在Adobe Experience Platform中。
 
 Adobe Experience Platform 中的标记是一款标记管理解决方案，可让您在满足其他标记要求的同时部署 Analytics 代码。Adobe 提供了与其他解决方案和产品的集成，并允许您部署自定义代码。无需依赖组织中的开发团队，也可以完成以下所有任务，进而更新网站上的代码。
 
-凡是已签署有效 Adobe Experience Cloud 合同的客户都可以使用标记。如果不确定您是否具有所需访问权限，请联系贵组织的 Experience Cloud 系统管理员。
+凡是已签署有效Adobe Experience Cloud合同的客户都可以使用Tags。 如果不确定您是否具有所需访问权限，请联系贵组织的 Experience Cloud 系统管理员。
 
 实施任务的高级概述：
 
@@ -48,7 +48,7 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 <tr>
 <td>3</td>
 <td><b><b>创建标记属性</b>。属性是用于引用标记管理数据的总容器。</td>
-<td><a ref="../launch/create-analytics-property.md">创建 Adobe Analytics 标记属性</a></td>
+<td><a href="../launch/create-analytics-property.md">创建 Adobe Analytics 标记属性</a></td>
 </tr>
 
 <tr>
