@@ -4,10 +4,10 @@ title: 了解和配置机器人规则
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1669'
+ht-degree: 69%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 71%
 删除机器人程序流量通常会减少流量和转化量度。许多客户发现，删除机器人流量会导致转化率提高，并导致其他可用性量度增加。
 
 机器人流量数据存储在单独的存储库中，以便在机器人和机器人页面报表中显示。
+
+>[!NOTE]
+>
+>AdobeExperience Edge提供 [机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 哪些标签标识为来自机器人的点击。 Adobe Analytics的机器人检测过程与此分开，并且不引用通过Experience Edge到达的数据上包含的机器人分数。 这两个系统使用相同的IAB机器人列表，因此在这方面的行为应该相同。
 
 ## 更新或上传机器人规则
 
