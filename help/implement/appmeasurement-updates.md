@@ -4,10 +4,10 @@ description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 89%
+source-wordcount: '2670'
+ht-degree: 88%
 
 ---
 
@@ -18,6 +18,13 @@ AppMeasurement for JavaScript 的发行说明汇总。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以从以下位置下载最新版本的AppMeasurement： [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## 版本 2.26.0
+
+发行日期： **2024年3月4日**
+
+* AppMeasurement会自动识别和利用国家/地区代码顶级域的根域，以前需要特定Cookie域配置。 由于这种自动识别，更新可能会产生影响。 请参阅 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 以了解更多信息。
+* 该分发版本包括Identity Service Library 5.5.0和Data Integration Library9.6。
 
 ## 版本 2.25.0
 

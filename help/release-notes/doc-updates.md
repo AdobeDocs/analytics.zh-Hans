@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '5186'
-ht-degree: 97%
+source-wordcount: '5205'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,13 @@ ht-degree: 97%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2024 年 3 月** | |
+| AppMeasurement更新 | [发行说明](/help/implement/appmeasurement-updates.md) AppMeasurement更新v2.26.0。<br/>包含对的引用和更新 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档。 |
 | **2024 年 2 月** | |
 | 有关管理Data Warehouse请求的信息更新 | 阐明了默认情况下，用户只能查看他们在以下情况下创建的请求 [管理Data Warehouse请求](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
-| 项目共享文档更新 | 添加了关于如何 [查看共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>还简化了 [共享单个或多个项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
-| 在Data Warehouse和数据馈送中添加了将文件上传到Azure SAS和Azure RBAC的权限要求 | 添加了在以下情况下将文件上传到Azure SAS和Azure RBAC的确切权限要求 [配置目标以进行Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [为数据馈送配置目标时](/help/export/analytics-data-feed/create-feed.md). |
-| 添加了将文件上传到Data Warehouse和数据馈送中的Amazon S3和GCP存储桶的权限要求 | 添加了在以下情况下将文件上传到Amazon S3和Google Cloud Platform存储桶的确切权限要求 [配置目标以进行Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [为数据馈送配置目标时](/help/export/analytics-data-feed/create-feed.md). |
+| 项目共享文档更新 | 添加了有关如何[查看共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)的信息。<p>还简化了有关[共享单个或多个项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的信息。</p> |
+| 添加了将文件上传到 Data Warehouse 和数据馈送中的 Azure SAS 和 Azure RBAC 的权限要求 | 添加了在以下情况下将文件上传到 Azure SAS 和 Azure RBAC 时的确切权限要求：[配置 Data Warehouse 的目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[配置数据馈送的目标](/help/export/analytics-data-feed/create-feed.md)。 |
+| 添加了将文件上传到 Data Warehouse 和数据馈送中的 Amazon S3 和 GCP 存储段的权限要求 | 添加了在以下情况下将文件上传到 Amazon S3 和 Google Cloud Platform 存储段的确切权限要求：[配置 Data Warehouse 的目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[配置数据馈送的目标](/help/export/analytics-data-feed/create-feed.md)。 |
 | **2024 年 1 月** | |
 | 组件迁移适用于单独的 IMS 组织 | 阐明了[组件迁移](/help/admin/admin/component-migration/component-migration.md)不支持跨 IMS 组织迁移。 |
 | 阐明了仅管理员有某些信息可用 | 添加了陈述仅系统管理员有在[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中所述的“上次使用时间”和“用在”列可用的信息。 |
@@ -74,8 +76,8 @@ ht-degree: 97%
 | 数据馈送导出到安全目标 | 现在可以将数据馈送发送到以下云存储目标：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再推荐以前可用的目标（FTP、SFTP、S3 和 Azure Blob）。[了解详情](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans) |
 | Workspace 中的机器人报表 | Analysis Workspace 中现在有机器人报表可用。此功能附带了几项额外功能：<ul><li>一个新维度：[机器人名称](/help/components/dimensions/bot-name.md)</li><li>两个新量度：[机器人页面查看次数](/help/components/metrics/bot-page-views.md)和[机器人发生次数](/help/components/metrics/bot-occurrences.md)。</li><li>一个新的计算量度模板：[机器人页面查看率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>一个新的 Workspace 报表：机器人报表</li></ul>新维度和量度包含自 2023 年 3 月起开始回填的数据。 |
 | **2023 年 5 月** | |
-| 深层链接（移动应用程序）文档 | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。[了解详情](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
-| 关于 Analytics 功能板应用程序（移动应用程序）更新的主屏幕的文档 | 通过新近更新的主屏幕，可在一个合并的记分卡列表中查看您的所有记分卡。[了解详情](/help/analyze/mobile-app/executive.md#use-dashboards) |
+| 深层链接（移动设备应用程序）文档 | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。[了解详情](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
+| 关于 Analytics 功能板应用程序（移动设备应用程序）更新的主屏幕的文档 | 通过新近更新的主屏幕，可在一个合并的记分卡列表中查看您的所有记分卡。[了解详情](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 图标 | 已适当地将文档中用户界面图标的屏幕截图替换为引用 [Adobe 的 Spectrum 设计系统](https://spectrum.adobe.com/page/icons/)中的同等图标。 |
 | 报告活动管理器 | 更新了此 Beta 文档，尤其是更新了关于[查看个别报表包的报告活动](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)的部分。 |
 | Analysis Workspace 概述 | 更新了 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)，包括更多的一般概述信息和相关内容的链接。 |
@@ -121,7 +123,7 @@ ht-degree: 97%
 | 客户端提示 | 新的[概述和常见问题解答 ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=zh-Hans)。 |
 | 关键量度摘要 | 关于[关键量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)可视化的新主题。 |
 | 分类集 | 新用户[分类集](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hans)体验提供单个界面以管理分类和规则，并更容易看到客户拥有的分类数据。 |
-| 移动应用程序：自定义详细信息视图 | 关于[自定义详细视图](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans)的新主题。 |
+| 移动设备应用程序：自定义详细信息视图 | 关于[自定义详细视图](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans)的新主题。 |
 | VISTA | 新页面解释了 [VISTA 规则](/help/technotes/vista.md)的基本信息。 |
 | **2022 年 9 月** | |
 | 组合图表 | 有关[组合图表](/help/analyze/analysis-workspace/visualizations/combo-charts.md)可视化的新主题。 |
