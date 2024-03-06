@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 35%
+ht-degree: 95%
 
 ---
 
@@ -19,24 +19,24 @@ Adobe 提供了三种向 Experience Edge 发送数据的主要方式：
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展将数据发送到 Edge。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩展将数据发送到 Edge。
-* **[Adobe Experience Platform Edge Network服务器API](server-api/overview.md)**：使用API直接将数据发送到Edge。
+* **[Adobe Experience Platform Edge Network Server API](server-api/overview.md)**：使用 API 直接向 Edge 发送数据。
 
 
 
-## Adobe Analytics如何处理Experience Edge数据
+## Adobe Analytics 处理 Experience Edge 数据的方式
 
-发送到Experience Edge的数据必须符合基于 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans). XDM让您灵活地定义作为事件一部分的字段。 当事件到达Adobe Analytics时，这些事件将转换为Adobe Analytics可以处理的更结构化数据：页面查看或链接事件。
+发送到 Experience Edge 的数据必须符合基于 [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 的架构。XDM 可让您灵活地将字段定义为事件的一部分。当事件到达 Adobe Analytics 时，这些事件将转换为 Adobe Analytics 可以处理的更加结构化的数据：页面视图或链接事件。
 
-XDM本身没有规定如何定义页面查看或链接事件，也没有指示Adobe Analytics如何处理其有效负载。 例如，某些开箱即用的XDM字段似乎与页面查看或链接事件相关，例如 `eventType`， `web.webPageDetails.pageViews`，或 `web.webInteraction.linkEvents` 与实施完全无关，并且与Adobe Analytics无关。
+XDM 本身并未规定如何定义页面视图或链接事件，也不指示 Adobe Analytics 如何处理其负载。例如，某些看似与页面视图或链接事件相关的现成的 XDM 字段（例如 `eventType`、`web.webPageDetails.pageViews` 或 `web.webInteraction.linkEvents`）完全与实施无关，并且与 Adobe Analytics 无关。
 
-要正确处理页面查看次数和链接事件，将对发送到AdobeExperience Edge网络并转发到Adobe Analytics的数据应用以下逻辑。
+要正确处理页面视图和链接事件，可将以下逻辑应用于发送到 Adobe Experience Edge Network 并转发到 Adobe Analytics 的数据。
 
-| XDM有效负载包含…… | Adobe Analytics... |
+| XDM 负载包含... | Adobe Analytics... |
 |---|---|
-| `web.webPageDetails.name` 或 `web.webPageDetails.URL` 而无 `web.webInteraction.type` | 将有效负载视为 **页面查看** |
-| `web.webInteraction.type` 和(`web.webInteraction.name` 或 `web.webInteraction.url`) | 将有效负载视为 **链接事件** |
-| `web.webInteraction.type` 和(`web.webPageDetails.name` 或 `web.webPageDetails.url`) | 将有效负载视为 **链接事件** <br/>`web.webPageDetails.name` 和 `web.webPageDetails.URL` 设置为 `null` |
-| 否 `web.webInteraction.type` 和(否 `webPageDetails.name` 而无 `web.webPageDetails.URL`) | 丢弃有效负载并忽略数据 |
+| `web.webPageDetails.name` 或 `web.webPageDetails.URL`，并且没有 `web.webInteraction.type` | 将负载视为&#x200B;**页面视图** |
+| `web.webInteraction.type` 和 (`web.webInteraction.name` 或 `web.webInteraction.url`) | 将负载视为&#x200B;**链接事件** |
+| `web.webInteraction.type` 和 (`web.webPageDetails.name` 或 `web.webPageDetails.url`) | 将负载视为&#x200B;**链接事件**  <br/>`web.webPageDetails.name` 和 `web.webPageDetails.URL` 设置为 `null` |
+| 无 `web.webInteraction.type` 和（无 `webPageDetails.name` 且无 `web.webPageDetails.URL`） | 丢弃负载并忽略数据 |
 
 {style="table-layout:auto"}
 
