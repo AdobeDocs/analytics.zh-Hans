@@ -3,10 +3,10 @@ title: 下载链接
 description: 下载链接的名称。
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 92%
 
 此维度从图像请求中的 [`pev2` 查询字符串](/help/implement/validate/query-parameters.md)为还具有值为 `lnk_d` 的 `pe` 查询字符串的点击收集数据。如果 `pe` 查询字符串在点击中具有不同的值，则此维度不会收集数据。
 
-如果要使用 AppMeasurement 将数据发送到此维度，请发送一个 [`tl()`](/help/implement/vars/functions/tl-method.md) 图像请求，其链接类型参数为 `"d"`。使用所需的值填充链接名称参数。
+如果要使用 AppMeasurement 将数据发送到此维度，请发送一个 [`tl()`](/help/implement/vars/functions/tl-method.md) 图像请求，其链接类型参数为 `"d"`。使用所需的值填充链接名称参数：
+
+```js
+s.tl(true,"d","Example download link");
+```
 
 ## 维度项目
 
