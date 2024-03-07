@@ -3,10 +3,10 @@ description: 分类规则会定期查找未分类的术语。如果找到匹配�
 title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 99%
+source-wordcount: '2001'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 * **电子邮件**&#x200B;和&#x200B;**显示广告**：创建分类规则，将各显示广告营销活动分组，以便了解显示活动相对于电子邮件活动的执行情况。
 
 * **跟踪代码**：创建分类规则可对由跟踪代码中的字符串派生的键值进行分类，并将其与您定义的特定条件进行匹配。
-* **搜索词**：使用[正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)和通配符可简化搜索词分类。例如，如果搜索词包含 *`baseball`*，则可以将 *`Sports League`* 分类设置为 *`MLB`*。
+* **搜索词**：使用 [正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md) 和通配符可简化搜索词分类。 例如，如果搜索词包含 *`baseball`*，则可以将 *`Sports League`* 分类设置为 *`MLB`*。
 
 例如，假设电子邮件促销活动 ID 的跟踪代码为：
 
@@ -57,37 +57,37 @@ about_classification_rules.xml
 
 ## 有关规则的重要信息
 
-* 在“管理工具”中指定分类的[群组权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)。
+* 指定 [组权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans) 中的分类 [!UICONTROL 管理工具].
 
 * **正则表达式**：[分类规则中的正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)下提供了相关帮助。
 
 * **报告包**：在至少选择一个报告包后，您才可以选取分类。在创建规则集并分配变量后，您才可以应用报告包。
 
-   在测试规则集时，使用报告中的键值（经过分类的变量）可查看规则集将如何影响键值。(此 [键](/help/components/classifications/importer/c-saint-data-files.md) 是要分类的变量，还是分类上载表中的第一列。)
+  在测试规则集时，使用报告中的键值（经过分类的变量）可查看规则集将如何影响键值。(此 [键](/help/components/classifications/importer/c-saint-data-files.md) 是要分类的变量，还是分类上载表中的第一列。)
 
-* **规则优先级**：如果一个键值匹配多条规则，这些规则设置了相同的分类（在“[!UICONTROL 设置分类]”列中），则将使用匹配分类的最后一条规则。请参阅[关于规则优先级](/help/components/classifications/crb/classification-quickstart-rules.md)。
+* **规则优先级**：如果一个键值匹配多条规则，这些规则设置了相同的分类（在“[!UICONTROL 设置分类]”列中），则将使用匹配分类的最后一条规则。请参阅 [关于规则优先级](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **规则数量的限制**：对于您可以创建的规则数量，不设定任何限制。但是，大量规则可能会影响浏览器性能。
 * **处理**：根据分类相关的流量数目，定期处理规则。
 
-   活动规则每四小时进行一次处理，通常每月检查一次返回的分类数据。规则会自动检查新值，并使用导入器上载分类。
+  活动规则每四小时进行一次处理，通常每月检查一次返回的分类数据。规则会自动检查新值，并使用导入器上载分类。
 
 * **覆盖现有分类**：请参阅[规则何时不会对键值进行分类？](/help/components/classifications/crb/classification-quickstart-rules.md)如有必要，您可以使用导入器删除或移除现有分类。
 
 ## 规则何时不会对键值进行分类？
 
-在激活规则时，您可以覆盖现有分类。对于以下情况，分类规则不会对[键值](/help/components/classifications/importer/c-saint-data-files.md)（变量）进行分类：
+在激活规则时，您可以覆盖现有分类。在下列情况下，分类规则不会将 [键](/help/components/classifications/importer/c-saint-data-files.md)（变量）进行分类：
 
 * 已对键值进行分类，并且您未选择[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)。
 
-   您可以在[](/help/components/classifications/crb/classification-quickstart-rules.md)添加和激活规则，以及激活 Data Connectors 集成时，覆盖分类。（对于 Data Connectors，规则由开发中心的合作伙伴创建，并显示在“[!UICONTROL 分类规则生成器]”中。）
+  您可以在以下情况下覆盖分类： [添加和激活](/help/components/classifications/crb/classification-quickstart-rules.md) 规则，以及激活Data Connectors集成时，覆盖分类。 （对于 Data Connectors，规则由开发中心的合作伙伴创建，并显示在“[!UICONTROL 分类规则生成器]”中。）
 
 * 在覆盖键值时指定的时间范围后，甚至在启用[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)后，已分类的键值都没有出现在数据中。
 * 在大约一个月前时间范围开始后，没有对键值进行分类，并且键值从未传递到 [!DNL Adobe Analytics]。
 
-   >[!NOTE]
-   >
-   >在报告中，当存在键值时，分类适用于指定的任何时间范围。报告的日期范围不会影响报告。
+  >[!NOTE]
+  >
+  >在报告中，当存在键值时，分类适用于指定的任何时间范围。报告的日期范围不会影响报告。
 
 ![](assets/overwrite_keys.png)
 
@@ -151,7 +151,7 @@ regex_classification_rules.xml
 
 | 正则表达式 | 字符串或匹配结果 | 对应的匹配群组 |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`： `em:JuneSale:20130601`  `$1`：em  `$2`： JuneSale  `$3`：20130601 |
 | 构建语法 | `^` = 开始此行  () = 将字符分组并让您提取括号中的匹配字符。`(.+)` = 捕获一个 ( . ) 字符，以及再捕获 ( + )  \ = 字符串的开头。`$` = 指示前面的字符（或字符组）位于行的最后。 |
 
 有关正则表达式中字符含义的信息，请参阅[正则表达式 - 参考表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
@@ -198,12 +198,12 @@ regex_classification_rules.xml
 
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |--- |--- |--- |--- |
-| 匹配字符串 a:b 的正则表达式 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 匹配字符串 a:b 的正则表达式 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 匹配字符串 :b:c 的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 匹配字符串 :b:c 的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 匹配字符串 :b:c 的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 匹配字符串 :b:c:d 的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 匹配字符串的正则表达式 `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 匹配字符串的正则表达式 `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 匹配字符串的正则表达式 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 匹配字符串的正则表达式 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 匹配字符串的正则表达式 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 匹配字符串的正则表达式 `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 正则表达式 -“不包含”示例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 2 | 包含 | Fantasy | 搜索类型 | Fantasy |
 | 3 | 包含 | Romo | 搜索类型 | Player |
 
-如果用户搜索 *`Cowboys fantasy Tony Romo`*，会对术语 *`Player`* 进行分类，因为它与“设置分类”列中显示的最后一个给定分类相匹配。
+如果用户搜索 *`Cowboys fantasy Tony Romo`*，术语 *`Player`* 分类，因为它与“设置分类”列中显示的最后一个给定分类相匹配。
 
 同样，假设您在规则集中为以下搜索词设置了两条规则：
 
@@ -294,7 +294,7 @@ rule_priority.xml
 | 1 | 包含 | Cowboys | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
-用户搜索 *`Cowboys vs. Broncos`*。如果规则生成器发现规则匹配存在冲突，则第二条规则的分类 (Denver) 将应用到此搜索。
+用户搜索 *`Cowboys vs. Broncos`*. 如果规则生成器发现规则匹配存在冲突，则第二条规则的分类 (Denver) 将应用到此搜索。
 
 ## 将分类规则添加到规则集 {#add-classification-to-rule-set}
 
@@ -308,7 +308,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->在此过程中，必须将规则应用到一个或多个报告包。即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您的规则超过 1000 条，请考虑使用[子分类](/help/components/classifications/c-sub-classifications.md)简化规则集。
+>在此过程中，必须将规则应用到一个或多个报告包。即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您有100多条规则，请考虑使用 [子分类](/help/components/classifications/c-sub-classifications.md).
 
 添加或编辑分类规则：
 
@@ -327,10 +327,9 @@ t_classification_rule.xml
    >
    >* 报告包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
    >
-   >   （请参阅[分类规则集](/help/components/classifications/crb/classification-rule-set.md)中的“*变量*”，了解关于此先决条件的说明。）
+   >   (请参阅 *变量* 在 [分类规则集](/help/components/classifications/crb/classification-rule-set.md) 了解关于此先决条件的说明。)
    >
    >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报告包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报告包。
-
 
 1. 指定是否覆盖现有的值：
 
@@ -381,7 +380,7 @@ t_classifications_test_rule.xml
    * 跟踪代码
    * 搜索关键词或短语
 
-   请参阅[分类规则中的正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)以了解有关测试正则表达式的信息。
+   请参阅 [分类规则中的正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md) 有关测试正则表达式的信息。
 1. 单击&#x200B;**[!UICONTROL 运行测试]**。
 
    匹配的规则将显示在“[!UICONTROL 结果]”表中。

@@ -4,10 +4,10 @@ title: Analytics 变量的数据隐私标签
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '3576'
-ht-degree: 99%
+source-wordcount: '3569'
+ht-degree: 98%
 
 ---
 
@@ -262,4 +262,4 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 
 用于生成为数据隐私访问请求返回的文件的代码，要求访问请求中至少包含前三个时间戳变量中的一个（具有一个适用于该请求类型的 ACC 标签）。若不包含上述三个中的任意一个，则“自定义点击时间 UTC”将被视为含有 ACC-ALL 标签。
 
-为数据隐私访问请求返回的点击级别 CSV 文件将这些字段中的值从 unix 时间戳转换为 YYYY-MM-DD HH:MM:SS 格式的日期/时间字段（例如，2018-05-01 13:49:22）在摘要 HTML 文件中，这些时间戳值将被截断为仅包括日期 (YYYY-MM-DD)，以缩短这些字段中出现的唯一值的长度。
+为数据隐私访问请求返回的点击级别CSV文件将这些字段中的值从unix时间戳转换为格式的日期/时间字段 `YYYY-MM-DD HH:MM:SS` (例如， `2018-05-01 13:49:22`)。 在摘要HTML文件中，这些时间戳值将被截断为仅包含日期、 `YYYY-MM-DD`，减少这些字段中出现的唯一值的数量。

@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics 常见问题解答。
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 31%
@@ -105,7 +105,7 @@ ht-degree: 31%
 
 +++
 
-+++ 为什么我在Analytics报表中看到“已达到受众限制”？ (注意：这还将表示为Audience ID = -1和&quot;：:max_audiences_exceeded:：&quot;在Data Warehouse中)
++++ 为什么我在Analytics报表中看到“已达到受众限制”？ (注意：这还将表示为Audience ID = -1和 `::max_audiences_exceeded::` Data Warehouse)
 
 默认情况下，Adobe Audience Manager的Audience Analytics集成会按每次点击将所有访客符合条件的区段发送到Analytics。 如果某位访客在一次点击中属于超过150个Adobe Audience Manager区段，则 **150个最近符合条件的区段** 发送到Analytics，而其余列表会被截断。 此外，还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。
 
