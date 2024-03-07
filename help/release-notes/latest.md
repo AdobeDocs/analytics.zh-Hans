@@ -3,7 +3,7 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
+source-git-commit: 3c6e11dd9d0044dbf79fa0ba97e55a547966d120
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 99%
@@ -24,7 +24,7 @@ ht-degree: 99%
 | **Data Warehouse 更新** | Data Warehouse 现在有以下改进：<ul><li>在创建 Data Warehouse 请求时，用户现在可通过启用名为&#x200B;[!UICONTROL **提供给组织中的用户**]&#x200B;的新切换开关，将请求提供给组织中的所有用户。<p>有关详细信息，请参阅 [Data Warehouse 请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)。</p></li><li>在创建或管理 Data Warehouse 报告目标时，系统管理员现在可通过启用名为&#x200B;[!UICONTROL **显示所有目标**]&#x200B;的切换开关，显示组织中的用户创建的帐户和位置。<p>有关详细信息，请参阅[配置 Data Warehouse 请求的报告目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。</p></li> | 不适用 | 2024 年 1 月 10 日 |
 | **关键量度摘要可视化的更新** | 在使用关键量度摘要可视化时，根据您选择的“比较日期范围”选项是相对于主要日期范围还是固定日期，现在可自动更新比较日期范围。[了解详情](/help/analyze/analysis-workspace/visualizations/key-metric.md)。 | 不适用 | 2024 年 1 月 17 日 |
 | **Data Warehouse API 文档** | 请参阅 [Adobe Analytics Data Warehouse API 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) 以了解更多信息。转到[!UICONTROL 选择定义]，然后选择 [!UICONTROL Data Warehouse API]。 | | 2024 年 2 月 19 日 |
-| **Web SDK 的 Activity Map，无额外费用** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。 |  | 2024 年 3 月 6 日 |
+| **Web SDK 的 Activity Map，无额外费用** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。 |  | 2024年4月3日 |
 | **增大默认低流量阈值** | 在 **2024 年 4 月中旬**，Adobe 将开始增大默认报表包低流量阈值，如下所示：![低流量阈值](assets/thresholds.png) 这只会影响当前设置的小于新阈值的变量。这些更改将逐步进行，我们预计这项工作将在&#x200B;**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报表包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月底 |
 
 {style="table-layout:auto"}
