@@ -3,10 +3,10 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
 * **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
 * **收集服务器：**&#x200B;请参阅“数据收集服务器”。
-* **组件：** Analysis Workspace中的组件包括维度、量度、区段和日期范围，您可以将这些组件拖放到项目中。 请参阅 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 在分析用户指南中。
+* **组件：** Analysis Workspace 中的组件包括维度、量度、区段和日期范围，您可以将这些组件拖放到项目中。请参阅分析用户指南中的[组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。
 * **上下文数据变量：**&#x200B;仅用于处理规则的临时变量。如果处理规则未将上下文数据变量值复制到转化或流量变量，则上下文数据变量值将永久丢失。请参阅《实施用户指南》中的[上下文数据变量](../implement/vars/page-vars/contextdata.md)。
 * **转化变量：**&#x200B;也称为 eVar。存储自定义值，并保留变量值，直到其过期。请参阅《组件用户指南》中的 [eVar](/help/components/dimensions/evar.md) 维度。
 * **关联：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过关联可以划分流量变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
@@ -74,7 +74,7 @@ ht-degree: 97%
 * **登录公司：**&#x200B;由您的组织使用的报表包集合。某些组织具有多个适用于该组织不同部分的登录公司。
 * **营销渠道：** Adobe Analytics 中的一项功能，可按访客到达网站的方式对点击量进行分类。可使用营销渠道处理规则自定义用于分类点击的逻辑。请参阅《组件用户指南》中的[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **量度：**&#x200B;包含定量数据的组件类型。量度值通常包含数字，如页面查看次数、访问次数和收入。通常与维度相对应。
-* **移动服务：** 一款已弃用的Adobe产品，它可以在整个Adobe Experience Cloud范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。
+* **Mobile Services：**&#x200B;已停用的 Adobe 产品，可以在整个 Adobe Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。
 * **多包标记：**&#x200B;向多个报表包发送相同点击的实践。随着虚拟报表包的推出，基本上不再需要这一实践。大多数多包标记工作可帮助满足全局报表包的需求。
 * **标准化：**&#x200B;一种组织可视化的方法，采用所有量度并强制按同等比例排列量度，从而更容易比较趋势。
 * **发生次数：**&#x200B;一种量度类型，用于显示设置或保留维度项目的点击量。请参阅《组件用户指南》中的[发生次数](/help/components/metrics/occurrences.md)量度。
@@ -91,7 +91,7 @@ ht-degree: 97%
 * **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 * **Report Builder：**&#x200B;一个 Microsoft Excel 插件，可让您从 Adobe Analytics 数据构建自定义请求。
 * **报表包**：将数据发送到的首要容器。Adobe Analytics 中的所有报表都引用了一个报表包。
-* **Reports &amp; Analytics：**&#x200B;以前称为 SiteCatalyst。用于报告和分析的浏览器解决方案。Analytics包中的入门工具。 此工具已 [生命周期结束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
+* **Reports &amp; Analytics：**&#x200B;以前称为 SiteCatalyst。用于报告和分析的浏览器解决方案。Analytics 包中的初学者工具。此工具[已停用](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滚动日期范围：**&#x200B;随时间变化而更改的相对日期范围类型。例如，显示最近 7 天的报表可视为滚动日期范围。另请参阅“静态日期范围”。
 * **RSID：**&#x200B;报表包 ID 的缩写。报表包同时具有易记名称和报表包 ID。
 * **s.t()：** AppMeasurement 库中发送页面查看图像请求的函数的名称。有些 AppMeasurement 库使用 `s.track()`。请参阅《实施用户指南》中的 [t](../implement/vars/functions/t-method.md)。

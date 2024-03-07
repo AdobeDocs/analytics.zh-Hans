@@ -4,10 +4,10 @@ description: 使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩�
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Platform Mobile SDK 有助于在您的移动应用程序中支�
 
 <td>4</td>
 <td><b>将 Adobe Analytics 服务</b>添加到您的数据流。 该服务控制数据是否以及如何发送到 Adobe Analytics。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
 </tr>
 
 <tr>

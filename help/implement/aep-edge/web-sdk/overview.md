@@ -4,18 +4,16 @@ description: 使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展�
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 76%
+source-wordcount: '670'
+ht-degree: 72%
 
 ---
 
 # 使用 Adobe Experience Platform Web SDK 实施 Adobe Analytics
 
-您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html) 向 Adobe Analytics 发送数据。 此实施方法通过将[体验数据模型 (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 转换为 Analytics 使用的格式来工作。
-
-您可以使用将数据直接发送到Experience Edge。 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)或通过Tags中的Web SDK扩展执行的其他操作。
+您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) 向 Adobe Analytics 发送数据。 此实施方法通过转换 [体验数据模型(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 转换为Analytics使用的格式。 您可以使用Web SDK JavaScript库或Web SDK标记扩展将数据发送到Adobe Experience Platform Edge Network。
 
 ## Web SDK
 
@@ -32,7 +30,7 @@ ht-degree: 76%
 <tr>
 <td>1</td>
 <td>确保您已<b>定义报告包</b>。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
 </tr>
 
 <tr>
@@ -50,7 +48,7 @@ ht-degree: 76%
 <tr>
 <td> 4</td>
 <td><b>安装预构建的独立版本</b>。 您可以直接在页面上引用 CDN 上的库 (<code>alloy.js</code>) 或下载并托管在您自己的基础设施上。 或者，您可以使用 NPM 包。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans#option-2%3A-installing-the-prebuilt-standalone-version">安装预构建的独立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans#option-3%3A-using-the-npm-package">使用 NPM 包</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">安装预构建的独立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">使用 NPM 包</a></td>
 </tr>
 
 <tr>
@@ -61,20 +59,20 @@ ht-degree: 76%
 
 <td>6</td>
 <td><b>将 Adobe Analytics 服务</b>添加到您的数据流。 该服务控制是否以及如何将数据发送到Adobe Analytics，以及具体将数据发送到哪些报表包。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>配置 Web SDK</b>。 确保使用数据流ID(以前称为边缘配置ID (<code>edgeConfigId</code>)，组织id (<code>orgId</code>)，以及其他可用选项。 确保正确映射变量。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans">配置Web SDK</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Analytics变量映射</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">手动映射变量</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">配置Web SDK</a><br/><a href="../variable-mapping.md">XDM对象变量映射</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>执行命令</b>和/或<b>跟踪事件</b>。 在您的网页上实施基础代码后，您可以开始使用 SDK 执行命令和跟踪事件。
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=zh-Hans">执行命令</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans">跟踪事件</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">发送事件</a></td>
 </tr>
 
 <tr>
@@ -98,7 +96,7 @@ ht-degree: 76%
 <tr>
 <td>1</td>
 <td>确保您已<b>定义报告包</b>。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
 </tr>
 
 <tr>
@@ -122,25 +120,25 @@ ht-degree: 76%
 <tr>
 <td>5</td> 
 <td><b>将 Adobe Analytics 服务</b>添加到您的数据流。 该服务控制是否以及如何将数据发送到Adobe Analytics，以及具体将数据发送到哪些报表包。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>创建标记属性</b>。属性是用于引用标记管理数据的总容器。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=zh-Hans#for-web">为 Web 创建或配置标签属性</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">为 Web 创建或配置标签属性</a></td>
 </tr>
 
 <tr>
 <td>7</td> 
 <td><b>在您的标记属性中安装和配置 Web SDK 扩展</b>。配置 Web SDK 扩展以将数据发送到在步骤 4 中配置的数据流。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=zh-Hans">Adobe Experience Platform Web SDK 扩展概述</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html">Adobe Experience Platform Web SDK 扩展概述</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>迭代、验证并发布</b>到生产环境。 嵌入代码以将标记资产包含到网站页面。 然后使用数据元素、规则等来定制您的实施。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">嵌入代码</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hans">发布概述</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">嵌入代码</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html">发布概述</a></td>
 </tr>
 
 </table>

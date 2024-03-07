@@ -4,10 +4,10 @@ description: 了解如何减轻浏览器 Cookie 限制的影响以改进 Adobe A
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics 依靠第一方 Cookie 记录访客在网站上的活动。Analy
 
 ## 带 Web SDK 的第一方设备 ID (FPID)
 
-利用 Adobe Experience Platform Web SDK，您可以选择设置和管理您自己的设备标识符，而不是 Adobe 生成的 Experience Cloud ID (ECID)。这些被称为第一方设备 ID (FPID)。在[此处](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=zh-Hans)了解详情。
+利用 Adobe Experience Platform Web SDK，您可以选择设置和管理您自己的设备标识符，而不是 Adobe 生成的 Experience Cloud ID (ECID)。这些被称为第一方设备 ID (FPID)。在[此处](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)了解详情。
 
 ## 更多信息
 

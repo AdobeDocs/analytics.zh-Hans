@@ -3,10 +3,10 @@ title: Adobe Analytics 中处理数据的顺序
 description: 了解在 Adobe Analytics 中处理数据的组件和服务的顺序。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 97%
+source-wordcount: '585'
+ht-degree: 91%
 
 ---
 
@@ -21,10 +21,10 @@ Adobe 提供多种方式，可在报表中出现数据之前更改或操纵数�
 将数据发送到 Adobe 之前，自动使用以下方法之一在客户端编译数据：
 
 * **AppMeasurement**：一个托管在您的站点上并在每个页面上都引用的 JavaScript 文件。数据直接发送到 Adobe Analytics。
-* **Adobe Experience Platform Web SDK**：一个托管在您的站点上并在每个页面上都引用的 JavaScript 文件。数据发送到 Adobe Experience Edge。
+* **Adobe Experience Platform Web SDK**：一个托管在您的站点上并在每个页面上都引用的 JavaScript 文件。数据发送到Adobe Experience Platform Edge Network。
 * **Adobe Experience Cloud Data Collection 中的标记**：一个在每个页面上都引用的 JavaScript 文件，其中包含在 Data Collection UI 中创建的规则。Adobe Analytics 扩展提供一种更容易实施 AppMeasurement 的方式。Web SDK 扩展提供一种更容易实施 Web SDK 的方式。
 
-如果将数据发送到 Adobe Experience Edge，则可配置它以使其将数据转发到 Adobe Analytics（以及许多其他 Adobe Experience Cloud 解决方案）。无论何种实施方法，最终都是将一个具有所需变量的图像请求发送到 Adobe 数据收集服务器。
+如果将数据发送到Edge Network，则可将其配置为将数据转发到Adobe Analytics(以及许多其他Adobe Experience Cloud解决方案)。 无论何种实施方法，最终都是将一个具有所需变量的图像请求发送到 Adobe 数据收集服务器。
 
 ## 数据到达 Adobe Analytics 数据收集服务器
 

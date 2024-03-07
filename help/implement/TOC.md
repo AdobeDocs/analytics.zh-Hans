@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: '407'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
       + [currencyCode](vars/config-vars/currencycode.md)
-      + [Decodlinkparameters](vars/config-vars/decodelinkparameters.md)
+      + [decodeLinkParameters](vars/config-vars/decodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
       + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
@@ -134,15 +134,15 @@ ht-degree: 98%
    + [实施多包标记](prepare/multi-suite-tagging.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
    + [负责现有的 Adobe Analytics 实施](prepare/existing-implementation.md)
-+ 使用 Experience Platform Edge 实施 Analytics{#aep-edge}
-   + [Experience Edge 概述](aep-edge/overview.md)
-   + [变量映射](aep-edge/variable-mapping.md)
++ 使用Adobe Experience Platform边缘网络实施Analytics {#aep-edge}
+   + [边缘网络概述](aep-edge/overview.md)
+   + [XDM对象变量映射](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK 概述](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 概述](aep-edge/mobile-sdk/overview.md)
-   + 服务器API {#server-api}
-      + [服务器API概述](aep-edge/server-api/overview.md)
+   + 服务器 API {#server-api}
+      + [服务器 API 概述](aep-edge/server-api/overview.md)
 + 使用 Adobe Analytics 扩展实施 Analytics{#launch}
    + [标记概述](launch/overview.md)
    + [创建 Adobe Analytics 标记属性](launch/create-analytics-property.md)

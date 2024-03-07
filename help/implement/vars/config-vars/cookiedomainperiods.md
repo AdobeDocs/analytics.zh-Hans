@@ -4,7 +4,7 @@ description: 帮助 AppMeasurement 了解当您的域的后缀中有句点时，
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: fe33da47c109adacb8162c7165ad4c63bd65c08d
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 43%
@@ -51,7 +51,7 @@ AppMeasurement 可通过检查域和域的后缀确定其 Cookie 位置。对于
 >
 >正确配置时 `cookieDomainPeriods` 将改进AppMeasurement和Analytics功能，因此建议您评估是否因升级AppMeasurement库而导致的更改而受到影响。
 >
-> 请参阅 [Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) 以详细了解CookieAppMeasurement使用的。
+> 请参阅 [Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=zh-Hans) 以详细了解CookieAppMeasurement使用的。
 
 ## 使用Web SDK的Cookie域名段
 

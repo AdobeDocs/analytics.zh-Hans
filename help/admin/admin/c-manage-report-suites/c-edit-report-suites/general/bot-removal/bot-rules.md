@@ -4,9 +4,9 @@ title: 了解和配置机器人规则
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1668'
 ht-degree: 69%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->AdobeExperience Edge提供 [机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 哪些标签标识为来自机器人的点击。 Adobe Analytics的机器人检测过程与此分开，并且不引用通过Experience Edge到达的数据上包含的机器人分数。 这两个系统使用相同的IAB机器人列表，因此在这方面的行为应该相同。
+>Adobe Experience Platform边缘网络提供 [机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 哪些标签标识为来自机器人的点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过边缘网络到达的数据上包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
 
 ## 更新或上传机器人规则
 

@@ -1,34 +1,34 @@
 ---
-title: Adobe Experience Edge 中的 Analytics 变量映射
+title: 使用Web SDK XDM对象的Analytics变量映射
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bc1311171e7cec6538dcdb44ad13761b0d39851b
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 82%
+source-wordcount: '1149'
+ht-degree: 98%
 
 ---
 
-# Adobe Experience Edge 中的 Analytics 变量映射
+# 使用Web SDK XDM对象的Analytics变量映射
 
-下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的变量。 如果使用这些XDM字段路径，则无需额外配置即可将数据发送到Adobe Analytics。 这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent模板]** 字段组。
+下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的变量。 如果使用这些 XDM 字段路径，则无需额外配置即可将数据发送到 Adobe Analytics。这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent 模板]**&#x200B;字段组中。
 
 可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md)中找到此表之前的更新内容。
 
-| XDM字段路径 | Analytics 维度和描述 |
+| XDM 字段路径 | Analytics 维度和描述 |
 | --- | --- |
-| `application.isClose` | 帮助定义移动生命周期量度 [崩溃次数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isInstall` | 帮助确定何时增加移动生命周期量度 [首次启动次数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isLaunch` | 帮助确定何时增加移动生命周期量度 [首次启动次数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.closeType` | 确定关闭事件是否为崩溃。 有效值包括 `close`（生命周期会话结束，前一个会话收到暂停事件）和 `unknown`（生命周期会话结束，没有暂停事件）。 帮助设置移动生命周期量度 [崩溃次数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) 量度。 |
-| `application.isInstall` | 移动生命周期量度 [安装次数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isLaunch` | 移动生命周期量度 [启动次数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.name` | 帮助设置移动生命周期维度 [应用程序ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isUpgrade` | 移动生命周期量度 [升级](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.version` | 帮助设置移动生命周期维度 [应用程序ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.sessionLength` | 移动生命周期量度 [上一会话时长](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isClose` | 帮助定义移动生命周期量度[崩溃](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.isInstall` | 帮助确定何时增加[首次发布](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)移动生命周期量度。 |
+| `application.isLaunch` | 帮助确定何时增加[首次发布](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)移动生命周期量度。 |
+| `application.closeType` | 确定关闭事件是否为崩溃。 有效值包括 `close`（生命周期会话结束，前一个会话收到暂停事件）和 `unknown`（生命周期会话结束，没有暂停事件）。 帮助设置移动生命周期量度[崩溃](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)量度。 |
+| `application.isInstall` | 移动生命周期量度[安装](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.isLaunch` | 移动生命周期量度[发布](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.name` | 帮助设置移动生命周期维度[应用程序 ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.isUpgrade` | 移动生命周期量度[升级](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.version` | 帮助设置移动生命周期维度[应用程序 ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.sessionLength` | 移动生命周期量度[上一个会话长度](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `commerce.checkouts.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于[“结账”](../../components/metrics/checkouts.md)量度。 |
 | `commerce.checkouts.value` | 按所需的量增加[“结账”](../../components/metrics/checkouts.md) 量度。 |
 | `commerce.order.currencyCode` | 设置 [currencyCode](../vars/config-vars/currencycode.md) 配置变量。 |
@@ -45,7 +45,7 @@ ht-degree: 82%
 | `commerce.productViews.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于[“产品查看”](../../components/metrics/product-views.md)量度。 |
 | `commerce.productViews.value` | 增加[“产品查看次数”](../../components/metrics/product-views.md) 量度。 |
 | `commerce.purchases.value` | 增加[“订单”](../../components/metrics/orders.md) 量度。 |
-| `device.model` | 移动生命周期维度 [设备名称](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `device.model` | 移动生命周期维度[设备名称](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `device.colorDepth` | 帮助设置 [“颜色深度”](../../components/dimensions/color-depth.md) 维度。 |
 | `device.screenHeight` | 帮助设置移动维度 [“监测器分辨率”](../../components/dimensions/monitor-resolution.md) 维度。 |
 | `device.screenWidth` | 帮助设置移动维度 [“监测器分辨率”](../../components/dimensions/monitor-resolution.md) 维度。 |
@@ -56,20 +56,20 @@ ht-degree: 82%
 | `environment.browserDetails.userAgent` | 用作后备的[独特访客](../../components/metrics/unique-visitors.md)识别方法。 通常使用 `User-Agent` HTTP 请求头填充。 如果要在报告中使用此字段，可以将其映射到 eVar。 |
 | `environment.browserDetails.viewportHeight` | 设置 [“浏览器高度”](../../components/dimensions/browser-height.md) 维度。 |
 | `environment.browserDetails.viewportWidth` | 设置 [“浏览器宽度”](../../components/dimensions/browser-width.md) 维度。 |
-| `environment.carrier` | 移动生命周期维度 [运营商名称](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `environment.carrier` | 移动生命周期维度[运营商名称](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `environment.connectionType` | 帮助设置 [“连接类型”](../../components/dimensions/connection-type.md) 维度。 |
 | `environment.ipV4` | 用作后备的[独特访客 ](../../components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
 | `environment.language` | 移动维度区域设置。 |
-| `environment.operatingSystem` | 移动生命周期维度 [操作系统](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `environment.operatingSystemVersion` | 帮助设置移动生命周期维度 [操作系统版本](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `environment.operatingSystem` | 移动生命周期维度[操作系统](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `environment.operatingSystemVersion` | 帮助设置移动生命周期维度[操作系统版本](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 设置相应的 [eVar](../../components/dimensions/evar.md) 维度。 |
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | 设置相应的[层级](/help/components/dimensions/hierarchy.md)维度。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 列表属性分隔符覆盖。不建议使用此字段，因为会从报告包设置下的[流量变量管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)中自动检索分隔符。使用此字段可能会导致使用的分隔符与 Analytics 需要的分隔符不匹配。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 一个字符串数组，包含相应的 [List Prop](../vars/page-vars/prop.md#list-props) 值。 |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 将每个 `list[]` 数组中的所有 `value` 字符串连接到其各自的[列表变量](../vars/page-vars/list.md)。分隔符是根据[报告包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中的值集自动选择的。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 设置相应的 [Prop](../../components/dimensions/prop.md) 维度。 |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 应用 [事件序列化](../vars/page-vars/events/event-serialization.md) 至各自 [自定义事件](../../components/metrics/custom-events.md) 量度。 每个事件ID都驻留在其100个组的父事件中。 例如，要将序列化应用于 `event678`，使用 `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 增加相应的 [自定义事件](../../components/metrics/custom-events.md) 量度。 每个事件都驻留在其100个组的父事件中。 例如，字段 `event567` 是 `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于相应的[自定义事件](../../components/metrics/custom-events.md)量度。每个事件 ID 驻留在其 100 组父项中。例如，要将序列化应用于 `event678`，请使用 `_experience.analytics.event601to700.event678.id`。 |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 按所需的量增加相应的[自定义事件](../../components/metrics/custom-events.md)量度。每个事件驻留在其 100 组父项中。例如，`event567` 的字段为 `_experience.analytics.event501to600.event567.value`。 |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud 身份服务 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 |
 | `marketing.trackingCode` | 设置 [“跟踪代码”](../../components/dimensions/tracking-code.md) 维度。 |
 | `media.mediaTimed.completes.value` | Media Analytics 量度[内容完成](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-complete)。 |

@@ -4,18 +4,18 @@ description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 95%
+source-wordcount: '315'
+ht-degree: 46%
 
 ---
 
-# 使用 Adobe Experience Platform Edge 实施 Adobe Analytics
+# 使用Adobe Experience Platform Edge Network实施Adobe Analytics
 
-Adobe Experience Platform Edge 允许您将发送到多个产品的数据发送到一个集中的位置。 Experience Edge 将适当的信息转发给所需的产品。 此概念允许您整合实施工作，尤其是跨多个数据解决方案进行整合。
+Adobe Experience Platform Edge Network允许您将发送到多个产品的数据发送到一个集中位置。 Edge Network将适当的信息转发给所需的产品。 此概念允许您整合实施工作，尤其是跨多个数据解决方案进行整合。
 
-Adobe 提供了三种向 Experience Edge 发送数据的主要方式：
+Adobe提供了三种向Edge Network发送数据的主要方式：
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展将数据发送到 Edge。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩展将数据发送到 Edge。
@@ -23,13 +23,15 @@ Adobe 提供了三种向 Experience Edge 发送数据的主要方式：
 
 
 
-## Adobe Analytics 处理 Experience Edge 数据的方式
+## Adobe Analytics如何处理Edge Network数据
 
-发送到 Experience Edge 的数据必须符合基于 [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 的架构。XDM 可让您灵活地将字段定义为事件的一部分。当事件到达 Adobe Analytics 时，这些事件将转换为 Adobe Analytics 可以处理的更加结构化的数据：页面视图或链接事件。
+发送到Adobe Experience Platform Edge Network的数据可以遵循两种格式：
 
-XDM 本身并未规定如何定义页面视图或链接事件，也不指示 Adobe Analytics 如何处理其负载。例如，某些看似与页面视图或链接事件相关的现成的 XDM 字段（例如 `eventType`、`web.webPageDetails.pageViews` 或 `web.webInteraction.linkEvents`）完全与实施无关，并且与 Adobe Analytics 无关。
+* XDM对象：符合基于的架构 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html). XDM 可让您灵活地将字段定义为事件的一部分。在事件到达Adobe Analytics时，它们会被转换为Adobe Analytics可以处理的格式。
+* 数据对象：使用映射到Adobe Analytics的特定字段将数据发送到Edge Network。 边缘网络检测这些字段的存在，并将它们转发到Adobe Analytics而无需符合架构。
 
-要正确处理页面视图和链接事件，可将以下逻辑应用于发送到 Adobe Experience Edge Network 并转发到 Adobe Analytics 的数据。
+
+Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链接事件
 
 | XDM 负载包含... | Adobe Analytics... |
 |---|---|
@@ -40,4 +42,4 @@ XDM 本身并未规定如何定义页面视图或链接事件，也不指示 Ado
 
 {style="table-layout:auto"}
 
-请参阅 [Adobe Analytics ExperienceEvent完整扩展架构字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 以了解更多信息。
+请参阅 [Adobe Analytics ExperienceEvent完整扩展架构字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) 以了解更多信息。

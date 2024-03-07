@@ -3,9 +3,10 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 short-description: 了解针对分析师、最终用户和管理员的关键功能、常见用例和首要步骤。
 title: Adobe Analytics 概述
 feature: Analytics Basics
-source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
+exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
@@ -51,4 +52,3 @@ Customer Journey Analytics 是 Adobe 推出的新一代 Analytics 解决方案�
 * **跨报告包数据**：可以在 Platform 中组合来自多个数据集的现有实施。
 
 有关更多信息，请参阅[ Customer Journey Analytics 概述](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)。
-

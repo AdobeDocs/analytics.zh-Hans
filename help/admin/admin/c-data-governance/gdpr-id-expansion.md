@@ -4,7 +4,7 @@ title: ID 扩展
 feature: Data Governance
 role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 96%
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 | 类型 | 注意事项 |
 | --- | --- |
-| Cookie ID 扩展 | 许多 Analytics 客户最初使用的是（旧版）[Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html?lang=zh-Hans)，但他们现在使用 [Experience Cloud 身份识别服务 (ECID)](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 对于在转换后首次访问这些客户网站的访客，仅存在 ECID。然而，对于那些在只有旧版 Cookie 可用时首次访问但此后访问过的用户：他们的一些数据同时具有这两种 Cookie。 但是，较旧的数据只有 Analytics Cookie，在极少数情况下，最新的数据可能只有 ECID。<p>请确保通过 Analytics（访客 ID）Cookie 或 ECID 识别的访客的所有数据都能被找到。 如果您以前使用过 Analytics Cookie 且现在使用 ECID，则当您使用任一类型的 ID 提交请求时，应在请求中包含两种 ID，或者指定 `expandIds` 选项。 当您指定 `expandIds` 时，Adobe 将检查与您提供的任何 Cookie ID 相对应的其他 ECID 或 Analytics Cookie。 该请求会自动扩展以包含这些新识别的 Cookie ID。 |
+| Cookie ID 扩展 | 许多 Analytics 客户最初使用的是（旧版）[Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html)，但他们现在使用 [Experience Cloud 身份识别服务 (ECID)](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 对于在转换后首次访问这些客户网站的访客，仅存在 ECID。然而，对于那些在只有旧版 Cookie 可用时首次访问但此后访问过的用户：他们的一些数据同时具有这两种 Cookie。 但是，较旧的数据只有 Analytics Cookie，在极少数情况下，最新的数据可能只有 ECID。<p>请确保通过 Analytics（访客 ID）Cookie 或 ECID 识别的访客的所有数据都能被找到。 如果您以前使用过 Analytics Cookie 且现在使用 ECID，则当您使用任一类型的 ID 提交请求时，应在请求中包含两种 ID，或者指定 `expandIds` 选项。 当您指定 `expandIds` 时，Adobe 将检查与您提供的任何 Cookie ID 相对应的其他 ECID 或 Analytics Cookie。 该请求会自动扩展以包含这些新识别的 Cookie ID。 |
 | 自定义 ID 转 Cookie ID 扩展 | 在电子商务网站上，通常会有访客在登录到网站之前，先在网站内四处浏览，将商品添加到购物车，然后开始结账过程。若用于识别数据隐私请求的用户 ID 仅在该用户登录后才存储在自定义变量中，则此类登录前进行的活动不会与该 ID 关联。利用 Analytics Cookie ID，客户可以选择将登录之前执行的浏览与登录之后的购买关联，因为 Cookie ID 在整个登录过程中持久保留。<p>我们假设，您的实施将登录 ID（CRM ID、用户名、会员号、电子邮件地址等，或任何这些值的哈希值）存储在自定义变量（prop 或 eVar）或自定义访客 ID 中，然后将该 ID 用于数据隐私访问请求。“数据主体”可能会对此感到惊讶：关于他们浏览的信息并没有作为访问请求的一部分返回，特别是当您向他们推销了他们查看过但尚未购买的产品时。因此，Analytics 数据隐私处理支持 ID 扩展，其中，Analytics 可找到在同一点击中出现的作为任何自定义 ID 的所有 Cookie ID，然后扩展该请求以一并包含这些 ID。<p>当指定了 `expandIDs` 以及 Cookie 命名空间以外的任何命名空间时，该请求将会扩展为包括任何在包含任意指定 ID 的点击中找到的 Cookie ID（ECID 或 Analytics Cookie）。 如上所述，之后会在任何新找到的 Cookie ID 上执行 Cookie ID 扩展。<p>当 `expandIDs` 选项用于访问请求且指定的 ID 具有 ID-PERSON 标签时，将返回两组文件。 第一组（人员组）将仅包含来自点击量的数据，在这些点击当中发现了指定的 ID。第二组（设备组）将仅包含来自扩展 ID 的点击数据，且在这些点击当中不存在指定的 ID。 |
 
 {style="table-layout:auto"}

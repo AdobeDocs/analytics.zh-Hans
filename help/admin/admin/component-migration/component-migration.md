@@ -3,7 +3,7 @@ description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer J
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 86e4856ec44ee0c6b676e2f145f4e63587368d4c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 5%
@@ -124,7 +124,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
 如果迁移失败，您可以重试迁移。
 
-在重试失败的迁移之前，请确保删除所有 [不支持的元素](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) 项目中的。
+在重试失败的迁移之前，请确保删除所有 [不支持的元素](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) 项目中的。
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ description: 使用自定义访客 ID。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 72%
+source-wordcount: '334'
+ht-degree: 71%
 
 ---
 
@@ -46,6 +46,6 @@ s.visitorID = "abc123";
 >
 >自定义访客 ID 的无效实施，可能会导致数据不正确和报告性能不佳。如果此变量包含默认值（例如 `"0"` 或 `"NULL"`），Adobe 会将这些点击视为相同的访客。这种情况导致数据不正确，访客计数低且访客级别的区段无法按预期工作。未正确实施的自定义访客 ID 也会给处理服务器带来沉重的负载，增加[延迟](/help/technotes/latency.md)并降低报告性能。
 
-## 使用Web SDK和Experience Edge的访客ID
+## 使用Web SDK的访客ID
 
-Experience Edge允许您使用XDM的 [标识映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为的一部分 [数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). 配置完毕后，在发送一个事件（其中包含为此命名空间指定的值）时，系统会自动将其用作Analytics中的访客ID。
+Adobe Experience Platform边缘网络允许您使用XDM的 [标识映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为的一部分 [数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). 配置完毕后，在发送一个事件（其中包含为此命名空间指定的值）时，系统会自动将其用作Analytics中的访客ID。

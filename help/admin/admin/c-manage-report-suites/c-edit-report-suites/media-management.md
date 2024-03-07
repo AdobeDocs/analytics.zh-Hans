@@ -4,10 +4,10 @@ title: 媒体管理
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: 6ddbf0821951e71d7323343104720fe60551dacb
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 99%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 100%
 
 * [!UICONTROL **媒体报告**]
 
-   “媒体报告”页面上提供了特定于流媒体的报告。有关媒体报告的更多信息，请参阅[媒体报告启用](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=zh-Hans)。
+  “媒体报告”页面上提供了特定于流媒体的报告。有关媒体报告的更多信息，请参阅[媒体报告启用](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html)。
 
 * [!UICONTROL **媒体分类**]
 
-   “媒体分类”页面上提供了特定于流媒体的分类。有关分类的信息，请参阅[转化分类](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)。
+  “媒体分类”页面上提供了特定于流媒体的分类。有关分类的信息，请参阅[转化分类](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)。
 
 有关流媒体 Analytics 的一般信息，请参阅[适用于流媒体的 Adobe Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)。

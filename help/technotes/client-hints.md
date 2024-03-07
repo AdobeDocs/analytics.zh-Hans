@@ -4,7 +4,7 @@ description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您
 
 这两个库&#x200B;**在默认情况下禁用**&#x200B;高熵提示的收集。
 
-对于通过 API（例如，通过[数据插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[批量数据插入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=zh-Hans)）提交的数据，提示必须明确包含在负载中。请参阅相应文档以了解详细信息。
+对于通过 API（例如，通过[数据插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[批量数据插入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html)）提交的数据，提示必须明确包含在负载中。请参阅相应文档以了解详细信息。
 
 +++
 

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '5205'
-ht-degree: 99%
+source-wordcount: '5207'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
 | 异常检测和贡献分析文档的更新 | 异常检测和贡献分析的文档以前位于有关 Virtual Analyst 的部分中。进行了以下更改： <ul><li>术语 Virtual Analyst 已从文档中删除。</li><li>关于[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)的部分已直接移至 Analysis Workspace 部分下方。</li><li>贡献分析文档已合并到异常检测文档中。</li></ul> |
 | “Attribution IQ”改为“Attribution” | 将整个文档中“Attribution IQ”的所有实例更改为“[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)”。 |
 | **2023 年 11 月** | |
-| 更新了 Activity Map 激活/启用主题 | 添加了 [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=zh-Hans)（手动和通过 Adobe Experience Platform 标记扩展）内容。 |
+| 更新了 Activity Map 激活/启用主题 | 添加了 [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html)（手动和通过 Adobe Experience Platform 标记扩展）内容。 |
 | **2023 年 10 月** | |
 | 将日志信息添加到报告活动管理器 | 添加了一条信息，该信息表示在报告活动管理器中对于[报告活动的任何取消和后续限制](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)都被记录在[日志](/help/admin/admin/logs.md)中。 |
 | 更新了 Data Warehouse 对组件的支持情况 | 增加了 Data Warehouse 的一些组件的可用性并删除了其他组件的可用性。这些更改反映在 [Data Warehouse 中的组件支持](/help/export/data-warehouse/component-support.md)中。 <ul><li>增加了对“访问深度”维度的支持（从不支持的维度的列表中删除了“访问深度”）</li><li>删除了对参与率量度的支持（已将参与率量度添加到不支持的量度的列表）</li><li>增加了对以下基于时间的维度的支持：年、季度、月、周、日、小时和分钟（从不支持的维度的列表中删除了这些维度） <p>以前在选择粒度时，Data Warehouse 仅在自由格式表的第一列中支持这些维度。现在始终支持这些维度。</p><p>但是，在使用这些维度时，日期的输出不是标准格式。年份为减去 1900 所得，月份从零开始。</li></ul> |
@@ -57,12 +57,12 @@ ht-degree: 99%
 | 媒体分析报告文档改进 | 重新整理了流媒体指南的“报告”部分中的一些内容，包括将 API 文档并入其自己的部分中并调整了一些文章的顺序。 <p>已将媒体工作区模板文章重命名为 [Workspace 中的媒体报告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=zh-Hans)，更好地与产品内命名保持一致。 </p> |
 | **2023 年 8 月** | |
 | 数据馈送说明 | 更新了[开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md)以说明在处理历史数据的数据馈送时，可将开始日期设置为任何过去收集数据时的日期。 |
-| Experience Edge 数据处理 | 添加了有关 Adobe Analytics 如何[处理来自 Experience Edge 的数据](../implement/aep-edge/overview.md)的内容。 |
+| Adobe Experience Platform Edge Network数据处理 | 添加了有关Adobe Analytics如何操作的内容 [处理来自边缘网络的数据](../implement/aep-edge/overview.md). |
 | “媒体播放耗时”面板 | 更新了[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)的内容以提高可读性。 |
 | 移动了关于管理计划项目的内容 | 在《Analytics 组件指南》中创建了一篇名为[计划项目](/help/components/scheduled-projects-manager.md)的新文章。此内容以前位于《Analytics 工具指南》中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
 | 比较实施方法 | 更新了比较不同实施方法的文档。[了解详情](../implement/prepare/comparison.md) |
 | 阐明为数据馈送配置 SFTP 不需要 Adob&#x200B;e 客户服务 | 在[将 Adobe 数据发送到 SFTP 的外部 FTP 帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中说明，客户无需联系 Adobe 客户服务，即可为数据馈送配置 SFTP。 <p>还添加了一条注释，即不再建议使用 SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
-| 改进了流媒体的文档 | 改进了流媒体文档的以下几点： <ul><li>更新了[一般概述](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)以使文档表述更加清晰并包括与 Customer Journey Analytics 相关的信息。</li><li>更新了[实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hans)以明确地区分 Edge 实施和仅 Analytics 实施。还加入了图表以说明各种实施方法。</li><li>添加了 [Edge 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=zh-Hans)和[仅 Analytics 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=zh-Hans)特有的先决条件。还更新了[一般先决条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=zh-Hans)。</li><li>更新了[获取媒体 SDK、使用标记的扩展和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=zh-Hans) 文章中的表以加入新的&#x200B;*支持的解决方案*&#x200B;和&#x200B;*实施方法*&#x200B;列。</li><li>简化了文档的[实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hans)区域中文章的内容和组织方式。其中包括按 Edge 实施和仅 Analytics 实施为实施分类。</li><li>删除了在[跟踪](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=zh-Hans)下一个用不到的额外层级，并在此部分中添加了重定向到已更改的 URL。</li><ul> |
+| 改进了流媒体的文档 | 改进了流媒体文档的以下几点： <ul><li>更新了[一般概述](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)以使文档表述更加清晰并包括与 Customer Journey Analytics 相关的信息。</li><li>更新了[实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)以明确地区分 Edge 实施和仅 Analytics 实施。还加入了图表以说明各种实施方法。</li><li>添加了 [Edge 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html)和[仅 Analytics 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)特有的先决条件。还更新了[一般先决条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)。</li><li>更新了[获取媒体 SDK、使用标记的扩展和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 文章中的表以加入新的&#x200B;*支持的解决方案*&#x200B;和&#x200B;*实施方法*&#x200B;列。</li><li>简化了文档的[实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)区域中文章的内容和组织方式。其中包括按 Edge 实施和仅 Analytics 实施为实施分类。</li><li>删除了在[跟踪](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html)下一个用不到的额外层级，并在此部分中添加了重定向到已更改的 URL。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何使用 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) 通过 Adobe Analytics 实施数据收集的更全面的文档。例如，在桌面应用程序、物联网设备、机顶盒中通过 Adobe Analytics 实施数据收集。 |
 | 全球公司 ID | 已为您登录的 Analytics 公司记录[如何查找全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
@@ -132,15 +132,15 @@ ht-degree: 99%
 | 高熵客户端提示 | 关于 Adobe 如何在 User-Agent 之外使用[客户端提示](/help/technotes/client-hints.md)确定设备信息的新主题。 |
 | 处理顺序 | 我们已聚合多个帮助页面以仅提供一个关于[处理顺序](/help/technotes/processing-order.md)的帮助主题。 |
 | **2022 年 8 月** | |
-| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 XDM 指定列表变量内容[了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=zh-Hans#list-variables-using-the-web-sdk?lang=zh-Hans) | 2022 年 8 月 18 日 |
-| 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 SKU 值设置产品变量中的产品字段[了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans#products-using-the-web-sdk?lang=zh-Hans) |
+| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使使用Web SDK收集数据的客户能够使用XDM指定列表变量内容。 [了解详情](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 允许客户使用Web SDK收集数据，以使用SKU值在产品变量中设置product字段。 [了解详情](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022 年 6 月** |  |
 | 用于 Edge Collection 的 XDM 中的促销变量 | 关于[支持用于 Edge Collection 的 XDM 中促销变量的文档](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge 文档 | 关于通过 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/server-api/overview.md) 实现 Adobe Analytics 的新文章。 |
 | 更新的流量可视化文档 | 基于[新 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 关于在移动记分卡中共享注释的文档 | 您可以[在移动记分卡中显示在工作区中创建的注释](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
 | **2022 年 5 月** | |
-| 通过 Experience Edge 填充生命周期维度和量度 | Analytics 报告中现在显示通过 Experience Edge 发送的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅 [Analytics 变量映射](/help/implement/aep-edge/variable-mapping.md)。 |
+| 通过边缘网络填充生命周期维度和量度 | 发送到边缘网络的移动生命周期数据现在显示在Analytics报表中。 有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅 [Analytics 变量映射](/help/implement/aep-edge/variable-mapping.md)。 |
 | **2022 年 4 月** | |
 | Adobe Analytics 登陆页面更新 | 更新了联合 [Workspace/Reports &amp; Analytics 登录页面](/help/analyze/landing.md)，从而提高可用性和导航便利性。 |
 | 关于[!UICONTROL 页面摘要]面板的新主题 | [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)面板 |
