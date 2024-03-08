@@ -4,10 +4,10 @@ description: 检索访客查看的页面内容所占的百分比。
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 91%
+source-wordcount: '764'
+ht-degree: 85%
 
 ---
 
@@ -78,7 +78,11 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 将上述一个或多个变量分配给 eVar，以便在报告中查看维度数据。
 
-此插件会创建一个名为 `s_ppv` 且包含上述值的第一方 Cookie。该 Cookie 将在浏览器会话结束时过期。
+此插件会创建三个第一方Cookie，它们将在浏览器会话结束时过期：
+
+* `s_ppv`：存储通过调用函数公开的每个值
+* `s_tp`：存储上一页的总像素高度
+* `s_ips`：存储上一页的初始滚动百分比
 
 ## 示例
 
