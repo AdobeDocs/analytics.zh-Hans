@@ -1,8 +1,8 @@
 ---
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 205d86b13046bd17e321734904bf57435ef6e106
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 93%
 
 ---
 # 贡献文章
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ### 次要更改
 
-如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅[《Adobe 文档贡献者指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅[《Adobe 文档贡献者指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -42,18 +42,15 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区参与者可以使用 GitHub UI 进行基本编辑或创建存储库分支，以做出主要更改。
 
-有关详细信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+有关详细信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
 
 ## 如何使用 Markdown 格式化您的主题
 
-此存储库中的所有文章都使用 GitHub Flavored Markdown。如果您不熟悉 Markdown，请参阅：
-
-* [Markdown 基础知识](https://help.github.com/articles/markdown-basics/)
-* [可打印的 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+此存储库中的所有文章都使用GitHub风格的标记。 如果您不熟悉Markdown，请参阅 [基本书写和格式语法](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 在GitHub文档中。
 
 ## 标签
 
-在公共存储库中，会为拉取请求分配自动标签，以便帮助我们管理拉取请求工作流，以及帮助您了解拉取请求的处理进展：
+在公共存储库中，会为拉取请求分配自动标记，以便帮助我们管理拉取请求工作流，以及帮助您了解拉取请求的处理进展：
 
 * **已发送给作者的更改**：已通知作者拉取请求处于待处理状态。
 * **准备合并**：等待我们的拉取请求审核工作组进行审核。
