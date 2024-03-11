@@ -3,16 +3,16 @@ description: 启用“同意”管理维度。
 title: 隐私报告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 77%
 
 ---
 
 # 隐私报告
 
-隐私报告允许您启用[同意管理选择加入](/help/components/dimensions/cm-opt-in.md)和[同意管理选择退出](/help/components/dimensions/cm-opt-out.md)维度以用于报告。
+通过隐私报告，您可以启用 [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)， [同意管理选择退出](/help/components/dimensions/cm-opt-out.md) 和 [广告同意](/help/components//dimensions/ad-consent.md) 用于报表的维度。
 
 访问此页面：
 
