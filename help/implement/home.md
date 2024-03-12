@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
   ![如何使用旧版 JavaScript 实施 Adobe Analytics](./assets/appmeasurement-implementation.png)
 此实施方法可能对使用自定义代码的实施很有用，并且非常适合在别处不提供的实施类型，如非常适合 [AMP 页面](other/amp.md)。
 
-以下决策流可帮助您选择客户端实施方法：
+以下决策流程可帮助您选择客户端实施方法：
 
 ![用于选择实施方法的决策树，如本节所述。](./assets/decision-tree.png)
 
@@ -50,21 +50,21 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 ### 服务器端
 
-要实施Adobe Analytics服务器端，您有以下选项：
+要实施 Adobe Analytics 服务器端，您有以下选项：
 
-* **边缘服务器API**：在使用Adobe Experience Platform边缘服务器API通过数据流与Adobe Analytics通信的服务器上实施代码。
+* **Edge Server API**：您在使用 Adobe Experience Platform Edge Server API 通过数据流与 Adobe Analytics 进行通信的服务器上实施代码。
   ![服务器端实施](assets/edge-network-server-api.svg)
-请参阅 [使用Adobe Experience Platform Edge Network服务器API实施Adobe Analytics](/help/implement/aep-edge/server-api/overview.md) 以了解更多信息。
+请参阅[使用 Adobe Experience Platform Edge Network Server API 实施 Adobe Analytics](/help/implement/aep-edge/server-api/overview.md)，了解更多信息。
 
-* **（批量）数据插入API**：您可以使用Adobe Analytics（批量）数据插入API将数据从服务器端直接收集到Adobe Analytics中。
-  ![数据插入API](assets/analytics-apis.png)
-请参阅 [数据插入API](../import/c-data-insertion-api/c-data-insertion-api.md) 以了解更多信息。
+* **（批量）数据插入 API**：您可以使用 Adobe Analytics（批量）数据插入 API 将服务器端数据直接收集到 Adobe Analytics 中。
+  ![数据插入 API](assets/analytics-apis.png)
+请参阅[数据插入 API](../import/c-data-insertion-api/c-data-insertion-api.md)，了解更多信息。
 
 ## 移动应用程序实施方法
 
 对于您的&#x200B;**移动应用程序**，可以使用以下实现方法：
 
-* **Mobile SDK 扩展**：这是一种在您的移动应用程序中实施 Adobe Analytics 时推荐使用的标准化方法。 使用专用库，可轻松将数据从您的移动应用程序中发送到 Adobe。 在 Adobe Experience Platform 数据收集&#x200B;**标记**&#x200B;中添加 **Adobe Experience Platform Mobile SDK 扩展**，然后在您的应用程序中实施 Mobile SDK 库。可使用该 SDK 导入库、注册扩展和加载标记配置。将数据发送到 Adobe Experience Platform **Edge Network**，然后 Edge 将这些数据转发到 Adobe Analytics。
+* **Mobile SDK 扩展**：这是一种在您的移动设备应用程序中实施 Adobe Analytics 时推荐使用的标准化方法。 使用专用库，可轻松将数据从您的移动应用程序中发送到 Adobe。 在 Adobe Experience Platform 数据收集&#x200B;**标记**&#x200B;中添加 **Adobe Experience Platform Mobile SDK 扩展**，然后在您的应用程序中实施 Mobile SDK 库。可使用该 SDK 导入库、注册扩展和加载标记配置。将数据发送到 Adobe Experience Platform **Edge Network**，然后 Edge 将这些数据转发到 Adobe Analytics。
   ![Mobile SDK 扩展](./assets/mobilesdk-extension.png)
 
   有关详细信息，请参阅[使用 Adobe Experience Platform Mobile SDK 实施 Adobe Analytics](../implement/aep-edge/mobile-sdk/overview.md)。
@@ -77,7 +77,7 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 >[!CAUTION]
 >
->有关对旧版Adobe移动SDK的支持，请参阅 [SDK支持终止公告](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
+>有关对 Adobe 移动 SDK 旧版本的支持，请参阅 [SDK 终止支持公告](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/)。
 
 ## 重要 Analytics 实施文章
 
@@ -85,7 +85,7 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 * [Adobe Debugger](validate/debugger.md)
 * [在 Experience Platform 中创建标记属性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
-* [使用Platform Web SDK设置Adobe Analytics教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [使用 Platform Web SDK 设置 Adobe Analytics 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
 * [“在移动应用程序中实施 Adobe Experience Cloud”教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
 
 
