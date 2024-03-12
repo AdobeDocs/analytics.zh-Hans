@@ -8,7 +8,7 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
 workflow-type: tm+mt
 source-wordcount: '3928'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 | **`clickmaplinkbyregion`** | Activity Map 链接（按地区） | varchar(255) |
 | **`clickmappage`** | Activity Map 页面 | varchar(255) |
 | **`clickmapregion`** | Activity Map 地区 | varchar(255) |
-| **`code_ver`** | 用于编译和发送图像请求的API或客户端SDK版本。 | char(16) |
+| **`code_ver`** | 用于编译和发送图像请求的 API 或客户端 SDK 版本。 | char(16) |
 | **`color`** | 颜色深度 ID，它基于 `c_color` 列的值。引用 `color_depth.tsv` 查找表。 | 无符号 smallint |
 | **`connection_type`** | 表示连接类型的数值 ID。在[连接类型](/help/components/dimensions/connection-type.md)维度中使用的变量。引用 `connection_type.tsv` 查找表。 | 无符号 tinyint |
 | **`cookies`** | 在 [Cookie 支持](/help/components/dimensions/cookie-support.md)维度中使用的变量。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |

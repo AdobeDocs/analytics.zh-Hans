@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -42,4 +42,4 @@ Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链�
 
 {style="table-layout:auto"}
 
-请参阅 [Adobe Analytics ExperienceEvent完整扩展架构字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) 以了解更多信息。
+请参阅 [Adobe Analytics ExperienceEvent Full Extension 模式字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html)，了解更多信息。

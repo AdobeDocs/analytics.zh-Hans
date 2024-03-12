@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '5207'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 97%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 3 月** | |
-| AppMeasurement更新 | [发行说明](/help/implement/appmeasurement-updates.md) AppMeasurement更新v2.26.0。<br/>包含对的引用和更新 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档。 |
+| AppMeasurement 更新 | AppMeasurement 更新 v2.26.0 的[发行说明](/help/implement/appmeasurement-updates.md)。<br/>包括对 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档的引用和更新。 |
 | **2024 年 2 月** | |
-| 有关管理Data Warehouse请求的信息更新 | 阐明了默认情况下，用户只能查看他们在以下情况下创建的请求 [管理Data Warehouse请求](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
+| 有关管理 Data Warehouse 请求的信息的更新 | 澄清了默认情况下，用户只能查看他们在[管理 Data Warehouse 请求](/help/export/data-warehouse/data-warehouse-requests-manage.md)时创建的请求。 |
 | 项目共享文档更新 | 添加了有关如何[查看共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)的信息。<p>还简化了有关[共享单个或多个项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的信息。</p> |
 | 添加了将文件上传到 Data Warehouse 和数据馈送中的 Azure SAS 和 Azure RBAC 的权限要求 | 添加了在以下情况下将文件上传到 Azure SAS 和 Azure RBAC 时的确切权限要求：[配置 Data Warehouse 的目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[配置数据馈送的目标](/help/export/analytics-data-feed/create-feed.md)。 |
 | 添加了将文件上传到 Data Warehouse 和数据馈送中的 Amazon S3 和 GCP 存储段的权限要求 | 添加了在以下情况下将文件上传到 Amazon S3 和 Google Cloud Platform 存储段的确切权限要求：[配置 Data Warehouse 的目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[配置数据馈送的目标](/help/export/analytics-data-feed/create-feed.md)。 |
