@@ -4,10 +4,10 @@ title: Adobe Analytics 登陆页面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '2168'
-ht-degree: 100%
+source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
+workflow-type: tm+mt
+source-wordcount: '1803'
+ht-degree: 90%
 
 ---
 
@@ -17,44 +17,51 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## 新的登陆页面功能 {#new-features}
+Adobe Analytics登陆页面包含以下子选项卡：项目、报告和学习。
 
-| 功能 | 描述 | 屏幕快照 |
-| --- | --- | --- |
-| 全屏展开[!UICONTROL 项目]表格 | 单击汉堡菜单图标，展开表格。此操作将折叠左边栏标签。 | ![展开表格](assets/landing-collapse2.png) |
-| 自定义列宽 | 以前，列宽是固定的。现在可以通过拖动列分隔符进行调整。 | ![列宽](assets/column-width.png) |
-| 重新排列固定项目 | 要上下移动固定项目，请单击固定项目旁边的省略号，然后选择&#x200B;**[!UICONTROL 向上移动]** 或 **[!UICONTROL 向下移动]**。 | ![移动固定项目](assets/move-up-down.png) |
-| 新表列 | 单击表格右上角的 [!UICONTROL 自定义表格] 图标。新表列包括： <ul><li>**[!UICONTROL 计划项目]**：当项目已计划时，设置为[!UICONTROL 开启]，或者，但项目未计划时，设置为[!UICONTROL 关闭]。点击 [!UICONTROL 开启] 链接，您可以看到有关计划项目的信息。如果您是项目所有者，也可[编辑项目计划](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。</li><li>**[!UICONTROL 项目 ID]**：项目 ID 可用于调试项目。</li><li>**[!UICONTROL 最长的日期范围]**：较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 </li><li>**[!UICONTROL 查询次数]**：项目加载时向 Analytics 发出的请求总数。较多的项目查询次数会增加项目的复杂性，并可能增加处理和加载时间。此数据仅在加载项目或发送计划项目后可用。 </li></ul> | ![新列](assets/new-columns.png) |
-| 单击打开报告。 | （以前，您必须双击。） |  |
-| **[!UICONTROL Reports &amp; Analytics]** 报告的新链接 | <ul><li>**[!UICONTROL 报告]** > **[!UICONTROL 受众]** > **[!UICONTROL 机器人]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 受众]** > **[!UICONTROL 机器人页面]**<li>**[!UICONTROL 报告]** > **[!UICONTROL 参与]** > **[!UICONTROL 实时]**</li></ul> | ![新链接](assets/report-links.png) |
-| 全新开箱即用报告 | <ul><li>**[!UICONTROL 报告]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 下一页]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 上一页]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 参与]** > **[!UICONTROL 页面分析]** > **[!UICONTROL 页面摘要]**</li></ul>请注意，这些报告采用[!UICONTROL 工作区]格式，需要配置和构建。输出包括一组高级别量度、趋势数据、[!UICONTROL 流程] 可视化等。您可以修改这些报告并更改维度、维度项数等。这些报告也可以作为工作区面板下的面板使用。 | ![下一页](assets/next-page.png) |
-| **[!UICONTROL 新建项目]**&#x200B;模式恢复 | 当在 Workspace 中单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;时，您可再次在[!UICONTROL 空白项目]和[!UICONTROL 空白移动记分卡]之间进行选择。 您也可以从公司创建的任何模板中进行选择。 | ![新建](assets/create-new.png) |
-| 也在 Customer Journey Analytics 中提供 | 此登录页面的修改版也将在 Customer Journey Analytics 中提供。 |  |
+**[!UICONTROL 项目]**&#x200B;是自定义的设计，结合了您构建的或其他人构建并与您共享的数据组件、表格和可视化图表。[!UICONTROL 项目]还指空白项目和空白移动记分卡。
 
-{style="table-layout:auto"}
+**[!UICONTROL 报告]**&#x200B;是指 Adobe 预构建的任何内容，例如 Workspace 中的模板。
 
-## 顶部菜单结构 {#top-menu}
-
-![顶部菜单](assets/top-menus.png)
-
-* 顶部 Analytics 菜单：现在，大多数报告都位于左边栏中的[!UICONTROL 报告]菜单中。
-* 左边栏有三个选项卡：[!UICONTROL 项目]、[!UICONTROL 报告]和[!UICONTROL 学习]。
-
-### 术语
-
-* **[!UICONTROL 项目]**&#x200B;是自定义的设计，结合了您构建的或其他人构建并与您共享的数据组件、表格和可视化图表。[!UICONTROL 项目]还指空白项目和空白移动记分卡。
-* **[!UICONTROL 报告]**&#x200B;是指 Adobe 预构建的任何内容，例如 Workspace 中的模板。
-* **[!UICONTROL 模板]**&#x200B;不再用作 Adobe 预建的工作区项目的术语。它们现在归入[!UICONTROL 报告]下。术语[!UICONTROL 模板]仍然用于您公司创建的模板。
+此 **[!UICONTROL 学习]** 选项卡包含实践视频导览、教程和文档链接。
 
 ## 在[!UICONTROL 项目]选项卡中导航 {#navigate-projects}
 
-[!UICONTROL 项目]用作 [!UICONTROL Workspace] 主页。“项目”选项卡显示公司文件夹、您创建的任何个人文件夹、您的项目和移动记分卡。使用此页面可查看、创建和修改文件夹、项目和移动记分卡。有关更多信息，请参阅[关于 Analytics 中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
+此 [!UICONTROL 项目] 选项卡用作 [!UICONTROL 工作区] 主页。 它会显示公司文件夹、您创建的所有个人文件夹、您的项目和移动记分卡。 使用此页面可查看、创建和修改文件夹、项目和移动记分卡。有关更多信息，请参阅[关于 Analytics 中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
 
 ![全部登陆](assets/landing-all2.png)
 
 >[!NOTE]
 >
 >以下几种设置会在该会话和多个会话期间保留。例如，您选择的选项卡、选择的筛选条件、选择的列以及列排序方向。搜索结果不是持久性的。
+
+### 自定义表列
+
+要自定义列宽，请拖动分隔每列的垂直条。
+
+要在项目列表中添加或删除列，请单击右上角的列图标（![全部登陆](/help/analyze/assets/select-column.png)），然后选择或取消选择列标题。
+
+可用的列包括：
+
+| 列名称 | 描述 |
+|---------|----------|
+| [!UICONTROL **名称**] | 标识项目的名称。 |
+| [!UICONTROL **类型**] | 指示此类型是 Workspace 项目、移动记分卡还是文件夹。 |
+| [!UICONTROL **标记**] | 标记项目以将其整理到组中。 |
+| [!UICONTROL **已计划**] | 点击 [!UICONTROL 开启] 链接，您可以看到有关计划项目的信息。如果您是项目所有者，也可[编辑项目计划](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。 |
+| [!UICONTROL **项目角色**] | 标识项目角色：您是否为项目所有者，以及您是否具有编辑或复制项目的权限。 |
+| [!UICONTROL **报表包**] | 标识与项目关联的报告包。<br>面板中的表格和可视化图表从在面板的右上角选中的报告包中派生数据。报告包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报告包。报告包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
+| [!UICONTROL **所有者**] | 标识已创建项目的用户。 |
+| [!UICONTROL **共享对象**] | 显示当前与谁共享该项目。 |
+| [!UICONTROL **上次修改时间**] | 上次修改项目的日期和时间。 |
+| [!UICONTROL **上次打开时间**] | 标识当前查看项目页面的用户上次打开项目的日期。 |
+| [!UICONTROL **上次使用时间**] | 通过显示组织内任何用户上次打开项目的日期和时间，帮助确定项目对组织中的用户是否有价值。<p>此列仅供系统管理员使用。</p> |
+| [!UICONTROL **项目 ID**] | 可用于调试项目。 |
+| [!UICONTROL ****] | 较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 |
+| [!UICONTROL **查询次数**] | 加载项目时向 Analytics 发出的请求总数。较多的项目查询次数会增加项目的复杂性，并可能增加处理和加载时间。此数据仅在加载项目或发送计划项目后可用。 |
+| [!UICONTROL **位置**] | 显示项目所在的文件夹。 |
+
+### 项目页面上的其他UI元素
 
 | UI 元素 | 定义 |
 | --- | --- |
@@ -73,31 +80,8 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | 固定图标 | 固定项目，使它们始终显示在列表顶部，但您可以通过上移或下移项目来重新调整其顺序。使用省略号选项菜单并在列表中选择&#x200B;**上移**&#x200B;或&#x200B;**下移**。 |
 | 信息 (i) 图标 | 显示有关项目的以下信息：类型、项目角色、所有者、描述及其共享对象。它还指示谁可以[编辑或复制](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)此项目。 |
 | 省略号 (...) | 显示您可以执行的项目管理操作：**删除**、**共享**、**重命名**、**复制**、**取消固定**、**上移**、**下移**、**标记**、**批准**、**导出 CSV** 和&#x200B;**移至**。您可能无权执行所有列出的操作。 |
-| [!UICONTROL 类型] | 指示此类型是 Workspace 项目、移动记分卡还是文件夹。 |
-| [!UICONTROL 标记] | 标记项目以将其整理到组中。 |
-| [!UICONTROL 项目角色] | 标识项目角色：您是否为项目所有者，以及您是否具有编辑或复制项目的权限。 |
-| [!UICONTROL 报告包] | 标识与项目关联的报告包。<br>面板中的表格和可视化图表从在面板的右上角选中的报告包中派生数据。报告包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报告包。报告包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
-| [!UICONTROL 所有者] | 标识已创建项目的用户。 |
-| [!UICONTROL 上次打开时间] | 标识您上次打开项目的日期。 |
-| 自定义表格图标 | 选择要在表中查看的列。要在项目列表中添加或删除列，请单击右上角的列图标（![全部登陆](/help/analyze/assets/select-column.png)），然后选择或取消选择列标题。 |
 | 显示：文件夹和项目或所有项目 | 更改表格上的视图设置可根据文件夹结构显示文件夹和项目&#x200B;**或**&#x200B;在无结构的列表中显示所有项目。 |
 | &lt;（“返回”按钮） | 返回到 Workspace 项目或报告中最新的登陆页面配置。您离开登陆页面时的页面配置将在您返回时保留。 |
-
-### 弃用项目管理器页面 {#deprecate-pm-page}
-
-随着新登陆页面的发布，我们弃用了项目管理器，如组件管理器下所列。新的登陆页面将处理旧项目管理器页面的所有功能以及其他功能。
-
-项目管理器页面的一个常见用例是查看您的所有项目。
-
-要使用筛选器边栏查看新登陆页面上的所有项目，请选择&#x200B;**其他过滤器**，然后选择&#x200B;**全部显示**。
-
-![显示所有项目](assets/show-all-fIlter.png)
-
-如果您在“文件夹和项目”视图中，将弹出一个模式窗口，询问您是否要切换到“所有项目”视图，这样可以更轻松地在项目可能已整理到其中的任何文件夹的外部查看它们。选择&#x200B;**切换到“所有项目”视图**&#x200B;可更好地查看您有权访问的所有项目。
-
-![切换到所有项目](assets/switch-all-projects-view.png)
-
-面向管理员的另一个用例是管理公司报告，以便删除、重命名、标记或审批报告。有关管理报告的信息，请参阅[管理公司报告](#manage-company-reports)。
 
 ## 在[!UICONTROL 报告]选项卡中导航 {#navigate-reports}
 
