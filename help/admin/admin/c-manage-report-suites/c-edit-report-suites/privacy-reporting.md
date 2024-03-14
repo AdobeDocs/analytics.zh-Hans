@@ -3,16 +3,20 @@ description: 启用“同意”管理维度。
 title: 隐私报告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
+source-git-commit: a102242b98967d578918f358166e13d90f06e070
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 71%
+source-wordcount: '112'
+ht-degree: 55%
 
 ---
 
 # 隐私报告
 
 通过隐私报告，您可以启用 [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)， [同意管理选择退出](/help/components/dimensions/cm-opt-out.md) 和 [广告同意](/help/components//dimensions/ad-consent.md) 用于报表的维度。
+
+>[!NOTE]
+>
+>我们最近添加了一个新的广告平台同意标记。 如果您希望此新变量生效，则需要重新启用数据隐私报表。
 
 访问此页面：
 
