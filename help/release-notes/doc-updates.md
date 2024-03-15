@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '5207'
-ht-degree: 98%
+source-wordcount: '5243'
+ht-degree: 99%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 98%
 | --- | --- |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | AppMeasurement 更新 v2.26.0 的[发行说明](/help/implement/appmeasurement-updates.md)。<br/>包括对 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档的引用和更新。 |
+| 有关“用于”列的使用情况信息仅从2023年9月开始提供。 | 澄清了关于 **使用位置** 上的列 [项目登陆页面](/help/analyze/landing.md) 最早可追溯到2023年9月。 |
 | **2024 年 2 月** | |
 | 有关管理 Data Warehouse 请求的信息的更新 | 澄清了默认情况下，用户只能查看他们在[管理 Data Warehouse 请求](/help/export/data-warehouse/data-warehouse-requests-manage.md)时创建的请求。 |
 | 项目共享文档更新 | 添加了有关如何[查看共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)的信息。<p>还简化了有关[共享单个或多个项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的信息。</p> |
@@ -57,7 +58,7 @@ ht-degree: 98%
 | 媒体分析报告文档改进 | 重新整理了流媒体指南的“报告”部分中的一些内容，包括将 API 文档并入其自己的部分中并调整了一些文章的顺序。 <p>已将媒体工作区模板文章重命名为 [Workspace 中的媒体报告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=zh-Hans)，更好地与产品内命名保持一致。 </p> |
 | **2023 年 8 月** | |
 | 数据馈送说明 | 更新了[开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md)以说明在处理历史数据的数据馈送时，可将开始日期设置为任何过去收集数据时的日期。 |
-| Adobe Experience Platform Edge Network数据处理 | 添加了有关Adobe Analytics如何操作的内容 [处理来自边缘网络的数据](../implement/aep-edge/overview.md). |
+| Adobe Experience Platform Edge Network 数据处理 | 添加了有关 Adobe Analytics 如何[处理来自 Edge Network 数据](../implement/aep-edge/overview.md)的内容。 |
 | “媒体播放耗时”面板 | 更新了[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)的内容以提高可读性。 |
 | 移动了关于管理计划项目的内容 | 在《Analytics 组件指南》中创建了一篇名为[计划项目](/help/components/scheduled-projects-manager.md)的新文章。此内容以前位于《Analytics 工具指南》中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
 | 比较实施方法 | 更新了比较不同实施方法的文档。[了解详情](../implement/prepare/comparison.md) |
@@ -132,15 +133,15 @@ ht-degree: 98%
 | 高熵客户端提示 | 关于 Adobe 如何在 User-Agent 之外使用[客户端提示](/help/technotes/client-hints.md)确定设备信息的新主题。 |
 | 处理顺序 | 我们已聚合多个帮助页面以仅提供一个关于[处理顺序](/help/technotes/processing-order.md)的帮助主题。 |
 | **2022 年 8 月** | |
-| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使使用Web SDK收集数据的客户能够使用XDM指定列表变量内容。 [了解详情](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
-| 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 允许客户使用Web SDK收集数据，以使用SKU值在产品变量中设置product字段。 [了解详情](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
+| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使客户能够通过 Web SDK 收集数据，以使用 XDM 指定列表变量内容。[了解详情](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 使客户能够通过 Web SDK 收集数据，以使用 SKU 值设置产品变量中的产品字段。[了解详情](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022 年 6 月** |  |
 | 用于 Edge Collection 的 XDM 中的促销变量 | 关于[支持用于 Edge Collection 的 XDM 中促销变量的文档](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge 文档 | 关于通过 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/server-api/overview.md) 实现 Adobe Analytics 的新文章。 |
 | 更新的流量可视化文档 | 基于[新 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 关于在移动记分卡中共享注释的文档 | 您可以[在移动记分卡中显示在工作区中创建的注释](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
 | **2022 年 5 月** | |
-| 通过边缘网络填充生命周期维度和量度 | 发送到边缘网络的移动生命周期数据现在显示在Analytics报表中。 有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅 [Analytics 变量映射](/help/implement/aep-edge/variable-mapping.md)。 |
+| 通过 Edge Network 填充生命周期维度和量度 | Analytics 报告中现在显示发送到 Edge Network 的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅 [Analytics 变量映射](/help/implement/aep-edge/variable-mapping.md)。 |
 | **2022 年 4 月** | |
 | Adobe Analytics 登陆页面更新 | 更新了联合 [Workspace/Reports &amp; Analytics 登录页面](/help/analyze/landing.md)，从而提高可用性和导航便利性。 |
 | 关于[!UICONTROL 页面摘要]面板的新主题 | [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)面板 |

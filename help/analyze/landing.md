@@ -4,10 +4,10 @@ title: Adobe Analytics 登陆页面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 90%
+source-wordcount: '1818'
+ht-degree: 89%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Analytics登陆页面包含以下子选项卡：项目、报告和学习�
 | [!UICONTROL **共享对象**] | 显示当前与谁共享该项目。 |
 | [!UICONTROL **上次修改时间**] | 上次修改项目的日期和时间。 |
 | [!UICONTROL **上次打开时间**] | 标识当前查看项目页面的用户上次打开项目的日期。 |
-| [!UICONTROL **上次使用时间**] | 通过显示组织内任何用户上次打开项目的日期和时间，帮助确定项目对组织中的用户是否有价值。<p>此列仅供系统管理员使用。</p> |
+| [!UICONTROL **上次使用时间**] | 通过显示组织内任何用户上次打开项目的日期和时间，帮助确定项目对组织中的用户是否有价值。<p>查看此列时，请考虑以下事项：</p><ul><li>使用情况信息自2023年9月起可用。</li><li>此列仅供系统管理员使用。</li></ul> |
 | [!UICONTROL **项目 ID**] | 可用于调试项目。 |
 | [!UICONTROL ****] | 较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 |
 | [!UICONTROL **查询次数**] | 加载项目时向 Analytics 发出的请求总数。较多的项目查询次数会增加项目的复杂性，并可能增加处理和加载时间。此数据仅在加载项目或发送计划项目后可用。 |

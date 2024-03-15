@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7cb7953e3321f2e8fa814ef6f1607cbe8d0f44de
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 46%
+source-wordcount: '1167'
+ht-degree: 42%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 46%
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 现已推出。 | | 2024 年 3 月 4 日 |
 | **项目登陆页上提供的新列** | 此 **[!UICONTROL 上次使用时间]** 列现在可用于查看上的项目选项卡 [Adobe Analytics登录页面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=zh-Hans). <p>此信息可以显示上次打开项目的日期和时间，从而帮助您确定项目对组织中的用户是否有价值。</p> <p>以前， **[!UICONTROL 上次使用时间]** 列仅在计算量度管理器、区段管理器和警报管理器中可用。</p> |  | 2024 年 3 月 13 日 |
 | **Analytics支持Google所需的DMA同意标记** | 由于新的欧洲隐私法规，Google要求在欧洲收集的数据必须表明是否授予了两种特定类型的同意。 **从3月6日开始**，Google将不再接受未表明已授予相关同意的事件数据。 Adobe Analytics已发布支持功能，允许通过新的adConsent变量捕获此数据。 您可以在中看到新变量列出 [隐私报表UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). 如果要激活此项，并且已为以前的同意变量启用隐私，则需要重新启用隐私。 |  | 2024 年 3 月 13 日 |
+| **计算指标管理器和区段管理器的“用于”列中包含的Report Builder使用情况** | 查看 **使用位置** “区段管理器”或“计算量度管理器”中的列中，现在提供了该Report Builder的使用情况数据。<p>以前，区段管理器中的使用情况数据仅适用于警报、项目、计划项目和计算量度；而计算量度管理器中的使用情况数据仅适用于警报、项目和计划项目。</p> |  | 3月底或4月初 |
 | **将相同的云帐户用于数据馈送、Data Warehouse和分类集** | 您创建的云帐户和位置现在可用于导出数据(使用数据馈送和Data Warehouse)和导入数据（使用分类集）。<p> **配置帐户时的更改：** 用户可以配置云导入和导出帐户以及配置可用于以下任意目的的云导入和导出位置：<ul><li>使用分类集导入数据</li><li>使用数据馈送导出数据</li><li>使用Data Warehouse导出数据。</li></ul><p>**管理帐户时的更改**：用户可以使用“位置”页面（在“组件”>“位置”下）查看和管理其创建的所有帐户和位置，而不管这些帐户和位置是在何处创建的。 <p>以前，“位置”页面仅适用于为导入具有分类集的数据而创建的帐户。</p> | | 2024 年 4 月 |
 | **管理员可以管理其组织中的所有位置** | “位置”页面上的新选项允许管理员查看和管理组织中的所有位置。 <p>以前，管理员只能查看和管理他们创建的位置。</p> |  | 2024 年 4 月 |
 | **Activity Map对Web SDK使用的服务器调用较少** | 目前，Activity Map链接事件会计为自己的事件，并产生额外费用。 <p>此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。</p> |  | 2024 年 4 月 3 日 |
