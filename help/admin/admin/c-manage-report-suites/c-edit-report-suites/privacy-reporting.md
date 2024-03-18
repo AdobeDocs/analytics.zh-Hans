@@ -3,7 +3,7 @@ description: 启用“同意”管理维度。
 title: 隐私报告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: a102242b98967d578918f358166e13d90f06e070
+source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 55%
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->我们最近添加了一个新的广告平台同意标记。 如果您希望此新变量生效，则需要重新启用数据隐私报表。
+>我们添加了新的广告平台同意标记。 如果您希望此新变量生效，则需要重新启用数据隐私报表。
 
 访问此页面：
 
