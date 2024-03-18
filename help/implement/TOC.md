@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 96%
+source-wordcount: '408'
+ht-degree: 99%
 
 ---
 
@@ -134,9 +134,10 @@ ht-degree: 96%
    + [实施多包标记](prepare/multi-suite-tagging.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
    + [负责现有的 Adobe Analytics 实施](prepare/existing-implementation.md)
-+ 使用Adobe Experience Platform边缘网络实施Analytics {#aep-edge}
-   + [边缘网络概述](aep-edge/overview.md)
-   + [XDM对象变量映射](aep-edge/variable-mapping.md)
++ 使用 Experience Platform Edge 实施 Analytics{#aep-edge}
+   + [Experience Edge 概述](aep-edge/overview.md)
+   + [数据对象变量映射](aep-edge/data-var-mapping.md)
+   + [XDM 对象变量映射](aep-edge/xdm-var-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK 概述](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}

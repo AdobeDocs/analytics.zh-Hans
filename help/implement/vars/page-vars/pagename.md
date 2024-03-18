@@ -4,10 +4,10 @@ description: 您的网站中页面的名称。
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 81%
+source-wordcount: '258'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,10 @@ ht-degree: 81%
 
 ## 使用Web SDK的页面名称
 
-页面为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.name`.
+页面名称将映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.name`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageName`
 
 ## 使用Adobe Analytics扩展的页面名称
 

@@ -4,10 +4,10 @@ description: 手动设置点击的时间戳。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 
 ## 使用Web SDK的时间戳
 
-时间戳为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans) 在XDM字段下 `xdm.timestamp`. 此字段仅支持Unix时间。
+时间戳为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) 在XDM字段下 `xdm.timestamp`. 此字段仅支持Unix时间。
 
 ## 使用Adobe Analytics扩展的时间戳
 
@@ -33,7 +33,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -52,19 +52,19 @@ s.timestamp = new Date().toISOString();
 * 必须提供日期和时间，中间由 `T` 隔开。
 * 需要提供小时和分钟；秒是可选的，但建议提供。
 * 不支持周日期和序数日期。
-* 日期可以采用标准格式或扩展格式。例如，`2020-01-01T00:00:00Z` 和 `20200101T000000Z` 均有效。
+* 日期可以采用标准格式或扩展格式。例如，`2024-01-01T00:00:00Z` 和 `20240101T000000Z` 均有效。
 * 从技术上讲，小数分钟数和秒数是有效的，但 Adobe 会忽略小数。
 * 采用标准格式和扩展格式的时区均受支持。
 
 以下是 `timestamp` 变量中的有效 ISO 8601 示例值：
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```

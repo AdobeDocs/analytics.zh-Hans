@@ -4,10 +4,10 @@ description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '615'
+ht-degree: 85%
 
 ---
 
@@ -25,7 +25,10 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 ## 使用 Web SDK 的 props 属性
 
-在 XDM 字段 `_experience.analytics.customDimensions.props.prop1` 至 `_experience.analytics.customDimensions.props.prop75` 中，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) props 属性。在一组单独的字段中指定列表 props。
+Prop映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75`  — 列表属性在 [单独的一组字段](#list-props-web-sdk).
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`；或 `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75`  — 列表属性包含在这些字段中。
 
 ## 使用 Adobe Analytics 扩展的 props
 
@@ -60,9 +63,11 @@ s.prop1 = "Example custom value";
 >
 >实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何非扩展 ASCII 分隔符。
 
-### 使用 Web SDK 设置列表 props
+### 使用 Web SDK 设置列表 props {#list-props-web-sdk}
 
-使用所需的分隔符在报表包设置中配置列表 props 后，将在 `_experience.analytics.customDimensions.listProps.prop1.values[]` 至 `_experience.analytics.customDimensions.listProps.prop75.values[]` 下为 Adobe Analytics 映射列表 props。 Web SDK 会自动使用报表包设置下列出的正确分隔符。如果您在 XDM 字段中设置分隔符（例如，`_experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，列表属性映射到 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK 会自动使用报表包设置下列出的正确分隔符。如果您在 XDM 字段中设置分隔符（例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
+
+如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，列表属性使用与标准属性相同的字段并遵循AppMeasurement语法。
 
 ### 使用 Adobe Analytics 扩展和 AppMeasurement 设置列表 props
 

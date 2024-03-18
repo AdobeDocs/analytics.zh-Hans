@@ -4,10 +4,10 @@ description: 向 Adobe 发送链接跟踪调用。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 80%
+source-wordcount: '749'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 80%
 
 ## 使用Web SDK进行链接跟踪
 
-Web SDK不区分页面查看调用和链接跟踪调用；两者都使用 `sendEvent` 命令。 如果您希望Adobe Analytics将给定XDM事件计为链接跟踪调用，请确保您的XDM数据包含或映射到 `web.webInteraction.name`， `web.webInteraction.URL`、和 `web.webInteraction.type`.
+Web SDK不区分页面查看调用和链接跟踪调用；两者都使用 `sendEvent` 命令。
 
-* 链接名称映射到 `web.webInteraction.name`.
-* 链接URL映射到 `web.webInteraction.URL`.
-* 链接类型映射到 `web.webInteraction.type`. 有效值包括 `other`（自定义链接）、`download`（下载链接）和 `exit`（退出链接）。
+如果您使用XDM对象并希望Adobe Analytics将给定事件计为链接跟踪调用，请确保您的XDM数据包括：
+
+* 链接名称：已映射到 `xdm.web.webInteraction.name`.
+* 链接URL：映射到 `xdm.web.webInteraction.URL`.
+* 链接类型：映射到 `xdm.web.webInteraction.type`. 有效值包括 `other`（自定义链接）、`download`（下载链接）和 `exit`（退出链接）。
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+如果您使用数据对象，并且希望Adobe Analytics将给定事件计为链接跟踪调用，请确保您的数据对象包括：
+
+* 链接名称：已映射到 `data.__adobe.analytics.linkName`.
+* 链接URL：映射到 `data.__adobe.analytics.linkURL`.
+* 链接类型：映射到 `data.__adobe.analytics.linkType`. 有效值包括 `o`（自定义链接）、`d`（下载链接）和 `e`（退出链接）。
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

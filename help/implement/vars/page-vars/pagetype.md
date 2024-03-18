@@ -4,10 +4,10 @@ description: 确定当前页面是否为 404 错误。
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 75%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 
 ## 使用 Web SDK 的页面类型
 
-在 XDM 字段 `web.webPageDetails.isErrorPage` 下，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans)页面类型。 该 XDM 字段是一个布尔值；将其设置为 `true`，即可将其标记为错误页面，或者如果它并非错误页面，将其设置为 `false`。 将布尔值发送到 Analytics 报告包时，Adobe 会自动将其转换为字符串值 `errorPage`。
+渠道已映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.isErrorPage`  — 此XDM字段是一个布尔值；请将其设置为 `true` 将其标记为错误页面，或者 `false` 如果不是错误页面。
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageType`  — 此数据对象字段是一个字符串；请将其设置为 `"errorPage"` 以表明这一点。
 
 ## 使用 Adobe Analytics 扩展的页面类型
 

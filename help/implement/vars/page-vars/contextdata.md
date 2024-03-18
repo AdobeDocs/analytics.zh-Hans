@@ -4,10 +4,10 @@ description: 上下文数据变量允许您在处理规则可读取的每个页�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,26 @@ ht-degree: 100%
 
 ## 使用 Web SDK 的上下文数据变量
 
-如果未[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans) XDM 字段，它会自动包含为上下文数据变量。然后，您可以使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)将上下文数据变量分配给所需的 Analytics 变量。
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则所有未映射到Adobe Analytics变量的字段都会自动包含为上下文数据变量。 然后，您可以使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)将上下文数据变量分配给所需的 Analytics 变量。
 
-虽然最佳实践是将数据映射到 Datastream 中正确的 XDM 字段，但可通过此方法获得类似的结果。
+如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则所有上下文数据变量都位于 `data.__adobe.analytics.contextData` 作为键值对：
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
+      }
+    }
+  }
+});
+```
+
+此 [处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 界面将显示 `c.example_variable` 和 `c.second_example` （在适用的下拉菜单中）。
 
 ## 使用 Adobe Analytics 扩展程序的上下文数据变量
 

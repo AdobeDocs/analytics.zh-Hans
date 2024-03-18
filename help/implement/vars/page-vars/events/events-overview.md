@@ -4,10 +4,10 @@ description: 设置事件变量，该变量可控制网站上的大多数量度�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 90%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -19,24 +19,26 @@ ht-degree: 90%
 
 ## 使用 Web SDK 的事件
 
-在以下 XDM 字段下方，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)自定义事件：
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，自定义事件使用以下XDM字段：
 
-* 自定义事件 1-100 将映射到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`。
-* 自定义事件 101-200 将映射到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`。
-* 此模式将每 100 个事件重复一次到 `_experience.analytics.event901to1000.event901` – `_experience.analytics.event901to1000.event1000`。`eventx.value` 用于指定增量。`eventx.id` 用于[序列化](event-serialization.md)。
-* 订单将映射到 `commerce.purchases.value`。
+* 自定义事件 1-100 将映射到 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`。
+* 自定义事件 101-200 将映射到 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`。
+* 此模式将每 100 个事件重复一次到 `xdm._experience.analytics.event901to1000.event901` – `xdm._experience.analytics.event901to1000.event1000`。`eventx.value` 用于指定增量。`eventx.id` 用于[序列化](event-serialization.md)。
+* 订单将映射到 `xdm.commerce.purchases.value`。
 * 件数将映射到所有 `productListItems[].quantity` 字段的总和。
 * 收入将映射到所有 `productListItems[].priceTotal` 字段的总和。
-* 产品视图将映射到 `commerce.productListViews.value`。
-* 购物车将映射到 `commerce.productListOpens.value`。
-* 购物车加货将映射到 `commerce.productListAdds.value`。
-* 购物车减货将映射到 `commerce.productListRemovals.value`。
-* 购物车查看次数将映射到 `commerce.productListViews.value`。
-* 结账将映射到 `commerce.checkouts.value`。
+* 产品视图将映射到 `xdm.commerce.productListViews.value`。
+* 购物车将映射到 `xdm.commerce.productListOpens.value`。
+* 购物车加货将映射到 `xdm.commerce.productListAdds.value`。
+* 购物车减货将映射到 `xdm.commerce.productListRemovals.value`。
+* 购物车查看次数将映射到 `xdm.commerce.productListViews.value`。
+* 结账将映射到 `xdm.commerce.checkouts.value`。
 
 >[!NOTE]
 >
 >如果在 `productListItems` 下设置一个事件（例如 `productListItems._experience.analytics.event1.value`），并且该事件尚未在此字段中，则该事件会自动添加到此字段中。
+
+如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，所有事件都使用 `data.__adobe.analytics.events`，遵循字符串AppMeasurement语法。 如果设置此字段，则会覆盖XDM对象中设置的任何事件，且不会发送到Adobe Analytics。
 
 ## 使用 Adobe Analytics 扩展的事件
 

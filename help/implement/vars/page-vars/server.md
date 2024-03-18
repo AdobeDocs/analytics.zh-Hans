@@ -4,7 +4,7 @@ description: 填充“服务器”维度。
 feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 74%
@@ -17,7 +17,10 @@ ht-degree: 74%
 
 ## 使用Web SDK的服务器
 
-服务器是 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.server`.
+服务器映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.server`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.server`
 
 ## 使用Adobe Analytics扩展的服务器
 

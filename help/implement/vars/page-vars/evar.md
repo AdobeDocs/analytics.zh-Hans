@@ -4,10 +4,10 @@ description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 96%
+source-wordcount: '405'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,10 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 
 ## 使用 Web SDK 的 eVar
 
-在 XDM 字段 `_experience.analytics.customDimensions.eVars.eVar1` 至 `_experience.analytics.customDimensions.eVars.eVar250` 中，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) eVar。
+eVar映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.eVars.eVar1` 到 `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.eVar1` 到 `data.__adobe.analytics.eVar250`；或 `data.__adobe.analytics.v1` 到 `data.__adobe.analytics.v250`
 
 ## 使用 Adobe Analytics 扩展的 eVar
 

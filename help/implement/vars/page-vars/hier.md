@@ -4,9 +4,9 @@ description: 在 Adobe Analytics 中实施层级变量。
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 95%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## 使用 Web SDK 的层级
 
-在 XDM 字段 `_experience.analytics.customDimensions.hierarchies.hier1` 至 `_experience.analytics.customDimensions.hierarchies.hier5` 中，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 层级。
+在 XDM 字段 `xdm._experience.analytics.customDimensions.hierarchies.hier1` 至 `xdm._experience.analytics.customDimensions.hierarchies.hier5` 中，[为 Adobe Analytics 映射](/help/implement/aep-edge/xdm-var-mapping.md) 层级。
 
 ## 使用 Adobe Analytics 扩展的层级
 

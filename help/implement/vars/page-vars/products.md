@@ -4,10 +4,10 @@ description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 68%
+source-wordcount: '688'
+ht-degree: 64%
 
 ---
 
@@ -21,18 +21,20 @@ ht-degree: 68%
 
 ## 使用Web SDK的产品
 
-产品为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，产品将映射到以下变量：
 
-* 类别映射到 `productListItems[].productCategories[].categoryID`. 它使用 `productCategories[]` 数组。 `lineItemId` 也正确映射，但我们建议 `categoryID` 因为这是标准XDM。 如果两个XDM字段都存在 `lineItemId` 优先。
-* 产品已映射到 `productListItems[].SKU` 或 `productListItems[].name`. 如果两个XDM字段都存在， `productListItems[].SKU` 已使用。
-* 数量映射到 `productListItems[].quantity`.
-* 价格已映射到 `productListItems[].priceTotal`.
-* 促销eVar映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 到 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
-* 促销事件映射到 `productListItems[]._experience.analytics.event1to100.event1.value` 到 `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要捆绑到产品的事件。 如果您在其中某个字段中设置了事件，则该事件将自动包含在 [事件](events/events-overview.md) 发送到Adobe Analytics的字符串。
+* 类别映射到 `xdm.productListItems[].productCategories[].categoryID`. 它使用 `productCategories[]` 数组。 `lineItemId` 也正确映射，但Adobe建议 `categoryID` 因为它是标准的XDM。 如果两个XDM字段都存在， `lineItemId` 优先。
+* 产品已映射到 `xdm.productListItems[].SKU` 或 `xdm.productListItems[].name`. 如果两个XDM字段都存在， `xdm.productListItems[].SKU` 已使用。
+* 数量映射到 `xdm.productListItems[].quantity`.
+* 价格已映射到 `xdm.productListItems[].priceTotal`.
+* 促销eVar映射到 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 到 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
+* 促销事件映射到 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 到 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要捆绑到产品的事件。 如果您在其中某个字段中设置了事件，则该事件将自动包含在 [事件](events/events-overview.md) 发送到Adobe Analytics的字符串。
 
 >[!NOTE]
 >
 >`lineItemId` 必须添加为自定义字段，因为它尚未包含在标准Analytics事件架构中。 Adobe计划将来添加专用的“类别”字段。
+
+如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，产品变量使用 `data.__adobe.analytics.products` 遵循AppMeasurement语法。 如果设置此字段，则会覆盖XDM对象中设置的任何产品，并且不会将其发送到Adobe Analytics。
 
 ## 使用Adobe Analytics扩展的产品
 

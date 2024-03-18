@@ -4,7 +4,7 @@ description: 使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展�
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 72%
@@ -65,7 +65,7 @@ ht-degree: 72%
 <tr>
 <td>7</td>
 <td><b>配置 Web SDK</b>。 确保使用数据流ID(以前称为边缘配置ID (<code>edgeConfigId</code>)，组织id (<code>orgId</code>)，以及其他可用选项。 确保正确映射变量。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">配置Web SDK</a><br/><a href="../variable-mapping.md">XDM对象变量映射</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">配置Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM对象变量映射</a></td>
 </tr>
 
 <tr>

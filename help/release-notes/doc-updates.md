@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
 ht-degree: 99%
@@ -141,7 +141,7 @@ ht-degree: 99%
 | 更新的流量可视化文档 | 基于[新 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 关于在移动记分卡中共享注释的文档 | 您可以[在移动记分卡中显示在工作区中创建的注释](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
 | **2022 年 5 月** | |
-| 通过 Edge Network 填充生命周期维度和量度 | Analytics 报告中现在显示发送到 Edge Network 的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅 [Analytics 变量映射](/help/implement/aep-edge/variable-mapping.md)。 |
+| 通过 Edge Network 填充生命周期维度和量度 | Analytics 报告中现在显示发送到 Edge Network 的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅 [Analytics 变量映射](/help/implement/aep-edge/xdm-var-mapping.md)。 |
 | **2022 年 4 月** | |
 | Adobe Analytics 登陆页面更新 | 更新了联合 [Workspace/Reports &amp; Analytics 登录页面](/help/analyze/landing.md)，从而提高可用性和导航便利性。 |
 | 关于[!UICONTROL 页面摘要]面板的新主题 | [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)面板 |

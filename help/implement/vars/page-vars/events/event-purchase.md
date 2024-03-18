@@ -4,10 +4,10 @@ description: 使用购买事件收集“订单数”、“件数”和“收入�
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 74%
+source-wordcount: '464'
+ht-degree: 72%
 
 ---
 
@@ -23,15 +23,17 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->收入不是乘以数量字段。例如， `s.products="Womens;Socks;5;4.50"` 不会向收入传递$22.50，而是传递$4.50。确保您的实施传递了所列数量的总收入。 例如：`s.products="Womens;Socks;5;22.50"`。
+>收入不是乘以数量字段。例如， `s.products="Womens;Socks;5;4.50"` 不会向收入传递$22.50，而是传递$4.50。确保您的实施传递了所列数量的总收入。 例如，`s.products="Womens;Socks;5;22.50"`。
 
 ## 使用Web SDK设置购买事件
 
-购买事件为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，购买事件使用以下XDM字段：
 
-* 订单将映射到 `commerce.purchases.value`。
-* 件数将映射到所有 `productListItems[].quantity` 字段的总和。
-* 收入将映射到所有 `productListItems[].priceTotal` 字段的总和。
+* 订单将映射到 `xdm.commerce.purchases.value`。
+* 件数将映射到所有 `xdm.productListItems[].quantity` 字段的总和。
+* 收入将映射到所有 `xdm.productListItems[].priceTotal` 字段的总和。
+
+如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，购买事件使用 `data.__adobe.analytics.events`，遵循字符串AppMeasurement语法。
 
 ## 使用Adobe Analytics扩展设置购买事件
 

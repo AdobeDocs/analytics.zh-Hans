@@ -5,10 +5,10 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 90%
 
 ---
 
@@ -45,10 +45,10 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ### 使用 Web SDK 的产品语法
 
-在几个不同的 XDM 字段下， [为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)产品语法促销变量。
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，产品语法促销变量使用以下XDM字段：
 
-* 产品语法促销 eVar 在 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 下映射到 `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`。
-* 产品语法促销事件在 `productListItems[]._experience.analytics.event1to100.event1.value` 下映射到 `productListItems[]._experience.analytics.event901to1000.event1000.value`。 [事件序列化](events/event-serialization.md)XDM 字段在 `productListItems[]._experience.analytics.event1to100.event1.id` 下映射到 `productListItems[]._experience.analytics.event901to1000.event1000.id`。
+* 产品语法促销 eVar 在 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 下映射到 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`。
+* 产品语法促销事件在 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 下映射到 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`。 [事件序列化](events/event-serialization.md)XDM 字段在 `xdm.productListItems[]._experience.analytics.event1to100.event1.id` 下映射到 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`。
 
 >[!NOTE]
 >
@@ -56,36 +56,38 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 以下示例展示了使用多个推销 eVar 和事件的单一[产品](products.md)：
 
-```js
+```json
 "productListItems": [
-    {
-        "name": "Bahama Shirt",
-        "priceTotal": "12.99",
-        "quantity": 3,
-        "_experience": {
-            "analytics": {
-                "customDimensions" : {
-                    "eVars" : {
-                        "eVar10" : "green",
-                        "eVar33" : "large"
-                    }
-                },
-                "event1to100" : {
-                    "event4" : {
-                        "value" : 1
-                    },
-                    "event10" : {
-                        "value" : 2,
-                        "id" : "abcd"
-                    }
-                }
-            }
+  {
+    "name": "Bahama Shirt",
+    "priceTotal": "12.99",
+    "quantity": 3,
+    "_experience": {
+      "analytics": {
+        "customDimensions" : {
+          "eVars" : {
+            "eVar10" : "green",
+            "eVar33" : "large"
+          }
+        },
+        "event1to100" : {
+          "event4" : {
+            "value" : 1
+          },
+          "event10" : {
+            "value" : 2,
+            "id" : "abcd"
+          }
         }
+      }
     }
+  }
 ]
 ```
 
 上述示例对象将作为 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` 发送到 Adobe Analytics。
+
+如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，eVar促销用途 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` 遵循AppMeasurement语法。
 
 ## 使用转化变量语法实施
 
@@ -109,33 +111,60 @@ s.products = ";Canary";
 
 ### 使用 Web SDK 的转化变量语法
 
-使用 Web SDK 的转化变量语法的操作，类似于实现其他 [eVar](evar.md) 和[事件 ](events/events-overview.md)。镜像上述示例的 XDM 如下所示：
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，语法的操作方式与实现其他语法类似 [eVar](evar.md) 和 [事件](events/events-overview.md). 镜像上述示例的 XDM 如下所示：
 
 在同一或上个事件调用中设置 eVar：
 
-```js
+```json
 "_experience": {
-    "analytics": {
-        "customDimensions": {
-            "eVars": {
-                "eVar1" : "Aviary"
-            }
-        }
+  "analytics": {
+    "customDimensions": {
+      "eVars": {
+        "eVar1" : "Aviary"
+      }
     }
+  }
 }
 ```
 
 设置产品字符串的捆绑事件和值：
 
-```js
+```json
 "commerce": {
-    "productViews" : {
-        "value" : 1
-    }
+  "productViews" : {
+    "value" : 1
+  }
 },
 "productListItems": [
-    {
-        "name": "Canary"
-    }
+  {
+    "name": "Canary"
+  }
 ]
+```
+
+如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则镜像上述示例的数据对象将如下所示：
+
+在同一或上个事件调用中设置 eVar：
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "eVar1": "Aviary"
+    }
+  }
+}
+```
+
+设置产品字符串的捆绑事件和值：
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "events": "prodView",
+      "products": ";Canary"
+    }
+  }
+}
 ```

@@ -4,10 +4,10 @@ description: 填充“网站区域”维度。
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 76%
+source-wordcount: '194'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 76%
 
 ## 使用Web SDK的渠道
 
-渠道为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.siteSection`.
+渠道已映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `web.webPageDetails.siteSection`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.channel` 或 `data.__adobe.analytics.ch`
 
 ## 使用Adobe Analytics扩展的“渠道”
 

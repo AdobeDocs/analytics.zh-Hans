@@ -4,10 +4,10 @@ description: 填充“跟踪代码”维度。
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 93%
+source-wordcount: '240'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 93%
 
 ## 使用 Web SDK 的营销活动
 
-在 XDM 字段 `marketing.trackingCode` 下[为 Adobe Analytics 映射营销活动](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)。
+Campaign会映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `marketing.trackingCode`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.campaign` 或 `data.__adobe.analytics.v0`
 
 ## 使用 Adobe Analytics 扩展的营销活动
 

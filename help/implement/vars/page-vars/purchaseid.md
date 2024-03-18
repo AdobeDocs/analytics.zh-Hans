@@ -4,7 +4,7 @@ description: 根据唯一购买标识符删除重复点击。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 83%
@@ -21,7 +21,10 @@ ht-degree: 83%
 
 ## 使用Web SDK的购买ID
 
-购买ID为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans) 在XDM字段下 `commerce.order.purchaseID`.
+购买ID会映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.purchaseID`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.purchaseID`
 
 ## 使用Adobe Analytics扩展购买ID
 

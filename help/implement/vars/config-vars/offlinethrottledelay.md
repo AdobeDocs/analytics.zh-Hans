@@ -4,10 +4,10 @@ description: 确定设备恢复为在线状态时的点击频率。
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '195'
+ht-degree: 83%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 90%
 离线跟踪是在 Adobe Analytics 中收集数据的一种可选方式。如果访客断开与 Internet 的连接但继续浏览您的网站，则点击量会存储在离线队列中，直到设备重新连接到 Internet 为止。离线跟踪主要用于移动设备应用程序。
 
 当设备恢复为在线状态时，存储在设备上的所有点击都将被发送到 Adobe 数据收集服务器。如果已排队点击的数量过大，可能会潜在地影响旧设备的性能。使用 `offlineThrottleDelay` 变量可确定将已排队的点击发送到 Adobe 的频率。
+
+## 使用Web SDK的离线限制延迟
+
+Web SDK不支持离线跟踪。
 
 ## 使用Adobe Analytics扩展的“离线限制延迟”
 

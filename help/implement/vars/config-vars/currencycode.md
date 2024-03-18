@@ -4,10 +4,10 @@ description: 对于电子商务网站，设置页面交易的货币。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,10 @@ ht-degree: 100%
 
 ## 使用 Web SDK 的货币代码
 
-在 XDM 字段 `commerce.order.currencyCode` 下，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)货币代码。
+货币代码映射到以下变量：
+
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.currencyCode`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.currencyCode` 或 `data.__adobe.analytics.cc`
 
 ## 使用 Adobe Analytics 扩展程序的货币代码
 

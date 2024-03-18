@@ -4,10 +4,10 @@ description: abort 变量是一个布尔值，用于阻止将点击发送到 Ado
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 44%
+source-wordcount: '329'
+ht-degree: 39%
 
 ---
 
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->`abort` 变量在每次跟踪调用后将重置为 `false`。如果需要中止同一页面上的后续跟踪调用，请再次将 `abort` 设置为 `true`。
+>`abort` 变量在每次跟踪调用后将重置为 `false`。如果要中止同一页面上的后续跟踪调用，请设置 `abort` 到 `true` 再来一次。
 
-例如， `abort` 变量可在 [`doPlugins()`](../functions/doplugins.md) 函数，在将图像请求发送到Adobe之前运行的最后一个函数。 此示例的操作方式与 `onBeforeEventSend` 使用Web SDK回调。
+此 `abort` 变量可在 [`doPlugins()`](../functions/doplugins.md) 函数，在将图像请求发送到Adobe之前运行的最后一个函数。 此示例的操作方式与 `onBeforeEventSend` 使用Web SDK回调。
 
 ```js
 s.doPlugins = function(s) {

@@ -4,10 +4,10 @@ description: 帮助删除网站上的重复量度。
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 83%
 
 ---
 
@@ -35,9 +35,11 @@ ht-degree: 96%
 
 ## 通过 Web SDK 使用事件 ID
 
-在所需事件 XDM 字段的 `id` 下[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)事件序列化。完整的 XDM 路径取决于要序列化的事件。
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，事件序列化使用所需事件的XDM字段 `id`. 完整的 XDM 路径取决于要序列化的事件。
 
-例如，如果要序列化“购物车新增”量度，请将 `commerce.productListAdds.id` XDM 字段设置为所需的序列化值。如果要序列化自定义事件 20，请将 `_experience.analytics.event1to100.event20` XDM 字段设置为所需的序列化值。
+例如，如果要序列化购物车添加量度，请设置 `xdm.commerce.productListAdds.id` 到所需的序列化值。 如果要序列化自定义事件20，请设置 `xdm._experience.analytics.event1to100.event20` 到所需的序列化值。
+
+如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，事件序列化使用 `data.__adobe.analytics.events`，遵循字符串AppMeasurement语法。
 
 ## 通过 Adobe Analytics 扩展使用事件 ID
 
