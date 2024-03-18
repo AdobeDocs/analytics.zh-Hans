@@ -1,17 +1,17 @@
 ---
 description: 描述如何在 Analysis Workspace 中筛选和排序表格的文档。
-title: 筛选和排序自由格式表
+title: 自由格式表筛选和排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
+source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 68%
+source-wordcount: '878'
+ht-degree: 71%
 
 ---
 
-# 筛选和排序自由格式表
+# 自由格式表筛选和排序
 
 Analysis Workspace 中的自由格式表是进行交互式数据分析的基础。因此，它们可以包含数千行信息。对数据进行过滤和排序是有效地呈现最重要信息的关键部分。
 
@@ -48,12 +48,14 @@ Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
 
    按住Shift键选择一定范围的行，或按住Command键(在Mac上)或Ctrl键（在Windows上）选择多行。
 
-### 右键单击>删除选定的行
+<!--### Right-click > Delete selected rows
 
-1. 选择1行或更多行。
-1. 右键单击并选择 **[!UICONTROL 删除所选行]**.
+Note: this option does not seem to work. AN-338422
 
-   此操作将从表中删除行并应用表过滤器。
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
 
 ### 对表应用简单或高级过滤器
 
@@ -67,7 +69,7 @@ Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
 
    可以使用以下选项：
 
-   | 选项 | 函数 |
+   | 选项 | 功能 |
    |---------|----------|
    | [!UICONTROL **搜索词或短语**] | 指定要作为过滤依据的单词或短语。 仅显示包含指定单词或确切短语的行。 |
    | [!UICONTROL **包括未指定的项（无）**] | 选择此选项可在表中显示不属于表格的任何维度的数据。<!--what is this?--> |
