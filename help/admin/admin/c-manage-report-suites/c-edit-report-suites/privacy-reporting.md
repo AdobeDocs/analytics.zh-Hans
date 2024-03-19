@@ -3,16 +3,16 @@ description: 启用“同意”管理维度。
 title: 隐私报告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: d7e2667bc232435881107f31d25843ef224a96b2
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 45%
+source-wordcount: '113'
+ht-degree: 54%
 
 ---
 
 # 隐私报告
 
-通过隐私报告，您可以启用 [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)， [同意管理选择退出](/help/components/dimensions/cm-opt-out.md) 和 [广告同意](/help/components//dimensions/ad-consent.md) 用于报表的维度。
+通过隐私报告，您可以启用 [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)， [同意管理选择退出](/help/components/dimensions/cm-opt-out.md) 和 [广告平台同意](/help/components//dimensions/ad-consent.md) 用于报表的维度。
 
 >[!NOTE]
 >
@@ -36,7 +36,3 @@ ht-degree: 45%
 1. 启用后，将出现一则确认消息。 维度可见于报告。
 
    ![报告](assets/consent-management.png)
-
-## 广告同意维度
-
-此 [广告同意维度](/help/components/dimensions/ad-consent.md) 显示是否同意向第三方广告提供商(如Google、Meta等)发送数据。
