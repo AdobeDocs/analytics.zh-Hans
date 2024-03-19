@@ -7,7 +7,7 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
 source-wordcount: '1818'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -17,17 +17,17 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-Adobe Analytics登陆页面包含以下子选项卡：项目、报告和学习。
+Adobe Analytics 登陆页面由以下子选项卡组成：项目、报告和学习。
 
 **[!UICONTROL 项目]**&#x200B;是自定义的设计，结合了您构建的或其他人构建并与您共享的数据组件、表格和可视化图表。[!UICONTROL 项目]还指空白项目和空白移动记分卡。
 
 **[!UICONTROL 报告]**&#x200B;是指 Adobe 预构建的任何内容，例如 Workspace 中的模板。
 
-此 **[!UICONTROL 学习]** 选项卡包含实践视频导览、教程和文档链接。
+**[!UICONTROL “学习”]**&#x200B;选项卡包含实践视频导览、教程以及文档链接。
 
 ## 在[!UICONTROL 项目]选项卡中导航 {#navigate-projects}
 
-此 [!UICONTROL 项目] 选项卡用作 [!UICONTROL 工作区] 主页。 它会显示公司文件夹、您创建的所有个人文件夹、您的项目和移动记分卡。 使用此页面可查看、创建和修改文件夹、项目和移动记分卡。有关更多信息，请参阅[关于 Analytics 中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
+[!UICONTROL 项目]选项卡用作 [!UICONTROL Workspace] 主页。该选项卡显示公司文件夹、您创建的任何个人文件夹、您的项目和移动记分卡。使用此页面可查看、创建和修改文件夹、项目和移动记分卡。有关更多信息，请参阅[关于 Analytics 中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
 
 ![全部登陆](assets/landing-all2.png)
 
@@ -35,13 +35,13 @@ Adobe Analytics登陆页面包含以下子选项卡：项目、报告和学习�
 >
 >以下几种设置会在该会话和多个会话期间保留。例如，您选择的选项卡、选择的筛选条件、选择的列以及列排序方向。搜索结果不是持久性的。
 
-### 自定义表列
+### 自定义表格列
 
 要自定义列宽，请拖动分隔每列的垂直条。
 
 要在项目列表中添加或删除列，请单击右上角的列图标（![全部登陆](/help/analyze/assets/select-column.png)），然后选择或取消选择列标题。
 
-可用的列包括：
+可用列是：
 
 | 列名称 | 描述 |
 |---------|----------|
@@ -50,18 +50,18 @@ Adobe Analytics登陆页面包含以下子选项卡：项目、报告和学习�
 | [!UICONTROL **标记**] | 标记项目以将其整理到组中。 |
 | [!UICONTROL **已计划**] | 点击 [!UICONTROL 开启] 链接，您可以看到有关计划项目的信息。如果您是项目所有者，也可[编辑项目计划](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。 |
 | [!UICONTROL **项目角色**] | 标识项目角色：您是否为项目所有者，以及您是否具有编辑或复制项目的权限。 |
-| [!UICONTROL **报表包**] | 标识与项目关联的报告包。<br>面板中的表格和可视化图表从在面板的右上角选中的报告包中派生数据。报告包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报告包。报告包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
+| [!UICONTROL **报告包**] | 标识与项目关联的报告包。<br>面板中的表格和可视化图表从在面板的右上角选中的报告包中派生数据。报告包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报告包。报告包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
 | [!UICONTROL **所有者**] | 标识已创建项目的用户。 |
-| [!UICONTROL **共享对象**] | 显示当前与谁共享该项目。 |
-| [!UICONTROL **上次修改时间**] | 上次修改项目的日期和时间。 |
-| [!UICONTROL **上次打开时间**] | 标识当前查看项目页面的用户上次打开项目的日期。 |
-| [!UICONTROL **上次使用时间**] | 通过显示组织内任何用户上次打开项目的日期和时间，帮助确定项目对组织中的用户是否有价值。<p>查看此列时，请考虑以下事项：</p><ul><li>使用情况信息自2023年9月起可用。</li><li>此列仅供系统管理员使用。</li></ul> |
+| [!UICONTROL **共享对象**] | 显示当前与谁共享项目。 |
+| [!UICONTROL **上次修改时间**] | 项目上次修改的日期和时间。 |
+| [!UICONTROL **上次打开时间**] | 标识当前正在查看“项目”页面的用户上次打开项目的日期。 |
+| [!UICONTROL **上次使用**] | 通过显示组织内任何用户上次打开项目的日期和时间，帮助确定项目对组织中的用户是否有价值。<p>查看此列时，请考虑以下事项：</p><ul><li>使用情况信息自2023年9月起可用。</li><li>此列仅供系统管理员使用。</li></ul> |
 | [!UICONTROL **项目 ID**] | 可用于调试项目。 |
 | [!UICONTROL ****] | 较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 |
 | [!UICONTROL **查询次数**] | 加载项目时向 Analytics 发出的请求总数。较多的项目查询次数会增加项目的复杂性，并可能增加处理和加载时间。此数据仅在加载项目或发送计划项目后可用。 |
 | [!UICONTROL **位置**] | 显示项目所在的文件夹。 |
 
-### 项目页面上的其他UI元素
+### 项目页面上的其他 UI 元素
 
 | UI 元素 | 定义 |
 | --- | --- |
