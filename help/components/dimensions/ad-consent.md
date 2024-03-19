@@ -2,10 +2,10 @@
 title: 广告同意
 description: 请参阅第三方广告提供商的广告同意配置。
 feature: Dimensions
-source-git-commit: 31f61c64fef707e2d2499b853a9b54caf847634b
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 1%
 目前，此维度仅用于Google。 由于欧洲隐私法规、《数字市场法》(DMA)的要求，Google要求发送到其服务器并在欧洲收集的数据必须表明是否征得同意。 某些Analytics客户会通过Adobe Advertising将事件数据作为转化事件发送到Google。
 
 将来，此维度可用于支持对其他第三方广告提供商的附加同意信息进行编码。
-
 
 ## 使用数据填充此维度
 
@@ -58,3 +57,5 @@ contextData.['adConsent'] = "YN..."
 贵组织确定实施此上下文数据变量的逻辑。 该值不会在设置的点击之外继续存在，因此您必须在每个页面上设置上下文数据变量。
 
 Adobe Analytics当您通过Adobe Advertising将广告数据作为转化事件发送到Google时，请咨询Adobe Advertising团队以协助进行集成。
+
+有关详细信息，请参阅， [隐私报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).

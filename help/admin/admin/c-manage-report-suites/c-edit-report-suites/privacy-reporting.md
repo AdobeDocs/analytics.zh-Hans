@@ -3,10 +3,10 @@ description: 启用“同意”管理维度。
 title: 隐私报告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 55%
+source-wordcount: '136'
+ht-degree: 45%
 
 ---
 
@@ -36,3 +36,7 @@ ht-degree: 55%
 1. 启用后，将出现一则确认消息。 维度可见于报告。
 
    ![报告](assets/consent-management.png)
+
+## 广告同意维度
+
+此 [广告同意维度](/help/components/dimensions/ad-consent.md) 显示是否同意向第三方广告提供商(如Google、Meta等)发送数据。
