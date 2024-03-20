@@ -4,7 +4,7 @@ description: 如何使用和解释 Analysis Workspace 中的“媒体平均受�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: b718c3d545dc8c8d839037d5e0ea840404efc50b
+source-git-commit: 68cdf9debcd3bd50b0d33cf24206b64f7730e57a
 workflow-type: tm+mt
 source-wordcount: '1655'
 ht-degree: 31%
@@ -129,7 +129,7 @@ ht-degree: 31%
 
 “媒体平均受众访问分钟数”面板仅使用“平均受众访问分钟数”量度来收集数据。 在面板中无法使用划分或其他量度。
 
-| 度量 | 描述 |
+| 量度 | 描述 |
 |--------|-------------|
 | 平均受众访问分钟数 | 查看您的媒体流的逗留时间除以通过“分类”提供的视频长度（持续时间）。 |
 
@@ -155,6 +155,6 @@ ht-degree: 31%
 
 “媒体平均受众访问分钟数”面板仅使用“平均受众访问分钟数”量度来收集数据。 在面板中无法使用划分或其他量度。
 
-| 度量 | 描述 |
+| 量度 | 描述 |
 |---|---|
 | 平均受众访问分钟数 | 查看您的媒体流的逗留时间除以所选总时段或所选粒度（分钟）。 |
