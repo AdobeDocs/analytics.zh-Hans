@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 85%
+source-wordcount: '1303'
+ht-degree: 80%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198；AN-338009；AN-339549；AN-333970；AN-334790；AN-336461；AN-33657
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| **已保存的13个月到期`cust_visids`** | 2024年3月20日 | 即将发布的Analytics点击处理引擎将从4月或5月开始，强制实施已保存的13个月有效期 `cust_visids`. 如果报表包启用了“启用访客拼接”，则此设置将用于查找 `cust_visid` 对于 `visid_high/visid_low value` 不含 `cust_visid` 在点击中。 目前，的映射没有过期 `cust_visid` 对于 `visid_high/visid_low`. 在此版本中，如果自以下时间以来已过13个月或更长时间 `visid_high/visid_low` 曾经 `cust_visid` 在点击时，映射将过期。 |
 | **添加了 Adobe API 对象成员** | 2024 年 1 月 17 日 | Adobe 可能会随时无通知或在版本控制中无变更地将可选的请求和响应成员（名称/值对）添加到现有的 API 对象。Adobe 建议您参考与我们的 API 集成的任何第三方工具的 API 文档，以便在处理过程中忽略不了解的此类添加。如果正确实施，则此类添加应为不令您的实施发生中断的更改。如果没有首先通过发行说明提供标准通知，Adobe 不会删除参数或添加所需参数。 |
 | **`getPageLoadTime`插件被弃用** | 2024 年 1 月 10 日 | 不再支持此插件。其代码利用了 performance.timing 方法，而（据 MDN 称）该方法已被[弃用](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)。更新插件的工作已经开始。 |
 
