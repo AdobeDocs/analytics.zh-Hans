@@ -2,9 +2,9 @@
 title: 广告平台同意书
 description: 请参阅第三方广告提供商的广告同意配置。
 feature: Dimensions
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
+source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 目前，此维度仅用于Google。 由于欧洲隐私法规、《数字市场法》(DMA)的要求，Google要求发送到其服务器并在欧洲收集的数据必须表明是否征得同意。 某些Analytics客户会通过Adobe Advertising将事件数据作为转化事件发送到Google。
 
-将来，此维度可用于支持对其他第三方广告提供商的附加同意信息进行编码。
+将来，此维度可用于支持对其他第三方广告提供商的其他同意信息的编码。
 
 ## 使用数据填充此维度
 
