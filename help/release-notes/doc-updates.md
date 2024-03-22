@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5243'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 | --- | --- |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | AppMeasurement 更新 v2.26.0 的[发行说明](/help/implement/appmeasurement-updates.md)。<br/>包括对 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档的引用和更新。 |
-| 有关“用于”列的使用情况信息仅从2023年9月开始提供。 | 澄清了关于 **使用位置** 上的列 [项目登陆页面](/help/analyze/landing.md) 最早可追溯到2023年9月。 |
+| 有关“用于”列的使用情况信息仅从 2023 年 9 月开始提供。 | 阐明[项目登陆页面](/help/analyze/landing.md)“**用于**”列的使用情况信息只能追溯到 2023 年 9 月。 |
 | **2024 年 2 月** | |
 | 有关管理 Data Warehouse 请求的信息的更新 | 澄清了默认情况下，用户只能查看他们在[管理 Data Warehouse 请求](/help/export/data-warehouse/data-warehouse-requests-manage.md)时创建的请求。 |
 | 项目共享文档更新 | 添加了有关如何[查看共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)的信息。<p>还简化了有关[共享单个或多个项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的信息。</p> |
