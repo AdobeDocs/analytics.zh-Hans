@@ -4,10 +4,10 @@ title: 自由格式表筛选和排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 71%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,6 @@ Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
 您可以使用多种方法来过滤自由格式表中的行。 
 
 - 单击行中的“X”
-- 右键单击>删除选定行
 - 表筛选器
 - 区段
 
