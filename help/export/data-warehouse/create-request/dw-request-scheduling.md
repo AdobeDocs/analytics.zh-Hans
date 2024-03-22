@@ -1,26 +1,26 @@
 ---
 description: 描述如何创建 Data Warehouse 请求的步骤。
-title: 为Data Warehouse请求配置报表目标
+title: 为 Data Warehouse 请求配置报表目标
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 9%
+source-wordcount: '291'
+ht-degree: 27%
 
 ---
 
 # 为Data Warehouse请求配置计划选项
 
-创建Data Warehouse请求时，有多种可用的配置选项。 以下信息介绍了如何为请求配置计划选项。
+提供了在创建 Data Warehouse 请求时可使用的多种配置选项。以下信息介绍了如何为请求配置计划选项。
 
-有关如何开始创建请求以及指向其他重要配置选项的链接的信息，请参阅 [创建Data Warehouse请求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+有关如何开始创建请求的信息以及其他重要配置选项的链接，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
 要为Data Warehouse请求配置计划选项，请执行以下操作：
 
-1. 通过在Adobe Analytics中选择 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **添加**].
+1. 如果还没有该请求，请选择以开始在Adobe Analytics中创建请求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **添加**].
 
-   有关其他详细信息，请参阅 [创建Data Warehouse请求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   有关更多详细信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
 1. 在“新建Data Warehouse请求”页面上，选择 [!UICONTROL **计划选项**] 选项卡。
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 
 1. 请完成以下字段：
 
-   | 选项 | 函数 |
+   | 选项 | 功能 |
    |---------|----------|
    | [!UICONTROL **立即发送报告**] | 将报表作为一次性报表发送。 选择此选项时，将隐藏所有计划选项。 |
    | [!UICONTROL **稍后计划**] | 提供用于计划报表提交的选项。 所有选项如下所述。 |

@@ -3,24 +3,24 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表选项
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 9%
+source-wordcount: '453'
+ht-degree: 19%
 
 ---
 
 # 为Data Warehouse请求配置报表选项
 
-创建Data Warehouse请求时，有多种可用的配置选项。 以下信息介绍了如何为请求配置报表选项。
+提供了在创建 Data Warehouse 请求时可使用的多种配置选项。以下信息介绍了如何为请求配置报表选项。
 
-有关如何开始创建请求以及指向其他重要配置选项的链接的信息，请参阅 [创建Data Warehouse请求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+有关如何开始创建请求的信息以及其他重要配置选项的链接，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
 要为Data Warehouse请求配置报表选项，请执行以下操作：
 
-1. 通过在Adobe Analytics中选择 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **添加**].
+1. 如果还没有该请求，请选择以开始在Adobe Analytics中创建请求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **添加**].
 
-   有关其他详细信息，请参阅 [创建Data Warehouse请求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   有关更多详细信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
 1. 在“新建Data Warehouse请求”页面上，选择 [!UICONTROL **报表选项**] 选项卡。
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 
 1. 请完成以下字段：
 
-   | 选项 | 函数 |
+   | 选项 | 功能 |
    |---------|----------|
    | [!UICONTROL **文件名**] | 标识报表。 <p>如果文件名中使用了以下任何特殊字符，则无法保存请求： <code>！ &quot; # $ &amp; &#39; ( ) * + ， / ： ； > = &lt; ？@ [ ] \ ^ ` { } \| ~</code> </p><p>%字符必须后跟“R”、“rsid”或“id”，如下所示： <code>%R</code>， <code>%rsid</code>、和 <code>%id</code>。</p> |
    | [!UICONTROL **将报表日期范围附加到文件名**] | 将日期范围添加到报表文件名。 <p>例如，如果您请求获得从2024年5月1日到2024年5月7日的数据，则文件名将包含日期范围20240501 - 20240507。</p> |
