@@ -4,15 +4,15 @@ description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b5d274b6b529737b2ad1d135599fe0b0dcf4bf2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2024 年 3 月）
 
-**上次更新**：2024年3月21日
+**上次更新日期**：2024 年 3 月 21 日
 
 这些发行说明涵盖 2024 年 3 月 12 日至 2024 年 4 月的发行期。Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -22,11 +22,11 @@ ht-degree: 86%
 | ----------- | ---------- | ------- | ---- |
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 现已推出。 | | 2024 年 3 月 4 日 |
 | **项目登陆页面上提供了新专栏** | 现在，在查看 [Adobe Analytics 登录页面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=zh-Hans)上的“项目”选项卡时，可以使用&#x200B;**[!UICONTROL 上次使用的]**&#x200B;列。 <p>此信息可以通过显示项目上次打开的日期和时间来帮助您确定项目对组织中的用户是否有价值。</p> <p>以前，**[!UICONTROL 上次使用]**&#x200B;列仅在计算量度管理器、分段管理器和警报管理器中可用。</p> |  | 2024 年 3 月 13 日 |
-| **对 Google for DMA 所需的同意标记的分析支持** | 根据新的欧洲隐私法规，Google 要求在欧洲收集并发送给他们的数据必须注明是否获得了两种特定的同意。 **从 3 月 6 日开始**，Google 将不再接受未注明已获得相关同意的事件数据。Adobe Analytics 已发布支持通过新的 adConsent 变量捕获这些数据。您可以在[隐私报告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中查看列出的新变量。如果您想激活此功能，但之前的同意变量已经启用了隐私功能，则需要再次启用隐私功能。<p>此 [广告平台同意维度](/help/components/dimensions/ad-consent.md) 显示是否收集到了向Google等第三方广告提供商发送数据的同意。 |  | 2024 年 3 月 13 日 |
+| **对 Google for DMA 所需的同意标记的分析支持** | 根据新的欧洲隐私法规，Google 要求在欧洲收集并发送给他们的数据必须注明是否获得了两种特定的同意。 **从 3 月 6 日开始**，Google 将不再接受未注明已获得相关同意的事件数据。Adobe Analytics 已发布支持通过新的 adConsent 变量捕获这些数据。您可以在[隐私报告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中查看列出的新变量。如果您想激活此功能，但之前的同意变量已经启用了隐私功能，则需要再次启用隐私功能。<p>[“广告平台同意书”维度](/help/components/dimensions/ad-consent.md)显示是否已收集的同意书，以将数据发送给第三方广告提供商（例如 Google）。 |  | 2024 年 3 月 13 日 |
 | **Report Builder 的使用情况包含在计算量度管理器和区段管理器的“用于”列中** | 在计算量度管理器或区段管理器中查看“**用于**”列时，Report Builder 现在可提供使用情况数据。<p>以前，区段管理器中的使用情况数据仅适用于警报、项目、已计划项目和计算量度；而计算量度管理器中的使用情况数据仅适用于警报、项目和已计划项目。</p> |  | 三月底或四月初 |
 | **对数据馈送、Data Warehouse 和分类集使用相同的云帐户** | 您创建的云帐户和位置现在可用于导出数据（使用数据馈送和 Data Warehouse）和导入数据（使用分类集）。<p> **配置帐户时的更改：** 用户可以配置云导入和导出帐户以及配置云导入和导出位置，这些位置可用于以下任何目的：<ul><li>使用分类集导入数据</li><li>使用数据馈送导出数据</li><li>使用 Data Warehouse 导出数据。</li></ul><p>**管理帐户时的更改**：用户可以使用“位置”页面（在“组件”>“位置”下）查看和管理他们创建的所有帐户和位置，无论这些帐户和位置是在何处创建的。 <p>之前，“位置”页面仅适用于为导入带有分类集的数据而创建的帐户。</p> | | 2024 年 4 月 |
-| **管理员可以管理其组织中的所有位置和帐户** | “位置”选项卡（位于“组件”>“位置”页面上）上的新选项允许管理员查看和管理组织中的所有位置。<p>“位置帐户”选项卡（位于“组件”>“位置”页面上）上的新选项允许管理员查看和管理组织中的所有帐户。</p> <p>以前，管理员只能查看和管理他们创建的位置和帐户。</p> |  | 2024 年 4 月 |
-| **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。 <p>此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。</p> |  | 2024年4月30日 |
+| **管理员可以管理其组织中的所有位置和帐户** | “位置”选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有位置。<p>“位置”帐户选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有帐户。</p> <p>以前，管理员只能查看和管理他们创建的位置和帐户。</p> |  | 2024 年 4 月 |
+| **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。 <p>此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。</p> |  | 2024 年 4 月 30 日 |
 | **增大默认低流量阈值** | 在 **2024 年 4 月中旬**，Adobe 将开始增大默认报告包低流量阈值，如下所示：![低流量阈值](assets/thresholds.png) 这只会影响当前设置的小于新阈值的变量。这些更改将逐步进行，我们预计这项工作将在&#x200B;**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报告包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul> | | 2024 年 4 月中旬 |
 
 {style="table-layout:auto"}
@@ -50,7 +50,7 @@ AN-312198；AN-338009；AN-339549；AN-333970；AN-334790；AN-336461；AN-33657
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **已保存的13个月到期`cust_visids`** | 2024年3月20日 | 即将发布的Analytics点击处理引擎将从4月或5月开始，强制实施已保存的13个月有效期 `cust_visids`. 如果报表包启用了“启用访客拼接”，则此设置将用于查找 `cust_visid` 对于 `visid_high/visid_low value` 不含 `cust_visid` 在点击中。 目前，的映射没有过期 `cust_visid` 对于 `visid_high/visid_low`. 在此版本中，如果自以下时间以来已过13个月或更长时间 `visid_high/visid_low` 曾经 `cust_visid` 在点击时，映射将过期。 |
+| **保存的`cust_visids`** 13 个月有效期 | 2024 年 3 月 20 日 | 即将发布的 Analytics Hit 处理引擎（预计于 4 月或 5 月发布）将开始对保存的 `cust_visids` 强制执行 13 个月的有效期。如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。目前，对 `visid_high/visid_low` 的 `cust_visid` 的映射没有有效期。在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射将会过期。 |
 | **添加了 Adobe API 对象成员** | 2024 年 1 月 17 日 | Adobe 可能会随时无通知或在版本控制中无变更地将可选的请求和响应成员（名称/值对）添加到现有的 API 对象。Adobe 建议您参考与我们的 API 集成的任何第三方工具的 API 文档，以便在处理过程中忽略不了解的此类添加。如果正确实施，则此类添加应为不令您的实施发生中断的更改。如果没有首先通过发行说明提供标准通知，Adobe 不会删除参数或添加所需参数。 |
 | **`getPageLoadTime`插件被弃用** | 2024 年 1 月 10 日 | 不再支持此插件。其代码利用了 performance.timing 方法，而（据 MDN 称）该方法已被[弃用](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)。更新插件的工作已经开始。 |
 
