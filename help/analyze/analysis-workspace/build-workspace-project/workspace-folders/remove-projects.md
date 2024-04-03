@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 从文件夹中删除项目
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
+source-git-commit: d5be835eef175c3c314065dff40f6ca0d51dc345
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 79%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## 从项目文件夹中删除项目 {#delete-project-in-folder}
 
-从文件夹中删除某个项目时，将完全删除该项目。
+从文件夹中删除项目时，系统将在180天后清除该项目。 如果在删除后的180天内，用户拥有项目的直接URL，则仍可以通过Web界面访问项目。
 
 1. 从某个项目的文件夹中，选择该项目名称旁的 **...** 省略号。
 
