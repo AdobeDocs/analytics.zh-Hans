@@ -3,9 +3,9 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5f1dc57235632703bc5598b1c022e3d07aabb5e8
+source-git-commit: b38cdaaf79e22902c4a0fa0e9b782baba9cf0b26
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1299'
 ht-degree: 99%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 99%
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 现已推出。 | | 2024 年 3 月 4 日 |
 | **项目登陆页面上提供了新专栏** | 现在，在查看 [Adobe Analytics 登录页面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=zh-Hans)上的“项目”选项卡时，可以使用&#x200B;**[!UICONTROL 上次使用的]**&#x200B;列。 <p>此信息可以通过显示项目上次打开的日期和时间来帮助您确定项目对组织中的用户是否有价值。</p> <p>以前，**[!UICONTROL 上次使用]**&#x200B;列仅在计算量度管理器、分段管理器和警报管理器中可用。</p> |  | 2024 年 3 月 13 日 |
 | **对 Google for DMA 所需的同意标记的分析支持** | 根据新的欧洲隐私法规，Google 要求在欧洲收集并发送给他们的数据必须注明是否获得了两种特定的同意。 **从 3 月 6 日开始**，Google 将不再接受未注明已获得相关同意的事件数据。Adobe Analytics 已发布支持通过新的 adConsent 变量捕获这些数据。您可以在[隐私报告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中查看列出的新变量。如果您想激活此功能，但之前的同意变量已经启用了隐私功能，则需要再次启用隐私功能。<p>[“广告平台同意书”维度](/help/components/dimensions/ad-consent.md)显示是否已收集的同意书，以将数据发送给第三方广告提供商（例如 Google）。 |  | 2024 年 3 月 13 日 |
-| **Report Builder 的使用情况包含在计算量度管理器和区段管理器的“用于”列中** | 在计算量度管理器或区段管理器中查看“**用于**”列时，Report Builder 现在可提供使用情况数据。<p>以前，区段管理器中的使用情况数据仅适用于警报、项目、已计划项目和计算量度；而计算量度管理器中的使用情况数据仅适用于警报、项目和已计划项目。</p> |  | 三月底或四月初 |
+| **Report Builder 的使用情况包含在计算量度管理器和区段管理器的“用于”列中** | 在计算量度管理器或区段管理器中查看“**用于**”列时，Report Builder 现在可提供使用情况数据。<p>以前，区段管理器中的使用情况数据仅适用于警报、项目、已计划项目和计算量度；而计算量度管理器中的使用情况数据仅适用于警报、项目和已计划项目。</p> |  | 7 月 |
 | **对数据馈送、Data Warehouse 和分类集使用相同的云帐户** | 您创建的云帐户和位置现在可用于导出数据（使用数据馈送和 Data Warehouse）和导入数据（使用分类集）。<p> **配置帐户时的更改：** 用户可以配置云导入和导出帐户以及配置云导入和导出位置，这些位置可用于以下任何目的：<ul><li>使用分类集导入数据</li><li>使用数据馈送导出数据</li><li>使用 Data Warehouse 导出数据。</li></ul><p>**管理帐户时的更改**：用户可以使用“位置”页面（在“组件”>“位置”下）查看和管理他们创建的所有帐户和位置，无论这些帐户和位置是在何处创建的。 <p>之前，“位置”页面仅适用于为导入带有分类集的数据而创建的帐户。</p> | | 2024 年 4 月 |
 | **管理员可以管理其组织中的所有位置和帐户** | “位置”选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有位置。<p>“位置”帐户选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有帐户。</p> <p>以前，管理员只能查看和管理他们创建的位置和帐户。</p> |  | 2024 年 4 月 |
 | **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。 <p>此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。</p> |  | 2024年4月31日 |
