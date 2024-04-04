@@ -1,11 +1,12 @@
 ---
 title: 数据对象变量映射到Adobe Analytics
-description: 查看Edge自动映射到Analytics变量的数据对象字段。
+description: 查看Experience PlatformEdge自动映射到Analytics变量的数据对象字段。
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
+source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 5%
 
 下表显示了Adobe Experience Platform Edge Network自动映射到Adobe Analytics的数据对象变量。 如果您使用这些数据对象字段路径，则无需额外配置即可将数据发送到Adobe Analytics。
 
-如果您打算在将来使用Customer Journey Analytics，建议使用这些字段。 这种实施方法允许贵组织使用Web SDK向Adobe发送数据，而不遵循XDM架构。 当您的组织准备好将数据发送到Adobe Experience Platform时，您可以使用 [数据流映射](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) 将数据对象字段指向它们各自的XDM字段。
+如果您打算在将来使用Customer Journey Analytics，建议使用这些字段。 此实施方法允许贵组织使用Web SDK向Adobe发送数据，而不遵循XDM架构。 当您的组织准备好将数据发送到Adobe Experience Platform时，您可以使用 [数据流映射](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) 将数据对象字段指向它们各自的XDM字段。
 
 ## 价值优先级
 
