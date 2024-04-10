@@ -3,16 +3,16 @@ title: 分类导入器处理时间
 description: 了解 Adobe 处理分类文件的时间范围，以及如何最大限度地缩短处理时间。
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a83195c7805ff1bfb854b3c2714857f437cf8955
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '426'
 ht-degree: 100%
 
 ---
 
 # 分类导入器处理时间
 
-分类文件的处理时间因文件大小以及 Adobe 处理的文件总数而异。分类处理时间通常不超过 72 小时。但是，如果在使用 Adobe Analytics 的组织内大量使用分类，则文件处理时间可能会超过 72 小时。Adobe 发现，在假日季节来临之前的月份中，分类使用量很大。
+分类文件的处理时间因文件大小以及 Adobe 处理的文件总数而异。分类处理时间通常不超过 24 小时。但是，如果在使用 Adobe Analytics 的组织内大量使用分类，则文件处理时间可能会超过 24 小时。Adobe 发现，在假日季节来临之前的月份中，分类使用量很大。
 
 如果要查看分类文件是否已完成，请执行以下操作：
 
