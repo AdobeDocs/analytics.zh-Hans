@@ -3,10 +3,10 @@ description: 导入器允许您将文件中的分类数据批量上载至分析�
 title: 分类数据文件
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 96%
+source-wordcount: '1787'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 * 分类不能包含 0（零）值。
 * Adobe 建议您将导入和导出列的数量限制为 30。
 * 上载的文件必须使用不带 BOM 字符编码的 UTF-8 格式。
-* 如果指定了v2.1文件格式并且单元格正确，则可以在单元格中嵌入特殊字符，例如制表符、换行符和引号 [转义](/help/components/classifications/importer/t-classifications-escape-data.md). 特殊字符包括：
+* 包含制表符、换行符和引号在内的特殊字符可以嵌入在单元格内，前提是指定了 v2.1 文件格式，并且该单元格已被正确[转义](/help/components/classifications/importer/t-classifications-escape-data.md)。特殊字符包括：
 
   ```text
   \t     tab character 
@@ -42,7 +42,7 @@ ht-degree: 96%
 
 * 分类不得包含脱字符 (^)，因为此字符用来表示子分类。
 * 请小心使用连字符。例如，如果您在 Social 术语中使用连字符 (-)，则 Social 会将连字符识别为 [!DNL Not] 运算符（减号）。例如，如果您使用导入指定 *`fragrance-free`* 作为术语，则 Social 会将该术语识别为 fragrance *`minus`* free，并收集提及 *`fragrance`*，但未提及 *`free`* 的帖子。
-* 在对报告数据进行分类时必须执行字符限制。例如，如果上载产品名称长度超过 100 个字符（字节）的产品的分类文本文件 (*`s.products`*)，将不会在报告中显示这些产品。跟踪代码和所有自定义转化变量 (eVar) 允许 255 字节。
+* 在对报告数据进行分类时必须执行字符限制。例如，如果上载产品名称长度超过 100 个字符（字节）的产品的分类文本文件 (*`s.products`*)，将不会在报告中显示这些产品。跟踪代码和所有自定义转化变量(eVar)允许255字节。 此策略还扩展到分类和子分类列值，这些值受相同的255字节限制的约束。
 * 以制表符分隔的数据文件（可以使用任一款电子表格应用程序或文本编辑器来创建模板文件）。
 * 使用 [!DNL .tab] 或 [!DNL .txt] 作为文件扩展名。
 * 在行前添加井号 (#) 表示此行为用户注释。Adobe 会忽略所有以 # 开头的行。
@@ -68,7 +68,7 @@ ht-degree: 96%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>&lt;新行&gt; </p> </td> 
+   <td colname="col1"> <p>&lt;New Line&gt; </p> </td> 
    <td colname="col2"> <p>新行字符是在数据文件中的数据行/记录之间唯一受支持的分隔符。通常，您只需要在编写程序时专门插入这些字符，即可自动生成数据文件。 </p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->[!UICONTROL 分类]列标题中的值必须完全符合分类的命名规范，否则会导致导入失败。例如，如果管理员更改 [!UICONTROL 营销活动] 到 [!UICONTROL 内部营销活动名称] 在 [!UICONTROL Campaign设置管理器]，必须更改文件列标题才能匹配。 “键值”是一个保留的分类（标头）值。 不支持名为“Key”的新分类。
+>[!UICONTROL 分类]列标题中的值必须完全符合分类的命名规范，否则会导致导入失败。例如，如果管理员在[!UICONTROL 促销活动设置管理器]中将[!UICONTROL 促销活动]更改为[!UICONTROL 内部促销活动名称]，则文件列标题必须随之更改。“Key”是保留的分类（标头）值。不支持名为“Key”的新分类。
 
 此外，数据文件支持下列其他标题规范，用于标识子分类和其他特殊数据列：
 
