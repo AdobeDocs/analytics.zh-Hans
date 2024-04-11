@@ -4,9 +4,9 @@ description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **更改 Workspace 项目的删除协议** | 以前，从未从系统中清除已删除的项目。 现在，我们会在 180 天后开始清除已删除的项目。删除后的180天内，如果用户拥有已删除项目的URL，则仍可以通过Web界面访问这些项目。 | | 2024 年 3 月 14 日 |
+| **更改 Workspace 项目的删除协议** | 之前，已删除的项目从未从系统中清除。现在，我们会在 180 天后开始清除已删除的项目。在删除后的 180 天内，如果用户有项目的 URL，仍可通过 Web 界面访问已删除的项目。 | | 2024 年 3 月 14 日 |
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 现已推出。 | | 2024 年 3 月 4 日 |
 | **项目登陆页面上提供了新专栏** | 现在，在查看 [Adobe Analytics 登录页面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=zh-Hans)上的“项目”选项卡时，可以使用&#x200B;**[!UICONTROL 上次使用的]**&#x200B;列。 <p>此信息可以通过显示项目上次打开的日期和时间来帮助您确定项目对组织中的用户是否有价值。</p> <p>以前，**[!UICONTROL 上次使用]**&#x200B;列仅在计算量度管理器、分段管理器和警报管理器中可用。</p> |  | 2024 年 3 月 13 日 |
 | **对 Google for DMA 所需的同意标记的分析支持** | 根据新的欧洲隐私法规，Google 要求在欧洲收集并发送给他们的数据必须注明是否获得了两种特定的同意。 **从 3 月 6 日开始**，Google 将不再接受未注明已获得相关同意的事件数据。Adobe Analytics 已发布支持通过新的 adConsent 变量捕获这些数据。您可以在[隐私报告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中查看列出的新变量。如果您想激活此功能，但之前的同意变量已经启用了隐私功能，则需要再次启用隐私功能。<p>[“广告平台同意书”维度](/help/components/dimensions/ad-consent.md)显示是否已收集的同意书，以将数据发送给第三方广告提供商（例如 Google）。 |  | 2024 年 3 月 13 日 |
