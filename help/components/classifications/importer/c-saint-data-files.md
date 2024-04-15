@@ -4,9 +4,9 @@ title: 分类数据文件
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1787'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
 * 分类不得包含脱字符 (^)，因为此字符用来表示子分类。
 * 请小心使用连字符。例如，如果您在 Social 术语中使用连字符 (-)，则 Social 会将连字符识别为 [!DNL Not] 运算符（减号）。例如，如果您使用导入指定 *`fragrance-free`* 作为术语，则 Social 会将该术语识别为 fragrance *`minus`* free，并收集提及 *`fragrance`*，但未提及 *`free`* 的帖子。
-* 在对报告数据进行分类时必须执行字符限制。例如，如果上载产品名称长度超过 100 个字符（字节）的产品的分类文本文件 (*`s.products`*)，将不会在报告中显示这些产品。跟踪代码和所有自定义转化变量(eVar)允许255字节。 此策略还扩展到分类和子分类列值，这些值受相同的255字节限制的约束。
+* 在对报告数据进行分类时必须执行字符限制。例如，如果上载产品名称长度超过 100 个字符（字节）的产品的分类文本文件 (*`s.products`*)，将不会在报告中显示这些产品。跟踪代码和所有自定义转化变量（eVar）允许 255 字节。此策略还扩展到分类和子分类列值，它们同样受到 255 字节的限制。
 * 以制表符分隔的数据文件（可以使用任一款电子表格应用程序或文本编辑器来创建模板文件）。
 * 使用 [!DNL .tab] 或 [!DNL .txt] 作为文件扩展名。
 * 在行前添加井号 (#) 表示此行为用户注释。Adobe 会忽略所有以 # 开头的行。
@@ -158,7 +158,7 @@ ht-degree: 98%
 
 促销活动日期通常是与各个促销活动关联的范围（开始日期和结束日期）。日期的格式应当为 YYYY/MM/DD。例如，2013/06/15-2013/06/30。
 
-有关详细信息，请参阅[转化分类](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=zh-Hans)。
+有关详细信息，请参阅[转化分类](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)。
 
 >[!NOTE]
 >
