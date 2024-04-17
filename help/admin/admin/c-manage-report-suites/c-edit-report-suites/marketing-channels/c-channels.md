@@ -1,14 +1,14 @@
 ---
-description: 在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报告包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
+description: 在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
 subtopic: Marketing channels
 title: 管理营销渠道
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 94%
 >
 > 有关营销渠道的一般信息，请参阅[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 >
-> 为了最大化归因和Customer Journey Analytics的营销渠道效率，我们发布了一些 [修订后的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> 为了最大限度地提高归因和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道管理器]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道管理器]**。
 
-在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报告包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
+在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
 
 将渠道添加到[!UICONTROL “营销渠道”]页面与在[“营销渠道处理规则”](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)页面上创建规则是两项不同的操作。创建规则时，您应将规则和渠道相关联。
 
@@ -47,16 +47,16 @@ ht-degree: 94%
 >
 >您无法删除渠道。如果您不想使用某个渠道，您可以禁用或重命名该渠道并将其保存以供日后使用。
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**。
-1. 在“[!UICONTROL 报告包管理器]”页面上，选择一个报告包。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
+1. 在“[!UICONTROL 报表包管理器]”页面上，选择一个报表包。
 
-   如果您选择多个报告包，则需要选择一个可将设置从模板复制到选定报告包的模板。
+   如果您选择多个报表包，则需要选择一个可将设置从模板复制到选定报表包的模板。
 
-   请参阅 [将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   请参阅[将模板报表包设置应用于多个报表包。](/help/components/c-marketing-channels/c-getting-started-mchannel.md)
 
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道管理器]**。
 
-   如果您的报告包未定义渠道，则会显示“[自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)”页面。
+   如果您的报表包未定义渠道，则会显示“[自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)”页面。
 
 1. 在“[!UICONTROL 营销渠道管理器]”页面上，单击&#x200B;**[!UICONTROL 添加渠道]**。
 
@@ -93,6 +93,6 @@ Adobe 在[自动设置](/help/components/c-marketing-channels/c-getting-started-
 
 >[!NOTE]
 >
->Adobe 建议您在可作为测试用模板的报告包中设置报告。您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报告包中。
+>Adobe 建议您在可作为测试用模板的报表包中设置报告。您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报表包中。
 >
->请参阅 [将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>请参阅[将模板报表包设置应用于多个报表包。](/help/components/c-marketing-channels/c-getting-started-mchannel.md)

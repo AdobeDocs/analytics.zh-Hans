@@ -4,9 +4,9 @@ title: 报表包管理器
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 解决方案会收集并报告这些数据存储。使用管理员“�
 
 >[!NOTE]
 >
->通过以下方式管理虚拟报表包 **[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**. 请参阅 [虚拟报表包文档](/help/components/vrs/vrs-about.md).
+>可通过&#x200B;**[!UICONTROL “Analytics”]**>**[!UICONTROL “组件]**”>**[!UICONTROL “虚拟报表包”]**&#x200B;管理虚拟报表包。请参阅[虚拟报表包文档](/help/components/vrs/vrs-about.md)。
 
 ## 报表包管理器描述 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

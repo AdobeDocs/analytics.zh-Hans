@@ -5,9 +5,9 @@ feature: Server-Side Forwarding
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
 role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 | 问：如果我有多包标记并且只有一个报表包映射到我的 Experience Cloud 组织，而其他报表包则没有映射，该怎么办？ | 我们会将点击转发到映射的报表包上的 Experience Cloud 组织对应的数据收集服务器，但是由于未映射的报表包在 Audience Manager 中没有关联的数据源，因此不会在 Audience Manager 中为未映射的报表包记录任何数据。 |
 | 问：如果我有一个报表包被映射到多个 Experience Cloud 组织，我该怎么做？ | Analytics 会将此报表包视为未映射的报表包，并且不允许为此报表包启用服务器端转发。请联系客户关怀团队以解决此映射问题。 |
 | 问：基于报表包的服务器端转发方法会比基于跟踪服务器的服务器端转发更慢吗？ | 不会，响应时间将是相同的。 |
-| 问：如果我有两个Experience Cloud组织(或Adobe Audience Manager实例)并希望在这两个Experience Cloud组织之间共享数据，该怎么办？ 我可以在服务器端将一个 Analytics 点击转发到多个 Experience Cloud 组织吗？ | 不可以。如果您需要将一个 Experience Cloud 组织下收集的数据共享到另一个 Experience Cloud 组织，我们建议使用受众市场将一个 Audience Manager 实例中的任何适用受众发送到另一个实例。 |
+| 问：如果我有两个 Experience Cloud 组织（或 Adobe Audience Manager 实例）并希望在这两个 Experience Cloud 组织之间共享数据，该怎么办？我可以在服务器端将一个 Analytics 点击转发到多个 Experience Cloud 组织吗？ | 不可以。如果您需要将一个 Experience Cloud 组织下收集的数据共享到另一个 Experience Cloud 组织，我们建议使用受众市场将一个 Audience Manager 实例中的任何适用受众发送到另一个实例。 |
 | 问：服务器端转发会导致 Audience Manager 或 Analytics 中产生任何额外计费吗？ | 在 Analytics 中，不会产生任何额外计费。在 Audience Manager 中，转发的点击将会像任何其他点击一样进行处理并加以计费。这就是为什么切勿同时启用 DIL 和服务器端转发的原因，因为这样做会导致双重计费以及数据重复。 |
 
 >[!MORELIKETHIS]

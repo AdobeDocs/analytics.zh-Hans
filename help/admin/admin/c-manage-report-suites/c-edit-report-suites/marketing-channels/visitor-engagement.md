@@ -6,9 +6,9 @@ feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 95%
 >
 > 有关营销渠道的一般信息，请参阅[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 >
-> 为了最大化归因和Customer Journey Analytics的营销渠道效率，我们发布了一些 [修订后的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> 为了最大限度地提高归因和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道到期]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道到期]**。
 
 了解如何为营销渠道指定到期时间或访客参与期限。
 
@@ -48,8 +48,8 @@ ht-degree: 95%
 
 指定访客参与期限。
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**。
-2. 在[!UICONTROL 报告包管理器]中，单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道到期]**。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
+2. 在[!UICONTROL 报表包管理器]中，单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道到期]**。
 
    ![](assets/mchannel_expiration.png)
 

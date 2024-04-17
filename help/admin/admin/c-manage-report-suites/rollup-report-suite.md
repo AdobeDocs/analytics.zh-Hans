@@ -1,13 +1,13 @@
 ---
-description: 全局报表包的描述
+description: 对全局报表包的描述
 title: 全局报表包
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 全局报表包从您的组织拥有的所有域和应用程序收集数据。它要求实施方式将所有图像请求都发送到单个报表包。
 
-Adobe 建议在大多数情况下实施全局报表包。有关实施全局报表包的优点，请参阅[全局报表包注意事项](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hans)。
+Adobe 建议在大多数情况下实施全局报表包。有关实施全局报表包的优点，请参阅[全局报表包注意事项](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)。
 
 可使用&#x200B;*多包标记*&#x200B;和&#x200B;*虚拟报表包*&#x200B;方法将贵公司全局报表包数据的子集提供给不同的最终用户。
 
@@ -29,9 +29,9 @@ Adobe 建议在大多数情况下实施全局报表包。有关实施全局报�
 
 * **虚拟报表包**：[虚拟报表包](/help/components/vrs/vrs-about.md)是对收集到全局报表包中的指定区段的查询，并对指定的用户组可用。通过虚拟报表包，无需使用多包标记，即可为不同的最终用户编排报表元素，从而避免辅助服务器调用。
 
-  要使用虚拟报表包，请实施一个全局报表包，然后解析数据以创建应用了特定区段并具有特定组权限的虚拟报表包。您可以在虚拟报表包管理器([!UICONTROL 组件] > [!UICONTROL 虚拟报表包])。 有关详细信息，请参阅[虚拟报表包工作流程](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)。
+  要使用虚拟报表包，请实施一个全局报表包，然后解析数据以创建应用了特定区段并具有特定组权限的虚拟报表包。可在虚拟报表包管理器（[!UICONTROL “组件”]>[!UICONTROL “虚拟报表包”]）中创建虚拟报表包。有关详细信息，请参阅[虚拟报表包工作流程](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)。
 
-使用虚拟报表包代替多包标记一般是最佳实践，但虚拟报表包有一些局限。请参阅[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)以确定何种报表包方法对于您的业务需求是最佳选择。有关虚拟报表包与多包标记功能的深入比较，请参阅“[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)“
+使用虚拟报表包代替多包标记一般是最佳实践，但虚拟报表包有一些局限。请参阅[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)以确定何种报表包方法对于您的业务需求是最佳选择。有关虚拟报表包与多包标记功能的深入比较，请参阅[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)。
 
 <!---## Rollup reports
 
