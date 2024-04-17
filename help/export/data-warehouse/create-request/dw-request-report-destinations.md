@@ -3,10 +3,10 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为 Data Warehouse 请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: ht
-source-wordcount: '2430'
-ht-degree: 100%
+source-git-commit: b960aaa60569d65cb8501cf041341a3a132929b1
+workflow-type: tm+mt
+source-wordcount: '2584'
+ht-degree: 85%
 
 ---
 
@@ -20,12 +20,19 @@ ht-degree: 100%
 >
 >在配置报表目标时，请考虑以下事项：
 >
->* 我们建议您使用云帐户或电子邮件作为报表目标。虽然旧 FTP 和 SFTP 帐户可用，但建议不要使用这些帐户。
+>* 我们建议您使用云帐户或电子邮件作为报表目标。[旧版FTP和SFTP帐户](#legacy-destinations) 可用，但不推荐。
 >
->* 您之前配置的用于[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[导入 Adobe Analytics 分类数据](/help/components/locations/locations-manager.md)的任何云帐户可用于 Data Warehouse。不过，不能使用配置用于导入分类数据的任何位置。
+>* 您之前配置的任何云帐户均可用于Data Warehouse。 您可以通过以下任意方式配置云帐户：
+>
+>   * 配置时 [数据馈送](/help/export/analytics-data-feed/create-feed.md)
+>   
+>   * 时间 [导入Adobe Analytics分类数据](/help/components/locations/locations-manager.md) （可以使用帐户，但不能使用在这些帐户上配置的任何位置。）
+>   
+>   * 从“位置”管理器中，位于 [“组件”>“位置”](/help/components/locations/configure-import-accounts.md).
 >
 >* 云帐户与您的 Adobe Analytics 用户帐户关联。其他用户无法使用或查看您配置的云帐户。
 >
+>* 您可以编辑从中的位置管理器创建的任何位置 [“组件”>“位置”](/help/components/locations/configure-import-accounts.md)
 
 要配置将 Data Warehouse 报表发送到的目标，请执行以下操作：
 
@@ -37,17 +44,27 @@ ht-degree: 100%
 
    ![“报表目标”选项卡](assets/dw-report-destination.png)
 
-1. （条件）如果已配置要用作报表目标的帐户（以及该帐户上的目标）：
+1. （视情况而定）如果已在Adobe Analytics中配置了云帐户（以及该帐户上的目标），则可以将其用作报表目标：
 
-   1. （可选）如果您是系统管理员，则&#x200B;[!UICONTROL **显示所有目标**]&#x200B;选项可用。如果要访问已由组织中的任意用户创建的所有帐户和位置，请启用此选项。
+   >[!NOTE]
+   >
+   >只有在配置帐户或与您所属的某个组织共享帐户后，您才可以使用帐户。
+   >
+   >如果您是系统管理员， [!UICONTROL **显示所有目标**] 选项可用。 如果要访问已由组织中的任意用户创建的所有帐户和位置，请启用此选项。
 
    1. 从&#x200B;[!UICONTROL **选择帐户**]&#x200B;下拉菜单中选择帐户。
 
-      您配置的用于从云目标中[导入 Adobe Analytics 分类数据](/help/components/locations/locations-manager.md)的任何云帐户显示在此处且可供使用。不过，不能使用配置用于导入分类数据的任何位置。相反，请按如下所述添加新目标。
+      您在以下Adobe Analytics的任何区域中配置的任何Cloud帐户都可以使用：
+
+      * 导入Adobe Analytics分类数据时（如所述） [架构](/help/components/classifications/sets/manage/schema.md).
+
+        不过，不能使用配置用于导入分类数据的任何位置。相反，请按如下所述添加新目标。
+
+      * 在“位置”区域中配置帐户和位置时，如中所述 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md) 和 [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
 
    1. 从&#x200B;[!UICONTROL **选择目标**]&#x200B;下拉菜单中选择与帐户关联的目标。<!-- Is this correct? -->
 
-1. （条件）如果您之前未配置帐户：
+1. （视情况而定）如果您无权访问已在Adobe Analytics中配置的云帐户，则可以配置一个：
 
    1. 选择&#x200B;[!UICONTROL **添加帐户**]，然后指定以下信息：
 
@@ -63,7 +80,7 @@ ht-degree: 100%
 
       +++Amazon S3
 
-      指定以下信息来配置 Amazon S3 角色 ARN 帐户：
+      要配置Amazon S3角色ARN帐户，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
@@ -72,11 +89,11 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
-      指定以下信息来配置 Google Cloud Platform 帐户：
+      要配置Google Cloud Platform帐户，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
@@ -84,11 +101,11 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      指定以下信息来配置 Azure SAS 帐户：
+      要配置Azure SAS帐户，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
@@ -100,11 +117,11 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      指定以下信息来配置 Azure RBAC 帐户：
+      要配置Azure RBAC帐户，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
@@ -114,11 +131,11 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Email
 
-      指定以下信息来配置电子邮件帐户：
+      要配置电子邮件帐户，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
@@ -137,20 +154,20 @@ ht-degree: 100%
 
       +++Amazon S3
 
-      指定以下信息来配置 Amazon S3 位置：
+      要配置Amazon S3位置，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
-      | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保 Adobe 提供的用户 ARN 具有 `S3:PutObject` 权限，以便将文件上传到此存储段。此权限允许用户 ARN 上传初始文件并覆盖后续上传的文件。</p> |
+      | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保 Adobe 提供的用户 ARN 具有 `S3:PutObject` 权限，以便将文件上传到此存储段。此权限允许用户 ARN 上传初始文件并覆盖后续上传的文件。</p><p>存储段名称必须满足特定的命名规则。 例如，其长度必须介于3到63个字符之间，只能由小写字母、数字、点(.)和连字符(-)组成，并且必须以字母或数字开头和结尾。 [AWS文档中提供了命名规则的完整列表](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **密钥前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
-      指定以下信息来配置 Google Cloud Platform 位置：
+      要配置Google Cloud Platform位置，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
@@ -159,11 +176,11 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      指定以下信息来配置 Azure SAS 位置：
+      要配置Azure SAS位置，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
@@ -172,11 +189,11 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      指定以下信息来配置 Azure RBAC 位置：
+      要配置Azure RBAC位置，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
@@ -186,7 +203,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. 继续在&#x200B;[!UICONTROL **报表选项**]&#x200B;选项卡上配置您的 Data Warehouse 请求。有关更多信息，请参阅[配置 Data Warehouse 请求的报表选项](/help/export/data-warehouse/create-request/dw-request-report-options.md)。
 
