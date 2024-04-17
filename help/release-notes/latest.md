@@ -3,7 +3,7 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 627a813d0d5595521d72f0cf832b3a1ceb7655f8
+source-git-commit: d2b2ebdbc6a3c0f20b8684ba5c1b4b89cefb8e5a
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 50%
@@ -26,7 +26,7 @@ ht-degree: 50%
 | **将相同的云帐户用于 [!UICONTROL 数据馈送]， [!UICONTROL Data Warehouse]、和 [!UICONTROL 分类集]** | 您创建的云帐户和位置现在可用于导出数据(使用 [!UICONTROL 数据馈送] 和 [!UICONTROL Data Warehouse])并导入数据(使用 [!UICONTROL 分类集])。<p> **配置帐户时的更改：** 用户可以 [配置云导入和导出帐户](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 和 [配置云导入和导出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 的任何其他资源：<ul><li>使用导入数据 [!UICONTROL 分类集]</li><li>导出数据，使用 [!UICONTROL 数据馈送]</li><li>导出数据，使用 [!UICONTROL Data Warehouse].</li></ul><p>**管理帐户时的更改**：用户可以使用 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 页面(在 [!UICONTROL 组件] >洛克查看和管理其创建的所有帐户和位置，而不管这些帐户和位置是在何处创建的。 <p>以前， [!UICONTROL 位置] 页面仅适用于创建用于导入数据的帐户 [!UICONTROL 分类集].</p> | | 2024 年 4 月 17 日 |
 | **管理员可以管理其组织中的所有位置和帐户** | “位置”选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有位置。<p>上的新选项 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) accounts选项卡（位于Components > Locations页面上）允许管理员查看和管理组织中的所有帐户。</p> <p>以前，管理员只能查看和管理他们创建的位置和帐户。</p> |  | 2024 年 4 月 17 日 |
 | **增大默认低流量阈值** | 在 **2024 年 4 月中旬**，Adobe 将开始增大默认报告包低流量阈值，如下所示：![低流量阈值](assets/thresholds.png) 这只会影响当前设置的小于新阈值的变量。这些更改将逐步进行，我们预计这项工作将在&#x200B;**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报告包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul> | 2024 年 4 月中旬 | 2024年5月31日 |
-| **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。 <p>此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。</p> |  | 2024年5月1日 |
+| **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。 <p>此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。</p> |  | 2024年5月31日 |
 
 {style="table-layout:auto"}
 
