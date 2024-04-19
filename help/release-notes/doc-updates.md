@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
-workflow-type: ht
-source-wordcount: '5243'
-ht-degree: 100%
+source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
+workflow-type: tm+mt
+source-wordcount: '5273'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2024 年 4 月** | |
+| 删除了关于配置云导入和导出位置的文档中的可折叠部分 | 删除中的可折叠部分 [配置云导入和导出位置](/help/components/locations/configure-import-locations.md) 以了解有关云帐户类型的信息。 |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | AppMeasurement 更新 v2.26.0 的[发行说明](/help/implement/appmeasurement-updates.md)。<br/>包括对 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档的引用和更新。 |
 | 有关“用于”列的使用情况信息仅从 2023 年 9 月开始提供。 | 阐明[项目登陆页面](/help/analyze/landing.md)“**用于**”列的使用情况信息只能追溯到 2023 年 9 月。 |
