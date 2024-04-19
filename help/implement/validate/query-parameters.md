@@ -4,9 +4,9 @@ description: 列出了图像请求中使用的所有查询字符串参数。
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 100%
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | 在[页面未找到](/help/components/dimensions/pages-not-found.md)维度中使用。 |
 | `pccr` | 无 | 仅为新访客设置，并始终设置为 `true`。如果访客拒绝 Cookie，有助于防止无限重定向。 |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 确定自定义链接的类型。[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)和[退出链接](/help/components/dimensions/exit-link.md)需要。 |
-| `pev1` | 无 | 自定义链接的 URL。 |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | 自定义链接的 URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | 自定义链接友好名称。 |
 | `pev3` | 无 | 已不再使用。在早期版本的视频报告中，用于跟踪里程碑。 |
 | `pf` | 无 | 平台标志；仅供 Adobe 使用。请勿更改。 |

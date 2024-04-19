@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 89e13606ef85cc2a227b42838a43768703c80efd
+source-git-commit: 7468463e2fe1de16221b4528919b6abd6c8aedcb
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 46%
+source-wordcount: '1445'
+ht-degree: 43%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 46%
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **流媒体：将Roku数据发送到Adobe Experience PlatformEdge Network** | 现在，当 [使用Experience PlatformEdge安装Media Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)中，您可以使用Adobe Experience Platform Roku SDK将流媒体数据发送到Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
-| **改进了Web SDK迁移工作流** | Adobe Experience Platform数据收集现在自动将许多字段从数据对象直接映射到Adobe Analytics。 此改进的工作流具有以下优势：<ul><li>它允许您的组织迁移到Web SDK，而无需担心创建或遵守 [!UICONTROL XDM架构]. 请参阅 [数据对象变量映射](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping) 以了解更多信息。 （更多文档链接随后提供）</li><li>迁移到Web SDK后，贵组织可以更好地从Adobe Analytics迁移到Customer Journey Analytics。 这是因为Web SDK允许更无缝地迁移到Customer Journey Analytics。</li></ul> （有关此迁移选项和其他迁移选项的更多信息即将发布。） |  | 2024 年 4 月 |
+| **改进了Web SDK迁移工作流** | 数据流现在自动将Web SDK数据对象中的字段直接映射到Adobe Analytics。 [数据对象映射](/help/implement/aep-edge/data-var-mapping.md) 类似于 [XDM对象映射](/help/implement/aep-edge/xdm-var-mapping.md)，但不需要XDM架构。 此改进的工作流具有以下优势：<ul><li>这会延迟使用架构的要求，直到您准备好将数据发送到Adobe Experience Platform为止。 如果在实施迁移的此阶段需要架构，则系统将强制使用基于Adobe Analytics字段的架构。 Adobe Experience Platform服务(例如Customer Journey Analytics)没有prop或eVar的概念。 如果您的组织希望将来使用自己的架构，则以Analytics为中心的架构可能会带来困难。</li><li>在对Web SDK进行实施更改后，贵组织可以更好地从Adobe Analytics迁移到Customer Journey Analytics。 如果您使用Web SDK将数据发送到Adobe Analytics，则无需对实施进行其他更改即可将数据发送到Adobe Experience Platform。 相反，您可以使用数据准备将数据对象字段映射到XDM架构。</li></ul>请参阅 [从Adobe Analytics标记扩展迁移到Web SDK标记扩展](/help/implement/aep-edge/web-sdk/analytics-extension-to-web-sdk.md) 和 [从AppMeasurement迁移到Web SDK](../implement/aep-edge/web-sdk/appmeasurement-to-web-sdk.md) 以了解更多信息。 |  | 2024 年 4 月 |
 | **仅用于项目的权限增强 [!UICONTROL 工作区] 组件** | 以前，如果用户（用户A）与其他用户（用户B）共享项目，并授予用户B编辑项目的权限，则用户B将能够编辑项目。 但是，用户B无法编辑 [!UICONTROL 快速区段] 嵌入到项目中。 该限制现已移除 — 用户B可以编辑 [!UICONTROL 快速区段] 以及嵌入到共享项目中的其他仅用于项目的组件。 |  | 2024 年 4 月 17 日 |
 | **将相同的云帐户用于 [!UICONTROL 数据馈送]， [!UICONTROL Data Warehouse]、和 [!UICONTROL 分类集]** | 您创建的云帐户和位置现在可用于导出数据(使用 [!UICONTROL 数据馈送] 和 [!UICONTROL Data Warehouse])并导入数据(使用 [!UICONTROL 分类集])。<p> **配置帐户时的更改：** 用户可以 [配置云导入和导出帐户](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 和 [配置云导入和导出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 的任何其他资源：<ul><li>使用导入数据 [!UICONTROL 分类集]</li><li>导出数据，使用 [!UICONTROL 数据馈送]</li><li>导出数据，使用 [!UICONTROL Data Warehouse].</li></ul><p>**从管理帐户和位置时的更改 [!UICONTROL 位置] 页面**：用户可以使用 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 页面(在 [!UICONTROL 组件] >洛克查看和管理其创建的所有帐户和位置，而不管这些帐户和位置是在何处创建的。 <p>以前， [!UICONTROL 位置] 页面仅适用于创建用于导入数据的帐户 [!UICONTROL 分类集].</p>**从管理位置时的更改 [!UICONTROL Data Warehouse] 或 [!UICONTROL 分类集]**<p>在给定应用程序区域内管理位置时([!UICONTROL Data Warehouse] 或 [!UICONTROL 分类集])，则只有在该特定应用程序区域中创建的位置可用。 例如，在查看 [!UICONTROL Data Warehouse] 仅应用区域 [!UICONTROL Data Warehouse] 位置可用。 所有帐户在每个应用程序区域中仍然可用，无论其是在哪个应用程序区域创建的。 以前，所有帐户和位置都可在每个应用程序区域中使用，无论其是在哪个应用程序区域创建的。 在查看 [!UICONTROL 数据馈送] 应用程序区域。 | | 2024 年 4 月 17 日 |
 | **管理员可以管理其组织中的所有位置和帐户** | “位置”选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有位置。<p>上的新选项 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) accounts选项卡（位于Components > Locations页面上）允许管理员查看和管理组织中的所有帐户。</p> <p>以前，管理员只能查看和管理他们创建的位置和帐户。</p> |  | 2024 年 4 月 17 日 |

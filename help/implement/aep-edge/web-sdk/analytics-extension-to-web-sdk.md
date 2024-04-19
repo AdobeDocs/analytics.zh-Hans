@@ -1,9 +1,10 @@
 ---
 title: 从Adobe Analytics标记扩展迁移到Web SDK标记扩展
 description: 更新您在Adobe Experience Platform数据收集标记上的Analytics实施，以使用Web SDK扩展。
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1706'
 ht-degree: 1%
 
 ---
@@ -46,7 +47,7 @@ Adobe建议在以下情况下遵循此实施路径：
 1. 在服务下拉菜单中，选择 **[!UICONTROL Adobe Analytics]**.
 1. 输入与您当前将分析数据发送到的网站相同的报表包ID。 单击&#x200B;**[!UICONTROL 保存]**。
 
-![添加Adobe Analytics服务](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![添加Adobe Analytics服务](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 您的数据流现在可以接收数据并传递给Adobe Analytics。
 
@@ -62,11 +63,11 @@ Adobe建议在以下情况下遵循此实施路径：
 1. 选择 **[!UICONTROL 目录]** 在顶部附近，可查看所有可用扩展的列表。
 1. 搜索并选择 **[!UICONTROL Adobe Experience Platform Web SDK]** 扩展，然后单击 **[!UICONTROL 安装]** 在右边。
 
-   ![目录](assets/catalog.png) {style="border:1px solid gray"}
+   ![目录](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. 此时会显示扩展配置设置。 找到数据流部分，然后选择在上一步中创建的数据流。
 
-   ![数据流选择](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![数据流选择](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
@@ -83,14 +84,14 @@ Adobe建议在以下情况下遵循此实施路径：
 1. 为数据元素指定以下设置：
    * [!UICONTROL 名称]：您想要的任何内容，例如“数据层”或“数据对象”
    * [!UICONTROL 扩展名]： [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL 变量]： [!UICONTROL 变量]
+   * [!UICONTROL 数据元素类型]： [!UICONTROL 变量]
    * 复选框可以保持原样
 1. 在右侧，选择以下设置：
    * “属性”单选按钮： [!UICONTROL 数据]
    * 解决方案： [!UICONTROL Adobe Analytics]
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-![创建数据元素](assets/create-data-element.png) {style="border:1px solid gray"}
+![创建数据元素](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 标记资产现在具有更新每个规则所需的一切。
 
@@ -103,7 +104,7 @@ Adobe建议在以下情况下遵循此实施路径：
 1. 在标记界面的左侧导航中，选择 **[!UICONTROL 规则]**.
 1. 选择要编辑的规则。
 1. 选择操作 **[!UICONTROL Adobe Analytics — 设置变量]**
-1. 记下在此规则中设置的所有Analytics变量。 请注意在下拉菜单中设置的变量以及自定义代码中设置的变量。
+1. 记下在此规则中设置的所有Analytics变量。 包含下拉菜单中设置的变量和自定义代码中设置的变量。
 1. 更改 [!UICONTROL 操作配置] 到以下设置：
    * [!UICONTROL 扩展名]： [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL 操作类型]：更新变量
@@ -146,7 +147,7 @@ Adobe建议在以下情况下遵循此实施路径：
 1. 在开发环境中测试您所做的更改，以确保所有规则均正确触发，并且数据对象已使用预期值填充。
 1. 准备就绪后，提交库以供审批，构建到暂存，最终审批并发布到生产环境。
 
-![发布流](assets/publishing-flow.png) {style="border:1px solid gray"}
+![发布流](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

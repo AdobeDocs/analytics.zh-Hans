@@ -4,16 +4,18 @@ description: 覆盖 AppMeasurement 在链接跟踪调用中使用的自动生成
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 74%
+source-wordcount: '158'
+ht-degree: 65%
 
 ---
 
 # linkURL
 
 每当向 Adobe 发送链接跟踪调用时，数据收集服务器都会自动检测 URL。使用 `linkURL` 变量可覆盖检测到的 URL。
+
+Analysis Workspace中没有报告此变量的维度。 它会填充 `page_event_var1` 中的列 [数据馈送](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## 使用Web SDK的“链接URL”
 

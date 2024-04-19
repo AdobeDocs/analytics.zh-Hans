@@ -1,7 +1,8 @@
 ---
 title: 从AppMeasurement迁移到Web SDK
 description: 将Adobe Analytics实施从AppMeasurementJavaScript库更新到Web SDK JavaScript库。
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Adobe建议在以下情况下遵循此实施路径：
 1. 在服务下拉菜单中，选择 **[!UICONTROL Adobe Analytics]**.
 1. 输入与您当前将分析数据发送到的网站相同的报表包ID。 单击&#x200B;**[!UICONTROL 保存]**。
 
-![添加Adobe Analytics服务](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![添加Adobe Analytics服务](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 您的数据流现在可以接收数据并传递给Adobe Analytics。 请记下数据流ID，因为在代码中配置Web SDK时需要此ID。
 
