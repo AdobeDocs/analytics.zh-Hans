@@ -6,47 +6,47 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7468463e2fe1de16221b4528919b6abd6c8aedcb
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 43%
+ht-degree: 76%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2024 年 4 月）
 
-**上次更新**：2024年4月17日
+**上次更新时间**：2024 年 4 月 17 日
 
-这些发行说明涵盖2024年4月17日至5月的发行期。 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖 2024 年 4 月 17 日至 2024 年 5 月的发行期。Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **流媒体：将Roku数据发送到Adobe Experience PlatformEdge Network** | 现在，当 [使用Experience PlatformEdge安装Media Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)中，您可以使用Adobe Experience Platform Roku SDK将流媒体数据发送到Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
-| **改进了Web SDK迁移工作流** | 数据流现在自动将Web SDK数据对象中的字段直接映射到Adobe Analytics。 [数据对象映射](/help/implement/aep-edge/data-var-mapping.md) 类似于 [XDM对象映射](/help/implement/aep-edge/xdm-var-mapping.md)，但不需要XDM架构。 此改进的工作流具有以下优势：<ul><li>这会延迟使用架构的要求，直到您准备好将数据发送到Adobe Experience Platform为止。 如果在实施迁移的此阶段需要架构，则系统将强制使用基于Adobe Analytics字段的架构。 Adobe Experience Platform服务(例如Customer Journey Analytics)没有prop或eVar的概念。 如果您的组织希望将来使用自己的架构，则以Analytics为中心的架构可能会带来困难。</li><li>在对Web SDK进行实施更改后，贵组织可以更好地从Adobe Analytics迁移到Customer Journey Analytics。 如果您使用Web SDK将数据发送到Adobe Analytics，则无需对实施进行其他更改即可将数据发送到Adobe Experience Platform。 相反，您可以使用数据准备将数据对象字段映射到XDM架构。</li></ul>请参阅 [从Adobe Analytics标记扩展迁移到Web SDK标记扩展](/help/implement/aep-edge/web-sdk/analytics-extension-to-web-sdk.md) 和 [从AppMeasurement迁移到Web SDK](../implement/aep-edge/web-sdk/appmeasurement-to-web-sdk.md) 以了解更多信息。 |  | 2024 年 4 月 |
-| **仅用于项目的权限增强 [!UICONTROL 工作区] 组件** | 以前，如果用户（用户A）与其他用户（用户B）共享项目，并授予用户B编辑项目的权限，则用户B将能够编辑项目。 但是，用户B无法编辑 [!UICONTROL 快速区段] 嵌入到项目中。 该限制现已移除 — 用户B可以编辑 [!UICONTROL 快速区段] 以及嵌入到共享项目中的其他仅用于项目的组件。 |  | 2024 年 4 月 17 日 |
-| **将相同的云帐户用于 [!UICONTROL 数据馈送]， [!UICONTROL Data Warehouse]、和 [!UICONTROL 分类集]** | 您创建的云帐户和位置现在可用于导出数据(使用 [!UICONTROL 数据馈送] 和 [!UICONTROL Data Warehouse])并导入数据(使用 [!UICONTROL 分类集])。<p> **配置帐户时的更改：** 用户可以 [配置云导入和导出帐户](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 和 [配置云导入和导出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 的任何其他资源：<ul><li>使用导入数据 [!UICONTROL 分类集]</li><li>导出数据，使用 [!UICONTROL 数据馈送]</li><li>导出数据，使用 [!UICONTROL Data Warehouse].</li></ul><p>**从管理帐户和位置时的更改 [!UICONTROL 位置] 页面**：用户可以使用 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 页面(在 [!UICONTROL 组件] >洛克查看和管理其创建的所有帐户和位置，而不管这些帐户和位置是在何处创建的。 <p>以前， [!UICONTROL 位置] 页面仅适用于创建用于导入数据的帐户 [!UICONTROL 分类集].</p>**从管理位置时的更改 [!UICONTROL Data Warehouse] 或 [!UICONTROL 分类集]**<p>在给定应用程序区域内管理位置时([!UICONTROL Data Warehouse] 或 [!UICONTROL 分类集])，则只有在该特定应用程序区域中创建的位置可用。 例如，在查看 [!UICONTROL Data Warehouse] 仅应用区域 [!UICONTROL Data Warehouse] 位置可用。 所有帐户在每个应用程序区域中仍然可用，无论其是在哪个应用程序区域创建的。 以前，所有帐户和位置都可在每个应用程序区域中使用，无论其是在哪个应用程序区域创建的。 在查看 [!UICONTROL 数据馈送] 应用程序区域。 | | 2024 年 4 月 17 日 |
-| **管理员可以管理其组织中的所有位置和帐户** | “位置”选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有位置。<p>上的新选项 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) accounts选项卡（位于Components > Locations页面上）允许管理员查看和管理组织中的所有帐户。</p> <p>以前，管理员只能查看和管理他们创建的位置和帐户。</p> |  | 2024 年 4 月 17 日 |
-| **增大默认低流量阈值** | 在 **2024 年 4 月中旬**，Adobe 将开始增大默认报告包低流量阈值，如下所示：![低流量阈值](assets/thresholds.png) 这只会影响当前设置的小于新阈值的变量。这些更改将逐步进行，我们预计这项工作将在&#x200B;**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报告包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul> | 2024 年 4 月中旬 | 2024年5月31日 |
-| **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。 <p>此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。</p> |  | 2024年5月31日 |
+| **流媒体：将 Roku 数据发送到 Adobe Experience Platform Edge Network** | 现在，当 [使用 Experience Platform Edge 安装 Media Analytics ](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)时，您可以使用 Adobe Experience Platform Roku SDK 将流媒体数据发送到 Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
+| **改进了 Web SDK 迁移的工作流程** | 数据流现在自动将Web SDK数据对象中的字段直接映射到Adobe Analytics。 [数据对象映射](/help/implement/aep-edge/data-var-mapping.md) 类似于 [XDM对象映射](/help/implement/aep-edge/xdm-var-mapping.md)，但不需要XDM架构。 这种改进的工作流程具有以下优点：<ul><li>这会延迟使用架构的要求，直到您准备好将数据发送到Adobe Experience Platform为止。 如果在实施迁移的此阶段需要架构，则系统将强制使用基于Adobe Analytics字段的架构。 Adobe Experience Platform服务(例如Customer Journey Analytics)没有prop或eVar的概念。 如果您的组织希望将来使用自己的架构，则以Analytics为中心的架构可能会带来困难。</li><li>在对Web SDK进行实施更改后，贵组织可以更好地从Adobe Analytics迁移到Customer Journey Analytics。 如果您使用Web SDK将数据发送到Adobe Analytics，则无需对实施进行其他更改即可将数据发送到Adobe Experience Platform。 相反，您可以使用数据准备将数据对象字段映射到XDM架构。</li></ul>请参阅 [从Adobe Analytics标记扩展迁移到Web SDK标记扩展](/help/implement/aep-edge/web-sdk/analytics-extension-to-web-sdk.md) 和 [从AppMeasurement迁移到Web SDK](../implement/aep-edge/web-sdk/appmeasurement-to-web-sdk.md) 以了解更多信息。 |  | 2024 年 4 月 |
+| **仅限项目 [!UICONTROL 工作区] 组件的权限增强** | 以前，如果一个用户（用户 A）与另一个用户（用户 B）共享一个项目，并授予用户 B 编辑该项目的访问权限，则用户 B 将能够编辑该项目。但是，用户 B 无法编辑项目中嵌入的 [!UICONTROL 快速片段]。该限制现已取消 - 用户 B 可以编辑 [!UICONTROL 快速片段] 以及共享项目中嵌入的其他仅限项目的组件。 |  | 2024 年 4 月 17 日 |
+| **对[!UICONTROL 数据馈送]、[!UICONTROL Data Warehouse] 和 [!UICONTROL 分类集]**&#x200B;使用相同的云帐户 | 您创建的云帐户和位置现在可用于导出数据（使用 [!UICONTROL 数据馈送] 和 [!UICONTROL Data Warehouse]）和导入数据（使用[!UICONTROL 分类集]）。<p> **配置帐户时的更改：** 用户可以 [配置云导入和导出帐户](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts) 以及 [配置云导入和导出位置](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-locations)，这些位置可用于以下任何目的：<ul><li>使用 [!UICONTROL 分类集导入数据]</li><li>使用 [!UICONTROL 数据馈送]导出数据</li><li>使用 [!UICONTROL Data Warehouse]导出数据。</li></ul><p>**从管理帐户和位置时的更改 [!UICONTROL 位置] 页面**：用户可以使用 [位置](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/locations-manager) 页面(在 [!UICONTROL 组件] >洛克查看和管理其创建的所有帐户和位置，而不管这些帐户和位置是在何处创建的。 <p>之前，[!UICONTROL “位置”]页面仅适用于为导入带有[!UICONTROL 分类集]的数据而创建的帐户。</p>**从管理位置时的更改 [!UICONTROL Data Warehouse] 或 [!UICONTROL 分类集]**<p>在给定应用程序区域内管理位置时([!UICONTROL Data Warehouse] 或 [!UICONTROL 分类集])，则只有在该特定应用程序区域中创建的位置可用。 例如，在查看 [!UICONTROL Data Warehouse] 仅应用区域 [!UICONTROL Data Warehouse] 位置可用。 所有帐户在每个应用程序区域中仍然可用，无论其是在哪个应用程序区域创建的。 以前，所有帐户和位置都可在每个应用程序区域中使用，无论其是在哪个应用程序区域创建的。 在查看 [!UICONTROL 数据馈送] 应用程序区域。 | | 2024 年 4 月 17 日 |
+| **管理员可以管理其组织中的所有位置和帐户** | “位置”选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有位置。<p>[“位置”](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/locations-manager)帐户选项卡（在“组件”>“位置”页面）上的新选项允许管理员查看和管理组织中的所有帐户。</p> <p>以前，管理员只能查看和管理他们创建的位置和帐户。</p> |  | 2024 年 4 月 17 日 |
+| **增大默认低流量阈值** | 在 **2024 年 4 月中旬**，Adobe 将开始增大默认报告包低流量阈值，如下所示：![低流量阈值](assets/thresholds.png) 这只会影响当前设置的小于新阈值的变量。这些更改将逐步进行，我们预计这项工作将在&#x200B;**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报告包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月 31 日 |
+| **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。 <p>此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。</p> |  | 2024 年 5 月 31 日 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修复
 
-* 修复了以下分类问题：AN-343439、AN-343503、AN-343504、AN-343986、AN-344262、AN-344564、AN-345204、AN-345234
+* 修复了以下分类问题：AN-343439；AN-343503；AN-343504；AN-343986；AN-344262；AN-344564；AN-345204；AN-345234
 * 修复了以下分类规则生成器问题：AN-341488；AN-342501；AN-345751
 * 修复了以下智能警报问题：AN-343466；
 * 修复了以下分段问题：AN-342313
-* 修复了以下Data Warehouse问题：AN-344292
-* 修复了以下数据馈送问题：AN-339545、AN-340092、AN-342124、AN-342862、AN-343737、AN-344035、AN-344329、AN-344703、AN-344721、AN-344940、AN-345180、AN-345196、AN-345225、AN-345236、AN-345326、AN-345631、AN-345659、AN-
+* 修复了以下 Data Warehouse 问题：AN-344292
+* 修复了以下数据馈送问题：AN-339545；AN-340092；AN-342124；AN-342862；AN-343737；AN-344035；AN-344329；AN-344703；AN-344721；AN-344940；AN-345180；AN-345196；AN-345225；AN-345236；AN-345326；AN-345631；AN-345659
 * 修复了以下数据源问题：AN-343541
-* 修复了以下Analysis Workspace问题：AN-336303、AN-336472、AN-338422、AN-338556、AN-339718、AN-340147、AN-340301、AN-340421、AN-340951、AN-341172、AN-342905、AN-342909、AN-343448、AN-343570、AN-344050、AN-344182、AN-344763、AN-344768；
-* 修复了以下Analytics管理问题：AN-342519、AN-342523、AN-343623、AN-343882、AN-344237、AN-344829、AN-345235；
-* 修复了以下A4T问题：AN-341619；AN-344402
+* 修复了以下 Analysis Workspace 问题：AN-336303；AN-336472；AN-338422；AN-338556；AN-339718；AN-340147；AN-340301；AN-340421；AN-340951；AN-341172；AN-342905；AN-342909；AN-343448；AN-343570；AN-344050；AN-344182；AN-344763；AN-344768；
+* 修复了以下分析管理员问题：AN-342519；AN-342523；AN-343623；AN-343882；AN-344237；AN-344829；AN-345235；
+* 修复了以下 A4T 问题：AN-341619；AN-344402
 * 修复了以下移动设备应用程序问题：AN-342010
 
 ### 其他 Analytics 修复
 
-AN-336099、AN-337474、AN-337993、AN-339718、AN-339901、AN-340014、AN-341356、AN-343021、AN-343102、AN-343353、AN-343416、AN-340014、AN-344037、AN-344525、AN-345737
+AN-336099；AN-337474；AN-337993；AN-339718；AN-339901；AN-340014；AN-341356；AN-343021；AN-343102；AN-343353；AN-343416；AN-340014；AN-344037；AN-344525；AN-345737
 
 ## Adobe Analytics 管理员的重要注意事项 {#admin}
 
