@@ -3,10 +3,10 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 0cd9f21771acd634ad8389882c2cc48c9a7fce6f
+source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
 workflow-type: tm+mt
 source-wordcount: '4043'
-ht-degree: 44%
+ht-degree: 42%
 
 ---
 
@@ -263,7 +263,7 @@ ht-degree: 44%
          | [!UICONTROL **帐户描述**] | Azure SAS帐户的描述。 此描述显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
          | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-         | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。要配置 Azure SAS，需要使用 Azure 密钥保管库将 SAS 令牌存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。</li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul><p>有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
+         | [!UICONTROL **密钥保管库 URI**] | <p>Azure密钥库中SAS URI的路径。  要配置Azure SAS，您需要使用Azure密钥库将SAS URI存储为密钥。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。</li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul><p>有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
          | [!UICONTROL **密钥保管库密码名称**] | 将密码添加到 Azure 密钥保管库时创建的密码名称。在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥保管库**&#x200B;设置页面上创建的密钥保管库中。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
          | [!UICONTROL **密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
@@ -276,7 +276,7 @@ ht-degree: 44%
          | [!UICONTROL **名称**] | 位置的名称。 此名称显示在 [!UICONTROL **选择位置**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **描述**] | 位置的描述。 此描述显示在 [!UICONTROL **选择位置**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **容器**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。 |
-         | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/`<p>确保在配置 Azure SAS 帐户时，在密钥保管库密码名称字段中指定的 SAS 令牌存储具有 `Write` 权限。这将允许 SAS 令牌在 Azure 容器中创建文件。 <p>如果您希望 SAS 令牌也覆盖文件，请确保 SAS 令牌存储具有 `Delete` 权限。</p><p>有关更多信息，请参阅 Azure Blob 存储文档中的 [Blob 存储资源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)。</p> |
+         | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/`<p>在配置Azure SAS帐户时，请确保您在密钥库机密名称字段中指定的SAS URI存储具有 `Write` 许可。 这允许SAS URI在Azure容器中创建文件。 <p>如果希望SAS URI也覆盖文件，请确保SAS URI存储具有 `Delete` 许可。</p><p>有关更多信息，请参阅 Azure Blob 存储文档中的 [Blob 存储资源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)。</p> |
 
          {style="table-layout:auto"}
 
