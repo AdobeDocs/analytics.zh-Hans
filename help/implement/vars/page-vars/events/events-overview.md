@@ -4,7 +4,7 @@ description: 设置事件变量，该变量可控制网站上的大多数量度�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
+source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## 使用 Web SDK 的事件
 
-如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，自定义事件使用以下XDM字段：
+如果使用 [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)，自定义事件使用以下XDM字段：
 
 * 自定义事件 1-100 将映射到 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`。
 * 自定义事件 101-200 将映射到 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`。
