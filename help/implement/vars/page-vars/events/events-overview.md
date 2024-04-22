@@ -4,7 +4,7 @@ description: 设置事件变量，该变量可控制网站上的大多数量度�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -27,7 +27,7 @@ ht-degree: 85%
 * 订单将映射到 `xdm.commerce.purchases.value`。
 * 件数将映射到所有 `productListItems[].quantity` 字段的总和。
 * 收入将映射到所有 `productListItems[].priceTotal` 字段的总和。
-* 产品视图将映射到 `xdm.commerce.productListViews.value`。
+* 产品视图将映射到 `xdm.commerce.productViews.value`。
 * 购物车将映射到 `xdm.commerce.productListOpens.value`。
 * 购物车加货将映射到 `xdm.commerce.productListAdds.value`。
 * 购物车减货将映射到 `xdm.commerce.productListRemovals.value`。
