@@ -3,10 +3,10 @@ title: Adobe Analytics 中的实时报表
 description: 了解如何在 Adobe Analytics 中提取实时报表，适用于比较熟悉 Google Analytics 的用户。
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 8f08ff46d33d050d0bdb4e0555611ba37ccc8474
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 100%
+source-wordcount: '981'
+ht-degree: 94%
 
 ---
 
@@ -16,13 +16,14 @@ ht-degree: 100%
 
 ![实时报表](/help/technotes/ga-to-aa/assets/realtime.png)
 
-实时报表是 Analysis Workspace 中尚未引入的少数功能之一。使用 Reports &amp; Analytics 获取此数据。需要一些简单的配置才能开始收集数据。
+实时报表是 Analysis Workspace 中尚未引入的少数功能之一。使用报表获取此数据。 需要一些简单的配置才能开始收集数据。
 
 要访问实时报表配置页面（需要管理员权限），请执行以下操作：
 
-1. 在 Adobe Analytics 标题导航中单击[!UICONTROL 报表]。
-2. 在左侧菜单中，单击&#x200B;*[!UICONTROL 网站指标]* > *[!UICONTROL 实时]*。
-3. 如果报表包尚未启用实时功能，则会显示一条消息，其中包含用于配置报表包的链接。如果报表包已启用实时功能，请单击实时报表标题附近的[!UICONTROL 配置]。
+1. 单击 **[!UICONTROL 工作区]** 在Adobe Analytics顶部导航栏中。
+1. 选择 **[!UICONTROL 报表]** 左侧导航栏中。
+1. 选择 **[!UICONTROL 参与]** ![V形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 实时]**. 您还可以 ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 搜索实时。
+1. 如果报表包尚未启用实时功能，则会显示一条消息，其中包含用于配置报表包的链接。
 
 Adobe 允许最多三个实时报表同时收集数据。每个报表都必须进行配置，然后才能开始实时收集数据。
 
