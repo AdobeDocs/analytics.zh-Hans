@@ -4,10 +4,10 @@ description: 确定发送图像请求的位置。
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 72%
+source-wordcount: '702'
+ht-degree: 52%
 
 ---
 
@@ -59,9 +59,14 @@ alloy("configure", {
 
 `s.trackingServer` 变量是一个字符串，其中包含要发送数据的位置。
 
-## 确定值 `trackingServer`
+## 确定以下项的值的注意事项 `trackingServer`
 
-此变量的值取决于您是使用第一方 Cookie 还是第三方 Cookie。Adobe 强烈建议在您的实施中使用第一方 Cookie。
+您可以选择使用Adobe的跟踪服务器域(例如， `adobedc.net`)，或者您可以按照特定的流程来设置与站点域匹配的跟踪服务器(例如， `data.mydomain.com`)，也称为CNAME实施。 根据实施的其他方面，具有与您的网站域相匹配的trackingserver可能会有一些好处。 当跟踪服务器与当前页面的域不匹配时，AppMeasurement设置的Cookie必须设置为第三方。 如果浏览器不支持第三方Cookie，这种不匹配可能会干扰某些Analytics功能：
+
+- 设置标识符：如果您使用的是Experience Cloud标识服务，则跟踪服务器不会影响Cookie的设置方式。 但是，如果您使用的是Analytics旧版标识符(又称 `s_vi` Cookie)且收集服务器与当前域不匹配，则Cookie必须设置为第三方。 在这种情况下，如果浏览器阻止第三方Cookie，Analytics会设置第一方回退ID (`s_fid`)而不是标准 `s_vi` Cookie。
+- 链接跟踪不适用于内部链接。
+- Activity Map不适用于内部链接。
+- Cookie检查。
 
 ### 第一方 Cookie
 
@@ -73,7 +78,7 @@ alloy("configure", {
 s.trackingServer = "data.example.com";
 ```
 
-### 第三方 Cookie
+### 第三方跟踪服务器
 
 >[!TIP]
 >
