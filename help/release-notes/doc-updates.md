@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
-workflow-type: ht
-source-wordcount: '5273'
-ht-degree: 100%
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+workflow-type: tm+mt
+source-wordcount: '5315'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 4 月** | |
+| 删除了与分类集中“所有者”相关的文档 | 已从删除“所有者”筛选器和列 [分类集管理器](/help/components/classifications/sets/manage/set-manager.md) 而“所有者”字段已从 [分类集设置](/help/components/classifications/sets/manage/settings.md). <p>更新了文档以删除此筛选器、列和字段。</p> |
 | 删除了文档中有关配置云导入和导出位置的可折叠部分 | 删除了[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的可折叠部分，以获取解释云帐户类型的信息。 |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | AppMeasurement 更新 v2.26.0 的[发行说明](/help/implement/appmeasurement-updates.md)。<br/>包括对 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档的引用和更新。 |
