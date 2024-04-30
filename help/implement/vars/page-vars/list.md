@@ -4,10 +4,10 @@ description: 在同一点击中保留多个值的自定义变量。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 87%
+source-wordcount: '500'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->列表变量存储每个访客最近的 250 个值。如果给定访客的唯一值超过 250 个，则最早的值不会归属于量度。
+>列表变量会根据每个访客最近使用的值 [!UICONTROL 最大值] 在中设置 [报表包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). 最多支持250个值。 如果唯一值多于唯一值，则 [!UICONTROL 最大值] 设置允许时，最早的值不会归属于量度。
 
 ## 在报告包设置中设置列表变量
 
@@ -77,7 +77,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement 和 Analytics 扩展代码编辑器中的 s.list1 – s.list3
 
-每个列表变量都是一个字符串，其中包含特定于贵组织的自定义值。它们没有字节数上限；但是，单个值的最大长度为 255 字节。在[报告包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中设置变量时，将会确定使用的分隔符。 在分隔多个项目时不要使用空格。
+每个列表变量都是一个字符串，其中包含特定于贵组织的自定义值。此变量没有最大字节数；但是，每个单独值的最大限制为255字节。 在[报告包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中设置变量时，将会确定使用的分隔符。 在分隔多个项目时不要使用空格。
 
 ```js
 // A list variable configured with a comma as a delimiter

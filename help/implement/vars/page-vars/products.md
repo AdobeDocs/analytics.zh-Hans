@@ -4,10 +4,10 @@ description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 64%
+source-wordcount: '658'
+ht-degree: 67%
 
 ---
 
@@ -30,11 +30,42 @@ ht-degree: 64%
 * 促销eVar映射到 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 到 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
 * 促销事件映射到 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 到 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要捆绑到产品的事件。 如果您在其中某个字段中设置了事件，则该事件将自动包含在 [事件](events/events-overview.md) 发送到Adobe Analytics的字符串。
 
->[!NOTE]
->
->`lineItemId` 必须添加为自定义字段，因为它尚未包含在标准Analytics事件架构中。 Adobe计划将来添加专用的“类别”字段。
+```json
+{
+  "xdm": {
+    "productListItems": [{
+      "productCategories": [{
+        "categoryID": "Men's"
+      }],
+      "name": "Hiking boot",
+      "quantity": 1,
+      "priceTotal": 49.99
+    },
+    {
+      "productCategories": [{
+        "categoryID": "Camping"
+      }],
+      "name": "Hunting blind",
+      "quantity": 3,
+      "priceTotal": 699.69
+    }]
+  }
+}
+```
 
 如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，产品变量使用 `data.__adobe.analytics.products` 遵循AppMeasurement语法。 如果设置此字段，则会覆盖XDM对象中设置的任何产品，并且不会将其发送到Adobe Analytics。
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "products": "Archery;Fletched arrow;12;159.99"
+      }
+    }
+  }
+}
+```
 
 ## 使用Adobe Analytics扩展的产品
 

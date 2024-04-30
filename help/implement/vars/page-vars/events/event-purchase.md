@@ -4,10 +4,10 @@ description: 使用购买事件收集“订单数”、“件数”和“收入�
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
+source-wordcount: '468'
+ht-degree: 70%
 
 ---
 
@@ -30,10 +30,34 @@ ht-degree: 72%
 如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，购买事件使用以下XDM字段：
 
 * 订单将映射到 `xdm.commerce.purchases.value`。
-* 件数将映射到所有 `xdm.productListItems[].quantity` 字段的总和。
+* 单位映射到所有单位的总和 `xdm.productListItems[].quantity` 字段。 请参阅 [`products`](../products.md) 以了解更多信息。
 * 收入将映射到所有 `xdm.productListItems[].priceTotal` 字段的总和。
 
+```json
+{
+  "xdm": {
+    "commerce": {
+      "purchases": {
+        "value": 1
+      }
+    }
+  }
+}
+```
+
 如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，购买事件使用 `data.__adobe.analytics.events`，遵循字符串AppMeasurement语法。
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "events": "purchase"
+      }
+    }
+  }
+}
+```
 
 ## 使用Adobe Analytics扩展设置购买事件
 

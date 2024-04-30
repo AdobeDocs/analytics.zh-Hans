@@ -3,9 +3,9 @@ title: Analytics 技术说明
 description: 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ Adobe Analytics 的一些主要功能包括：
 ## 重要技术说明文章
 
 * [从第三方分析平台过渡到 Adobe Analytics](ga-to-aa/home.md)
-* [地区数据收集](/help/technotes/rdc/regional-data-collection.md)
 
 ## 更多 Analytics 用户指南
 
