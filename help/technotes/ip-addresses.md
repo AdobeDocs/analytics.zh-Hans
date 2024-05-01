@@ -1,41 +1,20 @@
 ---
-title: Adobe Analytics 使用的 IP 和域
+title: Adobe Analytics使用的IP地址
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: ea859717c6a40b4eeeb9eca54b95718859af9c7b
+source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 32%
+source-wordcount: '186'
+ht-degree: 35%
 
 ---
 
-# Adobe Analytics 使用的 IP 和域
+# Adobe Analytics使用的IP地址
 
-某些防火墙配置会阻止Adobe Analytics作为其产品界面所依赖的域。 您可以使用此域列表来更改组织的网络设置，以允许从组织内部访问产品。
+一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。您可以使用此范围列表来更改贵组织的防火墙设置，以允许从组织内访问和发送数据。
 
-## 允许相关的技术域
-
-Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议允许这些域通过贵组织的防火墙，以获得最佳的Adobe Analytics使用体验。
-
-| 技术 | 域 |
-| --- | --- |
-| Adobe Analytics 域 | `adobe.com`、`adobe.net`、`adobe.io` |
-| Adobe Analytics 旧域 | `omniture.com` |
-| Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
-| Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
-| Gainsight | `esp.aptrinsic.com`、`esp-m.aptrinsic.com` |
-| LaunchDarkly | `app.launchdarkly.com` |
-| Microsoft Azure Blob 存储 | `awaascicdprodva7.blob.core.windows.net` |
-| Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
-
-{style="table-layout:auto"}
-
-## Adobe Experience Cloud IP地址块
-
-除了上述域之外，Adobe Analytics还依靠多个IP地址块来收集和导出报表。
-
-有关IP范围的完整列表，请参阅Adobe Experience Cloud IP地址。
+Adobe Analytics使用的所有IP地址都属于 [Adobe Experience Cloud使用的IP地址](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)，中国性能优化附加组件包除外。
 
 ## 中国性能优化IP地址
 
@@ -54,3 +33,9 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议�
 | 中国 | `54.223.199.8` |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[Adobe Experience Cloud使用的IP地址](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>
+>[Adobe Analytics使用的域](domains.md)
