@@ -6,9 +6,9 @@ role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
 source-git-commit: 75d50a5b2cd31aa11df22fa6a271f7ab937a770c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ Activity Map 模块是 AppMeasurement.js、Adobe Experience Platform 标记和 W
 
 +++Web SDK（Adobe Experience Platform 标记扩展）
 
-注意：Web SDK当前通过记录单独的链接点击事件来收集Activity Map信息。 这与记录内部链接的Activity Map信息的AppMeasurement不同，后者在后续页面加载中包含该信息。 因此，Web SDK收集会导致额外的服务器调用。 Web SDK的未来版本将能够配置Web SDK以打包有关后续点击的Activity Map信息，从而基本上匹配AppMeasurement的行为。
+注意：Web SDK 目前通过记录单独的链接点击事件来收集活动地图信息。这与 AppMeasurement 不同，AppMeasurement 通过在后续页面加载中包含内部链接的活动图信息来记录这些信息。因此，Web SDK 收集会导致额外的服务器调用。Web SDK 的未来版本将可以配置 Web SDK，以便在后续点击中打包活动地图信息，从而与 AppMeasurement 的行为基本匹配。
 
-1. 在Adobe Experience Platform标记中，导航到要实施Analytics的属性。
-1. 下 [!UICONTROL 扩展] > [!UICONTROL Adobe Experience Platform Web SDK]，选择 **[!UICONTROL 启用点击数据收集]** 如下面突出显示的。
+1. 在 Adobe Experience Platform 标记中，导航到要为其实施 Analytics 的属性。
+1. 在“[!UICONTROL 扩展]”>“[!UICONTROL Adobe Experience Platform Web SDK]”下，选择“**[!UICONTROL 启用点击数据收集]**”，如下突出显示。
 1. 使用更改构建库。
 1. 将库发布到生产环境。
 
