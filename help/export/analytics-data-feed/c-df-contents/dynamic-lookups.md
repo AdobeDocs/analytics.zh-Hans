@@ -1,11 +1,11 @@
 ---
 title: 动态查找
-description: 了解什么是动态查找以及如何启用它们。 包括运营商、移动属性和操作系统类型。
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+description: 了解什么是动态查找以及如何启用它们。 包括运营商、移动设备属性和操作系统类型。
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -14,24 +14,24 @@ ht-degree: 1%
 
 动态查找允许您在数据馈送中接收其他查找文件，否则不可用。 此设置允许随每个数据馈送文件发送以下查找表：
 
-* **运营商名称**：为提供其他上下文 `carrier` 列。 包含的文件名是 `carrier.tsv`.
-* **移动设备属性**：为提供其他上下文 `mobile_id` 列，其中包含为每个移动设备跟踪的所有功能。 包含的文件名是 `mobile_attributes.tsv`.
+* **运营商名称**：为提供额外的上下文 `carrier` 列。 包含的文件名是 `carrier.tsv`.
+* **移动设备属性**：为提供额外的上下文 `mobile_id` 列，其中包含为每个移动设备跟踪的所有功能。 包含的文件名是 `mobile_attributes.tsv`.
 * **操作系统类型**：为提供替代上下文 `os` 列。 两者 `operating_systems.tsv` 和 `operating_system_type.tsv` 使用 `os` 列作为键，但仅限 `operating_system_type.tsv` 是动态查找。
 
 ## 启用动态查找
 
-如果要接收提及的查找文件，则必须满足以下所有先决条件：
+如果要接收上述查找文件，则必须满足以下所有先决条件：
 
 * 数据馈送中必须包含键列。
    * 对象 `carrier.tsv`，您必须包含 `carrier`.
    * 对象 `mobile_attributes.tsv`，您必须包含 `mobile_id`.
    * 对象 `operating_system_type.tsv`，您必须包含 `os`.
-* 以下列必须 **已排除**. 如果数据馈送中包含这些列中的任一列，则不包括其他查找表。
+* 以下列必须 **已排除**. 如果数据馈送中包含这些列中的任意列，则 `mobile_attributes.tsv` 不包含动态查找。
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
 
-在您的数据馈送满足列包含和排除要求后，请联系客户关怀团队，向其提供数据馈送ID并请求启用动态查找。
+在您的数据馈送满足列包含和排除要求后，请联系客户关怀团队并提供数据馈送ID以启用动态查找。
 
 ## 查找标头引用
 
