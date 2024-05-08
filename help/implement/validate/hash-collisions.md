@@ -4,80 +4,44 @@ description: 描述什么是哈希冲突以及它是如何体现的。
 feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 06f61fa7b39faacea89149650e378c8b8863ac4f
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 6%
 
 ---
 
 # 哈希冲突
 
-Adobe 会将 prop 和 eVar 值视为字符串，即使这个值是一个数字。这些字符串有时长达数百个字符，有时却很短。为了节省空间、提升性能，并确保所有的值都能够大小一致，在处理时将不会直接使用这些字符串。而是为每个值计算一个 32 位或 64 位的哈希值。所有报表都基于这些哈希值运行，其中每个哈希值都会被替换为原始文本。哈希可大幅提高 Analytics 报表的性能。
+Adobe Analytics中的Dimension收集字符串值。 这些字符串有时长达数百个字符，有时则较短。 为了提高性能，在处理过程中不会直接使用这些字符串值。 而是为每个值计算散列，以使所有值的大小一致。 所有报表都基于这些哈希值运行，这会显着提升其性能。
 
-对于大多数字段而言，字符串首先会转换为全部小写（减少唯一值的数量）。这些值每月进行一次哈希运算（每月首次出现的时候进行运算）。月复一月，可能会出现两个唯一的变量值经过哈希运算后变成同一个值的情况，但这种可能性很小。这一概念就是所谓的&#x200B;*哈希冲突*。
+对于大多数字段，字符串首先会转换为全部小写。 小写转换可减少唯一值的数量。 值按月进行哈希处理 — 给定值的大小写使用每月看到的第一个值。 月复一月，可能会出现两个唯一的变量值经过哈希运算后变成同一个值的情况，但这种可能性很小。 这一概念就是所谓的&#x200B;*哈希冲突*。
 
-在报表中，哈希冲突可能会以下列形式体现：
+哈希冲突可如下所示显示在报表中：
 
-* 如果您观察某个值的趋势，发现在一个月内出现猛增，则可能是这个变量的另外一些值通过哈希运算变成了与您正在观察的值相同的值。
-* 特定值的区段会发生同样的事情。
+* 如果您查看一段时间的报表并看到意外的尖峰，则该变量的多个唯一值可能会使用相同的哈希。
+* 如果您使用区段并看到意外值，则意外维度项可能会使用与您的区段匹配的其他维度项相同的哈希。
 
-## 哈希冲突示例
+## 哈希冲突发生概率
 
-哈希冲突出现的可能性会随着维度中唯一值的数量而增加。例如，当月晚些时候获取的某一个值可能会与当月早些时候获取的某一个值拥有相同的哈希值。以下示例可以帮助解释，这种情况如何能够导致区段结果发生变化。假设 eVar62 于 2 月 18 日收到“value 100”。Analytics 会保留一个类似于这样的表格：
+Adobe Analytics对大多数维度使用32位哈希，这意味着有2个<sup>32</sup> 可能的哈希组合（约43亿）。 每月为每个维度创建一个新的哈希表。 根据唯一值的数量，遇到哈希冲突的大致概率如下。 这些赔率基于单个维度单个月。
 
-<table id="table_6A49D1D5932E485DB2083154897E5074"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> eVar62 字符串值 </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Value 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Value 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Value 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 唯一值 | 赔率 |
+| --- | --- |
+| 1,000 | 0.01% |
+| 10,000 | 1% |
+| 50,000 | 26% |
+| 100,000 | 71% |
 
-如果您构建一个区段，用来寻找 eVar62=&quot;value 500&quot; 的访问，那么 Analytics 会确定 &quot;value 500&quot; 是否包含一个哈希。因为如果 &quot;value 500&quot; 不存在，那么 Analytics 会返回零个访问。然后到 2 月 23 日，eVar62 收到了 &quot;value 500&quot;，而且这个值的哈希也是 123。表格如下：
+{style="table-layout:auto"}
 
-<table id="table_5FCF0BCDA5E740CCA266A822D9084C49"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> eVar62 字符串值 </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Value 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Value 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Value 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Value 500</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+类似于 [生日悖论](https://en.wikipedia.org/wiki/Birthday_problem)，哈希冲突出现的可能性会随着唯一值数量的增加而急剧增加。 至少100万个唯一值，该维度可能至少有100个哈希冲突。
 
-再次运行同一个区段时，这个区段在寻找 &quot;value 500&quot; 的哈希时找到了 123，然后报表会返回所有包含哈希 123 的访问。现在，发生在 2 月 18 日的访问就会被包含在结果中。
+## 缓解哈希冲突
 
-使用 Analytics 时，这种情况会产生问题。Adobe 仍在研究方法，希望将来能够降低出现此类哈希冲突的可能性。要想避免这种情况，我们的建议是想办法分散各个变量的唯一值、利用处理规则删除不必要的值，或者通过其他方式减少各个变量的值的数量。
+大多数哈希冲突都发生在两个不常见的值中，这些值对报表没有任何实际影响。 即使哈希与某个通用值和不通用值发生冲突，结果也几乎可以忽略。 但是，在极少数情况下，当两个常用值遇到哈希冲突时，可以清楚地看到其影响。 Adobe建议采取以下措施以减少它在报表中的影响：
+
+* **更改日期范围**：哈希表每月更改。 将日期范围更改为跨越另一个月，可能会为每个值赋予不同的哈希值，而不会产生冲突。
+* **减少唯一值的数量**：您可以调整实施或使用 [处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 以帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
+
+<!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->
