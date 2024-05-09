@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
 workflow-type: tm+mt
-source-wordcount: '5315'
-ht-degree: 98%
+source-wordcount: '5448'
+ht-degree: 97%
 
 ---
 
@@ -25,8 +25,11 @@ ht-degree: 98%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2024 年 5 月** | |
+| 关于从Adobe Analytics升级到Customer Journey Analytics的新文档 | 对于从Adobe Analytics升级到Customer Journey Analytics的组织，根据组织当前的Adobe Analytics实施和长期目标，需要牢记有多个升级选项和许多注意事项。<p>现在提供了新的文档资源，以帮助您更好地了解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的Adobe Analytics实施，提供了哪些升级路径</li><li>每种升级路径的优缺点</li><li>每个升级路径的分步指南</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[Customer Journey Analytics升级入门](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| 更新了有关自定义日期范围的文档 | 更新了相关屏幕截图和程序 [创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 以便与当前的产品功能和设计相匹配。 |
 | **2024 年 4 月** | |
-| 删除了与分类集中“所有者”相关的文档 | 已从删除“所有者”筛选器和列 [分类集管理器](/help/components/classifications/sets/manage/set-manager.md) 而“所有者”字段已从 [分类集设置](/help/components/classifications/sets/manage/settings.md). <p>更新了文档以删除此筛选器、列和字段。</p> |
+| 删除了分类集中与“所有者”相关的文档 | 已从 [分类集管理器](/help/components/classifications/sets/manage/set-manager.md) 中删除“所有者”筛选条件和列，并且已从 [分类集设置](/help/components/classifications/sets/manage/settings.md)中删除“所有者”字段。 <p>文档已更新以删除此筛选条件、列和字段。</p> |
 | 删除了文档中有关配置云导入和导出位置的可折叠部分 | 删除了[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的可折叠部分，以获取解释云帐户类型的信息。 |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | AppMeasurement 更新 v2.26.0 的[发行说明](/help/implement/appmeasurement-updates.md)。<br/>包括对 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档的引用和更新。 |
@@ -150,7 +153,7 @@ ht-degree: 98%
 | 关于[!UICONTROL 页面摘要]面板的新主题 | [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)面板 |
 | 关于[!UICONTROL 下一项/上一项]面板的新主题 | [下一维度项/上一维度项](/help/analyze/analysis-workspace/c-panels/next-previous.md)面板 |
 | **2022 年 3 月** | |
-| 关于支持的 HTTPS 加密算法的新主题 | 对于将密码安全级别设置为“高”的客户支持的HTTPS加密算法。 |
+| 关于支持的 HTTPS 加密算法的新主题 | 对于将密码安全级别设置为“High”的客户支持的 HTTPS 加密算法。 |
 | 关于工作区中注释的新文档 | [工作区中注释](/help/analyze/analysis-workspace/components/annotations/overview.md)使您能够有效地将上下文数据的细微差别和见解传达给您的组织。 |
 | Adobe Analytics 登陆页面更新 | [更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。](/help/analyze/landing.md) |
 | [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | 此面板允许您浏览所选维度项目之后或之前的项目。 |
@@ -296,7 +299,7 @@ ht-degree: 98%
 | 2019 年 5 月 9 日 | 流量可视化图表设置中添加了一个新设置：包含重复实例。请参阅[流量设置](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 2019 年 4 月 11 日 | 工作区增强功能优化最佳实践：[优化性能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019 年 4 月 11 日 | 更新了[优化工作区性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
-| 2019 年 3 月 14 日 | 对地区数据收集进行了重大更新。 |
+| 2019 年 3 月 14 日 | 对地区数据收藏集进行了重大更新。 |
 | 2019 年 2 月 7 日 | 对[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)中的“将 IP 地址的最后一个八位字节替换为 0”设置和“IP 模糊处理”设置进行了小幅更新。 |
 | 2019 年 2 月 1 日 | 对 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 实施插件进行了重大更新。 |
 | 2019 年 1 月 17 日 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回量度。 </li><li>显示流失率而不是保留率。</li><li>显示延时表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个量度添加到包含和回访字段中，并应用区段。（不支持计算量度）</li></ul> |

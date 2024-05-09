@@ -4,10 +4,10 @@ title: 日程表和日期范围概述
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 100%
+source-wordcount: '862'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 ### 公式和相对日期范围 {#formula-relative-dates}
 
-如果您选择了相对日期，则所有日期公式都将使用面板的开始日期作为起点。
+如果已选择相对日期，则所有日期公式都将使用面板的开始日期作为起点。
 
 ### 自定义日程表和相关日期范围 {#custom-calendar-formulas}
 
