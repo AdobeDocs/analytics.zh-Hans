@@ -153,7 +153,7 @@ ht-degree: 97%
 | 关于[!UICONTROL 页面摘要]面板的新主题 | [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)面板 |
 | 关于[!UICONTROL 下一项/上一项]面板的新主题 | [下一维度项/上一维度项](/help/analyze/analysis-workspace/c-panels/next-previous.md)面板 |
 | **2022 年 3 月** | |
-| 关于支持的 HTTPS 加密算法的新主题 | 对于将密码安全级别设置为“High”的客户支持的 HTTPS 加密算法。 |
+| 关于支持的 HTTPS 加密算法的新主题 | 为密码安全级别设置为“High”的客户提供支持的 HTTPS 加密算法。 |
 | 关于工作区中注释的新文档 | [工作区中注释](/help/analyze/analysis-workspace/components/annotations/overview.md)使您能够有效地将上下文数据的细微差别和见解传达给您的组织。 |
 | Adobe Analytics 登陆页面更新 | [更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。](/help/analyze/landing.md) |
 | [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | 此面板允许您浏览所选维度项目之后或之前的项目。 |
