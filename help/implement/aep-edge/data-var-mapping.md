@@ -4,28 +4,28 @@ description: 查看Experience PlatformEdge自动映射到Analytics变量的数�
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
+source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 5%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
 # 数据对象变量映射到Adobe Analytics
 
-下表显示了Adobe Experience Platform Edge Network自动映射到Adobe Analytics的数据对象变量。 如果您使用这些数据对象字段路径，则无需额外配置即可将数据发送到Adobe Analytics。
+下表显示了Adobe Experience PlatformEdge Network自动映射到Adobe Analytics的数据对象变量。 如果您使用这些数据对象字段路径，则无需额外配置即可将数据发送到Adobe Analytics。
 
-如果您打算在将来使用Customer Journey Analytics，建议使用这些字段。 此实施方法允许贵组织使用Web SDK向Adobe发送数据，而不遵循XDM架构。 当您的组织准备好将数据发送到Adobe Experience Platform时，您可以使用 [数据流映射](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) 将数据对象字段指向它们各自的XDM字段。
+如果您打算在将来使用Customer Journey Analytics，建议使用这些字段。 此实施方法允许贵组织使用Web SDK向Adobe发送数据，而不遵循XDM架构。 当您的组织准备好将数据发送到Adobe Experience Platform时，您可以使用 [数据流映射](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) 将数据对象字段指向它们各自的XDM字段。
 
 ## 价值优先级
 
-此表格中的大多数数据对象字段与 [映射的XDM字段](xdm-var-mapping.md). 如果您将两个 `data` 对象字段及其各自的XDM字段，数据对象字段优先。 如果同时使用XDM对象字段和数据对象字段，Adobe建议使用数据对象字段设置自定义事件。 如果字段 `data.__adobe.analytics.events` 存在，它会覆盖与商务和自定义事件相关的所有XDM对象字段。
+此表格中的大多数数据对象字段与 [映射的XDM字段](xdm-var-mapping.md). 如果同时设置给定数据对象字段及其各自的XDM字段，则数据对象字段优先。 例如，如果字段 `data.__adobe.analytics.events` 存在，它会覆盖所有与事件相关的XDM对象字段。
 
 某些数据对象字段也支持其各自对应的 [查询参数值](../validate/query-parameters.md) 作为速记值。 您可以交替使用标准数据对象字段和速记数据对象字段，只要它们分别用于唯一变量即可。 避免同时设置标准数据对象字段及其各自的简写数据对象字段。 Adobe无法保证哪个字段优先。
 
 ## 数据对象字段映射
 
-可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到此表之前的更新内容。
+此表的先前更新可以在此页的 [在GitHub上提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). 与AppMeasurement变量类似，所有数据对象字段都区分大小写。
 
 | 数据对象字段路径 | Analytics变量和描述 |
 | --- | --- |
