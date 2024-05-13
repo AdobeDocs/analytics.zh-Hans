@@ -1,51 +1,55 @@
 ---
-description: 跟踪功能可确定您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。
-title: 跟踪  手动模式和自动模式
+description: 跟踪类型确定Adobe Analytics实施如何跟踪您的搜索引擎数据。 此跟踪类型是用搜索引擎数据正确增加Adobe Analytics数据的必要步骤。
+title: 跟踪类型
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 32%
 
 ---
 
-# 跟踪：手动模式和自动模式
+# 跟踪类型
 
-跟踪功能可确定您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。
+跟踪类型确定Adobe Analytics实施如何跟踪您的搜索引擎数据。 此跟踪类型是用搜索引擎数据正确增加Adobe Analytics数据的必要步骤。
 
-下面是有关如何实施 Advertising Analytics 跟踪模板的视频概述：
+<!--
+
+Here is a video overview of how to implement the Advertising Analytics tracking template:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
-支持两种跟踪模式：自动模式和手动模式。
+-->
 
-## 自动跟踪模式 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+支持两种跟踪模式： [!UICONTROL 自动] 和 [!UICONTROL 手动].
 
-在自动模式下，您可以让 Advertising Cloud 引擎自行决定如何处理搜索引擎数据。这种方法比较简单，但可能不会生成最佳的集成数据集。
+## [!UICONTROL 自动] 跟踪 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-因此，选择自动模式时需要选中确认复选框，然后才能保存帐户设置。
+[!UICONTROL 自动] 通过“跟踪”，Advertising Cloud引擎可决定应如何处理搜索引擎数据。 自动跟踪是一种更简单的方法，但可能不会生成最佳的集成数据集。
 
-请注意，要在“自动模式”下配置搜索引擎帐户，您需要执行以下操作：
+因此，您需要选中时选中确认复选框 **[!UICONTROL 自动]** 才能保存帐户设置。
 
-* 将 `s_kwcid` 参数和值添加到要添加帐户的帐户跟踪模板或登陆页面 URL 中。该参数和值将插入到 URL 的末尾。如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。**您有责任确保添加的 URL 参数能够正确保持到最终登陆页面。**
-* 此外，还可以将关键字作为 `s_kwcid` 值的一部分插入到登陆 URL 中。如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符。示例：常见的特殊字符是“+”，用于“修改广泛匹配”关键字。
+请注意，若要使用配置搜索引擎帐户 **[!UICONTROL 自动]** 类型，您负责执行以下操作：
+
+* 此 `s_kwcid` 参数和值会添加到要添加帐户的帐户跟踪模板或登陆页面URL中。 此参数和值插入到URL的末尾。 如果您的Web服务器需要 `key=value` 与URL末尾的一对。 或者更新以支持任何新的 `key=value` URL中的对。 您有责任确保添加的URL参数能够正确保持到最终登陆页面。
+* 此外，还可以将关键字作为 `s_kwcid` 值的一部分插入到登陆 URL 中。如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符。例如，一个常见的特殊字符是 `+`，用于“修改广泛匹配”关键词。
 
 >[!IMPORTANT]
 >
->了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=zh-Hans)的更多信息。
+>了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)的更多信息。
 
-## 手动跟踪模式 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## 手动跟踪 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-在手动模式下，您需要指定 Advertising Analytics 数据集成流程处理搜索引擎数据的方式。
+通过手动跟踪，您可以指定Advertising Analytics数据集成流程处理搜索引擎数据的方式。
 
-### 将“手动跟踪”添加到 Google 帐户 {#section_41C1EB1AEB034544A5BC291F53C05C67}
+### 将手动跟踪添加到Google帐户 {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
 以下显示了需要添加到 Google 帐户的字符串。您需要将该字符串添加到您的帐户所使用的所有跟踪模板中。
 
 >[!IMPORTANT]
 >
->`<Advertising Analytics ID>` 值（下面显示为&#x200B;**粗体**&#x200B;的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以在帐户设置页面中的“跟踪”部分下，获得特定帐户 ID 字符串。
+>*`<Advertising Analytics ID>`* 值（下面显示为&#x200B;**粗体**&#x200B;的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕下方获取特定的帐户ID字符串 [!UICONTROL 跟踪] 部分。
 
 **适用于促销活动的跟踪字符串：**
 
@@ -54,7 +58,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![](assets/Google.png)
+![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 各种跟踪模板格式中的跟踪代码示例：
 
@@ -78,19 +82,23 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **第三方 (DoubleClick)`{lpurl}`**
 
-如果 URL 经过重定向并且没有使用“unescapedlpurl”值，则需要对字符串进行足够次数的编码，以便在重定向到最终登陆页面 URL 的过程中一直保持该字符串。
+要确保字符串在重定向到最终登陆页面URL的过程中持续存在，您需要对字符串进行充分编码：
+
+* 如果URL经过重定向，并且
+* 未使用“unescapedlpurl”值。
+
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### 将“手动跟踪”添加到 Bing 帐户 {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### 将“手动”跟踪添加到Bing帐户 {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
 以下显示了需要添加到 Bing 帐户的字符串。您需要将该字符串添加到您的帐户所使用的所有最终 URL 后缀中。
 
 >[!IMPORTANT]
 >
->`<Advertising Analytics ID>` 值（下面显示为&#x200B;**粗体**&#x200B;的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以在帐户设置页面中的“跟踪”部分下，获得特定帐户 ID 字符串。
+>_`<Advertising Analytics ID>`_值（下面显示为&#x200B;**粗体**的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕的“跟踪”部分下获取特定的帐户ID字符串。
 
 **适用于促销活动的跟踪字符串：**
 
@@ -98,7 +106,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![](assets/Bing.png)
+![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 各种最终 URL 后缀格式中的跟踪代码示例：
 
@@ -123,7 +131,10 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **第三方 (DoubleClick)`{lpurl}`**
 
-如果 URL 经过重定向并且没有使用“unescapedlpurl”值，则需要对字符串进行足够次数的编码，以便在重定向到最终登陆页面 URL 的过程中一直保持该字符串。
+要确保字符串在重定向到最终登陆页面URL的过程中持续存在，您需要对字符串进行充分编码：
+
+* 如果URL经过重定向，并且
+* 未使用“unescapedlpurl”值。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}

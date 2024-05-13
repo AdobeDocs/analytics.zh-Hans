@@ -3,10 +3,10 @@ description: 在 Advertising Analytics 中管理帐户。
 title: 管理广告帐户
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 您可以通过导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 广告帐户]**&#x200B;来访问管理 UI。
 
-![](assets/manage_ad_accounts.png)
+![广告帐户](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 添加 </p> </td> 
-   <td colname="col2"> <p>使您转到<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >设置广告帐户</a> UI。 </p> </td> 
+   <td colname="col2"> <p>使您转到<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >设置广告帐户</a> UI。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>重命名 </p> </td> 
@@ -42,7 +42,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>暂停 </p> </td> 
-   <td colname="col2"> <p>停用该帐户。要再次激活它，请单击<span class="uicontrol">激活</span>。 </p> </td> 
+   <td colname="col2"> <p>停用该帐户。要再次激活它，请选择 <span class="uicontrol">激活</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>列标题</b> </p> </td> 
@@ -54,11 +54,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>报表包 </p> </td> 
-   <td colname="col2"> <p>映射到此广告帐户的报表包。 </p> </td> 
+   <td colname="col2"> <p>已映射到此广告帐户的报表包。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>类型 </p> </td> 
-   <td colname="col2"> <p>我们目前只支持一种类型：搜索。 </p> </td> 
+   <td colname="col2"> <p>仅支持一种类型：搜索。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户 </p> </td> 

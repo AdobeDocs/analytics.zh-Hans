@@ -3,28 +3,28 @@ description: 有关Analysis Workspace模板以及Report Builder中报表的详�
 title: 在 Adobe Analytics 中报告广告数据
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 49%
 
 ---
 
-# 在 Adobe Analytics 中报告广告数据
+# 报告广告数据
 
-有关Analysis Workspace模板以及Report Builder中报表的详细信息。
-
->[!NOTE]
->
->您可能需要至少等待 24 小时，搜索引擎数据才会开始填充到您的 Analytics 报表中。另请注意，Analytics 报表将不以每小时为粒度返回数据，因为 AMO 数据不支持每小时为粒度。
-
-## Analysis Workspace：搜索引擎 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
-
-通过此模板，实施此搜索引擎集成的任何人都可以访问 Analytics 中丰富的搜索引擎数据。您可以通过&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 模板]** > **[!UICONTROL 广告]** > **[!UICONTROL 搜索引擎]**&#x200B;来访问此模板。
+本文提供了有关Analysis Workspace报表以及Report Builder报表的详细信息。
 
 >[!NOTE]
 >
->所有客户都可以看到“广告模板”类别，即便您尚未实施任何广告帐户。但是，如果您尝试为尚未配置该帐户的公司打开搜索引擎模板，则会显示一条错误消息，提示您尚未配置任何搜索引擎帐户。在这种情况下，请单击&#x200B;**[!UICONTROL 立即配置]**，然后便可看到[广告帐户设置](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)页面。
+>您可能需要至少等待24小时，搜索引擎数据才会开始填充到您的Analytics报表中。 另请注意，Analytics报表不会以每小时的时间粒度返回数据，因为Advertising Cloud数据不支持每小时的时间粒度。
+
+## 付费搜索报告 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+
+通过此报表，实施搜索引擎集成的任何人都可以访问Analytics中的搜索引擎数据。 您可以通过以下方式访问它： **[!UICONTROL 工作区]** > **[!UICONTROL 报表]** > **[!UICONTROL 客户获取]** > **[!UICONTROL Advertising Analytics：付费搜索]**
+
+>[!NOTE]
+>
+>所有客户都可以看到付费搜索报表，即使您尚未实施任何广告帐户。 如果您尝试打开未配置的公司的付费搜索报表，则会出现一条错误消息，说明您未配置任何搜索引擎帐户。 选择 **[!UICONTROL 立即配置]**，这会将您转到 [Advertising帐户设置](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 屏幕。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
@@ -46,4 +46,4 @@ ht-degree: 93%
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-一旦设置 Advertising Analytics 帐户，Advertising Analytics 报表即可用。
+一旦设置了Advertising Analytics帐户，Advertising Analytics报表即可用。
