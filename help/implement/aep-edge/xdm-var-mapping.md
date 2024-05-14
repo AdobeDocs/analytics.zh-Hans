@@ -4,16 +4,16 @@ description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 80%
+source-wordcount: '1426'
+ht-degree: 71%
 
 ---
 
 # XDM对象变量映射到Adobe Analytics
 
-下表显示了Adobe Experience Platform Edge Network自动映射到Adobe Analytics的XDM变量。 如果使用这些XDM字段路径，则无需额外配置即可将数据发送到Adobe Analytics。 这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent模板]** 字段组。 如果您打算将数据同时发送到Adobe Analytics和Adobe Experience Platform，则建议使用这些字段。
+下表显示了Adobe Experience PlatformEdge Network自动映射到Adobe Analytics中的XDM变量。 如果使用这些XDM字段路径，则无需额外配置即可将数据发送到Adobe Analytics。 这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent模板]** 字段组。 如果您打算将数据同时发送到Adobe Analytics和Adobe Experience Platform，则建议使用这些字段。
 
 如果您的组织计划转为使用Customer Journey Analytics，Adobe建议改用 `data` 对象，用于将数据直接发送到Adobe Analytics而不符合架构。 此策略允许您的组织使用自己的架构，而不是使用 [!UICONTROL Adobe Analytics ExperienceEvent模板] (不太适用于Customer Journey Analytics)。 请参阅 [数据对象变量映射到Adobe Analytics](data-var-mapping.md) 用于类似的映射表。
 
@@ -143,7 +143,11 @@ ht-degree: 80%
 
 ## 将其他 XDM 字段映射到 Analytics 变量
 
-如果有任何维度或量度要添加到 Adobe Analytics 中，可以通过[上下文数据变量](../vars/page-vars/contextdata.md)进行添加。 任何未自动映射的 XDM 字段元素将作为前缀为 a.x 的上下文数据发送到 Adobe Analytics。然后，您可以利用[处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=zh-Hans)将此上下文数据变量映射到所需的 Analytics 变量中。 例如，如果发送以下事件：
+如果有任何维度或量度要添加到Adobe Analytics中，可以通过以下方式添加 [上下文数据变量](../vars/page-vars/contextdata.md).
+
+### 隐式映射
+
+任何未自动映射的XDM字段元素都将作为上下文数据发送给Adobe Analytics，前缀为 `a.x.` 然后，您可以使用将此上下文数据变量映射到所需的Analytics变量 [处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=zh-Hans). 例如，如果发送以下事件：
 
 ```js
 alloy("event",{
@@ -157,6 +161,28 @@ alloy("event",{
 })
 ```
 
-Web SDK 将该数据作为上下文数据变量发送给 Adobe Analytics `a.x._atag.search.term`。 然后，您可以使用处理规则将该上下文数据变量值分配给所需的 Analytics 变量，例如 eVar：
+Web SDK 将该数据作为上下文数据变量发送给 Adobe Analytics `a.x._atag.search.term`。 然后，您可以使用处理规则将该上下文数据变量值分配给所需的Analytics变量，例如 `eVar`：
 
 ![搜索词处理规则](assets/examplerule.png)
+
+## 显式映射
+
+您还可以将XDM字段元素显式映射为上下文数据。 任何显式映射的XDM字段元素，使用 `contextData` 元素，将作为上下文数据发送到Adobe Analytics，不带前缀。 然后，可以使用[处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=zh-Hans)将此上下文数据变量映射到所需的 Analytics 变量。 例如，如果发送以下事件：
+
+```js
+alloy("event",{
+    "xdm":{
+        "_atag":{
+            "analytics": {
+                "contextData" : {
+                    "someValue" : "1"
+                }
+            }
+        }
+    }
+})
+```
+
+Web SDK将该数据作为上下文数据变量发送到Adobe Analytics `somevalue` 具有值 `1`.  然后，您可以使用处理规则将该上下文数据变量值分配给所需的Analytics变量，例如 `eVar`：
+
+![搜索词处理规则](assets/examplerule-explicit.png)

@@ -4,10 +4,10 @@ description: 上下文数据变量允许您在处理规则可读取的每个页�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 90%
+source-wordcount: '531'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 ## 使用 Web SDK 的上下文数据变量
 
-如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则所有未映射到Adobe Analytics变量的字段都会自动包含为上下文数据变量。 然后，您可以使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)将上下文数据变量分配给所需的 Analytics 变量。
+如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则所有未映射到Adobe Analytics变量的字段都会自动包含为上下文数据变量。 您还可以使用XDM对象显式设置上下文数据。 然后，您可以使用 [处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 将上下文数据变量分配给所需的Analytics变量。  请参阅 [将其他XDM字段映射到Analytics变量](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) 以了解更多信息。
 
 如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则所有上下文数据变量都位于 `data.__adobe.analytics.contextData` 作为键值对：
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >运行处理规则后，上下文数据变量将被丢弃。如果没有可将值置于变量的处于活动状态的处理规则，则该数据会永久丢失！
 
 1. 更新您的实施以设置上下文数据变量名称和值。
-2. 登录到 Adobe Analytics，然后转到“管理员”>“报表包”。
-3. 选择所需的报表包，然后转到“编辑设置”>“常规”>“处理规则”。
+2. 登录Adobe Analytics并转到 **[!UICONTROL 管理员]** > **[!UICONTROL 报表]** 套房。
+3. 选择所需的报表包，然后转到 **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 处理规则]**.
 4. 创建一个将 Analytics 变量设置为上下文数据变量值的处理规则。
 5. 保存更改。
 
