@@ -4,10 +4,10 @@ description: 使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩�
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 97%
+source-wordcount: '487'
+ht-degree: 98%
 
 ---
 
@@ -106,30 +106,24 @@ Adobe Experience Platform Mobile SDK 有助于在您的移动应用程序中支�
 
 <tr>
 <td>2</td>
-<td><b>设置架构</b>. 为了标准化数据收集以在利用 Adobe Experience Platform 的应用程序中使用，Adobe 创建了开放且公开记录的标准，即体验数据模型 (XDM)。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans">架构UI概述</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>在移动标记属性中安装 Adobe Analytics 扩展</b>，并将扩展配置为指向您的报告包。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">用于移动属性的 Adobe Analytics 扩展</a>
 </tr>
 
 <tr>
-<td>4</td>
+<td>3</td>
 <td><b>在您的应用程序中使用代码</b>来注册必要的扩展并加载您的标记配置。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">设置配置</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>在您的应用中结合标记的数据元素、规则、附加扩展和 SDK API 调用来实施和测试功能</b>。 检查、验证和调试移动应用程序的数据收集和体验。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">使用示例应用程序</a>
 </tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>将您的移动应用程序实施</b>推向生产环境之前，对其进行扩展和验证。</td>
 <td></td> 
 </tr>
