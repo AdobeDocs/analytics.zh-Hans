@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a4efa48df735eacbda0f53ba30064da7d8f71028
+source-git-commit: 97a63c42a121204e043d308525518d16e44b21f9
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 51%
+source-wordcount: '960'
+ht-degree: 50%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 51%
 | **关于从Adobe Analytics升级到Customer Journey Analytics的新文档** | 对于从Adobe Analytics升级到Customer Journey Analytics的组织，根据组织当前的Adobe Analytics实施和长期目标，需要牢记有多个升级选项和许多注意事项。 现提供新的文档资源来帮助您更好地理解：<ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li></ul>[Customer Journey Analytics升级入门](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 现在可用 |
 | **设置 `contextData` 通过XDM显示的字段** | 通过体验Edge Network将数据发送到Adobe Analytics的客户可以 [设置上下文数据值](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/contextdata) 直接在XDM或有效负载的“数据”部分中访问。 |  | 现在可用 |
 | **Analytics实时报表2.0 API** | Adobe Analytics中新的实时报表API 2.0改进了客户集成并提供快速的报表结果。 这些结果可以通过编程方式用于基本、趋势和划分报表。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 2024年5月30日 |
-| **流媒体：使用Web SDK将Web数据发送到Adobe Experience PlatformEdge Network** | 您现在可以使用Adobe Experience Platform Web SDK将流媒体Web数据发送到Adobe Experience PlatformEdge Network。 通过此增强功能，可构建更个性化的促销活动并提供更个性化的内容，从而产生要报告的更多跟踪数据。<p>这项更改为所有平台解决方案(如Customer Journey Analytics、Adobe实时CDP、Adobe Journey Optimizer和事件转发)的Web实施提供了统一的收集方法。 以前，将流媒体Web数据发送到Edge Network的唯一方法是使用Media Edge API。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) | | 2024 年 5 月 31 日 |
+| **流媒体：使用Web SDK将Web数据发送到Adobe Experience PlatformEdge Network** | 您现在可以使用Adobe Experience Platform Web SDK将流媒体Web数据发送到Adobe Experience PlatformEdge Network。 通过此增强功能，可构建更个性化的促销活动并提供更个性化的内容，从而产生要报告的更多跟踪数据。<p>这项更改为所有平台解决方案(如Customer Journey Analytics、Adobe实时CDP、Adobe Journey Optimizer和事件转发)的Web实施提供了统一的收集方法。 以前，将流媒体Web数据发送到Edge Network的唯一方法是使用Media Edge API。 [了解更多即将关注的内容] | | 2024 年 5 月 31 日 |
 | **增大默认低流量阈值** | 在 **2024 年 4 月中旬**，Adobe 将开始增大默认报告包低流量阈值，如下所示：![低流量阈值](assets/thresholds.png) 这只会影响当前设置的小于新阈值的变量。这些更改将逐步进行，我们预计这项工作将在&#x200B;**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报告包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月 31 日 |
-| **Activity Map减少对Web SDK的服务器调用** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。此增强功能采用一些链接事件并将它们打包到下一次点击中，这与AppMeasurement处理事件的方式类似。 （需遵循的文档） |  | 2024 年 5 月 31 日 |
+| **Activity Map减少对Web SDK的服务器调用** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。此增强功能采用一些链接事件并将它们打包到下一次点击中，这与AppMeasurement处理事件的方式类似。 （需遵循的文档） | Beta版于2024年5月31日启动 | 待定 |
 
 {style="table-layout:auto"}
 
