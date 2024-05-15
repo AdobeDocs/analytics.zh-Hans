@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
 workflow-type: tm+mt
-source-wordcount: '5448'
+source-wordcount: '5471'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,12 @@ ht-degree: 97%
 
 ## 有关主要文档更新的详细信息
 
-### 2024 {#24}
+### 2024 {#year2024}
 
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 5 月** | |
+| 将XDM对象变量显式映射到上下文数据变量 | 记录了 [使用XDM对象变量映射显式设置上下文数据变量](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | 关于从Adobe Analytics升级到Customer Journey Analytics的新文档 | 对于从Adobe Analytics升级到Customer Journey Analytics的组织，根据组织当前的Adobe Analytics实施和长期目标，需要牢记有多个升级选项和许多注意事项。<p>现在提供了新的文档资源，以帮助您更好地了解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的Adobe Analytics实施，提供了哪些升级路径</li><li>每种升级路径的优缺点</li><li>每个升级路径的分步指南</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[Customer Journey Analytics升级入门](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | 更新了有关自定义日期范围的文档 | 更新了相关屏幕截图和程序 [创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 以便与当前的产品功能和设计相匹配。 |
 | **2024 年 4 月** | |
@@ -44,7 +45,7 @@ ht-degree: 97%
 | 阐明了仅管理员有某些信息可用 | 添加了陈述仅系统管理员有在[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中所述的“上次使用时间”和“用在”列可用的信息。 |
 | 媒体平均受众访问分钟数文档更新 | 更新了[媒体平均受众访问分钟数面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的信息，以提高清晰度。<p>其中的改进包括：</p> <ul><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li></ul> |
 
-### 2023 {#23}
+### 2023 {#year2023}
 
 | 功能 | 描述 |
 | --- | --- |
@@ -118,7 +119,7 @@ ht-degree: 97%
 | 项目的自动保存 | 已更新内容以在[保存项目](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)中包含自动保存功能。 |
 | 登陆页面 | 新的[登陆页面更新](/help/analyze/landing.md) |
 
-### 2022 {#22}
+### 2022 {#year22}
 
 | 功能 | 描述 |
 | --- | --- |
@@ -139,13 +140,13 @@ ht-degree: 97%
 | 高熵客户端提示 | 关于 Adobe 如何在 User-Agent 之外使用[客户端提示](/help/technotes/client-hints.md)确定设备信息的新主题。 |
 | 处理顺序 | 我们已聚合多个帮助页面以仅提供一个关于[处理顺序](/help/technotes/processing-order.md)的帮助主题。 |
 | **2022 年 8 月** | |
-| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使客户能够通过 Web SDK 收集数据，以使用 XDM 指定列表变量内容。[了解详情](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使客户能够通过 Web SDK 收集数据，以使用 XDM 指定列表变量内容。[了解详情](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
 | 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 使客户能够通过 Web SDK 收集数据，以使用 SKU 值设置产品变量中的产品字段。[了解详情](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022 年 6 月** |  |
 | 用于 Edge Collection 的 XDM 中的促销变量 | 关于[支持用于 Edge Collection 的 XDM 中促销变量的文档](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge 文档 | 关于通过 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/server-api/overview.md) 实现 Adobe Analytics 的新文章。 |
 | 更新的流量可视化文档 | 基于[新 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| 关于在移动记分卡中共享注释的文档 | 您可以[在移动记分卡中显示在工作区中创建的注释](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
+| 关于在移动记分卡中共享注释的文档 | 您可以显示 [在移动记分卡的工作区中创建的注释](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **2022 年 5 月** | |
 | 通过 Edge Network 填充生命周期维度和量度 | Analytics 报告中现在显示发送到 Edge Network 的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅 [Analytics 变量映射](/help/implement/aep-edge/xdm-var-mapping.md)。 |
 | **2022 年 4 月** | |
@@ -159,12 +160,12 @@ ht-degree: 97%
 | [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | 此面板允许您浏览所选维度项目之后或之前的项目。 |
 | [!UICONTROL 页面摘要]工作区面板 | 此面板为您选择的页面提供深入分析。 |
 | 关于暂停旧版计划报告的新主题 | 从 **2022 年 4 月 15 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划报告 |
-| **2022 年 2 月** |
+| **2022 年 2 月** | |
 | 移动记分卡项目预览模式 | 该[预览模式](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#preview?lang=zh-Hans)允许您在保存和共享记分卡之前预览体验。 |
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 暂停旧版计划 Report Builder 任务更新主题 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有在大于两年之前创建的计划 Report Builder 任务](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
 
-### 2021 {#21}
+### 2021 {#year2021}
 
 | 功能 | 描述 |
 | --- | --- |
@@ -200,7 +201,7 @@ ht-degree: 97%
 | 2021 年 1 月 14 日 | 新增有关如何通过引用公共图像 URL 将图像添加到工作区项目的文档。 |
 | 2021 年 1 月 14 日 | 合并了工作区可视化源和设置管理器：用于可视化的[!UICONTROL 数据源]管理器（点）和设置管理器（齿轮）已合并为单个弹出框，因此可轻松地从同一位置管理源和设置。 |
 
-### 2020 {#20}
+### 2020 {#year2020}
 
 | 功能 | 描述 |
 | --- | --- |
@@ -267,7 +268,7 @@ ht-degree: 97%
 | 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 修改了[我应该使用哪种 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)页面。 |
 
-### 2019 {#19}
+### 2019 {#year2019}
 
 | 功能 | 描述 |
 | --- | --- |
@@ -287,7 +288,8 @@ ht-degree: 97%
 | 2019 年 9 月 12 日 | 更新了[计算量度总计](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=zh-Hans)文档。 |
 | 2019 年 8 月 28 日 | 新增了有关[用于 Analytics 的渐进式 Web 应用程序 (PWA)](/help/technotes/pwa.md) 的文章 |
 | 2019 年 8 月 8 日 | 有关[计算量度合计](/help/components/c-calcmetrics/cm-totals.md)的新文章 |
-| 2019 年 8 月 8 日 | 关于[已启用时间戳的会话数据](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)的说明 | 2019 年 8 月 8 日 | 在 Workspace 中，Adobe 将可放入静态下拉过滤器的项数限制从 50 提高到 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
+| 2019 年 8 月 8 日 | 关于[已启用时间戳的会话数据](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)的说明 |
+| 2019 年 8 月 8 日 | 在 Workspace 中，Adobe 将可放入静态下拉过滤器的项数限制从 50 提高到 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
 | 2019 年 8 月 2 日 | [Analytics 词汇表](/help/technotes/terms.md)的主要更新 |
 | 2019 年 7 月 22 日 | 将“Magento：营销和商务”模板添加到 [Analysis Workspace 模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)文档。 |
 | 2019 年 7 月 18 日 | 更新了[同类群组表格设置](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
