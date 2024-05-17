@@ -3,7 +3,7 @@ title: 如何在 Advertising Analytics 中设置广告帐户
 description: 本文介绍如何创建新的广告帐户并将多个帐户映射到多个报表包。
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 31%
@@ -23,7 +23,7 @@ Adobe Analytics管理员可以创建新的广告帐户，并将多个帐户映�
 1. 在 Adobe Analytics 中，导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 广告帐户]**。
 1. （仅限首次使用）接受最终用户许可协议的条款。
 1. 选择 **[!UICONTROL +添加]**.
-1. 此 [!UICONTROL 新的搜索引擎设置] 对话框显示：
+1. 此 [!UICONTROL 新的搜索引擎设置] 对话框随即显示。
 
    ![](assets/aa-new-se-account.png)
 

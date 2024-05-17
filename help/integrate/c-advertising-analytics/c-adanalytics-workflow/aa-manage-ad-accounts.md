@@ -3,78 +3,80 @@ description: 在 Advertising Analytics 中管理帐户。
 title: 管理广告帐户
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 86%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
 # 管理广告帐户
 
-您可以通过导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 广告帐户]**&#x200B;来访问管理 UI。
+您可以通过导航到，访问Advertising帐户界面 **[!UICONTROL 管理员]** > **[!UICONTROL 广告帐户]**.
 
-![广告帐户](assets/manage_ad_accounts.png)
+![广告帐户](assets/manage-ad-accounts.png)
 
-<table id="table_BE318026CF024E94A885EED86AA7077F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 元素 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>操作</b> </p> </td> 
-   <td colname="col2"> <p><b>注意：仅当您至少选择了一个广告帐户后，才会显示“操作”。</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>+ 添加 </p> </td> 
-   <td colname="col2"> <p>使您转到<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >设置广告帐户</a> UI。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>重命名 </p> </td> 
-   <td colname="col2"> <p>在此账户映射的所有报表包中，重命名此帐户。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>映射报表包 </p> </td> 
-   <td colname="col2"> <p>让您编辑报表包映射。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>暂停 </p> </td> 
-   <td colname="col2"> <p>停用该帐户。要再次激活它，请选择 <span class="uicontrol">激活</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>列标题</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>名称 </p> </td> 
-   <td colname="col2"> <p>您分配给此广告帐户的名称。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>报表包 </p> </td> 
-   <td colname="col2"> <p>已映射到此广告帐户的报表包。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>类型 </p> </td> 
-   <td colname="col2"> <p>仅支持一种类型：搜索。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>帐户 </p> </td> 
-   <td colname="col2"> <p>列出 2 个受支持的帐户类型中的其中一个类型：Google Adwords 或 Bing Ads。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>状态 </p> </td> 
-   <td colname="col2"> <p>包含 2 个状态指标： </p> 
-    <ul id="ul_376263DEF6EE44B48564D272D3CBFCBC"> 
-     <li id="li_75E329B68B4D4E929E227E717C993082"><b>活动</b>：该帐户正在积极提取搜索数据。 </li> 
-     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>暂停</b>：该帐户目前处于停用状态，不会提取搜索数据。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>筛选器</b> </p> </td> 
-   <td colname="col2"> <p>（左侧）您可以通过报表包、类型和状态来过滤广告帐户。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+您会看到一个列出广告帐户的表。 如果没有可用的广告帐户，请选择 **[!UICONTROL 创建新的广告帐户]**.
+
+该表由以下各列组成：
+
+| 名称或元素 | 描述 |
+|---|---|
+| **[!UICONTROL 名称]** | *帐户名称*. 您可以选择名称以编辑搜索引擎设置。 |
+| ![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 选择以重命名广告帐户或编辑搜索引擎设置。 |
+| ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 选择以打开上下文菜单，允许您 [映射报表包](#map-reporting-suites)， [激活或暂停广告帐户](#activate-or-pause-advertising-accounts). |
+| **[!UICONTROL 报表包]** | 列出广告帐户映射到的报表包。 |
+| **[!UICONTROL 类型]** | 显示广告帐户的类型。 默认情况下，类型为 [!UICONTROL Search] |
+| **[!UICONTROL 帐户]** | 显示帐户类型： [!UICONTROL Bing Ads] 或 [!UICONTROL Google Adwords]. |
+| **[!UICONTROL 状态]** | 广告帐户的状态： *已暂停* 或“活动”。 |
+
+
+- 要按报表包、类型和状态过滤列表，请选择 ![筛选](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+- 要使用，搜索广告帐户 ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 搜索字段。
+- 要选择表中的活动帐户，请选中 **[!UICONTROL 活动帐户]**.
+- 要定义要为表显示的列，请选择 ![列设置](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>在 **[!UICONTROL 自定义表]** 对话框：
+   - 选择要显示的列。
+   - 选择&#x200B;**[!UICONTROL 应用]**。
+
+当您选择一个或多个广告帐户时，根据所选帐户的状态，可通过蓝色操作栏执行以下操作 ![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 重命名]**， ![刷新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 映射报表包]**， ![播放](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 激活]** 或 ![暂停](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 暂停]** 您的广告帐户。
+
+## 创建广告帐户
+
+要创建新的广告帐户，请执行以下操作：
+
+1. 选择 ![添加](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) **[!UICONTROL 添加]**.
+1. 您会看到 [!UICONTROL 广告帐户] > **[!UICONTROL 新帐户]** 对话框，允许您定义新的广告帐户。 请参阅 [设置广告帐户](aa-create-ad-account.md) 以了解更多信息。
+
+
+## 编辑广告帐户
+
+要编辑广告帐户的搜索引擎设置：
+
+- 选择广告帐户的名称。
+- 选择 ![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 广告帐户名称的旁边。
+
+## 映射报表包
+
+要将一个或多个广告帐户映射到报表包，请执行以下操作：
+
+1. （可选）选择多个广告帐户。
+1. 选择 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 特定广告帐户的ID。
+1. 选择 ![刷新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 映射报表包]** 从上下文菜单中。
+1. 在映射报表包对话框中，从下拉列表中选择一个或多个报表包。 您可以使用从映射中删除报表包 ![交叉](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. 选择 **[!UICONTROL 保存]** 以保存映射。
+
+
+## 激活或暂停广告帐户
+
+要激活一个或多个广告帐户，请执行以下操作：
+
+1. （可选）选择多个广告帐户。
+1. 选择 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 特定广告帐户的ID。
+1. 选择 ![播放](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 激活]** 从上下文菜单中。
+
+要暂停一个或多个广告帐户，请执行以下操作：
+
+1. （可选）选择多个广告帐户。
+1. 选择 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 特定广告帐户的ID。
+1. 选择 ![暂停](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 暂停]** 从上下文菜单中。
+
