@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
-workflow-type: ht
-source-wordcount: '1008'
-ht-degree: 100%
+source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 100%
 + [登陆页面](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
-   + [Analysis Workspace 中的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
    + 项目 {#build-workspace-project}
       + [项目概述](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [创建项目](analysis-workspace/build-workspace-project/create-projects.md)
@@ -49,6 +48,7 @@ ht-degree: 100%
       + [创建和管理公司报告](analysis-workspace/reports/create-company-reports.md)
    + 组件 {#components}
       + [组件概述](analysis-workspace/components/analysis-workspace-components.md)
+      + [在工作区中使用组件](analysis-workspace/components/use-components-in-workspace.md)
       + [添加组件描述](analysis-workspace/components/add-component-descriptions.md)
       + 批注 {#annotations}
          + [批注概述](analysis-workspace/components/annotations/overview.md)

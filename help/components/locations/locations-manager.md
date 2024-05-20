@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 位置管理器
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,9 @@ ht-degree: 1%
 >
 >如果删除位置，则应 [编辑您的数据馈送](/help/export/analytics-data-feed/create-feed.md)， [Data Warehouse报表](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、和 [分类集架构](/help/components/classifications/sets/manage/schema.md) 使用正常工作位置。
 
-要删除位置，请执行以下操作：
+要在Adobe Analytics的位置管理器中删除位置，请执行以下操作：
+
+1. 选择 **[!UICONTROL 组件]** > **[!UICONTROL 位置]**，然后选择 [!UICONTROL **位置**] 选项卡。
 
 1. 选择以下内容中的3点菜单 [!UICONTROL **位置名称**] 要删除的位置对应的列。
 

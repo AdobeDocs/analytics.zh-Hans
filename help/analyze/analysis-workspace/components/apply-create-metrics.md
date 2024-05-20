@@ -4,10 +4,10 @@ title: Analysis Workspace 中的指标
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 94%
 
 ---
 
@@ -33,15 +33,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 ## 在 Analysis Workspace 中使用指标
 
-指标可以在 Analysis Workspace 中以各种方式使用。您可以:
-
-* 将一个指标拖到一个空的自由格式表中，以查看该指标在项目日期期间的趋势。
-
-* 存在维度时拖动一个指标，以查看该指标与每个维度项的比较。
-
-* 将一个指标拖到现有指标标题的顶部即可替换它。
-
-* 将一个指标拖到标题旁边可以并排查看两个指标。
+指标可以在 Analysis Workspace 中以各种方式使用。有关如何将量度和其他类型的组件添加到Analysis Workspace的信息，请参阅 [在Analysis Workspace中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
