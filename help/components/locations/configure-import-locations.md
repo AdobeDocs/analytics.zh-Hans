@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 31%
+source-wordcount: '1450'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ ht-degree: 31%
 
 您必须为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括添加和配置帐户(如Amazon S3角色ARN、Google Cloud Platform等)，如中所述 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)，然后在该帐户中添加和配置位置（如本文所述）。
 
-## 开始创建或编辑云导出位置
+有关如何管理现有位置（包括查看、编辑和删除位置）的信息，请参阅 [位置管理器](/help/components/locations/locations-manager.md).
+
+## 开始创建云导出位置
 
 1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **位置**].
 1. 在 [!UICONTROL 位置] 页面上，选择 [!UICONTROL **位置**] 选项卡。
-1. 要创建新位置，请选择 [!UICONTROL **添加位置**]. (如果尚未添加帐户，请按照中的说明添加一个帐户 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md).)
+1. 选择 [!UICONTROL **添加位置**]. (如果尚未添加帐户，请按照中的说明添加一个帐户 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md).)
 
-   或
-
-   要编辑现有位置，请选择 [!UICONTROL **位置名称**] 要编辑的位置对应的列，然后选择 [!UICONTROL **编辑**].
-此时将显示“位置”对话框。
+   此时将显示“位置”对话框。
 
 1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **名称**] | 位置的名称。  |
 | [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。| | [!UICONTROL **使用和**] | 选择是否要将此位置与 [!UICONTROL **数据馈送**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分类集**]. <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请勿更改 [!UICONTROL **使用和**] 位置后的字段。</li></ul> | | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅 [添加帐户](#add-an-account). |
@@ -51,7 +50,7 @@ ht-degree: 31%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有 `S3:PutObject` 权限以将文件上传到此存储段。 </p><p>存储段名称必须满足特定的命名规则。 例如，其长度必须介于3到63个字符之间，只能由小写字母、数字、点(.)和连字符(-)组成，并且必须以字母或数字开头和结尾。 [AWS文档中提供了命名规则的完整列表](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有 `S3:PutObject` 权限以将文件上传到此存储段。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **密钥前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -69,7 +68,7 @@ ht-degree: 31%
 
 ### Google Cloud Platform
 
-要配置Google Cloud Platform位置，请指定以下信息：
+若要配置 Google Cloud Platform 位置，请指定以下信息：
 
 1. [开始创建或编辑云导出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
 
@@ -93,7 +92,7 @@ ht-degree: 31%
 
 ### Azure SAS
 
-要配置Azure SAS位置，请指定以下信息：
+若要配置 Azure SAS 位置，请指定以下信息：
 
 1. [开始创建或编辑云导出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
 
@@ -117,7 +116,7 @@ ht-degree: 31%
 
 ### Azure RBAC
 
-要配置Azure RBAC位置，请指定以下信息：
+若要配置 Azure RBAC 位置，请指定以下信息：
 
 1. [开始创建或编辑云导出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
 

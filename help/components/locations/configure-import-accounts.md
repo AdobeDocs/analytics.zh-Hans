@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 56%
+source-wordcount: '1205'
+ht-degree: 61%
 
 ---
 
@@ -23,21 +23,15 @@ ht-degree: 56%
 
 您需要为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照本文所述添加和配置帐户(例如Amazon S3角色ARN、Google Cloud Platform等)，然后按照所述添加和配置该帐户内的位置（例如帐户内的文件夹） [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
 
+有关如何管理现有帐户（包括查看、编辑和删除帐户）的信息，请参阅 [位置管理器](/help/components/locations/locations-manager.md).
+
 要配置云导入或导出帐户，请执行以下操作：
 
 1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **位置**].
 1. 在 [!UICONTROL 位置] 页面上，选择 [!UICONTROL **位置帐户**] 选项卡。
-1. 要创建新帐户，请选择 [!UICONTROL **添加帐户**].
+1. 选择 [!UICONTROL **添加帐户**].
 
    此时将显示添加帐户对话框。
-
-   或
-
-   要编辑现有帐户，请选择 [!UICONTROL **查看详细信息**] ，其中列出了要编辑的帐户。
-此时将显示“位置”对话框。
-
-   此时将显示位置帐户详细信息对话框
-
 
 1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 | | [!UICONTROL **位置帐户说明**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 | | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每个帐户类型拥有一个帐户，并根据需要在该帐户中放置多个位置。 |
 1. 在 [!UICONTROL **帐户属性**] 部分，指定特定于所选帐户类型的信息。
@@ -48,7 +42,7 @@ ht-degree: 56%
 
    +++Amazon S3角色ARN
 
-   要配置Amazon S3角色ARN帐户，请指定以下信息：
+   若要配置 Amazon S3 角色 ARN 帐户，请指定以下信息：
 
    | 字段 | 功能 |
    |---------|----------|
@@ -60,7 +54,7 @@ ht-degree: 56%
 
    +++Google Cloud Platform
 
-   要配置Google Cloud Platform帐户，请指定以下信息：
+   若要配置 Google Cloud Platform 帐户，请指定以下信息：
 
    | 字段 | 功能 |
    |---------|----------|
@@ -72,7 +66,7 @@ ht-degree: 56%
 
    +++Azure SAS
 
-   要配置Azure SAS帐户，请指定以下信息：
+   若要配置 Azure SAS 帐户，请指定以下信息：
 
    | 字段 | 功能 |
    |---------|----------|
@@ -88,7 +82,7 @@ ht-degree: 56%
 
    +++Azure RBAC
 
-   要配置Azure RBAC帐户，请指定以下信息：
+   若要配置 Azure RBAC 帐户，请指定以下信息：
 
    | 字段 | 功能 |
    |---------|----------|
