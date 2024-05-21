@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
 workflow-type: tm+mt
 source-wordcount: '5511'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 98%
 | **2024 年 5 月** | |
 | 有关将组件添加到项目的文档 | 添加了有关如何执行操作的一般信息 [将各种类型的组件添加到Analysis Workspace中的项目](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | 更新了Advertising Analytics文档 | 根据对进行的更新更新更新了文档 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 用户界面。 |
-| 将XDM对象变量显式映射到上下文数据变量 | 记录了 [使用XDM对象变量映射显式设置上下文数据变量](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| 有关从 Adobe Analytics 升级到 Customer Journey Analytics 的新文档 | 对于从 Adobe Analytics 升级到 Customer Journey Analytics 的组织，需要考虑组织当前的 Adobe Analytics 实施和长期目标，有多种升级选项和许多注意事项需要牢记。<p>现提供新的文档资源来帮助您更好地理解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[开始使升级到 Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
+| 将 XDM 对象变量显式映射到上下文数据变量 | 记录了使用 XDM 对象变量映射[明确设置上下文数据变量的能力](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)。 |
+| 有关从 Adobe Analytics 升级到 Customer Journey Analytics 的新文档 | 对于从 Adobe Analytics 升级到 Customer Journey Analytics 的组织，需要考虑组织当前的 Adobe Analytics 实施和长期目标，有多种升级选项和许多注意事项需要牢记。<p>现提供新的文档资源来帮助您更好地理解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[开始升级到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
 | 更新了有关自定义日期范围的文档 | 更新了与 [创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 相关的屏幕截图和程序，以匹配当前的产品功能和设计。 |
 | **2024 年 4 月** | |
 | 删除了分类集中与“所有者”相关的文档 | 已从 [分类集管理器](/help/components/classifications/sets/manage/set-manager.md) 中删除“所有者”筛选条件和列，并且已从 [分类集设置](/help/components/classifications/sets/manage/settings.md)中删除“所有者”字段。 <p>文档已更新以删除此筛选条件、列和字段。</p> |
@@ -148,7 +148,7 @@ ht-degree: 98%
 | 用于 Edge Collection 的 XDM 中的促销变量 | 关于[支持用于 Edge Collection 的 XDM 中促销变量的文档](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge 文档 | 关于通过 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/server-api/overview.md) 实现 Adobe Analytics 的新文章。 |
 | 更新的流量可视化文档 | 基于[新 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| 关于在移动记分卡中共享注释的文档 | 您可以显示 [在移动记分卡的工作区中创建的注释](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
+| 关于在移动记分卡中共享注释的文档 | 您可以[在移动记分卡中显示在工作区中创建的注释](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
 | **2022 年 5 月** | |
 | 通过 Edge Network 填充生命周期维度和量度 | Analytics 报告中现在显示发送到 Edge Network 的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅 [Analytics 变量映射](/help/implement/aep-edge/xdm-var-mapping.md)。 |
 | **2022 年 4 月** | |
