@@ -3,16 +3,16 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 81%
+source-wordcount: '1150'
+ht-degree: 79%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2024 年 5 月）
 
-**上次更新**：2024年5月21日
+**上次更新**：2024年5月22日
 
 这些发行说明涵盖 2024 年 5 月 15 日至 6 月的发行期。Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -48,8 +48,8 @@ AN-327749；AN-332949；AN-342881；AN-343171；AN-343708；AN-344034；AN-34555
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| **保存的`cust_visids`** 13 个月有效期 | 2024年5月22日 | 即将发布的Analytics点击处理引擎， **计划于2024年7月发布**，将开始强制保存的13个月过期 `cust_visids`. 如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。目前，对 `visid_high/visid_low` 的 `cust_visid` 的映射没有有效期。在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
 | **ISO 区域更新** | 2024 年 5 月 10 日 | Adobe 将在 2024 年 6 月 7 日执行 2024 年 ISO 区域更新。预计在此次发布后将看到少量地理信息更新（区域）。 |
-| **保存的`cust_visids`** 13 个月有效期 | 2024 年 3 月 20 日 | 即将发布的 Analytics Hit 处理引擎（预计于 4 月或 5 月发布）将开始对保存的 `cust_visids` 强制执行 13 个月的有效期。如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。目前，对 `visid_high/visid_low` 的 `cust_visid` 的映射没有有效期。在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
 
 {style="table-layout:auto"}
 
