@@ -4,10 +4,10 @@ title: 命名空间
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 94%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 100%
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
 * “value”字段，其中包含 Analytics 应在每个报告包的关联命名空间变量中搜索的 ID。
 
-有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。
+请参阅 [Experience Cloud数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans) 了解更多详情和 [标准身份命名空间列表](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). 请参阅 [创建访问/删除作业](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) 以获取示例请求。
 
 ## Cookie ID
 
 旧版 Analytics 跟踪 Cookie，又称为 Adobe Analytics ID (AAID)：
 
-```
+```json
 {
-   namespace: "AAID",
-   type: "standard",
-   value: "2CCEEAE88503384F-1188000089CA"
+   "namespace": "AAID",
+   "type": "standard",
+   "value": "2CCEEAE88503384F-1188000089CA"
 }
 ```
 
@@ -41,25 +41,23 @@ ht-degree: 100%
 
 ## 旧版 Analytics 跟踪 Cookie：弃用形式
 
-```
+```json
 {
-   "namespace": "visitorId",
-   "type": "analytics",
+   "namespace": "visitorId",
+   "type": "analytics",
    "value": "2cceeae88503384f-00001188000089ca"
 }
 ```
-
-弃用版本：
 
 该值应指定为两个 16 位十六进制数或两个 19 位十进制数。数字之间应使用短横线、下划线或冒号进行分隔。如果任一数字没有足够的位数，则需在开头补零。
 
 ## 身份识别服务 Cookie
 
-```
+```json
 {
-    namespace: "ECID",
-    type: "standard",
-    value: "00497781304058976192356650736267671594"
+   "namespace": "ECID",
+   "type": "standard",
+   "value": "00497781304058976192356650736267671594"
 }
 ```
 
@@ -81,11 +79,11 @@ ht-degree: 100%
 
 ## 自定义访客 ID
 
-```
+```json
 {
-     namespace: "customVisitorID",
-     type: "analytics",
-     value: "<ID>"
+    "namespace": "customVisitorID",
+    "type": "analytics",
+    "value": "<ID>"
 }
 ```
 
@@ -93,15 +91,16 @@ ht-degree: 100%
 
 ## 自定义变量中的 ID
 
-```
+```json
 {
-    namespace: "Email Address",
-    type: "analytics", 
-    value: "john@xyz.com" }, 
+"namespace":"Email Address",
+"type": "analytics", 
+"value": "john@xyz.com" 
+}, 
 {
-    namespace: "CRM ID", 
-    type: "analytics", 
-    value: "123456-ABCD" 
+    "namespace": "CRM ID", 
+    "type": "analytics",
+    "value": "123456-ABCD" 
 }
 ```
 
@@ -115,6 +114,6 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
+>命名空间 `visitorId` 和 `customVisitorId` 保留以标识Analytics旧版跟踪Cookie和Analytics客户的访客ID。 请勿将这些命名空间用于自定义流量或转换变量。
 
 有关更多信息，请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间。](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

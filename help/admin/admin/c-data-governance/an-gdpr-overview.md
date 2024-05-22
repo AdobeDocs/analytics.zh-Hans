@@ -4,10 +4,10 @@ title: Adobe Analytics 和 GDPR
 feature: Data Governance
 role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 95%
+source-wordcount: '580'
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe 向企业提供软件和服务时，作为提供服务的一部分，Adobe
 
 ## Adobe 如何处理 GDPR 数据 {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-Adobe Cloud Platform (ACP) 提供了一项集成的解决方案，它将您的品牌的数据管理基础架构与它用来创建和管理客户体验的 Adobe 工具结合在一起。Adobe Cloud Platform 的数据管理功能可以将数据管理策略与数据的使用直接关联到一起。
+Adobe Experience Cloud提供了一个集成式解决方案，可将贵品牌的数据治理基础架构与其用于创建和管理消费者体验的Adobe工具连接起来。 Adobe Experience Cloud的数据治理功能可将数据治理策略与数据使用直接联系起来。
 
 熟悉 [Adobe Analytic 如何处理 GDPR](https://www.adobe.com/cn/data-analytics-cloud/analytics/general-data-protection-regulation.html)，其中讨论了做好 GDPR 准备工作的步骤，以及如何集成 Adobe Experience Cloud GDPR API。
 

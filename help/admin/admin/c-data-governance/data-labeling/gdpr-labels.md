@@ -4,7 +4,7 @@ title: Analytics 变量的数据隐私标签
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 98%
@@ -93,9 +93,9 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 如果以前为登录公司的任何报告包中的其他变量分配了 ID 标签，则可选择这些现有的命名空间之一。如果此变量包含的 ID 类型与之前已使用此命名空间设置标签的其他变量包含的 ID 类型相同，并且您希望在提交请求时搜索所有这些变量，则应重复使用该命名空间。
 
 1. 单击&#x200B;**[!UICONTROL 选择命名空间]**，然后选择其中一个现有的命名空间。
+   ![](assets/namespace.png)
 1. 单击&#x200B;**[!UICONTROL 应用]**。
 
-![](assets/namespace.png)
 
 ### 定义新的命名空间
 
