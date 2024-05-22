@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
-source-wordcount: '5511'
-ht-degree: 99%
+source-wordcount: '5562'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 5 月** | |
+| 在数据馈送和Data Warehouse中通过Google Cloud Platform使用组织策略限制时所需的信息 | 已将Adobe拥有的Google Cloud Platform组织ID添加到 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 文档。 <p>只有在使用以下功能的组织才需要此信息： [组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints) 在Google Cloud Platform中。</p> |
 | 有关将组件添加到项目的文档 | 添加了有关如何执行操作的一般信息 [将各种类型的组件添加到Analysis Workspace中的项目](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | 更新了Advertising Analytics文档 | 根据对进行的更新更新更新了文档 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 用户界面。 |
 | 将 XDM 对象变量显式映射到上下文数据变量 | 记录了使用 XDM 对象变量映射[明确设置上下文数据变量的能力](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)。 |

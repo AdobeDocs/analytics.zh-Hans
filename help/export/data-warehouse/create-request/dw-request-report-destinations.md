@@ -3,10 +3,10 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为 Data Warehouse 请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: ht
-source-wordcount: '2584'
-ht-degree: 100%
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+workflow-type: tm+mt
+source-wordcount: '2615'
+ht-degree: 97%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Email
 
@@ -142,11 +142,11 @@ ht-degree: 100%
       | [!UICONTROL **收件人**] | 发送报表时，可以向特定用户发送电子邮件通知。指定单个电子邮件地址或电子邮件地址的逗号分隔列表。<!-- How does this differ from the Notification email tab? --> |
 
    1. 选择&#x200B;[!UICONTROL **添加位置**]，然后指定以下信息：
-      |字段 | 功能 |
-      |---------|----------|
-      | [!UICONTROL **名称**] | 位置的名称。|
-      | [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。|
-      | [!UICONTROL **位置帐户**] | 选择您在[添加帐户](#add-an-account)中创建的位置帐户。|
+|字段 | 功能 |
+|---------|----------|
+| [!UICONTROL **名称**] | 位置的名称。|
+| [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。|
+| [!UICONTROL **位置帐户**] | 选择您在[添加帐户](#add-an-account)中创建的位置帐户。|
 
    1. 在&#x200B;[!UICONTROL **位置属性**]&#x200B;部分中，指定特定于位置帐户的帐户类型的信息。
 
@@ -163,7 +163,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -171,12 +171,12 @@ ht-degree: 100%
 
       | 字段 | 功能 |
       |---------|----------|
-      | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 GCP 账户中的存储段。 <p>确保您已向 Adobe 提供的主体授予以下任一权限：<ul><li>`roles/storage.objectCreator`：如果您要仅允许主体在您的 GCP 帐户中创建文件，请使用此权限。</br>**重要提示：**&#x200B;如果您将此权限用于计划报告，则必须为每个新的计划导出使用唯一文件名。否则，将无法生成报表，因为主体无权覆盖现有文件。</li><li>`roles/storage.objectUser`：如果您希望主体有权在您的 GCP 帐户中查看、列出、更新和删除文件，请使用此权限。</br>此权限允许主体覆盖现有文件以进行后续上传，而无需为每个新的计划导出自动生成唯一文件名。</li></ul><p>有关授予权限的信息，请参阅 Google Cloud 文档中的[将主体添加到存储段级策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)。</p> |
+      | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 GCP 账户中的存储段。 <p>确保您已向Adobe提供的承担者授予以下任一权限： (有关授予权限的信息，请参见 [将主体添加到存储段级别策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (请参阅Google Cloud文档)。<ul><li>`roles/storage.objectCreator`：如果您要仅允许主体在您的 GCP 帐户中创建文件，请使用此权限。</br>**重要提示：**&#x200B;如果您将此权限用于计划报告，则必须为每个新的计划导出使用唯一文件名。否则，将无法生成报表，因为主体无权覆盖现有文件。</li><li>`roles/storage.objectUser`：如果您希望主体有权在您的 GCP 帐户中查看、列出、更新和删除文件，请使用此权限。</br>此权限允许主体覆盖现有文件以进行后续上传，而无需为每个新的计划导出自动生成唯一文件名。</li></ul><p>如果您的组织使用 [组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints) 要在允许列表中仅允许Google Cloud Platform帐户，您需要以下Adobe拥有的Google Cloud Platform组织ID： <ul><li>`DISPLAY_NAME`： `adobe.com`</li><li>`ID`： `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`： `C02jo8puj`</li></ul> </p> |
       | [!UICONTROL **密钥前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. 继续在&#x200B;[!UICONTROL **报表选项**]&#x200B;选项卡上配置您的 Data Warehouse 请求。有关更多信息，请参阅[配置 Data Warehouse 请求的报表选项](/help/export/data-warehouse/create-request/dw-request-report-options.md)。
 

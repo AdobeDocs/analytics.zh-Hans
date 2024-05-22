@@ -3,10 +3,10 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
 workflow-type: tm+mt
-source-wordcount: '4043'
-ht-degree: 42%
+source-wordcount: '4074'
+ht-degree: 52%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 42%
    >在配置报表目标时，请考虑以下事项：
    >
    >* 我们建议为您的报表目标使用云帐户。 [旧版FTP和SFTP帐户](#legacy-destinations) 可用，但不推荐。
-   >* 您之前配置的任何云帐户均可用于数据馈送。 您可以通过以下任意方式配置云帐户：
+   >* 您之前配置的任何云帐户均可用于数据馈送。 您可以通过以下任一方式配置云帐户：
    >
    >   * 为配置云帐户时 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
@@ -61,7 +61,7 @@ ht-degree: 42%
    >
    >* 云帐户与您的 Adobe Analytics 用户帐户关联。其他用户无法使用或查看您配置的云帐户。
    >
-   >* 您可以编辑从中的位置管理器创建的任何位置 [“组件”>“位置”](/help/components/locations/configure-import-accounts.md)
+   >* 您可以在[组件 > 位置](/help/components/locations/configure-import-accounts.md)中的位置管理器中编辑您创建的任何位置
 
    ![数据馈送目标下拉菜单](assets/datafeed-destinations-dropdown.png)
 
@@ -89,17 +89,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >只有在配置帐户或与您所属的某个组织共享帐户后，您才可以使用帐户。
+      >仅当您配置了帐户或与您所属的组织共享帐户时，您才可以使用帐户。
 
       1. 从&#x200B;[!UICONTROL **选择帐户**]&#x200B;下拉菜单中选择帐户。
 
          在以下任一Adobe Analytics区域中配置的任意云帐户均可供使用：
 
-         * 导入Adobe Analytics分类数据时（如所述） [架构](/help/components/classifications/sets/manage/schema.md).
+         * 导入 Adobe Analytics 分类数据时，如[架构](/help/components/classifications/sets/manage/schema.md)中所述。
 
            不过，不能使用配置用于导入分类数据的任何位置。相反，请按如下所述添加新目标。
 
-         * 在“位置”区域中配置帐户和位置时，如中所述 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md) 和 [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
+         * 在“位置”区域配置帐户和位置时，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。
 
       1. 从中选择位置 [!UICONTROL **选择位置**] 下拉菜单。
 
@@ -126,7 +126,7 @@ ht-degree: 42%
          |---------|----------|
          | [!UICONTROL **名称**] | 帐户的名称。 |
          | [!UICONTROL **描述**] | 帐户的描述。 |
-         | [!UICONTROL **分段**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保 Adobe 提供的用户 ARN 具有 `S3:PutObject` 权限，以便将文件上传到此存储段。此权限允许用户 ARN 上传初始文件并覆盖后续上传的文件。</p><p>存储段名称必须满足特定的命名规则。 例如，其长度必须介于3到63个字符之间，只能由小写字母、数字、点(.)和连字符(-)组成，并且必须以字母或数字开头和结尾。 [AWS文档中提供了命名规则的完整列表](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **分段**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保 Adobe 提供的用户 ARN 具有 `S3:PutObject` 权限，以便将文件上传到此存储段。此权限允许用户 ARN 上传初始文件并覆盖后续上传的文件。</p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
          | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
 
          {style="table-layout:auto"}
@@ -161,17 +161,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >只有在配置帐户或与您所属的某个组织共享帐户后，您才可以使用帐户。
+      >仅当您配置了帐户或与您所属的组织共享帐户时，您才可以使用帐户。
 
       1. 从&#x200B;[!UICONTROL **选择帐户**]&#x200B;下拉菜单中选择帐户。
 
-      您在以下Adobe Analytics的任何区域中配置的任何Cloud帐户都可以使用：
+      您在 Adobe Analytics 的以下任何区域中配置的任何云帐户均可供使用：
 
-      * 导入Adobe Analytics分类数据时（如所述） [架构](/help/components/classifications/sets/manage/schema.md).
+      * 导入 Adobe Analytics 分类数据时，如[架构](/help/components/classifications/sets/manage/schema.md)中所述。
 
         不过，不能使用配置用于导入分类数据的任何位置。相反，请按如下所述添加新目标。
 
-      * 在“位置”区域中配置帐户和位置时，如中所述 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md) 和 [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
+      * 在“位置”区域配置帐户和位置时，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。
 
       1. 从中选择位置 [!UICONTROL **选择位置**] 下拉菜单。
 
@@ -235,17 +235,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >只有在配置帐户或与您所属的某个组织共享帐户后，您才可以使用帐户。
+      >仅当您配置了帐户或与您所属的组织共享帐户时，您才可以使用帐户。
 
       1. 从&#x200B;[!UICONTROL **选择帐户**]&#x200B;下拉菜单中选择帐户。
 
-         您在以下Adobe Analytics的任何区域中配置的任何Cloud帐户都可以使用：
+         您在 Adobe Analytics 的以下任何区域中配置的任何云帐户均可供使用：
 
-         * 导入Adobe Analytics分类数据时（如所述） [架构](/help/components/classifications/sets/manage/schema.md).
+         * 导入 Adobe Analytics 分类数据时，如[架构](/help/components/classifications/sets/manage/schema.md)中所述。
 
            不过，不能使用配置用于导入分类数据的任何位置。相反，请按如下所述添加新目标。
 
-         * 在“位置”区域中配置帐户和位置时，如中所述 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md) 和 [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
+         * 在“位置”区域配置帐户和位置时，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。
 
       1. 从中选择位置 [!UICONTROL **选择位置**] 下拉菜单。
 
@@ -263,7 +263,7 @@ ht-degree: 42%
          | [!UICONTROL **帐户描述**] | Azure SAS帐户的描述。 此描述显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
          | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-         | [!UICONTROL **密钥保管库 URI**] | <p>Azure密钥库中SAS URI的路径。  要配置Azure SAS，您需要使用Azure密钥库将SAS URI存储为密钥。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。</li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul><p>有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
+         | [!UICONTROL **密钥保管库 URI**] | <p>Azure Key Vault 中 SAS URI 的路径。要配置 Azure SAS，需要使用 Azure Key Vault 将 SAS URI 存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。</li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul><p>有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
          | [!UICONTROL **密钥保管库密码名称**] | 将密码添加到 Azure 密钥保管库时创建的密码名称。在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥保管库**&#x200B;设置页面上创建的密钥保管库中。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
          | [!UICONTROL **密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
@@ -276,7 +276,7 @@ ht-degree: 42%
          | [!UICONTROL **名称**] | 位置的名称。 此名称显示在 [!UICONTROL **选择位置**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **描述**] | 位置的描述。 此描述显示在 [!UICONTROL **选择位置**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **容器**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。 |
-         | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/`<p>在配置Azure SAS帐户时，请确保您在密钥库机密名称字段中指定的SAS URI存储具有 `Write` 许可。 这允许SAS URI在Azure容器中创建文件。 <p>如果希望SAS URI也覆盖文件，请确保SAS URI存储具有 `Delete` 许可。</p><p>有关更多信息，请参阅 Azure Blob 存储文档中的 [Blob 存储资源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)。</p> |
+         | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/`<p>确保在配置 Azure SAS 帐户时，在 Key Vault 密码名称字段中指定的 SAS URI 存储具有 `Write` 权限。这将允许 SAS URI 在 Azure 容器中创建文件。 <p>如果您希望 SAS URI 也覆盖文件，请确保 SAS URI 存储具有 `Delete` 权限。</p><p>有关更多信息，请参阅 Azure Blob 存储文档中的 [Blob 存储资源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)。</p> |
 
          {style="table-layout:auto"}
 
@@ -308,17 +308,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >只有在配置帐户或与您所属的某个组织共享帐户后，您才可以使用帐户。
+      >仅当您配置了帐户或与您所属的组织共享帐户时，您才可以使用帐户。
 
       1. 从&#x200B;[!UICONTROL **选择帐户**]&#x200B;下拉菜单中选择帐户。
 
-         您在以下Adobe Analytics的任何区域中配置的任何Cloud帐户都可以使用：
+         您在 Adobe Analytics 的以下任何区域中配置的任何云帐户均可供使用：
 
-         * 导入Adobe Analytics分类数据时（如所述） [架构](/help/components/classifications/sets/manage/schema.md).
+         * 导入 Adobe Analytics 分类数据时，如[架构](/help/components/classifications/sets/manage/schema.md)中所述。
 
            不过，不能使用配置用于导入分类数据的任何位置。相反，请按如下所述添加新目标。
 
-         * 在“位置”区域中配置帐户和位置时，如中所述 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md) 和 [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
+         * 在“位置”区域配置帐户和位置时，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。
 
       1. 从中选择位置 [!UICONTROL **选择位置**] 下拉菜单。
 
@@ -345,7 +345,7 @@ ht-degree: 42%
          | [!UICONTROL **主体**] | 主体由Adobe提供。 您必须授予权限才能接收此主体的源。 |
          | [!UICONTROL **名称**] | 帐户的名称。 |
          | [!UICONTROL **描述**] | 帐户的描述。 |
-         | [!UICONTROL **分段**] | 您要将 Adobe Analytics 数据发送到的 GCP 账户中的存储段。 <p>确保您已向 Adobe 提供的主体授予以下任一权限：<ul><li>`roles/storage.objectCreator`：如果您要仅允许主体在您的 GCP 帐户中创建文件，请使用此权限。</br>**重要提示：**&#x200B;如果您将此权限用于计划报告，则必须为每个新的计划导出使用唯一文件名。否则，将无法生成报表，因为主体无权覆盖现有文件。</li><li>（推荐） `roles/storage.objectUser`：如果您希望承担者有权查看、列出、更新和删除GCP帐户中的文件，请使用此权限。</br>此权限允许主体覆盖现有文件以进行后续上传，而无需为每个新的计划导出自动生成唯一文件名。</li></ul><p>有关授予权限的信息，请参阅 Google Cloud 文档中的[将主体添加到存储段级策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)。</p> |
+         | [!UICONTROL **分段**] | 您要将 Adobe Analytics 数据发送到的 GCP 账户中的存储段。 <p>确保您已向Adobe提供的承担者授予以下任一权限： (有关授予权限的信息，请参见 [将主体添加到存储段级别策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (请参阅Google Cloud文档)。<ul><li>`roles/storage.objectCreator`：如果您要仅允许主体在您的 GCP 帐户中创建文件，请使用此权限。</br>**重要提示：**&#x200B;如果您将此权限用于计划报告，则必须为每个新的计划导出使用唯一文件名。否则，将无法生成报表，因为主体无权覆盖现有文件。</li><li>（推荐） `roles/storage.objectUser`：如果您希望承担者有权查看、列出、更新和删除GCP帐户中的文件，请使用此权限。</br>此权限允许主体覆盖现有文件以进行后续上传，而无需为每个新的计划导出自动生成唯一文件名。</li></ul><p>如果您的组织使用 [组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints) 要在允许列表中仅允许Google Cloud Platform帐户，您需要以下Adobe拥有的Google Cloud Platform组织ID： <ul><li>`DISPLAY_NAME`： `adobe.com`</li><li>`ID`： `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`： `C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
 
          {style="table-layout:auto"}
