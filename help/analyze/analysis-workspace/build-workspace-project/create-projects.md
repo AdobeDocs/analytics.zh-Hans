@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,21 +98,21 @@ Analysis Workspace 中提供的许多面板都可以基于一些用户输入来�
 >
 >有关每个组件的信息，请选择左边栏中组件名称旁边的“信息”图标，或参阅 [Analytics 组件指南](/help/components/home.md)。
 
-以下是有关如何将组件添加到Analysis Workspace中的项目的基本信息。 有关添加各种类型的组件（维度、量度、区段和日期范围）的更多详细信息，请参阅 [在Analysis Workspace中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+以下是有关如何在 Analysis Workspace 中向项目添加组件的基本信息。有关添加各种类型组件（维度、指标、细分和日期范围）的更多详细信息，请参阅 [在 Analysis Workspace 中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
 
-要在Analysis Workspace中将组件添加到项目，请执行以下操作：
+要将组件添加到 Analysis Workspace 中的项目：
 
 1. 选择左边栏中的&#x200B;**[!UICONTROL 组件]**&#x200B;图标。
 
    ![](assets/build-components.png)
 
-1. 滚动到或搜索要添加组件，然后将其拖动到项目中的面板或可视化图表。
+1. 滚动到或搜索要添加的组件，然后将其拖到项目内的面板或可视化中。
 
-   例如，您可以将区段拖到面板标题中的区段放置区域。
+   例如，您可以将某个段拖到面板标题中的段放置区。
 
-   ![将区段放入放置区域](assets/segment-dropzone.png)
+   ![将片段放入拖放区](assets/segment-dropzone.png)
 
-   有关将组件添加到项目的更多信息，请参阅 [在Analysis Workspace中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+   有关添加组件的更多信息，请参阅 [在 Analysis Workspace 中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
 
 1. （可选）按照[保存和共享项目](#save-and-share-the-project)中的说明共享项目。
 

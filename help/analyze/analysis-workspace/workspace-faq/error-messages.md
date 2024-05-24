@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
 source-git-commit: b844fb354c16a80e4044e3bae8cb47aa042a0d59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 | 错误消息 | 为什么出现此错误？ | 优化 |
 | --- | --- | --- |
-| [!UICONTROL 报表包当前超出其报表容量。 请简化请求或稍后重试。] | 您的报表请求过于复杂，需要简化。 | 应缩小报告标准，然后重试请求。 |
+| [!UICONTROL 该报告套件目前已超出其报告容量。请简化请求或稍后重试。] | 您的报告请求过于复杂，需要简化。 | 应缩小报告条件，然后重试请求。 |
 | [!UICONTROL 发生系统错误。请在“帮助”>“提交支持服务单”下记录一条客户关怀团队请求，并将错误代码包含在内。] | Adobe 遇到了一个需要解决的问题。 | 将错误代码提交给客户关怀团队。 |
 | [!UICONTROL 发生意外错误；请尝试再次刷新项目。如果问题仍然存在，请将此错误 ID 提交给 Adobe 客户关怀团队，以便进一步诊断。] | Adobe 遇到了一个需要解决的问题。 | 请尝试刷新项目，如果问题仍然存在，请将错误代码提交给客户关怀团队。 |
 | [!UICONTROL 错误 500：无法加载页面] | 本地网络的问题（如公司[防火墙设置](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hans)），是引发该错误的一个因素。此外，Adobe 可能遇到了需要解决的问题。 | 请在几分钟后再次尝试登录。如果问题仍然存在，请向客户关怀团队提交 EIM 实例 ID 代码。 |

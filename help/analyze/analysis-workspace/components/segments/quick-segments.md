@@ -5,9 +5,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Ananalysis Workspace 中的任何用户都可创建快速区段。
 
 1. 选择以下某种方法来开始创建快速区段：
 
-   * **临时（拖放）：** 从左边栏中，将组件拖动到面板标题中的区段放置区域。
+   * **临时（拖放）：** 从左边栏将组件拖到面板标题中的段放置区。
 
-     ![将区段放入放置区域](assets/segment-dropzone.png)
+     ![将片段放入拖放区](assets/segment-dropzone.png)
 
-     您可以按中所述编辑区段 [编辑快速区段](#edit-quick-segments).
+     您可以按照 [编辑快速片段](#edit-quick-segments)中的说明来编辑该片段。
 
      >[!NOTE]
      >
