@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
 source-wordcount: '5562'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 98%
 | --- | --- |
 | **2024 年 5 月** | |
 | 在数据馈送和Data Warehouse中通过Google Cloud Platform使用组织策略限制时所需的信息 | 已将Adobe拥有的Google Cloud Platform组织ID添加到 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 文档。 <p>只有在使用以下功能的组织才需要此信息： [组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints) 在Google Cloud Platform中。</p> |
-| 有关将组件添加到项目的文档 | 添加了有关如何执行操作的一般信息 [将各种类型的组件添加到Analysis Workspace中的项目](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
-| 更新了Advertising Analytics文档 | 根据对进行的更新更新更新了文档 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 用户界面。 |
+| 有关向项目添加组件的文档 | 添加了有关如何 [将各种类型的组件添加到 Analysis Workspace 中的项目](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般信息。 |
+| 更新了 Advertising Analytics 文档 | 根据对 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 用户界面所做的更新来更新文档。 |
 | 将 XDM 对象变量显式映射到上下文数据变量 | 记录了使用 XDM 对象变量映射[明确设置上下文数据变量的能力](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)。 |
 | 有关从 Adobe Analytics 升级到 Customer Journey Analytics 的新文档 | 对于从 Adobe Analytics 升级到 Customer Journey Analytics 的组织，需要考虑组织当前的 Adobe Analytics 实施和长期目标，有多种升级选项和许多注意事项需要牢记。<p>现提供新的文档资源来帮助您更好地理解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[开始升级到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
 | 更新了有关自定义日期范围的文档 | 更新了与 [创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 相关的屏幕截图和程序，以匹配当前的产品功能和设计。 |
