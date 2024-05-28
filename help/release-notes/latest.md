@@ -3,9 +3,9 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
+source-git-commit: f0762a91e9dfe2410075270703aece974809fe69
 workflow-type: ht
-source-wordcount: '1150'
+source-wordcount: '1146'
 ht-degree: 100%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 100%
 | **Analytics 实时报告 2.0 API** | Adobe Analytics 中的新实时报告 API 2.0 改善了客户集成，并提供快速的报告结果。这些结果可以通过编程用于基本报告、趋势报告和划分报告。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 2024 年 5 月 30 日 |
 | **流媒体：使用 web SDK 将 web 数据发送到 Adobe Experience Platform Edge Network** | 您现在可以使用 Adobe Experience Platform Web SDK 将流媒体 Web 数据发送到 Adobe Experience Platform Edge Network。通过此增强功能，您可以构建更加个性化的活动并提供更加个性化的内容，从而生成更多的跟踪数据以供报告使用。<p>此更改为所有 Platform 解决方案（例如 Customer Journey Analytics、Adobe Real-time CDP、Adobe Journey Optimizer 和事件转发）的 Web 实施提供了统一的收集方法。以前，将流媒体网络数据发送到 Edge Network 的唯一方法是使用 Edge Network API。 <p>（更新文档链接见下文）</p> | | 2024 年 5 月 31 日 |
 | **增大默认低流量阈值** | 在 **2024 年 4 月中旬**，Adobe 将开始增大默认报告包低流量阈值，如下所示：![低流量阈值](assets/thresholds.png) 这只会影响当前设置的小于新阈值的变量。这些更改将逐步进行，我们预计这项工作将在&#x200B;**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报告包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月 31 日 |
-| **管理员设置控制用于导出和导入的帐户和位置** | 位置管理器中新的“管理设置”选项卡使管理员可以控制用户是否可以创建和编辑帐户和位置。当用户配置 cloud 导入和导出账户以及配置 cloud 导入和导出位置时，这些设置适用。 <p>管理员还可以限制用户可以创建和使用的帐户类型（Google Cloud Platform、Azure RBAC、Amazon S3 等）。</p><p>以前，任何用户都可以创建、编辑和使用任何类型帐户的帐户和位置。</p><p>（更新文档链接见下文）</p> | 2024 年 6 月 | 2024 年 6 月 |
-| **共享用于导出和导入的账户和位置** | 用户现在可以将他们创建的帐户和位置提供给其组织内的所有用户。只有帐户和位置所有者以及系统管理员可以编辑和删除帐户和位置。<p>以前，帐户和位置只能由创建它们的用户使用。</p><p>当用户配置云导入和导出帐户以及配置云导入或导出位置时，这些设置适用。 </p> <p>（更新文档链接见下文）</p> | 2024 年 6 月 | 2024 年 6 月 |
+| **管理员设置控制用于导出和导入的帐户和位置** | 位置管理器中新的“管理设置”选项卡使管理员可以控制用户是否可以创建和编辑帐户和位置。当用户配置 cloud 导入和导出账户以及配置 cloud 导入和导出位置时，这些设置适用。 <p>管理员还可以限制用户可以创建和使用的帐户类型（Google Cloud Platform、Azure RBAC、Amazon S3 等）。</p><p>以前，任何用户都可以创建、编辑和使用任何类型帐户的帐户和位置。</p><p>（更新文档链接见下文）</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
+| **共享用于导出和导入的账户和位置** | 用户现在可以将他们创建的帐户和位置提供给其组织内的所有用户。只有帐户和位置所有者以及系统管理员可以编辑和删除帐户和位置。<p>以前，帐户和位置只能由创建它们的用户使用。</p><p>当用户配置云导入和导出帐户以及配置云导入或导出位置时，这些设置适用。 </p> <p>（更新文档链接见下文）</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
 | **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。 <p>（更新文档链接见下文）</p> | Beta 将于 2024 年 5 月 31 日开始 | 待定 |
 
 {style="table-layout:auto"}
