@@ -4,15 +4,15 @@ description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1150'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2024 年 5 月）
 
-**上次更新**：2024年5月22日
+**上次更新日期**：2024 年 5 月 22 日
 
 这些发行说明涵盖 2024 年 5 月 15 日至 6 月的发行期。Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -23,11 +23,11 @@ ht-degree: 92%
 | **有关从 Adobe Analytics 升级到 Customer Journey Analytics 的新文档** | 对于从 Adobe Analytics 升级到 Customer Journey Analytics 的组织，需要考虑组织当前的 Adobe Analytics 实施和长期目标，有多种升级选项和许多注意事项需要牢记。现提供新的文档资源来帮助您更好地理解：<ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li></ul>[开始升级到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 现在可用 |
 | **通过 XDM 设置 `contextData` 字段** | 通过 Experience Edge Network 向 Adobe Analytics 发送数据的客户可以[直接在 XDM 或负载的“数据”部分设置上下文数据值](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/page-vars/contextdata)。 |  | 现在可用 |
 | **Analytics 实时报告 2.0 API** | Adobe Analytics 中的新实时报告 API 2.0 改善了客户集成，并提供快速的报告结果。这些结果可以通过编程用于基本报告、趋势报告和划分报告。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 2024 年 5 月 30 日 |
-| **流媒体：使用 web SDK 将 web 数据发送到 Adobe Experience Platform Edge Network** | 您现在可以使用 Adobe Experience Platform Web SDK 将流媒体 Web 数据发送到 Adobe Experience Platform Edge Network。通过此增强功能，您可以构建更加个性化的活动并提供更加个性化的内容，从而生成更多的跟踪数据以供报告使用。<p>此更改为所有 Platform 解决方案（例如 Customer Journey Analytics、Adobe Real-time CDP、Adobe Journey Optimizer 和事件转发）的 Web 实施提供了统一的收集方法。以前，将流媒体Web数据发送到Edge Network的唯一方法是使用Media Edge API。 <p>（更新了要遵循的文档链接）</p> | | 2024 年 5 月 31 日 |
+| **流媒体：使用 web SDK 将 web 数据发送到 Adobe Experience Platform Edge Network** | 您现在可以使用 Adobe Experience Platform Web SDK 将流媒体 Web 数据发送到 Adobe Experience Platform Edge Network。通过此增强功能，您可以构建更加个性化的活动并提供更加个性化的内容，从而生成更多的跟踪数据以供报告使用。<p>此更改为所有 Platform 解决方案（例如 Customer Journey Analytics、Adobe Real-time CDP、Adobe Journey Optimizer 和事件转发）的 Web 实施提供了统一的收集方法。以前，将流媒体网络数据发送到 Edge Network 的唯一方法是使用 Edge Network API。 <p>（更新文档链接见下文）</p> | | 2024 年 5 月 31 日 |
 | **增大默认低流量阈值** | 在 **2024 年 4 月中旬**，Adobe 将开始增大默认报告包低流量阈值，如下所示：![低流量阈值](assets/thresholds.png) 这只会影响当前设置的小于新阈值的变量。这些更改将逐步进行，我们预计这项工作将在&#x200B;**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报告包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月 31 日 |
-| **管理员设置控制用于导出和导入的帐户和位置** | 位置管理器中新的“管理设置”选项卡使管理员可以控制用户是否可以创建和编辑帐户和位置。当用户配置 cloud 导入和导出账户以及配置 cloud 导入和导出位置时，这些设置适用。 <p>管理员还可以限制用户可以创建和使用的帐户类型（Google Cloud Platform、Azure RBAC、Amazon S3 等）。</p><p>以前，任何用户都可以创建、编辑和使用任何类型帐户的帐户和位置。</p><p>（更新了要遵循的文档链接）</p> | 2024 年 6 月 | 2024 年 6 月 |
-| **共享用于导出和导入的账户和位置** | 用户现在可以将他们创建的帐户和位置提供给其组织内的所有用户。只有帐户和位置所有者以及系统管理员可以编辑和删除帐户和位置。<p>以前，帐户和位置只能由创建它们的用户使用。</p><p>当用户配置云导入和导出帐户以及配置云导入和导出位置时，这些设置可用。 </p> <p>（更新了要遵循的文档链接）</p> | 2024 年 6 月 | 2024 年 6 月 |
-| **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。 <p>（更新了要遵循的文档链接）</p> | Beta 将于 2024 年 5 月 31 日开始 | 待定 |
+| **管理员设置控制用于导出和导入的帐户和位置** | 位置管理器中新的“管理设置”选项卡使管理员可以控制用户是否可以创建和编辑帐户和位置。当用户配置 cloud 导入和导出账户以及配置 cloud 导入和导出位置时，这些设置适用。 <p>管理员还可以限制用户可以创建和使用的帐户类型（Google Cloud Platform、Azure RBAC、Amazon S3 等）。</p><p>以前，任何用户都可以创建、编辑和使用任何类型帐户的帐户和位置。</p><p>（更新文档链接见下文）</p> | 2024 年 6 月 | 2024 年 6 月 |
+| **共享用于导出和导入的账户和位置** | 用户现在可以将他们创建的帐户和位置提供给其组织内的所有用户。只有帐户和位置所有者以及系统管理员可以编辑和删除帐户和位置。<p>以前，帐户和位置只能由创建它们的用户使用。</p><p>当用户配置云导入和导出帐户以及配置云导入或导出位置时，这些设置适用。 </p> <p>（更新文档链接见下文）</p> | 2024 年 6 月 | 2024 年 6 月 |
+| **Activity Map 减少了 Web SDK 服务器调用次数** | 目前，Activity Map 链接事件将计为其自己的事件，并且会产生额外费用。此增强功能获取一些链接事件并将它们打包到下一次点击中，类似于 AppMeasurement 处理事件的方式。 <p>（更新文档链接见下文）</p> | Beta 将于 2024 年 5 月 31 日开始 | 待定 |
 
 {style="table-layout:auto"}
 
@@ -48,7 +48,7 @@ AN-327749；AN-332949；AN-342881；AN-343171；AN-343708；AN-344034；AN-34555
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **保存的`cust_visids`** 13 个月有效期 | 2024年5月22日 | 即将发布的Analytics点击处理引擎， **计划于2024年7月发布**，将开始强制保存的13个月过期 `cust_visids`. 如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。目前，对 `visid_high/visid_low` 的 `cust_visid` 的映射没有有效期。在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
+| **保存的`cust_visids`** 13 个月有效期 | 2024 年 5 月 22 日 | 即将发布的 Analytics Hit 处理引擎&#x200B;**（预计于 2024 年 7 月发布）**&#x200B;将开始对保存的 `cust_visids` 强制执行 13 个月的有效期。如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。目前，对 `visid_high/visid_low` 的 `cust_visid` 的映射没有有效期。在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
 | **ISO 区域更新** | 2024 年 5 月 10 日 | Adobe 将在 2024 年 6 月 7 日执行 2024 年 ISO 区域更新。预计在此次发布后将看到少量地理信息更新（区域）。 |
 
 {style="table-layout:auto"}
