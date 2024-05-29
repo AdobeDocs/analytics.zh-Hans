@@ -4,10 +4,10 @@ description: 了解如何开始使用 Adobe Analytics、常规角色类型以及
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 100%
+source-wordcount: '1141'
+ht-degree: 96%
 
 ---
 
@@ -26,8 +26,9 @@ Adobe Analytics 支持各种类型的管理员。具有完全访问权限的 Ado
 
 * **拥有完全访问权限的 Adobe Analytics 管理员**：此类用户拥有对 Adobe Analytics 中所有功能的完全访问权限，包括报表包设置和用户权限。 根据贵组织的组成结构，可由不同的人员或团队分别负责 Analytics 管理所涉及的各方面工作。例如，一个人负责指定实施中使用的变量。而另一个人负责确保每个用户均具有正确权限，从而能够正常获取所需报表。至少确定一位负责 Analytics 报表包设置和用户权限的用户，该用户可以邀请其他 Analytics 管理员。
 * **数据收集管理员：**&#x200B;此类用户拥有对 Adobe Experience Platform 数据收集中所有功能的完全访问权限，包括发布权限、创建容器和访问用户权限。此类用户不一定得是程序员，但若能掌握 HTML、CSS 和 JavaScript 的入门级或更高级别的知识，将有助于他们开展工作。为在您的网站上实施标记，此类用户需要与您组织的网站所有者合作。请至少确定一位负责您组织实施的用户，这些用户可以邀请其他数据收集管理员。
+* **产品管理员：** 产品管理员管理Admin Console中的产品以及该产品的用户权限。
 * **产品配置文件管理员：**&#x200B;此类用户可以在产品配置文件中添加或移除用户，调整其产品配置文件中的权限项，以及将产品配置文件分配给用户组或从用户组中删除产品配置文件。 产品配置文件管理员没有 Adobe Analytics 的完全访问权限。 不过，如果团队领导或经理需要为团队授予并管理 Adobe Analytics 的访问权限，那么产品配置文件管理员将是他们的不二之选。有关产品配置文件的更多信息，请参阅 [Adobe Analytics 的产品配置文件](/help/admin/admin-console/permissions/product-profile.md)。
-* **支持代表**：也称为受支持用户，他们在 Analytics 界面中没有其他权限。他们而是会在与 Adobe 客户关怀团队通信时获得其他权限。这些用户几乎都是 Analytics 管理员，这有助于客户关怀团队对这些用户的问题进行故障诊断。请至少确定一位 Analytics 管理员，负责促进最终用户与 Adobe 客户关怀团队之间的交互。
+* **支持管理员**：也称为受支持用户，他们在Analytics界面中没有其他权限。 他们而是会在与 Adobe 客户关怀团队通信时获得其他权限。这些用户几乎都是 Analytics 管理员，这有助于客户关怀团队对这些用户的问题进行故障诊断。请至少确定一位 Analytics 管理员，负责促进最终用户与 Adobe 客户关怀团队之间的交互。
 * **网站所有者：**&#x200B;网站所有者可以是个人或团队，负责网站的编码和开发工作。他们不需要具有帐户，但需要与数据收集管理员合作，以获取标记代码并在您的网站上实施该代码。
 * **最终用户**：最终用户一般负责查看报表并寻找业务问题的答案。Analytics 管理员会向最终用户授予产品使用权限。
 
