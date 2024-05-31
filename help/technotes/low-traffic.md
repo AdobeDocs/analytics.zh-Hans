@@ -3,10 +3,10 @@ description: 当报表具有许多唯一值时，Adobe 使用低流量维度项�
 title: Adobe Analytics 中的低流量值
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
+source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 93%
+source-wordcount: '769'
+ht-degree: 100%
 
 ---
 
@@ -17,10 +17,8 @@ ht-degree: 93%
 ## [!UICONTROL 低流量]的工作方式
 
 * Adobe Analytics 使用&#x200B;**[!UICONTROL 低阈值]**&#x200B;和&#x200B;**[!UICONTROL 高阈值]**&#x200B;这两个阈值确定每个月在报告中显示哪些独特值。Adobe 可能会不时调整这些阈值。当前的阈值限制是：
-   * **[!UICONTROL 低阈值]**：当月大于 500,000 个独特值。
-   * **[!UICONTROL 高阈值]**：当月大于 1,000,000 个独特值。
-* 在 **2024年4月中**，Adobe将开始增加默认报表包的低流量阈值，如下所示： ![低流量阈值](assets/thresholds.png)
-这将仅影响当前设置低于新阈值的变量。 这些更改将逐步进行，我们预计这项工作将在**五月底**&#x200B;之前完成。在实施这些增加时，您可能会注意到高基数变量的变化：<ul><li>更多维度值可用于报告。</li><li>区段和计算量度可能包含更多数据。</li><li>基于区段的虚拟报表包可能包含更多数据。</li><li>分类导出可能包含更多数据。</li></ul>
+   * **[!UICONTROL 低阈值]**：当月大于 2,000,000 个独特值。
+   * **[!UICONTROL 高阈值]**：当月大于 2,100,000 个独特值。
 * 如果变量在给定的月份未达到低阈值，也不会影响报告。
 * 当变量达到低阈值时，数据开始归入[!UICONTROL 低流量]。超出此阈值的每个值都遵循以下逻辑：
    * 如果某个值已在报表中，则正常添加到该值。
@@ -37,9 +35,9 @@ ht-degree: 93%
 
 ## 更改独特限制阈值
 
-有时可按变量更改阈值限制。请联系 Adobe 客户关怀或您的 Adobe 客户团队以申请此更改。阈值可以增加的程度取决于多种因素，Adobe可能无法在所有情况下适应阈值的增加。 请求更改时，应包括：
+有时可按变量更改阈值限制。请联系 Adobe 客户关怀或您的 Adobe 客户团队以申请此更改。阈值可提高到什么程度取决于多种因素，Adobe 可能无法在所有情况下都满足阈值提高的要求。请求更改时，应包括：
 
-* 报表包 ID
+* 报告包 ID
 * 要增加阈值的变量
 * 所需的第一和第二阈值
 
