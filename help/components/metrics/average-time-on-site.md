@@ -3,10 +3,10 @@ title: 网站平均逗留时间
 description: 给定维度项目在点击之间存在的平均时间。
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 9e140a6be5ab151d7a4e88e317c59eafea4d6e1d
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '558'
+ht-degree: 92%
 
 ---
 
@@ -74,13 +74,13 @@ ht-degree: 96%
 如果您使用[网站区域](../dimensions/site-section.md)维度应用划分，则将使用以下计算方法：
 
 ```text
-(30 + 10) / 1 = 40 seconds average time on site
+(30 + 100 + 10) / 1 = 140 seconds (2 minutes 20 seconds) average time on site
 ```
 
 由于划分维度中存在单个序列，因此它会使用与其父维度不同的分母。这些指标提供的结果通常在访问级别相似，但在点击级别可能不同。
 
 ## 百分比高于 100%
 
-此指标通常包含高于 100% 的百分比。分母是整个维度的网站平均逗留时间，分子是维度项目的网站平均逗留时间。如果整个维度的网站平均逗留时间少于给定维度项目的网站平均逗留时间，您将看到高于 100% 的百分比。按此指标对排名报表进行排序，会显示网站平均逗留时间的异常值，该值通常没什么价值。Adobe 建议在排名报表中按其他指标（例如[访问次数](visits.md)）来排序。
+此指标通常包含高于 100% 的百分比。分母是整个维度的网站平均逗留时间，分子是维度项目的网站平均逗留时间。如果整个维度的网站平均逗留时间少于给定维度项目的网站平均逗留时间，您将看到高于100%的百分比。 按此指标对排名报表进行排序，会显示网站平均逗留时间的异常值，该值通常没什么价值。Adobe 建议在排名报表中按其他指标（例如[访问次数](visits.md)）来排序。
 
 有关逗留时间的更多常规信息，请参阅[逗留时间概述](time-spent.md)。
