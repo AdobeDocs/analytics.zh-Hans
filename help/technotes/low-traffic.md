@@ -4,7 +4,7 @@ title: Adobe Analytics 中的低流量值
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
 ht-degree: 100%
 
@@ -17,8 +17,8 @@ ht-degree: 100%
 ## [!UICONTROL 低流量]的工作方式
 
 * Adobe Analytics 使用&#x200B;**[!UICONTROL 低阈值]**&#x200B;和&#x200B;**[!UICONTROL 高阈值]**&#x200B;这两个阈值确定每个月在报告中显示哪些独特值。Adobe 可能会不时调整这些阈值。当前的阈值限制是：
-   * **[!UICONTROL 低阈值]**：当月大于 2,000,000 个独特值。
-   * **[!UICONTROL 高阈值]**：当月大于 2,100,000 个独特值。
+   * **[!UICONTROL 低阈值]**：当月大于 2,000,000 个唯一值。
+   * **[!UICONTROL 高阈值]**：当月大于 2,100,000 个唯一值。
 * 如果变量在给定的月份未达到低阈值，也不会影响报告。
 * 当变量达到低阈值时，数据开始归入[!UICONTROL 低流量]。超出此阈值的每个值都遵循以下逻辑：
    * 如果某个值已在报表中，则正常添加到该值。
