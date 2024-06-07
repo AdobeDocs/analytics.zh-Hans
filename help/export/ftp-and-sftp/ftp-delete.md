@@ -5,8 +5,8 @@ title: 删除 FTP 数据和 FTP 帐户
 feature: FTP Export
 exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '218'
+workflow-type: ht
+source-wordcount: '223'
 ht-degree: 100%
 
 ---

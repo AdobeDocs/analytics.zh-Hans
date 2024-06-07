@@ -2,13 +2,13 @@
 description: 您可以在 Adobe Analytics 中查看 Document Cloud 数据
 title: 配置 Document Cloud 报告
 feature: Admin Tools
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
-workflow-type: tm+mt
-source-wordcount: '139'
+exl-id: eb58d011-c4b0-4c0c-9241-83b2bccc2c77
+source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
+workflow-type: ht
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
-
 
 # 配置 Document Cloud 报告
 
@@ -53,5 +53,3 @@ ht-degree: 100%
 1. 在 Adobe Document Cloud 管理页面上，选择&#x200B;[!UICONTROL **启用 PDF 报告**]。
 
 1. 要配置 Adobe Document Cloud 以将数据传输到 Adobe Analytics，请使用 [Adobe Document Cloud Javascript SDK ](https://www.adobe.io/apis/documentcloud/dcsdk.html)。
-
-

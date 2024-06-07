@@ -4,8 +4,8 @@ description: 了解趋势报表中出现数据急剧增加或减少的可能原�
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Event, Data Configuration and Collection
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: tm+mt
-source-wordcount: '855'
+workflow-type: ht
+source-wordcount: '853'
 ht-degree: 100%
 
 ---

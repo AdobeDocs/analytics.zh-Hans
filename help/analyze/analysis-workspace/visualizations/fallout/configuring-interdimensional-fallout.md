@@ -4,8 +4,8 @@ title: 多维度流失
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 

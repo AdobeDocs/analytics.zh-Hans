@@ -5,8 +5,8 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '112'
+workflow-type: ht
+source-wordcount: '114'
 ht-degree: 100%
 
 ---

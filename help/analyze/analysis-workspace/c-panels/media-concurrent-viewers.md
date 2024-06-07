@@ -5,8 +5,8 @@ feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: tm+mt
-source-wordcount: '1012'
+workflow-type: ht
+source-wordcount: '1023'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ Media Analytics 客户可以分析并发查看者，用于了解在哪里出现�
 
 可在此面板中使用的唯一量度是“并行查看者”：
 
-| 度量 | 描述 |
+| 量度 | 描述 |
 |---|---|
 | 并行查看者 | 在特定的时间点查看您的媒体流的独特访客数，它与会话数量无关。<br><br>这不同于“报告”部分中的并行查看者报告，该报告使用的是“并行活动会话”。使用独特访客帐户以消除在节目边界处（即同时结束和开始会话时）不需要的“峰值”。 |
 

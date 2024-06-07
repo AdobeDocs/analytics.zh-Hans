@@ -5,8 +5,8 @@ keywords: 作业;疑难解答;错误;ftp;chdir;连接;登录;put
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '470'
+workflow-type: ht
+source-wordcount: '466'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
    2. 找到所需的数据馈送，然后单击要重新运行的每个馈送旁边的复选框。
    3. 单击&#x200B;**[!UICONTROL 重新运行]**。
 
-   ![重新运行](assets/rerun.png)
+  ![重新运行](assets/rerun.png)
 
 如果您在重新运行后仍未收到数据馈送文件，请联系客户关怀部门。
 
