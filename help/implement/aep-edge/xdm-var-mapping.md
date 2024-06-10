@@ -4,9 +4,9 @@ description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1414'
 ht-degree: 71%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 71%
 | --- | --- |
 | `xdm.application.isClose` | 帮助定义移动生命周期量度[崩溃](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isInstall` | 帮助确定何时增加[首次发布](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)移动生命周期量度。 |
-| `xdm.application.isLaunch` | 帮助确定何时增加[首次发布](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)移动生命周期量度。 |
 | `xdm.application.closeType` | 确定关闭事件是否为崩溃。 有效值包括 `close`（生命周期会话结束，前一个会接话收到暂停事件）和 `unknown`（生命周期会话结束，没有暂停事件）。 帮助设置移动生命周期量度[崩溃](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)量度。 |
 | `xdm.application.isInstall` | 移动生命周期量度[安装](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isLaunch` | 移动生命周期量度[发布](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |

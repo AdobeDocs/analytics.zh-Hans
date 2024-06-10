@@ -4,10 +4,10 @@ keywords: 数据馈送;作业;量度;前处理列;后处理列;机器人;日期�
 title: 计算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ ht-degree: 100%
 
 1. 计数值在 `post_pagename` 或 `post_page_url` 中的行数。
 
+## 发生次数
+
+1. 计算总行数。
+
 ## 访问
 
 1. 拼接 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 1. 计算唯一值的数量。
 
->[!NOTE]
+>[!TIP]
 >
->Internet 违规、系统违规或使用自定义访客 ID 极少数情况下会将相同的 `visit_num` 值用于不同的访问。在计数访问次数时使用 `visit_start_time_gmt` 可确保计数这些访问。
+>Internet 违规、系统违规或使用自定义访客 ID 极少数情况下会将相同的 `visit_num` 值用于不同的访问。虽然可选，但请使用 `visit_start_time_gmt` 在计数访问次数以确保计数这些访问次数时。
 
 ## 访客
 

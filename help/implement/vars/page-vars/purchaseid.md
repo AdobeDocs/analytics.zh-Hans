@@ -4,10 +4,10 @@ description: 根据唯一购买标识符删除重复点击。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '361'
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,16 @@ ht-degree: 83%
 
 ## 使用Adobe Analytics扩展购买ID
 
-Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
+您可以在配置Analytics扩展时（全局变量）或根据规则设置购买ID。
+
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+2. 单击所需的标记属性。
+3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
+4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
+5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+6. 找到 [!UICONTROL 购买ID] 部分。
+
+您可以将购买ID设置为值或数据元素。 您还可以从其他 Analytics 变量复制值。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.purchaseID
 
