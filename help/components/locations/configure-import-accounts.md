@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 61%
+source-wordcount: '1513'
+ht-degree: 54%
 
 ---
 
 # 配置云导入和导出帐户
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
+
+>[!NOTE]
+>
+>创建和编辑帐户时，请考虑以下事项： <ul><li>系统管理员可以限制用户创建帐户，如中所述 [配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果无法按本节所述创建帐户，请与系统管理员联系。</li><li>帐户只能由创建该帐户的用户或系统管理员编辑。</li></ul>
 
 您可以配置用于以下任意或所有目的的云帐户：
 
@@ -23,17 +27,25 @@ ht-degree: 61%
 
 您需要为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照本文所述添加和配置帐户(例如Amazon S3角色ARN、Google Cloud Platform等)，然后按照所述添加和配置该帐户内的位置（例如帐户内的文件夹） [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
 
-有关如何管理现有帐户（包括查看、编辑和删除帐户）的信息，请参阅 [位置管理器](/help/components/locations/locations-manager.md).
+有关如何查看和删除现有帐户的信息，请参见 [位置管理器](/help/components/locations/locations-manager.md).
 
 要配置云导入或导出帐户，请执行以下操作：
 
 1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **位置**].
 1. 在 [!UICONTROL 位置] 页面上，选择 [!UICONTROL **位置帐户**] 选项卡。
-1. 选择 [!UICONTROL **添加帐户**].
+1. （视情况而定）如果您是系统管理员，则可以启用 [!UICONTROL **查看所有用户的帐户**] 选项，用于查看由您组织中的所有用户创建的帐户。
+   ![查看所有用户的帐户](assets/accounts-all-users.png)
+1. 要创建新帐户，请选择 [!UICONTROL **添加帐户**].
 
-   此时将显示添加帐户对话框。
+   此 [!UICONTROL **位置帐户详细信息**] 对话框随即显示。
 
-1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 | | [!UICONTROL **位置帐户说明**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 | | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每个帐户类型拥有一个帐户，并根据需要在该帐户中放置多个位置。 |
+   或
+
+   要编辑现有帐户，请找到要编辑的帐户，然后选择 [!UICONTROL **编辑详细信息**] 按钮。
+
+   此 [!UICONTROL **添加帐户**] 对话框随即显示。
+
+1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 | | [!UICONTROL **位置帐户说明**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 | | [!UICONTROL **使帐户对贵组织中的所有用户都可用**] | **注意：** 此功能处于版本的有限测试阶段，在您的环境中可能尚未可用。 当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。 <p>启用此选项可允许组织中的其他用户使用该帐户。</p> <p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> | | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如中所述 [配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
 1. 在 [!UICONTROL **帐户属性**] 部分，指定特定于所选帐户类型的信息。
 
    有关配置说明，请展开以下对应于 [!UICONTROL **帐户类型**] 你选择的。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
@@ -89,6 +101,22 @@ ht-degree: 61%
    | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
    | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
    | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++Email
+
+   >[!NOTE]
+   >
+   >电子邮件帐户只能用于 [数据馈送](/help/export/analytics-data-feed/create-feed.md). (不支持电子邮件帐户 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或 [分类集](/help/components/classifications/sets/overview.md))。
+
+   若要配置 Azure RBAC 帐户，请指定以下信息：
+
+   | 字段 | 功能 |
+   |---------|----------|
+   | [!UICONTROL **收件人**] | 发送报表时，可以向特定用户发送电子邮件通知。指定单个电子邮件地址或电子邮件地址的逗号分隔列表。 |
 
    {style="table-layout:auto"}
 

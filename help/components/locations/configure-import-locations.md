@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 04d05fe10e46ca99dd1bd8019161143dab47e61d
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 37%
+source-wordcount: '1730'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,11 @@ ht-degree: 37%
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-您可以配置云帐户（以及在该帐户上的位置）。 单个位置可用于以下任意目的(单个位置不能与多个目的相关联，例如数据馈送和Data Warehouse，或Data Warehouse和分类集)：
+>[!NOTE]
+>
+>创建和编辑位置时，请考虑以下事项：<ul><li>系统管理员可以限制用户创建位置，如中所述 [配置用户是否可以创建位置](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). 如果无法按本节所述创建位置，请与系统管理员联系。</li><li>位置只能由创建该位置的用户或系统管理员编辑。</li></ul>
+
+在您之后 [配置云帐户](/help/components/locations/configure-import-accounts.md)，则您可以在该帐户上配置位置。 单个位置可用于以下任意目的（单个位置不能与多个目的相关联）：
 
 * 导出文件，使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md)
 * 导出报告，使用 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
@@ -23,35 +27,42 @@ ht-degree: 37%
 
 您必须为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括添加和配置帐户(如Amazon S3角色ARN、Google Cloud Platform等)，如中所述 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)，然后在该帐户中添加和配置位置（如本文所述）。
 
-有关如何管理现有位置（包括查看、编辑和删除位置）的信息，请参阅 [位置管理器](/help/components/locations/locations-manager.md).
+有关如何查看和删除现有位置的信息，请参阅 [位置管理器](/help/components/locations/locations-manager.md).
 
-## 开始创建云导出位置
+## 开始创建或编辑位置
 
 1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **位置**].
-1. 在 [!UICONTROL 位置] 页面上，选择 [!UICONTROL **位置**] 选项卡。
-1. 选择 [!UICONTROL **添加位置**]. (如果尚未添加帐户，请按照中的说明添加一个帐户 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md).)
 
-   此时将显示“位置”对话框。
+1. 在 [!UICONTROL 位置] 页面上，选择 [!UICONTROL **位置**] 选项卡。
+
+1. （视情况而定）如果您是系统管理员，则可以启用 [!UICONTROL **查看所有用户的位置**] 选项，用于查看由您组织中的所有用户创建的位置。
+   ![查看所有用户的位置](assets/locations-all-users.png)
+
+1. 要添加新位置，请选择 [!UICONTROL **添加位置**]. (如果尚未添加帐户，请按照中的说明添加一个帐户 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md).)
+
+   此 [!UICONTROL **添加位置**] 对话框显示
+
+   或
+
+   要编辑现有位置，请选择位置名称旁边的3点菜单，然后选择 [!UICONTROL **编辑**].
+
+   此 [!UICONTROL **位置详细信息**] 对话框随即显示。
 
 1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **名称**] | 位置的名称。  |
-| [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。| | [!UICONTROL **使用和**] | 选择是否要将此位置与 [!UICONTROL **数据馈送**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分类集**]. <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请勿更改 [!UICONTROL **使用和**] 位置后的字段。</li></ul> | | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅 [添加帐户](#add-an-account). |
+| [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。| | [!UICONTROL **使用和**] | 选择是否要将此位置与 [!UICONTROL **数据馈送**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分类集**]. <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请勿更改 [!UICONTROL **使用和**] 位置后的字段。</li><li>如果要为电子邮件帐户创建位置，请选择 [!UICONTROL **Data Warehouse**] 在此字段中。 数据馈送和分类集不支持电子邮件位置。</li></ul> | | [!UICONTROL **使位置对贵组织中的所有用户都可用**] | **注意：** 此功能处于版本的有限测试阶段，在您的环境中可能尚未可用。 当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。 <p>启用此选项可允许组织中的其他用户使用该位置。</p> <p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> | | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md). |
 
-1. 在&#x200B;[!UICONTROL **位置属性**]&#x200B;部分中，指定特定于位置帐户的帐户类型的信息。
-
-   继续下面的部分，该部分与您在 [!UICONTROL **位置帐户**] 字段。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
-
-
+1. 要完成用于配置位置的表单，请继续下面的部分，该部分与您在 [!UICONTROL **位置帐户**] 字段。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
 
 ### Amazon S3 Role ARN
 
 要配置Amazon S3角色ARN位置，请指定以下信息：
 
-1. [开始创建或编辑云导出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
+1. [开始创建或编辑位置](#begin-creating-or-editing-a-location)，如上所述。
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有 `S3:PutObject` 权限以将文件上传到此存储段。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
-   | [!UICONTROL **密钥前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
+   | [!UICONTROL **分段**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有 `S3:PutObject` 权限以将文件上传到此存储段。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -70,12 +81,12 @@ ht-degree: 37%
 
 若要配置 Google Cloud Platform 位置，请指定以下信息：
 
-1. [开始创建或编辑云导出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
+1. [开始创建或编辑位置](#begin-creating-or-editing-a-location)，如上所述。
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **存储段名称**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 |
-   | [!UICONTROL **密钥前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
+   | [!UICONTROL **分段**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 |
+   | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -94,12 +105,12 @@ ht-degree: 37%
 
 若要配置 Azure SAS 位置，请指定以下信息：
 
-1. [开始创建或编辑云导出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
+1. [开始创建或编辑位置](#begin-creating-or-editing-a-location)，如上所述。
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **容器名称**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。 |
-   | [!UICONTROL **密钥前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
+   | [!UICONTROL **容器**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。 |
+   | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -118,13 +129,13 @@ ht-degree: 37%
 
 若要配置 Azure RBAC 位置，请指定以下信息：
 
-1. [开始创建或编辑云导出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
+1. [开始创建或编辑位置](#begin-creating-or-editing-a-location)，如上所述。
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **容器名称**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。确保授予将文件上传到您之前创建的 Azure 应用程序的权限。 |
-   | [!UICONTROL **密钥前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
-   | [!UICONTROL **帐户名称**] | Azure存储帐户。 |
+   | [!UICONTROL **帐户**] | Azure存储帐户。 |
+   | [!UICONTROL **容器**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。确保授予将文件上传到您之前创建的 Azure 应用程序的权限。 |
+   | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -137,6 +148,23 @@ ht-degree: 37%
    >[!NOTE]
    >
    >   如果您之前已使用 [用于导入分类的FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) 到Adobe Analytics，您需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
+
+### 电子邮件
+
+要配置电子邮件位置，请指定以下信息：
+
+1. [开始创建或编辑位置](#begin-creating-or-editing-a-location)，如上所述。
+
+   | 字段 | 功能 |
+   |---------|----------|
+   | [!UICONTROL **主题**] | 电子邮件的主题。 |
+   | [!UICONTROL **注释**] | 电子邮件的内容。 |
+
+   {style="table-layout:auto"}
+
+1. 选择&#x200B;[!UICONTROL **保存**]。
+
+   现在，您可以使用将数据导出到您配置的帐户和位置 [数据馈送](/help/export/analytics-data-feed/create-feed.md). (不支持电子邮件位置 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或 [分类集](/help/components/classifications/sets/overview.md))。
 
 ### 旧帐户类型
 
