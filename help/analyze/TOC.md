@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
-workflow-type: ht
-source-wordcount: '1007'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -152,9 +152,9 @@ ht-degree: 100%
       + [在异常检测中使用的统计方法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + 智能警报 {#intelligent-alerts}
          + [智能警报概述](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [警报生成器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [警报管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [智能警报 — 用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+         + [创建警报](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+         + [管理警报](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+         + [用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [用户偏好设置](analysis-workspace/user-preferences.md)
    + Workspace 常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)

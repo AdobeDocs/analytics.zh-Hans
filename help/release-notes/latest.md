@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
+source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 57%
+source-wordcount: '969'
+ht-degree: 58%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 57%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在自由格式表的下拉菜单中选择多个可用过滤器** | 当多个过滤器作为下拉菜单添加到自由格式表时，自由格式表的用户现在可以同时选择多个过滤器。 自由格式表将进行筛选，以包含任何选定的过滤器。 以前，用户在过滤器下拉菜单中一次只能选择一个过滤器。<p>（文档链接随后提供。） |  | 2024年6月19日 |
+| **在下拉过滤器中选择多个字段** | 将多个字段添加到下拉过滤器后，用户现在可以一次选择多个字段。 将筛选面板以包含任何选定的字段。 <p>以前，用户在下拉过滤器内一次只能选择一个字段。</p><p>（文档链接随后提供。）</p> |  | 2024年6月19日 |
 | **工作区项目的目录** | 现在有新的目录可用于项目。 目录提供了使用户能够快速跳转到项目中的面板和可视化图表的链接。 可以为单个项目或给定用户的所有项目启用目录。<p>（文档链接随后提供。） |  | 2024年6月19日 |
 | **在自由格式表中为维度项目创建超链接** | 您可以为一个或多个维度项目创建超链接，以使它们可在Analysis Workspace的自由格式表中点击。 <p>您可以为具有URL值的维度项创建超链接，也可以为具有非URL值的维度项创建自定义URL。</p><p>您可以使用变量为多个维度项目创建动态自定义URL。 变量可以引用维度项的值，也可以引用划分维度。</p><p>（文档链接随后提供。）<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | 2024年6月19日 |
 | **管理员设置控制用于导出和导入的帐户和位置** | 新 [位置管理器中的“管理员设置”选项卡](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) 管理员可控制用户是否可以创建和编辑帐户和位置。 这些设置适用于用户 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md) 和 [配置云导入和导出位置](/help/components/locations/configure-import-locations.md). <p>管理员还可以限制用户可以创建和使用的帐户类型（Google Cloud Platform、Azure RBAC、Amazon S3 等）。</p><p>以前，任何用户都可以创建、编辑和使用任何类型帐户的帐户和位置。</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |

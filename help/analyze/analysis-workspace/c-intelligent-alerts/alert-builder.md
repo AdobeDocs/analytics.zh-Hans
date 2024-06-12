@@ -4,99 +4,50 @@ title: 警报生成器 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 43%
 
 ---
 
-# 警报生成器
+# 创建警报
 
 >[!NOTE]
 >
 >智能警报仅适用于 Adobe Analytics Prime 和 Adobe Analytics Ultimate 客户。
 
-## 访问警报生成器
+Adobe Analytics中的“智能警报”（或“警报”）允许您在数据中发生异常事件时立即收到通知。
 
-可通过以下四种方法访问警报生成器：
+有关智能警报的更多详细概述信息，请参阅 [智能警报概述](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-* 在 Analysis Workspace 中使用以下快捷键：
+要创建警报，请执行以下操作：
 
-  `ctrl (or cmd) + shift + a`
-* 转到&#x200B;**[!UICONTROL Workspace]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
-* 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
+1. 通过访问警报生成器开始创建警报。 您可以通过以下任意方式访问警报生成器：
 
-## 构建警报
+   * 在Analysis Workspace中打开一个项目，然后选择 **[!UICONTROL 组件]** > **[!UICONTROL 创建警报]**.
+   * 在Analysis Workspace中打开一个项目，然后使用以下快捷方式：
 
-警报生成器界面与 Analytics 中具有生成区段或计算量度的界面相似：
+     `ctrl (or cmd) + shift + a`
+   * 在Analysis Workspace中打开一个项目，在自由格式表中选择一个或多个行项目，然后右键单击并选择 **[!UICONTROL 从选定范围中创建警报]**.
 
-![](assets/alert_builder.png)
+     这会立即预填充警报生成器，以便使用正确的量度和过滤器创建警报。
+   * 在Adobe Analytics中，选择 **[!UICONTROL 组件]** > [!UICONTROL **警报**] > **[!UICONTROL 创建新警报]**.
 
-<!--Meike, I edited this table for validation -->
+   此时将显示警报生成器。 此界面与Analytics中具有生成区段或计算量度的界面相似：
 
-**警报名称**
+   ![](assets/alert-builder.png)
 
-指定警报的名称。警报名称可能包含报表名称或指标阈值。
+1. 指定以下选项来配置警报：
 
-**时间粒度**
+   | 选项 | 描述 |
+   |---------|----------|
+   | [!UICONTROL **标题**] | 指定警报的名称。警报名称可能包含报表名称或指标阈值。 |
+   | [!UICONTROL **描述（可选）**] | 指定警报的说明。 |
+   | [!UICONTROL **时间粒度**] | 选择您希望检查指标的频率：每日、每周或每月。<p><b>注意：</b>对于包含自定义日历的数据视图，警报生成器不支持每月粒度。<!--true?--></p> |
+   | [!UICONTROL **收件人**] | 指定警报的发送地址。可以将警报发送给 Analytics 用户、Analytics 组、原始电子邮件地址或电话号码。<p><b>重要提示：</b>电话号码前面必须加上“+”和 [国家/地区代码](https://countrycode.org/).</p><p>触发警报后用户将收到类似于以下内容的电子邮件：</p><p>![](assets/alerts-email.PNG)</p> |
+   | [!UICONTROL **过期日期**] | 设置希望警报到期的日期和时间。 |
+   | [!UICONTROL **发送警报时间**] | [!UICONTROL **这些量度触发器的任意一个**]：将量度（包括计算量度）拖放到此处以创建警报的触发器。<p>An **&quot;不兼容的组件&quot;** 如果警报中有量度、维度或区段与当前所选数据视图不兼容，则会显示消息。</p><p>确定触发警报前指标必须超过的阈值。您可以将此值设置为一个阈值，然后设置为下列条件之一：</p><ul><li>异常已存在</li><li>异常高于预期</li><li>异常低于预期</li><li>大于或等于</li><li>小于或等于</li><li>更改百分比</li><li>您可以将阈值设置为 90%、95%、99%、99.75% 或 99.9%。</li></ul><p>[!UICONTROL **使用所有这些过滤器**]：拖放区段或维度以添加过滤器。 例如，添加“仅限移动设备”区段意味着规则仅针对移动设备触发。 您可以使用AND语句添加其他过滤器。 您可以通过单击齿轮图标添加 AND 或 OR 规则。</p><p>请参阅 [智能警报 — 用例](/help/analyze/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md) 例如用例。</p> |
+   | [!UICONTROL **预览**] | 交互式警报预览可根据过去的经验显示警报大致的触发频率。<p>例如，如果将时间粒度设置为每天，则预览会显示某个指标在过去 30 或 31 天中触发了 x 次警报。</p><p>如果您发现触发警报的次数过多，则可以在[警报管理器](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)中调整阈值。</p><p>![](assets/alert_preview.png)</p> |
 
-指定要何时检查指标：每小时、每天、每周或每月。
-
->[!NOTE]
->
->对于包含自定义日历的报表包，警报生成器不支持每月粒度。
-
-**收件人**
-
-指定警报的发送地址。可以将警报发送给 Analytics 用户、Analytics 组、原始电子邮件地址或电话号码。
-
->[!IMPORTANT]
->
->电话号码前必须加上“+”和[国家/地区代码](https://countrycode.org/)。
-
-触发警报后用户将收到类似于以下内容的电子邮件：
-
-![](assets/alerts-email.PNG)
-
-**过期日期**
-
-设置警报的过期日期。
-
-**发送警报时间...**
-
-*...以下任何一个指标触发器*
-
-* 将量度拖放到将添加触发器的画布中。
-
-  如果警报中有组件（量度/维度/区段）与当前选中的报表包不兼容，则会显示&#x200B;**“组件不兼容”**&#x200B;消息。
-* 确定触发警报前指标必须超过的阈值。您可以将此值设置为一个阈值，然后设置为下列条件之一：
-
-   * 异常已存在
-   * 异常高于预期
-   * 异常低于预期
-   * 大于或等于
-   * 小于或等于
-   * 更改百分比
-   * 您可以将阈值设置为 90%、95%、99%、99.75% 或 99.9%。
-
-  请注意，您还可以使用计算量度。
-
-*...使用以下过滤器*
-
-* 通过拖放区段或维度来添加过滤器。例如，添加“仅限移动设备”区段表示仅针对移动设备触发规则。
-* 其他过滤器将通过 AND 语句添加。
-
-**添加规则**
-
-您可以通过单击齿轮图标添加 AND 或 OR 规则。
-
-## 预览警报 {#section_10D75BA7B77E4C5FAF58A719C082E070}
-
-交互式警报预览可根据过去的经验显示警报大致的触发频率。
-
-例如，如果将时间粒度设置为每天，则预览会显示某个指标在过去 30 或 31 天中触发了 x 次警报。
-
-如果您发现触发警报的次数过多，则可以在[警报管理器](/help/components/c-alerts/alert-manager.md)中调整阈值。
-
-![](assets/alert_preview.png)
+1. 选择&#x200B;[!UICONTROL **保存**]。

@@ -4,20 +4,18 @@ title: 智能警报概述
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 88%
+source-wordcount: '279'
+ht-degree: 52%
 
 ---
 
 # 智能警报概述
 
-智能警报允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
+Adobe Analytics中的“智能警报”（或“警报”）允许您在数据中发生异常事件时立即收到通知。
 
-以下是关于[智能警报](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=zh-Hans)的视频教程 (5:34)
-
-## 概述
+您可以设置要根据异常阈值、更改的百分比或特定数据点触发的警报。 警报提供了与集成的粒度控制 [异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)，会在您最需要它们时触发。
 
 智能警报允许您：
 
@@ -26,19 +24,7 @@ ht-degree: 88%
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目
 * 创建可在一个警报中捕获了多个指标的“堆栈式”警报。
 
-可通过三种方式访问警报生成器：
-
-| 方法 | 详细信息 |
-| --- | --- |
-| 直接转到警报生成器 | **[!UICONTROL 组件]** > **[!UICONTROL 警报]** |
-| 在 Workspace 中使用快捷键 | `Ctrl + Shift + A` (Windows) 或 `Cmd + Shift + A` (Mac) |
-| 选择一个或多个自由格式表行项 | 单击右键并选择&#x200B;**[!UICONTROL 从所选内容创建警报]**。这样将打开[!UICONTROL 警报生成器]，并预先填充从该表中应用的相应指标和过滤器。可根据需要编辑警报。![从所选内容创建警报](assets/create-alert-from-selection.png) |
-
-百分比阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度， [不同模型](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 用于计算每个数据点距离标准有多远（多少标准偏差）。 设定的阈值越低，异常会越多。例如，同 99.75% 的相比，90% 的阈值会产生更多的异常。
-
->[!IMPORTANT]
->
->使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe 建议对智能警报使用不带时间戳的数据。
+以下视频教程提供了警报的基本概述： [智能警报](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=zh-Hans) (5:34)
 
 ## 警报的异常回顾
 
@@ -49,4 +35,18 @@ ht-degree: 88%
 * 每天粒度：35 天及去年的相应日期范围
 * 每小时粒度：336 小时
 
-请参阅[异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)，以获取更多信息。
+有关更多信息，请参阅 [异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+## 创建警报
+
+有关如何在Adobe Analytics中创建警报的信息，请参阅 [创建警报](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+>[!IMPORTANT]
+>
+>使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe 建议对智能警报使用不带时间戳的数据。
+
+## 管理警报
+
+您可以在警报管理器中管理现有警报。 您可以对警报执行各种管理任务，如标记、重命名、删除等。
+
+有关如何在Adobe Analytics中管理现有警报的更多信息，请参阅 [管理警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
