@@ -3,8 +3,8 @@ description: 描述如何删除或移除分类数据的步骤。
 title: 删除分类数据
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 

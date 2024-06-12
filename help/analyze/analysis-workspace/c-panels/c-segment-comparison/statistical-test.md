@@ -5,8 +5,8 @@ title: 区段比较中使用的统计测试
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
-workflow-type: ht
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
 
