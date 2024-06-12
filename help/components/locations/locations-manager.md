@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 位置管理器
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1476'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,8 @@ ht-degree: 1%
 {{release-limited-testing-section}}
 
 系统管理员可以限制用户创建帐户和位置，也可以限制用户可以创建和使用的帐户类型。
+
+![“管理员设置”选项卡](assets/locations-admin-settings.png)
 
 ### 配置用户是否可以创建和编辑帐户
 
