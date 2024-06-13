@@ -4,18 +4,18 @@ title: “服务器调用使用情况”警报
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
-# “服务器调用使用情况”警报
+# 服务器调用使用情况警报
 
 设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
 
-现有的&#x200B;**[!UICONTROL 警报管理]**&#x200B;用户界面中将新增一个警报类别，即[服务器调用使用情况警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=zh-Hans)。
+“服务器调用使用情况”警报是 [警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) 用户界面。
 
 该界面中已预填充了 **1 个默认警报**，该默认警报将显示在有权访问“服务器调用使用情况”功能的任何登录公司中。如果满足了以下任一条件，此警报将触发一条发送给所有登录公司管理员的通知消息：
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 * 单击“当前使用情况”选项卡或“报表包使用情况”选项卡右上角的&#x200B;**[!UICONTROL 管理警报]**；或
 * 在 Adobe Analytics 中导航到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 警报]**。
 
-## 创建“服务器调用使用情况”警报 {#create}
+## 创建服务器调用使用情况警报 {#create}
 
 要创建更多警报，请
 

@@ -4,10 +4,10 @@ title: 警报管理器 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 9%
+source-wordcount: '327'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,22 @@ ht-degree: 9%
 
 1. 选择 [!UICONTROL **添加**] (或 [!UICONTROL **创建新警报**] 如果您没有任何现有警报)。
 
-1. 继续 [创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) 以了解有关创建警报的详细信息。
+1. 选择与要创建的警报对应的警报类型：
+
+   * [!UICONTROL **Analytics数据警报**]：当数据中发生异常事件时通知您的警报。
+
+     如果选择此选项，请继续 [创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) 以了解有关创建警报的详细信息。
+
+   * [!UICONTROL **服务器调用使用情况警报**]：警报，用于通知您服务器调用使用情况数据和承诺数据中是否存在使用过量风险或发生使用过量情况。
+
+     如果选择此选项，请继续 [服务器调用使用情况警报](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >您必须是Analytics管理员或具有“服务器调用使用情况”权限的用户才能访问服务器调用使用情况。
+
+
+
 
 ## 管理现有警报
 
