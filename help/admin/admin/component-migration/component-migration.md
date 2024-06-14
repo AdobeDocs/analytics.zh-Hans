@@ -3,9 +3,9 @@ description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer J
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1398'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 >
 >在将任何项目迁移到Customer Journey Analytics（如本节所述）之前，请通过了解 [准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->您映射的任何维度或量度对于此项目以及迁移整个IMS组织的所有未来项目都是永久性的。 迁移完成后，无法修改您所做的任何映射。
+>**对于此项目以及在整个IMS组织中迁移的所有未来项目，无论哪个用户正在执行迁移，您映射的任何维度或量度都是永久性的。 除非联系客户关怀团队，否则无法修改或撤消这些映射。**
 
 1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**]&#x200B;选项卡，然后选择&#x200B;[!UICONTROL **所有管理员**]。
 
@@ -158,7 +158,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 |---------|----------|
 | [!UICONTROL **状态**] | 迁移的状态： <ul><li>[!UICONTROL **未开始**]</li><li>[!UICONTROL **已开始**]</li><li>[!UICONTROL **已完成**]</li><li>[!UICONTROL **失败**]</li></ul>。 |
 | [!UICONTROL **标记**] | 选择标记列表中的任意标记。 仅显示应用了选定标记的项目。 |
-| [!UICONTROL **报表包**] | 在报表包列表中选择任意报表包。 仅显示使用选定报表包的项目。 |
+| [!UICONTROL **报告包**] | 在报表包列表中选择任意报表包。 仅显示使用选定报表包的项目。 |
 | [!UICONTROL **所有者**] | 选择所有者列表中的任意所有者。 仅显示您选择的用户拥有的项目。 |
 | [!UICONTROL **其他筛选条件**] | 还提供以下附加过滤器： <ul><li>[!UICONTROL **我的**]：仅显示您设置为所有者的项目。</li><li>[!UICONTROL **与我共享**]：仅显示与您共享的项目。</li><li>[!UICONTROL **收藏夹**]：仅显示标记为收藏的项目。 (您可以从以下位置将项目标记为收藏： [项目登陆页面](/help/analyze/landing.md).)</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
 
