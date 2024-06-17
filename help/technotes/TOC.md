@@ -5,7 +5,7 @@ user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 浏览一个知识库，其中包含不属于特定 Analytics 工具或组件的有用文章。
 source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
 ht-degree: 100%
 
