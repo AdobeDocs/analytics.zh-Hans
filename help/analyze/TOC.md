@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 99%
       + [项目概述](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [创建项目](analysis-workspace/build-workspace-project/create-projects.md)
       + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
+      + [项目目录](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace 中的文件夹 {#workspace-folders}
          + [关于 Workspace 中的文件夹](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [创建文件夹和子文件夹](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -78,6 +79,7 @@ ht-degree: 99%
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
       + 自由格式表 {#freeform-table}
          + [自由格式表](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [在自由格式表中为维度创建超链接](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 列和行设置 {#column-row-settings}
             + [列设置](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行设置](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

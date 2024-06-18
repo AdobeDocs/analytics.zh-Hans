@@ -5,10 +5,10 @@ title: 项目概述
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 08f3926bfa621ce3678da6db0f0a30ac5302b757
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 81%
+source-wordcount: '1392'
+ht-degree: 72%
 
 ---
 
@@ -26,36 +26,36 @@ ht-degree: 81%
 
 ![](assets/sample-project.png)
 
-「專案」頁面包含下列資訊：
+“项目”页面包含以下信息：
 
 >[!NOTE]
 >
->某些欄預設不會顯示。 若要自訂您看到的欄，請按一下 **自訂表格** 圖示 ![自訂表格](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg).
+>默认情况下，某些列不显示。 要自定义显示的列，请单击 **自定义表** 图标 ![自定义表](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg).
 
 
 | 元素 | 描述 |
 |---|---|
-| [编辑偏好设置](/help/analyze/analysis-workspace/user-preferences.md) | 管理您建立的所有新專案或面板的Analysis Workspace設定及其相關元件。 |
-| [创建文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新資料夾或子資料夾新增至專案和資料夾清單。 |
-| [创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | 從頭開始或從報告中開始新專案。 |
-| 展开 | 顯示建立空白專案或行動計分卡的選項， [檢視訓練教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hans)，或 [檢視發行說明](/help/release-notes/latest.md). |
-| 顯示資料夾和專案 | 選擇是否顯示專案的資料夾結構。 有关更多信息，请参阅[关于 Analytics 中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
-| 自訂表格（圖示） | 可讓您自訂專案頁面上為每個專案顯示的資訊。 |
+| [编辑首选项](/help/analyze/analysis-workspace/user-preferences.md) | 为您创建的所有新项目或面板管理Analysis Workspace的设置及其相关的组件。 |
+| [创建文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 向项目和文件夹列表中添加新文件夹或子文件夹。 |
+| [创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | 从头开始或从报表开始新项目。 |
+| 展开 | 显示用于创建空白项目或移动记分卡的选项， [查看培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hans)，或 [查看发行说明](/help/release-notes/latest.md). |
+| 显示文件夹和项目 | 选择是否显示项目的文件夹结构。 有关更多信息，请参阅[关于 Analytics 中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
+| 自定义表（图标） | 允许您自定义在项目页面上为每个项目显示的信息。 |
 | 名称 | Workspace 项目名称。 |
-| 类型 | 指示這是Workspace專案、資料夾還是 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hans). |
+| 类型 | 指示这是Workspace项目、文件夹还是 [移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hans). |
 | 标记 | 应用于项目的标记。 |
-| 已计划 | 表示專案是否已排程依排程傳送電子郵件給收件者。 另請參閱 [排程專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
-| 共享链接（任何人） | 專案可與任何人共用，即使無法存取Analysis Workspace的人亦然。 此欄顯示專案是否已以這種方式共用。 另請參閱 [與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md) 以取得詳細資訊。 |
-| 报表包 | 與專案相關聯的報表套裝。 |
+| 已计划 | 指示项目是否按计划通过电子邮件发送给收件人。 请参阅 [计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| 共享链接（任何人） | 项目可与任何人共享，即使与无权访问Analysis Workspace的人共享。 此列显示项目是否已以这种方式共享。 请参阅 [与任何人共享项目（无需登录）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md) 以了解更多信息。 |
+| 报表包 | 与项目关联的报表包。 |
 | [项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) | 指示您在项目中的角色 — 所有者、编辑、复制、查看。 |
 | 所有者 | 创建此项目的人员（您或与您共享此项目的人员）。 |
-| 共享对象 | 已共用專案的使用者。 |
+| 共享对象 | 与项目共享的用户。 |
 | 上次修改时间 | 项目上次修改的日期和时间。 |
-| 上次開啟時間 | 專案上次開啟的日期和時間。 |
-| 项目ID | 專案的ID。 |
-| Longest Date Range | 專案的最長日期範圍。 |
-| 查询次数 | 專案中包含的查詢總數。 |
-| 位置 | 專案所在的資料夾。 |
+| 上次打开时间 | 上次打开项目的日期和时间。 |
+| 项目编号 | 项目的ID。 |
+| 最长的日期范围 | 项目的最长日期范围。 |
+| 查询次数 | 项目中包含的查询总数。 |
+| 位置 | 项目所在的文件夹。 |
 
 ## 菜单栏 {#menu-bar}
 
@@ -65,7 +65,7 @@ ht-degree: 81%
 
 | 菜单项 | 描述 |
 |---|---|
-| 项目 | 包含專案管理的常見動作，包括「新增」、「開啟」、「儲存」、「另存新檔」和 [另存為公司報表](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). 还可通过单击“刷新项目”而刷新整个项目以检索最新的数据和定义。通过[“下载 CSV 和 PDF”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans)选项，可从 Workspace 导出数据。[“项目信息和设置”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hans?#info-settings)提供多种用于管理项目的选项。 |
+| 项目 | 包括常用于项目管理的操作，如新建、打开、保存、另存为和保存 [另存为公司报表](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). 还可通过单击“刷新项目”而刷新整个项目以检索最新的数据和定义。通过[“下载 CSV 和 PDF”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans)选项，可从 Workspace 导出数据。[“项目信息和设置”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hans?#info-settings)提供多种用于管理项目的选项。 |
 | 编辑 | 撤消或重做您的上一项操作。“全部清除”将您的项目重置为空起点。 |
 | 插入 | 从此菜单插入新面板或可视化图表。还可从左侧边栏插入新面板和可视化图表。 |
 | [组件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans) | 从您的项目创建新区段、计算指标、日期范围或警报组件。还可从左侧边栏创建新组件。如果最近更改了组件定义，则“刷新组件”将检索最新定义。 |
@@ -75,7 +75,7 @@ ht-degree: 81%
 
 ### 项目信息和设置 {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]** 提供有关当前活动项目的项目级信息。
+**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]** 提供有关当前活动项目的项目级信息。
 
 ![](assets/projectinfo.png)
 
@@ -94,13 +94,23 @@ ht-degree: 81%
 
 ## 左侧边栏 {#left-rail}
 
-在项目中，可从左侧边栏访问[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)、表格、[可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)和[组件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans)。这些都是项目的构建基块。
+在项目中，左边栏中提供了各种图标，每种图标都表示项目的重要组成部分：
 
-还可从[空面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hans)访问可视化和面板。
+* [面板](/help/analyze/analysis-workspace/c-panels/panels.md) ![面板图标](assets/panels-icon.png)
 
-左侧边栏中的组件（维度、指标、区段、日期范围）与活动面板报表包相关。活动面板在自身四周将有蓝色边框，而活动报表包将列在组件边栏的顶部。
+* [可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![“可视化”图标](assets/visualizations-icon.png)
 
-![](assets/left-rail.png)
+* [组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)![组件图标](assets/components-icon.png)
+
+* [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![数据字典图标](assets/data-dictionary-icon.png)
+
+* [目录](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![目录图标](assets/toc-icon.png)
+
+左侧边栏中的组件（维度、量度、过滤器、日期范围）与活动面板数据视图相关。活动面板由它周围的蓝色边框来标识，活动数据视图列在组件边栏的顶部。
+
+![与跨行业演示数据视图的活动面板数据视图相关的组件。](assets/left-rail.png)
+
+
 
 ## 右键单击菜单
 
@@ -132,8 +142,8 @@ ht-degree: 81%
 
 | 操作 | 描述 |
 |---|---|
-| 添加 | 從頭開始建立新專案，或從頭開始 [報告](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
-| 标记或批准 | 選擇「標籤」或「核准」來組織您的專案，並使其更容易搜尋。 |
+| 添加 | 从头开始或从头开始创建新项目 [报告](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
+| 标记或批准 | 选择“标记”或“批准”以组织您的项目并使其更容易搜索。 |
 | [共享](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) | 使项目可供您所在组织中的其他 Analysis Workspace 用户使用。 |
 | 删除 | 删除项目。 |
 | 重命名 | 编辑项目的名称。 |
