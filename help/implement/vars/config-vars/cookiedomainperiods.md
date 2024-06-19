@@ -4,10 +4,10 @@ description: （已弃用）帮助AppMeasurement确定当网站的顶级域包�
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 19%
+source-wordcount: '372'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 19%
 # cookieDomainPeriods
 
 >[!IMPORTANT]
->此变量已弃用。 如果您使用AppMeasurementv2.26.x或更高版本或者Adobe Analytics扩展v1.9.4或更高版本，则库会自动检测要设置Cookie的域。
+>此变量已弃用。 如果您使用以下任一项：
+>
+>* AppMeasurementv2.26.x或更高版本
+>* Adobe Analytics扩展v1.9.4或更高版本
+>* Adobe Experience Cloud ID服务
+>
+>此变量不执行任何操作，因为适用的库会自动检测要设置Cookie的域。
 
 此 `cookieDomainPeriods` 变量通过指示顶级域中有一个额外的句点，帮助AppMeasurement确定在何处设置Analytics Cookie。 此变量允许AppMeasurement处理顶级域中的额外句点，并在正确的位置设置Cookie。 如果您网站的顶级域不包含额外的句点，则不需要此变量。
 
