@@ -3,7 +3,7 @@ title: 在 Adobe Analytics 中如何计算逗留时间
 description: 逗留时间维度和指标的汇总页面。
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 72%
@@ -24,7 +24,7 @@ ht-degree: 72%
 | [!UICONTROL 逗留时间/用户（状态）] | 大约 *移动应用程序所用总秒数/独特移动应用程序访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，移动设备应用程序访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法独立计算，因为此函数的分母是一个内部量度。 | Analysis Workspace |
 | [!UICONTROL 网站平均逗留时间]（秒） | 表示访客与特定维度项目交互所用的总时间，其中每个序列包含一个维度项目。这不仅仅局限于“站点”平均值（顾名思义）。 有关序列的详细信息，请参阅“‘逗留时间’的计算方式”部分。<br>**注意**：由于计算中所用的分母不同，因此，此指标很可能会与维度项目级别的“每次访问逗留时间”有所不同。 | Analysis Workspace，Report Builder（以分钟为单位显示） |
 | [!UICONTROL 网站平均逗留时间] | 这是与相同的量度 *网站平均逗留时间（秒）*，但采用的时间格式除外(`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL 页面平均逗留时间] | 已弃用的指标。<br> 如果需要维度项目的平均时间，我们建议您使用“网站平均逗留时间”。 | Report Builder（当请求中包含维度时） |
+| [!UICONTROL 页面平均逗留时间] | 已弃用的指标。<br> 相反，Adobe建议在需要维度项目的平均时间量时使用“网站平均逗留时间”。 | Report Builder（当请求中包含维度时） |
 | [!UICONTROL 会话总时长]，又称[!UICONTROL 前一会话时长] | 仅限移动设备应用程序 SDK。<br>对于前一会话，在下次启动应用程序时进行确定。以秒为单位进行计算，此指标只有在应用程序处于使用状态时才会统计，在应用程序处于后台时则不会统计。这是会话级别指标。<br>例如：我们安装了应用程序 ABC 并将其启动，在使用了 2 分钟后关闭了该应用程序。在此会话时间内不会发送任何相关数据。下次启动该应用程序时，将会发送[!UICONTROL 前一会话时长]，其值为 120。 | Analysis Workspace、Report Builder、Mobile Services UI |
 | [!UICONTROL 平均会话时长]（移动设备） | *会话总时长/（启动次数 – 首次启动次数）*<br>&#x200B;仅限移动设备应用程序 SDK。这是会话级别指标。 | Report Builder、Mobile Services UI |
 

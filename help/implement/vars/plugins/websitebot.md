@@ -4,10 +4,10 @@ description: 通过移动鼠标，动态识别机器人。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Adobe 建议在使用此插件之前执行以下操作：
 
 ## 使用此插件
 
-如果检测到非机器人流量，则 `websiteBot` 插件会触发 `s.tl` 调用。
+此 `websiteBot` 插件会触发 `s.tl` 如果检测到非机器人流量，则调用。
 
 ## 示例
 

@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '5586'
 ht-degree: 99%
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 6 月** | |
-| 改进了智能警报文档 | 更新并改进了有关警报的文档。 这些更新包括有关 [创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)， [管理警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)、和 [概述信息](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| 改进的智能警报文档 | 更新并改进了有关警报的文档。这些更新包括有关[创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)以及[概述信息](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)的信息。 |
 | **2024 年 5 月** | |
 | 在数据馈送和数据仓库中使用 Google Cloud Platform 的组织策略约束时所需的信息 | 将 Adobe 拥有的 Google Cloud Platform 组织 ID 添加到[数据馈送](/help/export/analytics-data-feed/create-feed.md)和[数据仓库](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)文档中。 <p>仅当组织在 Google Cloud Platform 中使用[组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints)时才需要此信息。</p> |
 | 有关向项目添加组件的文档 | 添加了有关如何 [将各种类型的组件添加到 Analysis Workspace 中的项目](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般信息。 |
@@ -140,7 +140,7 @@ ht-degree: 99%
 | VISTA | 新页面解释了 [VISTA 规则](/help/technotes/vista.md)的基本信息。 |
 | **2022 年 9 月** | |
 | 组合图表 | 有关[组合图表](/help/analyze/analysis-workspace/visualizations/combo-charts.md)可视化的新主题。 |
-| 更新的插件 | 更新了 [getvalonce](/help/implement/vars/plugins/getvalonce.md) 实施插件的版本。 |
+| 更新了插件 | 更新版本的 [getvalonce](/help/implement/vars/plugins/getvalonce.md) 实施插件。 |
 | 新增配置变量 | 关于 [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) 的文档 |
 | 高熵客户端提示 | 关于 Adobe 如何在 User-Agent 之外使用[客户端提示](/help/technotes/client-hints.md)确定设备信息的新主题。 |
 | 处理顺序 | 我们已聚合多个帮助页面以仅提供一个关于[处理顺序](/help/technotes/processing-order.md)的帮助主题。 |

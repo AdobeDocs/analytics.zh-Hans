@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '2541'
 ht-degree: 99%
@@ -34,7 +34,7 @@ ht-degree: 99%
    * 渠道变量，用于填充“网站区域”维度。请参阅《实施用户指南》中的[页面变量](/help/implement/vars/page-vars/page-variables.md)。
    * 营销渠道，可以帮助了解用户如何到达您网站的组件。请参阅《组件用户指南》中的[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **分类：** Adobe Analytics 中允许对维度项目进行分组的功能。请参阅《组件用户指南》中的[分类](/help/components/classifications/c-classifications.md)。
-* **Clickmap：**&#x200B;不再使用。一个旧版浏览器插件，用于显示您网站上哪些区域的点击率最高。此工具已停用，改为 Activity Map。
+* **Clickmap：**&#x200B;不再使用。一个旧版浏览器插件，用于显示您网站上哪些区域的点击率最高。此工具已停用，改为Activity Map。
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
 * **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
 * **收集服务器：**&#x200B;请参阅“数据收集服务器”。

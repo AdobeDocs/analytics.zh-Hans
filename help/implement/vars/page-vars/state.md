@@ -1,13 +1,13 @@
 ---
 title: 州
-description: 在 Reports and Analytics 中填充“访客所在州报告”。
+description: （已停用）填充了不再可用的“访客所在州报表”。
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 93%
+source-wordcount: '225'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->此变量已停用，且在 Analysis Workspace 中不是可用维度。请改用“美国”维度，AppMeasurement 会根据访客的位置自动收集该维度。
+>此变量已停用，且在 Analysis Workspace 中不是可用维度。使用 [美国各州](/help/components/dimensions/us-states.md) 维度中列出的维度，AppMeasurement会根据访客的位置自动收集该维度。
 
 在 Adobe Analytics 的早期版本中，访客在零售网站上填写送货信息时，会使用 `state` 变量。它的功能与 prop 相同，但在 Analysis Workspace 中不可用。
 

@@ -4,9 +4,9 @@ title: 将 Analytics 用户迁移到 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3084'
 ht-degree: 98%
 
 ---
@@ -269,7 +269,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>登录身份 </p> </td> 
-   <td colname="col2"> <p> 迁移到 Adobe Admin Console 的管理员将不能再使用“登录身份”功能访问已迁移到 Adobe Admin Console 的非管理员用户帐户。此功能即将在 Analytics 中弃用。 </p> </td> 
+   <td colname="col2"> <p> 迁移到 Adobe Admin Console 的管理员将不能再使用“登录身份”功能访问已迁移到 Adobe Admin Console 的非管理员用户帐户。此功能已停用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用户过期和资产转移 </p> </td> 

@@ -5,7 +5,7 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '3928'
 ht-degree: 99%
@@ -68,7 +68,7 @@ ht-degree: 99%
 | **`daily_visitor`** | 确定点击是否为新的每日访客的标记。 | 无符号 tinyint |
 | **`dataprivacyconsentoptin`** | [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)维度中使用的变量。每次点击可以出现多个值，各个值之间用竖线 (`\|`) 隔开。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
 | **`dataprivacyconsentoptout`** | [同意管理选择退出](/help/components/dimensions/cm-opt-out.md)维度中使用的变量。每次点击可以出现多个值，各个值之间用竖线 (`\|`) 隔开。有效值包括 `SSF`, `DMP` 和 `SELL`。 | varchar(100) |
-| **`dataprivacydmaconsent`** | 标识是否同意通过Adobe Advertising将Adobe Analytics中的数据发送到第三方广告提供商(如Google)的值。 请参阅 [广告同意](/help/components/dimensions/ad-consent.md) 以了解更多信息。 | varchar(100) |
+| **`dataprivacydmaconsent`** | 确定从 Adobe Analytics 通过 Adobe Advertising 向第三方广告提供商（如 Google）发送数据是否获得同意的值。有关更多信息，请参阅[广告同意](/help/components/dimensions/ad-consent.md)。 | varchar(100) |
 | **`date_time`** | 以可读格式表示的点击时间（基于报表包所在时区）。 | datetime |
 | **`domain`** | 在[域](/help/components/dimensions/domain.md)维度中使用的变量。基于访客的 Internet 接入点。 | varchar(100) |
 | **`duplicate_events`** | 列出计为重复的每个事件。 | varchar(255) |
@@ -91,7 +91,7 @@ ht-degree: 99%
 | **`geo_zip`** | 根据 IP 地址判断的点击来源的邮政编码。有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `zip`。 | varchar(16) |
 | **`hier1 - hier5`** | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
 | **`hit_source`** | 表示点击的来源。点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要量度<br>10：使用了 Audience Manager 服务器端转发 | 无符号 tinyint |
-| **`hit_time_gmt`** | Adobe 数据收集服务器收到点击的时间戳（基于 UNIX® 时间）。 | int |
+| **`hit_time_gmt`** | Adobe 数据收集服务器接收到点击的时间戳（基于 UNIX® 时间）。 | int |
 | **`hitid_high`** | 与 `hitid_low` 配合使用可标识某次点击。 | 无符号 bigint |
 | **`hitid_low`** | 与 `hitid_high` 配合使用可标识某次点击。 | 无符号 bigint |
 | **`homepage`** | 已不再使用。指示当前的 URL 是否是浏览器的主页。 | char(1) |
@@ -161,7 +161,7 @@ ht-degree: 99%
 | **`namespace`** | 未使用。属于某个已弃用的功能。 | varchar(50) |
 | **`new_visit`** | 确定当前点击是否为新访问的标记。在访问处于不活动状态 30 分钟后，由 Adobe 服务器设置。 | 无符号 tinyint |
 | **`os`** | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。`operating_system.tsv` 标准查找和 `operating_system_type.tsv` [动态查找](dynamic-lookups.md)的关键值。 | 无符号 int |
-| **`p_plugins`** | 已不再使用。可用于浏览器的插件列表。使用了 JavaScript 函数 `navigator.plugins()`。 | 文本 |
+| **`p_plugins`** | 已不再使用。浏览器可用的插件列表。 使用了 JavaScript 函数 `navigator.plugins()`。 | 文本 |
 | **`page_event`** | 在图像请求中发送的点击类型（标准点击、下载链接、自定义链接、退出链接）。请参阅[页面事件查找](datafeeds-page-event.md)。 | 无符号 tinyint |
 | **`page_event_var1`** | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | 文本 |
 | **`page_event_var2`** | 仅用于链接跟踪图像请求。链接的自定义名称（如果已指定）。 | varchar(100) |
@@ -173,7 +173,7 @@ ht-degree: 99%
 | **`paid_search`** | 设置点击是否与付费搜索检测匹配的标记。 | 无符号 tinyint |
 | **`partner_plugins`** | 未使用。属于某个已弃用的功能。 | varchar(255) |
 | **`persistent_cookie`** | 在[永久性 Cookie 支持](/help/components/dimensions/persistent-cookie-support.md)维度中用到。指示访客是否要支持每次点击后未被丢弃的 Cookie。 | char(1) |
-| **`plugins`** | 已不再使用。列出与浏览器中可用插件相对应的数字 ID。使用 `plugins.tsv` 查找。 | varchar(180) |
+| **`plugins`** | 已不再使用。与浏览器中可用插件对应的数字ID列表。 使用 `plugins.tsv` 查找。 | varchar(180) |
 | **`pointofinterest`** | Mobile Services 目标点名称 | varchar(255) |
 | **`pointofinterestdistance`** | Mobile Services 与目标点中心的距离 | varchar(255) |
 | **`post_`** 列 | 包含报表中最终使用的值。每个 post 列会在服务器端逻辑、处理规则和 VISTA 规则后填充。大多数情况下，Adobe 建议使用 post_ 列。 | 请参阅相应的非 post 列 |
@@ -219,7 +219,7 @@ ht-degree: 99%
 | **`tnt_instances`** | 在 Adobe Target 集成中使用。Target 实例变量。 | 文本 |
 | **`tnt_post_vista`** | 已不再使用。请改用 `post_tnt`。 | 文本 |
 | **`transactionid`** | 其中稍后可通过数据源上载各种数据点的唯一标识符。使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
-| **`truncated_hit`** | 表示图像请求已被截断的标记。表示收到了不完整的点击。<br>Y：点击被截断；收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
+| **`truncated_hit`** | 表示图像请求已被截断的标记。表示接收到了不完整的点击。<br>Y：点击被截断；接收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
 | **`ua_color`** | 已不再使用。之前用作颜色深度的备选项。 | char(20) |
 | **`ua_os`** | 已不再使用。之前用作操作系统的备选项。 | char(80) |
 | **`ua_pixels`** | 已不再使用。之前用作浏览器高度和宽度的备选项。 | char(20) |
