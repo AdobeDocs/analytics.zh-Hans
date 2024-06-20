@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 9a44c2df3cb65a23c0e38a8af3892d045a279818
 workflow-type: tm+mt
-source-wordcount: '5586'
+source-wordcount: '5617'
 ht-degree: 99%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 99%
 | --- | --- |
 | **2024 年 6 月** | |
 | 改进的智能警报文档 | 更新并改进了有关警报的文档。这些更新包括有关[创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)以及[概述信息](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)的信息。 |
+| 已弃用 `cookieDomainPeriods` | 现在，该AppMeasurement自动检测要设置Cookie的正确域， [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 变量已弃用。 |
+| 弃用Data Connectors文档 | 已将Data Connectors生命周期结束页面移至 [已停产产品](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
 | **2024 年 5 月** | |
 | 在数据馈送和数据仓库中使用 Google Cloud Platform 的组织策略约束时所需的信息 | 将 Adobe 拥有的 Google Cloud Platform 组织 ID 添加到[数据馈送](/help/export/analytics-data-feed/create-feed.md)和[数据仓库](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)文档中。 <p>仅当组织在 Google Cloud Platform 中使用[组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints)时才需要此信息。</p> |
 | 有关向项目添加组件的文档 | 添加了有关如何 [将各种类型的组件添加到 Analysis Workspace 中的项目](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般信息。 |

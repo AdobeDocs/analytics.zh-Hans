@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送导出原始数据以及使用 Data Warehouse 检索数据的电子表格输出形式。了解如何使用 FTP 和 SFTP 传输文件。
-source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概述](data-warehouse/data-warehouse.md)
    + [添加 Data Warehouse 用户组](data-warehouse/t-dw-group.md)
-   + 创建 Data Warehouse 请求 {#dw-create-request}
+   + 创建Data Warehouse请求 {#dw-create-request}
       + [创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [生成您的报告](/help/export/data-warehouse/create-request/dw-request-build-report.md)
@@ -57,7 +57,6 @@ ht-degree: 100%
       + [设置 FTP 帐户 — 概述](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分类](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [数据源](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-      + [Data Connector](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [数据馈送](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Data Warehouse 传送的报表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder 传送的报表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)

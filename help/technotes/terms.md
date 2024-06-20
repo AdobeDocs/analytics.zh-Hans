@@ -3,10 +3,10 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
 workflow-type: tm+mt
-source-wordcount: '2541'
-ht-degree: 99%
+source-wordcount: '2528'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 * **客户属性：** Experience Cloud 的一项功能，允许上载属性数据。请参阅《核心服务用户指南》中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)。
 * **客户支持代理：**&#x200B;已授权直接与 Adobe 客户关怀交互的指定用户。请参阅 Experience Cloud 知识库中的[客户支持代理](https://helpx.adobe.com/cn/experience-cloud/supported-users.html)。
 * **数据收集服务器：**&#x200B;接收和处理数据的 Adobe 自有服务器。图像请求将发送到 Adobe 的数据收集服务器以用于报告。
-* **Data Connectors：**&#x200B;一个完整的开发解决方案，允许第三方自动将数据上载到 Adobe Analytics。该第三方的客户可以使用数据连接器在 Adobe Analytics 中丰富其数据。大多数数据连接器使用在数据源中使用的类似工作流。请参阅导入用户指南中的[数据连接器](/help/import/data-connectors/data-connectors-eol.md)。
+* **数据连接器：** 一款已停用的开发解决方案，允许第三方自动将数据上载到Adobe Analytics。 该第三方的客户可以使用数据连接器在 Adobe Analytics 中丰富其数据。已替换为Adobe Exchange市场。
 * **数据馈送：**&#x200B;将每次点击列为行，将变量列为单独的列的原始数据导出。最常用于将 Adobe Analytics 数据导出到第三方数据库。请参阅《导出用户指南》中的[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。
 * **数据源：**&#x200B;允许用户将数据从文件上载到 Adobe Analytics。文件通常从 FTP 站点中提取。请参阅《导入用户指南》中的[数据源](/help/import/data-sources/overview.md)。
 * **Data Warehouse：** Adobe Analytics 中的一项功能，允许您请求更大的报表。请参阅《导出用户指南》中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 导入指南
 breadcrumb-title: 导入指南
 user-guide-description: 从外部来源批量或实时地将数据引入 Adobe Analytics。
-source-git-commit: 8343c67a01cc04884b73cdcb934911ade81c5a20
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 86%
+source-wordcount: '64'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 + 数据源 {#data-sources}
    + [概述](data-sources/overview.md)
    + [快速入门](data-sources/getting-started.md)
-   + [完全处理生命周期终止](data-sources/full-processing-eol.md)
+   + [完全处理生命周期结束](data-sources/full-processing-eol.md)
    + [数据源管理器](data-sources/manage.md)
    + [文件格式](data-sources/file-format.md)
    + [文件上传](data-sources/file-upload.md)
@@ -27,7 +27,5 @@ ht-degree: 86%
    + [常见问题解答](data-sources/faq.md)
 + [批量数据插入 API](bulk-data-insertion-api/bulk-data-insert.md)
 + [数据插入 API](c-data-insertion-api/c-data-insertion-api.md)
-+ 数据连接器 {#dataconnectors}
-   + [Analytics 数据连接器生命周期结束](data-connectors/data-connectors-eol.md)
 + 导入用例 {#use-cases}
    + [使用数据源导入付费搜索指标](use-cases/paid-search-metrics.md)
