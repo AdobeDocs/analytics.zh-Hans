@@ -3,9 +3,10 @@ title: 在Analysis Workspace中的自由格式表中创建超链接
 description: 了解如何在Analysis Workspace的自由格式表中为维度项目创建超链接
 feature: Freeform Tables
 role: User, Admin
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
+source-git-commit: 00a0288616401045585f70c768a20fc122e584c9
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -35,6 +36,8 @@ ht-degree: 0%
   如果您创建的超链接具有无效的URL，或者您创建的超链接引用了没有URL值的维度项(通过直接引用维度项或使用 `$value` 或 `$breakdown` 变量)，则单击超链接的用户将看到一条错误消息，说明URL无效。
 
 * 为单个维度项目创建的超链接会覆盖在维度上创建的超链接。
+
+* 超链接在中不起作用 [已下载PDF文件](/help/analyze/analysis-workspace/curate-share/download-send.md).
 
 要为一个或多个维度项目创建超链接：
 
@@ -130,4 +133,3 @@ ht-degree: 0%
    超链接将从单个维度项目（如果您选择了单个维度项目）或所有维度项目（如果您在维度列标题中选择了维度名称）中删除。
 
 1. [保存项目](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) 以保存更改。
-
