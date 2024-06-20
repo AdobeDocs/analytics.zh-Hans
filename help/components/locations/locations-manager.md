@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 位置管理器
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -128,8 +128,6 @@ ht-degree: 1%
 1. 在要编辑的帐户上选择3点图标，然后选择 [!UICONTROL **删除帐户**]
 
 ## 配置公司范围的设置（仅限管理员）
-
-{{release-limited-testing-section}}
 
 系统管理员可以限制用户创建帐户和位置，也可以限制用户可以创建和使用的帐户类型。
 

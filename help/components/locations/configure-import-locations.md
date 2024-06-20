@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 04d05fe10e46ca99dd1bd8019161143dab47e61d
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 31%
+source-wordcount: '1687'
+ht-degree: 30%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 31%
    此 [!UICONTROL **位置详细信息**] 对话框随即显示。
 
 1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **名称**] | 位置的名称。  |
-| [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。| | [!UICONTROL **使用和**] | 选择是否要将此位置与 [!UICONTROL **数据馈送**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分类集**]. <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请勿更改 [!UICONTROL **使用和**] 位置后的字段。</li><li>如果要为电子邮件帐户创建位置，请选择 [!UICONTROL **Data Warehouse**] 在此字段中。 数据馈送和分类集不支持电子邮件位置。</li></ul> | | [!UICONTROL **使位置对贵组织中的所有用户都可用**] | **注意：** 此功能处于版本的有限测试阶段，在您的环境中可能尚未可用。 当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。 <p>启用此选项可允许组织中的其他用户使用该位置。</p> <p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> | | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md). |
+| [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。| | [!UICONTROL **使用和**] | 选择是否要将此位置与 [!UICONTROL **数据馈送**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分类集**]. <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请勿更改 [!UICONTROL **使用和**] 位置后的字段。</li><li>如果要为电子邮件帐户创建位置，请选择 [!UICONTROL **Data Warehouse**] 在此字段中。 数据馈送和分类集不支持电子邮件位置。</li></ul> | | [!UICONTROL **使位置对贵组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该位置。<p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> | | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md). |
 
 1. 要完成用于配置位置的表单，请继续下面的部分，该部分与您在 [!UICONTROL **位置帐户**] 字段。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
 

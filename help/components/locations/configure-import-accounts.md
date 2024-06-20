@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1470'
 ht-degree: 54%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 54%
 
    此 [!UICONTROL **添加帐户**] 对话框随即显示。
 
-1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 | | [!UICONTROL **位置帐户说明**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 | | [!UICONTROL **使帐户对贵组织中的所有用户都可用**] | **注意：** 此功能处于版本的有限测试阶段，在您的环境中可能尚未可用。 当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。 <p>启用此选项可允许组织中的其他用户使用该帐户。</p> <p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> | | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如中所述 [配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
+1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 | | [!UICONTROL **位置帐户说明**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 | | [!UICONTROL **使帐户对贵组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该帐户。<p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> | | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如中所述 [配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
 1. 在 [!UICONTROL **帐户属性**] 部分，指定特定于所选帐户类型的信息。
 
    有关配置说明，请展开以下对应于 [!UICONTROL **帐户类型**] 你选择的。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
