@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
 source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1017'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 98%
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
       + 自由格式表 {#freeform-table}
          + [自由格式表](analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [在自由格式表中为维度创建超链接](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [为自由格式表中的维度创建超链接](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 列和行设置 {#column-row-settings}
             + [列设置](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行设置](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
