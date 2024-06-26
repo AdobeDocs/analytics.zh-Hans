@@ -3,10 +3,10 @@ title: Analytics 技术说明
 description: 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,6 @@ Adobe Analytics 的一些主要功能包括：
 ## 其他 Analytics 资源
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

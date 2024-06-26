@@ -4,10 +4,10 @@ description: 适用于 Adobe Analytics 管理员的管理帮助，包括 Admin C
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '311'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,6 @@ Adobe Analytics 目前有两个管理员区域：
 ## 重要 Analytics 资源
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

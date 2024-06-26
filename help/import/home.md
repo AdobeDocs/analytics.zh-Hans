@@ -1,12 +1,12 @@
 ---
 title: Analytics 导入指南
-description: 本指南介绍如何使用数据源和数据插入API将数据导入Analytics。
+description: 本指南阐述如何使用数据源和数据插入 API 将数据导入到 Analytics 中。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 88%
+source-wordcount: '144'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,6 @@ ht-degree: 88%
 ## 重要 Analytics 资源
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

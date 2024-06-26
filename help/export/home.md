@@ -3,10 +3,10 @@ title: Analytics 导出指南
 description: 本指南概述了如何使用数据馈送和 Data Warehouse 将数据导出 Adobe Analytics。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,6 @@ ht-degree: 100%
 ## 重要 Analytics 资源
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

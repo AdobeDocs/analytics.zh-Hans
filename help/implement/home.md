@@ -4,10 +4,10 @@ description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: ht
-source-wordcount: '752'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -92,6 +92,6 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 ## 重要 Analytics 资源
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新发行说明](../release-notes/latest.md)
