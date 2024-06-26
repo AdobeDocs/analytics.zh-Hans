@@ -3,10 +3,10 @@ description: 您可以在 Adobe Analytics 中查看 Document Cloud 数据
 title: 配置 Document Cloud Analytics
 feature: Admin Tools
 exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
-source-wordcount: '107'
-ht-degree: 100%
+source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 * [!UICONTROL **Document Cloud 报告**]
 
-  “媒体报告”页面上提供了特定于流媒体的报告。有关媒体报告的更多信息，请参阅[配置 Document Cloud 报告 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)。
+  特定于Streaming Media Collection加载项的报表可在“媒体报表”页面上找到。 有关媒体报告的更多信息，请参阅[配置 Document Cloud 报告 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)。
 
 * [!UICONTROL **Document Cloud 分类**]
 

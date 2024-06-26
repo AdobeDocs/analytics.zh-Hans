@@ -4,20 +4,20 @@ description: 如何在 Analysis Workspace 中使用和解释“媒体并行查�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: ht
-source-wordcount: '1023'
-ht-degree: 100%
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 91%
 
 ---
 
 # “媒体并行查看者”面板
 
-Media Analytics 客户可以分析并发查看者，用于了解在哪里出现了并发峰值或者在哪里出现流失，从而针对内容质量和查看者参与情况提供宝贵的见解，并帮助进行故障排除或者容量或规模的规划。
+购买流媒体收集加载项的客户可以分析并行查看者，以了解在哪里出现了并发峰值或者在哪里出现流失，从而针对内容质量和查看者参与情况提供宝贵的洞察，并帮助进行故障排除或者容量或规模的规划。
 
 在 Analysis Workspace 中，“并行查看者数量”指的是在特定的时间点查看您的媒体流的独特访客数，它与会话数量无关。
 
-“媒体并行查看者”面板可以分析一段时间内的并发查看者，了解有关并发峰值的详细信息，并且可以进行细分和比较。要访问“媒体并行查看者”面板，请导航至启用了 Media Analytics 组件的报告包。然后，单击最左侧的面板图标，并将面板拖放到您的 Analysis Workspace 项目中。
+“媒体并行查看者”面板可以分析一段时间内的并发查看者，了解有关并发峰值的详细信息，并且可以进行细分和比较。要访问“媒体并行查看者”面板，请导航到启用了流媒体组件的报表包。 然后，单击最左侧的面板图标，并将面板拖放到您的 Analysis Workspace 项目中。
 
 以下是一段该面板的视频概述：
 

@@ -4,10 +4,10 @@ description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
 source-wordcount: '1414'
-ht-degree: 71%
+ht-degree: 56%
 
 ---
 
@@ -79,41 +79,41 @@ ht-degree: 71%
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 按所需的量增加相应的[自定义事件](../../components/metrics/custom-events.md)量度。每个事件驻留在其 100 组父项中。例如，`event567` 的字段为 `xdm._experience.analytics.event501to600.event567.value`。 |
 | `xdm.identityMap.ECID[0].id` | [Adobe Experience Cloud 身份服务 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 |
 | `xdm.marketing.trackingCode` | 设置 [“跟踪代码”](../../components/dimensions/tracking-code.md) 维度。 |
-| `xdm.media.mediaTimed.completes.value` | Media Analytics 量度[内容完成](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-complete)。 |
+| `xdm.media.mediaTimed.completes.value` | 流媒体量度 [内容结束](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-complete). |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `c.a.media.view`, `c.a.media.timePlayed`, `c.a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | Media Analytics 量度[联邦数据](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#federated-data)。 |
-| `xdm.media.mediaTimed.firstQuartiles.value` | Media Analytics 量度 [25% 进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#twenty-five-progress-marker)。 |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | Media Analytics 量度[内容区段视图](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-segment-views)。 |
-| `xdm.media.mediaTimed.midpoints.value` | Media Analytics 量度 [50% 进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#fifty-progress-marker)。 |
-| `xdm.media.mediaTimed.pauseTime.value` | Media Analytics 量度[总暂停时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#total-pause-duration)。 |
-| `xdm.media.mediaTimed.pauses.value` | Media Analytics 量度[暂停事件](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#pause-events)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`@id` | Media Analytics 维度[资产 ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#asset-id)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Media Analytics 维度[视频名称](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#video-name)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Media Analytics 维度[发起人](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#originator)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Media Analytics 维度[集](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#episode)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | Media Analytics 维度[流派](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#genre)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Media Analytics 维度[内容评级](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-rating)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Media Analytics 维度[季](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#season)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Media Analytics 维度[内容 ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-id)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | Media Analytics 维度[节目](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#show)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`showType` | Media Analytics 维度[节目类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#show-type)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | Media Analytics 维度[视频长度](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#video-length)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Media Analytics 维度[媒体会话 ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-session-id)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | Media Analytics 维度[内容频道](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-channel)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | Media Analytics 维度[内容类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-type)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | Media Analytics 维度[网络](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#network)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | Media Analytics 维度[内容区段](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-segment)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | Media Analytics 维度[内容播放器名称](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-player-name)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | Media Analytics 维度 [SDK 版本](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#sdk-version)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | Media Analytics 维度[媒体馈送类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-feed-type)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | Media Analytics 维度[流格式](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#stream-format)。 |
-| `xdm.media.mediaTimed.progress10.value` | Media Analytics 量度 [10% 进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#ten-progress-marker)。 |
-| `xdm.media.mediaTimed.progress95.value` | Media Analytics 量度 [95% 进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#ninety-five-progress-marker)。 |
-| `xdm.media.mediaTimed.resumes.value` | Media Analytics 量度[内容恢复](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-resumes)。 |
-| `xdm.media.mediaTimed.starts.value` | Media Analytics 量度[媒体开始](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-starts)。 |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | Media Analytics 量度 [75% 进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#seventy-five-progress-marker)。 |
-| `xdm.media.mediaTimed.timePlayed.value` | Media Analytics 量度[内容花费时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-time-spent)。 |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | Media Analytics 量度[媒体花费时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-time-spent)。 |
+| `xdm.media.mediaTimed.federated.value` | 流媒体量度 [联合数据](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#federated-data). |
+| `xdm.media.mediaTimed.firstQuartiles.value` | 流媒体量度 [25%进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#twenty-five-progress-marker). |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | 流媒体量度 [内容区段查看次数](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-segment-views). |
+| `xdm.media.mediaTimed.midpoints.value` | 流媒体量度 [50%进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#fifty-progress-marker). |
+| `xdm.media.mediaTimed.pauseTime.value` | 流媒体量度 [暂停总持续时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#total-pause-duration). |
+| `xdm.media.mediaTimed.pauses.value` | 流媒体量度 [暂停事件](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#pause-events). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`@id` | 流媒体维度 [资产ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#asset-id). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | 流媒体维度 [视频名称](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#video-name). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | 流媒体维度 [创作者](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#originator). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | 流媒体维度 [集](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#episode). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | 流媒体维度 [流派](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#genre). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | 流媒体维度 [内容评级](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-rating). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | 流媒体维度 [季](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#season). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | 流媒体维度 [内容Id](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-id). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | 流媒体维度 [显示](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#show). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`showType` | 流媒体维度 [节目类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#show-type). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | 流媒体维度 [视频长度](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#video-length). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | 流媒体维度 [媒体会话ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-session-id). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | 流媒体维度 [内容渠道](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-channel). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | 流媒体维度 [内容类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-type). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | 流媒体维度 [网络](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#network). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 流媒体维度 [内容区段](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-segment). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | 流媒体维度 [内容播放器名称](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-player-name). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | 流媒体维度 [SDK版本](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#sdk-version). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | 流媒体维度 [媒体馈送类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-feed-type). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | 流媒体维度 [流格式](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#stream-format). |
+| `xdm.media.mediaTimed.progress10.value` | 流媒体量度 [10%进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#ten-progress-marker). |
+| `xdm.media.mediaTimed.progress95.value` | 流媒体量度 [95%进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#ninety-five-progress-marker). |
+| `xdm.media.mediaTimed.resumes.value` | 流媒体量度 [内容恢复](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-resumes). |
+| `xdm.media.mediaTimed.starts.value` | 流媒体量度 [媒体开始](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-starts). |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | 流媒体量度 [75%进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#seventy-five-progress-marker). |
+| `xdm.media.mediaTimed.timePlayed.value` | 流媒体量度 [内容逗留时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-time-spent). |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | 流媒体量度 [媒体逗留时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-time-spent). |
 | `xdm.placeContext.geo._schema.latitude` | 访客的纬度位置。 帮助设置 [移动生命周期位置](/help/components/dimensions/lifecycle-dimensions.md) 维度。 |
 | `xdm.placeContext.geo._schema.longitude` | 访客的经度位置。 帮助设置 [移动生命周期位置](/help/components/dimensions/lifecycle-dimensions.md) 维度。 |
 | `xdm.placeContext.geo.postalCode` | [“邮政编码”](../../components/dimensions/zip-code.md) 维度。 |

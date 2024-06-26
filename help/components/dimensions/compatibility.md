@@ -3,10 +3,10 @@ title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 97%
+source-wordcount: '890'
+ht-degree: 96%
 
 ---
 
@@ -157,7 +157,7 @@ ht-degree: 97%
 
 ## Analysis Workspace支持的内容感知维度
 
-### 视频（媒体分析）
+### 视频（流媒体收集加载项）
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
