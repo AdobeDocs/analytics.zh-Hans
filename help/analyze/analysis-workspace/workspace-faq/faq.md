@@ -4,10 +4,10 @@ title: Workspace 常见问题解答以及故障诊断
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 97%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -26,9 +26,6 @@ ht-degree: 97%
 +++
 
 +++如何实施 Analysis Workspace？无需特殊实施。Analysis Workspace 可向所有使用 Analytics Standard 或 Premium 的公司提供。但是，内容（如报告包和项目组件）的标准权限在此适用，并可用于组织和共享项目。请参阅[管理和访问要求](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。
-+++
-
-+++Analysis Workspace 会更改 Adobe Analytics 中预配置的报告吗？不会。由于这是一个单独的环境，因此不会对 Adobe Analytics 中的现有报告或任何预配置的报告进行更改。您仍然可以使用Analysis Workspace来使用标准Report Builder报告。
 +++
 
 +++我可以将 Analysis Workspace 用于 Data Warehouse 吗？不建议将 Analysis Workspace 用于批量数据导出。它是一个创建类似功能板分析项目的可视化图表工作区。
@@ -60,4 +57,8 @@ ht-degree: 97%
 * 如果在报告中应用了区段，区段标准可能与所有数据不匹配。请尝试移除区段或调整区段定义。
 * 检查右上角的日期范围，并确保它已设置为预期的值。
 * 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 验证正在收集的数据。
++++
+
++++作为只读用户，我可以在Analysis Workspace中执行哪些操作？
+当项目以只读方式共享时，所有编辑功能和功能都将被完全禁用，收件人只能更改下拉菜单以预定义方式将过滤器应用于面板。
 +++
