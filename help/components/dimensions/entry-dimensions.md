@@ -4,10 +4,10 @@ description: 列出登入维度及其使用情况。
 keywords: 登入页面，登入网站区域，登入服务器，登入自定义见解
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 89%
+source-wordcount: '289'
+ht-degree: 75%
 
 ---
 
@@ -16,6 +16,9 @@ ht-degree: 89%
 *此帮助页介绍登入次数如何作为 [维度](overview.md). 有关登入次数如何作为量度使用的信息，请参阅[登入次数](../metrics/entries.md)量度。*
 
 登入维度为 [基于访问](../metrics/visits.md). 它们记录第一个维度项目，并在该访问的整个过程中保留该值。登入维度可用于在“报表包”设置中的[流量变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)下启用路径的所有变量。
+
+>[!TIP]
+>如果您要查看基于访问的首次点击而不是访问中看到的第一个值的数据，则可以使用 [区段](/help/components/segmentation/seg-overview.md). 使用点击容器，其中 [点击深度](hit-depth.md) 等于1，然后将该区段与所需的变量一起使用。
 
 ## 使用数据填充登入维度
 
