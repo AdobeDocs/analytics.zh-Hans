@@ -4,9 +4,9 @@ description: 了解如何在Analysis Workspace的自由格式表中为维度项�
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: b440fd6a0cd04b411489e6b7346be6b1b0a9f4f8
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1737'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,11 @@ ht-degree: 1%
 
 * Dimension包含的值是您要链接到的URL的一部分的项目或划分（例如，是URL一部分的“页面名称”维度）
 
-下面是此功能的视频演示：
++++ 观看此功能的视频演示。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+
++++
 
 ## 为一个或多个维度项目创建超链接
 
