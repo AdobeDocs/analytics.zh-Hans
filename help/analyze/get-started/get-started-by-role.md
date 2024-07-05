@@ -4,9 +4,9 @@ title: 管理员、分析师、最终用户和开发人员快速入门
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1694'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Analytics 管理员应先完成以下任务，然后再向组织中的用户提�
 | 贡献分析 | “贡献分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。 | [贡献分析概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Analytics 分段 | 可让您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
 | 将受众发布到 Audience Manager | Adobe Audience Manager 是一个强大的数据管理平台，它帮助您从第一方、第二方（合作伙伴）和第三方的数据集成构建独特的受众个人资料。 | [Audience Analytics 概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
-| 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans">流媒体收集加载项</a></li> | [Analytics 集成](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=zh-Hans) |
+| 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans">流媒体收藏集附加组件</a></li> | [Analytics 集成](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=zh-Hans) |
 
 {style="table-layout:auto"}
 
@@ -148,6 +148,6 @@ Analytics 管理员应了解以下可用于帮助监控 Analytics 环境的重�
 
 ## 开发人员快速入门
 
-[使用 Analytics API，您可以直接调用 Adobe 的服务器来执行您可在用户界面中执行的几乎任何操作。](https://developer.adobe.com/analytics-apis/docs/2.0/)
+使用 [Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)，您可以直接调用 Adobe 的服务器来执行您可在用户界面中执行的几乎任何操作。
 
 您可以创建报告来进行探索、获取洞察或回答有关数据的重要问题。您还可以管理 Adobe Analytics 的组件，例如创建区段或计算量度。

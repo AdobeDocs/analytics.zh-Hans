@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -92,6 +92,6 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 ## 重要 Analytics 资源
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新发行说明](../release-notes/latest.md)

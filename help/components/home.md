@@ -4,9 +4,9 @@ description: 了解 Adobe Analytics 提供的各种组件。
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,6 +43,6 @@ Analytics Components 可帮助您优化和增强数据分析功能。这些组�
 ## 重要 Analytics 资源
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
