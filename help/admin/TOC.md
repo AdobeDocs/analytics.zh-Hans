@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 94%
                   + [可用于处理规则的维度](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
                + 处理规则示例{#processing-rules-examples}
                   + [处理规则的示例](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-                  + [通过查询字符串参数填充促销活动 ID](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+                  + [通过查询字符串参数填充营销活动 ID](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
                   + [在产品概述页面中设置产品视图事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
                   + [通过连接类别和页面名称添加子类别](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
                   + [通过将 eVar 值复制到 prop 来确定路径](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
@@ -69,7 +69,7 @@ ht-degree: 94%
                   + [通过点击删除事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [处理规则的提示和技巧](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + 机器人规则 {#bot-removal}
-               + [机器人移除](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [删除机器人](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [了解和配置机器人规则](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [常见的机器人签名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [机器人排除法](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
@@ -111,7 +111,7 @@ ht-degree: 94%
             + [永久性流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [默认量度](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + 应用程序管理 {#app-management}
-            + [应用程序报表](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
+            + [应用程序报告](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
             + [应用程序分类](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [媒体管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
@@ -127,7 +127,7 @@ ht-degree: 94%
             + [实时报告配置](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [受支持的实时量度和维度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [管理报告包](admin/c-manage-report-suites/report-suites-admin.md)
-      + [全局报表包](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [全局报告包](admin/c-manage-report-suites/rollup-report-suite.md)
       + [保存报告包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [下载报告包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新的报告包 {#c-new-report-suite}
@@ -175,7 +175,7 @@ ht-degree: 94%
       + [服务器调用使用情况常见问题解答](admin/c-server-call-usage/overage-faq.md)
    + 用户和产品管理（旧版）{#user-product-management}
       + [用户和产品管理（旧版）](admin/user-management2/user-management.md)
-      + [转移用户资产或设置帐户有效期](admin/user-management2/users-assets.md)
+      + [管理旧版用户帐户、资源和过期日期](admin/user-management2/users-assets.md)
       + 将用户迁移到 Adobe Admin Console {#migrate-users}
          + [将 Analytics 用户迁移到 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [为 Adobe ID 迁移 Analytics 用户帐户](admin/user-management2/user-migration/t-migrate-users.md)
