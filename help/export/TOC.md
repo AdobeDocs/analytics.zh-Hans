@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送导出原始数据以及使用 Data Warehouse 检索数据的电子表格输出形式。了解如何使用 FTP 和 SFTP 传输文件。
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics 数据馈送 {#analytics-data-feed}
    + [数据馈送概述](analytics-data-feed/data-feed-overview.md)
-   + [创建或编辑数据馈送](analytics-data-feed/create-feed.md)
+   + [创建数据馈送](analytics-data-feed/create-feed.md)
    + [管理数据馈送](analytics-data-feed/df-manage-feeds.md)
    + [管理数据馈送作业](analytics-data-feed/df-manage-jobs.md)
    + 数据馈送内容 {#data-feed-contents}

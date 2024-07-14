@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b60a25d7b9ff28b7b9f0488acaa4380c4093d78f
+source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
 workflow-type: tm+mt
-source-wordcount: '5709'
-ht-degree: 99%
+source-wordcount: '5771'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 7 月** | |
-| 更新了常见错误消息 | 已对 [常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
+| 更新了管理数据馈送的文档 | 更新了[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的信息以提高清晰度。 <p>更新包括：</p><ul><li>为各种任务创建了单独的部分，以使信息更易于扫描和使用。</li><li>添加了有关对重新激活的实时馈送行为所做更改的信息。 这些更改目前仅有限可用，尚未提供给所有客户。</li> |
+| 更新了常见错误消息 | 对[常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)进行了小幅更新。 |
 | **2024 年 6 月** | |
 | 更新了涉及流媒体功能的产品名称 | 当引用收集流媒体数据并将其显示在 Analysis Workspace 中的一组流媒体功能时，将“媒体分析”和“流媒体”的实例替换为名称“流媒体收藏集附加组件”。 <p>这些更新可在 Adobe Analytics 文档以及[流媒体收藏集附加组件文档](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)中查看。</p> |
 | 改进的智能警报文档 | 更新并改进了有关警报的文档。这些更新包括有关[创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)以及[概述信息](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)的信息。 |
