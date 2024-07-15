@@ -3,10 +3,10 @@ title: 数据馈送 UI
 description: 了解如何导览数据馈送界面。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 29%
+source-wordcount: '1142'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,9 @@ ht-degree: 29%
 
    为正在编辑的数据馈送更新&#x200B;[!UICONTROL **目标**]&#x200B;分区时，您可以在&#x200B;[!UICONTROL **帐户**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉字段中选择用于新数据馈送的其他帐户和位置。
 
-   如果要编辑正在使用它们的所有数据馈送的帐户和位置，可以直接编辑帐户和位置，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。 无法编辑非云帐户和位置。
+   可以按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的说明编辑帐户和位置。 编辑帐户或位置将影响与该帐户或位置关联的所有项目。
+
+   早期版本的数据馈送管理器允许您创建FTP、SFTP、S3和Azure blob目标。 无法编辑或复制在这些早期版本的数据馈送管理器中创建的目标。
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
@@ -84,7 +86,9 @@ ht-degree: 29%
 
    为要复制的数据馈送更新&#x200B;[!UICONTROL **目标**]&#x200B;分区时，您可以在&#x200B;[!UICONTROL **帐户**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉字段中选择用于新数据馈送的其他帐户和位置。
 
-   如果要编辑正在使用它们的所有数据馈送的帐户和位置，可以直接编辑帐户和位置，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。 无法编辑非云帐户和位置。
+   可以按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的说明编辑帐户和位置。 编辑帐户或位置将影响与该帐户或位置关联的所有项目。
+
+   早期版本的数据馈送管理器允许您创建FTP、SFTP、S3和Azure blob目标。 无法编辑或复制在这些早期版本的数据馈送管理器中创建的目标。
 
 ## 暂停数据馈送
 
