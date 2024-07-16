@@ -3,10 +3,10 @@ title: 数据馈送 UI
 description: 了解如何导览数据馈送界面。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 28%
+source-wordcount: '1160'
+ht-degree: 27%
 
 ---
 
@@ -122,7 +122,9 @@ ht-degree: 28%
 
 ## 删除数据馈送
 
-删除数据馈送时，其状态将设置为[!UICONTROL 已删除]。
+删除数据馈送时，其状态将设置为[!UICONTROL 已删除]。 数据馈送的状态必须为“活动”才能被删除。
+
+要删除数据馈送，请执行以下操作：
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 

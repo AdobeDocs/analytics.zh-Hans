@@ -4,10 +4,10 @@ title: Analysis Workspace 中的常见错误消息
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-source-git-commit: 6412fc0027c84df3b02ef2e7cbf35d24b4ee9319
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 | 错误消息 | 为什么出现此错误？ | 优化 |
 | --- | --- | --- |
-| [!UICONTROL 报告包遇到异常繁重的活动。请稍后重试。] | 您的组织针对特定报告包尝试运行的并发请求过多。导致此错误的因素包括：API 请求、计划项目、计划报告、计划警报，以及提出报告请求的并发用户数量。 | 将报告包的请求和计划较为均匀地分布在一天当中。 |
+| [!UICONTROL 报告包遇到异常繁重的活动。请稍后重试。] | 您的组织针对特定报告包尝试运行的并发请求过多。导致此错误的因素包括：API请求、计划项目，以及提出报表请求的并发用户。 | 将报告包的请求和计划较为均匀地分布在一天当中。 <p>管理员可以使用[报告活动管理器识别并取消占用报告容量的请求](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。 |
 | [!UICONTROL 该报告套件目前已超出其报告容量。请简化请求或稍后重试。] | 您的组织针对特定报告包尝试运行的并发请求过多。导致此错误的因素包括：API 请求、计划项目、计划报告、计划警报，以及提出报告请求的并发用户数量。 | 将报告包的请求和计划较为均匀地分布在一天当中。 |
 | [!UICONTROL 发生系统错误。请在“帮助”>“提交支持服务单”下记录一条客户关怀团队请求，并将错误代码包含在内。] | Adobe 遇到了一个需要解决的问题。 | 将错误代码提交给客户关怀团队。 |
 | [!UICONTROL 发生意外错误；请尝试再次刷新项目。如果问题仍然存在，请将此错误 ID 提交给 Adobe 客户关怀团队，以便进一步诊断。] | Adobe 遇到了一个需要解决的问题。 | 请尝试刷新项目，如果问题仍然存在，请将错误代码提交给客户关怀团队。 |
