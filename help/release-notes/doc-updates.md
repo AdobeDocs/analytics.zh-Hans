@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
-source-wordcount: '5788'
+source-wordcount: '5811'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 7 月** | |
+| 将threads.net添加到“反向链接类型”维度 | 已将threads.net添加到[“反向链接类型”维度](/help/components/dimensions/referrer-type.md)中使用的社交网络列表。 |
 | 更新了管理数据馈送的文档 | 更新了[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的信息以提高清晰度。 <p>更新包括：</p><ul><li>为各种任务创建了单独的部分，以使信息更易于扫描和使用。</li><li>添加了有关对重新激活的实时馈送行为所做更改的信息。 这些更改目前仅有限可用，尚未提供给所有客户。</li><li>添加了信息来声明，数据馈送的状态必须为“活动”才能被删除。</li> |
 | 更新了常见错误消息 | 对[常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)进行了小幅更新。 |
 | **2024 年 6 月** | |

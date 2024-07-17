@@ -3,7 +3,7 @@ title: 反向链接类型
 description: 反向链接类型，取决于访客的来源。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 24608d7058b8e7ddbf255c2a67dbdc2bf1bc9cca
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # 反向链接类型
 
-“反向链接类型” [维度](overview.md) 报告访客通过哪些通用渠道点击进入您的网站。 Adobe 将维护每个维度项目的规则，它与[营销渠道](marketing-channel.md)不同，营销渠道是贵组织负责维护每个渠道的规则。
+“反向链接类型”[维度](overview.md)报告访客点击了哪些通用渠道进入您的网站。 Adobe 将维护每个维度项目的规则，它与[营销渠道](marketing-channel.md)不同，营销渠道是贵组织负责维护每个渠道的规则。
 
 ## 使用数据填充此维度
 
@@ -168,6 +168,7 @@ ht-degree: 96%
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.net`
 * `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
