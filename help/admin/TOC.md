@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
 source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 98%
       + [服务器调用使用情况常见问题解答](admin/c-server-call-usage/overage-faq.md)
    + 用户和产品管理（旧版）{#user-product-management}
       + [用户和产品管理（旧版）](admin/user-management2/user-management.md)
-      + [管理旧版用户帐户、资源和过期日期](admin/user-management2/users-assets.md)
+      + [管理旧版用户帐户、资源和有效期限](admin/user-management2/users-assets.md)
       + 将用户迁移到 Adobe Admin Console {#migrate-users}
          + [将 Analytics 用户迁移到 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [为 Adobe ID 迁移 Analytics 用户帐户](admin/user-management2/user-migration/t-migrate-users.md)
