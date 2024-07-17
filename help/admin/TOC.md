@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: 8bb879b86126c59b7d22505657ecdb46106822e8
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 99%
 
 ---
 
@@ -183,4 +183,5 @@ ht-degree: 100%
          + [禁用旧版登录](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [受迁移影响的 API](admin/user-management2/user-migration/developer.md)
 + [管理员 API](c-admin-api/c-admin-api.md)
++ [Adobe Analytics 1.4 API生命周期结束常见问题解答](c-admin-api/c-admin-14-api-eol.md)
 
