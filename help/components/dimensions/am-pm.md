@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # 上午/下午
 
-“上午/下午” [维度](overview.md) 提供点击发生在上午还是下午时刻的分析。 点击时间基于[报表包所在时区](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+“AM/PM”[维度](overview.md)提供关于点击发生在上午还是下午时刻的分析。 点击时间基于[报表包所在时区](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
 ## 使用数据填充此维度
 

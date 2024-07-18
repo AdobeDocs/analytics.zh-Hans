@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # 单页面访问量
 
-*此帮助页面介绍“单页面访问量”如何作为 [维度](overview.md). 有关更多信息，请参阅[单页面访问量](../metrics/single-page-visits.md)量度。*
+*此帮助页介绍“单页面访问量”如何作为[维度](overview.md)使用。 有关更多信息，请参阅[单页面访问量](../metrics/single-page-visits.md)量度。*
 
 “单页面访问量”维度报告只包含单个独特[页面](page.md)维度项目的访问次数。它是[单页面访问量](../metrics/single-page-visits.md)量度的维度形式。
 

@@ -19,7 +19,7 @@ ht-degree: 62%
 
 ## 使用Web SDK确定要包含在XDM事件中的变量
 
-Web SDK不排除链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 在将数据发送到Adobe之前进行回调以清除或设置所需的字段。 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
+Web SDK不排除链接跟踪调用的某些字段。 但是，您可以使用`onBeforeEventSend`回调在将数据发送到Adobe之前清除或设置所需字段。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ## 使用Adobe Analytics扩展程序的链接跟踪调用中的变量
 
@@ -27,7 +27,7 @@ Web SDK不排除链接跟踪调用的某些字段。 但是，您可以使用 `o
 
 >[!IMPORTANT]
 >
->如果使用自定义代码编辑器设置变量，则必须将变量包含在 `linkTrackVars` 使用自定义代码。
+>如果使用自定义代码编辑器设置变量，则还必须使用自定义代码在`linkTrackVars`中包含这些变量。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.linkTrackVars
 

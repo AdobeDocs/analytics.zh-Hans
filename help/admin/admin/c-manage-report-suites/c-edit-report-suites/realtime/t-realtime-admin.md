@@ -18,9 +18,9 @@ ht-degree: 77%
 
 1. 选择您要为其启用实时报表的报表包。
 
-   导航到 **[!UICONTROL 分析]** > **[!UICONTROL 管理员>报表包]**.
+   导航至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员>报表包]**。
 
-1. 单击 **[!UICONTROL 编辑设置]** > **[!UICONTROL 实时]**.
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 实时]**。
 
 1. 为至多 3 个表报设置实时数据收集，每个报表具有 1 个量度和 3 个维度或分类。
 
@@ -50,5 +50,5 @@ ht-degree: 77%
 
 1. 要查看实时报表，请导航至：
 
-   **[!UICONTROL 工作区]** > **[!UICONTROL 报表]** > **[!UICONTROL 参与]** > **[!UICONTROL 实时]**.
+   **[!UICONTROL Workspace]** > **[!UICONTROL 报表]** > **[!UICONTROL 参与度]** > **[!UICONTROL 实时]**。
 

@@ -67,7 +67,7 @@ ht-degree: 97%
 1. **[!UICONTROL 区段]**：单击标题可展开。
 1. **[!UICONTROL 报表包选择器]**：用于选择保存此区段的报表包。您仍可以在所有报表包中使用该区段。
 1. **[!UICONTROL 区段预览]**：用于预览关键指标，以确定是否具有有效的区段以及区段的广泛程度。表示应用此区段时预期的数据集划分。显示 3 个同心圆和一个列表，以显示针对数据集运行的区段的[!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL 访客]的匹配项数量和百分比。在创建区段定义或对区段定义做出更改之后，将立即更新此图表。
-1. **[!UICONTROL 产品兼容性]**：列出与您创建的区段兼容的Adobe Analytics产品(Analysis Workspace、Data Warehouse)。 大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与所有Analytics产品兼容，特别是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). 在对区段定义做出更改之后，将立即更新此图表。
+1. **[!UICONTROL 产品兼容性]**：提供与您创建的区段兼容的Adobe Analytics产品(Analysis Workspace、Data Warehouse)的列表。 大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与所有Analytics产品兼容，特别是[Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。 在对区段定义做出更改之后，将立即更新此图表。
 1. **[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：保存或取消区段。单击&#x200B;**[!UICONTROL 保存]**&#x200B;之后，将转到区段管理器，您可以在此处管理区段。
 
 
@@ -83,7 +83,7 @@ ht-degree: 97%
 1. 输入或选择所选项目的值。
 1. 如果需要，可使用“**[!UICONTROL And]**”、“**[!UICONTROL Or]**”或“**[!UICONTROL Then]**”规则添加其他容器。
 1. 在放置容器并设置规则之后，可以在右上方的验证图表中看到区段的结果。验证器将指示与所创建区段匹配的页面查看、访问和独特访客的百分比和绝对数。
-1. 下 **[!UICONTROL 标记]**， [标记](/help/components/segmentation/segmentation-workflow/seg-tag.md) 容器。
+1. 在&#x200B;**[!UICONTROL 标记]**&#x200B;下，[标记](/help/components/segmentation/segmentation-workflow/seg-tag.md)容器，方法是选择现有标记或创建新标记。
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存区段。
 
 此时您将转到[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)，在此处，可以通过多种方式标记、共享和管理区段。

@@ -17,13 +17,13 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅 [实时报表配置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅[实时报表配置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
 
 ## 访问实时报表
 
 1. 在 Analysis Workspace 中，选择 [!UICONTROL **Workspace**] 选项卡。
 
-1. 选择 [!UICONTROL **报表**] > [!UICONTROL **参与**] > **[!UICONTROL 实时]**.
+1. 选择&#x200B;[!UICONTROL **报告**] > [!UICONTROL **参与**] > **[!UICONTROL 实时]**。
 
 ## 了解实时报表
 
@@ -49,7 +49,7 @@ ht-degree: 90%
 
 * 例如，将上周的值与上一年的值（以及当日的总计值）进行比较。
 
-请记住，由于没有持续性的概念，eVar（转化量度）不受支持。但是您可以选择转化量度，这些量度仅在与维度设置在同一个页面时，才起作用。有关更多信息，请参阅中捕获的警告消息 [设置实时报表](/help/components/c-real-time-reporting/t-realtime-admin.md).
+请记住，由于没有持续性的概念，eVar（转化量度）不受支持。但是您可以选择转化量度，这些量度仅在与维度设置在同一个页面时，才起作用。有关详细信息，请参阅[设置实时报表](/help/components/c-real-time-reporting/t-realtime-admin.md)中捕获的警告消息。
 
 仅管理员或“全部报表访问”和“高级报表”权限组中的所有用户有权设置和查看实时报表。而且，实时报表确实遵守权限设置。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。
 

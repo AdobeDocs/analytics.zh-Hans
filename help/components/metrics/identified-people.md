@@ -12,7 +12,7 @@ ht-degree: 68%
 
 # 已识别的人员
 
-“已识别的人员” [量度](overview.md) 是 [跨设备分析](../cda/overview.md) 用于计算CDA识别的访客数的量度。
+“已识别的人员”[指标](overview.md)是一个[跨设备分析](../cda/overview.md)指标，它统计CDA识别的访客的数量。
 
 ## 如何计算此指标
 

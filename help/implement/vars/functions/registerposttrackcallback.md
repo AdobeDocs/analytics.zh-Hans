@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!WARNING]
 >
->不进行任何跟踪调用，例如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 内部 `registerPostTrackCallback` 变量。 在此变量中设置跟踪调用会导致图像请求无限循环！
+>请勿在`registerPostTrackCallback`变量内进行任何跟踪调用，如[`t()`](t-method.md)或[`tl()`](tl-method.md)。 在此变量中设置跟踪调用会导致图像请求无限循环！
 
 每次调用 `registerPostTrackCallback` 变量时，您都会挂接该函数以使其在成功发送图像请求后立即运行。避免在同一页面加载过程中多次注册同一函数。
 
@@ -31,7 +31,7 @@ ht-degree: 72%
 
 ## 手动实施Web SDK的后跟踪回调
 
-在将数据成功发送到Adobe后，您可以在发送事件以注册函数时使用JavaScript Promise 。
+成功将数据发送到Adobe后，在发送事件以注册函数时，您可以使用JavaScript Promise 。
 
 ```js
 alloy("sendEvent",{
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-请参阅 [处理来自事件的响应](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 有关更多信息，请参阅Web SDK文档。
+有关详细信息，请参阅Web SDK文档中的[处理来自事件的响应](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)。
 
 ## 使用Adobe Analytics扩展注册后跟踪回调
 

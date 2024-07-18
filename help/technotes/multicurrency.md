@@ -16,9 +16,9 @@ Adobe提供了多个货币转换级别，以便贵组织在许多报表中均可
 
 ## 页面级别
 
-您可以使用 [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 变量设置每个页面上的所需货币。 如果页面上的货币与目标报表包的货币不匹配，Adobe会根据当天的汇率执行到报表包所用货币的货币换算。 将记录转换后的货币。
+您可以使用[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)变量在每个页面上设置所需的货币。 如果页面上的货币与目标报表包的货币不匹配，Adobe会根据当天的汇率执行到报表包所用货币的货币换算。 将记录转换后的货币。
 
 ## 报表包级别
 
-每个报表包都有一个 **基础货币**. 此货币指示所有货币量度的上下文(如 [收入](/help/components/metrics/revenue.md))。 存储的所有货币数据以报表包的基本货币表示。
+每个报表包都有&#x200B;**基本货币**。 此货币指示所有货币量度的上下文（如[收入](/help/components/metrics/revenue.md)）。 存储的所有货币数据以报表包的基本货币表示。
 

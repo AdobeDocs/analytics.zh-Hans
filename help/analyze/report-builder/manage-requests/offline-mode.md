@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 40%
+source-wordcount: '200'
+ht-degree: 33%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 40%
 
    >[!IMPORTANT]
    >
-   >请确保禁用了“离线模式”后，再使用实际数据运行请求。 
+   >请确保禁用了“脱机模式”后，再使用实际数据运行请求。

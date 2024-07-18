@@ -22,7 +22,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果您没有看到此菜单项，则需要将您添加到 [Admin Console中的产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) 或有权访问Admin Console中的报表包。
+   >如果您没有看到此菜单项，则需要将您添加到Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)中具有此功能权限的[产品配置文件，或者已向您提供对Admin Console中报表包的访问权限。
 
 3. 在右上角，选择要查看或管理其隐私标签的报告包。
 

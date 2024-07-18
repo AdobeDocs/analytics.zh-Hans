@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 77%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 77%
 
 作为分析人员，锁定工作簿可以保护工作簿请求不被组织内的其他用户篡改。与此同时，这些用户仍可以刷新工作簿中的请求。
 
-要防止编辑工作簿，请单击 Report Builder 工具栏上的&#x200B;**[!UICONTROL 已锁定]** (![](assets/locked_icon.png))。
+若要禁止编辑工作簿，请单击Report Builder工具栏( ![](assets/locked_icon.png))上的&#x200B;**[!UICONTROL 锁定]**。
 
-要取消保护工作簿，请单击&#x200B;**[!UICONTROL 已解锁]** (![](assets/unlocked_icon.png))。
+要取消保护工作簿，请单击&#x200B;**[!UICONTROL 已解锁]** ( ![](assets/unlocked_icon.png))。
 
 如果您具有以下权限之一，则可以解锁已锁定的工作簿：
 
@@ -29,7 +29,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
-> 除非您具有解锁工作簿的权限，否则您无法向受保护的工作簿中添加请求。
+>除非您具有解锁工作簿的权限，否则您无法向受保护的工作簿中添加请求。
 
 当锁定工作簿以防止编辑请求时，
 
@@ -40,11 +40,11 @@ ht-degree: 77%
 * 用户可以单独或作为群组的一部分刷新请求。
 * 如果请求使用来自单元格（日期范围、区段、过滤器）的输入值，则用户可以在单元格中更改这些值，从而通过刷新请求间接对其进行编辑。
 
-如果您尝试通过上下文菜单编辑受保护的工作簿，或者 **[!UICONTROL 请求管理器]**，或 **[!UICONTROL 编辑多个请求]**，您可以（也可能不允许）这样做：
+如果尝试通过上下文菜单、**[!UICONTROL 请求管理器]**&#x200B;或&#x200B;**[!UICONTROL 编辑多个请求]**&#x200B;编辑受保护的工作簿，则可能允许也可能不允许您执行此操作：
 
 * 如果您无权解锁请求，则会看到一条消息，指示您无权解锁和编辑工作簿。
 
-  ![屏幕截图，在您无权解锁请求时显示错误消息。](assets/locked_workbook_error.png)
+  ![屏幕截图显示您无权解锁请求时的错误消息。](assets/locked_workbook_error.png)
 
 ## 工作流 {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

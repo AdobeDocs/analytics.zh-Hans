@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 87%
+source-wordcount: '471'
+ht-degree: 88%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 87%
 
 在“选项”面板中，您可以指定日期设置、延迟设置（“当前数据”）和日志信息，还可以配置更新。
 
-1. 在“加载项”工具栏中，单击 **[!UICONTROL 选项]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)：
+1. 在“加载项”工具栏中，单击&#x200B;**[!UICONTROL 选项]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)：
 
 | 元素 | 描述 |
 |--- |--- |
 | [!UICONTROL 截止日期] |  |
-| 设置为当前日期 | 可让您指定或重置  [!UICONTROL 截止日期] 因此，Report Builder将使用当前日期或在刷新时询问您要使用哪个日期。 |
+| 设置为当前日期 | 可让您指定或重置[!UICONTROL 截止日期]，以便Report Builder使用当前日期或在刷新时询问您要使用的日期。 |
 | 提示我在刷新时设置 | 可让您在刷新请求时设置[!UICONTROL 截止日期]。 |
 | [!UICONTROL 数据新近度] |  |
 | [!UICONTROL 包括当前数据] | 可让您在报表中查看精确到分钟的数据延迟（也称为“[!UICONTROL 数据新近度]”），有时甚至在 Adobe Analytics 处理此数据之前。<br>如果不使用此选项，则应用已完成模式（已处理），此模式通常具有更长的[延迟时间](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hans)。<br>此设置适用于工作簿中与“当前数据”兼容的所有请求。如果该请求不兼容，将应用已完成模式。<br>请注意以下使用[!UICONTROL 包括当前数据]模式的情况：<br>**格式选项**：您可以在[设置显示标题的格式](/help/analyze/report-builder/layout/t-format-display-headers.md)时，指定是否显示此信息（[!UICONTROL 数据新近度]）。<br>**划分**：不支持。如果“[!UICONTROL 数据新近度]”模式设置为“当前数据”，并且其中一个请求包含了划分元素，该请求将还原为非当前数据模式。然而，其他请求仍将继续使用“当前数据”模式。<br>**请求管理器**：您可以在请求管理器中查看“当前数据”列，这样就可以看到该设置是否已应用于计划的请求。<br>**计划的工作簿**：在工作簿级别的计划过程中会存储此模式。如果您打开一个使用已完成数据的计划工作簿，并应用[!UICONTROL 包括当前数据]，则以后将使用当前模式。<br>**权限**：对于没有权限访问当前数据的用户，此选项是隐藏的。当启用此选项时，如果无法应用一个或多个请求，将发出警告。 |

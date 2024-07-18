@@ -23,8 +23,8 @@ ht-degree: 75%
 
 渠道已映射到以下变量：
 
-* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.isErrorPage`  — 此XDM字段是一个布尔值；请将其设置为 `true` 将其标记为错误页面，或者 `false` 如果不是错误页面。
-* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageType`  — 此数据对象字段是一个字符串；请将其设置为 `"errorPage"` 以表明这一点。
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.isErrorPage` — 此XDM字段是布尔值；将其设置为`true`以将其标记为错误页面，如果它不是错误页面，则为`false`。
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageType` — 此数据对象字段是字符串；将其设置为`"errorPage"`以将其标记为此类别。
 
 ## 使用 Adobe Analytics 扩展的页面类型
 

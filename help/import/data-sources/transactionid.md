@@ -20,9 +20,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->在使用交易ID数据源之前，必须先在中启用它 [一般帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) （对于所需的报表包）。
+>在使用交易ID数据源之前，必须先在所需报表包的[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)中启用它。
 
-当您发送包含 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 值，Adobe会为当时设置或保留的所有变量生成“快照”。 如果找到通过数据源上传的匹配交易ID，则离线数据和在线数据即建立关联。
+当您发送包含[`transactionID`](/help/implement/vars/page-vars/transactionid.md)值的在线点击时，Adobe会为当时设置或保留的所有变量生成“快照”。 如果找到通过数据源上传的匹配交易ID，则离线数据和在线数据即建立关联。
 
 交易ID数据源具有以下属性：
 
@@ -37,19 +37,19 @@ ht-degree: 7%
 例如：
 
 1. 从AppMeasurement发送页面查看，其中：
-   * `eVar1` 等于 `blue`
-   * `eVar2` 等于 `water`
-   * `events` 等于 `event1`
-   * `transactionID` 等于 `1256`
+   * `eVar1`等于`blue`
+   * `eVar2`等于`water`
+   * `events`等于`event1`
+   * `transactionID`等于`1256`
 2. 收集并处理点击后，您可以上传交易ID数据源，其中：
-   * `eVar1` 等于 `yellow`
-   * `eVar3` 等于 `bird`
-   * `events` 等于 `event2`
-   * `transactionID` 等于 `1256`
+   * `eVar1`等于`yellow`
+   * `eVar3`等于`bird`
+   * `events`等于`event2`
+   * `transactionID`等于`1256`
 3. 处理数据源点击后，即可在工作区中查看报表。 数据将显示以下内容：
-   * `eVar1` 等于 `yellow`
-   * `eVar2` 等于 `water`
-   * `eVar3` 等于 `bird`
-   * `events` 等于 `event2`
+   * `eVar1`等于`yellow`
+   * `eVar2`等于`water`
+   * `eVar3`等于`bird`
+   * `events`等于`event2`
 
-eVar1值 `blue` 和 `event1` 量度在报表中不存在，因为交易ID点击会覆盖这些相应的值。
+报表中不存在eVar1值`blue`和`event1`量度，因为交易ID点击覆盖了这些相应的值。

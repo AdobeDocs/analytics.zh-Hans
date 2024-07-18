@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 68%
+source-wordcount: '329'
+ht-degree: 64%
 
 ---
 
@@ -38,12 +38,12 @@ ht-degree: 68%
 >[!IMPORTANT]
 >
 >Report Builder需要管理员授权访问您的组织资源。 如果您需要访问权限，请要求管理员授予您权限。
-> Microsoft管理员可以查看 *用户可以注册应用程序* 设置位于： **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure活动目录]** > **[!UICONTROL 用户设置允许选项]**. 如果将此选项设置为 **否**，然后管理员可以注册这些类型的应用程序。
+> Microsoft管理员可以查看在以下位置找到的&#x200B;*用户可注册应用程序*&#x200B;设置： **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 用户设置允许选项]**。 如果此选项设置为&#x200B;**否**，则管理员可以注册这些类型的应用程序。
 
-用户可以通过登录到他们的 [MicrosoftPower BI帐户](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+用户可以通过登录到其[MicrosoftPower BI帐户](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)来授予访问权限。
 
-管理员可以通过登录到他们的 [管理员的MicrosoftPower BI帐户](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+管理员可以通过登录到其[管理员的MicrosoftPower BI帐户](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)来授予每个人访问权限。
 
 ## 达到API限制
 
-Power BI中的报表可与Analytics Reporting API配合使用，因此API阈值限制适用。 有关详细信息，请参阅 [Web服务错误代码](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
+Power BI中的报表可与Analytics Reporting API配合使用，因此API阈值限制适用。 有关详细信息，请参阅[Web服务错误代码](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md)。

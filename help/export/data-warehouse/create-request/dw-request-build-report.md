@@ -6,7 +6,7 @@ exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 39%
+ht-degree: 49%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 39%
 
 要为Data Warehouse请求构建报表，请执行以下操作：
 
-1. 如果还没有该请求，请选择以开始在Adobe Analytics中创建请求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **添加**].
+1. 如果还没有，请选择“**[!UICONTROL 工具]**”>“**[!UICONTROL Data Warehouse]**”>“[!UICONTROL **添加**]”，开始在 Adobe Analytics 中创建请求。
 
    有关更多详细信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
-1. 在“新建Data Warehouse请求”页面上，选择 [!UICONTROL **构建报告**] 选项卡。
+1. 在“新建Data Warehouse请求”页面上，选择&#x200B;[!UICONTROL **生成报表**]&#x200B;选项卡。
 
-   ![“生成报告”选项卡](assets/build-report.png)
+   ![生成报告选项卡](assets/build-report.png)
 
 1. 将任意区段、量度和维度拖动到生成器中。 您构建的报表可确定Data Warehouse请求中包含哪些数据。
 
-1. 继续在上配置您的Data Warehouse请求 [!UICONTROL **报表目标**] 选项卡。 有关详细信息，请参阅[配置 Data Warehouse 请求的报告目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。
+1. 继续在&#x200B;[!UICONTROL **报告目标**]&#x200B;选项卡上配置Data Warehouse请求。 有关详细信息，请参阅[配置 Data Warehouse 请求的报告目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。
 
 <!--
 

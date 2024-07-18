@@ -16,7 +16,7 @@ ht-degree: 94%
 
 使用处理规则可以基于定义的条件对数据进行更改。当属性或值匹配定义的条件时，可以设置和删除值，并可以设置事件。
 
-收集数据时，会对数据应用处理规则，并且规则会应用于通过 AppMeasurement 库和数据插入 API 获得的所有数据。处理规则还应用于完整数据源和日志数据源。这些源包含的数据表示 *`hit`* 或用户采取的某个操作。 处理规则不适用于其他数据源。
+收集数据时，会对数据应用处理规则，并且规则会应用于通过 AppMeasurement 库和数据插入 API 获得的所有数据。处理规则还应用于完整数据源和日志数据源。这些源包含表示&#x200B;*`hit`*&#x200B;或用户采取的操作的数据。 处理规则不适用于其他数据源。
 
 ## 重要概念 {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -40,7 +40,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则在保存后将被立即应用于报表包。 </p> </td> 
-   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。测试处理规则时，我们建议配置 <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> 实时报表</a> ，以便快速查看处理规则的结果。 </p> </td> 
+   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。测试处理规则时，我们建议在测试报表包中配置<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md">实时报表</a>，以便快速查看处理规则的结果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则是访问上下文数据变量的唯一途径。 </p> </td> 

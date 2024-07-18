@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
@@ -111,9 +111,9 @@ Analysis Workspace 中的组件包括维度、指标、区段和日期范围，�
 
    在搜索字段中键入井号 (#)。
 
-3. 选择以下任一筛选条件选项以过滤组件列表：
+3. 选择以下任一过滤器选项以过滤组件列表：
 
-   | 选项 | 函数 |
+   | 选项 | 功能 |
    |---------|----------|
    | [!UICONTROL **已批准**] | 仅显示标记为由管理员批准的组件。 |
    | [!UICONTROL **收藏夹**] | 仅显示收藏夹列表中的组件。有关将组件添加到收藏夹列表的信息，请参阅[组件概览](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
@@ -128,7 +128,7 @@ Analysis Workspace 中的组件包括维度、指标、区段和日期范围，�
 
 ### 对组件列表进行排序
 
-1. （可选）对组件列表应用任何筛选条件，如[筛选组件列表](#filter-the-component-list)中所述。
+1. （可选）对组件列表应用任何过滤器，如[筛选组件列表](#filter-the-component-list)中所述。
 
 2. 在左侧边栏中选择&#x200B;**组件**&#x200B;图标 ![组件图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
 

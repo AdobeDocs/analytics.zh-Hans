@@ -19,16 +19,16 @@ Adobe 提供跟踪下载链接的功能，无需为每个下载链接手动设�
 
 ## 使用Web SDK扩展启用或禁用点击收集
 
-使用 [!UICONTROL 启用点击数据收集] 复选框。 此复选框处理退出链接和下载链接。
+配置Web SDK时，使用[!UICONTROL 启用“单击数据收集”]复选框。 此复选框处理退出链接和下载链接。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** 按钮位于 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 下 [!UICONTROL 数据收集]，单击 **[!UICONTROL 启用点击数据收集]** 复选框。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 在[!UICONTROL 数据收集]下，单击&#x200B;**[!UICONTROL 启用“单击数据收集”]**&#x200B;复选框。
 
 ## 启用或禁用手动实施Web SDK的点击收集
 
-使用配置SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。将此值设置为 `false` （如果要禁用自动链接跟踪）。 此设置处理下载链接和退出链接的自动链接跟踪。
+使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)配置SDK。 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。如果要禁用自动链接跟踪，则将此值设置为`false`。 此设置处理下载链接和退出链接的自动链接跟踪。
 
 ```json
 alloy("configure", {

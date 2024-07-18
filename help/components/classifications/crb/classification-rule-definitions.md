@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>规则编号。 </p> <p>请参阅<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >如何处理规则</a>以了解详细信息。 </p> </td> 
+   <td colname="col2"> <p>规则编号。 </p> <p>有关详细信息，请参阅<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >如何处理规则</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 选择规则类型</span> </td> 
@@ -129,7 +129,7 @@ ht-degree: 100%
 | 匹配群组 | 显示正则表达式与促销活动 ID 字符的对应方式，以便您可以对促销活动 ID 中的位置进行分类。 |
 | 匹配结果 | 显示与正则表达式成功匹配的字符串部分。 |
 
-请参阅[分类规则中的正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)。
+请参阅分类规则中的[正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
 ## “测试”页面 {#section_EC926F97901C4E65901413F9683AA70A}
 

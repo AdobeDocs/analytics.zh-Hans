@@ -19,7 +19,7 @@ ht-degree: 65%
 
 下面显示了“请求向导”的第 1 步是如何显示功能板及其缩图报表的：
 
-![此屏幕截图显示了请求向导第1步（共2步），其中突出显示了检索功能板和检索书签。](assets/import_dashboard_reportlet.png)
+![屏幕截图显示“请求向导”第1步（共2步），突出显示检索您的功能板和检索您的书签。](assets/import_dashboard_reportlet.png)
 
 单击&#x200B;**[!UICONTROL 检索功能板]**&#x200B;或&#x200B;**[!UICONTROL 检索书签]**&#x200B;时，系统将检索现有功能板和/或书签数据并将其粘贴至工作表中。
 

@@ -16,7 +16,7 @@ ht-degree: 26%
 
 ## 堆叠区段 {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-1. 开始构建量度，如中所述 [生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. 开始生成量度，如[生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中所述。
 
 1. 在“定义”画布中，将新区段拖放到现有区段旁边：
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 ## 使用一个区段替换另一个 {#section_3DA899DF522A44D7A583C5DC8C0A033E}
 
-1. 开始构建量度，如中所述 [生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. 开始生成量度，如[生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中所述。
 
 1. 在“定义”画布中，将新区段拖放到现有区段上方：
 

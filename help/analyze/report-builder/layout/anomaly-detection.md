@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 95%
+source-wordcount: '509'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-Report Builder 会将这些值应用于所选量度。例如，如果您选择“页面查看次数”量度并应用异常检测，则系统将使用&#x200B;*`Page Views Lower Bound`*&#x200B;量度。
+Report Builder 会将这些值应用于所选量度。例如，如果您选择页面查看次数量度并应用异常检测，则使用&#x200B;*`Page Views Lower Bound`*&#x200B;量度。
 
 **如何计算异常检测**
 

@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
 source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 18%
+source-wordcount: '231'
+ht-degree: 19%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->管理员还可以从数据字典中批准计算指标（和其他组件），如中所述 [编辑数据字典中的组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>管理员还可以批准数据字典中的计算量度（和其他组件），如数据字典中的[编辑组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)中所述。
 >
 >数据字典中批准的任何计算指标都将反映在计算指标管理器中。 同样，计算量度管理器中批准的量度也会反映在数据字典中。
 
 要将计算量度标记为已批准，请执行以下操作：
 
-1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **计算量度**].
+1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **组件**] > [!UICONTROL **计算量度**]。
 
 1. 在计算量度管理器中，选中要标记为已批准的任何量度左侧的复选框。
 
-1. 选择 **[!UICONTROL 批准]** 在页面顶部的管理任务中。
+1. 在页面顶部的管理任务中选择&#x200B;**[!UICONTROL 批准]**。
 
-   要从批准的量度列表中删除量度，请选择 **[!UICONTROL 取消批准]**.
+   要从批准的量度列表中删除量度，请选择&#x200B;**[!UICONTROL 取消批准]**。
 
-1. （可选）与组织中的其他用户共享该量度，如中所述 [共享计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+1. （可选）与组织中的其他用户共享该量度，如[共享计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)中所述。
 
-1. 选择 **[!UICONTROL 确定]**.
+1. 选择&#x200B;**[!UICONTROL 确定]**。
 
    请注意列表中计算量度旁边的批准图标：![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
-1. （可选）要在计算量度管理器中过滤计算量度列表以仅显示批准的量度，请选择 **筛选** 图标，展开 **[!UICONTROL 其他筛选器]**，然后选择 **[!UICONTROL 已批准]**.
+1. （可选）要筛选计算量度管理器中的计算量度列表以仅显示批准的量度，请选择&#x200B;**筛选器**&#x200B;图标，展开&#x200B;**[!UICONTROL 其他筛选器]**，然后选择&#x200B;**[!UICONTROL 已批准]**。

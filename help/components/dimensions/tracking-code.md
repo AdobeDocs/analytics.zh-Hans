@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '559'
 ht-degree: 66%
 
 ---
 
 # 跟踪代码
 
-“跟踪代码” [维度](overview.md) 列出您网站上的跟踪代码的名称。 您可以将具有不同查询字符串参数值的链接放在 Internet 的不同位置。此维度可帮助您了解哪些链接最能成功吸引流量访问您的网站。
+“跟踪代码”[维度](overview.md)列出了您网站上的跟踪代码的名称。 您可以将具有不同查询字符串参数值的链接放在 Internet 的不同位置。此维度可帮助您了解哪些链接最能成功吸引流量访问您的网站。
 
 附加跟踪代码查询字符串在电子邮件、广告、社交媒体帖子以及您的组织使用的其他营销工作中很常见。
 
@@ -22,7 +22,7 @@ ht-degree: 66%
 
 ## 维度项目
 
-维度项目包括您的网站上的跟踪代码的名称。贵组织会确定您要使用的具体维度项目。请参阅 [营销活动跟踪](/help/implement/use-cases/campaign-tracking.md) 以了解更多信息。
+维度项目包括您的网站上的跟踪代码的名称。贵组织会确定您要使用的具体维度项目。有关详细信息，请参阅[促销活动跟踪](/help/implement/use-cases/campaign-tracking.md)。
 
 ## 比较跟踪代码维度与收集跟踪代码的营销渠道
 

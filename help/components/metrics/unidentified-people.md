@@ -12,7 +12,7 @@ ht-degree: 70%
 
 # 未识别的人员
 
-“未识别的人员” [量度](overview.md) 是 [跨设备分析](../cda/overview.md) 用于计算CDA未能识别的访客数量的量度。
+“未识别的人员”[指标](overview.md)是一个[Cross-Device analytics](../cda/overview.md)指标，它统计CDA未能识别的访客的数量。
 
 ## 如何计算此指标
 

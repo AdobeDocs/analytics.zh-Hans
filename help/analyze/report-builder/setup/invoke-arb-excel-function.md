@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 43%
+source-wordcount: '501'
+ht-degree: 41%
 
 ---
 
@@ -34,19 +34,19 @@ ht-degree: 43%
 | AsyncRefreshWorksheetAltTextParam()； | 字符串 | 刷新特定工作表名称（通过 Ms 表单控件的可选文字传递）中存在的所有 Report Builder 请求。 |
 | tring GetLastRunStatus() | 字符串 | 返回一个描述上次运行状态的字符串。 |
 
-要访问Report Builder功能，请转到 **[!UICONTROL 公式]** > **[!UICONTROL 插入函数]**. 使用搜索字段搜索函数，或者选择一个类别以列出该类别中的函数。
+若要访问Report Builder函数，请转到&#x200B;**[!UICONTROL 公式]** > **[!UICONTROL 插入函数]**。 使用搜索字段搜索函数，或者选择一个类别以列出该类别中的函数。
 
-![屏幕截图显示了展开类别列表的“插入函数”窗口。](assets/arb_functions.png)
+![显示“插入函数”窗口（类别列表已展开）的屏幕截图。](assets/arb_functions.png)
 
 ## 示例 {#section_034311081C8D4D7AA9275C1435A087CD}
 
-以下示例显示 *如果单元格P5中的值为文本或为空，请刷新单元格P9中的范围*.
+以下示例显示&#x200B;*如果单元格P5中的值为文本或为空，请刷新单元格P9*&#x200B;中的范围。
 
 ```
 =IF(OR(ISTEXT(P5),ISBLANK(P5)),AsyncRefreshRange("P9"),"")
 ```
 
-## 将 Report Builder 函数用于设置控件格式 {#section_26123090B5BD49748C8D8ED7A1C5ED84}
+## 将Report Builder函数与格式控件一起使用 {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
 您可以将宏分配给您创建的控件，该控件可以是刷新工作簿请求的函数。 例如，函数 AsyncRefreshActiveWorksheet 将刷新工作表中的所有请求。但是，有时您可能只想刷新某些请求。
 
@@ -58,7 +58,7 @@ ht-degree: 43%
 
 ## 使用格式控件将参数传递给Report Builder函数 {#section_ECCA1F4990D244619DFD79138064CEF0}
 
-带有参数的两个函数可用于“格式控制”。 您必须使用 **替换文本：** 字段：
+带有参数的两个函数可用于“格式控制”。 您必须使用&#x200B;**替换文本：**&#x200B;字段：
 
 * AsyncRefreshRange(string rangeAddressInA1Format)
 * AsyncRefreshWorksheet(string worksheetName)
@@ -67,13 +67,13 @@ ht-degree: 43%
 
 1. 右键单击控件并选择&#x200B;**[!UICONTROL 设置控件格式]**。
 
-   ![显示选定的“格式控件”的屏幕快照。](assets/format_control.png)
+   ![显示选定格式控件的屏幕截图。](assets/format_control.png)
 
 1. 单击&#x200B;**[!UICONTROL 可选文字]**&#x200B;选项卡。
 
-   ![显示“替换文本”选项卡和“替换文本：”字段的屏幕截图。](assets/alt_text.png)
+   ![显示“替换文本”选项卡和“替换文本”字段的屏幕截图。](assets/alt_text.png)
 
 1. 在&#x200B;**[!UICONTROL 可选文字]**&#x200B;下面，输入要刷新的单元格范围。
-1. 打开下的Report Builder参数列表 **[!UICONTROL 公式]** > **[!UICONTROL 插入函数]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**.
+1. 打开&#x200B;**[!UICONTROL 公式]** > **[!UICONTROL 插入函数]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**&#x200B;下的Report Builder参数列表。
 
 1. 选取以 AltTextParam 结尾的两个函数之一，然后单击&#x200B;**[!UICONTROL 确定]**。

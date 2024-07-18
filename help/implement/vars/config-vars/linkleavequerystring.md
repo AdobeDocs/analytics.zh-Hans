@@ -27,7 +27,7 @@ ht-degree: 84%
 
 ## 使用Web SDK处理链接查询字符串
 
-查询字符串不会从XDM字段中清除 `web.webInteraction.URL`. 如果要从此XDM字段中去除查询字符串，可以使用以下方式编辑它 `onBeforeEventSend`.
+未从XDM字段`web.webInteraction.URL`中剥离查询字符串。 如果要从此XDM字段中去除查询字符串，可以使用`onBeforeEventSend`编辑它。
 
 ## 使用Adobe Analytics扩展保留URL参数
 

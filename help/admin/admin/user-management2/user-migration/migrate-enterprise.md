@@ -128,7 +128,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>确保中的域 <span class="term"> 域</span> 和 <span class="term"> 电子邮件</span> 列中的域与先决条件中建立的域匹配</a>. </p> </td> 
+   <td colname="col2"> <p>确保<span class="term">域</span>和<span class="term">电子邮件</span>列中的域与先决条件</a>中建立的域匹配。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国家/地区代码 </p> </td> 

@@ -16,7 +16,7 @@ ht-degree: 84%
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]**
 
-您必须是产品管理员或属于包含权限项目的产品配置文件 [!UICONTROL 报表包工具] > [!UICONTROL 分类] 以查看此菜单项。 请注意，尽管以前的分类管理界面位于 [!UICONTROL 管理员] 菜单，分类集位于 [!UICONTROL 组件] 菜单。
+您必须是产品管理员或属于包含权限项[!UICONTROL 报表包工具] > [!UICONTROL 分类]的产品配置文件才能查看此菜单项。 请注意，尽管以前的分类管理界面位于[!UICONTROL 管理员]菜单下，但分类集位于[!UICONTROL 组件]菜单下。
 
 ## 改进
 

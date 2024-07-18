@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->此维度已停用，不可用 [维度](overview.md) 在Analysis Workspace中。 Adobe 建议改用 [eVar](evar.md) 和分类。
+>此维度已停用，且在Analysis Workspace中不是可用的[维度](overview.md)。 Adobe 建议改用 [eVar](evar.md) 和分类。
 
 层级是自定义变量，您可以根据需要随意使用。 它们不会在设置的点击之外继续存在。如果您与 Adobe 签署的合同支持，则至多有 5 个层级可供使用。
 

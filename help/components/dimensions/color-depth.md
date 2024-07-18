@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 颜色深度
 
-“颜色深度” [维度](overview.md) 报告设备支持的颜色数量。 确定多少流量来自不支持 1,600 万颜色的设备时，此维度非常有用。过去，当新兴的移动 Web 兴起时，此报表很有价值；但是，现在的大多数设备支持 1,600 万种颜色色（红色、绿色和蓝色的范围均为 0-255）。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+“颜色深度”[维度](overview.md)报告设备支持的颜色数量。 确定多少流量来自不支持 1,600 万颜色的设备时，此维度非常有用。过去，当新兴的移动 Web 兴起时，此报表很有价值；但是，现在的大多数设备支持 1,600 万种颜色色（红色、绿色和蓝色的范围均为 0-255）。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## 使用数据填充此维度
 

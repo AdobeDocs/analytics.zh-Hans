@@ -21,8 +21,8 @@ Adobe Analytics提供了各种计算指标以涵盖最常见的用例。 默认�
 >除了此页面上描述的默认计算指标之外，您还可以向报表包添加其他计算指标。
 >
 >您可以：
-> * 为流媒体收集加载项添加默认的计算量度，如中所述 [计算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * 从现有量度创建自定义计算量度，如中所述 [计算量度和高级计算（派生）量度](/help/components/c-calcmetrics/cm-overview.md).
+> * 为流媒体收集加载项添加默认的计算量度，如[计算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)中所述
+> * 从现有量度创建自定义计算量度，如[计算量度和高级计算（派生）量度](/help/components/c-calcmetrics/cm-overview.md)中所述。
 
 
 | 计算量度名称 | 功能 | 公式 |
@@ -37,7 +37,7 @@ Adobe Analytics提供了各种计算指标以涵盖最常见的用例。 默认�
 | 内容周转率 | 在网站上创建和发布新内容的速度以及新内容能够多快地吸引用户参与。 | `[Page Views] / [Visits]` |
 | 转化率 | 执行了所需操作（如进行了购买）的访客的百分比。 | `[Orders] / [Visits]` |
 | 登录率 | 在指定页面上进入网站的访客占网站上会话总数的百分比。 | `[Entries] / [Visits]` |
-| 预计独特访客(ITP 2.1) | 对于ITP访客（Safari浏览器中的用户），将独特访客除以2或更小。 此计算量度假定您是使用客户端JavaScript（而不是使用CNAME实施）设置的Cookie。 从ITP 2.1开始，使用客户端JavaScript设置Cookie的实施会受到影响。请参阅 [智能防跟踪](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) 以了解详细信息。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| 预计独特访客(ITP 2.1) | 对于ITP访客（Safari浏览器中的用户），将独特访客除以2或更小。 此计算量度假定您是使用客户端JavaScript（而不是使用CNAME实施）设置的Cookie。 从ITP 2.1开始，使用客户端JavaScript设置Cookie的实施会受到影响。有关详细信息，请参阅[智能防跟踪](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID 覆盖 | 拥有 Experience Cloud ID 的访客的百分比。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 退出率 | 查看特定页面后离开网站的访客的百分比。 | `[Exits] / [Visits]` |
 | ITP 2.1独特访客/独特访客 | 使用受ITP 2.1 Cookie限制影响的浏览器的独特访客百分比。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

@@ -43,7 +43,7 @@ ht-degree: 96%
 1. 单击所需的标记属性。
 1. 单击[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建一个规则）。
 1. 单击[!UICONTROL 操作]下的[!UICONTROL 添加]按钮。
-1. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 设置变量。
+1. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为设置变量。
 1. 单击所需 Analytics 变量右侧的 ![数据元素](assets/data-element.png) 图标。贵组织的[解决方案设计文档](../prepare/solution-design.md)规定了要使用的 Analytics 变量。
 1. 在模式窗口中选择所需的数据元素。单击[!UICONTROL 选择]。
 1. 数据元素名称将添加到被 `%` 符号包围的文本字段中。例如，如果将数据元素命名为“页面名称”，则在将数据元素分配给变量时，会看到字符串 `%Page name%`。

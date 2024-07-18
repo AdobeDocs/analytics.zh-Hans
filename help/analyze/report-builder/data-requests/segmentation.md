@@ -17,7 +17,7 @@ ht-degree: 74%
 
 Report Builder具有“请求向导”步骤1中的分段面板，允许您创建和管理区段。
 
-![此屏幕截图显示了用于添加、编辑或清除区段的“区段”选项，并突出显示了“控制”、“筛选”和“刷新”图标。](assets/seg_dialog.png)
+![显示“添加”、“编辑”或“清除”区段选项并突出显示“控制”、“筛选”和“刷新”图标的屏幕截图。](assets/seg_dialog.png)
 
 ## 添加或编辑区段 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 1. 选择要转换为区段的报表输出项。
 1. 单击鼠标右键以选择&#x200B;**[!UICONTROL 在此容器中创建关联区段]**，并指定适当的容器（点击次数容器、访问次数容器、访客数容器）。
 
-   ![此屏幕截图显示在选定和可用的容器选项中创建关联区段。](assets/seg_in_context.png)
+   ![屏幕截图显示在选定和可用的容器选项中创建上下文区段。](assets/seg_in_context.png)
 
    有关容器的详细信息，请参阅[分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 
@@ -52,7 +52,7 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 
 ## 搜索和应用区段 {#search}
 
-此区段列表中会显示在Reports &amp; Analytics（现已终止使用）、Report Builder或Data Warehouse中创建的任何区段。 要刷新该列表，请单击“刷新”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+此区段列表中会显示在Reports &amp; Analytics（现已终止使用）、Report Builder或Data Warehouse中创建的任何区段。 要刷新列表，请单击“刷新”图标![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)。
 
 您可以将一个或多个区段应用到任意给定请求。这包括连续区段。
 
@@ -60,7 +60,7 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 
 1. 选中要应用的区段。
 
-   ![显示选定区段的屏幕截图。](assets/seg_list.png)
+   ![显示选定区段的屏幕快照。](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 
 ## 过滤区段 {#filter}
 
-**筛选** 通过单击“过滤器”图标，可访问区段：  ![过滤器图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+单击“筛选器”图标![筛选器图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)以筛选&#x200B;**区段**
 
 可用的过滤器包括：
 
@@ -76,7 +76,7 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 |---|---|
 | 标记 | 允许您过滤具有特定标签的区段。请注意，“标签”过滤器使用 AND 运算符。如果您选中两个标签，右侧窗格会显示&#x200B;**同时**&#x200B;具有这两个标签的区段。 |
 | 所有者 | 允许您按所有者过滤区段。请注意，“所有者”过滤器使用 OR 运算符。如果您选中两个所有者，右侧窗格会显示&#x200B;**每个**&#x200B;所有者拥有的区段。 |
-| 其他过滤器 > 仅&#x200B;*报表包名称* | 如果您应用 *报告包名称*”过滤器，然后在Adobe Analytics中显示高级过滤器 [!DNL Report Builder]，则高级过滤器将仅显示选定报表包的区段。 |
+| 其他过滤器 > 仅&#x200B;*报表包名称* | 如果在Adobe Analytics的区段生成器中应用“仅&#x200B;*报表包名称*”过滤器，然后在[!DNL Report Builder]中显示“高级过滤器”，则“高级过滤器”将仅显示选定报表包的区段。 |
 | 其他过滤器 > 我的 | 显示您拥有的所有区段。 |
 | 其他过滤器 > 与我共享 | 显示他人与您共享的所有区段。 |
 | 其他过滤器 > 收藏夹 | 显示您标记为收藏项目的所有区段。 |
@@ -86,11 +86,11 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 
 通过添加区段控件，您可以从工作簿中切换区段，而不必转至“请求向导”。
 
-1. 单击控件图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) ，位于区段下拉列表旁。
+1. 单击区段下拉列表旁边的“控件”图标![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)。
 
 1. 选中要在区段控件中显示的所有区段，或者选中&#x200B;**[!UICONTROL 全选]**。
 
-   ![已选择所有区段的“控件设置”对话框屏幕截图。](assets/seg_control.png)
+   ![选定了所有区段的“控件设置”对话框屏幕截图。](assets/seg_control.png)
 
 1. 请注意&#x200B;**[!UICONTROL 根据项目选择自动刷新链接的请求]**&#x200B;选项。
 
@@ -105,7 +105,7 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 
 ## 刷新区段列表 {#refresh}
 
-只要添加新区段或编辑现有区段，即应单击“刷新”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 刷新缓存的区段列表。
+每次添加新区段或编辑现有区段时，都应单击“刷新”图标![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)以刷新缓存的区段列表。
 
 ## 在请求间管理区段 {#manage}
 
@@ -116,7 +116,7 @@ Report Builder 5.4 允许您添加、删除和替换区段，以及替换多个�
 1. 在工作簿中选择多个请求。
 1. 右键单击并选择&#x200B;**[!UICONTROL 编辑请求]** > **[!UICONTROL 按区段]**。
 
-   ![屏幕截图显示编辑请求和按选定的区段。](assets/edit_by_segment.png)
+   ![显示编辑请求并按所选区段划分的屏幕截图。](assets/edit_by_segment.png)
 
 1. 在“编辑群组”对话框中，选择四个选项之一：
 

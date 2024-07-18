@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 将事件影响告知用户
 
-如果您有数据 [受事件影响](overview.md)，请务必将该事件传达给贵组织中的用户。
+如果您的数据[受事件](overview.md)影响，请务必将该事件告知组织中的用户。
 
 * 制定可在通信中使用的通用免责声明，以保持一致性
 * 在活动期间和之后持续与Analytics用户和主要利益相关者沟通
@@ -22,21 +22,21 @@ ht-degree: 1%
 
 ## 通过面板或可视化图表描述进行通信
 
-如果您的Workspace项目在组织中的用户之间共享，则可以通过面板或可视化图表描述传达事件的影响。 右键单击面板或可视化图表标题，然后选择 **[!UICONTROL 编辑描述]**.
+如果您在组织中的用户之间共享了Workspace项目，则可以通过面板或可视化图表描述来传达事件的影响。 右键单击面板或可视化图表标题，然后选择&#x200B;**[!UICONTROL 编辑描述]**。
 
 ![面板说明](assets/panel_description.png)
 
 ## 通过文本可视化图表进行通信
 
-您还可以通过专用的文本可视化图表传达事件的影响。 请参阅 [文本可视化图表](/help/analyze/analysis-workspace/visualizations/text.md) 在分析用户指南中。
+您还可以通过专用的文本可视化图表传达事件的影响。 请参阅分析用户指南中的[文本可视化图表](/help/analyze/analysis-workspace/visualizations/text.md)。
 
-![文本可视化](assets/text_visualization.png)
+![文本可视化图表](assets/text_visualization.png)
 
-## 将自定义日历事件添加到工作区中的趋势
+## 将自定义日历事件添加到Workspace中的趋势
 
-对于工作区中的任何趋势可视化图表，您可以添加一个系列来表示受影响的日期范围。
+对于Workspace中的任何趋势可视化图表，您可以添加一个数列，以表示受影响的日期范围。
 
-1. 通过以下方式创建具有“受影响的天数”区段的计算指标 [在分析中排除特定日期](segments.md).
+1. 按照[在分析中排除特定日期](segments.md)创建具有“受影响的天数”区段的计算指标。
 1. 将所需的量度添加到计算量度画布。
 
    ![量度](assets/calcmetric_event.png)
@@ -49,9 +49,9 @@ ht-degree: 1%
 
    ![自由格式表](assets/calcmetric_freeform.png)
 
-1. 单击计算指标的列设置齿轮图标，然后启用 **[!UICONTROL 将零解释为没有值]**.
+1. 单击计算量度的列设置齿轮图标，并启用&#x200B;**[!UICONTROL 将零解释为没有值]**。
 
-   ![计算指标设置](assets/calcmetric_zero_no_value.png)
+   ![计算量度设置](assets/calcmetric_zero_no_value.png)
 
 1. 添加折线图可视化图表。 受影响的日期使用不同的颜色表示。 用户还可以单击计算指标中的“信息”图标以了解更多信息。
 

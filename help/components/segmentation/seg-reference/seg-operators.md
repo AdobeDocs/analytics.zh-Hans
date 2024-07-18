@@ -5,7 +5,7 @@ feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1105'
 ht-degree: 95%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 95%
 
 通过区段生成器，您可以使用选定的运算符比较和约束值。运算符分为三类：标准、Data Warehouse 和非重复计数。
 
-唯一支持的通配符是星号： &#42;. 如果您需要搜索 &#42;，可以使用反斜杠进行转义。
+唯一支持的通配符是星号： &#42;。 如果您需要搜索&#42;，可以使用反斜线进行转义。
 
-**示例**：假设您的页面名称为“我的酷炫产品”。区段规则“页面名称与我的匹配”&#42;产品”将匹配上述页面名称。 但是，规则“页面名称与My\\&#42;product”仅匹配页面名称“My”&#42;产品”。
+**示例**：假设您的页面名称为“我的酷炫产品”。区段规则“页面名称与My&#42;product匹配”将匹配上述页面名称。 但是，规则“页面名称与My\\&#42;product匹配”仅与页面名称“My&#42;Product”匹配。
 
 ## 标准运算符
 

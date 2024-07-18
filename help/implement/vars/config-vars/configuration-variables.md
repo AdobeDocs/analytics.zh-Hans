@@ -21,10 +21,10 @@ ht-degree: 65%
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 单击 [!UICONTROL 扩展] 选项卡，然后单击 [!UICONTROL 配置] 在扩展下。
+1. 单击“扩展”选项卡，然后单击扩展下的“配置”。
 
 在使用 `AppMeasurement.js` 的 JavaScript 实施中，通常会在 JS 文件的顶部设置配置变量。
 
 >[!IMPORTANT]
 >
->确保在调用跟踪方法([`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md))。 避免在 [`doPlugins()`](../functions/doplugins.md) 函数中设置配置变量。
+>确保在调用跟踪方法（[`t()`](../functions/t-method.md)或[`tl()`](../functions/tl-method.md)）之前设置所有配置变量。 避免在 [`doPlugins()`](../functions/doplugins.md) 函数中设置配置变量。

@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 91%
+source-wordcount: '279'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 91%
 * 作为管理员，如果某个区段为团队带来良好的商业价值，那么就应当将此区段与特定“**[!UICONTROL 组]**”共享。请不要正式批准此类型的区段。
 * 作为管理员或个人用户，请将区段与其他个人用户共享，以便审查和验证该区段。如果经证实没有用处，则可以放弃。请不要正式批准此类型的区段。
 
-1. 在区段管理器中，选中要共享的区段旁边的复选框。此时将显示区段管理工具栏。
+1. 在区段管理器中，选中要共享的区段旁边的复选框。将显示区段管理工具栏。
 
-2. 单击 **[!UICONTROL 共享]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+2. 单击&#x200B;**[!UICONTROL 共享]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)。
 
    如果您是管理员，则可以选择“**[!UICONTROL 所有人]**”或组织中的“**[!UICONTROL 组]**”和“用户&#x200B;**[!UICONTROL ”。]**&#x200B;如果您不是管理员，则只能看到个人用户。使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段搜索组或用户。1. 单击&#x200B;**[!UICONTROL 共享]**。
 

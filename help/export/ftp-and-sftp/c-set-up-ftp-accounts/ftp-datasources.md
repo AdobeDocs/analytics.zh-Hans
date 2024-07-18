@@ -7,11 +7,11 @@ exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
-# 基于FTP数据源
+# 基于FTP的数据源
 
 您可以使用 Analytics 创建和管理基于 FTP 的数据源，它可以利用 FTP 文件传输将离线数据或历史数据导入 Experience Cloud。
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 在“[!UICONTROL 管理数据源]”窗口中，查找您的数据源并选择“FTP 信息”链接。您的 FTP 登录信息会在“[!UICONTROL 上传/FTP 信息]”部分的“[!UICONTROL 激活数据源]”窗口中显示。
 
-有关 FTP 限制和数据保留的信息，请参阅 [FTP 限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
+有关FTP限制和数据保留的信息，请参阅[FTP限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
 ## 关于用于分类和上传数据源的 .fin 文件 {#section_1484719F8A134EAE91212DBD8F15174F}
 

@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 99%
 
 [!UICONTROL Analysis Workspace] 中的导航方式包括自上而下，以及从左至右。以下导航元素有助于促进无障碍功能：
 
-* `Tab` 键会启用地标快捷键，并在 Workspace 内的较大部分之间移动。在左侧边栏中，`Tab` 还允许您从一个可拖动选项移到下一个可拖动选项。
+* `Tab` 键启用地标快捷方式，可在 Workspace 中的较大部分之间移动。在左侧边栏中，`Tab` 还允许您从一个可拖动选项移到下一个可拖动选项。
 * `Tab` 突出显示单个元素后，`left/right arrows` 可在单个元素之间移动。
 * `F6` 会导航到项目中的第一个面板，并在该面板内的可视化图表之间移动。然后，它将移到项目中的下一个面板并重复上述操作。
 * 我们应用焦点指示器，以便近视的键盘用户能够清楚地了解当前具有焦点的 UI 元素。指示器是指选定元素周围的蓝色边框。
 
-   ![焦点指示器](assets/focus-indicator.png)
+  ![焦点指示器](assets/focus-indicator.png)
 
 ### 菜单栏的键盘导航
 
@@ -49,7 +49,7 @@ ht-degree: 99%
 
 ### 键盘快捷键（热键）
 
-[!UICONTROL Analysis Workspace] 提供丰富的[键盘快捷键](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hans)，以体验更顺畅的工作流程。下面列出了导航、创建分析和获取大众化洞察信息的一些常用快捷键。
+[!UICONTROL Analysis Workspace] 提供丰富的[键盘快捷键](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)，以体验更顺畅的工作流程。下面列出了导航、创建分析和获取大众化洞察信息的一些常用快捷键。
 
 #### 导航
 
@@ -69,7 +69,7 @@ ht-degree: 99%
 | `[Ctrl + Shift + C]` | 新建计算量度 |
 | `[Ctrl + Shift + D]` | 新建日期范围 |
 | `[Ctrl + Shift + E]` | 新建区段 |
-| `[Ctrl + Z]` | 还原 |
+| `[Ctrl + Z]` | 撤消 |
 | `[Component drag + Shift]` | 创建下拉过滤器 |
 
 #### 大众化

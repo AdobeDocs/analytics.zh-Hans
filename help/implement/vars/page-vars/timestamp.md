@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## 使用Web SDK的时间戳
 
-时间戳为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) 在XDM字段下 `xdm.timestamp`. 此字段仅支持Unix时间。
+在XDM字段`xdm.timestamp`下，为Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html)映射时间戳[。 此字段仅支持Unix时间。
 
 ## 使用Adobe Analytics扩展的时间戳
 
@@ -29,7 +29,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.timestamp
 
-`s.timestamp` 变量是一个包含点击日期和时间的字符串。有效的时间戳格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix时间](https://en.wikipedia.org/wiki/Unix_time) 以秒为单位。
+`s.timestamp` 变量是一个包含点击日期和时间的字符串。有效的时间戳格式包括[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)和[Unix时间](https://en.wikipedia.org/wiki/Unix_time)（秒）。
 
 ```js
 // Timestamp using ISO 8601

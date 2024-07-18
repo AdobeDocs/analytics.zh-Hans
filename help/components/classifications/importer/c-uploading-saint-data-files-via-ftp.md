@@ -18,7 +18,7 @@ ht-degree: 90%
 >
 >不建议使用FTP，因为这是一种未加密的共享文件方法，这意味着任何人都可以拦截文件内容以及用于帐户的用户名和密码。
 >
->请按照中的说明配置云帐户 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md).
+>请按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的说明配置云帐户。
 
 描述如何通过 FTP 上传数据文件的步骤。
 

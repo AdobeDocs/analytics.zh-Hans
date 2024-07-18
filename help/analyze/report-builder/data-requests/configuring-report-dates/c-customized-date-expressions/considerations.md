@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 99%
 
 ---
 
@@ -51,4 +51,4 @@ ht-degree: 100%
 
 当前周的起始日期（11 月 23 日，星期日）减去 1 天 = 11 月 22 日，星期六
 
-在欧洲和其他一些国家/地区，一周的第一天是星期一，而不是星期日。在这种情况下，您可以自定义日历以更改开始日期。（请参阅[自定义日历](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。)
+在欧洲和其他一些国家/地区，一周的第一天是星期一，而不是星期日。在这种情况下，您可以自定义日历以更改开始日期。（请参阅[自定义日历](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。）

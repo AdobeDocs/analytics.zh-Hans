@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 85%
 
 ---
 
 # 每位访客逗留时间（秒）
 
-[!UICONTROL 每位访客逗留时间（秒）]指标表明访客在整个访问期间与给定维度项目互动的平均时长。[](overview.md)
+[!UICONTROL 每位访客逗留时间（秒）] [指标](overview.md)显示访客在整个生命周期中与给定维度项目交互的平均时间。
 
 此指标因其处理架构不同而在 Data Warehouse 中不可用。
 

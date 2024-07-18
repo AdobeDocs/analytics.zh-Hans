@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # doPlugins
 
-`doPlugins` 变量会用作“最后一次调用”，以便在您的实施中设置值。它是致电的理想场所 [插件方法](../plugins/impl-plugins.md) 并在发送图像请求之前设置任何所需的变量。 如果启用了 [`usePlugins`](../config-vars/useplugins.md)，它将在编译任何类型的图像请求并将其发送到 Adobe 之前自动运行，包括：
+`doPlugins` 变量会用作“最后一次调用”，以便在您的实施中设置值。它是调用[插件方法](../plugins/impl-plugins.md)并在发送图像请求之前设置任何所需变量的理想场所。 如果启用了 [`usePlugins`](../config-vars/useplugins.md)，它将在编译任何类型的图像请求并将其发送到 Adobe 之前自动运行，包括：
 
 * 所有页面查看 ([`t()`](t-method.md)) 调用
 * 所有链接跟踪 ([`tl()`](tl-method.md)) 调用，包括自动下载链接和退出链接
@@ -22,17 +22,17 @@ ht-degree: 63%
 
 ## 使用Web SDK扩展的“在事件之前发送”回调代码
 
-而不是 `doPlugins`， Web SDK使用 `onBeforeEventSend` 功能相似。
+Web SDK使用具有相似功能的`onBeforeEventSend`，而不是`doPlugins`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** 按钮位于 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 下 [!UICONTROL 数据收集]，单击 **[!UICONTROL 编辑在事件发送回调代码之前]** 按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 在[!UICONTROL 数据收集]下，单击&#x200B;**[!UICONTROL 在事件发送回调代码之前编辑]**&#x200B;按钮。
 1. 将所需的代码置于编辑器中。
 
-## 使用 `onBeforeEventSend` 手动实施Web SDK
+## 使用`onBeforeEventSend`手动实施Web SDK
 
-而不是 `doPlugins`， Web SDK使用 `onBeforeEventSend` 功能相似。 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
+Web SDK使用具有相似功能的`onBeforeEventSend`，而不是`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

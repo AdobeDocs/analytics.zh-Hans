@@ -35,11 +35,11 @@ ht-degree: 83%
 
 ## 通过 Web SDK 使用事件 ID
 
-如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，事件序列化使用所需事件的XDM字段 `id`. 完整的 XDM 路径取决于要序列化的事件。
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则事件序列化使用所需事件的XDM字段`id`。 完整的 XDM 路径取决于要序列化的事件。
 
-例如，如果要序列化购物车添加量度，请设置 `xdm.commerce.productListAdds.id` 到所需的序列化值。 如果要序列化自定义事件20，请设置 `xdm._experience.analytics.event1to100.event20` 到所需的序列化值。
+例如，如果要序列化购物车添加量度，请将`xdm.commerce.productListAdds.id`设置为所需的序列化值。 如果要序列化自定义事件20，请将`xdm._experience.analytics.event1to100.event20`设置为所需的序列化值。
 
-如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，事件序列化使用 `data.__adobe.analytics.events`，遵循字符串AppMeasurement语法。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则事件序列化使用`data.__adobe.analytics.events`，并遵循AppMeasurement字符串语法。
 
 ## 通过 Adobe Analytics 扩展使用事件 ID
 
@@ -49,7 +49,7 @@ ht-degree: 83%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 事件]部分，其中每个事件都包含一个[!UICONTROL 事件 ID] 字段。
 
 有效值是长度不超过 20 字节的字母数字字符。如果输入的值超过 20 个字节，系统会将其截断为前 20 个字节。

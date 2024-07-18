@@ -28,7 +28,7 @@ ht-degree: 93%
 交易ID映射到以下变量：
 
 * [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.payments[0].transactionID`
-* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.transactionID` 或 `data.__adobe.analytics.xact`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.transactionID`或`data.__adobe.analytics.xact`
 
 ## 使用 Adobe Analytics 扩展的交易 ID
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 交易 ID] 部分。
 
 您可以将交易 ID 设置为任何字符串值，包括数据元素。

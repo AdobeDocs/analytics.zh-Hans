@@ -27,8 +27,8 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 Prop映射到以下变量：
 
-* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75`  — 列表属性在 [单独的一组字段](#list-props-web-sdk).
-* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`；或 `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75`  — 列表属性包含在这些字段中。
+* [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` — 列表属性是在单独的[字段集](#list-props-web-sdk)中指定的。
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`；或`data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` — 列表属性包括在这些字段中。
 
 ## 使用 Adobe Analytics 扩展的 props
 
@@ -38,7 +38,7 @@ Prop映射到以下变量：
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 属性]部分。
 
 您可以将 prop 设置为值或数据元素。您还可以从其他 Analytics 变量复制值。
@@ -65,9 +65,9 @@ s.prop1 = "Example custom value";
 
 ### 使用 Web SDK 设置列表 props {#list-props-web-sdk}
 
-如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，列表属性映射到 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK 会自动使用报表包设置下列出的正确分隔符。如果您在 XDM 字段中设置分隔符（例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则列表属性将映射到`xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`。 Web SDK 会自动使用报表包设置下列出的正确分隔符。如果您在 XDM 字段中设置分隔符（例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
 
-如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，列表属性使用与标准属性相同的字段并遵循AppMeasurement语法。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则列表属性使用与标准属性相同的字段并遵循AppMeasurement语法。
 
 ### 使用 Adobe Analytics 扩展和 AppMeasurement 设置列表 props
 

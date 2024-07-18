@@ -6,43 +6,43 @@ role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 69%
+source-wordcount: '558'
+ht-degree: 65%
 
 ---
 
 # 自由格式表
 
-在 Analysis Workspace 中，自由格式表是进行交互式数据分析的基础。可以将[组件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans)组合拖放到行和列中，以创建自定义表格供您分析。拖放每个组件后，表格会立即更新，以便您可以快速分析和深入挖掘。
+在 Analysis Workspace 中，自由格式表是进行交互式数据分析的基础。可以将[组件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans)组合拖放到行和列中，以创建自定义表格供您分析。拖动每个组件后，表格会立即更新，以便您能够快速分析和深入探索。
 
 ## 构建简单的自由格式表
 
-您首先需要一个空的自由格式表。
+您首先会看到一个空的自由格式表。
 
 ![空自由格式表](assets/freeform-table-1.png)
 
-如果您将 **[!UICONTROL **&#x200B;访问次数&#x200B;**]** 量度 **[!UICONTROL **&#x200B;将量度拖放到此处（或任何其他组件）**]**，自由格式表会在您选择的日历期间自动填充每日访问量。
+如果将&#x200B;**[!UICONTROL **&#x200B;访问次数&#x200B;**]**&#x200B;量度放置在&#x200B;**[!UICONTROL **&#x200B;在此处放置量度（或任何其他组件）**]**&#x200B;上，则自由格式表会自动填充您所选日历时段的每日访问次数。
 
 ![访问自由格式表](assets/freeform-table-2.png)
 
-如果您随后将 **[!UICONTROL **&#x200B;页面&#x200B;**]** 要替换的维度 **[!UICONTROL **&#x200B;日&#x200B;**]** 维度列中，自由格式表会自动反映每个页面的访问量。
+如果您随后删除&#x200B;**[!UICONTROL **&#x200B;页面&#x200B;**]**&#x200B;维度来替换&#x200B;**[!UICONTROL **&#x200B;天&#x200B;**]**&#x200B;维度列，则自由格式表会自动反映每个页面的访问次数。
 
-![按页面自由格式表的访问量](assets/freeform-table-3.png)
+![按页面自由格式表的访问次数](assets/freeform-table-3.png)
 
-然后，您可以对 **[!UICONTROL **&#x200B;类别：5 **]** 页面 **[!UICONTROL **&#x200B;营销渠道&#x200B;**]** 维度 **[!UICONTROL **&#x200B;类别：5 **]** 行。
+例如，您可以通过将&#x200B;**[!UICONTROL **&#x200B;营销渠道&#x200B;**]**&#x200B;维度放置在&#x200B;**[!UICONTROL ** category：5 **]**&#x200B;行上来划分&#x200B;**[!UICONTROL ** category：5 **]**&#x200B;页面。
 
-![按页面自由格式表划分的访问次数](assets/freeform-table-4.png)
+![按页面自由格式表的访问细分](assets/freeform-table-4.png)
 
 
 ## 自动化表
 
-如上图所示，构建表最快捷的方法是将组件直接拖放到空白项目、面板或自由格式表中。 随后将自动以建议的格式为您构建自由格式表。[观看教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=zh-Hans)。
+如上图所示，构建表的最快速方法是将组件直接拖放到空白项目、面板或自由格式表中。 随后将自动以建议的格式为您构建自由格式表。[观看教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=zh-Hans)。
 
 ![](assets/automated-table.png)
 
 ## 自由格式表生成器
 
-如果您希望先向表中添加多个组件，然后再渲染数据，则可以启用自由格式表生成器。启用生成器后，您可以拖放许多维度、划分、量度和区段，以构建可回答更复杂问题的表。 数据不会即时更新，单击后会更新 **[!UICONTROL 生成]**.
+如果您希望先向表中添加多个组件，然后再渲染数据，则可以启用自由格式表生成器。启用该生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂问题的表格。 数据不会即时更新，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会更新。
 
 ![](assets/table-builder.png)
 
@@ -67,7 +67,7 @@ ht-degree: 69%
 
 * 右键单击并选择&#x200B;**[!UICONTROL 将数据复制到剪贴板]**&#x200B;可导出显示的表数据。如果已选择表，则此选项将显示为&#x200B;**[!UICONTROL 将选定内容复制到剪贴板]**。也可以使用 **Ctrl+C** 热键复制所选数据。
 * 右键单击并选择&#x200B;**[!UICONTROL 将数据下载为 CSV]** 可将显示的表数据下载为 CSV。如果已选择表，则此选项将显示为&#x200B;**[!UICONTROL 将选定内容下载为 CSV]**。
-* 右键单击> **[!UICONTROL 项目>以CSV格式下载项目]** 最多导出选定维度的50,000个维度项目。
+* 右键单击并选择&#x200B;**[!UICONTROL 项目>以CSV格式下载项目]**&#x200B;可为所选维度导出最多50,000个维度项目。
 
 了解有关用于 Analysis Workspace 的所有数据[导出选项](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans)的更多信息。
 

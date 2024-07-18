@@ -37,7 +37,7 @@ Adobe Experience Cloud提供了一个集成式解决方案，可将贵品牌的�
 
 Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们将为您提供机会来定义数据管理设置和首选项。为此，Adobe Analytics 提供了“数据管理”用户界面，允许您作为数据控制者，对您的 Analytics 报表包以及这些报表包中的所有维度和量度设置[隐私权标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)。您可以标识数据集中包含直接可识别数据或间接可识别数据的列，以便能够提交访问和删除请求来处理这些数据。对于每个请求，在 Analytics“数据管理”用户界面中定义的标签将用于对应该请求的特定标识符。
 
-请参阅 [为报表包数据设置标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) 有关如何设置标签的详细信息。
+有关如何设置标签的更多信息，请参阅[为报表包数据设置标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)。
 
 ## 先决条件
 

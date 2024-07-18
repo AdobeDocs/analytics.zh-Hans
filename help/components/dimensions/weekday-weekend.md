@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # 工作日/周末
 
-“工作日/周末” [维度](overview.md) 提供点击发生在工作日（星期一至星期五）还是周末（星期六至星期日）的分析。 点击时间基于[报表包所在时区](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+“工作日/周末”[维度](overview.md)提供有关点击发生在工作日（星期一至星期五）还是周末（星期六至星期日）的分析。 点击时间基于[报表包所在时区](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
 ## 使用数据填充此维度
 

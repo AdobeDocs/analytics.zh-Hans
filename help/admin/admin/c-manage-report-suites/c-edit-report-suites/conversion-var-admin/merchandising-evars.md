@@ -81,7 +81,7 @@ ht-degree: 96%
 
 此选项不适用于标准 eVar。通过[!UICONTROL 促销]设置，您可以选择[!UICONTROL 转化变量语法]或[!UICONTROL 产品语法]作为捕获促销 eVar 值的方法。
 
-**[!UICONTROL 转化变量语法]**&#x200B;意味着您在其自身变量中设置 eVar 值。例如，使用转化变量语法， `eVar1` “内部关键词搜索”的值在页面代码(或AppMeasurement代码、Adobe Experience Platform Web SDK代码等)中设置如下：
+**[!UICONTROL 转化变量语法]**&#x200B;意味着您在其自身变量中设置 eVar 值。例如，使用转化变量语法，“内部关键词搜索”的`eVar1`值在页面代码(或AppMeasurement代码、Adobe Experience Platform Web SDK代码等)中设置如下：
 
 `s.eVar1="internal keyword search";`
 
@@ -388,7 +388,7 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 例如，单独设置 `s.eVar1="Internal Keyword Search"` 不会为“内部关键词搜索”的 eVar1 值提供任何实例量度点数。此时将记录一个实例。但是，除非在设置 `eVar1` 的同时将产品捆绑到该“内部关键词搜索”值，否则该实例将归因于“未指定”存储桶。换句话说，“内部关键词搜索”的 `eVar1` 值可以获得一个实例。但只有当同一图像请求的 products 变量中出现捆绑到“内部关键词搜索”值的产品时，才会发生这种情况。
 
-总之，如果不进行额外的配置，促销 eVar 的现成实例量度就没有多大用处。幸运的是，Adobe被释放了 [归因](/help/analyze/analysis-workspace/attribution/overview.md). 您可以借助它，为 Adobe Analytics 收集的任何自定义量度应用多个归因模型。应用这些归因模型的量度不使用 post_evar 列中包含的值或捆绑到任一种特定产品的值。这些量度仅使用通过图像请求本身传递的值（或通过 Adobe Analytics 处理规则捕获的值）。您可以使用“归因”中的功能，为所有使用转化变量语法的促销eVar获取准确归因的实例量度。
+总之，如果不进行额外的配置，促销 eVar 的现成实例量度就没有多大用处。幸运的是，Adobe发布了[归因](/help/analyze/analysis-workspace/attribution/overview.md)。 您可以借助它，为 Adobe Analytics 收集的任何自定义量度应用多个归因模型。应用这些归因模型的量度不使用 post_evar 列中包含的值或捆绑到任一种特定产品的值。这些量度仅使用通过图像请求本身传递的值（或通过 Adobe Analytics 处理规则捕获的值）。您可以使用“归因”中的功能，为所有使用转化变量语法的促销eVar获取准确归因的实例量度。
 
 ![归因选择](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 

@@ -4,7 +4,7 @@ description: 基于设备的 IP 地址和用户代理的维度。
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 100%
 

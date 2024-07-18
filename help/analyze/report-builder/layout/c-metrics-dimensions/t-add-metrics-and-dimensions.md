@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 39%
+source-wordcount: '582'
+ht-degree: 38%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 39%
 
 向请求添加量度和维度的步骤。
 
-1. 使用 [!UICONTROL 请求向导：第1步] 表单到 [创建数据请求](/help/analyze/report-builder/data-requests/data-requests.md)  然后单击 **[!UICONTROL 下一个]**.
-1. 在 [!UICONTROL 请求向导：第2步] 表单，双击量度，或者将量度拖动到所需的位置。
+1. 使用[!UICONTROL 请求向导：第1]步表单来[创建数据请求](/help/analyze/report-builder/data-requests/data-requests.md)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+1. 在“[!UICONTROL 请求向导：第2]步”窗体中，双击量度，或将其拖动到所需位置。
 
-   ![此屏幕截图显示了“请求向导：第2步”，其中有一个箭头从量度列表指向所需的页面查看部分。](assets/adding_metrics.png)
+   ![显示“请求向导：第2步”的屏幕截图，其中包含从量度列表指向所需页面查看部分的箭头。](assets/adding_metrics.png)
 
    添加量度时，不会将其从“[!UICONTROL 量度]”选项卡中删除，因为您可能会在一个请求中多次显示量度。例如，除了每个值外，您还可以显示量度小计。然而，每次添加或删除维度时，可用量度列表都会发生变化。
 
@@ -27,17 +27,17 @@ ht-degree: 39%
 
    请注意，在“量度”选项卡中的“量度”列表正上方会显示搜索栏。
 
-   ![显示“量度”搜索栏的屏幕截图。](assets/search_bar_metric.png)
+   ![显示量度搜索栏的屏幕截图。](assets/search_bar_metric.png)
 
 ## 准则
 
 添加量度和维度时，请考虑以下准则。
 
 * 输入搜索词时，列表会自动更新以显示标签与搜索词匹配的量度。
-* 匹配项不区分大小写，等同于 *包含* 搜索。
+* 匹配项不区分大小写，等同于&#x200B;*包含*&#x200B;搜索。
 * 全字搜索和其他特殊搜索标志（开头为、结尾为、AND和OR等） （“以...开始”、“以...结束”、“和”、“或”等）。
 
-如果您在单击时退出“请求向导”，则将清除搜索词 [!UICONTROL 完成] 或 [!UICONTROL 取消]，或者返回请求向导第1步，或者更改量度类别。
+如果您在单击[!UICONTROL 完成]或[!UICONTROL 取消]后退出“请求向导”，或者返回到“请求向导”第1步，或者更改“量度”类别，搜索词将被清除。
 
 未清除搜索词：
 
@@ -59,9 +59,9 @@ ht-degree: 39%
 要按指标对请求进行排序，请执行以下操作
 
 1. 单击量度标签。
-1. 添加维度. 使用与添加量度相同的方式添加维度。 请参阅上述步骤1和2。
+1. 添加维度。 使用与添加量度相同的方式添加维度。 请参阅上述步骤1和2。
 
-   在 [!UICONTROL Dimension] 选项卡中，系统显示划分维度或您选择的任何基础报表的分类 [!UICONTROL 请求向导：第1步]、和的报表包配置。 将维拖放到布局网格中时，该维将从树视图中移除，并重新计算剩余可用维的列表。
+   在[!UICONTROL Dimension]选项卡上，系统显示划分维度或分类您在[!UICONTROL 请求向导：第1]步以及报表包配置中选择的任何基础报表的维度。 将维拖放到布局网格中时，该维将从树视图中移除，并重新计算剩余可用维的列表。
 
    “[!UICONTROL 日期]”维度由系统自动添加。可用日期维度会因在“[!UICONTROL 请求向导: 第 1 步]”中选择的粒度而有所不同。有效值为︰
 
@@ -73,6 +73,6 @@ ht-degree: 39%
    * 日期范围（如果没有指定粒度）
 
 1. 通过配置[格式选项](/help/analyze/report-builder/layout/t-format-display-headers.md)和过滤器，修改量度和维度。
-1. 单击&#x200B;**[!UICONTROL 完成]**。在以下示例中，维度与“[!UICONTROL 页面]”量度相关联。此 [!UICONTROL 反向链接域] 维度创建划分报表，介于 [!UICONTROL 页面] 和 [!UICONTROL 反向链接域]. [!UICONTROL 维度]选项卡会进行更新，以便只显示可添加到划分报表的维度。
+1. 单击&#x200B;**[!UICONTROL 完成]**。在以下示例中，维度与“[!UICONTROL 页面]”量度相关联。[!UICONTROL 反向链接域]维度将创建介于[!UICONTROL 页面]和[!UICONTROL 反向链接域]之间的划分报表。 [!UICONTROL 维度]选项卡会进行更新，以便只显示可添加到划分报表的维度。
 
-   ![显示与指标相关的维度的屏幕截图。](assets/page_pageview_02.png)
+   ![显示与量度相关的维度的屏幕截图。](assets/page_pageview_02.png)

@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # charSet
 
-此 `charSet` 变量可将传入数据转换为UTF-8，以便Analytics进行存储和报告。Adobe可使用变量将传入数据转换为UTF-8。 大部分网站不需要设置此变量。
+Adobe使用`charSet`变量将传入数据转换为UTF-8，以便Analytics进行存储和报告。 大部分网站不需要设置此变量。
 
 只有当您在报表中看到了乱码值 ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) 时才设置此变量。如果您的网站在不同页面上使用不同编码，您可逐页设置此变量。
 
@@ -23,7 +23,7 @@ Web SDK当前仅支持UTF-8，不提供更改编码的选项。
 
 ## Adobe Analytics扩展中的“字符集”
 
-“字符集”是 [!UICONTROL 常规] 在Adobe Experience Platform数据收集中配置Adobe Analytics扩展时的折叠面板。
+在Adobe Experience Platform数据收集中配置Adobe Analytics扩展时，“字符集”是[!UICONTROL 常规]折叠面板下的字段。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。

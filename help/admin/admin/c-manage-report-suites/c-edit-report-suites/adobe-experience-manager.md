@@ -4,7 +4,7 @@ title: 查看 Adobe Analytics 中的 Adobe Experience Manager 数据
 feature: Admin Tools
 exl-id: 047933a6-b4eb-4fcc-9310-383d15f04ccb
 source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 

@@ -8,7 +8,7 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 复制简单请求，而不是引用请求。简单请求是指不引用另一请求或单元格内容的请求。
 
-[引用请求](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)使用单元格中的值作为参数的输入，如数据过滤器或关系过滤器。这些过滤器使用匹配或趋势条件，并且基于之前请求的结果或基于用户输入的单元格（称为输入单元格）内容。
+[引用请求](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)使用单元格中的值作为参数的输入，如数据过滤器或关系过滤器。这些筛选器使用匹配或趋势，并且基于先前请求的结果或基于用户输入的单元格（称为输入单元格）内容。
 
 复制简单请求
 

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1093'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ Analysis Workspace 中的异常检测使用一系列高级统计技术来确定�
 
 ## 贡献分析中使用的统计技术
 
-贡献分析是一个密集型计算机学习过程，专为揭示导致 Adobe Analytics 中所发现异常的因素而设计。它旨在帮助用户以远快于其他方式的速度找到执行进一步分析的焦点领域或时机。
+贡献分析是一个密集型计算机学习过程，专为揭示导致 Adobe Analytics 中所发现异常的因素而设计。意图在于协助用户以远快于其他方式的速度找到焦点领域或时机以供进行其他分析。
 
 贡献分析通过执行一个分为两部分的算法，即可对可用于用户贡献分析报表的每个维度项目完成此操作。此算法以下列顺序运行：
 

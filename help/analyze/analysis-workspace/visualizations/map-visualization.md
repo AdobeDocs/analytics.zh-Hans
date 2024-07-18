@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
@@ -57,10 +57,10 @@ Analysis Workspace 中的地图可视化
       * 显示负数：例如，如果您绘制的是年度同比指标，地图会在纽约上方显示 -33%。
       * 对于“百分数”类型的指标，群集会计算所有百分比的平均值。
       * 绿/红颜色方案：正/负
+
    * 通过按住 [!UICONTROL Ctrl] 键并移动地图，**旋转** 2D 或 3D 地图。
 
    * 使用以下描述的[设置](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)，**切换**&#x200B;到其他视图，如热图。请注意，气泡视图是默认设置。
-
 
 1. **保存**&#x200B;该项目，以保存所有地图设置（坐标、缩放、旋转）。
 1. 通过从左边栏拖入位置维度和指标，填充可视化下方的自由格式表：

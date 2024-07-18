@@ -6,14 +6,14 @@ role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 90%
+source-wordcount: '503'
+ht-degree: 89%
 
 ---
 
 # 多个报告包
 
-您可以在Analysis Workspace中使用多个报表包的数据创建项目。 报表包是在面板级别选择的，因此您可以在同一工作区项目中为每个面板选择不同的报表包。
+您可以在Analysis Workspace中使用多个报表包的数据创建项目。 由于报表包是在面板级别选择的，因此您可以为同一Workspace项目中的每个面板选择不同的报表包。
 
 例如，如果您想要
 

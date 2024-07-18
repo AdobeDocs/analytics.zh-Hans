@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 90%
 ## “组件”>“区段”
 
 * 某些量度和维度不可分段，如[!UICONTROL 发生次数]、[!UICONTROL 唯一访客]，等等。
-* 在中创建的临时区段 [面板拖放区域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans) 是一种快速过滤器。 除非将这些变量公开，否则它们不会显示在工作区或区段组件管理器的左边栏中。 有关更多信息，请参阅 [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* 在[面板放置区](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)中创建的临时区段是一种快速过滤器。除非公开这些区段，否则它们不会出现在 Workspace 的左边栏或区段组件管理器中。有关更多信息，请参阅[快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)。
 
 ## “组件”>“计算量度”
 
@@ -58,4 +58,4 @@ ht-degree: 90%
 
 ## 归因
 
-* [!UICONTROL Attribution ] 中不支持量度的子集。有关完整列表，请参阅 [Attribution 常见问题解答](/help/analyze/analysis-workspace/attribution/faq.md)。
+* [!UICONTROL 归因]中不支持量度的子集。有关完整列表，请参阅[归因常见问题解答](/help/analyze/analysis-workspace/attribution/faq.md)。

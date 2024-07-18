@@ -20,7 +20,7 @@ ht-degree: 75%
 渠道已映射到以下变量：
 
 * [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `web.webPageDetails.siteSection`
-* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.channel` 或 `data.__adobe.analytics.ch`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.channel`或`data.__adobe.analytics.ch`
 
 ## 使用Adobe Analytics扩展的“渠道”
 
@@ -30,7 +30,7 @@ ht-degree: 75%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 渠道]部分。
 
 可以将渠道设置为任何字符串值或数据元素。

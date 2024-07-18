@@ -30,8 +30,8 @@ ht-degree: 94%
    ![创建数据元素](assets/createelement.png)
 
 1. 输入数据元素的名称。它可以是一个简单标签，对应于要跟踪的数据层中的 JavaScript 变量。
-1. 在 **[!UICONTROL 扩展名]** 下拉列表，选择 **[!UICONTROL 核心]**.
-1. 在 **[!UICONTROL 数据元素类型]** 下拉列表，选择 **[!UICONTROL JavaScript变量]**. 右侧会显示一个文本字段，允许您输入要映射到此数据元素的 JavaScript 变量。
+1. 在&#x200B;**[!UICONTROL 扩展]**&#x200B;下拉列表下，选择&#x200B;**[!UICONTROL 核心]**。
+1. 在&#x200B;**[!UICONTROL 数据元素类型]**&#x200B;下拉列表下，选择&#x200B;**[!UICONTROL JavaScript变量]**。 右侧会显示一个文本字段，允许您输入要映射到此数据元素的 JavaScript 变量。
 1. 通常情况下，在数据层中输入所需的 Javascript 变量。例如，如果贵组织的数据层比较符合 Adobe 的建议做法，则该值可能为 `digitalData.page.pageInfo.pageName`。您可以使用浏览器的控制台来验证 JavaScript 变量语法和值。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

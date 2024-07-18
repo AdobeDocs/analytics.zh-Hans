@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## 使用 Web SDK 的事件
 
-如果使用 [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)，自定义事件使用以下XDM字段：
+如果使用[XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)，则自定义事件使用以下XDM字段：
 
 * 自定义事件 1-100 将映射到 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`。
 * 自定义事件 101-200 将映射到 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`。
@@ -38,7 +38,7 @@ ht-degree: 85%
 >
 >如果在 `productListItems` 下设置一个事件（例如 `productListItems._experience.analytics.event1.value`），并且该事件尚未在此字段中，则该事件会自动添加到此字段中。
 
-如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，所有事件都使用 `data.__adobe.analytics.events`，遵循字符串AppMeasurement语法。 如果设置此字段，则会覆盖XDM对象中设置的任何事件，且不会发送到Adobe Analytics。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则所有事件都使用`data.__adobe.analytics.events`，并遵循AppMeasurement字符串语法。 如果设置此字段，则会覆盖XDM对象中设置的任何事件，且不会发送到Adobe Analytics。
 
 ## 使用 Adobe Analytics 扩展的事件
 
@@ -48,14 +48,14 @@ ht-degree: 85%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 事件]部分。
 
 可使用以下几项功能：
 
 * 一个下拉列表，允许您选择要包含的事件
 * 用于序列化的可选文本字段。请参阅[事件序列化](event-serialization.md)以了解更多信息。
-* 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，选择 `event1` 位于下拉列表下并包括 `10` 在此字段中递增 `event1` 在报表中增加10%。
+* 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，在下拉列表下选择`event1`并在此字段中包含`10`，报表中的`event1`将增加10。
 * 用于添加其他事件的按钮。您可以在合理的范围内向单个规则添加所需数量的事件。
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.events

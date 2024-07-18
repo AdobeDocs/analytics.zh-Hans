@@ -20,7 +20,7 @@ ht-degree: 39%
 | **使用标记** | [从Analytics扩展迁移到Web SDK扩展](analytics-extension-to-web-sdk.md) | [使用Web SDK扩展将数据发送到Adobe Analytics](web-sdk-tag-extension.md) |
 | **使用JavaScript** | [从AppMeasurement迁移到Web SDK JavaScript库](appmeasurement-to-web-sdk.md) | [使用Web SDK JavaScript库将数据发送到Adobe Analytics](web-sdk-javascript-library.md) |
 
-如果您的组织需要新的Web SDK实施并计划在未来使用Customer Journey Analytics，则Adobe建议使用您自己的架构来实施干净的Web SDK。 请参阅 [通过Adobe Experience Platform Web SDK引入数据](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) 《Customer Journey Analytics用户指南》中的。
+如果您的组织需要新的Web SDK实施并计划在未来使用Customer Journey Analytics，则Adobe建议使用您自己的架构来实施干净的Web SDK。 请参阅Customer Journey Analytics用户指南中的[通过Adobe Experience Platform Web SDK摄取数据](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
 
 ## 其他资源
 

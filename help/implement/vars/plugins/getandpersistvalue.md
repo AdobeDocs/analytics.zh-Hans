@@ -15,17 +15,17 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。其作用与 [!UICONTROL 存储持续时间] Adobe Experience Platform数据收集中的Adobe Analytics扩展中的功能。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。在以下情况下，无需使用此插件 [!UICONTROL 存储持续时间] Analytics扩展中的功能便已足够。 如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。eVar 的内置持久性不需要使用此插件，因为 eVar 会由 Adobe 保留在服务器端。
+`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。其作用与Adobe Experience Platform数据收集中Adobe Analytics扩展的[!UICONTROL 存储持续时间]功能类似。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果Analytics扩展中的[!UICONTROL 存储持续时间]功能足够，则没必要使用此插件。 如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。eVar 的内置持久性不需要使用此插件，因为 eVar 会由 Adobe 保留在服务器端。
 
 ## 使用Web SDK扩展安装此插件
 
 Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Web SDK结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 标记]** 单击左侧的，然后单击所需的标记属性。
-1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
-1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
-1. 单击 **[!UICONTROL 数据元素]** 单击左侧的，然后单击所需的数据元素。
+1. 单击左侧的&#x200B;**[!UICONTROL 标记]**，然后单击所需的标记属性。
+1. 单击左侧的&#x200B;**[!UICONTROL 扩展]**，然后单击&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡
+1. 找到并安装&#x200B;**[!UICONTROL 常用Web SDK插件]**&#x200B;扩展。
+1. 单击左侧的&#x200B;**[!UICONTROL 数据元素]**，然后单击所需的数据元素。
 1. 使用以下配置设置所需的数据元素名称：
    * 扩展：常用Web SDK插件
    * 数据元素： `getAndPersistValue`

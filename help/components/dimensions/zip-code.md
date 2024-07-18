@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 80%
+source-wordcount: '266'
+ht-degree: 79%
 
 ---
 
 # 邮政编码
 
-“邮政编码” [维度](overview.md) 报告访客的邮政编码。 利用此维度，您可以进一步了解本地广告是否成功或了解网站在全球哪个地区的表现最好。
+“邮政编码”[维度](overview.md)报告访客的邮政编码。 利用此维度，您可以进一步了解本地广告是否成功或了解网站在全球哪个地区的表现最好。
 
 ## 使用数据填充此维度
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 如果您选择使用任何涉及地域邮政编码的选项：
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，启用 [!UICONTROL 地理查找] 时间 [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans).
+* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)时启用[!UICONTROL 地理查找]。
 
 ## 维度项
 

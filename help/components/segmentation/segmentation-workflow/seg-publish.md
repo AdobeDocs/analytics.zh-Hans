@@ -1,6 +1,6 @@
 ---
 description: 允许您将区段用于“受众库”、Target 和 Audience Manager 中的营销活动。
-title: 将区段发布到Experience Cloud
+title: 要Experience Cloud的Publish区段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 5ef087f1fa4f55b98e9160bc90b8d10c6709a425
@@ -10,9 +10,9 @@ ht-degree: 74%
 
 ---
 
-# 将区段发布到Experience Cloud
+# 要Experience Cloud的Publish区段
 
-将Adobe Analytics区段发布到Experience Cloud后，您可以将该区段用于中的营销活动 [!DNL Audience Manager] 和其他激活渠道(包括Adobe [!DNL Advertising Cloud]， [!DNL Target] 和 [!DNL Campaign]. 最近的更新显著优化了发布工作流程。您现在可以在 8 小时内将 Analytics 区段发布到 Experience Cloud。使用这些区段将 Audience Manager 中的受众激活到所有下游目标。
+将Adobe Analytics区段发布到Experience Cloud后，您可以将该区段用于[!DNL Audience Manager]和其他激活渠道中的营销活动，包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign]。 最近的更新显著优化了发布工作流程。您现在可以在 8 小时内将 Analytics 区段发布到 Experience Cloud。使用这些区段将 Audience Manager 中的受众激活到所有下游目标。
 
 我们还将可发布的 Adobe Analytics 区段的最大数量从 20 个增加到了 75 个。您可以在 [!UICONTROL Analytics > 组件 > 区段]中查看已发布的区段。
 
@@ -26,7 +26,7 @@ ht-degree: 74%
 
 ## 先决条件
 
-* 确保要保存此区段的报表包为 [已启用Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hans). 否则，您无法将其发布到Experience Cloud。
+* 请确保要保存此区段的报表包已[启用Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hans)。 否则，您无法将其发布到Experience Cloud。
 * 确保您的组织使用的是 Experience Cloud ID。
 * 在发布区段之前，您的管理员需要先在[管理控制台](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
 
@@ -64,9 +64,9 @@ ht-degree: 74%
 
 | 元素 | 描述 |
 |---|---|
-| **[!UICONTROL 将此区段发布到Experience Cloud(对于 *`<report suite>`*)]** | 启用此选项后，区段标题和定义（即，广告平台中经常使用的Shell受众）会立即与Experience Cloud共享，而区段成员资格则每4小时进行一次评估和共享。 <br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在 [!DNL Audience Library] Experience Cloud中的页面。 </br> |
+| **[!UICONTROL 将此区段Publish到Experience Cloud（对于&#x200B;*`<report suite>`*）]** | 启用此选项后，区段标题和定义（即，广告平台中经常使用的Shell受众）会立即与Experience Cloud共享，而区段成员资格则每4小时进行一次评估和共享。 <br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在Experience Cloud的[!DNL Audience Library]页面中。</br> |
 | **[!UICONTROL 受众创建窗口]** | 您选择用于在滚动日历基础上创建受众的时间范围。例如，“最近 30 天”（默认）包括从当天日期（不是最初创建区段的日期）起，最近 30 天中符合受众条件的访客。 |
-| **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在 [!DNL Audience Library] Experience Cloud中的页面。 它们不依赖于 Analytics 更新。这些区段不会计入 75 个已发布区段的限制。 |
+| **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在Experience Cloud的[!DNL Audience Library]页面上无延迟地提供。 它们不依赖于 Analytics 更新。这些区段不会计入 75 个已发布区段的限制。 |
 | **[!UICONTROL 已发布 x 个（限制为 75 个）]** | 显示您已发布到Experience Cloud的区段数。 单击该链接可查看已发布的区段，及其关联的报告包和所有者的列表。 |
 | **[!UICONTROL 保存]** | 保存此区段。 |
 
@@ -98,20 +98,23 @@ ht-degree: 74%
 
 1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](/help/implement/validate/debugger.md)。
 1. 加载页面时启动该调试器。
-1. 滚动到Audience Manager部分，然后找到在当前浏览器页面上设置的Adobe Audience Manager UUID (`50814298273775797762943354787774730612` 在以下示例中)
+1. 滚动到Audience Manager部分，然后找到在当前浏览器页面上设置的Adobe Audience Manager UUID
+（以下示例中的`50814298273775797762943354787774730612`）
 
 ![调试程序](assets/debugger.jpg)
 
 ### 方法 2：使用 Chrome 开发人员工具（或其他浏览器开发人员工具）
 
 1. 在加载页面之前启动 Chrome 开发人员工具
-1. 加载页面，并选中“应用程序”>“Cookie”。Adobe Audience Manager UUID应在第三方Demdex Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) （如下例所示）。 字段“demdex”即为在浏览器中设置的Adobe Audience Manager UUID(`50814298273775797762943354787774730612` （如下例所示）。
+1. 加载页面，并选中“应用程序”>“Cookie”。Adobe Audience Manager UUID应在第三方中设置
+Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans)）。 字段demdex是Adobe Audience Manager UUID集
+在浏览器上（以下示例中为`50814298273775797762943354787774730612`）。
 
 ![Chrome 开发人员工具](assets/ggogle-uuid.png)
 
 ## 使用 Audience Manager [!UICONTROL 访客资料查看器]
 
-默认情况下，出现以下情况时，将使用浏览器上的Adobe Audience Manager UUID [!UICONTROL 访客资料查看器] 已加载。 如果验证其他用户的特性实现，请在“UUID”字段中输入 UUID，然后单击“[!UICONTROL 刷新]”。请参阅[访客资料查看器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hans)，以了解详细信息。
+加载[!UICONTROL 访客资料查看器]时，默认情况下将使用浏览器上的Adobe Audience Manager UUID。 如果验证其他用户的特性实现，请在“UUID”字段中输入 UUID，然后单击“[!UICONTROL 刷新]”。请参阅[访客资料查看器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hans)，以了解详细信息。
 
 ![Audience Manager 个人资料查看器](assets/aam-vpv.png)
 

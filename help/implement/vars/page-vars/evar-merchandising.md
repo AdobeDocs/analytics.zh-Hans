@@ -45,7 +45,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ### 使用 Web SDK 的产品语法
 
-如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，产品语法促销变量使用以下XDM字段：
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则产品语法促销变量使用以下XDM字段：
 
 * 产品语法促销 eVar 在 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 下映射到 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`。
 * 产品语法促销事件在 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 下映射到 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`。 [事件序列化](events/event-serialization.md)XDM 字段在 `xdm.productListItems[]._experience.analytics.event1to100.event1.id` 下映射到 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`。
@@ -87,7 +87,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 上述示例对象将作为 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` 发送到 Adobe Analytics。
 
-如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，eVar促销用途 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` 遵循AppMeasurement语法。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则eVar促销将使用`data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250`以下AppMeasurement语法。
 
 ## 使用转化变量语法实施
 
@@ -111,7 +111,7 @@ s.products = ";Canary";
 
 ### 使用 Web SDK 的转化变量语法
 
-如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，语法的操作方式与实现其他语法类似 [eVar](evar.md) 和 [事件](events/events-overview.md). 镜像上述示例的 XDM 如下所示：
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则语法的操作方式与实现其他[eVars](evar.md)和[events](events/events-overview.md)类似。 镜像上述示例的 XDM 如下所示：
 
 在同一或上个事件调用中设置 eVar：
 
@@ -142,7 +142,7 @@ s.products = ";Canary";
 ]
 ```
 
-如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则镜像上述示例的数据对象将如下所示：
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则镜像上述示例的数据对象将如下所示：
 
 在同一或上个事件调用中设置 eVar：
 

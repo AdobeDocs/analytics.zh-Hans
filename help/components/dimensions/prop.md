@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '471'
 ht-degree: 93%
 
 ---
 
 # Prop
 
-*此帮助页介绍prop如何作为使用 [维度](overview.md). 有关如何实施 Prop 的信息，请参阅实施用户指南中的 [Prop](/help/implement/vars/page-vars/prop.md)。*
+*此帮助页介绍prop如何作为[维度](overview.md)使用。 有关如何实施 Prop 的信息，请参阅实施用户指南中的 [Prop](/help/implement/vars/page-vars/prop.md)。*
 
 Prop 是自定义变量，您可以根据需要随意使用。它们不会在设置的点击之外继续存在。
 
@@ -30,7 +30,7 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 
 ## 维度项目
 
-由于 Prop 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 Prop 的维度项目。请确保将每个Prop的用途和典型维度项目记录在 [解决方案设计文档](/help/implement/prepare/solution-design.md).
+由于 Prop 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 Prop 的维度项目。请确保在[解决方案设计文档](/help/implement/prepare/solution-design.md)中记录每个Prop的用途和典型维度项目。
 
 ## 区分大小写
 

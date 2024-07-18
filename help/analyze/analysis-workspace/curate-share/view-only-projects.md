@@ -8,15 +8,15 @@ exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 # 仅供查看的项目
 
-您可以通过[项目共享工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)与收件人共享“仅查看”项目。处于“可以查看”角色的收件人将获得更有限的项目体验。如果您将项目共享给不太熟悉您组织的数据结构(通常情况下是Analysis Workspace或Adobe Analytics)的用户，但仍希望他们在安全的环境中使用数据和见解，则可能希望这样做。
+您可以通过[项目共享工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)与收件人共享“仅查看”项目。处于“可以查看”角色的收件人将获得更有限的项目体验。如果您将项目共享到不太熟悉您组织的数据结构（一般为 Analysis Workspace 或 Adobe Analytics）的用户，但仍想让他们在安全的环境下使用数据和洞察，则可能想要这样做。
 
-请注意，即使是在仅查看项目中，您也可以编辑面板日历日期范围。
+请注意，即使在仅供查看的项目中，也可编辑面板日历日期范围。
 
 ![](assets/view-only-project.png)
 

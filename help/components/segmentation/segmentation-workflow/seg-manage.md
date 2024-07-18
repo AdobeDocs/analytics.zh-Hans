@@ -6,7 +6,7 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -20,11 +20,11 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
 
 ## 访问区段管理器
 
-1. 在Adobe Analytics中，选择 **[!UICONTROL 组件]** 选项卡，然后选择 **[!UICONTROL 区段]**.
+1. 在Adobe Analytics中，选择&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 区段]**。
 
    或
 
-   在现有报表中，选择区段图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 在左侧导航中，然后选择 **[!UICONTROL 管理]**.
+   在现有报表中，选择左侧导航中的区段图标![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)，然后选择&#x200B;**[!UICONTROL 管理]**。
 
 ## 区段管理器中的可用操作
 
@@ -52,23 +52,23 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
 
 要在区段管理器中配置可见列，请执行以下操作：
 
-1. 在Adobe Analytics中，选择 **[!UICONTROL 组件]** 选项卡，然后选择 **[!UICONTROL 区段]**.
+1. 在Adobe Analytics中，选择&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 区段]**。
 
-1. 在区段管理器中，选择 **自定义列** 图标 ![自定义列图标](assets/customize-columns-icon.png)，然后选择要显示在区段管理器中的列。
+1. 在区段管理器中，选择&#x200B;**自定义列**&#x200B;图标![自定义列图标](assets/customize-columns-icon.png)，然后选择要显示在区段管理器中的列。
 
    以下列可供使用：
 
    | 列标题 | 描述 |
    |---|---|
    | 标题和描述 | 这些值在区段生成器中提供。 要编辑标题和描述，请选择标题链接以打开区段生成器。 |
-   | 收藏 | 在每个区段旁边显示星形图标，以使您可以将区段标记为收藏。 有关更多信息，请参阅 [将区段标记为收藏](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | 收藏 | 在每个区段旁边显示星形图标，以使您可以将区段标记为收藏。 有关详细信息，请参阅[将区段标记为收藏](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)。 |
    | 报表包 | 此列指示区段最后保存的报表包。 |
    | 所有者 | 指示区段的所有者。如果是非管理员，则只能看到您拥有的区段或与您分享的区段。 |
    | 标记（在列选择器中未选择，因此列不显示） | 应用到区段的标记，由您或与您共享该区段的人添加。 |
    | 共享对象 | 列出您共享该区段的个人或组（仅管理员）或所有人（仅管理员）。 <p>当您或与您共享区段时，区段名称旁边会显示一个共享图标。</p> |
    | 修改日期 | 显示最后一次修改区段的日期。 |
-   | 用在 | 显示区段当前使用的组件数。 <p>例如，如果该区段在40个项目和2个警报中使用，则此列的值显示为 [!UICONTROL **42个组件**].</p> <p>选择此列中的值可查看使用区段的位置的细分(例如， [!UICONTROL **项目(40)**]， [!UICONTROL **警报(2)**])。</p><p>区段可用于以下任何组件类型中：</p> <ul><li>警报</li><li>项目</li><li>计划项目</li><li>计算量度</li></ul><p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看此列时，请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>此 [!UICONTROL **使用位置**] 默认情况下不显示列。 [配置列](#configure-columns) 以显示。</li><li>如果此列中没有给定组件的数据，但它具有 [!UICONTROL **上次使用时间**] 日期，该组件可能用于分析而没有保存。</li><li>此信息仅供系统管理员使用。</li></ul><p>您可以使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 以及此信息，以帮助您跟踪并更好地了解组织中如何使用组件。</p> |
-   | 上次使用时间 | 显示上次在以下任意组件类型中使用区段的日期： <ul><li>警报</li><li>计算量度</li><li>项目</li><li>计划项目</li><li>区段</li></ul> <p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看此列时，请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>对于某些组件，如果上次在2023年9月之前使用该组件，则此列可能不包含数据。</li><li>此信息仅供系统管理员使用。</li></ul><p>您可以使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 以及此信息，以帮助您跟踪并更好地了解组织中如何使用组件。 |
+   | 用在 | 显示区段当前使用的组件数。 <p>例如，如果该区段在40个项目和2个警报中使用，则此列的值显示为&#x200B;[!UICONTROL **42个组件**]。</p> <p>选择此列中的值可查看正在使用区段的细分(例如，[!UICONTROL **项目(40)**]、[!UICONTROL **警报(2)**])。</p><p>区段可用于以下任何组件类型中：</p> <ul><li>警报</li><li>项目</li><li>计划项目</li><li>计算量度</li></ul><p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看本列时请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>默认情况下，[!UICONTROL **Used in**]&#x200B;列不显示。 [配置列](#configure-columns)以显示它。</li><li>如果此列中没有给定组件的数据，但它具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，则表示该组件可能未保存便已在分析中使用。</li><li>此信息仅供系统管理员使用。</li></ul><p>您可以将[数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)与此信息一起使用，以帮助您跟踪和更好地了解组织中如何使用组件。</p> |
+   | 上次使用时间 | 显示上次在以下任意组件类型中使用区段的日期： <ul><li>警报</li><li>计算量度</li><li>项目</li><li>计划项目</li><li>区段</li></ul> <p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看本列时请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>对于某些组件，如果上次在2023年9月之前使用该组件，则此列可能不包含数据。</li><li>此信息仅供系统管理员使用。</li></ul><p>您可以将[数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)与此信息一起使用，以帮助您跟踪和更好地了解组织中如何使用组件。 |
 
    {style="table-layout:auto"}
 

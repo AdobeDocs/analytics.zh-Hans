@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 72%
 1. 在“请求向导”的第 1 步中，例如，选择&#x200B;**[!UICONTROL 页面]**&#x200B;报表。
 1. 在&#x200B;**[!UICONTROL 常用日期]**&#x200B;下拉列表的旁边，单击&#x200B;**[!UICONTROL 控件设置]**&#x200B;图标：
 
-   ![“请求向导：第1步”的屏幕截图，突出显示了“控件设置”图标。 ](assets/date_range_control.png)
+   ![“请求向导：第1步”屏幕截图，突出显示“控件设置”图标。](assets/date_range_control.png)
 
 1. 在“控件设置”对话框中，选择要在交互控件中显示的所有日期范围项。此外，指定控件的左上角单元格位置。
 
-   ![显示选定日期范围项目和左上角单元格位置的屏幕截图。](assets/control_settings.png)
+   ![显示选定日期范围项和左上角单元格位置的屏幕截图。](assets/control_settings.png)
 
 1. 请注意“根据项目选择自动刷新链接的请求”选项。
 
@@ -51,7 +51,7 @@ ht-degree: 72%
 
 1. 现在，您可以更改日期范围，请求将根据此日期范围进行刷新。
 
-   ![显示选定日期范围的屏幕截图。](assets/date_range_control_interactive.png)
+   ![显示选定日期范围的屏幕快照。](assets/date_range_control_interactive.png)
 
 1. 您还可以复制请求，然后单击鼠标右键以使用两个“粘贴请求”选项之一：
 
@@ -69,11 +69,11 @@ ht-degree: 72%
 
 1. 在“请求向导”的第 1 步中，在&#x200B;**[!UICONTROL 区段]**&#x200B;下拉列表旁边选择“区段控件设置”图标：
 
-   ![“区段控件设置”图标的屏幕截图。](assets/segment_interactive_1.png)
+   ![区段控件设置图标屏幕截图。](assets/segment_interactive_1.png)
 
 1. 在“区段控件设置”对话框中，选择要包含在下拉列表中的区段。此外，指定控件的左上角单元格位置。
 
-   ![此屏幕截图显示了包含选定区段和单元格位置的“区段控制设置”。](assets/segment_drop_down_properties.png)
+   ![显示选定区段和单元格位置的“区段控制设置”的屏幕截图。](assets/segment_drop_down_properties.png)
 
 1. 现在，新的交互控件将显示在工作簿中：
 

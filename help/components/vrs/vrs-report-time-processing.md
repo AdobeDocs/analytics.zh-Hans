@@ -14,7 +14,7 @@ ht-degree: 72%
 
 # 报表时间处理
 
-[!UICONTROL 报表时间处理] 是一种虚拟报表包设置，它允许以一种非破坏性的追溯方式处理Analysis Workspace中的数据。
+[!UICONTROL 报表时间处理]是一个虚拟报表包设置，它允许以一种非破坏性的追溯方式处理Analysis Workspace中的数据。
 
 [!UICONTROL 报表时间处理]仅影响虚拟报表包中的数据，不影响基本报表包中的任何数据或数据收集。 使用下图可以最好地理解[!UICONTROL 报表时间处理]和传统 Analytics 处理之间的区别：
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 
 这种处理架构提供了更为灵活的报表选项。例如，您可以无损地将访问超时时段更改为所需的任意时间长度，这些更改将反映在完整报表时段的eVar持久性和区段容器中。 此外，您还可以创建任意数量的虚拟报表包，每个虚拟报表包均具有不同的报表时间处理选项，这些选项基于相同的基础报表包，而无需更改基础报表包中的任何数据。
 
-[!UICONTROL 报表时间处理] 还允许Analytics避免将后台点击计算为新的访问，并且允许 [Adobe Experience Platform移动SDK](https://experienceleague.adobe.com/docs/mobile.html) ，以便在每次触发应用程序启动事件时即开始一次新访问。
+[!UICONTROL 报表时间处理]还允许Analytics避免将后台点击计算为新的访问，并允许[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)在每次触发应用程序启动事件时才开始一次新访问。
 
 ## 配置选项
 
@@ -53,7 +53,7 @@ ht-degree: 72%
 报表时间处理不支持以下维度和量度：
 
 * **Analytics for Target**
-* **Analytics for Advertising Cloud维度/量度**
+* **Analytics for Advertising Cloud维度/指标**
 * **计数器eVar**
 * [**首次购买间隔天数**](/help/components/dimensions/days-before-first-purchase.md)
 * [**上次购买间隔天数**](/help/components/dimensions/days-since-last-purchase.md)
@@ -73,16 +73,16 @@ ht-degree: 72%
 以下是受影响的维度和指标列表，具体取决于所选的报表时间处理设置：
 
 * 如果启用了“避免将后台点击计算为一次新的访问”，则会发生以下更改。有关详细信息，请参阅[上下文感知会话化](vrs-mobile-visit-processing.md)。
-   * [**跳出次数**](/help/components/metrics/bounces.md) / [**跳出率：**](/help/components/metrics/bounce-rate.md) 未后跟前台点击的后台点击不被视为跳出，也不会增加跳出率。
+   * [**跳出次数**](/help/components/metrics/bounces.md) / [**跳出率：**](/help/components/metrics/bounce-rate.md)&#x200B;未后跟前台点击的后台点击不被视为跳出，也不会增加跳出率。
    * [**每次访问逗留时间（秒）：**](/help/components/metrics/time-spent-per-visit.md)&#x200B;只有包含前台点击的访问才会计入此指标。
    * **每次访问逗留时间：**&#x200B;只有包含前台点击的访问才会计入此指标。
-   * [**登入量度**](/help/components/metrics/entries.md) / [**退出量度：**](/help/components/metrics/exits.md) 此维度中仅显示具有前台点击的访问中的登入和退出次数。
-   * [**登入维度**](/help/components/dimensions/entry-dimensions.md) / [**退出维度：**](/help/components/dimensions/exit-dimensions.md) 此维度中仅显示具有前台点击的访问中的登入和退出次数。
+   * [**登录指标**](/help/components/metrics/entries.md) / [**退出指标：**](/help/components/metrics/exits.md)&#x200B;此维度中仅显示具有前台点击的访问中的登录和退出次数。
+   * [**登录维度**](/help/components/dimensions/entry-dimensions.md) / [**退出维度：**](/help/components/dimensions/exit-dimensions.md)&#x200B;此维度中仅显示具有前台点击的访问中的登录和退出。
    * [**独特访客数指标：**](/help/components/metrics/unique-visitors.md)&#x200B;独特访客数不包括在报表日期范围内只具有后台点击的访客。
 * [**访问次数：**](/help/components/metrics/visits.md)&#x200B;访问次数反映了虚拟报表包配置的任何设置，这些设置可能与基础报表包不同。
 * **使用事件 ID 序列化的事件：**&#x200B;对于一个访客在报表日期范围内发生的事件，只会对使用事件 ID 进行序列化的事件进行重复数据删除。由于报表时间处理存在日期时限，因此，不会在全局范围内对所有日期或访客发生的这些事件进行重复数据删除。
-* **购买** / [**收入**](/help/components/metrics/revenue.md) / [**订购**](/help/components/metrics/orders.md) / [**单位：**](/help/components/metrics/units.md) 使用购买ID时，由于报表时间处理存在日期时限，这些量度仅会对一个访客在报表日期范围内出现的重复购买ID进行重复数据删除，而不会在全局范围内对所有日期或访客出现的重复购买ID进行重复数据删除。
-* [**非推销eVar**](/help/components/dimensions/evar.md) / **保留的eVar：** 只有在由于报表时间处理存在日期时限而于报表日期范围内设置了值的情况下，eVar中设置的值才会保留。 此外，如果持久保留时间跨越夏令时变更，则基于时间的过期可能会提前一小时或延后一小时。
-* [**促销eVar**](/help/components/dimensions/evar-merchandising.md) / **保留的eVar：** 请参阅上文。 此外，对于将绑定设置为“任何事件”的转化语法，将改用“任何点击”。
+* **购买** / [**收入**](/help/components/metrics/revenue.md) / [**订单**](/help/components/metrics/orders.md) / [**件数：**](/help/components/metrics/units.md)&#x200B;当使用购买ID时，由于报表时间处理存在日期时限，这些量度仅会对一个访客在报表日期范围内出现的重复购买ID进行重复数据删除，而不会在全局范围内对所有日期或访客出现的重复购买ID进行重复数据删除。
+* 由于报表时间处理存在日期时限，因此只有在报表日期范围内设置了&#x200B;[**非推销eVars**](/help/components/dimensions/evar.md) / **保留eVars：**&#x200B;值时，eVar中设置的值才会保留。 此外，如果持久保留时间跨越夏令时变更，则基于时间的过期可能会提前一小时或延后一小时。
+* [**促销eVar**](/help/components/dimensions/evar-merchandising.md) / **保留eVar：**&#x200B;请参阅上文。 此外，对于将绑定设置为“任何事件”的转化语法，将改用“任何点击”。
 * [**点击类型：**](/help/components/dimensions/hit-type.md)&#x200B;此维度指定点击是前台点击还是后台点击。
 * **具有（低流量）或“超出唯一数”的维度：**（低流量）订单项在使用报表时间处理时的确定略有不同，并且不能保证与在基本报表包上生成报表时观察到的一致。不属于“低流量”的Dimension行项目不能保证代表该行项目的100%数据。 维度中存在的唯一值数量越多，这些差异就越明显。

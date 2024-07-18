@@ -21,7 +21,7 @@ ht-degree: 94%
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
 * “value”字段，其中包含 Analytics 应在每个报告包的关联命名空间变量中搜索的 ID。
 
-请参阅 [Experience Cloud数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans) 了解更多详情和 [标准身份命名空间列表](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). 请参阅 [创建访问/删除作业](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) 以获取示例请求。
+有关更多详细信息和[标准身份命名空间列表](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces)，请参阅[Experience Cloud数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。 请参阅为示例请求创建访问/删除作业[](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete)。
 
 ## Cookie ID
 
@@ -114,6 +114,6 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->命名空间 `visitorId` 和 `customVisitorId` 保留以标识Analytics旧版跟踪Cookie和Analytics客户的访客ID。 请勿将这些命名空间用于自定义流量或转换变量。
+>命名空间`visitorId`和`customVisitorId`是保留名称，用于识别Analytics旧版跟踪Cookie和Analytics客户的访客ID。 请勿将这些命名空间用于自定义流量或转换变量。
 
 有关更多信息，请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间。](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

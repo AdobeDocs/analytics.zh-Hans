@@ -49,7 +49,7 @@ Adobe客户关怀团队有时可以为少量维度增加唯一值限制，从而
 
 >[!TIP]
 >
->随着 [策划](/help/analyze/analysis-workspace/curate-share/curate.md)，则可以根据每个虚拟报表包更改给定维度或量度的名称。
+>通过引入[管理](/help/analyze/analysis-workspace/curate-share/curate.md)，您可以基于每个虚拟报表包更改给定维度或量度的名称。
 
 ### 分段细微差别
 

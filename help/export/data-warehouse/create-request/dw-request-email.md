@@ -6,7 +6,7 @@ exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 30%
+ht-degree: 38%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 30%
 
 要为Data Warehouse请求配置通知电子邮件，请执行以下操作：
 
-1. 如果还没有该请求，请选择以开始在Adobe Analytics中创建请求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **添加**].
+1. 如果还没有，请选择“**[!UICONTROL 工具]**”>“**[!UICONTROL Data Warehouse]**”>“[!UICONTROL **添加**]”，开始在 Adobe Analytics 中创建请求。
 
    有关更多详细信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
-1. 在“新建Data Warehouse请求”页面上，选择 [!UICONTROL **通知电子邮件**] 选项卡。
+1. 在“新建Data Warehouse请求”页面上，选择&#x200B;[!UICONTROL **通知电子邮件**]&#x200B;选项卡。
 
    ![“报表目标”选项卡](assets/dw-notification-email.png)
 
@@ -35,6 +35,6 @@ ht-degree: 30%
 
    {style="table-layout:auto"}
 
-1. 选择 [!UICONTROL **保存请求**] 以保存Data Warehouse报表请求。
+1. 选择&#x200B;[!UICONTROL **保存请求**]&#x200B;以保存Data Warehouse报表请求。
 
    您现在可以将数据导出到您配置的帐户和位置。

@@ -7,7 +7,7 @@ exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 82%
+ht-degree: 74%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 82%
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png)[ 通过以下方法创建虚拟报表包](/help/components/vrs/c-workflow-vrs/vrs-create.md)：向父报表包应用一个或多个区段。
 
-可在虚拟报表包管理器中创建虚拟报表包，该管理器可通过以下方式获取： **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**.
+虚拟报表包在虚拟报表包管理器中创建，可通过&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**&#x200B;使用。
 
 创建虚拟报表包后，在整个用户界面中都会像对待基础报表包一样对待虚拟报表包，并且大部分扩展功能通常也支持虚拟报表包。例如，报表包选择器中会显示虚拟报表包，可以像选择任何其他报表包一样逐个选择虚拟报表包。
 
-单击报表包名称旁边的“信息”按钮可[查看有关该报表包的信息](/help/components/vrs/c-workflow-vrs/vrs-view.md)。
+单击报表包名称旁边的“信息”图标可[查看有关该报表包的信息](/help/components/vrs/c-workflow-vrs/vrs-view.md)。
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) 打开一个项目或报表，然后选择一个虚拟报表包，以提供数据的分段视图。
 

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '225'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 92%
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. 导航至&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**。
-1. 从 **[!UICONTROL 项目调色板]** 下拉列表中，您可以从5种预设配色方案中选取一种配色方案。
+1. 从&#x200B;**[!UICONTROL 项目调色板]**&#x200B;下拉列表中，您可以从5种预设配色方案中选取一种配色方案。
 
    ![](assets/custom_palette.png)
 

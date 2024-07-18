@@ -7,28 +7,28 @@ role: Admin, Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # bufferRequests
 
-此 `bufferRequests()` 方法允许您在当前页面上缓存图像请求，而不是将其发送到Adobe。 在浏览器不支持的情况下，触发此方法很有用 [`navigator.sendBeacon()`](https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/sendBeacon) 或者取消页面卸载时的图像请求。 WebKit浏览器的许多版本（如Safari）通常都会在单击链接时显示停止图像请求的行为。 此 `bufferRequests()` 方法在AppMeasurementv2.25.0或更高版本上可用。
+`bufferRequests()`方法允许您在当前页面上缓存图像请求，而不是将其发送到Adobe。 在浏览器不支持[`navigator.sendBeacon()`](https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/sendBeacon)或卸载页面时取消图像请求的情况下，触发此方法很有用。 WebKit浏览器的许多版本（如Safari）通常都会在单击链接时显示停止图像请求的行为。 `bufferRequests()`方法在AppMeasurementv2.25.0或更高版本上均可用。
 
-当您调用 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 在同一浏览器会话中的后续页面上，并 `bufferRequests()` 尚未在该页面上调用，则除了该页面的图像请求之外，还将发送所有缓冲请求。 缓冲的请求以正确的顺序发送，即当前页面的图像请求在最后发送。
+当您在同一浏览器会话的后续页面上调用[`t()`](t-method.md)或[`tl()`](tl-method.md)时，如果尚未在该页面上调用`bufferRequests()`，则除了该页面的图像请求之外，还将发送所有缓冲请求。 缓冲的请求以正确的顺序发送，即当前页面的图像请求在最后发送。
 
 >[!TIP]
 >
->与发送数据的页面共享缓冲请求的时间戳。 如果您希望精确记录缓冲请求的秒数，则可以设置 [`timestamp`](../page-vars/timestamp.md) 页面变量。 如果使用此变量，请确保 [可选时间戳](/help/technotes/timestamps-optional.md) 已启用 — 如果未启用，则所有带有时间戳的点击将永久丢失！
+>与发送数据的页面共享缓冲请求的时间戳。 如果您希望提高在准确时间内记录缓冲请求的精度，则可以在缓冲请求之前设置[`timestamp`](../page-vars/timestamp.md)页面变量。 如果使用此变量，请确保启用[可选时间戳](/help/technotes/timestamps-optional.md) — 如果未启用，则所有带有时间戳的点击将永久丢失！
 
 ## 限制
 
-调用时 `bufferRequests()` 方法，请牢记以下限制。 由于此方法使用 [`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)，下面是许多相同的限制：
+调用`bufferRequests()`方法时，请记住以下限制。 由于此方法使用[`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)，因此适用许多相同的限制：
 
 * 目标链接必须驻留在同一域和子域上。 即使两个域或子域具有相同的Adobe Analytics实施，缓冲的请求也不能跨这些域或子域工作。 此限制还意味着您无法使用缓冲请求跟踪退出链接。
 * 目标链接必须使用与当前页面相同的协议。 您不能在HTTP和HTTPS之间发送缓冲请求。
-* 缓冲的请求会一直存储，直到您调用 `t()` 或 `tl()` 无需调用 `bufferRequests()` 首先，或者直到关闭浏览器或选项卡为止。 如果浏览器会话在将数据发送到Adobe之前结束，则未发送的缓冲请求将永久丢失。
-* 如果浏览器不支持 [Web存储API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) 或 [JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)，则会向浏览器控制台输出警告，并且AppMeasurement会尝试使用 `t()` 方法。
+* 缓冲的请求会一直存储到您调用`t()`或`tl()`而未先调用`bufferRequests()`为止，或者直到关闭浏览器或选项卡为止。 如果浏览器会话在将数据发送到Adobe之前结束，则未发送的缓冲请求将永久丢失。
+* 如果浏览器不支持[Web存储API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)或[JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)，则会向浏览器控制台输出警告，并且AppMeasurement会尝试使用`t()`方法立即发送图像请求。
 
 ## Web SDK中的缓冲请求
 
@@ -40,7 +40,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.bufferRequests()
 
-调用 `bufferRequests()` 调用前的方法 `t()` 或 `tl()`. 时间 `bufferRequests()` 调用，后续跟踪调用将写入会话存储中，而不是发送到Adobe数据收集服务器。
+在调用`t()`或`tl()`之前调用`bufferRequests()`方法。 调用`bufferRequests()`时，后续跟踪调用将写入会话存储中，而不是发送到Adobe数据收集服务器。
 
 ```js
 // Instantiate the tracking object

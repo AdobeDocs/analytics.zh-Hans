@@ -25,19 +25,19 @@ Web SDK尚未提供对其设置的Cookie生命周期的自定义。
 
 ## 使用Adobe Analytics扩展的“Cookie生命周期”
 
-Cookie Lifetime是 [!UICONTROL Cookies] 配置Adobe Analytics扩展时的折叠面板。
+“Cookie生命周期”是配置Adobe Analytics扩展时位于[!UICONTROL Cookie]折叠面板下的下拉列表。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
-1. 展开 [!UICONTROL Cookies] 折叠面板，这会显示 [!UICONTROL Cookie生命周期] 下拉列表。
+1. 展开[!UICONTROL Cookie]折叠面板，这会显示[!UICONTROL Cookie生命周期]下拉列表。
 
 此下拉列表包含以下值：
 
 * **默认**：Cookie 在 2 年后过期。
 * **无**：AppMeasurement 未设置 Cookie。
 * **会话**：Cookie 在访客会话结束时过期。
-* **秒**：Cookie 在指定的秒数后过期。例如，将此下拉列表设置为 [!UICONTROL 秒] 及配售 `86400` 中的字段强制Cookie在24小时后过期。
+* **秒**：Cookie 在指定的秒数后过期。例如，将此下拉列表设置为[!UICONTROL 秒]并将`86400`放入自定义字段会强制Cookie在24小时后过期。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.cookieLifetime
 

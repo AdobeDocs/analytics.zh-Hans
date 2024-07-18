@@ -16,7 +16,7 @@ ht-degree: 80%
 Adobe Analytics服务器调用使用情况可以满足您对浏览器和移动设备服务器调用使用情况数据的透明度请求。 此功能允许您访问以下项：
 
 * 一个服务器调用使用情况仪表板，用于跟踪您的服务器调用使用情况数据并将这些数据与您的合同限制进行比较。 (在Adobe Analytics中，选择> [!UICONTROL **管理员**] > [!UICONTROL **服务器调用使用情况**])
-* 警报生成器中的服务器调用使用情况警报类型，您可以设置警报以防止调用超量(在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **警报**])
+* 警报生成器中的服务器调用使用情况警报类型，您可以设置警报以防止调用超量(在Adobe Analytics中，选择&#x200B;[!UICONTROL **组件**] > [!UICONTROL **警报**])
 
 使用服务器调用的主要优势包括：
 
@@ -25,8 +25,8 @@ Adobe Analytics服务器调用使用情况可以满足您对浏览器和移动�
 
 ## 先决条件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **权限：** 要访问“服务器调用使用情况”功能板以及警报生成器或警报管理器，您必须是Adobe Analytics管理员。
-* **权限：** 管理员可以向非管理员授予访问权限：调用权限 **[!UICONTROL 服务器调用使用情况]**. 请参阅 [服务器调用使用情况权限](#server-call-usage-permission).
+* **权限：**&#x200B;要访问服务器调用使用情况仪表板以及警报生成器或警报管理器，您必须是Adobe Analytics管理员。
+* **权限：**&#x200B;管理员可以向非管理员授予访问权限：该权限称为&#x200B;**[!UICONTROL 服务器调用使用情况]**。 请参阅[服务器调用使用情况权限](#server-call-usage-permission)。
 
 ## 重要术语 {#terminology}
 
@@ -99,13 +99,13 @@ Adobe Analytics服务器调用使用情况可以满足您对浏览器和移动�
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">通过 sc.omniture.com 登录到 Analytics。 </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">导航到 <span class="ignoretag"> <span class="uicontrol"> 管理员 </span>  &gt; <span class="uicontrol"> 所有管理员 </span>  &gt; <span class="uicontrol"> 用户管理 </span>  &gt; <span class="uicontrol"> 组 </span>  &gt; <span class="uicontrol"> 编辑全部报表访问 </span>  &gt; <span class="uicontrol"> Analytics工具 </span>  &gt; <span class="uicontrol"> 自定义 </span>  &gt; <span class="uicontrol"> 服务器调用使用情况 </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">导航到<span class="ignoretag"> <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">组</span> &gt; <span class="uicontrol">编辑所有报表访问</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">自定义</span> &gt; <span class="uicontrol">服务器调用使用情况</span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">登录到 login.experiencecloud.adobe.com。</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">单击 <span class="uicontrol">Analytics</span>。 </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">导航到 <span class="ignoretag"> <span class="uicontrol"> 产品 </span>  &gt; <span class="uicontrol"> 产品配置文件 </span>  &gt; <span class="uicontrol"> 权限 </span>  &gt; <span class="uicontrol"> Analytics工具 </span>  &gt; <span class="uicontrol"> 服务器调用使用情况 </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">导航到<span class="ignoretag"> <span class="uicontrol">产品</span> &gt; <span class="uicontrol">产品配置文件</span> &gt; <span class="uicontrol">权限</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">服务器调用使用情况</span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

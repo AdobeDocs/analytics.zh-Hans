@@ -22,18 +22,18 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 -->
 
-支持两种跟踪模式： [!UICONTROL 自动] 和 [!UICONTROL 手动].
+支持两种跟踪模式：[!UICONTROL 自动]和[!UICONTROL 手动]。
 
-## [!UICONTROL 自动] 跟踪 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL 自动]跟踪 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL 自动] 通过“跟踪”，Advertising Cloud引擎可决定应如何处理搜索引擎数据。 自动跟踪是一种更简单的方法，但可能不会生成最佳的集成数据集。
+[!UICONTROL 自动]跟踪允许Advertising Cloud引擎决定如何处理搜索引擎数据。 自动跟踪是一种更简单的方法，但可能不会生成最佳的集成数据集。
 
-因此，您需要选中时选中确认复选框 **[!UICONTROL 自动]** 才能保存帐户设置。
+因此，选择&#x200B;**[!UICONTROL 自动]**&#x200B;时需要选中确认复选框，然后才能保存帐户设置。
 
-请注意，若要使用配置搜索引擎帐户 **[!UICONTROL 自动]** 类型，您负责执行以下操作：
+请注意，若要使用&#x200B;**[!UICONTROL Auto]**&#x200B;类型配置搜索引擎帐户，您需要执行以下操作：
 
-* 此 `s_kwcid` 参数和值会添加到要添加帐户的帐户跟踪模板或登陆页面URL中。 此参数和值插入到URL的末尾。 如果您的Web服务器需要 `key=value` 与URL末尾的一对。 或者更新以支持任何新的 `key=value` URL中的对。 您有责任确保添加的URL参数能够正确保持到最终登陆页面。
-* 此外，还可以将关键字作为 `s_kwcid` 值的一部分插入到登陆 URL 中。如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符。例如，一个常见的特殊字符是 `+`，用于“修改广泛匹配”关键词。
+* `s_kwcid`参数和值已添加到要添加帐户的帐户跟踪模板或登陆页面URL中。 此参数和值插入到URL的末尾。 如果您的Web服务器要求在URL末尾使用特定的`key=value`对，则可能需要执行其他操作。 或者更新以支持URL中的任何新`key=value`对。 您有责任确保添加的URL参数能够正确保持到最终登陆页面。
+* 此外，还可以将关键字作为 `s_kwcid` 值的一部分插入到登陆 URL 中。如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符。例如，一个常见的特殊字符是`+`，该字符用于“修改广泛匹配”关键字。
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->*`<Advertising Analytics ID>`* 值（下面显示为&#x200B;**粗体**&#x200B;的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕下方获取特定的帐户ID字符串 [!UICONTROL 跟踪] 部分。
+>*`<Advertising Analytics ID>`* 值（下面显示为&#x200B;**粗体**&#x200B;的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕的[!UICONTROL 跟踪]部分下获取特定的帐户ID字符串。
 
 **适用于促销活动的跟踪字符串：**
 
@@ -106,7 +106,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![必应](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 各种最终 URL 后缀格式中的跟踪代码示例：
 

@@ -22,10 +22,10 @@ ht-degree: 70%
 Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Web SDK结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 标记]** 单击左侧的，然后单击所需的标记属性。
-1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
-1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
-1. 单击 **[!UICONTROL 数据元素]** 单击左侧的，然后单击所需的数据元素。
+1. 单击左侧的&#x200B;**[!UICONTROL 标记]**，然后单击所需的标记属性。
+1. 单击左侧的&#x200B;**[!UICONTROL 扩展]**，然后单击&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡
+1. 找到并安装&#x200B;**[!UICONTROL 常用Web SDK插件]**&#x200B;扩展。
+1. 单击左侧的&#x200B;**[!UICONTROL 数据元素]**，然后单击所需的数据元素。
 1. 使用以下配置设置所需的数据元素名称：
    * 扩展：常用Web SDK插件
    * 数据元素： `getVisitDuration`

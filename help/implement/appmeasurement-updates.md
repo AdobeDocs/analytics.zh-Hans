@@ -17,41 +17,41 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以从以下位置下载最新版本的AppMeasurement： [GitHub](https://github.com/adobe/appmeasurement/releases).
+您可以从[GitHub](https://github.com/adobe/appmeasurement/releases)下载最新版本的AppMeasurement。
 
 ## 版本 2.26.0
 
-发行日期： **2024年3月4日**
+发行日期：**2024年3月4日**
 
-* AppMeasurement会自动识别和利用国家/地区代码顶级域的根域，以前需要特定Cookie域配置。 由于这种自动识别，更新可能会产生影响。 请参阅 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 以了解更多信息。
+* AppMeasurement会自动识别和利用国家/地区代码顶级域的根域，以前需要特定Cookie域配置。 由于这种自动识别，更新可能会产生影响。 有关详细信息，请参阅[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md)。
 * 该分发版本包括Identity Service Library 5.5.0和Data Integration Library9.6。
 
 ## 版本 2.25.0
 
-发行日期： **2023年9月12日**
+发行日期：**2023年9月12日**
 
-* 添加了可选方法 [`bufferRequests()`](vars/functions/bufferrequests.md) 用于在浏览器不支持信标API或页面卸载时取消请求时提高捕获请求的可靠性。
+* 添加了可选方法[`bufferRequests()`](vars/functions/bufferrequests.md)，以便在浏览器不支持信标API或页面卸载时取消请求时提高捕获请求的可靠性。
 * 添加了保护功能，以防止对单个跟踪请求进行多个跟踪后回调。
 
 ## 版本 2.24.0
 
-发行日期： **2023年7月18日**
+发行日期：**2023年7月18日**
 
-* 添加了可选配置变量 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 用于对包含双字节编码字符的链接URL进行解码。
+* 添加了可选配置变量[`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md)，用于对包含双字节编码字符的链接URL进行解码。
 * 为具有错误的高熵用户代理客户端提示API的浏览器添加了其他错误处理。
-* 更改了要使用的POST内容类型标头 `x-www-form-urlencoded` 默认情况下。
+* 已将POSTContent-Type标头更改为默认使用`x-www-form-urlencoded`。
 
 ## 版本 2.23.0
 
 发布日期：**2022 年 9 月 23 日**
 
-* AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过标记配置客户端提示或使用 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 配置变量。 默认情况下，将禁用高熵提示的收集。 详细了解 User-Agent [客户端提示](/help/technotes/client-hints.md)。
+* AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过Tags配置客户端提示或使用[`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md)配置变量。 默认情况下，将禁用高熵提示的收集。 详细了解 User-Agent [客户端提示](/help/technotes/client-hints.md)。
 
 ## 版本 2.22.4
 
 发行日期：**2022 年 1 月 18 日**
 
-* 链接跟踪调用 `s.tl()` 现在验证传递给它的对象是否包含 `string` 类型的 `href` 属性。如果它不是 `string`，则会正常地忽略 `href` 属性而不是失败。 当您通过时，可能会发生这种情况 `svg` 对象进行链接跟踪调用。
+* 链接跟踪调用 `s.tl()` 现在验证传递给它的对象是否包含 `string` 类型的 `href` 属性。如果它不是`string`，则它将正常地忽略`href`特性而不是失败。 当您将`svg`对象传递给链接跟踪调用时，可能会发生这种情况。
 
 ## 版本 2.22.3
 
@@ -63,7 +63,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 发行日期：**2021 年 9 月 7 日**
 
-* 此更新促使在跟踪链接时始终包含 `opt.dmp` 和 `opt.sell`。请参阅 [隐私报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 有关更多信息，请参阅管理员用户指南。
+* 此更新促使在跟踪链接时始终包含 `opt.dmp` 和 `opt.sell`。有关详细信息，请参阅管理员用户指南中的[隐私报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)。
 
 ## 版本 2.22.1
 
@@ -347,7 +347,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 发行日期：**2015 年 9 月 17 日**
 
 * 包括 Visitor API 1.5.2
-* 已更新 [!DNL Audience Manager] 模块以使用Adobe Audience ManagerDIL6.2 — 从VisitorAPI.js获取Customer ID，并在事件调用中将它们传递到Adobe Audience Manager。 (AN-104978)
+* 更新了[!DNL Audience Manager]模块，以便使用来自VisitorAPI.js的Adobe Audience ManagerDIL6.2 - getCustomer ID，并在事件调用中将它们传递到Adobe Audience Manager。 (AN-104978)
 
 ## 版本 1.5
 
@@ -362,7 +362,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 发行日期：**2015 年 5 月 21 日**
 
 * 从iOS SDK 4.5版开始，新增的iOS扩展允许您从Apple Watch应用程序、“今天”小组件、照片编辑小组件和所有其他iOS扩展应用程序中收集使用数据。
-* 从Android SDK 4.5版开始，新增的Android扩展允许您从Android可穿戴应用程序中收集数据。
+* 从Android SDK版本4.5开始，新增的Android扩展允许您从Android可穿戴应用程序中收集数据。
 * 包括 Visitor API 1.4。
 * 更新了 AudienceManagement 模块，以便使用 DIL 版本 6.0。
 
@@ -383,7 +383,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 发行日期：**2015 年 2 月 19 日**
 
 * 保持所有延迟跟踪调用的处理连贯一致，这可以修复延迟期间已备份变量（例如，已单击的对象）的问题。
-* 首次跟踪调用后更改为不执行自动反向链接跟踪，以便第2次、第3次（依此类推）跟踪调用（通常为链接跟踪）在以下情况下不会将反向链接计算两次： *`s.referrer`* 于首次跟踪调用之前被手动设置时，不会将反向链接计算两次。
+* 首次跟踪调用后更改为不执行自动反向链接跟踪，以便第2次、第3次（依此类推）跟踪调用（通常为链接跟踪）在&#x200B;*`s.referrer`*&#x200B;于首次跟踪调用之前被手动设置时，不会将反向链接计算两次。
 * 更新了分发 zip 文件以包括 Visitor API 1.3.5。
 
 ## 版本 1.4.2

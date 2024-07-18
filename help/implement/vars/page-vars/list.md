@@ -19,7 +19,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->列表变量会根据每个访客最近使用的值 [!UICONTROL 最大值] 在中设置 [报表包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). 最多支持250个值。 如果唯一值多于唯一值，则 [!UICONTROL 最大值] 设置允许时，最早的值不会归属于量度。
+>列表变量根据[报表包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中的[!UICONTROL 最大值]设置存储每位访客的最新值。 最多支持250个值。 如果唯一值的数量超过[!UICONTROL 最大值]设置所允许的数量，则最早的值不会归属于量度。
 
 ## 在报告包设置中设置列表变量
 
@@ -27,7 +27,7 @@ ht-degree: 74%
 
 ## 使用 Web SDK 的列表变量
 
-如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，列表变量使用XDM字段 `xdm._experience.analytics.customDimensions.lists.list1.list[]` 到 `xdm._experience.analytics.customDimensions.lists.list3.list[]`. 每个数组元素含有一个包含每个字符串的 `"value"` 对象。 无需提供分隔符；Adobe数据收集服务器会自动检测并包含中设置的正确分隔符 [报表包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则列表变量使用`xdm._experience.analytics.customDimensions.lists.list1.list[]`到`xdm._experience.analytics.customDimensions.lists.list3.list[]`的XDM字段。 每个数组元素含有一个包含每个字符串的 `"value"` 对象。 无需提供分隔符；Adobe数据收集服务器会自动检测并在[报表包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中包含正确的分隔符集。
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ ht-degree: 74%
 >
 >除了每个 `list[]` 数组中的 `value` 对象外，Adobe XDM 架构还包含 `key` 对象。当向 Adobe Analytics 发送数据时，Adobe 不使用这些 `key` 对象。
 
-如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，列表变量使用 `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` 遵循AppMeasurement语法。 确保使用中设置的中正确的分隔符 [报表包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则列表变量使用`data.__adobe.analytics.list1` - `data.adobe.analytics.list3`以下AppMeasurement语法。 确保在[报告包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中使用正确的分隔符集。
 
 ```json
 "data": {

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 621e3928-17d8-4b0a-93dc-7bf1622b16fc
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '85'
 ht-degree: 77%
 
 ---
@@ -19,6 +19,6 @@ ht-degree: 77%
 1. 在“[!UICONTROL 请求向导: 第 1 步]”中，选择&#x200B;**[!UICONTROL 滚动日期]**。
 1. 单击&#x200B;**[!UICONTROL 滚动]**&#x200B;链接以选择滚动类型，然后使用日期链接配置滚动日期。
 
-   “[!UICONTROL 滚动日期]”的设置根据您的选择而发生变化。例如，当您选择 [!UICONTROL 每周滚动]，Report Builder提供特定于周的设置，您可以选择这些设置作为滚动模式。
+   “[!UICONTROL 滚动日期]”的设置根据您的选择而发生变化。例如，当您选择[!UICONTROL 每周滚动]时，Report Builder会提供特定于周的设置，您可以选择这些设置作为滚动模式。
 
 1. 根据需要配置高级选项。

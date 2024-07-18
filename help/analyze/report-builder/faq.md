@@ -7,7 +7,7 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,6 +33,6 @@ Report Builder 支持具有以下限制的工作簿：
 * **每个公司每小时 2 万个请求**：Report Builder 使用 Analytics 报表 API 检索数据。每个请求每当在创建或刷新完毕后即使用 API 调用。如果贵组织在给定小时内累积超过 20,000 次 API 调用，您必须等到下一小时才能再次检索数据。
 * **4 小时处理时间**：计划报表在处理过去 4 小时后将超时。如果您的工作簿包含许多使用大型数据集的复杂请求，则计划报表可能会失败。
 
-## 我如何知道自己是否有权访问Report Builder？ {#access}
+## 我如何知道我是否有权访问 Report Builder？ {#access}
 
-您需要由Adobe Analytics管理员向您授予Report Builder访问权限。 管理员在中设置产品配置文件 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). 请要求管理员授予您访问权限。
+您需要获得 Adobe Analytics 管理员授予的 Report Builder 访问权限。管理员在 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home)中设置产品配置文件。请求您的管理员授予您访问权限。

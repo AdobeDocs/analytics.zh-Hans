@@ -4,13 +4,12 @@ description: （已弃用）帮助AppMeasurement确定当网站的顶级域包�
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
+source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 18%
 
 ---
-
 
 # cookieDomainPeriods
 
@@ -23,17 +22,17 @@ ht-degree: 18%
 >
 >此变量不执行任何操作，因为适用的库会自动检测要设置Cookie的域。
 
-此 `cookieDomainPeriods` 变量通过指示顶级域中有一个额外的句点，帮助AppMeasurement确定在何处设置Analytics Cookie。 此变量允许AppMeasurement处理顶级域中的额外句点，并在正确的位置设置Cookie。 如果您网站的顶级域不包含额外的句点，则不需要此变量。
+`cookieDomainPeriods`变量指示顶级域中有一个额外的句点，从而帮助AppMeasurement确定在何处设置Analytics Cookie。 此变量允许AppMeasurement处理顶级域中的额外句点，并在正确的位置设置Cookie。 如果您网站的顶级域不包含额外的句点，则不需要此变量。
 
 * 对于 `example.co.uk` 或 `www.example.co.jp` 等域，将此变量设置为 `"3"`。
-* 对于类似的域 `example.nsw.gov.au`，将此变量设置为 `"4"`.
-* 对于类似的域 `example.com` 或 `products.example.org`，省略设置此变量或将其设置为 `"2"`.
+* 对于类似`example.nsw.gov.au`的域，将此变量设置为`"4"`。
+* 对于`example.com`或`products.example.org`等域，省略设置此变量或将其设置为`"2"`。
 
 >[!TIP]
 >
->此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `cookieDomainPeriods`。AppMeasurement可识别Cookie存储在 `example.com`，即使是在具有许多子域的URL上。
+>此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `cookieDomainPeriods`。AppMeasurement可识别Cookie存储在`example.com`上，甚至存储在具有许多子域的URL上。
 
-对于AppMeasurementv2.26.x或更高版本上的实施， [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie用于帮助自动确定正确的Cookie域。 库首先尝试写入包含两个域名的Cookie。 如果设置此Cookie失败，它会再次尝试，包括更多域周期，直到它成功。 一旦设置，此Cookie将立即删除。
+对于AppMeasurementv2.26.x或更高版本上的实施，[`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie用于帮助自动确定正确的Cookie域。 库首先尝试写入包含两个域名的Cookie。 如果设置此Cookie失败，它会再次尝试，包括更多域周期，直到它成功。 一旦设置，此Cookie将立即删除。
 
 ## 使用Web SDK的Cookie域名段
 
@@ -41,18 +40,18 @@ Web SDK会自动确定设置Cookie的正确域。
 
 ## 使用Adobe Analytics扩展的Cookie域名段
 
-**[!UICONTROL 域名句点]** 是下的字段 [!UICONTROL Cookies] 配置Adobe Analytics扩展时的折叠面板。
+**[!UICONTROL 域名段]**&#x200B;是配置Adobe Analytics扩展时位于[!UICONTROL Cookie]折叠面板下的字段。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 域名段]字段。
 
-将此字段设置为 `3` 仅在包含句点的顶级域上有效。 否则，可将此字段留空。
+仅在包含句点的顶级域上将此字段设置为`3`。 否则，可将此字段留空。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的Cookie域名段
 
-此 `cookieDomainPeriods` 变量是一个字符串，通常设置为 `"3"`，且仅适用于包含句点的顶级域。 其默认值为 `"2"`，适用于大多数顶级域，如 `.com` 和 `.org`.
+`cookieDomainPeriods`变量是一个字符串，通常设置为`"3"`，并且仅在包含句点的顶级域上设置。 其默认值为`"2"`，该值适用于大多数顶级域，如`.com`和`.org`。
 
 ```js
 // Manually set cookieDomainPeriods for domains with a period in the top-level domain, such as www.example.co.uk

@@ -17,4 +17,4 @@ ht-degree: 91%
 在工作区中，您可以在&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**&#x200B;下选择[包含/排除重复实例](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。默认情况下包含这些实例。
 
 >[!NOTE]
->此设置不适用于[!UICONTROL 流量]或[!UICONTROL 流失]可视化。在工作区中， [!UICONTROL 流量] 有自己的 [设置](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) 删除重复项。
+>此设置不适用于[!UICONTROL 流量]或[!UICONTROL 流失]可视化。在Workspace中，[!UICONTROL 流]具有自己的[设置](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)用于删除重复项。

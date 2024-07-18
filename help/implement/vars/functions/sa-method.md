@@ -20,11 +20,11 @@ ht-degree: 42%
 Web SDK通过向特定数据流发送数据来运行，该数据流将数据转发到所需的Analytics报表包。 单个数据流可以将数据转发到多个报表包。 此部分适用于Web SDK扩展和手动实施Web SDK。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 数据流]** 左边。
-1. 单击所需的数据流，或单击 **[!UICONTROL 新建数据流]**.
-1. 单击 **[!UICONTROL 添加服务]**，然后选择 **[!UICONTROL Adobe Analytics]**.
-1. 输入所需的报表包ID。 如果要将相同的数据发送到多个报表包，请单击 **[!UICONTROL 添加报表包]**.
-1. 输入所有所需的报表包后，单击 **[!UICONTROL 保存]**.
+1. 单击左侧的&#x200B;**[!UICONTROL 数据流]**。
+1. 单击所需的数据流，或单击&#x200B;**[!UICONTROL 新建数据流]**。
+1. 单击&#x200B;**[!UICONTROL 添加服务]**，然后选择&#x200B;**[!UICONTROL Adobe Analytics]**。
+1. 输入所需的报表包ID。 如果要将相同的数据发送到多个报表包，请单击&#x200B;**[!UICONTROL 添加报表包]**。
+1. 输入所有所需的报表包后，单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 使用Web SDK扩展设置所需的数据流
 
@@ -32,13 +32,13 @@ Web SDK扩展为每个环境提供了一个数据流下拉列表。 或者，您
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** 按钮位于 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 下 [!UICONTROL 数据流]，请在下拉列表中为每个环境选择所需的数据流。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 在[!UICONTROL 数据流]下，从每个环境的下拉列表中选择所需的数据流。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 手动设置所需的数据流以实施Web SDK
 
-设置 `edgeConfigId` 配置变量到数据流ID。 在Adobe Experience Platform数据收集中查看数据流时，可在右侧找到数据流ID。
+将`edgeConfigId`配置变量设置为数据流ID。 在Adobe Experience Platform数据收集中查看数据流时，可在右侧找到数据流ID。
 
 ```js
 alloy("configure", {
@@ -46,7 +46,7 @@ alloy("configure", {
 });
 ```
 
-请参阅 [配置Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans) 有关更多信息，请参阅Web SDK文档。
+有关详细信息，请参阅Web SDK文档中的[配置Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans)。
 
 ## 使用Adobe Analytics扩展更改报表包
 

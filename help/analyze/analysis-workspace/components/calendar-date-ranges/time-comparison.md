@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 ## 比较时间段 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL “比较时间段”]会利用高级计算量度。因此，它仅适用于拥有 Analytics Select、Prime 和 Ultimate SKU 的客户。
+>[!UICONTROL 比较时间段]利用高级计算量度。 因此，它仅适用于拥有 Analytics Select、Prime 和 Ultimate SKU 的客户。
 
 分析需要上下文，通常这类上下文是由前一时间段提供的。例如，问题“我们比去年同期做得好/差多少？”是了解您的业务的基础。日期比较会自动包含“差异”列，该列显示相较指定时间段的百分比变化。
 

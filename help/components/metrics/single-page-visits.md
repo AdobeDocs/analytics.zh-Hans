@@ -6,7 +6,7 @@ exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *此帮助页面介绍了“单页面访问量”如何作为维度使用。有关更多信息，请参阅[单页面访问量](../dimensions/single-page-visits.md)维度。*
 
-[!UICONTROL 单页面访问量][](overview.md)量度显示[页面](../dimensions/page.md)维度项目在整个访问期间仅包含单个唯一值的访问次数。当您想要了解短期访问次数维度，但没有设置如[[!UICONTROL 跳出次数]](bounces.md)那么严格的规则时，此量度非常有用。
+[!UICONTROL 单页面访问量] [量度](overview.md)显示[页面](../dimensions/page.md)维度项目在整个访问期间仅包含单个唯一值的访问次数。 当您想要了解短期访问次数维度，但没有设置如[[!UICONTROL 跳出次数]](bounces.md)那么严格的规则时，此量度非常有用。
 
 ## 如何计算此量度
 

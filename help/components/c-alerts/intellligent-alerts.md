@@ -46,7 +46,7 @@ ht-degree: 68%
 
 ## 常见问题解答：如何计算和触发警报 {#trigger}
 
-% 阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度， [不同模型](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 用于计算每个数据点距离标准有多远（多少标准偏差）。 设定的阈值越低，异常会越多。例如，同 99% 的相比，90% 的阈值会产生更多的异常。过去，在时间粒度为每小时的情况下，为了让触发的异常保持低水平，专门设定了 99.75% 和 99.99% 这两个阈值。
+% 阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度，使用[不同的模型](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)来计算每个数据点距离基准有多远（标准偏差个数）。 设定的阈值越低，异常会越多。例如，同 99% 的相比，90% 的阈值会产生更多的异常。过去，在时间粒度为每小时的情况下，为了让触发的异常保持低水平，专门设定了 99.75% 和 99.99% 这两个阈值。
 
 +++ 警报的异常检测可以多早地确定数据异常？
 
@@ -73,7 +73,7 @@ ht-degree: 68%
 
 +++ 我能否获得包含虚线的“预期值”表格，或某种显示相关数值的输出结果？
 
-在Workspace中无法实现，但您可以在Report Builder中实现。 请参阅 [此视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=zh-Hans) 有关Report Builder中的异常检测。
+在Workspace中无法实现，但是在Report Builder中可以。 观看[此视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=zh-Hans)，了解Report Builder中的异常检测。
 
 请记住，Report Builder 使用的是略微简单的异常检测方法。它使用固定的 30 天训练周期，固定的 95% 间隔。
 

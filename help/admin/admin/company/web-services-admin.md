@@ -15,12 +15,12 @@ ht-degree: 75%
 
 Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Web服务]** 或 **[!UICONTROL API访问]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Web服务]**&#x200B;或&#x200B;**[!UICONTROL API访问]**
 
 
 ## Analytics 2.0 API
 
-要访问Analytics 2.0 API，您需要Analytics公司的全球公司ID。 您可以在以下位置找到全局公司ID： **粗体** 在顶部 [!UICONTROL API访问] 部分。 以下是一个示例：“您当前登录的Analytics公司的全球公司ID为 **adobe1234**“
+要访问Analytics 2.0 API，您需要Analytics公司的全球公司ID。 您可以在[!UICONTROL API访问]部分的顶部&#x200B;**bold**&#x200B;中找到全局公司ID。 以下是一个示例：“您当前登录的Analytics公司的全局公司ID是&#x200B;**adobe1234**。”
 
 ## 管理旧版Web服务（已弃用）
 

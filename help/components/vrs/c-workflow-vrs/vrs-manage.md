@@ -11,11 +11,11 @@ ht-degree: 70%
 
 ---
 
-# 管理虚拟报表包
+# 管理虚拟报告包
 
 通过虚拟报表包管理器，管理员可以编辑、添加、标记、删除、重命名、批准、复制、导出和筛选虚拟报表包。 虚拟报表包管理器对非管理员用户不可见。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**
 
 ![](assets/vrs-manage.png)
 

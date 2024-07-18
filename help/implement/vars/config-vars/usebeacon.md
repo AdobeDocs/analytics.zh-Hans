@@ -25,20 +25,20 @@ ht-degree: 62%
 
 ## 通过Web SDK扩展使用sendBeacon API
 
-此 **[!UICONTROL 文档将卸载]** 操作配置中的复选框可确定发送到Adobe的数据是否使用sendBeacon API。
+Action Configuration中的&#x200B;**[!UICONTROL Document将卸载]**&#x200B;复选框确定发送到Adobe的数据是否使用sendBeacon API。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到 [!UICONTROL 规则] 选项卡，然后单击所需的规则。
-1. 下 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加新操作。
-1. 设置 [!UICONTROL 扩展名] 下拉列表至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 操作类型] 到 **[!UICONTROL 发送事件]**
-1. 单击复选框 **[!UICONTROL 文档将卸载]** 在右边。
+1. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则。
+1. 在[!UICONTROL 操作]下，单击所需的操作或单击&#x200B;**“+”**&#x200B;图标以添加新操作。
+1. 将[!UICONTROL 扩展]下拉列表设置为&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**，将[!UICONTROL 操作类型]设置为&#x200B;**[!UICONTROL 发送事件]**
+1. 单击右侧的复选框&#x200B;**[!UICONTROL 文档将卸载]**。
 
 如果选中此框，则会使用sendBeacon API将数据发送到Adobe。 默认情况下，该复选框处于未选中状态。
 
 ## 使用sendBeacon API手动实施Web SDK
 
-设置 `documentUnloading` 到 `true` 发送事件时。 如果未设置，则其默认值为 `false`.
+发送事件时将`documentUnloading`设置为`true`。 如果未设置，则其默认值为`false`。
 
 ```json
 alloy("sendEvent", {
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-请参阅 [使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) 有关更多信息，请参阅Web SDK文档。
+有关详细信息，请参阅Web SDK文档中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)。
 
 ## 使用Adobe Analytics扩展的“使用信标”
 

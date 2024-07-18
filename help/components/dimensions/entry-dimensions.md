@@ -13,16 +13,16 @@ ht-degree: 75%
 
 # 登入维度
 
-*此帮助页介绍登入次数如何作为 [维度](overview.md). 有关登入次数如何作为量度使用的信息，请参阅[登入次数](../metrics/entries.md)量度。*
+*此帮助页介绍登入次数如何作为[维度](overview.md)使用。 有关登入次数如何作为量度使用的信息，请参阅[登入次数](../metrics/entries.md)量度。*
 
-登入维度为 [基于访问](../metrics/visits.md). 它们记录第一个维度项目，并在该访问的整个过程中保留该值。登入维度可用于在“报表包”设置中的[流量变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)下启用路径的所有变量。
+登入维度基于[访问](../metrics/visits.md)。 它们记录第一个维度项目，并在该访问的整个过程中保留该值。登入维度可用于在“报表包”设置中的[流量变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)下启用路径的所有变量。
 
 >[!TIP]
->如果您要查看基于访问的首次点击而不是访问中看到的第一个值的数据，则可以使用 [区段](/help/components/segmentation/seg-overview.md). 使用点击容器，其中 [点击深度](hit-depth.md) 等于1，然后将该区段与所需的变量一起使用。
+>如果您要查看基于访问的首次点击而不是访问中看到的第一个值的数据，则可以使用[区段](/help/components/segmentation/seg-overview.md)。 使用[点击深度](hit-depth.md)等于1的点击容器，然后将该区段与所需变量一起使用。
 
 ## 使用数据填充登入维度
 
-给定条目 [维度](overview.md) 基于其关联的流量变量。 如果非登入变量包含数据，则其关联的登入维度也包含数据。如果流量变量包含数据，则不需要对登入维度进行更改。
+给定的条目[维度](overview.md)基于其关联的流量变量。 如果非登入变量包含数据，则其关联的登入维度也包含数据。如果流量变量包含数据，则不需要对登入维度进行更改。
 
 ## 维度项目
 

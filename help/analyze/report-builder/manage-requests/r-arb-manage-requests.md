@@ -8,7 +8,7 @@ exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 78%
+ht-degree: 74%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 78%
 
 ## 概述 {#section_75C288C945FA4781A4EDF806711A5660}
 
-此 [!UICONTROL 请求管理器] 提供您为所有工作表或仅为活动工作簿的一个工作表构建的所有请求的详细状态视图。 您还可以添加、编辑、刷新和删除请求。 这些函数通常与 [!UICONTROL 请求向导] 和 [!UICONTROL 请求管理器] 当您右键单击Excel电子表格中包含先前请求的可用单元格时。
+[!UICONTROL 请求管理器]提供了您为所有工作表或仅为活动工作簿的一个工作表生成的所有请求的详细状态视图。 您还可以添加、编辑、刷新和删除请求。 当您右键单击Excel电子表格中包含先前请求的可用单元格时，这些函数通常与[!UICONTROL 请求向导]和[!UICONTROL 请求管理器]相关联。
 
-此 [!UICONTROL 请求管理器] 单击时显示 **[!UICONTROL 管理]**  ![](assets/edit_request.gif) 在Report Builder工具栏中。
+单击Report Builder工具栏中的&#x200B;**[!UICONTROL 管理]** ![](assets/edit_request.gif)后，将显示[!UICONTROL 请求管理器]。
 
 >[!NOTE]
 >
->Adobe Report Builder 只能在同一个工作表内实施请求从属关系，而无法跨工作表执行。将依赖关系限制在单个工作表中可确保执行时效。
+>Adobe Report Builder只能在同一个工作表中实施请求依赖关系，而无法跨工作表执行。 将依赖关系限制在单个工作表中可确保执行时效。
 
 ## 定义 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -82,7 +82,7 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 刷新 </p> </td> 
-   <td colname="col2"> <p>刷新单个请求或所选的多个请求。（请参阅 <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >刷新请求</a>。) </p> </td> 
+   <td colname="col2"> <p>刷新单个请求或所选的多个请求。（请参阅<a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >刷新请求</a>。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>刷新列表 </p> </td> 

@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->为了最大化 Attribution 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化归因和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
 >Analytics 管理员可以管理其组织的营销渠道，如[管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 | 维度/量度 | 定义 |
 | --- | --- |
-| 营销渠道 | 这是建议使用的营销渠道维度。可在运行时对其应用归因 模型。此维度与“最近联系渠道”维度的行为相同，但采用不同的方式标记，以防止在与其他归因模型一起使用时产生混淆。 |
+| 营销渠道 | 这是建议使用的营销渠道维度。可在运行时对其应用归因模型。 此维度与“最近联系渠道”维度的行为相同，但采用不同的方式标记，以防止在与其他归因模型一起使用时产生混淆。 |
 | 最近联系渠道 | 旧版维度，带有预应用的最近联系归因模型且不可更改。 |
 | 首个联系渠道 | 旧版维度，带有预应用的首个联系归因模型且不可更改。 |
 | 营销渠道实例 | 此量度衡量在图像请求中定义营销渠道的次数，包括标准页面查看和自定义链接调用。不包括持续得到的值。 |
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ## 应用归因模型
 
-您可以使用[归因 ](/help/analyze/analysis-workspace/attribution/overview.md)，即时应用不同的归因模型：
+您可以使用[归因](/help/analyze/analysis-workspace/attribution/overview.md)即时应用不同的归因模型：
 
 ![](assets/mc-viz5.png)
 

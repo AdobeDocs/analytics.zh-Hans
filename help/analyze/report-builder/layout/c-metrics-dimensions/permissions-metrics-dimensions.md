@@ -20,7 +20,7 @@ Adobe Report Builder具有类似于Analytics“管理工具”中的权限设置
 
 例如，如果刷新包含您无权访问的维度或量度的请求，您将收到“权限受限”错误。 该错误消息指出，由于管理权限，您的用户帐户无法使用某个请求。
 
-![屏幕截图显示“Restricted Permission Error（限制权限错误消息）”。](assets/arb_restrc_perm.png)
+![屏幕截图显示权限受限错误消息。](assets/arb_restrc_perm.png)
 
 对于您维护的&#x200B;**每个** Report Builder 工作簿，请按照以下说明操作：
 

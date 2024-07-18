@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 91%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 91%
 1. 选择适当的报表包。
 1. 在左侧的树视图中，选择&#x200B;**[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 页面流失]**。
 
-   ![显示Report Builder目录的Windows树视图的屏幕截图。 已选中“页面流失” 。](assets/page_fallout.png)
+   ![显示Report Builder目录的Windows树视图的屏幕截图。 已选择页面流失。](assets/page_fallout.png)
 
 1. 配置相应的[日期范围](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
 1. 单击&#x200B;**[!UICONTROL 下一步]**。

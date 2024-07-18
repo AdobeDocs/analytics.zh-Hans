@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Analytics 维度兼容性
 
-本页列出 [维度](overview.md) 在各自的Analytics功能中受支持。
+此页面列出了各自Analytics功能中支持的[维度](overview.md)。
 
 >[!NOTE]
 >

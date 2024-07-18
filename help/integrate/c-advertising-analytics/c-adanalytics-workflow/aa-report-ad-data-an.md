@@ -20,11 +20,11 @@ ht-degree: 49%
 
 ## 付费搜索报告 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-通过此报表，实施搜索引擎集成的任何人都可以访问Analytics中的搜索引擎数据。 您可以通过以下方式访问它： **[!UICONTROL 工作区]** > **[!UICONTROL 报表]** > **[!UICONTROL 客户获取]** > **[!UICONTROL Advertising Analytics：付费搜索]**
+通过此报表，实施搜索引擎集成的任何人都可以访问Analytics中的搜索引擎数据。 您可以通过&#x200B;**[!UICONTROL Workspace]** > **[!UICONTROL 报表]** > **[!UICONTROL 客户获取]** > **[!UICONTROL Advertising Analytics：付费搜索]**&#x200B;访问它
 
 >[!NOTE]
 >
->所有客户都可以看到付费搜索报表，即使您尚未实施任何广告帐户。 如果您尝试打开未配置的公司的付费搜索报表，则会出现一条错误消息，说明您未配置任何搜索引擎帐户。 选择 **[!UICONTROL 立即配置]**，这会将您转到 [Advertising帐户设置](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 屏幕。
+>所有客户都可以看到付费搜索报表，即使您尚未实施任何Advertising帐户也是如此。 如果您尝试打开未配置的公司的付费搜索报表，则会出现一条错误消息，说明您未配置任何搜索引擎帐户。 选择&#x200B;**[!UICONTROL 立即配置]**，此时将转到[Advertising帐户设置](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)屏幕。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

@@ -2,7 +2,8 @@
 title: Adobe Analytics使用的域
 description: 允许这些域通过贵组织的防火墙，以获得最佳的Adobe Analytics使用体验。
 feature: Data Configuration and Collection
-source-git-commit: 3653a4e71d96ae636205840e1b8b456162521401
+exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
+source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 13%
@@ -28,10 +29,10 @@ ht-degree: 13%
 
 ## Adobe Experience Cloud 域
 
-除了上述域之外，Adobe Experience Cloud还依靠多个域来收集和导出报表。 请参阅 [Adobe Experience Cloud使用的域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) 用于此域列表。
+除了上述域之外，Adobe Experience Cloud还依靠多个域来收集和导出报表。 有关此域列表，请参阅[Adobe Experience Cloud使用的域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)。
 
 >[!MORELIKETHIS]
 >
->[Adobe Analytics使用的IP地址](ip-addresses.md)
+>Adobe Analytics使用的[IP地址](ip-addresses.md)
 >
 >[Adobe Experience Cloud使用的域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

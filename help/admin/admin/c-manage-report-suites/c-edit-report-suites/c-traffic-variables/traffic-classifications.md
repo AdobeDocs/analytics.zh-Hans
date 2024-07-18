@@ -22,7 +22,7 @@ ht-degree: 92%
 
 使用“流量分类”页面可以创建所选报告包的分类。分类后，任何可使用关键数据生成的报告也可通过关联的属性来生成。
 
-启用分类后，使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值指定给相应的分类。
+启用分类后，使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)将特定值分配给相应的分类。
 
 ## 添加流量分类 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

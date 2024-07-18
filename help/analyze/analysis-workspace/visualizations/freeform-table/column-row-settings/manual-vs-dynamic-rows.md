@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 90%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 例如，将“浏览器类型”维度拖入表中后，则排名靠前的“浏览器类型”维度项目（例如 Microsoft、Apple、Google 等）会动态返回到表行。如果拖放到列中，则会动态返回排名前 5 的“浏览器类型”维度项目。
 
-动态维度项目具有行过滤器选项和X图标，并且可以 **not** 有锁图标。 <!--do they have the lock icon? --> 单击动态维度项目旁边的x时，会自动应用过滤器。 有关将过滤器应用到表格的更多信息，请参阅 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+动态维度项目具有行筛选器选项和X图标，并且&#x200B;**不**&#x200B;存在锁图标。 <!--do they have the lock icon? -->当您单击动态维度项旁边的x时，将自动应用过滤器。 有关将筛选器应用到表的详细信息，请参阅[筛选和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
 ![](assets/dynamic-items.png)
 

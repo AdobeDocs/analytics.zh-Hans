@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 91%
+source-wordcount: '264'
+ht-degree: 92%
 
 ---
 
 # 独特设备
 
-“独特设备” [量度](overview.md) 是 [跨设备分析](../cda/overview.md) 用于计算独特的未识别设备和独特的虚拟设备数量的量度。 未识别的设备是产生匿名点击的设备。独特的虚拟设备是每个设备识别的不同的人员。
+“独特设备”[指标](overview.md)是一个[跨设备分析](../cda/overview.md)指标，它计算独特的未识别的设备和独特的虚拟设备的数量。 未识别的设备是产生匿名点击的设备。独特的虚拟设备是每个设备识别的不同的人员。
 
 ## 如何计算此指标
 

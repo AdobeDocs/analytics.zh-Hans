@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 56%
+source-wordcount: '404'
+ht-degree: 59%
 
 ---
 
@@ -20,15 +20,15 @@ Data Warehouse架构中的独特处理允许使用某些在Adobe Analytics的其
 
 ### 专门支持的维度
 
-* **EXPERIENCE CLOUDID**：对于使用Experience CloudID服务(ECID)的实施，由两个64位数字拼接而成的128位数字，占据了19位数。
+* **Experience CloudID**：对于使用Experience CloudID服务(ECID)的实施，由两个64位数字拼接而成的128位数字，填充到19位数。
 * **页面URL**：点击发生的页面URL。
 * **购买ID**：购买的唯一标识符，使用purchaseID变量设置。
 * **访客ID**：提供访客的唯一标识符。 此值与数据馈送中的 `visid_high` 和 `visid_low` 列的拼接值相同。有关更多信息，请参阅“数据馈送”下的[数据列引用](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
 ### 专门支持的指标
 
-* **访问**：在Data Warehouse上下文中，此指标不包括非永久性Cookie访问。
-* **访问数 — 所有访客**：在Data Warehouse上下文中，此指标与Adobe Analytics内其他工具中的“访问次数”指标更接近。
+* **访问次数**：在Data Warehouse上下文中，此指标不包括非永久性Cookie访问。
+* **访问次数 — 所有访客**：在Adobe Analytics中，此指标与Data Warehouse内其他工具中的“访问次数”指标更接近。
 
 ## Data Warehouse 中不支持的组件
 
@@ -67,11 +67,11 @@ Data Warehouse 不支持某些维度和指标。
    * 重新载入
    * 单次存取
    * “逗留时间”指标
-* 参与率量度（如中所述） [构建“参与率”量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* 参与率量度（如[构建“参与率”量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)中所述）
 
 ### 以其他方式支持的Dimension
 
-支持以下基于时间的维度。 但是，使用这些维度时，日期输出不是标准输出。 具体而言，该年度由1900抵销，而月份则从零开始。
+支持以下基于时间的维度。 但是，在使用这些维度时，日期的输出不是标准格式。具体而言，该年度由1900抵销，而月份则从零开始。
 
 * 年
 * 季度

@@ -31,7 +31,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 >
 > 截至 2023 年 1 月，某些版本的 Mac 和 Windows 操作系统在用户代理中未正确显示，但在高熵客户端提示中正确表示。 有关更多信息，请参阅[操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)。
 
-Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您使用 [服务器端转发到Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans) 然后，您可能希望启用高熵提示的收集。
+Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您正在使用[服务器端转发到Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
 
 ## 常见问题解答
 
@@ -75,7 +75,7 @@ Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您
 | 平台版本 | 操作系统/平台版本 | 高 | `"10"` |
 
 * 通过请求头收集底熵提示。
-* 高熵提示通过 JavaScript 收集并通过查询字符串参数值传递。 查询字符串参数使用 `h.` 作为图像请求中的前缀。 请注意，当前不收集fullVersionList，因为浏览器主版本被捕获为低熵提示。
+* 高熵提示通过 JavaScript 收集并通过查询字符串参数值传递。 查询字符串参数使用`h.`作为图像请求中的前缀。 请注意，当前不收集fullVersionList，因为浏览器主版本被捕获为低熵提示。
 
 高熵提示通过 JavaScript 调用收集并通过查询参数传递
 
@@ -145,7 +145,7 @@ Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和用户�
 
 +++
 
-+++**通过Adobe源连接器发送到Adobe Experience Platform和Customer Journey Analytics的数据中是否会提供客户端提示？**
++++**通过AdobeSource Connector发送到Adobe Experience Platform和Customer Journey Analytics的数据中是否会提供客户端提示？**
 
 Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数据中加入客户端提示。
 
@@ -159,6 +159,6 @@ Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数�
 
 +++**Adobe Audience Manager服务器端转发是否支持客户端提示？**
 
-是的。客户端提示将包含在转发给Adobe Audience Manager的数据中。 请注意，Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您使用 [服务器端转发到Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans) 然后，您可能希望启用高熵提示的收集。
+是的。客户端提示将包含在转发给Adobe Audience Manager的数据中。 请注意，Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您正在使用[服务器端转发到Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
 
 +++

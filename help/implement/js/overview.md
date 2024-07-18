@@ -1,5 +1,5 @@
 ---
-title: 使用JavaScriptAppMeasurement实施Adobe Analytics
+title: 使用适用于JavaScript的AppMeasurement实施Adobe Analytics
 description: 了解如何在没有标签管理系统的情况下使用 JavaScript 实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
@@ -11,13 +11,13 @@ ht-degree: 42%
 
 ---
 
-# 使用JavaScriptAppMeasurement实施Adobe Analytics
+# 使用适用于JavaScript的AppMeasurement实施Adobe Analytics
 
 AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用方法。但是，随着标记管理系统的日益普及，建议使用 [Adobe Experience Platform 中的标记](../launch/overview.md)来实施。
 
 实施任务的高级概述：
 
-![如何通过Javascript的AppMeasurement实施AdobeAnalytics，如本节所述。](../assets/appmeasurement-annotated.png)
+![如何通过Javascript的AppMeasurement实施Adobe分析，如本节中所述。](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -26,15 +26,15 @@ AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用
 </tr>
 
 <tr>
-<td>1</td><td>确保您拥有 <b>定义了报表包</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
+<td>1</td><td>确保您已<b>定义报表包</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>下载所需的JavaScript代码以进行AppMeasurement</b> 代码管理器中的。 解压缩文件。</td><td><a href="../../admin/admin/code-manager-admin.md">代码管理器</a></td>
+<td>2</td><td><b>从代码管理器下载AppMeasurement</b>所需的JavaScript代码。 解压缩文件。</td><td><a href="../../admin/admin/code-manager-admin.md">代码管理器</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>添加 <code>AppMeasurement.js</code> 到您网站的模板文件</b>. 该代码包含向Adobe发送数据所需的库。
+<td>3</td><td><b>将<code>AppMeasurement.js</code>添加到您网站的模板文件</b>。 该代码包含向Adobe发送数据所需的库。
 
 ```html
 <head>
@@ -47,7 +47,7 @@ AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用
 </tr>
 
 <tr>
-<td>4</td><td><b>在中定义配置变量 <code>AppMeasurement.js</code></b>. 实例化Analytics对象后，这些变量可确保数据收集设置正确无误。
+<td>4</td><td><b>在<code>AppMeasurement.js</code></b>中定义配置变量。 实例化Analytics对象后，这些变量可确保数据收集设置正确无误。
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>在网站的页面代码中定义页面级变量</b>. 这些变量可确定发送给Adobe的特定维度和量度。
+<td>5</td><td><b>在网站的页面代码中定义页面级变量</b>。 这些变量可确定发送给Adobe的特定维度和量度。
 
 ```js
 s.pageName = "Example page";
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>使用将数据发送到Adobe <code>t()</code> 方法</b>，则表示已定义了所有页面变量。
+<td>6</td><td><b>定义所有Adobe变量后，使用<code>t()</code>方法</b>将数据发送到Page。
 
 ```js
 s.t();

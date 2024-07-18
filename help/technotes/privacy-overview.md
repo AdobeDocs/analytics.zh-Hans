@@ -4,8 +4,8 @@ keywords: 隐私
 title: 隐私概述
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: ht
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Adobe Analytics 可以收集以下类型的数据：
 | 地理位置信息 | Adobe 通过将 IP 地址的最后一个八位字节设置为 0，提供了阻止详细地理位置的功能。这会使地理信息不太精确，并且可以在[报表包设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html)中进行设置。 | [城市](../components/dimensions/cities.md)、[区域](../components/dimensions/regions.md)、[国家/地区](../components/dimensions/countries.md) |
 | IP 地址 | Adobe 在存储这些数据时提供了模糊（哈希）或完全删除访客 IP 地址的功能。EMEA 客户默认情况下通常会对 IP 地址设置进行模糊处理。无论模糊设置如何，IP 地址在 Analysis Workspace 中都不可用作维度；它仅包含在[数据馈送](../export/analytics-data-feed/data-feed-overview.md)中。请参阅管理员指南中的[常规帐户设置](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)，了解有关可用的模糊设置的详细信息。 | 无 |
 | 您网站上提供的表单信息 | 所有实施类型都需要通过配置来收集这些数据。您可以将此数据包含在自定义变量中。 | [eVar](../components/dimensions/evar.md) |
-| 点击您网站上的广告或链接 | 如果启用了 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 或 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md)，则收集。当您启用 Activity Map 时，可以获得其他信息，如点击的位置。 | [Activity Map](../analyze/activity-map/activity-map.md)，[退出链接](../components/dimensions/exit-link.md)，[下载链接](../components/dimensions/download-link.md) |
+| 点击您网站上的广告或链接 | 如果启用了 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 或 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md)，则收集。当您启用 Activity Map 时，可以获得其他信息，如点击的位置。 | [Activity Map](../analyze/activity-map/overview.md)，[退出链接](../components/dimensions/exit-link.md)，[下载链接](../components/dimensions/download-link.md) |
 | 在您的网站上购买的产品 | 所有实施类型都需要通过配置来收集这些数据。Adobe 提供了几个默认变量来收集这些信息。 | [产品](../components/dimensions/product.md)，[订单](../components/metrics/orders.md)，[收入](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}

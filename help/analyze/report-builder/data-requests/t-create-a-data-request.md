@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
 source-git-commit: d2e4a6eed54fa8b3e080b162a5e841fc2f5a0e59
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -35,4 +35,4 @@ ht-degree: 100%
 
    在第 2 步中提供的[维度](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html)取决于您在第 1 步中选择的基本报表和报表包的配置。维度是具有关联、子关系的项目，或者是在[!UICONTROL 请求向导: 第 1 步]窗口中选择的原始报表类型指标的分类。通过在第 2 步中添加多个维度，可在数据请求中创建划分。
 
-   请参阅[添加指标和维度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)，以了解更多信息。
+   有关详细信息，请参阅[添加指标和Dimension](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)。

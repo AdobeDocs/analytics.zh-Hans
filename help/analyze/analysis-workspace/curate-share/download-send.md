@@ -26,8 +26,8 @@ ht-degree: 90%
 * 将项目下载为PDF时：
    * 导出下载可能需要几分钟的时间，因为项目在以PDF格式呈现之前会在Adobe服务器上重新运行。 我们建议在浏览器中下载 PDF 之前不要离开项目。但是，在等待过程中，您仍可以继续对项目进行更改。如果 PDF 的呈现时间超过 5 分钟，则系统将提示您改为通过电子邮件发送。
    * 下载内容呈现为单个页面，未应用分页。
-   * PDF渲染包含工作区中页面上的内容。 如果项目具有自定义大小的可视化和面板，则需要将它们更改为自动调整大小（右上角的按钮），以便内容将不会被截断。
-   * 任何 [超链接](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) 自由格式表内的那些文件在下载的PDF中无法正常工作。
+   * PDF渲染包含Workspace中页面上显示的内容。 如果项目具有自定义大小的可视化和面板，则需要将它们更改为自动调整大小（右上角的按钮），以便内容将不会被截断。
+   * 任何存在于自由格式表中的[超链接](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)在下载的PDF中都无法正常工作。
 
 要将项目下载为CSV或PDF文件，请执行以下操作：
 

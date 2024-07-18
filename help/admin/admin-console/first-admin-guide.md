@@ -33,4 +33,4 @@ ht-degree: 43%
 
 在为您的组织配置第一个管理员后，第一个管理员随后可以为组织中的用户配置其他关键角色。
 
-有关如何为您的组织中的用户预配Adobe Analytics的关键角色的信息，请参阅 [Adobe Analytics中的管理员角色](/help/admin/admin-console/admin-roles-in-analytics.md).
+有关如何为您组织中的用户设置Adobe Analytics关键角色的信息，请参阅Adobe Analytics中的[管理员角色](/help/admin/admin-console/admin-roles-in-analytics.md)。

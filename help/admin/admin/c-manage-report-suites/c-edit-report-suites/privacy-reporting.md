@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # 隐私报告
 
-通过隐私报告，您可以启用 [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)， [同意管理选择退出](/help/components/dimensions/cm-opt-out.md) 和 [广告平台同意](/help/components//dimensions/ad-consent.md) 用于报表的维度。
+通过隐私报告，您可以启用[同意管理选择加入](/help/components/dimensions/cm-opt-in.md)、[同意管理选择退出](/help/components/dimensions/cm-opt-out.md)和[广告平台同意](/help/components//dimensions/ad-consent.md)维度以用于报告。
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ ht-degree: 54%
 
    ![编辑设置](assets/rsm-privacy-select.png)
 
-1. 单击 **[!UICONTROL 启用数据隐私报表]**.
+1. 单击&#x200B;**[!UICONTROL 启用数据隐私报表]**。
 
    >[!NOTE]
    >

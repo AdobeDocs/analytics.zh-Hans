@@ -17,17 +17,17 @@ ht-degree: 73%
 
 `getQueryParam` 插件允许您提取 URL 中包含的任意查询字符串参数的值。在从登录页面 URL 中提取内部和外部促销活动代码时，此插件非常有用。在提取搜索词或其他查询字符串参数时，此插件也非常有价值。
 
-此插件在解析复杂 URL（包括散列和包含多个查询字符串参数的 URL）方面提供了强大的功能。如果您只需要处理简单的查询字符串参数，Adobe建议使用URL参数功能，例如，使用Web SDK、Adobe Analytics扩展或者 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) AppMeasurement中包含的方法。
+此插件在解析复杂 URL（包括散列和包含多个查询字符串参数的 URL）方面提供了强大的功能。如果您只需要处理简单的查询字符串参数，Adobe建议使用URL参数功能，这些功能使用Web SDK或Adobe Analytics扩展或者AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法。
 
 ## 使用Web SDK扩展安装此插件
 
 Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Web SDK结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 标记]** 单击左侧的，然后单击所需的标记属性。
-1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
-1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
-1. 单击 **[!UICONTROL 数据元素]** 单击左侧的，然后单击所需的数据元素。
+1. 单击左侧的&#x200B;**[!UICONTROL 标记]**，然后单击所需的标记属性。
+1. 单击左侧的&#x200B;**[!UICONTROL 扩展]**，然后单击&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡
+1. 找到并安装&#x200B;**[!UICONTROL 常用Web SDK插件]**&#x200B;扩展。
+1. 单击左侧的&#x200B;**[!UICONTROL 数据元素]**，然后单击所需的数据元素。
 1. 使用以下配置设置所需的数据元素名称：
    * 扩展：常用Web SDK插件
    * 数据元素： `getQueryParam`
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0（2021 年 3 月 19 日）
 
 * 以上下文数据形式添加了版本号。
-* 删除的依赖项 `pt` 插件。
+* 删除了`pt`插件的依赖项。
 
 ### 3.3（2019 年 9 月 24 日）
 

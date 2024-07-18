@@ -12,12 +12,12 @@ ht-degree: 50%
 
 # Advertising Analytics 疑难解答
 
-* [我在“映射”部分中看不到我的报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [我在“映射”部分中没有看到我的报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [我在对 Google AdWords 帐户进行身份验证时遇到错误...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 我在“映射”部分中看不到我的报表包 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-您正在尝试 [设置新的Advertising帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 并且您的报表包未在 **[!UICONTROL 已映射的报表包]** 下拉列表。 出现此问题的原因可能有两个：
+您正在尝试[设置新的Advertising帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，并且在&#x200B;**[!UICONTROL 映射的报表包]**&#x200B;下拉列表中列出的报表包中，没有看到您的报表包。 出现此问题的原因可能有两个：
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

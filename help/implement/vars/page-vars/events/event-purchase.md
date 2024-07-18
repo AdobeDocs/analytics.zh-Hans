@@ -23,14 +23,14 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->收入不是乘以数量字段。例如， `s.products="Womens;Socks;5;4.50"` 不会向收入传递$22.50，而是传递$4.50。确保您的实施传递了所列数量的总收入。 例如，`s.products="Womens;Socks;5;22.50"`。
+>收入不是乘以数量字段。例如，`s.products="Womens;Socks;5;4.50"`不会向收入传递$22.50，而是传递$4.50。确保您的实施传递了所列数量的总收入。 例如，`s.products="Womens;Socks;5;22.50"`。
 
 ## 使用Web SDK设置购买事件
 
-如果使用 [**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，购买事件使用以下XDM字段：
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则购买事件使用以下XDM字段：
 
 * 订单将映射到 `xdm.commerce.purchases.value`。
-* 单位映射到所有单位的总和 `xdm.productListItems[].quantity` 字段。 请参阅 [`products`](../products.md) 以了解更多信息。
+* 单位映射到所有`xdm.productListItems[].quantity`字段的总和。 有关详细信息，请参阅[`products`](../products.md)。
 * 收入将映射到所有 `xdm.productListItems[].priceTotal` 字段的总和。
 
 ```json
@@ -45,7 +45,7 @@ ht-degree: 70%
 }
 ```
 
-如果使用 [**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，购买事件使用 `data.__adobe.analytics.events`，遵循字符串AppMeasurement语法。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则购买事件使用`data.__adobe.analytics.events`，并遵循AppMeasurement字符串语法。
 
 ```json
 {
@@ -65,10 +65,10 @@ ht-degree: 70%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
-6. 找到 [!UICONTROL 活动] 部分，并设置 [!UICONTROL 活动] 下拉列表至 [!UICONTROL 购买].
+5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+6. 找到[!UICONTROL 事件]部分，并将[!UICONTROL 事件]下拉列表设置为[!UICONTROL 购买]。
 
-其他因变量，如 `products` 和 `purchaseID` 在Adobe Experience Platform数据收集的Analytics扩展中没有专用字段。 对这些变量使用遵循 AppMeasurement 语法的自定义代码编辑器。
+其他因变量（如`products`和`purchaseID`）在Adobe Experience Platform数据收集的Analytics扩展中没有专用字段。 对这些变量使用遵循 AppMeasurement 语法的自定义代码编辑器。
 
 ## 在AppMeasurement和Analytics扩展自定义代码编辑器中设置购买事件
 

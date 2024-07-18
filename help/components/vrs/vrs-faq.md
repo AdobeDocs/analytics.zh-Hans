@@ -6,7 +6,7 @@ feature: VRS
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '973'
 ht-degree: 72%
 
 ---
@@ -24,4 +24,4 @@ ht-degree: 72%
 | **我选中了“在每次应用程序启动后即开始一个新访问”。为何仍发现访问次数远大于启动次数？** | 选中“在每次应用程序启动后即开始一个新访问”选项后，超时仍适用。因此，如果用户使用一个应用程序 10 分钟，并且各个操作之间有一分钟的间隔，则会在应用程序启动后开始一次新访问，然后在访问超时时创建其他 9 次访问。选中“在每次应用程序启动后即开始一个新访问”选项后，要使启动次数与访问次数尽可能接近，使用的超时时间应大于 SDK 中设置的会话超时时间。 |
 | **我设置了“在每次应用程序启动后即开始一个新访问”，并设置了比我的 SDK 长的超时。为何我的启动次数仍远小于访问次数？** | 如果您设置的超时时间大于 SDK 中设置的值，原因很可能是您的应用程序在后台发送了点击，并且这些点击被计为新的访问。可通过使用父报表包中的点击类型维度来查看是否存在任何后台点击。<br>**注意**：只有在 SDK 4.13.6 及更高版本中才会区分后台点击和前台点击。如果您使用的是较低版本，则所有点击都会显示为前台点击。如果您使用的是正确的 SDK 版本，则应当启用“避免将后台点击计算为一次新的访问”设置。注意：如果您在 Admin Console 中禁用了后台点击旧版处理功能，则这些点击将不会显示在父报表包中，但会显示在虚拟报表包中。 |
 | **需要使用哪个 SDK 版本才能跟踪后台点击？** | 必须使用 SDK 4.13.6 或更高版本。 |
-| **如何才能找到虚拟报表包的 ID？** | <ul><li>打开Workspace项目，单击报表包选择器，然后在搜索框中搜索虚拟报表包的名称。 ID显示在搜索结果中的名称下方：<br>![虚拟报表包ID](assets/vrs-id.png)</li><li> 或者，以编程方式显示在 [虚拟报表包API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md).</li></ul> |
+| **如何才能找到虚拟报表包的 ID？** | <ul><li>打开Workspace项目，单击报表包选择器，然后在搜索框中搜索虚拟报表包的名称。 ID显示在搜索结果中的名称下方： <br>![虚拟报表包ID](assets/vrs-id.png)</li><li> 或者，以编程方式显示在[虚拟报表包API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md)中。</li></ul> |

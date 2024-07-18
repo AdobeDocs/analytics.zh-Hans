@@ -7,13 +7,13 @@ role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # 报表活动管理器概述
 
-此 [!UICONTROL 报告活动管理器] 可供管理员使用。
+[!UICONTROL 报告活动管理器]可供管理员使用。
 
 如果您的组织在报表高峰期遇到报表性能下降的问题，可使用报表活动管理器进行自我诊断和修复容量问题，无需Adobe客户关怀部门的干预。 在单个界面中即可轻松地管理报表队列，并可立即&#x200B;操作&#x200B;以改善用户体验。
 
@@ -35,8 +35,8 @@ ht-degree: 15%
 
 ## 查看报告活动
 
-有关在报表活动管理器中查看报表活动的信息，请参阅 [在报告活动管理器中查看报告活动](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+有关在报表活动管理器中查看报表活动的信息，请参阅[在报表活动管理器中查看报表活动](/help/admin/admin/reporting-activity-manager/reporting-activity.md)。
 
 ## 取消报告请求
 
-有关在报告活动管理器中取消报告请求的信息，请参阅 [在报告活动管理器中取消报告请求](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
+有关在报告活动管理器中取消报告请求的信息，请参阅报告活动管理器中的[取消报告请求](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)。

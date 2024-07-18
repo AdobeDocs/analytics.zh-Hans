@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '165'
 ht-degree: 84%
 
 ---
 
 # 点击类型
 
-“点击类型” [维度](overview.md) 确定将点击发送到Adobe数据收集服务器时，移动设备应用程序是处于前台还是后台。 此维度仅与包含移动设备应用程序数据的报表包相关。通过 AppMeasurement 收集的浏览器数据始终将点击报告为“前台”。
+“点击类型”[维度](overview.md)确定将点击发送到Adobe数据收集服务器时，移动设备应用程序是处于前台还是后台。 此维度仅与包含移动设备应用程序数据的报表包相关。通过 AppMeasurement 收集的浏览器数据始终将点击报告为“前台”。
 
 ## 使用数据填充此维度
 

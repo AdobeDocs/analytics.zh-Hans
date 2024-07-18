@@ -6,8 +6,8 @@ feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 89%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 虽然 Analytics 中的数据更改在通过浏览器导入时可能需要花费 4 个小时，而在通过 FTP 导入时可能需花费多达 24 个小时，但成功导入后会立即在导出中显示相应的更改。
 
-有关 FTP 限制和数据保留的信息，请参阅 [FTP 限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
+有关FTP限制和数据保留的信息，请参阅[FTP限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
 ## 关于分类和数据源上传时使用的 `.fin` 文件 {#section_1484719F8A134EAE91212DBD8F15174F}
 
-在上传分类或数据源文件（`.tab` 或 `.txt`）时，还要求您上传一个与正在导入的数据文件完全同名，但具有 .`.fin` 扩展名的空白文件。此 `.fin` 文件是一个完成文件。此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。`.fin` 文件可让 Adobe 知道您已完成导入。
+在上传分类或数据Source文件（`.tab`或`.txt`）时，还要求您上传一个与正在导入的数据文件完全同名，但具有的空文件。`.fin`扩展名。 此 `.fin` 文件是一个完成文件。此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。`.fin` 文件可让 Adobe 知道您已完成导入。
 
 在您提交源文件和 `.fin` 文件后，一定要从 FTP 站点注销。原因是 Adobe Analytics 使用注销事件作为文件准备处理的触发器。导入完成后，Adobe 会从 FTP 位置删除这两个文件。
 

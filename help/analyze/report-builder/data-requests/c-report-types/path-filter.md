@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '426'
 ht-degree: 62%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 62%
 
 1. 在向导的第 2 步中，在&#x200B;**[!UICONTROL 行标签]**&#x200B;下面单击&#x200B;**[!UICONTROL 前 1-10 项（应用了模式）]**&#x200B;链接。默认情况下，路径报表中已应用模式。
 
-   ![显示默认路径模式的屏幕截图。](assets/site_section_path_2.png)
+   ![显示默认路径模式的屏幕快照。](assets/site_section_path_2.png)
 
 1. 选择&#x200B;**[!UICONTROL 过滤器]**&#x200B;选项。
 
-   ![突出显示“Filter”（过滤器）选项的屏幕快照。](assets/filter_option.png)
+   ![屏幕快照突出显示“筛选器”选项。](assets/filter_option.png)
 
 1. 在&#x200B;**[!UICONTROL 定义“网站区域路径”路径模式]**&#x200B;对话框中，您可以指定
    * 第一个报表的起始排名。
@@ -62,7 +62,7 @@ ht-degree: 62%
 
 1. 要从前一请求的单元格范围进行选择，请选择&#x200B;**[!UICONTROL 来自单元格范围]**，并单击单元格选择器图标。然后，从报表中选取单元格。
 
-   ![屏幕截图显示了从单元格范围或列表中选择的选项。](assets/choose_site_section_paths.png)
+   ![显示从单元格范围或列表选择选项的屏幕快照。](assets/choose_site_section_paths.png)
 
 1. 要从网站区域列表进行选择，请选择&#x200B;**[!UICONTROL 来自列表]**，然后单击&#x200B;**[!UICONTROL 添加]**。
 
@@ -72,4 +72,4 @@ ht-degree: 62%
 
 1. 要保存刚刚创建的模式，请单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 单击 **[!UICONTROL 确定]** 三次，然后单击 **[!UICONTROL 完成]** 以生成过滤路径。
+1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;三次，然后单击&#x200B;**[!UICONTROL 完成]**&#x200B;以生成筛选路径。

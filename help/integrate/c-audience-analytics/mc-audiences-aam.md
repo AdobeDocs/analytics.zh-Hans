@@ -34,7 +34,7 @@ Audience Analytics 集成功能具有以下主要优点：
 ![](assets/mc-aud-dataflow.png)
 
 1. 每当访客访问您的数字属性时，都会收集点击量并将其发送给 Analytics。
-1. 替换为 [服务器端转发](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)，Analytics收到的每次点击都会实时自动发送到Adobe Audience Manager。
+1. 通过[服务器端转发](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)，Analytics收到的每次点击都会实时自动发送到Adobe Audience Manager。
 1. 通过Audience Analytics集成，对于每次点击，均会在Adobe Audience Manager中查找访客的受众成员资格，并将区段ID列表返回到Analytics以便实时处理。
 
 由于Adobe Audience Manager区段是在同一次点击的基础上插入的，因此您可以确保Adobe Audience Manager中有关某个访客的所有可用数据都不会丢失并且会保持该点击的最新状态。 由于插件只能在下一次点击（而不是当前点击）时提供这些区段，因此这种方式要优于 AppMeasurement 插件。

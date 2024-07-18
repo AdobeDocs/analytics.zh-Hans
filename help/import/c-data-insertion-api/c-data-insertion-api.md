@@ -13,8 +13,8 @@ ht-degree: 47%
 
 # 数据插入 API
 
-[数据插入API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 和 [批量数据插入API](../bulk-data-insertion-api/bulk-data-insert.md) 将服务器端收集数据提交到Adobe Analytics的两种方法。 每次生成事件时都将调用“数据插入 API”。“批量数据插入API”接受包含事件数据（每行一个事件）的CSV格式的文件。
+[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)和[Bulk Data Insertion API](../bulk-data-insertion-api/bulk-data-insert.md)都是将服务器端收集的数据提交到Adobe Analytics的方法。 每次生成事件时都将调用“数据插入 API”。“批量数据插入API”接受包含事件数据（每行一个事件）的CSV格式的文件。
 
-请参阅 [批量数据插入API的开发人员文档](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) 以了解更多信息。
+有关详细信息，请参阅批量数据插入API的[开发人员文档](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)。
 
 如果您正在实施新的服务器端收集，我们建议您使用“批量数据插入 API”。

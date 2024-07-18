@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 source-git-commit: 90441e102ddaf367555e278bda8ca51c7bfeae34
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 66%
+source-wordcount: '124'
+ht-degree: 54%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 66%
 
 安装 Report Builder：
 
-1. 单击 **[](https://experience.adobe.com/)Adobe Experience Cloud** > **[!UICONTROL Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Report Builder]**。 
+1. 单击&#x200B;**[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Report Builder]**。
 1. 单击&#x200B;**[!UICONTROL 立即下载]**&#x200B;以下载 32 位或 64 位版本（具体取决于安装的 MS Excel 版本）。
 1. 打开已下载的安装程序包。
 1. 按照安装向导进行操作。
@@ -27,4 +27,4 @@ ht-degree: 66%
 
 ## 权限
 
-如果您没有看到 **[!UICONTROL Report Builder]** 作为菜单项在 **[!UICONTROL 工具]**，请咨询Adobe Analytics管理员，确保您是包含以下权限的产品配置文件的一部分： *Report Builder*. 了解有关[产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)和 [Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)的详细信息。
+如果在&#x200B;**[!UICONTROL 工具]**&#x200B;下未看到&#x200B;**[!UICONTROL Report Builder]**&#x200B;菜单项，请咨询Adobe Analytics管理员，确保您是包含以下权限的产品配置文件的一部分：*Report Builder*。 了解有关[产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)和 [Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)的详细信息。

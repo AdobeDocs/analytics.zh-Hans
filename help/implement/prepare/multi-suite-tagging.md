@@ -37,4 +37,4 @@ ht-degree: 93%
 
 使用虚拟报表包代替多包标记通常是最佳实践，但您的业务需求决定了适合您组织的最佳报表包方法。
 
-要了解虚拟报表包是否是您的最佳方法，请参阅“[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)”。另请参阅&quot;[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)»，用于比较多包标记和虚拟报表包功能。
+要了解虚拟报表包是否是您的最佳方法，请参阅“[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)”。另请参阅“[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)”，以比较多包标记和虚拟报表包功能。

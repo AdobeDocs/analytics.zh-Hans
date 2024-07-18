@@ -34,7 +34,7 @@ ht-degree: 95%
 
 >[!TIP]
 >
->Internet 违规、系统违规或使用自定义访客 ID 极少数情况下会将相同的 `visit_num` 值用于不同的访问。虽然可选，但请使用 `visit_start_time_gmt` 在计数访问次数以确保计数这些访问次数时。
+>Internet 违规、系统违规或使用自定义访客 ID 极少数情况下会将相同的 `visit_num` 值用于不同的访问。虽然可选，但在计算访问次数时使用`visit_start_time_gmt`以确保计算这些访问次数。
 
 ## 访客
 

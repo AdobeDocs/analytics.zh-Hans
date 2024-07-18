@@ -6,14 +6,14 @@ feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 4f0bd39b64535be8ba55e97d65177f6ef291ef6c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '563'
 ht-degree: 61%
 
 ---
 
 # 管理注释
 
-此 [!UICONTROL 注释管理器] 显示您拥有或与您共享的所有注释。 特定于项目的注释不会在此处显示。 您可以使用此界面共享、筛选、标记、复制、删除和收藏您的注释。 管理员可以管理和批准注释。
+[!UICONTROL 注释管理器]显示您拥有或与您共享的所有注释。 特定于项目的注释不会在此处显示。 您可以使用此界面共享、筛选、标记、复制、删除和收藏您的注释。 管理员可以管理和批准注释。
 
 **[!UICONTROL 组件]** > **[!UICONTROL 注释]**
 

@@ -6,7 +6,7 @@ exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
    * 此区段有何用途？
    * 此区段应何时使用？
 
-1. 确定区段&#x200B;**范围**。哪个[区段容器](/help/components/segmentation/seg-overview.md)最能代表您的范围？尽可能使用最小的容器。
+1. 确定区段&#x200B;**范围**。哪个[区段容器](/help/components/segmentation/seg-overview.md)最能代表该范围？ 尽可能使用最小的容器。
 
-1. 确定区段定义中要包含哪些&#x200B;**元素**&#x200B;及其值。在此项决定中请考虑[变量持续性](/help/components/segmentation/seg-overview.md)。
+1. 确定区段定义中要包含哪些&#x200B;**元素**&#x200B;及其值。在此决策中考虑[变量持久性](/help/components/segmentation/seg-overview.md)。
 
 1. 考虑您希望如何进行&#x200B;**批准过程**。区段是由一个人进行审查和批准，还是由委员会做出决定？
 1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[](/help/components/segmentation/segmentation-workflow/seg-build.md)需要定义哪些“模块”才能实现此库？

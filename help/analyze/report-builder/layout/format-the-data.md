@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 80%
+source-wordcount: '261'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 80%
 
 下表说明如何在“[!UICONTROL 自定义格式]”字段中使用日期缩写：
 
-| 缩写 | 含义 | 使用2012年3月14日星期三的示例 |
+| 缩写 | 含义 | 示例   使用2012年3月14日，星期三 |
 |--- |--- |--- |
 | MM/dd/yyy | 完整的数字日期 | 03/14/2012 |
 | 一 | 月份 | 3 |

@@ -38,7 +38,7 @@ ht-degree: 96%
 1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]**。
 
    “[!UICONTROL 计划报表]”选项卡总结您已创建的所有任务，以及剩余任务的数目。
-1. 在 **[!UICONTROL 计划报表]** 选项卡，单击 **[!UICONTROL 新建]**. “基本计划向导”会显示用于定义计划报表的选项。
+1. 在&#x200B;**[!UICONTROL 计划报表]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 新建]**。 “基本计划向导”会显示用于定义计划报表的选项。
 
    ![显示“基本计划向导”的屏幕截图。](assets/simple-schedule-wizard.png)
 

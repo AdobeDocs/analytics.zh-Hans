@@ -35,7 +35,7 @@ ht-degree: 98%
 货币代码映射到以下变量：
 
 * [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.currencyCode`
-* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.currencyCode` 或 `data.__adobe.analytics.cc`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.currencyCode`或`data.__adobe.analytics.cc`
 
 ## 使用 Adobe Analytics 扩展程序的货币代码
 

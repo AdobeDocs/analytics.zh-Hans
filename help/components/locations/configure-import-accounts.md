@@ -17,38 +17,44 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->创建和编辑帐户时，请考虑以下事项： <ul><li>系统管理员可以限制用户创建帐户，如中所述 [配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果无法按本节所述创建帐户，请与系统管理员联系。</li><li>帐户只能由创建该帐户的用户或系统管理员编辑。</li></ul>
+>创建和编辑帐户时，请考虑以下事项： <ul><li>系统管理员可以限制用户创建帐户，如[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果无法按本节所述创建帐户，请与系统管理员联系。</li><li>帐户只能由创建该帐户的用户或系统管理员编辑。</li></ul>
 
 您可以配置用于以下任意或所有目的的云帐户：
 
-* 导出文件，使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md)
-* 导出报告，使用 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* 使用以下方式导入架构 [分类集](/help/components/classifications/sets/overview.md)
+* 使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)导出文件
+* 使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)导出报告
+* 使用[分类集](/help/components/classifications/sets/overview.md)导入架构
 
-您需要为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照本文所述添加和配置帐户(例如Amazon S3角色ARN、Google Cloud Platform等)，然后按照所述添加和配置该帐户内的位置（例如帐户内的文件夹） [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
+您需要为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照本文所述添加和配置帐户(如Amazon S3角色ARN、Google Cloud Platform等)，然后按照[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述，添加和配置该帐户内的位置（如帐户内的文件夹）。
 
-有关如何查看和删除现有帐户的信息，请参见 [位置管理器](/help/components/locations/locations-manager.md).
+有关如何查看和删除现有帐户的信息，请参阅[位置管理器](/help/components/locations/locations-manager.md)。
 
 要配置云导入或导出帐户，请执行以下操作：
 
-1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **位置**].
-1. 在 [!UICONTROL 位置] 页面上，选择 [!UICONTROL **位置帐户**] 选项卡。
-1. （视情况而定）如果您是系统管理员，则可以启用 [!UICONTROL **查看所有用户的帐户**] 选项，用于查看由您组织中的所有用户创建的帐户。
+1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **组件**] > [!UICONTROL **位置**]。
+1. 在[!UICONTROL 位置]页面上，选择&#x200B;[!UICONTROL **位置帐户**]&#x200B;选项卡。
+1. （视情况而定）如果您是系统管理员，则可以启用&#x200B;[!UICONTROL **查看所有用户的帐户**]选项以查看由您组织中的所有用户创建的帐户。
    ![查看所有用户的帐户](assets/accounts-all-users.png)
-1. 要创建新帐户，请选择 [!UICONTROL **添加帐户**].
+1. 要创建新帐户，请选择&#x200B;[!UICONTROL **添加帐户**]。
 
-   此 [!UICONTROL **位置帐户详细信息**] 对话框随即显示。
+   显示&#x200B;[!UICONTROL **位置帐户详细信息**]&#x200B;对话框。
 
    或
 
-   要编辑现有帐户，请找到要编辑的帐户，然后选择 [!UICONTROL **编辑详细信息**] 按钮。
+   要编辑现有帐户，请找到要编辑的帐户，然后选择&#x200B;[!UICONTROL **编辑详细信息**]&#x200B;按钮。
 
-   此 [!UICONTROL **添加帐户**] 对话框随即显示。
+   显示&#x200B;[!UICONTROL **添加帐户**]&#x200B;对话框。
 
-1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 | | [!UICONTROL **位置帐户说明**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 | | [!UICONTROL **使帐户对贵组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该帐户。<p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> | | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如中所述 [配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
-1. 在 [!UICONTROL **帐户属性**] 部分，指定特定于所选帐户类型的信息。
+1. 指定以下信息：
+|字段 | 函数 |
+-------------------
+| [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 |
+| [!UICONTROL **位置帐户描述**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 |
+| [!UICONTROL **使帐户对贵组织的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该帐户。<p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> |
+| [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
+1. 在&#x200B;[!UICONTROL **帐户属性**]&#x200B;部分中，指定特定于所选帐户类型的信息。
 
-   有关配置说明，请展开以下对应于 [!UICONTROL **帐户类型**] 你选择的。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
+   有关配置说明，请展开下面与您选择的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的部分。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
 
    **帐户类型**
 
@@ -85,7 +91,7 @@ ht-degree: 54%
    | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
    | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
    | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。要配置Azure SAS，必须使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
-   | [!UICONTROL **密钥保管库密码名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥库的 **密钥库** 设置页面。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+   | [!UICONTROL **密钥保管库密码名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥保管库中，位于&#x200B;**密钥保管库**&#x200B;设置页面上。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
    | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
    {style="table-layout:auto"}
@@ -110,7 +116,7 @@ ht-degree: 54%
 
    >[!NOTE]
    >
-   >电子邮件帐户只能用于 [数据馈送](/help/export/analytics-data-feed/create-feed.md). (不支持电子邮件帐户 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或 [分类集](/help/components/classifications/sets/overview.md))。
+   >电子邮件帐户只能用于[数据馈送](/help/export/analytics-data-feed/create-feed.md)。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件帐户)。
 
    若要配置 Azure RBAC 帐户，请指定以下信息：
 
@@ -124,7 +130,7 @@ ht-degree: 54%
 
    **旧帐户类型**
 
-   这些旧帐户类型仅在导出数据时使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 和 [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). 在使用导入数据时，这些选项不可用 [分类集](/help/components/classifications/sets/manage/schema.md).
+   这些旧帐户类型仅在使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)和[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)导出数据时可用。 在导入具有[分类集](/help/components/classifications/sets/manage/schema.md)的数据时，这些选项不可用。
 
    +++FTP
 
@@ -135,7 +141,7 @@ ht-degree: 54%
    | [!UICONTROL **Host**] | 输入所需的FTP目标URL。 例如，`ftp://ftp.omniture.com`。 |
    | [!UICONTROL **路径**] | 可留空。 |
    | [!UICONTROL **用户名**] | 输入用户名以登录到FTP站点。 |
-   | [!UICONTROL **密码和确认密码**] | 输入登录FTP站点的密码。 |
+   | [!UICONTROL **密码并确认密码**] | 输入登录FTP站点的密码。 |
 
    {style="table-layout:auto"}
 
@@ -194,4 +200,4 @@ ht-degree: 54%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-1. 继续 [配置云导入和导出位置](/help/components/locations/configure-import-locations.md).
+1. 继续[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)。

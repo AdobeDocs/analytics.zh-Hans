@@ -12,11 +12,11 @@ ht-degree: 53%
 
 # 批准区段
 
-在区段管理器中，您可以设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
+在区段管理器内，您可以设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
 
 >[!NOTE]
 >
->管理员还可以从数据字典中批准区段（和其他组件），如中所述 [编辑数据字典中的组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>管理员还可以批准数据字典中的区段（和其他组件），如数据字典中的[编辑组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)中所述。
 >
 >数据字典中批准的任何区段都会反映在区段管理器中。 同样，区段管理器中批准的量度也会反映在数据字典中。
 

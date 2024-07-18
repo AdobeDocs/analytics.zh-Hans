@@ -16,25 +16,25 @@ ht-degree: 6%
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]** > **[!UICONTROL 合并]**
 
-运行合并后，将删除原始分类集，合并的分类集将替换它们。 单击 **[!UICONTROL 添加]** 到 [创建合并](process.md).
+运行合并后，将删除原始分类集，合并的分类集将替换它们。 单击&#x200B;**[!UICONTROL 添加]**&#x200B;到[创建合并](process.md)。
 
 ## 筛选分类集
 
-分类集合并管理器的左侧提供筛选条件设置以定位所需的合并。 单击过滤器图标可切换过滤器设置的可见性。 您可以通过以下方式筛选合并 **[!UICONTROL 状态]**， **[!UICONTROL 完成时间]**，或 **[!UICONTROL 创建时间]**.
+分类集合并管理器的左侧提供筛选条件设置以定位所需的合并。 单击过滤器图标可切换过滤器设置的可见性。 您可以按&#x200B;**[!UICONTROL 状态]**、**[!UICONTROL 完成时间]**&#x200B;或&#x200B;**[!UICONTROL 创建时间]**&#x200B;筛选合并。
 
 ![分类集合并筛选器](../../assets/classification-set-consolidation-filters.png)
 
 分类集合并管理器列上方提供了其他筛选器选项：
 
 * **[!UICONTROL 按标题搜索]**：按名称搜索合并。
-* **显示/隐藏列**：切换任何列的可见性，不包括 [!UICONTROL 名称].
+* **显示/隐藏列**：切换除[!UICONTROL 名称]之外的任何列的可见性。
 
 ## 分类集合并管理器列
 
 分类集合并管理器中有以下列：
 
 * **[!UICONTROL 名称]**：合并的名称。
-* **[!UICONTROL 当前作业]**：当前作业。 <!-- todo: better description -->
-* **[!UICONTROL 状态]**：合并的状态。 <!-- todo: get list of possible statuses -->
-* **[!UICONTROL 创建日期]**：创建合并的日期和时间。
+* **[!UICONTROL 当前作业]**：当前作业。<!-- todo: better description -->
+* **[!UICONTROL 状态]**：合并的状态。<!-- todo: get list of possible statuses -->
+* **[!UICONTROL 创建日期]**：合并的创建日期和时间。
 * **[!UICONTROL 完成日期]**：合并完成（或失败）的日期和时间。

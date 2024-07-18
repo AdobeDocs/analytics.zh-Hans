@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 88%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 1. 在“[!UICONTROL 请求向导: 第 2 步]”中，单击网格中维度旁边的链接，然后选择&#x200B;**[!UICONTROL 过滤器]**。
 
-   ![屏幕截图显示“定义过滤器”对话框，其中包含按应用程序、用户和项目过滤的选项。](/help/admin/admin/assets/filter.png)
+   ![屏幕截图显示“定义筛选器”对话框，其中包含按应用程序、用户和项目筛选的选项。](/help/admin/admin/assets/filter.png)
 
 1. 在“[!UICONTROL 选择页面]”窗体中，启用&#x200B;**[!UICONTROL 最受欢迎]**，然后配置下列选项：
 
@@ -43,15 +43,15 @@ ht-degree: 88%
 1. 在“[!UICONTROL 定义过滤器]”窗体中，根据您的需要配置条件。
 
 
-   ![显示“定义过滤器”对话框的屏幕截图。](assets/expressions_define_filter.png)
+   ![显示“定义筛选器”对话框的屏幕截图。](assets/expressions_define_filter.png)
 
    使用选择单元格图标，可查找在单元格值中定义的条件。 ![选择单元格图标。](assets/select_cell_icon.png)
 
-   此 **添加条件** 链接允许您向表达式添加条件。 可添加的条件数没有限制。
+   **添加条件**&#x200B;链接允许您向表达式添加条件。 可添加的条件数没有限制。
 
 1. 单击&#x200B;**[!UICONTROL 确定]**。
 
-   ![右下角显示“定义过滤器”对话框和“确定”按钮的屏幕截图。](assets/choose_page_02.png)
+   ![右下角显示“定义过滤器”对话框“确定”按钮的屏幕截图。](assets/choose_page_02.png)
 
 1. 在“[!UICONTROL 选择页面]”窗体上，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存表达式。
 1. 单击&#x200B;**[!UICONTROL 确定]**。

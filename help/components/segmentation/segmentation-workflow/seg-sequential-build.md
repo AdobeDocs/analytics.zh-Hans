@@ -182,11 +182,11 @@ ht-degree: 96%
 
 例如：
 
-* **排除页面**。使用区段规则从报告中排除特定页面(如 *`Home Page`*)，创建页面等于“Home Page”的点击规则，然后将其排除。 此规则自动包括 Home Page 以外的所有值。
+* **排除页面**。使用区段规则从报告中排除特定页面（例如&#x200B;*`Home Page`*），创建页面等于“主页”的点击规则，然后排除它。 此规则自动包括 Home Page 以外的所有值。
 * **排除反向链接域**。使用仅包括 Google.com 中的反向链接域并排除所有其他域的规则。
 * **确定非顾客**。确定订单大于零的[!UICONTROL 访客]，然后将其排除。
 
-可以使用 [!UICONTROL Exclude] 运算符确定访客没有执行特定访问或点击的序列。[!UICONTROL 排除检查点] 也可包含在 [逻辑组](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+可以使用 [!UICONTROL Exclude] 运算符确定访客没有执行特定访问或点击的序列。[!UICONTROL 排除检查点]也可以包含在[逻辑组](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)中。
 
 ### 检查点之间排除
 
@@ -346,11 +346,11 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->在类似命名的元素之间求值存在差异，例如 **天** 或 **天**. 对于Within和After的基于时间的定义，利用弹出窗口中列出的第一个选项：
+>类似命名的元素（如&#x200B;**天**&#x200B;或&#x200B;**天**）之间的求值存在差异。 对于Within和After的基于时间的定义，利用弹出窗口中列出的第一个选项：
 >
 >![图像](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
 >
->对于“之内”和“之后”的基于维度的定义，利用子菜单下的选项 *其他Dimension*：
+>对于Within和After的基于维度的定义，利用子菜单&#x200B;*其他Dimension*&#x200B;下的选项：
 >
 >![图像](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 

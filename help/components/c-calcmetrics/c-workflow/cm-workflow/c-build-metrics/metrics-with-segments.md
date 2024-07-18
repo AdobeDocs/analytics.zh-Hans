@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 69%
 
 ---
@@ -24,31 +24,31 @@ ht-degree: 69%
 * 浏览某些页面的德国访客与国际访客各占总访客数的多少百分比？
 * 在这些不同的区段访问哪些内容方面，最大的区别是什么？
 
-构建并保存名为“德国访客”的量度和名为“国际访客”的量度：
+生成并保存名为“德国访客”的量度和名为“国际访客”的量度：
 
 1. 在计算量度生成器中创建一个名为“德国访客”的临时区段，其中“国家/地区”等于“德国”。
 
-   将“国家/地区”维度拖入“定义”画布并选择 [!UICONTROL **德国**] 作为值：
+   将“国家/地区”维度拖到“定义”画布中，并选择&#x200B;[!UICONTROL **Germany**]&#x200B;作为值：
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >您也可以在 [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)，但我们通过在计算量度生成器中提供维度而简化了工作流程。 “临时”表示该区段在左边栏中的&#x200B;**[!UICONTROL “区段”]**&#x200B;列表中不可见。但是，您可以将鼠标悬停在该列表旁边的“i”图标上，然后单击&#x200B;**[!UICONTROL 设为公用]**。
+   >也可在[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中这样做，但我们已通过在计算量度生成器中提供维度而简化了该工作流程。 “临时”表示该区段在左边栏中的&#x200B;**[!UICONTROL “区段”]**&#x200B;列表中不可见。但是，您可以将鼠标悬停在该列表旁边的“i”图标上，然后单击&#x200B;**[!UICONTROL 设为公用]**。
 
 1. 将“德国”区段拖到“定义”画布中，并将“独特访客”量度拖动到其中：
 
    ![](assets/german-visitors.png)
 
-1. 选择 [!UICONTROL **保存**] 以保存计算指标。
+1. 选择&#x200B;[!UICONTROL **保存**]&#x200B;以保存计算量度。
 
 1. 在计算量度生成器中创建一个名为“国际访客”的临时区段，其中“国家/地区”不等于“德国”。
 
-   将“国家/地区”维度拖到“定义”画布中，然后选择 [!UICONTROL **德国**] 作为值，然后选择 [!UICONTROL **不等于**] 作为运算符。
+   将“国家/地区”维度拖入“定义”画布，选择&#x200B;[!UICONTROL **Germany**]&#x200B;作为值，然后选择&#x200B;[!UICONTROL **does not equal**]&#x200B;作为运算符。
 
-1. 将“独特访客”指标拖动到其中。
+1. 将独特访客指标拖动到其中。
 
-1. 选择 [!UICONTROL **保存**] 以保存计算指标。
+1. 选择&#x200B;[!UICONTROL **保存**]&#x200B;以保存计算量度。
 
 1. 在 Analysis Workspace 中，将&#x200B;**[!UICONTROL 页面]**&#x200B;维度拖动到自由格式表中，并将两个新的计算指标拖动到顶部且使它们彼此相邻：
 

@@ -24,10 +24,10 @@ ht-degree: 94%
 
 要启用组件管理，请执行以下操作：
 
-1. 转到 **[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]** > **[!UICONTROL 创建新的虚拟报表包]**.
+1. 转到&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]** > **[!UICONTROL 新建虚拟报表包]**。
 1. 定义&#x200B;**[!UICONTROL 设置]**&#x200B;后，单击&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡。
 
-1. 选中复选框 **[!UICONTROL 启用虚拟报表包组件的自定义]**：
+1. 选中复选框&#x200B;**[!UICONTROL 启用虚拟报表包组件的自定义]**：
 
    ![](assets/vrs-enable.png)
 

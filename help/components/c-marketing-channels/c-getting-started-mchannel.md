@@ -6,7 +6,7 @@ exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->为了最大化 Attribution 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化归因和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
 >Analytics 管理员可以管理其组织的营销渠道，如[管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
@@ -53,7 +53,7 @@ ht-degree: 99%
 
 在[!UICONTROL 营销渠道管理器]页面上创建渠道后，可配置规则，以便渠道可检索和报告数据。
 
-请参阅 [营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+请参阅[营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)。
 
 如果渠道是在自动设置中创建的，则这些渠道中的规则已经过定义。您可以修改这些规则以满足您的需求。
 
@@ -85,7 +85,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->在应用规则集之前，需要先应用模板中的渠道。在执行此步骤时,您的渠道在所有报表包上必须相同。
+>在应用规则集之前，需要先应用模板中的渠道。在执行此步骤时，您的渠道在所有报表包上必须相同。
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 在&#x200B;**[!UICONTROL “报表包管理器”]**&#x200B;页面上，选择模板报表包，以及一个或多个目标报表包。

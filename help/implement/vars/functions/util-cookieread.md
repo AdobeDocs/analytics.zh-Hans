@@ -22,7 +22,7 @@ Cookie 可以在同一域上的不同页面中存储和检索信息。使用 `Ut
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 数据元素]选项卡，然后单击所需的数据元素（或创建数据元素）。
-4. 设置 [!UICONTROL 扩展名] 下拉列表至 **[!UICONTROL 核心]**，和 [!UICONTROL 数据元素类型] 到 **[!UICONTROL Cookie]**.
+4. 将[!UICONTROL 扩展]下拉列表设置为&#x200B;**[!UICONTROL 核心]**，将[!UICONTROL 数据元素类型]设置为&#x200B;**[!UICONTROL Cookie]**。
 5. 在文本字段中输入 Cookie 名称。
 
 Cookie 值会存储在数据元素中。然后，您可以引用规则中的数据元素来分配所需的变量。

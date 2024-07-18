@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 90%
 
 1. 创建或编辑请求，然后进入“[!UICONTROL 请求向导: 第 2 步]”。
 
-   ![屏幕截图显示了“按选项筛选”：“应用程序”、“用户”和“项目”。](/help/admin/admin/assets/filter.png)
+   ![屏幕截图显示按下列选项进行筛选：“应用程序”、“用户”和“项目”。](/help/admin/admin/assets/filter.png)
 
 1. 在“[!UICONTROL 请求向导: 第 2 步]”中，单击网格中维度旁边的链接，然后选择&#x200B;**[!UICONTROL 过滤器]**。
 
-1. 启用 **[!UICONTROL 特定]**.
+1. 启用&#x200B;**[!UICONTROL 特定]**。
 
-   ![“选择页面”对话框（已选择“特定”选项）的屏幕截图。](assets/choose_page_specific01.png)
+   ![选择“特定”选项的“选择页面”对话框屏幕截图。](assets/choose_page_specific01.png)
 
 1. 启用以下特定选项之一：
 

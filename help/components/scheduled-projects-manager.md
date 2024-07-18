@@ -2,8 +2,9 @@
 description: 查看并管理整个组织内的计划报告。
 title: 计划项目管理器
 feature: Admin Tools
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
-workflow-type: ht
+exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 

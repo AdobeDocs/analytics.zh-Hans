@@ -5,7 +5,7 @@ feature: Data Warehouse
 exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 84%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 Data Warehouse 的常见问题解答。
 
-## 在创建请求时使用粒度下拉列表时，我可以预期日期采用哪种格式？
+## 如果在创建请求时使用粒度下拉列表，日期会采用什么格式？
 
 在 Data Warehouse 请求中应用粒度时，报表中将添加“日期”列。根据所选粒度，日期格式会发生变化。
 

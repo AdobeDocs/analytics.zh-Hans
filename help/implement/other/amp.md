@@ -19,10 +19,10 @@ ht-degree: 70%
 
 ## 确定在使用 AMP 的页面上实施 Adobe Analytics 的方法
 
-Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法。这两种方法都使用 `<amp-analytics>` HTML 标记。请参阅 [amp-analytics](https://amp.dev/documentation/components/amp-analytics) 有关更多信息，请参阅AMP的文档。
+Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法。这两种方法都使用 `<amp-analytics>` HTML 标记。有关详细信息，请参阅AMP文档中的[amp-analytics](https://amp.dev/documentation/components/amp-analytics)。
 
-* **使用 `"adobeanalytics"` 模板**：直接在页面上构建Analytics请求
-* **使用 `"analytics_nativeConfig"` 模板**：使用包含您在普通网站上部署的相同AppMeasurement代码的iframe
+* **使用`"adobeanalytics"`模板**：直接在页面上构造Analytics请求
+* **使用`"analytics_nativeConfig"`模板**：使用包含您在普通网站上部署的相同AppMeasurement代码的iframe
 
 下表比较了这两种方法：
 
@@ -42,11 +42,11 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 >
 >请不要在同一个使用 AMP 的页面上同时使用 `"adobeanalytics"` 和 `"adobeanalytics_nativeConfig"` 模板。如果尝试这样做，浏览器控制台中可能会生成错误，并导致访客数加倍。
 
-## 方法1：使用 `<amp-analytics>` 标记和 `"adobeanalytics"` 模板
+## 方法1：将`<amp-analytics>`标记与`"adobeanalytics"`模板一起使用
 
 `"adobeanalytics"` 跟踪模板可利用 `<amp-analytics>` HTML 标记直接构建跟踪请求。您可以指定在发生特定页面事件（如页面可见或单击时）时触发的点击请求。通过指定一个选择器，可自定义若干个单击事件，以应用到某些元素 ID 或类中。将 `type="adobeanalytics"` 添加至 amp-analytics 标记后，即可加载该模板。
 
-在下列代码示例中，定义了两个触发程序：`pageLoad` 和 `click`。当文档变为可见并包含在 `vars` 部分中定义的 `pageName` 变量时，`pageLoad` 触发程序将触发。第二个触发程序 `click` 在单击按钮时触发。此 `eVar1` 对于此事件，变量被设置为值 `button clicked`.
+在下列代码示例中，定义了两个触发程序：`pageLoad` 和 `click`。当文档变为可见并包含在 `vars` 部分中定义的 `pageName` 变量时，`pageLoad` 触发程序将触发。第二个触发程序 `click` 在单击按钮时触发。为此事件设置了`eVar1`变量，其值为`button clicked`。
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -79,17 +79,17 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 </amp-analytics>
 ```
 
-此 `<amp-analytics>` 标记支持变量替换，因此AMP能够提供它感知到的数据值。 请参阅 [中支持的变量 `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) ，以了解更多信息。
+`<amp-analytics>`标记支持变量替换，因此AMP能够提供它感知到的数据值。 有关详细信息，请参阅GitHub上`amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支持的[变量。
 
 >[!NOTE]
 >
->使用此方法发送到Adobe的图像请求不包含许多默认报表的数据（例如，浏览器、屏幕大小或反向链接）。 如果要在点击中包含此信息，请确保将这些信息作为图像请求查询字符串的一部分包含。 请参阅 [数据收集查询参数](../validate/query-parameters.md) 有关图像请求的完整列表，请查询参数及其相关变量。
+>使用此方法发送到Adobe的图像请求不包含许多默认报表的数据（例如，浏览器、屏幕大小或反向链接）。 如果要在点击中包含此信息，请确保将这些信息作为图像请求查询字符串的一部分包含。 有关图像请求查询参数及其相关变量的完整列表，请参阅[数据收集查询参数](../validate/query-parameters.md)。
 
 Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie。此访客ID对于由Adobe Analytics设置的任何其他ID都是唯一的。 访客从中检索内容的每个CDN都会计入一个不同的独特访客，这可能会导致访客计数虚增。 由于AMP识别独特访客的方式，强烈建议对AMP页面使用单独的报表包。 不支持Adobe Experience Cloud ID服务。
 
 此解决方案要求您在 `host` 属性中指定的跟踪服务器必须与您主站点上的跟踪服务器相同，以确保遵守您现有的隐私管控政策。否则，请为使用 AMP 的页面创建单独的隐私政策。
 
-## 方法2：使用 `<amp-analytics>` 标记和 `"adobeanalytics_nativeConfig"` 模板
+## 方法2：将`<amp-analytics>`标记与`"adobeanalytics_nativeConfig"`模板一起使用
 
 `"adobeanalytics_nativeConfig"` 标记更容易实施，因为它使用的标记方法与您在普通网页上使用的方法相同。在 `amp-analytics` 标记中添加以下项：
 
@@ -147,7 +147,7 @@ Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie�
 
 这种方法会通过添加至 `iframeMessage` 请求参数的查询字符串参数，将数据发送至实用工具网页。这些查询字符串参数可以随意命名，只要将 `stats.html` 页面配置为从这些参数中收集数据即可。
 
-此 `"adobeanalytics_nativeConfig"` 模板还基于 `extraUrlParams` 的部分 `<amp-analytics>` 标记之前。 上例中包含 `pageName` 和 `v1` 参数。
+`"adobeanalytics_nativeConfig"`模板还基于`<amp-analytics>`标记的`extraUrlParams`部分中列出的变量，添加了查询字符串参数。 上例中包含 `pageName` 和 `v1` 参数。
 
 >[!IMPORTANT]
 >

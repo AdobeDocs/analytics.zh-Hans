@@ -23,7 +23,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Adobe Experience Platform边缘网络提供 [机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 哪些标签标识为来自机器人的点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过边缘网络到达的数据上包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
+>Adobe Experience PlatformEdge Network提供[机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html)，该服务将识别为来自机器人的点击标记为机器人点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过Edge Network到达的数据中包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
 
 ## 更新或上传机器人规则
 
@@ -37,25 +37,25 @@ ht-degree: 69%
 
 要更新或上载机器人规则，请执行以下操作：
 
-1. 转到 **[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**.
+1. 转到&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 
-1. 选择要更新机器人规则的报表包，然后选择 **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**.
+1. 选择要更新机器人规则的报表包，然后选择&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**。
 
 1. 使用以下任意选项更新或上传报表包的机器人规则：
 
-   * 选择 [!UICONTROL **启用IAB机器人过滤规则**] 删除IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。
+   * 选择&#x200B;[!UICONTROL **启用IAB机器人过滤规则**]&#x200B;以删除IAB(国际Advertising局)的国际蜘蛛程序和机器人列表中的机器人，从而删除机器人流量。
 
      我们建议您至少选择此选项。
 
-     有关更多信息，请参阅以下部分， [标准IAB机器人规则](#standard-iab-bot-rules).
+     有关详细信息，请参阅下面的[标准IAB机器人规则](#standard-iab-bot-rules)部分。
 
-   * 选择 [!UICONTROL **添加规则**] 根据用户代理、IP地址或IP范围定义和添加自定义机器人规则。
+   * 选择&#x200B;[!UICONTROL **添加规则**]&#x200B;以根据用户代理、IP地址或IP范围定义和添加自定义机器人规则。
 
-     有关更多信息，请参阅以下部分， [自定义机器人规则](#custom-bot-rules).
+     有关详细信息，请参阅下面的部分，[自定义机器人规则](#custom-bot-rules)。
 
-   * 在 [!UICONTROL **选择要导入的CSV机器人文件**] 区域，选择 [!UICONTROL **选择文件**]，然后选择用于定义机器人规则的CSV文件。
+   * 在&#x200B;[!UICONTROL **选择要导入的CSV机器人文件**]&#x200B;区域旁边，选择&#x200B;[!UICONTROL **选择文件**]，然后选择用于定义机器人规则的CSV文件。
 
-     有关更多信息，请参阅以下部分， [上载机器人规则](#upload-bot-rules).
+     有关详细信息，请参阅下面的[上载机器人规则](#upload-bot-rules)部分。
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
@@ -67,7 +67,7 @@ ht-degree: 69%
 
 Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以使用“机器人报表”来查看访问您网站的机器人程序的列表。要将机器人提交至 IAB 列表，请访问 [IAB](https://www.iab.com)。
 
-有关如何启用报表包中标准IAB机器人规则的信息，请参阅 [更新或上传机器人规则](#update-or-upload-bot-rules).
+有关如何启用报表包中标准IAB机器人规则的信息，请参阅[更新或上载机器人规则](#update-or-upload-bot-rules)。
 
 ## 自定义机器人规则
 
@@ -75,7 +75,7 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 >
 >用户界面允许手动定义 500 个规则。在达到此限制后，必须通过“导入文件”和“导出机器人规则”选项对规则进行批量管理。
 
-自定义机器人规则允许您根据定义的条件过滤流量。 要在报表包中开始启用自定义机器人规则的过程，请参阅 [更新或上传机器人规则](#update-or-upload-bot-rules).
+自定义机器人规则允许您根据定义的条件过滤流量。 要开始启用报表包中自定义机器人规则的过程，请参阅[更新或上载机器人规则](#update-or-upload-bot-rules)。
 
 可使用以下条件类型定义自定义机器人规则：
 
@@ -116,7 +116,7 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 若要批量导入机器人规则，您可以上载定义规则的 CSV 文件。
 
-1. 要开始将机器人规则上传到报表包的过程，请参阅 [更新或上传机器人规则](#update-or-upload-bot-rules).
+1. 要开始将机器人规则上载到报表包的过程，请参阅[更新或上载机器人规则](#update-or-upload-bot-rules)。
 
 1. 创建一个CSV文件，该文件在电子表格的第1行中具有以下列，并且按照显示的顺序：
 
@@ -143,13 +143,13 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
    * **IP 范围匹配**：使用“起始 IP”和“终止 IP”列来定义 IP 地址的范围。可使用通配符来匹配 IP 范围，例如 `10.10.10.*` 到 `10.10.20.*`。“匹配规则”、“代理包含”和“代理排除”都必须为空。
 
-1. 在报表包管理器的“机器人规则”页面上，单击 [!UICONTROL **选择要导入的CSV机器人文件**] 区域，选择 [!UICONTROL **选择文件**]，然后选择用于定义要导入的机器人规则的CSV文件。
+1. 在报表包管理器的“机器人规则”页面的&#x200B;[!UICONTROL **选择要导入的CSV机器人文件**]&#x200B;区域旁边，选择&#x200B;[!UICONTROL **选择文件**]，然后选择用于定义要导入的机器人规则的CSV文件。
 
-1. （可选）选择 **[!UICONTROL 覆盖现有规则]** 复选框，用于删除所有现有规则并使用上载文件中定义的规则替换它们。
+1. （可选）选中&#x200B;**[!UICONTROL 覆盖现有规则]**&#x200B;复选框可删除所有现有规则，并使用上载文件中定义的规则替换现有规则。
 
-1. 选择 [!UICONTROL **导入文件**].
+1. 选择&#x200B;[!UICONTROL **导入文件**]。
 
-1. 在 [!UICONTROL **规则集**] 区域，查看导入的规则。
+1. 在&#x200B;[!UICONTROL **规则集**]&#x200B;区域，查看导入的规则。
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
@@ -157,11 +157,11 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 要将用户界面中定义的所有规则导出为CSV格式，请执行以下操作：
 
-1. 转到 **[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**.
+1. 转到&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 
-1. 选择包含要导出的机器人规则的报表包，然后选择 **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**.
+1. 选择包含要导出的机器人规则的报表包，然后选择&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**。
 
-1. 选择 **[!UICONTROL 导出机器人规则]**，然后将CSV文件保存到您的文件系统。
+1. 选择&#x200B;**[!UICONTROL 导出机器人规则]**，然后将CSV文件保存到您的文件系统。
 
 ## 机器人规则对数据收集的影响 {#section_F01A3130E7A04A9993371CF26F6586F2}
 

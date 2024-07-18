@@ -3,7 +3,7 @@ title: 浏览器高度 - 分段统计
 description: 以像素为单位的浏览器窗口的高度。
 feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+source-git-commit: 2601b0e5c3fa78237ce693801b8dd8c95b853b81
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 87%
@@ -12,12 +12,12 @@ ht-degree: 87%
 
 # 浏览器高度
 
-&#39;浏览器高度 — 分段统计&#39; [维度](overview.md) 显示浏览器窗口的高度，并将其归类到预定义的组中。 当您想要了解网站上的“折”对访客的位置时，此维度很有用。了解折的位置可让您优化内容以便于查看。
+“浏览器高度 — 分段统计”维度[维度](overview.md)显示浏览器窗口的高度，并将其归类到预定义的组中。 当您想要了解网站上的“折”对访客的位置时，此维度很有用。了解折的位置可让您优化内容以便于查看。
 
 此维度与屏幕高度不同。 浏览器高度是可查看的浏览器空间中的像素数，而屏幕高度是以像素为单位的整个显示器的高度。如果您想在自己的计算机上查看这两个变量之间的差异，请打开浏览器控制台（在大多数浏览器上是按 F12），然后将以下代码复制并粘贴到控制台中：
 
 ```javascript
-"Browser height: " + window.innerHeight + " pixels\nScreen height: " + screen.height + " pixels";
+console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${screen.height} pixels`);
 ```
 
 浏览器高度始终小于或等于屏幕高度，因为浏览器高度不包括浏览器导航或边框。

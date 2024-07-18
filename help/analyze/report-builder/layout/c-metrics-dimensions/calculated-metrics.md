@@ -25,7 +25,7 @@ Report Builder5.2支持Adobe Analytics统一的计算指标。 作为诸多创�
 
 ## 筛选计算量度 {#section_376E986D3E684999A7CDB08E53854159}
 
-**筛选** 通过单击“过滤器”图标可访问计算量度：  ![显示“应用程序”、“用户”、“项目”字段的“筛选器”选项屏幕截图。](/help/admin/admin/assets/filter.png)
+**通过单击“筛选器”图标![显示“应用程序”、“用户”、“项目”字段的“筛选器”选项屏幕截图，可筛选**&#x200B;计算量度。](/help/admin/admin/assets/filter.png)
 
 “高级过滤器”对话框同时包含标准指标和计算指标。
 
@@ -47,4 +47,4 @@ Report Builder5.2支持Adobe Analytics统一的计算指标。 作为诸多创�
 
 选定过滤器后，单击&#x200B;**[!UICONTROL 应用]**，可将过滤器应用到您的请求。此时，选定的指标会被添加到报表布局中。
 
-![屏幕截图显示“请求向导：第2步 — 网站总计”，指向“高级过滤器”窗口并已应用报表量度。](assets/filtering_for_metric.png)
+![显示“请求向导：第2步 — 网站总计”的屏幕截图，该屏幕指向“高级过滤器”窗口并应用了报表量度。](assets/filtering_for_metric.png)

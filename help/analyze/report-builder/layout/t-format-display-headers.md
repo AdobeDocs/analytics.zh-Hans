@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 77%
+source-wordcount: '409'
+ht-degree: 71%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 77%
 
    | 元素 | 描述 |
    |--- |--- |
-   | 报告名称 | 显示从“请求向导：第 1 步”的树中选择的报表类型的名称（例如，[!DNL Traffic Report]），或者显示您在 [!DNL Name this Request] 字段中键入的名称。 |
+   | 报表名称 | 显示从“请求向导：第 1 步”的树中选择的报表类型的名称（例如，[!DNL Traffic Report]），或者显示您在 [!DNL Name this Request] 字段中键入的名称。 |
    | 过滤器参数 | 显示维度过滤器，如搜索过滤器。 |
    | 区段 | 显示区段参数。 |
-   | “数据新近度” | 显示数据新近度参数。例如：数据新近度：页面查看次数（1.5 小时前）、退出次数（30 分钟前）。有关当前数据处理的信息，请参阅[选项](/help/analyze/report-builder/options.md)。 |
+   | “数据新近度” | 显示数据新近度参数。例如：    数据新近度：页面查看次数（1.5小时前）、退出次数（30分钟前）。有关当前数据处理的信息，请参阅[选项](/help/analyze/report-builder/options.md)。 |
 
    关于显示顺序，如果“[!UICONTROL 行标签]”网格（在第 2 步中）包含项目，则首先在请求中显示该项目。如果未包含，则系统使用“[!UICONTROL 列标签]”网格中的第一项。如果没有行或列项目，则显示“[!UICONTROL 量度]”网格中的第一项。
 
@@ -41,8 +41,8 @@ ht-degree: 77%
    >
    >对于每个工作表，Excel 仅支持一个自动过滤器。如果在已具有自动过滤器的工作表中创建新的自动过滤器，那么 Excel 不提供警告即替换现有的自动过滤器。
 
-   **执行自动分级显示：** 将Report Builder返回的数据从列表视图转换为树视图。
+   **执行自动分级显示：**&#x200B;将Report Builder返回的数据从列表视图转换为树视图。
 
-   **为此请求命名：**&#x200B;允许您为请求键入用户定义的名称，或者使用在第 1 步中选择的默认名称。此名称在[!UICONTROL 请求管理器]中显示为[!UICONTROL 报表]名称。请参阅[为请求命名](/help/analyze/report-builder/layout/name-a-request.md)。
+   **为此请求命名：**&#x200B;允许您为请求键入用户定义的名称，或者使用在第 1 步中选择的默认名称。此名称在[!UICONTROL 请求管理器]中显示为[!UICONTROL 报表]名称。查看[为请求命名](/help/analyze/report-builder/layout/name-a-request.md)。
 
 1. 单击&#x200B;**[!UICONTROL 确定]**。

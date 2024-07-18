@@ -7,7 +7,7 @@ exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ Visual Basic (VBA)宏提供的功能可帮助您刷新Excel工作簿。 Visual B
 >
 >出于安全原因，您不能计划包含宏的工作簿。
 
-Adobe 支持三种 Report Builder API 方法。
+Adobe支持三种Report BuilderAPI方法。
 
 ## `RefreshAllReportBuilderRequests()`
 

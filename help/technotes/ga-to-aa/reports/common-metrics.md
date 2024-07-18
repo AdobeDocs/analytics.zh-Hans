@@ -4,7 +4,7 @@ description: 了解如何使用 Google Analytics 用户更熟悉的术语提取�
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 

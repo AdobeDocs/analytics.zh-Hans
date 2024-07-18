@@ -84,7 +84,7 @@ ht-degree: 98%
 | 支持 | x |  |  |  | 授予对“管理员”>“所有管理员”>“公司设置”>“支持信息”的访问权限。 |
 | 流量管理 | x |  |  |  | 授予对“管理员”>“所有管理员”>“流量管理”的访问权限。 |
 | Web 服务 | x |  |  |  | 授予对“管理员”>“所有管理员”>“公司设置”>“Web 服务”的访问权限。 |
-| 与任何人共享项目链接 | x |  |  |  | 授予用户与“工作区”项目 — >“共享” — >“与任何人共享”下的任何人共享的访问权限。 |
+| 与任何人共享项目链接 | x |  |  |  | 授予用户在“Workspace项目” — >“共享” — >“与任何人共享”下与任何人共享的访问权限。 |
 | Activity Map |  | x |  |  | 授予对“工具”>“Activity Map”的访问权限。允许用户使用 Activity Map 扩展。 |
 | Ad Hoc Analysis 许可用户 |  | x |  |  | Ad Hoc Analysis 的产品寿命已结束。[更多信息](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | Analysis Workspace 访问权限 |  | x |  |  | 授予对Analysis Workspace的访问权限。 |

@@ -17,12 +17,12 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> 本文提供 **（计划）实施Adobe Analytics的Adobe Analytics客户** ，其中包含有关如何为网站用户提供选择退出链接的说明。 <p><p>
-> 如果您是 **访问已实施Adobe Analytics的网站**，而您想要选择退出， **<span style="color:red">本文不适合您</span>**. 请参阅 [Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html) 以控制Adobe如何使用您的信息。
+> 本文为（计划）在其网站上实施Adobe Analytics **的** Adobe Analytics客户提供了有关如何为网站用户提供选择退出链接的说明。 <p><p>
+> 如果您&#x200B;**正在访问已实施Adobe Analytics**&#x200B;的网站，并且希望选择退出，则&#x200B;**<span style="color:red">本文不适合您</span>**。 请参阅[Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html)以控制Adobe如何使用您的信息。
 
 某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。Adobe让您能够向网站访客提供一种方法，禁止对其信息进行分析。
 
-通过选择退出链接，您可以允许网站的访客在Analytics报表中忽略其数据。 这些链接仅限于AppMeasurement实施；Adobe建议使用 [Adobe Experience Cloud选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans) 而是。 选择加入服务更加稳健，可跨多个Adobe Experience Cloud产品(包括Adobe Analytics和AppMeasurement)使用。
+通过选择退出链接，您可以允许网站的访客在Analytics报表中忽略其数据。 这些链接仅限于AppMeasurement实施；Adobe建议改用[Adobe Experience Cloud选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。 选择加入服务更加稳健，可跨多个Adobe Experience Cloud产品(包括Adobe Analytics和AppMeasurement)使用。
 
 当访客访问选择退出 URL 时，系统会提示他们安装选择退出 Cookie。如果用户选择不被跟踪，并设置了选择退出Cookie，则AppMeasurement会继续向Adobe发送数据。 但是，该数据不会进行处理或包含在报表中。
 

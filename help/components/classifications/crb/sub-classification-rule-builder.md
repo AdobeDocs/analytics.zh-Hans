@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ![](assets/sub_class_table.png)
 
-在您准备好这种结构后，您可以使用[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)来上载只更新查找表格（上述图像中的绿色和红色表格）的小文件。然后，您可以使用规则生成器来保持主分类表格最新。
+建立此结构后，可以使用[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)上载只更新查找表（上图中的绿色和红色表）的小文件。 然后，您可以使用规则生成器来保持主分类表格最新。
 
 以下任务描述如何完成此操作。
 
@@ -48,12 +48,12 @@ ht-degree: 100%
 
 1. 在[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)中，从原始跟踪代码中对子分类键值进行分类。
 
-   使用正则表达式来执行此操作。在此示例中，用以填充&#x200B;*`Broad Campaign code`*&#x200B;的规则将使用此正则表达式：
+   使用正则表达式来执行此操作。在此示例中，要填充&#x200B;*`Broad Campaign code`*&#x200B;的规则将使用此正则表达式：
 
    | `#` | 规则类型 | 匹配 | 设置分类 | 至 |
    |---|---|---|---|---|
-   |  | 正则表达式 | `[^\:]:([^\:]):([^\:]`) | 广泛促销活动代码 | `$1` |
-   |  | 正则表达式 | `[^\:]:([^\:]):([^\:]`) | 创作代码 | `$2` |
+   |   | 正则表达式 | `[^\:]:([^\:]):([^\:]`) | 广泛促销活动代码 | `$1` |
+   |   | 正则表达式 | `[^\:]:([^\:]):([^\:]`) | 创作代码 | `$2` |
 
    >[!NOTE]
    >
@@ -72,6 +72,6 @@ ht-degree: 100%
 
 1. 要维护查找表，请上载一个小文件（如上方所示）。
 
-   例如，当引入新 *`Broad Campaign code`* 时，您需要上载此文件。此文件将应用于之前分类的值。同样，如果您创建了新的子分类（例如 *`Creative Theme`* 作为 *`Creative code`* 的子分类），则只需上载子分类文件，而无需上载整个分类文件。
+   例如，当引入新 *`Broad Campaign code`* 时，您需要上载此文件。此文件将应用于之前分类的值。同样，如果您创建新的子分类（如&#x200B;*`Creative Theme`*&#x200B;作为&#x200B;*`Creative code`*&#x200B;的子分类），则只上载子分类文件，而不是上载整个分类文件。
 
    这些子分类函数的报告方式与顶级分类类似。这降低了使用它们所需的管理负担。-->

@@ -5,7 +5,7 @@ feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1506'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->为了最大化 Attribution 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化归因和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
 >Analytics 管理员可以管理其组织的营销渠道，如[管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 我的跟踪代码不遵循某种模式，我必须为我的“附属活动”渠道指定数千个代码。
 
-* 使用排除法。如果您的“电子邮件”和“附属活动”渠道使用相同的查询字符串参数，但您只有少数的电子邮件跟踪代码，则您可以在一个定义电子邮件的规则集中指定电子邮件跟踪代码。然后，分类其他所有跟踪代码时使用 *`affiliates.`*
+* 使用排除法。如果您的“电子邮件”和“附属活动”渠道使用相同的查询字符串参数，但您只有少数的电子邮件跟踪代码，则您可以在一个定义电子邮件的规则集中指定电子邮件跟踪代码。然后，使用&#x200B;*`affiliates.`* 分类所有其他跟踪代码。
 * 在您的电子邮件系统中，为所有登陆页面 URL 添加一个查询字符串参数，例如 *`&ch=eml`*。创建一个规则集，用于检测 ch 查询参数是否等于 *`eml`*。如果该规则集中不包含 *`eml`*，则它是一个附属活动。
 
 ## 反向链接域包含的数据比我预期的多。
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 为什么我所有的最近联系流量都归因于内部域？
 
-您有一个与内部流量相匹配的规则。请记住，这些规则会处理访客在您网站上的每一次点击，而不仅仅是首次访问。如果您有一个像&#x200B;*`Page URL exists`*&#x200B;这样的规则，且没有其他标准，该渠道会与您网站上的每次连续点击相匹配，因为页面 URL 始终存在。
+您有一个与内部流量相匹配的规则。请记住，这些规则会处理访客在您网站上的每一次点击，而不仅仅是首次访问。如果您有一个像 *`Page URL exists`* 这样的规则，且没有其他标准，该渠道会与您网站上的每次连续点击相匹配，因为页面 URL 始终存在。
 
 ## 我如何调试报告上“未识别渠道”中显示的流量？
 

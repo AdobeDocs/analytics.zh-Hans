@@ -5,8 +5,8 @@ feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 规则 </p> </td> 
-   <td colname="col2"> <p>请联系您的Adobe客户团队，以联系工程技术服务团队。 </p> </td> 
+   <td colname="col2"> <p>联系您的 Adobe 客户团队以便与工程技术服务团队接触。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

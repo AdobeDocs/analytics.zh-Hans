@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 97%
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 97%
 
 * **使用处理规则**：您可以在报表包中的数据收集与其存储之间修改维度项目。创建以下处理规则：
 
-   *如果[维度]等于 `0`，则使用自定义值 `Zero` 覆盖[维度]的值。*
+  *如果[维度]等于 `0`，则使用自定义值 `Zero` 覆盖[维度]的值。*
 
-* **请求设置 VISTA 规则**：工程服务顾问可为您设置服务器端规则，但需支付额外费用。请联系您的Adobe客户团队以请求设置VISTA规则。
+* **请求设置 VISTA 规则**：工程服务顾问可为您设置服务器端规则，但需支付额外费用。请联系您的 Adobe 客户团队以请求 VISTA 规则。
 
 ## 是否可以使用分类导入器对尚不存在的维度项目进行分类？
 

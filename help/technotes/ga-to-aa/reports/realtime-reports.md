@@ -20,9 +20,9 @@ ht-degree: 94%
 
 要访问实时报表配置页面（需要管理员权限），请执行以下操作：
 
-1. 单击 **[!UICONTROL 工作区]** 在Adobe Analytics顶部导航栏中。
-1. 选择 **[!UICONTROL 报表]** 左侧导航栏中。
-1. 选择 **[!UICONTROL 参与]** ![V形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 实时]**. 您还可以 ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 搜索实时。
+1. 单击Adobe Analytics顶部导航栏中的&#x200B;**[!UICONTROL Workspace]**。
+1. 从左侧导航栏中选择&#x200B;**[!UICONTROL 报表]**。
+1. 选择&#x200B;**[!UICONTROL 参与]** ![V形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 实时]**。 您还可以![搜索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)实时搜索。
 1. 如果报表包尚未启用实时功能，则会显示一条消息，其中包含用于配置报表包的链接。
 
 Adobe 允许最多三个实时报表同时收集数据。每个报表都必须进行配置，然后才能开始实时收集数据。

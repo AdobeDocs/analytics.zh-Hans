@@ -15,13 +15,13 @@ ht-degree: 34%
 
 如果启用了 `usePlugins`，则 [`doPlugins()`](../functions/doplugins.md) 函数将在 AppMeasurement 编译并将点击发送给 Adobe 之前运行。如果使用 `doPlugins()` 函数，则启用此变量。
 
-## 使用 `onBeforeEventSend` 使用Web SDK回调
+## 使用Web SDK使用`onBeforeEventSend`回调
 
-虽然Web SDK没有布尔值来处理在将数据发送到Adobe之前执行的其他逻辑，但您可以注册 `onBeforeEventSend` 回调以修改数据。 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
+虽然Web SDK没有布尔值来处理在将数据发送到Adobe之前执行的其他逻辑，但您可以注册`onBeforeEventSend`回调以修改数据。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ## 通过Adobe Analytics扩展使用插件
 
-Adobe提供了一个标记为“常用Analytics插件”的扩展，通过该扩展，您可以调用最多 [插件](../plugins/impl-plugins.md). 安装该扩展，并在规则中调用所需的插件。
+Adobe提供了一个标记为“常用Analytics插件”的扩展，通过该扩展可调用大多数[插件](../plugins/impl-plugins.md)。 安装该扩展，并在规则中调用所需的插件。
 
 如果Adobe扩展中未包含所需的插件，请按照AppMeasurement语法使用自定义代码编辑器。
 

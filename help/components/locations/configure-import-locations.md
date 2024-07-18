@@ -17,41 +17,47 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->创建和编辑位置时，请考虑以下事项：<ul><li>系统管理员可以限制用户创建位置，如中所述 [配置用户是否可以创建位置](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). 如果无法按本节所述创建位置，请与系统管理员联系。</li><li>位置只能由创建该位置的用户或系统管理员编辑。</li></ul>
+>创建和编辑位置时，请考虑以下事项：<ul><li>系统管理员可以限制用户创建位置，如[配置用户是否可以创建位置](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations)中所述。 如果无法按本节所述创建位置，请与系统管理员联系。</li><li>位置只能由创建该位置的用户或系统管理员编辑。</li></ul>
 
-在您之后 [配置云帐户](/help/components/locations/configure-import-accounts.md)，则您可以在该帐户上配置位置。 单个位置可用于以下任意目的（单个位置不能与多个目的相关联）：
+在您[配置云帐户](/help/components/locations/configure-import-accounts.md)后，您可以在该帐户上配置位置。 单个位置可用于以下任意目的（单个位置不能与多个目的相关联）：
 
-* 导出文件，使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md)
-* 导出报告，使用 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* 使用以下方式导入架构 [分类集](/help/components/classifications/sets/overview.md)
+* 使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)导出文件
+* 使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)导出报告
+* 使用[分类集](/help/components/classifications/sets/overview.md)导入架构
 
-您必须为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括添加和配置帐户(如Amazon S3角色ARN、Google Cloud Platform等)，如中所述 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)，然后在该帐户中添加和配置位置（如本文所述）。
+您必须为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照[配置Google导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的说明添加和配置帐户(如Amazon S3角色ARN、Cloud Platform等)，然后添加和配置该帐户中的位置（如本文所述）。
 
-有关如何查看和删除现有位置的信息，请参阅 [位置管理器](/help/components/locations/locations-manager.md).
+有关如何查看和删除现有位置的信息，请参阅[位置管理器](/help/components/locations/locations-manager.md)。
 
 ## 开始创建或编辑位置
 
-1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **位置**].
+1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **组件**] > [!UICONTROL **位置**]。
 
-1. 在 [!UICONTROL 位置] 页面上，选择 [!UICONTROL **位置**] 选项卡。
+1. 在[!UICONTROL 位置]页面上，选择&#x200B;[!UICONTROL **位置**]&#x200B;选项卡。
 
-1. （视情况而定）如果您是系统管理员，则可以启用 [!UICONTROL **查看所有用户的位置**] 选项，用于查看由您组织中的所有用户创建的位置。
+1. （视情况而定）如果您是系统管理员，则可以启用&#x200B;[!UICONTROL **查看所有用户的位置**]选项以查看由您组织中的所有用户创建的位置。
    ![查看所有用户的位置](assets/locations-all-users.png)
 
-1. 要添加新位置，请选择 [!UICONTROL **添加位置**]. (如果尚未添加帐户，请按照中的说明添加一个帐户 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md).)
+1. 要添加新位置，请选择&#x200B;[!UICONTROL **添加位置**]。 （如果尚未添加帐户，请按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的说明添加帐户。）
 
-   此 [!UICONTROL **添加位置**] 对话框显示
+   显示&#x200B;[!UICONTROL **添加位置**]&#x200B;对话框
 
    或
 
-   要编辑现有位置，请选择位置名称旁边的3点菜单，然后选择 [!UICONTROL **编辑**].
+   要编辑现有位置，请选择位置名称旁边的3点菜单，然后选择&#x200B;[!UICONTROL **编辑**]。
 
-   此 [!UICONTROL **位置详细信息**] 对话框随即显示。
+   显示&#x200B;[!UICONTROL **位置详细信息**]&#x200B;对话框。
 
-1. 指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **名称**] | 位置的名称。  |
-| [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。| | [!UICONTROL **使用和**] | 选择是否要将此位置与 [!UICONTROL **数据馈送**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分类集**]. <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请勿更改 [!UICONTROL **使用和**] 位置后的字段。</li><li>如果要为电子邮件帐户创建位置，请选择 [!UICONTROL **Data Warehouse**] 在此字段中。 数据馈送和分类集不支持电子邮件位置。</li></ul> | | [!UICONTROL **使位置对贵组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该位置。<p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> | | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅 [配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md). |
+1. 指定以下信息：
+|字段 | 函数 |
+-------------------
+| [!UICONTROL **名称**] | 位置的名称。  |
+| [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。|
+| [!UICONTROL **与**]&#x200B;一起使用 | 选择您要将此位置与&#x200B;[!UICONTROL **数据馈送**]、[!UICONTROL **Data Warehouse**]&#x200B;还是&#x200B;[!UICONTROL **分类集**]&#x200B;一起使用。 <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请在使用该位置后不要更改&#x200B;[!UICONTROL **与**]&#x200B;一起使用字段的值。</li><li>如果要为电子邮件帐户创建位置，请在此字段中选择&#x200B;[!UICONTROL **Data Warehouse**]。 数据馈送和分类集不支持电子邮件位置。</li></ul> |
+| [!UICONTROL **使位置对组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该位置。<p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> |
+| [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)。 |
 
-1. 要完成用于配置位置的表单，请继续下面的部分，该部分与您在 [!UICONTROL **位置帐户**] 字段。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
+1. 要完成用于配置位置的表单，请继续下面的部分，该部分与您在&#x200B;[!UICONTROL **位置帐户**]&#x200B;字段中选择的帐户类型相对应。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
 
 ### Amazon S3 Role ARN
 
@@ -61,20 +67,20 @@ ht-degree: 30%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **分段**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有 `S3:PutObject` 权限以将文件上传到此存储段。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有`S3:PutObject`权限，以便将文件上载到此存储段。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
    {style="table-layout:auto"}
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 要导出数据，请使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 或 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). 要导入数据，请使用 [分类集](/help/components/classifications/sets/overview.md).
+   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
 
    导入数据后，不会从云目标中删除导入的数据。
 
    >[!NOTE]
    >
-   >   如果您之前已使用 [用于导入分类的FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) 到Adobe Analytics，您需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
+   >   如果您之前使用[FTP将分类](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)导入到Adobe Analytics，则需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
 
 
 ### Google Cloud Platform
@@ -85,20 +91,20 @@ ht-degree: 30%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **分段**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 |
+   | [!UICONTROL **存储桶**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 |
    | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
    {style="table-layout:auto"}
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 要导出数据，请使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 或 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). 要导入数据，请使用 [分类集](/help/components/classifications/sets/overview.md).
+   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
 
    导入数据后，不会从云目标中删除导入的数据。
 
    >[!NOTE]
    >
-   >   如果您之前已使用 [用于导入分类的FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) 到Adobe Analytics，您需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
+   >   如果您之前使用[FTP将分类](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)导入到Adobe Analytics，则需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
 
 
 ### Azure SAS
@@ -116,13 +122,13 @@ ht-degree: 30%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 要导出数据，请使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 或 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). 要导入数据，请使用 [分类集](/help/components/classifications/sets/overview.md).
+   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
 
    导入数据后，不会从云目标中删除导入的数据。
 
    >[!NOTE]
    >
-   >   如果您之前已使用 [用于导入分类的FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) 到Adobe Analytics，您需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
+   >   如果您之前使用[FTP将分类](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)导入到Adobe Analytics，则需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
 
 
 ### Azure RBAC
@@ -141,13 +147,13 @@ ht-degree: 30%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 要导出数据，请使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 或 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). 要导入数据，请使用 [分类集](/help/components/classifications/sets/overview.md).
+   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
 
    导入数据后，不会从云目标中删除导入的数据。
 
    >[!NOTE]
    >
-   >   如果您之前已使用 [用于导入分类的FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) 到Adobe Analytics，您需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
+   >   如果您之前使用[FTP将分类](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)导入到Adobe Analytics，则需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
 
 ### 电子邮件
 
@@ -164,11 +170,11 @@ ht-degree: 30%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   现在，您可以使用将数据导出到您配置的帐户和位置 [数据馈送](/help/export/analytics-data-feed/create-feed.md). (不支持电子邮件位置 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或 [分类集](/help/components/classifications/sets/overview.md))。
+   您现在可以将数据导出到使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)时配置的帐户和位置。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件位置)。
 
 ### 旧帐户类型
 
-这些旧帐户类型仅在导出数据时使用 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 和 [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). 在使用导入数据时，这些选项不可用 [分类集](/help/components/classifications/sets/manage/schema.md).
+这些旧帐户类型仅在使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)和[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)导出数据时可用。 在导入具有[分类集](/help/components/classifications/sets/manage/schema.md)的数据时，这些选项不可用。
 
 +++FTP
 
@@ -176,7 +182,7 @@ ht-degree: 30%
 
 | 字段 | 功能 |
 |---------|----------|
-| [!UICONTROL **目录路径**] | 输入FTP服务器上目录的路径。 文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。 </br>例如， `/folder_name/folder_name`. |
+| [!UICONTROL **目录路径**] | 输入FTP服务器上目录的路径。 文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。 </br>例如，`/folder_name/folder_name`。 |
 
 {style="table-layout:auto"}
 
@@ -188,7 +194,7 @@ ht-degree: 30%
 
 | 字段 | 功能 |
 |---------|----------|
-| [!UICONTROL **目录路径**] | 输入FTP服务器上目录的路径。 文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。 </br>例如， `/folder_name/folder_name`. |
+| [!UICONTROL **目录路径**] | 输入FTP服务器上目录的路径。 文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。 </br>例如，`/folder_name/folder_name`。 |
 
 {style="table-layout:auto"}
 

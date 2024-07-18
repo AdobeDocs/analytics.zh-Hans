@@ -7,7 +7,7 @@ exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 这些工作包括 [!UICONTROL DB VISTA] 和自定义项目。
 
-有关 FTP 限制和数据保留的信息，请参阅 [FTP 限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
+有关FTP限制和数据保留的信息，请参阅[FTP限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 

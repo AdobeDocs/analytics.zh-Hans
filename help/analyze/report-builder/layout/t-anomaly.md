@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 72%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 72%
 
    对于添加的量度，单击&#x200B;**[!UICONTROL 无]**&#x200B;链接。
 
-   ![屏幕截图显示了异常检测，插入，然后插入“下限”和“上限”选项以及预期选项。](assets/anomaly_select.png)
+   ![显示异常检测的屏幕截图，接着插入，然后插入上下限和预期值的选项。](assets/anomaly_select.png)
 
 1. 选择&#x200B;**[!UICONTROL 异常检测]** > **[!UICONTROL `<selection>`]**。
 
-   ![屏幕截图显示了“请求向导第2步 — 流量报告”。](assets/anomaly_visit.png)
+   ![屏幕截图显示请求向导第2步 — 流量报告。](assets/anomaly_visit.png)
 
    当您选择其中一个选项时，系统会创建原始量度的“异常检测”副本。例如，对于“访问”量度，系统会将“访问下限”量度添加到“[!UICONTROL 量度]”群组中。
 1. 单击&#x200B;**[!UICONTROL 完成]**，并选择要输出到 Excel 中的单元格。

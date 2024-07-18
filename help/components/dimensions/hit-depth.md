@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 点击深度
 
-“点击深度” [维度](overview.md) 报告给定点击访问的深度。 此维度对于了解访客在您网站上执行操作的访问深度非常重要。点击深度计算所有类型的点击，包括页面视图 ([`t()`](/help/implement/vars/functions/t-method.md)) 和链接跟踪点击 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
+“点击深度”[维度](overview.md)报告给定点击访问的深度。 此维度对于了解访客在您网站上执行操作的访问深度非常重要。点击深度计算所有类型的点击，包括页面视图 ([`t()`](/help/implement/vars/functions/t-method.md)) 和链接跟踪点击 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
 ## 使用数据填充此维度
 

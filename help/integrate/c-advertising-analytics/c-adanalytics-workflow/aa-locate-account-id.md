@@ -23,7 +23,7 @@ ht-degree: 67%
 >- MCC（我的客户中心）帐户和
 >- 标准帐户。
 >
->要与Adobe Analytics集成， **您必须使用标准帐户登录**，而不是MCC帐户登录。 原因在于 MCC 帐户作为一种“伞状”帐户，登录一次即可访问多个 AdWords 帐户，而标准帐户每次登录只能访问一个 AdWords 帐户。尽管 Google 支持链接一个电子邮件以管理 5 个帐户，但 Advertising Analytics 尚不支持此功能。一个电子邮件只能链接到一个 Adwords 帐户。
+>对于与Adobe Analytics的集成，**必须使用标准帐户登录名**，而不是MCC帐户登录名。 原因在于 MCC 帐户作为一种“伞状”帐户，登录一次即可访问多个 AdWords 帐户，而标准帐户每次登录只能访问一个 AdWords 帐户。尽管 Google 支持链接一个电子邮件以管理 5 个帐户，但 Advertising Analytics 尚不支持此功能。一个电子邮件只能链接到一个 Adwords 帐户。
 
 单击右上角的“帐户”图标可查看 AdWords 帐号（客户 ID）。
 

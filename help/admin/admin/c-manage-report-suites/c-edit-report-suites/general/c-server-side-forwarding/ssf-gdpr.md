@@ -19,7 +19,7 @@ ht-degree: 55%
 
 以前，服务器端转发无法区分同意和同意前的事件/点击。自2018年11月1日起，作为数据控制者(Adobe Analytics客户)，您可以选择将预先同意的数据限制在Adobe Analytics中，并阻止将这些数据转发到Adobe Audience Manager。 新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。变量设置后，可在征得同意之前阻止将这些点击发送到Adobe Audience Manager。
 
-当这个新的上下文变量， `cm.ssf=1`，点击时存在，此点击会进行标记，因此不会被服务器端转发到Adobe Audience Manager。 相反，如果点击中未显示此字符串，则点击将被转发到Adobe Audience Manager。
+当点击存在此新上下文变量`cm.ssf=1`时，此点击会进行标记，因此不会被服务器端转发到Adobe Audience Manager。 相反，如果点击中未显示此字符串，则点击将被转发到Adobe Audience Manager。
 
 服务器端转发是双向的，这意味着当它将应用于点击，并且该点击被转发到Adobe Audience Manager时，Audience Analytics将从Adobe Audience Manager接收该点击的区段信息，并将其发送回Analytics。 因此，任何不是从Analytics服务器端转发到Adobe Audience Manager的点击都不会使用Adobe Audience Manager中的区段ID列表进行扩充。 因此，将存在一个流量/点击的子集，这些流量/点击不会从Adobe Audience Manager获取区段ID信息。
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 | 实施方法 | 步骤 |
 |--- |--- |
 | Adobe Experience Platform 中的标记 | 假设您已安装 Adobe Analytics 扩展，请将以下 contextData 变量定义添加到规则的“操作”配置内的自定义代码编辑器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：如果客户不同意进行目标营销，请定义 contextData 变量，并将它设置为 1。对于同意进行目标营销的客户，请将 `contextdata` 变量设置为 *0*。 |
-| AppMeasurement | 将上下文数据变量定义添加到AppMeasurement.js文件中：  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：定义contextdata变量时，如果客户不同意进行目标营销，则将其设置为1。 对于同意进行目标营销的客户，请将 contextData 变量设置为 0。 |
+| AppMeasurement | 将上下文数据变量定义添加到AppMeasurement.js文件： <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：如果客户不同意进行目标营销，请定义上下文数据变量并将其设置为1。 对于同意进行目标营销的客户，请将 contextData 变量设置为 0。 |
 
 ## 报表（可选） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

@@ -13,7 +13,7 @@ ht-degree: 83%
 
 # 使用 Adobe Analytics 扩展实施 Analytics
 
-在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe当前推荐的方法是通过 [标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 在Adobe Experience Platform中。
+在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe当前推荐的方法是通过Adobe Experience Platform中的[标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 
 Adobe Experience Platform 中的标记是一款标记管理解决方案，可让您在满足其他标记要求的同时部署 Analytics 代码。Adobe 提供了与其他解决方案和产品的集成，并允许您部署自定义代码。无需依赖组织中的开发团队，也可以完成以下所有任务，进而更新网站上的代码。
 
@@ -23,7 +23,7 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 
 
-![如何使用Adobe Analytics扩展工作流实施Analytics，如本节所述。](../assets/analytics-extension-annotated.png)
+![如何使用Analytics扩展工作流实施Adobe Analytics，如本节所述。](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 

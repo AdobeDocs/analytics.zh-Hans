@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 94%
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 1. 网站访客单击指向您的某个产品页面的付费搜索链接。他们将产品添加到购物车，但不购买。
 2. 第二天，他们查看自己朋友的社交媒体帖子，单击链接，然后完成购买。
 
-在某些报告中，您可能希望将订单归因到“付费”搜索。在其他报告中，您可能希望将订单归因到社交。通过归因，您能够控制报告对的各个方面。它适用于 Adobe Analytics Ultimate、Prime、Select 和 Foundation 上的所有组织。如果您不确定您与Adobe签订的合同类型，请联系贵组织的Adobe客户团队。
+在某些报告中，您可能希望将订单归因到“付费”搜索。在其他报告中，您可能希望将订单归因到社交。通过归因，您能够控制报告对的各个方面。它适用于 Adobe Analytics Ultimate、Prime、Select 和 Foundation 上的所有组织。如果您不确定您与 Adobe 签订的合同类型，请联系贵组织的 Adobe 客户团队。
 
 ## 归因的价值
 
@@ -39,7 +39,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 ## 功能
 
-Attribution 包括以下功能：
+归因包括以下功能：
 
 * [归因面板](../c-panels/attribution.md)：获取任何维度和量度，并快速将其与不同的归因模型进行比较。
 * [将归因应用于度量](../visualizations/freeform-table/column-row-settings/column-settings.md)：对项目中的任何量度使用非默认归因。
@@ -48,11 +48,11 @@ Attribution 包括以下功能：
 
 ## 视频
 
-自由格式表中的 Attribution ：
+自由格式表中的归因：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-计算量度中的 Attribution 
+计算量度中的归因
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
@@ -60,10 +60,10 @@ Attribution 包括以下功能：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-添加 Attribution 模型的并排比较：
+添加归因模型的并排比较：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## 不支持 Attribution 的 Adobe Analytics 工具
+## 不支持归因的 Adobe Analytics 工具
 
-任何不支持 Analytics 2.0 API 的工具（例如 Report Builder）都不支持 Attribution.
+任何不支持 Analytics 2.0 API 的工具（例如 Report Builder）都不支持归因。

@@ -8,7 +8,7 @@ exl-id: 2e02d469-13a4-416d-823d-c8693cb0359b
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 87%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
-> 只能上载包含 Report Builder 请求的工作簿。此外，您还可以向未使用 Report Builder 的人员分发 Report Builder 报表。（用户无需登录即可查看数据。）
+>只能上载包含Report Builder请求的工作簿。 此外，您还可以向未使用 Report Builder 的人员分发 Report Builder 报表。（用户无需登录即可查看数据。）
 
 1. 创建并运行请求。
 1. 保存报表后，单击&#x200B;**[!UICONTROL 共享]**。

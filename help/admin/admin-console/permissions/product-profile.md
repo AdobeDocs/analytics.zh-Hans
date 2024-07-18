@@ -33,7 +33,7 @@ ht-degree: 93%
 为能够访问 Adobe Analytics，产品配置文件中至少需要以下权限：
 
 * 产品配置文件必须至少拥有一个报表包的访问权限
-* 产品配置文件必须属于Analytics工具权限项 **Analysis Workspace访问权限**.
+* 产品配置文件必须属于Analytics工具权限项&#x200B;**Analysis Workspace访问权限**。
 
 ### 报表包
 

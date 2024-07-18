@@ -5,8 +5,8 @@ feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 86%
+source-wordcount: '285'
+ht-degree: 85%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Analytics 和 Adobe Audience Manager 中有一些访客量度具有相似�
  </tbody> 
 </table>
 
-Adobe Audience Manager实时区段人口与Audience Analytics报表中使用的具有Experience CloudID的Analytics访客将最相似。 但是对于近期而言，由于某些因素，它们之间可能会稍有差异。参与因子包括：
+Adobe Audience Manager实时区段人口与Analytics报表中使用的具有Experience CloudID的Audience Analytics访客将最相似。 但是对于近期而言，由于某些因素，它们之间可能会稍有差异。参与因子包括：
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

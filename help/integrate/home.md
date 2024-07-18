@@ -4,7 +4,7 @@ description: 了解怎样才能将其他位置的数据集成到 Adobe Analytics
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 

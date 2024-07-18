@@ -12,7 +12,7 @@ ht-degree: 69%
 
 # 量度类型和归因
 
-时间 [构建计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)，您可以指定量度类型和归因模型。
+在[生成计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)时，可以指定量度类型和归因模型。
 
 ## 量度类型
 
@@ -31,7 +31,7 @@ ht-degree: 69%
 
 ## 线性分配的工作方式
 
-[归因](/help/analyze/analysis-workspace/attribution/overview.md) 是计算指标中分配模型的评估方式。
+[归因](/help/analyze/analysis-workspace/attribution/overview.md)是计算指标中分配模型的评估方式。
 
 有关支持的非默认归因模型和回溯时段的完整列表，请参阅[归因模型和回溯时段](/help/analyze/analysis-workspace/attribution/models.md)。
 

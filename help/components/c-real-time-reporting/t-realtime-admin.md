@@ -5,7 +5,7 @@ feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '291'
 ht-degree: 78%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 78%
 
 1. 选择您要为其启用实时报表的报表包。
 
-   1. 在Analysis Workspace中，选择 [!UICONTROL **工作区**] 选项卡，然后选择 [!UICONTROL **报表**] > [!UICONTROL **参与**] > **[!UICONTROL 实时]**.
+   1. 在Analysis Workspace中，选择&#x200B;[!UICONTROL **Workspace**]&#x200B;选项卡，然后选择&#x200B;[!UICONTROL **报表**] > [!UICONTROL **参与**] > **[!UICONTROL 实时]**。
 
    1. 从顶部的下拉列表中选择报表包：
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. 选择 **[!UICONTROL 配置]** 运行 [!UICONTROL 报表包管理器].
+1. 选择&#x200B;**[!UICONTROL 配置]**&#x200B;以运行[!UICONTROL 报表包管理器]。
 
    （也可以通过 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员 > 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 实时]**&#x200B;获取。）
 
@@ -55,7 +55,7 @@ ht-degree: 78%
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. 选择 **[!UICONTROL 保存]** 或 **[!UICONTROL 保存并查看报表]**.
+1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 保存并查看报表]**。
 
    在初始报表设置中，最多需要 20 分钟数据才会开始传输。之后，数据会立即可用。有关查看实时报表的信息，请参阅[运行实时报表](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=zh-Hans)。
 

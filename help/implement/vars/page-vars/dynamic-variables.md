@@ -30,10 +30,10 @@ ht-degree: 78%
 使用数据流映射将数据从单个XDM字段发送到多个Analytics变量。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击 **[!UICONTROL 数据流]** 在左边栏中。
+1. 单击左边栏中的&#x200B;**[!UICONTROL 数据流]**。
 1. 单击所需的数据流。
-1. 单击 **[!UICONTROL 编辑映射]** 在右边。
-1. 映射所需的 [!UICONTROL 源字段] 到所需的 [!UICONTROL 目标字段]. 单个源字段可以映射到任意数量的目标字段。
+1. 单击右侧的&#x200B;**[!UICONTROL 编辑映射]**。
+1. 将所需的[!UICONTROL Source字段]映射到所需的[!UICONTROL 目标字段]。 单个源字段可以映射到任意数量的目标字段。
 
 ## 使用Adobe Analytics扩展的动态变量
 
@@ -43,7 +43,7 @@ ht-degree: 78%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
+5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到所需的维度项目。
 
 将动态变量前缀置于文本字段中，然后放置要引用的查询字符串参数或 HTTP 标头。默认情况下，动态变量前缀为 `D=`。

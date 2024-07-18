@@ -7,7 +7,7 @@ exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -17,34 +17,34 @@ ht-degree: 5%
 
 ## 访问面板
 
-您可以从中访问面板 [!UICONTROL 报表] 或范围 [!UICONTROL 工作区].
+您可以从[!UICONTROL 报表]或[!UICONTROL Workspace]中访问面板。
 
 | 接入点 | 描述 |
 | --- | --- |
-| [!UICONTROL 报告] | <ul><li>该面板已放入项目中。</li><li>左侧边栏折叠。</li><li>如果您选择 [!UICONTROL 下一页]，已应用默认设置，例如 [!UICONTROL 页面] 对象 [!UICONTROL Dimension]，并且顶部页面为 [!UICONTROL Dimension项目]， [!UICONTROL 下一个] 对象 [!UICONTROL 方向] 和 [!UICONTROL 访问] 对象 [!UICONTROL 容器]. 您可以修改所有这些设置。</li></ul>![下一个/上一个面板](assets/next-previous.png) |
-| 工作区 | 创建新项目并选择左边栏中的面板图标。 然后拖动 [!UICONTROL 下一个或上一个项目] 自由格式表上方的面板。 请注意 [!UICONTROL Dimension] 和 [!UICONTROL Dimension项目] 字段留空。 从下拉列表中选择一个维度。 [!UICONTROL Dimension项目] 填充基于 [!UICONTROL 维度] 你选择了。 将添加排名最前的维度项目，但您可以选择其他项目。 默认值为“下一个”和“访客”。 同样，您也可以修改这些参数。<p>![下一个/上一个面板](assets/next-previous2.png) |
+| [!UICONTROL 报告] | <ul><li>该面板已放入项目中。</li><li>左侧边栏折叠。</li><li>如果您选择了[!UICONTROL 下一页]，则已应用默认设置，如[!UICONTROL Dimension]的[!UICONTROL 页面]，并且最上面的页面为[!UICONTROL 方向]的[!UICONTROL Dimension项目]、[!UICONTROL 下一页]和[!UICONTROL 容器]的[!UICONTROL 访问]。 您可以修改所有这些设置。</li></ul>![下一个/上一个面板](assets/next-previous.png) |
+| 工作区 | 创建新项目并选择左边栏中的面板图标。 然后将[!UICONTROL 下一个或上一个项目]面板拖动到自由格式表的上方。 请注意，[!UICONTROL Dimension]和[!UICONTROL Dimension项]字段留空。 从下拉列表中选择一个维度。 已根据您选择的[!UICONTROL 维度]填充[!UICONTROL Dimension项]。 将添加排名最前的维度项目，但您可以选择其他项目。 默认值为“下一个”和“访客”。 同样，您也可以修改这些参数。<p>![下一个/上一个面板](assets/next-previous2.png) |
 
 {style="table-layout:auto"}
 
 ## 面板输入 {#Input}
 
-您可以配置 [!UICONTROL 下一个或上一个项目] 面板使用这些输入设置：
+您可以使用以下输入设置配置[!UICONTROL 下一个或上一个项]面板面板：
 
 | 设置 | 描述 |
 | --- | --- |
 | 区段（或其他组件）放置区 | 您可以拖放区段或其他组件以进一步筛选面板结果。 |
 | 维度 | 要浏览下一个或上一个项目的维度。 |
-| Dimension项目 | 您下次/上一次查询的核心特定项目。 |
-| 方向 | 指定您是否正在查找 [!UICONTROL 下一个] 或 [!UICONTROL 上一个] 维度项目。 |
-| 容器 | [!UICONTROL 访问] 或 [!UICONTROL 访客] （默认）确定查询的范围。 |
+| 维度项 | 您下次/上一次查询的核心特定项目。 |
+| 方向 | 指定您要查找[!UICONTROL Next]还是[!UICONTROL Previous]维度项。 |
+| 容器 | [!UICONTROL 访问]或[!UICONTROL 访客] （默认）确定查询的范围。 |
 
 {style="table-layout:auto"}
 
-单击 **[!UICONTROL 生成]** 以构建面板。
+单击&#x200B;**[!UICONTROL 生成]**&#x200B;以生成面板。
 
 ## 面板输出 {#output}
 
-此 [!UICONTROL 下一个或上一个项目] 面板会返回一组丰富的数据和可视化图表，以帮助您更好地了解特定维度项目之后或之前的匹配项。
+[!UICONTROL 下一个或上一个项目]面板返回一组丰富的数据和可视化图表，以帮助您更好地了解特定维度项目之后或之前的具体情况。
 
 ![下一个/上一个面板输出](assets/next-previous-output.png)
 

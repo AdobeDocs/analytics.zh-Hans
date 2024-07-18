@@ -8,7 +8,7 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
 workflow-type: tm+mt
 source-wordcount: '1929'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -55,26 +55,26 @@ ht-degree: 83%
 
 * 如果用户分配到了多个角色，将始终获得权限最高的角色体验。 如果同时将用户添加为个人和组成员，则可能发生这种情况。 例如，如果作为个人授予用户&#x200B;**[!UICONTROL 编辑原件]**&#x200B;角色，并作为组成员授予用户&#x200B;**[!UICONTROL 只读]**&#x200B;角色，则该用户将获得&#x200B;**[!UICONTROL 编辑原件]**&#x200B;项目体验。
 
-* 归入&#x200B;**[!UICONTROL 编辑副本]**&#x200B;或&#x200B;**[!UICONTROL 只读]**&#x200B;角色的管理员在打开项目时获得这些有限的体验。管理员可以将其角色更改为 **[!UICONTROL 编辑原始]** 共享项目并授予 **编辑** 角色，如以下过程所述。
+* 归入&#x200B;**[!UICONTROL 编辑副本]**&#x200B;或&#x200B;**[!UICONTROL 只读]**&#x200B;角色的管理员在打开项目时获得这些有限的体验。管理员可通过与自己共享项目并为自己授予&#x200B;**编辑**&#x200B;角色而将其角色更改为&#x200B;**[!UICONTROL 编辑原件]**，如以下过程所述。
 
 * 如果选择共享多个项目，则会将收件人添加到每个项目的现有收件人列表中。
 
-  例如，项目A已与收件人1、2和3共享，而项目B已与收件人4、5和6共享。
+  例如，已与收件人 1、2 和 3 共享项目 A，同时已与收件人 4、5 和 6 共享项目 B。
 
-  然后，与收件人4和7共享项目A和B。 项目A的新共享列表现在为1、2、3、4和7，而项目B的新共享列表为4、5、6和7。
+  之后，与收件人 4 和 7 共享项目 A 和 B。项目 A 的新共享列表现在为 1、2、3、4 和 7，项目 B 的新共享列表为 4、5、6 和 7。
 
 要与组织中的用户或组共享特定的项目角色，请执行以下操作：
 
-1. 在Adobe Analytics中，选择 [!UICONTROL **工作区**] 选项卡，然后选择 [!UICONTROL **项目**] 在左边栏中。
+1. 在 Adobe Analytics 中，选择 [!UICONTROL **Workspace**] 选项卡，然后选择左边栏中的&#x200B;[!UICONTROL **项目**]。
 
-1. 选中要共享的一个或多个项目旁边的复选框，然后选择 [!UICONTROL **共享**].
+1. 选中要共享的一个或多个项目旁边的复选框，然后选择&#x200B;[!UICONTROL **共享**]。
 
    或
 
-   要仅共享单个项目，您可以打开要共享的项目，然后选择 **[!UICONTROL 共享]** > **[!UICONTROL 与Workspace用户共享]**.
+   要仅共享单个项目，您可以打开要共享的项目，然后选择&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 与 Workspace 用户共享]**。
 如果存在未保存的更改，则将提示您首先保存您的项目。
 
-   此时将显示共享项目对话框。 此 [!UICONTROL **通过链接共享**] 和 [!UICONTROL **设置**] 仅在共享单个项目时，该对话框的部分才可见。
+   此时会显示“共享项目”对话框。该对话框的&#x200B;[!UICONTROL **通过链接分享**]&#x200B;和&#x200B;[!UICONTROL **设置**]&#x200B;部分仅在共享单个项目时可见。
 
    ![](assets/share-proj-modal.png)
 
@@ -86,17 +86,17 @@ ht-degree: 83%
 
    **只读：**&#x200B;收件人无法执行&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 另存为]**，并且无权访问左边栏。项目交互受到限制。如果您希望将项目共享给不太熟悉您组织的数据结构或不太熟悉 Analysis Workspace 和 Adobe Analytics 的一般用户，则此角色非常有用。 但是，您可能仍然希望这些用户在一个安全的环境中使用数据和信息分析。详细了解[只读角色项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。
 
-1. （视情况而定）如果要共享单个项目，请选择在共享项目时是否启用以下选项：
+1. （条件）如果您共享单个项目，请选择是否在共享项目时启用以下选项：
 
    * **共享嵌入的项目组件：**&#x200B;与所有接收人共享区段、计算量度和日期范围。 共享后，这些组件将显示在接收人工作区的“组件”下拉菜单中。此设置不具有持续性，属于分享时的一次性操作。
 
    * **设置为收件人的登陆页面：** 将此页面设置为收件人的登陆页面。 此设置不具有持续性，属于分享时的一次性操作。
 
-1. 选择 **[!UICONTROL 共享]**. (如果项目已共享，请选择 [!UICONTROL **更新**].)
+1. 选择&#x200B;**[!UICONTROL 共享]**。（如果已共享该项目，请选择&#x200B;[!UICONTROL **更新**]。）
 
    或
 
-   选择 **[!UICONTROL 策划和共享]** 以自动应用项目策划。 (如果项目已共享，请选择 **[!UICONTROL 策划和更新]**.) 详细了解[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)。
+   选择&#x200B;**[!UICONTROL 策划和共享]**&#x200B;以自动应用项目策划。（如果已共享该项目，请选择&#x200B;**[!UICONTROL 策划和更新]**。）详细了解[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)。
 
 ## 共享项目链接
 
@@ -182,9 +182,9 @@ ht-degree: 83%
 
 ## 查看与您共享的项目
 
-当有人通过以下方式与您共享项目时 [共享特定项目角色](#share-a-specific-project-role)，您可以从以下位置访问共享项目： [Analytics登陆页面上的“项目”选项卡](/help/analyze/landing.md#navigate-the-projects-tab).
+当有人通过[共享特定项目角色](#share-a-specific-project-role)与您共享项目时，您可以从 [Analytics 登陆页面上的“项目”选项卡](/help/analyze/landing.md#navigate-the-projects-tab)访问共享项目。
 
-当有人通过共享链接(来自 [“共享项目”选项卡](#share-a-link-to-a-project) 或使用 [与任何人共享](#share-a-project-with-anyone-no-login-required) 链接)，您必须使用与您共享的链接才能访问该项目。 例如，链接可能已在一封电子邮件中、在内部网站上共享，依此类推。
+当有人通过共享链接（从[“共享项目”选项卡](#share-a-link-to-a-project)或使用[与任何人共享](#share-a-project-with-anyone-no-login-required)链接）来共享项目时，您必须使用已与您共享的链接才能访问该项目。例如，该链接可能已在电子邮件、内部网站等中共享。
 
 ## 共享嵌入的组件
 

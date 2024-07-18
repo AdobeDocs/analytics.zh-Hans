@@ -11,7 +11,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->有效 **2024年1月17日**，Adobe已停用的Reports &amp; Analytics及其随附的报表和功能。 届时，Reports &amp; Analytics及其所有报表和计划都将停止工作。 支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。有关在Analysis Workspace中使用报表的信息，请参阅 [使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md).
+>自&#x200B;**2024年1月17日起**，Adobe已停用Reports &amp; Analytics及其随附的报告和功能。 届时，Reports &amp; Analytics及其所有报表和计划都将停止工作。 支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。有关在Analysis Workspace中使用报表的信息，请参阅[使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md)。
 > 
 >自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
 >
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 1. （可选）选择&#x200B;**过滤**&#x200B;图标![，即“数据词典过滤”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然后选择以下任一过滤器选项过滤组件列表：
 
-| 选项 | 函数 |
+| 选项 | 功能 |
 |---------|----------|
 | [!UICONTROL **已批准**] | 仅显示标记为由管理员批准的组件。 |
 | [!UICONTROL **收藏夹**] | 仅显示收藏夹列表中的组件。有关将组件添加到收藏夹列表的信息，请参阅[组件概览](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 ## “数据词典”组件信息 {#dd-component-information}
 
-| 选项 | 函数 |
+| 选项 | 功能 |
 |---------|----------|
 | [!UICONTROL **已批准**] | <p>表示该组件已获管理员审阅和批准。</p><p>在组件获得批准后，管理员可通过选择&#x200B;**已批准**&#x200B;按钮而撤销批准。</p> |
 | [!UICONTROL **需要批准**] | <p>表示该组件尚未获得管理员审阅和批准。</p><p>管理员会看到&#x200B;[!UICONTROL **批准**]&#x200B;选项。 选择此选项会为用户将组件标记为“已批准”。</p> |
@@ -57,7 +57,7 @@ ht-degree: 96%
 
 ## 组件排序选项 {#components-sort-options}
 
-| 选项 | 函数 |
+| 选项 | 功能 |
 |---------|----------|
 | [!UICONTROL **建议**] | 为组件排序，将推荐的组件置于列表的顶部。您或您组织中的其他人最频繁且最近使用的组件显示在列表的较高位置。 |
 | [!UICONTROL **按字母顺序**] | 按字母顺序为组件排序。 |

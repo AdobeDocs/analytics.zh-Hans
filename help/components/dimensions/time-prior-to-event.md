@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 84%
 
 ---
 
 # 发生事件之前逗留的时间
 
-“发生事件之前逗留的时间” [维度](overview.md) 报告访问的首次点击与所需量度之间经过的时间。 确定达到成功事件（例如，提交表单或购买）所花费的时间时，此维度非常有用。
+“发生事件之前逗留的时间”维度[维度](overview.md)报告访问的首次点击与所需量度之间经过的时间量。 确定达到成功事件（例如，提交表单或购买）所花费的时间时，此维度非常有用。
 
 ## 使用数据填充此维度
 

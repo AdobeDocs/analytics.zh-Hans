@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 88%
 
 ---
@@ -27,4 +27,4 @@ ht-degree: 88%
 
 * 如果使用FTP（不推荐），请确保您的FTP站点拥有充足的空间。 定期删除目标中的文件，以便您不会无意间耗尽磁盘空间。
 
-* 如果使用sFTP（不推荐），请勿读取或删除包含 `.part` 后缀。 `.part` 后缀表示文件已部分传输。文件全部传输后，`.part` 后缀会消失。
+* 如果使用sFTP（不推荐），请勿读取或删除后缀为`.part`的文件。 `.part` 后缀表示文件已部分传输。文件全部传输后，`.part` 后缀会消失。

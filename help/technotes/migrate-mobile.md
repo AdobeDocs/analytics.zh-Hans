@@ -5,7 +5,7 @@ feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '687'
 ht-degree: 90%
 
 ---
@@ -77,4 +77,4 @@ ht-degree: 90%
 
 * 对于客户获取链接，我们可以将您引导至 Adobe Partners 以满足您的需求。
 * 推送消息传送和应用程序内消息传送在 Adobe Campaign Standard 和 Adobe Campaign Classic（仅限推送）中可用。但是，用于定位的底层数据集是不同的。我们建议您与 Adobe 客户团队合作来确定消息传送数据的迁移选项。
-* 对于位置功能，建议您采用新的 [Adobe Experience Platform位置服务](https://www.adobe.com/experience-platform/location-service.html)，所有Adobe Experience Platform客户均可免费使用。
+* 对于位置功能，建议您采用新的[Adobe Experience Platform位置服务](https://www.adobe.com/experience-platform/location-service.html)，该服务对所有Adobe Experience Platform客户免费。

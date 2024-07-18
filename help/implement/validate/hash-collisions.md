@@ -24,7 +24,7 @@ Adobe Analytics中的Dimension收集字符串值。 这些字符串有时长达�
 
 ## 哈希冲突发生概率
 
-Adobe Analytics对大多数维度使用32位哈希，这意味着有2个<sup>32</sup> 可能的哈希组合（约43亿）。 每月为每个维度创建一个新的哈希表。 根据唯一值的数量，遇到哈希冲突的大致概率如下。 这些赔率基于单个维度单个月。
+Adobe Analytics对大多数维度使用32位哈希，这意味着可能有2<sup>32</sup>个哈希组合（约43亿）。 每月为每个维度创建一个新的哈希表。 根据唯一值的数量，遇到哈希冲突的大致概率如下。 这些赔率基于单个维度单个月。
 
 | 唯一值 | 赔率 |
 | --- | --- |
@@ -35,13 +35,13 @@ Adobe Analytics对大多数维度使用32位哈希，这意味着有2个<sup>32<
 
 {style="table-layout:auto"}
 
-类似于 [生日悖论](https://en.wikipedia.org/wiki/Birthday_problem)，哈希冲突出现的可能性会随着唯一值数量的增加而急剧增加。 至少100万个唯一值，该维度可能至少有100个哈希冲突。
+与[生日悖论](https://en.wikipedia.org/wiki/Birthday_problem)类似，哈希冲突出现的可能性随唯一值数量的增加而急剧增加。 至少100万个唯一值，该维度可能至少有100个哈希冲突。
 
 ## 缓解哈希冲突
 
 大多数哈希冲突都发生在两个不常见的值中，这些值对报表没有任何实际影响。 即使哈希与某个通用值和不通用值发生冲突，结果也几乎可以忽略。 但是，在极少数情况下，当两个常用值遇到哈希冲突时，可以清楚地看到其影响。 Adobe建议采取以下措施以减少它在报表中的影响：
 
 * **更改日期范围**：哈希表每月更改。 将日期范围更改为跨越另一个月，可能会为每个值赋予不同的哈希值，而不会产生冲突。
-* **减少唯一值的数量**：您可以调整实施或使用 [处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 以帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
+* **减少唯一值的数量**：您可以调整实施或使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)来帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

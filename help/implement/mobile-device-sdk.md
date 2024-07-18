@@ -13,7 +13,7 @@ ht-degree: 48%
 
 # 为移动设备实施 Analytics
 
-要为移动设备实施Analytics，请使用Adobe Experience Platform Mobile SDK。 请参阅 [Mobile SDK概述](aep-edge/mobile-sdk/overview.md) 以了解更多信息。
+要为移动设备实施Analytics，请使用Adobe Experience Platform Mobile SDK。 有关详细信息，请参阅[Mobile SDK概述](aep-edge/mobile-sdk/overview.md)。
 
 ## Adobe Experience Platform 移动 SDK
 
@@ -25,5 +25,5 @@ ht-degree: 48%
 
 >[!CAUTION]
 >
->对版本 4 Mobile SDK 的支持于 2021 年 8 月 31 日终止。 请参阅 [AdobeMobile Services生命周期终止常见问题解答](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) 以了解更多信息。
+>对版本 4 Mobile SDK 的支持于 2021 年 8 月 31 日终止。 有关详细信息，请参阅[AdobeMobile Services生命周期结束常见问题解答](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)。
 

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1554'
 ht-degree: 100%
 
 ---
@@ -44,9 +44,9 @@ Adobe Analytics 中的归因概念包含两个组件：
 
 * **自定义回顾时间范围：**&#x200B;允许您将归因时间范围扩展到超出报表日期范围（最多 90 天）。会对报表期内的每次转化评估其自定义回顾时间范围。例如，对于 2 月 20 日发生的转化，10 天的回顾时间范围将评估归因模型中 2 月 10 日到 20 日的所有维度接触点。
 
-   以下是一段关于自定义回顾时间范围的视频：
+  以下是一段关于自定义回顾时间范围的视频：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
 
 ## 示例
 

@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 85%
 
 ---
 
 # 页面逗留时间
 
-“页面逗留时间” [维度](overview.md) 记录访客在页面上逗留的时间。 它使用以下步骤来衡量计算：
+“页面逗留时间”[维度](overview.md)记录访客在页面上逗留的时间。 它使用以下步骤来衡量计算：
 
 1. 对于给定点击，请查看时间戳。
 2. 对比访问中此次点击与下一次点击的时间戳。页面查看和链接跟踪点击都非常重要。

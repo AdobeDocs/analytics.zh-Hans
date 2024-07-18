@@ -6,7 +6,7 @@ exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -14,16 +14,16 @@ ht-degree: 73%
 
 通过区段，可根据特性或网站交互标识访客的子集。区段被设计为受众见解，您可根据自己的特定需求生成区段，然后验证、编辑区段和与其他团队成员共享区段或在其他 Adobe 产品和 Analytics 功能中使用区段。
 
-区段基于 [!UICONTROL 访客]， [!UICONTROL 访问]、和 [!UICONTROL 点击] 使用嵌套容器模型的级别层次结构。 您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报表生成、可内建于功能板报表中，或添加书签以便快速访问。
+区段基于使用嵌套容器模型的[!UICONTROL 访客]、[!UICONTROL 访问]和[!UICONTROL 点击]级别层次结构。您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报表生成、可内建于功能板报表中，或添加书签以便快速访问。
 
-您可以在区段生成器中生成并保存区段，也可以通过流失报表(在 [!UICONTROL Analysis Workspace])。 还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段可以一起用作 [栈叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+可在 Segment Builder 中构建和保存区段，也可从流失报表（在 [!UICONTROL Analysis Workspace] 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预建区段，从而可以过滤结果并应用于报表。此外，区段可以一起用作[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 
-区段识别
+区段可确定
 
-- 您的访客是谁（国家/地区、性别、咖啡厅），
-- 他们使用的设备和服务（浏览器、搜索引擎、移动设备）、
-- 导航的位置（搜索引擎、上一退出页面、免费搜索），
-- 再加很多。
+- 访客的身份（国家/地区、性别、咖啡店）、
+- 使用的设备和服务（浏览器、搜索引擎、移动设备）、
+- 导航自何处（搜索引擎、上一个退出页面、免费搜索）
+- 及更多信息。
 
 <!--![](assets/seg.png)-->
 
@@ -45,7 +45,7 @@ ht-degree: 73%
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 访问</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 访问次数</td>
 </tr>
 
 <tr>
@@ -55,7 +55,7 @@ ht-degree: 73%
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">AND</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">并且</td></td>
 </tr>
 
 <tr>
@@ -79,7 +79,7 @@ ht-degree: 73%
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 访问</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 访问次数</td>
 </tr>
 
 <tr>
@@ -126,7 +126,7 @@ Analysis Workspace 包含以下附加功能：
 
 ## Adobe 提供的区段
 
-屏幕左侧的组件边栏会显示您和您的公司创建的区段以及现成提供的Adobe区段。 当您单击 **[!UICONTROL 显示全部]**，则这些区段通常显示在列表底部，并由右侧的Adobe徽标来标识。
+屏幕左侧的组件边栏显示由您和您的公司创建的区段及现成的 Adobe 区段。当您单击&#x200B;**[!UICONTROL 显示所有]**&#x200B;时，一般将在列表的底部出现这些区段，并通过右侧的 Adobe 徽标标识这些区段。
 
 ## 顺序区段 {#sequential}
 
@@ -136,12 +136,12 @@ Analysis Workspace 包含以下附加功能：
 
 | 访问一 | 访问二 | 访问三 |
 |---|---|---|
-| 在首次访问中，访客转到主登陆页面A，排除促销活动页面B，然后查看产品页面C。 | 在第二次访问中，访客再次转到主登陆页面A，排除促销活动页面B，再次转到产品页面C，然后转到新页面D。 | 在第三次访问中，访客进入并按照第一和第二次访问中的相同路径操作，然后排除页面F，直接转到目标产品页面G。 |
+| 在第一次访问中，访客转到主登录页面 A，排除促销活动页面 B，然后查看产品页面 C。 | 在第二次访问中，访客再次转到主登录页面 A，排除促销活动页面 B，再次转到产品页面 C，然后转到新页面 D。 | 在第三次访问中，访客进入并按照第一和第二次访问中的相同路线操作，然后排除页面 F，直接转到目标产品页面 G。 |
 
 顺序区段可基于以下点击值：
 
-- 基于页面点击序列的访客：单次访问中的页面查看次数、单独访问中的页面查看次数，以及排除页面查看次数的访问次数。
-- 基于页面查看间隔和查看之后的时间的访客：超过时间限制后、点击之间、事件之后。
+- 基于页面点击顺序的访客：单次访问中的页面查看、跨各单独访问的页面查看、排除页面查看的访问。
+- 基于页面查看之间和之后时间的访客：时间限制之后、两次点击之间、事件之后。
 
 <table style="table-layout:fixed; border: none;">
 
@@ -152,7 +152,7 @@ Analysis Workspace 包含以下附加功能：
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 访问</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 访问次数</td>
 </tr>
 
 <tr>
@@ -162,7 +162,7 @@ Analysis Workspace 包含以下附加功能：
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">那么</td></td>
 </tr>
 
 <tr>
@@ -186,7 +186,7 @@ Analysis Workspace 包含以下附加功能：
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 访问</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 访问次数</td>
 </tr>
 
 <tr>
@@ -196,7 +196,7 @@ Analysis Workspace 包含以下附加功能：
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>AND</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>并且</td></td>
 </tr>
 
 <tr>
@@ -206,7 +206,7 @@ Analysis Workspace 包含以下附加功能：
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">那么</td></td>
 </tr>
 
 <tr>
@@ -237,7 +237,7 @@ Analysis Workspace 包含以下附加功能：
 
 ## 分段操作方法视频 {#segment-video}
 
-此视频简要概述了区段容器是什么及其使用方式：
+本视频简要概述了区段容器及其使用方法：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
@@ -282,7 +282,7 @@ Analysis Workspace 包含以下附加功能：
 
 +++ **我可以看到公司的所有区段吗？**
 
-是的，管理员可以在以下位置看到所有区段： [!DNL Analysis Workspace] 用户界面。
+可以，管理员可以在 [!DNL Analysis Workspace] 用户界面中看到所有区段。
 
 Report Builder 显示您拥有的区段以及与您共享的区段。
 
@@ -292,7 +292,7 @@ Report Builder 显示您拥有的区段以及与您共享的区段。
 
 是的，可在 Segment Manager 中管理所有区段。区段管理器显示对所有者（创建区段的用户）、共享用户和管理员用户可见的区段。区段选择器显示用户拥有的区段及与其共享的区段。
 
-管理员可以在Analysis Workspace用户界面中看到所有区段。
+管理员可以在 Analysis Workspace 用户界面中看到所有区段。
 
 Report Builder 仅显示由您构建的区段或已特意与您共享的区段。
 

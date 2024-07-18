@@ -23,10 +23,10 @@ ht-degree: 34%
 
 ## 添加和启用流量变量报表
 
-1. 选择 **[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，然后选择报表包。
-1. 选择 **[!UICONTROL 编辑设置]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量变量]**.
-1. 选择 **[!UICONTROL 新增]**，然后命名报表。
-1. 在 [!UICONTROL **已启用**] 列，选择 [!UICONTROL **已启用**] 从下拉菜单。1.选择 **[!UICONTROL 保存]**.
+1. 选择&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，然后选择一个报表包。
+1. 选择&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量变量]**。
+1. 选择&#x200B;**[!UICONTROL 新增]**，然后命名报告。
+1. 在&#x200B;[!UICONTROL **已启用**]&#x200B;列中，从下拉菜单中选择&#x200B;[!UICONTROL **已启用**]。1选择&#x200B;**[!UICONTROL 保存]**。
 
 ## 禁用流量变量报表
 
@@ -34,18 +34,18 @@ ht-degree: 34%
 
 要禁用流量变量报表，请执行以下操作：
 
-1. 选择 **[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，然后选择报表包。
-1. 选择 **[!UICONTROL 编辑设置]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量变量]**.
+1. 选择&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，然后选择一个报表包。
+1. 选择&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量变量]**。
 1. 选择要禁用的流量变量报表。
-1. 在 [!UICONTROL **已启用**] 列，选择 [!UICONTROL **已禁用**] 从下拉菜单中。
+1. 在&#x200B;[!UICONTROL **已启用**]&#x200B;列中，从下拉菜单中选择&#x200B;[!UICONTROL **已禁用**]。
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
 ## 重命名流量变量报表
 
-1. 选择 **[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，然后选择报表包。
-1. 选择 **[!UICONTROL 编辑设置]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量变量]**.
+1. 选择&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，然后选择一个报表包。
+1. 选择&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量变量]**。
 1. 选择要重命名的流量变量报表。
-1. 在 [!UICONTROL **名称**] 列，为报表指定新名称。
+1. 在&#x200B;[!UICONTROL **名称**]&#x200B;列中，为报表指定新名称。
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-另请参阅 [prop](/help/implement/vars/page-vars/prop.md) 在实施用户指南中。
+另请参阅实施用户指南中的[prop](/help/implement/vars/page-vars/prop.md)。

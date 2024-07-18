@@ -15,8 +15,8 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->以下信息与FTP和SFTP目标类型相关。 FTP和SFTP是旧版目标类型。 在配置数据馈送时，您应该使用云目标类型，这样更安全。 有关为数据馈送配置云目标类型的更多信息，请参阅 [创建数据馈送](/help/export/analytics-data-feed/create-feed.md).
+>以下信息与FTP和SFTP目标类型相关。 FTP和SFTP是旧版目标类型。 在配置数据馈送时，您应该使用云目标类型，这样更安全。 有关为数据馈送配置云目标类型的详细信息，请参阅[创建数据馈送](/help/export/analytics-data-feed/create-feed.md)。
 
 您可以使用SFTP配置要发送到外部FTPAdobe的帐户数据。
 
-有关更多信息，请参阅 [创建数据馈送](/help/export/analytics-data-feed/create-feed.md).
+有关详细信息，请参阅[创建数据馈送](/help/export/analytics-data-feed/create-feed.md)。

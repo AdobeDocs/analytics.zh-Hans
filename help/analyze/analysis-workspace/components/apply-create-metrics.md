@@ -33,7 +33,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 ## 在 Analysis Workspace 中使用指标
 
-指标可以在 Analysis Workspace 中以各种方式使用。有关如何将量度和其他类型的组件添加到Analysis Workspace的信息，请参阅 [在Analysis Workspace中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+指标可以在 Analysis Workspace 中以各种方式使用。有关如何将量度和其他类型的组件添加到Analysis Workspace的信息，请参阅[在Analysis Workspace中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

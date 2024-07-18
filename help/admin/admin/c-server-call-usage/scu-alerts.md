@@ -15,7 +15,7 @@ ht-degree: 96%
 
 设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
 
-“服务器调用使用情况”警报是 [警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) 用户界面。
+服务器调用使用情况警报是[警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)用户界面的一部分。
 
 该界面中已预填充了 **1 个默认警报**，该默认警报将显示在有权访问“服务器调用使用情况”功能的任何登录公司中。如果满足了以下任一条件，此警报将触发一条发送给所有登录公司管理员的通知消息：
 

@@ -7,15 +7,15 @@ role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
-# 使用Adobe Experience Platform Edge Network实施Adobe Analytics
+# 使用 Adobe Experience Platform Edge Network 实施 Adobe Analytics
 
-Adobe Experience Platform Edge Network允许您将发送到多个产品的数据发送到一个集中位置。 Edge Network将适当的信息转发给所需的产品。 此概念允许您整合实施工作，尤其是跨多个数据解决方案进行整合。
+Adobe Experience Platform Edge Network 允许您将发送到多个产品的数据发送到一个集中的位置。 Edge Network 将适当的信息转发给所需的产品。 此概念允许您整合实施工作，尤其是跨多个数据解决方案进行整合。
 
-Adobe提供了三种向Edge Network发送数据的主要方式：
+Adobe 提供了三种向 Edge Network 发送数据的主要方式：
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展将数据发送到 Edge。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩展将数据发送到 Edge。
@@ -23,15 +23,15 @@ Adobe提供了三种向Edge Network发送数据的主要方式：
 
 
 
-## Adobe Analytics如何处理Edge Network数据
+## Adobe Analytics 处理 Edge Network 数据的方式
 
-发送到Adobe Experience Platform Edge Network的数据可以遵循两种格式：
+发送到 Adobe Experience Platform Edge Network 的数据可以采用两种格式：
 
-* XDM对象：符合基于的架构 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html). XDM 可让您灵活地将字段定义为事件的一部分。在事件到达Adobe Analytics时，它们会被转换为Adobe Analytics可以处理的格式。
-* 数据对象：使用映射到Adobe Analytics的特定字段将数据发送到Edge Network。 边缘网络检测这些字段的存在，并将它们转发到Adobe Analytics而无需符合架构。
+* XDM 对象：符合基于 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)的架构。 XDM 可让您灵活地将字段定义为事件的一部分。事件到达 Adobe Analytics 时，会被转换为 Adobe Analytics 可以处理的格式。
+* 数据对象：使用映射到 Adobe Analytics 的特定字段向 Edge Network 发送数据。 Edge Network 会检测这些字段的存在，并将其转发到 Adobe Analytics，而无需符合架构。
 
 
-Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链接事件
+Edge Network 使用以下逻辑来确定 Adobe Analytics 页面视图和链接事件
 
 | XDM 负载包含... | Adobe Analytics... |
 |---|---|

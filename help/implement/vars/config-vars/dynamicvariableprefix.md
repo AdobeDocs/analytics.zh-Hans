@@ -19,7 +19,7 @@ ht-degree: 70%
 
 ## 使用Web SDK的动态变量前缀
 
-Web SDK不使用动态变量格式。 相反，您可以使用数据流映射来使用单个源字段填充多个目标字段。 请参阅 [使用Web SDK的动态变量](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 以了解更多信息。
+Web SDK不使用动态变量格式。 相反，您可以使用数据流映射来使用单个Source字段填充多个目标字段。 有关详细信息，请参阅使用Web SDK的[动态变量](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)。
 
 如果您在不符合架构的情况下将数据直接发送到Adobe Analytics，则它会使用以下变量：
 

@@ -15,11 +15,11 @@ ht-degree: 93%
 
 分类用于对值进行分组归类，并按照分组级别进行报告。例如，可将所有[!UICONTROL 付费搜索]营销活动归为一个如&#x200B;*流行音乐术语*&#x200B;的类别，并报告该类别相对于“实例”（点进次数）等指标的成功率以及转化为成功事件的情况。您最多可以向一个变量添加 255 个分类。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**
 
 转化分类可用于分类转化变量。分类后，任何可使用关键数据生成的报告也可通过关联的数据属性来生成。
 
-启用分类后，请使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值指定给相应的分类。
+启用分类后，使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)将特定值分配给相应的分类。
 
 >[!WARNING]
 >

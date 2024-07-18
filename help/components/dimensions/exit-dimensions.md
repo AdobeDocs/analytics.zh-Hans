@@ -13,7 +13,7 @@ ht-degree: 94%
 
 # 退出维度
 
-*此帮助页介绍退出次数如何作为 [维度](overview.md). 有关退出次数如何作为指标使用的信息，请参阅[退出次数](../metrics/exits.md)指标。*
+*此帮助页介绍退出次数如何作为[维度](overview.md)使用。 有关退出次数如何作为指标使用的信息，请参阅[退出次数](../metrics/exits.md)指标。*
 
 退出维度记录最后一个维度项目，并将其逆向应用于访问中的所有点击。退出维度可用于在“报表包”设置中的[流量变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)下启用路径的所有变量。
 

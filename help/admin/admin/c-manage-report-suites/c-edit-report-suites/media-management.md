@@ -27,4 +27,4 @@ ht-degree: 71%
 
   可以在媒体分类页面上找到特定于流媒体收集加载项的分类。 有关分类的信息，请参阅[转化分类](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)。
 
-有关在Adobe Analytics中合并流媒体数据的一般信息，请参阅 [流媒体收集附加组件指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans).
+有关在Adobe Analytics中合并流媒体数据的一般信息，请参阅[流媒体收集附加组件指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)。

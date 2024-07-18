@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # 智能警报 — 用例
 
-您可以创建智能警报，如中所述 [创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+您可以按照[创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)中的说明创建智能警报。
 
 以下各节说明了创建警报时要考虑的示例用例。
 

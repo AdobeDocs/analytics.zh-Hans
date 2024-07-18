@@ -19,7 +19,7 @@ ht-degree: 31%
 
 +++ 如何知道我的Analytics数据中是否有个人身份信息(PII)？ 如果有，我该怎么做？
 
-如果在prop或eVar中有电子邮件/地址/等，请考虑在收集期间对数据进行哈希处理。 如果您所在的国家/地区将IP地址视为PII， [启用IP模糊处理](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hans). 咨询您的Analytics管理员，查看您正在收集的内容。 请咨询您的法律部门，了解他们对PII的看法。
+如果在prop或eVar中有电子邮件/地址/等，请考虑在收集期间对数据进行哈希处理。 如果您的国家/地区将IP地址视为PII，请[启用IP模糊处理](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hans)。 咨询您的Analytics管理员，查看您正在收集的内容。 请咨询您的法律部门，了解他们对PII的看法。
 
 +++
 
@@ -37,7 +37,7 @@ ht-degree: 31%
 
 +++ 如何在Audience Manager中创建Analytics目标？
 
-请参阅 [在Adobe Audience Manager中配置Analytics目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hans)“。
+请参阅[在Adobe Audience Manager中配置Analytics目标](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hans)。
 
 +++
 
@@ -49,7 +49,7 @@ ht-degree: 31%
 
 +++ 我已创建了一个新的Analytics目标，但在可用区段的“目标映射”部分中看不到该目标。 这个目的地在哪里，我怎么找到它？
 
-当您选择区段的“目标映射”部分时，Analytics目标会消失 **[!UICONTROL 自动映射所有当前和未来区段]** 中的选项 **[!UICONTROL 区段映射]**. 要防止出现这种情况，请选择&#x200B;**[!UICONTROL 手动映射区段]**，而不要选择自动选项。
+当您在&#x200B;**[!UICONTROL 区段映射]**&#x200B;中选择&#x200B;**[!UICONTROL 自动映射所有当前和未来区段]**&#x200B;选项时，Analytics目标会从区段的“目标映射”部分中消失。 要防止出现这种情况，请选择&#x200B;**[!UICONTROL 手动映射区段]**，而不要选择自动选项。
 
 +++
 
@@ -105,9 +105,9 @@ ht-degree: 31%
 
 +++
 
-+++ 为什么我在Analytics报表中看到“已达到受众限制”？ (注意：这还将表示为Audience ID = -1和 `::max_audiences_exceeded::` Data Warehouse)
++++ 为什么我在Analytics报表中看到“已达到受众限制”？ (注意：这在Data Warehouse中还将表示为Audience ID = -1和`::max_audiences_exceeded::`)
 
-默认情况下，Adobe Audience Manager的Audience Analytics集成会按每次点击将所有访客符合条件的区段发送到Analytics。 如果某位访客在一次点击中属于超过150个Adobe Audience Manager区段，则 **150个最近符合条件的区段** 发送到Analytics，而其余列表会被截断。 此外，还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。
+默认情况下，Adobe Audience Manager的Audience Analytics集成会按每次点击将所有访客符合条件的区段发送到Analytics。 如果某位访客在一次点击中属于超过150个Adobe Audience Manager区段，则会将&#x200B;**150个最近限定的区段**&#x200B;发送到Analytics，而其余列表将被截断。 此外，还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。
 
 虽然访客不太可能在一次点击中有资格使用 150 个以上的区段，但这种情况依然有极小的概率发生。如果您在报表中遇到“已达到受众限制”，可选择以下两个选项：
 
@@ -143,13 +143,13 @@ ht-degree: 31%
 
 +++ 为什么Audience Manager与Analytics之间的区段访客计数不同？
 
-请参阅 [访客计数差异](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
+查看[访客计数差异](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md)。
 
 +++
 
 +++ Adobe Audience Manager中的“受众”与Analytics中的“区段”有何区别？
 
-请参阅 [了解Analytics和Audience Manager中的区段](/help/integrate/c-audience-analytics/aam-analytics-segments.md). Adobe Audience Manager受众作为要在Analytics中使用的“维度”组件进行发送和共享。 例如，它们在区段生成器中不显示为区段，而是显示为可用于生成区段的维度。
+请参阅[了解Analytics和Audience Manager中的区段](/help/integrate/c-audience-analytics/aam-analytics-segments.md)。 Adobe Audience Manager受众作为要在Analytics中使用的“维度”组件进行发送和共享。 例如，它们在区段生成器中不显示为区段，而是显示为可用于生成区段的维度。
 
 +++
 

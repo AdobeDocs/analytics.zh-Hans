@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -76,6 +76,6 @@ ht-degree: 100%
 
    报表包和变量列表中填充了可在登录公司的所有报表包中使用的所有分类变量。报表包中的单个变量只能属于一个规则集。
 
-   请参阅&#x200B;*`Variable`*（详细信息位于[分类规则生成器](/help/components/classifications/crb/classification-rule-definitions.md)页面的定义中）。
+   有关详细信息，请参阅[分类规则生成器](/help/components/classifications/crb/classification-rule-definitions.md)页面的定义中的&#x200B;*`Variable`*。
 1. 指定要使用的报表包和变量，然后单击&#x200B;**[!UICONTROL 保存]**。
 1. 继续向规则集[添加分类规则](/help/components/classifications/crb/classification-rule-set.md)。

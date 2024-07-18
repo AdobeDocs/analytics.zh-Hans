@@ -5,20 +5,20 @@ feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 source-git-commit: 26e166e065df90cb327fe1106542e17831069141
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '299'
 ht-degree: 19%
 
 ---
 
 # 内容周转率
 
-“内容周转率”计算量度可帮助您衡量维度(通常 [[!UICONTROL 页面]](/help/components/dimensions/page.md))有助于用户花时间访问您的网站或应用程序。
+“内容周转率”计算量度可帮助您衡量维度（通常为[[!UICONTROL 页面]](/help/components/dimensions/page.md)）对用户在您的网站或应用程序上花费时间的贡献情况。
 
-此量度使用 [参与率归因](/help/analyze/analysis-workspace/attribution/models.md) 在 [页面查看次数](page-views.md) 量度作为其计算的一部分。 利用访问参与率，每次点击页面时，之前在同一次访问期间点击的所有页面都会获得页面查看的点数。 此公式通常意味着在访问期间越早点击页面，它获得的点数越多。 (请参阅 [页面查看次数（参与率） |访问)或“访问参与率”](#page-views-participation--visit-or-visit-participation) 以了解更多信息。)
+此量度使用[页面查看次数](page-views.md)量度上的[参与率归因](/help/analyze/analysis-workspace/attribution/models.md)作为其计算的一部分。 利用访问参与率，每次点击页面时，之前在同一次访问期间点击的所有页面都会获得页面查看的点数。 此公式通常意味着在访问期间越早点击页面，它获得的点数越多。 (请参阅[页面查看次数（参与率） | 访问)或“访问参与率”](#page-views-participation--visit-or-visit-participation)以了解更多信息。)
 
 ## 计算
 
-“内容周转率”是默认计算的值 [量度](overview.md) 它使用的公式是 `Page views (Visit participation)` 除以 `Visits`.
+“内容周转率”是默认的计算结果[量度](overview.md)，它使用公式`Page views (Visit participation)`除以`Visits`。
 
 ![](assets/cont-velo-1.png)
 
@@ -30,9 +30,9 @@ ht-degree: 19%
 
 ## 示例
 
-以下示例划分了Content Velocity的2个部分：“页面查看次数（参与率）” | Visit)”和“Visits”。
+以下示例划分了Content Velocity的2个部分：“页面查看次数（参与率）” | “访问次数”和“访问次数”。
 
-### 页面查看次数（参与率） |访问)或“访问参与率”
+### 页面查看次数（参与率） | 访问)或“访问参与率”
 
 请思考以下访问参与率如何影响归因的示例：
 

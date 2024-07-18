@@ -7,11 +7,11 @@ exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 source-git-commit: 62132284ca70f3bdb1a8896e4548b8b63a5c03c8
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 64%
+ht-degree: 58%
 
 ---
 
-# 通过 SFTP 连接到 FTP 帐户
+# 通过SFTP连接到FTP帐户
 
 要通过FTP设置安全传输，请执行以下操作：
 
@@ -19,7 +19,7 @@ ht-degree: 64%
 
    1. 申请由 Adobe 托管的 FTP 帐户（50MB 配额）。
 
-   1. 创建 RSA 公钥/私钥。
+   1. 创建公共/私有RSA密钥。
 
       * 在Linux环境中，运行：
 

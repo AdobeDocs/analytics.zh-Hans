@@ -24,7 +24,7 @@ AppMeasurement 会在每次点击时自动收集页面 URL。如果要覆盖由 
 页面URL已映射到以下变量：
 
 * [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.URL`
-* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageURL` 或 `data.__adobe.analytics.g`
+* [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageURL`或`data.__adobe.analytics.g`
 
 ## 使用Adobe Analytics扩展的“页面URL”
 
@@ -34,7 +34,7 @@ Adobe Experience Platform数据收集中的Analytics扩展会自动填充页面U
 2. 单击所需的标记属性。
 3. 转到&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡，然后单击所需的规则（或创建规则）。
 4. 在&#x200B;**[!UICONTROL 操作]**&#x200B;下，单击现有的 **[!UICONTROL Adobe Analytics - 设置变量]**&#x200B;操作或单击“+”图标。
-5. 设置 **[!UICONTROL 扩展名]** Adobe Analytics的下拉列表，以及 **[!UICONTROL 操作类型]** 到 **[!UICONTROL 设置变量]**.
+5. 将&#x200B;**[!UICONTROL 扩展]**&#x200B;下拉列表设置为Adobe Analytics，将&#x200B;**[!UICONTROL 操作类型]**&#x200B;设置为&#x200B;**[!UICONTROL 设置变量]**。
 6. 找到&#x200B;**[!UICONTROL 页面 URL]** 部分。
 
 可以将页面 URL 设置为任何字符串值。
