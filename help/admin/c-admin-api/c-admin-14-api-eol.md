@@ -3,9 +3,9 @@ description: Adobe Analytics 管理员 API 在 github 上的链接。
 title: Adobe Analytics 1.4 API生命周期结束常见问题解答
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,11 @@ WSSE客户必须更新其身份验证，才能使用Adobe Developer Console中�
 
 问：**这是否会影响数据收集？**
 
-答：Adobe Analytics 1.4 EOL不会影响您的标记解决方案，例如Tags(以前称为AdobeLaunch)、WebSDK或AppMeasurement.js。 但是，如果您使用1.4数据源、数据插入或分类API收集或增强数据，则必须将这些工作流迁移到Adobe Analytics 2.0 API。 有关更多详细信息，请参阅[2.0 API端点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/)。
+答：Adobe Analytics 1.4 EOL不会影响您的标记解决方案，例如Tags(以前称为AdobeLaunch)、WebSDK或AppMeasurement.js。 但是，如果您使用1.4数据源或分类API收集或增强数据，则必须将这些工作流迁移到Adobe Analytics 2.0 API。 有关更多详细信息，请参阅[2.0 API端点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/)。
+
+问：**数据插入API是否受到影响？**
+
+答：否，数据插入API不受Adobe Analytics 1.4 EOL的影响。
 
 问：**如果我的问题没有在这个FAQ中回答，该怎么办？**
 
