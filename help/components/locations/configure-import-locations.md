@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -49,13 +49,14 @@ ht-degree: 30%
    显示&#x200B;[!UICONTROL **位置详细信息**]&#x200B;对话框。
 
 1. 指定以下信息：
-|字段 | 函数 |
-&#x200B;-------------------
-| [!UICONTROL **名称**] | 位置的名称。  |
-| [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。|
-| [!UICONTROL **与**]&#x200B;一起使用 | 选择您要将此位置与&#x200B;[!UICONTROL **数据馈送**]、[!UICONTROL **Data Warehouse**]&#x200B;还是&#x200B;[!UICONTROL **分类集**]&#x200B;一起使用。 <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请在使用该位置后不要更改&#x200B;[!UICONTROL **与**]&#x200B;一起使用字段的值。</li><li>如果要为电子邮件帐户创建位置，请在此字段中选择&#x200B;[!UICONTROL **Data Warehouse**]。 数据馈送和分类集不支持电子邮件位置。</li></ul> |
-| [!UICONTROL **使位置对组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该位置。<p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> |
-| [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)。 |
+
+   | 字段 | 功能 |
+   |---------|----------|
+   | [!UICONTROL **名称**] | 位置的名称。 |
+   | [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。 |
+   | [!UICONTROL **与**]&#x200B;一起使用 | 选择您要将此位置与&#x200B;[!UICONTROL **数据馈送**]、[!UICONTROL **Data Warehouse**]&#x200B;还是&#x200B;[!UICONTROL **分类集**]&#x200B;一起使用。 <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请在使用该位置后不要更改&#x200B;[!UICONTROL **与**]&#x200B;一起使用字段的值。</li><li>如果要为电子邮件帐户创建位置，请在此字段中选择&#x200B;[!UICONTROL **Data Warehouse**]。 数据馈送和分类集不支持电子邮件位置。</li></ul> |
+   | [!UICONTROL **使位置对组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该位置。<p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> |
+   | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)。 |
 
 1. 要完成用于配置位置的表单，请继续下面的部分，该部分与您在&#x200B;[!UICONTROL **位置帐户**]&#x200B;字段中选择的帐户类型相对应。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
 
