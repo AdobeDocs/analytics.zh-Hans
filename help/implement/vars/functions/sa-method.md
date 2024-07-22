@@ -4,7 +4,7 @@ description: 在您的实施中随时更改报表包。
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -38,11 +38,12 @@ Web SDK扩展为每个环境提供了一个数据流下拉列表。 或者，您
 
 ## 手动设置所需的数据流以实施Web SDK
 
-将`edgeConfigId`配置变量设置为数据流ID。 在Adobe Experience Platform数据收集中查看数据流时，可在右侧找到数据流ID。
+将`datastreamId`配置变量设置为数据流ID。 在Adobe Experience Platform数据收集中查看数据流时，可在右侧找到数据流ID。
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

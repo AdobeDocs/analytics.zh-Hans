@@ -2,7 +2,7 @@
 title: 使用Web SDK JavaScript库将数据发送到Adobe Analytics
 description: 从干净的Web SDK实施开始，使用JavaScript库将数据发送到Adobe Analytics。
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -82,7 +82,7 @@ ht-degree: 18%
 
 <tr>
 <td>7</td>
-<td><b>配置 Web SDK</b>。 确保使用数据流ID(以前称为边缘配置ID (<code>edgeConfigId</code>))、组织ID (<code>orgId</code>)和其他可用选项正确配置您在步骤4中安装的库。 确保正确映射变量。 </td>
+<td><b>配置 Web SDK</b>。 确保使用数据流ID(以前称为边缘配置ID (<code>datastreamId</code>))、组织ID (<code>orgId</code>)和其他可用选项正确配置您在步骤4中安装的库。 确保正确映射变量。 </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">配置Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM对象变量映射</a></td>
 </tr>
 

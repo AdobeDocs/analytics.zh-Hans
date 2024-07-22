@@ -2,7 +2,7 @@
 title: 从AppMeasurement迁移到Web SDK
 description: 将Adobe Analytics实施从AppMeasurementJavaScript库更新到Web SDK JavaScript库。
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -63,15 +63,15 @@ Adobe建议在以下情况下遵循此实施路径：
 
 使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向在上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
 
-在Web SDK `configure`命令中使用[`edgeConfigId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgeconfigid)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
+在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamId)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
 
-* 将`edgeConfigId`设置为从上一步检索到的数据流ID。
+* 将`datastreamId`设置为从上一步检索到的数据流ID。
 * 将`orgId`设置为您组织的IMS组织。
 
 ```js
 alloy("configure", {
-    "edgeConfigId": "ebebf826-a01f-4458-8cec-ef61de241c93",
-    "orgId": "ADB3LETTERSANDNUMBERS@AdobeOrg"
+    datastreamId: "ebebf826-a01f-4458-8cec-ef61de241c93",
+    orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 
