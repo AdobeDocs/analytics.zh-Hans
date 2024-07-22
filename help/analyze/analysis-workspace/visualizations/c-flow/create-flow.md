@@ -4,10 +4,10 @@ title: 配置流量可视化图表
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: ec466d2a503278b05d19eda09e2a2244897ce1f3
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1414'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    >
    >计算量度不能用于&#x200B;**[!UICONTROL 开始于]**&#x200B;或&#x200B;**[!UICONTROL 结束于]**&#x200B;字段。
 
-1. 如果您选择一个量度，则还需要提供一个&#x200B;[!UICONTROL **路径维度**]&#x200B;以用作通往或者离开您的选定组件的路径，如此处所示。默认的是 [!UICONTROL **页面**]。
+1. 如果您选择某个量度，则还需要提供一个&#x200B;[!UICONTROL **路径Dimension**]，用作通往或离开您选定组件的路径，如下所示。 默认的是 [!UICONTROL **页面**]。
 
    ![路径维度](assets/pathing-dim.png)
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 > 
 >1. 开始创建流量可视化图表，如上所述。
 >1. 将&#x200B;[!UICONTROL **页面**]&#x200B;维度拖入&#x200B;**[!UICONTROL 包含]**&#x200B;字段中，然后选择&#x200B;[!UICONTROL **生成**]。
->1. 流量可视化图表使用可视化图表中心的关注节点中可见的查看次数最多的页面来生成。您还可以看到进入该关注页面的浏览次数最多的页面（位于关注节点的左侧）以及离开该关注页面的浏览次数最多的页面（位于关注节点的右侧）。
+>1. 流量可视化图表使用可视化图表中心的关注节点中可见的查看次数最多的页面来生成。您还可以看到进入该页面的顶部页面（焦点节点的左侧）以及进入该页面的顶部页面（焦点节点的右侧）。
 >1. 分析流量中的数据，如[查看和更改流量输出](#view-and-change-the-flow-output)中所述。
 
 
