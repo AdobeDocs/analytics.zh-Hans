@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
 source-wordcount: '5806'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 98%
 | --- | --- |
 | **2024 年 7 月** | |
 | 将threads.net添加到“反向链接类型”维度 | 已将threads.net添加到[“反向链接类型”维度](/help/components/dimensions/referrer-type.md)中使用的社交网络列表。 |
-| 更新了管理数据馈送的文档 | 更新了[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的信息以提高清晰度。 <p>更新包括：</p><ul><li>为各种任务创建了单独的部分，以使信息更易于扫描和使用。</li><li>添加了有关对重新激活的实时馈送行为所做更改的信息。 这些更改目前仅有限可用，尚未提供给所有客户。</li><li>添加了信息来声明，数据馈送的状态必须为“活动”才能被删除。</li> |
-| 更新了常见错误消息 | 对[常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)进行了小幅更新。 |
+| 更新了管理数据馈送的文档 | 更新了 [管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md) 中的信息以提高清晰度。 <p>更新包括：</p><ul><li>为各种任务创建单独的部分，以便更轻松地扫描和使用信息。</li><li>添加了有关重新激活的实时供稿行为变化的信息。这些更改目前处于有限可用性状态，尚未向所有客户开放。</li><li>添加的信息表明数据馈送必须具有活动状态才可以删除。</li> |
+| 已更新的常见错误消息 | 对 [常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)做了小更新。 |
 | **2024 年 6 月** | |
 | 更新了涉及流媒体功能的产品名称 | 当引用收集流媒体数据并将其显示在 Analysis Workspace 中的一组流媒体功能时，将“媒体分析”和“流媒体”的实例替换为名称“流媒体收藏集附加组件”。 <p>这些更新可在 Adobe Analytics 文档以及[流媒体收藏集附加组件文档](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)中查看。</p> |
 | 改进的智能警报文档 | 更新并改进了有关警报的文档。这些更新包括有关[创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)以及[概述信息](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)的信息。 |
