@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
+source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 94%
 
 ---
 
@@ -98,6 +98,12 @@ ht-degree: 100%
    + [服务器](dimensions/server.md)
    + [单页面访问量](dimensions/single-page-visits.md)
    + [网站区域](dimensions/site-section.md)
+   + [流媒体核心维度](dimensions/sm-core.md)
+   + [流媒体广告](dimensions/sm-ads.md)
+   + [流媒体章节](dimensions/sm-chapters.md)
+   + [流媒体质量](dimensions/sm-quality.md)
+   + [流媒体音频元数据](dimensions/sm-audio-metadata.md)
+   + [流媒体视频元数据](dimensions/sm-video-metadata.md)
    + [发生事件之前逗留的时间](dimensions/time-prior-to-event.md)
    + [页面逗留时间](dimensions/time-spent-on-page.md)
    + [每次访问逗留时间](dimensions/time-spent-per-visit.md)
@@ -151,6 +157,12 @@ ht-degree: 100%
    + [搜索](metrics/searches.md)
    + [单次存取](metrics/single-access.md)
    + [单页面访问量](metrics/single-page-visits.md)
+   + [流媒体核心量度](metrics/sm-core.md)
+   + [流媒体广告](metrics/sm-ads.md)
+   + [流媒体章节](metrics/sm-chapters.md)
+   + [流媒体播放器状态跟踪](metrics/sm-player-state.md)
+   + [流媒体质量](metrics/sm-quality.md)
+   + [流媒体视频元数据](metrics/sm-video-metadata.md)
    + [每次访问逗留时间](metrics/time-spent-per-visit.md)
    + [每位访客逗留时间](metrics/time-spent-per-visitor.md)
    + [逗留时间概述](metrics/time-spent.md)

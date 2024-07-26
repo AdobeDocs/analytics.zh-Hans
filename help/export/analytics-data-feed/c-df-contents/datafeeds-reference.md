@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
 workflow-type: tm+mt
-source-wordcount: '3425'
-ht-degree: 75%
+source-wordcount: '3578'
+ht-degree: 68%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 75%
 | **`color`** | 颜色深度 ID，它基于 `c_color` 列的值。引用 `color_depth.tsv` 查找表。 | 无符号 smallint |
 | **`connection_type`** | 表示连接类型的数值ID。 [连接类型](/help/components/dimensions/connection-type.md)维度。 引用 `connection_type.tsv` 查找表。 | 无符号 tinyint |
 | **`cookies`** | [Cookie支持](/help/components/dimensions/cookie-support.md)维度。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
-| **`country`** | 表示访客所在国家/地区的数值ID。 引用 `country.tsv` 查找表。 | 无符号 smallint |
+| **`country`** | 表示访问者所在国家/地区的数字 ID。 引用 `country.tsv` 查找表。 | 无符号 smallint |
 | **`ct_connect_type`** | 与 `connection_type` 列相关。最常见的值为LAN/Wifi、Mobile Carrier和Modem。 | char(20) |
 | **`curr_factor`** | 确定货币的小数位，用于货币兑换。例如，USD使用两位小数，因此该列值为`2`。 | tinyint |
 | **`curr_rate`** | 交易时的汇率。Adobe 与 XE 合作，以确定当天的汇率。 | decimal(24,12) |
@@ -70,8 +70,8 @@ ht-degree: 75%
 | **`duplicated_from`** | 仅在包含点击复制 VISTA 规则的报表包中使用。指示从中复制点击的报表包。 | varchar(40) |
 | **`ef_id`** | 在 Adobe Advertising 集成中使用的 `ef_id`。 | varchar(255) |
 | **`evar1 - evar250`** | 自定义变量 1 至 250。在 [eVar](/help/components/dimensions/evar.md) 维度中用到。每个公司使用 eVar 的方式有所不同。要了解有关贵组织如何填充各个eVar的详细信息，最佳方式是特定于贵组织的[解决方案设计文档](/help/implement/prepare/solution-design.md)。 | varchar(255) |
-| **`event_list`** | 以逗号分隔的数字ID列表，表示点击时触发的事件。 包括默认事件和[自定义事件1-1000](/help/components/metrics/custom-events.md)。 使用 `event.tsv` 查找。 | 文本 |
-| **`exclude_hit`** | 确定点击是否从报表中排除的标记。 对于被排除的点击，`visit_num` 列不递增。<br>1：未使用。属于某个已弃用的功能。<br>2：未使用。属于某个已弃用的功能。<br>3：已不再使用。用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。替代特定于帐户的排除。<br>9：未使用。属于某个已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。属于某个已弃用的功能。<br>13：未使用。属于某个已弃用的功能。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16：与 Analytics 点击不匹配的 Advertising Cloud 点击 | 无符号 tinyint |
+| **`event_list`** | 以逗号分隔的数字 ID 列表，表示命中触发的事件。 包括默认事件和 [自定义事件 1-1000](/help/components/metrics/custom-events.md)。 使用 `event.tsv` 查找。 | 文本 |
+| **`exclude_hit`** | 确定是否从报告中排除匹配的标志。 对于被排除的点击，`visit_num` 列不递增。<br>1：未使用。属于某个已弃用的功能。<br>2：未使用。属于某个已弃用的功能。<br>3：已不再使用。用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。替代特定于帐户的排除。<br>9：未使用。属于某个已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。属于某个已弃用的功能。<br>13：未使用。属于某个已弃用的功能。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16：与 Analytics 点击不匹配的 Advertising Cloud 点击 | 无符号 tinyint |
 | **`first_hit_page_url`** | 访客访问的第一个 URL。 | varchar(255) |
 | **`first_hit_pagename`** | [原始登入页面](/help/components/dimensions/entry-dimensions.md)维度。 访客访问的原始登录页面名称。 | varchar(100) |
 | **`first_hit_ref_domain`** | [原始反向链接域](/help/components/dimensions/original-referring-domain.md)维度。 基于 `first_hit_referrer`。访客首次访问的反向链接域。 | varchar(100) |
@@ -92,7 +92,7 @@ ht-degree: 75%
 | **`ipv6`** | 压缩的 IPv6 地址（如果有）。与 `ip` 互斥；如果此列包含未进行模糊处理的 IP 地址，则 `ip` 为空白。 | varchar(40) |
 | **`j_jscript`** | 浏览器支持的 JavaScript 版本。 | char(5) |
 | **`java_enabled`** | [[!UICONTROL Java已启用]](/help/components/dimensions/java-enabled.md)。 <br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
-| **`javascript`** | JavaScript版本的查找ID，基于`j_jscript`。 引用 `javascript_version` 查找表。 | 无符号 tinyint |
+| **`javascript`** | 基于 的 `j_jscript`JavaScript 版本的查找 ID。 引用 `javascript_version` 查找表。 | 无符号 tinyint |
 | **`language`** | 表示访问者语言的数字 ID。 引用 `languages.tsv` 查找表。 | 无符号 smallint |
 | **`last_hit_time_gmt`** | 上次点击的时间戳（以 UNIX® 时间表示）。用于计算[[!UICONTROL 上次访问后天数]](/help/components/dimensions/days-since-last-visit.md)维度。 | int |
 | **`last_purchase_num`** | [客户忠诚度](/help/components/dimensions/customer-loyalty.md)维度。 访客以前购买的次数。<br>0：之前没有购买（不是客户）<br>1：1 次先前购买（新客户）<br>2：2 次先前购买（退货客户）<br>3：3 次或更多先前购买（忠诚客户） | 无符号 int |
@@ -159,14 +159,14 @@ ht-degree: 75%
 | **`pointofinterest`** | Mobile Services 目标点名称 | varchar(255) |
 | **`pointofinterestdistance`** | Mobile Services 与目标点中心的距离 | varchar(255) |
 | **`post_`** 列 | 包含报表中最终使用的值。每个 post 列会在服务器端逻辑、处理规则和 VISTA 规则后填充。大多数情况下，Adobe 建议使用 post_ 列。 | 请参阅相应的非 post 列 |
-| **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md)页面变量。帮助填充多个维度和指标，包括 [类别](/help/components/dimensions/category.md)、 [产品](/help/components/dimensions/product.md)、 [单位](/help/components/metrics/units.md)和 [收入](/help/components/metrics/revenue.md)。 | 文本 |
+| **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md)页面变量。 有助于填充多个维度和量度，包括[类别](/help/components/dimensions/category.md)、[产品](/help/components/dimensions/product.md)、[单位](/help/components/metrics/units.md)和[收入](/help/components/metrics/revenue.md)。 | 文本 |
 | **`prop1`** - `prop75` | 自定义流量变量 1 至 75。在 [Prop](/help/components/dimensions/prop.md) 维度中用到。 | varchar(100) |
 | **`purchaseid`** | 某次购买的唯一标识符，使用 [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 变量设置它。供 `duplicate_purchase` 列使用。 | char(20) |
 | **`quarterly_visitor`** | 确定点击是否为新的每季度访客的标记。 | 无符号 tinyint |
 | **`ref_domain`** | [反向链接域](/help/components/dimensions/referring-domain.md)维度。 基于`referrer`列。 | varchar(100) |
 | **`ref_type`** | 表示点击的反向链接类型的数值ID。 在[反向链接类型](/help/components/dimensions/referrer-type.md)维度中用到。<br>1：网站内<br>2：其他网站<br>3：搜索引擎<br>4：硬盘<br>5：未发送<br>6：已输入/添加书签（无反向链接）<br>7：电子邮件<br>8：无 JavaScript <br>9：社交网络 | 无符号 tinyint |
 | **`referrer`** | [反向链接](/help/components/dimensions/referrer.md)维度。 请注意，在 `referrer` 使用数据类型 varchar(255) 时，`post_referrer` 使用数据类型 varchar(244)。 | varchar(255) |
-| **`resolution`** | 一个数字 ID，表示显示器的分辨率。 在[显示器分辨率](/help/components/dimensions/monitor-resolution.md)维度中用到。使用 `resolution.tsv` 查询表。 | 无符号 smallint |
+| **`resolution`** | 表示监视器分辨率的数值ID。 在[显示器分辨率](/help/components/dimensions/monitor-resolution.md)维度中用到。使用 `resolution.tsv` 查询表。 | 无符号 smallint |
 | **`s_kwcid`** | Adobe Advertising 集成中使用的关键词 ID。 | varchar(255) |
 | **`s_resolution`** | 原始屏幕分辨率值。使用 JavaScript 函数 `screen.width x screen.height` 收集而得。 | char(20) |
 | **`search_engine`** | 数字ID，表示将访客引荐至您的网站的搜索引擎。 在[搜索引擎](/help/components/dimensions/search-engine.md)维度中使用。 引用 `search_engines.tsv` 查找表。 | 无符号 smallint |
@@ -190,69 +190,69 @@ ht-degree: 75%
 | **`va_closer_id`** | 标识[最近联系渠道](/help/components/dimensions/last-touch-channel.md)维度的数值ID。 此ID的查找可在营销渠道管理器中找到。 | 无符号 tinyint |
 | **`va_finder_detail`** | [首次联系详细信息](/help/components/dimensions/first-touch-detail.md)维度。 | varchar(255) |
 | **`va_finder_id`** | 标识[首次接触渠道](/help/components/dimensions/first-touch-channel.md)维度的数值ID。 此ID的查找可在营销渠道管理器中找到。 | 无符号 tinyint |
-| **`va_instance_event`** | 标识营销渠道 [实例的](/help/components/metrics/instances.md)标志。 | 无符号 tinyint |
-| **`va_new_engagement`** | 标识市场营销渠道 [新参与的](/help/components/metrics/new-engagements.md)标志。 | 无符号 tinyint |
-| **`video`** | 视频内容 | varchar(255) |
-| **`videoad`** | 视频广告名称 | varchar(255) |
-| **`videoadinpod`** | 面板位置中的视频广告 | varchar(255) |
-| **`videoadlength`** | 视频广告时长 | 整数 |
-| **`videoadload`** | 视频广告加载 | varchar(255) |
-| **`videoadname`** | 视频广告名称 | varchar(255) |
-| **`videoadplayername`** | 视频广告播放器名称 | varchar(255) |
-| **`videoadpod`** | 视频广告组合 | varchar(255) |
-| **`videoadvertiser`** | 视频广告商 | varchar(255) |
-| **`videoaudioalbum`** | 视频音频相册 | varchar(255) |
-| **`videoaudioartist`** | 视频音频艺术家 | varchar(255) |
-| **`videoaudioauthor`** | 视频音频作者 | varchar(255) |
-| **`videoaudiolabel`** | 视频音频标签 | varchar(255) |
-| **`videoaudiopublisher`** | 视频音频发布者 | varchar(255) |
-| **`videoaudiostation`** | 视频音频电台/电视台 | varchar(255) |
-| **`videocampaign`** | 视频促销活动 | varchar(255) |
-| **`videochannel`** | 视频渠道 | varchar(255) |
-| **`videochapter`** | 视频章节名称 | varchar(255) |
-| **`videocontenttype`** | 视频内容类型。自动设为“视频”，以查看所有视频。 | varchar(255) |
-| **`videodaypart`** | 视频播放时段 | varchar(255) |
-| **`videoepisode`** | 视频剧集 | varchar(255) |
-| **`videofeedtype`** | 视频馈送类型 | varchar(255) |
-| **`videogenre`** | 视频流派 | 文本 |
-| **`videolength`** | 视频长度 | 整数 |
-| **`videomvpd`** | 视频 MVPD | varchar(255) |
-| **`videoname`** | 视频名称 | varchar(255) |
-| **`videonetwork`** | 视频网络 | varchar(255) |
-| **`videopath`** | 视频路径 | varchar(100) |
-| **`videoplayername`** | 视频播放器名称 | varchar(255) |
-| **`videotime`** | 视频时间 | 整数 |
-| **`videoqoebitrateaverageevar`** | 视频品质：平均比特率 | varchar(255) |
-| **`videoqoebitratechangecountevar`** | 视频品质：比特率变化计数 | varchar(255) |
-| **`videoqoebuffercountevar`** | 视频品质：缓冲计数 | varchar(255) |
-| **`videoqoebuffertimeevar`** | 视频品质：缓冲时间 | varchar(255) |
-| **`videoqoedroppedframecountevar`** | 视频品质：丢帧计数 | varchar(255) |
-| **`videoqoeerrorcountevar`** | 视频品质：错误计数 | varchar(255) |
-| **`videoqoeextneralerrors`** | 视频品质：外部错误 | 文本 |
-| **`videoqoeplayersdkerrors`** | 视频品质：SDK 错误 | 文本 |
-| **`videoqoetimetostartevar`** | 视频品质：启动时间 | varchar(255) |
-| **`videoseason`** | 视频季 | varchar(255) |
-| **`videosegment`** | 视频区段 | varchar(255) |
-| **`videoshow`** | 视频表演 | varchar(255) |
-| **`videoshowtype`** | 视频表演类型 | varchar(255) |
-| **`videostreamtype`** | 视频流类型 | varchar(255) |
+| **`va_instance_event`** | 标识营销渠道[实例](/help/components/metrics/instances.md)的标志。 | 无符号 tinyint |
+| **`va_new_engagement`** | 标识营销渠道[新参与](/help/components/metrics/new-engagements.md)的标志。 | 无符号 tinyint |
+| **`video`** | [内容](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
+| **`videoad`** | [广告](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
+| **`videoadinpod`** | 面板中的[广告位置](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
+| **`videoadlength`** | [广告长度（变量）](/help/components/dimensions/sm-ads.md)流媒体维度。 | 整数 |
+| **`videoadload`** | [广告加载](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
+| **`videoadname`** | [广告名称（变量）](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
+| **`videoadplayername`** | [广告播放器名称](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
+| **`videoadpod`** | [广告Pod](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
+| **`videoadvertiser`** | 广告 [主](/help/components/dimensions/sm-ads.md) 流媒体维度。 | varchar(255) |
+| **`videoaudioalbum`** | 专辑[](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
+| **`videoaudioartist`** | [艺人](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
+| **`videoaudioauthor`** | [作者](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
+| **`videoaudiolabel`** | [标签](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
+| **`videoaudiopublisher`** | [发布者](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
+| **`videoaudiostation`** | [电台](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
+| **`videocampaign`** | [促销活动ID](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
+| **`videochannel`** | [内容频道](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
+| **`videochapter`** | [Chapter](/help/components/dimensions/sm-chapters.md)流媒体维度。 | varchar(255) |
+| **`videocontenttype`** | ](/help/components/dimensions/sm-core.md)内容类型[“流媒体”维度。 | varchar(255) |
+| **`videodaypart`** | “日” [部分](/help/components/dimensions/sm-video-metadata.md) “流媒体”维度。 | varchar(255) |
+| **`videoepisode`** | [Episode](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
+| **`videofeedtype`** | [媒体馈送类型](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
+| **`videogenre`** | 流 [派](/help/components/dimensions/sm-video-metadata.md) 流媒体维度。 此维度允许在同一匹配中出现多个值，以逗号分隔。 | 文本 |
+| **`videolength`** | [内容长度（变量）](/help/components/dimensions/sm-core.md)流媒体维度。 | 整数 |
+| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
+| **`videoname`** | [内容名称（变量）](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
+| **`videonetwork`** | [网络](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
+| **`videopath`** | [媒体路径](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(100) |
+| **`videoplayername`** | [内容播放器名称](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
+| **`videotime`** | [内容逗留时间](/help/components/metrics/sm-core.md)流媒体量度。 | 整数 |
+| **`videoqoebitrateaverageevar`** | [平均比特率](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
+| **`videoqoebitratechangecountevar`** | [比特率更改](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
+| **`videoqoebuffercountevar`** | [缓冲事件](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
+| **`videoqoebuffertimeevar`** | 总缓冲持续时间[个](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
+| **`videoqoedroppedframecountevar`** | [丢帧](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
+| **`videoqoeerrorcountevar`** | [错误](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
+| **`videoqoeextneralerrors`** | [外部错误ID](/help/components/dimensions/sm-quality.md)流媒体维度。 此维度允许在同一次点击中使用多个值。 | 文本 |
+| **`videoqoeplayersdkerrors`** | 播放器 [SDK 错误 ID “](/help/components/dimensions/sm-quality.md) 流媒体”维度。 此维度允许在同一匹配中出现多个值。 | 文本 |
+| **`videoqoetimetostartevar`** | [是时候开始](/help/components/dimensions/sm-quality.md)流媒体维度了。 | varchar(255) |
+| **`videoseason`** | [季节](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
+| **`videosegment`** | [内容区段](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
+| **`videoshow`** | [节目](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
+| **`videoshowtype`** | [节目类型](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
+| **`videostreamtype`** | [流类型](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
 | **`visid_high`** | 与 `visid_low` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | **`visid_low`** | 与 `visid_high` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | **`visid_new`** | 确定点击是否包含新生成的访客ID的标记。 | char(1) |
 | **`visid_timestamp`** | 如果访客ID是新生成的，则会以UNIX为单位提供时间戳®访客ID的生成时间。 | int |
 | **`visid_type`** | 不能用于外部用途；Adobe 内部用于处理优化。数字ID，表示用于识别访客的方法。<br>`0`：自定义访客 ID 或未知/不适用<br>`1`：IP 和用户代理回退<br>`2`：HTTP 移动订户标头<br>`3`：旧版 Cookie 值 (`s_vi`)<br>`4`：回退 Cookie 值 (`s_fid`)<br>`5`：身份服务 | 无符号 tinyint |
 | **`visit_keywords`** | [搜索关键字](/help/components/dimensions/search-keyword.md)维度。 此列使用 varchar(244) 的非标准字符限制容纳 Adobe 使用的后端逻辑。 | varchar(244) |
-| **`visit_num`** | [访问量](/help/components/dimensions/visit-number.md)维度。 起始值为 1，每当每个访客开始新的访问时，此项就会递增。 | 无符号 int |
-| **`visit_page_num`** | [点击深度](/help/components/dimensions/hit-depth.md)维度。 访客产生的每命中增加 1。 每次访问后重置。 | 无符号 int |
+| **`visit_num`** | “访问次数](/help/components/dimensions/visit-number.md)”[维度。起始值为 1，每当每个访客开始新的访问时，此项就会递增。 | 无符号 int |
+| **`visit_page_num`** | 命 [中深度](/help/components/dimensions/hit-depth.md) 维度。 访客产生的每命中增加 1。 每次访问后重置。 | 无符号 int |
 | **`visit_ref_domain`** | 基于 `visit_referrer` 列。访问中第一个反向链接的域名。 | varchar(100) |
-| **`visit_ref_type`** | 表示访问的第一个反向链接的反向链接类型的数值ID。 引用 `referrer_type.tsv` 查找表。 | 无符号 tinyint |
+| **`visit_ref_type`** | 一个数字 ID，表示访问的第一个引荐来源网址的类型。 引用 `referrer_type.tsv` 查找表。 | 无符号 tinyint |
 | **`visit_referrer`** | 访问中的第一个反向链接。 | varchar(255) |
 | **`visit_search_engine`** | 表示访问的第一个搜索引擎的数值ID。 引用 `search_engines.tsv` 查找表。 | 无符号 smallint |
 | **`visit_start_page_url`** | 访问中的第一个 URL。 | varchar(255) |
 | **`visit_start_pagename`** | 访问中首次点击的“页面名称”值。 | varchar(100) |
 | **`visit_start_time_gmt`** | 访问中首次点击的时间戳（基于 UNIX® 时间）。 | int |
 | **`weekly_visitor`** | 确定点击是否为新的每周访客的标记。 | 无符号 tinyint |
-| **`yearly_visitor`** | 确定点击是否为新的年度访客的标志。 | 无符号 tinyint |
+| **`yearly_visitor`** | 确定点击是否为新的每年访客的标记。 | 无符号 tinyint |
 | **`zip`** | 有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `geo_zip`。 | varchar(50) |
 
 {style="table-layout:auto"}
