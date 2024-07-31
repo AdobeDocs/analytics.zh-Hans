@@ -3,7 +3,7 @@ description: 区段生成器提供了一个画布以将指标维度、区段和�
 title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 97%
@@ -54,6 +54,7 @@ ht-degree: 97%
    | 重复 | X | X | X | - | X | - |
    | 实例 | X | X | - | - | X | - |
    | 非重复实例 | X | - | - | - | X | - |
+
 1. **[!UICONTROL And/Or/Then]**：在容器或规则之间分配 [!UICONTROL AND/OR/THEN] 运算符。通过使用 THEN 运算符，您可以[定义顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 1. **[!UICONTROL 指标]**：（绿色侧栏）从指标列表中拖放的指标。
 1. **[!UICONTROL 比较]**&#x200B;运算符：您可以使用选定的运算符比较和约束值。
