@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
 source-wordcount: '5910'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 | --- | --- |
 | **2024 年 7 月** | |
 | 添加了关于快速计算量度的信息 | 更新了[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的信息，以阐明在计算量度生成器](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)中创建的[计算量度与在单个项目](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中作为快速计算量度创建的[计算量度之间的区别。 此外，还添加了有关用于创建快速计算量度的方法的更多详细信息。<p>在计算量度生成器中创建的计算量度在组件列表中可用，并且可以应用于整个组织的项目，而作为快速计算量度创建的计算量度仅在创建它们的项目中可用。</p><p>还更新了[生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中的信息以进行类似说明。</p> |
-| 将threads.net添加到“反向链接类型”维度 | 已将threads.net添加到[“反向链接类型”维度](/help/components/dimensions/referrer-type.md)中使用的社交网络列表。 |
+| 将 threads.net 添加到“反向链接类型”维度 | 将 threads.net 添加到[“反向链接类型”维度](/help/components/dimensions/referrer-type.md)中使用的社交网络列表中。 |
 | 更新了管理数据馈送的文档 | 更新了 [管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md) 中的信息以提高清晰度。 <p>更新包括：</p><ul><li>为各种任务创建单独的部分，以便更轻松地扫描和使用信息。</li><li>添加了有关重新激活的实时供稿行为变化的信息。这些更改目前处于有限可用性状态，尚未向所有客户开放。</li><li>添加的信息表明数据馈送必须具有活动状态才可以删除。</li> |
 | 已更新的常见错误消息 | 对 [常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)做了小更新。 |
 | **2024 年 6 月** | |
@@ -112,7 +112,7 @@ ht-degree: 97%
 | 项目区段（临时区段和快速区段） | 简化了有关项目区段的文档并删除了重复的信息。创建临时区段的步骤现在与[创建快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的步骤合并在一起。 |
 | 动态查找 | 添加了关于[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的其他信息。以前对于移动属性仅存在“信息”，而它仅为若干动态查找之一。 |
 | **2023 年 3 月** | |
-| Web SDK 对 Activity Map 的支持 | 更新了[实施Adobe Analytics](/help/implement/home.md)。 |
+| Web SDK 对 Activity Map 的支持 | 更新了[实施 Adobe Analytics](/help/implement/home.md)。 |
 | 流量变量 (prop) 概述 | 添加了章节和分步过程以阐明和改善文章内容。合并了标题为“启用流量变量报告”一文的内容并删除了这篇文章。请参阅[流量变量 (prop) 概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。 |
 | 内部 URL 过滤器 | 添加了章节和分步过程以阐明和改善文章内容。请参阅[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。 |
 | 在移动记分卡中创建数据故事 | [数据故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)是围绕中心主题或量度构建的辅助数据点、业务背景和相关量度的集合。 |
