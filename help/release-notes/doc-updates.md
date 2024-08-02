@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '5910'
-ht-degree: 98%
+source-wordcount: '5945'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 7 月** | |
-| 添加了关于快速计算量度的信息 | 更新了[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的信息，以阐明在计算量度生成器](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)中创建的[计算量度与在单个项目](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中作为快速计算量度创建的[计算量度之间的区别。 此外，还添加了有关用于创建快速计算量度的方法的更多详细信息。<p>在计算量度生成器中创建的计算量度在组件列表中可用，并且可以应用于整个组织的项目，而作为快速计算量度创建的计算量度仅在创建它们的项目中可用。</p><p>还更新了[生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中的信息以进行类似说明。</p> |
+| 管理位置时必须至少选择一个帐户类型 | 阐明当管理员[限制用于导出和导入的帐户类型](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)时，必须至少选择一个帐户类型。 |
+| 添加了有关快速计算量度的信息 | 更新了 [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) 中的信息，以阐明 [在计算量度生成器中创建的计算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) 与 [在单个项目内作为快速计算量度创建的计算量度之间的区别](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)。还添加了有关软管的更多详细信息，以创建快速计算的量度。<p>在计算量度生成器中创建的计算量度在组件列表中可用，并可应用于整个组织的项目，而作为快速计算量度创建的计算量度仅在创建它们的项目中可用。</p><p>还更新了 [构建量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) 中的信息，以做出类似的澄清。</p> |
 | 将 threads.net 添加到“反向链接类型”维度 | 将 threads.net 添加到[“反向链接类型”维度](/help/components/dimensions/referrer-type.md)中使用的社交网络列表中。 |
 | 更新了管理数据馈送的文档 | 更新了 [管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md) 中的信息以提高清晰度。 <p>更新包括：</p><ul><li>为各种任务创建单独的部分，以便更轻松地扫描和使用信息。</li><li>添加了有关重新激活的实时供稿行为变化的信息。这些更改目前处于有限可用性状态，尚未向所有客户开放。</li><li>添加的信息表明数据馈送必须具有活动状态才可以删除。</li> |
 | 已更新的常见错误消息 | 对 [常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)做了小更新。 |

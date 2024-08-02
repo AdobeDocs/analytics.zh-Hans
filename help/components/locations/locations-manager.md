@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 位置管理器
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -202,6 +202,8 @@ ht-degree: 1%
 1. 找到&#x200B;[!UICONTROL **允许的帐户类型**]&#x200B;部分。
 
    默认情况下，用户可以使用以下帐户类型。 取消选择要限制用户使用的任意帐户类型。
+
+   必须至少选择一个帐户类型。
 
    * [!UICONTROL **Amazon S3角色ARN**]
 
