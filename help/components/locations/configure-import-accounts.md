@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
+source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -140,7 +140,7 @@ ht-degree: 56%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **Host**] | 输入所需的FTP目标URL。 例如，`ftp://ftp.omniture.com`。 |
+   | [!UICONTROL **Host**] | 输入所需的FTP目标URL。 例如，`ftp.adobe.com`。 |
    | [!UICONTROL **路径**] | 可留空。 |
    | [!UICONTROL **用户名**] | 输入用户名以登录到FTP站点。 |
    | [!UICONTROL **密码并确认密码**] | 输入登录FTP站点的密码。 |
