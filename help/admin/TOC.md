@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 8bb879b86126c59b7d22505657ecdb46106822e8
-workflow-type: ht
-source-wordcount: '637'
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -93,10 +93,7 @@ ht-degree: 100%
             + 独特访客变量 {#unique-visitor-variable}
                + [指定独特访客变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [用例 — 提取访客 ID](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
-            + 成功事件 {#success-events}
-               + [成功事件概述](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
-               + [配置成功事件](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
-               + [关于更改事件类型](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+            + [成功事件](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
             + [分类层次结构](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
             + [列表变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [促销 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
