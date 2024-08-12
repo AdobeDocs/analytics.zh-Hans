@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
-workflow-type: ht
-source-wordcount: '5945'
-ht-degree: 100%
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+workflow-type: tm+mt
+source-wordcount: '5957'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 7 月** | |
+| 成功事件 | 简化了有关[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)的文档。 为了清晰和准确而更新。 |
 | 在管理位置时，必须选择至少一种帐户类型 | 澄清一下，当管理员[限制用于导出和导入的帐户类型](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)时，必须选择至少一种帐户类型。 |
 | 添加了有关快速计算量度的信息 | 更新了 [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) 中的信息，以阐明 [在计算量度生成器中创建的计算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) 与 [在单个项目内作为快速计算量度创建的计算量度之间的区别](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)。还添加了有关软管的更多详细信息，以创建快速计算的量度。<p>在计算量度生成器中创建的计算量度在组件列表中可用，并可应用于整个组织的项目，而作为快速计算量度创建的计算量度仅在创建它们的项目中可用。</p><p>还更新了 [构建量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) 中的信息，以做出类似的澄清。</p> |
 | 将 threads.net 添加到“反向链接类型”维度 | 将 threads.net 添加到[“反向链接类型”维度](/help/components/dimensions/referrer-type.md)中使用的社交网络列表中。 |

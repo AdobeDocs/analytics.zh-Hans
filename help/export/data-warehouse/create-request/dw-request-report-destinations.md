@@ -3,10 +3,10 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为 Data Warehouse 请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
+source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
 workflow-type: tm+mt
-source-wordcount: '2615'
-ht-degree: 99%
+source-wordcount: '1925'
+ht-degree: 84%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
    >
    >如果您是系统管理员，则&#x200B;[!UICONTROL **显示所有目标**]&#x200B;选项可用。如果要访问已由组织中的任意用户创建的所有帐户和位置，请启用此选项。
 
-   1. 从&#x200B;[!UICONTROL **选择帐户**]&#x200B;下拉菜单中选择帐户。
+   1. 从&#x200B;[!UICONTROL **帐户**]&#x200B;下拉菜单中选择帐户。
 
       您在 Adobe Analytics 的以下任何区域中配置的任何云帐户均可供使用：
 
@@ -66,26 +66,30 @@ ht-degree: 99%
 
 1. （视情况而定）如果您无权访问已在 Adobe Analytics 中配置的云帐户，则可以配置一个：
 
-   1. 选择&#x200B;[!UICONTROL **添加帐户**]，然后指定以下信息：
+   1. 选择&#x200B;[!UICONTROL **帐户**]&#x200B;下拉菜单，然后选择&#x200B;[!UICONTROL **添加帐户**]。
+
+   1. 在添加帐户对话框中，指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
-      | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。 <p>选择一个帐户类型后，将显示特定于该帐户类型的字段。 </p> |
-      | [!UICONTROL **帐户名称**] | 指定帐户的名称。此名称在创建位置时出现。<!-- true? --> |
-      | [!UICONTROL **帐户描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。 |
+      | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 |
+      | [!UICONTROL **位置帐户描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。 |
+      | [!UICONTROL **使帐户对贵组织的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该帐户。<p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> |
+      | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
 
-      有关配置说明，请展开与选定的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的以下部分。
+   1. 在&#x200B;[!UICONTROL **帐户属性**]&#x200B;部分中，指定特定于所选帐户类型的信息。
 
-      在配置报表目标时，请使用以下任意帐户类型。有关配置说明，请展开帐户类型。（其他[旧目标](#legacy-destinations)也可用，但建议不要使用。）
+      有关配置说明，请展开下面与您选择的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的部分。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
 
-      +++Amazon S3
+      **帐户类型**
+
+      +++Amazon S3角色ARN
 
       若要配置 Amazon S3 角色 ARN 帐户，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
-      | [!UICONTROL **角色 ARN**] | 您必须提供角色 ARN（Amazon 资源名称），Adobe 可以使用它来获取对 Amazon S3 帐户的访问权限。为此，您需要为源帐户创建 IAM 权限策略，将该策略附加到用户，然后为目标帐户创建角色。有关特定信息，请参阅[此 AWS 文档](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/)。<p>有关如何设置存储段的权限的信息，请参阅 Amazon 知识中心文章[如何提供对 Amazon S3 存储段中的对象的跨帐户访问权限？](https://repost.aws/knowledge-center/cross-account-access-s3)。 |
-      | [!UICONTROL **用户 ARN**] | 用户 ARN（Amazon 资源名称）由 Adobe 提供。您必须将此用户附加到创建的策略。 |
+      | [!UICONTROL **角色 ARN**] | 您必须提供角色 ARN（Amazon 资源名称），Adobe 可以使用它来获取对 Amazon S3 帐户的访问权限。为此，您需要为源帐户创建 IAM 权限策略，将该策略附加到用户，然后为目标帐户创建角色。有关特定信息，请参阅[此 AWS 文档](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/)。 |
 
       {style="table-layout:auto"}
 
@@ -111,9 +115,9 @@ ht-degree: 99%
       |---------|----------|
       | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
       | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-      | [!UICONTROL **密钥保管库 URI**] | <p>Azure Key Vault 中 SAS URI 的路径。要配置 Azure SAS，需要使用 Azure Key Vault 将 SAS URI 存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。</li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul><p>有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
-      | [!UICONTROL **密钥保管库密码名称**] | 将密码添加到 Azure 密钥保管库时创建的密码名称。在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥保管库**&#x200B;设置页面上创建的密钥保管库中。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
-      | [!UICONTROL **密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+      | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。要配置Azure SAS，必须使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
+      | [!UICONTROL **密钥保管库密码名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥保管库中，位于&#x200B;**密钥保管库**&#x200B;设置页面上。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+      | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
       {style="table-layout:auto"}
 
@@ -127,7 +131,7 @@ ht-degree: 99%
       |---------|----------|
       | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
       | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-      | [!UICONTROL **密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+      | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
       {style="table-layout:auto"}
 
@@ -135,72 +139,15 @@ ht-degree: 99%
 
       +++Email
 
-      若要配置电子邮件帐户，请指定以下信息：
+      >[!NOTE]
+      >
+      >电子邮件帐户只能用于[数据馈送](/help/export/analytics-data-feed/create-feed.md)。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件帐户)。
+
+      若要配置 Azure RBAC 帐户，请指定以下信息：
 
       | 字段 | 功能 |
       |---------|----------|
-      | [!UICONTROL **收件人**] | 发送报表时，可以向特定用户发送电子邮件通知。指定单个电子邮件地址或电子邮件地址的逗号分隔列表。<!-- How does this differ from the Notification email tab? --> |
-
-   1. 选择&#x200B;[!UICONTROL **添加位置**]，然后指定以下信息：
-
-      | 字段 | 功能 |
-      |---------|----------|
-      | [!UICONTROL **名称**] | 位置的名称。 |
-      | [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。 |
-      | [!UICONTROL **位置帐户**] | 选择您在[添加帐户](#add-an-account)中创建的位置帐户。 |
-
-   1. 在&#x200B;[!UICONTROL **位置属性**]&#x200B;部分中，指定特定于位置帐户的帐户类型的信息。
-
-      有关配置说明，请展开与之前选定的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的以下部分。
-
-      +++Amazon S3
-
-      若要配置 Amazon S3 位置，请指定以下信息：
-
-      | 字段 | 功能 |
-      |---------|----------|
-      | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保 Adobe 提供的用户 ARN 具有 `S3:PutObject` 权限，以便将文件上传到此存储段。此权限允许用户 ARN 上传初始文件并覆盖后续上传的文件。</p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
-      | [!UICONTROL **密钥前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
-
-      {style="table-layout:auto"}
-
-+++
-
-      +++Google Cloud Platform
-
-      若要配置 Google Cloud Platform 位置，请指定以下信息：
-
-      | 字段 | 功能 |
-      |---------|----------|
-      | [!UICONTROL **存储段名称**] | 您要将 Adobe Analytics 数据发送到的 GCP 账户中的存储段。 <p>确保您已向 Adobe 提供的主体授予以下任一权限：（有关授予权限的信息，请参阅 Google Cloud 文档中的[将主体添加到存储段级策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) 。）<ul><li>`roles/storage.objectCreator`：如果您要仅允许主体在您的 GCP 帐户中创建文件，请使用此权限。</br>**重要提示：**&#x200B;如果您将此权限用于计划报告，则必须为每个新的计划导出使用唯一文件名。否则，将无法生成报表，因为主体无权覆盖现有文件。</li><li>`roles/storage.objectUser`：如果您希望主体有权在您的 GCP 帐户中查看、列出、更新和删除文件，请使用此权限。</br>此权限允许主体覆盖现有文件以进行后续上传，而无需为每个新的计划导出自动生成唯一文件名。</li></ul><p>如果您的组织使用[组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints)，仅允许在允许列表中使用 Google Cloud Platform 帐户，则需要以下 Adobe 拥有的 Google Cloud Platform 组织 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
-      | [!UICONTROL **密钥前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
-
-      {style="table-layout:auto"}
-
-+++
-
-      +++Azure SAS
-
-      若要配置 Azure SAS 位置，请指定以下信息：
-
-      | 字段 | 功能 |
-      |---------|----------|
-      | [!UICONTROL **容器名称**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。 |
-      | [!UICONTROL **密钥前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/`<p>确保在配置 Azure SAS 帐户时，在 Key Vault 密码名称字段中指定的 SAS URI 存储具有 `Write` 权限。这将允许 SAS URI 在 Azure 容器中创建文件。 <p>如果您希望 SAS URI 也覆盖文件，请确保 SAS URI 存储具有 `Delete` 权限。</p><p>有关更多信息，请参阅 Azure Blob 存储文档中的 [Blob 存储资源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)。</p> |
-
-      {style="table-layout:auto"}
-
-+++
-
-      +++Azure RBAC
-
-      若要配置 Azure RBAC 位置，请指定以下信息：
-
-      | 字段 | 功能 |
-      |---------|----------|
-      | [!UICONTROL **容器名称**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。确保授予将文件上传到您之前创建的 Azure 应用程序的权限。 |
-      | [!UICONTROL **密钥前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/`<p>确保您在配置 Azure RBAC 帐户时指定的应用程序 ID 已被授予 `Storage Blob Data Contributor` 角色，以便访问容器（文件夹）。</p> <p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p> |
-      | [!UICONTROL **帐户名称**] | Azure 存储帐户。 |
+      | [!UICONTROL **收件人**] | 发送报表时，可以向特定用户发送电子邮件通知。指定单个电子邮件地址或电子邮件地址的逗号分隔列表。 |
 
       {style="table-layout:auto"}
 
@@ -208,7 +155,7 @@ ht-degree: 99%
 
 1. 继续在&#x200B;[!UICONTROL **报表选项**]&#x200B;选项卡上配置您的 Data Warehouse 请求。有关更多信息，请参阅[配置 Data Warehouse 请求的报表选项](/help/export/data-warehouse/create-request/dw-request-report-options.md)。
 
-## 旧目标
+## 旧帐户类型
 
 >[!IMPORTANT]
 >

@@ -5,10 +5,10 @@ title: 转化变量 (eVar)
 feature: Admin Tools
 role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 100%
+source-wordcount: '1715'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 100%
 
 ## 转化变量 (eVar) 概述
 
-以下是一段视频概述：
-
->[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
+有关转化变量的视频概述，请参阅Analytics教程指南中的[转化变量简介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)。
 
 为访客设置 eVar 值之后，Adobe 会自动记住该值，直到它过期。eVar 值有效期间，访客遇到的任何成功事件将计入该 eVar 值。
 
