@@ -3,7 +3,7 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ff5067a1f7d500c11737ddae507b431b875a44d9
+source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 76%
@@ -20,7 +20,7 @@ ht-degree: 76%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Web SDK 针对链接跟踪的改进** | 最新版本的 Web SDK 在链接跟踪方面做出了几项显著的改进，这可以直接使 Activity Map 受益。这些新功能在 Web SDK JavaScript 库和 Web SDK 标签扩展中均可用。<ul><li>事件分组：当访客点击内部链接时，您可以选择在下一页上对事件数据进行分组，而不是触发单独的事件调用进行链接跟踪。此项改进减少了 Web SDK 根据您的合同限制使用的事件数量。</li><li>过滤器点击属性：替换 `OnBeforeLinkClickSend` 的新回调。您可以使用此回调来过滤或混淆与链接相关的数据，然后再将其发送给 Adobe。</li></ul><p>有关更多信息，请参阅 Web SDK 用户指南中的 [clickCollection](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollection)。</p> | Beta 公测于 2024 年 7 月 10 日开始 | 待定 |
+| **Web SDK 针对链接跟踪的改进** | 最新版本的 Web SDK 在链接跟踪方面做出了几项显著的改进，这可以直接使 Activity Map 受益。这些新功能在 Web SDK JavaScript 库和 Web SDK 标签扩展中均可用。<ul><li>事件分组：当访客点击内部链接时，您可以选择在下一页上对事件数据进行分组，而不是触发单独的事件调用进行链接跟踪。此项改进减少了 Web SDK 根据您的合同限制使用的事件数量。</li><li>过滤器点击属性：替换 `OnBeforeLinkClickSend` 的新回调。您可以使用此回调来过滤或混淆与链接相关的数据，然后再将其发送给 Adobe。</li></ul><p>有关更多信息，请参阅 Web SDK 用户指南中的 [clickCollection](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollection)。</p> | Beta 公测于 2024 年 7 月 10 日开始 | 2024年7月18日 |
 
 {style="table-layout:auto"}
 
