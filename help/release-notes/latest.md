@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
+source-git-commit: f7d36ac8de37633ccbe725865dbaeecee532f47e
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 76%
+source-wordcount: '719'
+ht-degree: 72%
 
 ---
 
@@ -37,7 +37,7 @@ AN-354361、AN-354248、AN-354211、AN-354324、AN-351532、AN-349808、AN-34783
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **保存的`cust_visids`** 13 个月有效期 | 2024 年 5 月 22 日 | 即将发布的 Analytics Hit 处理引擎&#x200B;**（预计于 2024 年 7 月发布）**&#x200B;将开始对保存的 `cust_visids` 强制执行 13 个月的有效期。如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。目前，对 `visid_high/visid_low` 的 `cust_visid` 的映射没有有效期。在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
+| **保存的`cust_visids`** 13 个月有效期 | 2024年8月20日 | Analytics点击处理引擎的&#x200B;**2024年8月20日**&#x200B;版本强制保存的`cust_visids`在13个月内过期。 如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。以前，`visid_high/visid_low`的`cust_visid`映射没有过期。 在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
 
 {style="table-layout:auto"}
 
