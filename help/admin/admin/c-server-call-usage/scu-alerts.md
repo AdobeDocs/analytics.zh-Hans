@@ -4,7 +4,7 @@ title: “服务器调用使用情况”警报
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
 
-服务器调用使用情况警报是[警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)用户界面的一部分。
+服务器调用使用情况警报是[警报](/help/components/c-alerts/alert-manager.md)用户界面的一部分。
 
 该界面中已预填充了 **1 个默认警报**，该默认警报将显示在有权访问“服务器调用使用情况”功能的任何登录公司中。如果满足了以下任一条件，此警报将触发一条发送给所有登录公司管理员的通知消息：
 

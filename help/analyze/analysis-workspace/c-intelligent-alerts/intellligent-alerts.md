@@ -4,10 +4,10 @@ title: 智能警报概述
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: a012aca08740428671f216793dbd12aa15f21448
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 54%
+ht-degree: 60%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 54%
 
 Adobe Analytics中的“智能警报”（或“警报”）允许您在数据中发生异常事件时立即收到通知。
 
-您可以设置要根据异常阈值、更改的百分比或特定数据点触发的警报。 警报提供与[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)集成的粒度控件，在您最需要它们时触发。
+您可以设置根据异常阈值、变化的百分比或特定数据点触发的警报。警报提供与[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)集成的粒度控件，在您最需要它们时触发。
 
 智能警报允许您：
 
@@ -49,4 +49,4 @@ Adobe Analytics中的“智能警报”（或“警报”）允许您在数据�
 
 您可以在警报管理器中管理现有警报。 您可以对警报执行各种管理任务，如标记、重命名、删除等。
 
-有关如何在Adobe Analytics中管理现有警报的详细信息，请参阅[管理警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)。
+有关如何在Adobe Analytics中管理现有警报的详细信息，请参阅[管理警报](/help/components/c-alerts/alert-manager.md)。
