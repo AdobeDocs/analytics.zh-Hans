@@ -3,10 +3,10 @@ description: 管理警报。
 title: 警报管理器概述
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
+source-git-commit: 49324ef7fd45adeef2c31167d0444a7e67041d6d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 32%
+source-wordcount: '378'
+ht-degree: 35%
 
 ---
 
@@ -54,13 +54,18 @@ ht-degree: 32%
 
    | 列标题 | 描述 |
    |---|---|
-   | 收藏 | 在每个警报旁边显示星形图标，允许您将警报标记为收藏。<!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
    | 标题和描述 | 这些值在警报生成器中提供。 要编辑标题和描述，请选择标题链接以打开警报生成器。 |
+   | 收藏 | 在每个警报旁边显示星形图标，允许您将警报标记为收藏。<!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | 类型 | 显示警报是Analytics数据警报还是服务器调用使用情况警报。 |
+   | 已启用 | 显示警报当前是启用还是禁用。 |
    | 报表包 | 指示警报上次保存在哪个报表包中。 |
    | 所有者 | 指示警报的所有者。 如果您不是管理员，则只能看到您拥有的警报或与您共享的警报。 |
    | 标记 | 显示应用到警报的标记，这些标记由您自己或与您共享该警报的人添加。 |
-   | 共享对象 | 列出您与其共享警报的个人或组（仅限管理员）或所有人（仅限管理员）。 |
+   | 过期日期 | 显示警报设置为到期的日期和时间。 |
    | 修改日期 | 指示上次修改警报的日期。 |
-   | 上次使用时间 | 显示上次使用警报的日期。 <p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看本列时请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>对于某些组件，如果上次在2023年9月之前使用该组件，则此列可能不包含数据。</li></ul> |
 
    {style="table-layout:auto"}
+
+   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+
+
