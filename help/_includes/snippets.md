@@ -1,8 +1,8 @@
 ---
-source-git-commit: 33ac467cd73e3099ce0ca03aa41cbd4192eb2384
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 96%
+source-wordcount: '1171'
+ht-degree: 93%
 
 ---
 # 片段
@@ -84,3 +84,10 @@ ht-degree: 96%
 >
 >此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与您组织的 Adobe 客户团队联系。他们可为您安排与顾问会面以寻求帮助。
 
+
+## 仅适用于现有客户 {#available-existing-customers}
+
+>[!AVAILABILITY]
+>
+>本节中介绍的功能仅适用于已获得相应功能许可证的现有客户。 此功能不再作为现有或新客户的附加组件提供。
+>

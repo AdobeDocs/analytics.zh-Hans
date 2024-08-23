@@ -4,7 +4,7 @@ description: 了解使用基于字段的拼合来拼合数据的先决条件和�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 93%
@@ -12,6 +12,8 @@ ht-degree: 93%
 ---
 
 # 基于字段的拼合
+
+{{available-existing-customers}}
 
 Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此方法依靠 Analytics 变量（如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)）包含人员标识符。它使用该变量作为将设备联系在一起的基础。Adobe 推荐此拼接选项，以提高访客跟踪的透明度和可预测性。
 

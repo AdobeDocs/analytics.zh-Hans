@@ -4,7 +4,7 @@ description: 配置虚拟报表包以启用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 87%
@@ -12,6 +12,8 @@ ht-degree: 87%
 ---
 
 # 设置 Cross-Device Analytics
+
+{{available-existing-customers}}
 
 在满足所有先决条件后，请通过以下步骤启用 Cross-Device Analytics。您必须是产品配置文件管理员组的一员，或者拥有 Adobe Analytics 管理员权限，才能执行这些步骤。
 

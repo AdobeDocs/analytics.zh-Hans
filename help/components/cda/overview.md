@@ -4,7 +4,7 @@ description: 通过将设备数据拼合在一起，将您的数据从以设备�
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # Cross-Device Analytics
+
+{{available-existing-customers}}
 
 跨设备分析 (CDA) 是一项功能，可将 Analytics 从以设备为中心的视图转变为以人员为中心的视图。 因此，分析师可以了解跨浏览器、设备或应用程序的用户行为。Adobe 支持使用两个主要工作流程，将设备数据链接在一起：
 

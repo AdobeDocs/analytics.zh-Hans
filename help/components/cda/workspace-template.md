@@ -4,7 +4,7 @@ description: 描述 Analysis Workspace 内 CDA 模板中的每个字段。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 93%
@@ -12,6 +12,8 @@ ht-degree: 93%
 ---
 
 # CDA 工作区模板
+
+{{available-existing-customers}}
 
 Adobe 提供一个模板以查看重要的跨设备性能数据。
 
