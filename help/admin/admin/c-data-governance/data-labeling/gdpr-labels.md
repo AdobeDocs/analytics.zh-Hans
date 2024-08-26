@@ -4,24 +4,26 @@ title: Analytics 变量的数据隐私标签
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 98%
+source-wordcount: '3790'
+ht-degree: 91%
 
 ---
 
 # Analytics 变量的数据隐私标签
 
-## 为什么要为数据设置标签？ {#why-label}
-
-Adobe 的客户作为数据控制者，有责任遵守适用的数据隐私法，例如 GDPR 和 CCPA。客户应咨询自己的法律团队，确定应如何处理其数据才符合数据隐私法。Adobe 了解每个客户都有与隐私相关的独特需求，这就是为什么 Adobe 允许客户自定义其所需的数据隐私数据处理设置。这允许每个独特客户采用对其品牌和独特数据集最为合理的方式处理数据隐私请求。
+Adobe的客户作为数据控制者，有责任遵守适用的数据隐私法律，例如《通用数据保护条例》(GDPR)和《加州消费者隐私法案》(CCPA)。 客户应咨询自己的法律团队，确定应如何处理其数据才符合数据隐私法。Adobe 了解每个客户都有与隐私相关的独特需求，这就是为什么 Adobe 允许客户自定义其所需的数据隐私数据处理设置。这允许每个独特客户采用对其品牌和独特数据集最为合理的方式处理数据隐私请求。
 
 Adobe Analytics 根据数据的敏感性和合同限制提供了数据标签设置工具。标签对于以下步骤至关重要：（1）识别数据主体，（2）确定哪些数据可在访问请求中返回，以及（3）识别必须在删除请求中删除的数据字段。
 
 在您搞清楚要将哪些标签应用于哪些变量/字段之前，首先需要知道您在 Analytics 数据中捕获的 [ID](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)，并确定要将哪些 ID 用于数据隐私请求。
 
 Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据和数据管理的标签。
+
+>[!NOTE]
+>
+>I1、I2、S1和S2标签与Adobe Experience Platform中相应命名的DULE标签具有相同的含义。 但是，它们的使用目的大不相同。 在Adobe Analytics中，这些标签用于帮助识别作为Privacy Service请求结果而应该进行匿名处理的字段。 在Adobe Experience Platform中，它们用于访问控制、同意管理，并用于对标记字段实施营销限制。 Adobe Experience Platform支持许多其他不由Adobe Analytics使用的标签。 此外，Adobe Experience Platform中的标签可应用于架构。 如果您使用Analytics Data Connector将Adobe Analytics数据导入Adobe Experience Platform，则需要确保在Adobe Experience Platform中为每个报表包使用的架构配置适当的DULE标签。 在Adobe Analytics中分配的标签不会自动应用于Adobe Experience Platform中的这些架构，因为它们只表示您可能需要应用的DULE标签的子集。 此外，不同的报表包可能会共享一个架构，但将不同的标签分配给具有相同编号的prop和evar，并且其他数据源的数据集可能会共享该架构，这可能会导致混淆某些字段收到这些标签的原因。
 
 ## 身份数据标签 {#identity-data-labels}
 
@@ -49,7 +51,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 数据治理标签使用户能够对反映隐私相关考虑因素和合同条件的数据进行分类，从而帮助 Adobe 客户遵守法规和公司政策。
 
-### 数据隐私访问标签
+### 数据隐私访问标签 {#access}
 
 | 标签 | 定义 | 其他要求 |
 | --- | --- | --- |
@@ -61,7 +63,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 尽管很少会有变量设置其他任何标签，但预计访问标签将会应用到许多变量中。不过，您需要咨询您的法律团队，以决定应该将收集的哪些数据与“数据主体”共享。
 
-### 数据隐私删除标签
+### 数据隐私删除标签 {#delete}
 
 与其他标签不同，这些“删除”标签并不是相互排斥的。您可以选择两者之一、同时选择两者，或者选择“无”。[!UICONTROL 无]标签不需要另外单独选择，因为不勾选任何一个“删除”选项即表示选择了[!UICONTROL 无]。
 
@@ -74,7 +76,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 {style="table-layout:auto"}
 
-### 数据隐私身份标签
+### 数据隐私身份标签 {#identity}
 
 | 标签 | 定义 | 其他要求 |
 | --- | --- | --- |
@@ -88,7 +90,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。
 
-### 使用先前已定义的命名空间
+### 使用先前已定义的命名空间 {#previously-defined}
 
 如果以前为登录公司的任何报告包中的其他变量分配了 ID 标签，则可选择这些现有的命名空间之一。如果此变量包含的 ID 类型与之前已使用此命名空间设置标签的其他变量包含的 ID 类型相同，并且您希望在提交请求时搜索所有这些变量，则应重复使用该命名空间。
 
@@ -97,7 +99,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 1. 单击&#x200B;**[!UICONTROL 应用]**。
 
 
-### 定义新的命名空间
+### 定义新的命名空间 {#define}
 
 您也可以定义一个新的命名空间。我们建议将命名空间字符串限制为字母数字字符，以及下划线、短划线和空格。这些字符串将全部转换为小写字母。
 
