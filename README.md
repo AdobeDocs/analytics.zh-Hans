@@ -46,7 +46,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ## 如何使用 Markdown 格式化您的主题
 
-此存储库中的所有文章都使用GitHub风格的标记。 如果您不熟悉Markdown，请参阅 [基本书写和格式语法](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 在GitHub文档中。
+此存储库中的所有文章都使用GitHub风格的标记。 如果您不熟悉Markdown，请参阅GitHub文档上的[基本编写和格式化语法](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。
 
 ## 标签
 

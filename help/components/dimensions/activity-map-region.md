@@ -3,7 +3,8 @@ title: Activity Map 区域
 description: 您网站上被点击的区域。
 feature: Dimensions
 role: User, Admin
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+exl-id: e262e537-ce73-492a-8ab3-b88cd77cb8c5
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 5%

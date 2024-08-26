@@ -1,6 +1,8 @@
 ---
 source-git-commit: ea109ed2bd99e007a7cbaee9f736fdcd80713978
-translation-type: tm+mt
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 100%
 
 ---
 # 参与
@@ -11,7 +13,7 @@ translation-type: tm+mt
 
 ## 行为准则
 
-此项目遵守 Adobe [行为准则](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md)。如果参与，请遵守本准则。请将不可接受的行为报告给 SOMEEMAIL。
+此项目遵循 Adobe [行为准则](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md)。如果参与，请遵守本准则。请将不可接受的行为报告给 SOMEEMAIL。
 
 ## 参与者许可协议
 
@@ -19,5 +21,4 @@ translation-type: tm+mt
 
 ## 代码审阅
 
-所有提交都应采用提取请求的形式，并且需要由项目提交者进行审核。有关发送拉取请求的更多信息，请阅读 [GitHub 的拉取请求文档](https://help.github.com/articles/about-pull-requests/)。
-
+所有提交都应采用提取请求的形式，并且需要由项目提交者进行审核。请阅读 [GitHub 的提取请求文档](https://help.github.com/cn/articles/about-pull-requests/)，了解有关发送提取请求的更多信息。

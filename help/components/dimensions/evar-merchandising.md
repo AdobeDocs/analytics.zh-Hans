@@ -14,7 +14,7 @@ ht-degree: 92%
 
 *此帮助页介绍推销eVar如何作为[维度](overview.md)使用。 有关如何实施推销eVar的信息，请参阅《实施用户指南》中的[eVar（促销变量）](/help/implement/vars/page-vars/evar-merchandising.md)。*
 
-有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hans)。
+有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-hans)。
 
 测量外部促销活动或外部搜索术语的成功程度时，通常需要一个单独的值来对发生的所有成功事件接收信用。例如，如果某个客户单击电子邮件促销活动中的链接访问您的网站，那么该客户因此进行的所有购买都将计入此促销活动中。
 

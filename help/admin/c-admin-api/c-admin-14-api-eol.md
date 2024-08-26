@@ -1,16 +1,17 @@
 ---
 description: Adobe Analytics 管理员 API 在 github 上的链接。
-title: Adobe Analytics 1.4 API生命周期结束常见问题解答
+title: Adobe Analytics 1.4 API EOL FAQ
 feature: Admin Tools
 role: Admin
-source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
+exl-id: 88769032-a7cd-4ca8-958f-3300a4bfe71f
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Adobe Analytics 1.4 API生命周期结束常见问题解答
+# Adobe Analytics 1.4 API EOL FAQ
 
 ## 生命周期结束(EOL)通知
 
@@ -18,7 +19,7 @@ ht-degree: 2%
 
 * Adobe Analytics 1.4 API
 
-* Adobe Analytics WSSE身份验证
+* Adobe Analytics WSSE 身份验证
 
 **何时关闭它？**
 
@@ -111,4 +112,3 @@ WSSE客户必须更新其身份验证，才能使用Adobe Developer Console中�
 问：**如果我的问题没有在这个FAQ中回答，该怎么办？**
 
 答：如果您仍有疑问，请联系您的Adobe客户代表。
-
