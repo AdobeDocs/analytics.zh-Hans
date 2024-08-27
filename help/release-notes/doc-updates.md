@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5972'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 8 月** | |
-| 警报管理器 | 简化了有关[警报管理器](/help/components/c-alerts/alert-manager.md)的文档。 为了清晰和准确而更新。 |
+| 警报管理器 | 简化了有关[警报管理器](/help/components/c-alerts/alert-manager.md)的文档。为了清晰和准确而更新。 |
 | **2024 年 7 月** | |
 | 成功事件 | 关于[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)的简化文档。为了清晰和准确而更新。 |
 | 在管理位置时，必须选择至少一种帐户类型 | 澄清一下，当管理员[限制用于导出和导入的帐户类型](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)时，必须选择至少一种帐户类型。 |
@@ -44,7 +44,7 @@ ht-degree: 99%
 | 有关向项目添加组件的文档 | 添加了有关如何 [将各种类型的组件添加到 Analysis Workspace 中的项目](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般信息。 |
 | 更新了 Advertising Analytics 文档 | 根据对 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 用户界面所做的更新来更新文档。 |
 | 将 XDM 对象变量显式映射到上下文数据变量 | 记录了使用 XDM 对象变量映射[明确设置上下文数据变量的能力](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)。 |
-| 有关从 Adobe Analytics 升级到 Customer Journey Analytics 的新文档 | 对于从 Adobe Analytics 升级到 Customer Journey Analytics 的组织，需要考虑组织当前的 Adobe Analytics 实施和长期目标，有多种升级选项和许多注意事项需要牢记。<p>现提供新的文档资源来帮助您更好地理解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[开始升级到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
+| 有关从 Adobe Analytics 升级到 Customer Journey Analytics 的新文档 | 对于从 Adobe Analytics 升级到 Customer Journey Analytics 的组织，需要考虑组织当前的 Adobe Analytics 实施和长期目标，有多种升级选项和许多注意事项需要牢记。<p>现提供新的文档资产来帮助您更好地理解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[开始升级到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
 | 更新了有关自定义日期范围的文档 | 更新了与 [创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 相关的屏幕截图和程序，以匹配当前的产品功能和设计。 |
 | **2024 年 4 月** | |
 | 删除了分类集中与“所有者”相关的文档 | 已从 [分类集管理器](/help/components/classifications/sets/manage/set-manager.md) 中删除“所有者”筛选条件和列，并且已从 [分类集设置](/help/components/classifications/sets/manage/settings.md)中删除“所有者”字段。 <p>文档已更新以删除此筛选条件、列和字段。</p> |
@@ -78,7 +78,7 @@ ht-degree: 99%
 | 更新了 Data Warehouse 对组件的支持情况 | 增加了 Data Warehouse 的一些组件的可用性并删除了其他组件的可用性。这些更改反映在 [Data Warehouse 中的组件支持](/help/export/data-warehouse/component-support.md)中。 <ul><li>增加了对“访问深度”维度的支持（从不支持的维度的列表中删除了“访问深度”）</li><li>删除了对参与率量度的支持（已将参与率量度添加到不支持的量度的列表）</li><li>增加了对以下基于时间的维度的支持：年、季度、月、周、日、小时和分钟（从不支持的维度的列表中删除了这些维度） <p>以前在选择粒度时，Data Warehouse 仅在自由格式表的第一列中支持这些维度。现在始终支持这些维度。</p><p>但是，在使用这些维度时，日期的输出不是标准格式。年份为减去 1900 所得，月份从零开始。</li></ul> |
 | **2023 年 9 月** | |
 | 更新了“媒体播放耗时”面板的文章结构 | 删除了名为“媒体播放耗时”的文件夹，并将该文件夹的内容合并为一篇文章：[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此更改与其他面板的文档更一致。</p> |
-| 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资源。以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
+| 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资产。以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
 | 对流媒体收藏集附加组件的报告文档进行了改进 | 重新整理了流媒体收藏集附加组件指南的“报告”部分中的一些内容，包括将 API 文档并入其自己的部分中并调整了一些文章的顺序。 <p>已将媒体工作区模板文章重命名为 [Workspace 中的媒体报告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=zh-hans)，更好地与产品内命名保持一致。 </p> |
 | **2023 年 8 月** | |
 | 数据馈送说明 | 更新了[开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md)以说明在处理历史数据的数据馈送时，可将开始日期设置为任何过去收集数据时的日期。 |
@@ -87,7 +87,7 @@ ht-degree: 99%
 | 移动了关于管理计划项目的内容 | 在《Analytics 组件指南》中创建了一篇名为[计划项目](/help/components/scheduled-projects-manager.md)的新文章。此内容以前位于《Analytics 工具指南》中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
 | 比较实施方法 | 更新了比较不同实施方法的文档。[了解详情](../implement/prepare/comparison.md) |
 | 阐明为数据馈送配置 SFTP 不需要 Adob&#x200B;e 客户服务 | 在[将 Adobe 数据发送到 SFTP 的外部 FTP 帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中说明，客户无需联系 Adobe 客户服务，即可为数据馈送配置 SFTP。 <p>还添加了一条注释，即不再建议使用 SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
-| 对流媒体收藏集附加组件的文档进行了改进 | 对流媒体收藏集附加组件进行了以下文档改进： <ul><li>更新了[一般概述](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-hans)以使文档表述更加清晰并包括与 Customer Journey Analytics 相关的信息。</li><li>更新了[实施概述](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/overview.html)以明确地区分 Edge 实施和仅 Analytics 实施。还加入了图表以说明各种实施方法。</li><li>添加了 [Edge 实施](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html)和[仅 Analytics 实施](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)特有的先决条件。还更新了[一般先决条件](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/getting-started/prereqs.html)。</li><li>更新了[获取媒体 SDK、使用标记的扩展和 OTT SDK](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/getting-started/download-sdks.html) 文章中的表以加入新的&#x200B;*支持的解决方案*&#x200B;和&#x200B;*实施方法*&#x200B;列。</li><li>简化了文档的[实施](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/overview.html)区域中文章的内容和组织方式。其中包括按 Edge 实施和仅 Analytics 实施为实施分类。</li><li>删除了在[跟踪](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/tracking/track-core-overview.html)下一个用不到的额外层级，并在此部分中添加了重定向到已更改的 URL。</li><ul> |
+| 对流媒体收藏集附加组件的文档进行了改进 | 对流媒体收藏集附加组件进行了以下文档改进： <ul><li>更新了[一般概述](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-hans)以使文档表述更加清晰并包括与 Customer Journey Analytics 相关的信息。</li><li>更新了[实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)以明确地区分 Edge 实施和仅 Analytics 实施。还加入了图表以说明各种实施方法。</li><li>添加了 [Edge 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html)和[仅 Analytics 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)特有的先决条件。还更新了[一般先决条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)。</li><li>更新了[获取媒体 SDK、使用标记的扩展和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 文章中的表以加入新的&#x200B;*支持的解决方案*&#x200B;和&#x200B;*实施方法*&#x200B;列。</li><li>简化了文档的[实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)区域中文章的内容和组织方式。其中包括按 Edge 实施和仅 Analytics 实施为实施分类。</li><li>删除了在[跟踪](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html)下一个用不到的额外层级，并在此部分中添加了重定向到已更改的 URL。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何使用 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) 通过 Adobe Analytics 实施数据收集的更全面的文档。例如，在桌面应用程序、物联网设备、机顶盒中通过 Adobe Analytics 实施数据收集。 |
 | 全球公司 ID | 已为您登录的 Analytics 公司记录[如何查找全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
@@ -104,14 +104,14 @@ ht-degree: 99%
 | 深层链接（移动设备应用程序）文档 | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。[了解详情](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | 关于 Analytics 功能板应用程序（移动设备应用程序）更新的主屏幕的文档 | 通过新近更新的主屏幕，可在一个合并的记分卡列表中查看您的所有记分卡。[了解详情](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 图标 | 已适当地将文档中用户界面图标的屏幕截图替换为引用 [Adobe 的 Spectrum 设计系统](https://spectrum.adobe.com/page/icons/)中的同等图标。 |
-| 报告活动管理器 | 更新了此 Beta 文档，尤其是更新了关于[查看个别报表包的报告活动](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)的部分。 |
+| 报告活动管理器 | 更新了此 Beta 文档，尤其是更新了关于[查看个别报表包的报告活动](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)的部分。 |
 | Analysis Workspace 概述 | 更新了 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)，包括更多的一般概述信息和相关内容的链接。 |
 | 创建项目 | 创建了一篇新文章，其中详细解释了如何在 Analysis Workspace 中[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 为左边栏中的组件排序 | 添加了有关对左边栏中的组件列表进行排序的信息。请参阅[组件概览](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)中的“搜索、过滤和排序组件列表”部分。 |
 | 从自由格式表中删除包含动态维度的行 | 添加了有关如何使用 x 图标快速删除包含动态维度的特定行的信息。请参阅[过滤表和为其排序](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的“从表中快速排除特定行”部分。 |
 | 面板中添加可视化效果的按钮 | 添加了有关 Analysis Workspace 中每个面板底部的新按钮的信息，通过该按钮，可快速地添加可视化效果。请参阅[可视化概述](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)中的“将可视化效果添加到面板”部分。 |
 | **2023 年 4 月** | |
-| 转移用户资源和设置帐户到期 | 添加了关于如何[转移用户资源和设置帐户到期](/help/admin/admin/user-management2/users-assets.md)的信息。 |
+| 转移用户资产和设置帐户到期 | 添加了关于如何[转移用户资产和设置帐户到期](/help/admin/admin/user-management2/users-assets.md)的信息。 |
 | 面向 Adobe Analytics 2.0 API 的 2 个新端点指南 | <ul><li>[Analytics 维度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | 项目区段（临时区段和快速区段） | 简化了有关项目区段的文档并删除了重复的信息。创建临时区段的步骤现在与[创建快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的步骤合并在一起。 |
 | 动态查找 | 添加了关于[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的其他信息。以前对于移动属性仅存在“信息”，而它仅为若干动态查找之一。 |

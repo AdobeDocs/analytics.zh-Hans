@@ -4,15 +4,15 @@ description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 当前 Adobe Analytics 发行说明(2024 年 8 月）
 
-**上次更新日期**：2024年8月20日
+**上次更新日期**：2024 年 8 月 20 日
 
 这些发行说明涵盖了 2024 年 8 月 14 日至 2024 年 9 月的发布期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **保存的`cust_visids`** 13 个月有效期 | 2024年8月20日 | Analytics点击处理引擎的&#x200B;**2024年8月20日**&#x200B;版本强制保存的`cust_visids`在13个月内过期。 如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。以前，`visid_high/visid_low`的`cust_visid`映射没有过期。 在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
+| **保存的`cust_visids`** 13 个月有效期限 | 2024 年 8 月 20 日 | Analytics Hit 处理引擎将于 **2024 年 8 月 20 日**&#x200B;发布，届时它会强制将保存的 `cust_visids` 的有效期限设为 13 个月。如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。此前，对 `visid_high/visid_low` 的 `cust_visid` 的映射没有有效期限。在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
 
 {style="table-layout:auto"}
 
@@ -55,7 +55,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 有关 AppMeasurement 版本（版本 2.26.0）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
 
 
-## 相关资源
+## 相关资产
 
 * [以前的 2024 年发行说明](/help/release-notes/2024.md)
 * [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
