@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 8f63211c3fd9070b1ef47ad409364507b7a9c4b4
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 概要变化]可视化图表 {#summary-change}
 
-使用[!UICONTROL 概要变化]可视化图表来显示两个数字之间的增量（变化）。 可通过[自定义事件极性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=zh-Hans)或计算量度的[将上升趋势显示为](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hans)选项来控制[!UICONTROL 概要变化]的绿色和红色。
+使用[!UICONTROL 概要变化]可视化图表来显示两个数字之间的增量（变化）。 可通过[自定义事件极性](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)或计算量度的[将上升趋势显示为](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hans)选项来控制[!UICONTROL 概要变化]的绿色和红色。
 
 此可视化图表的行为方式如下：
 
