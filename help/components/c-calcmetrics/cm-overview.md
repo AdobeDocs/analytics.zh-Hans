@@ -1,19 +1,19 @@
 ---
-description: 计算指标和高级计算（或派生）指标是指您可以从现有指标创建的自定义指标。
-keywords: 计算指标;派生指标;高级计算指标
-title: 计算指标和高级计算（派生）指标
+description: 计算量度和高级计算量度是指您可以从现有量度创建的自定义量度。
+keywords: 计算指标；高级计算指标
+title: 计算量度和高级计算量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 59%
+source-wordcount: '533'
+ht-degree: 54%
 
 ---
 
-# 计算量度和高级计算（派生）量度
+# 计算量度和高级计算量度
 
-计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。
+计算量度和高级计算量度是指您可以从现有量度创建的自定义量度。
 
 我们的计算指标工具提供了一种高度灵活的方式，可用于生成、管理和组织指标。通过使用这些工具，营销人员、产品经理和分析人员不必更改 [!DNL Analytics] 实施，即可提出有关数据的问题。每个 [!DNL Analytics] 包中可用的自定义指标包括：
 
@@ -24,7 +24,7 @@ ht-degree: 59%
 
 以下是计算指标和高级计算指标功能的比较：
 
-| Builder 选项 | 计算量度 | 高级计算（派生）指标 |
+| Builder 选项 | 计算量度 | 高级计算量度 |
 |---|---|---|
 | [格式类型（小数、时间、百分比、货币）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 是 | 是 |
 | [归因更改（默认、线性、参与率等）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 是 | 是 |

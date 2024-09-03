@@ -3,10 +3,10 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 产品功能 | 功能 | 更多信息 |
    |---------|----------|----------|
    | 区段 | Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-   | 计算量度 | 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。通过使用这些工具，营销人员、产品经理和分析人员不必更改 Analytics 实施，即可提出有关数据的问题。 | [计算量度和高级计算（派生）量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
+   | 计算量度 | 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。通过使用这些工具，营销人员、产品经理和分析人员不必更改 Analytics 实施，即可提出有关数据的问题。 | [计算指标和高级计算指标](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
    | 日期范围 | Analysis Workspace 包含用户在构建分析时可以使用的默认日期范围列表。此外，您可以创建自定义日期范围并将其提供给 Analysis Workspace 中的用户。 | [创建自定义日期范围](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虚拟报表包 | 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。 | [虚拟报表包概述](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans) |
    | 警报 | 智能警报允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。 | [智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
@@ -120,7 +120,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | Web 服务 | Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。 | [Web 服务](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html) |
    | Report Builder 报表 | 管理分配给 Report Builder 用户的许可证。 | [Report Builder 报表](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html) |
    | 单点登录服务 | Adobe Experience Cloud 中的单点登录是通过 Admin Console 实施的。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
-   | 隐藏报表包 | 可让您在不再希望报表包对您和您的用户可用时，在 Adobe Analytics 用户界面中隐藏报表包。 | [隐藏报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |  |
+   | 隐藏报表包 | 可让您在不再希望报表包对您和您的用户可用时，在 Adobe Analytics 用户界面中隐藏报表包。 | [隐藏报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |
 
    {style="table-layout:auto"}
 
