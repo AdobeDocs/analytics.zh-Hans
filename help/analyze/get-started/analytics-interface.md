@@ -4,9 +4,9 @@ title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2065'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,15 +46,15 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 产品功能 | 功能 | 更多信息 |
    |---------|----------|----------|
    | 区段 | Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-   | 计算量度 | 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。通过使用这些工具，营销人员、产品经理和分析人员不必更改 Analytics 实施，即可提出有关数据的问题。 | [计算指标和高级计算指标](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
+   | 计算量度 | 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。通过使用这些工具，营销人员、产品经理和分析人员不必更改 Analytics 实施，即可提出有关数据的问题。 | [计算量度和高级计算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
    | 日期范围 | Analysis Workspace 包含用户在构建分析时可以使用的默认日期范围列表。此外，您可以创建自定义日期范围并将其提供给 Analysis Workspace 中的用户。 | [创建自定义日期范围](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虚拟报表包 | 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。 | [虚拟报表包概述](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans) |
    | 警报 | 智能警报允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。 | [智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
-   | 批注 | 工作区中注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。它们可让您将日程表活动与特定维度和指标关联起来。 | [管理批注](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html) |
+   | 批注 | 工作区中注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。它们可让您将日程表活动与特定维度和量度关联起来。 | [管理批注](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html) |
    | 分类集 | 分类集提供单一界面来管理分类和规则。 <p>分类是在生成报表时对 Analytics 变量数据进行分类，然后以不同的方式显示数据的方法。您在变量值和与该值相关的元数据之间建立关系。分类可用于大多数自定义维度，例如跟踪代码、props 和 eVar。</p> | [分类集概述](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hans) |
    | 位置 | 为了从云目标导入 Adobe Analytics 分类数据，您首先需要添加并配置要收集分类数据的位置。您可以创建、编辑或删除位置。 | [位置管理器](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html) |
    | 计划项目 | 管理计划项目时，可以编辑和删除重复项目计划；在搜索栏中或使用左侧边栏中的过滤器选项搜索计划；并按标记、批准的计划、所有者等进行过滤。 | [计划项目](/help/components/scheduled-projects-manager.md) |
-   | 仪表板 | 创建仪表板是为了可视化指标并提供数据的交互式分析功能。通过单击仪表板中的项目，您可以快速轻松地对数据进行分段，以从分析中获取信息。 <p>仪表板是 Data Workbench 的一部分。阅读关于 Data Workbench 的[终止使用公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans)。 | [功能板管理器](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/dashboard-manage.html) |
+   | 仪表板 | 创建仪表板是为了可视化量度并提供数据的交互式分析功能。通过单击仪表板中的项目，您可以快速轻松地对数据进行分段，以从分析中获取信息。 <p>仪表板是 Data Workbench 的一部分。阅读关于 Data Workbench 的[终止使用公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans)。 | [功能板管理器](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/dashboard-manage.html) |
    | 计划报告 | 管理员级别的用户能够跨组织查看和管理计划报表。 | [计划报表队列](https://experienceleague.adobe.com/docs/analytics/components/scheduled-reports-admin.html) |
    | 报表设置 | 这些设置引用旧版 Adobe Analytics 产品，其中不包括 Analysis Workspace 及其相关组件。对 Analysis Workspace 设置进行调整，转至“组件”>“偏好设置”。 |  |
    | 偏好设置 | 为创建的所有新项目或面板管理 Analysis Workspace 及其相关组件的设置。现有项目和面板不受影响。 | [偏好设置](/help/analyze/analysis-workspace/user-preferences.md) |
