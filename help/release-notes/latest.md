@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
+source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 56%
+source-wordcount: '750'
+ht-degree: 55%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 56%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 |--- | --- | --- | --- |
-| **计算指标管理器和区段管理器的“用于”列中的其他信息** | 计算量度管理器和区段管理器中的“用于”列包含以下新报告区域：<ul><li>**Report Builder**：显示Report Builder中使用的计算指标或区段数。</li><li>**临时组件**：显示项目中使用的临时计算量度或临时区段数。 这些临时计算量度和区段（也称为“快速计算量度”和“快速区段”）只能在创建它们的项目中使用，因此它们会与“用于”列中的“项目”报表区域分开报告。</li></ul> |  | 2024年9月11日 |
+| **计算指标管理器和区段管理器的“用于”列中的其他信息** | 计算量度管理器和区段管理器中的“用于”列包含以下新报告区域：<ul><li>**Report Builder**：显示Report Builder中使用的计算指标或区段数。</li><li>**临时组件**：显示项目中使用的临时计算量度或临时区段数。 这些临时计算量度和区段（也称为“快速计算量度”和“快速区段”）只能在创建它们的项目中使用，因此它们会与“用于”列中的“项目”报表区域分开报告。</li></ul>有关详细信息，请参阅[计算量度管理器](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager)和[区段管理器](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)。 |  | 2024年9月11日 |
 | **Activity Mapv3扩展** | Activity Mapv3扩展现已可用。 如果已安装v2扩展，请先卸载该扩展，然后再安装v3扩展。 导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Activity Map]**&#x200B;以获取扩展的最新版本。 |  | 2024年9月3日 |
 
 
