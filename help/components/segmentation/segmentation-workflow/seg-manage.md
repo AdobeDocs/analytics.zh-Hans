@@ -3,10 +3,10 @@ description: 区段管理器提供多种编排区段的方式，如共享、过�
 title: 管理区段（区段管理器）
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 704f5a30e6399fe59429856246aff364ae3f842d
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 32%
+source-wordcount: '866'
+ht-degree: 28%
 
 ---
 
@@ -67,7 +67,7 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
    | 标记（在列选择器中未选择，因此列不显示） | 应用到区段的标记，由您或与您共享该区段的人添加。 |
    | 共享对象 | 列出您共享该区段的个人或组（仅管理员）或所有人（仅管理员）。 <p>当您或与您共享区段时，区段名称旁边会显示一个共享图标。</p> |
    | 修改日期 | 显示最后一次修改区段的日期。 |
-   | 用在 | 显示区段当前使用的组件数。 <p>例如，如果该区段在40个项目和2个警报中使用，则此列的值显示为&#x200B;[!UICONTROL **42个组件**]。</p> <p>选择此列中的值可查看正在使用区段的细分(例如，[!UICONTROL **项目(40)**]、[!UICONTROL **警报(2)**])。</p><p>区段可用于以下任何组件类型中：</p> <ul><li>警报</li><li>项目</li><li>计划项目</li><li>计算量度</li></ul><p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看本列时请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>默认情况下，[!UICONTROL **Used in**]&#x200B;列不显示。 [配置列](#configure-columns)以显示它。</li><li>如果此列中没有给定组件的数据，但它具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，则表示该组件可能未保存便已在分析中使用。</li><li>此信息仅供系统管理员使用。</li></ul><p>您可以将[数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)与此信息一起使用，以帮助您跟踪和更好地了解组织中如何使用组件。</p> |
+   | 用在 | 显示区段当前的使用位置以及在每个区域中使用它们的次数。 <p>例如，如果该区段在40个项目和2个警报中使用，则此列的值显示为&#x200B;[!UICONTROL **42个组件**]。</p> <p>选择此列中的值可查看使用区段的细分(例如，[!UICONTROL **项目(40)**]、[!UICONTROL **警报(2)**])。 此外，您还可以查看正在使用区段的项目列表。 例如，查看正在使用它们的项目的列表，选择&#x200B;[!UICONTROL **项目(40)**]&#x200B;链接。</p><p>以下每个区域均显示了该区域中正在使用的区段实例数：</p>  <ul><li>[!UICONTROL **项目**]<p>包含[在区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中创建并且可用于所有项目的区段。</p></li><li>[!UICONTROL **临时组件**]<p>包含[创建为快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的区段，并且仅在单个项目中可用。</p></li><li>[!UICONTROL **计划项目**]</li><li>[!UICONTROL **移动记分卡**]</li><li>[!UICONTROL **批注**]</li><li>[!UICONTROL **警报**]</li><li>[!UICONTROL **计算量度**]</li><li>[!UICONTROL **Report Builder**]<p>选择此选项可下载包含以下数据列的CSV文件：</p><ul><li>Report Builder名称</li><li>上次访问</li><li>上次访问的IMS用户ID</li><li>上次访问的用户名</li></ul></li></ul><p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看本列时请考虑以下事项：</p><ul><li>此信息仅供系统管理员使用。</li><li>默认情况下，[!UICONTROL **Used in**]&#x200B;列不显示。 [配置列](#configure-columns)以显示它。</li><li>此信息不包括API或Data Warehouse的使用情况。</li><li>如果此列中没有给定组件的数据，但它具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，则表示该组件可能未保存便已在分析中使用。</li><li>使用情况信息从 2023 年 9 月开始提供。</li></ul><p>您可以将[数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)与此信息一起使用，以帮助您跟踪和更好地了解组织中如何使用组件。</p> |
    | 上次使用时间 | 显示上次在以下任意组件类型中使用区段的日期： <ul><li>警报</li><li>计算量度</li><li>项目</li><li>计划项目</li><li>区段</li></ul> <p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。</p><p>查看本列时请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>对于某些组件，如果上次在2023年9月之前使用该组件，则此列可能不包含数据。</li><li>此信息仅供系统管理员使用。</li></ul><p>您可以将[数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)与此信息一起使用，以帮助您跟踪和更好地了解组织中如何使用组件。 |
 
    {style="table-layout:auto"}
