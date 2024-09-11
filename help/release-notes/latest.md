@@ -3,42 +3,53 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 85%
+source-wordcount: '738'
+ht-degree: 56%
 
 ---
 
-# 当前 Adobe Analytics 发行说明(2024 年 8 月）
+# 当前 Adobe Analytics 发行说明（2024 年 9 月）
 
-**上次更新日期**：2024年9月9日
 
-这些发行说明涵盖了 2024 年 8 月 14 日至 2024 年 9 月的发布期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
+**上次更新日期**：2024年9月11日
+
+这些发行说明涵盖2024年9月11日到10月初的发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
-| ----------- | ---------- | ------- | ---- |
-| **计算指标管理器和区段管理器的“用于”列中的其他信息** | 计算量度管理器和区段管理器中的“用于”列包含以下新报告区域：<ul><li>**Report Builder：**&#x200B;显示Report Builder中使用的计算指标或区段数。</li><li>**临时组件：**&#x200B;显示项目中使用的临时计算量度或临时区段数。 这些临时计算量度和区段（也称为“快速计算量度”和“快速区段”）只能在创建它们的项目中使用，因此它们会与“用于”列中的“项目”报表区域分开报告。</li></ul><p>（更新了要遵循的文档链接。）</p> | 不适用 | 2024年9月11日 |
-| **Web SDK 针对链接跟踪的改进** | 最新版本的 Web SDK 在链接跟踪方面做出了几项显著的改进，这可以直接使 Activity Map 受益。这些新功能在 Web SDK JavaScript 库和 Web SDK 标签扩展中均可用。<ul><li>事件分组：当访客点击内部链接时，您可以选择在下一页上对事件数据进行分组，而不是触发单独的事件调用进行链接跟踪。此项改进减少了 Web SDK 根据您的合同限制使用的事件数量。</li><li>过滤器点击属性：替换 `OnBeforeLinkClickSend` 的新回调。您可以使用此回调来过滤或混淆与链接相关的数据，然后再将其发送给 Adobe。</li></ul><p>有关更多信息，请参阅 Web SDK 用户指南中的 [clickCollection](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollection)。</p> | Beta 公测于 2024 年 7 月 10 日开始 | 2024 年 7 月 18 日 |
+|--- | --- | --- | --- |
+| **计算指标管理器和区段管理器的“用于”列中的其他信息** | 计算量度管理器和区段管理器中的“用于”列包含以下新报告区域：<ul><li>**Report Builder**：显示Report Builder中使用的计算指标或区段数。</li><li>**临时组件**：显示项目中使用的临时计算量度或临时区段数。 这些临时计算量度和区段（也称为“快速计算量度”和“快速区段”）只能在创建它们的项目中使用，因此它们会与“用于”列中的“项目”报表区域分开报告。</li></ul> |  | 2024年9月11日 |
+| **Activity Mapv3扩展** | Activity Mapv3扩展现已可用。 如果已安装v2扩展，请先卸载该扩展，然后再安装v3扩展。 导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Activity Map]**&#x200B;以获取扩展的最新版本。 |  | 2024年9月3日 |
 
-{style="table-layout:auto"}
 
 ## Adobe Analytics 中的修复
 
-* 修复了工作区中显示多个未知值的问题（AN-353632）
-* 修复了在 Admin console 添加新客户或新 Analytics 产品配置文件后未发送通知电子邮件的问题 (AN-350930)
+A4T： AN-355736
+Activity Map：AN-353779
+Analysis Workspace： AN-348485； AN-349693； AN-357247
+Analytics移动设备应用程序：AN-352645
+分类：AN-355636、AN-355651、AN-355753、AN-356005、AN-356439、AN-356540、AN-356577、AN-356622
+Cross-Device Analytics： AN-355138
+数据馈送：AN-356258；AN-357133
+Data Warehouse：AN-339292；AN-353807
+导出位置：AN-356912
+隐私API： AN-352420
+Report Builder：AN-352555；AN-354316
+计划项目：AN-355971
+分段：AN-352095；
+Target报表：AN-355748
 
-### 其他 Analytics 修复
-
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
+其他修复：AN-349698、AN-349880、AN-354860、AN-355355、AN-356289；
 
 ## Adobe Analytics 管理员的重要注意事项 {#admin}
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | **保存的`cust_visids`** 13 个月有效期限 | 2024 年 8 月 20 日 | Analytics Hit 处理引擎将于 **2024 年 8 月 20 日**&#x200B;发布，届时它会强制将保存的 `cust_visids` 的有效期限设为 13 个月。如果报表包启用了“启用访客拼接”，则此设置可用于查找点击中没有 `cust_visid` 的 `visid_high/visid_low value` 的 `cust_visid`。此前，对 `visid_high/visid_low` 的 `cust_visid` 的映射没有有效期限。在此版本中，如果自 `visid_high/visid_low` 点击 `cust_visid` 以来已经过去了 13 个月或更长时间，则映射会过期。 |
+| **自动映射的其他实施详细信息XDM字段** | 2024年9月11日 | 使用Adobe Experience PlatformEdge Network将数据发送到Adobe Analytics时，XDM字段`xdm.implementationdetails.name`和`xdm.implementationdetails.environment`现在始终映射到上下文数据变量`c.a.x.implementationdetails.name`和`c.a.x.implementationdetails.environment`。 以前，某些场景会阻止填充这些值。 请调整任何相关的处理规则，以适应这些值的可用性。 |
 
 {style="table-layout:auto"}
 
