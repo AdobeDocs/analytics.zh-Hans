@@ -3,10 +3,10 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求构建报告
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 42%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 49%
 1. 在“新建Data Warehouse请求”页面上，选择&#x200B;[!UICONTROL **生成报表**]&#x200B;选项卡。
 
    ![生成报告选项卡](assets/build-report.png)
+
+1. 在左上角，选择要在构建Data Warehouse报表时使用的报表包。
+
+   区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。如果选择包含不兼容区段的虚拟报表包，则会显示错误。
+
+   有关区段内支持的函数的列表，请参阅[Data Warehouse区段兼容性](/help/components/segmentation/seg-reference/seg-compatibility.md)。
 
 1. 将任意区段、量度和维度拖动到生成器中。 您构建的报表可确定Data Warehouse请求中包含哪些数据。
 
