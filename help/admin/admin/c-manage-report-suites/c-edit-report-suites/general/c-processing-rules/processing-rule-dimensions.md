@@ -5,7 +5,7 @@ title: 可用于处理规则的维度
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
@@ -22,8 +22,6 @@ ht-degree: 13%
 | --- | --- | --- |
 | 自定义值 | 只读 | 在处理规则的操作中直接键入的自定义文本或值。 |
 | 拼接值 | 只读 | 通过组合两个值创建的值。 例如，可以将渠道和页面名称结合起来创建子类别。 |
-
-{style="table-layout:auto"}
 
 ## 点击属性
 
@@ -47,11 +45,9 @@ ht-degree: 13%
 | 页面根目录域 | 只读 | 当前URL的页面域，不包括子域。 |
 | 客户视角 | 读取+写入 | 确定点击是否为移动后台点击的标记。 |
 
-{style="table-layout:auto"}
-
 ## 转化变量
 
-| 变量 | 读/写状态说明 |
+| 变量 | 读/写状态 | 描述 |
 | --- | --- | --- |
 | eVar1-250 | 读取+写入 | [eVar](/help/components/dimensions/evar.md)维度。 |
 | 促销活动 | 读取+写入 | [跟踪代码](/help/components/dimensions/tracking-code.md)维度。 |
@@ -60,8 +56,6 @@ ht-degree: 13%
 | Zip | 读取+写入 | [邮政编码](/help/components/dimensions/zip-code.md)维度。 |
 | 货币代码 | 读取+写入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md)实现变量。 重要信息：如果将此变量设置为无效值，则将丢弃点击。 |
 | 交易 ID | 读取+写入 | [`transactionID`](/help/import/data-sources/transactionid.md)实现变量。 |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >Adobe不支持使用处理规则设置[`products`](/help/implement/vars/page-vars/products.md)实现变量。
@@ -74,8 +68,6 @@ ht-degree: 13%
 | 层次结构 1-5 | 读取+写入 | [层次结构](/help/components/dimensions/hierarchy.md)维度。 |
 | 服务器 | 读取+写入 | [服务器](/help/components/dimensions/server.md)维度。 |
 | 渠道 | 读取+写入 | [网站区域](/help/components/dimensions/site-section.md)维度。 |
-
-{style="table-layout:auto"}
 
 ## 上下文变量
 
@@ -96,4 +88,3 @@ ht-degree: 13%
 | 事件 1-1000 | 仅写入 | [自定义事件](/help/components/metrics/custom-events.md)。 |
 | 产品查看次数 | 仅写入 | [产品查看次数](/help/components/metrics/product-views.md)量度。 |
 
-{style="table-layout:auto"}
