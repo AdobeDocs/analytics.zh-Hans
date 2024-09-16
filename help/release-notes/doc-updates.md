@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
-workflow-type: ht
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
 source-wordcount: '5972'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 | 已更新的常见错误消息 | 对 [常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)做了小更新。 |
 | **2024 年 6 月** | |
 | 更新了涉及流媒体功能的产品名称 | 当引用收集流媒体数据并将其显示在 Analysis Workspace 中的一组流媒体功能时，将“媒体分析”和“流媒体”的实例替换为名称“流媒体收藏集附加组件”。 <p>这些更新可在 Adobe Analytics 文档以及[流媒体收藏集附加组件文档](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)中查看。</p> |
-| 改进的智能警报文档 | 更新并改进了有关警报的文档。这些更新包括有关[创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警报](/help/components/c-alerts/alert-manager.md)以及[概述信息](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)的信息。 |
+| 改进的智能警报文档 | 更新并改进了有关警报的文档。这些更新包括有关[创建警报](/help/components/c-alerts/alert-builder.md)、[管理警报](/help/components/c-alerts/alert-manager.md)以及[概述信息](/help/components/c-alerts/intellligent-alerts.md)的信息。 |
 | 已弃用 `cookieDomainPeriods` | 现在，AppMeasurement 会自动检测正确的域来设置 Cookie，[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 变量已被弃用。 |
 | 停用数据连接器文档 | 将数据连接器停用页面移至[已停产产品](https://experienceleague.adobe.com/zh-hans/docs/discontinued/using/data-connectors)。 |
 | **2024 年 5 月** | |

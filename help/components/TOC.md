@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '808'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -253,10 +253,10 @@ ht-degree: 100%
    + [将虚拟报告包限制在特定日期](cda/limit-vrs-date.md)
    + [Cross-Device Analytics 常见问题解答](cda/faq.md)
 + 警报 {#alerts}
-   + [智能警报](c-alerts/intellligent-alerts.md)
-   + [警报生成器](c-alerts/alert-builder.md)
-   + [警报管理器](c-alerts/alert-manager.md)
-   + [智能警报 — 用例](c-alerts/alerts-use-cases.md)
+   + [概述](c-alerts/intellligent-alerts.md)
+   + [创建](c-alerts/alert-builder.md)
+   + [管理](c-alerts/alert-manager.md)
+   + [用例](c-alerts/alerts-use-cases.md)
 + 分类{#classifications}
    + [分类概述](classifications/c-classifications.md)
    + 分类集 {#sets}

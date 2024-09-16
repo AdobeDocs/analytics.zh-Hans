@@ -3,7 +3,7 @@ description: 管理警报。
 title: 警报管理器概述
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
    * [!UICONTROL **Analytics数据警报**]：当数据中出现异常事件时通知您的警报。
 
-     如果选择此选项，请继续[创建警报](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)，了解有关创建警报的更多详细信息。
+     如果选择此选项，请继续[创建警报](/help/components/c-alerts/alert-builder.md)，了解有关创建警报的更多详细信息。
 
    * [!UICONTROL **服务器调用使用情况警报**]：一个警报，用于通知您服务器调用使用情况和使用承诺数据中存在超额的风险或发生超额的情况。
 

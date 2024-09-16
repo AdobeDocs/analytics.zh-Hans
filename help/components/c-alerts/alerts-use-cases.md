@@ -3,31 +3,33 @@ description: 创建和管理智能警报的用例。
 title: 智能警报 — 用例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '70'
+ht-degree: 67%
 
 ---
 
 # 智能警报 — 用例
 
-## 创建按两个区段过滤的简单警报 {#filter}
+您可以按照[创建警报](/help/components/c-alerts/alert-builder.md)中的说明创建智能警报。
+
+以下各节说明了创建警报时要考虑的示例用例。
+
+## 创建按两个区段过滤的简单警报 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+
+<!-- 
+
+Update screenshots for better readability.
+
+ -->
 
 ![](assets/alerts_example1.png)
 
-## 从表选定范围中创建警报 {#from-selection}
 
-在自由格式表中，现在可以通过右键单击表格行并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**&#x200B;来创建上下文关联警报。
 
-![](assets/alert_selection.png)
+## 合并（堆叠）警报，而不是创建多个警报 {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
-这会立即预填充警报生成器，以便使用正确的指标和过滤器创建警报：
-
-![](assets/prepopulated_alert.png)
-
-## 合并（堆叠）警报，而不是创建多个警报 {#stacking}
-
-堆叠警报确保合并警报，这样您就不会收到大量单独的警报。
+堆叠警报可确保警报得到合并，并且您不会收到大量单独的警报。
 
 ![](assets/alerts_example2.png)
