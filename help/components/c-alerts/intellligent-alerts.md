@@ -1,31 +1,35 @@
 ---
-description: 智能警报系统允许对警报进行更细粒度的控制，并将异常检测与警报系统集成在一起。
-title: 智能警报
+description: 警报允许对通知进行粒度控制，并集成异常检测。
+title: 警报概述
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 59%
+source-wordcount: '306'
+ht-degree: 32%
 
 ---
 
-# 智能警报概述
+# 警报概述
 
-Adobe Analytics中的“智能警报”（或“警报”）允许您在数据中发生异常事件时立即收到通知。
+Adobe Analytics中的警报允许您根据更改的百分比或特定数据点接收通知。
 
-您可以设置根据异常阈值、变化的百分比或特定数据点触发的警报。警报提供与[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)集成的粒度控件，在您最需要它们时触发。
+根据您的Adobe Analytics包，您还可以使用要基于异常阈值触发的警报。 这些警报（也称为“智能警报”）提供了与[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)集成的粒度控制，在您最需要它们时触发。
 
-智能警报允许您：
+警报允许您：
 
-* 构建基于异常的警报（90%、95%、99%、99.75% 和 99.9% 阈值；% 更改；以上/以下）。
 * 预览警报触发的频率
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目
 * 创建可在一个警报中捕获了多个指标的“堆栈式”警报。
+* 基于异常（90%、95%、99%、99.75%和99.9%阈值；%更改；以上/以下）构建警报(仅适用于具有Select、Prime或Ultimate程序包的Adobe Analytics客户)
 
-以下视频教程提供了警报的基本概述： [智能警报](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=zh-Hans) (5:34)
+以下视频教程提供了警报的基本概述： [警报](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=zh-Hans) (5:34)
 
 ## 警报的异常回顾
+
+>[!NOTE]
+>
+>使用警报和异常检测（也称为&#x200B;_智能警报_）仅适用于具有Adobe Analytics Select、Prime或Ultimate包的组织。
 
 如果警报使用异常检测，则培训期会根据为警报选择的粒度而有所不同。
 
@@ -42,7 +46,7 @@ Adobe Analytics中的“智能警报”（或“警报”）允许您在数据�
 
 >[!IMPORTANT]
 >
->使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe 建议对智能警报使用不带时间戳的数据。
+>使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe建议对警报使用不带时间戳的数据。
 
 ## 管理警报
 

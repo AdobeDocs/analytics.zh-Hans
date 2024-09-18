@@ -4,10 +4,10 @@ description: 按照以下步骤操作以确保您的实施无误并与 KPI 保�
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 74%
+source-wordcount: '490'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 74%
 
 请记住，随着时间的推移，代码更新可能会产生意想不到的结果。您需要确保与 [5 大 KPI](/help/implement/review/define-kpis.md) 相关的所有量度和维度仍然正常运行。 理想情况下，此操作在网站发布后立即执行；如果您在最近几个月内未执行此操作，请&#x200B;*立即*。 请按以下步骤执行此操作：
 
-* 创建功能板，以查看这些关键量度和变量每小时的趋势视图（或为每个量度设置[智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html)）。然后，对其进行一到两天的监控，确保您能获得所需数据并且数据正确。 寻找拐点。准备好立即纠正任何严重问题。如果发现任何误差，请查看数据层、标签管理器规则及处理规则，并找出原因。
+* 创建功能板以查看这些关键量度和变量每小时的趋势视图（或为每个量度设置[警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html)）。 然后，对其进行一到两天的监控，确保您能获得所需数据并且数据正确。 寻找拐点。准备好立即纠正任何严重问题。如果发现任何误差，请查看数据层、标签管理器规则及处理规则，并找出原因。
 * 重新运行 [Analytics 运行状况功能板](https://express.adobe.com/page/tnNQGNlfzta3b/)，以监控 KPI 量度和变量的总体趋势。
 
 *有关如何确保量度和变量正常工作的更多详细信息，[请参阅 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)Adobe Analytics 冠军 Sarah Owen 给出的这些提示。*

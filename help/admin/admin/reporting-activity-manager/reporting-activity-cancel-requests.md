@@ -4,9 +4,9 @@ title: 在报告活动管理器中取消报告请求
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1438'
 ht-degree: 13%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 13%
 * Report Builder
 * 生成器 UI：区段、计算量度、注释、受众等。
 * 1.4 或 2.0 API 的 API 调用
-* 智能警报
+* 警报
 * 与任何人共享链接
 * 查询Analytics报表引擎的任何其他应用程序
 

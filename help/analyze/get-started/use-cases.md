@@ -3,9 +3,9 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: Analytics 用例
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
@@ -51,8 +51,8 @@ Adobe Analytics 中的以下主要功能提供了这些营销功能：
 
 Adobe Analytics 中的以下主要功能提供了这些预测功能：
 
-* [异常检测](#anomaly-detection)
+* [异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)
 
-* [贡献分析](#contribution-analysis)
+* [贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [智能警报](#intelligent-alerts)
+* [警报](/help/components/c-alerts/intellligent-alerts.md)

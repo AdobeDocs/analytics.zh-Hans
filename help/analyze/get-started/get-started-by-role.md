@@ -3,10 +3,10 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 管理员、分析师、最终用户和开发人员快速入门
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 100%
+source-wordcount: '1692'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Analytics 管理员应了解以下可用于帮助监控 Analytics 环境的重�
 | 归因 | 分析师可以通过在 Analysis Workspace 中采用各种归因模型和回溯 Windows，自定义维度项目如何获得成功事件的功劳。<p>线性归因模型对导致转化的每个接触点给予同等的功劳，而首次接触则对第一个接触点给予全部功劳。还有许多其他归因模型可用，包括算法模型，该模型使用统计技术来动态确定信用的最佳分配。 </p> | [归因模型和回顾时间范围](/help/analyze/analysis-workspace/attribution/models.md) |
 | 异常检测 | Analysis Workspace 中的统计建模通过分析指标并确定值的下限、上限和预期范围，自动发现数据中的意外趋势。如果发生意外的尖峰或低谷，系统会在报表中进行警报。 | [异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | 贡献分析 | 使用 Analysis Workspace 发现数据中隐藏的模式，以解释统计异常并识别意外客户行为、越界值以及跨受众区段量度的突增或突减背后存在的关联。 | [异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)中的[贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| 智能警报 | 根据数据异常和“堆叠”警报创建和管理警报，这些警报在单个警报中捕获多个指标。 | [智能警报概述](/help/components/c-alerts/intellligent-alerts.md) |
+| 警报 | 根据数据异常和“堆叠”警报创建和管理警报，这些警报在单个警报中捕获多个指标。 | [警报概述](/help/components/c-alerts/intellligent-alerts.md) |
 | 数据导出 | Data Warehouse 和“数据馈送”允许您将数据导出到各种云目的地，例如 Google 云平台、Azure RBAC、Azure SAS 和 Amazon S3。 | [Analytics 导出指南](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=zh-Hans) |
 | Activity Map | Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。<p>Activity Map 允许您设置不同的视图，以此来直观地标识客户活动的增速、量化营销举措，并根据受众的需求和行为采取相应的措施。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-Hans) |
 | Report Builder | Report Builder 是 Microsoft Excel 的加载项。通过 Report Builder，您可从插入 Excel 工作表的 Adobe Analytics 数据构建自定义的请求。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |

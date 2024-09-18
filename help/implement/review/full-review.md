@@ -4,9 +4,9 @@ description: 每 6 个月对您的实施进行一次审查，以确保实施与�
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 4cbc654b6a17a84b373c254a0dd0e44a1740872d
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '384'
 ht-degree: 80%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 80%
 
 按照对业务的重要程度，简要对所有的量度和变量进行审查，以确保正确地收集数据。从最关键的量度和变量开始 – 与 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review?lang=zh-Hans) 相关的量度和变量。请按以下步骤执行此操作：
 
-* 创建功能板以查看这些关键量度和变量每月的趋势视图（或为每个量度和变量设置[智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html)），确保您能获得所需数据并且数据正确。 如果发现任何误差，请检查数据层、标签管理器规则及处理规则，并找出原因。
+* 创建功能板以查看这些关键量度和变量每月的趋势视图（或为每个量度和变量设置[警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html)），确保您能获得所需数据并且数据正确。 如果发现任何误差，请检查数据层、标签管理器规则及处理规则，并找出原因。
 * 重新运行 [Analytics 运行状况功能板](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c)，以监控量度和变量的总体趋势。
 
 不要让您的实施充斥着不需要的量度和变量。 禁用企业不再需要或使用的量度或变量。您可能需要稍后将其删除或重新设定其用途。
