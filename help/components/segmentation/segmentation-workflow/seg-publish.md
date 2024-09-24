@@ -3,18 +3,18 @@ description: 允许您将区段用于“受众库”、Target 和 Audience Manag
 title: 要Experience Cloud的Publish区段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 5ef087f1fa4f55b98e9160bc90b8d10c6709a425
+source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 74%
+source-wordcount: '1306'
+ht-degree: 67%
 
 ---
 
 # 要Experience Cloud的Publish区段
 
-将Adobe Analytics区段发布到Experience Cloud后，您可以将该区段用于[!DNL Audience Manager]和其他激活渠道中的营销活动，包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign]。 最近的更新显著优化了发布工作流程。您现在可以在 8 小时内将 Analytics 区段发布到 Experience Cloud。使用这些区段将 Audience Manager 中的受众激活到所有下游目标。
+将Adobe Analytics区段发布到Experience Cloud后，您可以将该区段用于[!DNL Audience Manager]和其他激活渠道中的营销活动，包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign]。
 
-我们还将可发布的 Adobe Analytics 区段的最大数量从 20 个增加到了 75 个。您可以在 [!UICONTROL Analytics > 组件 > 区段]中查看已发布的区段。
+您可以在8小时内将Analytics区段发布到Experience Cloud。 使用这些区段将 Audience Manager 中的受众激活到所有下游目标。
 
 观看此视频，了解更多详细信息：
 
@@ -50,12 +50,11 @@ ht-degree: 74%
 
 ## 在[!UICONTROL 区段生成器]中发布区段
 
-1. 导航到 **[!UICONTROL Analytics > 工作区 > 组件 > 区段] > +**
-1. 在[!UICONTROL 区段生成器]中创建区段。
-1. 为区段提供标题和描述，否则，您将无法保存。
-1. 选中&#x200B;**[!UICONTROL 将此区段发布到 Experience Cloud（对于&#x200B;*报告包*）]**。
-
-![发布 Experience Cloud](assets/publish-ec.png)
+1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
+1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
+   ![发布 Experience Cloud](assets/publish-ec.png)
+1. 提供区段的标题和描述。 保存前需要这些字段。
+1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段Publish到Experience Cloud（对于&#x200B;*报表包*）]**。
 
 >[!IMPORTANT]
 >将 Adobe Analytics 数字与 Audience Manager 数字进行比较时，确保在 Analytics 中查看区段预览时使用“具有 Experience Cloud ID 的访客”，而不是总计“独特访客数”区段预览：
@@ -78,12 +77,17 @@ ht-degree: 74%
 >
 >您&#x200B;**无法**&#x200B;取消发布以下任何一个 Adobe 解决方案当前正在使用的区段：[!DNL Analytics]（位于 [!DNL Audience Analytics] 中）、[!DNL Campaign]、[!DNL Advertising Cloud]（适用于 [!DNL Core Service] 和 [!DNL Audience Manager] 客户）和所有其他外部合作伙伴（适用于 [!DNL Audience Manager] 客户）。您&#x200B;**可以**&#x200B;取消发布 [!DNL Target] 正在使用的区段。
 
-## 在[!UICONTROL 区段管理器]中查看区段发布状态
+## 查看区段的发布状态
 
-1. 导航到[!UICONTROL “Analytics”>“组件”>“区段”]。
-1. 请注意新的“[!UICONTROL 已发布]”列。“是”/“否”指区段是否已发布到Experience Cloud。
+可发布的Adobe Analytics区段的最大数量为75个。
 
-![发布状态](assets/publish-status.png)
+要查看已发布的区段，请执行以下操作：
+
+1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
+
+1. 查看&#x200B;**[!UICONTROL 已发布]**&#x200B;列。 此列中的&#x200B;**[!UICONTROL 是]**&#x200B;表示该区段已发布到Experience Cloud。 **[!UICONTROL 否]**&#x200B;表示它没有。
+
+   ![发布状态](assets/publish-status.png)
 
 ## 检索 [!DNL Audience Manager] UUID
 
