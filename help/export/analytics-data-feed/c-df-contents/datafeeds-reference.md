@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
+source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
 workflow-type: tm+mt
-source-wordcount: '3578'
-ht-degree: 68%
+source-wordcount: '3580'
+ht-degree: 67%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 68%
 | **`color`** | 颜色深度 ID，它基于 `c_color` 列的值。引用 `color_depth.tsv` 查找表。 | 无符号 smallint |
 | **`connection_type`** | 表示连接类型的数值ID。 [连接类型](/help/components/dimensions/connection-type.md)维度。 引用 `connection_type.tsv` 查找表。 | 无符号 tinyint |
 | **`cookies`** | [Cookie支持](/help/components/dimensions/cookie-support.md)维度。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
-| **`country`** | 表示访问者所在国家/地区的数字 ID。 引用 `country.tsv` 查找表。 | 无符号 smallint |
+| **`country`** | 表示访客所在国家/地区的数值ID。 引用 `country.tsv` 查找表。 | 无符号 smallint |
 | **`ct_connect_type`** | 与 `connection_type` 列相关。最常见的值为LAN/Wifi、Mobile Carrier和Modem。 | char(20) |
 | **`curr_factor`** | 确定货币的小数位，用于货币兑换。例如，USD使用两位小数，因此该列值为`2`。 | tinyint |
 | **`curr_rate`** | 交易时的汇率。Adobe 与 XE 合作，以确定当天的汇率。 | decimal(24,12) |
@@ -144,7 +144,7 @@ ht-degree: 68%
 | **`mobileresolution`** | 移动设备的分辨率。`[Width] x [Height]` 以像素为单位。 | varchar(255) |
 | **`monthly_visitor`** | 确定访客是否属于当月的独特访客的标记。 | 无符号 tinyint |
 | **`mvvar1`** - `mvvar3` | [列出变量](/help/implement/vars/page-vars/list.md)值。 包含分隔的自定义值列表（取决于实施）。`post_mvvar1` - `post_mvvar3` 列将原始分隔符替换为 `--**--`。 | 文本 |
-| **`mvvar1_instances`** - `mvvar3_instances` | 在当前点击上设置的列表变量值。将原始分隔符替换为 `--**--`。没有 `post` 列。 | 文本 |
+| **`mvvar1_instances`** - `mvvar3_instances` | 在当前点击上设置的列表变量值。将原始分隔符替换为 `--**--`。这些 `post` 列通常不包含数据。 | 文本 |
 | **`new_visit`** | 确定当前点击是否为新访问的标记。 由Adobe在访问处于非活动状态30分钟后设置。 | 无符号 tinyint |
 | **`os`** | 表示访客的操作系统的数值ID。 基于 `user_agent` 列。`operating_system.tsv` 标准查找和 `operating_system_type.tsv` [动态查找](dynamic-lookups.md)的关键值。 | 无符号 int |
 | **`page_event`** | 在图像请求中发送的点击类型（标准点击、下载链接、自定义链接、退出链接）。请参阅[页面事件查找](datafeeds-page-event.md)。 | 无符号 tinyint |

@@ -4,10 +4,10 @@ description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 85%
 
 ---
 
@@ -30,15 +30,18 @@ Adobe 提供了三种向 Edge Network 发送数据的主要方式：
 * XDM 对象：符合基于 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)的架构。 XDM 可让您灵活地将字段定义为事件的一部分。事件到达 Adobe Analytics 时，会被转换为 Adobe Analytics 可以处理的格式。
 * 数据对象：使用映射到 Adobe Analytics 的特定字段向 Edge Network 发送数据。 Edge Network 会检测这些字段的存在，并将其转发到 Adobe Analytics，而无需符合架构。
 
-
-Edge Network 使用以下逻辑来确定 Adobe Analytics 页面视图和链接事件
+该Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链接事件：
 
 | XDM 负载包含... | Adobe Analytics... |
 |---|---|
-| `web.webPageDetails.name` 或 `web.webPageDetails.URL`，并且没有 `web.webInteraction.type` | 将负载视为&#x200B;**页面视图** |
-| `web.webInteraction.type` 和 (`web.webInteraction.name` 或 `web.webInteraction.url`) | 将负载视为&#x200B;**链接事件** |
+| `xdm.web.webPageDetails.name` 或 `xdm.web.webPageDetails.URL`，并且没有 `xdm.web.webInteraction.type` | 将负载视为&#x200B;**页面视图** |
+| `xdm.web.webInteraction.type` 和 (`xdm.web.webInteraction.name` 或 `xdm.web.webInteraction.url`) | 将负载视为&#x200B;**链接事件** |
 | `web.webInteraction.type` 和 (`web.webPageDetails.name` 或 `web.webPageDetails.url`) | 将负载视为&#x200B;**链接事件**  <br/>`web.webPageDetails.name` 和 `web.webPageDetails.URL` 设置为 `null` |
 | 无 `web.webInteraction.type` 和（无 `webPageDetails.name` 且无 `web.webPageDetails.URL`） | 丢弃负载并忽略数据 |
+| `xdm.eventType = display`或<br/>`xdm.eventType = decisioning.propositionDisplay`或<br/>`xdm.eventType = personalization.request`或<br/>`xdm.eventType = decisioning.propositionFetch`和`xdm._experience.decisioning` | 将有效负载视为&#x200B;**A4T**&#x200B;调用。 |
+| `xdm.eventType = display`、<br/>`xdm.eventType = decisioning.propositionDisplay`、<br/>`xdm.eventType = personalization.request`或<br/>`xdm.eventType = decisioning.propositionFetch`且没有`xdm._experience.decisioning` | 丢弃负载并忽略数据 |
+| `xdm.eventType = click`或`xdm.eventType = decisioning.propositionInteract`和`xdm._experience.decisioning`，无`web.webInteraction.type` | 将有效负载视为&#x200B;**A4T**&#x200B;调用。 |
+| `xdm.eventType = click`或`xdm.eventType = decisioning.propositionInteract`，没有`xdm._experience.decisioning`和没有`web.webInteraction.type` | 丢弃有效负载并忽略数据。 |
 
 {style="table-layout:auto"}
 
