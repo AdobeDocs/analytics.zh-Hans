@@ -4,17 +4,17 @@ description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2024 年 10 月）
 
-**上次更新时间**：2024年10月2日
+**上次更新日期**：2024 年 10 月 2 日
 
-这些发行说明涵盖2024年10月2日至2024年10月22日的发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖 2024 年 10 月 2 日至 2024 年 10 月 22 日的发行期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
@@ -26,12 +26,12 @@ ht-degree: 85%
 
 ## Adobe Analytics 中的修复
 
-Analysis Workspace： AN-343611； AN-355870； AN-357100； AN-358364； AN-358756； AN-359269
-Analytics移动设备应用程序：AN-354085
-分类：AN-353074、AN-357533、AN-358308、AN-358350、AN-358732、AN-358925、AN-359249
-Cross-Device Analytics： AN-357968
+分析工作区：AN-343611；AN-355870；AN-357100；AN-358364；AN-358756；AN-359269
+分析移动应用程序：AN-354085
+分类：AN-353074；AN-357533；AN-358308；AN-358350；AN-358732；AN-358925；AN-359249
+跨设备分析：AN-357968
 数据馈送：AN-358489；AN-358542
-Data Warehouse：AN-352181；AN-356701；AN-356802；AN-356804；AN-359162
+数据仓库：AN-352181；AN-356701；AN-356802；AN-356804；AN-359162
 
 ## Adobe Analytics 管理员的重要注意事项 {#admin}
 
