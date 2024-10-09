@@ -3,10 +3,10 @@ title: 访问次数
 description: 表示一系列的页面查看操作。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 如果访客执行以下任何操作，则会开始新的访问：
 
-* 清除其缓存中间会话并继续浏览网站
+* 在会话期间删除其Cookie并继续浏览您的网站
 * 让网站在选项卡中打开超过 30 分钟，然后继续浏览
 * 在同一台计算机上打开其他浏览器并导航到您的网站
 * 同一人在不同设备上浏览您的网站
