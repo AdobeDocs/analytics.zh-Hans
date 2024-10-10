@@ -3,10 +3,10 @@ title: Data Warehouse 中的组件支持
 description: 了解 Data Warehouse 中有哪些其他维度和指标可用以及不支持哪些维度和指标。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 61%
 
 ---
 
@@ -80,3 +80,10 @@ Data Warehouse 不支持某些维度和指标。
 * 日
 * 小时
 * 分钟
+
+## 将区段作为Data Warehouse中的维度
+
+在 Data Warehouse 中使用区段作为维度时，报表返回包含 `"0"` 或 `"1"` 的列：
+
+* **`"0"`**：维度项不符合区段的标准。
+* **`"1"`**：维度项符合区段的标准。
