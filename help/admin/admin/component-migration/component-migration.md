@@ -3,7 +3,7 @@ description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer J
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
+source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 5%
@@ -106,7 +106,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
    对包含警告图标的每个维度或量度重复此过程。
 
-   在Adobe Analytics报表包中的所有维度和量度都映射到Customer Journey Analytics数据视图中的维度或量度后，[!UICONTROL **映射报表包架构**]&#x200B;部分中的报表包名称旁边会显示一个绿色复选标记![复选标记](assets/report-suite-check.png)。
+   将Adobe Analytics报表包中的所有维度和量度映射到Customer Journey Analytics报表包中的维度或量度后，[!UICONTROL **映射报表包架构**]&#x200B;部分中的报表包名称旁边会显示一个绿色复选标记![复选标记](assets/report-suite-check.png)。
 
 1. （视情况而定）如果要迁移的项目包含多个报表包，请在&#x200B;[!UICONTROL **映射报表包架构**]&#x200B;部分中选择其他报表包，然后重复步骤6到步骤10。<!-- double-check that the step numbers are still correct -->
 

@@ -3,10 +3,10 @@ title: Adobe Analytics 系统要求
 description: 为使用 Adobe Analytics 而需满足的系统要求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 97%
 
 ---
 
@@ -43,5 +43,5 @@ ht-degree: 100%
 
 有关此类解决方案的系统要求，请参阅链接的解决方案页面。
 
-* [Report Builder 系统要求](/help/analyze/report-builder/setup/system-requirements.md)
+* [旧版Report Builder系统要求](/help/analyze/legacy-report-builder/setup/system-requirements.md)
 

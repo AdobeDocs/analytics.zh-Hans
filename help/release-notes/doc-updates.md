@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+workflow-type: tm+mt
 source-wordcount: '5971'
 ht-degree: 100%
 
@@ -180,7 +180,7 @@ ht-degree: 100%
 | **2022 年 2 月** | |
 | 移动记分卡项目预览模式 | 该[预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-hans#preview?lang=zh-hans)允许您在保存和共享记分卡之前预览体验。 |
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| 暂停旧版计划 Report Builder 任务更新主题 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有在大于两年之前创建的计划 Report Builder 任务](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
+| 暂停旧版计划 Report Builder 任务更新主题 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有在大于两年之前创建的计划 Report Builder 任务](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md)。 |
 
 ### 2021 {#year2021}
 
