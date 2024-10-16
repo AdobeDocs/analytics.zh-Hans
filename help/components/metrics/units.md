@@ -3,16 +3,16 @@ title: 件数
 description: 所有订单内购买的产品总数。
 feature: Metrics
 exl-id: c7293445-0760-4237-83ae-812224ca6f4b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a1fbd3f483d3a236fe5dc3246f5e90c1b3f51ba9
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 80%
 
 ---
 
 # 件数
 
-“件数”[量度](overview.md)显示所有订单中购买的产品总数。 此量度对于电子商务网站衡量转化率至关重要。您可以将此量度与任何维度组合，以了解哪些维度项目对购买的产品数量做出了贡献。例如，您可以看到促进产品购买的热门营销活动（使用[跟踪代码](../dimensions/tracking-code.md)维度）或热门内部搜索词（使用 [eVar](../dimensions/evar.md)）。
+“件数”[量度](overview.md)显示所有订单中购买的产品总数。 此量度对于电子商务网站衡量转化率至关重要。您可以将此量度与任何维度组合，以了解哪些维度项目对购买的产品数量做出了贡献。 例如，您可以看到促进产品购买的热门营销活动（使用[跟踪代码](../dimensions/tracking-code.md)维度）或热门内部搜索词（使用 [eVar](../dimensions/evar.md)）。
 
 ## 如何计算此量度
 
