@@ -4,7 +4,7 @@ title: 自定义日历
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 95%
@@ -12,6 +12,8 @@ ht-degree: 95%
 ---
 
 # 自定义日历
+
+{{legacy-arb}}
 
 Report Builder 使用 Analytics 的自定义日历。您可以使用该日历定义周和年的第一天，或者使用其他零售日历样式。日历格式可用于多种用途，包括销售额比较和预测标准化、工资单费用分析或实际库存计数调节。
 

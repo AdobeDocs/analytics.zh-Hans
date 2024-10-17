@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 69%
@@ -13,6 +13,8 @@ ht-degree: 69%
 ---
 
 # 锁定和解锁工作簿
+
+{{legacy-arb}}
 
 您可以锁定工作簿，从而防止对工作簿中的所有请求执行添加和编辑操作。这允许通过暂停所有报表请求来脱机编辑工作簿，从而提高编辑效率。
 

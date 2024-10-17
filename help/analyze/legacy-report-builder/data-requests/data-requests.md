@@ -4,7 +4,7 @@ title: 数据请求 — 请求向导第 1 步
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 91%
@@ -12,6 +12,8 @@ ht-degree: 91%
 ---
 
 # 数据请求 — 请求向导第 1 步
+
+{{legacy-arb}}
 
 在“请求向导: 第 1 步”窗体上，您可以选择报表包、报表类型、区段并配置日期。
 

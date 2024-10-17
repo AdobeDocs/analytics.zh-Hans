@@ -4,7 +4,7 @@ title: 报表类型概述
 feature: Report Builder
 role: User, Admin
 exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 55%
@@ -12,6 +12,8 @@ ht-degree: 55%
 ---
 
 # 报表类型概述
+
+{{legacy-arb}}
 
 您可以为数据请求选择基本报表类型，如“网站量度”、“网站内容”和“视频”。
 

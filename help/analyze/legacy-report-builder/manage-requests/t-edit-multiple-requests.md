@@ -5,7 +5,7 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 90%
@@ -13,6 +13,8 @@ ht-degree: 90%
 ---
 
 # 编辑多个请求
+
+{{legacy-arb}}
 
 您可以基于请求的报表包、粒度和日期范围同时更改多个请求。
 

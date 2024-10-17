@@ -4,7 +4,7 @@ description: 了解如何使用VBA宏扩展Excel工作簿和Report Builder的功
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 64%
@@ -12,6 +12,8 @@ ht-degree: 64%
 ---
 
 # Report Builder 中的 Visual Basic 宏
+
+{{legacy-arb}}
 
 Visual Basic (VBA)宏提供的功能可帮助您刷新Excel工作簿。 Visual Basic可以访问工作簿、Excel和Windows。
 

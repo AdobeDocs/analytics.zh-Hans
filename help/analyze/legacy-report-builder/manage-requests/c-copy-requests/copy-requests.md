@@ -5,7 +5,7 @@ uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin
 exl-id: 14578c79-a9e6-4587-b91b-f590453df347
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 87%
@@ -13,6 +13,8 @@ ht-degree: 87%
 ---
 
 # 复制请求概述
+
+{{legacy-arb}}
 
 您可以复制映射到多个请求的单元格并将内容粘贴到所选的空白电子表格区域。
 

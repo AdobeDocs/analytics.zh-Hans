@@ -4,7 +4,7 @@ title: Power BI 集成疑难解答
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 64%
@@ -12,6 +12,8 @@ ht-degree: 64%
 ---
 
 # Power BI 集成疑难解答
+
+{{legacy-arb}}
 
 研究并解决将 Report Builder 与 Power BI 一起使用时常见的问题。
 

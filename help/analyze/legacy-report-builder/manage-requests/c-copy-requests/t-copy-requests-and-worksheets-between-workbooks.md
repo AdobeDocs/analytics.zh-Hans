@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 54%
@@ -14,8 +14,12 @@ ht-degree: 54%
 
 # 在工作簿之间复制请求和工作表
 
+{{legacy-arb}}
+
 将源工作簿中的整个电子表格复制到一个或多个目标工作簿中的电子表格。 要实现此目的，您必须在同一Excel实例中至少打开两个工作簿：
+
 * 第一个源工作簿包含电子表格（工作表），其中请求映射到单元格。
+
 * 其他目标工作簿是目标。 对于每个新的目标工作簿，在粘贴包含请求的电子表格之前，您应该登录到与源工作簿相同的报表包。
 
 >[!NOTE]

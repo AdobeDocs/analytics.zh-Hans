@@ -4,7 +4,7 @@ title: 将数据手动导入 Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 将数据手动导入 Power BI
+
+{{legacy-arb}}
 
 如果您要通过 Power BI 手动导入 Analytics 数据，请按照以下说明执行操作。
 

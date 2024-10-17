@@ -1,11 +1,10 @@
 ---
 description: 了解如何复制引用请求。
 title: 如何复制引用请求
-uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 80%
@@ -13,6 +12,8 @@ ht-degree: 80%
 ---
 
 # 复制引用请求
+
+{{legacy-arb}}
 
 引用请求使用单元格中的值作为参数的输入，如数据过滤器或关系过滤器。
 

@@ -4,7 +4,7 @@ title: Report Builder 常见问题解答
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # Report Builder 常见问题解答
+
+{{legacy-arb}}
 
 与 Report Builder 有关的常见问题解答。
 

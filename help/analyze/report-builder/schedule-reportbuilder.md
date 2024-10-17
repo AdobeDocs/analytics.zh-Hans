@@ -5,14 +5,18 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1202'
+ht-degree: 79%
 
 ---
 
 # 计划工作簿
+
+>[!NOTE]
+>
+>Adobe Analytics上此版本Report Builder的工作簿计划尚未发布，但将在2025年初可用。 您可以立即开始使用不需要安排的工作簿。
 
 保存工作簿并完成分析后，您可以使用计划功能轻松地与团队中的其他人共享您的工作簿。计划功能允许您创建计划，自动刷新工作簿中的数据，并在特定日期和时间将 Excel 工作簿。xlsx 文件作为附件通过电子邮件发送给指定的受众。设置时间表可为收件人自动提供定期更新。您还可以使用计划功能将工作簿发送一次，而无需计划自动更新。
 

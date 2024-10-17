@@ -5,7 +5,7 @@ uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 76%
@@ -13,6 +13,8 @@ ht-degree: 76%
 ---
 
 # 分类
+
+{{legacy-arb}}
 
 分类划分用于将分析报表数据映射到相关属性。分类可用于多种目的，但最常用于分类内部和外部促销活动跟踪代码以及产品ID。
 

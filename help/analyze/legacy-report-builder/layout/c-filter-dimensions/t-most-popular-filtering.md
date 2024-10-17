@@ -5,7 +5,7 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 89%
@@ -13,6 +13,8 @@ ht-degree: 89%
 ---
 
 # 最受欢迎的过滤设置
+
+{{legacy-arb}}
 
 使用 AND/OR 搜索表达式通过布尔逻辑配置的排名和条件过滤器。
 

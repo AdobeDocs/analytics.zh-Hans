@@ -5,7 +5,7 @@ uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 68%
@@ -13,6 +13,8 @@ ht-degree: 68%
 ---
 
 # 将量度和维度映射到单元格
+
+{{legacy-arb}}
 
 在开始将项目映射到电子表格之前，请确保电子表格未处于受保护状态。如果工作表的保护方案阻止用户执行任何操作，则无法选择电子表格中的单元格。首先取消工作表保护，然后再添加单元格映射。
 

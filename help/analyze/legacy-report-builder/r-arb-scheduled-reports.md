@@ -4,7 +4,7 @@ title: 关于计划任务管理器
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 91%
@@ -12,6 +12,8 @@ ht-degree: 91%
 ---
 
 # 计划任务管理器
+
+{{legacy-arb}}
 
 [!UICONTROL 计划任务管理器]允许您查看现有计划报告的列表，以及其收件人、计划详细信息和文件格式。它还允许您重新激活运行失败的计划工作簿。
 

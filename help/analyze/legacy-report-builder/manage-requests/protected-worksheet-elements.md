@@ -5,7 +5,7 @@ uuid: 4b632862-4943-4567-a458-46a6548952fa
 feature: Report Builder
 role: User, Admin
 exl-id: 8783b6e9-82f5-4bee-a73f-31ea64d7e955
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 15%
@@ -13,6 +13,8 @@ ht-degree: 15%
 ---
 
 # 受保护的工作表元素
+
+{{legacy-arb}}
 
 锁定单元格以保护工作表时，无法创建、编辑或刷新请求。 在使用请求管理器之前，请取消工作表中的所有保护。
 

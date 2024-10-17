@@ -5,7 +5,7 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 96%
@@ -13,6 +13,8 @@ ht-degree: 96%
 ---
 
 # 计划工作簿
+
+{{legacy-arb}}
 
 您可以计划工作簿、指定高级提交选项、指定收件人和查看计划历史记录。高级提交选项允许您配置要在特定时间发送或定期发送的工作簿。您还可以指定发送工作簿时要使用的文件格式。
 

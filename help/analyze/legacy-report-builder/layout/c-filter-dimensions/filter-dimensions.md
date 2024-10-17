@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 73%
@@ -13,6 +13,8 @@ ht-degree: 73%
 ---
 
 # 过滤器维度概述
+
+{{legacy-arb}}
 
 您可以过滤添加到“行标签”网格中的维度。过滤器可减少请求返回的数据，并且可以从引导布局或自定义布局中进行应用。通过引导布局配置维度过滤时，您还可以指定单元格中的条目数。
 

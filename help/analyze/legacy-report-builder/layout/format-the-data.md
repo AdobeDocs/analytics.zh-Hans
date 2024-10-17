@@ -5,7 +5,7 @@ uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 81%
@@ -13,6 +13,8 @@ ht-degree: 81%
 ---
 
 # 设置日期格式
+
+{{legacy-arb}}
 
 除了通过Excel的“格式”>“单元格(Ctrl+1)”功能提供的标准单元格格式选项之外，您还可以对具有Report Builder的单元格范围应用有限的格式。 这些格式选项取决于您选择的量度。
 

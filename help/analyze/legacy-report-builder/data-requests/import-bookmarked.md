@@ -4,7 +4,7 @@ title: 导入加入书签的报表和功能板缩图报表
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 65%
@@ -12,6 +12,8 @@ ht-degree: 65%
 ---
 
 # 导入加入书签的报表和功能板缩图报表
+
+{{legacy-arb}}
 
 现在，所有标为书签的报表和功能板报表都作为维度列在“请求向导：第1步”中，并且可以作为Report Builder请求导入。
 

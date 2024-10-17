@@ -4,7 +4,7 @@ title: 使用请求向导过滤流失报表
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 80%
@@ -12,6 +12,8 @@ ht-degree: 80%
 ---
 
 # 使用请求向导过滤流失报表
+
+{{legacy-arb}}
 
 描述将过滤器应用于流失报表所涉及的各个步骤。
 

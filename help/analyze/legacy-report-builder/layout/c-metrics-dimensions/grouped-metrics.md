@@ -5,7 +5,7 @@ uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
 role: User, Admin
 exl-id: 4b26df2e-22c5-435a-815b-fc3d36d5ed02
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 44%
@@ -13,6 +13,8 @@ ht-degree: 44%
 ---
 
 # 在同一请求中组合使用流量和商务量度
+
+{{legacy-arb}}
 
 您可以在一个请求中组合使用流量和商务量度类型，而不是创建单独的请求。
 

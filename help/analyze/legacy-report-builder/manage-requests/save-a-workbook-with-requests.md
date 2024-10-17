@@ -5,7 +5,7 @@ uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 78%
@@ -13,6 +13,8 @@ ht-degree: 78%
 ---
 
 # 保存具有请求的工作簿
+
+{{legacy-arb}}
 
 创建包含嵌入请求的报表时，可以在Excel中使用&#x200B;**文件** > **保存**&#x200B;或&#x200B;**文件** > **另存为**&#x200B;保存这些报表。 Report Builder检测报告是否包含请求。 选择其中一个保存选项后，请完成&#x200B;**将工作簿另存为**&#x200B;表单。
 

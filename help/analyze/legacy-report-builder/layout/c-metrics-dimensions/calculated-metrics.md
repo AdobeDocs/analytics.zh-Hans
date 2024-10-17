@@ -4,16 +4,18 @@ title: 计算量度
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 83%
+source-wordcount: '397'
+ht-degree: 78%
 
 ---
 
 # 计算量度
 
-Report Builder5.2支持Adobe Analytics统一的计算指标。 作为诸多创新中的一种，目前所有计算指标都拥有一个全局 ID — 不再局限于单一的报表包之中。
+{{legacy-arb}}
+
+Report Builder5.2及更高版本支持Adobe Analytics计算指标。 现在，所有计算指标都有一个全局ID — 不再局限于单一的报表包之中。
 
 >[!NOTE]
 >

@@ -1,17 +1,19 @@
 ---
-title: 关于适用于 Adobe Analytics 的 Report Builder
+title: 关于Adobe Analytics的旧版Report Builder
 description: 学习如何使用 Report Builder 将 Adobe Analytics 数据直接带入到 Microsoft Excel 中。
 feature: Workspace Basics
 role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '126'
+ht-degree: 90%
 
 ---
 
-# Report Builder 是什么？
+# 什么是旧版Report Builder？
+
+{{legacy-arb}}
 
 Adobe Report Builder 是 Microsoft Excel 的一个加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
 

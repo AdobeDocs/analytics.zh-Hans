@@ -4,7 +4,7 @@ title: 发布到 Power BI — 概述
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 发布到 Power BI — 概述
+
+{{legacy-arb}}
 
 Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功能板。Adobe Analytics 与 Power BI 的集成允许您在 Microsoft Power BI 内可视化 Report Builder Analytics 数据，并在组织范围内轻松共享。
 

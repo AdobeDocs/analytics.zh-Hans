@@ -4,7 +4,7 @@ title: Report Builder 中的路径报表和路径流失报表
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 84%
@@ -12,6 +12,8 @@ ht-degree: 84%
 ---
 
 # Report Builder 中的路径报表和路径流失报表
+
+{{legacy-arb}}
 
 介绍Report Builder如何支持路径报表和流失报表，以及实施过程与Reports &amp; Analytics（现已终止使用）有何不同。
 

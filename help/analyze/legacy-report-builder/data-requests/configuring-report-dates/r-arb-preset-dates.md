@@ -5,7 +5,7 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 89%
@@ -13,6 +13,8 @@ ht-degree: 89%
 ---
 
 # 请求向导定义 - 预设日期
+
+{{legacy-arb}}
 
 预设日期允许您选择常用的日期或保存的日期。在“请求向导: 第 1 步”中，选择预设日期。以下是 Report Builder 中预设日期的字段定义。
 

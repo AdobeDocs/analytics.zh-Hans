@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 32%
+source-wordcount: '561'
+ht-degree: 28%
 
 ---
 
@@ -16,10 +16,14 @@ ht-degree: 32%
 
 最初仅在Customer Journey Analytics中提供的新JavascriptReport Builder加载项现在也在Adobe Analytics中引入。 此新版本具有以下几个好处：
 
-- 在Mac、Microsoft Windows和Web浏览器上支持Microsoft Excel
-- 改进了用户体验
+- 通过改进的数据块创建和管理工作流（包括更大的数据块灵活性），更快、更轻松地在Excel中查找见解
+- 跨平台：不再登录虚拟机以使用Report Builder，我们现在支持PC、Mac和Excel Online
+- 由于API 2.0升级，等待数据块返回的时间得以缩短
 - 速度提高
-- 支持Analytics 2.0 API
+
+>[!NOTE]
+>
+>Adobe Analytics上此版本Report Builder的工作簿计划尚未发布，但将在2025年初可用。 您可以立即开始使用不需要安排的工作簿。
 
 旧版Report Builder工具的用户可以[将旧版工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新Report Builder。
 
