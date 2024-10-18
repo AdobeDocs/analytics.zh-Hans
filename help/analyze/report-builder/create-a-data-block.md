@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 60%
@@ -20,11 +20,11 @@ ht-degree: 60%
 
 为数据块位置、报表包和日期范围配置初始数据块参数。
 
-1. 单击&#x200B;**创建数据块**。
+1. 单击&#x200B;**[!UICONTROL 创建数据块]**。
 
    ![显示“创建数据块”选项的屏幕快照。](./assets/create_db.png)
 
-1. 设置&#x200B;**数据块位置**。
+1. 设置&#x200B;**[!UICONTROL 数据块位置]**。
 
    数据块位置选项定义 Report Builder 将数据添加到工作表时的工作簿位置。
 
@@ -34,11 +34,11 @@ ht-degree: 60%
 
    使用报表包选项，您可以从下拉菜单中选择报表包，或从单元格位置引用报表包。
 
-1. 设置&#x200B;**日期范围**。
+1. 设置&#x200B;**[!UICONTROL 日期范围]**。
 
    您可以使用日期范围选项选择日期范围。日期范围可以固定，也可以是滚动的。有关日期范围选项的信息，请参阅[选择日期范围](select-date-range.md)。
 
-1. 单击&#x200B;**下一步**。
+1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
    ![显示日期范围选项和活动“下一步”按钮的屏幕截图。](./assets/choose_date_data_view3.png)
 
