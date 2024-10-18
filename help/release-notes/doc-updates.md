@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 23282c1a2793a7113117c62ce195f9714ab5a7f2
+source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
 workflow-type: tm+mt
-source-wordcount: '5994'
+source-wordcount: '6028'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 10 月** |  |
+| 有关Analysis Workspace性能中的请求因素的新信息 | [优化Analysis Workspace性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)文章中新增的[请求因子](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors)部分介绍了如何处理请求以及影响处理时间的各种因素。 |
 | 新建Report Builder | [有关Mac、Windows和Web浏览器支持的简化Report Builder加载项的新文档](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview)。 |
 | **2024 年 8 月** | |
 | 警报管理器 | 简化了有关[警报管理器](/help/components/c-alerts/alert-manager.md)的文档。为了清晰和准确而更新。 |
