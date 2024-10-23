@@ -3,15 +3,14 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # 当前Adobe Analytics发行说明（2024年10月23日版）
-
 
 **上次更新时间**：2024年10月23日
 
@@ -38,12 +37,11 @@ Cross-Device Analytics： AN-359210
 Data Warehouse：AN-359820
 超额警报：AN-358132
 
-
 ## Adobe Analytics 管理员的重要注意事项 {#admin}
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **非Campaign客户将失去对触发器的访问权限** | 2024 年 10 月 16 日 | 2025年1月30日，没有Adobe Campaign许可证的Adobe Analytics客户将失去配置和使用[触发器](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers)功能的访问权限。 客户需要购买Campaign，或计划停止使用触发器，或研究其他提供触发器功能的Adobe工具。 |
+| **非Campaign客户将失去对触发器的访问权限** | 2023 年 10 月 16 日 | 2025年1月30日，没有Adobe Analytics许可证的Adobe Campaign客户将失去配置和使用Triggers功能的访问权限。 客户需要购买Campaign，或计划停止使用触发器，或研究其他提供触发器功能的Adobe工具。 |
 | **自动映射的其他实现细节 XDM 字段** | 2024 年 9 月 11 日 | 使用 Adobe Experience Platform Edge Network 将数据发送到 Adobe Analytics 时，XDM 字段 `xdm.implementationdetails.name` 和 `xdm.implementationdetails.environment` 现在始终映射到上下文数据变量 `c.a.x.implementationdetails.name` 和 `c.a.x.implementationdetails.environment`。以前，某些场景会阻止这些值的填充。请调整任何相关的处理规则以适应这些值的可用性。 |
 
 ## 生命周期终止 (EOL) 通知 {#eol}
