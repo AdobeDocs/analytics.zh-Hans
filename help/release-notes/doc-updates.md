@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 10 月** |  |
-| 有关Analysis Workspace性能中的请求因素的新信息 | [优化Analysis Workspace性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)文章中新增的[请求因子](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors)部分介绍了如何处理请求以及影响处理时间的各种因素。 |
-| 新建Report Builder | [有关Mac、Windows和Web浏览器支持的简化Report Builder加载项的新文档](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview)。 |
+| 有关 Analysis Workspace 性能中的请求因素的新信息 | [优化 Analysis Workspace 性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)文章中新增的[请求因素](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors)部分介绍了如何处理请求以及影响处理时间的各种因素。 |
+| 新版 Report Builder | Mac、Windows 和 Web 浏览器支持简化的 Report Builder 插件的[新文档](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/report-buider-overview)。 |
 | **2024 年 8 月** | |
 | 警报管理器 | 简化了有关[警报管理器](/help/components/c-alerts/alert-manager.md)的文档。为了清晰和准确而更新。 |
 | **2024 年 7 月** | |
