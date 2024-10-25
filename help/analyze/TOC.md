@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
-user-guide-description: 了解如何使用Analytics工具，包括Analysis Workspace、Analytics功能板、Report Builder和旧版Report Builder，以及Activity Map。
+user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -163,20 +163,20 @@ ht-degree: 96%
 + Report Builder {#report-builder}
    + [Report Builder 概述](report-builder/report-buider-overview.md)
    + [Report Builder 设置](report-builder/report-builder-setup.md)
-   + [转换旧版请求](report-builder/convert-workbooks.md)
+   + [转化旧版请求](report-builder/convert-workbooks.md)
    + [创建数据块](report-builder/create-a-data-block.md)
    + [Report Builder 中心](report-builder/report-builder-hub.md)
    + [选择“报表包”](report-builder/select-report-suite.md)
    + [选择日期范围](report-builder/select-date-range.md)
-   + [使用区段](report-builder/work-with-segments.md)
+   + [使用片段工作](report-builder/work-with-segments.md)
    + [筛选维度](report-builder/filter-dimensions.md)
    + [管理数据块](report-builder/manage-reportbuilder.md)
    + [计划工作簿](report-builder/schedule-reportbuilder.md)
    + [限制标签](report-builder/restricted-labels.md)
    + [Report Builder 设置](report-builder/report-builder-settings.md)
-+ 旧版Report Builder{#legacy-report-builder}
-   + [旧版Adobe Report Builder帮助](legacy-report-builder/home.md)
-   + 旧版Report Builder设置{#legacy-report-builder-setup}
++ 旧版 Report Builder {#legacy-report-builder}
+   + [旧版 Adobe Report Builder 帮助](legacy-report-builder/home.md)
+   + 旧版 Report Builder 设置{#legacy-report-builder-setup}
       + [系统要求](legacy-report-builder/setup/system-requirements.md)
       + [安装 Report Builder](legacy-report-builder/setup/t-install-arb.md)
       + [升级 Report Builder](legacy-report-builder/setup/upgrade-arb.md)
