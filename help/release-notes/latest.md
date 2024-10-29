@@ -4,36 +4,36 @@ description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# 当前Adobe Analytics发行说明（2024年10月23日版）
+# 当前的 Adobe Analytics 发行说明（2024 年 10 月 23 日版本）
 
-**上次更新时间**：2024年10月23日
+**上次更新日期**：2024 年 10 月 23 日
 
-这些发行说明涵盖2024年10月16日至2024年底的发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖 2024 年 10 月 16 日至 2024 年末的发行期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Analytics的新Report Builder** | 新的Report Builder应用程序为Adobe Analytics带来了重大更新，包括改进的性能、简化的用户界面、对Mac、Windows和Web浏览器上的Microsoft Excel的2.0 API支持和支持。 此应用程序可与旧版应用程序一起使用，但不能在同一文件上使用。 提供了升级功能，用于将旧版工作簿升级到新应用程序。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
-| 用于将Tags实施迁移到Web SDK标记的&#x200B;**JSON导出** | Analytics标记扩展的这项更新与迁移到Web SDK相关。 您可以将此更新用作Adobe Analytics扩展的工作流的一部分，以便通过Web SDK扩展重新创建扩展配置。 在Adobe Analytics标记扩展中，您可以以JSON格式查看eVar、prop和事件设置，可以导出该JSON进行编辑并包含在Web SDK扩展中。 |  | 2024 年 10 月 31 日 |
-| **有关Analysis Workspace性能中的请求因素的新信息** | 在Analysis Workspace中分析性能时，现在有新的“请求因素”部分可用。 要了解有关如何处理请求以及影响处理时间的各种因素的详细信息，请参阅[优化Analysis Workspace性能](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)中的“请求因素”。 |  | 2024年10月1日 |
+| **Adobe Analytics 的新的 Report Builder** | 新的 Report Builder 应用程序为 Adobe Analytics 带来了一项重大更新，其中包括改进的性能、简化的用户界面、2.0 API 支持以及对 Mac、Windows 和 Web 浏览器上的 Microsoft Excel 的支持。此应用程序可以与旧版应用程序一起使用，但不能用于同一个文件。提供升级功能以将旧版工作簿升级到新的应用程序。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
+| **JSON 导出用于将标记实施迁移到 Web SDK 标记** | 此次对 Analytics 标记扩展的更新与迁移到 Web SDK 相关。您可以将此 Adobe Analytics 扩展更新用作工作流程的一部分，以使用 Web SDK 扩展重新创建扩展配置。在 Adobe Analytics 标记扩展中，您可以以 JSON 查看 eVars、props 和事件设置，并可将其导出进行编辑，还可以将其包含在 Web SDK 扩展中。 |  | 2024 年 10 月 31 日 |
+| **有关 Analysis Workspace 性能中的请求因素的新信息** | 在 Analysis Workspace 中分析性能时，现在可以使用新的“请求因素”部分。要深入了解请求的处理方式以及影响处理时间的各种因素，请参阅[优化 Analysis Workspace 性能](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)中的“请求因素”部分。 |  | 2024 年 10 月 1 日 |
 
 ## Adobe Analytics 中的修复
 
-Analysis Workspace： AN-356287； AN-358435； AN-359456； AN-359826； AN-360215
-管理工具：AN-342485、AN-347931、AN-348704、AN-357723、AN-358453、AN-358717、AN-359548、AN-360136
-分类：AN-359025、AN-359283、AN-359368、AN-359710、AN-359752、AN-359759、AN-359799、AN-359887、AN-360543、AN-360566、AN-360612、AN-360741、AN-360942、AN-360952
-Cross-Device Analytics： AN-359210
+Analysis Workspace：AN-356287；AN-358435；AN-359456；AN-359826；AN-360215
+管理工具：AN-342485；AN-347931；AN-348704；AN-357723；AN-358453；AN-358717；AN-359548；AN-360136
+分类：AN-359025；AN-359283；AN-359368；AN-359710；AN-359752；AN-359759；AN-359799；AN-359887；AN-360543；AN-360566；AN-360612；AN-360741；AN-360942；AN-360952
+跨设备分析：AN-359210
 客户属性：AN-357897
 数据收集：AN-351131；AN-351309；AN-355678；AN-359856
-数据馈送： AN-359699
-数据修复API：AN-360256
+数据馈送：AN-359699
+数据修复 API：AN-360256
 数据源：AN-359290
 Data Warehouse：AN-359820
 超额警报：AN-358132
@@ -42,7 +42,7 @@ Data Warehouse：AN-359820
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **非Campaign客户将失去对触发器的访问权限** | 2023 年 10 月 16 日 | 2025年1月30日，没有Adobe Analytics许可证的Adobe Campaign客户将失去配置和使用Triggers功能的访问权限。 客户需要购买Campaign，或计划停止使用触发器，或研究其他提供触发器功能的Adobe工具。 |
+| **非 Campaign 客户将无法访问触发器** | 2023 年 10 月 16 日 | 2025 年 1 月 30 日，没有 Adobe Campaign 许可证的 Adobe Analytics 客户将会失去配置和使用触发器的权限。客户需要购买 Campaign，或者计划停止使用触发器，或者考虑提供触发器功能的其他 Adobe 工具。 |
 | **自动映射的其他实现细节 XDM 字段** | 2024 年 9 月 11 日 | 使用 Adobe Experience Platform Edge Network 将数据发送到 Adobe Analytics 时，XDM 字段 `xdm.implementationdetails.name` 和 `xdm.implementationdetails.environment` 现在始终映射到上下文数据变量 `c.a.x.implementationdetails.name` 和 `c.a.x.implementationdetails.environment`。以前，某些场景会阻止这些值的填充。请调整任何相关的处理规则以适应这些值的可用性。 |
 
 ## 生命周期终止 (EOL) 通知 {#eol}

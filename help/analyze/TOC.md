@@ -5,7 +5,7 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 + [Analytics 工具指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
-+ Adobe Analytics 快速入门。{#admin-overview}
++ Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
    + [了解 Analytics 界面](get-started/analytics-interface.md)
@@ -166,7 +166,7 @@ ht-degree: 100%
    + [转化旧版请求](report-builder/convert-workbooks.md)
    + [创建数据块](report-builder/create-a-data-block.md)
    + [Report Builder 中心](report-builder/report-builder-hub.md)
-   + [选择“报表包”](report-builder/select-report-suite.md)
+   + [选择“报告包”](report-builder/select-report-suite.md)
    + [选择日期范围](report-builder/select-date-range.md)
    + [使用片段工作](report-builder/work-with-segments.md)
    + [筛选维度](report-builder/filter-dimensions.md)
@@ -188,7 +188,7 @@ ht-degree: 100%
       + [数据请求 — 请求向导第 1 步](legacy-report-builder/data-requests/data-requests.md)
       + [创建数据请求](legacy-report-builder/data-requests/t-create-a-data-request.md)
       + 报告包 {#report-suites}
-         + [选择某个报告包](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [选择“报告包”](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [在 Excel 中通过现有请求选择报表包](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 查找报告包 ID](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理区段](legacy-report-builder/data-requests/segmentation.md)
