@@ -4,8 +4,8 @@ description: Analysis Workspace、Analytics 功能板（移动应用程序）、
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
-workflow-type: ht
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 | **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)** | Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让您快速构建和共享分析。您可以使用拖放界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集、与组织中的任何人共享项目并设置共享频率与时间。 |
 | **[Analytics 功能板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hans)** | Analytics 功能板及其移动记分卡使得管理人员用户可在其自己的移动设备上快速、轻松地查看全面呈现的重要摘要数据。策展人将可视化图表添加到移动记分卡项目并与管理人员共享。<br>记分卡提供了一种定位和衡量 KPI 的方法，可以清楚地指示组织在实现目标方面的进展情况。 |
 | **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-Hans)** | Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。<br>Activity Map 让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。&quot; |
-| **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)** | Mac、Windows 和 Web 浏览器均支持 Microsoft Excel 的新版 Report Builder 插件。通过 Report Builder，您可从插入 Excel 工作表的 Adobe Analytics 数据构建自定义的请求。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 |
+| **[Report Builder](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/report-buider-overview)** | Mac、Windows 和 Web 浏览器均支持 Microsoft Excel 的新版 Report Builder 插件。通过 Report Builder，您可从插入 Excel 工作表的 Adobe Analytics 数据构建自定义的请求。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 |
 | **[旧版 Report Builder](/help/analyze/legacy-report-builder/home.md)** | 旧版 Report Builder 是 Microsoft Excel 的插件，仅支持 Microsoft Windows。通过 Report Builder，您可从插入 Excel 工作表的 Adobe Analytics 数据构建自定义的请求。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 |
 | **[Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)** | 使用 Analytics API，您可以直接调用 Adobe 的服务器来执行您可在用户界面中执行的几乎任何操作。您可以创建报告来进行探索、获取洞察或回答有关数据的重要问题。您还可以管理 Adobe Analytics 的组件，例如创建区段或计算量度。 |
 

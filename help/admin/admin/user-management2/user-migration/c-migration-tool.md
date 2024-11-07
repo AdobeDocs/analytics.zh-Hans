@@ -4,10 +4,10 @@ title: 将 Analytics 用户迁移到 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '3084'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新 Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>重要信息：将安装的 <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要信息：将安装的 <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>何时开始迁移？ </p> </td> 
@@ -248,7 +248,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户过期日期 </p> </td> 
-   <td colname="col2"> <p> 您可以在管理工具中手动设置 Analytics 中的帐户过期日期。在过期日期之后，用户将无法访问 Analytics，但其实际的 Experience Cloud 用户帐户（例如 Adobe ID、Enterprise ID、Federated ID 等）不会过期。他们仍然可以登录 Experience Cloud，但无法单击进入 Analytics。 </p> </td> 
+   <td colname="col2"> <p> 您可以在管理工具中手动设置 Analytics 中的帐户过期日期。过期日期过后，用户将无法访问Analytics，但其实际的Experience Cloud用户帐户(例如Adobe ID、Enterprise ID、Federated ID等)将不会过期。 他们仍然可以登录 Experience Cloud，但无法单击进入 Analytics。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
