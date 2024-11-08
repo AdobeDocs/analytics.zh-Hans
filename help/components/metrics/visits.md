@@ -3,10 +3,10 @@ title: 访问次数
 description: 表示一系列的页面查看操作。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
+source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '694'
+ht-degree: 88%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 98%
 
 您可以将访问的定义更改为 30 分钟以外的其他时间。
 
-* 对于[虚拟报表包](../vrs/vrs-about.md)，您可以使用[!UICONTROL 访问超时]下拉列表更改访问超时。您可以将访问超时更改为任何合理的值。
-* 对于标准报表包，请联系客户关怀，以请求缩短给定报表包的访问时长。由于标准报表包的访问时长不能超过 30 分钟，因此您只能缩短访问时长。
+* 对于[虚拟报表包](../vrs/vrs-about.md)，您可以使用[!UICONTROL 访问超时]下拉列表更改访问超时（点击之间的时间，这会导致新访问开始）。 您可以将访问超时更改为任何合理的值。
+* 对于标准报表包，请联系客户关怀团队，以请求缩短给定报表包的访问超时（导致新访问开始的点击之间的时间）。 标准报表包的访问超时不能超过30分钟，因此您只能缩短访问超时。
 
 ## 跨日期边界的访问次数
 
