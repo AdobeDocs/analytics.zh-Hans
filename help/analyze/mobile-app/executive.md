@@ -4,9 +4,9 @@ title: Adobe Analytics 功能板执行指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
+source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 92%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 1. 点按要查看的记分卡。
 
-   如果您在一次登录中有权访问多个组织，则组织中的所有记分卡都可在记分卡列表中使用。
+   如果您在一次登录下有权访问多个组织，则主屏幕会在一个位置显示所有可用公司的所有记分卡。
 
    您可以根据记分卡标题、组织名称或最近查看的记分卡对记分卡列表进行排序。 您甚至可以搜索特定记分卡。
 

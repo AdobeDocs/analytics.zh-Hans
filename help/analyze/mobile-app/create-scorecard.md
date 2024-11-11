@@ -4,7 +4,7 @@ title: 创建和共享移动记分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
 workflow-type: tm+mt
 source-wordcount: '2500'
 ht-degree: 81%
@@ -291,7 +291,6 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 ![创建数据故事](assets/data-story-nav.png){width="25%"}
 
 还可使用箭头键或选择组件并按住它移向屏幕左侧或右侧进行滚动以来回导航。
-
 
 ## 预览记分卡 {#preview}
 
