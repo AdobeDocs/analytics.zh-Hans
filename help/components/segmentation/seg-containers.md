@@ -4,10 +4,10 @@ keywords: 分段;区段
 title: 区段容器
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
+source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
 workflow-type: tm+mt
-source-wordcount: '3529'
-ht-degree: 100%
+source-wordcount: '3566'
+ht-degree: 98%
 
 ---
 
@@ -96,6 +96,10 @@ ht-degree: 100%
 1. 确定使用最外部的容器包含哪些数据。不符合此外部规则的所有数据都将在分段报表中被放弃。
 1. 将嵌套的规则应用到余下的数据。嵌套的规则不会应用于首个规则抛出的任何点击。
 1. 重复操作，直到所有嵌套的容器规则都计算完后为止。随后，余下的数据会包含到结果报表中。
+
+>[!NOTE]
+>
+>在区段内嵌套区段时（例如，将区段从“组件”面板拖动到区段定义上），将创建一个包含拖动区段规则的副本（而非引用）的容器。
 
 您可以在容器之间使用嵌套，也可以在容器内的规则之间使用嵌套。以下是每个容器中可以嵌套的内容：
 
