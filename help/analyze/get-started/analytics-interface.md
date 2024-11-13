@@ -4,7 +4,7 @@ title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | Search &amp; Promote | 不再支持此功能。 |  |
    | Mobile Services | 不再支持此功能。 |  |
    | Analytics 功能板（移动应用程序） | Adobe Analytics 功能板应用程序可以随时随地从 Adobe Analytics 提供见解。通过此应用程序，用户可以查看您使用 Adobe Analytics 桌面 UI 创建的直观记分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 功能板应用程序 |
-   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的一个加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder 是什么？](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/report-buider-overview) |
+   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的一个加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder 是什么？](https://experienceleague.adobe.com/zh-hans/docs/ analytics/analyze/report-builder/report-buider-overview) |
 
    {style="table-layout:auto"}
 
