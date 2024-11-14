@@ -75,4 +75,4 @@ ht-degree: 100%
       + [在无密码的情况下通过 SFTP 连接到 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Analysis Workspace 下载](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/zh-hans/docs/ analytics/analyze/report-builder/report-buider-overview)
++ [Report Builder](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/report-buider-overview)
