@@ -3,9 +3,9 @@ description: 警报允许对通知进行粒度控制，并集成异常检测。
 title: 警报概述
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ Adobe Analytics中的警报允许您根据更改的百分比或特定数据点�
 
 >[!NOTE]
 >
->使用警报和异常检测（也称为&#x200B;_智能警报_）仅适用于具有Adobe Analytics Select、Prime或Ultimate包的组织。
+>将警报与异常检测（也称为&#x200B;_智能警报_）结合使用仅适用于具有Adobe Analytics Prime或Ultimate包的组织。
 
 如果警报使用异常检测，则培训期会根据为警报选择的粒度而有所不同。
 
