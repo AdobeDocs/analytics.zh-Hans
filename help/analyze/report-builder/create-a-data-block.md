@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
+source-git-commit: c35d5bdc29ce80f0c9357339b04fd2d656cfbe52
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 55%
+source-wordcount: '650'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +29,9 @@ ht-degree: 55%
 
    数据块位置选项定义 Report Builder 将数据添加到工作表时的工作簿位置。
 
-   要指定数据块位置，请在工作表中选择单个单元格，或者输入单元格地址，例如 a3、\\\$a3、a\\\$3 或 sheet1!a2。指定的单元格在检索数据时标记数据块的左上角。
+   要指定数据块位置，请选择工作表中的单个单元格，然后单击&#x200B;**[!UICONTROL 数据块位置]**&#x200B;旁边的图标：
+
+   还可以输入单元格地址，如a3、\\\$a3、a\\\$3或sheet1！a2。 指定的单元格在检索数据时标记数据块的左上角。
 
 1. 选择&#x200B;**报表包**。
 
@@ -40,7 +43,7 @@ ht-degree: 55%
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
-   ![显示日期范围选项和活动“下一步”按钮的屏幕截图。](./assets/choose_date_data_view3.png)
+   ![显示日期范围选项和活动“下一步”按钮的屏幕截图。](./assets/choose_date_report_suite.png)
 
    配置数据块后，您可以选择维度、量度和区段来构建数据块。 “维度”、“量度”和“筛选器”选项卡显示在表生成器窗格的上方。
 
@@ -48,7 +51,7 @@ ht-degree: 55%
 
 要构建数据块，请选择报表组件，然后自定义版面。
 
-1. 添加维度、量度和筛选器。
+1. 添加Dimension、量度和区段。
 
    滚动组件列表或使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段来查找组件。 将组件拖放到“表”窗格，或者在列表中双击组件名称以自动将组件添加到“表”窗格。
 
@@ -56,7 +59,7 @@ ht-degree: 55%
 
    - 维度组件将添加到“行”部分，如果列中已有维度，则添加到“列”部分。
    - 日期组件将添加到“列”部分。
-   - 筛选器组件将添加到“筛选器”部分。
+   - 区段组件将添加到“区段”部分。
 
    **开始日期作为Dimension**
 
@@ -91,8 +94,6 @@ ht-degree: 55%
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
    在检索分析数据时将显示正在处理消息。
-
-   ![正在处理邮件。](./assets/image11.png)
 
    Report Builder 检索数据并在工作表中显示已完成的数据块。
 
