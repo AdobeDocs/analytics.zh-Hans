@@ -5,7 +5,7 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
 source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -119,19 +119,19 @@ ht-degree: 100%
       + [维恩图](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
-      + [Analytics for Target (A4T) 面板](analysis-workspace/c-panels/a4t-panel.md)
-      + [归因面板](analysis-workspace/c-panels/attribution.md)
-      + [空白面板](analysis-workspace/c-panels/blank-panel.md)
+      + [“Analytics for Target (A4T) “面板](analysis-workspace/c-panels/a4t-panel.md)
+      + [”归因“面板](analysis-workspace/c-panels/attribution.md)
+      + [”空白“面板](analysis-workspace/c-panels/blank-panel.md)
       + [“自由格式”面板](analysis-workspace/c-panels/freeform-panel.md)
       + [“媒体平均受众访问分钟数”面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [“媒体并行查看者”面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [“Media Playback 耗时”面板](analysis-workspace/c-panels/media-playback-time-spent.md)
-      + [下一个或上一个项目面板](analysis-workspace/c-panels/next-previous.md)
-      + [页面摘要面板](analysis-workspace/c-panels/page-summary.md)
+      + [“下一项或上一项”面板](analysis-workspace/c-panels/next-previous.md)
+      + [”页面摘要“面板](analysis-workspace/c-panels/page-summary.md)
       + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
       + “区段比较”面板 {#segment-comparison}
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [“区段比较”用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [区段比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 策划、共享和安排项目 {#curate-share}
       + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
@@ -169,7 +169,7 @@ ht-degree: 100%
    + [转化旧版请求](report-builder/convert-workbooks.md)
    + [创建数据块](report-builder/create-a-data-block.md)
    + [Report Builder 中心](report-builder/report-builder-hub.md)
-   + [选择“报告包”](report-builder/select-report-suite.md)
+   + [选择报告包](report-builder/select-report-suite.md)
    + [选择日期范围](report-builder/select-date-range.md)
    + [使用片段工作](report-builder/work-with-segments.md)
    + [筛选维度](report-builder/filter-dimensions.md)
@@ -191,8 +191,8 @@ ht-degree: 100%
       + [数据请求 — 请求向导第 1 步](legacy-report-builder/data-requests/data-requests.md)
       + [创建数据请求](legacy-report-builder/data-requests/t-create-a-data-request.md)
       + 报告包 {#report-suites}
-         + [选择“报告包”](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [在 Excel 中通过现有请求选择报表包](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [选择报告包](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [在 Excel 中通过现有请求选择报告包](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 查找报告包 ID](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理区段](legacy-report-builder/data-requests/segmentation.md)
       + 报告类型 {#report-types}
