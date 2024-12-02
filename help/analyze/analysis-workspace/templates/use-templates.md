@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18050'
+source-wordcount: '18051'
 ht-degree: 61%
 
 ---
@@ -45,7 +45,11 @@ Analysis Workspace中的模板（或公司模板）可快速分析最常见的�
 
      公司模板只能由管理员创建。 有关如何创建公司模板的详细信息，请参阅[创建和管理模板](/help/analyze/analysis-workspace/reports/create-company-reports.md)。
 
-1. 通过选择列视图![列视图图标](assets/column-view-icon.png)或卡片视图![卡片视图图标](assets/card-view-icon.png)图标，选择是在列视图还是卡片视图中查看模板。
+1. 使用以下任一选项可更改查看可用模板的方式：
+
+   * 通过选择列视图![列视图图标](assets/column-view-icon.png)或卡片视图![卡片视图图标](assets/card-view-icon.png)图标，选择是在列视图还是卡片视图中查看模板。
+
+   * 使用卡片视图![卡片视图图标](assets/card-view-icon.png)时，请从以下排序顺序中进行选择： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受欢迎]**、**[!UICONTROL 按字母顺序]**、**[!UICONTROL 类别]**。
 
 1. 在搜索字段中，开始键入要查找的模板的名称，然后从模板列表中选择该模板。 您还可以按prop、eVar和事件编号来搜索模板列表。<!-- still true? -->
 
@@ -58,8 +62,6 @@ Analysis Workspace中的模板（或公司模板）可快速分析最常见的�
    >要使用箭头键导航菜单，请按正斜杠键 (/)，然后按向下箭头键。按Enter加载选定的模板。
 
    有关可用模板的列表，请参阅下面的[可用模板](#available-reports)部分。
-
-1. （可选）查看并使用包含报表包中不可用组件的模板。 （默认情况下，显示的唯一模板是使用报表包中可用组件的模板。） <!--does this apply to AA? -->
 
 ## 基于模板创建项目 {#use-reports}
 
