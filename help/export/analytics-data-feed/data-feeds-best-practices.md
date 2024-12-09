@@ -1,13 +1,13 @@
 ---
-description: 以下是数据馈送处理和提交的一些最佳实践。
+description: 了解Analytics中数据馈送处理和提交的最佳实践。
 keywords: 数据馈送;最佳实践;流量尖峰;每小时;ftp
 title: 最佳实践和常规信息
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 88%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 

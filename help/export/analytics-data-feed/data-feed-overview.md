@@ -1,13 +1,13 @@
 ---
-description: 在 Adobe Data Warehouse 中可处理和存储从网站、移动应用程序收集，或使用 Web 服务 API 或数据源上载的数据。该原始点击流数据形成 Adobe Analytics 使用的数据集。
+description: 了解如何使用数据馈送从Adobe Analytics中获取原始数据。 了解使用数据馈送的先决条件，以及下一步操作。
 keywords: 点击流;数据馈送;数据馈送;数据馈送
-title: Analytics 数据馈送概述
+title: Analytics数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 96%
+source-wordcount: '299'
+ht-degree: 86%
 
 ---
 

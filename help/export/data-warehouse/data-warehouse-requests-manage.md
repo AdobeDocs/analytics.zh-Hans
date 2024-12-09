@@ -1,13 +1,13 @@
 ---
-description: 请求管理器允许您查看和复制请求，并重新安排请求的优先级。
+description: 了解如何查看、复制请求以及重新优化Data Warehouse请求的优先级。
 title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 4%
 
    以下列可供使用：
 
-   | 栏目 | 描述 |
+   | 列 | 描述 |
    |---------|----------|
    | [!UICONTROL **创建日期**] | 报告的创建日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **开始日期**] | 报表开始的日期和时间。<p>以发起请求的用户的时区显示。</p> |

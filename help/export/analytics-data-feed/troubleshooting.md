@@ -1,13 +1,12 @@
 ---
 title: 数据馈送疑难解答
-description: 了解如何确定和解决数据馈送问题。
-keywords: 作业;疑难解答;错误;ftp;chdir;连接;登录;put
+description: 了解数据馈送作业可能无法处理或提交数据的原因。 解决数据馈送的潜在问题。
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 

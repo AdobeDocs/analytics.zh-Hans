@@ -1,12 +1,12 @@
 ---
-description: 在 Data Warehouse 中提供排名的划分报表（按量度值从大到小排序）。
+description: 了解按指标排序如何让Data Warehouse报表易于解释和与其他Analytics划分报表视图进行比较。
 title: 按量度排序
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 99%
+source-wordcount: '337'
+ht-degree: 92%
 
 ---
 

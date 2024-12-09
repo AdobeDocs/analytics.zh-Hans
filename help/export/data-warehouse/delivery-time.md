@@ -1,12 +1,12 @@
 ---
-title: Data Warehouse 请求提交时间故障诊断
+title: Data Warehouse请求提交时间故障诊断
 description: 确定 Data Warehouse 请求存在的可能会延长提交时间的潜在问题。
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: fc6a2deabaf2012cefebf4864db19aef1825adf2
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 61%
+ht-degree: 59%
 
 ---
 

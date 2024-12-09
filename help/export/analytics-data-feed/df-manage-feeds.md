@@ -1,12 +1,12 @@
 ---
-title: 数据馈送 UI
-description: 了解如何导览数据馈送界面。
+title: 管理数据馈送
+description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 28%
+source-wordcount: '1171'
+ht-degree: 26%
 
 ---
 

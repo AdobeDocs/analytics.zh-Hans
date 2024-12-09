@@ -1,12 +1,12 @@
 ---
 title: 访问次数
-description: 表示一系列的页面查看操作。
+description: 了解Analytics中的访问量度。 了解它是如何计算的、影响它的行为、如何更改其定义等。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: fb25807a0f34409bb3a27f344ff7508a9dd414a4
+source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 88%
+source-wordcount: '710'
+ht-degree: 85%
 
 ---
 

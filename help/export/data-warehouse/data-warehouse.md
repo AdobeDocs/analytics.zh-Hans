@@ -1,13 +1,13 @@
 ---
-description: Data Warehouse 是指用于存储和自定义报告的 Analytics 数据副本，您可以通过筛选来运行这些数据。 您可以根据独特的问题，请求报告显示高级数据与原始数据的关系。 Data Warehouse 报表通过电子邮件发送或发送给云存储提供商，过程可能长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
-title: Data Warehouse 概述
+description: 了解Data Warehouse以及如何过滤数据，让您创建和运行自定义报表。
+title: Data Warehouse概述
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 79%
 
 ---
 
@@ -35,7 +35,7 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
 
 ## 访问
 
-对于特定的报表包，Adobe 仅为管理员级别的用户启用 Data Warehouse。（全局报表包和子报表包均可启用 Data Warehouse，但汇总报表包不可启用。）管理员可创建访问 Data Warehouse 的群组，然后将非管理员级别的用户关联到此群组。
+对于特定的报表包，Adobe 仅为管理员级别的用户启用 Data Warehouse。（它可以为全局报表包和子报表包启用，但不能为汇总报表包启用。） 管理员可创建一个有权访问Data Warehouse的组，然后将非管理员级别的用户与该组相关联。
 
 请参阅[管理 Data Warehouse 权限](/help/export/data-warehouse/t-dw-group.md)。
 
