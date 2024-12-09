@@ -1,20 +1,20 @@
 ---
-description: Activity Map UI 由两部分组成
-title: Activity Map 用户界面
+description: 了解Activity Map扩展以及如何导航其界面。
+title: Activity Map扩展界面
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
+source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 65%
+source-wordcount: '177'
+ht-degree: 49%
 
 ---
 
-# Activity Map 用户界面
+# Activity Map扩展界面
 
-Activity Map UI 由两部分组成:
+Activity Map扩展界面由两部分组成：
 
 * 顶部窗口，其中包含网页以及插入式叠加图和工具栏。
 * 底部面板，用于显示报表。
