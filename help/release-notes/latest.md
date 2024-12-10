@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2a766fc06cab81c2b1d4b8a4de2c88dae42bf907
+source-git-commit: 65c934f56a580f921fa7baad6d5dd03c85e320e6
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 | **Adobe Analytics 的新的 Report Builder** | 新的 Report Builder 应用程序为 Adobe Analytics 带来了一项重大更新，其中包括改进的性能、简化的用户界面、2.0 API 支持以及对 Mac、Windows 和 Web 浏览器上的 Microsoft Excel 的支持。此应用程序可以与旧版应用程序一起使用，但不能用于同一个文件。提供升级功能以将旧版工作簿升级到新的应用程序。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
 | **JSON 导出用于将标记实施迁移到 Web SDK 标记** | 此次对 Analytics 标记扩展的更新与迁移到 Web SDK 相关。您可以将此 Adobe Analytics 扩展更新用作工作流程的一部分，以使用 Web SDK 扩展重新创建扩展配置。在 Adobe Analytics 标记扩展中，您可以以 JSON 查看 eVars、props 和事件设置，并可将其导出进行编辑，还可以将其包含在 Web SDK 扩展中。 |  | 2024 年 10 月 31 日 |
 | **有关 Analysis Workspace 性能中的请求因素的新信息** | 在 Analysis Workspace 中分析性能时，现在可以使用新的“请求因素”部分。要深入了解请求的处理方式以及影响处理时间的各种因素，请参阅[优化 Analysis Workspace 性能](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)中的“请求因素”部分。 |  | 2024 年 10 月 1 日 |
-| **交易ID保留期** | `transactionID` 变量可唯一地标识交易，以便将点击绑定到通过数据源上传的数据。该ID的默认保留期限为90天，到2025年1月将延长到25个月。 |  | 2025年1月22日 |
+| **交易ID保留期** | 交易ID的保留期为90天，将于2025年1月延长至25个月。 `transactionID`变量可唯一地标识交易，以便点击能与通过数据源上传的数据绑定。 |  | 2025年1月22日 |
 
 ## Adobe Analytics 中的修复
 
