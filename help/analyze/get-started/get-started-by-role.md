@@ -3,10 +3,10 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 管理员、分析师、最终用户和开发人员快速入门
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '1692'
-ht-degree: 100%
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+workflow-type: tm+mt
+source-wordcount: '1691'
+ht-degree: 99%
 
 ---
 
@@ -78,8 +78,8 @@ Analytics 管理员应先完成以下任务，然后再向组织中的用户提�
 | 异常检测 | “异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 | [异常检测概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | 贡献分析 | “贡献分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。 | [贡献分析概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Analytics 分段 | 可让您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-| 将受众发布到 Audience Manager | Adobe Audience Manager 是一个强大的数据管理平台，它帮助您从第一方、第二方（合作伙伴）和第三方的数据集成构建独特的受众个人资料。 | [Audience Analytics 概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
-| 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans">流媒体收藏集附加组件</a></li> | [Analytics 集成](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=zh-Hans) |
+| 将受众发布到 Audience Manager | Adobe Audience Manager 是一个强大的数据管理平台，它帮助您从第一方、第二方（合作伙伴）和第三方的数据集成构建独特的受众轮廓。 | [Audience Analytics 概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
+| 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans">流媒体收藏集</a></li> | [Analytics 集成](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=zh-Hans) |
 
 {style="table-layout:auto"}
 

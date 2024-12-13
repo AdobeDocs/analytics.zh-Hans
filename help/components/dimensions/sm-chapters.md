@@ -2,9 +2,10 @@
 title: 流媒体章节维度
 description: 为报表包启用[!UICONTROL 媒体章节]时可用的维度。
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 14%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 14%
 
 *本页介绍了为报表包启用[!UICONTROL 媒体章节]时可用的维度。 有关可用量度，请参阅[流媒体章节量度](../metrics/sm-chapters.md)。*
 
-流媒体章节维度通过流媒体收集库为数据收集提供补充报表功能。 使用这些维度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集加载项]**。 有关详细信息，请与您的Adobe客户团队联系。
+流媒体章节维度通过流媒体收集库为数据收集提供补充报表功能。 使用这些维度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集]**。 有关详细信息，请与您的Adobe客户团队联系。
 
 当您在[媒体报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下启用&#x200B;**[!UICONTROL 媒体章节]**&#x200B;时，以下维度可用：
 

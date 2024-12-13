@@ -2,16 +2,17 @@
 title: 流媒体播放器状态跟踪量度
 description: 为报表包启用[!UICONTROL 播放器状态跟踪]时可用的量度。
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
 # 流媒体播放器状态跟踪量度
 
-流媒体播放器状态跟踪量度通过流媒体收集库为数据收集提供补充报告功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集加载项]**。 有关详细信息，请与您的Adobe客户团队联系。
+流媒体播放器状态跟踪量度通过流媒体收集库为数据收集提供补充报告功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集]**。 有关详细信息，请与您的Adobe客户团队联系。
 
 当您在[媒体报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下启用&#x200B;**[!UICONTROL 播放器状态跟踪]**&#x200B;时，以下量度可用：
 

@@ -2,9 +2,10 @@
 title: 流媒体广告维度
 description: 为报表包启用[!UICONTROL 媒体广告]时可用的维度。
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 15%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 15%
 
 *本页介绍了为报表包启用[!UICONTROL 媒体广告]时可用的维度。 有关可用量度，请参阅[流媒体广告量度](../metrics/sm-ads.md)。*
 
-流媒体广告维度通过流媒体收集库为数据收集提供补充报表功能。 使用这些维度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集加载项]**。 有关详细信息，请与您的Adobe客户团队联系。
+流媒体广告维度通过流媒体收集库为数据收集提供补充报表功能。 使用这些维度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集]**。 有关详细信息，请与您的Adobe客户团队联系。
 
 当您在[媒体报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下启用&#x200B;**[!UICONTROL 媒体广告]**&#x200B;时，以下维度可用：
 

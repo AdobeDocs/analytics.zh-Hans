@@ -2,9 +2,10 @@
 title: 流媒体质量量度
 description: 为报表包启用[!UICONTROL 媒体质量]时可用的量度。
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *本页介绍了为报表包启用[!UICONTROL 媒体质量]时可用的量度。 有关可用维度，请参阅[流媒体质量维度](../dimensions/sm-quality.md)。*
 
-流媒体质量量度通过流媒体收集库为数据收集提供补充报表功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集加载项]**。 有关详细信息，请与您的Adobe客户团队联系。
+流媒体质量量度通过流媒体收集库为数据收集提供补充报表功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集]**。 有关详细信息，请与您的Adobe客户团队联系。
 
 当您在[媒体报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下启用&#x200B;**[!UICONTROL 媒体质量]**&#x200B;时，以下量度可用：
 
