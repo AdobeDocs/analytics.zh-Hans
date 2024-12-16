@@ -3,9 +3,9 @@ description: 管理警报。
 title: 警报管理器概述
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 6%
 
 ---
@@ -61,14 +61,14 @@ ht-degree: 6%
    | 操作 | 功能 |
    |---------|----------|
    | [!UICONTROL **标记**] | 将标记应用于警报。 这有助于您组织警报以方便使用。 |
-   | [!UICONTROL **删除**] | 删除警报。 |
+   | [!UICONTROL **Delete**] | 删除警报。 |
    | [!UICONTROL **重命名**] | 重命名警报。 |
    | [!UICONTROL **批准**] | 将警报标记为已批准。 |
    | [!UICONTROL **Copy**] | 创建警报的副本（重复）。 |
    | [!UICONTROL **禁用**] | 禁用当前启用的警报。 |
    | [!UICONTROL **启用**] | 启用当前已禁用的警报。 |
    | [!UICONTROL **续订**] | 更新警报到期日期。 这会将过期日期延长一年的时间（从选择此选项之日算起，而不考虑原始过期日期）。 |
-   | [!UICONTROL **导出到 CSV**] | 将警报导出到.CSV文件。 |
+   | [!UICONTROL **导出至 CSV**] | 将警报导出到.CSV文件。 |
 
 ## 编辑警报
 
@@ -85,11 +85,13 @@ ht-degree: 6%
    以下是编辑警报时可以执行的一些操作：
 
    * 将警报添加到其他报表包
-   * 更改所有者
-   * 更新过滤器
-   * 更新到期日期
+   * 添加或修改说明
+   * 修改时间粒度
+   * 修改收件人
+   * 修改到期日期
+   * 修改量度和过滤器
 
-1. 编辑警报，然后选择&#x200B;[!UICONTROL **保存**]。
+1. 选择&#x200B;[!UICONTROL **保存**]。
 
 ## 配置列
 
