@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 50%
+source-wordcount: '523'
+ht-degree: 51%
 
 ---
 
@@ -66,8 +66,8 @@ Report Builder中心包含“创建”、“管理”和“计划”按钮、“
 
 ### 日期范围
 
-**[!UICONTROL 日期范围]**&#x200B;显示所选数据块的日期范围。如果选择具有多个日期范围的多个数据块，则&#x200B;**[!UICONTROL 日期范围]**&#x200B;链接显示&#x200B;*多个*。
+**[!UICONTROL 日期范围]**&#x200B;显示所选数据块的日期范围。如果选择具有多个日期范围的多个数据块，则&#x200B;**[!UICONTROL 日期范围]**&#x200B;链接显示&#x200B;*多个*。 [了解详情](/help/analyze/report-builder/select-date-range.md)
 
 ### 区段
 
-**区段**&#x200B;链接显示所选数据块使用的区段的摘要列表。 如果选择应用了多个区段的多个数据块，则&#x200B;**区段**&#x200B;链接显示&#x200B;*多个*。
+**区段**&#x200B;链接显示所选数据块使用的区段的摘要列表。 如果选择应用了多个区段的多个数据块，则&#x200B;**区段**&#x200B;链接显示&#x200B;*多个*。 [了解详情](/help/analyze/report-builder/work-with-segments.md)

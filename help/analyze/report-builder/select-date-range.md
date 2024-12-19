@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 89%
 
 **从单元格**
 
-使用“从单元格”选项，您可以引用在工作表单元格中输入的日期。
+**[!UICONTROL 从单元格]**&#x200B;选项允许您引用工作表单元格中输入的日期。
 
 您可以通过选项在任意选择的日期范围上排除当天。
 
