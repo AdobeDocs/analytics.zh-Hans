@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -95,7 +96,7 @@ ht-degree: 77%
 
 1. 在搜索字段中输入值。
 
-1. 单击“添加”箭头以确认选区和添加另一个条件项。
+1. 单击&#x200B;**[!UICONTROL 添加行]**&#x200B;以确认选择并添加另一个条件项。
 
 1. 单击删除图标可删除条件项。
 
@@ -118,15 +119,15 @@ ht-degree: 77%
 
 ## 特定筛选
 
-使用“特定”选项，您可以为每个维度创建固定的维度项列表。使用&#x200B;**特定**&#x200B;筛选类型指定要包括在过滤器中的确切维度项。可从列表或从单元格范围中选择项。
+使用“特定”选项，您可以为每个维度创建固定的维度项列表。使用&#x200B;**[!UICONTROL 特定]**&#x200B;筛选类型指定要包括在过滤器中的确切维度项。可从列表或从单元格范围中选择项。
 
 ![特定选项和选定项。](./assets/image32.png)
 
 ### 从列表
 
-1. 选择&#x200B;**从列表**&#x200B;选项以搜索和选择维度项。
+1. 选择&#x200B;**[!UICONTROL 从列表]**&#x200B;选项以搜索和选择维度项。
 
-   选择&#x200B;**从列表**&#x200B;选项时，列表中填充维度项，具有最多事件的维度在前。
+   选择&#x200B;**[!UICONTROL 从列表]**&#x200B;选项时，列表中填充维度项，具有最多事件的维度在前。
 
    ![从列表选项和可用项。](./assets/image33.png)
 
@@ -142,7 +143,7 @@ ht-degree: 77%
 
 1. 选择维度项。
 
-   所选维度项自动添加到&#x200B;**选定项**&#x200B;列表中。
+   所选维度项自动添加到&#x200B;**[!UICONTROL 选定项]**&#x200B;列表中。
 
    ![](./assets/image35.png)
 
@@ -176,4 +177,4 @@ ht-degree: 77%
 
 ![Dimension选项卡和维度列表。](./assets/dimensions_chevron.png)
 
-您可以将项拖放到&#x200B;**表**&#x200B;上或者双击项名称以将其添加到&#x200B;**表**&#x200B;生成器。
+您可以将项拖放到&#x200B;**[!UICONTROL 表]**&#x200B;上或者双击项名称以将其添加到&#x200B;**[!UICONTROL 表]**&#x200B;生成器。

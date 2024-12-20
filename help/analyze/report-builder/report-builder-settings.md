@@ -5,10 +5,11 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 88%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 88%
 
 1. 单击&#x200B;**应用**。
 
-   显示“取消并应用”按钮的![Report Builder日期范围窗格。](./assets/image38.png)
+   ![Report Builder设置。](./assets/image38.png)
 
 ## 离线模式
 
@@ -32,13 +33,13 @@ ht-degree: 88%
 
 启用离线模式
 
-1. 单击&#x200B;**设置**&#x200B;图标。
+1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标。
 
-1. 选择&#x200B;**启用离线模式**。
+1. 选择&#x200B;**[!UICONTROL 启用离线模式]e**。
 
-1. 在&#x200B;**将量度数据显示为**&#x200B;字段中输入正整数。
+1. 在&#x200B;**[!UICONTROL 将量度数据显示为]**&#x200B;字段中输入正整数。
 
-1. 单击&#x200B;**应用**。
+1. 单击&#x200B;**[!UICONTROL 应用]**。
 
 ## 语言
 
@@ -48,14 +49,14 @@ ht-degree: 88%
 
 1. 单击“设置”。
 
-1. 从&#x200B;**语言**&#x200B;下拉菜单中选择语言。
+1. 从&#x200B;**[!UICONTROL 语言]**&#x200B;下拉菜单中选择语言。
 
    ![Report Builder日期范围窗格，显示选择了英语的语言列表。](./assets/image39.png)
 
-1. 单击&#x200B;**应用**。
+1. 单击&#x200B;**[!UICONTROL 应用].**
 
 ## 故障排除
 
 使用“故障排除”设置将所有客户端/服务器数据记录到本地文件。使用此选项帮助解决支持服务单。
 
-要启用故障排除选项，请选择&#x200B;**将 Report Builder 请求记录到本地文件**。
+要启用“疑难解答”选项，请选择&#x200B;**[!UICONTROL 将Report Builder数据块记录到Web控制台]**。
