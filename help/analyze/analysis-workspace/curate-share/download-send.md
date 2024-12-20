@@ -4,10 +4,10 @@ title: 下载 PDF 或 CSV 文件
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
+source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 90%
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 90%
    ![](assets/download-project.png)
 
 1. （视情况而定）如果您选择下载 PDF，则在准备好下载项目后显示一条消息。单击&#x200B;[!UICONTROL **下载**]。
+1. 单击&#x200B;**[!UICONTROL 下载此文件]**&#x200B;图标并将文件保存到您选择的文件夹中。
 
 ## 将数据复制到剪贴板（热键：Ctrl+C） {#copy-data}
 
