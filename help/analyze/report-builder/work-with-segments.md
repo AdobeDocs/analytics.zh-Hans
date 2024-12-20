@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -83,8 +83,6 @@ ht-degree: 4%
 
    选择某个筛选器以将其添加到&#x200B;**[!UICONTROL 替换为...]** 列表中。
 
-   ![已选中“应用程序上的联系人”数据块的“替换”选项卡，并且更新了“替换为”列表，显示“应用程序上的联系人”已修订。](./assets/replace_screen_new.png)
-
 1. 单击&#x200B;**[!UICONTROL 应用]**。
 
    Report Builder会更新区段列表以反映替换情况。
@@ -103,7 +101,7 @@ ht-degree: 4%
 
 1. 选择要数据块从中引用区段的单元格。
 
-1. 通过双击区段或者将其拖放到包含的区段部分来添加要添加到单元格的区段选择。
+1. 通过双击区段或者将其拖放到&#x200B;**[!UICONTROL 包含的区段]**&#x200B;部分来添加要添加到单元格的区段选择。
 
    注意：一次只能为给定单元格选择一个选项。
 
