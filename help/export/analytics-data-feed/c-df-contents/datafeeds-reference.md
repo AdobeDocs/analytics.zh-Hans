@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
-source-wordcount: '3580'
+source-wordcount: '3617'
 ht-degree: 67%
 
 ---
@@ -240,7 +240,7 @@ ht-degree: 67%
 | **`visid_low`** | 与 `visid_high` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | **`visid_new`** | 确定点击是否包含新生成的访客ID的标记。 | char(1) |
 | **`visid_timestamp`** | 如果访客ID是新生成的，则会以UNIX为单位提供时间戳®访客ID的生成时间。 | int |
-| **`visid_type`** | 不能用于外部用途；Adobe 内部用于处理优化。数字ID，表示用于识别访客的方法。<br>`0`：自定义访客 ID 或未知/不适用<br>`1`：IP 和用户代理回退<br>`2`：HTTP 移动订户标头<br>`3`：旧版 Cookie 值 (`s_vi`)<br>`4`：回退 Cookie 值 (`s_fid`)<br>`5`：身份服务 | 无符号 tinyint |
+| **`visid_type`** | 不能用于外部用途；Adobe 内部用于处理优化。数字ID，表示用于识别访客的方法。<br>`0`：自定义访客 ID 或未知/不适用<br>`1`：IP 和用户代理回退<br>`2`：HTTP 移动订户标头<br>`3`：旧版 Cookie 值 (`s_vi`)<br>`4`：回退 Cookie 值 (`s_fid`)<br>`5`：身份标识服务 | 无符号 tinyint |
 | **`visit_keywords`** | [搜索关键字](/help/components/dimensions/search-keyword.md)维度。 此列使用 varchar(244) 的非标准字符限制容纳 Adobe 使用的后端逻辑。 | varchar(244) |
 | **`visit_num`** | “访问次数](/help/components/dimensions/visit-number.md)”[维度。起始值为 1，每当每个访客开始新的访问时，此项就会递增。 | 无符号 int |
 | **`visit_page_num`** | 命 [中深度](/help/components/dimensions/hit-depth.md) 维度。 访客产生的每命中增加 1。 每次访问后重置。 | 无符号 int |
@@ -259,7 +259,7 @@ ht-degree: 67%
 
 ## 未使用或已弃用的列
 
-以下列列表未使用，通常不包含数据。 当前数据收集库不支持包含数据的列，这些列在Analysis Workspace中不可用。
+以下列列表未使用、已弃用，或者未包含报表中的值。 其中一些列与已失效的功能相关联，而其他列则由于更可靠的新功能而不再需要。 这些列中的大多数不包含数据；当前数据收集库不支持可能仍包含数据的列，并且这些列在Analysis Workspace中不可用。
 
 * `adclassificationcreative`
 * `click_action`
@@ -338,6 +338,7 @@ ht-degree: 67%
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`
