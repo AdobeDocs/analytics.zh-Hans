@@ -4,9 +4,9 @@ description: 与Activity Map相关的常见问题解答。
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 64964972410911c2bea1460039def39b7c6dfa38
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1112'
 ht-degree: 15%
 
 ---
@@ -35,7 +35,7 @@ Activity Map所需的[权限项](/help/admin/admin-console/permissions/product-p
 
 +++所有Analytics客户都可以访问Activity Map吗？
 
-具有Adobe Analytics Standard、Premium和Ultimate合同的组织可以访问Activity Map。 这些合同类型代表大多数Adobe Analytics客户。
+具有Adobe Analytics Standard、Premium和Ultimate合同的组织有权访问Activity Map。 这些合同类型代表大多数Adobe Analytics客户。
 
 +++
 
@@ -203,7 +203,11 @@ Activity Map跟踪以下元素：
 
 +++Activity Map不会自动跟踪的链接有哪些示例？
 
-以下是Activity Map不跟踪点击的一些示例。
+* 锚标记没有有效的`href`
+* [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md)或[`tl()`](/help/implement/vars/functions/tl-method.md)方法都不存在
+* 表单输入元素中缺少`src`属性
+
+以下是Activity Map不跟踪点击的一些示例：
 
 ```html
 <!-- Anchor tag does not have a valid href -->

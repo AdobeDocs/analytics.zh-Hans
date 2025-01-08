@@ -3,10 +3,10 @@ title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 97%
+source-wordcount: '897'
+ht-degree: 60%
 
 ---
 
@@ -24,125 +24,125 @@ ht-degree: 97%
 |---|---|
 | Analytics for Target | `targetraw` |
 | 受众 ID | `mcaudiences` |
-| 浏览器 | `browser` |
-| 浏览器类型 | `browsertype` |
-| 类别 | `category` |
-| 城市 | `geocity` |
-| 颜色深度 | `colordepth` |
-| 连接类型 | `connectiontype` |
-| Cookie 支持 | `cookie` |
-| 国家/地区 | `geocountry` |
-| 客户忠诚度 | `customerloyalty` |
-| 自定义转化变量 | `evar1`、`evar2` 等。 |
-| 自定义分析变量 | `prop1`、`prop2` 等。 |
-| 自定义链接 | `customlink` |
-| 首次购买间隔天数 | `daysbeforefirstpurchase` |
-| 上次购买间隔天数 | `dayssincelastpurchase` |
-| 域 | `filtereddomain` |
-| 下载链接 | `downloadlink` |
-| 登录页面 | `entrypage` |
-| 原始登入页面 | `entrypageoriginal` |
-| 退出链接 | `exitlink` |
-| 首个联系渠道 | `firsttouchchannel` |
-| 首个联系渠道详细信息 | `firsttouchchanneldetail` |
-| 已启用 Java | `javaenabled` |
-| 语言 | `language` |
-| 最近联系渠道 | `lasttouchchannel` |
-| 最近联系渠道详细信息 | `lasttouchchanneldetail` |
+| [浏览器](browser.md) | `browser` |
+| [浏览器类型](browser-type.md) | `browsertype` |
+| [类别](category.md) | `category` |
+| [城市](cities.md) | `geocity` |
+| [颜色深度](color-depth.md) | `colordepth` |
+| [连接类型](connection-type.md) | `connectiontype` |
+| [Cookie支持](cookie-support.md) | `cookie` |
+| [国家/地区](countries.md) | `geocountry` |
+| [客户忠诚度](customer-loyalty.md) | `customerloyalty` |
+| [自定义转化变量](evar.md) | `evar1`、`evar2` 等。 |
+| [Custom Insight Var](prop.md) | `prop1`、`prop2` 等。 |
+| [自定义链接](custom-link.md) | `customlink` |
+| [首次购买间隔天数](days-before-first-purchase.md) | `daysbeforefirstpurchase` |
+| [上次购买间隔天数](days-since-last-purchase.md) | `dayssincelastpurchase` |
+| [域](domain.md) | `filtereddomain` |
+| [下载链接](download-link.md) | `downloadlink` |
+| [登录页面](entry-dimensions.md) | `entrypage` |
+| [原始登入页面](entry-dimensions.md) | `entrypageoriginal` |
+| [退出链接](exit-link.md) | `exitlink` |
+| [首次联系渠道](first-touch-channel.md) | `firsttouchchannel` |
+| [首次联系渠道详细信息](first-touch-detail.md) | `firsttouchchanneldetail` |
+| [已启用 Java](java-enabled.md) | `javaenabled` |
+| [语言](language.md) | `language` |
+| [最近联系渠道](last-touch-channel.md) | `lasttouchchannel` |
+| [最近联系渠道详细信息](last-touch-detail.md) | `lasttouchchanneldetail` |
 | 列表变量 | `listvariables` |
-| 营销渠道 | `marketingchannel` |
-| 移动设备音频支持 | `mobileaudiosupport` |
-| 移动设备运营商 | `mobilecarrier` |
-| 移动设备颜色深度 | `mobilecolordepth` |
-| 移动设备 Cookie 支持 | `mobilecookiesupport` |
-| 移动设备 | `mobiledevicename` |
-| 移动设备类型 | `mobiledevicetype` |
-| 移动设备电子邮件最大长度 | `mobileemaillength` |
-| 移动设备图像支持 | `mobileimagesupport` |
-| 移动设备制造商 | `mobilemanufacturer` |
-| 移动设备操作系统（已弃用） | `mobileos` |
-| 移动设备屏幕高度 | `mobilescreenheight` |
-| 移动设备屏幕大小 | `mobilescreensize` |
-| 移动设备屏幕宽度 | `mobilescreenwidth` |
-| 移动设备浏览器 URL 最大长度 | `mobileurllength` |
-| 移动设备视频支持 | `mobilevideosupport` |
-| 监视器分辨率 | `monitorresolution` |
-| 操作系统 | `operatingsystem` |
-| 原始反向链接域 | `referringdomainoriginal` |
-| 页面 | `page` |
-| 页面未找到 | `pagesnotfound` |
-| 产品 | `product` |
-| 反向链接 | `referrer` |
-| 反向链接类型 | `referrertype` |
-| 反向链接域 | `referringdomain` |
-| 地区 | `georegion` |
-| 回访频度 | `returnfrequency` |
+| [营销渠道](marketing-channel.md) | `marketingchannel` |
+| [移动音频支持](mobile-dimensions.md) | `mobileaudiosupport` |
+| [移动设备运营商](mobile-dimensions.md) | `mobilecarrier` |
+| [移动设备颜色深度](mobile-dimensions.md) | `mobilecolordepth` |
+| [移动设备Cookie支持](mobile-dimensions.md) | `mobilecookiesupport` |
+| [移动设备](mobile-dimensions.md) | `mobiledevicename` |
+| [移动设备类型](mobile-dimensions.md) | `mobiledevicetype` |
+| [移动设备电子邮件最大长度](mobile-dimensions.md) | `mobileemaillength` |
+| [移动设备图像支持](mobile-dimensions.md) | `mobileimagesupport` |
+| [移动设备制造商](mobile-dimensions.md) | `mobilemanufacturer` |
+| [移动设备操作系统（已弃用）](mobile-dimensions.md) | `mobileos` |
+| [移动设备屏幕高度](mobile-dimensions.md) | `mobilescreenheight` |
+| [移动设备屏幕大小](mobile-dimensions.md) | `mobilescreensize` |
+| [移动设备屏幕宽度](mobile-dimensions.md) | `mobilescreenwidth` |
+| [移动设备最大浏览器URL长度](mobile-dimensions.md) | `mobileurllength` |
+| [移动设备视频支持](mobile-dimensions.md) | `mobilevideosupport` |
+| [监视器分辨率](monitor-resolution.md) | `monitorresolution` |
+| [操作系统](operating-systems.md) | `operatingsystem` |
+| [原始反向链接域](original-referring-domain.md) | `referringdomainoriginal` |
+| [页面](page.md) | `page` |
+| [页面未找到](pages-not-found.md) | `pagesnotfound` |
+| [产品](product.md) | `product` |
+| [反向链接](referrer.md) | `referrer` |
+| [反向链接类型](referrer-type.md) | `referrertype` |
+| [反向链接域](referring-domain.md) | `referringdomain` |
+| [地区](regions.md) | `georegion` |
+| [回访频度](return-frequency.md) | `returnfrequency` |
 | SC-TnT | `tntbase` |
-| 搜索引擎 | `searchengine` |
-| 搜索关键词 | `searchenginekeyword` |
-| 搜索引擎 - 免费 | `searchenginenatural` |
-| 搜索引擎 — 付费 | `searchenginepaid` |
-| 搜索关键词 — 免费 | `searchenginenaturalkeyword` |
-| 搜索关键词 — 付费 | `searchenginepaidkeyword` |
-| 所有搜索页面排名 | `searchenginepagerank` |
-| 服务器 | `server` |
-| 单页面访问量 | `singlepagevisits` |
-| 网站区域 | `sitesections` |
-| 每次访问逗留时间 — 粒度 | `sitetime` |
-| 跟踪代码 | `campaign` |
-| 美国 DMA | `geodma` |
-| 美国各州 | `state` |
-| 发生事件之前逗留的时间 | `timeprior` |
-| 每次访问逗留时间 — 分段统计 | `timespent` |
-| 访问深度 | `pathlength` |
-| 访问量 | `visitnumber` |
-| 邮政编码 | `zip` |
-| 上午/下午 | `timepartampm` |
-| 浏览器高度 — 分段统计 | `browserheightbucketed` |
-| 浏览器宽度 — 分段统计 | `browserwidthbucketed` |
-| 日 | `daterangeday` |
-| 月中几号 | `timepartdayofmonth` |
-| 每周时间 | `dayofweek` |
-| 每周时间 | `timepartdayofweek` |
-| 年中哪天 | `timepartdayofyear` |
-| 上次访问间隔天数 | `dayssincelastvisit` |
-| 登录自定义分析 | `entryprops` |
-| 登录列表变量 | `entrylistvariables` |
-| 登录服务器 | `entryserver` |
-| 登录网站区域 | `entrysitesections` |
-| 退出点自定义分析 | `exitprops` |
-| 退出点列表变量 | `exitlistvariables` |
-| 退出页面 | `exitpage` |
-| 退出服务器 | `exitserver` |
-| 退出网站区域 | `exitsitesections` |
-| 点击深度 | `hitdepth` |
-| 点击类型 | `hittype` |
-| 小时 | `daterangehour` |
-| 小时 | `timeparthourofday` |
-| 营销渠道详细信息 | `marketingchanneldetail` |
-| 分钟 | `daterangeminute` |
-| 移动设备书签最大长度 | `mobilebookmarklength` |
-| 移动设备数 | `mobiledevicenumber` |
-| 移动设备 DRM | `mobiledrm` |
-| 移动设备信息服务 | `mobileinformationservices` |
-| 移动设备 Java VM | `mobilejavavm` |
-| 移动设备邮件修饰 | `mobilemaildecoration` |
-| 移动设备网络协议 | `mobilenetprotocols` |
-| 移动设备按键通话 | `mobilepushtotalk` |
-| 月 | `daterangemonth` |
-| 月份 | `timepartmonthofyear` |
-| 操作系统类型 | `operatingsystemgroup` |
-| 付费搜索 | `paidsearch` |
-| 永久 Cookie 支持 | `persistentcookie` |
-| 季度 | `daterangequarter` |
-| 季度 | `timepartquarterofyear` |
+| [搜索引擎](search-engine.md) | `searchengine` |
+| [搜索关键词](search-keyword.md) | `searchenginekeyword` |
+| [搜索引擎 — 免费](search-engine.md) | `searchenginenatural` |
+| [搜索引擎 — 付费](search-engine.md) | `searchenginepaid` |
+| [搜索关键词 — 免费](search-keyword.md) | `searchenginenaturalkeyword` |
+| [搜索关键词 — 付费](search-keyword.md) | `searchenginepaidkeyword` |
+| [所有搜索页面排名](all-search-page-rank.md) | `searchenginepagerank` |
+| [服务器](server.md) | `server` |
+| [单页面访问量](single-page-visits.md) | `singlepagevisits` |
+| [网站区域](site-section.md) | `sitesections` |
+| 每次访问逗留时间[ — 粒度](time-spent-per-visit.md) | `sitetime` |
+| [跟踪代码](tracking-code.md) | `campaign` |
+| [美国 DMA](us-dma.md) | `geodma` |
+| [美国各州](us-states.md) | `state` |
+| [发生事件之前逗留的时间](time-prior-to-event.md) | `timeprior` |
+| [每次访问逗留时间 — 分段统计](time-spent-per-visit.md) | `timespent` |
+| [访问深度](visit-depth.md) | `pathlength` |
+| [访问量](visit-number.md) | `visitnumber` |
+| [邮政编码](zip-code.md) | `zip` |
+| [上午/下午](am-pm.md) | `timepartampm` |
+| [浏览器高度 — 分段统计](browser-height.md) | `browserheightbucketed` |
+| [浏览器宽度 — 分段统计](browser-width.md) | `browserwidthbucketed` |
+| [日](day.md) | `daterangeday` |
+| [日期](day-of-month.md) | `timepartdayofmonth` |
+| [每周时间](day-of-week.md) | `dayofweek` |
+| [每周时间](day-of-week.md) | `timepartdayofweek` |
+| [每年的某一天](day-of-year.md) | `timepartdayofyear` |
+| [上次访问间隔天数](days-since-last-visit.md) | `dayssincelastvisit` |
+| [进入自定义分析](entry-dimensions.md) | `entryprops` |
+| [条目列表变量](entry-dimensions.md) | `entrylistvariables` |
+| [条目服务器](entry-dimensions.md) | `entryserver` |
+| [登录网站区域](entry-dimensions.md) | `entrysitesections` |
+| [退出自定义分析](exit-dimensions.md) | `exitprops` |
+| [退出列表变量](exit-dimensions.md) | `exitlistvariables` |
+| [退出页面](exit-dimensions.md) | `exitpage` |
+| [退出服务器](exit-dimensions.md) | `exitserver` |
+| [退出网站区域](exit-dimensions.md) | `exitsitesections` |
+| [点击深度](hit-depth.md) | `hitdepth` |
+| [点击类型](hit-type.md) | `hittype` |
+| [小时](hour.md) | `daterangehour` |
+| [小时](hour-of-day.md) | `timeparthourofday` |
+| [营销渠道详细信息](marketing-detail.md) | `marketingchanneldetail` |
+| [分钟](minute.md) | `daterangeminute` |
+| [移动设备最大书签长度](mobile-dimensions.md) | `mobilebookmarklength` |
+| [移动设备号码](mobile-dimensions.md) | `mobiledevicenumber` |
+| [移动设备DRM](mobile-dimensions.md) | `mobiledrm` |
+| [Mobile Information Services](mobile-dimensions.md) | `mobileinformationservices` |
+| [移动Java虚拟机](mobile-dimensions.md) | `mobilejavavm` |
+| [移动设备邮件修饰](mobile-dimensions.md) | `mobilemaildecoration` |
+| [移动网络协议](mobile-dimensions.md) | `mobilenetprotocols` |
+| [移动一键通](mobile-dimensions.md) | `mobilepushtotalk` |
+| [月](month.md) | `daterangemonth` |
+| [月份](month-of-year.md) | `timepartmonthofyear` |
+| [操作系统类型](operating-system-types.md) | `operatingsystemgroup` |
+| [付费搜索](paid-search.md) | `paidsearch` |
+| [永久性Cookie支持](persistent-cookie-support.md) | `persistentcookie` |
+| [季度](quarter.md) | `daterangequarter` |
+| [季度](quarter-of-year.md) | `timepartquarterofyear` |
 | 调查 | `surveybase` |
-| 页面逗留时间 — 分段统计 | `averagepagetime` |
-| 页面逗留时间 — 粒度 | `pagetimeseconds` |
-| 跟踪选择退出的原因 | `optoutreason` |
-| 工作日/周末 | `timepartweekdayweekend` |
-| 周 | `daterangeweek` |
-| 年 | `daterangeyear` |
+| [页面逗留时间 — 分段统计](time-spent-on-page.md) | `averagepagetime` |
+| [页面逗留时间 — 粒度](time-spent-on-page.md) | `pagetimeseconds` |
+| [跟踪选择退出的原因](tracking-opt-out-reason.md) | `optoutreason` |
+| [工作日/周末](weekday-weekend.md) | `timepartweekdayweekend` |
+| [周](week.md) | `daterangeweek` |
+| [年](year.md) | `daterangeyear` |
 
 ## 仅在 Analysis Workspace 中受支持的内容感知维度
 
@@ -161,53 +161,55 @@ ht-degree: 97%
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
-| 内容 | `video` |
-| 内容区段 | `videosegment` |
-| 内容类型 | `videocontenttype` |
-| 广告播放器名称 | `videoadplayername` |
-| 面板中的广告位置 | `videoadinpod` |
-| 丢帧 | `videoqoedroppedframecountevar` |
-| 错误 | `videoqoeerrorcountevar` |
-| 平均比特率 | `videoqoebitrateaverageevar` |
-| 比特率更改 | `videoqoebitratechangecountevar` |
-| 缓冲总持续时间 | `videoqoebuffertimeevar` |
-| 缓冲事件 | `videoqoebuffercountevar` |
-| 开始时间 | `videoqoetimetostartevar` |
-| 广告面板 | `videoadpod` |
-| 媒体路径 | `videopath` |
-| 广告 | `videoad` |
-| 内容播放器名称 | `videoplayername` |
-| 内容渠道 | `videochannel` |
-| 章节 | `videochapter` |
-| 内容名称（变量） | `videoname` |
-| 内容时长（变量） | `videolength` |
-| 广告名称（变量） | `videoadname` |
-| 广告长度（变量） | `videoadlength` |
-| 节目 | `videoshow` |
-| 季 | `videoseason` |
-| 剧集 | `videoepisode` |
-| 网络 | `videonetwork` |
-| 节目类型 | `videoshowtype` |
-| 广告加载次数 | `videoadload` |
-| MVPD | `videomvpd` |
-| 播出时段 | `videodaypart` |
-| 广告商 | `videoadadvertiser` |
-| 促销活动 ID | `videoadcampaign` |
-| 流派 | `videogenre` |
-| 流类型 | `videostreamtype` |
-| 播放器 SDK 错误 ID | `videoqoeplayersdkerrors` |
-| 外部错误 ID | `videoqoeextneralerrors` |
-| 媒体馈送类型 | `videofeedtype` |
-| 登录媒体路径 | `entryvideopath` |
-| 退出媒体路径 | `exitvideopath` |
-| 登录流派 | `entryvideogenre` |
-| 退出流派 | `exitvideogenre` |
-| 登录播放器 SDK 错误 ID | `entryvideoqoeplayersdkerrors` |
-| 退出播放器 SDK 错误 ID | `exitvideoqoeplayersdkerrors` |
-| 登录外部错误 ID | `entryvideoqoeextneralerrors` |
-| 退出外部错误 ID | `exitvideoqoeextneralerrors` |
+| [内容](sm-core.md) | `video` |
+| [内容区段](sm-core.md) | `videosegment` |
+| [内容类型](sm-core.md) | `videocontenttype` |
+| [广告播放器名称](sm-ads.md) | `videoadplayername` |
+| [面板中的广告位置](sm-ads.md) | `videoadinpod` |
+| [丢帧](sm-quality.md) | `videoqoedroppedframecountevar` |
+| [错误](sm-quality.md) | `videoqoeerrorcountevar` |
+| [平均比特率](sm-quality.md) | `videoqoebitrateaverageevar` |
+| [比特率更改](sm-quality.md) | `videoqoebitratechangecountevar` |
+| [缓冲总持续时间](sm-quality.md) | `videoqoebuffertimeevar` |
+| [缓冲事件](sm-quality.md) | `videoqoebuffercountevar` |
+| [开始时间](sm-quality.md) | `videoqoetimetostartevar` |
+| [广告面板](sm-ads.md) | `videoadpod` |
+| [媒体路径](sm-core.md) | `videopath` |
+| [广告](sm-ads.md) | `videoad` |
+| [内容播放器名称](sm-core.md) | `videoplayername` |
+| [内容渠道](sm-core.md) | `videochannel` |
+| [章节](sm-chapters.md) | `videochapter` |
+| [内容名称（变量）](sm-core.md) | `videoname` |
+| [内容时长（变量）](sm-core.md) | `videolength` |
+| [广告名称（变量）](sm-ads.md) | `videoadname` |
+| [广告长度（变量）](sm-ads.md) | `videoadlength` |
+| [在“客户获取链接”页面上显示](sm-video-metadata.md) | `videoshow` |
+| [季](sm-video-metadata.md) | `videoseason` |
+| [剧集](sm-video-metadata.md) | `videoepisode` |
+| [网络](sm-video-metadata.md) | `videonetwork` |
+| [显示类型](sm-video-metadata.md) | `videoshowtype` |
+| [广告加载](sm-ads.md) | `videoadload` |
+| [MVPD](sm-video-metadata.md) | `videomvpd` |
+| [播出时段](sm-video-metadata.md) | `videodaypart` |
+| [广告商](sm-ads.md) | `videoadadvertiser` |
+| [营销活动 ID](sm-ads.md) | `videoadcampaign` |
+| [流派](sm-video-metadata.md) | `videogenre` |
+| [流类型](sm-core.md) | `videostreamtype` |
+| [播放器 SDK 错误 ID](sm-quality.md) | `videoqoeplayersdkerrors` |
+| [外部错误 ID](sm-quality.md) | `videoqoeextneralerrors` |
+| [媒体馈送类型](sm-video-metadata.md) | `videofeedtype` |
+| [进入媒体路径](entry-dimensions.md) | `entryvideopath` |
+| [退出媒体路径](exit-dimensions.md) | `exitvideopath` |
+| [条目流派](entry-dimensions.md) | `entryvideogenre` |
+| [退出流派](exit-dimensions.md) | `exitvideogenre` |
+| [进入播放器SDK错误ID](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
+| [退出播放器SDK错误ID](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
+| [进入外部错误ID](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
+| [退出外部错误ID](exit-dimensions.md) | `exitvideoqoeextneralerrors` |
 
 ### Adobe Social
+
+Adobe Social退休了。
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
@@ -233,38 +235,38 @@ ht-degree: 97%
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
-| 首次启动日期 | `mobileinstalldate` |
-| 应用程序 ID | `mobileappid` |
-| 启动次数 | `mobilelaunchnumber` |
-| 首次使用后间隔天数 | `mobiledayssincefirstuse` |
-| 上次使用后间隔天数 | `mobiledayssincelastuse` |
-| 小时 (SDK) | `mobilehourofday` |
-| 每周时间 (SDK) | `mobiledayofweek` |
-| 操作系统 (SDK) | `mobileosenvironment` |
-| 上次升级后间隔天数 | `mobiledayssincelastupgrade` |
-| 上次升级后启动次数 | `mobilelaunchessincelastupgrade` |
-| 设备名称 (SDK) | `mobiledevice` |
-| 操作系统版本 (SDK) | `mobileosversion` |
-| 信标 Major | `mobilebeaconmajor` |
-| 信标 Minor | `mobilebeaconminor` |
-| 信标 UUID | `mobilebeaconuuid` |
-| 信标 Proximity | `mobilebeaconproximity` |
-| 位置（精确到 10 千米） | `latlon1` |
-| 位置（精确到 100 米） | `latlon23` |
-| 位置（精确到 1 米） | `latlon45` |
-| 目标点名称 | `pointofinterest` |
-| 与目标点中心的距离 | `pointofinterestdistance` |
-| 位置准确度 | `mobileplaceaccuracy` |
-| 位置目录 | `mobileplacecategory` |
-| 位置 ID | `mobileplaceid` |
-| 登录信标 Major | `entrymobilebeaconmajor` |
-| 退出信标 Major | `exitmobilebeaconmajor` |
-| 登录信标 Minor | `entrymobilebeaconminor` |
-| 退出信标 Minor | `exitmobilebeaconminor` |
-| 登录信标 UUID | `entrymobilebeaconuuid` |
-| 退出信标 UUID | `exitmobilebeaconuuid` |
-| 登录信标 Proximity | `entrymobilebeaconproximity` |
-| 退出信标 Proximity | `exitmobilebeaconproximity` |
+| [首次启动日期](lifecycle-dimensions.md) | `mobileinstalldate` |
+| [应用程序ID](lifecycle-dimensions.md) | `mobileappid` |
+| [启动次数](lifecycle-dimensions.md) | `mobilelaunchnumber` |
+| [首次使用后间隔天数](lifecycle-dimensions.md) | `mobiledayssincefirstuse` |
+| [上次使用后间隔天数](lifecycle-dimensions.md) | `mobiledayssincelastuse` |
+| [小时(SDK)](lifecycle-dimensions.md) | `mobilehourofday` |
+| [每周时间(SDK)](lifecycle-dimensions.md) | `mobiledayofweek` |
+| [操作系统(SDK)](lifecycle-dimensions.md) | `mobileosenvironment` |
+| [上次升级后间隔天数](lifecycle-dimensions.md) | `mobiledayssincelastupgrade` |
+| [上次升级后启动次数](lifecycle-dimensions.md) | `mobilelaunchessincelastupgrade` |
+| [设备名称(SDK)](lifecycle-dimensions.md) | `mobiledevice` |
+| [操作系统版本(SDK)](lifecycle-dimensions.md) | `mobileosversion` |
+| [信标Major](lifecycle-dimensions.md) | `mobilebeaconmajor` |
+| [次要信标](lifecycle-dimensions.md) | `mobilebeaconminor` |
+| [信标UUID](lifecycle-dimensions.md) | `mobilebeaconuuid` |
+| [邻近地区信标](lifecycle-dimensions.md) | `mobilebeaconproximity` |
+| [位置（精确到 10 千米）](lifecycle-dimensions.md) | `latlon1` |
+| [位置（精确到 100 米）](lifecycle-dimensions.md) | `latlon23` |
+| [位置（精确到 1 米）](lifecycle-dimensions.md) | `latlon45` |
+| [目标点名称](lifecycle-dimensions.md) | `pointofinterest` |
+| [与目标点中心的距离](lifecycle-dimensions.md) | `pointofinterestdistance` |
+| [位置准确度](lifecycle-dimensions.md) | `mobileplaceaccuracy` |
+| [放置类别](lifecycle-dimensions.md) | `mobileplacecategory` |
+| [地标ID](lifecycle-dimensions.md) | `mobileplaceid` |
+| [登录信标Major](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
+| [退出信标Major](lifecycle-dimensions.md) | `exitmobilebeaconmajor` |
+| [登录信标Minor](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
+| [退出信标Minor](lifecycle-dimensions.md) | `exitmobilebeaconminor` |
+| [登录信标UUID](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
+| [退出信标UUID](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
+| [登录信标Proximity](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
+| [退出信标Proximity](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
 ### Adobe Advertising Cloud (AMO)
 
@@ -277,14 +279,14 @@ ht-degree: 97%
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
-| 按区域划分的 Activity Map 链接 | `clickmaplinkbyregion` |
-| Activity Map 区域 | `clickmapregion` |
-| Activity Map 链接 | `clickmaplink` |
-| Activity Map 页面 | `clickmappage` |
+| [Activity Map链接（按地区）](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [Activity Map地区](activity-map-region.md) | `clickmapregion` |
+| [Activity Map链接](activity-map-link.md) | `clickmaplink` |
+| [Activity Map页面](activity-map-page.md) | `clickmappage` |
 
 ### Nielsen 集成
 
-有关如何实施此集成的更多信息，请参阅 [Nielsen 扩展](https://exchange.adobe.com/experiencecloud.details.101361.html)。
+有关如何实施此集成的更多信息，请参阅Adobe Exchange上的[Nielsen扩展](https://exchange.adobe.com/apps/ec/101361)。
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
@@ -293,7 +295,7 @@ ht-degree: 97%
 | Nielsen 区段 B | `nielsensegmentb` |
 | Nielsen 区段 A | `nielsensegmenta` |
 | Nielsen 内容 ID | `nielsencontentid` |
-| Nielsen 资产/节目 | `nielsenasset` |
+| Nielsen资产/计划 | `nielsenasset` |
 | Nielsen VCID | `nielsenvcid` |
 | Nielsen 选择退出 | `nielsenoptout` |
 | Nielsen 客户 ID + VCID | `nielsenclientidvcid` |
