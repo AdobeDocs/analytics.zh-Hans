@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
+source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 6%
+source-wordcount: '691'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 6%
    | **[!UICONTROL 名称]** | 为模板提供描述性名称。 |
    | **[!UICONTROL 描述]** | 提供模板的简短描述，描述其预期用途。 |
    | **[!UICONTROL 为何使用此模板]** | 提供简短说明，以告知组织中的人员如何使用此模板。 此说明将显示在模板的“预览”页面上。 |
-   | **[!UICONTROL 渠道]** | 选择适用于此模板的任何适用渠道。 您可以选择多个渠道： **[!UICONTROL Web]**、**[!UICONTROL 移动设备]**、**[!UICONTROL 跨渠道]**、**[!UICONTROL 呼叫中心]**&#x200B;和&#x200B;**[!UICONTROL 店内]**。<p>您选择的选项决定了显示模板的位置，以及哪些过滤器适用于从“组织模板”页访问模板的用户。</p> |
    | **[!UICONTROL 用例]** | 选择适用于此模板的任何用例。 您可以选择多个用例：**[!UICONTROL 参与]**、**[!UICONTROL 转化]**、**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 客户获取]**。 <p>您选择的选项决定了显示模板的位置，以及哪些过滤器适用于从“组织模板”页访问模板的用户。</p> |
    | **[!UICONTROL 标记]** | 指定要应用于模板的任何标记。 用户可按您添加的标记筛选模板列表。 |
 
@@ -71,6 +70,22 @@ ht-degree: 6%
    1. 选择更多图标，然后选择&#x200B;**[!UICONTROL 编辑]**&#x200B;或&#x200B;**[!UICONTROL 删除]**。
 
       ![公司模板信息卡编辑或删除](assets/company-template-card-edit-delete.png)
+
+1. 如果您正在编辑模板，请进行任何所需的编辑，然后选择&#x200B;[!UICONTROL **项目**] > **[!UICONTROL 另存为模板……]**。
+
+   ![公司模板](assets/company-template-save.png)
+
+1. 在[!UICONTROL 另存为模板]对话框中指定以下信息：
+
+   | 字段 | 描述 |
+   |---------|----------|
+   | **[!UICONTROL 名称]** | 为模板提供描述性名称。 |
+   | **[!UICONTROL 描述]** | 提供模板的简短描述，描述其预期用途。 |
+   | **[!UICONTROL 为何使用此模板]** | 提供简短说明，以告知组织中的人员如何使用此模板。 此说明将显示在模板的“预览”页面上。 |
+   | **[!UICONTROL 用例]** | 选择适用于此模板的任何用例。 您可以选择多个用例：**[!UICONTROL 参与]**、**[!UICONTROL 转化]**、**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 客户获取]**。 <p>您选择的选项决定了显示模板的位置，以及哪些过滤器适用于从“组织模板”页访问模板的用户。</p> |
+   | **[!UICONTROL 标记]** | 指定要应用于模板的任何标记。 用户可按您添加的标记筛选模板列表。 |
+
+1. 选择&#x200B;[!UICONTROL **另存为模板**]。
 
 ## 重命名、标记或批准模板
 
