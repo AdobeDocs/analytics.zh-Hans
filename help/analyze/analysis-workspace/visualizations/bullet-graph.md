@@ -4,14 +4,32 @@ title: 项目符号图表
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
+source-git-commit: 7f84679a0d1c9cf1609bf8e01e0209936215d7ff
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# 项目符号图表
+# 项目符号图表 {#bullet-graph}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_goalvalue"
+>title="目标值"
+>abstract="**[!UICONTROL 高目标]**&#x200B;是您的主要目标。**[!UICONTROL 低目标]**&#x200B;和&#x200B;**[!UICONTROL 中目标]**&#x200B;创建的是低于[!UICONTROL 高目标]的范围。注意：选中&#x200B;**[!UICONTROL 百分比]**&#x200B;选项时，请以整数形式输入目标。例如：如果您的目标是百分之二十，则输入 `20`。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_button"
+>title="项目符号"
+>abstract="创建可视化项目符号图表来显示量度与性能范围（目标）之间的比较。"
+
+<!-- markdownlint-enable MD034 -->
 
 让您可以查看您感兴趣的值与其他性能范围（目标）进行比较或衡量的结果。
 
