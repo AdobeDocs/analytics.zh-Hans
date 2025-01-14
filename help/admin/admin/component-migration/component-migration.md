@@ -3,9 +3,9 @@ description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer J
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
+source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1453'
 ht-degree: 5%
 
 ---
@@ -58,7 +58,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
 1. 在&#x200B;[!UICONTROL **项目所有者**]&#x200B;字段中，开始在Customer Journey Analytics中输入要设置为项目所有者的用户的名称，然后在下拉菜单中选择其名称。
 
-   您指定的所有者具有项目的完全管理权限。
+   您指定的所有者具有项目的完全管理权限。 所有者必须是Customer Journey Analytics管理员。 您可以在后续步骤中更改项目的所有权。
 
 1. 在&#x200B;[!UICONTROL **映射报表包**]&#x200B;部分中，选择一个报表包。
 
@@ -119,6 +119,8 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
    迁移完成后，[!UICONTROL **迁移状态**]&#x200B;页面将提供迁移内容的摘要。
 
    如果迁移失败，请参阅下面的[重试失败的迁移](#retry-a-failed-migration)部分以了解更多信息。
+
+1. （可选）迁移项目后，您可以将该项目的所有权转移给Customer Journey Analytics中的任何用户。 有关详细信息，请参阅《Customer Journey Analytics指南》中的[转移资源](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
 
 ## 重试失败的迁移
 
