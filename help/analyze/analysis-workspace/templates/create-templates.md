@@ -3,13 +3,11 @@ description: 概述如何在 Analysis Workspace 中使用默认报告。
 title: 使用报告
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 6%
 
 ---
 
@@ -118,3 +116,10 @@ ht-degree: 5%
 与Adobe提供的模板一样，组织内的用户可以访问管理员创建的模板。
 
 有关如何访问公司模板的信息，请参阅[使用模板](/help/analyze/analysis-workspace/templates/use-templates.md)中的[访问和运行模板](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template)。
+
+## 隐藏“模板”选项卡 {#hide-reports}
+
+管理员可以为其组织内的所有用户隐藏“模板”选项卡。
+
+1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 偏好设置]** > **[!UICONTROL 公司]**。
+1. 选择&#x200B;**[!UICONTROL 隐藏模板选项卡]**&#x200B;的选项。
