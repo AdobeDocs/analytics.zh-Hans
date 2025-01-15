@@ -3,9 +3,9 @@ description: 了解您可以使用Advertising Analytics执行的所有操作，�
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
+source-git-commit: 76b665b8c4fe41d40b8c4fa0e2a3ac2d014d2b51
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1177'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 96%
 
 * 需要为付费搜索营销人员搜集性能报告的&#x200B;**分析师**。
 * 要寻找这些问题的答案的&#x200B;**付费搜索营销人员**：我将多少流量发送到我们的网站？其中形成客户转化的流量有多少？成本效益高的广告促销活动有哪些？
+
+## 视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/23119?quality=12&learn=on)
+
 
 ## 先决条件 {#prerequisites}
 
