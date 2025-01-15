@@ -3,9 +3,9 @@ description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer J
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
+source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1501'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,13 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
   某些维度和量度会自动映射；其他维度和量度必须在迁移过程中手动映射。 区段也会迁移，但无需在迁移过程中映射这些区段。
 
   迁移完成后，所有已迁移的组件都会显示在迁移摘要中。
+
+>[!NOTE]
+>
+>本页上的信息介绍了如何使用用户界面迁移项目及其关联的组件。
+>
+>或者，您可以使用API执行迁移。 有关详细信息，请参阅[Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)。 在&#x200B;**[!UICONTROL 选择定义]**&#x200B;下拉菜单中可以使用所有API定义。
+
 
 ## 准备迁移
 
