@@ -3,14 +3,23 @@ description: 在 Analysis Workspace 中使用警报。
 title: 警报生成器概述
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 23bf2d449fe69437e528c382953c9bcc6def4d7b
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 30%
+source-wordcount: '648'
+ht-degree: 32%
 
 ---
 
-# 创建警报
+# 创建警报 {#create-alerts}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_alerts_timegranularity"
+>title="时间粒度"
+>abstract="时间粒度是指检查警报的频率以及将包含的内容"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >

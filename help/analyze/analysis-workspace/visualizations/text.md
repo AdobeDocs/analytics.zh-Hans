@@ -5,14 +5,27 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 89%
 
 ---
 
-# 文本
+# 文本 {#text-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_text_button"
+>title="文本"
+>abstract="向您的项目添加用户定义的富文本可视化图表。"
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*本文记录了&#x200B;**Adobe Analytics**中的文本可视化图表。<br/>查看此文章的&#x200B;**Customer Journey Analytics**版本的[文本](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text)。*
+
+>[!ENDSHADEBOX]
 
 您可使用文本可视化图表或面板/可视化图表描述（右键单击标题 > **[!UICONTROL 编辑描述]**），将用户定义的文本添加至 Workspace 项目。您还可以更改文本的格式、添加超链接以及添加图像。
 

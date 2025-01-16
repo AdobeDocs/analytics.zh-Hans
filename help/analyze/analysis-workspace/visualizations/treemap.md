@@ -5,14 +5,29 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 100%
+source-wordcount: '136'
+ht-degree: 84%
 
 ---
 
-# [!UICONTROL 树形图]
+# [!UICONTROL 树形图] {#treemap}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_treemap_button"
+>title="树状图"
+>abstract="创建树状图可视化图表，以使用嵌套矩形显示分层（树状结构）数据。"
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*本文记录了&#x200B;**Adobe Analytics**中的树形图可视化图表。<br/>查看此文章的&#x200B;**Customer Journey Analytics**版本的[树状图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap)。*
+
+>[!ENDSHADEBOX]
 
 将分层（树结构）数据显示为一组嵌套的矩形。
 

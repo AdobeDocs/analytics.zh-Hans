@@ -5,14 +5,30 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 87%
 
 ---
 
-# 维恩图
+# 维恩图 {#venn}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_venn_button"
+>title="维恩图"
+>abstract="创建维恩图可视化，以快速直观地比较两个元素及其重叠尺寸。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文记录了&#x200B;**Adobe Analytics**中的维恩图可视化图表。<br/>查看此文章的&#x200B;**Customer Journey Analytics**版本的[维恩图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn)。*
+
+>[!ENDSHADEBOX]
 
 通过[!UICONTROL 维恩图]可视化，最多可拖入 3 个区段（从[!UICONTROL 组件]中）和一个量度来构建[!UICONTROL 维恩图]。
 

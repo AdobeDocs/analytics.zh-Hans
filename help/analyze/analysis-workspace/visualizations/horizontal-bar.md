@@ -5,22 +5,48 @@ uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 71%
 
 ---
 
 # 水平条形图和堆叠的水平条形图
 
-## 水平条形图 {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
+>[!BEGINSHADEBOX]
+
+*本文记录了&#x200B;**Adobe Analytics**中的水平条形图和栈叠的水平条形图可视化图表。<br/>查看本文的&#x200B;**Customer Journey Analytics**版本的[栈叠的水平条形图和水平条形图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar)。*
+
+>[!ENDSHADEBOX]
+
+水平条形图可视化图表具有标准和栈叠选项。
+
+## 水平条形图 {#horizontal-bar}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_horizontalbar_button"
+>title="水平条"
+>abstract="创建可视化水平条形图来表示一个或多个量度的各种值。"
+
+<!-- markdownlint-enable MD034 -->
 
 此可视化显示了一些水平条，这些水平条表示一个或多个量度中的各种值。
 
 ![](assets/horizontal_bar.png)
 
-## 堆叠的水平条形图 {#section_50C08E9E20A94024A6553BC352ADB597}
+## 堆叠的水平条形图 {#horizontal-bar-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_horizontalbarstacked_button"
+>title="堆叠的水平条形图"
+>abstract="创建可视化水平条形图来表示一个或多个堆叠的量度的各种值。"
+
+<!-- markdownlint-enable MD034 -->
 
 此可视化与[!UICONTROL 水平条形图]类似，只是系列条以堆叠方式显示。
 

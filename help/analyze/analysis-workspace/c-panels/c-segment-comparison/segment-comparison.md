@@ -5,31 +5,61 @@ keywords: Analysis Workspace;区段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 91%
 
 ---
 
-# 区段比较面板概述
+# 区段比较面板概述 {#segment-comparison-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_segmentcomparison_button"
+>title="区段比较"
+>abstract="快速比较所有数据点的两个区段以自动查找相关差异"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_segmentcomparison_panel"
+>title="区段比较面板"
+>abstract="对所有数据点快速比较两个区段，以自动查找相关差异。<br/><br/>**参数&#x200B;**<br/>**添加区段**：要分析的第一个区段。<br/>**与**&#x200B;比较：要与之比较的第二个区段。 这将自动使用&#x200B;*Everyone Else*&#x200B;填充，这与您的第一个区段相反。 如果需要，可以使用其他区段替换它。<br/>**高级设置**：在区段比较中排除要分析的组件的功能。"
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*本文记录了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**中的区段比较面板。<br/>![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**中没有等效面板。*
+
+>[!ENDSHADEBOX]
 
 区段比较面板是[区段 IQ](../../segment-iq.md) 中的一个工具，可以发现无限数量的区段中最具统计意义的差异。该功能通过自动分析您有权访问的所有维度和量度来进行迭代。它会自动找出受众区段中可提升公司 KPI 的关键特征，并让您了解任意区段的重叠程度。
 
-以下是一段关于区段比较的视频：
++++ 以下是一段关于区段比较的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
-## 创建区段比较面板
++++
 
-1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-1. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
-1. 在顶部导航栏中，单击“工作区”。
-1. 单击“新建项目”按钮。
-1. 在模态弹出窗口中，确保选择“空白项目”，然后单击“创建”。
-1. 单击左侧的“面板”按钮，然后将“区段比较”面板拖动到自动创建的自由格式表面板的上方或下方。
+## 使用
 
-   ![比较面板](assets/seg-compare-panel.png)
+要使用&#x200B;**[!UICONTROL 归因]**&#x200B;面板：
+
+1. 创建&#x200B;**[!UICONTROL 归因]**&#x200B;面板。 有关如何创建面板的信息，请参阅[创建面板](../panels.md#create-a-panel)。
+
+1. 指定面板的[输入](#panel-input)。
+
+1. 观察面板的[输出](#panel-output)。
+
+
+
+### 面板输入
+
+![比较面板](assets/seg-compare-panel.png)
 
 1. 选择要比较的区段，然后将它们拖到面板中。
 
@@ -56,7 +86,7 @@ ht-degree: 100%
 
 ![排除的维度](assets/excluded-dimensions.png)
 
-## 查看区段比较报告
+### 面板输出
 
 Adobe 完成对两个所需区段的分析后，会通过若干可视化图表显示其结果：
 
@@ -64,19 +94,19 @@ Adobe 完成对两个所需区段的分析后，会通过若干可视化图表�
 
 ![可视化图表 2](assets/new-viz2.png)
 
-### 大小和重叠
+#### 大小和重叠
 
 使用维恩图说明每个选定区段的比较大小以及它们彼此重叠的程度。您可以将光标悬停在该可视化图表上，查看每个重叠区域或非重叠区域有多少访客。此外，还可以右键单击重叠以创建全新的区段，以供将来分析之用。如果两个区段互斥，则两个圆之间不显示重叠（通常使用点击容器查看区段）。
 
 ![大小和重叠](assets/size-overlap.png)
 
-### 人群概要
+#### 人群概要
 
 在“大小”和“重叠”可视化图表的右侧，将显示每个区段和重叠的独特访客总数。
 
 ![人群概要](assets/population_summaries.png)
 
-### 热门量度
+#### 热门量度
 
 显示两个区段之间最具统计意义的量度。此表格中的每一行分别代表一个存在差异的量度，按量度在每个区段中的差异程度排名。1 的差异分数表示它具有统计意义，而 0 的差异分数表示它没有统计意义。
 
@@ -88,13 +118,13 @@ Adobe 完成对两个所需区段的分析后，会通过若干可视化图表�
 
 ![热门量度](assets/top-metrics.png)
 
-### 基于区段的一段时间的量度
+#### 基于区段的一段时间的量度
 
 量度表的右侧是关联的可视化图表。您可以单击左侧表格中的行项目，此可视化图表会更新以显示一段时间内的量度趋势。
 
 ![热门量度行](assets/linked-viz.png)
 
-### 热门维度
+#### 热门维度
 
 显示所有维度中最具统计意义的维度项目。每一行通过每个区段的百分比来展示此维度项目。例如，此表可能显示，在“区段 A”中，100% 的访客具有维度项目“浏览器类型：Google”，而“区段 B”中只有 19.6% 有此维度项目。1 的差异分数表示它具有统计意义，而 0 的差异分数表示它没有统计意义。
 
@@ -106,13 +136,13 @@ Adobe 完成对两个所需区段的分析后，会通过若干可视化图表�
 
 ![热门维度](assets/top-dimension-item1.png)
 
-### 基于区段的维度项目
+#### 基于区段的维度项目
 
 维度表的右侧是关联的条形图可视化图表。该可视化图表将所有显示的维度项目都显示在条形图中。单击左侧表中的行项目将更新右侧的可视化图表。
 
 ![热门维度条形图](assets/top-dimension-item.png)
 
-### 热门区段
+#### 热门区段
 
 显示其他哪些区段（除了选定的进行比较的两个区段外）存在具有统计意义的重叠。例如，此表可显示第三个区段“重复访客”与“区段 A”高度重叠，但与“区段 B”不重叠。1 的差异分数表示它具有统计意义，而 0 的差异分数表示它没有统计意义。
 
@@ -124,7 +154,7 @@ Adobe 完成对两个所需区段的分析后，会通过若干可视化图表�
 
 ![热门区段](assets/top-segments.png)
 
-### 区段重叠
+#### 区段重叠
 
 区段表的右侧是关联的维恩图可视化图表。该可视化图表显示应用于您比较区段的最具统计意义的区段。例如，“区段 A”+“具有统计意义的区段”与“区段 B”+“具有统计意义的区段”。单击左侧表中的区段行项目可更新右侧的维恩图。
 

@@ -4,14 +4,30 @@ description: 显示与最多三个量度之间的关系的可视化图表。
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 86%
 
 ---
 
-# 散点图
+# 散点图 {#scatter}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_scatter_button"
+>title="散点图"
+>abstract="创建一个可视化散点图，显示维度项目与最多三个量度之间的关系。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文记录了&#x200B;**Adobe Analytics**中的散点图可视化图表。<br/>查看此文章的&#x200B;**Customer Journey Analytics**版本的[散点图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)。*
+
+>[!ENDSHADEBOX]
 
 散点图可视化图表显示维度项目与最多三个量度之间的关系。它需要三个组件，并且最多支持四个组件的可视化。
 

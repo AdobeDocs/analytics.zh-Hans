@@ -4,14 +4,21 @@ title: 创建和共享移动记分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2515'
 ht-degree: 81%
 
 ---
 
-# 创建移动记分卡
+# 创建移动记分卡 {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="批注"
+>abstract="可以在组件管理器或工作区项目内部创建注释。"
+
+<!-- markdownlint-enable MD034 -->
 
 以下信息指示 Adobe Analytics 数据的策划人如何为执行用户配置和展示移动记分卡。要开始操作，您可以观看Adobe Analytics功能板记分卡生成器视频：
 

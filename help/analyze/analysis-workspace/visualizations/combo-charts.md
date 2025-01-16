@@ -4,14 +4,30 @@ title: 组合图表可视化
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 99%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
-# 组合图表
+# 组合图表 {#combo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="组合"
+>abstract="快速创建可视化组合图表，无需先创建自由格式表。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文记录了&#x200B;**Adobe Analytics**中的组合可视化图表。<br/>查看此文章的&#x200B;**Customer Journey Analytics**版本的[组合](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)。*
+
+>[!ENDSHADEBOX]
 
 通过[!UICONTROL 组合图表]可视化，可轻松快速地构建比较可视化图表，而无需先构建表格。您可以通过线条/条形组合轻松查看数据趋势。
 
@@ -65,7 +81,7 @@ ht-degree: 99%
 | --- | --- |
 | **[!UICONTROL 列总和]** | 在列中添加量度的所有数值（跨维度的元素） |
 | **[!UICONTROL 累积平均数]** | 返回最后 N 行的平均数。 |
-| **[!UICONTROL 中间值]** | 返回列中某指标的中间值。中间值是指位于一组数字正中间的那个数字，也就是说有一半数字的值大于或等于该中间值，还有一半数字的值小于或等于该中间值。 |
+| **[!UICONTROL 中间值]** | 返回列中某量度的中间值。中间值是指位于一组数字正中间的那个数字，也就是说有一半数字的值大于或等于该中间值，还有一半数字的值小于或等于该中间值。 |
 | **[!UICONTROL 累积数]** | N 行的累积总和。 |
 | **[!UICONTROL 列最大值]** | 返回某量度列的一组维度元素中的最大值。 |
 | **[!UICONTROL 平均值]** | 返回某度量的算术平均值或平均值。 |
@@ -90,7 +106,7 @@ ht-degree: 99%
 | 设置 | 定义 |
 | --- | --- |
 | **[!UICONTROL 可视化类型]** | 让您切换到另一种可视化类型。 |
-| **[!UICONTROL 粒度]** | 对于趋势性的可视化图表，您可从此下拉菜单更改下拉列表中。 |
+| **[!UICONTROL 粒度]** | 对于趋势性的可视化图表，您可以从该下拉列表中更改时间粒度（日、周、月等）。 |
 | **[!UICONTROL 常规]** |  |
 | **[!UICONTROL 百分比]** | 显示百分数值。 |
 | **[!UICONTROL 图例可见]** | 允许您为组合图表可视化隐藏详细的图例文本。 |

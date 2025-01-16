@@ -4,10 +4,10 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 11%
+source-wordcount: '1989'
+ht-degree: 13%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 11%
 有关报告活动管理器的详细信息，包括主要权益和权限要求，请参阅[报告活动管理器概述](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。
 
 ## 查看所有报表包的报告活动 {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="连接"
+>abstract="此表显示您有权管理报告活动的连接。表格的每一列都提供了有关每个连接的信息。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="连接"
+>abstract="此表显示您有权管理报告活动的连接。表格的每一列都提供了有关每个连接的信息。"
+
+<!-- markdownlint-enable MD034 -->
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报告活动管理器]**。
 
@@ -42,7 +60,7 @@ ht-degree: 11%
    | UI 元素 | 描述 |
    | --- | --- |
    | **[!UICONTROL 报表包]** | 您正在监控其报告活动的基本报告包。 |
-   | **[!UICONTROL 虚拟报表包]** | 显示馈送入此基础报告包的所有虚拟报告包。由于额外施加多层筛选和分段，因此虚拟报告包提高了报告请求的复杂性。所有来自虚拟报表包的请求将合并到基础报表包中。 |
+   | **[!UICONTROL 虚拟报告包]** | 显示馈送入此基础报告包的所有虚拟报告包。由于额外施加多层筛选和分段，因此虚拟报告包提高了报告请求的复杂性。所有来自虚拟报表包的请求将合并到基础报表包中。 |
    | **[!UICONTROL 产能利用率]** | 实时使用的报表包报告容量的百分比。 <p>**注意**&#x200B;使用容量为100%并不一定表示您应立即开始取消报告请求。 如果平均等待时间合理，则100%的使用容量可能是健康的。 另一方面，如果排队的请求数量也在增加，则100%的使用容量可能会出现问题。</p> |
    | **[!UICONTROL 已排队请求]** | 等待处理的请求数。<!-- ??? --> |
    | **[!UICONTROL 队列等待时间]** | 开始处理请求前的平均等待时间。<!-- ???? --> |
@@ -138,7 +156,7 @@ ht-degree: 11%
 
 选择&#x200B;[!UICONTROL **请求**]&#x200B;选项卡时，表中提供以下列：
 
-| 栏目 | 描述 |
+| 列 | 描述 |
 | --- | --- |
 | [!UICONTROL **请求ID**] | 可用于故障排除的唯一ID。 要复制ID，请选择请求，然后选择选项&#x200B;[!UICONTROL **复制请求ID**]。 |
 | [!UICONTROL **时间运行**] | 请求已运行多长时间。 |
@@ -159,7 +177,7 @@ ht-degree: 11%
 
 选择&#x200B;[!UICONTROL **用户**]&#x200B;选项卡时，表中提供以下列：
 
-| 栏目 | 描述 |
+| 列 | 描述 |
 | --- | --- |
 | [!UICONTROL **用户**] | 发起请求的用户。 如果此列的值为&#x200B;[!UICONTROL **无法识别**]，则意味着用户所在的登录公司您没有管理权限。 |
 | [!UICONTROL **请求数**] | 用户发起的请求数。 |
@@ -176,7 +194,7 @@ ht-degree: 11%
 
 选择&#x200B;[!UICONTROL **项目**]&#x200B;选项卡时，表中提供以下列：
 
-| 栏目 | 描述 |
+| 列 | 描述 |
 | --- | --- |
 | [!UICONTROL **项目**] | 发起请求的项目。 |
 | [!UICONTROL **请求数**] | 与项目关联的请求数。 |
@@ -193,7 +211,7 @@ ht-degree: 11%
 
 选择&#x200B;[!UICONTROL **应用程序**]&#x200B;选项卡时，表中有以下列：
 
-| 栏目 | 描述 |
+| 列 | 描述 |
 | --- | --- |
 | [!UICONTROL **应用程序**] | 发起请求的应用程序。 |
 | [!UICONTROL **请求数**] | 与应用程序关联的请求数。 |
