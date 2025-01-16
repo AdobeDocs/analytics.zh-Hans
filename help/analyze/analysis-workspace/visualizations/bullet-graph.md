@@ -4,15 +4,14 @@ title: 项目符号图表
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 80e748c3e6e6610b5b34d64080db3b206feda92c
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 88%
 
 ---
 
 # 项目符号图表 {#bullet-graph}
-
 
 <!-- markdownlint-disable MD034 -->
 
@@ -31,6 +30,12 @@ ht-degree: 100%
 >abstract="创建可视化项目符号图表来显示量度与性能范围（目标）之间的比较。"
 
 <!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*本文记录了&#x200B;**Adobe Analytics**中的“项目符号”可视化图表。<br/>查看本文的&#x200B;**Customer Journey Analytics**版本的[项目符号](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)。*
+
+>[!ENDSHADEBOX]
 
 让您可以查看您感兴趣的值与其他性能范围（目标）进行比较或衡量的结果。
 

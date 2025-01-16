@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: ht
-source-wordcount: '971'
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+workflow-type: tm+mt
+source-wordcount: '973'
 ht-degree: 100%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 100%
       + [折线图](analysis-workspace/visualizations/line.md)
       + [地图](analysis-workspace/visualizations/map-visualization.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
+      + [节头](/help/analyze/analysis-workspace/visualizations/section-header.md)
       + [摘要数字和摘要变化](analysis-workspace/visualizations/summary-number-change.md)
       + [文本](analysis-workspace/visualizations/text.md)
       + [树形图](analysis-workspace/visualizations/treemap.md)
