@@ -4,9 +4,9 @@ title: 快速洞察面板
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 8ed3572767e586580872c5d2150ed75e42793fe6
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1153'
 ht-degree: 84%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-*本文记录了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**中的快速分析面板。<br/>查看本文的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**版本的[快速分析面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。*
+*本文记录了&#x200B;**Adobe Analytics**中的快速分析面板。<br/>查看本文的&#x200B;**Customer Journey Analytics**版本的[快速分析面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。*
 
 >[!ENDSHADEBOX]
 

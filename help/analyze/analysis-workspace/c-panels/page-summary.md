@@ -1,17 +1,36 @@
 ---
 description: 页面摘要面板显示所选页面的摘要信息。
-title: 页面摘要面板
+title: ”页面摘要“面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 9%
+source-wordcount: '547'
+ht-degree: 8%
 
 ---
 
-# 页面摘要面板
+# ”页面摘要“面板 {#page-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_button"
+>title="页面摘要"
+>abstract="快速查看一些高级量度以及特定页面的移动情况。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_panel"
+>title="”页面摘要“面板"
+>abstract="快速查看一些高级量度以及特定页面的移动情况。<br/><br/>**参数&#x200B;**<br/>**添加页面维度项**：打开组件边栏，找到页面维度并单击胡萝卜将其展开以查看维度项。 然后，将要了解的特定页面拖放到生成器中。 拖放维度项目后，报表将自动填充有关页面的关键信息。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 利用此面板，可轻松浏览有关特定页面的关键统计信息。
 

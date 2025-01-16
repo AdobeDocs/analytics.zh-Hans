@@ -4,9 +4,9 @@ description: 如何在 Analysis Workspace 中使用和解释“媒体播放耗�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1154'
 ht-degree: 56%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-*本文记录了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**中的“媒体播放耗时”面板。<br/>查看本文的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**版本的[媒体播放耗时面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。*
+*本文记录了&#x200B;**Adobe Analytics**中的“媒体播放耗时”面板。<br/>查看本文的&#x200B;**Customer Journey Analytics**版本的[媒体播放耗时面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。*
 
 >[!ENDSHADEBOX]
 
