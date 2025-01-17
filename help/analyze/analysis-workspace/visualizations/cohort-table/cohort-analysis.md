@@ -4,10 +4,10 @@ description: 用同类群组分析更深入地挖掘您受众周围的数据并�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 93%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -64,7 +64,9 @@ ht-degree: 93%
 
 ## 同类群组分析功能
 
-以下功能允许您对正在构建的同类群组进行精细控制：
+以下部分介绍了同类群组分析功能，这些功能允许您对正在构建的同类群组进行精细控制。
+
+有关创建同类群组并运行[!UICONTROL 同类群组分析]报表的更多详细信息，请参阅[配置同类群组分析报表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
 ### [!UICONTROL 维系率表]
 
@@ -103,5 +105,3 @@ ht-degree: 93%
 创建基于所选维度的同类群组，而不是默认的基于时间的同类群组。在 Adobe Analytics 中使用[!UICONTROL 营销渠道]、[!UICONTROL 促销活动]、[!UICONTROL 产品]、[!UICONTROL 页面]、[!UICONTROL 区域]或任何其他维度，可显示维系率根据这些维度值的不同有何变化。
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-有关如何设置和运行同类群组报表的说明，请转至[配置同类群组分析报表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
