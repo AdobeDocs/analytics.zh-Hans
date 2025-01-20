@@ -3,9 +3,10 @@ title: 节头
 description: 在Workspace项目中插入节标题的可视化图表。
 feature: Visualizations
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '95'
 ht-degree: 13%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 13%
 >[!BEGINSHADEBOX]
 
 
-*本文记录了&#x200B;**Adobe Analytics**中的节标题可视化图表。<br/>查看此文章的&#x200B;**Customer Journey Analytics**版本的[节标题](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header)。*
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的节标题可视化图表。_<br/>_查看本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[节标题](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header)。_
 
 >[!ENDSHADEBOX]
 

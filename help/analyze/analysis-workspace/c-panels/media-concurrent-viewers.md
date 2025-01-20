@@ -4,9 +4,9 @@ description: 如何在 Analysis Workspace 中使用和解释“媒体并行查�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1234'
 ht-degree: 47%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*本文记录了&#x200B;**Adobe Analytics Analytics**中的“媒体并行查看者”面板。<br/>查看本文的&#x200B;**Customer Journey Analytics**版本的[媒体并行查看者面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)。*
+_本文记录了&#x200B;**Adobe Analytics Analytics**中的“媒体并行查看者”面板。<br/>查看本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[媒体并行查看者面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)。_
 
 >[!ENDSHADEBOX]
 

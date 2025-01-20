@@ -4,9 +4,9 @@ description: 用同类群组分析更深入地挖掘您受众周围的数据并�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '584'
 ht-degree: 86%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-*本文记录了&#x200B;**Adobe Analytics**中的同类群组表。<br/>查看本文的&#x200B;**Customer Journey Analytics**版本的[同类群组表](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)。*
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的同类群组表。_<br/>_查看本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[同类群组表](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)。_
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ ht-degree: 86%
 
 * 启动旨在推动所需操作的促销活动。
 * 在客户生命周期的恰当时间内转变营销预算。
-* 识别终止试用或优惠活动的时间，以实现价值的最大化。
+* 识别终止试用或产品建议活动的时间，以实现价值的最大化。
 * 获取在一些领域（例如，定价、升级路径等）内进行 A/B 测试的建议。
 
 [!UICONTROL 同类群组分析]适用于具有 [!UICONTROL Analysis Workspace] 访问权限的所有 Adobe Analytics 客户。

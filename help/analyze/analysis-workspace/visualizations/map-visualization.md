@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 92%
+source-wordcount: '701'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="地图"
->abstract="此可视化图表通过在地图上叠加量度来表示量度。 这对于识别不同地理区域的数据非常有用。"
+>abstract="这种可视化通过在地图中叠加量度来表示。这对于识别不同地理区域的数据非常有用。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="气泡"
->abstract="使用气泡绘制事件。"
+>abstract="使用气泡绘制事件地图。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,14 +39,14 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
 >title="热图"
->abstract="使用热图绘制事件。"
+>abstract="使用热图绘制事件地图。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-*本文记录了&#x200B;**Adobe Analytics**中的地图可视化图表。<br/>**Customer Journey Analytics**中当前没有可用的地图可视化图表。*
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的地图可视化图表。_<br/>_在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中当前没有可用的地图可视化。_
 
 >[!ENDSHADEBOX]
 

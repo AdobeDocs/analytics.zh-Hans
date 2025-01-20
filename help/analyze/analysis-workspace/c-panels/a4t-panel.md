@@ -4,9 +4,9 @@ title: Analytics for Target (A4T) 面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1160'
 ht-degree: 70%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-*本文记录了&#x200B;**Adobe Analytics**中的Analytics for Target面板。<br/>有关如何比较&#x200B;**Customer Journey Analytics**.*&#x200B;中各种用户体验、营销或消息传递变化的信息，请参阅[试验面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了Analytics for Target面板。_<br/>_有关如何比较_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**用户体验**._中不同Customer Journey Analytics体验、营销或消息传递变化的信息，请参阅[试验面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)
 
 >[!ENDSHADEBOX]
 
@@ -100,7 +100,7 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | 提升度和置信度计算是否支持计算指标？ | 不支持。[深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=zh-Hans)提升度和置信度指标为何不支持计算指标。但是，可以在Analytics for Target报表中使用这些量度以外的计算量度。 |
 | 为何 Target 和 Analytics 中的独特访客数会不一样？ | [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=zh-Hans)不同产品中独特访客数之间的差异。 |
 | 当我在分析中为特定 Target 活动应用点击区段时，为何会看到返回的不相关体验？ | Analytics for Target维度是一个列表变量，这意味着它可以同时包含多个活动（和体验）。 [了解详情](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=zh-Hans) |
-| 置信度指标是否会将极端订单计入在内或对多个优惠活动应用 Bonferroni 校正？ | 不会。[深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=zh-Hans) Analytics 如何计算置信度。 |
+| 置信度指标是否会将极端订单计入在内或对多个产品建议活动应用 Bonferroni 校正？ | 不会。[深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=zh-Hans) Analytics 如何计算置信度。 |
 | 提升度和置信度指标能否与其他维度或划分一起使用？ | 提升度和置信度是“目标体验”维度的“锁定指标”，因为它们需要一个控件和变量才能计算。因此，不能对这两个指标划分或将这两个指标与其他维度一起使用。 |
 | 何时会重新计算提升度和置信度？ | 只要运行（或重新运行）面板、面板日期范围发生变化或将区段应用于面板或表，即重新计算提升和置信度。将区段过滤器应用于自由格式表时，必须横跨所有列应用它，否则无法正确地更新提升和置信度。目前不支持列级区段。 |
 
