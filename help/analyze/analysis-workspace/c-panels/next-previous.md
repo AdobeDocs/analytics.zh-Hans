@@ -4,7 +4,7 @@ title: “下一项或上一项”面板
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 36%
@@ -69,7 +69,6 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 ### 面板输出
 
 [!UICONTROL 下一个或上一个项目]面板返回一组丰富的数据和可视化图表，以帮助您更好地了解特定维度项目之后或之前的具体情况。
-
 
 ![下一个/上一个面板输出](assets/next-or-previous-item-output.png)
 
