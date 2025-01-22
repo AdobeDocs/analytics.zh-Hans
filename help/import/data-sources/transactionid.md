@@ -4,9 +4,9 @@ description: 了解使用交易 ID 数据源的一般工作流程。
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '413'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 7%
 交易ID数据源具有以下属性：
 
 * 首先要收集和处理在线数据。 如果在报表包处理与该交易ID匹配的点击之前上载了交易ID数据源，则不会链接该数据。
-* 通过AppMeasurement收集的交易ID将在大约90天后过期。 如果您的组织需要更长的交易ID窗口，请联系Adobe客户关怀团队。
+* 通过AppMeasurement收集的交易ID将在25个月后过期。
 * 使用过期的交易ID上传的数据源的处理方式与没有交易ID上传的数据的处理方式类似。
 * 如果在线点击和交易ID数据源中均包含相同变量，则使用交易ID数据源中的值。
 * 如果某个变量包含在在线点击中，但不包含在匹配的交易ID数据源点击中，则将保留在线点击变量。

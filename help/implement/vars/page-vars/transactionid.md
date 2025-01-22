@@ -4,10 +4,10 @@ description: 使用此变量将在线和离线数据链接在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 93%
+source-wordcount: '403'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 当您在点击上设置 `transactionID` 时，Adobe 会及时拍摄在该时间点设置或持久保留的所有 Analytics 变量的快照。通过数据源上传且具有匹配交易 ID 的数据将会永久绑定到这些变量值。
 
-默认情况下，Adobe 最多可在 90 天内记住所有交易 ID 值（已链接和未链接）。如果离线互动过程的时间超过 90 天，请联系客户关怀延长该期限。
+Adobe最多可在25个月内记住所有交易ID值（已链接和未链接）。
 
 ## 使用 Web SDK 的交易 ID
 

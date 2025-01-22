@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
@@ -20,10 +21,6 @@ ht-degree: 27%
 - 跨平台：不再登录虚拟机以使用Report Builder，我们现在支持PC、Mac和Excel Online
 - 由于API 2.0升级，等待数据块返回的时间得以缩短
 - 速度提高
-
->[!NOTE]
->
->Adobe Analytics上此版本Report Builder的工作簿计划尚未发布，但将在2025年初可用。 您可以立即开始使用不需要安排的工作簿。
 
 旧版Report Builder工具的用户可以[将旧版工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新Report Builder。
 
