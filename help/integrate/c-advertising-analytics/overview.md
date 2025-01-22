@@ -3,20 +3,16 @@ description: 了解您可以使用Advertising Analytics执行的所有操作，�
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 76b665b8c4fe41d40b8c4fa0e2a3ac2d014d2b51
+source-git-commit: 2244dbb3376c78b9d4a8b476b667ccef59db84f4
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 96%
+source-wordcount: '1138'
+ht-degree: 93%
 
 ---
 
 # Advertising Analytics
 
-通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。现在可在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本数据以及 AMO ID 实例数（点击实例数）。由于 Google 在 2019 年 9 月弃用了质量得分和平均排名，因此不再收集这些指标。
-
->[!NOTE]
->
->Microsoft Bing 已于 2019 年 3 月 31 日收购了 Yahoo Gemini。因此，现已不再提供 Yahoo Gemini 广告帐户选项。
+通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。现在，您可以在Adobe Analytics中直接从搜索引擎获取以下数据：展示次数、点击次数、成本数据以及AMO ID实例数（点击实例数）。
 
 将这些来自搜索引擎的数据集中到 Adobe Analytics 之后，您即可使用 Analysis Workspace 的强大功能对同样的数据进行分析。Workspace中新增的[付费搜索性能](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)模板有助于进行此分析。
 
