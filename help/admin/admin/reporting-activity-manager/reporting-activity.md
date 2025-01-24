@@ -7,7 +7,7 @@ exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
 source-wordcount: '1989'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 有关报告活动管理器的详细信息，包括主要权益和权限要求，请参阅[报告活动管理器概述](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。
 
-## 查看所有报表包的报告活动 {#view-all-report-suites}
+## 查看所有报告包的报告活动 {#view-all-report-suites}
 
 <!-- markdownlint-disable MD034 -->
 

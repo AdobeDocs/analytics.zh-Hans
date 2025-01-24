@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 12%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_button"
 >title="页面摘要"
->abstract="快速查看一些高级量度以及特定页面的移动情况。"
+>abstract="快速查看一些高级量度以及有关特定页面的移入和移出。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="”页面摘要“面板"
->abstract="快速查看一些高级量度以及特定页面的移动情况。<br/><br/>**参数&#x200B;**<br/>**添加页面维度项**：打开组件边栏，找到页面维度并单击胡萝卜将其展开以查看维度项。 然后，将要了解的特定页面拖放到生成器中。 拖放维度项目后，报表会自动填充有关页面的关键信息。"
+>abstract="快速查看一些高级量度以及有关特定页面的移入和移出。<br/><br/>**参数&#x200B;**<br/>**添加页面维度项**：打开组件边栏，找到页面维度并通过单击尖角符号展开它以查看维度项。然后，将您需要了解的特定页面拖放到构建器中。拖放维度项目后，报表会自动填充有关页面的关键信息。"
 
 <!-- markdownlint-enable MD034 -->
 

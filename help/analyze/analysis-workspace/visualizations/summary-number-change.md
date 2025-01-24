@@ -53,7 +53,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!CONTEXTUALHELP]
 >id="workspace_summarychange_button"
->title="概要变化"
+>title="摘要变化"
 >abstract="创建一个显示两个数字之间增量（变化）的可视化图表"
 
 <!-- markdownlint-enable MD034 -->

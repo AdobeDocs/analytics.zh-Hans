@@ -7,11 +7,11 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 43%
+ht-degree: 46%
 
 ---
 
-# “Analytics for Target”面板 {#analyze-for-target-panel}
+# “Analytics for Target” 面板 {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
->title="“Analytics for Target”面板"
->abstract="在 Analysis Workspace 中分析 Target 的活动和体验。<br/><br>**参数&#x200B;**<br/>**Target活动**：已分析的Target活动。<br/>**控制体验**：选定Target活动的控制体验。<br/>**标准化量度**：访客数、访问次数或展示次数。 此指标（也称为计数方法）将作为提升计算的分母。此外，它也会在应用置信度计算之前影响数据汇总的方式。<br/>**成功量度**：最多可分析3个用于分析Target活动的标准（非计算）成功量度。"
+>title="“Analytics for Target” 面板"
+>abstract="在 Analysis Workspace 中分析 Target 的活动和体验。<br/><br>**参数&#x200B;**<br/>**Target活动**：已分析的Target活动。<br/>**控制体验**：所选目标活动的控制体验。<br/>**标准化量度**：访客、访问次数或展示次数。此指标（也称为计数方法）将作为提升计算的分母。此外，它也会在应用置信度计算之前影响数据汇总的方式。<br/>**成功量度**：最多 3 个标准（非计算）成功量度来分析 Target 活动。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 27%
+ht-degree: 38%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
->title="区段比较面板"
->abstract="对所有数据点快速比较两个区段，以自动查找相关差异。<br/><br/>**参数&#x200B;**<br/>**添加区段**：要分析的第一个区段。<br/>**与**&#x200B;比较：要与之比较的第二个区段。 这将自动使用&#x200B;*Everyone Else*&#x200B;填充，这与您的第一个区段相反。 如果需要，可以使用其他区段替换它。<br/>**高级设置**：在区段比较中排除要分析的组件的功能。"
+>title="“区段比较”面板 "
+>abstract="对所有数据点快速比较两个区段，以自动查找相关差异。<br/><br/>**参数&#x200B;**<br/>**添加区段**：您要分析的第一个区段。<br/>**比较**：您要比较的第二个区段。这将自动填充&#x200B;*其他各项*，这是第一个区段的反向。如果需要，您可以用不同的区段替换它。<br/>**高级设置**：在区段比较中能够排除被分析的组件。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]

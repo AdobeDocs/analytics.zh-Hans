@@ -28,7 +28,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!CONTEXTUALHELP]
 >id="workspace_horizontalbar_button"
->title="水平条"
+>title="水平条形图"
 >abstract="创建可视化水平条形图来表示一个或多个量度的各种值。"
 
 <!-- markdownlint-enable MD034 -->
