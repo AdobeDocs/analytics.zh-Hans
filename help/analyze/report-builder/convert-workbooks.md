@@ -5,13 +5,13 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # 将旧版Report Builder工作簿转换为数据块
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->复制每个工作簿并重命名一个版本，然后再转换它。 这样一来，如果需要原始工作簿的副本，您仍然可以保留原始工作簿的副本。
+>复制每个工作簿并重命名一个版本，然后再转换它。 这样，如果需要原始工作簿的副本，您仍然可以使用该副本。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 您现在可以[管理数据块](/help/analyze/report-builder/manage-reportbuilder.md)。
 
 
-## 新Report Builder中不支持旧版Report Builder功能
+## 新Report Builder中不支持旧版Report Builder功能 {#unsupported}
 
 将旧版Report Builder的功能与新Report Builder加载项进行比较时，某些旧版功能不再可用：
 
@@ -66,3 +66,7 @@ ht-degree: 0%
 - 计划报表的FTP选项
 
 - 访客量度。 以下量度将全部转换为“独特访客”，即使报表结果可能不完全匹配： `visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`和`visitorsyearly`。 这也适用于`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`和`mobilevisitorsyearly`。
+
+## 计划转换的工作簿 {#schedule}
+
+请参阅计划文章中的[计划转换的工作簿](/help/analyze/report-builder/schedule-reportbuilder.md)。

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -75,6 +75,19 @@ ht-degree: 81%
 
    ![确认toast](./assets/confirmation-toast.png){width="55%"}
 
+## 计划转换的工作簿 {#converted}
+
+1. 计划[已转换](/help/analyze/report-builder/convert-workbooks.md)旧工作簿。
+
+   此时会出现一个弹出窗口，询问您是否要使用旧工作簿中的计划元数据创建新的计划任务。
+
+1. 如果选择&#x200B;**[!UICONTROL 使用]**，则Report Builder会自动填写旧版计划信息。
+
+1. 确保此信息正确无误并安排时间。
+
+1. 如果要按不同的计划发送工作簿，请计划一个完全新的计划任务。
+
+
 ## 仅发送一次工作簿
 
 您也可以只发送一次工作簿。
@@ -85,7 +98,7 @@ ht-degree: 81%
 
 1. 单击&#x200B;**立即发送**。
 
-## 查看和编辑计划的工作簿
+## 查看和编辑计划的工作簿 {#view-edit}
 
 您可以在“工作簿”选项卡下的一个位置查看和管理所有计划的工作簿。
 
@@ -107,7 +120,7 @@ ht-degree: 81%
 
   ![显示计划任务列表的屏幕截图。](./assets/selected-workbook.png){width="40%"}
 
-## 查看计划任务的状态
+## 查看计划任务的状态 {#status}
 
 历史记录视图允许您查看每个计划任务的状态。有一个单独的行记录每个计划任务的状态更改。在下面显示的示例中，*新工时计划*&#x200B;于 1 月 5 日下午 3:04 启动。到下午 3:05，它已成功刷新并发送给收件人。下一个工作簿&#x200B;*错误的工作簿*&#x200B;在刷新过程中遇到错误。如果工作簿发送失败，“历史记录”选项卡会通过显示过程中发生错误的位置来帮助您进行故障排除。在这种情况下，可能是由于某些数据块错误（可能是缺少组件）导致工作簿无法成功刷新。
 
