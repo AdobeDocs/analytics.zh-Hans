@@ -4,9 +4,9 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
+source-git-commit: 515517eb708b8c8e1210f82a325e46cbf308c5e6
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2155'
 ht-degree: 57%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 57%
 
 ## 面板类型
 
-Analysis Workspace 中为 [!UICONTROL Customer Journey Analytics] 提供了以下面板类型：
+Analysis Workspace中为[!UICONTROL Adobe Analytics]提供了以下面板类型：
 
 | 面板名称 | 描述 |
 | --- | --- |
