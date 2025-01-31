@@ -4,10 +4,10 @@ title: 关键量度摘要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 56%
+source-wordcount: '959'
+ht-degree: 36%
 
 ---
 
@@ -29,11 +29,12 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!ENDSHADEBOX]
 
-[!UICONTROL 关键量度摘要]可视化让您看到重要量度在单个时间范围内的趋势。 它还允许您在两个时间范围内比较量度表现。 它还具备将多个可视化图表组合为一个可视化图表的优点：
 
-* 显示主要日期范围和比较日期范围的量度趋势的&#x200B;**[!UICONTROL 行]**&#x200B;可视化图表
+![关键量度](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 关键量度摘要]**&#x200B;可视化让您看到重要量度在单个时间范围内的趋势如何。 它还允许您在两个时间范围内比较量度表现。 它还具备将多个可视化图表组合为一个可视化图表的优点：
 
-* **[!UICONTROL 摘要百分比变化]**&#x200B;显示主要日期范围和比较日期范围之间的量度增加或减少
+* **[!UICONTROL 折线图]**&#x200B;可视化图表显示主要日期范围和比较日期范围的量度趋势
+
+* **[!UICONTROL 摘要百分比变化]**&#x200B;显示主要日期范围和比较日期范围之间的量度增减
 
 * 度量的当前总值（[!UICONTROL **摘要编号**]）
 
@@ -47,20 +48,20 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 * 一位高管想了解新预订从本季度到上季度的变化。
 
-## 配置关键量度摘要
+## 使用
 
-1. 将&#x200B;**[!UICONTROL 关键度量摘要]**&#x200B;可视化图表从左栏中的&#x200B;**[!UICONTROL 可视化图表]**&#x200B;菜单拖动到面板中。
+1. 添加![关键量度](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 关键量度摘要]**&#x200B;可视化图表。 请参阅[将可视化图表添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
 
-   ![](assets/key-metric-config.png)
+1. 通过选择&#x200B;**[!UICONTROL 量度]**、**[!UICONTROL 主要日期范围]**、**[!UICONTROL 比较日期范围]**（可选）和&#x200B;**[!UICONTROL 筛选器]**（可选）来配置可视化图表：
 
-1. 使用以下选项配置可视化图表：
+   ![显示指标、主要日期范围、比较日期范围和区段选项的关键指标配置。](assets/key-metrics-config.png)
 
-   | 配置设置 | 定义 |
+   | 选项 | 描述 |
    | --- | --- |
    | **[!UICONTROL 量度]** | 选择您希望检查的量度。 支持全部量度。 |
-   | **[!UICONTROL 主要日期范围]** | 自由表格的当前日期范围。<p>从报表包中的任何可用日期范围中进行选择。</p> <p>如果要使用在可视化图表所在的面板上使用的相同日期范围，请选择&#x200B;[!UICONTROL **面板日期范围**]。</p> |
+   | **[!UICONTROL 主要日期范围]** | 自由表格的当前日期范围。<p>从数据视图中的任何可用日期范围中进行选择。</p> <p>如果要使用在可视化图表所在的面板上使用的相同日期范围，请选择&#x200B;[!UICONTROL **面板日期范围**]。</p> |
    | **[!UICONTROL 比较日期范围。]** | 要与主要日期范围进行比较的日期范围。 |
-   | **[!UICONTROL 区段（可选）]** | 您对此摘要感兴趣的任何区段。 |
+   | **[!UICONTROL 筛选器（可选）]** | 您对此摘要感兴趣的任何过滤器。 |
 
    {style="table-layout:auto"}
 
@@ -73,11 +74,9 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 1. 选择&#x200B;**[!UICONTROL 生成]**。
 
-## 查看输出
+关键量度摘要的输出如下所示：
 
-输出应如下所示：
-
-![](assets/key-metric-output.png)
+![显示量度、摘要变化、摘要数字和折线图的关键量度输出。](assets/key-metrics.png)
 
 查看输出时，请考虑以下事项：
 
@@ -87,13 +86,20 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 * 从此处，您可以将鼠标悬停在线形图上，查看各个日期的统计数据：
 
-![](assets/key-metric-output2.png)
 
-## 可视化设置
+## 配置
 
-关键量度摘要提供了多种灵活的设置，以便更好地报告和沟通重要量度。 可以通过可视化图表右上角的齿轮图标访问设置。
+构建可视化图表后，您可以编辑原始配置。
 
-![](assets/key-metric-settings.png)
+1. 在可视化图表顶部选择![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL 配置可视化图表]**。
+
+   您将返回到原始配置对话框。
+
+1. 根据需要更改设置。 选择&#x200B;**[!UICONTROL 重置]**&#x200B;以重置当前设置。 选择&#x200B;**[!UICONTROL 生成]**&#x200B;以重新生成可视化图表。
+
+## 设置
+
+作为可视化设置的一部分，可以使用特定的关键指标摘要设置。
 
 | 设置 | 描述 |
 | --- | --- |
@@ -101,12 +107,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 | **[!UICONTROL 强调数值]** | 在可视化图表中心以突出的粗体显示摘要编号 |
 | **[!UICONTROL 图例可见]** | 显示或隐藏可视化图表底部的图例 |
 | **[!UICONTROL 显示注释]** | 显示或隐藏管理员添加的注释 |
-| **[!UICONTROL 显示迷你图]** | 在图表底部显示或隐藏线形图。 隐藏时，图例将更改为不再在视觉上引用线条 |
-| **[!UICONTROL 在迷你图上显示最小值和最大值]** | 在主线形图和比较线形图上显示或隐藏最小值和最大值 |
-| **[!UICONTROL 显示比较]** | 显示或隐藏比较数据。 隐藏时，比较线形图和汇总更改对象将从视图中隐藏。 |
+| **[!UICONTROL 隐藏标题]** | 隐藏可视化图表的标题。 |
+| **[!UICONTROL 百分比]** | 以百分比而非数字显示可视化图表。 |
+| **[!UICONTROL 显示趋势线]** | 在可视化图表中显示趋势线。 |
+| **[!UICONTROL 在趋势线上显示最大值和最小值]** | 在主线形图和比较线形图上显示或隐藏最小值和最大值 |
+| **[!UICONTROL 显示比较百分比和趋势线]** | 显示或隐藏比较数据。 隐藏时，比较线形图和汇总更改对象将从视图中隐藏。 |
 | **[!UICONTROL 显示总数]** | 显示或隐藏摘要编号 |
 | **[!UICONTROL 显示原始差异]** | 显示或隐藏主要日期范围和次要日期范围中量度的总值之间的原始差异 |
-| **[!UICONTROL 缩写值]** | 缩写数值以简化交流的见解（例如，20,000 -> 20K） |
+| **[!UICONTROL 缩写值]** | 选择&#x200B;**[!UICONTROL 缩写值]**&#x200B;智能缩写数值。 选中后，输入数字以定义缩写金额。 例如：<br/><table><tr><td>**原始值**</td><td>**缩写**</td><td>**结果**</td></tr><tr><td>12,011,141.25美元</td><td>未选择</td><td align="right">12,011,141.25美元</td></tr><tr><td>12,011,141.25美元</td><td>已选定，设置为1</td><td align="right">1200万美元</td></tr><tr><td>12,011,141.25美元</td><td>已选定，设置为2</td><td align="right">1200万美元</td></tr><tr><td>12,011,141.25美元</td><td>已选定，设置为2</td><td align="right">1201.1万美元</td></tr><tr><td>12,011,141.25美元</td><td>选择，设置为3</td><td align="right">1201.1万美元</td></tr></table> |
 
 ## 编辑可视化图表
 
@@ -114,8 +122,15 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 1. 单击可视化右上角的铅笔图标（设置齿轮图标旁边）。
 
-   ![](assets/edit-icon.png)
+   ![可视化编辑图标](assets/edit-icon.png)
 
    现在，您将返回到原始配置视图。
 
-1. 根据需要更改量度、主要日期范围、比较日期范围或区段。
+1. 根据需要更改量度、主要日期范围、比较日期范围或过滤器。
+
+>[!MORELIKETHIS]
+>
+>[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+

@@ -5,10 +5,10 @@ keywords: Analysis Workspace;区段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 38%
+source-wordcount: '593'
+ht-degree: 37%
 
 ---
 
@@ -39,11 +39,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 区段比较面板是[区段 IQ](../../segment-iq.md) 中的一个工具，可以发现无限数量的区段中最具统计意义的差异。该功能通过自动分析您有权访问的所有维度和量度来进行迭代。它会自动找出受众区段中可提升公司 KPI 的关键特征，并让您了解任意区段的重叠程度。
 
-+++ 以下是一段关于区段比较的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段比较](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 使用
 

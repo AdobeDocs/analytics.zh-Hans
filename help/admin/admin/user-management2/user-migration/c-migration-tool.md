@@ -4,7 +4,7 @@ title: 将 Analytics 用户迁移到 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 4c4e68afcf9a7e2c5cd00ef109fbbf44578a3d1a
 workflow-type: tm+mt
 source-wordcount: '3084'
 ht-degree: 97%
@@ -38,7 +38,7 @@ ht-degree: 97%
    <td colname="col2"> <p>Analytics 用户可以使用其 Adobe ID 或企业 ID 登录到 Experience Cloud 及所有解决方案。这种登录允许用户在 Experience Cloud 中访问集成解决方案与核心服务。 </p> <p>迁移后，尝试通过旧版登录（<span class="filepath">my.omniture.com</span> 和 <span class="filepath">sc.omniture.com</span>）进行登录的用户将被重定向至 <span class="filepath">experiencecloud.adobe.com</span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>管理用户身份和权限 </p> </td> 
+   <td colname="col1"> <p>管理用户身份标识和权限 </p> </td> 
    <td colname="col2"> <p>Analytics 可专门在 <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> 中管理用户和权限。 </p> </td> 
   </tr> 
   <tr> 
@@ -280,8 +280,8 @@ ht-degree: 97%
    <td colname="col2"> <p> 有关用户上次登录日期和时间的详细信息将显示在“Analytics 用户和资产”链接中，而不是显示在 Adobe Admin Console 中。Analytics 中的上次登录日期与用户从 Experience Cloud 内实际访问 Analytics 的时间有关，而不反映他们登录到 Experience Cloud 的日期/时间。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>用户管理 API <a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">Adobe 支持的身份类型</a> </p> </td> 
-   <td colname="col2"> <p> 迁移到 Adobe Admin Console 的管理员应当配置在 Adobe Developer 上提供的<a href="https://developer.adobe.com/UMAPI/">用户管理 API</a>，以便在 Adobe Admin Console 中以编程方式访问用户帐户。 </p> <p>为您启用迁移时将会关闭 Analytics 权限 API。 </p> </td> 
+   <td colname="col1"> <p>用户管理 API <a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">Adobe 支持的身份标识类型</a> </p> </td> 
+   <td colname="col2"> <p> 迁移到 Adobe Admin Console 的管理员应当配置在 Adobe Developer 上提供的<a href="https://developer.adobe.com/umapi">用户管理 API</a>，以便在 Adobe Admin Console 中以编程方式访问用户帐户。 </p> <p>为您启用迁移时将会关闭 Analytics 权限 API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web 服务凭据 </p> </td> 
@@ -322,7 +322,7 @@ ht-degree: 97%
 
 **有用的资源：**
 
-[登录并管理配置文件设置](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)。
+[登录并管理轮廓设置](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)。
 
 如果您有任何问题或疑问，请联系您的 Analytics 管理员。
 

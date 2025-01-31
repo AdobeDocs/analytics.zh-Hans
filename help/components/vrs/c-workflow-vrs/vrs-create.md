@@ -4,10 +4,10 @@ keywords: 虚拟报表包
 title: 创建虚拟报表包
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 64%
+source-wordcount: '675'
+ht-degree: 62%
 
 ---
 
@@ -43,9 +43,12 @@ ht-degree: 64%
 
 ![](assets/visit-definition.png)
 
-以下是一段关于如何在虚拟报表包中调整访问定义的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 | 元素 | 描述 |
 | --- |--- |

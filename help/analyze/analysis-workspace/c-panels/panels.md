@@ -4,9 +4,9 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 515517eb708b8c8e1210f82a325e46cbf308c5e6
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2157'
 ht-degree: 57%
 
 ---
@@ -157,11 +157,13 @@ Analysis Workspace中为[!UICONTROL Adobe Analytics]提供了以下面板类型�
 
 ### 下拉区段
 
-+++ 观看视频，了解下拉列表区段的说明。
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+>[!BEGINSHADEBOX]
 
-+++
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉列表区段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 #### 静态下拉区段
 

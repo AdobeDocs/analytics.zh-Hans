@@ -3,16 +3,16 @@ title: Analytics 导入指南
 description: 本指南阐述如何使用数据源和数据插入 API 将数据导入到 Analytics 中。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Analytics 导入指南
 
-![横幅](../../assets/doc_banner_import.png)
+
 
 本指南介绍如何将数据引入 Analytics。其中包括：
 
@@ -21,9 +21,14 @@ ht-degree: 100%
 * **[数据插入 API](c-data-insertion-api/c-data-insertion-api.md)**：通过 API，将数据直接发送到 Adobe 的数据收集中。
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：查找当前可用于充实您的 Adobe Analytics 报表包的集成。
 
-下面是 Adobe Analytics 的视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics概述](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 更多 Analytics 用户指南
 

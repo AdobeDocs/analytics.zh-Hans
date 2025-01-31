@@ -4,10 +4,10 @@ title: 影响 Analysis Workspace 性能的因素及优化措施
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 4cbcdc1e1287c301fe4452370e3db1f4b9b3f3a1
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '2548'
-ht-degree: 76%
+source-wordcount: '2551'
+ht-degree: 75%
 
 ---
 
@@ -107,6 +107,10 @@ ht-degree: 76%
 
 ## 提高 Analysis Workspace 中工作效率的技巧
 
-以下是一段关于该主题的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
+>[!BEGINSHADEBOX]
+
+查看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [提高生产力的提示](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+

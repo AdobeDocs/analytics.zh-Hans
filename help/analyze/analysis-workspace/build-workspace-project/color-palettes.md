@@ -4,10 +4,10 @@ title: 什么是可视化图表调色板？其工作原理是怎样的？
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 92%
+source-wordcount: '227'
+ht-degree: 88%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 92%
 
 ## 更改您的[!UICONTROL 调色板]：
 
-以下是一段关于使用自定义[!UICONTROL 调色板]的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)[使用自定义调色板](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 1. 导航至&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**。
 1. 从&#x200B;**[!UICONTROL 项目调色板]**&#x200B;下拉列表中，您可以从5种预设配色方案中选取一种配色方案。

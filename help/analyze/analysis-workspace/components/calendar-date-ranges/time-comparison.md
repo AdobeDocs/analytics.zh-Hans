@@ -4,10 +4,10 @@ title: 日期比较
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 57%
+source-wordcount: '747'
+ht-degree: 56%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 57%
 
 Analysis Workspace 中的日期比较允许您采用包含日期范围的任何列来创建常见的日期比较，例如：年同比、季度同比、月同比，等等。
 
-以下是一段关于该主题的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[日期比较](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 比较时间段 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 

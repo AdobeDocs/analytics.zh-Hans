@@ -5,10 +5,10 @@ title: 在流失分析中应用区段
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 93%
+source-wordcount: '436'
+ht-degree: 90%
 
 ---
 
@@ -50,9 +50,13 @@ ht-degree: 93%
 
 您可以在“流失”可视化图表中比较任意区段数量。 （请注意，以下视频说明最多可以比较3个区段，这是错误的。）
 
-以下是一段关于比较流失中的各个区段的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在流失可视化图表中比较区段](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 1. 从左侧的[!UICONTROL 区段]边栏中选择要比较的区段。在我们的示例中，我们已选择了 2 个区段：美国用户和非美国用户。
 1. 将它们拖到顶部的区段拖放区域中。

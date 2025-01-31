@@ -4,10 +4,10 @@ title: 创建和共享移动记分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 81%
+source-wordcount: '2524'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,13 @@ ht-degree: 81%
 
 以下信息指示 Adobe Analytics 数据的策划人如何为执行用户配置和展示移动记分卡。要开始操作，您可以观看Adobe Analytics功能板记分卡生成器视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [移动记分卡生成器](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视化图表，如下所示：
 
@@ -121,9 +127,13 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 ## 应用可视化图表 {#viz}
 
-观看有关移动记分卡的可视化图表的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[可视化图表](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 Analytics 功能板提供了四种可视化图表，可让您深入了解维度项和指标。通过更改图块的[!UICONTROL 属性]的[!UICONTROL 图表类型]来更改为其他可视化图表。只需选择正确的图块，然后更改图表类型。
 
@@ -193,7 +203,13 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 通过自定义详细信息幻灯片，与受众共享的信息可更有针对性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自定义详细信息视图](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 可修改每个详细信息幻灯片的布局，并添加文本以更好地解释最终用户可能在数据中看到的内容。还可使用下拉菜单更改图表类型。
 
@@ -229,9 +245,12 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 例如，如果您关注 Web 流量，则对您最重要的量度可能是访问量，但您也可能对新访客和独特访客感兴趣，并且您可能要查看按网页或流量来源设备类型细分的数据。通过移动记分卡项目中的数据故事，可重点介绍对您最重要的量度，同时用多张详细信息幻灯片讲述这些量度背后的整个故事。
 
-观看视频以详细了解如何在 Analysis Workspace 中的移动记分卡项目中创建数据故事。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频创建数据故事](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 **创建数据故事**
 

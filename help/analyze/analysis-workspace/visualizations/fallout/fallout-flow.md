@@ -4,10 +4,10 @@ title: 流失概述
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -31,9 +31,13 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 流失可视化图表为构建流失报表提供了多个选项。流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。
 
-以下是一段关于流失可视化图表的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流失可视化图表](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 流失可视化图表允许您
 

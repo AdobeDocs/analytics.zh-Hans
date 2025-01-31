@@ -4,10 +4,10 @@ description: 适用于 Adobe Analytics 管理员的管理帮助，包括 Admin C
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '315'
+ht-degree: 96%
 
 ---
 
@@ -17,9 +17,12 @@ ht-degree: 100%
 
 此帮助适用于 Adobe Analytics 的管理员。它包含有关 Admin Console 中的用户和产品管理，以及设置报表包、变量、分类和数据收集的帮助信息。
 
-下面是 Adobe Analytics 的视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+有关Adobe Analytics的介绍视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Adobe Analytics简介](https://video.tv.adobe.com/27429?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 Adobe Analytics 目前有两个管理员区域：
 

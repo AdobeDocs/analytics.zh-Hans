@@ -3,10 +3,10 @@ description: 可对虚拟报表包进行管理以在 Analysis Workspace 中包�
 title: 虚拟报表包组件管理
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 94%
+source-wordcount: '415'
+ht-degree: 92%
 
 ---
 
@@ -14,9 +14,13 @@ ht-degree: 94%
 
 可对虚拟报表包进行管理以在 Analysis Workspace 中包含和排除组件。
 
-以下是一段关于组件策展的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [组件策划](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ title: 异常检测概述
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 100%
+source-wordcount: '1291'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,12 @@ ht-degree: 100%
 
 您可以在 Analysis Workspace 中根据上下文查看和分析数据异常。贡献分析与异常检测配合工作以帮助确定导致异常的原因。
 
->[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[异常检测](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -47,7 +52,13 @@ Analysis Workspace 的异常检测算法包括
 
 “贡献分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。
 
->[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [贡献分析](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 发生了异常情况。为什么？您的异常检测报表显示订购次数存在不寻常的上升，您想知道为什么出现这种情况。发生了什么不寻常的情况？谁响应了哪个促销活动或转接链接？这一情况是否会传播开来？导致本异常的具体因素是什么？或许最重要的是，如何捕获有关客户的重要信息以及如何重现这一情况？（或者，如果量度下降或负量度上升，将来如何避免这种情况发生？）
 

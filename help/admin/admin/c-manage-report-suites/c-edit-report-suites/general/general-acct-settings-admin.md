@@ -4,10 +4,10 @@ title: 一般帐户设置
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 85%
+source-wordcount: '698'
+ht-degree: 83%
 
 ---
 
@@ -19,9 +19,12 @@ ht-degree: 85%
 
 这些设置包含基本报表包功能的编辑选项，例如名称和时区。
 
-以下视频介绍了如何配置常规帐户设置：
 
->[!VIDEO](https://video.tv.adobe.com/v/332330/?quality=12)
+>[!BEGINSHADEBOX]
+
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置常规帐户设置](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 | 选项 | 描述 |
 |--- |--- |

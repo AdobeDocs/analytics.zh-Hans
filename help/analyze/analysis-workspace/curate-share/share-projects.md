@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1929'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -30,9 +30,13 @@ ht-degree: 100%
 
 当收件人打开项目时，将反映您在分享前应用的任何[策划](curate.md)。
 
-下面是项目共享的视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[共享项目](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 
 ## 与组织中的 Analysis Workspace 用户和组共享 {#Add}
@@ -96,7 +100,7 @@ ht-degree: 100%
 
    或
 
-   选择&#x200B;**[!UICONTROL 策划和共享]**&#x200B;以自动应用项目策划。（如果已共享该项目，请选择&#x200B;**[!UICONTROL 策划和更新]**。）详细了解[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)。
+   选择&#x200B;**[!UICONTROL 策划和共享]**&#x200B;以自动应用项目策划。（如果项目已共享，请选择&#x200B;**[!UICONTROL 策划和更新]**。）了解有关[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)的更多信息。
 
 ## 共享项目链接
 
@@ -138,9 +142,13 @@ ht-degree: 100%
 >
 >* 如果许多用户尝试同时访问给定的链接，则项目可能会变得无法访问。默认情况下，每 5 分钟可有超过 190 人访问单个链接。如果您的组织达到此限制，请等待 5 分钟，然后再重试访问链接。
 
-以下视频演示和随附文档描述与任何人共享链接相关的选项：
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [与任何人共享链接](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}以获取演示视频。
+
+>[!ENDSHADEBOX]
+
 
 要与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目，请执行以下操作：
 
@@ -156,7 +164,7 @@ ht-degree: 100%
 
    选择此选项将创建可与任何人共享的项目链接。随时可通过禁用此选项而禁止访问项目。
 
-   项目的所有者也是此链接的所有者。只有移交项目所有权后，才能将链接所有权移交给另一用户，如 Analytics 管理指南中的[转移用户资源或设置帐户到期](/help/admin/admin/user-management2/users-assets.md)所述。
+   项目的所有者也是此链接的所有者。只有移交项目所有权后，才能将链接所有权移交给另一用户，如 Analytics 管理指南中的[转移用户资源或设置帐户有效期限](/help/admin/admin/user-management2/users-assets.md)所述。
 
 1. 选择是否启用以下安全选项（您的 Analytics 管理员可控制此选项）：
 
@@ -188,9 +196,14 @@ ht-degree: 100%
 
 ## 共享嵌入的组件
 
-以下是一段关于该主题的视频：
+您可以共享作为项目一部分的嵌入组件。
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[共享嵌入的组件](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 常见问题解答 {#FAQs}
 

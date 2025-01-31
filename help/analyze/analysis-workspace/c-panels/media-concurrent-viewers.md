@@ -4,9 +4,9 @@ description: 如何在 Analysis Workspace 中使用和解释“媒体并行查�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 47%
 
 ---
@@ -54,11 +54,13 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 在Analysis Workspace中，“并行查看者数量”量度是在特定时间点查看您的媒体流的独特人数，它与会话数量无关。
 
 
-+++ 观看此功能的视频演示。
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体并行查看者面板](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}。
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 ## 使用
 

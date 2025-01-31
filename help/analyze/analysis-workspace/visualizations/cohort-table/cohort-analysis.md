@@ -4,10 +4,10 @@ description: 用同类群组分析更深入地挖掘您受众周围的数据并�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 86%
+source-wordcount: '590'
+ht-degree: 81%
 
 ---
 
@@ -52,9 +52,12 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 [!UICONTROL 同类群组分析]适用于具有 [!UICONTROL Analysis Workspace] 访问权限的所有 Adobe Analytics 客户。
 
-关于 Analysis Workspace 中同类群组表的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Analysis Workspace中的同类群组分析](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -74,9 +77,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 ![](assets/retention-report.png)
 
-以下是一段关于计算滚动留存率的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+>[!BEGINSHADEBOX]
+
+查看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算滚动保留率](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ### [!UICONTROL 流失率表]
 
@@ -84,9 +92,12 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 ![](assets/churn-report.png)
 
-以下是一段关于流失分析的视频：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流失分析](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ### [!UICONTROL 滚动计算]
 

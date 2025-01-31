@@ -1,18 +1,18 @@
 ---
-description: 在 Workspace 项目中使用水平条形图可视化。
+description: 此可视化显示了一些水平条，这些水平条表示一个或多个量度中的各种值。
 title: 水平条形图和堆叠的水平条形图
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 70%
+source-wordcount: '193'
+ht-degree: 31%
 
 ---
 
-# 水平条形图和堆叠的水平条形图
+# 水平条形图（堆叠）
 
 >[!BEGINSHADEBOX]
 
@@ -33,9 +33,10 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 <!-- markdownlint-enable MD034 -->
 
-此可视化显示了一些水平条，这些水平条表示一个或多个量度中的各种值。
+此![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 水平条]**&#x200B;可视化显示一些水平条，这些水平条表示一个或多个量度中的各种值。
 
-![](assets/horizontal_bar.png)
+![显示页面查看次数、页面速度、访问次数、登录次数和退出次数量度的水平条。](assets/horizontal-bar.png)
+
 
 ## 堆叠的水平条形图 {#horizontal-bar-stacked}
 
@@ -48,10 +49,20 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 <!-- markdownlint-enable MD034 -->
 
-此可视化与[!UICONTROL 水平条形图]类似，只是系列条以堆叠方式显示。
 
-![](assets/horizontal-bar-stacked.png)
+![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL 栈叠的水平条形图]**&#x200B;可视化与[!UICONTROL 水平条形图]类似，但序列条形图显示为栈叠的。
 
-堆叠的条形可视化中的[!UICONTROL 堆叠的水平条形图]设置将图表变为“100% 堆叠”可视化：
+![显示页面查看次数、访问次数、登入次数和退出次数的栈叠水平条形图。](assets/horizontal-bar-stacked.png)
 
-![](assets/horizstacked100.png)
+在![设置](/help/assets/icons/Setting.svg) **[!UICONTROL 设置]**&#x200B;中使用&#x200B;**[!UICONTROL 100%栈叠]**&#x200B;选项可将图表转换为100%栈叠可视化图表。
+
+![100%栈叠的水平条形图](assets/horizontal-bar-stacked100.png)
+
+
+>[!MORELIKETHIS]
+>
+>[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

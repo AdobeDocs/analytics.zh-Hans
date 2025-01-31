@@ -4,10 +4,10 @@ description: 自由格式表是在 Analysis Workspace 中进行数据分析的�
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 64%
+source-wordcount: '637'
+ht-degree: 61%
 
 ---
 
@@ -93,13 +93,23 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 ## 视频
 
 自由格式表生成器概述：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"}。
 
-自由格式表过滤器：
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+>[!BEGINSHADEBOX]
 
-自由格式表总计：
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [自由格式表筛选器](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"}。
 
->[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
+

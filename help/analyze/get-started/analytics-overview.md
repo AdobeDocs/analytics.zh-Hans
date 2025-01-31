@@ -4,10 +4,10 @@ short-description: 了解针对分析师、最终用户和管理员的关键功�
 title: Adobe Analytics 概述
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,13 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
 
 要了解 Adobe Analytics 基础知识，请观看此 *Adobe Analytics 简介 - Skill Builder 网络研讨会*&#x200B;视频。该视频向您介绍了有关如何捕获数据、如何将数据发送到 Adobe Analytics 以及在 Adobe Analytics 中可以使用哪些可视化功能的基础知识。该视频为您提供有关构建、部署、收集和解释数据的基础知识，让您能够根据收集的数据提供可操作的见解和推荐。
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+观看网络研讨会视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics简介 — 技能培养](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 有关使用哪种工具的问题，请参阅[我应该使用哪种 Adobe Analytics 工具？](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html)
 

@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 86%
+source-wordcount: '167'
+ht-degree: 24%
 
 ---
 
@@ -30,26 +30,33 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!ENDSHADEBOX]
 
-通过[!UICONTROL 维恩图]可视化，最多可拖入 3 个区段（从[!UICONTROL 组件]中）和一个量度来构建[!UICONTROL 维恩图]。
+![类型](/help/assets/icons/TwoDots.svg) **[!UICONTROL 维恩图]**&#x200B;可视化图表允许您最多拖入3个筛选器和一个量度（从“组件”面板）来构建维恩图。
 
-![](assets/venn.png)
+![包含三个筛选器的维恩图可视化图表。](assets/venn.png)
 
-然后，可以将光标悬停在这些区段上以更加深入地了解百分比等信息。
+您可以将鼠标悬停在这些过滤器上以更加深入地了解百分比等信息。
 
-![](assets/venn_hover.png)
+若要从[!UICONTROL 维恩图]可视化图表生成[!UICONTROL 自由格式表]，请选择&#x200B;**[!UICONTROL 维恩图]**&#x200B;标题旁边的彩色![StatusOrange](/help/assets/icons/StatusOrange.svg)，然后选择&#x200B;**[!UICONTROL 显示数据源]**。 您将会看到&#x200B;**[!UICONTROL 维恩数据]**&#x200B;自由格式表，其中包含用于创建[!UICONTROL 维恩图]可视化图表的数据。
 
-## 将[!UICONTROL 维恩图]转换为[!UICONTROL 自由格式]表
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-要将维恩图转换为自由格式表，请单击&#x200B;**[!UICONTROL 维恩图]**&#x200B;标题旁边的彩色圆点，然后选择&#x200B;**[!UICONTROL 管理数据源]** > **[!UICONTROL 可用的数据源]** > **[!UICONTROL 自由格式表]**。
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-## 规范化[!UICONTROL 维恩图]
+-->
 
-要规范化[!UICONTROL 维恩图]（规范化维恩图的大小），请转到其“可视化设置”图标并选择&#x200B;**[!UICONTROL 规范化]**。
 
-![](assets/normalization.png)
+>[!BEGINSHADEBOX]
 
-## 视频
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[维恩图可视化图表](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"}。
 
-以下是一段关于[!UICONTROL 维恩图]的视频：
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
+
+>[!MORELIKETHIS]
+>
+>[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

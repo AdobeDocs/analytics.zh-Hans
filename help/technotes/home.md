@@ -3,9 +3,9 @@ title: Analytics 技术说明
 description: 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,6 @@ Adobe Analytics 的一些主要功能包括：
 
 总之，Adobe Analytics 是一个强大的网站分析解决方案，可为企业提供衡量、分析和优化其数字营销活动所需的工具。借助实时数据、高级分析和归因建模，企业可以做出数据驱动的决策，推动数字化转型并提高 ROI。
 
-下面是 Adobe Analytics 的视频概述：
-
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 重要技术说明文章
 

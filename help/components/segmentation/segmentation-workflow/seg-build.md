@@ -3,7 +3,7 @@ description: 区段生成器提供了一个画布以将指标维度、区段和�
 title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 96%
@@ -167,9 +167,13 @@ ht-degree: 96%
 
 ![](assets/date-ranges.png)
 
-以下是一段关于在区段中使用滚动日期范围的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)[区段中的滚动日期范围](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 堆叠区段 {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

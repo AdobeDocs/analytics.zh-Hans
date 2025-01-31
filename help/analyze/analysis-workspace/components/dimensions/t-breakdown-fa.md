@@ -5,10 +5,10 @@ title: 划分维度
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 89%
 
 ---
 
@@ -45,14 +45,25 @@ ht-degree: 100%
 
 ## 视频
 
-在分析工作区中将维度和量度添加到项目：
 
->[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+>[!BEGINSHADEBOX]
 
-在自由格式表中使用维度：
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中将维度和量度添加到项目](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}。
 
->[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+>[!ENDSHADEBOX]
 
-以下是一段关于按位置划分的维度细分的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在自由格式表中使用维度](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}以获取演示视频。
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[按位置](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"}划分的维度。
+
+>[!ENDSHADEBOX]
+

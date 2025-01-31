@@ -5,10 +5,10 @@ keywords: appmeasurement,变量,变量,配置,页面,实施
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 69%
+source-wordcount: '385'
+ht-degree: 67%
 
 ---
 
@@ -22,11 +22,15 @@ Analytics 提供了多个变量来收集 Analytics 数据。此部分中的变�
 
 ## 变量和实施方法
 
-Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面中都提供一个部分，介绍如何使用Web SDK、使用Adobe Analytics扩展和使用JavaScriptAppMeasurement来实施变量。
+Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面中都提供了一部分来说明如何使用Web SDK、使用Adobe Analytics扩展和使用JavaScriptAppMeasurement来实施变量。
 
-以下是一段关于在 Adobe Analytics 中配置变量的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
+>[!BEGINSHADEBOX]
+
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置变量](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 操作顺序
 

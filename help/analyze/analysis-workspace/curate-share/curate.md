@@ -5,10 +5,10 @@ title: 策划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +19,13 @@ ht-degree: 100%
 >[!NOTE]
 > 产品配置文件是控制用户可以查看哪些组件的主要机制。此类配置文件通过 Adobe Experience Cloud Admin Console 进行管理。“策划”是一个次级过滤器。
 
-以下是一段关于项目策划和共享的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [策划项目](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 应用项目策划
 

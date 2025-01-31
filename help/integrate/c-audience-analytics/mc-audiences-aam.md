@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics 概述
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '478'
 ht-degree: 42%
 
 ---
@@ -17,7 +17,13 @@ Adobe Audience Manager (Adobe Audience Manager)是一个功能强大的数据管
 
 通过实施Audience Analytics集成，您可以将诸如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM数据和广告展示数据之类的Adobe Audience Manager受众数据合并到任何Analytics工作流程中。
 
->[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+观看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"}演示视频。
+
+>[!ENDSHADEBOX]
+
 
 ## 主要优势 {#benefits}
 

@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
-source-wordcount: '1220'
-ht-degree: 100%
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+workflow-type: tm+mt
+source-wordcount: '1219'
+ht-degree: 99%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 100%
 
 有关 Adobe Analytics 产品比较的更多信息，请参阅[Analytics 产品比较](/help/analyze/get-started/analytics-product-comparison.md)。
 
-以下是一段比较各种 Adobe Analytics 工具的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [工具比较](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## Adobe Analytics 报表用户界面 {#user-interfaces}
 

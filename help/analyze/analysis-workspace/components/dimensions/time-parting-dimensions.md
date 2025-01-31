@@ -4,10 +4,10 @@ title: 时间划分维度
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 96%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 时间划分会采用所收集的点击量的时间戳，并将其划分为更有意义的维度，例如“每天时间”或“每周时间”。
 
-以下是一段关于时间划分维度的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 时间划分维度基于报表包或虚拟报表包的时区。这些维度可以在 Analysis Workspace 中使用，并且可以帮助您回答以下问题：
 

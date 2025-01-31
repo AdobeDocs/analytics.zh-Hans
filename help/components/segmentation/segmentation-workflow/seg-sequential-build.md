@@ -3,10 +3,10 @@ description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。TH
 title: 生成顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3931'
-ht-degree: 96%
+source-wordcount: '3932'
+ht-degree: 95%
 
 ---
 
@@ -18,9 +18,13 @@ ht-degree: 96%
 
 此外，您还可以使用 [After 和 Within 运算符](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)，将顺序区段限制为检查点之间的特定时间段、粒度和计数。
 
-以下是一段关于顺序区段的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 包含每个人 {#section_75ADDD5D41F04800A09E592BB2940B35}
 

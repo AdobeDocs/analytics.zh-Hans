@@ -3,10 +3,10 @@ description: 您无需在每次跟踪代码变更时维护并上载分类，您�
 title: 分类规则生成器工作流程
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 99%
+source-wordcount: '573'
+ht-degree: 97%
 
 ---
 
@@ -14,9 +14,13 @@ ht-degree: 99%
 
 您无需在每次跟踪代码变更时维护并上载分类，您可以创建自动、基于规则的分类并将这些分类应用在多个报表包中。根据分类相关的流量数目，定期处理规则。
 
-下面是分类规则生成器的视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [分类规则生成器](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 开始前的重要注意事项
 

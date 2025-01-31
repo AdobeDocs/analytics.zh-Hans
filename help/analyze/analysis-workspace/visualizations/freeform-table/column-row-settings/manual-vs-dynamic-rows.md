@@ -4,10 +4,10 @@ description: 如何与表中的动态维度项目和静态维度项目交互。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 90%
+source-wordcount: '520'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 将维度拖放到自由格式表后，将返回动态行。这些动态行表示与给定量度和时间段的维度对应的排名靠前的项目。此外，您还可以将某个维度拖放到自由格式表的列中，该维度会自动扩展为排名前 5 的维度项目。
 
-例如，将“浏览器类型”维度拖入表中后，则排名靠前的“浏览器类型”维度项目（例如 Microsoft、Apple、Google 等）会动态返回到表行。如果拖放到列中，则会动态返回排名前 5 的“浏览器类型”维度项目。
+例如，将“浏览器类型”维度拖入表中后，排名靠前的“浏览器类型”维度项目(例如Microsoft、Apple、Google等)会动态返回到表行。 如果拖放到列中，则会动态返回排名前 5 的“浏览器类型”维度项目。
 
 动态维度项目具有行筛选器选项和X图标，并且&#x200B;**不**&#x200B;存在锁图标。 <!--do they have the lock icon? -->当您单击动态维度项旁边的x时，将自动应用过滤器。 有关将筛选器应用到表的详细信息，请参阅[筛选和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
@@ -57,6 +57,11 @@ ht-degree: 90%
 
 ## 重新排序静态行
 
-以下是一段关于该主题的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [重新排序静态行](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+

@@ -4,10 +4,10 @@ title: 多维度流失
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 Analysis Workspace 中的流失允许您将维度和量度作为漏斗和工作流程中的接触点来进行混合和匹配。这在定义要调查的用户步骤方面具有更大的灵活性。
 
-以下是一段关于该主题的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多维度流失](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 **示例**：除了页面维度之外，还可以向流失可视化图表添加基于操作的维度项目。这让您可以可视化客户路径中页面和某些操作是怎样相互作用的。
 

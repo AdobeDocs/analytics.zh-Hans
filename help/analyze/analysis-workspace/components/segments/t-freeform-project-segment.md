@@ -4,10 +4,10 @@ title: 区段
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '488'
+ht-degree: 81%
 
 ---
 
@@ -25,17 +25,26 @@ ht-degree: 91%
 
 ## 视频
 
-在 Analysis Workspace 中使用区段：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用区段](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"}来演示视频。
 
-查找和创建区段:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-区段中的滚动日期范围：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找和创建演示视频的区段](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[区段中的滚动日期范围](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 创建区段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -47,10 +56,10 @@ ht-degree: 91%
 ### 创建组件列表区段 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 “组件”菜单下的区段边栏显示
-* 您或您的公司创建的区段
-* 区段模板，由 Adobe 图标表示：
 
-![](assets/segment_icons.png)
+* 您或您的公司创建的区段
+* 区段模板，由Adobe![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)图标表示：
+
 
 有 2 种方法可创建此类型的区段。这两种方法都带您进入 Adobe Analytics 中的[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)，您可以在其中查找详细说明。
 
@@ -65,7 +74,12 @@ ht-degree: 91%
 
 ### 应用区段的其他方法 {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+请参阅演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [应用区段的其他方法](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 还有其他一些方法也可以将区段应用到自由格式项目中。
 

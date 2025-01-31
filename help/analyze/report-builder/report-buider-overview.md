@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -70,6 +70,11 @@ ht-degree: 29%
 >
 >此概述视频演示了Customer Journey Analytics中的Report Builder用户界面。 某些用户界面和术语有所不同。 否则，用户体验将相同。
 
->[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+观看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Report Builder概述](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}观看演示视频。
+
+>[!ENDSHADEBOX]
 
 您可以从[Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview)下载Report Builder。

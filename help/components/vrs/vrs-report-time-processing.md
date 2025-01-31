@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 72%
+source-wordcount: '1319'
+ht-degree: 71%
 
 ---
 
@@ -40,9 +40,14 @@ ht-degree: 72%
 * **[!UICONTROL 在每次应用程序启动后即开始一个新访问]：**&#x200B;除了访问超时之外，只要从 Mobile SDK 记录了应用程序启动事件，您就可以强制开始访问，而不管处于非活动状态的时间长短。 此设置会影响访问量度和访问区段容器，以及 eVar 中的访问过期逻辑。
 * **[!UICONTROL 通过事件开始新访问]：**&#x200B;无论会话是否超时，都会在触发事件时启动新会话。 新创建的会话包含启动该会话的事件。此外，您可以使用多个事件启动会话，如果在数据中观察到这些事件中的任何一个，便会触发新会话。此设置将影响您的访问计数、访问分段容器以及 eVar 上的访问过期逻辑。
 
-以下是一段关于通过事件开始新访问的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [开始新的访问（事件](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"}）。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 报表时间处理限制
 

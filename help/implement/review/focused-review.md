@@ -4,10 +4,10 @@ description: 按照以下步骤操作以确保您的实施无误并与 KPI 保�
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 70%
+source-wordcount: '499'
+ht-degree: 68%
 
 ---
 
@@ -44,4 +44,11 @@ ht-degree: 70%
 
 *观看这段来自 Adobe Analytics 冠军 Sarah Owen 的 2 分钟视频，了解在繁琐的工作中进行实施审查的适当时间：*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查看您的实施](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"}以了解演示视频。
+
+>[!ENDSHADEBOX]
+
+

@@ -3,9 +3,9 @@ description: 虚拟报表包中的上下文感知会话可更改 Adobe Analytics
 title: 上下文感知会话
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 97%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 97%
 
 您可以采用任何所需的方式定义访问，而无需更改基础数据，以便匹配您的访客与数字体验进行交互的方式。
 
-以下是一段关于上下文感知会话的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [上下文感知会话](https://video.tv.adobe.com/v/iden23545tifier?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 客户观点 URL 参数
 

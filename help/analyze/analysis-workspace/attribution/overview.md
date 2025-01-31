@@ -4,10 +4,10 @@ description: 将成功事件的点数归因到多个维度项目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 91%
 
 ---
 
@@ -48,21 +48,34 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 ## 视频
 
-自由格式表中的归因：
 
->[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+>[!BEGINSHADEBOX]
 
-计算量度中的归因
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[自由格式表中的归因](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"}。
 
->[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+>[!ENDSHADEBOX]
 
-使用“归因”面板:
 
->[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!BEGINSHADEBOX]
 
-添加归因模型的并排比较：
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[计算量度中的归因](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}。
 
->[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[使用归因面板](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加归因模型的并排比较](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"}以查看演示视频。
+
+>[!ENDSHADEBOX]
+
 
 ## 不支持归因的 Adobe Analytics 工具
 

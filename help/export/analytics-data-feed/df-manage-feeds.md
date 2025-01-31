@@ -3,9 +3,9 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 26%
 
 ---
@@ -14,11 +14,13 @@ ht-degree: 26%
 
 通过数据馈送管理器，您可以为贵组织创建、编辑和删除数据馈送。如果您有权访问数据馈送管理器，则可以管理对您可见的所有报表包的数据馈送。
 
-+++观看有关数据馈送管理的视频。
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 查看数据馈送
 

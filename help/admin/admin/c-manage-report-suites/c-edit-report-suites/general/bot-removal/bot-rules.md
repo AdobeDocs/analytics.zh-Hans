@@ -4,10 +4,10 @@ title: 了解和配置机器人规则
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '1668'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -31,9 +31,13 @@ ht-degree: 69%
 >
 >在删除机器人程序流量之前，请与利益关系人进行交流以确保做出此更改后他们会对关键性能指标做出必要的调整。如有可能，我们建议您首先从小型报表包中删除机器人程序流量以评估潜在的影响。
 
-以下视频演示了如何配置机器人规则：
 
->[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+>[!BEGINSHADEBOX]
+
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 要更新或上载机器人规则，请执行以下操作：
 
@@ -91,7 +95,7 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 **[!UICONTROL 不包含]**&#x200B;列表中可包含可选值，以定义用户代理进行成功匹配不得包含的值。通过在每行包含一个值，可指定多个值。如果用户代理满足在匹配字符串中指定的标准，但同时包含“不包含”列表中的字符串，则可将其视为匹配。
 
-**[!UICONTROL 包含]**&#x200B;字段限制为 100 个字符。“不包含”列表限制为 255 个字符，在减去每个新行中的一个分隔符（分隔符数等于字符串的数量减 1。如果您指定 4 个&#x200B;*不包含*&#x200B;字符串，则需要 3 个分隔符）。所有字符串匹配区分大小写。
+**[!UICONTROL 包含]**&#x200B;字段限制为 100 个字符。“不包含”列表限制为 255 个字符，在减去每个新行中的一个分隔符（分隔符数等于字符串的数量减 1。如果指定4 *不包含*&#x200B;字符串，则需要3个分隔符。) 所有字符串匹配均不区分大小写。
 
 ### IP 地址（包含通配符匹配）
 

@@ -4,9 +4,9 @@ description: 如何在 Analysis Workspace 中使用和解释“媒体播放耗�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1160'
 ht-degree: 56%
 
 ---
@@ -57,11 +57,11 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 * 下降发生在何处。
 
-+++ 观看此功能的视频演示。
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media Playback耗时面板](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}。
 
-+++
+>[!ENDSHADEBOX]
 
 ## 使用
 

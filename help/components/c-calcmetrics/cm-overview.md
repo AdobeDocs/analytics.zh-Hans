@@ -4,10 +4,10 @@ keywords: 计算指标；高级计算指标
 title: 计算量度和高级计算量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 54%
+source-wordcount: '552'
+ht-degree: 53%
 
 ---
 
@@ -41,14 +41,25 @@ ht-degree: 54%
 * 创建跨[!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 异常检测]和[!UICONTROL 贡献分析]的指标。
 * 创建在报表运行时派生的分段量度，而不必更改实施。 这些指标可以在历史记录中查看，因为它们是基于区段的。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [计算量度](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 * 在报表包之间共享指标。这表示所有新创建的指标都适用于同一登录公司中的所有报表包。
 * （仅限高级计算量度）按量度进行分段。 例如，您可以为“新访客”创建一个指标，其中包含首次进行会话的人员计数。
 
 * （仅限高级计算指标）包含统计函数以帮助您更好地描述数据。 例如，您可以对报表中的项目数量进行计数，或为每个项目加入标准偏差数。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)[区段中的分段计算量度](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 

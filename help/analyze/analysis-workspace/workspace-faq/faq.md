@@ -4,10 +4,10 @@ title: Workspace 常见问题解答以及故障诊断
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 91%
+source-wordcount: '549'
+ht-degree: 81%
 
 ---
 
@@ -31,32 +31,52 @@ ht-degree: 91%
 +++我可以将 Analysis Workspace 用于 Data Warehouse 吗？不建议将 Analysis Workspace 用于批量数据导出。它是一个创建类似功能板分析项目的可视化图表工作区。
 +++
 
-+++如何优化 Analysis Workspace 的性能？请参阅[优化性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。
-+++
++++如何优化Analysis Workspace的性能？
 
-+++数据如何进入您的 Analysis Workspace 项目？观看以下视频：
-
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+请参阅[优化性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。
 
 +++
 
-+++ 如何跟踪 Workspace 使用情况？
++++数据如何进入您的Analysis Workspace项目？
 
-观看以下有关 Analysis Workspace 使用情况日志跟踪的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据到Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}以了解演示视频。
+
+>[!ENDSHADEBOX]
+
 
 +++
 
-+++当我将量度拖动到上面时，显示“数据无效”。 如何解决这个问题？无效数据意味着 Adobe 无法通过报告中使用的维度和指标组合返回数据。例如，两个彼此堆叠的指标不能作为数据返回，因为无法以这种堆叠方式显示这两个指标。相反，应将两个指标并排放置。
++++如何跟踪Workspace使用情况？
+
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[日志跟踪](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 +++
 
-+++当我将量度拖动到上面时，看不到任何实际数据，只有零。 如何解决此问题？如果您成功创建了工作区报告，但报告中没有数据，则可以检查以下几项内容：
++++当我将量度拖动到上面时，显示“数据无效”。 如何解决此问题？
+
+无效数据意味着 Adobe 无法通过报告中使用的维度和量度组合返回数据。例如，两个彼此堆叠的量度不能作为数据返回，因为无法以这种堆叠方式显示这两个量度。相反，应将两个量度并排放置。
+
++++
+
++++当我将量度拖动到上面时，看不到任何实际数据，只有零。 如何解决此问题？
+
+如果您成功创建了工作区报告，但报告中没有数据，则可以检查以下几项内容：
 
 * 仔细检查报告包，并确保报告包中已填充数据。
 * 如果在报告中应用了区段，区段标准可能与所有数据不匹配。请尝试移除区段或调整区段定义。
 * 检查右上角的日期范围，并确保它已设置为预期的值。
 * 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 验证正在收集的数据。
+
+
 +++
 
 +++作为只读用户，我可以在Analysis Workspace中执行哪些操作？

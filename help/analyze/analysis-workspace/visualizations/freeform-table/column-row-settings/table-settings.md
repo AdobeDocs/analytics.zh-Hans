@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,9 @@ ht-degree: 100%
 
 ## 视频
 
-下面是有关“按行统计的百分比”的简短视频：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23134/?quality=12)
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[按行的百分比](https://video.tv.adobe.com/v/23134?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+

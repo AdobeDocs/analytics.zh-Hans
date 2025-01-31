@@ -3,10 +3,10 @@ description: 通过区段生成器，您可以使用选定的运算符比较和�
 title: 区段的比较运算符
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 95%
+source-wordcount: '1104'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 95%
 | 大于或等于 | 返回独特计数大于或等于输入值的维度项目。 |
 | 小于或等于 | 返回独特计数小于或等于输入值的维度项目。 |
 
-以下是一段关于按非重复维度计数进行分段的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [不同的维度计数](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]

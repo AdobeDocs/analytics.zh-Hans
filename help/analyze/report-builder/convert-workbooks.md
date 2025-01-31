@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,14 @@ ht-degree: 0%
 >
 >复制每个工作簿并重命名一个版本，然后再转换它。 这样，如果需要原始工作簿的副本，您仍然可以使用该副本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [转换工作簿](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}以获取演示视频。
+
+>[!ENDSHADEBOX]
+
+
 
 1. 按照](/help/analyze/report-builder/report-builder-setup.md)中的说明由[设置新Report Builder。
 

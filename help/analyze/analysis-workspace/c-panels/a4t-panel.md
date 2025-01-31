@@ -4,9 +4,9 @@ title: Analytics for Target (A4T) 面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1130'
 ht-degree: 47%
 
 ---
@@ -39,11 +39,12 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe An
 
 通过Analytics for Target面板，可以在Analysis Workspace中分析Adobe Target活动和体验。 通过该面板，最多还可以查看3个成功量度的提升度和置信度。 要访问Analytics for Target面板，请导航到启用了Analytics for Target组件的报表包。 然后，选择最左侧的面板图标，并将Analytics for Target面板拖动到您的Analysis Workspace项目中。
 
-+++下面是Analytics for Target面板的简短视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)[Analytics for Target面板](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 使用
 

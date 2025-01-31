@@ -4,10 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,12 @@ ht-degree: 100%
 
 以下视频进行了简要概述，并例举了可以执行的操作。
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace概述](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## Analysis Workspace 的区域
 
@@ -104,7 +109,7 @@ Analysis Workspace 中的分析被称作[项目](/help/analyze/analysis-workspac
 
 ## 其他资源 {#resources}
 
-* Adobe 提供了大量的 [Analytics 视频培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hans)。
+* Adobe 提供大量的 [Analytics 视频培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hans)。
 * 有关新功能的更新，请参阅 [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics)。
 * 通过 Analysis Workspace 培训教程模板了解 Analysis Workspace 是一个不错的方法。此模板将指导您逐步了解在 Workspace 中构建第一个分析时通常会用到的术语和步骤。要开始使用该教程，请执行以下操作：
    1. 在 Adobe Analytics 中的 [!UICONTROL **Workspace**] 选项卡上，选择左侧的&#x200B;**[!UICONTROL 学习]**。

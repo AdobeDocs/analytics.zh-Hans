@@ -3,10 +3,10 @@ title: Analytics 导出指南
 description: 本指南概述了如何使用数据馈送和 Data Warehouse 将数据导出 Adobe Analytics。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 62cb13c7eaa61153783ff4323180b549f727e68e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 * **Data Warehouse：**&#x200B;使用请求向导，以电子表格的形式重新获取输出的数据。Data Warehouse 使用不同的处理架构允许任意数量的行和任意数量的唯一值。数据仓库请求通常发送到 [云目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 * **FTP 和 SFTP：** 支持 FTP 和 SFTP，但不再推荐。相反，将数据导出到云目的地。
 
-下面是 Adobe Analytics 的视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics概述](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 重要 Analytics 导出文章
 

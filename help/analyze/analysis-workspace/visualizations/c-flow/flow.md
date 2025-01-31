@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 93%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,13 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 * 分析客户在指定检查点（例如登入、特定维度或退出）之前和之后的去向
 * 通过在选定路径中指定一个特定点来创建区段
 
-下面是流量可视化视频教程：
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[流量可视化图表](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 维度间流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -61,6 +65,13 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 流量图可以作为您能够创建的项目 .CSV 文件的一部分，方法是转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 下载 CSV]**。这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
 
-## 扩展流量可视化
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## 其他功能
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[流量可视化图表中的附加功能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+

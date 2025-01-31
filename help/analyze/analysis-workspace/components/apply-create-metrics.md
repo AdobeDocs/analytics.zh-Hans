@@ -4,10 +4,10 @@ title: Analysis Workspace 中的指标
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 51%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
@@ -35,7 +35,14 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 指标可以在 Analysis Workspace 中以各种方式使用。有关如何将量度和其他类型的组件添加到Analysis Workspace的信息，请参阅[在Analysis Workspace中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
 
->[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}观看演示视频。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 创建计算量度
 
@@ -87,4 +94,10 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 以下是一段关于该主题的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+查看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累积平均值](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+

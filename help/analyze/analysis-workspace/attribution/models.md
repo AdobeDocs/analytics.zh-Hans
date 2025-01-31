@@ -4,10 +4,10 @@ description: 不同类型的归因如何在维度项目之间划分点数。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 95%
+source-wordcount: '1603'
+ht-degree: 94%
 
 ---
 
@@ -44,9 +44,12 @@ Adobe Analytics 中的归因概念包含两个组件：
 
 * **自定义回顾时间范围：**&#x200B;允许您将归因时间范围扩展到超出报表日期范围（最多 90 天）。会对报表期内的每次转化评估其自定义回顾时间范围。例如，对于2月20日发生的转化，10天的回顾时间范围将评估归因模型中2月10日至2月20日的所有维度接触点。
 
-  以下是一段关于自定义回顾时间范围的视频：
+>[!BEGINSHADEBOX]
 
-  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自定义回看窗口期](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 示例
 
@@ -54,7 +57,7 @@ Adobe Analytics 中的归因概念包含两个组件：
 
 1. 9 月 15 日，某位访客通过付费搜索广告访问您的网站，然后离开。
 2. 9 月 18 日，该访客通过朋友提供的社交媒体链接再次访问您的网站。他将多个物品添加到购物车，但没有购买任何物品。
-3. 9 月 24 日，您的营销团队向他们发送一封电子邮件，其中包含购物车中某些物品的优惠券。他应用了优惠券，但访问了其他几个网站，查看是否有其他优惠券可用。他通过展示广告找到另一个网站，并最终购买了价值 50 美元的物品。
+3. 9 月 24 日，您的营销团队向他们发送一封电子邮件，其中包含购物车中某些物品的产品建议券。他应用了产品建议券，但访问了其他几个网站，查看是否有其他产品建议券可用。他通过展示广告找到另一个网站，并最终购买了价值 50 美元的物品。
 
 根据您的回顾窗口和归因模型，渠道会收到不同比例的点数。以下是一些典型的有趣示例：
 

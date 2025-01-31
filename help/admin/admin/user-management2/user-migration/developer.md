@@ -4,10 +4,10 @@ title: 受用户迁移影响的 API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 4c4e68afcf9a7e2c5cd00ef109fbbf44578a3d1a
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,6 @@ Adobe 正在将所有 Analytics 登录公司从 [!DNL my.omniture.com] 是迁移
 有关其他信息：
 
 * [一般用户管理信息](https://helpx.adobe.com/cn/enterprise/help/users.html)
-* [通过 adobe.io 的用户管理 API](https://developer.adobe.com/UMAPI/)
+* [通过 adobe.io 的用户管理 API](https://developer.adobe.com/umapi)
 * [用户管理 API 论坛](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [将 Analytics 用户访问和管理迁移到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

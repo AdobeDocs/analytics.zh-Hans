@@ -3,10 +3,10 @@ description: 允许您将区段用于“受众库”、Target 和 Audience Manag
 title: 要Experience Cloud的Publish区段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 67%
+source-wordcount: '1308'
+ht-degree: 66%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 67%
 
 您可以在8小时内将Analytics区段发布到Experience Cloud。 使用这些区段将 Audience Manager 中的受众激活到所有下游目标。
 
-观看此视频，了解更多详细信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Publish区段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >
@@ -42,7 +46,7 @@ ht-degree: 67%
 | 可用内容 | 可用时间 | 可用位置 |
 |---|---|---|
 | 元数据（区段标题和定义） | 发布后立即 | [!DNL Audience Manager]、[!UICONTROL Experience Cloud 受众库]、[!DNL Target] |
-| 具有会员资格的可用区段 | 发布后约 8 小时 | [!DNL Audience Manager] 中的访客资料查看器 |
+| 具有会员资格的可用区段 | 发布后约 8 小时 | [!DNL Audience Manager] 中的访客轮廓查看器 |
 | 特性和会员人群 | 24 - 48 小时内 | [!DNL Audience Manager] |
 
 >[!NOTE]
@@ -116,24 +120,24 @@ Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.a
 
 ![Chrome 开发人员工具](assets/ggogle-uuid.png)
 
-## 使用 Audience Manager [!UICONTROL 访客资料查看器]
+## 使用 Audience Manager [!UICONTROL 访客轮廓查看器]
 
-加载[!UICONTROL 访客资料查看器]时，默认情况下将使用浏览器上的Adobe Audience Manager UUID。 如果验证其他用户的特性实现，请在“UUID”字段中输入 UUID，然后单击“[!UICONTROL 刷新]”。请参阅[访客资料查看器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hans)，以了解详细信息。
+加载[!UICONTROL 访客资料查看器]时，默认情况下将使用浏览器上的Adobe Audience Manager UUID。 如果验证其他用户的特性实现，请在“UUID”字段中输入 UUID，然后单击“[!UICONTROL 刷新]”。请参阅[访客轮廓查看器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hans)，以了解详细信息。
 
-![Audience Manager 个人资料查看器](assets/aam-vpv.png)
+![Audience Manager 轮廓查看器](assets/aam-vpv.png)
 
 ## 在 [!DNL Audience Manager] 中查看区段特性
 
 在Adobe Audience Manager中，当Analytics与Experience Cloud共享区段时，将以流式方式评估给定区段的具有ECID的访客列表。
 
-1. 在 [!DNL Audience Manager] 中，转到[!UICONTROL “受众数据”>“特性”>“Analytics 特性”]。您将看到每个 Analytics 报告包对应的文件夹，这些报告包已映射到您的 Experience Cloud 组织。在启动或置备配置文件和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
+1. 在 [!DNL Audience Manager] 中，转到[!UICONTROL “受众数据”>“特性”>“Analytics 特性”]。您将看到每个 Analytics 报告包对应的文件夹，这些报告包已映射到您的 Experience Cloud 组织。在启动或置备轮廓和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
 1. 选择报告包对应的文件夹，您之前在该报告包中创建了要与 [!DNL Audience Manager] 共享的区段。您将看到所创建的区段/受众。当您共享区段时，会在 [!DNL Audience Manager] 中发生以下两种情况：
    * 将创建一个特性，起初该特性中没有数据。在 [!DNL Analytics] 中发布该区段大约 8 小时后，会载入一个 ECID 列表，并将其与 [!DNL Audience Manager] 和其他 Experience Cloud 解决方案共享。
 
      ![Audience Manager 特征](assets/aam-traits.png)
 
    * 将创建一个区段，其中包含一个特性。该区段使用与您在其中发布该区段的报告包关联的数据源。
-   * 特征到期现在设置为 16 天（以前为 2 天）。
+   * 特征有效期限现在设置为 16 天（以前为 2 天）。
 
 ## 在 [!DNL Adobe Target] 中查看区段
 

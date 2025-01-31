@@ -5,10 +5,10 @@ title: 可选时间戳
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 96%
 
 了解有关使用可选时间戳设置的好处和限制。
 
-以下是一段关于该主题的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [可选时间戳](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 可选时间戳是所有新报表包的默认设置。
 

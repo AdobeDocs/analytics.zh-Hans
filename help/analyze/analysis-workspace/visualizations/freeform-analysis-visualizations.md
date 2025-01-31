@@ -5,10 +5,10 @@ title: 可视化图表概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 85%
+source-wordcount: '1457'
+ht-degree: 37%
 
 ---
 
@@ -33,7 +33,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | [直方图](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![直方图图标](assets/Smock_GraphHistogram_18_N.svg)</p> | 直方图根据指标数量，将访客数、访问数或点击数划分到存储桶中。 |
 | [水平条](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![水平条形图标](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 显示一些水平条，这些水平条表示一个或多个指标中的各种值。 |
 | [关键量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![关键量度图标](assets/key-metric-icon.png)</p> | 显示某个量度在单个时间范围内的趋势，或者让您比较两个时间范围内的量度表现。 |
-| [折线图](/help/analyze/analysis-workspace/visualizations/line.md)<p>![行图标](assets/Smock_GraphTrend_18_N.svg)</p> | 使用线条来表示指标，以显示一段时间内值的变化情况。将时间作为 x 轴的线形图。 |
+| [Line](/help/analyze/analysis-workspace/visualizations/line.md)<p>![行图标](assets/Smock_GraphTrend_18_N.svg)</p> | 使用线条来表示指标，以显示一段时间内值的变化情况。将时间作为 x 轴的线形图。 |
 | [地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![映射图标](assets/map-icon.png)</p> | 允许您构建任何指标（包括计算指标）的可视地图。 |
 | [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![散点图图标](assets/Smock_GraphScatter_18_N.svg)</p> | 显示维度项目与最多三个指标之间的关系。 |
 | [概要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![摘要数字图标](assets/summary-number-icon.png)</p> | 将选择的单元格显示为 1 个多位数。 |
@@ -48,58 +48,23 @@ Analysis Workspace 中提供了以下可视化图表类型：
 
 1. 使用以下任意方法来添加可视化图表：
 
-   * 在左边栏中，选择&#x200B;**可视化图表**&#x200B;图标<!-- add icon -->，然后将可视化图表拖到要添加该可视化图表的面板中。
+   ![添加可视化图表](assets/add-visualization.png)
 
-     ![](assets/viz-rail.png)
+   * 在左侧面板中，选择![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **可视化图表**，然后将可视化图表拖动到要将可视化图表添加到的面板。
 
-   * 在要添加可视化图表的面板上，选择&#x200B;**加号**&#x200B;图标，然后选择表示要添加的可视化图表的图标。 将鼠标悬停在每个可视化图表的图标上可查看其名称。
+   * 在要添加可视化图表的面板上，选择![AddCircle](/help/assets/icons/AddCircle.svg)，然后选择表示要添加的可视化图表的图标。 将鼠标悬停在每个可视化图表的图标上可查看名称。
 
-     用于添加可视化图表的![按钮](assets/visualization-add-to-panel.png)
+   * 添加[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)，然后选择要添加的可视化图表。
 
-   * 添加[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hans)，然后选择要添加的可视化图表。
+   * 从Analysis Workspace项目中现有可视化图表的上下文菜单中，选择&#x200B;**[!UICONTROL 复制可视化图表]**&#x200B;或&#x200B;**[!UICONTROL 复制可视化图表]**。
 
-     ![空白面板](assets/blank_panel.png)
+   * 使用Workspace **[!UICONTROL 插入]**&#x200B;菜单插入可视化图表。
 
-   * 右键单击Analysis Workspace项目中的现有面板，然后选择&#x200B;[!UICONTROL **复制可视化图表**]&#x200B;或&#x200B;[!UICONTROL **复制可视化图表**]。
+   * 从自由格式表的上下文菜单中，选择&#x200B;**[!UICONTROL 可视化]**。 然后从子菜单中选择可视化。 Workspace会根据表中的当前选择，确定要提供的可视化图表，并对数据进行解释以构建请求的可视化图表。
 
-## 自定义可视化图表设置
+## 图例
 
-您可以为单个可视化图表或您创建的所有可视化图表自定义可视化图表设置。
-
-### 为单个可视化图表自定义可视化图表设置
-
-要访问单个可视化图表的[!UICONTROL 可视化设置]，请执行以下操作：
-
-1. 在 Analysis Workspace 中，将鼠标悬停在要自定义其设置的可视化图表上。
-
-1. 单击齿轮图标。
-
-   每种类型的可视化图表都具有可自定义的独特设置。有关可用设置的信息，请参阅[设置](#settings)。
-
-### 为您创建的所有可视化图表自定义可视化图表设置
-
-您可以为您创建的所有可视化图表自定义设置。有关更多信息，请参阅[用户偏好设置](/help/analyze/analysis-workspace/user-preferences.md)。
-
-## 设置 {#settings}
-
-![](assets/settings.png)
-
-| 设置 | 描述 |
-| --- | --- |
-| 可视化图表类型 | 更改描述数据所用的视觉效果的类型。 |
-| 粒度 | 对于趋势性的可视化图表，您可从此下拉菜单更改下拉列表中。 此更改也适用于数据源表。 |
-| 百分比 | 显示百分数值。 |
-| 100% 堆叠 | 在面积堆叠、条形堆叠或水平条形堆叠的可视化图表上的此设置将图表转换为“100% 堆叠”的可视化图表。示例：![堆叠 100%](assets/stacked_100_percent.png) |
-| 图例可见 | 此设置允许您为概要数字/概要变化可视化图表隐藏详细的图例文本。 |
-| 限制最大项目数 | 允许您限制可视化图表显示的项目数量。 |
-| 将 Y 轴定位为 0 | 如果图表上绘制的所有值都远远大于零，则图表默认会将 y 轴底部设置为非零值。如果选中此框，y 轴将被强制设置为零（并将重新绘制图表）。 |
-| 标准化 | 要求所有指标按等比例计算。在所绘制指标的数量级差别很大时，此项非常有用。 |
-| 显示双轴 | 仅适用于具有两个指标的情况，可以在左（用于一个指标）、右（用于另一个指标）两边各有一个 y 轴。在所绘制指标的数量级差别很大时，此项非常有用。 |
-| 显示异常 | 通过显示异常检测来增强线形图和自由格式表。线形可视化图表中的异常检测包括预期值（虚线）和预期范围（阴影带）。 |
-
-## 图例 {#legend}
-
-可视化图表图例可帮助您将源表中的日期与可视化图表中绘制的系列关联起来。图例是交互式的，在可视化图表中单击某个图例项可显示/隐藏一个系列。在需要简化所显示的数据时，这非常有用。
+可视化图表图例可帮助您将源表中的日期与可视化图表中绘制的系列关联起来。图例是交互式的 — 您可以选择图例项来显示/隐藏可视化图表中的系列，这在要简化所显示的数据时很有用。
 
 此外，可以重命名图例标签，这样有助于更好地使用视觉效果。注意：图例编辑&#x200B;**不会**&#x200B;应用到：树形图、项目符号、概要变化/概要数字、文本、自由格式表、直方图、同类群组或流可视化图表。
 
@@ -108,36 +73,136 @@ Analysis Workspace 中提供了以下可视化图表类型：
 1. 右键单击某个图例标签。
 1. 单击&#x200B;**[!UICONTROL 编辑标签]**。
 
-   ![](assets/edit-label.png)
+   ![图例标签和编辑标签选项。](assets/edit-label.png)
 
 1. 输入新的标签文本。
 1. 按 **[!UICONTROL Enter]** 键保存。
 
-## 右键单击菜单 {#right-click}
 
-可视化图表的其他功能可通过在可视化图表的标题上右键单击来使用。其设置因可视化图表而异。其中一些设置包括：
+
+### 设置
+
+可视化决定了哪些可视化设置可用。 下表总结了最常见的设置。 某些可视化图表具有特定的设置。 有关更多详细信息，请参阅单个可视化图表文档。
+
+| 选项 | 描述 |
+| --- | --- |
+| **[!UICONTROL 可视化类型]** | 更改用于可视化数据的可视化图表类型。 |
+| **[!UICONTROL 粒度]** | 更改趋势可视化图表的时间粒度。 此更改也适用于数据源表。 |
+| **[!UICONTROL 百分比]** | 以百分比显示值。 |
+| **[!UICONTROL 100%栈叠]** | 将图表转换为100%栈叠的可视化图表。  仅适用于面积图、条形图和栈叠的水平条形图可视化图表。 |
+| **[!UICONTROL 图例可见]** | 显示图例文本。 |
+| **[!UICONTROL 限制最大项目数]** | 限制可视化图表显示的项目数。 选中后，定义最大项数。 |
+| **[!UICONTROL 显示注释]** | 显示为此可视化图表所做的批注。 |
+| **[!UICONTROL 隐藏标题]** | 隐藏可视化图表的标题。 |
+| **[!UICONTROL 将 Y 轴固定在 0]** | 强制y轴底部为零。 如果图表上绘制的所有值都显着高于零，则图表默认值会使y轴底部非零。 如果启用此选项，Y轴将被强制为零（并且图表将被重绘）。 |
+| **[!UICONTROL 显示双轴]** | 显示两个不同量度的左右两侧Y轴。 此选项仅适用于具有两个量度的情况。 当绘制的量度数量级不同时，双轴很有用。 |
+| **[!UICONTROL 显示 X 轴]** | 在可视化图表中显示X轴。 |
+| **[!UICONTROL 显示 Y 轴]** | 在可视化图表中显示Y轴。 |
+| **[!UICONTROL 在线上显示杠铃]** | 在组合图表可视化图表的折线图可视化图表上显示杠铃。 |
+| **[!UICONTROL 标准化]** | 强制实施等比例指标。 当绘制的指标处于不同程度时，同等比例会很有帮助。 |
+| **[!UICONTROL 显示异常]** | 通过显示异常检测来增强线形图和自由格式表。 线形可视化图表中的异常检测包括预期值（虚线）和预期范围（阴影带）。 |
+| **[!UICONTROL 显示预测]** | 通过显示预测值来增强线形图和自由格式表。 |
+| **[!UICONTROL 显示最小值]** | 在可视化中显示最小值。 |
+| **[!UICONTROL 显示最大值]** | 在可视化中显示最大值。 |
+| **[!UICONTROL 显示趋势线]** | 在可视化图表中显示趋势线。 选中后，您可以从下拉菜单中选择趋势线类型。 |
+
+您可以自定义创建的所有可视化图表的设置。 有关更多信息，请参阅[用户偏好设置](/help/analyze/analysis-workspace/user-preferences.md)。
+
+
+## 上下文菜单 {#right-click}
+
+在可视化图表的标题上使用上下文菜单（可通过替代选择使用，例如，使用鼠标时右键单击）来访问可视化图表的附加功能。 并非所有选项都可用于所有可视化图表。
+
+![显示右键单击选项的其他可视化设置。 下一节将介绍这些选项。](assets/right-click.png)
+
+| 选项 | 描述 |
+| --- | --- |
+| **[!UICONTROL 插入复制的可视化内容]** | 将复制的可视化图表粘贴（插入）到项目中的其他位置或完全不同的项目中。 |
+| **[!UICONTROL 将数据复制到剪贴板]** | 将数据从可视化图表复制到剪贴板。 |
+| **[!UICONTROL 将选定内容复制到剪贴板]** | 将可视化图表中的选定内容复制到剪贴板。 |
+| **[!UICONTROL 以CSV格式下载项目（*维度名称*）]** | 将可视化的维度项目（最多50,000个）下载到您的本地设备。 所选维度的最大维度项为50,000个。 |
+| **[!UICONTROL 复制可视化图表]** | 复制可视化图表，以便您可以将该可视化图表插入到项目中的其他位置或完全不同的项目中。 |
+| **[!UICONTROL 下载数据CSV]** | 将可视化图表显示的数据下载到您的本地设备。 |
+| **[!UICONTROL 重复的可视化图表]** | 生成一个与可视化图表完全相同的副本。 |
+| **[!UICONTROL 编辑描述]** | 添加（或编辑）可视化图表的文本描述。 查看[文本](text.md)。 |
+| **[!UICONTROL 获取可视化图表链接]** | 直接复制并共享可视化图表的链接。 共享链接对话框会显示该链接。 选择复制以将链接复制到剪贴板。 |
+| **[!UICONTROL 从头开始]** | 删除当前可视化图表的配置，以便您可以从头开始重新配置。 |
+
+
+## 配置
+
+某些可视化图表（例如同类群组表、流失、流量等）具有配置对话框以帮助您构建可视化图表。 使用可视化图表顶部的![编辑](/help/assets/icons/Edit.svg)来访问和更改配置。
+
+![配置窗格](assets/configuration.png)
+
+## 可视化
+
+如果不确定应选取哪个可视化图表，请在任意自由格式表行中选择![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 可视化]**（悬停时可用）。 此选择是添加可视化图表最快的方法。 Analysis Workspace会针对哪种可视化图表最适合您的数据做出有根据的猜测。 例如，如果您选择了一行，它将创建趋势[折线图](line.md)。 如果您选择了三个筛选器行，则会创建一个[维恩图](venn.md)。
+
+![快速可视化](assets/quick-viz.png)
+
+
+<!--
+## Settings {#settings}
+
+![](assets/settings.png)
+
+| Setting | Description |
+| --- | --- |
+| Visualization Type | Change the type of visual used to depict the data. |
+| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
+| Percentages | Displays values in percentages. |
+| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
+| Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
+| Limit Max Items | Lets you limit the number of items that a visualization displays. |
+| Anchor Y Axis at Zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
+| Normalization | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
+| Display Dual Axis | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
+| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
+
+## Legend {#legend}
+
+A visualization legend helps you to relate date in a source table to plotted series in the visualization. The legend is interactive - you can click a legend item to show/hide a series in the visualization. This is helpful if you want to simplify the data being visualized. 
+
+Additionally, you can rename legend labels to help you make visuals more consumable. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
+
+To edit a legend label:
+
+1. Right-click one of the legend labels.
+1. Click **[!UICONTROL Edit Label]**.
+
+   ![](assets/edit-label.png)
+
+1. Enter the new label text.
+1. Press **[!UICONTROL Enter]** to save.
+
+## Right-click menu {#right-click}
+
+Additional functionality for a visualziation is available by right-clicking on the visualization header. Settings will vary by visualization. Some of the settings available are:
 
 ![](assets/right-click.png)
 
-| 设置 | 描述 |
+| Setting | Description |
 | --- | --- |
-| 插入复制的面板/可视化图表 | 使用此设置，您可以将复制的面板或可视化图表粘贴（“插入”）到项目中的其他位置或完全不同的项目中。 |
-| 复制可视化图表 | 此设置允许您右键单击并复制可视化图表，以便将其插入到项目中的其他位置或完全不同的项目中。 |
-| [以 CSV 格式下载项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans?#download-items) | 以 CSV 格式下载所选维度，最多下载 50,000 个维度项。 |
-| [将数据下载为 CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans?#download-data) | 以 CSV 格式下载可视化图表数据源。 |
-| 复制可视化 | 生成一个与当前可视化图表完全相同的副本，然后可对其进行修改。 |
-| 编辑描述 | 添加（或编辑）可视化图表的文本描述。 |
-| 获取可视化图表链接 | 此设置允许您将用户引导至项目中的可视化图表。单击该链接时，收件人需要先登录，然后才能转至所链接到的确切可视化图表。 |
-| 从头开始 | （适用于流、维恩图、直方图）删除当前可视化图表的设置，以便您从头开始重新配置。 |
+| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
+| Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
+| Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
+| Edit Description | Add (or edit) a text description for the visualization. |
+| Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
+| Start Over | (Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization so you can re-configure it from scratch. |
 
-## “创建可视化”图标 {#quick-viz}
+## Create Visual icon {#quick-viz}
 
-如果您不确定所要创建的可视化图表，请单击任意表行中的&#x200B;**[!UICONTROL 创建可视化]**&#x200B;图标（将光标悬停于上方即可显示）。这是添加可视化图表最快的方法。单击此图标将提示 Analysis Workspace 针对哪种可视化图表最适合您的数据做出有根据的推测。例如，如果您选择了 1 行，则会创建趋势线形图。如果您选择了 3 个区段行，则会创建维恩图。
+If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
 
 ![](assets/quick-viz.png)
 
-## 更改可视化上的刻度轴
+## Change the scale axis on visualizations
 
-以下是一段视频概述：
+Here is a video overview:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
+
+-->

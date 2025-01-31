@@ -3,10 +3,10 @@ title: Analytics Components 指南
 description: 了解 Adobe Analytics 提供的各种组件。
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,13 @@ Analytics Components 可帮助您优化和增强数据分析功能。这些组�
 * **实时报告：**&#x200B;实时获取相关报告和趋势。
 * **营销渠道：**&#x200B;了解访客是通过哪些渠道来访问您的网站，并确定出最成功的渠道。
 
-下面是 Adobe Analytics 的视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics概述](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 重要 Analytics 组件文章
 

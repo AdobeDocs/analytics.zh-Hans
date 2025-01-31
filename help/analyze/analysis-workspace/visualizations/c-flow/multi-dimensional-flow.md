@@ -5,10 +5,10 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,13 @@ ht-degree: 100%
 
 通过维度间流量可以跨不同维度查看用户路径。以下是一段关于 Analysis Workspace 中的文本环绕和多维度流量的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [维度间流量](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 现在每个“流量”列的顶部有一个维度标签，让您在流量可视化图表中使用多个维度时变得更加直观：
 

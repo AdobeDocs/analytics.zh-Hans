@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 99%
 
 ---
 
@@ -86,6 +86,10 @@ Analysis Workspace 支持对几乎所有量度进行[归因](/help/analyze/analy
 
 ## 动态列
 
-以下是一段关于如何在 Analysis Workspace 中使用动态列的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [动态列](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+

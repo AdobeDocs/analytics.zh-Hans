@@ -5,10 +5,10 @@ title: 管理可视化图表数据源
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: de1ddbed4d455b6d05059e367369eb575a747971
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 82%
+source-wordcount: '576'
+ht-degree: 81%
 
 ---
 
@@ -30,9 +30,13 @@ ht-degree: 82%
 
 ## 数据源设置
 
-以下是一段关于这些设置的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23729/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据源设置](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 | 元素 | 描述 |
 | --- | --- |

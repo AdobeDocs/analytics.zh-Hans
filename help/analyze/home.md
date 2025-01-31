@@ -4,10 +4,10 @@ description: Analysis Workspace、Analytics 功能板（移动应用程序）、
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 100%
 
 要了解 Adobe Analytics 基础知识，请观看以下 *Adobe Analytics 简介 - Skill Builder 网络研讨会*&#x200B;视频。该视频向您介绍了有关如何捕获数据、如何将数据发送到 Adobe Analytics 以及在 Adobe Analytics 中可以使用哪些可视化功能的基础知识。该视频为您提供有关构建、部署、收集和解释数据的基础知识…… 让您能够根据收集的数据提供可操作的洞察和建议。
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics简介 — Skill Builder网络研讨会](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"}网络研讨会。
+
+>[!ENDSHADEBOX]
 
 有关使用哪种工具的问题，请参阅[我应该使用哪种 Adobe Analytics 工具？](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html)
 

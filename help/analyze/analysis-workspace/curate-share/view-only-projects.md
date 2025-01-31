@@ -5,10 +5,10 @@ title: 仅供查看的项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 
 ![](assets/view-only-project.png)
 
-下面是仅查看项目的视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [仅查看项目](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 禁用的交互
 

@@ -4,10 +4,10 @@ title: 添加组件描述
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,14 @@ Analytics 管理员可以在“报告包”中或直接在 Analysis Workspace �
 
 ## 向“报告包”中的组件添加描述
 
-以下视频介绍了如何在“报告包”中添加维度和指标描述：
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+>[!BEGINSHADEBOX]
+
+观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 向 Analysis Workspace 中的组件添加描述（使用数据字典） {#add-descriptions}
 

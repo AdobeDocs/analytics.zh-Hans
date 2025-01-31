@@ -4,9 +4,9 @@ title: 使用模板
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
+source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
 workflow-type: tm+mt
-source-wordcount: '18672'
+source-wordcount: '18666'
 ht-degree: 83%
 
 ---
@@ -33,7 +33,7 @@ Analysis Workspace中的模板（或公司模板）可快速分析最常见的�
 
    <!--update screenshot -->
 
-   ![“报告”选项卡](assets/view-prebuilt-templates.png)
+   ![“报告”选项卡](assets/view-prebuilt-templates-full.png)
 
 1. 在&#x200B;[!UICONTROL **模板**]&#x200B;部分中，选择以下任一选项卡：
 
@@ -45,9 +45,9 @@ Analysis Workspace中的模板（或公司模板）可快速分析最常见的�
 
 1. 使用以下任一选项可更改查看可用模板的方式：
 
-   * 通过选择列视图![列视图图标](assets/column-view-icon.png)或卡片视图![卡片视图图标](assets/card-view-icon.png)图标，选择是在列视图还是卡片视图中查看模板。
+   * 通过选择列视图![ViewColumn](/help/assets/icons/ViewColumn.svg)或卡片视图![卡片](/help/assets/icons/Card.svg)图标，选择是在列视图还是卡片视图中查看模板。
 
-   * 使用卡片视图![卡片视图图标](assets/card-view-icon.png)时，请从以下排序顺序中进行选择： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受欢迎]**、**[!UICONTROL 按字母顺序]**、**[!UICONTROL 类别]**。
+   * 使用卡片视图![卡片](/help/assets/icons/Card.svg)时，从以下排序顺序中进行选择： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受欢迎]**、**[!UICONTROL 按字母顺序]**、**[!UICONTROL 类别]**。
 
 1. 在搜索字段中，开始键入要查找的模板的名称，然后从模板列表中选择该模板。 您还可以按prop、eVar和事件编号来搜索模板列表。<!-- still true? -->
 
@@ -1272,3 +1272,5 @@ Analysis Workspace中的模板（或公司模板）可快速分析最常见的�
 | **设备** | 查看人们用来访问您网站的移动设备的品牌和型号。<p>**这可以帮助您**&#x200B;更好地了解您的用户群中最受欢迎的移动设备有哪些。</p><p>**根据您所了解的情况，您可以**&#x200B;采取多种行动，例如针对最常见的移动设备优化您网站的呈现效果。</p><p>此模板使用移动设备名称维度。</p> |
 | **设备类型** | 查看人们用来访问您网站的移动设备类型，例如手机和平板电脑。<p>**这可以帮助您**&#x200B;更好地了解用于访问您网站的各种移动设备。</p><p>**根据您所了解的情况，您可以**&#x200B;采取多种行动，例如针对最常用的移动设备类型优化您的网站。</p><p>此模板使用移动设备类型维度。</p> |
 | **制造商** | 查看哪些制造商生产人们用来访问您网站的移动设备，例如 Apple 和 Samsung。<p>**这可以帮助您**&#x200B;更好地了解您的用户群中最受欢迎的制造商有哪些。</p><p>**根据您所了解的情况，您可以**&#x200B;采取多种行动，例如根据不同制造商的能力来调整内容投放方式，以确保用户能够获得流畅的使用体验。</p><p>此模板使用移动设备制造商维度。</p> |
+
+

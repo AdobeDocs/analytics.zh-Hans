@@ -4,10 +4,10 @@ title: 日程表和日期范围概述
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 91%
+source-wordcount: '942'
+ht-degree: 90%
 
 ---
 
@@ -23,11 +23,15 @@ ht-degree: 91%
 <!-- markdownlint-enable MD034 -->
 
 
-在日程表中，您可以指定日期和日期范围，或者选择一个预设。
+在日历中，您可以指定日期和日期范围，或者选择一个预设。
 
-以下是一段关于在 Analysis Workspace 中使用日期范围和日程表的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
+>[!BEGINSHADEBOX]
+
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日历和日期范围概述](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 日程表选择在面板级别应用，但您可以选择将它们应用于所有面板。 在工作区中单击日期范围时，界面将显示当前日程表月和上一个日程表月。您可以通过单击上方左右边角的左右箭头来调整这两个日程表。
 

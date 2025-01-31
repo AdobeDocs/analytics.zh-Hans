@@ -4,10 +4,10 @@ title: 圆环图
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 75%
+source-wordcount: '119'
+ht-degree: 23%
 
 ---
 
@@ -29,10 +29,23 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!ENDSHADEBOX]
 
-此可视化图表与饼图类似，它将数据显示为整体的一部分或区段。当比较各个部分在总体中所占的百分比时（通常具有少量项目），可以使用[!UICONTROL 圆环图]。
 
-![](assets/donut.png)
+与饼图类似，![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]**&#x200B;可视化图表将数据显示为整体的一部分或过滤器。 当比较各个部分在总体中所占的百分比时（通常具有少量项目），可以使用圆环图可视化图表。
 
-以下是一段关于使用[!UICONTROL 圆环图]可视化的视频：
+![将数据显示为整体的一部分或过滤器的圆环图。](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加演示视频的圆环图可视化图表](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

@@ -4,10 +4,10 @@ keywords: 点击流;数据馈送;数据馈送;数据馈送
 title: Analytics数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 86%
+source-wordcount: '306'
+ht-degree: 79%
 
 ---
 
@@ -33,10 +33,17 @@ ht-degree: 86%
 * [管理数据馈送](df-manage-feeds.md)：了解有关导览数据馈送界面的更多信息
 * [数据馈送内容](c-df-contents/datafeeds-contents.md)：了解压缩文件<!-- Is this still the output users can download from the destination? I aske Jun. -->中的内容
 * [数据列定义](c-df-contents/datafeeds-reference.md)：所有可用列的完整列表。
-* 导览数据馈送界面的视频：
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* 有关如何查找数据馈送 ID 的视频：
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在数据馈送界面中导航](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}以获取演示视频。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}以获取演示视频。
+
+>[!ENDSHADEBOX]
