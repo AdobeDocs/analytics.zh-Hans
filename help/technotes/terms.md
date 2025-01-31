@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 98%
@@ -44,9 +44,6 @@ ht-degree: 98%
 * **关联：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过关联可以划分流量变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **自定义链接：**&#x200B;包含非页面视图数据的点击类型。请参阅《实施用户指南》中的 [s.tl() 函数](../implement/vars/functions/tl-method.md)。另请参阅“点击”。
 * **客户属性：** Experience Cloud 的一项功能，允许上载属性数据。请参阅《核心服务用户指南》中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)。
-<!-- Cannot find a link to documentation on this role 
-* **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
--->
 * **数据收集服务器：**&#x200B;接收和处理数据的 Adobe 自有服务器。图像请求将发送到 Adobe 的数据收集服务器以用于报告。
 * **Data Connectors：**&#x200B;已停用的开发解决方案，允许第三方自动将数据上载到Adobe Analytics。 该第三方的客户可以使用数据连接器在 Adobe Analytics 中丰富其数据。已替换为Adobe Exchange市场。
 * **数据馈送：**&#x200B;将每次点击列为行，将变量列为单独的列的原始数据导出。最常用于将 Adobe Analytics 数据导出到第三方数据库。请参阅《导出用户指南》中的[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。
