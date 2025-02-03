@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 76%
+source-wordcount: '1021'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,11 @@ ht-degree: 76%
 
 更改为每个维度返回的维度项数
 
-1. 选择一个数据块，然后单击“命令”面板中的&#x200B;**[!UICONTROL 编辑数据块]**。
+1. 单击&#x200B;**[!UICONTROL 管理]**&#x200B;并从列表中选择一个数据块。
+
+   ![管理>编辑数据块](./assets/manage-edit.png)
+
+1. 在“命令”面板中单击&#x200B;**[!UICONTROL 编辑数据块]**。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示“Dimension”选项卡。
 
