@@ -3,9 +3,9 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 管理员、分析师、最终用户和开发人员快速入门
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '1691'
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+workflow-type: tm+mt
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
@@ -149,3 +149,8 @@ Analytics 管理员应了解以下可用于帮助监控 Analytics 环境的重�
 使用 [Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)，您可以直接调用 Adobe 的服务器来执行您可在用户界面中执行的几乎任何操作。
 
 您可以创建报告来进行探索、获取洞察或回答有关数据的重要问题。您还可以管理 Adobe Analytics 的组件，例如创建区段或计算量度。
+
+>[!MORELIKETHIS]
+>
+>[创建解决方案设计文档](/help/implement/prepare/solution-design.md)
+>
