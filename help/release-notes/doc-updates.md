@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '6026'
-ht-degree: 100%
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+workflow-type: tm+mt
+source-wordcount: '6071'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 100%
 * 有关流媒体收藏集的信息，请参阅[在 Analytics 中测量音频和视频。](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-hans)
 
 ## 有关主要文档更新的详细信息
+
+### 2025 {#year2025}
+
+| 功能 | 描述 |
+| --- | --- |
+| **2025 年 2 月** |  |
+| 更新了有关暂停和重新激活数据馈送的信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，已阐明实时馈送的行为。 从暂停馈送到重新激活馈送期间，不会执行数据处理。 |
 
 ### 2024 {#year2024}
 

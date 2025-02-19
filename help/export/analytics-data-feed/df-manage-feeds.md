@@ -3,10 +3,10 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 26%
+source-wordcount: '1229'
+ht-degree: 21%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 26%
 
    为正在编辑的数据馈送更新&#x200B;[!UICONTROL **目标**]&#x200B;分区时，您可以在&#x200B;[!UICONTROL **帐户**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉字段中选择用于新数据馈送的其他帐户和位置。
 
-   可以按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的说明编辑帐户和位置。 编辑帐户或位置将影响与该帐户或位置关联的所有项目。
+   可以按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的说明编辑帐户和位置。 编辑帐户或位置会影响与该帐户或位置关联的所有项目。
 
    早期版本的数据馈送管理器允许您创建FTP、SFTP、S3和Azure blob目标。 无法编辑或复制在这些早期版本的数据馈送管理器中创建的目标。
 
@@ -84,17 +84,21 @@ ht-degree: 26%
 
 1. 选中要复制的数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **复制**]。
 
-   将您转到[使用当前馈送的所有设置创建新馈送](create-feed.md)。 如果选择多个数据馈送，则此选项不可见。
+   这会将您引导至[使用当前馈送的所有设置创建新馈送](create-feed.md)。 如果选择多个数据馈送，则此选项不可见。
 
    为要复制的数据馈送更新&#x200B;[!UICONTROL **目标**]&#x200B;分区时，您可以在&#x200B;[!UICONTROL **帐户**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉字段中选择用于新数据馈送的其他帐户和位置。
 
-   可以按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的说明编辑帐户和位置。 编辑帐户或位置将影响与该帐户或位置关联的所有项目。
+   可以按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的说明编辑帐户和位置。 编辑帐户或位置会影响与该帐户或位置关联的所有项目。
 
    早期版本的数据馈送管理器允许您创建FTP、SFTP、S3和Azure blob目标。 无法编辑或复制在这些早期版本的数据馈送管理器中创建的目标。
 
 ## 暂停数据馈送
 
-您可以停止处理馈送，将其状态设置为[!UICONTROL 不活动]。
+当您暂停数据馈送时，它将停止处理该馈送，并将其状态设置为[!UICONTROL 不活动]。
+
+在暂停馈送后重新激活它时，将会为回填馈送处理馈送暂停期间的数据，但不会为实时馈送处理数据。 有关详细信息，请参阅[激活数据馈送](#activate-a-data-feed)。
+
+暂停数据馈送：
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
@@ -104,17 +108,11 @@ ht-degree: 26%
 
 您可以激活不活动的馈送。
 
-回填馈送（仅处理历史数据的馈送）会从停止的位置恢复处理数据，如有必要，会回填任何日期。 实时馈送还会从停止的位置恢复处理数据。
+重新激活馈送后，在馈送处于不活动状态的时间内，可能无法自动处理数据。 是否处理数据取决于它是回填馈送还是实时馈送：
 
->[!AVAILABILITY]
->
->对实时馈送恢复处理数据的方式所做的以下更改处于版本的有限测试阶段：
-> 
->**实时馈送从当前时间继续处理数据。**
->
->此更改可能还无法在您的环境中使用。
->
->此注释将在此更改正式可用时删除。 有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。
+* **回填馈送**（仅处理历史数据的馈送）从停止的位置恢复处理数据，如有必要，可回填任何日期。
+
+* **实时馈送**&#x200B;从激活数据之时起继续处理数据。 这意味着在馈送暂停到激活馈送期间，不会处理数据。 如果在此时间段内需要数据，则必须设置回填。
 
 激活数据馈送：
 
@@ -156,7 +154,7 @@ ht-degree: 26%
    * 已完成：馈送已完成处理。可以编辑、搁置或取消已完成的馈送。
    * 待定：馈送已创建但尚未激活。馈送会在短暂的过渡时间内保持此状态。
    * 不活动：等同于“已暂停”或“已搁置”状态。有关在重新激活不活动的馈送时回填馈送和实时馈送会发生什么情况的信息，请参阅[激活数据馈送](#activate-a-data-feed)。
-* **上次修改时间**：上次修改馈送的日期。日期和时间将以报表包的时区显示，且含 GMT 时差。
-* **开始日期**：此馈送交付第一个作业的日期。日期和时间将以报表包的时区显示，且含 GMT 时差。
+* **上次修改时间**：上次修改馈送的日期。日期和时间将以报表包的时区显示，且含GMT时差。
+* **开始日期**：此馈送交付第一个作业的日期。日期和时间将以报表包的时区显示，且含GMT时差。
 * **结束日期**：此馈送交付最后一个作业的日期。持续进行的数据馈送没有结束日期。
 
