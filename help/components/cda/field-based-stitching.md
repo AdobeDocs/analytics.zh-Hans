@@ -4,10 +4,10 @@ description: 了解使用基于字段的拼合来拼合数据的先决条件和�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 93%
+source-wordcount: '562'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,7 @@ Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此
 >如果不满足所有先决条件，则可能会导致无法启用 Cross-Device Analytics，或者导致拼合数据时的结果不佳。
 
 * [概述页面](overview.md)中列出了所有先决条件。
-* 您的实施必须设置一个 prop 或 eVar，以便在可能的情况下（例如用户登录或打开电子邮件时）唯一标识个人。这项要求适用于所有平台，包括使用的移动设备应用程序。避免为 prop 或 eVar 分配默认值。
+* 您的实施必须设置一个 prop 或 eVar，以便在可能的情况下（例如用户登录或打开电子邮件时）唯一标识个人。这项要求适用于所有平台，包括使用的移动应用程序。<br/>避免为此prop或eVar分配默认值。 如果为2,000台或更多不同设备分配了相同的默认值，则会将该人员添加到“坏人”列表中，并且这些事件将从启用CDA的虚拟报表包中删除，从而导致分析错误。
 * 为基于字段的拼合配置所需的标识变量后，请将这些变量告知您的Adobe客户团队。
 
 ## 基于字段的拼合的特定限制
