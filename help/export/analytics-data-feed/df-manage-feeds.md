@@ -3,7 +3,7 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 21%
