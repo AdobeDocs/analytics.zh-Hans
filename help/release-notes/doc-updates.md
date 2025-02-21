@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 372792a99d124e6f09eaf0f75310f3a0125c3461
+source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
 workflow-type: tm+mt
 source-wordcount: '6237'
 ht-degree: 96%
@@ -27,9 +27,9 @@ ht-degree: 96%
 | --- | --- |
 | **2025 年 2 月** |  |
 | 更新了有关暂停和重新激活数据馈送的信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，已阐明实时馈送的行为。 从暂停馈送到重新激活馈送期间，不会执行数据处理。 |
-| 已更改交易ID保留期   交易ID保留期90天已延长至25个月。 transactionID变量可唯一标识交易，以便将点击绑定到通过数据源上传的数据。 在[此处](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[此处](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en)了解详情。 |
+| 已更改交易ID保留期 | 交易ID保留期90天已延长至25个月。 transactionID变量可唯一标识交易，以便将点击绑定到通过数据源上传的数据。 在[此处](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[此处](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en)了解详情。 |
 | Livestream API — 客户端实施 | 使用[Livestream客户端实现](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)使用Livestream数据。 |
-| 分类API更新\您现在可以从服务器](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)中[删除单独的分类字段或密钥。 这提供了使用DELETE方法删除整个分类数据集的替代方法。 |
+| 分类API更新 | 您现在可以[从服务器](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)中删除单个分类字段或密钥。 这提供了使用DELETE方法删除整个分类数据集的替代方法。 |
 | **2025 年 1 月** |  |
 | 数据馈送API参考 | 数据馈送API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)的[参考现已可用。 |
 | 有关在新的Report Builder中计划的新文档 | [计划](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder)不仅允许您计划新的Report Builder工作簿。 此外，它还允许您在转换旧版工作簿时，检索旧计划任务的元数据。 |
