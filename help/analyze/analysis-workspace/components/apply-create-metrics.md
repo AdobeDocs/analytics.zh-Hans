@@ -4,10 +4,10 @@ title: Analysis Workspace 中的指标
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
+source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 36%
+source-wordcount: '721'
+ht-degree: 30%
 
 ---
 
@@ -96,17 +96,17 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
    * [!UICONTROL **乘**]：创建将两个选定列的值相乘的新列。
 
-   * [!UICONTROL **百分比变化**]：创建一个新列，以显示两个选定列的百分比变化。
+   * [!UICONTROL **百分比变化**]：创建一个新列，以显示两个选定列之间的百分比变化。
 
 [计算指标：无实施指标](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hans) (3:42)
 
 ## 比较不同归因模型的指标
 
-如果您希望轻松快速地将一个归因模型与另一个进行比较，请右键单击某个指标并选择&#x200B;**[!UICONTROL 比较归因模型]**：
+若要快速将一个归因模型与另一个归因模型进行比较，请右键单击某个量度并选择&#x200B;**[!UICONTROL 比较归因模型]**：
 
 ![比较归因模型](assets/compare-attribution.png)
 
-此快捷键可让您快速、轻松地将一个归因模型与另一个归因模型进行比较，而无需将归因模型拖动到某个指标中且不必对其进行两次配置。
+此快捷键允许您比较一个归因模型与另一个归因模型，而无需将归因模型拖动到某个量度中且不必对其进行两次配置。
 
 ## 使用[!UICONTROL 累积平均]函数应用指标平滑
 
