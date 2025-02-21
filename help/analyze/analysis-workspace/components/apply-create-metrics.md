@@ -4,10 +4,10 @@ title: Analysis Workspace 中的指标
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 50%
+source-wordcount: '728'
+ht-degree: 36%
 
 ---
 
@@ -42,8 +42,6 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 >[!ENDSHADEBOX]
 
-
-
 ## 创建计算量度
 
 计算量度允许您使用简单的运算符或统计函数轻松查看量度之间的相互关系。
@@ -64,21 +62,41 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 1. 在Analysis Workspace中，打开要在其中创建计算指标的项目。
 
-1. 在自由格式表中，右键单击一个或多个标题列单元格，然后选择&#x200B;**[!UICONTROL 从所选内容创建指标]**
+1. 在自由格式表中，右键单击单列的列标题。
+
+   或
+
+   按住Shift键的同时选择两列，然后右键单击其中一个选定的列。
+
+1. 选择&#x200B;**[!UICONTROL 从所选内容创建量度]**
 
    ![Workspace面板高亮显示从所选内容创建](assets/create-metric-from-selection.png)
 
-1. 要仅为此项目创建计算量度，请从以下选项中进行选择：
+1. 要仅为此项目创建计算量度，请从可用选项中进行选择。
 
-   * [!UICONTROL **除**]
+   在选中单列时，以下选项可用：
 
-   * [!UICONTROL **减**]
+   * [!UICONTROL **Mean**]：创建一个新列，以显示该列的一组维度元素中的平均值。 这使用[Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean)函数。
 
-   * [!UICONTROL **添加**]
+   * [!UICONTROL **中间值**]：创建一个新列，以显示该列维度元素集的中间值。 这使用[Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median)函数。
 
-   * [!UICONTROL **乘**]
+   * [!UICONTROL **列max**]：创建一个新列，以显示该列维度元素集的最大值。 这使用[Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum)函数。
 
-   或者，要打开计算指标生成器并为所有项目创建计算指标，请选择&#x200B;[!UICONTROL **在计算指标生成器中打开**]，然后继续执行[生成指标](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)。
+   * [!UICONTROL **列min**]：创建一个新列，以显示该列维度元素集的最小值。 这使用[Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum)函数。
+
+   * [!UICONTROL **列sum**]：创建一个新列，该列将某个量度的所有数值相加（跨维度的元素）。 这使用[列Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum)函数。
+
+   选择两列时，以下选项可用：
+
+   * [!UICONTROL **除**]：创建一个新列来除以两个选定列的值。
+
+   * [!UICONTROL **减**]：创建减去两个选定列的值的新列。
+
+   * [!UICONTROL **添加**]：创建一个新列，用于添加两个选定列的值。
+
+   * [!UICONTROL **乘**]：创建将两个选定列的值相乘的新列。
+
+   * [!UICONTROL **百分比变化**]：创建一个新列，以显示两个选定列的百分比变化。
 
 [计算指标：无实施指标](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hans) (3:42)
 
