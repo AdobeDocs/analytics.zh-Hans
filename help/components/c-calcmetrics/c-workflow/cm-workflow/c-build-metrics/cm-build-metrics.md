@@ -3,9 +3,9 @@ description: 计算指标生成器提供了一个画布，用于拖放维度、�
 title: 生成量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 43%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics提供了一个画布以将维度、量度、区段和函数拖�
 
 ## 开始构建计算量度
 
-您可以使用计算指标生成器创建计算指标。 通过这种方式创建时，计算量度在组件列表中可用，然后可在整个组织的项目中使用。 或者，还可创建快速计算量度，如[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的[为单个项目](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)创建计算量度中所述。
+您可以使用计算指标生成器创建或编辑计算指标。 通过这种方式创建时，计算量度在组件列表中可用，然后可在整个组织的项目中使用。 或者，还可创建快速计算量度，如[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的[为单个项目](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)创建计算量度中所述。
 
 访问计算量度生成器，以开始创建组件列表中可用的计算量度。
 
@@ -43,7 +43,7 @@ Adobe Analytics提供了一个画布以将维度、量度、区段和函数拖�
 
    * 在Analysis Workspace中，打开一个项目，然后选择&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 创建指标]**。
    * 在Analysis Workspace中，打开一个项目，然后选择左边栏中&#x200B;[!UICONTROL **量度**]&#x200B;部分旁边的&#x200B;**加号**&#x200B;图标。
-   * 在[!DNL Customer Journey Analytics]中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 计算量度]**，然后选择计算量度页面顶部的&#x200B;**[!UICONTROL +添加]**。
+   * 在[!DNL Adobe Analytics]中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 计算量度]**，然后选择计算量度页面顶部的&#x200B;**[!UICONTROL +添加]**。
 
 1. 继续计算指标生成器](#areas-of-the-calculated-metrics-builder)的[区域。
 
@@ -70,7 +70,7 @@ Adobe Analytics提供了一个画布以将维度、量度、区段和函数拖�
 | 13 | **齿轮图标（量度类型、归因）：**&#x200B;选择量度旁边的齿轮图标允许您指定<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  >量度类型和归因模型</a>。 |
 | 14 | **新：**&#x200B;允许您创建新组件，例如新区段（这会将您转到<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >区段生成器</a>）。 |
 | 15 | **搜索组件：**&#x200B;通过此搜索栏，可搜索维度、量度、区段（仅限高级计算量度）和函数（仅限高级计算量度）。 |
-| 16 | **Dimension列表：**&#x200B;要在区段生成器中生成一个简单的区段（例如“页面=主页”），您无需离开计算指标生成器，而是可以在“页面”中拖动并从计算指标生成器中直接选择“主页”。<p>这可以极大地简化用于创建分段计算指标的工作流程。</p> |
+| 16 | **维度列表：**&#x200B;要在区段生成器中生成一个简单的区段（例如“页面=主页”），您无需离开计算量度生成器，而是可以在“页面”中拖动并从计算量度生成器中直接选择“主页”。<p>这可以极大地简化用于创建分段计算指标的工作流程。</p> |
 | 17 | **量度列表：**&#x200B;量度有3个类别： <ul> <li>标准量度(<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>计算量度( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">量度模板( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) — 位于列表底部。 </li> </ul> <p>当您将光标悬停在指标上方时，可以在其右侧看到“信息”图标： <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />。单击此图标会显示以下信息： </p><ul> <li>有关如何计算指标的公式。 </li><li>指标的预览趋势。 </li><li>编辑（铅笔）图标 位于右上角的<img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" />将带您进入计算量度生成器，您可以在其中编辑此计算量度。 </li></ul> |
 | 18 | **区段列表：**（仅限高级计算指标）作为管理员，此列表显示在您的登录公司中创建的所有区段。 如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=zh-Hans"  > 更多... </a> |
 | 19 | **函数列表：** （仅限高级计算量度）函数分为两个列表：<a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >基本</a> （最常用）和<a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >高级</a>。 |
