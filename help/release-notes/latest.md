@@ -3,7 +3,7 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f738c0767a952d8c53f526056708dddf427e1880
+source-git-commit: 9fcf8871140e010d1c57c3af7004a45bd3a374a5
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 56%
@@ -24,7 +24,7 @@ ht-degree: 56%
 | **数据馈送API引用** | 数据馈送API的[引用](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)现已可用。 |  | 2025 年 1 月 30 日 |
 | **Livestream API — 客户端实施** | 使用Livestream客户端实施来使用Livestream数据。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日 |
 | **分类API更新** | 您现在可以从服务器中删除单个分类字段或密钥。 这提供了使用DELETE方法删除整个分类数据集的替代方法。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日 |
-| **更新Analytics上下文数据字段`a.locale`** | 计划了通过Experience Edge收集数据时如何设置Analytics上下文数据字段`a.locale`的更新。 使用Experience Edge将数据发送到Adobe Analytics时，Analytics字段会根据XDM字段的映射进行填充。 `c.a.locale`的映射引用了非标准XDM字段`xdm.environment.language`。 将更新此字段以引用正确的字段`xdm.environment._dc.language`。  为了向后兼容，映射将继续引用`xdm.environment.language`。 为保持连续性，如果同时设置了两个字段，则`xdm.environment.language`将优先。 您可以在[此处](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping)查看从XDM到标准Analytics字段的完整映射列表。 | | 2025年3月5日 |
+| **更新Analytics上下文数据字段`a.locale`** | 计划的更新将在通过Experience Edge收集数据时更改Analytics上下文数据字段`a.locale`的设置方式。 使用Experience Edge将数据发送到Adobe Analytics时，Analytics字段会根据XDM字段的映射进行填充。 `c.a.locale`的映射引用了非标准XDM字段`xdm.environment.language`。 将更新此字段以引用正确的字段`xdm.environment._dc.language`。  为了向后兼容，映射将继续引用`xdm.environment.language`。 为保持连续性，如果同时设置了两个字段，则`xdm.environment.language`将优先。 您可以在[此处](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping)查看从XDM到标准Analytics字段的完整映射列表。 | | 2025年3月5日 |
 
 
 ## Adobe Analytics 中的修复
