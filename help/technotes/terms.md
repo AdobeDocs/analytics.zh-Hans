@@ -3,9 +3,9 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2580'
 ht-degree: 89%
 
 ---
@@ -51,8 +51,8 @@ ht-degree: 89%
 * **数据源：**&#x200B;允许用户将数据从文件上载到 Adobe Analytics。文件通常从 FTP 站点中提取。请参阅《导入用户指南》中的[数据源](/help/import/data-sources/overview.md)。
 * **Data Warehouse：** Adobe Analytics 中的一项功能，允许您请求更大的报表。请参阅《导出用户指南》中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
 * **Data Workbench：** [已停用](https://experienceleague.adobe.com/zh-hans/docs/discontinued/using/data-workbench)分析工具，用于收集、处理、分析和可视化来自多个渠道间在线和离线客户交互的数据。
-* **Dimension：** Dimension是非数字值和日期，如性别、月份、年龄、忠诚度、监视器分辨率等。 其他示例包括页面名称、跟踪代码或反向链接域名。 通常与量度相对应。
-* **Dimension细分：**&#x200B;每个维度都可以细分为更细的详细级别。 例如，“月”维度可以划分为一月、二月、三月等。
+* **Dimension：**&#x200B;维度是非数字值和日期，如性别、月份、年龄、忠诚度、监视器分辨率等。 其他示例包括页面名称、跟踪代码或反向链接域名。 通常与量度相对应。
+* **Dimension细分：**&#x200B;每个维度都可以细分为更精细的详细级别。 例如，“月”维度可以划分为一月、二月、三月等。
 * **事件序列化：**&#x200B;执行各种措施以防止收集重复事件的过程。请参阅《实施用户指南》中的[事件序列化](../implement/vars/page-vars/events/event-serialization.md)。
 * **eVar：**&#x200B;请参阅“转化变量”。
 * **事件：**&#x200B;请参阅“成功事件”。
@@ -91,7 +91,7 @@ ht-degree: 89%
 * **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 * **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md)加载项允许您从Adobe Analytics数据构建自定义请求。
 * **报表包**：将数据发送到的首要容器。Adobe Analytics 中的所有报表都引用了一个报表包。
-* **Reports &amp; Analytics：**&#x200B;现已停用的报告和分析浏览器解决方案。 此工具[已停用](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
+* **Reports &amp; Analytics：**&#x200B;此工具[生命周期结束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滚动日期范围：**&#x200B;随时间变化而更改的相对日期范围类型。例如，显示最近 7 天的报表可视为滚动日期范围。另请参阅“静态日期范围”。
 * **RSID：**&#x200B;报表包 ID 的缩写。报表包同时具有易记名称和报表包 ID。
 * **s.t()：** AppMeasurement 库中发送页面查看图像请求的函数的名称。有些 AppMeasurement 库使用 `s.track()`。请参阅《实施用户指南》中的 [t](../implement/vars/functions/t-method.md)。

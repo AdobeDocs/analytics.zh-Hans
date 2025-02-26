@@ -4,9 +4,9 @@ description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 90%
 
 ---
@@ -20,14 +20,13 @@ ht-degree: 90%
 | [!UICONTROL 帐户摘要] | 授予对报告包管理器中“常规”>“一般帐户设置”的访问权限。 |
 | [!UICONTROL Advertising Analytics配置] | 允许用户将报表包配置为可以使用 Advertising Analytics。 |
 | [!UICONTROL 异常检测] | 授予对 Analysis Workspace 中“异常检测”的访问权限。 |
-| [!UICONTROL 渠道] | 授予对报告包管理器中“营销渠道”（包括“营销渠道管理器”、“营销渠道处理规则”和“营销渠道到期”）的访问权限。 |
+| [!UICONTROL 渠道] | 授予对报告包管理器中“营销渠道”（包括“营销渠道管理器”、“营销渠道处理规则”和“营销渠道有效期限”）的访问权限。 |
 | [!UICONTROL 分类] | 授予对报表包管理器中所有分类设置的访问权限。此权限项包含：<br>流量 > 流量分类<br>转化 > 转化分类<br>转化 > 分类层次结构<br>营销渠道 > 营销渠道分类<br>应用程序管理 > 应用程序分类<br>媒体管理 > 媒体分类<br>AEM > AEM Assets 分类<br>Adobe Campaign > Adobe 分类 |
 | [!UICONTROL 成本] | 授予对报告包管理器中“营销渠道”>“营销渠道成本”的访问权限。 |
 | [!UICONTROL 贡献分析] | 授予对 Analysis Workspace 中右键单击式菜单“运行贡献分析”的访问权限。 |
 | [!UICONTROL 转化变量] | 授予对报告包管理器中“转化”>“转化变量”的访问权限。 |
 | [!UICONTROL 自定义日历] | 授予对报告包管理器中“常规”>“自定义日历”的访问权限。 |
 | [!UICONTROL 自定义 Data Warehouse 报表] | 授予对 Analytics 顶部导航栏中“工具”>“Data Warehouse”的访问权限。 |
-| [!UICONTROL 每日回访] | 授予对 Reports &amp; Analytics 中“访客维系”>“每日回访”的访问权限。 |
 | [!UICONTROL 数据馈送管理器] | 授予对 Analytics 顶部导航栏中“管理员”>“数据馈送”的访问权限。 |
 | [!UICONTROL 数据源管理器] | 授予对 Analytics 顶部导航栏中“管理员”>“所有管理员”>“数据源”的访问权限。需要使用权限项“报告包管理”。 |
 | [!UICONTROL 数据修复API] | 授予对数据修复 API 的访问权 |

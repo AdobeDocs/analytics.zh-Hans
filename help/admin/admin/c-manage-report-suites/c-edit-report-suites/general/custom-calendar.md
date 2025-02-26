@@ -4,10 +4,10 @@ title: 自定义日程表
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 94%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 97%
 | 自定义日历 | 提供三个基于每月周数的格式。每个月中的周数取决于所选的年度第一天。一年有 52 周。将它们分为四个季度，则每个季度有 13 周。但是一个季度有三个月。13 无法被 3 整除，因此最终要将多出的一周放入其中的一个月，以使其始终一致。<ul><li>5/4/4 表示季度的第 1 个月拥有多出的一周。4/5/4 表示季度的第 2 个月拥有多出的一周，以此类推。在 5-4-4 日历中，将在一年的最后一个季度中添加第 53 周。</li><li>4-5-4：一月有四周，二月有五周，三月有四周，以此类推。</li><li>4-4-5：一月有四周，二月有四周，三月有五周，以此类推。</li><li>5-4-4：一月有五周，二月有四周，三月有四周，以此类推。</li></ul> |
 
 >[!NOTE]
->除 Data Warehouse 之外的所有 Adobe Analytics 工具（Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map）上都支持这些日历选项。Data Warehouse 仅完全支持公历。当选择非公历时，Data Warehouse 将使用非公历预期的日期范围，但报表各行中的日/周/月细分可能不是从非公历预期的那样。
+>除Data Warehouse之外的所有Adobe Analytics工具(Analysis Workspace、Report Builder、Activity Map)上都支持这些日历选项。 Data Warehouse 仅完全支持公历。当选择非公历时，Data Warehouse 将使用非公历预期的日期范围，但报表各行中的日/周/月细分可能不是从非公历预期的那样。

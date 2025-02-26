@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
-workflow-type: ht
-source-wordcount: '973'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 100%
       + [管理区段](legacy-report-builder/data-requests/segmentation.md)
       + 报告类型 {#report-types}
          + [报告类型概述](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Report Builder 中的路径报告和路径流失报告](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [使用请求向导过滤路径报告](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [使用请求向导过滤流失报告](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [通过添加从属请求过滤路径报告](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
