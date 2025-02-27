@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 100%
 + Analytics 管理员工具 {#admin-tools}
    + [管理员工具概述](admin/c-admin-tools.md)
    + [代码管理器](admin/code-manager-admin.md)
+   + [分析库存](admin/analytics-inventory.md)
    + [数据源](admin/data-sources.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [日志](admin/logs.md)
@@ -101,7 +102,7 @@ ht-degree: 100%
             + [营销渠道管理器](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [营销渠道处理规则](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [营销渠道分类](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
-            + [营销渠道到期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
+            + [营销渠道有效期限](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 流量管理 {#traffic-management}
             + [概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [计划尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
