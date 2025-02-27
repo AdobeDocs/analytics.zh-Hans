@@ -3,9 +3,9 @@ description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。TH
 title: 生成顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2420'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 6%
 
 ## [!UICONTROL After]和[!UICONTROL Within]
 
-您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;运算符为点击数、访问次数或Dimension](#event-session-and-dimension-constraints)定义其他[时间约束](#time-constraints)或[约束。
+您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;运算符为点击、访问或维度](#event-session-and-dimension-constraints)定义其他[时间约束](#time-constraints)或[约束。
 
 ### 时间限制
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 
 ### [!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL Dimension]约束
 
-![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;约束不仅允许您指定时间约束，还可以指定点击、访问或维度约束。 选择&#x200B;**[!UICONTROL 点击]**、**[!UICONTROL 访问]**&#x200B;或&#x200B;**[!UICONTROL 其他维度]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension名称&#x200B;*]**。 您可以使用&#x200B;[!UICONTROL *搜索*]字段来搜索维度。
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;约束不仅允许您指定时间约束，还可以指定点击、访问或维度约束。 选择&#x200B;**[!UICONTROL 点击]**、**[!UICONTROL 访问]**&#x200B;或&#x200B;**[!UICONTROL 其他维度]** ![V形右侧](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension名称&#x200B;*]**。 您可以使用&#x200B;[!UICONTROL *搜索*]字段来搜索维度。
 
 #### 示例
 
@@ -299,3 +299,7 @@ An example of a complex sequential segment if you want to find the visitors that
 
 
 ![复杂顺序区段示例](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [在AA和CJA中掌握顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
