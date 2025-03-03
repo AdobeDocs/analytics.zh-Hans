@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6237'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 96%
 | 功能 | 描述 |
 | --- | --- |
 | **2025 年 2 月** |  |
-| 更新了有关暂停和重新激活数据馈送的信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，已阐明实时馈送的行为。 从暂停馈送到重新激活馈送期间，不会执行数据处理。 |
-| 已更改交易ID保留期 | 交易ID保留期90天已延长至25个月。 transactionID变量可唯一标识交易，以便将点击绑定到通过数据源上传的数据。 在[此处](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[此处](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en)了解详情。 |
-| Livestream API — 客户端实施 | 使用[Livestream客户端实现](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)使用Livestream数据。 |
-| 分类API更新 | 您现在可以[从服务器](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)中删除单个分类字段或密钥。 这提供了使用DELETE方法删除整个分类数据集的替代方法。 |
+| 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。从馈送暂停到重新激活期间不处理数据。 |
+| 更改了交易 ID 保留期限 | 交易 ID 保留期从 90 天延长至 25 个月。transactionID 变量可唯一地标识交易，以便将点击绑定到通过数据源上传的数据。请在[此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/import/data-sources/transactionid?lang=en)了解详情。 |
+| 直播 API - 客户端实施 | 使用[直播客户端实施](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)来使用直播数据。 |
+| 分类 API 更新 | 您现在可以[从服务器移除单个分类字段或键值](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)。这是使用 DELETE 方法删除整个分类数据集的另一种方法。 |
 | **2025 年 1 月** |  |
-| 数据馈送API参考 | 数据馈送API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)的[参考现已可用。 |
-| 有关在新的Report Builder中计划的新文档 | [计划](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder)不仅允许您计划新的Report Builder工作簿。 此外，它还允许您在转换旧版工作簿时，检索旧计划任务的元数据。 |
-| 对Analysis Workspace中报表（也称为“模板”）的改进 | 报表（也称为[模板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)）现在有各种改进可用 |
+| 数据馈送 API 参考 | 现在提供[数据馈送 API 参考](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)。 |
+| 新 Report Builder 中有关计划的新文档 | 通过[计划](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/schedule-reportbuilder)您不仅可以安排新的 Report Builder 工作簿。此外，当您转换旧版工作簿时，它还允许您检索旧计划任务的元数据。 |
+| 改进 Analysis Workspace 中的报告（也称为模板） | 现在可以对报告（也称为[模板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)）进行各种改进 |
 
 
 ### 2024 {#year2024}

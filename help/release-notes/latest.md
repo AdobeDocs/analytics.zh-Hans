@@ -4,47 +4,47 @@ description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
-# 当前的Adobe Analytics发行说明（2025年2月版）
+# 当前 Adobe Analytics 发行说明（2025 年 2 月版本）
 
-**上次更新时间**：2025年2月21日
+**上次更新日期**：2025 年 2 月 21 日
 
-这些发行说明涵盖2025年2月11日至3月中旬的发行时段。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖 2025 年 2 月 11 日至 3 月中旬的发行期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **交易 ID 保留期限** | 交易ID保留期90天已延长至25个月。 `transactionID` 变量可唯一地标识交易，以便将点击绑定到通过数据源上传的数据。在[此处](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid)和[此处](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid)了解详情。 |  | 2025年2月20日 |
-| **数据馈送API引用** | 数据馈送API的[引用](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)现已可用。 |  | 2025 年 1 月 30 日 |
-| **Livestream API — 客户端实施** | 使用Livestream客户端实施来使用Livestream数据。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日 |
-| **分类API更新** | 您现在可以从服务器中删除单个分类字段或密钥。 这提供了使用DELETE方法删除整个分类数据集的替代方法。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日 |
-| **更新Analytics上下文数据字段`a.locale`** | 计划的更新将在通过Experience Edge收集数据时更改Analytics上下文数据字段`a.locale`的设置方式。 使用Experience Edge将数据发送到Adobe Analytics时，Analytics字段会根据XDM字段的映射进行填充。 `c.a.locale`的映射引用了非标准XDM字段`xdm.environment.language`。 将更新此字段以引用正确的字段`xdm.environment._dc.language`。<p>为了向后兼容，映射将继续引用`xdm.environment.language`。 为保持连续性，如果同时设置了两个字段，则`xdm.environment.language`将优先。 您可以在[此处](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping)查看从XDM到标准Analytics字段的完整映射列表。 | | 2025年3月5日 |
+| **交易 ID 保留期限** | 交易 ID 保留期从 90 天延长至 25 个月。`transactionID` 变量可唯一地标识交易，以便将点击绑定到通过数据源上传的数据。请在[此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/page-vars/transactionid)和[此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/import/data-sources/transactionid)了解详情。 |  | 2025 年 2 月 20 日 |
+| **数据馈送 API 参考** | 现在提供数据馈送 API [参考](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)。 |  | 2025 年 1 月 30 日 |
+| **直播 API - 客户端实施** | 使用直播客户端实施来使用直播数据。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025 年 2 月 18 日 |
+| **分类 API 更新** | 您现在可以从服务器移除单个分类字段或键值。这是使用 DELETE 方法删除整个分类数据集的另一种方法。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025 年 2 月 18 日 |
+| **更新 Analytics 上下文数据字段`a.locale`** | 已计划的更新将改变通过 Experience Edge 收集数据时 Analytics 上下文数据字段 `a.locale` 的设置方式。使用 Experience Edge 将数据发送到 Adobe Analytics 时，将根据 XDM 字段的映射填充 Analytics 字段。 `c.a.locale` 的映射参考了一个非标准 XDM 字段，`xdm.environment.language`。此字段将被更新以参考正确的字段，`xdm.environment._dc.language`。<p>该映射将继续参考 `xdm.environment.language` 以确保向后兼容。为了保持连续性，如果设置了两个字段，则 `xdm.environment.language` 将优先。您可以[在此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/aep-edge/xdm-var-mapping)查看从 XDM 到标准 Analytics 字段的映射的完整列表。 | | 2025 年 3 月 5 日 |
 
 
 ## Adobe Analytics 中的修复
 
-**Analysis Workspace**： AN-359974； AN-366212； AN-368460
-**分类**： AN-367186； AN-367328； AN-368548
-**组件迁移**： AN-364529； AN-366398； AN-367509；
+**Analysis Workspace**：AN-359974；AN-366212；AN-368460
+**分类**：AN-367186；AN-367328；AN-368548
+**组件迁移**：AN-364529；AN-366398；AN-367509；
 **数据馈送**：AN-365685；AN-366745；AN-367256；AN-367349；AN-368363
-**Data Warehouse**： AN-368178； AN-368331；
-**移动设备应用程序**： AN-367137
-**平台**： AN-351924； AN-365540； AN-365866； AN-366898； AN-367856； AN-367933
-**Report Builder**： AN-366456； AN-366655；
-**虚拟报表包**： AN-367411
-**VISTA规则**： AN-365331
+**数据仓库**：AN-368178；AN-368331；
+**移动应用程序**：AN-367137
+**平台**：AN-351924；AN-365540；AN-365866；AN-366898；AN-367856；AN-367933
+**Report Builder**：AN-366456；AN-366655；
+**虚拟报告包**：AN-367411
+**VISTA 规则**：AN-365331
 
 ## Adobe Analytics 管理员的重要注意事项 {#admin}
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **非 Campaign 客户将无法访问触发器** | 2023 年 10 月 16 日 | 2025年1月30日，没有Adobe Campaign许可证的Adobe Analytics客户无法访问配置和使用[触发器](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/triggers)的功能。 客户需要购买 Campaign，或者计划停止使用触发器，或者考虑提供触发器功能的其他 Adobe 工具。 |
+| **非 Campaign 客户将无法访问触发器** | 2023 年 10 月 16 日 | 2025 年 1 月 30 日，没有 Adobe Campaign 许可证的 Adobe Analytics 客户失去了配置和使用[触发器](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/triggers)的权限。客户需要购买 Campaign，或者计划停止使用触发器，或者考虑提供触发器功能的其他 Adobe 工具。 |
 
 ## 生命周期终止 (EOL) 通知 {#eol}
 
