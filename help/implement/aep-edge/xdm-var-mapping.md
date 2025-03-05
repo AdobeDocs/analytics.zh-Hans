@@ -4,18 +4,18 @@ description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 56%
 
 ---
 
 # XDM对象变量映射到Adobe Analytics
 
-下表显示了Adobe Experience PlatformEdge Network自动映射到Adobe Analytics中的XDM变量。 如果使用这些XDM字段路径，则无需额外配置即可将数据发送到Adobe Analytics。 这些字段包含在&#x200B;**[!UICONTROL Adobe Analytics ExperienceEvent Template]**&#x200B;字段组中。 如果您打算将数据同时发送到Adobe Analytics和Adobe Experience Platform，则建议使用这些字段。
+下表显示了Adobe Experience Platform Edge Network自动映射到Adobe Analytics中的XDM变量。 如果使用这些XDM字段路径，则无需额外配置即可将数据发送到Adobe Analytics。 这些字段包含在&#x200B;**[!UICONTROL Adobe Analytics ExperienceEvent Template]**&#x200B;字段组中。 如果您打算将数据同时发送到Adobe Analytics和Adobe Experience Platform，则建议使用这些字段。
 
-如果您的组织计划迁移到Customer Journey Analytics，Adobe建议改用`data`对象在不符合架构的情况下直接将数据发送到Adobe Analytics。 此策略允许您的组织使用自己的架构，而不是使用[!UICONTROL Adobe Analytics ExperienceEvent Template](不太适用于Customer Journey Analytics)。 有关类似的映射表，请参阅映射到Adobe Analytics](data-var-mapping.md)的[数据对象变量。
+如果您的组织计划迁移到Customer Journey Analytics，Adobe建议改用`data`对象在不符合架构的情况下直接将数据发送到Adobe Analytics。 此策略允许您的组织使用自己的架构，而不是使用[!UICONTROL Adobe Analytics ExperienceEvent模板]&#x200B;(不太适用于Customer Journey Analytics)。 有关类似的映射表，请参阅映射到Adobe Analytics](data-var-mapping.md)的[数据对象变量。
 
 ## 价值优先级
 
@@ -66,6 +66,7 @@ ht-degree: 56%
 | `xdm.environment.carrier` | 移动生命周期维度[运营商名称](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.connectionType` | 帮助设置 [“连接类型”](../../components/dimensions/connection-type.md) 维度。 |
 | `xdm.environment.ipV4` | 用作后备的[独特访客 ](../../components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
+| `xdm.environment._dc.language` | 移动维度区域设置。 |
 | `xdm.environment.language` | 移动维度区域设置。 |
 | `xdm.environment.operatingSystem` | 移动生命周期维度[操作系统](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | 帮助设置移动生命周期维度[操作系统版本](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
