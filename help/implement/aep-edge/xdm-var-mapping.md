@@ -4,10 +4,10 @@ description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
+source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 56%
+source-wordcount: '1425'
+ht-degree: 55%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 56%
 | `xdm.environment.carrier` | 移动生命周期维度[运营商名称](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.connectionType` | 帮助设置 [“连接类型”](../../components/dimensions/connection-type.md) 维度。 |
 | `xdm.environment.ipV4` | 用作后备的[独特访客 ](../../components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
-| `xdm.environment._dc.language` | 移动维度区域设置。 |
+| `xdm.environment._dc.language` | 移动维度区域设置。 仅在未设置xdm.environment.language时使用。 |
 | `xdm.environment.language` | 移动维度区域设置。 |
 | `xdm.environment.operatingSystem` | 移动生命周期维度[操作系统](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | 帮助设置移动生命周期维度[操作系统版本](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
