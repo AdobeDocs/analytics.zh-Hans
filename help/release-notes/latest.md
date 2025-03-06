@@ -3,8 +3,8 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
-workflow-type: ht
+source-git-commit: ace906a4b5acf1ab667529af33dd5be1618863f2
+workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 ## AppMeasurement
 
-有关 AppMeasurement 版本（版本 2.26.0）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-hans)。
+有关 AppMeasurement 版本（版本 2.27.0）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-hans)。
 
 
 ## 相关资产
