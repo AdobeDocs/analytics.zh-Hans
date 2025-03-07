@@ -6,8 +6,8 @@ breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '803'
+ht-degree: 100%
 
 ---
 
