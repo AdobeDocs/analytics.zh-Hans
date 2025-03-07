@@ -8,7 +8,7 @@ exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 49%
+ht-degree: 53%
 
 ---
 
@@ -31,7 +31,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!CONTEXTUALHELP]
 >id="workspace_summarynumber_button"
 >title="摘要数字"
->abstract="创建显示总计和小计的可视化效果。"
+>abstract="创建显示总计和小计的可视化图表。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +65,7 @@ The green and red color of the Summary Change can be controlled through [custom 
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

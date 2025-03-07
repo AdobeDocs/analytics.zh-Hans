@@ -7,7 +7,7 @@ exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 23%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="workspace_donut_button"
 >title="圆环图"
->abstract="创建一个可视化饼状图，以比较总数的百分比（通常具有少量项目）。"
+>abstract="创建圆环图可视化图表，以比较总数的百分比（通常具有少量项目）。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

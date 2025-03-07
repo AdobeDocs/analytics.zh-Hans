@@ -19,7 +19,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_button"
 >title="同类群组表"
->abstract="创建可视化同类群组，根据事件的完成情况对用户进行分组，并分析持续的参与度和一段时间内的流失率。"
+>abstract="创建同类群组可视化图表，根据事件的完成情况对用户进行分组，并分析持续的参与度和一段时间内的流失率。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >
 >[!UICONTROL 同类群组分析]不支持不可过滤的量度（包括计算量度）、非整数量度（如收入）或发生次数。 只有可在筛选器中使用的量度才能在[!UICONTROL 同类群组分析]中使用，并且这些量度一次只能递增1。
 
-Customer Journey Analytics中的同类群组表支持基于双精度指标（或任何基于数字的指标）。 例如，Purchase.Value(a double)可用作包含/返回量度。 此外，通过Analytics Source Connector传递到Adobe Experience Platform的所有量度也是双精度的。
+Customer Journey Analytics中的同类群组表支持基于双精度（或任何数字）的量度。 例如，Purchase.Value(a double)可用作包含/返回量度。 此外，通过Analytics Source Connector传递到Adobe Experience Platform的所有量度也是双精度的。
 
 ## 同类群组表功能
 

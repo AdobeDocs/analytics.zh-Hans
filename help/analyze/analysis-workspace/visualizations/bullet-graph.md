@@ -7,7 +7,7 @@ exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 56%
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="workspace_bullet_button"
 >title="项目符号"
->abstract="创建可视化项目符号图表来显示量度与性能范围（目标）之间的比较。"
+>abstract="创建项目符号图可视化图表来显示量度与性能范围（目标）之间的比较。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -60,7 +60,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

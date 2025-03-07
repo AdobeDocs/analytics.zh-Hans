@@ -21,7 +21,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="地图"
->abstract="这种可视化通过在地图中叠加量度来表示。这种可视化对于识别不同地理区域的数据非常有用。"
+>abstract="这种可视化图表通过在地图中叠加量度来表示。这种可视化图表对于识别不同地理区域的数据非常有用。"
 
 <!-- markdownlint-enable MD034 -->
 

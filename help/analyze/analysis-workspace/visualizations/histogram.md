@@ -8,7 +8,7 @@ exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 34%
+ht-degree: 38%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"
 >title="直方图"
->abstract="创建可视化直方图来表示范围组中数值数据的分布。"
+>abstract="创建直方图可视化图表来表示范围组中数值数据的分布。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -72,7 +72,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >[使用直方图识别意外的数据值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)

@@ -7,7 +7,7 @@ exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: bb3e8b030af78f0d7758b4cff41d66f20695e11e
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_button"
 >title="自由格式表"
->abstract="创建一个您可以使用维度、区段、量度和日期范围来构建的空的可视化自由格式表格。您可以使用自由格式表作为其他可视化的基础。"
+>abstract="创建您可以使用维度、区段、量度和日期范围来生成的空的自由格式表可视化图表。您可以使用自由格式表作为其他可视化图表的基础。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -134,7 +134,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

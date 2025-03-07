@@ -8,7 +8,7 @@ exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="workspace_line_button"
 >title="折线图"
->abstract="创建一个可视化线条图表，展示值在一段时间内的变化情况。仅当使用时间作为维度时，才可以使用可视化线条图表。"
+>abstract="创建线形图可视化图表，展示值在一段时间内的变化情况。仅当使用时间作为维度时，才可以使用线形图可视化图表。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

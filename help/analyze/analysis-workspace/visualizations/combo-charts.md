@@ -5,7 +5,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="workspace_combo_button"
 >title="组合"
->abstract="快速创建可视化组合图表，无需先创建自由格式表。"
+>abstract="快速创建组合图可视化图表，无需先创建自由格式表。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
 source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -29,7 +29,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!CONTEXTUALHELP]
 >id="workspace_horizontalbar_button"
 >title="水平条形图"
->abstract="创建可视化水平条形图来表示一个或多个量度的各种值。"
+>abstract="创建水平条形图可视化图表来表示一个或多个量度的各种值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!CONTEXTUALHELP]
 >id="workspace_horizontalbarstacked_button"
 >title="堆叠的水平条形图"
->abstract="创建可视化水平条形图来表示一个或多个堆叠的量度的各种值。"
+>abstract="创建水平条形图可视化图表来表示一个或多个堆叠的量度的各种值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,7 +61,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

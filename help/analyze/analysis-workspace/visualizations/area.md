@@ -8,7 +8,7 @@ exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!CONTEXTUALHELP]
 >id="workspace_area_button"
 >title="面积图"
->abstract="创建一份可视化面积图来表示多个量度的交集。"
+>abstract="创建面积图可视化图表来表示多个量度的交集。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!CONTEXTUALHELP]
 >id="workspace_areastacked_button"
 >title="堆叠的面积图"
->abstract="创建面积图可视化来表示多个量度的堆叠。"
+>abstract="创建面积图可视化图表来表示多个量度的堆叠。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -60,7 +60,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
