@@ -4,10 +4,10 @@ title: Analytics 变量的数据隐私标签
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '3790'
-ht-degree: 91%
+source-wordcount: '3760'
+ht-degree: 89%
 
 ---
 
@@ -19,15 +19,15 @@ Adobe Analytics 根据数据的敏感性和合同限制提供了数据标签设�
 
 在您搞清楚要将哪些标签应用于哪些变量/字段之前，首先需要知道您在 Analytics 数据中捕获的 [ID](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)，并确定要将哪些 ID 用于数据隐私请求。
 
-Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据和数据管理的标签。
+Adobe Analytics 数据隐私实施支持以下用于身份标识数据、敏感数据和数据管理的标签。
 
 >[!NOTE]
 >
 >I1、I2、S1和S2标签与Adobe Experience Platform中相应命名的DULE标签具有相同的含义。 但是，它们的使用目的大不相同。 在Adobe Analytics中，这些标签用于帮助识别作为Privacy Service请求结果而应该进行匿名处理的字段。 在Adobe Experience Platform中，它们用于访问控制、同意管理，并用于对标记字段实施营销限制。 Adobe Experience Platform支持许多其他不由Adobe Analytics使用的标签。 此外，Adobe Experience Platform中的标签可应用于架构。 如果您使用Analytics Data Connector将Adobe Analytics数据导入Adobe Experience Platform，则需要确保在Adobe Experience Platform中为每个报表包使用的架构配置适当的DULE标签。 在Adobe Analytics中分配的标签不会自动应用于Adobe Experience Platform中的这些架构，因为它们只表示您可能需要应用的DULE标签的子集。 此外，不同的报表包可能会共享一个架构，但将不同的标签分配给具有相同编号的prop和evar，并且其他数据源的数据集可能会共享该架构，这可能会导致混淆某些字段收到这些标签的原因。
 
-## 身份数据标签 {#identity-data-labels}
+## 身份标识数据标签 {#identity-data-labels}
 
-身份数据“I”标签用于对可识别或联系特定人员的数据进行分类。
+身份标识数据“I”标签用于对可识别或联系特定人员的数据进行分类。
 
 | 标签 | 定义 | 其他要求 |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 与其他标签不同，这些“删除”标签并不是相互排斥的。您可以选择两者之一、同时选择两者，或者选择“无”。[!UICONTROL 无]标签不需要另外单独选择，因为不勾选任何一个“删除”选项即表示选择了[!UICONTROL 无]。
 
-“删除”标签仅用于包含某个值的字段，该值允许点击与“数据主体”相关联（即允许标识“数据主体”）。不需要删除其他个人信息（收藏夹、浏览/购买历史、健康状况等），因为这会切断与“数据主体”的关联。
+“删除”标签仅用于包含某个值的字段，该值允许点击与“数据主体”相关联（即允许标识“数据主体”）。其他个人信息（收藏夹、浏览/购买历史记录、运行状况等）无需删除，因为与数据主体的关联将被切断。
 
 | 标签 | 定义 | 其他要求 |
 | --- | --- | --- |
@@ -186,7 +186,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
    <td colname="col1"> <p>解决方案维度和事件 </p> </td> 
    <td colname="col2"> <p>Activity Map 链接, </p> <p>Activity Map 页面 </p> </td> 
    <td colname="col3"> <p>无 / I1 / I2 </p> <p>无 / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>变量可包含 URL 参数，URL 参数又可能包含直接或间接可识别数据。如果您的实施不收集这些变量中的直接或间接可识别数据，则它们不需要身份或删除标签。 </p> <p>请注意，删除时会清除 URL 参数，但保留基本 URL。 </p> </td> 
+   <td colname="col4"> <p>变量可包含 URL 参数，URL 参数又可能包含直接或间接可识别数据。如果您的实施不收集这些变量中的直接或间接可识别数据，则它们不需要身份标识或删除标签。 </p> <p>请注意，删除时会清除 URL 参数，但保留基本 URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据处理维度 </p> </td> 
@@ -207,7 +207,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
   <tr> 
    <td colname="col2"> <p>ClickMap 操作（旧版）、 </p> <p>ClickMap 上下文（旧版）、 </p> <p>页面, </p> <p>页面 URL、 </p> <p>原始登入页面 URL、 </p> <p>反向链接、 </p> <p>访问起始页 URL </p> </td> 
    <td colname="col3"> <p>无 / I1 / I2 </p> <p>无 / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>变量可包含 URL 参数，URL 参数又可能包含直接或间接可识别数据。如果您的实施不收集这些变量中的直接或间接可识别数据，则它们不需要身份或删除标签。 </p> <p>请注意，删除时会清除 URL 参数，但保留基本 URL。 </p> </td> 
+   <td colname="col4"> <p>变量可包含 URL 参数，URL 参数又可能包含直接或间接可识别数据。如果您的实施不收集这些变量中的直接或间接可识别数据，则它们不需要身份标识或删除标签。 </p> <p>请注意，删除时会清除 URL 参数，但保留基本 URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -243,7 +243,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 | [!UICONTROL 用户代理] | 用户代理识别所用浏览器的版本。 |
 | [!UICONTROL 用户 ID] | 指定包含该数据的 Analytics 报告包（以数字表示）。 |
 | [!UICONTROL 报告包 ID] | 指定包含该数据的 Analytics 报告包的名称。 |
-| [!UICONTROL 访客 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 这些 ID 具有 DEL-DEVICE 标签，但不能添加 DEL-PERSON 标签。如果您指定 [!UICONTROL ID 扩展]，则在处理删除请求时，这些 ID 都会被自动删除，即使是使用了 ID-PERSON 的 ID 也是如此。<p>如果您不使用 ID 扩展，但您希望当 prop 或 eVar 中包含匹配 ID 时，这些 Cookie ID 能够对点击量匿名化，那么即使该 prop 或 eVar 可真正识别个人，您也可以通过为其设置 ID-DEVICE 标签来解决此标签限制（也需要将所有 DEL-PERSON 标签更改为 DEL-DEVICE 标签）。在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报告中的独特访客计数将发生变化。 |
+| [!UICONTROL 访客 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 这些 ID 具有 DEL-DEVICE 标签，但不能添加 DEL-PERSON 标签。如果您希望在prop或eVar中包含匹配ID的点击中匿名处理这些Cookie ID，则可以通过使用ID-DEVICE标签来标记prop或eVar，从而解决此标签限制问题，即使它确实能够识别人员（还需要将所有DEL-PERSON标签更改为DEL-DEVICE标签）。 在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报告中的独特访客计数将发生变化。 |
 | [!UICONTROL AMO ID] | Adobe Advertising Cloud ID 是一个解决方案变量，具有不可修改的 [!UICONTROL DEL-DEVICE] 标签。与访客 ID 和 MCID 一样，它由 Cookie 填充。只要删除这些其他 ID，它就会从点击量当中删除。更多详细信息，请参阅这些变量的描述。 |
 
 {style="table-layout:auto"}
@@ -264,4 +264,4 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 
 用于生成为数据隐私访问请求返回的文件的代码，要求访问请求中至少包含前三个时间戳变量中的一个（具有一个适用于该请求类型的 ACC 标签）。若不包含上述三个中的任意一个，则“自定义点击时间 UTC”将被视为含有 ACC-ALL 标签。
 
-为数据隐私访问请求返回的点击级别CSV文件将这些字段中的值从unix时间戳转换为`YYYY-MM-DD HH:MM:SS`格式的日期/时间字段（例如，`2018-05-01 13:49:22`）。 在摘要HTML文件中，这些时间戳值将被截断为仅包括日期`YYYY-MM-DD`，以减少这些字段中出现的唯一值的数量。
+为数据隐私访问请求返回的点击级别CSV文件将这些字段中的值从unix时间戳转换为`YYYY-MM-DD HH:MM:SS`格式的日期/时间字段（例如，`2018-05-01 13:49:22`）。 在HTML摘要文件中，这些时间戳值将被截断为仅包含日期`YYYY-MM-DD`，以缩短这些字段中出现的唯一值的长度。

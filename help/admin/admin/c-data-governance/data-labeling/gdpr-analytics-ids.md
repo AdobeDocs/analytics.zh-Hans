@@ -4,10 +4,10 @@ title: 标签设置最佳实践
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '2830'
-ht-degree: 88%
+source-wordcount: '2287'
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,7 @@ IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只�
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hans">（旧版）Analytics Cookie</a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans"> Identity 服务 Cookie </a> (ECID)，以前称为 Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
-   <td colname="col2"> <p>这些 Cookie 可识别设备，或更具体地说，可识别某设备用户的浏览器。对于使用常规登录的共享设备，此 ID 可应用于该设备的任何/所有用户。Adobe 创建了一些<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">统一的 JavaScript</a>，您可以将它们置于网站中来收集这些 Cookie（如果您希望允许将这些 Cookie 用于数据隐私请求）。 </p> <p>Adobe Analytics Mobile SDK 的用户还拥有 Experience Cloud ID (ECID)。SDK 内有一些 API 调用可读取此 ID，因此您可以增强应用程序来收集此 ID 以用于数据隐私请求。 </p> <p>许多公司考虑将浏览器 Cookie ID 作为共享设备 ID。因此，在与法律团队协商后，这些公司可能会选择不支持将它们用作数据隐私请求的可接受 ID。或者，它们可能会选择在使用这些 ID 时仅返回非常有限的数据量，或者它们可能只接受删除请求。 </p> <p>这些 Cookie 具有无法更改的 ID-DEVICE 标签（以及 I2 和 DEL-DEVICE 标签）。默认的 Adobe Analytics 配置将只返回有关设备的一般性信息，例如设备类型、操作系统、浏览器等等，以及在使用这些 ID 时，对您的网站进行访问的时间/日期。但是，如果您选择支持将这些 ID 用于数据隐私请求，那么按照下面讨论的内容，您可以添加或删除 ACC-ALL 标签，以配置您希望数据隐私访问请求返回的确切字段集。 </p> <p>如果报告包对应于需要登录的移动应用程序，您可以确定设备的 Experience Cloud ID 确实对应于特定用户。在这种情况下，您可能希望使用 ACC-ALL 标签标记更多字段，包括访问过的页面名称、查看过的产品等。 </p> <p>请注意：如果您在数据隐私请求中指定了“expandIds”选项，那么除了您指定的任何其他 ID 之外，您的请求将始终包含 Cookie ID。更多详细信息，请参阅 <a href="/help/admin/admin/c-data-governance/gdpr-id-expansion.md">ID 扩展</a>。在这些情况下，对于只具有 Cookie ID 而没有其他 ID 的点击量，则仅为访问请求返回具有 ACC-ALL 标记的数据。 </p> </td> 
+   <td colname="col2"> <p>这些 Cookie 可识别设备，或更具体地说，可识别某设备用户的浏览器。对于使用常规登录的共享设备，此 ID 可应用于该设备的任何/所有用户。Adobe 创建了一些<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">统一的 JavaScript</a>，您可以将它们置于网站中来收集这些 Cookie（如果您希望允许将这些 Cookie 用于数据隐私请求）。 </p> <p>Adobe Analytics Mobile SDK 的用户还拥有 Experience Cloud ID (ECID)。SDK 内有一些 API 调用可读取此 ID，因此您可以增强应用程序来收集此 ID 以用于数据隐私请求。 </p> <p>许多公司考虑将浏览器 Cookie ID 作为共享设备 ID。因此，在与法律团队协商后，这些公司可能会选择不支持将它们用作数据隐私请求的可接受 ID。或者，它们可能会选择在使用这些 ID 时仅返回非常有限的数据量，或者它们可能只接受删除请求。 </p> <p>这些 Cookie 具有无法更改的 ID-DEVICE 标签（以及 I2 和 DEL-DEVICE 标签）。默认的 Adobe Analytics 配置将只返回有关设备的一般性信息，例如设备类型、操作系统、浏览器等等，以及在使用这些 ID 时，对您的网站进行访问的时间/日期。但是，如果您选择支持将这些 ID 用于数据隐私请求，那么按照下面讨论的内容，您可以添加或删除 ACC-ALL 标签，以配置您希望数据隐私访问请求返回的确切字段集。 </p> <p>如果报告包对应于需要登录的移动应用程序，您可以确定设备的 Experience Cloud ID 确实对应于特定用户。在这种情况下，您可能希望使用 ACC-ALL 标签标记更多字段，包括访问过的页面名称、查看过的产品等。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自定义变量中的 ID </p> </td> 
@@ -83,8 +83,6 @@ IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只�
 * 同样，如果字段具有标签 ID-PERSON，则您还应当分配标签 DEL-PERSON。
 * 如果字段没有 ID- 标签，但是包含需要匿名化的识别信息，那么需要根据您的实施来选择适用的标签（DEVICE 或 PERSON）。如果您只将 Cookie ID 用于数据隐私请求，则您应当使用 DEL-DEVICE。
 * 如果您在具有 ID-PERSON 标签的其他字段中使用自定义 ID，并且只希望在出现该 ID 的行中清除它，则使用 DEL-PERSON。
-* 如果您使用 ID 扩展，并且希望为所有已识别设备上的所有点击量清除所有值，则使用 DEL-DEVICE。如果您愿意，可以在这种情况下应用 DEL-DEVICE 和 DEL-PERSON 标签，但 DEL-PERSON 标签并不是必需的，因为 ID 扩展意味着与人员 ID 匹配的所有行也将匹配设备 ID。
-* 如果您没有指定要使用 ID 扩展，但是要为不同的请求使用设备和个人混合 ID，那么您在使用其中的任何一类 ID 时，可能希望为应当删除的变量同时指定 DEL-DEVICE 和 DEL-PERSON 标签。
 * 请注意，如果在任意未被用作请求 ID（包括扩展的 ID）的变量上指定 DEL-DEVICE 或 DEL-PERSON 标签，那么该变量的唯一值将只在出现特定（或扩展）ID 的点击量上进行匿名化。即使其他点击量包含相同的值，该值也并不会在其他位置发生更新。这会导致计数（量度）发生更改。
 
   例如，如果您在 eVar7 中有三个包含值“foo”的点击量，但其中只有一个点击量还在其他变量中包含了与删除请求匹配的 ID，那么这一个点击量当中的“foo”值将被修改为一个类似“Data Privacy-123456789”这样的值，而在其他两个点击量中，该值将保持不变。现在，展示 eVar7 唯一值数量的报告会比此前多显示一个唯一值。在显示 eVar 探顶值的报告中，只有两个实例（而不是以前的 3 个）包含值“foo”，与此同时，还会有一个实例显示新值。
@@ -104,14 +102,6 @@ IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只�
   <tr> 
    <td colname="col1"> <p>仅设备 ID </p> </td> 
    <td colname="col2"> <p>如果您仅使用 Cookie ID 或那些具有 ID-DEVICE 标签的 ID，则应当只使用 ACC-ALL 标签。 </p> <p>您将获得每个访问请求的一对文件：一个文件，其中包含每个匹配点击（具有所有指定的ACC-ALL字段）的行，以及一个摘要文件，其中包含此数据的摘要。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>无 ID 扩展的人员 ID </p> </td> 
-   <td colname="col2"> <p>如果您仅使用具有 ID-PERSON 标签的自定义 ID 而不进行 ID 扩展，则应当使用 ACC-PERSON 标签。但是，您不需要更改默认的 ACC-ALL 标签；这些字段将自动包含在访问请求中。 </p> <p>您将获得每个访问请求的一对文件：一个文件包含每个匹配点击（包含所有指定的ACC-DEVICE和ACC-PERSON字段）的行，以及一个摘要文件，其中包含此数据的摘要。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>混合 ID 和/或 ID 扩展 </p> </td> 
-   <td colname="col2"> <p>如果您在数据隐私请求中同时包含设备和人员 ID，或者如果您使用自定义 ID（自定义访客 ID 或者 prop 或 eVar 中的 ID），则您需要注意所使用的 ACC 标签。每个访问请求将返回两对数据文件。 <p>一对文件，其中包含了一个包含命中项数据的文件，其中命中项包含匹配的人员ID ，而另一文件包含来自命中项数据的文件，这些命中项与人员ID不匹配，但设备ID不匹配。 </p> <p>另一对（“人员ID”）文件包含与人员ID匹配的所有命中项以及具有ACC-PERSON或ACC-ALL标签的所有字段的数据。 一个文件包含所有匹配的点击，另一个摘要文件包含此数据的摘要。 </p> <p>“设备 ID”文件对只包含具有 ACC-ALL 标签的字段，并且只包含没有任何匹配人员 ID 的点击。这些文件可能包含由共享设备的其他用户生成的数据，因此您应该仔细考虑包含 ACC-ALL 标签的字段集。Analytics 内的默认标签功能只将此标签应用于有关设备的一般性信息字段（设备类型、操作系统、浏览器等等），以及每个点击的日期/时间。 </p> <p>您可以选择从 Adobe 同时接收设备和人员文件组，然后只共享人员文件，以免共享可能由共享设备的其他用户生成的数据。或者，您可能希望将来自一种或两种文件组的数据与您了解的其他“数据主体”相关信息合并到一起，并以您自己的格式返回这些信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
