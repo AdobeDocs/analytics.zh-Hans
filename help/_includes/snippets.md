@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 36%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >2024年10月16日发布了新的、简化的[Report Builder](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/report-buider-overview)。 它在Mac、Windows和Web浏览器上受支持。
->此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)转换为新Report Builder。
+>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)转换为新的Report Builder。
 
 ## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
->自&#x200B;**2024年1月17日起**，Adobe已停用Reports &amp; Analytics及其随附的报告和功能。 届时，Reports &amp; Analytics及其所有报表和计划都将停止工作。 支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。有关在Analysis Workspace中使用报表的信息，请参阅[使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md)。
+>自&#x200B;**2024年1月17日起**，Adobe已停用Reports &amp; Analytics及其随附的报告和功能。 届时，Reports &amp; Analytics及其所有报表和计划都将停止工作。 支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。有关信息，请参阅[使用模板](/help/analyze/analysis-workspace/templates/use-templates.md)。
 > 
 >自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
 >
@@ -101,7 +101,7 @@ ht-degree: 36%
 
 1. 9月15日，用户通过付费搜索广告访问您的网站后离开。
 1. 9月18日，该用户通过朋友提供的社交媒体链接再次访问您的网站。 他将多个物品添加到购物车，但没有购买任何物品。
-1. 9 月 24 日，您的营销团队向他们发送一封电子邮件，其中包含购物车中某些物品的优惠券。他应用了优惠券，但访问了其他几个网站，查看是否有其他优惠券可用。他通过展示广告找到另一个网站，并最终购买了价值 50 美元的物品。
+1. 9 月 24 日，您的营销团队向他们发送一封电子邮件，其中包含购物车中某些物品的产品建议券。他应用了产品建议券，但访问了其他几个网站，查看是否有其他产品建议券可用。他通过展示广告找到另一个网站，并最终购买了价值 50 美元的物品。
 
 根据您的回顾窗口和归因模型，渠道会收到不同比例的点数。以下是一些示例：
 

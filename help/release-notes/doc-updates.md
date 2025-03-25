@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: ht
-source-wordcount: '6237'
-ht-degree: 100%
+source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+workflow-type: tm+mt
+source-wordcount: '6234'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 | --- | --- |
 | **2023 年 12 月** | |
 | 改进了机器人规则文档 | 更新了[了解和配置机器人规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)中的信息以使其更明确。<p>其中的改进包括：</p> <ul><li>更新了文章标题以使其更具描述性</li><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li><li>关于在上传机器人规则时对 CSV 文件的要求添加了更多详细信息</li></ul> |
-| 新报告部分 | 添加了新的报告部分，其中包括有关[使用预建报告](/help/analyze/analysis-workspace/reports/use-reports.md)以及[创建和管理公司报告](/help/analyze/analysis-workspace/reports/create-company-reports.md)的信息。 |
+| 新报告部分 | 添加了新的“报表”部分，其中包含有关[使用模板](/help/analyze/analysis-workspace/templates/use-templates.md)和[创建公司模板](/help/analyze/analysis-workspace/templates/create-templates.md)的信息。 |
 | 异常检测和贡献分析文档的更新 | 异常检测和贡献分析的文档以前位于有关 Virtual Analyst 的部分中。进行了以下更改： <ul><li>术语 Virtual Analyst 已从文档中删除。</li><li>关于[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)的部分已直接移至 Analysis Workspace 部分下方。</li><li>贡献分析文档已合并到异常检测文档中。</li></ul> |
 | “Attribution IQ”改为“Attribution” | 将整个文档中“Attribution IQ”的所有实例更改为“[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)”。 |
 | **2023 年 11 月** | |

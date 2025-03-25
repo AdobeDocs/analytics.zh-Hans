@@ -4,10 +4,10 @@ title: 实时报表概述
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 90%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 90%
 
 1. 在 Analysis Workspace 中，选择 [!UICONTROL **Workspace**] 选项卡。
 
-1. 选择&#x200B;[!UICONTROL **报告**] > [!UICONTROL **参与**] > **[!UICONTROL 实时]**。
+1. 在页面左侧的&#x200B;**[!UICONTROL 模板]**&#x200B;下，选择&#x200B;[!UICONTROL **Adobe模板**]。
+
+1. 选择&#x200B;[!UICONTROL **参与**] > **[!UICONTROL 实时]**。
 
 ## 了解实时报表
 
