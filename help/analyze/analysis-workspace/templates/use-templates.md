@@ -103,9 +103,9 @@ Analysis Workspace 中的模板（或公司模板）可让您快速洞察最常�
 
    以下部分对应可用的类别并提供有关每个模板的信息。
 
-   * [[!UICONTROL ](#most-popular)
+   * &lbrack;[](#most-popular)
 
-   * [[!UICONTROL ](#engagement)
+   * &lbrack;[](#engagement)
 
 ### 最受欢迎 {#most-popular}
 

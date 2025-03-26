@@ -26,57 +26,47 @@ Adobe Experience Platform Mobile SDK 有助于在您的移动应用程序中支�
 ![使用 Analytics 扩展工作流的 Adobe Analytics](../../assets/mobilesdk-annotated.png)
 
 <table style="width:100%">
-
 <tr>
 <th style="width:5%"></th><th style="width:60%"><b>任务</b></th><th style="width:35%"><b>更多信息</b></th>
 </tr>
-
 <tr>
 <td>1</td>
 <td>确保您已<b>定义报告包</b>。</td>
 <td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
 </tr>
-
 <tr>
 <td>2</td>
 <td><b>配置数据流</b>。 数据流表示实施 Adobe Experience Platform Web SDK 时的服务器端配置。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans">配置数据流<a></td> 
 </tr>
-
 <td>3</td>
 <td><b>将 Adobe Analytics 服务</b>添加到您的数据流。 该服务控制数据是否以及如何发送到 Adobe Analytics。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
 </tr>
-
 <tr>
 <td>4</td>
 <td><b>创建移动属性</b>。 属性是您填充扩展、规则、数据元素和库的容器。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">设置移动属性</a></tr>
-
 <tr>
 <td>5</td>
 <td><b>在移动标记属性中安装 Adobe Experience Platform Edge Network 扩展</b>，并在扩展中配置数据流。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
 </tr>
-
 <tr>
 <td>6</td>
 <td><b>在您的应用程序中使用代码</b>来注册必要的扩展并加载您的标记配置。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">设置配置</a></td>
 </tr>
-
 <tr>
 <td>7</td>
 <td><b>在您的应用中结合标记的数据元素、规则、附加扩展和 SDK API 调用来实施和测试功能</b>。 检查、验证和调试移动应用程序的数据收集和体验。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">使用示例应用程序</a>
 </tr>
-
 <tr>
 <td>8</td>
 <td><b>将您的移动应用程序实施</b>推向生产环境之前，对其进行扩展和验证。</td>
 <td></td> 
 </tr>
-
 </table>
 
 
@@ -87,41 +77,34 @@ Adobe Experience Platform Mobile SDK 有助于在您的移动应用程序中支�
 ![使用 Analytics 扩展工作流的 Adobe Analytics](../../assets/mobilesdk-analytics-annotated.png)
 
 <table style="width:100%">
-
 <tr>
 <th style="width:5%"></th><th style="width:60%"><b>任务</b></th><th style="width:35%"><b>更多信息</b></th>
 </tr>
-
 <tr>
 <td>1</td>
 <td>确保您已<b>定义报告包</b>。</td>
 <td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
 </tr>
-
 <tr>
 <td>2</td>
 <td><b>在移动标记属性中安装 Adobe Analytics 扩展</b>，并将扩展配置为指向您的报告包。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">用于移动属性的 Adobe Analytics 扩展</a>
 </tr>
-
 <tr>
 <td>3</td>
 <td><b>在您的应用程序中使用代码</b>来注册必要的扩展并加载您的标记配置。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">设置配置</a></td>
 </tr>
-
 <tr>
 <td>4</td>
 <td><b>在您的应用中结合标记的数据元素、规则、附加扩展和 SDK API 调用来实施和测试功能</b>。 检查、验证和调试移动应用程序的数据收集和体验。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">使用示例应用程序</a>
 </tr>
-
 <tr>
 <td>5</td>
 <td><b>将您的移动应用程序实施</b>推向生产环境之前，对其进行扩展和验证。</td>
 <td></td> 
 </tr>
-
 </table>
 
 ## 其他资源
