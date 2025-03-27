@@ -4,20 +4,19 @@ description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2730'
 ht-degree: 86%
 
 ---
 
 # AppMeasurement for JavaScript 发行说明
 
-AppMeasurement for JavaScript 的发行说明汇总。
+>[!IMPORTANT]
+>
+>自2025年3月起，将不再更新本文。 您可以从[GitHub](https://github.com/adobe/appmeasurement/releases)查看并下载最新版本的AppMeasurement的发行说明。
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-您可以从[GitHub](https://github.com/adobe/appmeasurement/releases)下载最新版本的AppMeasurement。
 
 ## 版本 2.27.0
 
@@ -32,8 +31,8 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 发行日期：**2024年3月4日**
 
-* AppMeasurement会自动识别和利用国家/地区代码顶级域的根域，以前需要特定Cookie域配置。 由于这种自动识别，更新可能会产生影响。 有关详细信息，请参阅[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md)。
-* 该分发版本包括Identity Service Library 5.5.0和Data Integration Library9.6。
+* AppMeasurement会自动识别并利用国家/地区代码顶级域的根域，以前需要特定Cookie域配置。 由于这种自动识别，更新可能会产生影响。 有关详细信息，请参阅[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md)。
+* 该分发版本包括Identity Service Library 5.5.0和Data Integration Library 9.6。
 
 ## 版本 2.25.0
 
@@ -48,7 +47,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 * 添加了可选配置变量[`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md)，用于对包含双字节编码字符的链接URL进行解码。
 * 为具有错误的高熵用户代理客户端提示API的浏览器添加了其他错误处理。
-* 已将POSTContent-Type标头更改为默认使用`x-www-form-urlencoded`。
+* 更改了POST Content-Type标头，默认使用`x-www-form-urlencoded`。
 
 ## 版本 2.23.0
 
@@ -356,7 +355,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 发行日期：**2015 年 9 月 17 日**
 
 * 包括 Visitor API 1.5.2
-* 更新了[!DNL Audience Manager]模块，以便使用来自VisitorAPI.js的Adobe Audience ManagerDIL6.2 - getCustomer ID，并在事件调用中将它们传递到Adobe Audience Manager。 (AN-104978)
+* 更新了[!DNL Audience Manager]模块以使用Adobe Audience Manager DIL 6.2 — 从VisitorAPI.js获取Customer ID并在事件调用中将它们传递到Adobe Audience Manager。 (AN-104978)
 
 ## 版本 1.5
 
@@ -371,7 +370,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 发行日期：**2015 年 5 月 21 日**
 
 * 从iOS SDK 4.5版开始，新增的iOS扩展允许您从Apple Watch应用程序、“今天”小组件、照片编辑小组件和所有其他iOS扩展应用程序中收集使用数据。
-* 从Android SDK版本4.5开始，新增的Android扩展允许您从Android可穿戴应用程序中收集数据。
+* 从Android SDK 4.5版开始，新增的Android扩展允许您从Android可穿戴应用程序中收集数据。
 * 包括 Visitor API 1.4。
 * 更新了 AudienceManagement 模块，以便使用 DIL 版本 6.0。
 
@@ -385,7 +384,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 * 您现在可以包含具有生命周期量度的自定义上下文数据变量。
 * 现在，`trackBeacon` 和 `clearCurrentBeacon` 调用在 PhoneGap 中可用。
-* 进行了小修复，以便在 `trackLight` 调用之后清除轻量级服务器调用配置文件 ID。
+* 进行了小修复，以便在 `trackLight` 调用之后清除轻量级服务器调用轮廓 ID。
 
 ## 版本 1.4.3
 
