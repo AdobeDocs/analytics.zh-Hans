@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 80dc39ebf0a9b7122b346e2045498ad21eedc0fe
 workflow-type: tm+mt
-source-wordcount: '6331'
-ht-degree: 98%
+source-wordcount: '6352'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | **2025 年 3 月** |  |
+| Customer Journey Analytics升级指南 | 允许您生成从Adobe Analytics升级到Customer Journey Analytics的[分步指南](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
 | 阐明Data Warehouse导出中的日期格式 | Data Warehouse导出中基于时间的维度值具有非标准日期格式。 添加了说明如何解释Data Warehouse导出日期值的信息。 <p>在Data Warehouse](/help/export/data-warehouse/component-support.md)中的[组件支持中，查看以其他方式（非标准日期格式）支持的[维度](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
 | 更新了有关IP排除项的信息 | 添加了说明[IP排除](/help/admin/admin/exclude-ip.md)可能最多需要5分钟才能生效的信息，并且更改仅适用于新点击（在设置的排除之前捕获的数据不受影响）。 <p>此外，还更新了内容布局以提高可读性。</p> |
 | **2025 年 2 月** |  |
