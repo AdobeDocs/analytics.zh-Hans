@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '6234'
-ht-degree: 99%
+source-wordcount: '6331'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2025 年 3 月** |  |
+| 阐明Data Warehouse导出中的日期格式 | Data Warehouse导出中基于时间的维度值具有非标准日期格式。 添加了说明如何解释Data Warehouse导出日期值的信息。 <p>在Data Warehouse](/help/export/data-warehouse/component-support.md)中的[组件支持中，查看以其他方式（非标准日期格式）支持的[维度](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
+| 更新了有关IP排除项的信息 | 添加了说明[IP排除](/help/admin/admin/exclude-ip.md)可能最多需要5分钟才能生效的信息，并且更改仅适用于新点击（在设置的排除之前捕获的数据不受影响）。 <p>此外，还更新了内容布局以提高可读性。</p> |
 | **2025 年 2 月** |  |
 | 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。从馈送暂停到重新激活期间不处理数据。 |
 | 更改了交易 ID 保留期限 | 交易 ID 保留期从 90 天延长至 25 个月。transactionID 变量可唯一地标识交易，以便将点击绑定到通过数据源上传的数据。请在[此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/import/data-sources/transactionid?lang=en)了解详情。 |
