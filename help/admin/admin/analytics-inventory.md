@@ -1,15 +1,15 @@
 ---
 description: 使用Analytics库存
-title: 分析库存
+title: Analytics 库存
 feature: Admin Tools
 role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 81131600bdd3233f9a50af6d1c5c45ccf7f3d37a
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 82%
+source-wordcount: '279'
+ht-degree: 48%
 
 ---
 
@@ -25,6 +25,27 @@ ht-degree: 82%
 <!-- markdownlint-enable MD034 -->
 
 Analytics清单提供了Adobe Analytics环境的全面概述，包括项目和组件数量、报表包数量、用户数量等。 在您开始准备升级到 Customer Journey Analytics 时，此信息尤为宝贵。
+
+此应用程序旨在帮助您回答以下问题：
+
+* 对于您的组织，哪些资产（例如报表包、区段、用户、工作区项目、数据馈送等）需要升级，哪些资产可以留下？
+
+* 确定需要迁移的资源后：
+
+   * 是否应该在此升级之前进行一些资产清理？
+
+   * 您是否应该在此过程中进行一些资产合并？
+
+   * 您的资产应采用什么升级顺序？
+
+   * 您应该首先升级哪组报表包？ 最后一个？
+
+## 访问Analytics库存
+
+Analytics清单可从&#x200B;**[!UICONTROL 管理员]**&#x200B;菜单以及&#x200B;**[!UICONTROL 所有管理员]**&#x200B;菜单项中获取。
+
+    ！[Analytics清单菜单](assets/an-inventory-menu.png)
+
 
 ## 组件 {#components}
 
