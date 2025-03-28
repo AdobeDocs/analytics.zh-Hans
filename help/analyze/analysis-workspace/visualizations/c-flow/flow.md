@@ -1,14 +1,14 @@
 ---
-description: 在 Workspace 项目中使用流量可视化。
+description: 在 Workspace 项目中使用流量可视化图表。
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="流量"
->abstract="分析从一个接触点到下一个接触点的访问次数或访客流量。<br/><br/>**参数&#x200B;**<br/>**用以下为开头**：添加一个维度、维度项目或量度以查看在所选组件出现之后出现最多的接触点。<br/>**包含**：添加一个维度或维度项目以查看在所选组件出现之前和之后出现最多的接触点。<br/>**用以下为结尾**：添加一个维度、维度项目或量度以查看在所选组件出现之前出现最多的接触点。<br/>**路径维度**：添加一个维度，用作通往或者离开您的选定组件的路径。"
+>abstract="分析从一个接触点到下一个接触点的访问或访客流量。<br/><br/>**参数&#x200B;**<br/>**用以下为开头**：添加一个维度、维度项或量度以查看在所选组件出现之后出现最多的接触点。<br/>**包含**：添加一个维度或维度项以查看在所选组件出现之前和之后出现最多的接触点。<br/>**用以下为结尾**：添加一个维度、维度项或量度以查看在所选组件出现之前出现最多的接触点。<br/>**路径维度**：添加一个维度，用作通往或者离开您的选定组件的路径。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的流量可视化图表。_<br/>_查看本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[流程](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的流量可视化图表。_<br/>_请参阅[流量](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -40,13 +40,13 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 它允许您：
 
 * 可视化客户浏览您的网站或应用程序的历程
-* 分析客户在指定检查点（例如登入、特定维度或退出）之前和之后的去向
+* 分析客户在指定检查点（例如进入、特定维度或退出）之前和之后的去向
 * 通过在选定路径中指定一个特定点来创建区段
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[流量可视化图表](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -63,11 +63,11 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >
 
 
-## 其他功能
+## 附加功能
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[流量可视化图表中的附加功能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表中的其他功能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

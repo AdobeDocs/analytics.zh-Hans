@@ -1,20 +1,20 @@
 ---
-description: 创建和管理警报的用例。
-title: 警报 — 用例
+description: 创建和管理警报用例。
+title: 警报 - 用例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '66'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# 警报 — 用例
+# 警报 - 用例
 
-您可以按照[创建警报](/help/components/c-alerts/alert-builder.md)中的说明创建警报。
+您可以按照[创建警报](/help/components/c-alerts/alert-builder.md)中所述创建警报。
 
-以下各节说明了创建警报时要考虑的示例用例。
+以下部分说明了创建警报时需要考虑的示例用例。
 
 ## 创建按两个区段过滤的简单警报 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 

@@ -1,13 +1,13 @@
 ---
-description: 在 Workspace 项目中使用流失可视化。
+description: 在 Workspace 项目中使用流失可视化图表。
 title: 流失概述
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,26 +25,26 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的流失可视化图表。_<br/>_查看本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[流失](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的流失可视化图表。_<br/>_请参阅[流失](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
-流失可视化图表为构建流失报表提供了多个选项。流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。
+流失可视化图表为生成流失报告提供了多个选项。流失报告显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流失可视化图表](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流失可视化图表](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 流失可视化图表允许您
 
-* 对同一个报表中的两个不同区段执行逐项比较。
+* 对同一个报告中的两个不同区段执行逐项比较。
 * 拖放和重新排列漏斗步骤（接触点）
-* 混合和匹配来自不同维度和指标的值
-* 创建多维度流失报表
+* 混合和匹配来自不同维度和量度的值
+* 创建多维度流失报告
 * 识别客户在流失之后马上前往何处
 
 流失显示一个序列中每个步骤或接触点之间的转化和流失率。

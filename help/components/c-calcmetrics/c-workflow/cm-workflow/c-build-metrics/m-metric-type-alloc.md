@@ -4,9 +4,9 @@ title: 量度类型和归因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
->title="使用非默认的属性模型"
+>title="使用非默认归因模型"
 >abstract="为所选量度启用非默认归因模型。"
 
 <!-- markdownlint-enable MD034 -->
@@ -43,7 +43,7 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
->title="首次接触"
+>title="首次联系"
 >abstract="100% 的积分归于访客看到的第一个维度值。"
 
 <!-- markdownlint-enable MD034 -->
@@ -133,35 +133,35 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
->title="回顾时间范围"
->abstract="此设置可以确定将要对每次转化应用的数据归因时间窗口。"
+>title="回顾窗口"
+>abstract="此设置可以确定将要对每次转化应用的数据归因窗口。"
 
 <!-- markdownlint-enable MD034 -->
 
-在[生成计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)时，可以指定量度类型和归因模型。
+在[生成计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)时，您可以指定量度类型和归因模型。
 
 ## 量度类型
 
-要在构建计算量度时指定量度类型，请执行以下操作：
+要在生成计算量度时指定量度类型，请执行以下操作：
 
-1. 选择要选择其类型的量度旁边的齿轮图标。
+1. 选择要选择类型的量度旁边的齿轮图标。
 
    ![](assets/cm_type_alloc.png)
 
 1. 从以下选项中进行选择：
 
-   | 指标类型 | 定义 |
+   | 量度类型 | 定义 |
    |---|---|
-   | 标准 | 这些指标是在标准 [!DNL Analytics] 报表中使用的相同指标。如果公式包含一个标准指标，它会显示与其相对的非计算指标的相同数据。标准指标可用于创建特定于每个单独行项目的计算指标。例如，[订购次数]/[访问次数]是将特定行项目的订购次数除以特定行项目的访问次数。 |
-   | 总计 | 在每个行项目中使用报告期间的总计。 如果公式包含一个总计指标，它会显示每个行项目的相同总数。 总计量度可用于创建与网站总计数据相比较的计算量度。 例如，[订购次数]/[总访问次数]会显示订购次数与网站所有访问次数的比例，而不只是与特定行项目访问次数的比例。 |
+   | 标准 | 这些量度是在标准 [!DNL Analytics] 报告中使用的相同量度。如果公式包含一个标准量度，它会显示与其相对的非计算量度的相同数据。标准量度可用于创建特定于每个单独行项目的计算量度。例如，[订购次数]/[访问次数]是将特定行项目的订购次数除以特定行项目的访问次数。 |
+   | 全部总计 | 使用每个行项目中报告时间段的全部总计。如果公式包含一个全部总计量度，它会显示每个行项目中的相同总计数。全部总计量度可用于创建与网站总计数据相比较的计算量度。例如，[订单]/[总访问次数]会显示订单与网站所有访问次数的比例，而不只是与特定行项目访问次数的比例。 |
 
-## 线性分配的工作方式
+## 线性分配的工作原理
 
-[归因](/help/analyze/analysis-workspace/attribution/overview.md)是计算指标中分配模型的评估方式。
+[归因](/help/analyze/analysis-workspace/attribution/overview.md)是如何评估计算量度中的分配模型。
 
-有关支持的非默认归因模型和回溯时段的完整列表，请参阅[归因模型和回溯时段](/help/analyze/analysis-workspace/attribution/models.md)。
+有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因模型和回顾窗口](/help/analyze/analysis-workspace/attribution/models.md)。
 
-以下示例说明了具有线性分配的计算指标在报表中的工作方式：
+下面的示例说明了在报告中如何使用线性分配的计算量度：
 
 | | 第 1 次点击 | 第 2 次点击 | 第 3 次点击 | 第 4 次点击 | 第 5 次点击 | 第 6 次点击 | 第 7 次点击 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -170,5 +170,5 @@ ht-degree: 79%
 | 首次联系 eVar | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | $10 |
 | 示例 Prop | 促销活动 A | - | 促销活动 A | 促销活动 B | - | 促销活动 C | $10 |
 
-此示例中，在第 7 次点击进行了价值 10 美元的购买之前，值 A、B、C 已发送到第 1、3、4、6 次点击上的变量之中。第二行显示出，在这一系列的点击中，这些值均一直持久出现在最近联系访问中。第三行则显示出首次联系访问的持久性。最后，最后一行显示的是某个不具有持久性的属性 (Prop) 其数据是如何记录的。
+此示例中，在第 7 次点击进行了价值 10 美元的购买之前，值 A、B、C 已发送到第 1、3、4、6 次点击上的变量之中。第二行显示出，在这一系列的点击中，这些值均一直持久出现在最近联系访问中。第三行则显示出首次联系访问的持久性。最后，最后一行显示的是某个不具有持久性的属性（Prop）其数据是如何记录的。
 

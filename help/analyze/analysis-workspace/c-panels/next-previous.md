@@ -1,24 +1,24 @@
 ---
-description: 显示特定维度的下一个或上一个维度项的面板。
-title: “下一项或上一项”面板
+description: 显示特定维度的下一项或上一项维度面板。
+title: 下一项或上一项面板
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
-# “下一项或上一项”面板 {#next-or-previous-item-panel}
+# 下一项或上一项面板 {#next-or-previous-item-panel}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
 >title="下一项或上一项"
->abstract="创建一个面板来了解人们来自的前一个维度或人们要去的下一个维度。"
+>abstract="创建面板来了解人们来自的上一项维度或人们要去的下一项维度。"
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,23 +27,23 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="下一项或上一项"
->abstract="分析访客之前最常来自何处或后续最常访问的地方是什么。<br/><br/>**维度**：选择一个维度。例如&#x200B;**页面**。<br/>**维度项**：选择具体的维度项目。例如&#x200B;**主页**。<br/>**方向**：选择&#x200B;**下一项**&#x200B;以查看所选维度项目后的下一个维度项目。选择&#x200B;**上一项**&#x200B;来查看您所选的维度项目之前的维度项目。<br/>**容器**：选择&#x200B;**线程**&#x200B;来查看同一线程中的下一个/上一个维度项目，或选择&#x200B;**人员**&#x200B;来查看同一个人的上一个/下一个维度项目。"
+>abstract="分析访客之前最常来自何处或后续最常访问的地方是什么。<br/><br/>**维度**：选择一个维度。例如&#x200B;**页面**。<br/>**维度项**：选择的一个特定维度项。例如&#x200B;**主页**。<br/>**方向**：选择&#x200B;**下一项**&#x200B;来查看紧随所选维度项之后的下一项维度。选择&#x200B;**上一项**&#x200B;来查看所选维度项之前的维度项。<br/>**容器**：选择&#x200B;**会话**&#x200B;来查看同一会话中的下一项/上一项维度，或选择&#x200B;**人员**&#x200B;来查看同一个人的上一项/下一项维度。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的下一个或上一个项目面板。_<br/>_查看本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[下一个或上一个项目面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的下一项或上一项面板。_<br/>_请参阅[下一项或上一项面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/next-previous)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 下一个或上一个项目]**&#x200B;面板包含许多表和可视化图表，用于标识特定维度的下一个或上一个维度项目。 例如，您可能希望探索客户在访问主页后最常访问哪些页面。
+**[!UICONTROL 下一项或上一项]**&#x200B;面板包含许多表格和可视化图表，用于识别特定维度的下一项或上一项维度。例如，您可能想要浏览客户访问主页后最常访问哪些页面。
 
 ## 使用
 
-要使用&#x200B;**[!UICONTROL 下一个或上一个项目]**&#x200B;面板：
+要使用&#x200B;**[!UICONTROL 下一项或上一项]**&#x200B;面板：
 
-1. 创建&#x200B;**[!UICONTROL 下一个或上一个项目]**&#x200B;面板。 有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
+1. 创建&#x200B;**[!UICONTROL 下一项或上一项]**&#x200B;面板。有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
 
 1. 指定面板的[输入](#panel-input)。
 
@@ -51,16 +51,16 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 ### 面板输入
 
-您可以使用以下输入设置配置[!UICONTROL 下一个或上一个项]面板：
+您可以使用以下输入设置配置[!UICONTROL 下一项或上一项]面板：
 
-![下一个或上一个项目面板](assets/next-or-previous-item.png)
+![下一项或上一项面板](assets/next-or-previous-item.png)
 
 | 输入 | 描述 |
 | --- | --- |
-| **[!UICONTROL 维度]** | 选择要为其浏览下一个或上一个项目的维度。 |
-| **[!UICONTROL 维度项]** | 在下次/上一次查询的中心选择特定维度项目。 |
-| **[!UICONTROL 方向]** | 指定您要查找[!UICONTROL Next]还是[!UICONTROL Previous]维度项。 |
-| **[!UICONTROL 容器]** | 选择容器[!UICONTROL 会话]或[!UICONTROL 人员]（默认值），以确定查询的范围。 |
+| **[!UICONTROL 维度]** | 选择您想要浏览下一项或上一项的维度。 |
+| **[!UICONTROL 维度项]** | 选择位于下一项/上一项查询中心的特定维度项。 |
+| **[!UICONTROL 方向]** | 请指定您是否正在寻找[!UICONTROL 下一项]或[!UICONTROL 上一项]维度。 |
+| **[!UICONTROL 容器]** | 选择容器，[!UICONTROL 会话]或[!UICONTROL 人员]（默认），以确定您的查询范围。 |
 
 {style="table-layout:auto"}
 
@@ -68,23 +68,23 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 ### 面板输出
 
-[!UICONTROL 下一个或上一个项目]面板返回一组丰富的数据和可视化图表，以帮助您更好地了解特定维度项目之后或之前的具体情况。
+[!UICONTROL 下一项或上一项]面板返回一组丰富的数据和可视化图表，帮助您更好地了解特定维度项之后或之前的发生次数。
 
-![下一个/上一个面板输出](assets/next-or-previous-item-output.png)
+![下一项/上一项面板输出](assets/next-or-previous-item-output.png)
 
 
 | 可视化图表 | 描述 |
 | --- | --- |
-| **[!UICONTROL 水平条]** | 根据您选择的维度项目列出下一个（或上一个）项目。 将鼠标悬停在单个栏上会突出显示自由格式表中的相应项目。 |
-| **[!UICONTROL 摘要数字]** | 当月（到目前为止）所有下一个或上一个维度项目发生次数的高级摘要编号。 |
-| **[!UICONTROL 自由格式表]** | 以表格式根据所选的维度项列出下一个（或上一个）项目。 例如，在主页或Workspace页面之后（或之前），哪些（按发生次数）是用户访问的最受欢迎页面。 |
+| **[!UICONTROL 水平条形图]** | 根据您选择的维度项列出下一项（或上一项）维度。将光标悬停在单个条形图上可突出显示自由格式表中相应的项。 |
+| **[!UICONTROL 摘要数字]** | 当前月份（迄今为止）所有下一项或上一项维度发生次数的高级摘要数字。 |
+| **[!UICONTROL 自由格式表]** | 根据您选择的维度项以表的格式列出下一项（或上一项）维度。例如，人们在主页或工作区页面之后（或之前）访问的最受欢迎的页面是哪些（按发生次数计算）。 |
 
 {style="table-layout:auto"}
 
 
 >[!MORELIKETHIS]
 >
->[Create a panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[创建面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 >
 
 <!--
