@@ -6,9 +6,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
+source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '274'
 ht-degree: 48%
 
 ---
@@ -42,9 +42,9 @@ Analytics清单提供了Adobe Analytics环境的全面概述，包括项目和�
 
 ## 访问Analytics库存
 
-Analytics清单可从&#x200B;**[!UICONTROL 管理员]**&#x200B;菜单以及&#x200B;**[!UICONTROL 所有管理员]**&#x200B;菜单项中获取。
+[!UICONTROL Analytics清单]可从&#x200B;**[!UICONTROL 管理员]**&#x200B;菜单以及&#x200B;**[!UICONTROL 所有管理员]**&#x200B;菜单项中获取。
 
-    ！[Analytics清单菜单](assets/an-inventory-menu.png)
+![Analytics-Inventory-menu](assets/an-inventory-menu.png)
 
 
 ## 组件 {#components}
