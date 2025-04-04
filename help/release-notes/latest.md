@@ -3,16 +3,16 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 53175bbf54dd452502e1502b272ebb86c8b133ef
+source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 64%
+source-wordcount: '980'
+ht-degree: 60%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2025 年 3 月版本）
 
-**上次更新时间**：2025年3月31日
+**上次更新时间**：2025年4月4日
 
 这些发行说明涵盖 2025 年 3 月 5 日至 5 月的发行期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -20,6 +20,7 @@ ht-degree: 64%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Analytics清单** | Analytics清单提供了Adobe Analytics环境的全面概述，包括项目和组件数量、报表包数量、用户数量等。 通过自动化清点过程，您可以快速了解从Adobe Analytics切换到Customer Journey Analytics所需的工作。 这将使转换更容易、更快。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025 年 3 月 26 日 |
 | **更新 Analytics 上下文数据字段`a.locale`** | 此项更新改变了通过 Experience Edge 收集数据时 Analytics 上下文数据字段 `a.locale` 的设置方式。使用 Experience Edge 将数据发送到 Adobe Analytics 时，将根据 XDM 字段的映射填充 Analytics 字段。 `c.a.locale` 的映射参考了一个非标准 XDM 字段，`xdm.environment.language`。此字段将被更新以参考正确的字段，`xdm.environment._dc.language`。<p>该映射将继续参考 `xdm.environment.language` 以确保向后兼容。为了保持连续性，如果设置了两个字段，则 `xdm.environment.language` 优先。您可以[在此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/aep-edge/xdm-var-mapping)查看从 XDM 到标准 Analytics 字段的映射的完整列表。 | | 2025 年 3 月 5 日 |
 | **Customer Journey Analytics 升级指南** | 让您生成从 Adobe Analytics 升级到 Customer Journey Analytics 的分步指南。本指南是根据您的组织量身定制的，并考虑了您当前的 Adobe Analytics 环境、您对 Customer Journey Analytics 的预期用途以及您的组织想要做出的任何节省时间的权衡。<p>要开始生成自定义指南，请登录 [!DNL Customer Journey Analytics]，然后在 **[!UICONTROL Workspace]** 选项卡上选择&#x200B;**[!UICONTROL 升级到 Customer Journey Analytics]**。<p>[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025 年 3 月 11 日 |
 | **Data Warehouse 专用维度** | 从2025年5月开始，Adobe将开始将某些维度（自定义变量，如eVar和prop）设置为“仅限Data Warehouse”。 这适用于具有以下特征的尺寸：<ul><li> 在几个月的时间内，变量会在每月的前几天内达到低流量限制。</li><li>超过90%传入的值在一个月内只会看到一次。</li></ul>例如，包含时间戳、UUID或其他数据的维度，这些维度的基数非常高，并且在整个月内几乎每次点击（或访问或访客）都会传入唯一的新值。这些维度通常很快就会超过低流量限制，并且在Analysis Workspace中可报告的值只有很小的一部分。 这使得使用这些维度的报表难以理解，因为它们不会显示有用或准确的信息。 这些维度不遵循低流量功能的目的或从中受益，低流量功能旨在提供一种方法，用于在维度本月超过低流量限制后报告变为“受欢迎”的值。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics/technotes/low-traffic.)<p>标记为“仅限Data Warehouse”的维度将不可用于Analysis Workspace中的报表。 但是，它们仍可以通过Data Warehouse进行报告，因为低流量限制在此处不适用。<p>这并不意味着每个达到低流量限制的维度都是标记为“仅限Data Warehouse”的候选维度。 大多数达到低流量限制的维度实际上达到了低流量功能的目的：<ul><li>传入的大多数值都不是唯一的。</li><li>当月达到低流量限制后，公用值会继续输入。</li><li>新的“popular”值仍然可能出现。</li></ul>只有传入的几乎所有值都是新值且唯一的维度才会标记为“仅限Data Warehouse”。 鉴于在这些情况下所收集数据的唯一性，增加低流量限制不是解决办法。 | | 2025 年 5 月 |
