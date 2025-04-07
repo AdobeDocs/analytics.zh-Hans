@@ -4,10 +4,10 @@ title: Analytics 库存
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: bab2bf61a2cf03f3e2b809d6383503b0c9bd5a36
+source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 19%
+source-wordcount: '1183'
+ht-degree: 21%
 
 ---
 
@@ -157,7 +157,7 @@ Analytics清单的目标是帮助您回答以下问题：
 
 1. 确定哪些指标适合迁移到CJA。
 
-#### 导出到 CSV
+### 导出到 CSV
 
 1. 要将报表包列表、维度或量度导出到.csv文件，请单击&#x200B;**[!UICONTROL 导出到CSV]**。
 
@@ -170,7 +170,7 @@ Analytics清单的目标是帮助您回答以下问题：
 >筛选掉的项目和列不会导出到.csv文件。
 
 
-#### 筛选、搜索、排序和导航
+### 筛选、搜索、排序和导航
 
 * 您可以搜索表。
 * 在左边栏中，单击过滤器图标以按“类型”进行过滤。 或单击&#x200B;**[!UICONTROL 隐藏筛选器]**。
@@ -189,3 +189,13 @@ Analytics清单的目标是帮助您回答以下问题：
 <!-- markdownlint-enable MD034 -->
 
 用户管理将在Analytics清单的更高版本中提供。
+
+## 迁移组件
+
+通过使用[组件迁移](/help/admin/admin/component-migration/component-migration.md)，Adobe Analytics管理员可以将Analytics项目及其相关组件迁移到Customer Journey Analytics。
+
+迁移过程包括：
+
+* 在 Customer Journey Analytics 中重新创建 Adobe Analytics 项目。
+
+* 将来自 Adobe Analytics 报告包的维度和指标映射到 Customer Journey Analytics 数据视图中的维度和指标。
