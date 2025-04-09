@@ -1,13 +1,13 @@
 ---
 title: Analytics 工具指南
-description: Analysis Workspace、Analytics功能板（移动应用程序）、Activity Map和Report Builder的产品文档和自助信息。
+description: Analysis Workspace、Analytics 功能板（移动应用程序）、Activity Map 和 Report Builder 的产品文档和自助服务。
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

@@ -4,9 +4,9 @@ title: 生成量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1150'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和�
 
 ## 开始生成计算量度
 
-您可以使用计算指标生成器创建或编辑计算指标。 以这种方式创建时，计算量度可在组件列表中使用，然后可在整个组织的项目中使用。或者，您也可以快速创建一个计算量度，该计算量度仅可用于创建它的项目，如[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的[为单个项目创建计算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中所述。
+您可以使用计算量度生成器来创建或编辑计算量度。以这种方式创建时，计算量度可在组件列表中使用，然后可在整个组织的项目中使用。或者，您可以快速创建仅适用于创建它的项目的计算量度，如[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中[为单个项目创建计算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)所述。
 
 访问计算度量生成器开始创建可在组件列表中使用的计算度量。
 
