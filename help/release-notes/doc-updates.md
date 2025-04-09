@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
 workflow-type: tm+mt
 source-wordcount: '6380'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 97%
 | --- | --- |
 | **2025 年 3 月** |  |
 | | **Analytics清单** | Analytics清单提供了Adobe Analytics环境的全面概述，包括项目和组件数量、报表包数量、用户数量等。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
-| Customer Journey Analytics升级指南 | 允许您生成从Adobe Analytics升级到Customer Journey Analytics的[分步指南](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
-| 阐明Data Warehouse导出中的日期格式 | Data Warehouse导出中基于时间的维度值具有非标准日期格式。 添加了说明如何解释Data Warehouse导出日期值的信息。 <p>在Data Warehouse](/help/export/data-warehouse/component-support.md)中的[组件支持中，查看以其他方式（非标准日期格式）支持的[维度](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
-| 更新了有关IP排除项的信息 | 添加了说明[IP排除](/help/admin/admin/exclude-ip.md)可能最多需要5分钟才能生效的信息，并且更改仅适用于新点击（在设置的排除之前捕获的数据不受影响）。 <p>此外，还更新了内容布局以提高可读性。</p> |
+| Customer Journey Analytics 升级指南 | 让您生成从 Adobe Analytics 升级到 Customer Journey Analytics 的[分步指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
+| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。添加了解释如何解读 Data Warehouse 导出日期值的信息。 <p>请参阅[在 Data Warehouse 的组件支持](/help/export/data-warehouse/component-support.md)中[以不同方式支持的维度（非标准日期格式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
+| 关于 IP 排除的更新信息 | 添加了说明 [IP 排除](/help/admin/admin/exclude-ip.md)可能需要长达 5 分钟才能生效，并且更改仅适用于新的点击（设置排除之前捕获的数据不受影响）。 <p>还更新了内容布局以提高可读性。</p> |
 | **2025 年 2 月** |  |
 | 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。从馈送暂停到重新激活期间不处理数据。 |
 | 更改了交易 ID 保留期限 | 交易 ID 保留期从 90 天延长至 25 个月。transactionID 变量可唯一地标识交易，以便将点击绑定到通过数据源上传的数据。请在[此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[此处](https://experienceleague.adobe.com/zh-hans/docs/analytics/import/data-sources/transactionid?lang=en)了解详情。 |
@@ -91,7 +91,7 @@ ht-degree: 97%
 | --- | --- |
 | **2023 年 12 月** | |
 | 改进了机器人规则文档 | 更新了[了解和配置机器人规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)中的信息以使其更明确。<p>其中的改进包括：</p> <ul><li>更新了文章标题以使其更具描述性</li><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li><li>关于在上传机器人规则时对 CSV 文件的要求添加了更多详细信息</li></ul> |
-| 新报告部分 | 添加了新的“报表”部分，其中包含有关[使用模板](/help/analyze/analysis-workspace/templates/use-templates.md)和[创建公司模板](/help/analyze/analysis-workspace/templates/create-templates.md)的信息。 |
+| 新报告部分 | 添加了新的报告部分，其中包含有关[使用模板](/help/analyze/analysis-workspace/templates/use-templates.md)和[创建公司模板](/help/analyze/analysis-workspace/templates/create-templates.md)的信息。 |
 | 异常检测和贡献分析文档的更新 | 异常检测和贡献分析的文档以前位于有关 Virtual Analyst 的部分中。进行了以下更改： <ul><li>术语 Virtual Analyst 已从文档中删除。</li><li>关于[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)的部分已直接移至 Analysis Workspace 部分下方。</li><li>贡献分析文档已合并到异常检测文档中。</li></ul> |
 | “Attribution IQ”改为“Attribution” | 将整个文档中“Attribution IQ”的所有实例更改为“[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)”。 |
 | **2023 年 11 月** | |
