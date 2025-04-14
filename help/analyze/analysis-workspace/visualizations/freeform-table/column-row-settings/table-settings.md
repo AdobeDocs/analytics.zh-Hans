@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 6d6a7587fc4a41be1e7ad33d3ed0280b0d82d47c
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
+workflow-type: tm+mt
+source-wordcount: '1045'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,7 @@ ht-degree: 100%
 | **[!UICONTROL 从选择创建注释]** | 打开&#x200B;**[!UICONTROL 注释详细信息]**&#x200B;以添加注释。 |
 | **[!UICONTROL 从选择创建过滤器]** | 打开&#x200B;**[!UICONTROL 过滤器生成器]**，从选择中生成过滤器。 |
 | **[!UICONTROL 从选择创建受众]** | 打开&#x200B;**[!UICONTROL 创建受众]**&#x200B;对话框，从选择中生成受众。 |
+
+## 更改行高
+
+您可以将项目的视图密度设置为&#x200B;**[!UICONTROL 紧凑]**、**[!UICONTROL 舒适]**&#x200B;和&#x200B;**[!UICONTROL 展开]**。 [了解详情](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。
