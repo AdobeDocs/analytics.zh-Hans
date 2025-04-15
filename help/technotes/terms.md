@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -89,7 +89,7 @@ ht-degree: 89%
 * **属性：**&#x200B;请参阅“流量变量”。
 * **排名报表：**&#x200B;一种报表格式，通常遵循带有量度的维度。此类报表允许您查看排名最前的项目，如网站上查看次数最多的页面。另请参阅“趋势报表”。
 * **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
-* **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md)加载项允许您从Adobe Analytics数据构建自定义请求。
+* **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md)加载项允许您从Adobe Analytics数据构建自定义请求。
 * **报表包**：将数据发送到的首要容器。Adobe Analytics 中的所有报表都引用了一个报表包。
 * **Reports &amp; Analytics：**&#x200B;此工具[生命周期结束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滚动日期范围：**&#x200B;随时间变化而更改的相对日期范围类型。例如，显示最近 7 天的报表可视为滚动日期范围。另请参阅“静态日期范围”。

@@ -3,8 +3,8 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 通过 **[Adobe Analytics 功能板](/help/analyze/mobile-app/home.md)**，用户可移动访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** 是 Microsoft Excel 的一个插件，可在 Mac、Windows 和网络浏览器上运行。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** 是 Microsoft Excel 的一个插件，可在 Mac、Windows 和网络浏览器上运行。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
 
 **[旧版 Report Builder](/help/analyze/legacy-report-builder/home.md)** 是 Microsoft Excel 的一个插件，仅在 Windows 上运行。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 ## 从 Adobe Analytics 导出数据 {#export}
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** 的使用说明：
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** 的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
 * 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。更永久的绑入数据解决方案是数据源（请参阅“将数据导入到 Analytics”）。

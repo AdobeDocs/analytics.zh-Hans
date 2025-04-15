@@ -3,10 +3,10 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '2064'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,11 +75,11 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 指的是用于存储和自定义报表的 Analytics 数据副本，您可以通过筛选数据来运行这些数据 <p>请求管理器允许您查看和复制请求，并重新安排请求的优先级。</p> | [管理 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hans) |
    | Activity Map | Activity Map 专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。 | [Activity Map 概述](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-Hans) |
-   | Recommendations Classic | Recommendations 是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
+   | 经典版推荐 | 推荐是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [推荐](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 不再支持此功能。 |  |
    | Mobile Services | 不再支持此功能。 |  |
    | Analytics 功能板（移动应用程序） | Adobe Analytics 功能板应用程序可以随时随地从 Adobe Analytics 提供见解。通过此应用程序，用户可以查看您使用 Adobe Analytics 桌面 UI 创建的直观记分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 功能板应用程序 |
-   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的一个加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder 是什么？](https://experienceleague.adobe.com/zh-hans/docs/ analytics/analyze/report-builder/report-buider-overview) |
+   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的一个加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder 是什么？](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 
@@ -95,7 +95,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
 
    | 产品功能 | 功能 | 更多信息 |
    |---------|----------|----------|
-   | Analytics 用户和资源 | 大多数用户和产品管理功能现在只能在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中使用，将资源从一个用户转移到另一个用户以及设置用户帐户到期日期的管理功能只能从 Adobe Analytics 管理员区域使用。 | [转移用户资源或设置帐户到期日期](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) |
+   | Analytics 用户和资源 | 大多数用户和产品管理功能现在只能在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中使用，将资源从一个用户转移到另一个用户以及设置用户帐户有效期限的管理功能只能从 Adobe Analytics 管理员区域使用。 | [转移用户资源或设置帐户有效期限](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) |
    | 用户 ID 迁移 | 通过 Analytics 用户 ID 迁移，管理员可以轻松地将 Analytics User Management 中的用户帐户迁移到 Adobe Admin Console。 | [将 Analytics 用户迁移到 Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html) |
    | 用户管理主页（旧版） | 用户和产品管理已移至 Adobe Admin Console。可使用 Adobe Admin Console 开始管理 Adobe Analytics 用户的用户权限。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
    | 群组（旧版） | 群组管理已移至 Adobe Admin Console。可使用 Adobe Admin Console 开始管理 Adobe Analytics 的群组。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
@@ -114,7 +114,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 数据馈送 | 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 | [Analytics 数据馈送概述](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hans) |
    | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。 | [按 IP 地址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hans) |
    | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报表包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html) |
-   | 数据治理隐私标签 | 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。 | [为报表包数据设置标签](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html) |
+   | 数据治理隐私标签 | 为报表包数据设置标签即是向给定报表包中的每个变量分配身份标识、敏感性和数据管理标签。 | [为报表包数据设置标签](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html) |
    | 公司设置主页 | 通过“公司设置”页面，您可以配置设置以将其应用于您的组织所管理的所有报表包。 | [公司设置概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html) |
    | 安全管理器 | 通过安全管理器，您可以控制对报表数据的访问。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 | [安全管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html) |
    | Web 服务 | Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。 | [Web 服务](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html) |
