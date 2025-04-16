@@ -3,9 +3,9 @@ description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer J
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
+source-git-commit: 657f1417185a2eabb496e0e7207520211f652794
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1515'
 ht-degree: 5%
 
 ---
@@ -35,11 +35,13 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
 在将任何项目迁移到Customer Journey Analytics之前，请在[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md)中了解有关迁移项目的更多信息。
 
+此外，使用Analytics管理员可以使用的工具进行[Adobe Analytics清点](/help/admin/admin/analytics-inventory.md)。
+
 ## 将Adobe Analytics项目迁移到Customer Journey Analytics
 
 >[!IMPORTANT]
 >
->在按本节所述将任何项目迁移到Customer Journey Analytics之前，请在[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md)中了解有关迁移项目的更多信息。
+>在按照本节所述将任何项目迁移到Customer Journey Analytics之前，请在[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md)中了解有关迁移项目的更多信息。
 >
 >**您映射的任何维度或量度对于此项目以及在整个IMS组织中迁移的所有未来项目都是永久性的，无论哪个用户正在执行迁移。 无法修改或撤消这些映射，除非联系客户关怀团队。**
 
@@ -63,9 +65,9 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
    <!-- add screenshot -->
 
-1. 在&#x200B;[!UICONTROL **项目所有者**]&#x200B;字段中，开始在Customer Journey Analytics中输入要设置为项目所有者的用户的名称，然后在下拉菜单中选择其名称。
+1. 在&#x200B;[!UICONTROL **项目所有者**]&#x200B;字段中，开始键入要在Customer Journey Analytics中设置为项目所有者的用户的名称，然后在下拉菜单中选择其名称。
 
-   您指定的所有者具有项目的完全管理权限。 所有者必须是Customer Journey Analytics管理员。 您可以在后续步骤中更改项目的所有权。
+   您指定的所有者具有项目的完全管理权限。 所有者必须是Customer Journey Analytics中的管理员。 您可以在后续步骤中更改项目的所有权。
 
 1. 在&#x200B;[!UICONTROL **映射报表包**]&#x200B;部分中，选择一个报表包。
 
@@ -73,9 +75,9 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
 1. 选择&#x200B;[!UICONTROL **映射架构**]。
 
-1. 在&#x200B;[!UICONTROL **映射架构**]&#x200B;部分中，展开&#x200B;[!UICONTROL **Dimension**]&#x200B;和&#x200B;[!UICONTROL **指标**]&#x200B;部分。
+1. 在&#x200B;[!UICONTROL **映射架构**]&#x200B;部分中，展开&#x200B;[!UICONTROL **维度**]&#x200B;和&#x200B;[!UICONTROL **量度**]&#x200B;部分。
 
-   Adobe Analytics中的某些维度和量度会自动映射到Customer Journey Analytics中的维度或量度。 其他则需要手动映射。
+   Adobe Analytics中的某些维度和量度会自动映射到Customer Journey Analytics中的某个维度或量度。 其他则需要手动映射。
 
    **自动映射维度和量度**
 
@@ -83,7 +85,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
    >
    >   如果您使用WebSDK将数据摄取到Adobe Experience Platform，则维度和量度无法自动映射。 有关详细信息，请参阅[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md)中的[先决条件](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites)。
 
-   Adobe Analytics中的某些维度和量度会自动映射到Customer Journey Analytics中的维度或量度。 您无法为这些维度和量度做出任何映射决策。
+   Adobe Analytics中的某些维度和量度会自动映射到Customer Journey Analytics中的某个维度或量度。 您无法为这些维度和量度做出任何映射决策。
 
    例如，Adobe Analytics中的&#x200B;**访问次数**&#x200B;指标自动映射为Customer Journey Analytics中的&#x200B;**会话**&#x200B;指标。
 
@@ -97,7 +99,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
    Adobe Analytics中的某些维度和量度无法自动映射到Customer Journey Analytics中的维度或量度。
 
-   当维度或量度无法自动映射时，[!UICONTROL **Dimension**]&#x200B;或&#x200B;[!UICONTROL **量度**]&#x200B;分区标题旁边会显示一个橙色计数器，指示需要手动映射的维度或量度数量。 在表中，每个需要手动映射的维度或量度旁边会显示一个警告图标![警告图标](assets/schema-warning.png)。
+   当维度或量度无法自动映射时，[!UICONTROL **维度**]&#x200B;或&#x200B;[!UICONTROL **量度**]&#x200B;分区标题旁边会显示一个橙色计数器，指示需要手动映射的维度或量度数量。 在表中，每个需要手动映射的维度或量度旁边会显示一个警告图标![警告图标](assets/schema-warning.png)。
 
    此外，[!UICONTROL **状态**]&#x200B;列显示&#x200B;[!UICONTROL **未映射**]。
 
@@ -105,7 +107,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
    ![迁移架构手动映射](assets/schema-manual-map.png)
 
-1. 要手动映射维度和量度，请选择包含警告图标![警告图标](assets/schema-warning.png)的维度或量度，然后在&#x200B;[!UICONTROL **映射的Customer Journey Analytics量度**]&#x200B;字段(如果要映射维度，则在&#x200B;[!UICONTROL **映射的Customer Journey Analytics维度**]&#x200B;字段中)中选择要映射到所选维度或量度的Customer Journey Analytics维度或量度。
+1. 要手动映射维度和量度，请选择包含警告图标![警告图标](assets/schema-warning.png)的维度或量度，然后在&#x200B;[!UICONTROL **映射的Customer Journey Analytics量度**]&#x200B;字段(如果要映射维度，则在&#x200B;[!UICONTROL **映射的Customer Journey Analytics维度**]&#x200B;字段中)中，选择要映射到Customer Journey Analytics中所选维度或量度的维度或量度。
 
    ![映射维度和量度](assets/schema-manual-map-drop-down.png)
 
@@ -127,7 +129,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
    如果迁移失败，请参阅下面的[重试失败的迁移](#retry-a-failed-migration)部分以了解更多信息。
 
-1. （可选）迁移项目后，您可以将该项目的所有权转移给Customer Journey Analytics中的任何用户。 有关详细信息，请参阅《Customer Journey Analytics指南》中的[转移资源](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
+1. （可选）迁移项目后，您可以将该项目的所有权转移给Customer Journey Analytics中的任何用户。 有关详细信息，请参阅《Customer Journey Analytics指南》中的[转移资源](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
 
 ## 重试失败的迁移
 
@@ -151,7 +153,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
    此时将显示&#x200B;[!UICONTROL **迁移状态**]&#x200B;页面。
 
-   完成以上[将Adobe Analytics项目迁移到Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics)部分中描述的迁移步骤后，此页面也会立即显示。
+   完成上面[将Adobe Analytics项目迁移到Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics)部分中描述的迁移步骤后，此页面也会立即显示。
 
 1. 选择&#x200B;[!UICONTROL **重试迁移**]。
 
@@ -169,7 +171,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 | [!UICONTROL **标记**] | 选择标记列表中的任意标记。 仅显示应用了选定标记的项目。 |
 | [!UICONTROL **报告包**] | 在报表包列表中选择任意报表包。 仅显示使用选定报表包的项目。 |
 | [!UICONTROL **所有者**] | 选择所有者列表中的任意所有者。 仅显示您选择的用户拥有的项目。 |
-| [!UICONTROL **其他筛选条件**] | 还提供以下附加过滤器： <ul><li>[!UICONTROL **我的**]：仅显示您设置为所有者的项目。</li><li>[!UICONTROL **与我共享**]：仅显示与您共享的项目。</li><li>[!UICONTROL **收藏夹**]：仅显示标记为收藏的项目。 （您可以从[项目登陆页面](/help/analyze/landing.md)中将项目标记为收藏。）</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
+| [!UICONTROL **其他过滤器**] | 还提供以下附加过滤器： <ul><li>[!UICONTROL **我的**]：仅显示您设置为所有者的项目。</li><li>[!UICONTROL **与我共享**]：仅显示与您共享的项目。</li><li>[!UICONTROL **收藏夹**]：仅显示标记为收藏的项目。 （您可以从[项目登陆页面](/help/analyze/landing.md)中将项目标记为收藏。）</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
 
 {style="table-layout:auto"}
 
