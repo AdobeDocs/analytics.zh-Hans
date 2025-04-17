@@ -5,9 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: 75ade12b36e2dc98a1ad521c746d97094c7bf9cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18667'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
