@@ -26,7 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2025 年 3 月** |  |
-| | **Analytics清单** | Analytics清单提供了Adobe Analytics环境的全面概述，包括项目和组件数量、报表包数量、用户数量等。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
+| | **分析库存** | 分析库存提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/analytics-inventory) |
 | Customer Journey Analytics 升级指南 | 让您生成从 Adobe Analytics 升级到 Customer Journey Analytics 的[分步指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
 | 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。添加了解释如何解读 Data Warehouse 导出日期值的信息。 <p>请参阅[在 Data Warehouse 的组件支持](/help/export/data-warehouse/component-support.md)中[以不同方式支持的维度（非标准日期格式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
 | 关于 IP 排除的更新信息 | 添加了说明 [IP 排除](/help/admin/admin/exclude-ip.md)可能需要长达 5 分钟才能生效，并且更改仅适用于新的点击（设置排除之前捕获的数据不受影响）。 <p>还更新了内容布局以提高可读性。</p> |

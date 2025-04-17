@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: e2e387f20d5e5732ec1d7eb67a0c81df95e07a55
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 51%
+ht-degree: 61%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 51%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics清单** | Analytics清单提供了Adobe Analytics环境的全面概述，包括项目和组件数量、报表包数量、用户数量等。 通过自动化清点过程，您可以快速了解从Adobe Analytics切换到Customer Journey Analytics所需的工作。 这将使转换更容易、更快。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025 年 3 月 26 日 |
+| **分析库存** | 分析库存提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。通过自动化库存流程，您可以快速了解从 Adobe Analytics 切换到 Customer Journey Analytics 所需的工作量。这将使过渡变得更容易、更快捷。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025 年 3 月 26 日 |
 | **Data Warehouse 专用维度** | 根据客户反馈，我们决定重新评估。 我们不会像之前宣布的那样发布仅限Data Warehouse的自动维度功能。 | | 待定 |
 
 ## Adobe Analytics 中的修复
@@ -54,7 +54,7 @@ ht-degree: 51%
 
 ## AppMeasurement
 
-有关AppMeasurement版本的最新更新，请参阅[AppMeasurement发行说明](https://github.com/adobe/appmeasurement/releases)。
+有关 AppMeasurement 版本的最新更新，请参阅 [AppMeasurement 发行说明](https://github.com/adobe/appmeasurement/releases)。
 
 
 ## 相关资产
