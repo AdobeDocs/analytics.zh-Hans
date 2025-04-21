@@ -4,10 +4,10 @@ description: 了解如何减轻浏览器 Cookie 限制的影响以改进 Adobe A
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics 依靠第一方 Cookie 记录访客在网站上的活动。Analy
 
 服务器端收集提供了灵活性，让您可以提供自己的标识符而不是依靠浏览器机制来设置 Cookie。
 
-您可以使用 [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 将数据提交到 Analytics 服务器端。建议将 Bulk Data Insertion API 用于新服务器端实施。有关两个 API 的比较，请参阅“[我应该使用哪个 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)”。
+您可以使用 [Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 或 [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) 将数据提交到 Analytics 服务器端。建议将 Bulk Data Insertion API 用于新服务器端实施。有关两个 API 的比较，请参阅“[我应该使用哪个 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)”。
 
 ## 带 Web SDK 的第一方设备 ID (FPID)
 

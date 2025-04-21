@@ -4,7 +4,7 @@ description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您
 
 这两个库&#x200B;**在默认情况下禁用**&#x200B;高熵提示的收集。
 
-对于通过 API（例如，通过[数据插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[批量数据插入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html)）提交的数据，提示必须明确包含在负载中。请参阅相应文档以了解详细信息。
+对于通过 API（例如，通过[数据插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 或[批量数据插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)）提交的数据，提示必须明确包含在负载中。请参阅相应文档以了解详细信息。
 
 +++
 
@@ -145,7 +145,7 @@ Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和用户�
 
 +++
 
-+++**通过AdobeSource Connector发送到Adobe Experience Platform和Customer Journey Analytics的数据中是否会提供客户端提示？**
++++**通过Adobe Experience Platform Source Connector发送到Adobe和Customer Journey Analytics的数据中是否会提供客户端提示？**
 
 Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数据中加入客户端提示。
 
