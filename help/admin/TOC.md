@@ -5,7 +5,7 @@ user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
 source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 管理员指南 {#admin}
 
 + [Analytics 管理员指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Admin Console {#admin-console}
    + [概述](admin-console/home.md)
    + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)
@@ -27,7 +27,7 @@ ht-degree: 100%
 + Analytics 管理员工具 {#admin-tools}
    + [管理员工具概述](admin/c-admin-tools.md)
    + [代码管理器](admin/code-manager-admin.md)
-   + [Analytics 库存](admin/analytics-inventory.md)
+   + [分析库存](admin/analytics-inventory.md)
    + [数据源](admin/data-sources.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [日志](admin/logs.md)
@@ -57,7 +57,7 @@ ht-degree: 100%
                   + [还原处理规则](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
                   + [将处理规则复制到其他报告包](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
                   + [可用于处理规则的维度](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
-               + 处理规则示例{#processing-rules-examples}
+               + 处理规则示例 {#processing-rules-examples}
                   + [处理规则的示例](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
                   + [通过查询字符串参数填充营销活动 ID](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
                   + [在产品概述页面中设置产品视图事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
@@ -155,7 +155,7 @@ ht-degree: 100%
    + 数据治理隐私标签 {#data-governance}
       + [Adobe Analytics 数据隐私工作流程](admin/c-data-governance/an-gdpr-workflow.md)
       + [常见问题解答](admin/c-data-governance/gdpr-faq.md)
-      + 数据标签{#data-labels}
+      + 数据标签设置 {#data-labels}
          + [Analytics 组件的数据隐私标签](admin/c-data-governance/data-labeling/gdpr-labels.md)
          + [为报告包数据设置标签](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
          + [查看/管理报告包的隐私标签](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
@@ -169,7 +169,7 @@ ht-degree: 100%
       + [查看报告包使用情况](admin/c-server-call-usage/report-suite-usage.md)
       + [服务器调用使用情况警报](admin/c-server-call-usage/scu-alerts.md)
       + [服务器调用使用情况常见问题解答](admin/c-server-call-usage/overage-faq.md)
-   + 用户和产品管理（旧版）{#user-product-management}
+   + 用户和产品管理（旧版） {#user-product-management}
       + [用户和产品管理（旧版）](admin/user-management2/user-management.md)
       + [管理旧版用户帐户、资源和有效期限](admin/user-management2/users-assets.md)
       + 将用户迁移到 Adobe Admin Console {#migrate-users}

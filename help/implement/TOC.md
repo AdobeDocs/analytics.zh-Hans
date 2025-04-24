@@ -5,7 +5,7 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 实施指南 {#implementation}
 
 + [实施 Adobe Analytics](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/zh-hans/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 发行说明](appmeasurement-updates.md)
 + Analytics 变量、函数和方法 {#vars}
    + [概述](vars/overview.md)
@@ -139,7 +139,7 @@ ht-degree: 100%
    + [实施多包标记](prepare/multi-suite-tagging.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
    + [负责现有的 Adobe Analytics 实施](prepare/existing-implementation.md)
-+ 使用 Experience Platform Edge 实施 Analytics{#aep-edge}
++ 使用 Experience Platform Edge 实施 Analytics {#aep-edge}
    + [Experience Edge 概述](aep-edge/overview.md)
    + [数据对象变量映射](aep-edge/data-var-mapping.md)
    + [XDM 对象变量映射](aep-edge/xdm-var-mapping.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
       + [Mobile SDK 概述](aep-edge/mobile-sdk/overview.md)
    + 服务器 API {#server-api}
       + [服务器 API 概述](aep-edge/server-api/overview.md)
-+ 使用 Adobe Analytics 扩展实施 Analytics{#launch}
++ 使用 Adobe Analytics 扩展实施 Analytics {#launch}
    + [标记概述](launch/overview.md)
    + [创建 Adobe Analytics 标记属性](launch/create-analytics-property.md)
    + [部署到开发环境](launch/deploy-dev.md)
@@ -173,7 +173,7 @@ ht-degree: 100%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H 码疑难解答](js/h-code/troubleshooting.md)
-   + 旧版跨设备识别功能 {#xdevice-visid}
+   + 旧版跨设备识别 {#xdevice-visid}
       + [“跨设备连接用户”概述](js/xdevice-visid/xdevice-connecting.md)
       + [变量持久性](js/xdevice-visid/variable-persistence.md)
       + [访问示例](js/xdevice-visid/visit-example.md)
@@ -190,13 +190,13 @@ ht-degree: 100%
    + [将 AppMeasurement 与 iFrames 结合使用](use-cases/iframe.md)
    + [跨不同的实施类型跟踪](use-cases/cross-type-implementation.md)
    + [营销活动跟踪工作流程](use-cases/campaign-tracking.md)
-+ 验证实施 {#validate}
++ 验证您的实施 {#validate}
    + [旧版 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [数据收集查询参数](validate/query-parameters.md)
    + [数据包监视器](validate/packet-monitor.md)
    + [哈希冲突](validate/hash-collisions.md)
 + [常见问题解答](faq.md)
-+ 审查实施 {#review}
++ 审查您的实施 {#review}
    + [重点审查（每个网站发布后）](review/focused-review.md)
    + [全面审查（每 6 个月）](review/full-review.md)
    + [定义您的 5 大 KPI](review/define-kpis.md)

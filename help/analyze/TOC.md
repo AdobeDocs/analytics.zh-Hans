@@ -5,7 +5,7 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -50,13 +50,13 @@ ht-degree: 100%
       + [组件概述](analysis-workspace/components/analysis-workspace-components.md)
       + [在 Workspace 使用组件](analysis-workspace/components/use-components-in-workspace.md)
       + [添加组件描述](analysis-workspace/components/add-component-descriptions.md)
-      + 注释 {#annotations}
+      + 批注 {#annotations}
          + [注释概述](analysis-workspace/components/annotations/overview.md)
          + [创建注释](analysis-workspace/components/annotations/create-annotations.md)
          + [管理注释](analysis-workspace/components/annotations/manage-annotations.md)
          + [查看注释](analysis-workspace/components/annotations/view-annotations.md)
-         + [移动批注](analysis-workspace/components/annotations/mobile-annotations.md)
-      + 维度{#dimensions}
+         + [移动注释](analysis-workspace/components/annotations/mobile-annotations.md)
+      + 维度 {#dimensions}
          + [预览维度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [划分维度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [时间划分维度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
@@ -73,7 +73,7 @@ ht-degree: 100%
          + [查看数据词典中的组件信息](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
          + [编辑数据词典中的组件条目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [监测数据词典健康状况](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
-   + 可视化内容 {#visualizations}
+   + 可视化图表 {#visualizations}
       + [可视化内容概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
       + 自由格式表 {#freeform-table}
@@ -105,7 +105,7 @@ ht-degree: 100%
       + [圆环图](analysis-workspace/visualizations/donut.md)
       + [直方图](analysis-workspace/visualizations/histogram.md)
       + [水平条形图和堆叠的水平条形图](analysis-workspace/visualizations/horizontal-bar.md)
-      + [关键度量摘要](analysis-workspace/visualizations/key-metric.md)
+      + [关键量度摘要](analysis-workspace/visualizations/key-metric.md)
       + [折线图](analysis-workspace/visualizations/line.md)
       + [地图](analysis-workspace/visualizations/map-visualization.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
@@ -116,21 +116,21 @@ ht-degree: 100%
       + [维恩图](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
-      + [“Analytics for Target (A4T) “面板](analysis-workspace/c-panels/a4t-panel.md)
+      + [”Analytics for Target (A4T)“面板](analysis-workspace/c-panels/a4t-panel.md)
       + [”归因“面板](analysis-workspace/c-panels/attribution.md)
       + [”空白“面板](analysis-workspace/c-panels/blank-panel.md)
       + [“自由格式”面板](analysis-workspace/c-panels/freeform-panel.md)
       + [“媒体平均受众访问分钟数”面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [“媒体并行查看者”面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [“Media Playback 耗时”面板](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [“媒体播放耗时”面板](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [“下一项或上一项”面板](analysis-workspace/c-panels/next-previous.md)
       + [”页面摘要“面板](analysis-workspace/c-panels/page-summary.md)
-      + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
-      + “区段比较”面板 {#segment-comparison}
+      + [“快速洞察”面板](analysis-workspace/c-panels/quickinsight.md)
+      + “区段比较”面板  {#segment-comparison}
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [区段比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 策划、共享和安排项目 {#curate-share}
+   + 策划、共享和计划项目 {#curate-share}
       + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
       + [运行贡献分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [在异常检测中使用的统计方法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [用户偏好设置](analysis-workspace/user-preferences.md)
-   + Workspace 常见问题解答 {#workspace-faq}
+   + 工作区常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
       + [优化 Analysis Workspace 性能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [错误消息](analysis-workspace/workspace-faq/error-messages.md)
@@ -169,14 +169,14 @@ ht-degree: 100%
    + [选择报告包](report-builder/select-report-suite.md)
    + [选择日期范围](report-builder/select-date-range.md)
    + [使用片段工作](report-builder/work-with-segments.md)
-   + [筛选维度](report-builder/filter-dimensions.md)
+   + [过滤器维度](report-builder/filter-dimensions.md)
    + [管理数据块](report-builder/manage-reportbuilder.md)
    + [计划工作簿](report-builder/schedule-reportbuilder.md)
    + [限制标签](report-builder/restricted-labels.md)
    + [Report Builder 设置](report-builder/report-builder-settings.md)
 + 旧版 Report Builder {#legacy-report-builder}
    + [旧版 Adobe Report Builder 帮助](legacy-report-builder/home.md)
-   + 旧版 Report Builder 设置{#legacy-report-builder-setup}
+   + 旧版 Report Builder 设置 {#legacy-report-builder-setup}
       + [系统要求](legacy-report-builder/setup/system-requirements.md)
       + [安装 Report Builder](legacy-report-builder/setup/t-install-arb.md)
       + [升级 Report Builder](legacy-report-builder/setup/upgrade-arb.md)
@@ -217,7 +217,7 @@ ht-degree: 100%
          + [粒度](legacy-report-builder/data-requests/configuring-report-dates/granularity.md)
          + [自定义日程表](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [交互式控件](legacy-report-builder/data-requests/interactive-controls.md)
-   + 版面 — 请求向导第 2 步 {#layout}
+   + 布局 - 请求向导第 2 步 {#layout}
       + [版面概述](legacy-report-builder/layout/layout.md)
       + 量度和维度 {#metrics-dimension}
          + [量度和维度概述](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
@@ -238,7 +238,7 @@ ht-degree: 100%
       + [配置自定义版面](legacy-report-builder/layout/configure-the-custom-layout.md)
       + [将量度和维度映射到单元格](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [创建 Microchart](legacy-report-builder/layout/t-create-a-microchart.md)
-      + 过滤条件维度 {#filter-dimenson}
+      + 过滤器维度 {#filter-dimenson}
          + [过滤条件维度概述](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [最受欢迎的过滤设置](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [特定过滤条件](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
@@ -286,7 +286,7 @@ ht-degree: 100%
    + [Report Builder 疑难解答](legacy-report-builder/troubleshoot.md)
    + [Report Builder 常见问题解答](legacy-report-builder/faq.md)
 
-+ Activity Map{#activity-map}
++ Activity Map {#activity-map}
    + [概述](activity-map/overview.md)
    + [快速入门](activity-map/getting-started.md)
    + 叠加 {#overlay}

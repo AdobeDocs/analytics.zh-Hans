@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,4 +92,4 @@ ht-degree: 98%
 
 ## 更改行高
 
-您可以将项目的视图密度设置为&#x200B;**[!UICONTROL 紧凑]**、**[!UICONTROL 舒适]**&#x200B;和&#x200B;**[!UICONTROL 展开]**。 [了解详情](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。
+您可以将项目的视图密度设置为 **[!UICONTROL 紧凑]**、**[!UICONTROL 舒适]** 和 **[!UICONTROL 扩展]**。[了解详情](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。
