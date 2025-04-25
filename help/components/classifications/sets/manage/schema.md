@@ -3,9 +3,9 @@ title: 分类集架构
 description: 查看和编辑单个分类集的架构。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 43%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 43%
 查看当前为此分类集配置的分类维度。
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]** > **[!UICONTROL 集]** >单击所需的分类集名称> **[!UICONTROL 架构]**
+
+![分类集架构UI](../../assets/classification-set-schema.png)
 
 以下按钮可供使用：
 

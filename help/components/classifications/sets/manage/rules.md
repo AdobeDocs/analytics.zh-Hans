@@ -3,9 +3,9 @@ title: 分类集规则
 description: 查看和编辑单个分类集的规则。
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 1%
 使用分类集规则，可根据变量所设置的值自动对值进行分类。 这些规则适用于分类集所有订阅的所有传入变量值。
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]** > **[!UICONTROL 集]** >单击所需的分类集名称> **[!UICONTROL 规则]**
+
+![分类集规则UI](../../assets/csets-rules.png)
 
 ## 规则设置
 

@@ -3,10 +3,10 @@ title: 分类集设置
 description: 创建或编辑分类集。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 配置分类集的设置。
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]** > **[!UICONTROL 集]** > 单击所需的分类集名称 > **[!UICONTROL 设置]**
+
+![分类集设置](../../assets/classification-set-settings.png)
 
 此选项卡中提供以下字段：
 
