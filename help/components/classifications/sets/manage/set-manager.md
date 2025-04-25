@@ -3,9 +3,9 @@ title: 分类集管理器
 description: 在Adobe Analytics中管理分类集。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 分类集管理器的左侧提供筛选条件设置以定位所需的分类集。 单击过滤器图标可切换过滤器设置的可见性。 您可以按&#x200B;**[!UICONTROL 标记]**&#x200B;或&#x200B;**[!UICONTROL 报告包]**&#x200B;筛选分类集。
 
 ![分类集过滤器](../../assets/classification-set-filters.png)
+
+请注意，一次预加载1,000个分类集。 左边栏中显示的过滤器反映了预加载集合的选项。
 
 ## 分类集管理器列
 

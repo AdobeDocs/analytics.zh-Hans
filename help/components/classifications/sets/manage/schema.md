@@ -3,10 +3,10 @@ title: 分类集架构
 description: 查看和编辑单个分类集的架构。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 43%
+source-wordcount: '616'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 以下按钮可供使用：
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL 上载]**：手动上载一个或多个分类维度的分类数据。 支持`JSON`、`CSV`、`TSV`和`TAB`文件。 上载有效文件会显示要分类的数据的表预览。
+* **[!UICONTROL 上载]**：手动上载分类维度的分类数据。 支持`JSON`、`CSV`、`TSV`和`TAB`文件。 上载有效文件会显示要分类的数据的表预览。
    * **[!UICONTROL 文件编码]**：使用此下拉列表选择正确的文件编码。 有效选项包括 [!UICONTROL UTF-8] 和 [!UICONTROL Latin1]。
    * **[!UICONTROL 列表分隔符]**：选择正确的列表分隔符。如果使用下载的文件或模板文件，请确保此处的[!UICONTROL 列表分隔符]与下载文件时的[!UICONTROL 列表分隔符]匹配。
    * **[!UICONTROL 应用]**：将上载的分类数据保存到分类集。
@@ -59,3 +59,13 @@ ht-degree: 43%
    * **[!UICONTROL 分隔符]**：已上载文件的列分隔符。 选项包括[!UICONTROL 逗号]、[!UICONTROL 分号]、[!UICONTROL 冒号]、[!UICONTROL 垂直条]、[!UICONTROL 空格]、[!UICONTROL 正斜杠]、[!UICONTROL 反斜杠]、[!UICONTROL 破折号]或[!UICONTROL 下划线]。
 
    * **[!UICONTROL 编码]**：确定文件编码的下拉列表。 选项包括 [!UICONTROL UTF-8] 和 [!UICONTROL Latin1]。 建议使用 UTF-8。
+
+只有在选择分类后，以下操作才可用。
+
+* **添加查询**：查询表是分类的分类。 它是有关分类值的元数据，而不是变量本身。 例如，产品变量可能具有“颜色代码”的分类。 “颜色名称”的查找表可以附加到“颜色代码”以解释颜色是什么。
+
+  ![附加查找表](../../assets/lookup.png)
+
+* **重命名**：允许您重命名分类。
+
+* **删除**：允许您删除分类。
