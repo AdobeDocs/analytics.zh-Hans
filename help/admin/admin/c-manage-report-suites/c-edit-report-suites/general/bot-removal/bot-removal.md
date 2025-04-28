@@ -4,10 +4,10 @@ description: 如何删除 Adobe Analytics 中的机器人
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 78%
+source-wordcount: '697'
+ht-degree: 75%
 
 ---
 
@@ -26,24 +26,13 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 有关详细信息，请参阅[了解和配置机器人规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)。
 
-## 使用 [!UICONTROL websiteBot] 插件识别机器人
-
-[!UICONTROL websiteBot] 插件允许您动态识别桌面访客是否为机器人。您可以凭借此数据来提高所有报表类型的准确性，从而更好地衡量合法的网站流量。
-
-这个插件可执行两项检查：
-
-* 首先，它使用 navigator.UserAgent 变量确定设备是桌面还是移动设备。移动设备将被忽略。
-* 如果是桌面设备，该插件将添加一个用于了解鼠标移动的事件侦听器。
-
-有关详细信息，请参阅[《Adobe Analytics 实施指南》](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=zh-Hans)。
-
 ## 使用 Adobe 工具组合
 
 此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。这些功能包括：Experience Cloud ID服务、分段、Data Warehouse、客户属性和虚拟报表包。 这里是如何使用这些工具的概述。
 
 ### 步骤 1：将访客的 Experience Cloud ID 传递到新声明的 ID
 
-要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans) 中创建新声明的 ID。将您的访客 Experience Cloud ID 传递到此新声明的 ID 中，这可以使用 [Adobe Experience Platform 中的标记](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)快速轻松地完成。我们使用名称“ECID”作为声明的 ID。
+要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hans) 中创建新声明的 ID。将您的访客 Experience Cloud ID 传递到此新声明的 ID 中，这可以使用 [Adobe Experience Platform 中的标记](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)快速轻松地完成。我们使用名称“ECID”作为声明的 ID。
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-cust-attr-setup.png)
 
