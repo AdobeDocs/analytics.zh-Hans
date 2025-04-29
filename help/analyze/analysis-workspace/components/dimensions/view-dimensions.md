@@ -4,10 +4,10 @@ title: 预览维度
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 90%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 100%
 
 当您将鼠标悬停在维度上并单击其旁边的灰色右箭头时，会显示其维度项目列表。任何维度项目列表通常会显示过去 30 天排名最前的项目。
 
-如果向下滚动到列表的底部，将看到&#x200B;**[!UICONTROL 显示过去 6 个月排名最前的项目]**。单击此选项可查看过去 180 天排名最前的维度项目。
+如果向下滚动到列表的底部，您会看到&#x200B;**[!UICONTROL 显示过去18个月排名最前的项目]**。 单击此选项可查看过去 547 天排名最前的维度项目。
