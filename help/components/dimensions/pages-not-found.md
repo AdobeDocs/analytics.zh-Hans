@@ -3,16 +3,16 @@ title: 页面未找到（维度）
 description: 在您的网站上返回错误的 URL。
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 94%
+source-wordcount: '222'
+ht-degree: 78%
 
 ---
 
 # 页面未找到
 
-*此帮助页介绍“页面未找到”如何作为[维度](overview.md)使用。 有关详细信息，请参阅[页面未找到](../metrics/pages-not-found.md)量度。*
+*此帮助页介绍“页面未找到”如何作为[维度](overview.md)使用。 有关它如何作为量度使用的信息，请参阅[页面未找到](../metrics/pages-not-found.md)量度页面。*
 
 “页面未找到”维度显示包含错误的 URL。当您希望减少访客在您的网站上收到的错误数时，此维度很有用。
 

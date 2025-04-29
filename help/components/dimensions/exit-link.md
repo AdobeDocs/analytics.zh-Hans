@@ -3,10 +3,10 @@ title: 退出链接
 description: 退出链接的名称。
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 91%
+source-wordcount: '165'
+ht-degree: 75%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ## 使用数据填充此维度
 
-此维度从图像请求中的 [`pev2` 查询字符串](/help/implement/validate/query-parameters.md)为还具有值为 `lnk_e` 的 `pe` 查询字符串的点击收集数据。如果 `pe` 查询字符串在点击中具有不同的值，则此维度不会收集数据。
+此维度从图像请求中的 [`pev2` 查询字符串](/help/implement/validate/query-parameters.md)为还具有值为 `lnk_e` 的 `pe` 查询字符串的点击收集数据。如果`pe`查询字符串在点击中具有不同的值，则此维度不会收集数据。 此维度的最大长度为100字节。
 
 如果要使用 AppMeasurement 将数据发送到此维度，请发送一个 [`tl()`](/help/implement/vars/functions/tl-method.md) 图像请求，其链接类型参数为 `"e"`。使用所需的值填充链接名称参数。
 

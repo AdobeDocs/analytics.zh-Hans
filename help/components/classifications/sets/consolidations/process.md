@@ -3,16 +3,16 @@ title: 分类集合并过程
 description: 整合分类集的完整过程。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # 分类集合并过程
 
-使用此界面从头到尾创建分类集合并。
+利用分类合并，您可以从多个数据集获取分类并将它们组合到一个数据集中。 使用此界面从头到尾创建分类集合并。 此界面对于从旧版分类架构迁移到分类集架构的组织最有价值。 已使用分类集架构的大多数组织通常不需要使用此整合工作流。
 
 ## 创建
 
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 ## 批准
 
-在删除单个分类集和创建合并的分类集之前，充当最后一次调用。 确保一切正确，然后单击&#x200B;**[!UICONTROL 批准]**。
+删除单个分类集并将其替换为合并的分类集之前的最后一个调用。 验证所有内容是否正确，然后选择&#x200B;**[!UICONTROL 批准]**。
 
 批准后，将创建合并的分类集。 状态设置为[!UICONTROL 完成]，合并无需执行其他操作。

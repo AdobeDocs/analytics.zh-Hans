@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3625'
 ht-degree: 67%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 67%
 | **`daily_visitor`** | 确定点击是否为新的每日访客的标记。 | 无符号 tinyint |
 | **`dataprivacyconsentoptin`** | [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)维度。 每次点击可以出现多个值，各个值之间用竖线 (`\|`) 隔开。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
 | **`dataprivacyconsentoptout`** | [同意管理选择退出](/help/components/dimensions/cm-opt-out.md)维度。 每次点击可以出现多个值，各个值之间用竖线 (`\|`) 隔开。有效值包括 `SSF`, `DMP` 和 `SELL`。 | varchar(100) |
-| **`dataprivacydmaconsent`** | 一个值，标识通过Adobe Advertising将来自Adobe Analytics的数据发送到第三方广告提供商(如Google)时是否获得同意。 有关更多信息，请参阅[广告同意](/help/components/dimensions/ad-consent.md)。 | varchar(100) |
+| **`dataprivacydmaconsent`** | 一个值，标识通过Adobe Advertising向Adobe Analytics第三方广告提供商(如Google)发送数据时是否获得同意。 有关更多信息，请参阅[广告同意](/help/components/dimensions/ad-consent.md)。 | varchar(100) |
 | **`date_time`** | 以可读格式表示的点击时间（基于报表包所在时区）。 | datetime |
 | **`domain`** | “域](/help/components/dimensions/domain.md)”[维度。基于访客的互联网接入点。 | varchar(100) |
 | **`duplicate_events`** | 列出计为重复的每个事件。 | varchar(255) |
@@ -145,7 +145,7 @@ ht-degree: 67%
 | **`monthly_visitor`** | 确定访客是否属于当月的独特访客的标记。 | 无符号 tinyint |
 | **`mvvar1`** - `mvvar3` | [列出变量](/help/implement/vars/page-vars/list.md)值。 包含分隔的自定义值列表（取决于实施）。`post_mvvar1` - `post_mvvar3` 列将原始分隔符替换为 `--**--`。 | 文本 |
 | **`mvvar1_instances`** - `mvvar3_instances` | 在当前点击上设置的列表变量值。将原始分隔符替换为 `--**--`。这些 `post` 列通常不包含数据。 | 文本 |
-| **`new_visit`** | 确定当前点击是否为新访问的标记。 由Adobe在访问处于非活动状态30分钟后设置。 | 无符号 tinyint |
+| **`new_visit`** | 确定当前点击是否为新访问的标记。 在访问处于非活动状态超过30分钟后由Adobe设置。 | 无符号 tinyint |
 | **`os`** | 表示访客的操作系统的数值ID。 基于 `user_agent` 列。`operating_system.tsv` 标准查找和 `operating_system_type.tsv` [动态查找](dynamic-lookups.md)的关键值。 | 无符号 int |
 | **`page_event`** | 在图像请求中发送的点击类型（标准点击、下载链接、自定义链接、退出链接）。请参阅[页面事件查找](datafeeds-page-event.md)。 | 无符号 tinyint |
 | **`page_event_var1`** | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | 文本 |
@@ -405,3 +405,8 @@ ht-degree: 67%
 * `videoresume`
 * `videototaltime`
 * `videouniquetimeplayed`
+
+>[!MORELIKETHIS]
+>
+>[XDM对象变量映射](/help/implement/aep-edge/xdm-var-mapping.md)
+>[数据对象变量映射](/help/implement/aep-edge/data-var-mapping.md)
