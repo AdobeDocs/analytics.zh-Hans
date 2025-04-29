@@ -4,10 +4,10 @@ description: 上下文数据变量允许您在处理规则可读取的每个页�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
+source-git-commit: a8fe70381fbe04f3c57d221045a28d89e854ff54
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 69%
+source-wordcount: '577'
+ht-degree: 68%
 
 ---
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)界面将在适用的下拉菜单中显示`c.example_variable`和`c.second_example`。
+[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)界面将在适用的下拉菜单中显示`example_variable`和`second_example`。
 
 ## 使用 Adobe Analytics 扩展程序的上下文数据变量
 
@@ -46,7 +46,7 @@ Adobe Experience Platform 数据收集中没有专门的位置来设置上下文
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.contextData
 
-`s.contextData` 变量不会直接接收值。它会将此变量的属性设置为字符串。
+`s.contextData` 变量不会直接接收值。请将此变量的属性设置为字符串。
 
 ```js
 // Assign the example_variable property a value
