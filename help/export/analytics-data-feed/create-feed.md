@@ -3,9 +3,9 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及有关要提供给Adobe的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4129'
 ht-degree: 53%
 
 ---
@@ -339,7 +339,7 @@ ht-degree: 53%
 
          | 字段 | 功能 |
          |---------|----------|
-         | [!UICONTROL **主体**] | 主体由Adobe提供。 您必须授予权限才能接收此主体的源。 |
+         | [!UICONTROL **主体**] | 委托人由Adobe提供。 您必须授予权限才能接收此主体的源。 |
          | [!UICONTROL **名称**] | 帐户的名称。 |
          | [!UICONTROL **描述**] | 帐户的描述。 |
          | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 GCP 账户中的存储段。 <p>确保您已向 Adobe 提供的主体授予以下任一权限：（有关授予权限的信息，请参阅 Google Cloud 文档中的[将主体添加到存储段级策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) 。）<ul><li>`roles/storage.objectCreator`：如果您要仅允许主体在您的 GCP 帐户中创建文件，请使用此权限。</br>**重要提示：**&#x200B;如果您将此权限用于计划报告，则必须为每个新的计划导出使用唯一文件名。否则，将无法生成报表，因为主体无权覆盖现有文件。</li><li>（推荐） `roles/storage.objectUser`：如果您希望承担者有权查看、列出、更新和删除您GCP帐户中的文件，请使用此权限。</br>此权限允许主体覆盖现有文件以进行后续上传，而无需为每个新的计划导出自动生成唯一文件名。</li></ul><p>如果您的组织使用[组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints)，仅允许在允许列表中使用 Google Cloud Platform 帐户，则需要以下 Adobe 拥有的 Google Cloud Platform 组织 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
@@ -355,14 +355,14 @@ ht-degree: 53%
 
 +++
 
-1. 在&#x200B;[!UICONTROL **数据列定义**]&#x200B;部分中，在下拉菜单中选择最新的&#x200B;[!UICONTROL **所有Adobe Columns**]&#x200B;模板，然后完成以下字段：
+1. 在&#x200B;[!UICONTROL **数据列定义**]&#x200B;部分中，在下拉菜单中选择最新的&#x200B;[!UICONTROL **所有Adobe列**]&#x200B;模板，然后完成以下字段：
 
    | 字段 | 功能 |
    |---------|----------|
    | [!UICONTROL **删除转义字符**] | 在收集数据时，某些字符（如换行符）可能会导致问题。 如果您希望从馈送文件中删除这些字符，请选中此框。 |
    | [!UICONTROL **压缩格式**] | 使用的压缩类型。 **Gzip**&#x200B;以`.tar.gz`格式输出文件。 **Zip**&#x200B;以`.zip`格式输出文件。 |
    | [!UICONTROL **打包类型**] | 为大多数数据馈送选择&#x200B;[!UICONTROL **多个文件**]。 此选项会将您的数据分页为未压缩的2 GB块。 （如果选择&#x200B;[!UICONTROL **多个文件**]&#x200B;选项，且报表时间范围的未压缩数据小于2 GB，则会发送一个文件。） 选择&#x200B;**单个文件**&#x200B;会将`hit_data.tsv`文件输出到一个可能非常庞大的文件中。 |
-   | [!UICONTROL **清单**] | 确定在馈送间隔内未收集到数据时，Adobe是否应将[清单文件](c-df-contents/datafeeds-contents.md#feed-manifest)传送到目标。 如果选择&#x200B;**清单文件**，则在未收集到数据时，您将收到类似于以下内容的清单文件：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **清单**] | 确定在馈送间隔内未收集到数据时，Adobe是否应将[清单文件](c-df-contents/datafeeds-contents.md#feed-manifest)提交到目标。 如果选择&#x200B;**清单文件**，则在未收集到数据时，您将收到类似于以下内容的清单文件：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **列模板**] | 创建多个数据馈送时，Adobe建议创建列模板。 选择列模板会自动包含模板中指定的列。默认情况下，Adobe 也提供了多个模板。 |
    | [!UICONTROL **可用列**] | Adobe Analytics中的所有可用数据列。 单击“[!UICONTROL 全部添加]”可在数据馈送中包含所有列。 |
    | [!UICONTROL **包含的列**] | 要包含在数据馈送中的列。 单击“[!UICONTROL 全部移除]”可从数据馈送中移除所有列。 |

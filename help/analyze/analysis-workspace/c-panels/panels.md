@@ -4,10 +4,10 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '2157'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 
 ## 报告包
 
-每个面板都与一个[报告包](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相关联，并由面板右上角下拉菜单中&#x200B;**[!UICONTROL *报告包&#x200B;*]**的![数据](/help/assets/icons/Data.svg)名称标识。
+每个面板都与一个[报表包](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)关联，由面板右上角的下拉菜单中的![报表包](/help/assets/icons/Data.svg) **[!UICONTROL *名称&#x200B;*]**标识。
 
 当您创建新面板时，默认报告包基于您上次在 Analysis Workspace 项目中处理的面板报告包。
 
@@ -112,7 +112,7 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 ![The calendar window showing the selected date range.](assets/panel-calendar.png)
 
 1. 通过先选择开始日期，然后选择结束日期来选择日期范围。
-或者，您可以从[!UICONTROL *选择预设*]&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL 预设]**。
+或者，您也可以从[!UICONTROL *选择预设*]&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL 预设]**。
 
 1. 或者，选择&#x200B;**[!UICONTROL 显示高级设置]**&#x200B;以：
 

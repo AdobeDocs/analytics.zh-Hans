@@ -3,10 +3,10 @@ description: 在 Advertising Analytics 中管理帐户。
 title: 管理广告帐户
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 6%
+source-wordcount: '460'
+ht-degree: 7%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 6%
 | 名称或元素 | 描述 |
 |---|---|
 | **[!UICONTROL 名称]** | *帐户名称*。 您可以选择名称以编辑搜索引擎设置。 |
-| ![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 选择以重命名广告帐户或编辑搜索引擎设置。 |
+| ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 选择以重命名广告帐户或编辑搜索引擎设置。 |
 | ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 选择以打开上下文菜单，允许您[映射报表包](#map-reporting-suites)、[激活或暂停广告帐户](#activate-or-pause-advertising-accounts)。 |
 | **[!UICONTROL 报表包]** | 列出广告帐户映射到的报表包。 |
-| **[!UICONTROL 类型]** | 显示广告帐户的类型。 默认情况下，类型为[!UICONTROL 搜索] |
+| **[!UICONTROL Type]** | 显示广告帐户的类型。 默认情况下，类型为[!UICONTROL 搜索] |
 | **[!UICONTROL 帐户]** | 显示帐户类型[!UICONTROL Bing Ads]或[!UICONTROL Google Adwords]。 |
 | **[!UICONTROL 状态]** | 广告帐户的状态： *已暂停*&#x200B;或活动。 |
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 1. （可选）选择多个广告帐户。
 1. 为特定广告帐户选择![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)。
 1. 从上下文菜单中选择![刷新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 映射报表包]**。
-1. 在映射报表包对话框中，从下拉列表中选择一个或多个报表包。 您可以使用![交叉](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg)从映射中删除报表包。
+1. 在映射报表包对话框中，从下拉菜单中选择一个或多个报表包。 您可以使用![交叉](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg)从映射中删除报表包。
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存映射。
 
 

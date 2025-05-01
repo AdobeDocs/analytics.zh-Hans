@@ -5,10 +5,10 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"
 >title="直方图"
->abstract="创建可视化直方图来表示范围组中数值数据的分布。"
+>abstract="创建直方图可视化图表来表示范围组中数值数据的分布。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +38,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 创建直方图的步骤如下：
 
 1. 添加![直方图](/help/assets/icons/Histogram.svg)**[!UICONTROL 直方图]**&#x200B;可视化图表。请参阅[将可视化图表添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
-1. 从&#x200B;**[!UICONTROL 量度]**&#x200B;组件列表中拖动量度，或从&#x200B;[!UICONTROL *添加量度*]&#x200B;下拉菜单中选择量度。
+1. 从&#x200B;**[!UICONTROL 指标]**&#x200B;组件列表中拖动一个指标，或从&#x200B;[!UICONTROL *添加指标*]&#x200B;下拉菜单中选择一个指标。
 1. （可选）选择&#x200B;**[!UICONTROL 显示高级设置]**。请参阅[高级设置](#advanced-settings)。
 1. 选择&#x200B;**[!UICONTROL 生成]**。
 

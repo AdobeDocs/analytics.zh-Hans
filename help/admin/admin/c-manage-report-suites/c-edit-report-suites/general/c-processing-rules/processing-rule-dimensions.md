@@ -5,14 +5,14 @@ title: 可用于处理规则的维度
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
 
 ---
 
-# 可用于处理规则的Dimension和量度
+# 可用于处理规则的维度和量度
 
 可使用处理规则读取和写入的可用维度和量度。
 
@@ -49,7 +49,7 @@ ht-degree: 13%
 
 | 变量 | 读/写状态 | 描述 |
 | --- | --- | --- |
-| eVar1-250 | 读取+写入 | [eVar](/help/components/dimensions/evar.md)维度。 |
+| eVar 1-250 | 读取+写入 | [eVar](/help/components/dimensions/evar.md)维度。 |
 | 促销活动 | 读取+写入 | [跟踪代码](/help/components/dimensions/tracking-code.md)维度。 |
 | 购买 ID | 读取+写入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)实现变量。 |
 | 省/州 | 读取+写入 | [`state`](/help/implement/vars/page-vars/state.md)实现变量已停用。 |
