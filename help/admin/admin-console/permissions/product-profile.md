@@ -4,10 +4,10 @@ description: 了解产品配置文件如何用作产品管理员可以分配给�
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 93%
+source-wordcount: '669'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 产品配置文件是产品管理员可分配给组织内用户的权限预设。如果您创建产品配置文件并将其分配给 Experience Cloud 用户，用户将继承该产品配置文件中包含的权限项。
 
-有关产品配置文件的一般信息（包括创建产品配置文件和分配用户），请参阅《企业用户指南》中的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
+有关产品配置文件的一般信息，包括创建产品配置文件和分配用户，请参阅“企业用户指南”中的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
 
 ## 产品配置文件管理员
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ## Adobe Analytics 权限项
 
-为能够访问 Adobe Analytics，产品配置文件中至少需要以下权限：
+单个产品配置文件要访问Adobe Analytics所需的最低权限如下：
 
 * 产品配置文件必须至少拥有一个报表包的访问权限
 * 产品配置文件必须属于Analytics工具权限项&#x200B;**Analysis Workspace访问权限**。
@@ -47,7 +47,7 @@ ht-degree: 93%
 
 ### 维度
 
-授予对报表包中维度的访问权限。Dimension将作为相应的组件在Analysis Workspace中列出。
+授予对报表包中维度的访问权限。维度将作为相应的组件在Analysis Workspace中列出。
 
 自定义变量（如 eVar）将标记为“自定义转化 1-250”，以使其独立于报表包。如果“自定义转化 1”是已启用的权限项，则该用户有权访问产品配置文件中所有报表包中的 eVar1。
 
@@ -61,6 +61,6 @@ Analytics 工具权限项用于授予对独立于报表包设置的功能的访�
 
 ## 产品配置文件开发人员
 
-开发人员类似于用户，只不过开发人员有权在 Adobe Developer 上使用 Experience Cloud API。有关更多信息，请参阅《企业用户指南》中的[管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。如果授予用户任何配置文件的开发人员访问权限，则他们将有权访问开发控制台 (console.adobe.io) 并编辑 Adobe Analytics 集成。在用户拥有开发人员访问权限的所有配置文件中，这些配置文件的净权限决定了为该用户授予的 Analytics API 调用和响应。
+开发人员类似于用户，只不过开发人员有权在Adobe Developer上使用Experience Cloud API。 有关更多信息，请参阅《企业用户指南》中的[管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。如果用户被授予任何配置文件的开发人员访问权限，他们将有权访问开发控制台(console.adobe.io)并编辑Adobe Analytics集成。 为用户授权的Analytics API调用和响应取决于用户有权访问的所有配置文件的净权限。
 
-例如，根据配置文件权限（包含所有量度、所有维度和一个报表包），持有配置文件开发人员访问权限的成员可发出与关联套件中任何组件相关的 API 调用。随着“异常检测”的添加，报告可以包含更完整的响应，从而添加异常数据。根据经验，如果配置文件授予对 Adobe Analytics 界面中某个场景的访问权限，则对类似定义的配置文件的开发人员访问权限将启用相应的 API 调用和响应。
+例如，凭借包含所有量度、所有维度和一个报表包的配置文件权限，开发人员可以发起与该报表包中的任何组件相关的API调用。 如果添加了异常检测权限项，则API响应可以包括异常数据。 根据经验，如果配置文件授予对Adobe Analytics界面中某个场景的访问权限，则开发人员对类似定义配置文件的访问权限将启用相应的API调用和响应。
