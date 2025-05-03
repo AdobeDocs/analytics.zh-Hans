@@ -4,14 +4,66 @@ title: 配置流量可视化图表
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
-# 配置流量可视化图表
+# 配置流量可视化图表 {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="开始于"
+>abstract="此字段只能在初始构建时设置。 要更新此字段，请选择&#x200B;**[!UICONTROL 重置]**&#x200B;以构建新的流量可视化图表。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="包含"
+>abstract="此字段只能在初始构建时设置。 要更新此字段，请选择&#x200B;**[!UICONTROL 重置]**&#x200B;以构建新的流量可视化图表。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="结束于"
+>abstract="此字段只能在初始构建时设置。 要更新此字段，请选择&#x200B;**[!UICONTROL 重置]**&#x200B;以构建新的流量可视化图表。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="路径维度"
+>abstract="选择一个维度，用作通往或者离开您的选定组件的路径。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="流量容器"
+>abstract="选择用于显示路径（的数字）的容器。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="包含重复项（已禁用）"
+>abstract="无法从包含多值维度的 Flow 可视化中移除重复项。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="包括重复"
+>abstract="流量可视化图表基于某个维度的实例。此设置使您可以选择包含或排除重复的实例，例如：页面重新加载。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="限制到第一次/最后一次发生次数"
+>abstract="当第一个/最后一个接触点是入口/出口时，结果仅限于路径。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="列数"
+>abstract="此字段只能在初始构建时设置。 要更新此字段，请选择&#x200B;**[!UICONTROL 重置]**&#x200B;以构建新的流量可视化图表。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="每列扩展的项"
+>abstract="此字段只能在初始构建时设置。 要更新此字段，请选择&#x200B;**[!UICONTROL 重置]**&#x200B;以构建新的流量可视化图表。"
+
+
 
 流量可视化图表可帮助您了解源于或导致网站或应用程序上特定转化事件的历程。它通过维度（和维度项）或量度跟踪路径。
 
