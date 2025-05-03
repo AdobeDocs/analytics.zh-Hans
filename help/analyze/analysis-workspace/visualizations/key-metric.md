@@ -5,7 +5,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!ENDSHADEBOX]
 
 
-![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 关键量度摘要]**&#x200B;可视化图表让您看到重要量度在单个时间范围内的趋势。它还允许您在两个时间范围内比较量度表现。 它还具备将多个可视化图表组合为一个可视化图表的优点：
+![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 关键量度摘要]**&#x200B;可视化图表让您看到重要量度在单个时间范围内的趋势。它还允许您在两个时间范围内比较量度表现。它还具备将多个可视化图表组合为一个可视化图表的优点：
 
 * **[!UICONTROL 线形图]**&#x200B;可视化图表显示主要日期范围和比较日期范围的量度趋势
 
@@ -58,9 +58,9 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
    | 选项 | 描述 |
    | --- | --- |
-   | **[!UICONTROL 量度]** | 选择您希望检查的量度。 支持全部量度。 |
+   | **[!UICONTROL 量度]** | 选择您希望检查的量度。支持全部量度。 |
    | **[!UICONTROL 主要日期范围]** | 自由表格的当前日期范围。<p>从数据视图的任何可用日期范围中进行选择。</p> <p>如果您想使用与可视化图表所在面板上相同的日期范围，请选择&#x200B;[!UICONTROL **面板日期范围**]。</p> |
-   | **[!UICONTROL 比较日期范围]** | 要与主要日期范围进行比较的日期范围。 |
+   | **[!UICONTROL 比较日期范围。]** | 要与主要日期范围进行比较的日期范围。 |
    | **[!UICONTROL 过滤器（可选）]** | 您对此摘要特别感兴趣的任何过滤器。 |
 
    {style="table-layout:auto"}
@@ -84,7 +84,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 * 如果在配置期间未指定比较日期范围，或在可视化图表设置中隐藏比较日期范围时，则仅显示主日期范围的线形图。摘要变化已被隐藏。
 
-* 从此处，您可以将光标悬停在线形图上，查看各个日期的统计数据：
+* 从此处，您可以将鼠标悬停在线形图上，查看各个日期的统计数据：
 
 
 ## 配置
@@ -99,7 +99,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 ## 设置
 
-作为可视化图表设置的一部分，可以使用特定关键量度摘要设置。
+作为可视化图表设置的一部分，可使用特定关键量度摘要设置。
 
 | 设置 | 描述 |
 | --- | --- |
