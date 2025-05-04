@@ -5,14 +5,19 @@ title: 管理可视化图表数据源
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# 管理可视化图表数据源
+# 管理可视化图表数据源 {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="锁定选择"
+>abstract="启用此设置可将可视化图表锁定到表位置或在数据源中选择的精确项。"
 
 通过同步可视化图表，您可以控制与可视化图表对应的数据表或数据源。
 
@@ -29,6 +34,8 @@ ht-degree: 100%
    如果将可视化图表同步到表格单元格，则可以创建新的（隐藏）表格并使用该表格对同步的可视化图表进行颜色编码。
 
 ## 数据源设置
+
+
 
 
 >[!BEGINSHADEBOX]
