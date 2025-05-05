@@ -28,7 +28,7 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 >添加或编辑区段时，Report Builder 区段界面会在 Microsoft Internet Explorer 窗口中启动 Analytics 区段生成器。您的Report Builder会话将保持活动状态。 此操作不支持使用 Internet Explorer 以外的浏览器。
 
 1. 在“请求向导”第 1 步的区段面板中，单击&#x200B;**[!UICONTROL 添加]**。
-1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
+1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)。
 1. 定义并保存区段后，返回至“请求向导”。
 1. 单击“刷新”图标以刷新区段列表。
 
@@ -45,7 +45,7 @@ Report Builder具有“请求向导”步骤1中的分段面板，允许您创�
 
    ![屏幕截图显示在选定和可用的容器选项中创建上下文区段。](assets/seg_in_context.png)
 
-   有关容器的详细信息，请参阅[分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
+   有关容器的详细信息，请参阅[分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)。
 
 1. 此时将在 Internet Explorer 中启动区段生成器用户界面。区段生成器用户界面将使用您指定的容器和过滤器进行初始化。
 1. 向区段添加名称和描述后，保存该区段。

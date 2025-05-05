@@ -19,7 +19,7 @@ ht-degree: 42%
 此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。Adobe与[DeviceAtlas](https://deviceatlas.com/)合作，以在User Agent与操作系统之间维护查找。
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)时启用[!UICONTROL 设备查找]。
+* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 设备查找]。
 
 ## 维度项目
 

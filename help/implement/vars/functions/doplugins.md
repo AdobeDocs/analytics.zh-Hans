@@ -32,7 +32,7 @@ Web SDK使用具有相似功能的`onBeforeEventSend`，而不是`doPlugins`。
 
 ## 使用`onBeforeEventSend`手动实施Web SDK
 
-Web SDK使用具有相似功能的`onBeforeEventSend`，而不是`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
+Web SDK使用具有相似功能的`onBeforeEventSend`，而不是`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

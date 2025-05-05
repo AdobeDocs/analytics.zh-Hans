@@ -14,4 +14,4 @@ ht-degree: 29%
 
 您可以在Analysis Workspace中查找量度，其方式与查找其他类型组件的方式相同。
 
-有关如何快速查找组件的信息，请参阅[组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)中的[搜索、筛选和排序组件列表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html#search%2C-filter%2C-and-sort-the-component-list)。
+有关如何快速查找组件的信息，请参阅[组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)中的[搜索、筛选和排序组件列表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans#search%2C-filter%2C-and-sort-the-component-list)。

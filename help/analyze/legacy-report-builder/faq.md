@@ -37,4 +37,4 @@ Report Builder 支持具有以下限制的工作簿：
 
 ## 我如何知道我是否有权访问 Report Builder？ {#access}
 
-您需要获得 Adobe Analytics 管理员授予的 Report Builder 访问权限。管理员在 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home)中设置产品配置文件。请求您的管理员授予您访问权限。
+您需要获得 Adobe Analytics 管理员授予的 Report Builder 访问权限。管理员在 [Adobe Admin Console](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-console/home)中设置产品配置文件。请求您的管理员授予您访问权限。

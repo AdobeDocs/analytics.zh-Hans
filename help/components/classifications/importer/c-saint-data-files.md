@@ -158,7 +158,7 @@ ht-degree: 100%
 
 促销活动日期通常是与各个促销活动关联的范围（开始日期和结束日期）。日期的格式应当为 YYYY/MM/DD。例如，2013/06/15-2013/06/30。
 
-有关详细信息，请参阅[转化分类](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)。
+有关详细信息，请参阅[转化分类](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=zh-Hans)。
 
 >[!NOTE]
 >

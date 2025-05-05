@@ -24,7 +24,7 @@ Adobe Analytics 提供以下复杂的分段和预测工具来分析网站流量�
 
 * [流量分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [高级分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [高级分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)
 
 
 ## 营销分析
@@ -35,7 +35,7 @@ Adobe Analytics 中的以下主要功能提供了这些营销功能：
 
 * [多渠道数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans)
 
-* [离线数据集成](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
+* [离线数据集成](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hans)
 
 * [Analysis Workspace 中的临时分析](/help/analyze/analysis-workspace/home.md)
 

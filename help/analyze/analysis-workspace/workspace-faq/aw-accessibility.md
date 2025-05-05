@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ### 键盘快捷键（热键）
 
-[!UICONTROL Analysis Workspace] 提供丰富的[键盘快捷键](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)，以体验更顺畅的工作流程。下面列出了导航、创建分析和获取大众化洞察信息的一些常用快捷键。
+[!UICONTROL Analysis Workspace] 提供丰富的[键盘快捷键](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hans)，以体验更顺畅的工作流程。下面列出了导航、创建分析和获取大众化洞察信息的一些常用快捷键。
 
 #### 导航
 

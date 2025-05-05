@@ -23,7 +23,7 @@ ht-degree: 91%
 
 1. **范围选择器：**&#x200B;允许您从 Excel 的单元格中选择报表包 ID。请参阅[选择报表包](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 
-1. **区段**：区段是数据的自定义子集，或者是按您创建的规则所过滤的数据。区段基于点击数、访问次数和访客数。请参阅[《Analytics 分段指南》](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)，以了解有关区段的更多信息。
+1. **区段**：区段是数据的自定义子集，或者是按您创建的规则所过滤的数据。区段基于点击数、访问次数和访客数。请参阅[《Analytics 分段指南》](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)，以了解有关区段的更多信息。
 
    例如，您可以运行[!UICONTROL 页面报表]，然后应用“首次访问”区段。
 

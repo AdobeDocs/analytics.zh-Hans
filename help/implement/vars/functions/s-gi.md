@@ -38,7 +38,7 @@ Web SDK 扩展可为您实例化并管理跟踪对象。但是，您可以在扩
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-请参阅 Web SDK 文档中的[安装 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)，以获取更多信息。
+请参阅 Web SDK 文档中的[安装 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans)，以获取更多信息。
 
 ## 使用 Adobe Analytics 扩展实例化跟踪对象
 

@@ -110,7 +110,7 @@ Analysis Workspace 中的分析被称作[项目](/help/analyze/analysis-workspac
 ## 其他资源 {#resources}
 
 * Adobe 提供大量的 [Analytics 视频培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hans)。
-* 有关新功能的更新，请参阅 [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics)。
+* 有关新功能的更新，请参阅 [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans#analytics)。
 * 通过 Analysis Workspace 培训教程模板了解 Analysis Workspace 是一个不错的方法。此模板将指导您逐步了解在 Workspace 中构建第一个分析时通常会用到的术语和步骤。要开始使用该教程，请执行以下操作：
    1. 在 Adobe Analytics 中的 [!UICONTROL **Workspace**] 选项卡上，选择左侧的&#x200B;**[!UICONTROL 学习]**。
    1. 选择&#x200B;**[!UICONTROL 打开教程]**。

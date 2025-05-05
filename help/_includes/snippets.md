@@ -11,8 +11,8 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->2024年10月16日发布了新的、简化的[Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)。 它在Mac、Windows和Web浏览器上受支持。
->此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)转换为新的Report Builder。
+>2024年10月16日发布了新的、简化的[Report Builder](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/rb-overview)。 它在Mac、Windows和Web浏览器上受支持。
+>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/convert-workbooks)转换为新的Report Builder。
 
 ## Reports & Analytics 生命周期结束公告 {#ra-eol}
 

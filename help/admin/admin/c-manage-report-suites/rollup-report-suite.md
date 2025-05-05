@@ -15,7 +15,7 @@ ht-degree: 95%
 
 全局报表包从您的组织拥有的所有域和应用程序收集数据。它要求实施方式将所有图像请求都发送到单个报表包。
 
-Adobe 建议在大多数情况下实施全局报表包。有关实施全局报表包的优点，请参阅[全局报表包注意事项](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)。
+Adobe 建议在大多数情况下实施全局报表包。有关实施全局报表包的优点，请参阅[全局报表包注意事项](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hans)。
 
 可使用&#x200B;*多包标记*&#x200B;和&#x200B;*虚拟报表包*&#x200B;方法将贵公司全局报表包数据的子集提供给不同的最终用户。
 

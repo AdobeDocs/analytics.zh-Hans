@@ -72,25 +72,25 @@ ht-degree: 17%
 <tr>
 <td>5</td> 
 <td><b>将 Adobe Analytics 服务</b>添加到您的数据流。 该服务控制是否以及如何将数据发送到Adobe Analytics，以及具体将数据发送到哪些报表包。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>创建标记属性</b>。属性是用于引用标记管理数据的总容器。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">为 Web 创建或配置标签属性</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=zh-Hans#for-web">为 Web 创建或配置标签属性</a></td>
 </tr>
 
 <tr>
 <td>7</td> 
 <td><b>在您的标记属性中安装和配置 Web SDK 扩展</b>。配置 Web SDK 扩展以将数据发送到在步骤 4 中配置的数据流。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html">Adobe Experience Platform Web SDK 扩展概述</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=zh-Hans">Adobe Experience Platform Web SDK 扩展概述</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>迭代、验证并发布</b>到生产环境。 嵌入代码以将标记资产包含到网站页面。 然后使用数据元素、规则等来定制您的实施。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">嵌入代码</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html">发布概述</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hans#embed-code">嵌入代码</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hans">发布概述</a></td>
 </tr>
 
 </table>

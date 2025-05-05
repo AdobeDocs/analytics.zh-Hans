@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 管理员指南 {#admin}
 
 + [Analytics 管理员指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
 + Adobe Admin Console {#admin-console}
    + [概述](admin-console/home.md)
    + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)

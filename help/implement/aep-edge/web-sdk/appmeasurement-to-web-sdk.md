@@ -28,7 +28,7 @@ ht-degree: 0%
 Adobe建议在以下情况下遵循此实施路径：
 
 * 您已有使用Adobe AnalyticsAppMeasurementJavaScript库的实施。 如果您的实施使用Adobe Analytics标记扩展，请改为遵循[从Adobe Analytics标记扩展迁移到Web SDK标记扩展](analytics-extension-to-web-sdk.md)。
-* 您打算在将来使用Customer Journey Analytics，但不希望从头开始使用Web SDK实施来替换Analytics实施。 在Web SDK上从头开始替代实施需要做出最大努力，但同时需要提供最可行的长期实施架构。 如果贵组织愿意进行干净的Web SDK实施，请参阅Customer Journey Analytics用户指南中的[通过Adobe Experience Platform Web SDK摄取数据](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
+* 您打算在将来使用Customer Journey Analytics，但不希望从头开始使用Web SDK实施来替换Analytics实施。 在Web SDK上从头开始替代实施需要做出最大努力，但同时需要提供最可行的长期实施架构。 如果贵组织愿意进行干净的Web SDK实施，请参阅Customer Journey Analytics用户指南中的[通过Adobe Experience Platform Web SDK摄取数据](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
 
 ## 迁移到Web SDK所需的步骤
 
@@ -55,15 +55,15 @@ Adobe建议在以下情况下遵循此实施路径：
 
 +++**2. 安装Web SDK JavaScript库**
 
-引用`alloy.js`的最新版本，以便使用其方法调用。 有关详细信息和要使用的代码块，请参阅[使用JavaScript库安装Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library)。
+引用`alloy.js`的最新版本，以便使用其方法调用。 有关详细信息和要使用的代码块，请参阅[使用JavaScript库安装Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/install/library)。
 
 +++
 
 +++**3. 配置Web SDK**
 
-使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向在上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
+使用Web SDK [`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向在上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
 
-在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
+在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
 
 * 将`datastreamId`设置为从上一步检索到的数据流ID。
 * 将`orgId`设置为您组织的IMS组织。
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-您可以选择在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中设置其他属性，具体取决于贵组织的实施要求。
+您可以选择在[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中设置其他属性，具体取决于贵组织的实施要求。
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. 更新方法调用以使用Web SDK**
 
-更新调用[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有实例，将它们替换为[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 需要考虑三种情况：
+更新调用[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有实例，将它们替换为[`sendEvent`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 需要考虑三种情况：
 
 * **页面查看跟踪**：将页面查看跟踪调用替换为Web SDK `sendEvent`命令：
 
@@ -128,7 +128,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **自动链接跟踪**：默认情况下启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)配置属性。 它会自动设置正确的链接跟踪变量，以将数据发送到Adobe Analytics。 如果要禁用自动链接跟踪，请在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中将此属性设置为`false`。
+* **自动链接跟踪**：默认情况下启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)配置属性。 它会自动设置正确的链接跟踪变量，以将数据发送到Adobe Analytics。 如果要禁用自动链接跟踪，请在[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中将此属性设置为`false`。
 
 * **手动链接跟踪**： Web SDK在pageview调用与非页面视图调用之间没有单独的命令。 在有效负荷对象中提供该区别。
 

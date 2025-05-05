@@ -75,7 +75,7 @@ Adobe Analytics 登陆页面由以下子选项卡组成：项目、模板和学�
 | [!UICONTROL 新建] | 打开项目模式，您可以在其中创建 Workspace 项目或移动记分卡，也可以打开公司模板。 |
 | [!UICONTROL 显示更少<br> 显示更多] | 在不显示和显示横幅之间切换：![顶部横幅](assets/top-banner.png) |
 | [!UICONTROL Workspace 项目] | 创建一个空白 [Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)以便您进行设计和构建。 |
-| [!UICONTROL 移动记分卡] | 创建一个空白[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)以便您进行设计和构建。 |
+| [!UICONTROL 移动记分卡] | 创建一个空白[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hans)以便您进行设计和构建。 |
 | [!UICONTROL 打开培训教程] | 打开 Workspace 培训教程，它会通过分步教程指导您完成构建新的入门项目的过程。 |
 | [!UICONTROL 打开发行说明] | 打开最新的 Adobe Experience Cloud 发行说明的 Adobe Analytics 部分。 |
 | 筛选条件图标 | 按标记、报告包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |

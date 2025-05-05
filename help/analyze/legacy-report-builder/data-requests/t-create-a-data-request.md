@@ -21,7 +21,7 @@ ht-degree: 96%
 1. 在[!UICONTROL 请求向导：第 1 步]窗口中，选择一个[报表包](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 1. （可选）选择一个要应用到请求的区段。选择一个或多个区段后，它们将会移动到列表顶部。
 
-   Report Builder 使用区段的方式与 Adobe Analytics 使用区段的方式相同。请参阅 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
+   Report Builder 使用区段的方式与 Adobe Analytics 使用区段的方式相同。请参阅 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)。
 1. 选择[报表类型](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md)。
 1. 指定[日期范围](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)和报表[粒度](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md)。
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
@@ -35,6 +35,6 @@ ht-degree: 96%
 1. 在[!UICONTROL 指标]选项卡上，双击（或拖动）树中的指标，以将其添加到[!UICONTROL 指标]网格中。
 1. 在[!UICONTROL 维度]选项卡上，双击（或拖动）维度，以将其添加到[!UICONTROL 行标签]网格中。
 
-   在第 2 步中提供的[维度](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/layout/filter-dimenson/filter-dimensions.html)取决于您在第 1 步中选择的基本报表和报表包的配置。维度是具有关联、子关系的项目，或者是在[!UICONTROL 请求向导: 第 1 步]窗口中选择的原始报表类型指标的分类。通过在第 2 步中添加多个维度，可在数据请求中创建划分。
+   在第 2 步中提供的[维度](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/layout/filter-dimenson/filter-dimensions.html?lang=zh-Hans)取决于您在第 1 步中选择的基本报表和报表包的配置。维度是具有关联、子关系的项目，或者是在[!UICONTROL 请求向导: 第 1 步]窗口中选择的原始报表类型指标的分类。通过在第 2 步中添加多个维度，可在数据请求中创建划分。
 
    有关详细信息，请参阅[添加指标和Dimension](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)。

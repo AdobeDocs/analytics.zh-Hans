@@ -17,7 +17,7 @@ ht-degree: 100%
 有关如何配置此集成的更多信息，请参阅 [Adobe Campaign 文档](https://helpx.adobe.com/cn/campaign/standard/integrating/using/about-campaign-analytics-integration.html)。
 
 >[!IMPORTANT]
->本文仅适用于 Adobe Campaign **Standard** 报告。有关添加 Adobe Campaign **Classic** 报告，请参阅[此处](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html)。
+>本文仅适用于 Adobe Campaign **Standard** 报告。有关添加 Adobe Campaign **Classic** 报告，请参阅[此处](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=zh-Hans)。
 
 Adobe Analytics 与 Adobe Campaign Standard 之间的此集成：
 

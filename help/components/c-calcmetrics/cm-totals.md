@@ -19,4 +19,4 @@ ht-degree: 89%
 * 当自由格式表中使用了[静态行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)，并且选择了&#x200B;**[!UICONTROL 显示为当前行的总和]**￼选项（默认）时。
 * 在[圆环可视化图表](/help/analyze/analysis-workspace/visualizations/donut.md)中，这是为了使数字相加总和等于 100%。
 
-有关 Analysis Workspace 中总计的更多信息，请访问 [Workspace 总计](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total)。
+有关 Analysis Workspace 中总计的更多信息，请访问 [Workspace 总计](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans#static-row-total)。

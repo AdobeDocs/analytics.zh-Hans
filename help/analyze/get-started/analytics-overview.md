@@ -41,7 +41,7 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
 >[!ENDSHADEBOX]
 
 
-有关使用哪种工具的问题，请参阅[我应该使用哪种 Adobe Analytics 工具？](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html)
+有关使用哪种工具的问题，请参阅[我应该使用哪种 Adobe Analytics 工具？](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=zh-Hans)
 
 ## 通过 Customer Journey Analytics 走得更远
 

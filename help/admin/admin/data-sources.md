@@ -24,4 +24,4 @@ ht-degree: 97%
 
 激活报表包上的数据源时，会提供一个 FTP 地址，这样您就可以上传要集成到报表中的文件。完成上传后，Adobe 服务器会自动处理数据并将其集成到您的报表包中。
 
-请参阅[数据源帮助](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html)。
+请参阅[数据源帮助](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=zh-Hans)。

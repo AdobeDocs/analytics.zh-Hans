@@ -15,4 +15,4 @@ ht-degree: 97%
 
 Adobe Experience Cloud 中的单点登录是通过 Admin Consol 实施的。
 
-相关帮助信息，请参阅[管理用户指南](https://www.adobe.com/go/analytics_sso_en)。
+相关帮助信息，请参阅[管理用户指南](https://www.adobe.com/go/analytics_sso_cn)。

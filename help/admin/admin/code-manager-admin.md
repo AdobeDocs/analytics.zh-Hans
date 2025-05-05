@@ -25,5 +25,5 @@ ht-degree: 100%
 |--- |--- |
 | [!UICONTROL 名称] | 名称与您要启用数据收集的平台相匹配。对于本列中列出的每个平台均提供本地库。 |
 | [!UICONTROL 类型] | 可使用每个库测量的应用程序类型。 |
-| [!UICONTROL 版本] | 列出库的最新版本。单击版本号查看[发布历史](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)。 |
+| [!UICONTROL 版本] | 列出库的最新版本。单击版本号查看[发布历史](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。 |
 | [!UICONTROL 文档] | 查看库参考文档。 |

@@ -28,13 +28,13 @@ Adobe Analytics 将于 2022 年 9 月 20 日升级其安全文件传输协议 ([
 
 * [客户属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hans)
 
-* [数据馈送](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html)
+* [数据馈送](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=zh-Hans)
 
-* [数据源](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html)
+* [数据源](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=zh-Hans)
 
-* [Data Warehouse 传送的报表](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html)
+* [Data Warehouse 传送的报表](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=zh-Hans)
 
-* 此外，通过[工程技术服务](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html)创建的某些自定义实现可使用 SFTP 与 Adobe 交换数据。
+* 此外，通过[工程技术服务](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=zh-Hans)创建的某些自定义实现可使用 SFTP 与 Adobe 交换数据。
 
 ## 此更新将包含哪些具体更改？
 

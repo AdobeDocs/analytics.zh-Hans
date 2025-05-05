@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 导入指南 {#import}
 
 + [Analytics 导入指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
 + 数据源 {#data-sources}
    + [概述](data-sources/overview.md)
    + [快速入门](data-sources/getting-started.md)

@@ -22,7 +22,7 @@ Adobe Analytics 通过提供各种计算量度来涵盖最常见的用例。这�
 >
 >您可以：
 >
-> * 为流媒体集合添加默认计算量度，如[计算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)中所述
+> * 为流媒体集合添加默认计算量度，如[计算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=zh-Hans)中所述
 > * 从现有量度中创建自定义计算量度，如[计算量度和高级计算量度](/help/components/c-calcmetrics/cm-overview.md)中所述。
 
 

@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## 使用Web SDK的时间戳
 
-在XDM字段`xdm.timestamp`下，为Adobe Analytics[&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html)映射时间戳。 此字段仅支持Unix时间。
+在XDM字段`xdm.timestamp`下，为Adobe Analytics[&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=zh-Hans)映射时间戳。 此字段仅支持Unix时间。
 
 ## 使用Adobe Analytics扩展的时间戳
 

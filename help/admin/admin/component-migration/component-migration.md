@@ -135,7 +135,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
 如果迁移失败，您可以重试迁移。
 
-在重试失败的迁移之前，请确保从项目中删除所有[不受支持的元素](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors)。
+在重试失败的迁移之前，请确保从项目中删除所有[不受支持的元素](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=zh-Hans#understand-unsupported-elements-that-cause-errors)。
 
 >[!NOTE]
 >

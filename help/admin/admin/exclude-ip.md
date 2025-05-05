@@ -23,7 +23,7 @@ ht-degree: 62%
 >
 >在按IP地址配置排除项时，请考虑以下事项：
 >
->* 按 IP 地址排除的点击按[服务器调用](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)计费。
+>* 按 IP 地址排除的点击按[服务器调用](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=zh-Hans)计费。
 >* 无需排除私有 IP 地址。只有外部 IP 地址可抵达 Adobe 数据收集服务器。私有地址包括 `10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*` 和 `169.254.*.*`。
 >* 您可以使用通配指示符(&#42;)排除某个范围的地址。 例如，`[!DNL 0.0.*.0]` 将排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之间的所有 IP 地址。最多可以排除 50 个不同的 IP 地址。
 >* 对于在设置排除后的5分钟内进入系统的任何新点击，会排除排除排除的IP地址中的数据。

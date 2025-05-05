@@ -19,7 +19,7 @@ ht-degree: 64%
 此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe与Nielsen合作，共同维护IP地址与DMA之间的查找服务。
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)时启用[!UICONTROL 地理查找]。
+* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 地理查找]。
 
 ## 维度项
 

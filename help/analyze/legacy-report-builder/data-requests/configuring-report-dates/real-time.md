@@ -27,8 +27,8 @@ ht-degree: 99%
 * 使用任何自定义事件、购物车事件或实例。
 * 最多查看 20 个小时的实时历史数据。
 
-实时需要考虑用户和群组的权限。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。不支持 eVar（转化量度）。[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)中已启用实时权限。
+实时需要考虑用户和群组的权限。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。不支持 eVar（转化量度）。[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=zh-Hans)中已启用实时权限。
 
 >[!NOTE]
 >
->[!UICONTROL 实时报表]与以前发布的[包括当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html)（数据回访间隔）功能不同，后者通过在最终确定数据之前显示数据而降低标准报表的延迟。
+>[!UICONTROL 实时报表]与以前发布的[包括当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=zh-Hans)（数据回访间隔）功能不同，后者通过在最终确定数据之前显示数据而降低标准报表的延迟。

@@ -48,7 +48,7 @@ Activity Map数据收集需要&#x200B;**[!UICONTROL Adobe Experience Platform We
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 1. 如果需要，可将更改生成到库并将更改发布到生产环境。
 
-有关详细信息，请参阅[配置Web SDK标记扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)。
+有关详细信息，请参阅[配置Web SDK标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)。
 
 +++
 
@@ -56,7 +56,7 @@ Activity Map数据收集需要&#x200B;**[!UICONTROL Adobe Experience Platform We
 
 Activity Map数据收集需要Web SDK JavaScript库v2.20或更高版本。 低于v2.15的库版本具有有限的支持。 这些以前的库版本会将Activity Map数据与您的其余数据分开发送。 额外的事件会增加您发送到Adobe Analytics或Adobe Experience Platform的点击数。
 
-Web SDK配置变量[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)处理Activity Map数据的自动收集。 除非明确禁用，否则默认情况下会启用该功能。
+Web SDK配置变量[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)处理Activity Map数据的自动收集。 除非明确禁用，否则默认情况下会启用该功能。
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ alloy("configure", {
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 1. 如果需要，可将更改生成到库并将更改发布到生产环境。
 
-有关详细信息，请参阅[Adobe Analytics扩展概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)。
+有关详细信息，请参阅[Adobe Analytics扩展概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/analytics/overview)。
 
 +++
 

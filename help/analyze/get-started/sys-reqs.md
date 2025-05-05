@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * 受支持的浏览器
 
-  每个访问 Adobe Analytics 的用户都必须使用受支持的浏览器。有关详细信息，请参阅 [Adobe Analytics 系统要求](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html)。
+  每个访问 Adobe Analytics 的用户都必须使用受支持的浏览器。有关详细信息，请参阅 [Adobe Analytics 系统要求](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=zh-Hans)。
 
 ## 系统要求
 

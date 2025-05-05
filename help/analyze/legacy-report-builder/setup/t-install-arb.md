@@ -29,4 +29,4 @@ ht-degree: 54%
 
 ## 权限
 
-如果在&#x200B;**[!UICONTROL 工具]**&#x200B;下未看到&#x200B;**[!UICONTROL Report Builder]**&#x200B;菜单项，请咨询Adobe Analytics管理员，确保您是包含以下权限的产品配置文件的一部分：*Report Builder*。 了解有关[产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)和 [Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)的详细信息。
+如果在&#x200B;**[!UICONTROL 工具]**&#x200B;下未看到&#x200B;**[!UICONTROL Report Builder]**&#x200B;菜单项，请咨询Adobe Analytics管理员，确保您是包含以下权限的产品配置文件的一部分：*Report Builder*。 了解有关[产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hans)和 [Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hans)的详细信息。

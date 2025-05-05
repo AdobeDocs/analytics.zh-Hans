@@ -17,7 +17,7 @@ ht-degree: 80%
 
 配置实时请求日期：
 
-1. 确保在[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)中启用了实时报告。
+1. 确保在[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=zh-Hans)中启用了实时报告。
 1. 在[!UICONTROL 请求向导：第 1 步]中，单击&#x200B;**[!UICONTROL 实时报告]** > **[!UICONTROL `<report type>`]**。
 
    例如，选择“流量报告”。当您选择实时报告类型时，将显示“[!UICONTROL 选择时间范围]”选项。

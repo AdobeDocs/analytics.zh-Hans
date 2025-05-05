@@ -34,7 +34,7 @@ ht-degree: 100%
 
 默认情况下，只有管理员可以创建注释。用户有权查看注释，就像查看其他 Analytics 组件（例如区段、计算指标等）一样。
 
-但是，管理员可以通过 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) 向用户提供[!UICONTROL 注释创建]权限（Analytics 工具）。
+但是，管理员可以通过 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hans) 向用户提供[!UICONTROL 注释创建]权限（Analytics 工具）。
 
 ## 启用或禁用注释 {#annotations-on-off}
 

@@ -21,7 +21,7 @@ ht-degree: 13%
 
 ## Web SDK JavaScript库中的区域排除项
 
-启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`clickCollection`对象中使用`filterClickDetails`回调。 在此回调中，您可以检查`linkRegion`的值，然后更改该值或放弃链接跟踪数据的集合。
+启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`clickCollection`对象中使用`filterClickDetails`回调。 在此回调中，您可以检查`linkRegion`的值，然后更改该值或放弃链接跟踪数据的集合。
 
 ```js
 alloy("configure", {

@@ -44,4 +44,4 @@ Adobe 正在将所有 Analytics 登录公司从 [!DNL my.omniture.com] 是迁移
 
 * [一般用户管理信息](https://helpx.adobe.com/cn/enterprise/help/users.html)
 * [用户管理 API 论坛](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
-* [将 Analytics 用户访问和管理迁移到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+* [将 Analytics 用户访问和管理迁移到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
