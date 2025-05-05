@@ -73,7 +73,7 @@ ht-degree: 29%
 
 >[!BEGINSHADEBOX]
 
-有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder概述](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}。
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder概述](https://video.tv.adobe.com/v/3452590?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

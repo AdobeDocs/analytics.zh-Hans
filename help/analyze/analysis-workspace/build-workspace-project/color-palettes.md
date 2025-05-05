@@ -32,7 +32,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [使用自定义调色板](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [使用自定义调色板](https://video.tv.adobe.com/v/328054?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -53,7 +53,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在流失可视化图表中比较区段](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在流失可视化图表中比较区段](https://video.tv.adobe.com/v/328033?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

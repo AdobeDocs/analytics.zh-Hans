@@ -20,7 +20,7 @@ Adobe Audience Manager (Adobe Audience Manager)是一个功能强大的数据管
 
 >[!BEGINSHADEBOX]
 
-观看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"}演示视频。
+观看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/40735?quality=12&learn=on&captions=chi_hans){target="_blank"}演示视频。
 
 >[!ENDSHADEBOX]
 

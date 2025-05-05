@@ -48,7 +48,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中将维度和量度添加到项目](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}。
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中将维度和量度添加到项目](https://video.tv.adobe.com/v/33233?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -56,14 +56,14 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在自由格式表中使用维度](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在自由格式表中使用维度](https://video.tv.adobe.com/v/328526?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [按位置](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"}划分的维度。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [按位置](https://video.tv.adobe.com/v/327414?quality=12&learn=on&captions=chi_hans){target="_blank"}划分的维度。
 
 >[!ENDSHADEBOX]
 

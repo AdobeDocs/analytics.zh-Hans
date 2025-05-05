@@ -18,7 +18,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日期比较](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日期比较](https://video.tv.adobe.com/v/33232?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

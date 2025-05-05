@@ -46,7 +46,7 @@ Adobe Analytics 中的归因概念包含两个组件：
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自定义回看窗口期](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自定义回看窗口期](https://video.tv.adobe.com/v/40042?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

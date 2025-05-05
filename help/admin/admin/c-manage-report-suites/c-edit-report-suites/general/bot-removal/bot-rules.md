@@ -34,7 +34,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"}。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://video.tv.adobe.com/v/3418506/?quality=12&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -27,7 +27,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [处理规则概述](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"}。
+有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [处理规则概述](https://video.tv.adobe.com/v/327639/?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

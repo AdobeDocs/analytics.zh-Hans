@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [异常检测](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [异常检测](https://video.tv.adobe.com/v/40730?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Analysis Workspace 的异常检测算法包括
 
 >[!BEGINSHADEBOX]
 
-有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [贡献分析](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}。
+有关演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [贡献分析](https://video.tv.adobe.com/v/40762?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

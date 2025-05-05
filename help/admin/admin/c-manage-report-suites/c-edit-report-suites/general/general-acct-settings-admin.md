@@ -22,7 +22,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置常规帐户设置](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"}。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置常规帐户设置](https://video.tv.adobe.com/v/3411504/?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
