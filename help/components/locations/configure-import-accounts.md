@@ -70,7 +70,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -82,7 +82,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -98,7 +98,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -112,7 +112,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Email
 
@@ -128,7 +128,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **旧帐户类型**
 
@@ -147,13 +147,13 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    提供了对数据馈送的 SFTP 支持。需要 SFTP 主机、用户名，以及包含有效 RSA 或 DSA 公钥的目标站点。您可以在创建馈送时下载相应的公钥。
 
-+++
+   +++
 
    +++S3
 
@@ -188,7 +188,7 @@ ht-degree: 56%
    >
    >不支持 cn-north-1 区域。
 
-+++
+   +++
 
    +++Azure Blob
 
@@ -198,7 +198,7 @@ ht-degree: 56%
    >
    >您必须实施自己的流程来管理 Data Warehouse 目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。
 
-+++
+   +++
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 

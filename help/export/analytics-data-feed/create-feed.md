@@ -134,7 +134,7 @@ ht-degree: 53%
 
       1. （视情况而定）如果您需要管理刚刚创建的目标（帐户和位置），则可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -208,7 +208,7 @@ ht-degree: 53%
 
       1. （视情况而定）如果您需要管理刚刚创建的目标（帐户和位置），则可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -283,7 +283,7 @@ ht-degree: 53%
 
       1. （视情况而定）如果您需要管理刚刚创建的目标（帐户和位置），则可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ ht-degree: 53%
 
       1. （视情况而定）如果您需要管理刚刚创建的目标（帐户和位置），则可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
 
-+++
+   +++
 
 1. 在&#x200B;[!UICONTROL **数据列定义**]&#x200B;部分中，在下拉菜单中选择最新的&#x200B;[!UICONTROL **所有Adobe列**]&#x200B;模板，然后完成以下字段：
 

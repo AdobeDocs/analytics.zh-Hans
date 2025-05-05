@@ -41,7 +41,7 @@ ht-degree: 9%
 
 1. 确保Customer Journey Analytics中的用户已设置到正在映射数据的数据视图。
 
-   有关详细信息，请在[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)中查看Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)中的[Customer Journey Analytics权限。
+   有关详细信息，请在[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)中查看Admin Console[&#128279;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)中的Customer Journey Analytics权限。
 
    “权限”选项卡是Admin Console中每个产品配置文件的一部分。 您可以将用户添加到特定的产品配置文件。然后，将权限分配给特定的数据视图，并指定用户在产品配置文件中拥有的权限。
 

@@ -15,7 +15,7 @@ ht-degree: 50%
 
 下表显示了Adobe Experience Platform Edge Network自动映射到Adobe Analytics中的XDM变量。 如果使用这些XDM字段路径，则无需额外配置即可将数据发送到Adobe Analytics。 这些字段包含在&#x200B;**[!UICONTROL Adobe Analytics ExperienceEvent Template]**&#x200B;字段组中。 如果您打算将数据同时发送到Adobe Analytics和Adobe Experience Platform，则建议使用这些字段。
 
-如果您的组织计划迁移到Customer Journey Analytics，Adobe建议改用`data`对象在不符合架构的情况下直接将数据发送到Adobe Analytics。 此策略允许您的组织使用自己的架构，而不是使用[!UICONTROL Adobe Analytics ExperienceEvent模板]&#x200B;(不太适用于Customer Journey Analytics)。 有关类似的映射表，请参阅映射到Adobe Analytics](data-var-mapping.md)的[数据对象变量。
+如果您的组织计划迁移到Customer Journey Analytics，Adobe建议改用`data`对象在不符合架构的情况下直接将数据发送到Adobe Analytics。 此策略允许您的组织使用自己的架构，而不是使用[!UICONTROL Adobe Analytics ExperienceEvent模板]&#x200B;(不太适用于Customer Journey Analytics)。 有关类似的映射表，请参阅映射到Adobe Analytics[&#128279;](data-var-mapping.md)的数据对象变量。
 
 ## 价值优先级
 

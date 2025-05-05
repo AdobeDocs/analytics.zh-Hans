@@ -17,7 +17,7 @@ ht-degree: 39%
 
 ## 取消使用Web SDK扩展发送事件
 
-在事件发送回调]代码编辑器之前使用[!UICONTROL On并返回`false`。
+在事件发送回调代码编辑器之前使用On并返回`false`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。

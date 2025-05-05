@@ -71,14 +71,14 @@ ht-degree: 95%
    ![映射](assets/data-source-mapping.png)
 
 1. 选择数据维度
-单击“跟踪代码”旁的框，然后单击**[!UICONTROL 下一步]**。
+单击“跟踪代码”旁的框，然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 映射数据维度。
-将导入的数据维度（属性）映射到要将它存入的 Adobe Analytics 属性。这可以是标准维度或 eVar。单击**[!UICONTROL 下一步]**&#x200B;之后，将在摘要中显示所得的映射：
+将导入的数据维度（属性）映射到要将它存入的 Adobe Analytics 属性。这可以是标准维度或 eVar。单击&#x200B;**[!UICONTROL 下一步]**&#x200B;之后，将在摘要中显示所得的映射：
 
    ![摘要](assets/data-source-summary.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 单击&#x200B;**[!UICONTROL 下载]**以下载此数据源的模板文件。
+1. 单击&#x200B;**[!UICONTROL 下载]**&#x200B;以下载此数据源的模板文件。
 文件名对应于您最初指定的数据源类型 — 在本例中为“Generic Pay-Per-Click Service template.txt”。
 1. 在您喜爱的文本编辑器中打开该模板。
 已为该文件填入了指标和维度及其映射。
@@ -100,9 +100,9 @@ ht-degree: 95%
 1. 删除位于顶部的任何多余的行。
 1. 要从目标 URL 中分离出跟踪代码，请执行以下操作：
 a. 从所有列复制并粘贴数据。
-b. 单击**[!UICONTROL 数据 > 分列]**。
-c. 在向导的第 1 步中，确保选中了**[!UICONTROL 分隔符号]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
-d.在向导的第2步中，根据创建URL的方式指定分隔符(？ 或&amp;)，然后单击**[!UICONTROL 下一步]**。
+b. 单击&#x200B;**[!UICONTROL 数据 > 分列]**。
+c. 在向导的第 1 步中，确保选中了&#x200B;**[!UICONTROL 分隔符号]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
+d.在向导的第2步中，根据创建URL的方式指定分隔符(？ 或&amp;)，然后单击&#x200B;**[!UICONTROL 下一步]**。
 e. 在向导的第 3 步中，预览您的数据，并确保其中一列为“trackingcodename=trackingcode”。如果有其他变量，请（使用 &amp; 作为分隔符）重复这些步骤。
 f. 删除跟踪代码、展示次数、点击次数和成本之外的所有列。添加一个名为 Date 的新列，并按以下顺序整理您的各个列：Date :: Tracking code :: Impressions :: Clicks :: Cost。
 1. 将这些数据添加到您在上方的“设置数据源”部分中下载的模板。

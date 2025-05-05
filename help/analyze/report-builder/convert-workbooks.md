@@ -30,7 +30,7 @@ ht-degree: 0%
 
 
 
-1. 按照](/help/analyze/report-builder/report-builder-setup.md)中的说明由[设置新Report Builder。
+1. 按照[&#128279;](/help/analyze/report-builder/report-builder-setup.md)中的说明由设置新Report Builder。
 
 1. 打开Excel，然后单击右上方的Adobe Report Builder图标。
 

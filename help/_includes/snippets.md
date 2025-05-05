@@ -14,7 +14,7 @@ ht-degree: 36%
 >2024年10月16日发布了新的、简化的[Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)。 它在Mac、Windows和Web浏览器上受支持。
 >此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)转换为新的Report Builder。
 
-## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
+## Reports & Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -110,7 +110,7 @@ ht-degree: 36%
 * 使用&#x200B;**首次联系**&#x200B;和&#x200B;**人员回顾窗口**，归因会考虑所有三次访问。 付费搜索是首次接触点，因此它在 50 美元的购买中获得 100% 的点数。
 
 * 使用&#x200B;**线性**&#x200B;和&#x200B;**会话回顾窗口**，点数在电子邮件和显示广告之间分配。 这两个渠道各自获得25美元的点数。
-使用**线性**&#x200B;和&#x200B;**人员回顾窗口**，点数在付费搜索、社交、电子邮件和展示广告之间分配。 每个渠道各自获得此次购买中贡献 12.50 美元的点数。
+使用&#x200B;**线性**&#x200B;和&#x200B;**人员回顾窗口**，点数在付费搜索、社交、电子邮件和展示广告之间分配。 每个渠道各自获得此次购买中贡献 12.50 美元的点数。
 
 * 使用&#x200B;**J型**&#x200B;和&#x200B;**人员回顾窗口**，点数在付费搜索、社交、电子邮件和展示广告之间分配。
 

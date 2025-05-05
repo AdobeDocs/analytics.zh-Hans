@@ -63,7 +63,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[按位置](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"}划分的维度。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [按位置](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"}划分的维度。
 
 >[!ENDSHADEBOX]
 

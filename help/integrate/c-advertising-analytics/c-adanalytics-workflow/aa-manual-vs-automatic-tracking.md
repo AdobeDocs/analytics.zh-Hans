@@ -98,7 +98,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_值（下面显示为&#x200B;**粗体**的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕的“跟踪”部分下获取特定的帐户ID字符串。
+>_`<Advertising Analytics ID>`_值（下面显示为&#x200B;**粗体**&#x200B;的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕的“跟踪”部分下获取特定的帐户ID字符串。
 
 **适用于促销活动的跟踪字符串：**
 

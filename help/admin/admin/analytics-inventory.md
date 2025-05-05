@@ -114,7 +114,7 @@ Analytics清单的目标是帮助您回答以下问题：
    | 维度 | 此报表包中定义了多少个维度？ |
    | Analytics for Target (A4T) 已启用 | [默认隐藏]是否为[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)启用此报表包？ |
    | 已启用营销渠道 | [默认隐藏]是否为[营销渠道](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)启用此报表包？ |
-   | Source Connector已启用 | 是否为Adobe Experience Platform中的报表包数据](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)的[Adobe Analytics Source Connector启用了此报表包？ 换句话说，能否使用Analytics Source Connector将此报表包迁移到Customer Journey Analytics？ |
+   | Source Connector已启用 | 是否为Adobe Experience Platform中的报表包数据[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector启用了此报表包？ 换句话说，能否使用Analytics Source Connector将此报表包迁移到Customer Journey Analytics？ |
    | 日程表类型 | [默认情况下隐藏]有关详细信息，请参阅[自定义日历](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### 分析维度
@@ -132,7 +132,7 @@ Analytics清单的目标是帮助您回答以下问题：
    | ID | 维度ID。 |
    | 类型 | 维度的类型。 可能的值包括转化、流量、导航、流量源、客户、日期或Adobe产品特定的维度，例如AEM、受众、Adobe Campaign、移动设备应用程序等。 |
    | 描述 | 并非所有维度都有描述。 |
-   | Source Connector已启用 | 是否为Adobe Experience Platform中的报表包数据](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)的[Adobe Analytics Source Connector启用此维度？ 换句话说，能否使用Analytics Source Connector将此维度迁移到Customer Journey Analytics？ |
+   | Source Connector已启用 | 是否为Adobe Experience Platform中的报表包数据[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector启用此维度？ 换句话说，能否使用Analytics Source Connector将此维度迁移到Customer Journey Analytics？ |
 
 1. 确定哪些维度适合迁移到CJA。
 

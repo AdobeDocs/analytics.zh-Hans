@@ -35,8 +35,8 @@ Adobe Analytics管理员可以创建新的广告帐户，并将多个帐户映�
    | 帐户名称 | 您可以选择将此帐户名称设置为适合您的任何名称。  帐户名称是UI中显示的帐户的友好名称。 |
    | OAuth 令牌 | **注意**： OAuth是一种访问委派的开放标准，通常用于授予网站或应用程序访问网站上的信息的权限，但不提供密码。 您注意到您被引向了第三方URL (efrontier.com)。 Adobe使用Adobe Media Optimizer为所有三个搜索引擎实现OAuth身份验证过程。 如果您使用的是Internet Explorer 11（或更早版本），则无法为三个搜索引擎中的任何一个检索Oauth令牌。 请改用其他 Web 浏览器。<p>选择&#x200B;**[!UICONTROL 检索令牌]**&#x200B;以启动OAuth2身份验证过程。 您需要使用自己的凭据登录到Google/Bing搜索帐户。 根据您的选择，此过程会略有不同： <ul><li>Google Adwords：提供 Google 帐户 ID</li><li>Microsoft Bing：提供 Bing 帐户 ID 和 Bing 客户 ID。</li></ul>有关这些ID的信息，请参阅[查找您的帐户ID](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)。 当您成功登录后，**[!UICONTROL OAuth 令牌]**&#x200B;字段即显示&#x200B;**[!UICONTROL 已检索]**。 |
 
-1. 在&#x200B;**[!UICONTROL 跟踪]**部分中，您提供了有关如何使用Adobe Analytics实施跟踪数据的信息。 跟踪是使用搜索引擎数据正确增加Adobe Analytics数据的必要步骤。
-按照以下说明填写**[!UICONTROL 跟踪设置]**：
+1. 在&#x200B;**[!UICONTROL 跟踪]**&#x200B;部分中，您提供了有关如何使用Adobe Analytics实施跟踪数据的信息。 跟踪是使用搜索引擎数据正确增加Adobe Analytics数据的必要步骤。
+按照以下说明填写&#x200B;**[!UICONTROL 跟踪设置]**：
 
    | 设置 | 描述 |
    | --- | --- |

@@ -74,7 +74,7 @@ ht-degree: 43%
 |---|---|
 | ![删除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg)删除 | 选中后，会显示一个确认对话框，提示您确认删除Workspace项目或移动记分卡。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;确认。 |
 | ![共享](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)共享 | 此操作允许您共享您的项目。 请参阅[共享项目](../curate-share/share-projects.md)。 |
-| ![重命名](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)重命名 | 打开&#x200B;**[!UICONTROL 重命名： *名称&#x200B;*]**对话框以重命名您的项目。 选择**[!UICONTROL 保存&#x200B;]**以保存项目的新名称。 |
+| ![重命名](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)重命名 | 打开&#x200B;**[!UICONTROL 重命名： *名称&#x200B;*]**&#x200B;对话框以重命名您的项目。 选择&#x200B;**[!UICONTROL 保存&#x200B;]**&#x200B;以保存项目的新名称。 |
 | ![副本](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg)副本 | 立即将所选项目复制到名为&#x200B;*原始名称*&#x200B;的新项目（复制）。 |
 | ![针](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg)针 | 立即将项目固定到列表顶部。 添加![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg)指示器。 |
 | ![标记](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg)标记 | 打开&#x200B;**[!UICONTROL 标记项目]**&#x200B;对话框。 您可以选择现有标记或添加新标记。 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存项目的标记。 |
@@ -140,7 +140,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[使用上下文菜单](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用上下文菜单](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

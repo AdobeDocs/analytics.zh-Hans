@@ -56,7 +56,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)[区段中的分段计算量度](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [区段中的分段计算量度](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

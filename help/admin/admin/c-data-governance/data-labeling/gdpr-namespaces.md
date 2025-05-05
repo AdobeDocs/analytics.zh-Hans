@@ -21,7 +21,7 @@ ht-degree: 94%
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
 * “value”字段，其中包含 Analytics 应在每个报告包的关联命名空间变量中搜索的 ID。
 
-有关更多详细信息和[标准身份命名空间列表](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces)，请参阅[Experience Cloud数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。 请参阅为示例请求创建访问/删除作业[](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete)。
+有关更多详细信息和[标准身份命名空间列表](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces)，请参阅[Experience Cloud数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。 请参阅为示例请求创建访问/删除作业[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete)。
 
 ## Cookie ID
 

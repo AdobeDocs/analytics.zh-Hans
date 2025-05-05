@@ -19,7 +19,7 @@ ht-degree: 81%
 +++ 管理和访问 Analysis Workspace 有哪些要求？请参阅[管理要求](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。
 +++
 
-+++ 使用 Analysis Workspace 是否会影响数据收集？由于 Analysis Workspace 是一款报告工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和指标组合拖动到工作区项目中，可查看相应的效果。如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 新建]**来重头开始创建。
++++ 使用 Analysis Workspace 是否会影响数据收集？由于 Analysis Workspace 是一款报告工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和指标组合拖动到工作区项目中，可查看相应的效果。如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 新建]**&#x200B;来重头开始创建。
 +++
 
 +++一个 Analysis Workspace 项目可以显示多少个报告包？您现在可以在 Analysis Workspace 中使用[多个报告包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans)的数据创建项目。
@@ -45,7 +45,7 @@ ht-degree: 81%
 
 +++如何跟踪Workspace使用情况？
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[日志跟踪](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日志跟踪](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}。
 
 +++
 
