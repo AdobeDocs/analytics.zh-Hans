@@ -4,10 +4,10 @@ description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 77%
+source-wordcount: '395'
+ht-degree: 73%
 
 ---
 
@@ -19,18 +19,16 @@ Adobe 提供了三种向 Edge Network 发送数据的主要方式：
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展将数据发送到 Edge。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩展将数据发送到 Edge。
-* **[Adobe Experience Platform Edge Network Server API](server-api/overview.md)**：使用 API 直接向 Edge 发送数据。
-
-
+* **[Adobe Experience Platform Edge Network API](api/overview.md)**：使用API将数据直接发送到Edge Network。
 
 ## Adobe Analytics 处理 Edge Network 数据的方式
 
 发送到 Adobe Experience Platform Edge Network 的数据可以采用两种格式：
 
-* XDM 对象：符合基于 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)的架构。 XDM 可让您灵活地将字段定义为事件的一部分。事件到达 Adobe Analytics 时，会被转换为 Adobe Analytics 可以处理的格式。
+* XDM 对象：符合基于 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)的架构。 XDM 可让您灵活地将字段定义为事件的一部分。事件到达 Adobe Analytics 时，会被转换为 Adobe Analytics 可以处理的格式。
 * 数据对象：使用映射到 Adobe Analytics 的特定字段向 Edge Network 发送数据。 Edge Network 会检测这些字段的存在，并将其转发到 Adobe Analytics，而无需符合架构。
 
-该Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链接事件：
+Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链接事件：
 
 | XDM 负载包含... | Adobe Analytics... |
 |---|---|
@@ -53,4 +51,4 @@ Adobe 提供了三种向 Edge Network 发送数据的主要方式：
 
 {style="table-layout:auto"}
 
-请参阅 [Adobe Analytics ExperienceEvent Full Extension 模式字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=zh-Hans)，了解更多信息。
+请参阅 [Adobe Analytics ExperienceEvent Full Extension 架构字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html)，了解更多信息。

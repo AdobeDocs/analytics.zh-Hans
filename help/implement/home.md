@@ -4,10 +4,10 @@ description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 要实施 Adobe Analytics 服务器端，您有以下选项：
 
-* **Edge Server API**：您在使用 Adobe Experience Platform Edge Server API 通过数据流与 Adobe Analytics 进行通信的服务器上实施代码。
+* **Edge Network API**：在使用Adobe Experience Platform Edge Network API通过数据流与Adobe Analytics通信的服务器上实施代码。
   ![服务器端实施](assets/edge-network-server-api.svg)
-请参阅[使用 Adobe Experience Platform Edge Network Server API 实施 Adobe Analytics](/help/implement/aep-edge/server-api/overview.md)，了解更多信息。
+有关详细信息，请参阅[使用Adobe Experience Platform Edge Network API实施Adobe Analytics](/help/implement/aep-edge/api/overview.md)。
 
 * **（批量）数据插入 API**：您可以使用 Adobe Analytics（批量）数据插入 API 将服务器端数据直接收集到 Adobe Analytics 中。
   ![数据插入 API](assets/analytics-apis.png)
@@ -85,13 +85,13 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 * [Adobe Debugger](validate/debugger.md)
 * [在 Experience Platform 中创建标记属性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
-* [使用 Platform Web SDK 设置 Adobe Analytics 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=zh-Hans)
-* [“在移动应用程序中实施 Adobe Experience Cloud”教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)
+* [使用 Platform Web SDK 设置 Adobe Analytics 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [“在移动应用程序中实施 Adobe Experience Cloud”教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
 
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
+* [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新发行说明](../release-notes/latest.md)
