@@ -25,7 +25,7 @@ Adobe 提供了三种向 Edge Network 发送数据的主要方式：
 
 发送到 Adobe Experience Platform Edge Network 的数据可以采用两种格式：
 
-* XDM 对象：符合基于 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)的架构。 XDM 可让您灵活地将字段定义为事件的一部分。事件到达 Adobe Analytics 时，会被转换为 Adobe Analytics 可以处理的格式。
+* XDM 对象：符合基于 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)的架构。 XDM 可让您灵活地将字段定义为事件的一部分。事件到达 Adobe Analytics 时，会被转换为 Adobe Analytics 可以处理的格式。
 * 数据对象：使用映射到 Adobe Analytics 的特定字段向 Edge Network 发送数据。 Edge Network 会检测这些字段的存在，并将其转发到 Adobe Analytics，而无需符合架构。
 
 Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链接事件：
@@ -51,4 +51,4 @@ Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链�
 
 {style="table-layout:auto"}
 
-请参阅 [Adobe Analytics ExperienceEvent Full Extension 架构字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html)，了解更多信息。
+请参阅 [Adobe Analytics ExperienceEvent Full Extension 架构字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=zh-Hans)，了解更多信息。
