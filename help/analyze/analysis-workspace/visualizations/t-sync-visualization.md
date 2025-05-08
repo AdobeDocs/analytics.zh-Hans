@@ -5,19 +5,30 @@ title: 管理可视化图表数据源
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 96%
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
 # 管理可视化图表数据源 {#manage-visualization-data-sources}
 
 >[!CONTEXTUALHELP]
->id="workspace_datasource_lock_selection"
+>id="workspace_freeformtable_lockselection"
 >title="锁定选择"
->abstract="启用此设置可将可视化图表锁定到表位置或在数据源中选择的精确项。"
+>abstract="启用此设置可将可视化图表锁定到数据源中的选定位置或选定项目。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_lockselection_showtable"
+>title="显示表格"
+>abstract="选择&#x200B;**[!UICONTROL 显示表格]**&#x200B;将会为当前可视化图表生成一个新的数据源，并将其与原始数据源分开。"
+
+<!-- markdownlint-enable MD034 -->
 
 通过同步可视化图表，您可以控制与可视化图表对应的数据表或数据源。
 
@@ -40,7 +51,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据源设置](https://video.tv.adobe.com/v/328029?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据源设置](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

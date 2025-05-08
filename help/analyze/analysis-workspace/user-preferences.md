@@ -4,10 +4,10 @@ description: 您可以为用户设置常规和项目偏好设置，以及深色�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 99%
+source-wordcount: '3361'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理首选项](https://video.tv.adobe.com/v/3429988/?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[管理首选项](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,22 @@ ht-degree: 99%
 | 显示提示 | 在 Analysis Workspace 右下方区域的蓝色框中显示提示。 <p>默认启用选项。</p> |
 | 左边栏组中显示的组件 | 选择要在左边栏的“组件”菜单中显示的每个组件的数量。 <p>如果选择 0，则无法再从工作区的左边栏访问该组件。</p><p>默认情况下，为以下各项显示 5 个组件：</p> <ul><li>维度</li><li>量度</li><li>过滤器</li><li>日期范围</li></ul> <p>有关 Analysis Workspace 中组件的更多信息，请参阅[组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。</p> |
 
-## 公司偏好设置
+## 公司偏好设置 {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="仅允许与 Workspace 用户共享"
+>abstract="启用后，**[!UICONTROL 与任何人共享]**&#x200B;选项在共享 Analysis Workspace 项目时将不再可供用户使用。之前通过此共享选项获得项目访问权限的人员将无法再访问该项目。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="需要 Experience Cloud 身份验证"
+>abstract="启用后，通过Analysis Workspace中的&#x200B;**[!UICONTROL 与任何人共享]**&#x200B;选项授予项目访问权限的用户必须使用其Experience Cloud凭据进行身份验证。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="允许对项目进行评论"
+>abstract="启用后，Analysis Workspace 中每个项目的右侧栏中会显示一个评论区域。"
 
 您可以更新适用于组织内所有用户和项目的公司偏好设置。有关如何访问这些偏好设置的信息，请参阅[更新偏好设置](#update-preferences)。
 
@@ -65,7 +80,22 @@ ht-degree: 99%
 
 {style="table-layout:auto"}
 
-## 项目和分析偏好设置
+## 项目和分析偏好设置 {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="分类调色板"
+>abstract="应用于 Analysis Workspace 和引导式分析中的许多可视化功能。每种颜色代表不同的类别值。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="发散调色板"
+>abstract="应用于 Analysis Workspace 和用户增长引导式分析中的群组表。该调色板具有数字含义，其中带有两个极端以及中间的基线。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="顺序调色板"
+>abstract="应用于频率趋势（堆积条）引导式分析。该调色板具有从浅到深的数字含义。"
 
 您可以为在 Analysis Workspace 中创建的所有新项目自定义项目偏好设置。有关如何访问这些偏好设置的信息，请参阅[更新偏好设置](#update-preferences)。
 
@@ -87,7 +117,24 @@ ht-degree: 99%
 |  | CSV 分隔符字符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线</li><li>句点</li><li>空格</li><li>制表符</li></ul> |
 |  | 显示注释 | 选择注释是否在您的项目中可见。有关注释的更多信息，请参阅[注释概述](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
 
-## 自由格式表偏好设置
+## 自由格式表偏好设置 {#freeform-table-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="显示异常"
+>abstract="选择&#x200B;**[!UICONTROL 显示异常情况]**&#x200B;将会自动对已添加到时间序列可视化自由格式表中的第一个量度列运行异常检测。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="显示预测"
+>abstract="选择&#x200B;**[!UICONTROL 显示预测]**&#x200B;将会自动对已添加到时间序列可视化自由格式表中的第一个量度列进行预测。"
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="默认表量度"
+>abstract="选择用于自由格式表的默认量度。如果选定的数据视图不包含所选的默认量度，表格将自动切换到另一个主要量度。"
+
 
 您可以为在 Analysis Workspace 中创建的所有新项目自定义自由格式表偏好设置。有关如何访问这些偏好设置的信息，请参阅[更新偏好设置](#update-preferences)。
 

@@ -4,14 +4,19 @@ title: 什么是可视化图表调色板？其工作原理是怎样的？
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '238'
 ht-degree: 88%
 
 ---
 
-# 可视化图表调色板
+# 可视化图表调色板 {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="项目调色板"
+>abstract="更改此项目中使用的颜色调色板。"
 
 可更改在工作区中使用的可视化效果调色板，其中可选择不同的调色板或指定您自己的与贵公司品牌配色相配的调色板。此功能影响工作区中的大部分可视化效果，但它&#x200B;**不**&#x200B;影响[!UICONTROL 摘要变化]、[!UICONTROL 自由格式]表中的条件格式和[!UICONTROL 地图]可视化效果。
 
@@ -32,7 +37,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [使用自定义调色板](https://video.tv.adobe.com/v/328054?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)[使用自定义调色板](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

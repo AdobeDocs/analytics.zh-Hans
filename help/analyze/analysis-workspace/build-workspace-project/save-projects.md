@@ -4,14 +4,19 @@ title: 保存项目
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '749'
 ht-degree: 97%
 
 ---
 
-# 保存项目
+# 保存项目 {#save-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_addnotes"
+>title="添加注释"
+>abstract="添加有关正在保存的项目版本的注释。这些注释将会与该版本一起存储，并且可以通过&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 打开上一个版本]**&#x200B;菜单访问。"
 
 Analysis Workspace 中的项目每 2 分钟自动保存一次。
 
@@ -95,4 +100,4 @@ Analysis Workspace 中的所有项目每 2 分钟自动保存到本地计算机�
 1. 查看可用的先前版本列表。
    此时会显示[!UICONTROL 时间戳]和[!UICONTROL 编辑者]，如果在[!UICONTROL 编辑者]保存时添加了注释，还会显示[!UICONTROL 注释]。不带注释的版本会存储 90 天；带注释的版本会存储 1 年。
 1. 选择以前的版本，并单击&#x200B;**[!UICONTROL 加载]**。
-然后，以前的版本会加载并出现一条通知。在单击&#x200B;**[!UICONTROL 保存]**&#x200B;之前，以前的版本不会成为项目的当前保存版本。如果您离开加载的版本，返回时将看到上次保存的项目版本。
+然后，以前的版本会加载并出现一条通知。在单击**[!UICONTROL 保存]**&#x200B;之前，以前的版本不会成为项目的当前保存版本。如果您离开加载的版本，返回时将看到上次保存的项目版本。

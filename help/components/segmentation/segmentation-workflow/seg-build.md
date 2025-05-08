@@ -3,8 +3,8 @@ description: 区段生成器提供了一个画布以将量度维度、区段和�
 title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
+workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="创建受众"
->abstract="可以从过滤器创建受众并与 Adobe Experience Platform 共享以进行激活。"
+>abstract="可以从区段创建受众，与 Adobe Experience Platform 共享受众以将其激活。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="数据预览"
->abstract="将此过滤器的数据与数据视图的数据进行比较。预览百分比基于&#x200B;**过去 90 天**&#x200B;数据视图中的总数。<br><br/>如果未加载预览，则您的连接有可能仍在进行回填。"
+>abstract="将此区段的数据与数据视图的数据进行比较。预览百分比基于&#x200B;**过去 90 天**&#x200B;数据视图中的总数。<br><br/>如果未加载预览，则您的连接有可能仍在进行回填。"
 
 <!-- markdownlint-enable MD034 -->
 

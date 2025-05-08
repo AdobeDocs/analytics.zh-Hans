@@ -1,18 +1,25 @@
 ---
-description: Workspace 中的项目共享和项目角色
+description: 工作区中的项目共享和项目角色
 keywords: Analysis Workspace 共享
 title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8ce8d6fefdd2e3d4b11d527cc31f8a2fdf768e79
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 97%
+source-wordcount: '1953'
+ht-degree: 98%
 
 ---
 
-# 共享项目
+# 共享项目 {#share-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_shareprojects"
+>title="共享项目"
+>abstract="您可以与组织中的其他用户共享这些项目角色中的任何一个。"
+
+
 
 可与以下类型的人员共享 Analysis Workspace 项目：
 
@@ -34,7 +41,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共享项目](https://video.tv.adobe.com/v/40034?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[共享项目](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -53,11 +60,11 @@ ht-degree: 97%
 
 与组织中的用户和组共享特定项目角色时，请考虑以下事项：
 
-* 项目角色（**[!UICONTROL 编辑原件]**、**[!UICONTROL 编辑副本]**&#x200B;和&#x200B;**[!UICONTROL 只读]**）与用户和特定项目 ID 关联。项目角色与 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans) 中管理的用户权限无关。
+* 项目角色（**[!UICONTROL 编辑原始版本]**、**[!UICONTROL 编辑副本]**&#x200B;和&#x200B;**[!UICONTROL 只读]**）与用户和特定项目 ID 关联。项目角色与 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 中管理的用户权限无关。
 
-* 在 Adobe Analytics 中，组由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans) 中的产品配置文件定义。管理员可以共享到任何组，包括“全部”组。 除“全部”组外，非管理员可以共享到其所属的任何组。
+* 在 Adobe Analytics 中，组由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 中的产品配置文件定义。管理员可以共享到任何组，包括“全部”组。 除“全部”组外，非管理员可以共享到其所属的任何组。
 
-* 如果用户分配到了多个角色，将始终获得权限最高的角色体验。 如果同时将用户添加为个人和组成员，则可能发生这种情况。 例如，如果作为个人授予用户&#x200B;**[!UICONTROL 编辑原件]**&#x200B;角色，并作为组成员授予用户&#x200B;**[!UICONTROL 只读]**&#x200B;角色，则该用户将获得&#x200B;**[!UICONTROL 编辑原件]**&#x200B;项目体验。
+* 如果用户分配到了多个角色，将始终获得权限最高的角色体验。如果同时将用户添加为个人和组成员，则可能发生这种情况。例如，如果作为个人授予用户&#x200B;**[!UICONTROL 编辑原始版本]**&#x200B;角色，并作为组成员授予用户&#x200B;**[!UICONTROL 只读]**&#x200B;角色，则该用户将获得&#x200B;**[!UICONTROL 编辑原始版本]**&#x200B;项目体验。
 
 * 归入&#x200B;**[!UICONTROL 编辑副本]**&#x200B;或&#x200B;**[!UICONTROL 只读]**&#x200B;角色的管理员在打开项目时获得这些有限的体验。管理员可通过与自己共享项目并为自己授予&#x200B;**编辑**&#x200B;角色而将其角色更改为&#x200B;**[!UICONTROL 编辑原件]**，如以下过程所述。
 
@@ -75,7 +82,7 @@ ht-degree: 97%
 
    或
 
-   要仅共享单个项目，您可以打开要共享的项目，然后选择&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 与 Workspace 用户共享]**。
+   要仅共享单个项目，您可以打开要共享的项目，然后选择&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 与工作区用户共享]**。
 如果存在未保存的更改，则将提示您首先保存您的项目。
 
    此时会显示“共享项目”对话框。该对话框的&#x200B;[!UICONTROL **通过链接分享**]&#x200B;和&#x200B;[!UICONTROL **设置**]&#x200B;部分仅在共享单个项目时可见。
@@ -84,23 +91,23 @@ ht-degree: 97%
 
 1. 在提供的角色字段之一中添加收件人或收件人组：
 
-   **编辑原件：**&#x200B;收件人可将更改&#x200B;**[!UICONTROL 保存]**&#x200B;到项目，并作为共有人行使权力。如果您希望与其他同事共同管理项目，则此角色很有用；这包括编辑、删除和修改共享项目的收件人列表。<br>注意：Analysis Workspace 当前不支持实时协作，因此建议在给定时间只让一个用户编辑项目。如果同时保存多个项目，则将保留最后一个版本。
+   **编辑原始版本：**&#x200B;收件人可将更改&#x200B;**[!UICONTROL 保存]**&#x200B;到项目，并作为共有人行使权力。如果您希望与其他同事共同管理项目，则此角色很有用；这包括编辑、删除和修改共享项目的收件人列表。<br>注意：Analysis Workspace 当前不支持实时协作，因此建议在给定时间只让一个用户编辑项目。如果同时保存多个项目，则将保留最后一个版本。
 
    **编辑副本：**&#x200B;收件人可执行&#x200B;**[!UICONTROL 另存为]**，并有权访问左边栏。在此角色中，项目交互不受限。如果您希望将项目共享给了解您组织数据以及知道如何使用 Analysis Workspace 的用户，但不希望更改项目，则此角色非常有用。
 
-   **只读：**&#x200B;收件人无法执行&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 另存为]**，并且无权访问左边栏。项目交互受到限制。如果您希望将项目共享给不太熟悉您组织的数据结构或不太熟悉 Analysis Workspace 和 Adobe Analytics 的一般用户，则此角色非常有用。 但是，您可能仍然希望这些用户在一个安全的环境中使用数据和信息分析。详细了解[只读角色项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。
+   **只读：**&#x200B;收件人无法执行&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 另存为]**，并且无权访问左边栏。项目交互受到限制。如果您希望将项目共享给不太熟悉您组织的数据结构或不太熟悉 Analysis Workspace 和 Adobe Analytics 的一般用户，则此角色非常有用。 但是，您仍然希望这些用户在一个安全的环境中使用数据和信息分析。详细了解[只读角色项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。
 
 1. （条件）如果您共享单个项目，请选择是否在共享项目时启用以下选项：
 
    * **共享嵌入的项目组件：**&#x200B;与所有接收人共享区段、计算量度和日期范围。 共享后，这些组件将显示在接收人工作区的“组件”下拉菜单中。此设置不具有持续性，属于分享时的一次性操作。
 
-   * **设置为收件人的登陆页面：** 将此页面设置为收件人的登陆页面。 此设置不具有持续性，属于分享时的一次性操作。
+   * **设置为收件人的登陆页面：** 将此页面设置为收件人的登陆页面。此设置不具有持续性，属于分享时的一次性操作。
 
 1. 选择&#x200B;**[!UICONTROL 共享]**。（如果已共享该项目，请选择&#x200B;[!UICONTROL **更新**]。）
 
    或
 
-   选择&#x200B;**[!UICONTROL 策划和共享]**&#x200B;以自动应用项目策划。（如果项目已共享，请选择&#x200B;**[!UICONTROL 策划和更新]**。）了解有关[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)的更多信息。
+   选择&#x200B;**[!UICONTROL 策划和共享]**&#x200B;以自动应用项目策划。（如果已共享项目，请选择&#x200B;**[!UICONTROL 策划与更新]**。）详细了解[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)。
 
 ## 共享项目链接
 
@@ -108,7 +115,7 @@ ht-degree: 97%
 
 * 使用链接的收件人必须登录 Adobe Analytics 才能访问项目。
 
-* 如果没有为收件人分配角色，并且收件人收到项目的[链接](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hans)，则为其授予默认角色。管理员获得&#x200B;**[!UICONTROL 编辑原件]**&#x200B;角色，非管理员获得&#x200B;**[!UICONTROL 编辑副本]**&#x200B;角色。
+* 如果没有为收件人分配角色，并且收件人收到项目的[链接](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)，则为其授予默认角色。管理员获得&#x200B;**[!UICONTROL 编辑原件]**&#x200B;角色，非管理员获得&#x200B;**[!UICONTROL 编辑副本]**&#x200B;角色。
 
 要与您组织中的用户共享项目链接，请执行以下操作：
 
@@ -145,7 +152,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [与任何人共享链接](https://video.tv.adobe.com/v/3452472?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [与任何人共享链接](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -196,11 +203,11 @@ ht-degree: 97%
 
 ## 共享嵌入的组件
 
-您可以共享作为项目一部分的嵌入组件。
+您可以共享项目中嵌入的组件。
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共享嵌入的组件](https://video.tv.adobe.com/v/327500?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[共享嵌入的组件](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -211,4 +218,4 @@ ht-degree: 97%
 | --- | --- |
 | 如果两位编辑者同时保存一个项目，会发生什么情况？ | 将不会合并更改，并将保留最后保存的项目版本。Analysis Workspace 当前不支持实时协作。 |
 | 如果一位收件人作为个人和作为小组成员分别有不同的角色，会发生什么情况？ | 如果收件人同时具有多个角色，他们将始终获得权限最高的角色体验。例如，如果作为个人授予收件人&#x200B;**[!UICONTROL 编辑原件]**&#x200B;角色，并作为组成员授予收件人&#x200B;**[!UICONTROL 只读]**&#x200B;角色，则该收件人将获得&#x200B;**[!UICONTROL 编辑原件]**&#x200B;项目体验。 |
-| 如果收件人打开项目链接，他们会获得什么体验？ | 收件人将获得您在共享模式中为其分配的角色。如果没有为收件人分配角色，并且收件人收到项目的链接（**[!UICONTROL 共享]** > **[!UICONTROL 与 Workspace 用户共享]**，然后在&#x200B;**[!UICONTROL 通过链接共享]**&#x200B;字段旁选择&#x200B;**[!UICONTROL 复制]**），则为其授予默认角色。管理员获得&#x200B;**[!UICONTROL 编辑原件]**&#x200B;角色，非管理员获得&#x200B;**[!UICONTROL 编辑副本]**&#x200B;角色。 |
+| 如果收件人打开项目链接，他们会获得什么体验？ | 收件人将获得您在共享模式中为其分配的角色。如果没有为收件人分配角色，并且收件人收到项目的链接（**[!UICONTROL 共享]** > **[!UICONTROL 与 Workspace 用户共享]**，然后在&#x200B;**[!UICONTROL 通过链接共享]**&#x200B;字段旁选择&#x200B;**[!UICONTROL 复制]**），则为其授予默认角色。管理员获得&#x200B;**[!UICONTROL 编辑原始版本]**&#x200B;角色，非管理员获得&#x200B;**[!UICONTROL 编辑副本]**&#x200B;角色。 |
