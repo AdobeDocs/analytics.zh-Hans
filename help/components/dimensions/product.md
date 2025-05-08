@@ -3,7 +3,7 @@ title: 产品
 description: 产品的名称。
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 91%
@@ -20,4 +20,4 @@ ht-degree: 91%
 
 ## 维度项目
 
-由于此变量基于实施中的自定义字符串，因此，由您的组织来确定这些维度项目。Adobe 建议为产品确立一致的命名约定。如果想对产品进行不同分组或为其提供更友好的名称，则可以使用[分类](../classifications/c-classifications.md)。Adobe 建议同时使用“产品”和“类别”维度。
+由于此变量基于实施中的自定义字符串，因此，由您的组织来确定这些维度项目。Adobe 建议为产品确立一致的命名约定。如果想对产品进行不同分组或为其提供更友好的名称，则可以使用[分类](../classifications/classifications-overview.md)。Adobe 建议同时使用“产品”和“类别”维度。

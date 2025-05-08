@@ -3,14 +3,16 @@ description: 规则集是特定变量的一组分类规则。您可将变量应�
 title: 分类规则集
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 96%
+source-wordcount: '406'
+ht-degree: 89%
 
 ---
 
-# 分类规则集
+# 分类规则集（旧版）
+
+*此页面说明分类规则集是[分类规则生成器](classification-rule-builder.md)的一部分。 查看[分类集](../sets/overview.md)以了解当前在Adobe Analytics中分类数据的方法。*
 
 规则集是特定变量的一组分类规则。您可将变量应用到规则集。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。
 
@@ -56,8 +58,6 @@ ht-degree: 96%
 为分类规则集命名、应用变量并指定覆盖设置。
 
 1. （前提条件）在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**&#x200B;中定义分类结构。
-
-   （请参阅“管理工具”帮助中的[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)，以了解有关添加分类的信息。）
 
    只有在变量至少定义了一个分类后，变量才会在[!UICONTROL 新建规则集]面板中显示。
 

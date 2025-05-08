@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -33,7 +33,7 @@ ht-degree: 89%
 * **渠道：**&#x200B;可以称为：
    * 渠道变量，用于填充“网站区域”维度。请参阅《实施用户指南》中的[页面变量](/help/implement/vars/page-vars/page-variables.md)。
    * 营销渠道，可以帮助了解用户如何到达您网站的组件。请参阅《组件用户指南》中的[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-* **分类：** Adobe Analytics 中允许对维度项目进行分组的功能。请参阅《组件用户指南》中的[分类](/help/components/classifications/c-classifications.md)。
+* **分类：** Adobe Analytics 中允许对维度项目进行分组的功能。请参阅《组件用户指南》中的[分类](/help/components/classifications/classifications-overview.md)。
 * **Clickmap：**&#x200B;不再使用。一个旧版浏览器插件，用于显示您网站上哪些区域的点击率最高。此工具已停用，改为Activity Map。
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
 * **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？Analytics工具指南中的](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
@@ -67,7 +67,7 @@ ht-degree: 89%
    * 自定义分析，自定义流量变量的历史名称。
 * **KPI：**&#x200B;关键绩效指标的缩写。有助于企业了解其网站表现的量度。每个组织分别使用不同的 KPI 来衡量业务的不同方面。请参阅《实施用户指南》中的[创建解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * **延迟：**&#x200B;收集数据时和在报表中使用数据时之间的延迟。报表包中的典型延迟时间为 30-90 分钟。请参阅 Technotes 用户指南中的[延迟](/help/technotes/latency.md)。
-* **启动：**&#x200B;不再用作术语。Adobe Experience Platform 中的标记的以前简称，Adobe 当前的实施解决方案。请参阅《Adobe Experience Platform 用户指南》中的[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)。
+* **启动：**&#x200B;不再用作术语。Adobe Experience Platform 中的标记的以前简称，Adobe 当前的实施解决方案。请参阅《Adobe Experience Platform 用户指南》中的[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 * **列表属性：**&#x200B;一种设置，可转化典型流量变量以支持同一点击中的多个值。如果启用了该设置，则任何自定义流量变量都可以成为列表属性。请参阅《实施用户指南》中的[属性](../implement/vars/page-vars/prop.md)。
 * **列表变量：**&#x200B;与转化变量分开的不同变量。列表变量支持同一点击中的多个值，并且变量值会在访问中保留，与转化变量类似。组织只能使用三个列表变量。请参阅《实施用户指南》中的[列表](/help/implement/vars/page-vars/list.md)。
 * **登录公司：**&#x200B;由您的组织使用的报表包集合。某些组织具有多个适用于该组织不同部分的登录公司。
@@ -91,7 +91,7 @@ ht-degree: 89%
 * **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 * **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md)加载项允许您从Adobe Analytics数据构建自定义请求。
 * **报表包**：将数据发送到的首要容器。Adobe Analytics 中的所有报表都引用了一个报表包。
-* **Reports &amp; Analytics：**&#x200B;此工具[生命周期结束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=zh-Hans)。
+* **Reports &amp; Analytics：**&#x200B;此工具[生命周期结束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滚动日期范围：**&#x200B;随时间变化而更改的相对日期范围类型。例如，显示最近 7 天的报表可视为滚动日期范围。另请参阅“静态日期范围”。
 * **RSID：**&#x200B;报表包 ID 的缩写。报表包同时具有易记名称和报表包 ID。
 * **s.t()：** AppMeasurement 库中发送页面查看图像请求的函数的名称。有些 AppMeasurement 库使用 `s.track()`。请参阅《实施用户指南》中的 [t](../implement/vars/functions/t-method.md)。

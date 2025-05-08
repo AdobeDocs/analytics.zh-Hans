@@ -3,7 +3,7 @@ title: 分类集管理器
 description: 在Adobe Analytics中管理分类集。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 7%
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 分类集管理器中有以下列：
 
-* **[!UICONTROL 分类集]**：分类集名称。 单击分类集名称[可编辑其设置](settings.md)。
+* **[!UICONTROL 分类集]**：分类集名称。 单击分类集名称将编辑其[设置](settings.md)。
 * **[!UICONTROL 订阅]**：此分类集应用于的订阅数。
 * **[!UICONTROL 分类]**：分类集包含的分类维度数。
 * **[!UICONTROL 自动]**：确定分类集是否配置为从云位置自动导入数据。 可以在分类集的[架构](schema.md)中配置自动化。

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
 + [Analytics 组件指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
@@ -174,7 +174,7 @@ ht-degree: 100%
    + [语音量度](metrics/voice-metrics.md)
    + [具有 Experience Cloud ID 的访客](metrics/visitors-with-ecid.md)
    + [访问次数](metrics/visits.md)
-+ 分段{#segmentation}
++ 分段 {#segmentation}
    + [Analytics 分段](segmentation/seg-home.md)
    + [关于区段](segmentation/seg-overview.md)
    + [关于区段容器](segmentation/seg-containers.md)
@@ -223,7 +223,7 @@ ht-degree: 100%
       + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [复制计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [计算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + 量度引用 {#calcmetrics-reference}
+   + 量度参考 {#calcmetrics-reference}
       + [引用：基本函数](c-calcmetrics/cm-reference/cm-functions.md)
       + [引用：高级函数](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [量度兼容性](c-calcmetrics/cm-compatibility.md)
@@ -243,7 +243,7 @@ ht-degree: 100%
       + [创建虚拟报告包](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虚拟报告包](vrs/c-workflow-vrs/vrs-manage.md)
       + [查看虚拟报告包信息](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-Device Analytics {#cda}
++ 跨设备分析 {#cda}
    + [Cross-Device Analytics 概述](cda/overview.md)
    + [基于字段的拼合](cda/field-based-stitching.md)
    + [设备图](cda/device-graph.md)
@@ -257,10 +257,10 @@ ht-degree: 100%
    + [创建](c-alerts/alert-builder.md)
    + [管理](c-alerts/alert-manager.md)
    + [用例](c-alerts/alerts-use-cases.md)
-+ 分类{#classifications}
-   + [分类概述](classifications/c-classifications.md)
++ 分类 {#classifications}
+   + [分类概述](classifications/classifications-overview.md)
    + 分类集 {#sets}
-      + [分类集概述](classifications/sets/overview.md)
+      + [概述](classifications/sets/overview.md)
       + 管理分类集 {#manage}
          + [分类集管理器](classifications/sets/manage/set-manager.md)
          + [创建分类集](classifications/sets/manage/create.md)
@@ -269,30 +269,27 @@ ht-degree: 100%
          + [分类集规则](classifications/sets/manage/rules.md)
       + [分类集作业管理器](classifications/sets/job-manager.md)
       + 分类集合并 {#consolidations}
-         + [分类集合并管理器](classifications/sets/consolidations/manage.md)
-         + [分类集合并过程](classifications/sets/consolidations/process.md)
-   + 分类规则生成器 {#classifications-rulebuilder}
-      + [分类规则生成器工作流程](classifications/crb/classification-rule-builder.md)
+         + [合并管理器](classifications/sets/consolidations/manage.md)
+         + [合并过程](classifications/sets/consolidations/process.md)
+   + 分类规则生成器（旧版）{#classifications-rulebuilder}
+      + [概述](classifications/crb/classification-rule-builder.md)
       + [分类规则集](classifications/crb/classification-rule-set.md)
       + [分类规则](classifications/crb/classification-quickstart-rules.md)
-      + [分类规则 - 定义](classifications/crb/classification-rule-definitions.md)
-      + [子分类和规则生成器](classifications/crb/sub-classification-rule-builder.md)
-   + 分类导入器 {#classifications-importer}
-      + [分类导入器 — 概述](classifications/importer/c-working-with-saint.md)
+      + [分类规则定义](classifications/crb/classification-rule-definitions.md)
+      + [子分类和规则生成器](classifications/crb/subclassification-rule-builder.md)
+   + 分类导入器（旧版）{#classifications-importer}
+      + [分类导入程序概述](classifications/importer/c-working-with-saint.md)
       + [分类数据文件](classifications/importer/c-saint-data-files.md)
       + [删除分类数据](classifications/importer/t-delete-classification-data.md)
-      + [转义分类数据](classifications/importer/t-classifications-escape-data.md)
-      + [未分类键值](classifications/importer/nonclassified-keys.md)
       + [分类模板](classifications/importer/c-download-saint-data.md)
-      + [浏览器和 FTP 导入](classifications/importer/import-file.md)
       + [浏览器导入](classifications/importer/browser-import.md)
       + [浏览器导出](classifications/importer/browser-export.md)
       + [FTP 导入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP 导出](classifications/importer/ftp-export.md)
       + [处理时间](classifications/importer/processing-time.md)
-      + [疑难解答](classifications/importer/troubleshooting.md)
-   + [子分类](classifications/c-sub-classifications.md)
-   + [分类常见问题解答](classifications/faq.md)
+      + [子分类](classifications/importer/subclassifications.md)
+      + [故障排除](classifications/importer/troubleshooting.md)
+      + [常见问题解答](classifications/importer/importer-faq.md)
 + 位置 {#locations}
    + [位置管理器](/help/components/locations/locations-manager.md)
    + [云导入帐号](/help/components/locations/configure-import-accounts.md)

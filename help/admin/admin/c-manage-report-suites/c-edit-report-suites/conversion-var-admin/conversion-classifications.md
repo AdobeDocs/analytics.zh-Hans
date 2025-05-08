@@ -4,10 +4,10 @@ title: 转化分类
 feature: Classifications
 role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 96%
 
 ---
 
@@ -18,8 +18,6 @@ ht-degree: 93%
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**
 
 转化分类可用于分类转化变量。分类后，任何可使用关键数据生成的报告也可通过关联的数据属性来生成。
-
-启用分类后，使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)将特定值分配给相应的分类。
 
 >[!WARNING]
 >
@@ -46,9 +44,6 @@ ht-degree: 93%
    ![步骤信息](/help/admin/admin/assets/sub_class_create.png)
 
 1. 将鼠标悬停在&#x200B;**[!UICONTROL 编辑分类]**&#x200B;图标上，然后选择&#x200B;**[!UICONTROL 添加分类]**。
-1. 在&#x200B;**[!UICONTROL 选择类型]**&#x200B;字段中，选择要添加到变量的分类类型。
-
-   相关选项包括&#x200B;**[!UICONTROL 文本]**&#x200B;和&#x200B;**[!UICONTROL 数值]**。有关分类类型的详细信息，请参阅[关于分类](/help/components/classifications/c-classifications.md)。
 1. 在&#x200B;**[!UICONTROL 文本分类]**&#x200B;对话框中，根据需要配置分类。
 
 1. 在下拉列表对话框中添加或删除选项。

@@ -3,14 +3,14 @@ description: （可选）在将分类导入市场营销报告之前，您可以�
 title: 分类模板
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 99%
 
 ---
 
-# 分类模板
+# 分类模板（旧版）
 
 （可选）在将分类导入报表和项目之前，您可以下载模板来帮助您创建分类数据文件。数据文件将您所需的分类用作列标题，然后将报表数据集整理在相应的分类标题下。
 

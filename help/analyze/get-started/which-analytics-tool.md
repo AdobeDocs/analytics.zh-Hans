@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '1219'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '1122'
+ht-degree: 89%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [工具比较](https://video.tv.adobe.com/v/30267?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [工具比较](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
-## Adobe Analytics 报表用户界面 {#user-interfaces}
+## Adobe Analytics报表用户界面 {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
 
@@ -36,36 +36,30 @@ ht-degree: 100%
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** 是 Adobe Analytics 中的一项功能，它用视觉方式展示用户使用网页和移动应用程序的情况。它使营销人员和分析人员可跟踪和分析用户交互，如点击、悬停和滚动行为。
 
-## 将数据导入到 Adobe Analytics 中 {#import}
+## 将数据导入Adobe Analytics {#import}
 
-**[分类](/help/components/classifications/c-classifications.md)**&#x200B;的使用说明：
+**[分类](/help/components/classifications/classifications-overview.md)**&#x200B;的使用说明：
 
-* 适用于要将元数据与收集值（eVar、prop、营销渠道）关联的情况
-* 选项:
-
-   * 规则生成器：可在为变量（例如分隔值）收集可预测格式的值时使用。通过这种方法，您只需设置一次规则，然后就“万事无忧”了。
-   * 浏览器导入器：可在没有可预测的值或需要一次性更新有限的值列表时使用。此方法要求您持续监控分类的新值。
+* 当存在要与收集值(eVar、prop、营销渠道)关联的元数据时。 Adobe建议使用[分类集](/help/components/classifications/sets/overview.md)。 分类规则生成器和分类导入器是将分类数据导入Adobe Analytics的旧方法。
 
 **[数据源](/help/import/data-sources/overview.md)**&#x200B;的使用说明：
 
 * 适用于要将离线数据永久写入 Adobe Analytics 的情况
 * 选项:
-
    * 摘要：按日期或有限维度显示简单数据上传
    * 交易 ID：数据上传将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
-   * 完全处理：像处理 Adobe 服务器收集的点击一样处理带有时间戳的数据源。例如，直接将数据插入访客历程。
 
 **[Adobe Exchange 集成](https://www.adobeexchange.com/experiencecloud.html)**&#x200B;应该用于：
 
 * 与已建立支持的 Adobe Analytics 连接的第三方提供商开展业务的情况。集成应用程序一般不断自动地将摘要级别的数据永久纳入 Adobe Analytics。
 
-应在以下情况下使用&#x200B;**[数据插入 API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**：
-
-* 当您需要将数据上传到 Adobe Analytics 中，但无法使用 Adobe AppMeasurement 或移动 SDK 代码时。我们建议使用批量数据插入 API（见下文）。
-
 **[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* “数据插入 API”和“批量数据插入 API”都可以把从服务器端收集的数据提交到 Adobe Analytics。每次生成事件时都将调用“数据插入 API”。“批量数据插入 API”接受包含事件数据在内的 CSV 格式的文件，其中每行有一个事件。如果您正在实施新的服务器端收集，我们建议您使用“批量数据插入 API”。
+* “批量数据插入API”接受包含事件数据（每行一个事件）的CSV格式的文件。 Adobe建议对需要服务器端代码或无法使用AppMeasurement或Web SDK进行数据收集的任何实施使用批量插入API。
+
+**[数据插入API（旧版）](/help/import/c-data-insertion-api/c-data-insertion-api.md)**&#x200B;的使用说明：
+
+* 适用于需要将数据导入Adobe Analytics并且无法使用AppMeasurement、Web SDK或批量数据插入API的情况。
 
 应在以下情况下使用&#x200B;**[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)**：
 

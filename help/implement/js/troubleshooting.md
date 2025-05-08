@@ -4,7 +4,7 @@ description: 了解 JavaScript 实施存在的常见问题以及疑难解答最�
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -110,4 +110,4 @@ s.pageName = "        Home Page";
   s.prop2 = "D=v1";
   ```
 
-* **使用分类**：如果产品或页面名称异常长，则可以使用标识值或代码，然后使用[分类](/help/components/classifications/c-classifications.md)来显示更友好的名称。
+* **使用分类**：如果产品或页面名称异常长，则可以使用标识值或代码，然后使用[分类](/help/components/classifications/classifications-overview.md)来显示更友好的名称。

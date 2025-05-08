@@ -3,18 +3,18 @@ description: 分类规则生成器中的页面上界面元素的定义。
 title: 分类规则 - 定义
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '862'
+ht-degree: 94%
 
 ---
 
-# 分类规则 - 定义
+# 分类规则定义（旧版）
 
 分类规则生成器中的页面上界面元素的定义。
 
-## “规则”页面 {#section_4A5BF384EEEE4994B6DC888339833529}
+## “规则”页面
 
 此页面显示规则集中的规则。
 
@@ -56,7 +56,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>回顾窗口 </p> </td> 
-   <td colname="col2"> <p>激活并验证规则时，您可以指定规则是否应覆盖受影响键值的现有分类。（只有之前在指定的时间段内传递给 <span class="keyword">Adobe Analytics</span> 的分类键值才会受到影响。） </p> <p>如果您没有指定<span class="term">回顾窗口</span>，则规则大约一个月回顾一次（取决于当前日期）。现有分类不会被覆盖，除非您启用此选项。 </p> <p><b>开发中心</b>：合作伙伴可以在<span class="wintitle">开发中心</span>创建分类规则。当客户激活集成时，即会部署这些规则。在<span class="wintitle">开发中心</span>，合作伙伴通过<span class="uicontrol">覆盖开始时间</span>选项可以指定客户在激活或编辑集成时，是否能够决定覆盖值。 </p> <p>请参阅<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >如何处理规则</a>，以了解有关规则处理的详细信息。 </p> </td> 
+   <td colname="col2"> <p>激活并验证规则时，您可以指定规则是否应覆盖受影响键值的现有分类。（只有之前在指定的时间段内传递给 <span class="keyword">Adobe Analytics</span> 的分类键值才会受到影响。） </p> <p>如果未指定<span class="term">回顾窗口</span>，则规则大约一个月回顾一次（取决于当前日期）。 现有分类不会被覆盖，除非您启用此选项。 </p> <p><b>开发中心</b>：合作伙伴可以在<span class="wintitle">开发中心</span>创建分类规则。当客户激活集成时，即会部署这些规则。在<span class="wintitle">开发中心</span>，合作伙伴通过<span class="uicontrol">覆盖开始时间</span>选项可以指定客户在激活或编辑集成时，是否能够决定覆盖值。 </p> <p>请参阅<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >如何处理规则</a>，以了解有关规则处理的详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > 添加规则 </a> </td> 

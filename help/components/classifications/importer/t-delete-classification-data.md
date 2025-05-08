@@ -3,10 +3,10 @@ description: 描述如何删除或移除分类数据的步骤。
 title: 删除分类数据
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 96%
 
 ---
 
@@ -55,5 +55,5 @@ ht-degree: 100%
 * 如果使用 `~deletekey~`，则分类文件中每行只需要一个。
 * `~empty~` 和 `~deletekey~` 必须“完全”**&#x200B;匹配。不允许使用空格或大写。
 * 您不能删除键列中的值。这些值将直接传递到变量中，并且是永久性的。
-* 如果删除具有子分类的分类值，则也会删除这些子分类。没有键值的分类无法存在，而子分类的父级是其键值。
+* 如果删除具有子分类的分类值，则也会删除这些子分类。 没有键值的分类无法存在，而子分类的父级是其键值。
 * 可以在保持父分类完整的情况下，删除子分类数据。

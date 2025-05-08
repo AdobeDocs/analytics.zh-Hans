@@ -4,9 +4,9 @@ keywords: ftp;sftp
 title: 分类
 feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '450'
 ht-degree: 89%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 89%
 # 分类
 
 分类 FTP 选项在上传较大的分类数据集方面具有更大的灵活性，包括能够将数据上传到多个报表包，并可上传大于 50000 行的数据集。
-
-请参阅[分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=zh-Hans)，以了解有关如何通过 FTP 下载分类数据，以及如何通过 FTP 上传数据文件的步骤（包括创建 FTP 帐户的步骤）。
 
 系统导入这些文件所需的时间长短取决于多种因素。如果上传的文件在 FTP 服务器上留存超过三天，请让贵组织的支持用户联系 Adobe 客户关怀部门。
 

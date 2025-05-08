@@ -3,7 +3,7 @@ title: Adobe Analytics 中处理数据的顺序
 description: 了解在 Adobe Analytics 中处理数据的组件和服务的顺序。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 91%
@@ -21,7 +21,7 @@ Adobe 提供多种方式，可在报表中出现数据之前更改或操纵数�
 将数据发送到 Adobe 之前，自动使用以下方法之一在客户端编译数据：
 
 * **AppMeasurement**：一个托管在您的站点上并在每个页面上都引用的 JavaScript 文件。数据直接发送到 Adobe Analytics。
-* **Adobe Experience Platform Web SDK**：一个托管在您的站点上并在每个页面上都引用的 JavaScript 文件。数据会发送到Adobe Experience PlatformEdge Network。
+* **Adobe Experience Platform Web SDK**：一个托管在您的站点上并在每个页面上都引用的 JavaScript 文件。数据会发送到Adobe Experience Platform Edge Network。
 * **Adobe Experience Cloud Data Collection 中的标记**：一个在每个页面上都引用的 JavaScript 文件，其中包含在 Data Collection UI 中创建的规则。Adobe Analytics 扩展提供一种更容易实施 AppMeasurement 的方式。Web SDK 扩展提供一种更容易实施 Web SDK 的方式。
 
 如果将数据发送到Edge Network，则可将其配置为将数据转发到Adobe Analytics(以及许多其他Adobe Experience Cloud解决方案)。 无论何种实施方法，最终都是将一个具有所需变量的图像请求发送到 Adobe 数据收集服务器。
@@ -47,5 +47,5 @@ Adobe Analytics 中的数据大多为永久数据；但是，通过某些功能�
 
 * [**数据修复 API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)：编辑数据的某些列或删除数据中所需的行。
 * [**数据治理**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)：考虑到隐私请求而永久删除数据。
-* [**分类**](/help/components/classifications/c-classifications.md)：根据规则或上传的数据创建维度，这样使您可按不同方式组织数据。不更改报表套件的底层数据，因此您可随意编辑或覆盖分类数据。
+* [**分类**](/help/components/classifications/classifications-overview.md)：根据规则或上传的数据创建维度，这样使您可按不同方式组织数据。不更改报表套件的底层数据，因此您可随意编辑或覆盖分类数据。
 * [**虚拟报表包**](/help/components/vrs/vrs-about.md)：创建可更改访问超时的备用报表包视图或允许[跨设备分析](/help/components/cda/overview.md)。

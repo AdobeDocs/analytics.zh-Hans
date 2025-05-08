@@ -5,7 +5,7 @@ uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 76%
@@ -22,4 +22,4 @@ ht-degree: 76%
 
 分类的访问方式与报表包中其他报表的访问方式相同，并且维度在组中显示为顶级报表。如果报表具有分类，则会创建菜单子组，以在同一位置收集报表及其所有分类。在分类中，报表显示为列表中的最后一个条目。
 
-请参阅[分类](/help/components/classifications/c-classifications.md)。
+请参阅[分类](/help/components/classifications/classifications-overview.md)。

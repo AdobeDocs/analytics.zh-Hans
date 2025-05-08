@@ -3,18 +3,18 @@ description: 如何通过 FTP 上传数据文件。
 title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '725'
 ht-degree: 90%
 
 ---
 
-# FTP 导入
+# FTP导入（旧版）
 
 >[!IMPORTANT]
 >
->我们不再建议使用FTP进行导入，如本页所述。
+>Adobe不再建议使用FTP进行导入，如本页所述。
 >
 >不建议使用FTP，因为这是一种未加密的共享文件方法，这意味着任何人都可以拦截文件内容以及用于帐户的用户名和密码。
 >

@@ -3,10 +3,10 @@ description: 设置实时报表的管理步骤。
 title: 实时报表配置
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 77%
+source-wordcount: '211'
+ht-degree: 76%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 77%
    >[!NOTE]
    >
    >对于单个实时报表，目前不支持启用重复维度，即使为每个维度选择不同分类也是如此。
-
-   有关分类的详细信息，请参阅[关于分类](/help/components/classifications/c-classifications.md)。
 
    >[!NOTE]
    >

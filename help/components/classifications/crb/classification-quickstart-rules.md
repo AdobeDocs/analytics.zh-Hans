@@ -3,14 +3,14 @@ description: 分类规则会定期查找未分类的术语。如果找到匹配�
 title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '2001'
-ht-degree: 91%
+source-wordcount: '1979'
+ht-degree: 88%
 
 ---
 
-# 分类规则
+# 分类规则（旧版）
 
 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 
 例如，假设电子邮件促销活动 ID 的跟踪代码为：
 
-`em:Summer:2013:Sale`。
+`em:Summer:20XX:Sale`。
 
 您可以在规则集中设置三条规则来识别字符串的各个部分，然后对值进行分类：
 
@@ -35,7 +35,7 @@ ht-degree: 91%
 |---|---|---|---|
 | 开头 | em: | 渠道 | 电子邮件 |
 | 结束 | Sale | 类型 | Sale |
-| 包含 | 2013 | 年 | 2013 |
+| 包含 | 20XX | 年 | 20XX |
 
 ## 如何处理规则 {#how-rules-are-processed}
 
@@ -95,18 +95,6 @@ about_classification_rules.xml
 
 使用正则表达式将格式一致的字符串值与分类进行匹配。例如，您可以从跟踪代码中的特定字符创建分类。您可以匹配特定字符、词语或字符模式。
 
-<!-- 
-
-regex_classification_rules.xml
-
- -->
-
-* [正则表达式 - 跟踪代码示例](/help/components/classifications/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
-* [正则表达式 - 对特定字符进行分类](/help/components/classifications/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
-* [正则表达式 - 匹配不同长度的跟踪代码](/help/components/classifications/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [正则表达式 -“不包含”示例](/help/components/classifications/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [正则表达式 - 参考表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
-
 >[!NOTE]
 >
 >作为最佳实践，正则表达式最适合使用分隔符的跟踪代码。
@@ -115,29 +103,29 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->如果跟踪代码采用 URL 编码，它将&#x200B;**不会**&#x200B;由规则生成器分类。
+>如果跟踪代码采用URL编码，它将&#x200B;**不**&#x200B;由规则生成器分类。
 
 在此示例中，假设您要对以下促销活动 ID 进行分类：
 
-[!UICONTROL Sample Key]: `em:JuneSale:20130601`
+示例密钥： `em:JuneSale:20XX0601`
 
 您要分类的跟踪代码包含以下部分：
 
 * `em` = 电子邮件
 * `JuneSale` = 促销活动名称
-* `20130601` = 日期
+* `20XX0601` = 日期
 
-[!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
+正则表达式： `^(.+)\:(.+)\:(.+)$`
 
 正则表达式与促销活动 ID 的关联方式：
 
 ![](assets/regex.png)
 
-[!UICONTROL 匹配群组]：显示正则表达式如何与促销活动 ID 字符相对应，以便您可以对促销活动 ID 中的位置进行分类。
+匹配群组：显示正则表达式如何与促销活动ID字符相对应，以便您可以对促销活动ID中的位置进行分类。
 
 ![](assets/regex_tracking_code.png)
 
-此示例说明了促销活动日期 `20140601` 位于第三组 `(.+)` 且由 `$3` 标识的规则。
+此示例说明了促销活动日期 `20XX0601` 位于第三组 `(.+)` 且由 `$3` 标识的规则。
 
 **[!UICONTROL 规则生成器]**
 
@@ -145,22 +133,22 @@ regex_classification_rules.xml
 
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
-| 正则表达式 | &Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
+| 正则表达式 | &amp;Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
 
 **语法**
 
 | 正则表达式 | 字符串或匹配结果 | 对应的匹配群组 |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`： `em:JuneSale:20130601` `$1`： em `$2`： JuneSale `$3`： 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`： `em:JuneSale:20XX0601` `$1`： em `$2`： JuneSale `$3`： 20XX0601 |
 | 构建语法 | `^` = 开始此行  () = 将字符分组并让您提取括号中的匹配字符。`(.+)` = 捕获一个 ( . ) 字符，以及再捕获 ( + )  \ = 字符串的开头。`$` = 指示前面的字符（或字符组）位于行的最后。 |
 
-有关正则表达式中字符含义的信息，请参阅[正则表达式 - 参考表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
+有关正则表达式中字符含义的信息，请参阅[正则表达式 - 参考表](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
 ## 正则表达式 - 对特定字符进行分类 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 使用正则表达式的一种方式是对一串字符中的特定字符进行分类。例如，假设以下跟踪代码包含两个重要字符：
 
-[!UICONTROL Sample Key]: `4s3234`
+示例密钥： `4s3234`
 
 * `4` = 品牌名称
 * `s` = 标识搜索引擎，例如 Google
@@ -308,7 +296,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->在此过程中，必须将规则应用到一个或多个报告包。即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您有超过100条规则，请考虑使用[子分类](/help/components/classifications/c-sub-classifications.md)来简化规则集。
+>在此过程中，必须将规则应用到一个或多个报告包。即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您有超过100条规则，请考虑使用[子分类](/help/components/classifications/importer/subclassifications.md)来简化规则集。
 
 添加或编辑分类规则：
 
