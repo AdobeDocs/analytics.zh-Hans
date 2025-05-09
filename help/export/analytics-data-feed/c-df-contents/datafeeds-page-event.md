@@ -1,25 +1,46 @@
 ---
-description: 用于根据 page_event 值确定点击类型的对照表。
-keywords: 数据馈送;页面;事件;page_event;post_page_event
-title: 页面事件对照
+description: 用于根据页面事件确定点击类型的查找表。
+keywords: 页面；事件；页面事件；post_page_event
+title: 页面事件查找
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
-# 页面事件对照
+# 页面事件查找
 
-用于根据 page_event 值确定点击类型的对照表。
+用于根据`page_event`值确定点击类型的查找表。 如[数据列引用](datafeeds-reference.md)中所述，`page_event`和`post_page_event`列不带正负号的tinyint。
 
-| 点击类型 | `page_event` value | `post_page_event` value |
+* 请参阅[`t()`](/help/implement/vars/functions/t-method.md)以了解如何为AppMeasurement和Web SDK实施页面查看调用。
+* 请参阅[`tl()`](/help/implement/vars/functions/tl-method.md)以了解如何为AppMeasurement和Web SDK实施链接跟踪调用。
+* 请参阅[使用Adobe Experience Platform Edge Network实施Adobe Analytics](/help/implement/aep-edge/overview.md)，了解Adobe Analytics如何将XDM负载转换为页面事件类型。
+
+| `page_event` value | `post_page_event` value | 描述 |
 | --- | --- | --- |
-| 页面查看 | 0：来自 Mobile SDK 的所有页面查看调用和 `trackState` 调用 | 与 `page_event` 的值相同 |
-| 链接跟踪 | 10：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>11：下载链接<br>12：退出链接 | 100：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>101：下载链接<br>102：退出链接 |
-| 里程碑视频 | 31：媒体开始<br>32：媒体更新（无其他变量处理）<br>33：媒体更新（使用其他变量） | 76：媒体开始<br>77：媒体更新（无其他变量处理）<br>78：媒体更新（使用其他变量） |
-| 心率视频 | 50：媒体流开始（非 Primetime）<br>51：媒体流关闭（非 Primetime）<br>52：媒体流删除（非 Primetime）<br>53：媒体流继续存在（非 Primetime）<br>54：媒体流广告开始（非黄金时段）<br>55：媒体流广告结束（非 Primetime）<br>56：媒体流广告删除（非 Primetime）<br>60：Primetime 媒体流开始<br>61：Primetime 媒体流结束<br>62：Primetime 媒体流删除<br>63：Primetime 媒体流继续存在<br>64：Primetime 媒体流广告开始<br>65：Primetime 媒体流广告结束<br>66：Primetime 媒体流广告删除 | 与 `page_event` 的值相同 |
-| 调查 | 40：从调查生成的任何调用 | 80：从调查生成的任何调用 |
-| Analytics for Target | 70：点击包括 Target 活动数据 | 与 `page_event` 的值相同 |
+| `0` | `0` | 所有标准页面查看调用。 它是大多数点击的默认值。 |
+| `10` | `100` | 自定义链接。 将链接类型设置为`o` (AppMeasurement)或`xdm.web.webInteraction.type`设置为`other` (Web SDK或移动SDK)。 |
+| `11` | `101` | 下载链接。 将链接类型设置为`d` (AppMeasurement)或`xdm.web.webInteraction.type`设置为`download` (Web SDK或移动SDK)。 |
+| `12` | `102` | 退出链接。 将链接类型设置为`e` (AppMeasurement)或`xdm.web.webInteraction.type`设置为`exit` (Web SDK或移动SDK)。 |
+| `31` | `76` | 媒体开始 |
+| `32` | `77` | 媒体更新（无其他变量处理） |
+| `33` | `78` | 媒体更新（通过其他变量处理） |
+| `40` | `80` | 调查 |
+| `50` | `50` | 流媒体开始 |
+| `51` | `51` | 流媒体关闭 |
+| `52` | `52` | 流媒体推移 |
+| `53` | `53` | 流媒体保持活动状态 |
+| `54` | `54` | 流媒体广告开始 |
+| `55` | `55` | 流媒体广告关闭 |
+| `56` | `56` | 流媒体广告推移 |
+| `60` | `60` | Primetime媒体开始 |
+| `61` | `61` | Primetime媒体关闭 |
+| `62` | `62` | Primetime媒体清理 |
+| `63` | `63` | Primetime媒体保持活动状态 |
+| `64` | `64` | Primetime媒体广告开始 |
+| `65` | `65` | Primetime媒体广告关闭 |
+| `66` | `66` | Primetime媒体广告推移 |
+| `70` | `70` | 包括Target活动数据 |

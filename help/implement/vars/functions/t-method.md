@@ -4,9 +4,9 @@ description: 向 Adobe 发送页面查看跟踪调用。
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 56%
 
 ---
@@ -47,7 +47,7 @@ Adobe 会接收图像请求，然后解析请求标头、URL 和查询字符串�
 1. 在[!UICONTROL 操作]下，单击所需的操作或单击&#x200B;**“+”**&#x200B;图标以添加操作。
 1. 将[!UICONTROL 扩展]下拉列表设置为&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**，将[!UICONTROL 操作类型]设置为&#x200B;**[!UICONTROL 发送事件]**。
 
-## 手动发送实施Web SDK的事件
+## 手动发送事件以实施Web SDK
 
 使用`sendEvent`命令将数据发送到Adobe。 数据流接收此数据，应用任何配置的映射，并将该数据转发到Adobe Analytics（如果它是向此数据流添加的服务）。
 
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-有关详细信息，请参阅Web SDK文档中的[跟踪事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans)。
+有关详细信息，请参阅Web SDK文档中的[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)。
 
 ## 使用Adobe Analytics扩展的“页面查看跟踪”调用
 
