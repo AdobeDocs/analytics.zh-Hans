@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-有关详细信息，请参阅Web SDK文档中的[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)。
+有关详细信息，请参阅Web SDK文档中的[`sendEvent`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/sendevent/overview)。
 
 ## 使用Adobe Analytics扩展的“页面查看跟踪”调用
 
