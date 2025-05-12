@@ -4,10 +4,10 @@ title: 新报表包 — 设置
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 | 起始日期 | 通知 Adobe 您希望此报表包变为活动状态的日期。如果您的部署计划有更改，请使用流量管理中的永久性预期流量工具提供更新的流量预估。 |
 | 估计每天页面查看次数 | 确定您预计此报表包在一天内支持的估计页面查看次数。大流量需要的批准过程较长。为避免处理延迟，请尽量确保此估计值的准确性。 |
 | 基本货币 | 指定用于存储所有货币数据的默认货币。Analytics 报表可以使用收到数据时的最新货币兑换率，将使用其他货币进行的交易转换为基本货币。Analytics 报表使用 currencyCode JavaScript 变量确定给定交易的货币。 |
-| 禁用多字节字符支持 | 禁用对报表包的多字节字符支持。如果禁用多字节字符支持，则系统会假定数据为 `ISO-8859-1` 格式。 页面必须在 charSet JavaScript 变量中指定其字符集。 <p>多字节字符支持使用 UTF-8 将字符存储在报表包中。系统在接收数据之后会将其从您的网页字符集转换为 UTF-8 字符集，从而使您可以在市场营销报告中使用任何语言。要将现有报表包更改为支持多字节字符，请联系您的 Adobe 客户团队或客户关怀团队。 |
+| 启用日语关键词处理 | 为报表包启用多字节字符支持。 如果禁用多字节字符支持，则系统会假定数据为 `ISO-8859-1` 格式。 页面必须在 charSet JavaScript 变量中指定其字符集。 <p>多字节字符支持使用 UTF-8 将字符存储在报表包中。系统在接收数据之后会将其从您的网页字符集转换为 UTF-8 字符集，从而使您可以在市场营销报告中使用任何语言。要将现有报表包更改为支持多字节字符，请联系您的 Adobe 客户团队或客户关怀团队。 |
+| 使用简化的导航菜单 | 此功能是[Reports &amp; Analytics](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?)的一部分，不再受支持。 |
 
 {style="table-layout:auto"}

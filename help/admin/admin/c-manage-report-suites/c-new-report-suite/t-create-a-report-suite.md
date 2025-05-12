@@ -3,10 +3,10 @@ description: 创建用于在 Adobe Analytics 中收集数据的基本容器
 title: 创建报表包
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 ## 创建报表包 {#create-report-suite}
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
-1. 单击&#x200B;**[!UICONTROL 新建]**>**[!UICONTROL 报表包]**。
+1. 单击&#x200B;**[!UICONTROL 添加报表包]**。
 1. 选择要用作[模板](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)的预定义模板或现有报表包。
 
    >[!NOTE]
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 **登录到 Experience Cloud 后，Analytics 图标显示为灰色。**
 
-这意味着您的帐户尚未获得所需的 Analytics 访问权限。与组织中的系统级别管理员合作，确保您所属的配置文件具有足够权限访问 Adobe Analytics。
+这意味着您的帐户尚未获得所需的 Analytics 访问权限。与组织中的系统级别管理员合作，确保您所属的轮廓具有足够权限访问 Adobe Analytics。
 
 ## 后续步骤
 
