@@ -3,10 +3,10 @@ description: 以下说明可帮助您找到您的 Google 帐户 ID 和 Bing 帐�
 title: 找到帐户 ID
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 67%
+source-wordcount: '247'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 67%
 
 以下说明可帮助您找到您的 Google 帐户 ID 和 Bing 帐户 ID。
 
-## Google AdWords {#section_2A62AD448BD949889DB77C2AF3E04C33}
+## Google Ads (AdWords) {#section_2A62AD448BD949889DB77C2AF3E04C33}
 
 >[!IMPORTANT]
 >
@@ -27,18 +27,18 @@ ht-degree: 67%
 
 单击右上角的“帐户”图标可查看 AdWords 帐号（客户 ID）。
 
-![](assets/google_account.png)
+![Google广告管理器帐户](assets/google-account.png)
 
-## Bing {#section_F1B9C7E997444746936599732CD62665}
+## Microsoft Advertising(Bing) {#section_F1B9C7E997444746936599732CD62665}
 
 >[!NOTE]
 >
->如果您的Bing帐户使用Google导入功能，请确保更新正确的跟踪字符串。 跟踪字符串不会自动从Google版本更新为正确的Bing跟踪字符串，并可能会产生不明确的数据。 可在[此处](https://help.ads.microsoft.com/apex/index/3/en/50851/)找到有关该功能的更多详细信息。
+>如果您的Microsoft Advertising（以前称为Bing）帐户正在使用Google导入功能，请确保更新正确的跟踪字符串。 跟踪字符串不会自动从Google版本更新为正确的Bing跟踪字符串，并可能会产生不明确的数据。 可在[此处](https://help.ads.microsoft.com/apex/index/3/en/50851/)找到有关该功能的更多详细信息。
 
-需要同时输入帐户 ID 和客户 ID。它们均已在“帐户”选项卡上列出。
+**[!UICONTROL 帐户ID]**&#x200B;和&#x200B;**[!UICONTROL 帐号]**&#x200B;都是必需的。 它们列在&#x200B;**[!UICONTROL 设置]**&#x200B;中的&#x200B;**[!UICONTROL 帐户设置]**&#x200B;选项卡上。
 
 >[!NOTE]
 >
 >帐号与帐户 ID 不同。
 
-![](assets/bing_id.png)
+![Microsoft Advertising](assets/bing-id.png)

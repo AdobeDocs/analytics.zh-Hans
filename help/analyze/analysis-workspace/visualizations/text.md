@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 86%
 
 ---
 
@@ -46,16 +46,20 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 编辑文本框或描述时，您可以调整字体大小（标题级别）、样式（粗体、斜体、下划线）以及对齐所选文本。还可以添加项目符号和编号列表。
 
-![Workspace 项目的文本选项突出显示了文本调色板。](assets/format.png)
+![工作区项目的文本选项突出显示了文本调色板。](assets/format.png)
 
 ## 添加超链接 {#hyperlinks}
 
-要添加超链接，请突出显示文本并在菜单中选择![链接](/help/assets/icons/Link.svg)。您可以使用超链接为项目接收方提供进一步的帮助。超链接可以链接到外部网站、文档页面、[Workspace 项目、面板或可视化图表](/help/analyze/analysis-workspace/curate-share/shareable-links.md)等。
+要添加超链接，请突出显示文本并在菜单中选择![链接](/help/assets/icons/Link.svg)。您可以使用超链接为项目接收方提供进一步的帮助。超链接可以链接到外部网站、文档页面、[工作区项目、面板或可视化图表](/help/analyze/analysis-workspace/curate-share/shareable-links.md)等。
 
 ![突出显示链接图标的文本选项。](assets/hyperlink.png)
 
 ## 添加图像 {#images}
 
-要将图像添加到项目，在菜单中选择![图像](/help/assets/icons/Image.svg)，然后插入公共图像 URL。该图像 URL 必须可公开访问、以 `https` 开头并且格式为 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持静态图像和动画图像。
+若要向项目中添加图像，请在菜单中选择![图像](/help/assets/icons/Image.svg)，然后在&#x200B;**[!UICONTROL 图像URL]**（例如`https://www.adobe.com/uploads/2018/06/Adobe.png`）中指定图像URL，然后选择&#x200B;**[!UICONTROL 保存]**。
+
+该图像 URL 必须可公开访问、以 `https` 开头并且格式为 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持静态图像和动画图像。
+
+请注意，不支持拖放插入图像。
 
 ![选择图像图标的文本选项。](assets/image.png)
