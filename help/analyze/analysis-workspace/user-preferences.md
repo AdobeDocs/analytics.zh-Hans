@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
 source-wordcount: '3361'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理首选项](https://video.tv.adobe.com/v/3429988/?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -109,10 +109,10 @@ ht-degree: 98%
 |  | [视图密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-hans) | 通过减小左侧边栏、自由格式表和同类群组表的垂直边距，让您可在屏幕上选择显示内容的多少。 <ul><li>紧凑</li><li>舒适</li><li>展开（默认）</li></ul> |
 | | [调色板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-hans) | 选择 Analysis Workspace 中使用的可视化调色板。<ul><li>**分类调色板**：适用于 Analysis Workspace 中的许多可视化图表。每种颜色均代表不同的分类值。从 Adobe 提供的选项中进行选择，或输入由逗号分隔的十六进制值定义的自定义调色板。</li><li>**发散调色板**：适用于 Analysis Workspace 中的同类群组表。此调色板包含两个极端和中间基线的数值含义。</li><li>**顺序调色板**：适用于频率趋势（堆叠柱状图）引导分析。此调色板包含从浅色到深色的数值含义。</li></ul> |
 | **数据** | | |
-|  | [报表包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hans?#report-suite) | 选择表格和可视化从中获取数据的位置。 <ul><li>最近（默认）</li><li>从列表中选择特定报表包</li></ul> |
+|  | [报告包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hans?#report-suite) | 选择表格和可视化从中获取数据的位置。 <ul><li>最近（默认）</li><li>从列表中选择特定报告包</li></ul> |
 |  | [日历](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hans?#calendar) | 从以下列表中选择： <ul><li>Adobe 提供的范围（默认为“本月”）</li><li>自定义范围</li></ul> |
 |  | [面板类型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hans) | <ul><li>自由格式（默认）</li><li>空白</li><li>快速洞察</li></ul> |
-|  | 计数重复实例 | 指定是否将重复实例计入报表中。例如，此设置（激活时）会将同一页面的多次连续页面查看视为多次页面查看。关闭它后，它们将计为单个页面视图。 <p>**注意：**&#x200B;此设置仅影响某些量度（例如单页访问），不适用于流量或流失可视化。</p> |
+|  | 计数重复实例 | 指定是否将重复实例计入报告中。例如，此设置（激活时）会将同一页面的多次连续页面查看视为多次页面查看。关闭它后，它们将计为单个页面视图。 <p>**注意：**&#x200B;此设置仅影响某些量度（例如单页访问），不适用于流量或流失可视化。</p> |
 |  | 数字格式 | <ul><li>1,000.00（默认）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符字符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线</li><li>句点</li><li>空格</li><li>制表符</li></ul> |
 |  | 显示注释 | 选择注释是否在您的项目中可见。有关注释的更多信息，请参阅[注释概述](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
@@ -146,18 +146,18 @@ ht-degree: 98%
 | --- | --- | --- |
 | **表格** | | |
 | | 表类型 | <ul><li>自由格式表</li><li>表生成器</li></ul> |
-| | 默认表量度 | <ul><li>发生次数</li><li>独特访客</li><li>访问</li></ul> |
+| | 默认表量度 | <ul><li>发生次数</li><li>独特访客</li><li>访问次数</li></ul> |
 | | 默认表维度 | 从分钟、小时、天、周、月、季度或年中选择。 |
 | | 调整日期 | 选择此选项可将每列的日期与同一行的所有开始日期对齐。 |
 | **[列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
 | | 隐藏标头文本 | 允许您隐藏自由格式表中的标头文本，以使标头更加易读，表格更易共享。这对 .pdf 渲染和名称较长的量度非常有用。默认处于启用状态。 |
 | | 显示总数 | 此总数通常等于[!UICONTROL 全部总计]或者为其一部分。它反映自由格式表内应用的任何表过滤器，包括[!UICONTROL 不包含任何内容]选项。 |
-| | 显示总计 | 此总计表示已收集的所有点击数，有时候称为“报表包总计”。当在面板级别或自由格式表中应用区段时，此总计会进行相应的调整以反映符合区段标准的所有点击。带有[统计行](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表或细分不支持全部总计。 |
+| | 显示总计 | 此总计表示已收集的所有点击数，有时候称为“报告包总计”。当在面板级别或自由格式表中应用区段时，此总计会进行相应的调整以反映符合区段标准的所有点击。带有[统计行](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表或细分不支持全部总计。 |
 | | 显示迷您图 | 在图表底部显示或隐藏线形图。隐藏时，图例更改为不再在视觉上参照线形图。 |
 | | 数值 | 确定单元格是否显示/隐藏量度的数值。例如，如果量度是“页面查看次数”，则数值是行项目的页面查看次数。 |
 | | 百分比 | 确定单元格是否显示/隐藏量度的百分比值。例如，如果量度是“页面查看次数”，则百分比值等于行项目的页面查看次数除以该列的页面查看总数。注意：我们可以显示大于 100% 的百分比，准确度提高了。此外，我们还将上限调整为 1,000%，以确保允许列值有充足的变化范围。 |
 | | 显示异常 <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | 确定此列中的值是否要运行异常检测。 |
-| | 将零解释为没有值 | 对于具有 0 值的单元格，确定将其显示为 0 还是空白单元格。当您查看一个月中每一天的数据，而有些天尚未发生时，这非常有用。可以为将来日期显示空白单元格，而不是 0。各种图表也遵循这种设置（即，选中该设置后，折线图或条形图将不显示值为 0 的部分）。 |
+| | 将零解释为没有值 | 对于具有 0 值的单元格，确定将其显示为 0 还是空白单元格。当您查看一个月中每一天的数据，而有些天尚未发生时，这非常有用。可以为将来日期显示空白单元格，而不是 0。各种图表也遵循这种设置（即，选中该设置后，线形图或条形图将不显示值为 0 的部分）。 |
 | | 背景 | 确定单元格是否显示/隐藏所有单元格格式，包括条形图和条件格式。 <ul><li>条形图</li> 显示一个水平条形图，表示单元格相对于列总数的值。 <li>条件格式</li>有关条件格式的详细信息，请参阅[列设置](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的“条件格式”</ul> |
 | | 单元格预览 | 显示应用当前所选的格式选项时，每个单元格的预览效果。 |
 | **[行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
@@ -183,14 +183,14 @@ ht-degree: 98%
 | | 标准化（适用时） | 要求所有量度按等比例计算。在所绘制量度的数量级差别很大时，此项非常有用。 |
 | | 将 Y 轴定位在零 | 如果图表上绘制的所有值都远远大于零，则图表默认会将 y 轴底部设置为非零值。如果选中此框，y 轴将被强制设置为零（并将重新绘制图表）。 |
 | | 允许异常缩放 Y 轴 | 如果图表中有多个量度，则必须将鼠标悬停在每个异常上以查看该量度的置信区间。为了使可视化更清晰，异常检测置信区间不会自动缩放 y 轴。此选项允许置信区间缩放可视化。 <p>有关详细信息，请参阅 Analysis Workspace 中的[查看异常情况](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)。</p> |
-| **[折线图](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
+| **[线形图](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
 | | 百分比 | 以百分比显示线条可视化的值。 |
-| | 图例可见 | 允许您为折线图可视化隐藏详细的图例文本。 |
+| | 图例可见 | 允许您为线形图可视化隐藏详细的图例文本。 |
 | | 限制最大项目数 | 减少直线可视化中 X 轴上的项目数。如果您有大型数据集，这会很有用。 |
 | | 显示双轴（适用时） | 仅适用于具有两个量度的情况，可以在左（用于一个量度）、右（用于另一个量度）两边各有一个 y 轴。在所绘制量度的数量级差别很大时，此项非常有用。 |
 | | 标准化（适用时） | 要求所有量度按等比例计算。在所绘制量度的数量级差别很大时，此项非常有用。 |
-| | 显示 X 轴 | 在折线图上显示 x 轴。 |
-| | 显示 Y 轴 | 在折线图上显示 y 轴。 |
+| | 显示 X 轴 | 在线形图上显示 x 轴。 |
+| | 显示 Y 轴 | 在线形图上显示 y 轴。 |
 | | 锚 Y 轴 | 如果图表上绘制的所有值都远远大于零，则图表默认会将 y 轴底部设置为非零值。如果选中此框，y 轴将被强制设置为零（并将重新绘制图表）。 |
 | | 显示最小值 | 覆盖最小值标签以快速突出显示量度中的谷值。注意：最小值派生自可视化内容中的可见数据点，而不是维度中的完整值集。 |
 | | 显示最大值 | 覆盖最大值标签以快速突出显示量度中的峰值。注意：最大值派生自可视化内容中的可见数据点，而不是维度中的完整值集。 |
@@ -231,18 +231,18 @@ ht-degree: 98%
 | | 地图类型 | <ul><li>气泡</li><li>热图</li></ul> |
 | | 颜色主题 | 从珊瑚色、红色、绿色、蓝色、热图和正/负中进行选择。 |
 | | 地图样式 | 从基本、街道、明亮、浅色、深色和卫星中进行选择。 |
-| **[概要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
+| **[摘要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>比例更改</li><li>原始差异</li></ul> |
 | | 百分比 | 以百分比显示摘要更改可视化效果的值。 |
-| | 图例可见 | 此设置允许您为概要变化可视化内容隐藏详细的图例文本。 |
-| **[概要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
+| | 图例可见 | 此设置允许您为摘要变化可视化内容隐藏详细的图例文本。 |
+| **[摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 百分比 | 以百分比显示摘要编号可视化的值。 |
 | | 图例可见 | 用于隐藏摘要编号可视化的详细图例文本。 |
 | | 值汇总方式 | 从最大值、最小值、平均值、中值和总和中进行选择。 |
 | | 缩写值 | 在&#x200B;[!UICONTROL **摘要编号**]&#x200B;部分 |
-| **[树形图](/help/analyze/analysis-workspace/visualizations/treemap.md)** | | |
+| **[树状图](/help/analyze/analysis-workspace/visualizations/treemap.md)** | | |
 | | 百分比 | 以百分比显示 Treemap 可视化的值。 |
-| | 限制最大项目数 | 减少树形图可视化中 X 轴上的项目数。如果您有大型数据集，这会很有用。 |
+| | 限制最大项目数 | 减少树状图可视化中 X 轴上的项目数。如果您有大型数据集，这会很有用。 |
 | **[维恩图](/help/analyze/analysis-workspace/visualizations/venn.md)** | | |
 | | 图例可见 | 允许您为维恩图可视化隐藏详细的图例文本。 |
 | **[散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md)** | | |
