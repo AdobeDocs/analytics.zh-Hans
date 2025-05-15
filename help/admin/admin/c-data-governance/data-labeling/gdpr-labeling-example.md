@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 72%
 
 ## 访问请求示例 {#access}
 
-如果您提交访问请求，您将收到两个可返回给数据主体的文件。 一个文件是一个CSV文件，对于为数据主体接收的每次点击，该文件都包含一行，而对于具有适当访问标签的每个变量，该文件都包含一列。 另一个文件是列出每个变量的摘要HTML文件，其后是数据主体在该变量中看到的所有唯一值，以及看到每个唯一值的次数。
+如果您提交访问请求，您将收到两个可以返回给数据主体的文件。一个文件是 CSV 文件，其中包含与数据主体的每个匹配点击量对应的一行，和每个具有相应访问标签的变量列。另一个文件是摘要 HTML 文件，其中列出了每个变量，以及数据主体的该变量出现的所有唯一值以及每个唯一值出现的次数。
 
-例如，摘要文件包含下表指示的值。 一个请求只返回一个设备文件、一个人员文件，或各一个文件。仅当使用了人员ID且`expandIds`为true时，才返回两个摘要文件。
+在我们的示例中，摘要文件包含下表中所示的值。一个请求只返回一个设备文件、一个人员文件，或各一个文件。只有在使用人员 ID 并且 `expandIds` 为 true 时，会返回两个摘要文件。
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API 值</th>
-    <th rowspan="2">摘要<br/>文件类型<br/>已返回</th>
+    <th rowspan="2">返回的摘要<br/>文件类型<br/></th>
     <th colspan="5" style="text-align:center">摘要访问文件中的数据</th>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ ht-degree: 72%
   </tr>
 </table>
 
-请注意，使用Cookie ID时，`expandIDs`的设置不会对输出产生任何影响。
+请注意，使用 Cookie ID 时，`expandIDs` 的设置对输出没有任何影响。
 
 ## 删除请求示例 {#delete}
 
@@ -219,7 +219,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->只有包含`AAID=77`和`DEL-DEVICE`标签的行中的列会受到影响。
+>只有包含 `AAID=77` 和 `DEL-DEVICE` 标签的行中的列会受到影响。
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->只有包含`user=Mary`和`DEL-PERSON`标签的行中的celcolumnsls会受到影响。 此外，实际上，包含`A_ID`的变量可能是prop或eVar。 其替换值是以`Privacy-`开头的字符串，后跟一个随机数(GUID)，而不是将该数值替换为不同的随机数值。
+>只有包含 `user=Mary` 和 `DEL-PERSON` 标签的行中的列会受到影响。此外，在实际情况中，包含 `A_ID` 的变量可能是 prop 或 eVar。其替换值是以 `Privacy-` 开头的字符串，后跟一个随机数 (GUID)，而不是使用另一个随机数值替换该数值。
 
 <table>
   <tr>

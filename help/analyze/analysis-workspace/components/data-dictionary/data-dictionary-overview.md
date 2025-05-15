@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Analytics 管理员负责整理有关数据词典中每个组件的信息，并�
 
 >[!BEGINSHADEBOX]
 
-有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据字典](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据词典](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -39,7 +39,7 @@ Analytics 管理员负责整理有关数据词典中每个组件的信息，并�
 
 * 组件是否经系统管理员批准
 
-有关如何访问数据字典及其包含的信息的详细信息，请参阅[查看数据词典中的组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)。
+有关如何访问数据词典及其包含的信息的详细信息，请参阅[查看数据词典中的组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)。
 
 ## 对管理员的好处
 

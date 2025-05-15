@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
 * “value”字段，其中包含 Analytics 应在每个报告包的关联命名空间变量中搜索的 ID。
 
-有关更多详细信息和[标准身份命名空间列表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix#standard-namespaces)，请参阅[Experience Cloud数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。 请参阅为示例请求创建访问/删除作业[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/privacy-jobs#access-delete)。
+请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)了解更多详细信息和[标准身份标识命名空间的列表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix#standard-namespaces)。请参阅[创建一个访问/删除作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/privacy-jobs#access-delete)中的一个请求示例。
 
 ## Cookie ID
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
 该值应指定为两个 16 位十六进制数或两个 19 位十进制数。数字之间应使用短横线、下划线或冒号进行分隔。如果任一数字没有足够的位数，则需在开头补零。
 
-## 身份识别服务 Cookie
+## 身份标识服务 Cookie
 
 ```json
 {
@@ -110,10 +110,10 @@ ht-degree: 94%
 
 >[!TIP]
 >
->在为数据隐私 API 指定命名空间时，请避免使用变量的友好名称（报告 UI 中显示的名称）或变量的编号（如 eVar12），除非该友好名称或变量编号也是您在应用 ID-DEVICE 或 ID-PERSON 标签时指定的命名空间。使用命名空间而不是友好名称可以使相同的用户标识块为多个报告包指定正确的变量：例如，当 ID 在某些报告包中位于不同的 eVar 中时，或者友好名称不匹配时（例如，友好名称已在特定的报告包中本地化）。
+>在为数据隐私 API 指定命名空间时，请避免使用变量的友好名称（报告 UI 中显示的名称）或变量的编号（如 eVar12），除非该友好名称或变量编号也是您在应用 ID-DEVICE 或 ID-PERSON 标签时指定的命名空间。使用命名空间而不是友好名称可以使相同的用户身份标识块为多个报告包指定正确的变量：例如，当 ID 在某些报告包中位于不同的 eVar 中时，或者友好名称不匹配时（例如，友好名称已在特定的报告包中本地化）。
 
 >[!CAUTION]
 >
->命名空间`visitorId`和`customVisitorId`是保留名称，用于识别Analytics旧版跟踪Cookie和Analytics客户的访客ID。 请勿将这些命名空间用于自定义流量或转换变量。
+>命名空间 `visitorId` 和 `customVisitorId` 是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
 
 有关更多信息，请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间。](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

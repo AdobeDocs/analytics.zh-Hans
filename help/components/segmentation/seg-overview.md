@@ -4,9 +4,9 @@ title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 97%
 
 通过区段，可根据特性或网站交互标识访客的子集。区段被设计为受众见解，您可根据自己的特定需求生成区段，然后验证、编辑区段和与其他团队成员共享区段或在其他 Adobe 产品和 Analytics 功能中使用区段。
 
-区段基于使用嵌套容器模型的[!UICONTROL 访客]、[!UICONTROL 访问]和[!UICONTROL 点击]级别层次结构。您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报表生成、可内建于功能板报表中，或添加书签以便快速访问。
+区段基于使用嵌套容器模型的[!UICONTROL 访客]、[!UICONTROL 访问]和[!UICONTROL 点击]级别层次结构。您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报告生成、可内建于功能板报告中，或添加书签以便快速访问。
 
-可在 Segment Builder 中构建和保存区段，也可从流失报表（在 [!UICONTROL Analysis Workspace] 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预建区段，从而可以过滤结果并应用于报表。此外，区段可以一起用作[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+可在 Segment Builder 中构建和保存区段，也可从流失报告（在 [!UICONTROL Analysis Workspace] 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预建区段，从而可以过滤结果并应用于报告。此外，区段可以一起用作[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 
 区段可确定
 
@@ -108,8 +108,8 @@ ht-degree: 97%
 
 此类型的区段根据使用 [!UICONTROL AND] 和 [!UICONTROL OR] 运算符联接的特性过滤数据集。
 
-- 您可以[将多个区段应用于一个报表或项目](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-- 区段对于所有报表包都是通用的。
+- 您可以[将多个区段应用于一个报告或项目](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+- 区段对于所有报告包都是通用的。
 - [区段生成器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)简化了区段的创建过程。
 - 您可以通过[区段管理器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)中的区段共享、标记、验证和批准功能，来设置[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 - 可[为区段加标签](/help/components/segmentation/segmentation-workflow/seg-workflow.md)代替使用文件夹以稍后整理和搜索。
@@ -121,7 +121,7 @@ ht-degree: 97%
 Analysis Workspace 包含以下附加功能：
 
 - 您可以[比较区段](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)。
-- 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
+- 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 - 在[流失分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)中使用区段。
 
 ## Adobe 提供的区段
@@ -237,12 +237,12 @@ Analysis Workspace 包含以下附加功能：
 
 ## 分段操作方法视频 {#segment-video}
 
-此视频简要概述什么是区段容器以及如何使用它们。
+本视频简要概述了区段容器及其使用方法。
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/3429103?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -253,11 +253,11 @@ Analysis Workspace 包含以下附加功能：
 
 您可以通过以下方法访问区段生成器：
 
-- 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![ “区段”图标 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
+- 显示一个现有报告，然后单击左侧导航中的“区段”图标 ![ “区段”图标 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
 
 - 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![“添加”按钮](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
-  或
+  或者
 
 - 在区段管理器中单击现有区段标题，以在区段生成器中编辑该区段。
 
@@ -269,7 +269,7 @@ Analysis Workspace 包含以下附加功能：
 
 - 在顶部导航中，转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 区段]**，或者
 
-- 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![“区段”图标 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
+- 显示一个现有报告，然后单击左侧导航中的“区段”图标 ![“区段”图标 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
 
 - 在界面的任意位置按斜杠键“/”，并搜索区段管理器。
 

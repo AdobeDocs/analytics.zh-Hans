@@ -5,17 +5,17 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2287'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 标签设置最佳实践
 
-每次创建新报表包或在现有报表包中启用新变量时，都需要对标签设置进行审核。 当启用新的解决方案集成时，您可能也需要审核标签设置，因为这些集成将出现要求设置标签的新变量。重新实施您的移动应用程序或网站时，可能会改变现有变量的使用方式，这或许也需要更新标签。
+每次创建新报告包或在现有报告包中启用一个新变量时，都需要对标签设置进行审核。当启用新的解决方案集成时，您可能也需要审核标签设置，因为这些集成将出现要求设置标签的新变量。重新实施您的移动应用程序或网站时，可能会改变现有变量的使用方式，这或许也需要更新标签。
 
-I1、I2、S1和S2标签与Adobe Experience Platform中相应命名的DULE标签具有相同的含义。 但是，它们的使用目的大不相同。 在Adobe Analytics中，这些标签用于帮助识别作为Privacy Service请求结果而应该进行匿名处理的字段。 在Adobe Experience Platform中，它们用于访问控制、同意管理，并用于对标记字段实施营销限制。 Adobe Experience Platform支持许多其他不由Adobe Analytics使用的标签。 如果您使用Analytics Data Connector将Adobe Analytics数据导入Adobe Experience Platform，则应确保在Adobe Analytics中应用的任何I1、I2、S1和S2标签也应用于导入的报表包使用的Adobe Experience Platform中的架构。
+I1、I2、S1 和 S2 标签与 Adobe Experience Platform 中具有相应名称的 DULE 标签具有相同的含义。但是它们的用途截然不同。在 Adobe Analytics 中，这些标签用于帮助识别那些由于隐私服务请求而需要匿名化的字段。在 Adobe Experience Platform 中，它们用于访问控制、同意管理以及用于对有标签的字段强制执行营销限制。Adobe Experience Platform 支持许多 Adobe Analytics 不使用的附加标签。如果您使用 Analytics 数据连接器将 Adobe Analytics 数据导入 Adobe Experience Platform，就应确保在 Adobe Analytics 中应用的任何 I1、I2、S1 和 S2 标签也应用于 Adobe Experience Platform 中被导入的报告包所使用的架构。
 
 ## 直接与间接可识别 ID {#direct-vs-indirect}
 
@@ -101,7 +101,7 @@ IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>仅设备 ID </p> </td> 
-   <td colname="col2"> <p>如果您仅使用 Cookie ID 或那些具有 ID-DEVICE 标签的 ID，则应当只使用 ACC-ALL 标签。 </p> <p>您将获得每个访问请求的一对文件：一个文件，其中包含每个匹配点击（具有所有指定的ACC-ALL字段）的行，以及一个摘要文件，其中包含此数据的摘要。 </p> </td> 
+   <td colname="col2"> <p>如果您仅使用 Cookie ID 或那些具有 ID-DEVICE 标签的 ID，则应当只使用 ACC-ALL 标签。 </p> <p>对于每个访问请求，您将获得一对文件：其中一个文件包含与每个匹配点击量对应的一行以及所有指定的 ACC-ALL 字段，另一个摘要文件则包含该数据的摘要。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

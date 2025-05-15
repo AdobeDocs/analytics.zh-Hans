@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果您没有看到此菜单项，则需要将您添加到Admin Console[&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hans)中具有此功能权限的产品配置文件，或者已向您提供对Admin Console中报表包的访问权限。
+   >如果您看不到此菜单项，就需要被添加到 [Admin Console 中的产品轮廓](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)及此功能的权限，或者需要被授予访问 Admin Console 中报告包的权限。
 
 3. 在右上角，选择要查看或管理其隐私标签的报告包。
 
@@ -31,11 +31,11 @@ ht-degree: 94%
 | 设置 | 描述 |
 | --- | --- |
 | **[!UICONTROL 组件名称]** | 此列列出了属于此报告包的所有组件（维度、量度）。 |
-| **[!UICONTROL 身份]** | 身份数据“I”标签用于对可识别或联系特定人员的数据进行分类。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hans#data-privacy-identity-labels) |
-| **[!UICONTROL 敏感度]** | 敏感数据“S”标签用于对诸如地理数据之类的敏感数据进行分类。未来，会引入其他敏感数据标签，用于识别其他类型的敏感信息。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hans#sensitive-data-labels) |
-| **[!UICONTROL GDPR 访问]** | 通过数据治理标签，用户可将反映与隐私相关的考虑因素和合同条件的数据分类，以符合法规和公司政策。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hans#data-privacy-access-labels) |
-| **[!UICONTROL GDPR 删除]** | “删除”标签仅用于包含某个值的字段，该值允许点击与“数据主体”相关联（即允许标识“数据主体”）。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hans#data-privacy-delete-labels) |
-| **[!UICONTROL 命名空间]** | 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hans#provide-namespace) |
+| **[!UICONTROL 身份标识]** | 身份标识数据“I”标签用于对可识别或联系特定人员的数据进行分类。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-identity-labels) |
+| **[!UICONTROL 敏感度]** | 敏感数据“S”标签用于对诸如地理数据之类的敏感数据进行分类。未来，会引入其他敏感数据标签，用于识别其他类型的敏感信息。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#sensitive-data-labels) |
+| **[!UICONTROL GDPR 访问]** | 通过数据治理标签，用户可将反映与隐私相关的考虑因素和合同条件的数据分类，以符合法规和公司政策。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-access-labels) |
+| **[!UICONTROL GDPR 删除]** | “删除”标签仅用于包含某个值的字段，该值允许点击与“数据主体”相关联（即允许标识“数据主体”）。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-delete-labels) |
+| **[!UICONTROL 命名空间]** | 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#provide-namespace) |
 | **[!UICONTROL 类别]** | 指组件类型，如标准组件、转化变量等。 |
 
 {style="table-layout:auto"}

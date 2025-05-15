@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 81%
 +++ 管理和访问 Analysis Workspace 有哪些要求？请参阅[管理要求](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。
 +++
 
-+++ 使用 Analysis Workspace 是否会影响数据收集？由于 Analysis Workspace 是一款报告工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和指标组合拖动到工作区项目中，可查看相应的效果。如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 新建]**&#x200B;来重头开始创建。
++++ 使用 Analysis Workspace 是否会影响数据收集？由于 Analysis Workspace 是一款报告工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和量度组合拖动到工作区项目中，可查看相应的效果。如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 新建]**来重头开始创建。
 +++
 
 +++一个 Analysis Workspace 项目可以显示多少个报告包？您现在可以在 Analysis Workspace 中使用[多个报告包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans)的数据创建项目。
@@ -31,25 +31,25 @@ ht-degree: 81%
 +++我可以将 Analysis Workspace 用于 Data Warehouse 吗？不建议将 Analysis Workspace 用于批量数据导出。它是一个创建类似功能板分析项目的可视化图表工作区。
 +++
 
-+++如何优化Analysis Workspace的性能？
++++如何优化 Analysis Workspace 的性能？
 
 请参阅[优化性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。
 
 +++
 
-+++数据如何进入您的Analysis Workspace项目？
++++数据如何进入您的 Analysis Workspace 项目？
 
-观看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据到Analysis Workspace](https://video.tv.adobe.com/v/33229?quality=12&learn=on&captions=chi_hans){target="_blank"}以了解演示视频。
-
-+++
-
-+++如何跟踪Workspace使用情况？
-
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日志跟踪](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 +++
 
-+++当我将量度拖动到上面时，显示“数据无效”。 如何解决此问题？
++++如何跟踪 Workspace 使用情况？
+
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日志跟踪](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} 以获取演示视频。
+
++++
+
++++当我将量度拖动到上面时，显示“数据无效”。 如何解决这个问题？
 
 无效数据意味着 Adobe 无法通过报告中使用的维度和量度组合返回数据。例如，两个彼此堆叠的量度不能作为数据返回，因为无法以这种堆叠方式显示这两个量度。相反，应将两个量度并排放置。
 
@@ -67,6 +67,6 @@ ht-degree: 81%
 
 +++
 
-+++作为只读用户，我可以在Analysis Workspace中执行哪些操作？
-当项目以只读方式共享时，所有编辑功能和功能都将被完全禁用，收件人只能更改下拉菜单以预定义方式将过滤器应用于面板。
++++ 作为只读用户，我可以在 Analysis Workspace 中执行哪些操作？
+如果项目以只读方式共享，所有编辑功能和特点都被完全禁用，接收者只能更改下拉菜单，按一种预定义的方式在面板上应用过滤器。
 +++

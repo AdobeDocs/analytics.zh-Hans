@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,23 +29,23 @@ Adobe 向企业提供软件和服务时，作为提供服务的一部分，Adobe
 
 ## Adobe 如何处理 CCPA 数据
 
-Adobe Experience Cloud提供了一个集成式解决方案，可将贵品牌的数据治理基础架构与其用于创建和管理消费者体验的Adobe工具连接起来。 Adobe Experience Cloud的数据治理功能可将数据治理策略与数据使用直接联系起来。
+Adobe Experience Cloud 提供了一项集成的解决方案，它将您的品牌的数据治理基础架构与它用来创建和管理客户体验的 Adobe 工具结合在一起。Adobe Experience Cloud 的数据治理功能可以将数据治理策略与数据使用直接关联在一起。
 
 熟悉 [Adobe Analytic 如何处理 GDPR](https://www.adobe.com/cn/data-analytics-cloud/analytics/general-data-protection-regulation.html)，其中讨论了做好隐私法准备工作的步骤，以及如何集成 Adobe Experience Cloud 隐私服务 API。
 
 ## CCPA 准备工作和您的 Adobe Analytics 数据
 
-Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们将为您提供机会来定义数据管理设置和首选项。为此，Adobe Analytics 提供了“数据管理”用户界面，允许您作为数据控制者，对您的 Analytics 报表包以及这些报表包中的所有维度和量度设置[隐私权标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)。您可以标识数据集中包含直接可识别数据或间接可识别数据的列，以便能够提交访问和删除请求来处理这些数据。对于每个请求，在 Analytics“数据管理”用户界面中定义的标签将用于对应该请求的特定标识符。
+Adobe 认识到您最熟悉您的报告包中的自定义数据，因此我们将为您提供机会来定义数据管理设置和首选项。为此，Adobe Analytics 提供了“数据管理”用户界面，允许您作为数据控制者，对您的 Analytics 报告包以及这些报告包中的所有维度和量度设置[隐私权标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)。您可以标识数据集中包含直接可识别数据或间接可识别数据的列，以便能够提交访问和删除请求来处理这些数据。对于每个请求，在 Analytics“数据管理”用户界面中定义的标签将用于对应该请求的特定标识符。
 
-有关如何设置标签的更多信息，请参阅[为报表包数据设置标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)。
+请参阅[为报告包数据设置标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)，以详细了解如何设置标签。
 
 ## 先决条件
 
 * 熟悉 [GDPR 术语。](/help/admin/c-data-governance/gdpr-terminology.md)
 * 将您的登录公司关联到 Experience Cloud 组织（如果尚未关联）。请联系 Adobe 客户关怀团队并参阅[组织和帐户关联。](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hans)
-* 为每个报表包设置一项数据保留策略，以便能够处理 CCPA 删除和访问请求。
+* 为每个报告包设置一项数据保留策略，以便能够处理 CCPA 删除和访问请求。
 
-  如果未在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 将无法协助您处理隐私服务 API 请求，例如，处理您从最终用户那里收到的访问请求或删除请求。请联系您的Adobe客户团队以设置数据保留期限。
+  如果未在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 将无法协助您处理隐私服务 API 请求，例如，处理您从最终用户那里收到的访问请求或删除请求。请联系您的 Adobe 客户团队以便设置数据保留期限。
 
-* 检查您的权限：要在 Adobe Analytics 中使用“数据管理”管理界面，您必须是 Adobe Analytics 管理员。
+* 检查您的权限：要在 Adobe Analytics 中使用“数据治理”管理界面，您必须是 Adobe Analytics 管理员。
 * 考虑实施[同意管理变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)来跟踪点击时的同意状态。
