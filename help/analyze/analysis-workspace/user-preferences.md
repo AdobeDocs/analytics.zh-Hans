@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3361'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://video.tv.adobe.com/v/3429988/?quality=12&learn=on&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="需要 Experience Cloud 身份验证"
->abstract="启用后，通过Analysis Workspace中的&#x200B;**[!UICONTROL 与任何人共享]**&#x200B;选项授予项目访问权限的用户必须使用其Experience Cloud凭据进行身份验证。"
+>abstract="启用后，通过 Analysis Workspace 中的&#x200B;**[!UICONTROL 与任何人共享]**&#x200B;选项获得项目访问权限的人员必须使用其 Experience Cloud 凭据进行身份验证。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -122,12 +122,12 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"
 >title="显示异常"
->abstract="选择&#x200B;**[!UICONTROL 显示异常情况]**&#x200B;将会自动对已添加到时间序列可视化自由格式表中的第一个量度列运行异常检测。"
+>abstract="选择&#x200B;**[!UICONTROL 显示异常情况]**&#x200B;将会自动对已添加到时间序列自由格式表可视化图表中的第一个量度列运行异常检测。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showforecast"
 >title="显示预测"
->abstract="选择&#x200B;**[!UICONTROL 显示预测]**&#x200B;将会自动对已添加到时间序列可视化自由格式表中的第一个量度列进行预测。"
+>abstract="选择&#x200B;**[!UICONTROL 显示预测]**&#x200B;将会自动对已添加到时间序列自由格式表可视化图表中的第一个量度列进行预测。"
 
 
 >[!CONTEXTUALHELP]
@@ -196,7 +196,7 @@ ht-degree: 99%
 | | 显示最大值 | 覆盖最大值标签以快速突出显示量度中的峰值。注意：最大值派生自可视化内容中的可见数据点，而不是维度中的完整值集。 |
 | | 显示趋势线 | 显示线系列的回归或均线。趋势线有助于在数据中描绘更清晰的图案。 |
 | **[同类群组](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
-| | 粒度 | 对于趋势性可视化内容，您可以更改时间粒度（日、周、月、季度或年）。此更改也适用于数据源表。 |
+| | 粒度 | 对于趋势性可视化图表，您可以更改时间粒度（日、周、月、季度或年）。此更改也适用于数据源表。 |
 | | 仅显示百分比 | 删除数值，仅显示百分比。 |
 | | 将百分比四舍五入到最接近的整数 | 将百分比值舍入为最接近的整数，而不是显示十进制值。 |
 | | 显示平均百分比行 | 在表顶部插入新行，然后添加每列中值的平均值。 |
@@ -234,7 +234,7 @@ ht-degree: 99%
 | **[摘要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>比例更改</li><li>原始差异</li></ul> |
 | | 百分比 | 以百分比显示摘要更改可视化效果的值。 |
-| | 图例可见 | 此设置允许您为摘要变化可视化内容隐藏详细的图例文本。 |
+| | 图例可见 | 此设置允许您为摘要变化可视化图表隐藏详细的图例文本。 |
 | **[摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 百分比 | 以百分比显示摘要编号可视化的值。 |
 | | 图例可见 | 用于隐藏摘要编号可视化的详细图例文本。 |

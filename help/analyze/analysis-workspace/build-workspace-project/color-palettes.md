@@ -15,7 +15,7 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_colorpalette"
->title="项目调色板"
+>title="项目调颜色调色板"
 >abstract="更改此项目中使用的颜色调色板。"
 
 可更改在工作区中使用的可视化效果调色板，其中可选择不同的调色板或指定您自己的与贵公司品牌配色相配的调色板。此功能影响工作区中的大部分可视化效果，但它&#x200B;**不**&#x200B;影响[!UICONTROL 摘要变化]、[!UICONTROL 自由格式]表中的条件格式和[!UICONTROL 地图]可视化效果。
@@ -37,7 +37,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [使用自定义调色板](https://video.tv.adobe.com/v/328054?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)[使用自定义调色板](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

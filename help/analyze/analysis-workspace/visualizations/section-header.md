@@ -1,24 +1,24 @@
 ---
 title: 节头
-description: 在您的 Workspace 项目中插入节头的可视化图表。
+description: 在您的工作区项目中插入分区标头的可视化图表。
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 
 ---
 
-# 节头 {#section-header}
+# 分区标头 {#section-header}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_sectionheader_button"
->title="节头"
->abstract="向面板添加节头。"
+>title="分区标头"
+>abstract="向面板添加分区标头。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,9 +32,9 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 要识别和阐明面板中的分区，您可以在面板内的任何位置插入 ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL 节头]**&#x200B;可视化图表。
 
-![节头](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
+![分区标头](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
 
-要修改节头的文本，只需选择&#x200B;**[!UICONTROL 节头]**。
+要修改分区标头的文本，只需选择&#x200B;**[!UICONTROL 分区标头]**。
 
 
 >[!MORELIKETHIS]

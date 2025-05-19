@@ -5,7 +5,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -30,14 +30,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!ENDSHADEBOX]
 
 
-![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL 圆环图]**&#x200B;可视化图表与饼图类似，它将数据显示为整体的一部分或过滤器。在比较总数的百分比时，通常是在项目较少的情况下，使用圆环图可视化图表。
+![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL 圆环图]**&#x200B;可视化图表与饼图类似，它将数据显示为整体的一部分或过滤器。在比较总数的百分比时，通常是在项目较少的情况下，使用环形图可视化图表。
 
-![圆环图将数据显示为整体的一部分或过滤器。](assets/donut.png)
+![环形图将数据显示为整体的一部分或过滤器。](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加圆环图可视化图表](https://video.tv.adobe.com/v/3416622/?quality=12&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加环形图可视化图表](https://video.tv.adobe.com/v/334309/?quality=12){target=&#34;_blank&#34;}以观看演示视频。
 
 >[!ENDSHADEBOX]
 

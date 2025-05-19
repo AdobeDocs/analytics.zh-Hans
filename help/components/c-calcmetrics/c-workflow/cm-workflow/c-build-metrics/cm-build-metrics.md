@@ -4,7 +4,7 @@ title: 生成量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
 >title="外部 ID"
->abstract="更改外部 ID 可能会影响计算量度在外部源（例如商业智能工具）中的显示方式"
+>abstract="更改外部 ID 可能会影响计算量度在外部源（例如 Business Intelligence 工具）中的显示方式"
 
 <!-- markdownlint-enable MD034 -->
 
