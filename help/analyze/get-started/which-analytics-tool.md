@@ -4,9 +4,9 @@ title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1122'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [工具比较](https://video.tv.adobe.com/v/30267?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [工具比较](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
-## Adobe Analytics报表用户界面 {#user-interfaces}
+## Adobe Analytics 报告用户界面 {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
 
@@ -36,11 +36,11 @@ ht-degree: 89%
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** 是 Adobe Analytics 中的一项功能，它用视觉方式展示用户使用网页和移动应用程序的情况。它使营销人员和分析人员可跟踪和分析用户交互，如点击、悬停和滚动行为。
 
-## 将数据导入Adobe Analytics {#import}
+## 将数据导入到 Adobe Analytics 中 {#import}
 
-**[分类](/help/components/classifications/classifications-overview.md)**&#x200B;的使用说明：
+**[分类](/help/components/classifications/classifications-overview.md)**&#x200B;应用于以下情况：
 
-* 当存在要与收集值(eVar、prop、营销渠道)关联的元数据时。 Adobe建议使用[分类集](/help/components/classifications/sets/overview.md)。 分类规则生成器和分类导入器是将分类数据导入Adobe Analytics的旧方法。
+* 要将元数据与某个收集值（eVar、prop、营销渠道）相关联时。Adobe 建议使用[分类集](/help/components/classifications/sets/overview.md)。分类规则生成器和分类导入程序是将分类数据引入 Adobe Analytics 的传统方法。
 
 **[数据源](/help/import/data-sources/overview.md)**&#x200B;的使用说明：
 
@@ -55,11 +55,11 @@ ht-degree: 89%
 
 **[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* “批量数据插入API”接受包含事件数据（每行一个事件）的CSV格式的文件。 Adobe建议对需要服务器端代码或无法使用AppMeasurement或Web SDK进行数据收集的任何实施使用批量插入API。
+* “批量数据插入 API”接受包含事件数据在内的 CSV 格式的文件，其中每行有一个事件。对于任何需要服务器端代码或者否则就无法使用 AppMeasurement 或 Web SDK 进行数据收集的实施，Adobe 建议使用“批量插入 API”。
 
-**[数据插入API（旧版）](/help/import/c-data-insertion-api/c-data-insertion-api.md)**&#x200B;的使用说明：
+以下情况下应使用&#x200B;**[数据插入 API（旧版）](/help/import/c-data-insertion-api/c-data-insertion-api.md)**：
 
-* 适用于需要将数据导入Adobe Analytics并且无法使用AppMeasurement、Web SDK或批量数据插入API的情况。
+* 当您需要将数据导入 Adobe Analytics 且无法使用 AppMeasurement、Web SDK 或“批量数据插入 API”时。
 
 应在以下情况下使用&#x200B;**[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)**：
 

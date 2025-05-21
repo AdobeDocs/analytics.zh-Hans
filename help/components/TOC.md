@@ -5,9 +5,9 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
 + [Analytics 组件指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
@@ -223,7 +223,7 @@ ht-degree: 95%
       + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [复制计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [计算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + 量度参考 {#calcmetrics-reference}
+   + 量度引用 {#calcmetrics-reference}
       + [引用：基本函数](c-calcmetrics/cm-reference/cm-functions.md)
       + [引用：高级函数](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [量度兼容性](c-calcmetrics/cm-compatibility.md)
@@ -270,15 +270,15 @@ ht-degree: 95%
       + [分类集作业管理器](classifications/sets/job-manager.md)
       + 分类集合并 {#consolidations}
          + [合并管理器](classifications/sets/consolidations/manage.md)
-         + [合并过程](classifications/sets/consolidations/process.md)
+         + [合并流程](classifications/sets/consolidations/process.md)
    + 分类规则生成器（旧版）{#classifications-rulebuilder}
       + [概述](classifications/crb/classification-rule-builder.md)
       + [分类规则集](classifications/crb/classification-rule-set.md)
       + [分类规则](classifications/crb/classification-quickstart-rules.md)
       + [分类规则定义](classifications/crb/classification-rule-definitions.md)
       + [子分类和规则生成器](classifications/crb/subclassification-rule-builder.md)
-   + 分类导入器（旧版）{#classifications-importer}
-      + [分类导入程序概述](classifications/importer/c-working-with-saint.md)
+   + 分类导入程序（旧版）{#classifications-importer}
+      + [分类导入器概述](classifications/importer/c-working-with-saint.md)
       + [分类数据文件](classifications/importer/c-saint-data-files.md)
       + [删除分类数据](classifications/importer/t-delete-classification-data.md)
       + [分类模板](classifications/importer/c-download-saint-data.md)
@@ -295,8 +295,8 @@ ht-degree: 95%
    + [云导入帐号](/help/components/locations/configure-import-accounts.md)
    + [云导入位置](/help/components/locations/configure-import-locations.md)
 + [计划项目](scheduled-projects-manager.md)
-+ [已安排的报表队列](scheduled-reports-admin.md)
-+ 实时报表 {#real-time-reporting}
++ [计划报告队列](scheduled-reports-admin.md)
++ 实时报告 {#real-time-reporting}
    + [实时报表概述](c-real-time-reporting/realtime.md)
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
    + [受支持的实时量度和维度](c-real-time-reporting/realtime-metrics.md)
