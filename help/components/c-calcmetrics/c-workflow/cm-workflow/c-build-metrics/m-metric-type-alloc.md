@@ -3,140 +3,106 @@ description: 了解
 title: 量度类型和归因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 98%
 
 ---
 
 # 量度类型和归因 {#metric-type-attribution}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_nondefaultattributionmodel"
->title="使用非默认归因模型"
->abstract="为所选量度启用非默认归因模型。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="模型"
 >abstract="选择量度的归因模型。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="最后接触"
->abstract="100% 的积分归于访客看到的最后一个维度值。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>abstract="100% 的点数归于访客看到的最后一个维度值。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
->title="首次联系"
->abstract="100% 的积分归于访客看到的第一个维度值。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>title="首次接触"
+>abstract="100% 的点数归于访客看到的第一个维度值。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="线性"
->abstract="积分均匀分布于所有维度值上。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>abstract="点数均匀分布于所有维度值上。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="参与率"
->abstract="100% 的积分归于访客所见的每个维度值。<br/>列总数被夸大了。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>abstract="100% 的点数归于访客所见的每个维度值。<br/>列总数被夸大了。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="同一接触"
->abstract="仅对与转化发生在同一事件上的维度值给予积分。"
+>abstract="仅对与转化发生在同一事件上的维度值给予点数。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="同一接触"
+>abstract="仅对与转化发生在同一事件上的维度值给予点数。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="U 型"
 >abstract="第一个维度值占 40%，最后一个维度值占 40%，中间维度值占 20%。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="J 曲线"
 >abstract="最后一个维度值占 60%，第一个维度值占 20%，中间维度值占 20%。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="J 曲线"
+>abstract="最后一个维度值占 60%，第一个维度值占 20%，中间维度值占 20%。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="反向 J"
 >abstract="第一个维度值占 60%，最后一个维度值占 20%，中间维度值占 20%。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="反向 J"
+>abstract="第一个维度值占 60%，最后一个维度值占 20%，中间维度值占 20%。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="时间衰减"
->abstract="距离转化时间最近的维度值将获得最多的积分。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>abstract="距离转化时间最近的维度值将获得最多的点数。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="自定义"
 >abstract="根据归因权重，自行定义您的位置。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="自定义"
+>abstract="根据归因权重，自行定义您的位置。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="算法"
->abstract="积分是根据统计算法动态确定的。"
+>abstract="点数是根据统计算法动态确定的。"
 
-<!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="容器"
+>abstract="选择容器以设置所需的归因范围。"
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
->title="回顾窗口"
+>title="回顾时间范围"
 >abstract="此设置可以确定将要对每次转化应用的数据归因窗口。"
-
-<!-- markdownlint-enable MD034 -->
 
 在[生成计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)时，您可以指定量度类型和归因模型。
 
