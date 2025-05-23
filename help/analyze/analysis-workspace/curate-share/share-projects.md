@@ -41,7 +41,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共享项目](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共享项目](https://video.tv.adobe.com/v/40034?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [与任何人共享链接](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}以获取演示视频。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [与任何人共享链接](https://video.tv.adobe.com/v/3452472?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共享嵌入的组件](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共享嵌入的组件](https://video.tv.adobe.com/v/327500?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
