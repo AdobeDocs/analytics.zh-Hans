@@ -3,14 +3,19 @@ description: 区段生成器提供了一个画布以将量度维度、区段和�
 title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
-workflow-type: ht
-source-wordcount: '2063'
-ht-degree: 100%
+source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
+workflow-type: tm+mt
+source-wordcount: '2102'
+ht-degree: 97%
 
 ---
 
 # 区段生成器 {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="产品兼容性"
+>abstract="一小部分可用的区段标准与所有Adobe Analytics工具不兼容。此列表中指明了与该区段兼容的工具。 要使区段与所有Adobe Analytics工具兼容，请编辑您的标准。"
 
 <!-- markdownlint-disable MD034 -->
 
@@ -44,7 +49,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="实例"
->abstract="包括维度的实例及持续值。"
+>abstract="包含维度的实例。"
 
 <!-- markdownlint-enable MD034 -->
 

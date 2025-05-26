@@ -1,16 +1,27 @@
 ---
 description: 允许您将区段用于“受众库”、Target 和 Audience Manager 中的营销活动。
-title: 要Experience Cloud的Publish区段
+title: 将区段发布到Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 66%
+source-wordcount: '1356'
+ht-degree: 64%
 
 ---
 
-# 要Experience Cloud的Publish区段
+# 将区段发布到Experience Cloud {#publish-segments}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_publishing"
+>title="Experience Cloud发布"
+>abstract="您可以将从此区段派生的受众发布到受众库，以便在Target和其他Experience Cloud解决方案中开展营销活动。"
+
+>[!CONTEXTUALHELP]
+>id="components_segments_audienclibrary"
+>title="受众库"
+>abstract="在受众库中创建的区段可立即使用，并且不依赖于Analytics更新。"
+
 
 将Adobe Analytics区段发布到Experience Cloud后，您可以将该区段用于[!DNL Audience Manager]和其他激活渠道中的营销活动，包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign]。
 
@@ -19,7 +30,7 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish区段](https://video.tv.adobe.com/v/36689?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[发布区段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -55,10 +66,10 @@ ht-degree: 66%
 ## 在[!UICONTROL 区段生成器]中发布区段
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
-1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
+1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
    ![发布 Experience Cloud](assets/publish-ec.png)
 1. 提供区段的标题和描述。 保存前需要这些字段。
-1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段Publish到Experience Cloud（对于&#x200B;*报表包*）]**。
+1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
 
 >[!IMPORTANT]
 >将 Adobe Analytics 数字与 Audience Manager 数字进行比较时，确保在 Analytics 中查看区段预览时使用“具有 Experience Cloud ID 的访客”，而不是总计“独特访客数”区段预览：
@@ -67,7 +78,7 @@ ht-degree: 66%
 
 | 元素 | 描述 |
 |---|---|
-| **[!UICONTROL 将此区段Publish到Experience Cloud（对于&#x200B;*`<report suite>`*）]** | 启用此选项后，区段标题和定义（即，广告平台中经常使用的Shell受众）会立即与Experience Cloud共享，而区段成员资格则每4小时进行一次评估和共享。 <br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在Experience Cloud的[!DNL Audience Library]页面中。</br> |
+| **[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*`<report suite>`*）]** | 启用此选项后，区段标题和定义（即广告平台中经常使用的Shell受众）会立即与Experience Cloud共享，而区段会员资格则每4小时进行一次评估和共享。 <br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在Experience Cloud的[!DNL Audience Library]页面中。</br> |
 | **[!UICONTROL 受众创建窗口]** | 您选择用于在滚动日历基础上创建受众的时间范围。例如，“最近 30 天”（默认）包括从当天日期（不是最初创建区段的日期）起，最近 30 天中符合受众条件的访客。 |
 | **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在Experience Cloud的[!DNL Audience Library]页面上无延迟地提供。 它们不依赖于 Analytics 更新。这些区段不会计入 75 个已发布区段的限制。 |
 | **[!UICONTROL 已发布 x 个（限制为 75 个）]** | 显示您已发布到Experience Cloud的区段数。 单击该链接可查看已发布的区段，及其关联的报告包和所有者的列表。 |

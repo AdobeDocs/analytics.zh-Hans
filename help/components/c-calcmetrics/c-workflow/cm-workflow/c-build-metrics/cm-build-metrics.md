@@ -3,33 +3,20 @@ description: 计算量度生成器提供了一个画布，用于拖放维度、�
 title: 生成量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
+source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1112'
 ht-degree: 100%
 
 ---
 
 # 生成量度 {#build-metrics}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_productcompatibility"
->title="产品兼容性"
->abstract="表示此计算量度可用于 Customer Journey Analytics，例如 Analysis Workspace、Report Builder 等。某些计算量度无法与试验相结合。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="在实验中使用计算量度。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
 >title="外部 ID"
 >abstract="更改外部 ID 可能会影响计算量度在外部源（例如 Business Intelligence 工具）中的显示方式"
 
-<!-- markdownlint-enable MD034 -->
 
 Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和函数，以基于容器层次结构逻辑、规则和运算符创建自定义量度。通过这种集成式开发工具，您可以生成并保存简单或复杂的计算量度。
 
