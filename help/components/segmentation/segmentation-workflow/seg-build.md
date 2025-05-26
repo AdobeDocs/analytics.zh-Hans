@@ -131,7 +131,7 @@ ht-degree: 97%
 
    ![](assets/drag_n_drop_dimension.png)
 
-   将元素拖动到[!UICONTROL 定义]中之后，将显示默认的顶级[!UICONTROL 点击]容器。您可以从“显示”****&#x200B;下拉菜单中将容器类型更改为“访问”或“访客”。
+   将元素拖动到[!UICONTROL 定义]中之后，将显示默认的顶级[!UICONTROL 点击]容器。您可以从“显示”**&#x200B;**&#x200B;下拉菜单中将容器类型更改为“访问”或“访客”。
 
 1. 从下拉菜单中，设置[运算符](/help/components/segmentation/seg-reference/seg-operators.md)。
 1. 输入或选择所选项目的值。
