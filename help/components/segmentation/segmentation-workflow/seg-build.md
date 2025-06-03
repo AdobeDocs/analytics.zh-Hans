@@ -6,7 +6,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="产品兼容性"
->abstract="一小部分可用的区段标准与所有Adobe Analytics工具不兼容。此列表中指明了与该区段兼容的工具。 要使区段与所有Adobe Analytics工具兼容，请编辑您的标准。"
+>abstract="少数可用的区段标准并非与所有 Adobe Analytics 工具兼容。此列表中列出了与相应区段兼容的工具。要使区段与所有 Adobe Analytics 工具兼容，请编辑您的标准。"
 
 <!-- markdownlint-disable MD034 -->
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="实例"
->abstract="包含维度的实例。"
+>abstract="包括维度的实例。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -131,7 +131,7 @@ ht-degree: 97%
 
    ![](assets/drag_n_drop_dimension.png)
 
-   将元素拖动到[!UICONTROL 定义]中之后，将显示默认的顶级[!UICONTROL 点击]容器。您可以从“显示”**&#x200B;**&#x200B;下拉菜单中将容器类型更改为“访问”或“访客”。
+   将元素拖动到[!UICONTROL 定义]中之后，将显示默认的顶级[!UICONTROL 点击]容器。您可以从“显示”****&#x200B;下拉菜单中将容器类型更改为“访问”或“访客”。
 
 1. 从下拉菜单中，设置[运算符](/help/components/segmentation/seg-reference/seg-operators.md)。
 1. 输入或选择所选项目的值。
