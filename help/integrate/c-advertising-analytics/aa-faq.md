@@ -3,7 +3,7 @@ description: 围绕 Advertising Analytics 的常见问题。
 title: Advertising analytics 常见问题解答
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 37%
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 ## 访问/权利 {#access}
 
-+++ 是否需要成为Adobe Advertising Cloud或Adobe Advertising Cloud (AMO)客户才能访问此功能？
++++ 我是否需要成为Adobe Advertising Cloud或Adobe Advertising Cloud (AMO)客户才能访问此功能？
 
 不需要，此功能适用于非Advertising Cloud和非AMO客户。
 
@@ -46,7 +46,7 @@ Advertising Analytics可用于Adobe Analytics
 
 +++
 
-+++ 如果我已经使用Advertising Cloud/AMO，还可以使用Advertising Analytics功能吗？
++++ 如果我已经在使用Advertising Cloud/AMO，我还可以使用Advertising Analytics功能吗？
 
 任何兼容的搜索引擎帐户都将传递到Advertising Analytics，并将以只读形式显示。 所有的编辑或更新都应在 Advertising Cloud/AMO 中处理。
 
@@ -62,7 +62,7 @@ Advertising Analytics仅适用于Adobe Analytics管理员；但是，管理员�
 
 +++ Advertising Analytics中包含哪些搜索引擎帐户？
 
-搜索引擎帐户包括Google AdWords和Microsoft Bing。
+搜索引擎帐户包括Google Ads和Microsoft Advertising。
 
 +++
 

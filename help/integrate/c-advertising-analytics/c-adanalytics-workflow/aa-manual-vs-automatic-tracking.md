@@ -3,10 +3,10 @@ description: 跟踪类型确定Adobe Analytics实施如何跟踪您的搜索引�
 title: 跟踪类型
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 32%
+source-wordcount: '572'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 32%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/37439/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/reference/csp)的更多信息。
+>了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)的更多信息。
 
 ## 手动跟踪 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -92,13 +92,13 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### 将“手动”跟踪添加到Bing帐户 {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### 将手动跟踪添加到Microsoft Advertising帐户 {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-以下显示了需要添加到 Bing 帐户的字符串。您需要将该字符串添加到您的帐户所使用的所有最终 URL 后缀中。
+以下显示了需要添加到Microsoft Advertising帐户的字符串。 您需要将该字符串添加到您的帐户所使用的所有最终 URL 后缀中。
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_值（下面显示为&#x200B;**粗体**&#x200B;的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕的“跟踪”部分下获取特定的帐户ID字符串。
+>_`<Advertising Analytics ID>`_值（下面显示为&#x200B;**粗体**的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕的“跟踪”部分下获取特定的帐户ID字符串。
 
 **适用于促销活动的跟踪字符串：**
 
@@ -106,7 +106,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![必应](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![添加跟踪代码参数](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 各种最终 URL 后缀格式中的跟踪代码示例：
 

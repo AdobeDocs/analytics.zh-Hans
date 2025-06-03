@@ -1,20 +1,20 @@
 ---
 title: 导入付费搜索指标
-description: 配置 Adobe Analytics 以跟踪您的付费搜索指标（如 Google AdWords、MSN、Yahoo 等等）的步骤。使用数据源。
+description: 配置Adobe Analytics以使用数据源跟踪您的付费搜索指标(如Google Ads、Microsoft Advertising等)的步骤。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
 # 使用[!UICONTROL 数据源]导入[!UICONTROL 付费搜索]指标
 
-对许多营销机构而言，付费搜索是接触新客户和维系现有客户的最有用和最可靠的方法之一。通过 Adobe Analytics 中的[!UICONTROL 数据源]功能，可轻松地从 Google AdWords 等数字广告平台导入高级付费搜索数据。可将这些数据与您其余的营销数据以及现场行为数据和客户属性数据整合在一起，以使您可更好地了解您组织的付费搜索成果。
+对许多营销机构而言，付费搜索是接触新客户和维系现有客户的最有用和最可靠的方法之一。通过Adobe Analytics中的[!UICONTROL 数据源]功能，可轻松地从Google Ads等数字广告平台导入高级付费搜索数据。 可将这些数据与您其余的营销数据以及现场行为数据和客户属性数据整合在一起，以使您可更好地了解您组织的付费搜索成果。
 
-下面这些步骤展示如何配置与 AdWords 的集成，以导入关键词数据以及展示次数、点击次数、每次点击成本等指标。
+这些步骤向您展示如何配置与广告的集成，以导入关键词数据以及展示次数、点击次数、每次点击成本等指标。
 
 这些步骤说明了如何设置每次点击付费数据的一次性导入。 但是，通过[!UICONTROL 数据源]，可使用此处所述的文件格式持续导入数据。根据您的付费搜索平台，您有可能可以安排定期导出（每天、每月等）、设置将这些导出转换为 Adobe Analytics 所需的文件格式的自动化过程以及将这些文件上传到 Adobe Analytics 中以生成付费搜索集成报表。
 
@@ -71,21 +71,21 @@ ht-degree: 95%
    ![映射](assets/data-source-mapping.png)
 
 1. 选择数据维度
-单击“跟踪代码”旁的框，然后单击&#x200B;**[!UICONTROL 下一步]**。
+单击“跟踪代码”旁的框，然后单击**[!UICONTROL 下一步]**。
 1. 映射数据维度。
-将导入的数据维度（属性）映射到要将它存入的 Adobe Analytics 属性。这可以是标准维度或 eVar。单击&#x200B;**[!UICONTROL 下一步]**&#x200B;之后，将在摘要中显示所得的映射：
+将导入的数据维度（属性）映射到要将它存入的 Adobe Analytics 属性。这可以是标准维度或 eVar。单击**[!UICONTROL 下一步]**&#x200B;之后，将在摘要中显示所得的映射：
 
    ![摘要](assets/data-source-summary.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 单击&#x200B;**[!UICONTROL 下载]**&#x200B;以下载此数据源的模板文件。
+1. 单击&#x200B;**[!UICONTROL 下载]**以下载此数据源的模板文件。
 文件名对应于您最初指定的数据源类型 — 在本例中为“Generic Pay-Per-Click Service template.txt”。
 1. 在您喜爱的文本编辑器中打开该模板。
 已为该文件填入了指标和维度及其映射。
 
 ## 导出 PPC 数据并将它上传到 Analytics
 
-类似这些的步骤适用于 Google Adwords、MSN、Yahoo 和其他 PPC 帐户。
+类似这些的步骤适用于Google Ads、Microsoft Advertising和其他PPC帐户。
 
 ### 导出数据
 
@@ -100,9 +100,9 @@ ht-degree: 95%
 1. 删除位于顶部的任何多余的行。
 1. 要从目标 URL 中分离出跟踪代码，请执行以下操作：
 a. 从所有列复制并粘贴数据。
-b. 单击&#x200B;**[!UICONTROL 数据 > 分列]**。
-c. 在向导的第 1 步中，确保选中了&#x200B;**[!UICONTROL 分隔符号]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
-d.在向导的第2步中，根据创建URL的方式指定分隔符(？ 或&amp;)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+b. 单击**[!UICONTROL 数据 > 分列]**。
+c. 在向导的第 1 步中，确保选中了**[!UICONTROL 分隔符号]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
+d.在向导的第2步中，根据创建URL的方式指定分隔符(？ 或&amp;)，然后单击**[!UICONTROL 下一步]**。
 e. 在向导的第 3 步中，预览您的数据，并确保其中一列为“trackingcodename=trackingcode”。如果有其他变量，请（使用 &amp; 作为分隔符）重复这些步骤。
 f. 删除跟踪代码、展示次数、点击次数和成本之外的所有列。添加一个名为 Date 的新列，并按以下顺序整理您的各个列：Date :: Tracking code :: Impressions :: Clicks :: Cost。
 1. 将这些数据添加到您在上方的“设置数据源”部分中下载的模板。
