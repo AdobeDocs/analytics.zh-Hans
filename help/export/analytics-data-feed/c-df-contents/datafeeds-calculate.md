@@ -4,10 +4,10 @@ keywords: 数据馈送;作业;量度;前处理列;后处理列;机器人;日期�
 title: 计算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->从 Adobe Analytics 中排除的点击通常包含在数据馈送中。使用 `exclude_hit = 0` 可从原始数据查询中删除排除的点击。此外，数据馈送中还包含数据源数据。如果要排除数据源，请排除 `hit_source = 5,7,8,9` 的所有行。
+>通常会从Analysis Workspace中排除的点击将包含在数据馈送中。 如果查询相关，请考虑添加以下条件：
+>
+>* **`exclude_hit`**： Analysis Workspace仅包含`exclude_hit = 0`的数据。
+>* **`customer_perspective`**： Analysis Workspace仅包含`customer_perspective = 0`的数据，除非您使用的虚拟报表包包含移动设备后台点击量。
+>* **`hit_source`**：数据源中的数据可能包含原始数据与Analysis Workspace之间的差异。 如果要从数据源排除点击，请排除`hit_source = 5,7,8,9`的所有行。
 
 ## 页面查看
 
@@ -38,7 +42,7 @@ ht-degree: 95%
 
 ## 访客
 
-Adobe 用于识别独特访客的所有方法（自定义访客 ID、Experience Cloud ID 服务等）最终都被计算为 `post_visid_high` 和 `post_visid_low` 中的值。无论以何种方式标识为独特访客，均可使用这两列的拼接来作为标识独特访客的标准。如果您想了解 Adobe 使用哪种方法来识别独特访客，请使用列 `post_visid_type`。
+Adobe用于识别独特访客的所有方法(自定义访客ID、Experience Cloud ID服务等)最终都会计算为`post_visid_high`和`post_visid_low`中的值。 无论以何种方式标识为独特访客，均可使用这两列的拼接来作为标识独特访客的标准。如果您想了解 Adobe 使用哪种方法来识别独特访客，请使用列 `post_visid_type`。
 
 1. 拼接 `post_visid_high` 和 `post_visid_low`。
 2. 计算唯一值的数量。
