@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ![Google广告管理器帐户](assets/google-account.png)
 
-## Microsoft Advertising(Bing) {#microsoft}
+## Microsoft Advertising (Bing) {#microsoft}
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="帐户 ID"
->abstract="“帐户ID”是位于Microsoft Advertising界面中的数字值。 您可以通过导航到设置>帐户设置>帐户ID来找到它。"
+>abstract="&#39;帐户 ID&#39; 是一个数字值，位于 Microsoft Advertising 界面中。您可以通过导航至“设置”>“帐户设置”>“帐户 ID”找到该值。"
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
->title="经理帐户ID"
->abstract="“经理帐户ID”是位于Microsoft Advertising界面中的数字值。 您可以通过导航到设置>管理器帐户设置>管理器帐户ID来找到它。"
+>title="管理器帐户 ID"
+>abstract="&#39;管理器帐户 ID&#39; 是一个数字值，位于 Microsoft Advertising 界面中。您可以通过导航至“设置”>“管理器帐户设置”>“管理器帐户 ID”找到该值。"

@@ -6,21 +6,21 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
-# 将区段发布到Experience Cloud {#publish-segments}
+# 将区段发布到 Experience Cloud {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Experience Cloud发布"
->abstract="您可以将从此区段派生的受众发布到受众库，以便在Target和其他Experience Cloud解决方案中开展营销活动。"
+>title="Experience Cloud 发布"
+>abstract="您可以将从此区段派生的受众发布到受众库，从受众库就可以将此受众用于 Target 和其他 Experience Cloud 解决方案中的营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audienclibrary"
 >title="受众库"
->abstract="在受众库中创建的区段可立即使用，并且不依赖于Analytics更新。"
+>abstract="在受众库中创建的区段立即可用，不受 Analytics 更新的影响。"
 
 
 将Adobe Analytics区段发布到Experience Cloud后，您可以将该区段用于[!DNL Audience Manager]和其他激活渠道中的营销活动，包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign]。
@@ -30,7 +30,7 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [发布区段](https://video.tv.adobe.com/v/36689?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[发布区段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ ht-degree: 64%
 ## 在[!UICONTROL 区段生成器]中发布区段
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
-1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
+1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
    ![发布 Experience Cloud](assets/publish-ec.png)
 1. 提供区段的标题和描述。 保存前需要这些字段。
 1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
