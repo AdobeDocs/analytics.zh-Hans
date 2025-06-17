@@ -4,7 +4,7 @@ description: 营销渠道处理规则决定访客点击是否符合分配到渠�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 91%
@@ -72,7 +72,7 @@ ht-degree: 91%
 |--- |--- |
 | 全部 | 仅当规则中的所有条件都成立时才激活此渠道。 |
 | 任何 | 当规则中的任一条件成立时，激活此渠道。仅当规则中存在多个条件时，此选项才可用。 |
-| AMO ID | Adobe Advertising与Advertising Analytics集成使用的主要跟踪代码。 如果启用其中一个集成，则可以使用跟踪代码前缀来标识特定于Advertising的渠道。 对于Search and Social，请使用以“AL”开头的“AMO ID”；对于Display，请使用以“AC”开头的“AMO ID”。 在营销渠道中使用AMO ID时，点击/成本/展示次数量度可归因于正确的渠道。 如果未配置AMO ID，这些量度将转至“直接”或“无”。 |
+| AMO ID | Adobe Advertising和Advertising Analytics集成使用的主要跟踪代码。 如果启用其中一个集成，则可以使用跟踪代码前缀来标识特定于Advertising的渠道。 对于Search and Social，请使用以“AL”开头的“AMO ID”；对于Display，请使用以“AC”开头的“AMO ID”。 在营销渠道中使用AMO ID时，点击/成本/展示次数量度可归因于正确的渠道。 如果未配置AMO ID，这些量度将转至“直接”或“无”。 |
 | AMO EF ID | Adobe Advertising使用的辅助跟踪代码。 此跟踪代码的主要用途是用作将数据发送回Advertising的键。 但是，它也可用于将“显示点进次数”和“显示视图点进次数”标识为两个单独的营销渠道。 为此，请为显示点进次数设置以`:d`结尾的“AMO EF ID”的营销渠道逻辑，为显示视图点进次数设置以`:i`结尾的“AMO EF ID”的营销渠道逻辑。 如果您不希望将显示拆分为两个渠道，可以改为使用 AMO ID 维度。 |
 | 转化变量 | 由为本报表包启用的 eVar 组成，并且只在通过网页上的 Adobe 代码设置变量时才适用。 |
 | 存在 | 可使用若干选项，包括：<ul><li>**不存在**：指定请求上不存在点击属性。例如在反向链接域中，如果用户键入一个 URL 或单击一个书签，则该反向链接域属性不存在。</li><li>**为空**：指定点击属性存在，通常为 eVar 或查询字符串参数，但没有任何与点击属性相关的值。</li><li>**不包含**：例如，您可以指定反向链接域不包含特定值（与使用选项“包含”相反）。</li></ul> |
@@ -82,7 +82,7 @@ ht-degree: 91%
 | 引用网站与内部 URL 过滤器匹配 | 按照“管理工具”中对报表包的定义，页面 URL 与内部 URL 过滤器匹配的访问。 |
 | 引用网站与内部 URL 过滤器不匹配 | 按照“管理工具”中对报表包的定义，引用 URL 与内部 URL 筛选器不匹配。您可以使用此设置与“页面 URL”和“存在”来设置一个通配符规则，从而确保没有访问会被归入报告的“未识别渠道”部分。 |
 | 忽略与内部 URL 过滤器匹配的点击量 | （关于反向链接）只跟踪来自外部引用网站的点击量。通常，将此设置保留为启用状态，除非您希望包括内部流量。 |
-| 是访问第一页 | Adobe 报告检测到的访问第一页。 |
+| 是访问的首次点击 | Adobe报表检测到的访问的首次点击。 |
 | 页面 | [页面](/help/components/dimensions/page.md)维度。 |
 | 页面域 | 访客所登陆页面的域，如 `products.example.com`。 |
 | 页面域和路径 | 域和路径，如 `products.example.com/mens/pants/overview.html`。 |
