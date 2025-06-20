@@ -20,7 +20,7 @@ ht-degree: 0%
 * Analysis Workspace中[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的一行用于启动划分。
 * Analysis Workspace中[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的列，用于添加或替换列或启动过滤器。
 * 配置可视化面板或允许放置区段的面板。 例如，在[区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板或[关键量度](/help/analyze/analysis-workspace/visualizations/key-metric.md)摘要可视化中
-* 区段](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder)的[定义生成器，因此在区段定义中包含区段。
+* 区段[&#128279;](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder)的定义生成器，因此在区段定义中包含区段。
 * 计算量度的[定义生成器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder)，因此您需要在计算量度定义中包含区段。
 
 <!--

@@ -30,7 +30,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[发布区段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [发布区段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ ht-degree: 63%
 * **报告包限制**：每个报告包最多可发布 75 个区段。此限制是强制实施的。如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
 * **会员资格限制**：从 Adobe Analytics 共享到 [!DNL Experience Cloud] 的受众数量不能超过 2000 万个独特会员。
 * **数据隐私**：受众并非基于访客的身份验证状态进行过滤。如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。请查看 [Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
-* 有关[!DNL Adobe Analytics]和&#x200B;[!DNL Audience Manager]**中区段之间的**&#x200B;差异的讨论，请参阅[了解Analytics和Audience Manager中的区段](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hans)。
+* 有关[!DNL Adobe Analytics]和&#x200B;[!DNL Audience Manager]&#x200B;**中区段之间的**&#x200B;差异的讨论，请参阅[了解Analytics和Audience Manager中的区段](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hans)。
 
 ## 区段发布时间轴
 
@@ -66,7 +66,7 @@ ht-degree: 63%
 ## 在[!UICONTROL 区段生成器]中发布区段
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
-1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
+1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
    ![发布 Experience Cloud](assets/publish-ec.png)
 1. 提供区段的标题和描述。 保存前需要这些字段。
 1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
