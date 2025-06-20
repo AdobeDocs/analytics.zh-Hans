@@ -4,10 +4,10 @@ title: Analysis Workspace 中的指标
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 30%
+source-wordcount: '739'
+ht-degree: 25%
 
 ---
 
@@ -21,15 +21,12 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 * **标准指标**：您在项目中使用的大多数指标都是标准指标。相关例子包括[页面浏览量](/help/components/metrics/page-views.md)、[收入](/help/components/metrics/revenue.md)或者[自定义事件。](/help/components/metrics/custom-events.md)有关更多信息，请参阅组件用户指南中的[指标概述。](/help/components/metrics/overview.md)
 
-  ![标准指标](assets/standard-metric.png)
+* **计算指标** ![计算器](/help/assets/icons/Calculator.svg)：基于标准指标、静态数字或算法函数的用户定义指标。 用户定义的计算指标会在可用组件列表中显示一个计算器图标。有关更多信息，请参阅组件用户指南中的[计算指标概述。](/help/components/c-calcmetrics/cm-overview.md)
 
-* **计算指标**：基于标准指标、静态数字或算法函数的由用户定义的指标。用户定义的计算指标会在可用组件列表中显示一个计算器图标。有关更多信息，请参阅组件用户指南中的[计算指标概述。](/help/components/c-calcmetrics/cm-overview.md)
+* **计算量度模板** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：Adobe定义的与计算量度行为相似的量度。 您可以在 Workspace 项目中按原样使用它们，或保存副本以自定义其逻辑。计算指标模板会在可用组件列表中显示一个 Adobe 图标。
 
-  ![计算指标](assets/calculated-metric.png)
+您可以查看某个量度是否获得批准![批准图标](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)。 如果您想了解有关某个量度的更多详细信息，请将鼠标悬停在该量度上，然后选择![信息图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)。 有关详细信息，请参阅[组件信息](use-components-in-workspace.md#component-info)。
 
-* **计算指标模板**：Adobe 定义的指标，其行为类似于计算指标。您可以在 Workspace 项目中按原样使用它们，或保存副本以自定义其逻辑。计算指标模板会在可用组件列表中显示一个 Adobe 图标。
-
-  ![计算指标模板](assets/calculated-metric-template.png)
 
 ## 在 Analysis Workspace 中使用指标
 
@@ -38,7 +35,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://video.tv.adobe.com/v/328561?quality=12&learn=on&captions=chi_hans){target="_blank"}观看演示视频。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +43,13 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 计算量度允许您使用简单的运算符或统计函数轻松查看量度之间的相互关系。
 
+
 可通过多种方式创建计算量度。 您选择的方法确定计算量度是从所有项目的组件列表中可用，还是仅用于创建该量度的项目。
 
 ### 为所有项目创建计算指标
 
-您可以使用计算指标生成器创建计算指标。 通过这种方式创建时，计算量度在组件列表中可用，然后可在整个组织的项目中使用。
+您可以使用[计算量度生成器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)来[创建计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)。 通过这种方式创建时，计算量度在组件列表中可用，并可用于您整个组织的项目。
 
-有关如何访问计算量度生成器的信息，请参阅[生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)。
 
 ### 为单个项目创建计算指标
 
@@ -100,6 +97,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 [计算指标：无实施指标](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hans) (3:42)
 
+
 ## 比较不同归因模型的指标
 
 若要快速将一个归因模型与另一个归因模型进行比较，请右键单击某个量度并选择&#x200B;**[!UICONTROL 比较归因模型]**：
@@ -115,7 +113,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 >[!BEGINSHADEBOX]
 
-查看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累积平均值](https://video.tv.adobe.com/v/35005?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+查看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累积平均值](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

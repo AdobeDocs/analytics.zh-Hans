@@ -1,35 +1,49 @@
 ---
-description: 如何从区段边栏将一个或多个区段应用于报表。
-title: 选择和应用区段
+description: 如何在报表中使用区段。
+title: 使用区段
 feature: Segmentation
+role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# 选择和应用区段
+# 使用区段
 
-如何从区段边栏将一个或多个区段应用于报表。
+要在Analysis Workspace中使用区段，您只需从组件边栏中的&#x200B;**[!UICONTROL 区段]**&#x200B;中拖动一个或多个区段并放置在：
 
-1. 显示要应用区段的报表，例如[!UICONTROL 页面报表]。
-1. 单击报表上方的&#x200B;**[!UICONTROL 显示区段]**。将打开区段边栏。
+* Analysis Workspace中的[面板](/help/analyze/analysis-workspace/c-panels/panels.md)，用于划分面板中的所有可视化图表。
+* Analysis Workspace中[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的标题行用于替换维度。
+* Analysis Workspace中[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的一行用于启动划分。
+* Analysis Workspace中[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的列，用于添加或替换列或启动过滤器。
+* 配置可视化面板或允许放置区段的面板。 例如，在[区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板或[关键量度](/help/analyze/analysis-workspace/visualizations/key-metric.md)摘要可视化中
+* 区段](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder)的[定义生成器，因此在区段定义中包含区段。
+* 计算量度的[定义生成器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder)，因此您需要在计算量度定义中包含区段。
+
+<!--
+How to apply one or more segments to a report from the segment rail.
+
+1. Bring up the report to which you want to apply a segment, for example the [!UICONTROL Pages Report].
+1. Click **[!UICONTROL Show Segments]** above the report. The segment rail opens.
 
    ![](assets/segment_rail.png)
 
-1. 选中一个或多个区段旁边的复选框或&#x200B;**[!UICONTROL 搜索区段]**&#x200B;以找到正确的区段。
+1. Mark the checkbox next to one or more of the segments or **[!UICONTROL Search Segments]** to find the right segment.
 
    >[!NOTE]
    >
-   >一个报表可应用多个区段（这种方式称为区段堆叠）。在应用多个区段时，每个区段中的条件将使用“and”运算符组合在一起，然后再加以应用。可堆叠的区段数量没有任何限制。
+   >You can apply more than one segment to a report (this is called segment stacking). When multiple segments are applied, the criteria in each segment is combined using an 'and' operator and then applied. There is no limit to how many segments you can stack.
 
    >[!NOTE]
    >
-   >通过单击区段名称旁边的信息图标 (i)，您可以预览关键量度，以确定是否具有有效的区段以及区段的广泛程度。
+   >Clicking the Information icon (i) next to the segment name lets you preview the key metrics to see whether you have a valid segment and how broad the segment is.
 
-1. 您可以通过选中&#x200B;**[!UICONTROL （仅限）`<report suite name>`]**&#x200B;复选框来按报表包进行过滤。这将仅显示该报表包中最后保存的区段。
-1. 单击&#x200B;**[!UICONTROL 应用区段]**，此时报表将进行刷新。应用的区段现在将显示在报表顶部：
+1. You can filter by report suite by selecting the **[!UICONTROL (Only) `<report suite name>`]** check box. This will show only those segments that were last saved in that report suite.
+1. Click **[!UICONTROL Apply Segment]** and the report will refresh. The segment or segments that are applied now display at the top of the report:
 
    ![](assets/applied_segments.png)
+
+-->

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
 + [Analytics 组件指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
@@ -92,7 +92,7 @@ ht-degree: 100%
    + [反向链接](dimensions/referrer.md)
    + [反向链接域](dimensions/referring-domain.md)
    + [地区](dimensions/regions.md)
-   + [回访频度](dimensions/return-frequency.md)
+   + [回访频率](dimensions/return-frequency.md)
    + [搜索引擎](dimensions/search-engine.md)
    + [搜索关键词](dimensions/search-keyword.md)
    + [服务器](dimensions/server.md)
@@ -180,25 +180,27 @@ ht-degree: 100%
    + [关于区段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
    + 分段工作流程 {#segmentation-workflow}
-      + [分段工作流程概述](segmentation/segmentation-workflow/seg-workflow.md)
+      + [概述](segmentation/segmentation-workflow/seg-workflow.md)
       + [计划区段](segmentation/segmentation-workflow/seg-plan.md)
+      + [创建区段](segmentation/segmentation-workflow/seg-create.md)
       + [生成区段](segmentation/segmentation-workflow/seg-build.md)
-      + [生成顺序区段](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [标记区段](segmentation/segmentation-workflow/seg-tag.md)
-      + [批准区段](segmentation/segmentation-workflow/seg-approve.md)
+      + [快速区段](segmentation/segmentation-workflow/seg-quick.md)
+      + [顺序区段](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [共享区段](segmentation/segmentation-workflow/t-seg-share.md)
-      + [将区段发布到 Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [选择和应用区段](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [过滤区段](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [标记区段](segmentation/segmentation-workflow/seg-tag.md)
+      + [过滤区段列表](segmentation/segmentation-workflow/t-seg-filter.md)
       + [将区段标记为收藏](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [批准区段](segmentation/segmentation-workflow/seg-approve.md)
       + [删除区段](segmentation/segmentation-workflow/seg-delete.md)
       + [复制区段](segmentation/segmentation-workflow/seg-copy.md)
       + [管理区段](segmentation/segmentation-workflow/seg-manage.md)
+      + [将区段发布到 Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [选择和应用区段](segmentation/segmentation-workflow/t-seg-apply.md)
    + 区段引用 {#segment-reference}
-      + [区段的比较运算符](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse 区段兼容性](segmentation/seg-reference/seg-compatibility.md)
+      + [运算符](segmentation/seg-reference/seg-operators.md)
+      + [Data Warehouse区段兼容性](segmentation/seg-reference/seg-compatibility.md)
       + [区段权限（按角色）](segmentation/seg-reference/seg-rights.md)
-      + [疑难解答](segmentation/seg-reference/c-troubleshooting.md)
+      + [故障排除](segmentation/seg-reference/c-troubleshooting.md)
    + [有关管理原有区段的常见问题](segmentation/seg-transition.md)
    + [最佳实践](segmentation/best-practices.md)
 + 计算量度 {#calculated-metrics}
@@ -208,9 +210,9 @@ ht-degree: 100%
       + [计算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [生成量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [生成“每次访问的页面查看次数”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [生成“订单协助”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [生成“参与率”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [构建简单量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [构建更复杂的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [生成参与率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [量度类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [分段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)

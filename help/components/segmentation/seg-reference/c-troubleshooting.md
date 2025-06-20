@@ -3,10 +3,10 @@ description: 排除和修复与区段相关的问题。
 title: 分段疑难解答
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

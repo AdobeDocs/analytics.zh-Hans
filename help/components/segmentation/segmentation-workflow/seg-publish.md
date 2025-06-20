@@ -3,10 +3,10 @@ description: 允许您将区段用于“受众库”、Target 和 Audience Manag
 title: 将区段发布到Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 68%
+ht-degree: 63%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 >abstract="您可以将从此区段派生的受众发布到受众库，从受众库就可以将此受众用于 Target 和其他 Experience Cloud 解决方案中的营销活动。"
 
 >[!CONTEXTUALHELP]
->id="components_segments_audienclibrary"
+>id="components_segments_audiencelibrary"
 >title="受众库"
 >abstract="在受众库中创建的区段立即可用，不受 Analytics 更新的影响。"
 
@@ -30,7 +30,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [发布区段](https://video.tv.adobe.com/v/36689?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[发布区段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ ht-degree: 68%
 * **报告包限制**：每个报告包最多可发布 75 个区段。此限制是强制实施的。如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
 * **会员资格限制**：从 Adobe Analytics 共享到 [!DNL Experience Cloud] 的受众数量不能超过 2000 万个独特会员。
 * **数据隐私**：受众并非基于访客的身份验证状态进行过滤。如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。请查看 [Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
-* 有关&#x200B;**[!DNL Adobe Analytics] 和[!DNL Audience Manager]** 中的区段之间的差异的讨论，请转到[此处](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hans)。
+* 有关[!DNL Adobe Analytics]和&#x200B;[!DNL Audience Manager]**中区段之间的**&#x200B;差异的讨论，请参阅[了解Analytics和Audience Manager中的区段](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hans)。
 
 ## 区段发布时间轴
 
@@ -66,19 +66,19 @@ ht-degree: 68%
 ## 在[!UICONTROL 区段生成器]中发布区段
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
-1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
+1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
    ![发布 Experience Cloud](assets/publish-ec.png)
 1. 提供区段的标题和描述。 保存前需要这些字段。
 1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
 
->[!IMPORTANT]
->将 Adobe Analytics 数字与 Audience Manager 数字进行比较时，确保在 Analytics 中查看区段预览时使用“具有 Experience Cloud ID 的访客”，而不是总计“独特访客数”区段预览：
->
->![使用 ECID 细分访客](assets/seg-vis-ecid.png)
+   >[!IMPORTANT]
+   >
+   >将Experience Cloud数字与Audience Manager数字进行比较时，请确保在&#x200B;**[!UICONTROL 数据预览]**&#x200B;中监视&#x200B;**[!UICONTROL 具有Adobe Analytics ID]**&#x200B;的访客，而不是&#x200B;**[!UICONTROL 独特访客]**。
+   >
 
 | 元素 | 描述 |
 |---|---|
-| **[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*`<report suite>`*）]** | 启用此选项后，区段标题和定义（即广告平台中经常使用的Shell受众）会立即与Experience Cloud共享，而区段会员资格则每4小时进行一次评估和共享。 <br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在Experience Cloud的[!DNL Audience Library]页面中。</br> |
+| **[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]** | 启用此选项后，区段标题和定义（即广告平台中经常使用的Shell受众）会立即与Experience Cloud共享，而区段会员资格则每4小时进行一次评估和共享。 <br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在Experience Cloud的[!DNL Audience Library]页面中。</br> |
 | **[!UICONTROL 受众创建窗口]** | 您选择用于在滚动日历基础上创建受众的时间范围。例如，“最近 30 天”（默认）包括从当天日期（不是最初创建区段的日期）起，最近 30 天中符合受众条件的访客。 |
 | **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在Experience Cloud的[!DNL Audience Library]页面上无延迟地提供。 它们不依赖于 Analytics 更新。这些区段不会计入 75 个已发布区段的限制。 |
 | **[!UICONTROL 已发布 x 个（限制为 75 个）]** | 显示您已发布到Experience Cloud的区段数。 单击该链接可查看已发布的区段，及其关联的报告包和所有者的列表。 |
@@ -118,30 +118,28 @@ ht-degree: 68%
 1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](/help/implement/validate/debugger.md)。
 1. 加载页面时启动该调试器。
 1. 滚动到Audience Manager部分，然后找到在当前浏览器页面上设置的Adobe Audience Manager UUID
-（以下示例中的`50814298273775797762943354787774730612`）
+（以下示例中的`35721780439475290181087231320657663953`）
 
-![调试程序](assets/debugger.jpg)
+   ![调试程序](assets/aepdebugger.png)
 
 ### 方法 2：使用 Chrome 开发人员工具（或其他浏览器开发人员工具）
 
 1. 在加载页面之前启动 Chrome 开发人员工具
 1. 加载页面，并选中“应用程序”>“Cookie”。Adobe Audience Manager UUID应在第三方中设置
 Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans)）。 字段demdex是Adobe Audience Manager UUID集
-在浏览器上（以下示例中为`50814298273775797762943354787774730612`）。
+在浏览器上（以下示例中为`35721780439475290181087231320657663953`）。
 
-![Chrome 开发人员工具](assets/ggogle-uuid.png)
+   ![Chrome 开发人员工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 访客轮廓查看器]
 
 加载[!UICONTROL 访客资料查看器]时，默认情况下将使用浏览器上的Adobe Audience Manager UUID。 如果验证其他用户的特性实现，请在“UUID”字段中输入 UUID，然后单击“[!UICONTROL 刷新]”。请参阅[访客轮廓查看器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hans)，以了解详细信息。
 
-![Audience Manager 轮廓查看器](assets/aam-vpv.png)
-
 ## 在 [!DNL Audience Manager] 中查看区段特性
 
 在Adobe Audience Manager中，当Analytics与Experience Cloud共享区段时，将以流式方式评估给定区段的具有ECID的访客列表。
 
-1. 在 [!DNL Audience Manager] 中，转到[!UICONTROL “受众数据”>“特性”>“Analytics 特性”]。您将看到每个 Analytics 报告包对应的文件夹，这些报告包已映射到您的 Experience Cloud 组织。在启动或置备轮廓和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
+1. 在[!DNL Audience Manager]中，转到&#x200B;**[!UICONTROL 受众数据]** > **[!UICONTROL 特征]** > **[!UICONTROL Analytics特征]**。 您将看到每个 Analytics 报告包对应的文件夹，这些报告包已映射到您的 Experience Cloud 组织。在启动或置备轮廓和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
 1. 选择报告包对应的文件夹，您之前在该报告包中创建了要与 [!DNL Audience Manager] 共享的区段。您将看到所创建的区段/受众。当您共享区段时，会在 [!DNL Audience Manager] 中发生以下两种情况：
    * 将创建一个特性，起初该特性中没有数据。在 [!DNL Analytics] 中发布该区段大约 8 小时后，会载入一个 ECID 列表，并将其与 [!DNL Audience Manager] 和其他 Experience Cloud 解决方案共享。
 
@@ -152,7 +150,11 @@ Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.a
 
 ## 在 [!DNL Adobe Target] 中查看区段
 
-在 Adobe Analytics 中创建区段的过程中显示的“[!UICONTROL 将此区段发布到 Experience Cloud]”复选框，可使该区段在 Adobe Target 的自定义受众库中提供。在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，您可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。
+在 Adobe Analytics 中创建区段的过程中显示的“**[!UICONTROL 将此区段发布到 Experience Cloud]**”复选框，可使该区段在 Adobe Target 的自定义受众库中提供。在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，您可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。
 
-1. 单击“[!UICONTROL 受众]”。
-1. 在“[!UICONTROL 受众]”页面上，找到来源于 [!DNL Experience Cloud] 的受众。这些受众可在 [!DNL Target] 活动中使用。
+在Adobe Target中：
+
+1. 选择&#x200B;**[!UICONTROL 受众]**。
+1. 在“**[!UICONTROL 受众]**”页面上，找到来源于 [!DNL Experience Cloud] 的受众。这些受众可在 [!DNL Target] 活动中使用。
+
+   ![定位受众](assets/target-audiences.png)

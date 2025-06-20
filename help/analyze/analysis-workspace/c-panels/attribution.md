@@ -4,9 +4,9 @@ description: 在 Analysis Workspace 中如何使用和解读归因面板。
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '692'
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+workflow-type: tm+mt
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 * 定义付费媒体之外的归因：可将任何维度、量度、渠道或事件应用于模型（例如内部搜索），而不仅仅是营销活动。
 * 使用无限制的归因模型比较：动态比较任意所需数量的模型。
-* 避免实施更改：使用报告时间处理和上下文感知会话，可在运行时生成并应用客户历程上下文。
+* 避免实施更改：使用报告时间处理和上下文感知会话，可在运行时构建并应用客户历程上下文。
 * 生成与您的归因方案最匹配的会话。
 * 按区段细分归因：轻松对所有重要区段中的营销渠道效果进行比较（例如新客户与老客户、产品 X 与产品 Y、忠诚度级别或 CLV）。
 * 检查渠道交叉和多接触点分析：使用维恩图和直方图，以及趋势归因结果。
@@ -92,9 +92,17 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 {{attribution-models-details}}
 
-## 回顾窗口
+## 容器
+
+{{attribution-container}}
+
+## 回顾时间范围
 
 {{attribution-lookback-window}}
+
+## 示例
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >
@@ -106,7 +114,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/37445/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 

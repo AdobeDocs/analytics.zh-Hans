@@ -3,14 +3,53 @@ description: 了解
 title: 量度类型和归因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
+source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 77%
 
 ---
 
 # 量度类型和归因 {#metric-type-attribution}
+
+您可以为计算量度定义中的量度配置量度类型和[归因模型](#attribution-models)。
+
+1. 选择量度组件中的![设置](/help/assets/icons/Setting.svg)。
+1. 在弹出的对话框中：
+
+   ![指标类型和归因](assets/cm-type-alloc.png)
+
+   * 指定&#x200B;**[!UICONTROL 量度类型]**：
+
+     | 量度类型 | 定义 |
+     |---|---|
+     | **[!UICONTROL 标准]** | 如果一个公式包含一个单一的标准量度，它会显示与其相对的非计算量度的相同数据。标准量度可用于创建特定于每个单独行项目的计算量度。 <p>例如，![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Visits]**&#x200B;接受该特定行项目的订单，然后除以该特定行项目的访问次数。 |
+     | **[!UICONTROL 全部总计]** | 使用每个行项目中报告时段的&#x200B;**[!UICONTROL 全部总计]**。如果一个公式是由单个全部总计量度组成的，则计算量度会在每个行项目上显示相同的“全部总计”数字。全部总计量度可用于创建与总计数据相比较的计算量度。 <p>例如，![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL 总访问量]**&#x200B;显示订单相对于所有访问量的比例，而不只是针对特定行项目的访问量。 在此示例中，您为计算量度中的![事件](/help/assets/icons/Event.svg) **[!UICONTROL 访问次数]**&#x200B;量度指定了&#x200B;**[!UICONTROL 总计]**，这会将其自动转换为![事件](/help/assets/icons/Event.svg) **[!UICONTROL 总访问次数]**。 |
+
+   * 指定&#x200B;**[!UICONTROL 归因]**。
+
+      1. 您可以：
+
+         * 禁用&#x200B;**[!UICONTROL 使用非默认归因模型]**&#x200B;来使用默认的列归因模型，即“上次接触”，其回顾期为 30 天。
+         * 启用&#x200B;**[!UICONTROL 使用非默认的归因模型]**。在&#x200B;**[!UICONTROL 列归因模型]**&#x200B;对话框中，
+
+            * 从[归因模型](#attribution-models)中选择&#x200B;**[!UICONTROL 模型]**。
+            * 从[容器](#container)选项中选择&#x200B;**[!UICONTROL 容器]**。
+            * 从[回顾窗口](#lookback-window)选项中选择&#x200B;**[!UICONTROL 回顾窗口]**。 如果选择&#x200B;**[!UICONTROL 自定义时间]**，则可以定义从&#x200B;**[!UICONTROL 分钟]**&#x200B;到&#x200B;**[!UICONTROL 季度]**&#x200B;的时间段。
+
+      1. 选择&#x200B;**[!UICONTROL 应用]**&#x200B;来应用非默认归因模型。选择“取消”即可取消。
+
+     如果您已定义非默认归因模型，请选择&#x200B;**[!UICONTROL 编辑]**&#x200B;来修改选择。
+
+有关使用归因模型、容器和回顾时间范围的示例，请参阅[示例](#example)。
+
+
+## 归因模型 {#attribution-models}
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="使用非默认的属性模型"
+>abstract="为所选量度启用非默认归因模型。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
@@ -92,49 +131,66 @@ ht-degree: 100%
 >title="算法"
 >abstract="点数是根据统计算法动态确定的。"
 
+{{attribution-models-details}}
+
+
+## 容器 {#container}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="容器"
 >abstract="选择一个容器来设置所需的归因范围。"
 
+{{attribution-container}}
+
+
+## 回顾时间范围 {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="回顾时间范围"
 >abstract="此设置可以确定将要对每次转化应用的数据归因窗口。"
 
-在[生成计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)时，您可以指定量度类型和归因模型。
+{{attribution-lookback-window}}
 
-## 量度类型
+## 示例
 
-要在生成计算量度时指定量度类型，请执行以下操作：
+{{attribution-example}}
 
-1. 选择要选择类型的量度旁边的齿轮图标。
 
-   ![](assets/cm_type_alloc.png)
+<!--
+When [building a calculated metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), you can specify the metric type and the attribution model.
 
-1. 从以下选项中进行选择：
+## Metric type
 
-   | 量度类型 | 定义 |
+To specify the metric type when building a calculated metric:
+
+1. Select the gear icon next to the metric whose type you want to select.
+
+   ![](assets/cm-type-alloc.png) 
+
+1. Choose from the following options:
+
+   |  Metric Type  | Definition  |
    |---|---|
-   | 标准 | 这些量度是在标准 [!DNL Analytics] 报告中使用的相同量度。如果公式包含一个标准量度，它会显示与其相对的非计算量度的相同数据。标准量度可用于创建特定于每个单独行项目的计算量度。例如，[订购次数]/[访问次数]是将特定行项目的订购次数除以特定行项目的访问次数。 |
-   | 全部总计 | 使用每个行项目中报告时间段的全部总计。如果公式包含一个全部总计量度，它会显示每个行项目中的相同总计数。全部总计量度可用于创建与网站总计数据相比较的计算量度。例如，[订单]/[总访问次数]会显示订单与网站所有访问次数的比例，而不只是与特定行项目访问次数的比例。 |
+   |  Standard  | These metrics are the same metrics used in standard [!DNL Analytics] reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
+   |  Grand total  | Use Grand total for the reporting period in every line item. If a formula consisted of a single Grand total metric, it displays the same total number on every line item. Grand total metrics are useful for creating calculated metrics that compare against site total data. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item.  |
 
-## 线性分配的工作原理
+## How linear allocation works
 
-[归因](/help/analyze/analysis-workspace/attribution/overview.md)是如何评估计算量度中的分配模型。
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) is how allocation models in calculated metrics are evaluated.
 
-有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因模型和回顾窗口](/help/analyze/analysis-workspace/attribution/models.md)。
+For a full list of non-default attribution models and lookback windows supported, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 
-下面的示例说明了在报告中如何使用线性分配的计算量度：
+The following example illustrates how calculated metrics with linear allocations work in reporting: 
 
-| | 第 1 次点击 | 第 2 次点击 | 第 3 次点击 | 第 4 次点击 | 第 5 次点击 | 第 6 次点击 | 第 7 次点击 |
+| | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 发送的数据 | 促销活动 A | - | 促销活动 A | 促销活动 B | - | 促销活动 C | $10 |
-| 最近联系 eVar | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 B | 促销活动 B | 促销活动 C | $10 |
-| 首次联系 eVar | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | $10 |
-| 示例 Prop | 促销活动 A | - | 促销活动 A | 促销活动 B | - | 促销活动 C | $10 |
+|Data Sent In|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
+|Last Touch eVar|PROMO A|PROMO A|PROMO A|PROMO B|PROMO B|PROMO C|$10|
+|First Touch eVar|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|$10|
+|Example prop|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
 
-此示例中，在第 7 次点击进行了价值 10 美元的购买之前，值 A、B、C 已发送到第 1、3、4、6 次点击上的变量之中。第二行显示出，在这一系列的点击中，这些值均一直持久出现在最近联系访问中。第三行则显示出首次联系访问的持久性。最后，最后一行显示的是某个不具有持久性的属性（Prop）其数据是如何记录的。
+In this example, the values A, B, and C were sent into a variable on hits 1, 3, 4, and 6 before a $10 purchase was made on hit 7. In the second row, those values persist across hits on a last touch visit basis. The third row illustrates a first-touch visit persistence. Finally, the last row illustrates how data would be recorded for a prop which does not have persistence.
 
+-->

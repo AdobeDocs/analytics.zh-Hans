@@ -3,31 +3,26 @@ description: 您可以在区段管理器内设置一个工作流程，其中包�
 title: 批准区段
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 53%
+source-wordcount: '135'
+ht-degree: 24%
 
 ---
 
 # 批准区段
 
-在区段管理器内，您可以设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
+在[区段管理器](seg-manage.md)中，您可以批准和取消批准区段。 只有管理员可以批准区段。
 
->[!NOTE]
->
->管理员还可以批准数据字典中的区段（和其他组件），如数据字典中的[编辑组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)中所述。
->
->数据字典中批准的任何区段都会反映在区段管理器中。 同样，区段管理器中批准的量度也会反映在数据字典中。
+要批准区段，请执行以下操作：
 
-下面是如何将区段标记为已批准的方法：
+1. 在[区段管理器](seg-manage.md)中，选择要批准的一个或多个区段。
+1. 从操作栏中选择![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 批准]**。 批准的区段以![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)表示
 
-1. 在区段管理器中，选中区段标题左侧的复选框。
-1. 单击区段管理任务栏中的“批准”**&#x200B;**。
-1. 考虑将批准的区段与您的组织分享。
-1. 单击&#x200B;**[!UICONTROL 确定]**。
-1. 请注意列表中区段旁的批准图标。
+要取消批准区段，请执行以下操作：
 
-   ![](assets/seg_approved.png)
+1. 在[区段管理器](seg-manage.md)中，选择要取消批准的一个或多个区段。
+1. 从操作栏中选择![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 取消批准]**。
 
-1. 您也可以通过单击&#x200B;**[!UICONTROL 取消批准]**&#x200B;来取消批准已批准的区段。
+
+您可以按批准的区段对区段列表进行分段。 从![区段](/help/assets/icons/Filter.svg)**[!UICONTROL 区段]**&#x200B;面板中选择&#x200B;**[!UICONTROL 其他区段]**，然后选择&#x200B;**[!UICONTROL 已批准]**。 有关详细信息，请参阅[对区段列表](t-seg-filter.md)进行分段。

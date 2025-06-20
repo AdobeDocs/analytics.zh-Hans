@@ -3,16 +3,16 @@ description: 区段生成器中创建的所有区段并非都与 Data Warehouse 
 title: Data Warehouse 区段兼容性
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Data Warehouse 区段兼容性
+# Data Warehouse区段兼容性
 
-区段生成器中创建的所有区段并非都与 [!DNL Data Warehouse] 兼容。此表列出支持的功能。
+区段生成器中创建的所有区段并非都与[!DNL Data Warehouse]兼容。 此表列出支持的功能。
 
 <table> 
  <thead> 
@@ -76,7 +76,7 @@ ht-degree: 100%
      <li>页面未找到 </li> 
      <li>付费搜索 </li> 
      <li>季度 </li> 
-     <li>回访频度 </li> 
+     <li>回访频率 </li> 
      <li>单页面访问量 </li> 
      <li>发生事件之前逗留的时间 </li> 
      <li>页面逗留时间 — 分段统计 </li> 
