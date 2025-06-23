@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 位置管理器
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 1%
 
 * 使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)导出文件
 * 使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)导出报告
+* 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)时导出文件
 * 使用[分类集](/help/components/classifications/sets/overview.md)导入架构
 
 ## 查看、筛选和搜索位置
@@ -31,7 +32,7 @@ ht-degree: 1%
 
    * **筛选器：**&#x200B;选择“筛选器”图标以筛选位置列表。
 
-     您可以按&#x200B;**[!UICONTROL 位置类型]**、**[!UICONTROL 帐户]**&#x200B;或&#x200B;**创建的**&#x200B;筛选位置。
+     您可以按&#x200B;**[!UICONTROL 位置类型]**、**[!UICONTROL 帐户]**&#x200B;或&#x200B;]**创建的**[!UICONTROL &#x200B;筛选位置。
 
      ![位置筛选器](assets/locations-filters.png)
 
@@ -71,9 +72,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->如果删除了某个位置，则与该位置关联的任何数据馈送文件、Data Warehouse报表或分类集架构在下次使用它们时将失败。
+>如果删除位置，则与已删除位置关联的任何数据馈送文件、Data Warehouse报表或分类集架构在下次使用时都将失败。
 >
->如果删除位置，您应[编辑数据馈送](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse报表](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[分类集架构](/help/components/classifications/sets/manage/schema.md)以使用正常的位置。
+>如果删除位置，您应[编辑数据馈送](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse报告](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[分类集架构](/help/components/classifications/sets/manage/schema.md)以使用正常的位置。
 
 位置只能由创建该位置的用户或系统管理员删除。
 
@@ -171,9 +172,9 @@ ht-degree: 1%
 
 * 在[创建新帐户](/help/components/locations/configure-import-accounts.md)时。
 
-* 在使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)导出文件时，选择使用哪些帐户，使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)导出报告，或使用[分类集](/help/components/classifications/sets/overview.md)导入架构时，选择使用哪些帐户。
+* 在使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)导出文件时、使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)导出报告或使用[分类集](/help/components/classifications/sets/overview.md)导入架构时，选择要使用哪些帐户。
 
-当按本节所述限制帐户类型时，用户将无法再看到您限制的任何类型的帐户。 这意味着无法创建该类型的新帐户，并且在创建数据馈送、Data Warehouse或分类集时也无法使用该类型的现有帐户。
+当按本节所述限制帐户类型时，用户将无法再看到您限制的任何类型的帐户。 这意味着无法创建该类型的新帐户，并且在创建数据馈送、Data Warehouse或分类集时，也无法使用该类型的现有帐户。
 
 但是，如果要限制使用为计划导出配置的现有帐户，则必须删除这些帐户。
 
@@ -205,9 +206,9 @@ ht-degree: 1%
 
    必须至少选择一个帐户类型。
 
-   * [!UICONTROL **Amazon S3角色ARN**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Google云平台**]
+   * [!UICONTROL **Google Cloud Platform**]
 
    * [!UICONTROL **Azure SAS**]
 

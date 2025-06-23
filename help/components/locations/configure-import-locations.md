@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
+source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1697'
 ht-degree: 31%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 31%
 
 * 使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)导出文件
 * 使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)导出报告
+* 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)时导出文件
 * 使用[分类集](/help/components/classifications/sets/overview.md)导入架构
 
 您必须为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照[配置Google导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的说明添加和配置帐户(如Amazon S3角色ARN、Cloud Platform等)，然后添加和配置该帐户中的位置（如本文所述）。
@@ -54,7 +55,7 @@ ht-degree: 31%
    |---------|----------|
    | [!UICONTROL **名称**] | 位置的名称。 |
    | [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。 |
-   | [!UICONTROL **与**]&#x200B;一起使用 | 选择您要将此位置与&#x200B;[!UICONTROL **数据馈送**]、[!UICONTROL **Data Warehouse**]&#x200B;还是&#x200B;[!UICONTROL **分类集**]&#x200B;一起使用。 <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于“Data Warehouse”或“分类集”。</li><li>为避免某个位置出现文件冲突，请在使用该位置后不要更改&#x200B;[!UICONTROL **与**]&#x200B;一起使用字段的值。</li><li>如果要为电子邮件帐户创建位置，请在此字段中选择&#x200B;[!UICONTROL **Data Warehouse**]。 数据馈送和分类集不支持电子邮件位置。</li></ul> |
+   | [!UICONTROL **与**]&#x200B;一起使用 | 选择您要将此位置与&#x200B;[!UICONTROL **数据馈送**]、[!UICONTROL **Data Warehouse**]、[!UICONTROL **分类集**]&#x200B;还是&#x200B;**[!UICONTROL Report Builder]**&#x200B;一起使用。 <p>进行选择时，请考虑以下事项：</p><ul><li>单个位置不能用于多个目的。 例如，用于数据馈送的位置不能也用于Data Warehouse或分类集。</li><li>为避免某个位置出现文件冲突，请在使用该位置后不要更改&#x200B;[!UICONTROL **与**]&#x200B;一起使用字段的值。</li><li>如果要为电子邮件帐户创建位置，请在此字段中选择&#x200B;[!UICONTROL **Data Warehouse**]。 数据馈送和分类集不支持电子邮件位置。</li></ul> |
    | [!UICONTROL **使位置对组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该位置。<p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> |
    | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)。 |
 
@@ -68,7 +69,7 @@ ht-degree: 31%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有`S3:PutObject`权限，以便将文件上载到此存储段。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有`S3:PutObject`权限，以便将文件上传到此存储桶。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -171,7 +172,7 @@ ht-degree: 31%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导出到使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)时配置的帐户和位置。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件位置)。
+   您现在可以将数据导出到使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)时配置的帐户和位置。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件位置)。
 
 ### 旧帐户类型
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1476'
 ht-degree: 56%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 56%
 
 * 使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)导出文件
 * 使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)导出报告
+* 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)时导出文件
 * 使用[分类集](/help/components/classifications/sets/overview.md)导入架构
 
 您需要为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照本文所述添加和配置帐户(如Amazon S3角色ARN、Google Cloud Platform等)，然后按照[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述，添加和配置该帐户内的位置（如帐户内的文件夹）。
@@ -49,7 +50,7 @@ ht-degree: 56%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 创建位置时将显示此名称 |
+   | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 此名称会在创建位置时出现 |
    | [!UICONTROL **位置帐户描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。 |
    | [!UICONTROL **使帐户对贵组织的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该帐户。<p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> |
    | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
@@ -70,7 +71,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Google Cloud Platform
 
@@ -82,7 +83,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure SAS
 
@@ -90,15 +91,15 @@ ht-degree: 56%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-   | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+   | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+   | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
    | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。要配置Azure SAS，必须使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
    | [!UICONTROL **密钥保管库密码名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥保管库中，位于&#x200B;**密钥保管库**&#x200B;设置页面上。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
-   | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+   | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure RBAC
 
@@ -106,19 +107,19 @@ ht-degree: 56%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-   | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-   | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+   | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+   | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
+   | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Email
 
    >[!NOTE]
    >
-   >电子邮件帐户只能与[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)一起使用。 （[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件帐户）。
+   >电子邮件帐户只能用于[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 （[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件帐户）。
 
    若要配置 Azure RBAC 帐户，请指定以下信息：
 
@@ -128,7 +129,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    **旧帐户类型**
 
@@ -147,13 +148,13 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++SFTP
 
    提供了对数据馈送的 SFTP 支持。需要 SFTP 主机、用户名，以及包含有效 RSA 或 DSA 公钥的目标站点。您可以在创建馈送时下载相应的公钥。
 
-   +++
++++
 
    +++S3
 
@@ -188,7 +189,7 @@ ht-degree: 56%
    >
    >不支持 cn-north-1 区域。
 
-   +++
++++
 
    +++Azure Blob
 
@@ -198,7 +199,7 @@ ht-degree: 56%
    >
    >您必须实施自己的流程来管理 Data Warehouse 目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。
 
-   +++
++++
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 

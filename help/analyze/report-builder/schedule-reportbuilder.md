@@ -1,19 +1,23 @@
 ---
 title: 如何在Adobe Analytics中使用Report Builder计划工作簿
-description: 了解如何在Report Builder中使用计划功能
+description: 了解如何使用Report Builder中的计划功能
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 76%
+source-wordcount: '858'
+ht-degree: 69%
 
 ---
 
-# 计划工作簿
+# 通过电子邮件共享计划工作簿
+
+>[!NOTE]
+>
+>除了计划通过电子邮件共享的工作簿外（如本节所述），您还可以计划要导出到云目标的工作簿（如[计划导出到云目标的工作簿](/help/analyze/report-builder/report-builder-export.md)中所述）。
 
 保存工作簿并完成分析后，您可以使用计划功能轻松地与团队中的其他人共享您的工作簿。计划功能允许您创建计划，自动刷新工作簿中的数据，并在特定日期和时间将 Excel 工作簿。xlsx 文件作为附件通过电子邮件发送给指定的受众。设置时间表可为收件人自动提供定期更新。您还可以使用计划功能将工作簿发送一次，而无需计划自动更新。
 
@@ -24,14 +28,14 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计划工作簿](https://video.tv.adobe.com/v/3417502?quality=12&learn=on&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计划工作簿](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
 
 ## 计划工作簿
 
-使用Report Builder中心中的“计划”按钮可快速创建计划，以便将工作簿Excel文件(.xlsx)自动分发给个人或组。
+使用Report Builder中心中的“计划”按钮可快速创建计划，以便您将工作簿Excel文件(.xlsx)自动分发给个人或群组。
 
 1. 单击 Report Builder 中心的计划按钮。
 
@@ -77,7 +81,7 @@ ht-degree: 76%
 
    ![单击“按计划发送”。](./assets/send-on-schedule.png){width="55%"}
 
-   您将在 Report Builder 中心底部看到一个确认提示，计划的工作簿列在“工作簿”选项卡下。
+   您会在Report Builder中心底部看到一个确认toast，并且计划工作簿列在“工作簿”选项卡下。
 
    ![确认toast](./assets/confirmation-toast.png){width="55%"}
 
@@ -87,7 +91,7 @@ ht-degree: 76%
 
    此时会出现一个弹出窗口，询问您是否要使用旧工作簿中的计划元数据创建新的计划任务。
 
-1. 如果选择&#x200B;**[!UICONTROL 使用]**，则Report Builder会自动填写旧版计划信息。
+1. 如果选择&#x200B;**[!UICONTROL 使用]**，Report Builder会自动填写旧版计划信息。
 
 1. 确保此信息正确无误并安排时间。
 
@@ -104,44 +108,6 @@ ht-degree: 76%
 
 1. 单击&#x200B;**立即发送**。
 
-## 查看和编辑计划的工作簿 {#view-edit}
+## 管理计划的工作簿
 
-您可以在“工作簿”选项卡下的一个位置查看和管理所有计划的工作簿。
-
-1. 在 Report Builder 中心的计划部分中，单击工作簿选项卡。使用此视图查看所有计划工作簿的列表。
-
-1. 选择一个工作簿显示的多个工具允许您编辑工作簿、编辑计划任务、暂停和重新启动计划任务、下载计划任务报表或删除计划任务。
-
-   ![显示工作簿计划图标的屏幕截图。](./assets/schedule-icons.png){width="20%"}
-
-* （可选）单击铅笔图标以编辑工作簿计划任务。
-
-* （可选）单击时钟图标以查看每个计划任务的历史记录。
-
-* （可选）单击暂停图标以暂停并重新启动分发计划任务。 如果您需要在发送工作簿之前修改工作簿，这将很有帮助。当您想要重新启动分发时，请再次单击暂停图标。
-
-* （可选）单击下载图标以下载工作簿计划任务的副本。
-
-* （可选）单击垃圾桶以删除计划任务。
-
-  ![显示计划任务列表的屏幕截图。](./assets/selected-workbook.png){width="40%"}
-
-## 查看计划任务的状态 {#status}
-
-历史记录视图允许您查看每个计划任务的状态。有一个单独的行记录每个计划任务的状态更改。在下面显示的示例中，*新工时计划*&#x200B;于 1 月 5 日下午 3:04 启动。到下午 3:05，它已成功刷新并发送给收件人。下一个工作簿&#x200B;*错误的工作簿*&#x200B;在刷新过程中遇到错误。如果工作簿发送失败，“历史记录”选项卡会通过显示过程中发生错误的位置来帮助您进行故障排除。在这种情况下，可能是由于某些数据块错误（可能是缺少组件）导致工作簿无法成功刷新。
-
-绿色复选标记表示工作簿已成功发送。红色三角形中的感叹号表示发生了错误。
-
-您可以通过单击搜索栏右侧的列设置图标来选择要在历史记录选项卡中显示的列。
-
-![单击列图标以显示或隐藏特定列。](./assets/history.png){width="55%"}
-
-您可以通过转到工作簿选项卡、选择工作簿并单击历史记录图标来过滤历史记录以仅查看单个计划工作簿的历史记录。
-
-您还可以从“工作簿”选项卡查看特定工作簿的历史记录。在工作簿选项卡上，选择工作簿，然后单击历史记录图标。
-
-![工作簿历史记录图标](./assets/history2.png){width="55%"}
-
-然后工作簿过滤器将出现在历史记录的顶部。要再次查看所有计划任务的历史记录，请单击过滤器旁边的 x。
-
-![工作簿筛选器。](./assets/history3.png){width="55%"}
+有关管理已计划工作簿的信息，请参阅[管理计划的工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)。

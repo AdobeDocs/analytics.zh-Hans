@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -171,7 +171,9 @@ ht-degree: 100%
    + [使用片段工作](report-builder/work-with-segments.md)
    + [过滤器维度](report-builder/filter-dimensions.md)
    + [管理数据块](report-builder/manage-reportbuilder.md)
-   + [计划工作簿](report-builder/schedule-reportbuilder.md)
+   + [计划电子邮件工作簿](report-builder/schedule-reportbuilder.md)
+   + [计划用于云导出的工作簿](/help/analyze/report-builder/report-builder-export.md)
+   + [管理计划的工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [限制标签](report-builder/restricted-labels.md)
    + [Report Builder 设置](report-builder/report-builder-settings.md)
 + 旧版 Report Builder {#legacy-report-builder}
