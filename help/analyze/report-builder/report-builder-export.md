@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
+source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 29%
 
 ---
-
 
 # 通过导出到云目标来计划工作簿
 
@@ -33,15 +33,7 @@ ht-degree: 29%
 
 1. [从Report Builder导出报告](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## 从Report Builder导出报告 {#export-from-report-builder}
+## 从Report Builder导出报告
 
 >[!NOTE]
 >
@@ -92,7 +84,7 @@ ht-degree: 29%
 
    您会在Report Builder中心底部看到一个确认toast，并且计划工作簿列在“工作簿”选项卡下。
 
-## 导出到云的优势 {#advantages}
+## 导出到云的优势
 
 通过将Adobe Analytics数据导出到云，您可以：
 
@@ -133,4 +125,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## 管理计划的工作簿
 
 有关管理已计划工作簿的信息，请参阅[管理计划的工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)。
-
