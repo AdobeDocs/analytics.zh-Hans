@@ -1,10 +1,10 @@
 ---
 title: getResponsiveLayout
 description: 确定当前正在查看网站的哪个布局。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 86%

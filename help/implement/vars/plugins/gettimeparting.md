@@ -1,10 +1,10 @@
 ---
 title: getTimeParting
 description: 测量特定操作发生的时间。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 77%

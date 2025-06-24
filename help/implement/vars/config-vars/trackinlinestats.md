@@ -1,11 +1,11 @@
 ---
 title: trackInlineStats
-description: （已停用）在实施中启用或禁用ClickMap。
+description: （已停用）在您的实施中启用或禁用ClickMap 。
 keywords: 禁用clickmap
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 28%
@@ -18,13 +18,13 @@ ht-degree: 28%
 >
 >此变量已停用，不再使用。
 
-ClickMap是Adobe Analytics中一项已停用的功能，用于收集有关访客点击位置及其点击内容的数据。 此功能已替换为[Activity Map](/help/analyze/activity-map/overview.md)。
+ClickMap是Adobe Analytics中一项已弃用的功能，用于收集有关访客点击位置及其点击内容的数据。 此功能已替换为[Activity Map](/help/analyze/activity-map/overview.md)。
 
 启用此功能后，AppMeasurement 会收集有关链接的信息，并在下一个图像请求中发送该数据。每次点击的信息存储在标记为`s_sq`的Cookie中。
 
 ## 使用Adobe Analytics扩展启用ClickMap
 
-在配置Adobe Analytics扩展时，[!UICONTROL 启用ClickMap]是[!UICONTROL 链接跟踪]折叠面板下的复选框。
+在配置ClickMap扩展时，[!UICONTROL 启用Adobe Analytics]是[!UICONTROL 链接跟踪]折叠面板下的复选框。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。

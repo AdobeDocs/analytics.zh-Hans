@@ -1,10 +1,10 @@
 ---
 title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -38,7 +38,7 @@ ht-degree: 85%
 >
 >如果在 `productListItems` 下设置一个事件（例如 `productListItems._experience.analytics.event1.value`），并且该事件尚未在此字段中，则该事件会自动添加到此字段中。
 
-如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则所有事件都使用`data.__adobe.analytics.events`，并遵循AppMeasurement字符串语法。 如果设置此字段，则会覆盖XDM对象中设置的任何事件，且不会发送到Adobe Analytics。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则所有事件都将按照AppMeasurement字符串语法使用`data.__adobe.analytics.events`。 如果设置此字段，则会覆盖XDM对象中设置的任何事件，且不会发送到Adobe Analytics。
 
 ## 使用 Adobe Analytics 扩展的事件
 
@@ -62,7 +62,7 @@ ht-degree: 85%
 
 `s.events` 变量是一个字符串，其中包含要包含在点击中的以逗号分隔的事件列表。变量最多允许64,000字节，实际上可以根据点击需要允许尽可能多的事件。 有效的值包括：
 
-* `event1` - `event1000`：自定义事件，根据需要进行设置。在贵组织的[解决方案设计文档](../../../prepare/solution-design.md)中记录如何使用每个事件。可用事件的数量取决于贵组织的 Analytics 合同。大多数使用非传统合同的组织具有 1,000 个可用的自定义事件。如果您不确定有多少个自定义事件可供使用，请联系您的Adobe客户团队。
+* `event1` - `event1000`：自定义事件，根据需要进行设置。在贵组织的[解决方案设计文档](../../../prepare/solution-design.md)中记录如何使用每个事件。可用事件的数量取决于贵组织的 Analytics 合同。大多数使用非传统合同的组织具有 1,000 个可用的自定义事件。如果您不确定有多少自定义事件可供使用，请联系您的Adobe客户团队。
 * `purchase`：将[“订单”](/help/components/metrics/orders.md)量度以 1 为单位递增，并采用 `products` 变量中设置的值来计算[“件数”](/help/components/metrics/units.md)和[“收入”](/help/components/metrics/revenue.md)。有关更多信息，请参阅[购买事件](event-purchase.md)。
 * `prodView`：增加[“产品查看次数”](/help/components/metrics/product-views.md)量度。
 * `scOpen`：增加[“购物车”](/help/components/metrics/carts.md)量度。

@@ -1,10 +1,10 @@
 ---
 title: 插件概述
 description: 将代码粘贴到您的网站上以引入新功能。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 96%

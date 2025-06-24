@@ -2,8 +2,8 @@
 title: 在分析中排除特定日期
 description: 如果您不希望将日期或日期范围包含在报表中，可以使用此提示排除这些日期或日期范围。
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-feature: Event, Segmentation
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+feature: Curate and Share, Segmentation
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 >
 >要将OR语句更改为AND语句，请单击OR旁边的向下箭头并选择AND。
 
-Adobe建议使用橙色维度组件，而不要使用紫色日期范围组件。 如果使用紫色日期范围组件，则它们会覆盖项目的日历范围：
+Adobe建议使用橙色维度组件，而不是紫色日期范围组件。 如果使用紫色日期范围组件，则它们会覆盖项目的日历范围：
 
 ![排除区段日期类型](assets/exclude_segment_day_type.jpg)
 

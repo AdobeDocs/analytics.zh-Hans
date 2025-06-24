@@ -1,10 +1,10 @@
 ---
 title: cookieLifetime
-description: 覆盖由 AppMeasurement 创建的 Cookie 的到期时间。
-feature: Variables
+description: 覆盖由 AppMeasurement 创建的 Cookie 的有效期限。
+feature: Appmeasurement Implementation
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 64%
@@ -19,9 +19,9 @@ ht-degree: 64%
 >
 >此变量可影响独特访客计数和归因。设置此变量时请务必小心。
 
-## 使用Web SDK的Cookie生命周期
+## 使用Web SDK的“Cookie生命周期”
 
-Web SDK尚未提供对其设置的Cookie生命周期的自定义。
+Web SDK尚不提供对其设置的Cookie生命周期的自定义。
 
 ## 使用Adobe Analytics扩展的“Cookie生命周期”
 

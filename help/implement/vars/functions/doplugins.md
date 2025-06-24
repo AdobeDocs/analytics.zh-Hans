@@ -1,10 +1,10 @@
 ---
 title: doPlugins
 description: 在编译点击并将其发送到 Adobe 之前配置逻辑。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 63%
@@ -22,7 +22,7 @@ ht-degree: 63%
 
 ## 使用Web SDK扩展的“在事件之前发送”回调代码
 
-Web SDK使用具有相似功能的`onBeforeEventSend`，而不是`doPlugins`。
+Web SDK使用具有类似功能的`onBeforeEventSend`，而不是`doPlugins`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -32,7 +32,7 @@ Web SDK使用具有相似功能的`onBeforeEventSend`，而不是`doPlugins`。
 
 ## 使用`onBeforeEventSend`手动实施Web SDK
 
-Web SDK使用具有相似功能的`onBeforeEventSend`，而不是`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+Web SDK使用具有类似功能的`onBeforeEventSend`，而不是`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

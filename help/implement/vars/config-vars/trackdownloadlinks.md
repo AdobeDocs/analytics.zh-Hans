@@ -1,10 +1,10 @@
 ---
 title: trackDownloadLinks
 description: 对下载链接启用或禁用自动链接跟踪。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 59%
@@ -28,7 +28,7 @@ Adobe 提供跟踪下载链接的功能，无需为每个下载链接手动设�
 
 ## 启用或禁用手动实施Web SDK的点击收集
 
-使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans#clickCollectionEnabled)配置SDK。 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。如果要禁用自动链接跟踪，则将此值设置为`false`。 此设置处理下载链接和退出链接的自动链接跟踪。
+使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)配置SDK。 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。如果要禁用自动链接跟踪，则将此值设置为`false`。 此设置处理下载链接和退出链接的自动链接跟踪。
 
 ```json
 alloy("configure", {
@@ -42,7 +42,7 @@ alloy("configure", {
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 跟踪下载链接]复选框。
 
 单击此复选框可启用自动下载链接跟踪。

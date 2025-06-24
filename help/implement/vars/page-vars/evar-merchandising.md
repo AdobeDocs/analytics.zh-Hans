@@ -1,11 +1,11 @@
 ---
 title: eVar（促销变量）
 description: 与单个产品关联的自定义变量。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 90%
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 *此帮助页面介绍了如何实施推销 eVar。有关促销 eVar 如何用作维度的信息，请参阅组件用户指南中的 [eVar（促销维度）](/help/components/dimensions/evar-merchandising.md)。*
 
-有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-hans)。
+有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)。
 
 ## 在报告包设置中设置 eVar
 
@@ -87,7 +87,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 上述示例对象将作为 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` 发送到 Adobe Analytics。
 
-如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则eVar促销将使用`data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250`以下AppMeasurement语法。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，eVar促销将按照AppMeasurement语法使用`data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250`。
 
 ## 使用转化变量语法实施
 

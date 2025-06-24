@@ -1,10 +1,10 @@
 ---
 title: 购买事件
 description: 使用购买事件收集“订单数”、“件数”和“收入”量度的数据。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 70%
@@ -45,7 +45,7 @@ ht-degree: 70%
 }
 ```
 
-如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则购买事件使用`data.__adobe.analytics.events`，并遵循AppMeasurement字符串语法。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则购买事件将按照AppMeasurement字符串语法使用`data.__adobe.analytics.events`。
 
 ```json
 {

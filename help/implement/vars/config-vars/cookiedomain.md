@@ -1,10 +1,10 @@
 ---
 title: cookieDomain
 description: （已停用）帮助确定要在其中设置Cookie的域。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 77%
@@ -27,7 +27,7 @@ ht-degree: 77%
 
 ## 使用Web SDK的Cookie域
 
-在没有此变量的情况下，Web SDK可以确定正确的Cookie存储域。
+如果没有此变量，Web SDK可以确定正确的Cookie存储域。
 
 ## 使用Adobe Analytics扩展的Cookie域
 

@@ -1,10 +1,10 @@
 ---
 title: trackingServer
 description: 确定发送图像请求的位置。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 52%
@@ -21,7 +21,7 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 
 ## 使用Web SDK扩展的Edge域
 
-Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器。 在配置Web SDK扩展时，您可以设置所需的[!UICONTROL Edge域]值。
+Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器。 配置Web SDK扩展时，您可以设置所需的[!UICONTROL Edge域]值。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -32,7 +32,7 @@ Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器�
 
 >[!TIP]
 >
->如果您的组织从AppMeasurement或Analytics扩展实现移至Web SDK，则此字段可以使用`trackingServerSecure`（或`trackingServer`）中包含的相同值。
+>如果您的组织从AppMeasurement或Analytics扩展实施移至Web SDK，则此字段可以使用`trackingServerSecure`（或`trackingServer`）中包含的相同值。
 
 ## Edge域手动实施Web SDK
 
@@ -50,7 +50,7 @@ alloy("configure", {
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 跟踪服务器]字段。
 
 如果此字段留空，则默认为 `[rsid].data.adobedc.net`。
@@ -61,9 +61,9 @@ alloy("configure", {
 
 ## 确定`trackingServer`值的注意事项
 
-您可以选择使用Adobe的跟踪服务器域（例如`adobedc.net`），也可以通过特殊流程来设置与您的站点域（例如`data.mydomain.com`）匹配的跟踪服务器，这也称为CNAME实现。 根据实施的其他方面，具有与您的网站域相匹配的trackingserver可能会有一些好处。 当跟踪服务器与当前页面的域不匹配时，AppMeasurement设置的Cookie必须设置为第三方。 如果浏览器不支持第三方Cookie，这种不匹配可能会干扰某些Analytics功能：
+您可以选择使用Adobe的跟踪服务器域（例如`adobedc.net`），也可以通过特殊流程来设置与网站域（例如`data.mydomain.com`）匹配的跟踪服务器，这也称为CNAME实现。 根据实施的其他方面，具有与您的网站域相匹配的trackingserver可能会有一些好处。 当跟踪服务器与当前页面的域不匹配时，AppMeasurement设置的Cookie必须设置为第三方。 如果浏览器不支持第三方Cookie，这种不匹配可能会干扰某些Analytics功能：
 
-- 设置标识符：如果您使用的是Experience Cloud标识服务，则跟踪服务器不会影响Cookie的设置方式。 但是，如果您使用的是Analytics旧版标识符（又称`s_vi` Cookie）并且收集服务器与当前域不匹配，则必须将Cookie设置为第三方。 在这种情况下，如果浏览器阻止第三方Cookie，则Analytics会设置第一方回退ID (`s_fid`)，而不是标准`s_vi` Cookie。
+- 设置标识符：如果您使用的是Experience Cloud Identity服务，则跟踪服务器不会影响Cookie的设置方式。 但是，如果您使用的是Analytics旧版标识符（又称`s_vi` Cookie）并且收集服务器与当前域不匹配，则必须将Cookie设置为第三方。 在这种情况下，如果浏览器阻止第三方Cookie，则Analytics会设置第一方回退ID (`s_fid`)，而不是标准`s_vi` Cookie。
 - 链接跟踪不适用于内部链接。
 - Activity Map不适用于内部链接。
 - Cookie检查。

@@ -1,10 +1,10 @@
 ---
 title: p_fo（仅限第一页）
 description: 确保某些例程在每页上仅触发一次。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 77%

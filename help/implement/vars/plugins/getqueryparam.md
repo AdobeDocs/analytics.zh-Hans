@@ -1,10 +1,10 @@
 ---
 title: getQueryParam
 description: 提取 URL 查询字符串参数的值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 73%
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 `getQueryParam` 插件允许您提取 URL 中包含的任意查询字符串参数的值。在从登录页面 URL 中提取内部和外部促销活动代码时，此插件非常有用。在提取搜索词或其他查询字符串参数时，此插件也非常有价值。
 
-此插件在解析复杂 URL（包括散列和包含多个查询字符串参数的 URL）方面提供了强大的功能。如果您只需要处理简单的查询字符串参数，Adobe建议使用URL参数功能，这些功能使用Web SDK或Adobe Analytics扩展或者AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法。
+此插件在解析复杂 URL（包括散列和包含多个查询字符串参数的 URL）方面提供了强大的功能。如果您只需要处理简单的查询字符串参数，Adobe建议您使用URL参数功能，这些功能使用Web SDK或Adobe Analytics扩展或者AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法。
 
 ## 使用Web SDK扩展安装此插件
 

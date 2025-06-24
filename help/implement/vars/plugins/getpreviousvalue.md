@@ -1,10 +1,10 @@
 ---
 title: getPreviousValue
 description: 获取传递到变量的上一个值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 77%

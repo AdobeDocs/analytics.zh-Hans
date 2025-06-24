@@ -1,22 +1,22 @@
 ---
-description: 成功事件是可跟踪的操作。什么是成功事件完全由您来决定。例如，如果访客购买了一件物品，该购买事件可被视为成功事件。
+description: 成功事件是可跟踪的操作。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，该购买事件可被视为成功事件。
 keywords: 事件
 title: 成功事件概述
-feature: Event
+feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
 
 # 成功事件
 
-成功事件（也称为转化事件或自定义事件）是可以跟踪的操作。 什么是成功事件完全由您来决定。例如，如果访客购买了一件物品，该购买事件可被视为成功事件。
+成功事件（也称为转化事件或自定义事件）是可以跟踪的操作。 什么是成功事件完全由您来决定。例如，如果访客购买一件产品，该购买事件可被视为成功事件。
 
-有关成功事件的视频概述，请参阅Analytics教程指南中的[转化事件简介](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)。
+有关成功事件的视频概述，请参阅Analytics教程指南中的[转化事件简介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)。
 
 ## 成功事件示例
 

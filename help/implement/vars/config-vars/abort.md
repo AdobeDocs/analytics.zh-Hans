@@ -1,10 +1,10 @@
 ---
 title: abort
 description: abort 变量是一个布尔值，用于阻止将点击发送到 Adobe 数据收集服务器。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 39%
@@ -13,11 +13,11 @@ ht-degree: 39%
 
 # abort
 
-`abort`变量是一个布尔值，可阻止将下一个跟踪调用发送到Adobe。 Web SDK中存在类似的功能，允许您在发送XDM事件之前返回`false`。
+`abort`变量是一个布尔值，用于阻止将下一个跟踪调用发送到Adobe。 Web SDK中存在类似的功能，允许您在发送XDM事件之前返回`false`。
 
-## 取消使用Web SDK扩展发送事件
+## 使用Web SDK扩展取消发送事件
 
-在事件发送回调代码编辑器之前使用On并返回`false`。
+在事件发送回调]代码编辑器之前使用[!UICONTROL On并返回`false`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -29,9 +29,9 @@ ht-degree: 39%
 return false;
 ```
 
-## 手动实施Web SDK时取消发送事件
+## 取消手动发送事件以实施Web SDK
 
-使用`onBeforeEventSend`回调并返回`false`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+使用`onBeforeEventSend`回调并返回`false`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 alloy("configure"), {
@@ -60,7 +60,7 @@ s.abort = true;
 >
 >`abort` 变量在每次跟踪调用后将重置为 `false`。如果要中止同一页面上的后续跟踪调用，请再次将`abort`设置为`true`。
 
-可以在[`doPlugins()`](../functions/doplugins.md)函数中设置`abort`变量，该函数是在向Adobe发送图像请求之前要运行的最后一个函数。 此示例的操作方式与使用Web SDK的`onBeforeEventSend`回调类似。
+可以在[`doPlugins()`](../functions/doplugins.md)函数中设置`abort`变量，该函数是将图像请求发送到Adobe之前要运行的最后一个函数。 此示例的操作方式与使用Web SDK的`onBeforeEventSend`回调类似。
 
 ```js
 s.doPlugins = function(s) {

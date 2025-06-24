@@ -1,11 +1,11 @@
 ---
 description: 概述您可以采取哪些步骤来启用 Adobe Analytics 实施，以便支持数据主体的数据隐私访问和删除权利。
 title: 隐私工作流程
-feature: Privacy
+feature: Data Governance
 role: Admin
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
-source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 

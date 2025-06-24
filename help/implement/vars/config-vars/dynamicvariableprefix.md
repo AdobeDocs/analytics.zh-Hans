@@ -1,10 +1,10 @@
 ---
 title: dynamicVariablePrefix
 description: 允许您自定义标识动态变量的字符串。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 70%
@@ -19,7 +19,7 @@ ht-degree: 70%
 
 ## 使用Web SDK的动态变量前缀
 
-Web SDK不使用动态变量格式。 相反，您可以使用数据流映射来使用单个Source字段填充多个目标字段。 有关详细信息，请参阅使用Web SDK的[动态变量](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)。
+Web SDK不使用动态变量格式。 相反，您可以使用数据流映射来使用单个Source字段填充多个目标字段。 有关详细信息，请参阅[使用Web SDK的动态变量](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)。
 
 如果您在不符合架构的情况下将数据直接发送到Adobe Analytics，则它会使用以下变量：
 
@@ -31,7 +31,7 @@ Web SDK不使用动态变量格式。 相反，您可以使用数据流映射来
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 1. 展开[!UICONTROL 全局变量]折叠面板，这会显示[!UICONTROL 动态变量前缀]字段。
 
 默认情况下，此字段包含 `D=`。如果要使用其他动态变量前缀，可以更改该值。只要值与网站上的字符编码匹配，您就可以使用所需的任何值。

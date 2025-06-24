@@ -1,13 +1,13 @@
 ---
 title: manageVars
 description: 一次更改多个 Analytics 变量的值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 88%
+ht-degree: 83%
 
 ---
 
@@ -95,7 +95,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 manageVars("lowerCaseVars");
 ```
 
-...会将上述所有变量的值更改为小写版本。但唯有 events 变量例外，因为某些 events 变量（如 scAdd、scCheckout 等）要区分大小写，因此不应将其更改为小写
+...会将上述所有变量的值更改为小写版本。唯一的例外是events变量，因为某些事件（如scAdd、scCheckout等）区分大小写，因此不应将其更改为小写
 
 ### 示例 2
 
@@ -141,7 +141,7 @@ manageVars("cleanStr");
 * 删除值开始和结尾处的空格
 * 将左/右单引号替换为直单引号(`'`)
 * 将制表符、换行符和回车符替换为空格
-* 将双倍（或三倍及以上）行距均替换为单倍行距
+* 将所有双（或三等）空格替换为单空格
 
 ## 版本历史记录
 

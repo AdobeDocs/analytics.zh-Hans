@@ -1,10 +1,10 @@
 ---
 title: useBeacon
 description: 通过 useBeacon，您可以强制 AppMeasurement 使用浏览器 sendBeacon API
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 62%
@@ -25,7 +25,7 @@ ht-degree: 62%
 
 ## 通过Web SDK扩展使用sendBeacon API
 
-Action Configuration中的&#x200B;**[!UICONTROL Document将卸载]**&#x200B;复选框确定发送到Adobe的数据是否使用sendBeacon API。
+操作配置中的&#x200B;**[!UICONTROL Document将卸载]**&#x200B;复选框确定发送到Adobe的数据是否使用sendBeacon API。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-有关详细信息，请参阅Web SDK文档中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#using-the-sendbeacon-api)。
+有关详细信息，请参阅Web SDK文档中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)。
 
 ## 使用Adobe Analytics扩展的“使用信标”
 

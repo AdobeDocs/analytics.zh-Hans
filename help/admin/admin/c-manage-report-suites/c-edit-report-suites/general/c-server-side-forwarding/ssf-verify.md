@@ -2,10 +2,10 @@
 description: 要验证是否已正确启用服务器端转发，您将需要检查来自 Analytics 跟踪请求的 HTTP 响应。这些说明说明了必须显示哪些指示符以确保正确启用服务器端转发。
 solution: Analytics
 title: 如何验证服务器端转发的实施情况
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 86%
@@ -26,7 +26,7 @@ ht-degree: 86%
 
 >[!CAUTION]
 >
->如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。请确保已正确部署标识服务，已部署 App Measurement 模块，已将适用的报表包映射到正确的组织 ID，并且已在 Analytics 管理工具中启用服务器端转发。
+>如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。请确保已正确部署身份标识服务，已部署 App Measurement 模块，已将适用的报表包映射到正确的组织 ID，并且已在 Analytics 管理工具中启用服务器端转发。
 
 >[!MORELIKETHIS]
 >

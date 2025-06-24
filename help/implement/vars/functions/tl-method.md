@@ -1,10 +1,10 @@
 ---
 title: tl
 description: 向 Adobe 发送链接跟踪调用。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 62%
@@ -200,17 +200,17 @@ function linkCode(obj) {
 }
 ```
 
-### 将`tl()`方法用于Activity Map
+### 在Activity Map中使用`tl()`方法
 
 您可以使用`tl()`方法来跟踪自定义元素并配置动态内容的叠加图呈现。 `linkName`参数还用于设置[Activity Map链接](/help/components/dimensions/activity-map-link.md)维度。
 
-如果从HTML元素的单击事件直接调用`tl()`方法，则Activity Map可以在加载网页时显示该元素的叠加图。 例如：
+从HTML元素的单击事件直接调用`tl()`方法时，Activity Map可以在加载网页时显示该元素的叠加图。 例如：
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
-如果不是从HTML元素的单击事件直接调用`tl()`方法，则Activity Map只能在单击该元素后显示叠加。 例如：
+如果不是从HTML元素的单击事件直接调用`tl()`方法，则Activity Map只能在单击该元素后显示叠加图。 例如：
 
 ```html
 <a href="index.html" onclick="someFn(event);">Example link text</a>

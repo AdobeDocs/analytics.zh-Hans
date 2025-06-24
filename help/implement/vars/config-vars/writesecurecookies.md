@@ -1,10 +1,10 @@
 ---
 title: writeSecureCookies
 description: 允许 AppMeasurement 使用“安全”属性设置 Cookie。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 76%

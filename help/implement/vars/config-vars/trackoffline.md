@@ -1,10 +1,10 @@
 ---
 title: trackOffline
 description: 启用或禁用离线跟踪，这会更改 AppMeasurement 收集数据的方式。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 89%

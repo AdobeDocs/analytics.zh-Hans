@@ -1,10 +1,10 @@
 ---
 title: getVisitDuration
 description: 跟踪访客在网站上停留的时间。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 70%

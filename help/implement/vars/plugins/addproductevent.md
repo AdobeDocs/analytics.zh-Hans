@@ -1,10 +1,10 @@
 ---
 title: addProductEvent
 description: 将自定义事件添加到产品变量和事件变量。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 86%

@@ -1,10 +1,10 @@
 ---
 title: getPageName
 description: 从当前网站路径创建一个简单易读的 pageName。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 75%

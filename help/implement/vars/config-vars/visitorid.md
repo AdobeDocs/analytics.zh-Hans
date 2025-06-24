@@ -1,10 +1,10 @@
 ---
 title: visitorID
 description: 使用自定义访客 ID。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 71%
@@ -17,7 +17,7 @@ Adobe 使用多种不同的方法识别您网站上的访客。`visitorID` 变�
 
 >[!IMPORTANT]
 >
->Adobe 建议不要使用此变量。请改用 [Adobe Experience Cloud 身份服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+>Adobe 建议不要使用此变量。请改用 [Adobe Experience Cloud 身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 ## 使用Adobe Analytics扩展的访客ID
 
@@ -25,7 +25,7 @@ Adobe 使用多种不同的方法识别您网站上的访客。`visitorID` 变�
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 访客 ID]字段。
 
 将此字段分配给包含您的自定义访客 ID 的数据元素。请勿将此字段设置为静态值。
@@ -48,4 +48,4 @@ s.visitorID = "abc123";
 
 ## 使用Web SDK的访客ID
 
-Adobe Experience PlatformEdge Network允许您使用XDM的[身份映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=zh-Hans#using-identitymap)提供多个标识符。 “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为[数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#analytics)的一部分。 配置完毕后，在发送一个事件（其中包含为此命名空间指定的值）时，系统会自动将其用作Analytics中的访客ID。
+Adobe Experience Platform Edge Network允许您使用XDM的[身份映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)提供多个标识符。 “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为[数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)的一部分。 配置完毕后，在发送一个事件（其中包含为此命名空间指定的值）时，系统会自动将其用作Analytics中的访客ID。

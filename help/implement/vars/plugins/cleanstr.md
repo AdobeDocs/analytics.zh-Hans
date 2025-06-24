@@ -1,10 +1,10 @@
 ---
 title: cleanStr
 description: 删除或替换字符串中所有不必要的字符。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 68%
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 {{plug-in}}
 
-`cleanStr` 插件可删除或替换字符串中所有不必要的字符，包括 HTML 标记字符、额外的空格、制表符和换行符/回车符。它还会将左/右单引号替换为直单引号(`'`)。 如果您想要从变量值中删除不必要的字符，并且Adobe Experience Platform数据收集中的“清理文本”功能无法满足您的实施需求，则Adobe建议使用此插件。 如果收集的数据不包含不必要的字符，或者Adobe Experience Platform数据收集中的“清理文本”功能满足您的实施需求，则无需使用此插件。
+`cleanStr` 插件可删除或替换字符串中所有不必要的字符，包括 HTML 标记字符、额外的空格、制表符和换行符/回车符。它还会将左/右单引号替换为直单引号(`'`)。 如果您想要从变量值中删除不必要的字符，并且Adobe数据收集中的“清理文本”功能无法满足您的实施需求，则Adobe Experience Platform建议您使用此插件。 如果收集的数据不包含不必要的字符，或者Adobe Experience Platform数据收集中的“清理文本”功能满足您的实施需求，则无需使用此插件。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 

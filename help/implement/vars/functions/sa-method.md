@@ -1,10 +1,10 @@
 ---
 title: sa
 description: 在您的实施中随时更改报表包。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%

@@ -1,10 +1,10 @@
 ---
 title: 数据收集查询参数
 description: 列出了图像请求中使用的所有查询字符串参数。
-feature: Validation
+feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
@@ -17,8 +17,8 @@ ht-degree: 100%
 
 | 参数 | Analytics 实施变量 | 描述 |
 | --- | --- | --- |
-| `aamlh` | 无 | Audience Manager 位置提示。用于 Experience Cloud 共享配置文件集成。 |
-| `aamb` | 无 | Audience Manager Blob。用于 Experience Cloud 共享配置文件集成。 |
+| `aamlh` | 无 | Audience Manager 位置提示。用于 Experience Cloud 共享轮廓集成。 |
+| `aamb` | 无 | Audience Manager Blob。用于 Experience Cloud 共享轮廓集成。 |
 | `aid` | 无 | Analytics 访客 ID。 |
 | `AQB` | 无 | 指示图像请求查询字符串的开头。 |
 | `AQE` | 无 | 指示图像请求的结尾，这表明该请求未被截断。 |

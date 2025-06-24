@@ -1,10 +1,10 @@
 ---
 title: fpcookieDomainPeriods
 description: 帮助 AppMeasurement 了解当您的域的后缀中有句点时，应使用哪个域来存储 Cookie。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 86%
@@ -24,7 +24,7 @@ ht-degree: 86%
 
 ## 使用Web SDK的第一方域名段
 
-在没有此变量的情况下，Web SDK可以确定正确的Cookie存储域。
+如果没有此变量，Web SDK可以确定正确的Cookie存储域。
 
 ## 使用Adobe Analytics扩展的第一方域名段
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 第一方域名段]字段。
 
 仅当域的后缀中包含句点时，才会将此字段设置为 `3`。否则，可将此字段留空。

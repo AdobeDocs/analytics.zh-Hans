@@ -1,11 +1,11 @@
 ---
 title: 同类群组分析是什么及其如何工作？
 description: 用同类群组分析更深入地挖掘您受众周围的数据并细分为相关的各组。了解 Analysis Workspace 中的同类群组分析。
-feature: Cohort Analysis
+feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同类群组分析](https://video.tv.adobe.com/v/3430077/?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同类群组分析](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -66,17 +66,17 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >
 >[!UICONTROL 同类群组分析]不支持不可过滤的量度（包括计算量度）、非整数量度（如收入）或发生次数。只有可以在过滤器中使用的量度才能在[!UICONTROL 同类群组分析]中使用，并且它们一次只能递增 1。
 
-Customer Journey Analytics 中的同类群组表支持基于双倍量度（或任何基于数值的量度）。例如，Purchase.Value（双倍）可用作包含/回访量度。此外，通过 Analytics Source Connector 传递到 Adobe Experience Platform 的所有量度也都是双倍的。
+Customer Journey Analytics 中的同类群组表支持基于双倍量度（或任何基于数值的量度）。例如，Purchase.Value（双倍）可用作包含/返回量度。此外，通过 Analytics Source Connector 传递到 Adobe Experience Platform 的所有量度也都是双倍的。
 
 ## 同类群组表功能
 
-以下部分介绍了同类群组分析功能，可对您正在生成的同类群组进行微调控制。
+以下部分介绍了同类群组分析功能，可对您正在构建的同类群组进行微调控制。
 
 有关创建同类群组和运行[!UICONTROL 同类群组分析]报告的更多详细信息，请参阅[配置同类群组表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
 ### [!UICONTROL 维系率]表
 
-[!UICONTROL 维系率]同类群组表回访人员：每个数据单元格显示了同类群组中在该时间段内执行操作的原始人数和百分比。您最多可以包含 3 个量度和 10 个过滤器。
+[!UICONTROL 维系率]同类群组表回访人员：每个数据单元格显示了同类群组中在该时段内执行操作的原始人数和百分比。您最多可以包含 3 个量度和 10 个过滤器。
 
 ![维系率同类群组报告显示了同类群组中的人员单位和百分比。](assets/retention-report.png)
 
@@ -88,7 +88,7 @@ Customer Journey Analytics 中的同类群组表支持基于双倍量度（或�
 
 ### [!UICONTROL 滚动计算]
 
-您可以根据上一列而不是包含的列来计算维系率或流失率，这称为滚动计算。
+您可以根据上一列而不是包括的列来计算维系率或流失率，这称为滚动计算。
 
 ![同类群组维系率报告显示了基于上一列数据的计算结果。](assets/retention-report-rolling.png)
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430085?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430175?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430155?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

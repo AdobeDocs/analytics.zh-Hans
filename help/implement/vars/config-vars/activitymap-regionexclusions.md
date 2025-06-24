@@ -2,9 +2,9 @@
 title: ActivityMap.regionExclusions
 description: 按地区筛选Activity Map数据。
 role: Admin, Developer
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 ## Web SDK JavaScript库中的区域排除项
 
-启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`clickCollection`对象中使用`filterClickDetails`回调。 在此回调中，您可以检查`linkRegion`的值，然后更改该值或放弃链接跟踪数据的集合。
+启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`clickCollection`对象中使用`filterClickDetails`回调。 在此回调中，您可以检查`linkRegion`的值，然后更改该值或放弃链接跟踪数据的集合。
 
 ```js
 alloy("configure", {
@@ -43,7 +43,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## 使用AppMeasurement的s.ActivityMap.regionExclusions
 
-`s.ActivityMap.regionExclusions`变量是包含要从Activity Map跟踪中排除的逗号分隔短语的字符串。 如果有任何短语与[Activity Map区域](/help/components/dimensions/activity-map-region.md)维度中收集的值匹配，则所有Activity Map数据都将从点击中删除。
+`s.ActivityMap.regionExclusions`变量是一个字符串，其中包含要从Activity Map跟踪中排除的逗号分隔短语。 如果有任何短语与在[Activity Map区域](/help/components/dimensions/activity-map-region.md)维度中收集的值匹配，则将从点击中删除所有Activity Map数据。
 
 ```html
 <script>

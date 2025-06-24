@@ -1,10 +1,10 @@
 ---
 title: trackingServerSecure
 description: 确定在 HTTPS 页面上发送图像请求的位置。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 66%
@@ -21,7 +21,7 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 
 ## 使用Web SDK扩展的Edge域
 
-Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器。 在配置Web SDK扩展时，您可以设置所需的[!UICONTROL Edge域]值。
+Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器。 配置Web SDK扩展时，您可以设置所需的[!UICONTROL Edge域]值。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -32,7 +32,7 @@ Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器�
 
 >[!TIP]
 >
->如果您的组织从AppMeasurement或Analytics扩展实现移至Web SDK，则此字段可以使用`trackingServerSecure`（或`trackingServer`）中包含的相同值。
+>如果您的组织从AppMeasurement或Analytics扩展实施移至Web SDK，则此字段可以使用`trackingServerSecure`（或`trackingServer`）中包含的相同值。
 
 ## Edge域手动实施Web SDK
 
@@ -50,7 +50,7 @@ alloy("configure", {
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL SSL 跟踪服务器]字段。
 
 如果此字段留空，则默认为 [`trackingServer`](trackingserver.md) 变量中的值。

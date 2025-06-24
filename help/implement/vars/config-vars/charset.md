@@ -1,10 +1,10 @@
 ---
 title: charSet
 description: charSet 变量可确定 Adobe 用于解析图像请求的编码。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 65%

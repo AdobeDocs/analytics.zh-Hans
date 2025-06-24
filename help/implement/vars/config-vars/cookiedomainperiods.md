@@ -1,10 +1,10 @@
 ---
 title: cookieDomainPeriods
-description: （已弃用）帮助AppMeasurement确定当网站的顶级域包含句点时，Cookie的存储位置。
-feature: Variables
+description: （已弃用）帮助AppMeasurement确定当网站的顶级域包含句点时，要将Cookie存储在何处。
+feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 >[!IMPORTANT]
 >此变量已弃用。 如果您使用以下任一项：
 >
->* AppMeasurementv2.26.x或更高版本
+>* AppMeasurement v2.26.x或更高版本
 >* Adobe Analytics扩展v1.9.4或更高版本
 >* Adobe Experience Cloud ID服务
 >
@@ -30,9 +30,9 @@ ht-degree: 18%
 
 >[!TIP]
 >
->此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `cookieDomainPeriods`。AppMeasurement可识别Cookie存储在`example.com`上，甚至存储在具有许多子域的URL上。
+>此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `cookieDomainPeriods`。AppMeasurement识别Cookie存储在`example.com`上，甚至存储在具有许多子域的URL上。
 
-对于AppMeasurementv2.26.x或更高版本上的实施，[`s_ac`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie用于帮助自动确定正确的Cookie域。 库首先尝试写入包含两个域名的Cookie。 如果设置此Cookie失败，它会再次尝试，包括更多域周期，直到它成功。 一旦设置，此Cookie将立即删除。
+对于AppMeasurement v2.26.x或更高版本上的实施，[`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie用于帮助自动确定正确的Cookie域。 库首先尝试写入包含两个域名的Cookie。 如果设置此Cookie失败，它会再次尝试，包括更多域周期，直到它成功。 一旦设置，此Cookie将立即删除。
 
 ## 使用Web SDK的Cookie域名段
 

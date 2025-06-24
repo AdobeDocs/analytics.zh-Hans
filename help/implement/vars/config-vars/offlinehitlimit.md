@@ -1,10 +1,10 @@
 ---
 title: offlineHitLimit
 description: 确定要置于离线跟踪队列的最大点击数。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 8bc5e649c5b5852232f4baddcddad0766bc1569a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 39%

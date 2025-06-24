@@ -1,10 +1,10 @@
 ---
 title: 旧版 Adobe Experience Cloud Debugger
 description: 安装旧版 Adobe Experience Cloud Debugger。此调试器可检查 Analytics、Target、Advertising Cloud、Identity Service 和 Data Collection 的标记。
-feature: Validation
+feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 100%

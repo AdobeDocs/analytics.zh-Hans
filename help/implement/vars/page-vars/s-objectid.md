@@ -1,10 +1,10 @@
 ---
 title: s_objectID
 description: 帮助 Activity Map 识别您网站上的唯一链接。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 80%
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 `s_objectID` 变量为链接提供唯一标识符。此变量可使 [Activity Map](/help/analyze/activity-map/overview.md) 中的报表更准确。如果页面上的链接经常更改，则可以使用 `s_objectID` 变量告知 Activity Map 唯一链接位置，以便它可以根据需要正确地对数据进行分组。
 
-如果Activity Map准确性对贵组织至关重要，Adobe建议在网站链接的`onClick`事件中包含`s_objectID`变量。
+如果Activity Map的准确性对贵组织至关重要，Adobe建议在网站链接的`onClick`事件中包含`s_objectID`变量。
 
 ## 使用Adobe Analytics扩展的对象ID
 
@@ -23,7 +23,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s_objectID
 
-`s_objectID` 变量是全局变量，这意味着它独立于 Analytics 跟踪对象运行（默认情况下为 `s`）。此变量的有效值可以是长度不超过 100 字节的任何字符串。如果未定义此变量，则Activity Map会将链接文本用作链接的标识符。
+`s_objectID` 变量是全局变量，这意味着它独立于 Analytics 跟踪对象运行（默认情况下为 `s`）。此变量的有效值可以是长度不超过 100 字节的任何字符串。如果未定义此变量，Activity Map会将链接文本用作链接的标识符。
 
 此变量通常在 HTML 链接的 `onClick` 事件中设置。
 

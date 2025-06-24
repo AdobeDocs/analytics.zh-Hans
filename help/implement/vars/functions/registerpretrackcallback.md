@@ -1,10 +1,10 @@
 ---
 title: registerPreTrackCallback
 description: 在将点击发送到 Adobe 之前创建回调函数。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 55%
@@ -37,7 +37,7 @@ Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数�
 
 ## 手动实施Web SDK的预跟踪回调
 
-Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用`onBeforeEventSend`注册一个函数，以便在发送数据之前执行，类似于`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用`onBeforeEventSend`注册一个函数，以便在发送数据之前执行，类似于`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

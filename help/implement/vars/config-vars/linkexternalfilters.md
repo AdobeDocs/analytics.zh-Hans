@@ -1,10 +1,10 @@
 ---
 title: linkExternalFilters
 description: 使用 linkExternalFilters 变量有助于进行自动退出链接跟踪。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 91%
@@ -27,7 +27,7 @@ AppMeasurement 提供自动跟踪指向网站外部的链接的功能。如果�
 
 如果链接目标域与当前的 `window.location.hostname` 不同，则链接自动符合退出链接的条件。Web SDK 不提供任何配置变量来修改自动退出链接检测。如果您需要自定义符合退出链接条件的域，则可以在 `onBeforeEventSend` 回调中使用自定义逻辑。
 
-有关更多信息，请参阅 Web SDK 文档中的[自动链接跟踪](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hans#automaticLinkTracking)。
+有关更多信息，请参阅 Web SDK 文档中的[自动链接跟踪](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)。
 
 ## 使用Adobe Analytics扩展的“出站链接 — 跟踪”
 
@@ -35,7 +35,7 @@ AppMeasurement 提供自动跟踪指向网站外部的链接的功能。如果�
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 出站链接 - 跟踪]字段。
 
 在此字段中放置要始终视为外部链接的过滤器。用逗号分隔多个域，不带空格。

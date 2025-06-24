@@ -1,10 +1,10 @@
 ---
 title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 67%
@@ -53,7 +53,7 @@ ht-degree: 67%
 }
 ```
 
-如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则products变量使用`data.__adobe.analytics.products`以下AppMeasurement语法。 如果设置此字段，则会覆盖XDM对象中设置的任何产品，并且不会将其发送到Adobe Analytics。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则products变量将按照AppMeasurement语法使用`data.__adobe.analytics.products`。 如果设置此字段，则会覆盖XDM对象中设置的任何产品，并且不会将其发送到Adobe Analytics。
 
 ```json
 {

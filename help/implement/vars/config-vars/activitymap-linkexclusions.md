@@ -2,9 +2,9 @@
 title: ActivityMap.linkExclusions
 description: 按链接名称筛选Activity Map数据。
 role: Admin, Developer
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9fc95016-362d-4c21-806e-e23adce9b6f7
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 12%
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 ## Web SDK JavaScript库中的链接排除项
 
-启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`clickCollection`对象中使用`filterClickDetails`回调。 在此回调中，您可以检查`linkName`的值，然后更改该值或放弃链接跟踪数据的集合。
+启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`clickCollection`对象中使用`filterClickDetails`回调。 在此回调中，您可以检查`linkName`的值，然后更改该值或放弃链接跟踪数据的集合。
 
 ```js
 alloy("configure", {
@@ -47,7 +47,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## 使用AppMeasurement的s.ActivityMap.linkExclusions
 
-`s.ActivityMap.linkExclusions`变量是一个字符串，其中包含要从Activity Map跟踪中排除的以逗号分隔的短语值。 如果有任何短语与[Activity Map链接](/help/components/dimensions/activity-map-link.md)维度中收集的值匹配，则所有Activity Map数据都将从点击中删除。 请注意，此变量查看`linkName`，而不是`linkUrl`。
+`s.ActivityMap.linkExclusions`变量是一个字符串，其中包含要从Activity Map跟踪中排除的以逗号分隔的短语值。 如果有任何短语与在[Activity Map链接](/help/components/dimensions/activity-map-link.md)维度中收集的值匹配，则会从点击中删除所有Activity Map数据。 请注意，此变量查看`linkName`，而不是`linkUrl`。
 
 ```html
 <script>

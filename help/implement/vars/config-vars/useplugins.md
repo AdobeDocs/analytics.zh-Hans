@@ -1,10 +1,10 @@
 ---
 title: usePlugins
 description: 启用或禁用 doPlugins() 函数。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 34%
@@ -15,9 +15,9 @@ ht-degree: 34%
 
 如果启用了 `usePlugins`，则 [`doPlugins()`](../functions/doplugins.md) 函数将在 AppMeasurement 编译并将点击发送给 Adobe 之前运行。如果使用 `doPlugins()` 函数，则启用此变量。
 
-## 使用Web SDK使用`onBeforeEventSend`回调
+## 使用Web SDK的`onBeforeEventSend`回调
 
-虽然Web SDK没有布尔值来处理在将数据发送到Adobe之前执行的其他逻辑，但您可以注册`onBeforeEventSend`回调以修改数据。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+虽然Web SDK没有布尔值来处理在将数据发送到Adobe之前执行的其他逻辑，但您可以注册`onBeforeEventSend`回调以修改数据。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ## 通过Adobe Analytics扩展使用插件
 
