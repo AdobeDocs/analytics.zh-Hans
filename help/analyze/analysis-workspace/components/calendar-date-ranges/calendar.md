@@ -28,7 +28,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日程表和日期范围概述](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日程表和日期范围概述](https://video.tv.adobe.com/v/328022?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
