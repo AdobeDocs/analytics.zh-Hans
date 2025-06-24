@@ -17,7 +17,7 @@ ht-degree: 34%
 
 ## 使用Web SDK的`onBeforeEventSend`回调
 
-虽然Web SDK没有布尔值来处理在将数据发送到Adobe之前执行的其他逻辑，但您可以注册`onBeforeEventSend`回调以修改数据。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
+虽然Web SDK没有布尔值来处理在将数据发送到Adobe之前执行的其他逻辑，但您可以注册`onBeforeEventSend`回调以修改数据。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
 
 ## 通过Adobe Analytics扩展使用插件
 

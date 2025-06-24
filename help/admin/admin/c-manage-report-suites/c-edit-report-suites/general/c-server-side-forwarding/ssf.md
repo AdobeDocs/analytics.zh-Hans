@@ -33,12 +33,12 @@ ht-degree: 100%
 
 ## ![step1_icon.png 图像](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) 验证 ECID 服务的实施情况
 
-通过检查 [Analytics 跟踪请求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)，验证是否实施了 Experience Cloud ID (ECID) 服务。
+通过检查 [Analytics 跟踪请求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=zh-Hans)，验证是否实施了 Experience Cloud ID (ECID) 服务。
 
 在“请求”选项卡中，验证是否设置了 ECID 值。这可让您了解是否正确实施了 Identity 服务，该服务是服务器端转发的先决条件。
 
 * 如果您看到了 ECID 值，请继续执行步骤 2。
-* 如果您没有看到 ECID 值，请先[实施 Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)，然后再继续执行步骤 2。
+* 如果您没有看到 ECID 值，请先[实施 Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)，然后再继续执行步骤 2。
 
 ## ![step2_icon.png 图像](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) 验证服务器端转发实施版本
 
@@ -52,10 +52,10 @@ ht-degree: 100%
 
    * **拥有 DIL 的 Adobe Audience Manager 客户**：密切配合以下 2 项：
 
-      1. 删除 DIL 代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码。
+      1. 删除 DIL 代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)页面代码。
       1. 按照步骤 3 中所述，在 Analytics 管理员用户界面中启用服务器端转发。如果在删除 DIL 代码之前启用该设置，则将复制数据并创建对 Audience Manager 的额外计费服务器调用。
 
-   * **新 Adobe Audience Manager 客户**：安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码并继续执行步骤 3。在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
+   * **新 Adobe Audience Manager 客户**：安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)页面代码并继续执行步骤 3。在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
 
 ## ![step3_icon.png 图像](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) 验证报表包的服务器端转发实施
 
@@ -71,4 +71,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在全部完成这 3 个步骤之后，数据才会显示在其他 Experience Cloud 解决方案中，例如 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) 或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。这些设置在启用后需要几个小时才会生效。
+>在全部完成这 3 个步骤之后，数据才会显示在其他 Experience Cloud 解决方案中，例如 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans) 或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。这些设置在启用后需要几个小时才会生效。
