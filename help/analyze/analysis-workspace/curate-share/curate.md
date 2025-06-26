@@ -52,7 +52,7 @@ ht-degree: 65%
 
 ## 虚拟报告包策划
 
-要在报告包级别应用策划，以使其同时适用于多个项目，可[在虚拟报告包中策划组件](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components)。
+要在报告包级别应用策划，以使其同时适用于多个项目，可[在虚拟报告包中策划组件](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/virtual-report-suites/vrs-components)。
 
 >[!NOTE]
 >

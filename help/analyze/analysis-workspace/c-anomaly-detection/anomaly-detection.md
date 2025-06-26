@@ -41,7 +41,7 @@ ht-degree: 70%
 * 视频缓冲事件剧增
 * 低视频比特率剧增
 
-异常检测和[贡献分析](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection)是 Analysis Workspace 中的核心工作流程。您可以针对任何每日异常运行“贡献分析”，并将结果嵌入到您的 Analysis Workspace 项目中。
+异常检测和[贡献分析](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection)是 Analysis Workspace 中的核心工作流程。您可以针对任何每日异常运行“贡献分析”，并将结果嵌入到您的 Analysis Workspace 项目中。
 
 Analysis Workspace 的异常检测算法包括
 
@@ -97,7 +97,7 @@ Analysis Workspace 的异常检测算法包括
 | Adobe 为何要引入令牌？ | “贡献分析”一直是 Adobe Analytics 中最为强大的一项功能。通过允许您每月运行少量完整贡献分析（对于某些Analytics产品不仅仅是运行3个维度），您可以了解不受限的完整贡献分析可以为您做什么。 |
 | 贡献分析中的令牌如何工作？ 是在加载具有现有贡献分析的项目时需要令牌，还是只有在运行全新的贡献分析时才需要令牌？ | 每个登录公司（而非每个用户）每月可获得一定数量的令牌，以便能够在 Analysis Workspace 中运行“完整”贡献分析。每次生成新的贡献分析时，都需要支付一个令牌。加载具有预运行贡献分析的项目时不需要支付令牌。 |
 | 如果我的公司用完了令牌，但是想要运行其他的贡献分析，该怎么做？ | 您可以升级到其他 Adobe Analytics 产品，例如从 Standard（每月 2 个令牌）升级到 Ultimate（每月 20 个令牌）。您无法购买更多令牌。 您必须在现有的打包框架内升级。 |
-| 我如何限制对贡献分析的访问？ | 默认情况下，只有管理员可以运行贡献分析。但是，管理员可以通过在 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home) 中创建权限组，向其他用户授予访问权限。仅向具有正当理由使用贡献分析，且确信不会滥用其访问权限的用户授予使用贡献分析的权限。 该权限称为[!UICONTROL 贡献分析]，位于[!UICONTROL 报表包工具]下。[了解详情](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| 我如何限制对贡献分析的访问？ | 默认情况下，只有管理员可以运行贡献分析。但是，管理员可以通过在 [Adobe Admin Console](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-console/home) 中创建权限组，向其他用户授予访问权限。仅向具有正当理由使用贡献分析，且确信不会滥用其访问权限的用户授予使用贡献分析的权限。 该权限称为[!UICONTROL 贡献分析]，位于[!UICONTROL 报表包工具]下。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
 | 如何知道我的公司每月有权使用多少个令牌，以及我的公司在本月使用了多少个令牌？ | 转到[!UICONTROL 管理员] > [!UICONTROL 所有管理员] >[!UICONTROL “公司设置”主页] >[!UICONTROL 查看功能访问级别]。查看<ul><li>贡献分析：每月的使用令牌数量</li><li>贡献分析：本月所用的使用令牌数量</li></ul> |
 
 ## 异常检测和贡献分析授权 {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
