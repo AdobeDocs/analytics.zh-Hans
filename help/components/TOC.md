@@ -5,9 +5,9 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
 + [Analytics 组件指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
@@ -198,8 +198,8 @@ ht-degree: 97%
       + [选择和应用区段](segmentation/segmentation-workflow/t-seg-apply.md)
    + 区段引用 {#segment-reference}
       + [运算符](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse区段兼容性](segmentation/seg-reference/seg-compatibility.md)
-      + [区段权限（按角色）](segmentation/seg-reference/seg-rights.md)
+      + [数据仓库区段兼容性](segmentation/seg-reference/seg-compatibility.md)
+      + [按角色划分区段权限](segmentation/seg-reference/seg-rights.md)
       + [故障排除](segmentation/seg-reference/c-troubleshooting.md)
    + [有关管理原有区段的常见问题](segmentation/seg-transition.md)
    + [最佳实践](segmentation/best-practices.md)
@@ -210,7 +210,7 @@ ht-degree: 97%
       + [计算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [生成量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [构建简单量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [生成简单量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [构建更复杂的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [生成参与率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [量度类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)

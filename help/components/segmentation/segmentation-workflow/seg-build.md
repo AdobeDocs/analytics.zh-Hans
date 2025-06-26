@@ -4,9 +4,9 @@ title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: f12a3609e026057fc8a17776953883a727dc7489
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,18 +46,18 @@ ht-degree: 91%
 
    | 元素 | 描述 |
    | --- | --- |
-   | **[!UICONTROL 报告包]** | 您可以为区段选择报表包。 |
+   | **[!UICONTROL 报告包]** | 您可以为该区段选择报告包。 |
    | **[!UICONTROL “仅用于项目的区段]** | 一个信息框，说明该区段仅在创建它的项目中可见，且不会添加到您的组件列表中。启用&#x200B;**[!UICONTROL 提供此区段给您的所有项目，并将其添加到组件列表中]**，以更改该设置。此信息框仅在您创建[快速区段](seg-quick.md)，并通过[!UICONTROL 快速区段]界面中的&#x200B;**[!UICONTROL 打开生成器]**&#x200B;将此快速区段转换为常规区段时可见。 |
    | **[!UICONTROL 标题]**![必填](/help/assets/icons/Required.svg) | 命名该区段，例如，`Last month mobile visitors`。 |
    | **[!UICONTROL 描述]** | 提供关于该区段的描述，例如，`Segment to define the mobile customers for the last month`。 |
-   | **[!UICONTROL 标记]** | 通过创建或应用一个或多个标记来组织区段。 开始键入，以查找您可以选择的现有标记。或者按&#x200B;**[!UICONTROL 输入]**&#x200B;键添加新的标记。选择 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 以移除标记。 |
+   | **[!UICONTROL 标记]** | 通过创建或应用一个或多个标记来组织区段。开始键入，以查找您可以选择的现有标记。或者按&#x200B;**[!UICONTROL 输入]**&#x200B;键添加新的标记。选择 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 以移除标记。 |
    | **[!UICONTROL 定义]**![必填](/help/assets/icons/Required.svg) | 使用[定义生成器](#definition-builder)来定义区段。 |
 
    {style="table-layout:auto"}
 
 1. 要验证您的区段定义是否正确，请使用右上角不断更新的区段结果预览。
-1. 要将您的区段发布到Experience Cloud，请选择&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。 有关详细信息，请参阅[将区段发布到Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md)。
-1. 选择:
+1. 要将您的区段发布到 Experience Cloud，请选择&#x200B;**[!UICONTROL 将此区段发布到 Experience Cloud（适用于&#x200B;*报告包*）]**。有关详细信息，请参阅[将区段发布到 Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md)。
+1. 选择：
    * **[!UICONTROL 保存]**&#x200B;可以保存区段。
    * **[!UICONTROL 另存为]**&#x200B;可以保存区段的副本。
    * **[!UICONTROL 删除]**&#x200B;可以删除区段。
@@ -70,14 +70,14 @@ ht-degree: 91%
 
 您可以配置定义的类型和范围：
 
-1. 要指定定义的类型，请指定是否要生成包含或排除定义。选择![设置](/help/assets/icons/Setting.svg) **[!UICONTROL 选项]**&#x200B;并从下拉菜单&#x200B;**[!UICONTROL 包括]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
-1. 要指定定义的范围，请从&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉菜单中选择是希望定义的范围是&#x200B;**[!UICONTROL 点击]**、**[!UICONTROL 访问]**&#x200B;还是&#x200B;**[!UICONTROL 访客]**。
+1. 要指定定义的类型，请指定是否要生成包含或排除定义。选择![设置](/help/assets/icons/Setting.svg)**[!UICONTROL 选项]**&#x200B;并从下拉菜单中&#x200B;**[!UICONTROL 包括]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
+1. 要指定定义的范围，请从&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉菜单中选择您希望定义的范围是&#x200B;**[!UICONTROL 点击次数]**、**[!UICONTROL 访问次数]**&#x200B;还是&#x200B;**[!UICONTROL 访客人数]**。
 
 您稍后可以随时更改这些设置。
 
 ### 组件
 
-构建区段定义的一个重要部分是使用维度、量度、现有区段和日期范围。所有这些组件都可从区段生成器的组件面板中使用。
+构建区段定义的一个重要部分是使用维度、量度、现有区段和日期范围。所有这些组件都可以从区段生成器中的组件面板中获得。
 
 ![开始生成定义](assets/start-building-segment.gif){width=100%}
 
@@ -89,7 +89,7 @@ ht-degree: 91%
 
 要编辑组件，请执行以下操作：
 
-* 从运算符下拉菜单中选择组件的新运算符。
+* 从运算符下拉菜单中为组件选择一个新的运算符。
 * 如果合适，为运算符选择或指定不同的值。
 * 如果组件类型是维度，则可以定义归因模型。有关更多信息，请参阅[归因模型](#attribution)。
 
@@ -107,8 +107,8 @@ ht-degree: 91%
 * 要将现有组件添加到容器中，请将该组件拖放到容器中。
 * 要向容器添加另一个组件，请将组件从组件面板拖放到容器中。使用蓝色插入线作为指南。
 * 要在容器外部添加另一个组件，请将组件从组件面板拖放到容器外部、主定义容器内部。使用蓝色插入线作为指南。
-* 要修改容器内组件之间、容器之间或容器与组件之间的逻辑，请选择相应的 **[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**。选择&#x200B;**[!UICONTROL Then]**&#x200B;时，将该区段转换为顺序区段。 有关更多信息，请参阅[创建顺序区段](seg-sequential-build.md)。
-* 若要切换容器级别，请选择![网页](/help/assets/icons/WebPage.svg) **[!UICONTROL 点击]**、![访问](/help/assets/icons/Visit.svg) **[!UICONTROL 访问]**&#x200B;或![用户](/help/assets/icons/User.svg) **[!UICONTROL 访客]**。
+* 要修改容器内组件之间、容器之间或容器与组件之间的逻辑，请选择相应的 **[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**。当您选择 **[!UICONTROL Then]** 时，该区段就会变成一个顺序区段。有关更多信息，请参阅[创建顺序区段](seg-sequential-build.md)。
+* 要切换容器级别，请选择 ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 点击次数]**、![访问](/help/assets/icons/Visit.svg) **[!UICONTROL 访问次数]**&#x200B;或 ![用户](/help/assets/icons/User.svg) **[!UICONTROL 访客人数]**。
 
 您可以在容器中使用![设置](/help/assets/icons/Setting.svg)来执行以下操作：
 
@@ -125,7 +125,7 @@ ht-degree: 91%
 
 您可以构建包含滚动日期范围的区段。这样，您就可以回答有关正在进行的营销活动或事件的问题。例如，您可以构建一个包含&#x200B;*过去 60 天中在线购买过产品的用户*&#x200B;的区段。
 
-![使用滚动日期范围的区段](assets/segment-rolling-date-range.png)
+![使用滚动日期范围进行区段划分](assets/segment-rolling-date-range.png)
 
 
 >[!BEGINSHADEBOX]
@@ -139,11 +139,11 @@ ht-degree: 91%
 
 您可以使用若干区段来构建一个区段。在一个区段中使用若干区段时，您可以优化该区段，降低复杂性。
 
-假设您想对交互渠道(5)和美国州(50)的组合进行分段。 您可以构建 250 个区段，每个区段都针对设备类型（手机与平板电脑）与美国联邦州的某个独特组合。要获取加利福尼亚州的平板电脑用户，您可以使用这 250 个区段中的一个：
+假设您想要根据互动渠道（5）和美国联邦州（50）的组合进行分段。您可以创建 250 个区段，分别对应设备类型（手机或平板）与美国各州之间的唯一组合。要获取加利福尼亚州的平板用户，您可以使用这 250 个区段中的一个：
 
 ![加利福尼亚州和平板电脑的简单区段](assets/segment-ca-tablet-single.png)
 
-或者，您可以定义55个区段：50个区段适用于美国各州，5个区段适用于可能的交互渠道。 然后通过堆叠区段来获得相同的结果。要获取加利福尼亚的移动应用程序用户，您需要栈叠两个区段：
+或者，您也可以定义 55 个区段：其中 50 个用于美国各州，5 个用于可能的互动渠道。然后通过堆叠区段来获得相同的结果。要获取加利福尼亚州的移动应用用户，您可以叠加使用两个区段：
 
 ![堆叠加利福尼亚州和平板电脑的区段](assets/segment-ca-tablet-stacked.png)
 
@@ -215,7 +215,7 @@ There are several ways to access the Segment Builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.

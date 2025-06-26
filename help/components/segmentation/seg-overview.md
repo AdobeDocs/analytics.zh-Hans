@@ -4,9 +4,9 @@ title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 99%
 Analysis Workspace 包含以下附加功能：
 
 - 您可以[比较区段](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)。
-- 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
+- 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 - 在[流失分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)中使用区段。
 
 ## Adobe 提供的区段
@@ -242,7 +242,7 @@ Analysis Workspace 包含以下附加功能：
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/3429103?quality=12&learn=on&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -281,7 +281,7 @@ Analysis Workspace 包含以下附加功能：
 
 默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
 
-管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[按角色划分的区段权限](/help/components/segmentation/seg-reference/seg-rights.md)
+管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[按角色划分区段权限](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 
