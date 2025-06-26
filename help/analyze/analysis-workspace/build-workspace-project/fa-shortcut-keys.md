@@ -5,79 +5,85 @@ title: 热键（快捷键）
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 92%
 
 ---
 
 # 热键（快捷键）
 
-Analysis Workspace 中提供了热键（键盘快捷键），用于无缝导航、分析、添加面板和可视化效果以及实现民主化（共享）。
+请注意，您的键盘上可能会使用以下符号：
 
-注释：
-* `Ctrl` 针对的是 Windows，`Command` 针对的是 Mac
-* `Alt` 针对的是 Windows，`Option` 针对的是 Mac
+- **⇧** 表示 **[!UICONTROL ** shift **]** 键。
+- **⌘** 表示 **[!UICONTROL ** cmd **]**（命令）。
+- **⌃** 表示 **[!UICONTROL ** ctrl **]**（控制）。
+- **⌥** 表示 **[!UICONTROL ** opt **]**（选项）。
+- **⎇** 表示 **[!UICONTROL ** alt **]**（备选）。
 
 ## 导航操作
 
-| 操作 | 快捷键 |
-| --- | --- |
-| 新建项目 | Ctrl+Shift+P |
-| 打开现有项目 | Ctrl+O |
-| 转到“面板”窗格 | Alt + Shift + 1 |
-| 转到“可视化”窗格 | Alt + Shift + 2 |
-| 转到“组件”窗格 | Alt + Shift + 3 |
-| 折叠/展开所有面板 | Alt + m |
-| 折叠/展开活动面板 | Alt + Ctrl + m |
-| 移到下一个面板 | Alt + 向右键 |
-| 移到上一个面板 | Alt + 向左键 |
+| 操作 | Mac 快捷方式 | Windows 快捷方式 |
+| --- | --- | --- | 
+| 新建项目 | **[!UICONTROL *cmd + shift + p *]** | **[!UICONTROL *ctrl + shift + p *]** |
+| 打开现有项目 | **[!UICONTROL *cmd + o *]** | **[!UICONTROL *ctr + o *]** |
+| 转到“面板”窗格 | **[!UICONTROL *opt + shift + 1 *]** | **[!UICONTROL *alt + shift + 1 *]** |
+| 转到“可视化”窗格 | **[!UICONTROL *opt + shift + 2 *]** | **[!UICONTROL *alt + shift + 2 *]** |
+| 转到“组件”窗格 | **[!UICONTROL *opt + shift + 3 *]** | **[!UICONTROL *alt + shift + 3 *]** |
+| 折叠/展开所有面板 | **[!UICONTROL *opt + m *]** | **[!UICONTROL *alt + m *]** |
+| 折叠/展开活动面板 | **[!UICONTROL *opt + cmd + m *]** | **[!UICONTROL *alt + ctrl + m *]** |
+| 移到下一个面板 | **[!UICONTROL *opt *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
+| 移到上一个面板 | **[!UICONTROL *opt *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
 
 ## 分析操作
 
-| 操作 | 快捷键 |
-| --- | --- |
-| 搜索左边栏 | Ctrl + / |
-| 创建警报 | Ctrl+Shift+A |
-| 创建注释 | Ctrl + Shift + O |
-| 创建计算量度 | Ctrl+Shift+C |
-| 创建日期范围 | Ctrl+Shift+D |
-| 创建区段 | Ctrl+Shift+E |
-| 全部清除 | Alt + w |
-| 复制 | Ctrl+C |
-| 重做 | Ctrl+Shift+Z |
-| 还原 | Ctrl+Z |
-| 刷新组件 | Alt + Shift + r |
-| 刷新项目 | Alt + r |
-| 设置为登录页面 | Ctrl+Shift+I |
+| 操作 | Mac 快捷方式 | Windows 快捷方式 |
+| --- | --- | --- | 
+| 搜索左侧面板 | **[!UICONTROL *cmd + /*]** | **[!UICONTROL *ctrl + /*]** |
+| 创建警报 | **[!UICONTROL *cmd + shift + a *]** | **[!UICONTROL *ctrl + shift + a *]** |
+| 创建计算量度 | **[!UICONTROL *cmd + shift + c *]** | **[!UICONTROL *ctrl + shift + c *]** |
+| 创建日期范围 | **[!UICONTROL *cmd + shift + d *]** | **[!UICONTROL *ctrl + shift + d *]** |
+| 创建区段 | **[!UICONTROL *cmd + shift + e *]** | **[!UICONTROL *ctrl + shift + e *]** |
+| 全部清除 | **[!UICONTROL *alt + w *]** | **[!UICONTROL *opt + w *]** |
+| 复制 | **[!UICONTROL *cmd + c *]** | **[!UICONTROL *ctrl + c *]** |
+| 重做 | **[!UICONTROL *cmd + shift + z *]** | **[!UICONTROL *ctrl + shift + z *]** |
+| 撤销 | **[!UICONTROL *cmd + z *]** | **[!UICONTROL *ctrl + z *]** |
+| 刷新组件 | **[!UICONTROL *opt + shift + r *]** | **[!UICONTROL *alt + shift + r *]** |
+| 刷新项目 | **[!UICONTROL *opt + r *]** | **[!UICONTROL *alt + r *]** |
+| 设置为“登录”页面 | **[!UICONTROL *cmd + shift + l *]** | **[!UICONTROL *ctrl + shift + l *]** |
 
-## 添加面板和可视化图表操作
+## 添加面板和可视化内容操作
 
-| 操作 | 快捷键 |
-| ---|---|
-| 新建 Analytics for Target 面板 | Alt + g |
-| 新建归因面板 | Alt + e |
-| 新建空白面板 | Alt + b |
-| 新建自由格式面板 | Alt + a |
-| 新建媒体并发查看者面板 | Alt + h |
-| 新建快速分析面板 | Alt + f |
-| 新建区段比较面板 | Alt + c |
-| 新建自由格式表 | Alt + 1 |
-| 新建折线图 | Alt + 2 |
-| 新建条形图 | Alt + 3 |
+| 操作 | Mac 快捷方式 | Windows 快捷方式 |
+| --- | --- | --- | 
+| 新建归因面板 | **[!UICONTROL *opt + e *]** | **[!UICONTROL *alt + e *]** |
+| 新建空白面板 | **[!UICONTROL *opt + b *]** | **[!UICONTROL *alt + b *]** |
+| 新建自由格式面板 | **[!UICONTROL *opt + a *]** | **[!UICONTROL *alt + a *]** |
+| 新建快速洞察面板 | **[!UICONTROL *opt + f *]** | **[!UICONTROL *alt + f *]** |
+| 新建自由格式表 | **[!UICONTROL *opt + 1 *]** | **[!UICONTROL *alt + 1 *]** |
+| 新建折线图 | **[!UICONTROL *opt + 2 *]** | **[!UICONTROL *alt + 2 *]** |
+| 新建条形图 | **[!UICONTROL *opt + 3 *]** | **[!UICONTROL *alt + 3 *]** |
+| 新建组合图表 | **[!UICONTROL *opt + 4 *]** | **[!UICONTROL *alt + 4 *]** |
+
+## 移动面板操作
+
+| 操作 | Mac 快捷方式 | Windows 快捷方式 |
+| --- | --- | --- | 
+| 将面板上移 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
+| 下移面板 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
 ## 大众化操作
 
-| 操作 | 快捷键 |
-| --- | --- |
-| 保存项目 | Ctrl+S |
-| 项目另存为 | Ctrl+Shift+S |
-| 另存为模板 | alt + t |
-| 下载为 CSV 格式 | Ctrl+Shift+V |
-| 下载为 PDF 格式 | Ctrl+Shift+B |
-| 策划项目数据 | Ctrl+Shift+G |
-| 共享项目 | Ctrl+G |
-| 获取项目链接 | Alt + l |
-| 立即发送文件 | Alt + s |
-| 按计划发送文件 | Shift + Alt + s |
+| 操作 | Mac 快捷方式 | Windows 快捷方式 |
+| --- | --- | --- | 
+| 保存项目 | **[!UICONTROL *cmd + s *]** | **[!UICONTROL *ctrl + s *]** |
+| 项目另存为 | **[!UICONTROL *cmd + shift + s *]** | **[!UICONTROL *ctrl + shift + s *]** |
+| 另存为模板 | **[!UICONTROL *opt + t *]** | **[!UICONTROL *alt + t *]** |
+| 下载为 CSV 格式 | **[!UICONTROL *cmd + shift + v *]** | **[!UICONTROL *ctrl + shift + v *]** |
+| 下载为 PDF 格式 | **[!UICONTROL *cmd + shift + b *]** | **[!UICONTROL *ctrl + shift + b *]** |
+| 策划项目数据 | **[!UICONTROL *cmd + shift + g *]** | **[!UICONTROL *ctrl + shift + g *]** |
+| 共享项目 | **[!UICONTROL *cmd + g *]** | **[!UICONTROL *ctrl + g *]** |
+| 获取项目链接 | **[!UICONTROL *alt + l *]** | **[!UICONTROL *alt + l *]** |
+| 立即发送文件 | **[!UICONTROL *alt + s *]** | **[!UICONTROL *alt + s *]** |
+| 按计划发送文件 | **[!UICONTROL *shift + alt + s *]** | **[!UICONTROL *shift + alt + s *]** |

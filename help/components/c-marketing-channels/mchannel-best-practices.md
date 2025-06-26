@@ -3,10 +3,10 @@ title: 实施 Adobe Analytics 营销渠道的最佳实践
 description: 将营销渠道用于归因和 Customer Journey Analytics 的更新后最佳实践
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 当营销渠道在首次引入时，它们只具有首个联系和最近联系维度。在有了当前版本的归因后，不再需要显式的首个联系/最近联系维度。Adobe 提供了通用的“营销渠道”和“营销渠道详细信息”维度，以便您将其与所需的归因模型结合使用。这些一般化的维度的行为与最近联系渠道维度相同，但采用了不同的标记以防止在将营销渠道用于不同的归因模型时造成混淆。
 
-由于营销渠道维度取决于传统的访问定义（由其处理规则定义），因此使用虚拟报表包无法更改其访问定义。这些修订后的实践在归因和 Customer Journey Analytics 中实现了清楚可控的回溯窗口。
+由于营销渠道维度取决于传统的访问定义（由其处理规则定义），因此使用虚拟报表包无法更改其访问定义。这些修订后的实践在归因和Adobe Analytics中实现了清楚可控的回溯窗口。
 
 ## 最佳实践 1：利用归因进行可控分析
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * 维度“营销渠道”和“营销渠道详细信息”的配置确定了要评估的接触点，与各个营销渠道实例对应。
 * 对于量度分析，您的组织应该与一个或多个归因模型保持一致。将自定义量度与此模型一起保存以便重用。
-* 默认情况下，使用“最后接触”和“访客参与期”的设置进行分配。归因量度模型提供了对回溯窗口更好的控制并且更多样化，包括[算法归因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans#analysis-workspace)。
+* 默认情况下，使用“最后接触”和“访客参与期”的设置进行分配。归因量度模型提供了对回溯窗口更好的控制并且更多样化，包括[算法归因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html#analysis-workspace)。
 
 ## 最佳实践 2：不使用直接和会话刷新渠道定义
 

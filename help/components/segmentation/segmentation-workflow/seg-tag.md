@@ -1,12 +1,12 @@
 ---
-description: 在“区段管理器”中，您可以通过标记区段来组织区段。
+description: 在区段管理器中，您可以通过标记区段来组织区段。
 title: 标记区段
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 9%
+ht-degree: 4%
 
 ---
 

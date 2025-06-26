@@ -1,12 +1,12 @@
 ---
-description: 描述了使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
+description: 描述使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
 title: 分段工作流程概述
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 55%
 | 3 | [生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md) | 生成和编辑区段以用于所有Analytics功能。 <br/>有关如何使用THEN运算符生成区段的信息，请参阅[生成顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。 |
 | 4 | [标记区段](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 为区段加标签便于整理和共享。请参阅如何规划和分配标签以进行简单和高级搜索和整理。 |
 | 5 | [批准区段](/help/components/segmentation/segmentation-workflow/seg-approve.md) | 批准区段作为规范区段。 |
-| 6 | [使用区段](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | 您可以从区段组件将区段直接应用于报表。 |
+| 6 | [使用区段](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | 您可以将区段组件中的区段直接应用于报表。 |
 | 7 | [共享区段](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 将您的区段与其他 Analytics 工具中的目标受众共享，以及共享到 Adobe Target 和 Adobe Marketing Cloud。 |
 | 8 | [过滤区段](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | 按照标记、所有者和其他过滤器（全部显示、我的、已与我共享、收藏和已批准）进行过滤。 |
 | 9 | [将区段标记为收藏](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | 将区段标记为收藏是另一种组织区段以便于使用的方式。 |

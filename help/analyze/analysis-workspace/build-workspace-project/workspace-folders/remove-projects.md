@@ -4,14 +4,14 @@ keywords: Analysis Workspace
 title: 从文件夹中删除项目
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
 
-# 从文件夹中删除项目
+# 删除项目
 
 要从文件夹中删除一个项目，可将该项目移至另一位置或删除该项目。
 

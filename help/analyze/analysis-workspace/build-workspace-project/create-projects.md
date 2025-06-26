@@ -4,120 +4,195 @@ title: 创建项目
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
+source-git-commit: 2bfc9c1d38957c997e78ee7d6a9550d173063109
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 93%
 
 ---
 
-# 在 Analysis Workspace 中创建项目
+# 创建项目 {#create-projects}
 
-Analysis Workspace 中的[项目](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)允许您查看可与组织内部或外部的利益相关者共享的关键业务分析内容。
 
-有关如何开始使用 Analysis Workspace 的一般信息，请参阅 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)。
+使用 Analysis Workspace 中的[项目](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可以创建和查看业务关键分析。这些分析可以与组织内部或外部的利益相关者共享。
 
-以下部分介绍的是如何创建项目并开始添加任何 Analysis Workspace 项目的关键构建区块：面板、可视化效果和组件。
+1. 在 Adobe Analytics 中，选择 **[!UICONTROL Workspace]**。
 
-## 从空白项目或报表创建项目
+1. 选择左侧面板中的&#x200B;**[!UICONTROL 项目]**，然后选择&#x200B;**[!UICONTROL 创建项目]**。
 
-1. 在 Adobe Analytics 中，选择 [!UICONTROL **Workspace**]。
+1. 选择&#x200B;**空白 Workspace 项目**，以使用浏览器创建您的 Workspace 项目。
 
-1. 选择是创建空白项目还是从报表创建项目：
+   有关如何创建移动记分卡项目的更多信息，请参阅[空白移动记分卡](/help/analyze/mobile-app/curator.md)，您可以使用移动应用程序与其他利益相关者共享该项目。
 
-   +++创建空白项目
+1. 选择&#x200B;[!UICONTROL **创建**]。
 
-   1. 在 [!UICONTROL **Workspace**] 选项卡上，选择页面左侧的&#x200B;[!UICONTROL **项目**]&#x200B;选项卡，然后选择&#x200B;[!UICONTROL **创建项目**]。
 
-   1. 选择是创建空白项目还是空白移动记分卡
+现在您已经创建了一个空白 Workspace 项目，请确保您熟悉 [Analysis Workspace](/help/analyze/analysis-workspace/home.md) 用户界面。完成后，您就可以构建您的项目了。操作方法：
 
-      * 如果您计划通过浏览器共享您的分析，请创建&#x200B;**空白项目**
-      * 如果您计划通过 Adobe Analytics 功能板移动设备应用程序共享您的分析，请创建&#x200B;[**空白移动记分卡**](/help/analyze/mobile-app/curator.md)。
+![Example project](assets/example-project.png)
 
-   1. 选择&#x200B;[!UICONTROL **创建**]。
+* 将[面板](/help/analyze/analysis-workspace/c-panels/panels.md)添加到您的项目中。例如，**[!DNL Example Panel]** ➊。
 
-+++
+* 在您的面板中添加[可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。例如：
+   * **[!DNL Line]** [线形图](/help/analyze/analysis-workspace/visualizations/line.md)可视化图表➋
+   * **[!DNL US States]** [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)可视化图表➌
+* 在可视化效果中添加[组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)例如：
+   * **[!DNL US States]** [维度](/help/components/dimensions/overview.md) ➍
+   * **[!DNL Unique Visitors]** [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
+   * **[!DNL Average Revenue Per Order]** [计算量度](/help/components/c-calcmetrics/cm-overview.md) ➏
+   * **[!DNL Visits from Mobile Devices]** [区段](/help/components/segmentation/seg-overview.md) ➐
+   * **[!DNL Last Month]** [日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
+   * **[!DNL Example]** [注释](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
-   +++从报表创建项目
 
-   1. 在 [!UICONTROL **Workspace**] 选项卡上，选择页面左侧的&#x200B;[!UICONTROL **报表**]&#x200B;选项卡。
+## 项目信息和设置 {#project-info-settings}
 
-   1. 搜索或导航到要使用的报表，然后在它出现时将其选定。
+>[!CONTEXTUALHELP]
+>id="workspace_project_countrepeatinstances"
+>title="计数重复实例"
+>abstract="指定是否将重复实例计入报告中。<br/><br/>注意：此设置不适用于“流”或“流失”可视化。"
 
-      默认情况下，提供一组标准报表。此外，您的组织可能已创建自定义报表以供您选择。
+>[!CONTEXTUALHELP]
+>id="workspace_project_repeatinstances"
+>title="计数重复实例"
+>abstract="指定是否将重复实例计入报告中。<br/>注意：此设置不适用于“流”或“流失”可视化。"
 
-   1. 选择&#x200B;[!UICONTROL **项目**] > [!UICONTROL **保存**]&#x200B;以将报表另存为新项目。
 
-      有关报表的更多信息，请参阅 [Adobe Analytics 登陆页面](/help/analyze/landing.md)中的“导航‘报表’选项卡”。
+>[!CONTEXTUALHELP]
+>id="workspace_project_commenting"
+>title="允许评论"
+>abstract="启用后，Analysis Workspace 中项目的右侧栏中会显示一个评论区域。"
 
-+++
 
-1. 接下来，您需要在项目中添加面板、可视化效果和组件。首先，将面板添加到 Analysis Workspace 中的项目内，如[将面板添加到项目中](#add-panels-to-the-project)所述。然后，您可以将可视化效果添加到任何面板中。最后，您可以将组件添加到任何面板或可视化效果中。
+项目设置提供有关当前活动项目的项目级信息。
 
-## 将面板添加到项目中 {#panels}
+![The Project Info &amp; Settings window.](./assets/projectinfo.png)
 
-[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)是 Analysis Workspace 中任何项目的基础。面板可用于组织项目的内容（可视化效果和组件）。
+这些设置包括：
 
-Analysis Workspace 中提供的许多面板都可以基于一些用户输入来生成整套分析。
+| 设置 | 描述 |
+|---|---|
+| 项目名称 | 给项目起的名称。您可以双击该名称以编辑它。 |
+| 所有者 | 项目所有者名称。 |
+| 最近修改 | 项目上次修改日期。 |
+| 标记 | 列出应用于项目以方便分类的所有标记。 |
+| 描述 | 描述有助于明确项目的目的。您可以双击描述以编辑它。 |
+| 计数重复实例 | 指定是否将重复实例计入报告中。注意：此设置不适用于“流”或“流失”可视化。 |
+| 显示注释 | 指定是否显示该项目的注释。 |
+| [项目调色板](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | 通过从已为色盲优化过的现成调色板中进行选择或通过指定您的自定义调色板，可更改在 Workspace 中使用的类别调色板。此功能影响 Workspace 中的许多内容，包括大多数可视化。 |
+| [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 通过减小左侧面板、自由格式表和同类群组表的垂直边距，让您可在屏幕上看到更多数据。 |
 
-要添加面板，请执行以下操作：
 
-1. 选择左边栏中的&#x200B;[!UICONTROL **面板**]&#x200B;图标。
+
+<!--
+# Create projects in Analysis Workspace
+
+[Projects](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace allow you to view business-critical analyses that can be shared with stakeholders inside or outside your organization. 
+
+For general information about how to get started using Analysis Workspace, see [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md).
+
+The following sections describe how to create a project and start adding the key building blocks for any Analysis Workspace project: panels, visualizations, and components.
+
+## Create a project from a blank project or a report
+
+1. In Adobe Analytics, select [!UICONTROL **Workspace**].
+
+1. Choose whether to create a blank project or to create a project from a report:
+
+   +++Create a blank project
+
+   1. On the [!UICONTROL **Workspace**] tab, select the [!UICONTROL **Projects**] tab on the left side of the page, then select [!UICONTROL **Create project**].
+
+   1. Choose whether to create a blank project or a blank mobile scorecard
+
+      * **Blank project** if you plan to share your analysis from the browser 
+      * [**Blank mobile scorecard**](/help/analyze/mobile-app/curator.md) if you plan to share your analysis from the Adobe Analytics dashboards mobile app.
+
+   1. Select [!UICONTROL **Create**].
+
+   +++
+
+   +++Create a project from a report
+   
+      1. On the [!UICONTROL **Workspace**] tab, select the [!UICONTROL **Reports**] tab on the left side of the page.
+
+      1. Search for or navigate to the report you want to use, then select it when it appears.
+
+          A set of standard reports is available by default. In addition, your organization might have created custom reports for you to choose from.
+          
+      1. Select [!UICONTROL **Project**] > [!UICONTROL **Save**] to save the report as a new project.
+
+          For more information about reports, see "Navigate the Reports tab" in [Adobe Analytics landing page](/help/analyze/landing.md).
+
+   +++
+
+1. Next, you need to add panels, visualizations, and components to your project. First, add panels to your project in Analysis Workspace, as described in [Add panels to the project](#add-panels-to-the-project). You can then add visualizations to any panels. Finally, you can add components to any panels or visualizations.
+
+## Add panels to the project {#panels}
+
+[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
+
+Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. 
+
+To add a panel:
+
+1. Select the [!UICONTROL **Panels**] icon in the left rail.
 
    ![](assets/build-panels.png)
 
-1. 搜索要添加的面板。当它出现在左边栏中时，将它拖到您的项目中。
+1. Search for the panel you want to add. When it appears in the left rail, drag it into your project.
 
-1. 在面板中添加可视化效果，如[在项目中添加可视化效果](#add-visualizations-to-the-project)中所述。
+1. Add visualizations to your panel, as described in [Add visualizations to the project](#add-visualizations-to-the-project). 
 
-   或者，您可以将组件直接添加到面板中，如[将组件添加到项目中](#add-components-to-the-project)所述。
+   Alternatively, you can add components directly to a panel, as described in [Add components to the project](#add-components-to-the-project).
 
-## 在项目中添加可视化效果
+## Add visualizations to the project
 
-[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)（例如自由格式表，条形图或折线图）可用于直观地呈现数据。
+[Visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
 
 >[!TIP]
 >
->自由格式表是最常见的可视化类型，也是交互式数据分析的基础。有关如何在 Analysis Workspace 中使用自由格式表的更多详细信息，请参阅[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。
+>Freeform tables are the most common type of visualization, and are the foundation for interactive data analysis. For more details about how to work with Freeform tables in Analysis Workspace, see [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
-要添加可视化效果，请执行以下操作：
+To add a visualization:
 
-1. 选择左边栏中的&#x200B;**[!UICONTROL 可视化]**&#x200B;图标。
+1. Select the **[!UICONTROL Visualizations]** icon in the left rail.
 
    ![](assets/build-visualizations.png)
 
-1. 搜索要添加的可视化效果。当它出现在左边栏中时，将它拖动到项目中的面板内。
+1. Search for the visualization you want to add. When it appears in the left rail, drag it to a panel within your project. 
 
-1. 将组件添加到可视化效果中，如[将组件添加到项目](#add-components-to-the-project)中所述。
+1. Add components to the visualization, as described in [Add components to the project](#add-components-to-the-project).
 
-## 将组件添加到项目中
+## Add components to the project
 
-[组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)构成任何项目的实际数据。您可以将组件添加到可视化效果或面板中。
+[Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) make up the actual data of any project. You can add components to visualizations or to panels.
 
 >[!TIP]
 >
->有关每个组件的信息，请选择左边栏中组件名称旁边的“信息”图标，或参阅 [Analytics 组件指南](/help/components/home.md)。
+>For information about each component, select the Info icon next to a component's name in the left rail, or see the [Analytics Components Guide](/help/components/home.md).
 
-以下是有关如何在 Analysis Workspace 中向项目添加组件的基本信息。有关添加各种类型组件（维度、指标、细分和日期范围）的更多详细信息，请参阅 [在 Analysis Workspace 中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
+Following is basic information about how to add a component to a project in Analysis Workspace. For more detailed information about adding the various types of components (dimensions, metrics, segments, and date ranges), see [Use components in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
-要将组件添加到 Analysis Workspace 中的项目：
+To add a component to a project in Analysis Workspace:
 
-1. 选择左边栏中的&#x200B;**[!UICONTROL 组件]**&#x200B;图标。
+1. Select the **[!UICONTROL Components]** icon in the left rail.
 
    ![](assets/build-components.png)
 
-1. 滚动到或搜索要添加的组件，然后将其拖到项目内的面板或可视化中。
+1. Scroll to or search for the component you want to add, then drag it to a panel or visualization within your project. 
 
-   例如，您可以将某个段拖到面板标题中的段放置区。
+   For example, you can drag a segment to the segment drop zone in a panel header.
 
-   ![将片段放入拖放区](assets/segment-dropzone.png)
+   ![drop a segment in the drop zone](assets/segment-dropzone.png)
 
-   有关添加组件的更多信息，请参阅 [在 Analysis Workspace 中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
+   For more information about adding components to projects, see [Use components in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
-1. （可选）按照[保存和共享项目](#save-and-share-the-project)中的说明共享项目。
+1. (Optional) Share the project as described in [Save and share the project](#save-and-share-the-project).
 
-## 保存和共享项目
+## Save and share the project
 
-在 Analysis Workspace 中创建分析时，您的工作将[自动保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)。
+As you create an analysis in Analysis Workspace, your work is [automatically saved](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). 
 
-在构建完项目并收集可操作洞察后，项目即可供其他人使用。您可以与组织内的用户和组甚至组织外的人员共享项目。有关共享项目的信息，请参阅[共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)。
+When you finish building out the project and it's gathering actionable insights, the project is ready to be consumed by others. You can share the project with users and groups in your organization, or even with people outside your organization. For information about sharing a project, see [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+-->

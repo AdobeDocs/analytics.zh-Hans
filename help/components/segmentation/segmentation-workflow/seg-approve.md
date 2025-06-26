@@ -1,12 +1,12 @@
 ---
-description: 您可以在区段管理器内设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
+description: 在区段管理器内，您可以设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
 title: 批准区段
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 24%
+ht-degree: 2%
 
 ---
 

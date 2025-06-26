@@ -3,10 +3,10 @@ description: 通过区段，可根据特性或网站交互标识访客的子集�
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
-workflow-type: ht
-source-wordcount: '1159'
-ht-degree: 100%
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+workflow-type: tm+mt
+source-wordcount: '1020'
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 区段基于使用嵌套容器模型的[!UICONTROL 访客]、[!UICONTROL 访问]和[!UICONTROL 点击]级别层次结构。您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报告生成、可内建于功能板报告中，或添加书签以便快速访问。
 
-可在 Segment Builder 中构建和保存区段，也可从流失报告（在 [!UICONTROL Analysis Workspace] 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预建区段，从而可以过滤结果并应用于报告。此外，区段可以一起用作[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+您可以在区段生成器中生成并保存区段，也可以从流失报表(在[!UICONTROL Analysis Workspace]中)生成区段。 还可以根据嵌套容器之间的特定规则采用和扩展预建区段，从而可以过滤结果并应用于报告。此外，区段可以一起用作[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 
 区段可确定
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 - 基于退出和登录的访客：来自 Facebook、定义的登陆页面、反向链接域名的访客。
 - 基于自定义变量的访客：表单字段、定义的类别、客户 ID。
 
-当您在区段生成器中生成受众区段时，可通过在容器之间使用 [!UICONTROL AND] 和 [!UICONTROL OR] 运算符来定义条件。
+在区段生成器中生成受众区段时，您会在容器之间使用[!UICONTROL AND]和[!UICONTROL OR]运算符定义条件。
 
 <table style="table-layout:fixed; border: none;">
 
@@ -108,31 +108,29 @@ ht-degree: 100%
 
 此类型的区段根据使用 [!UICONTROL AND] 和 [!UICONTROL OR] 运算符联接的特性过滤数据集。
 
-- 您可以[将多个区段应用于一个报告或项目](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+- 您可以[将多个区段应用于一个报告或项目](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)。
 - 区段对于所有报告包都是通用的。
-- [区段生成器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)简化了区段的创建过程。
-- 您可以通过[区段管理器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)中的区段共享、标记、验证和批准功能，来设置[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-- 可[为区段加标签](/help/components/segmentation/segmentation-workflow/seg-workflow.md)代替使用文件夹以稍后整理和搜索。
-- 可创建[顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
-- [!UICONTROL 页面查看]容器现在改名为[!UICONTROL 点击]容器，以指示此容器为所有类型的数据而非仅为页面查看分段。例如，点击容器完全包含或排除链接跟踪调用和移动 SDK 中的 trackAction 调用。
+- [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)简化了区段的创建过程。
+- [区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)允许您使用区段共享、标记、验证和批准功能设置[工作流](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+- 可[为区段加标签](/help/components/segmentation/segmentation-workflow/seg-tag.md)代替使用文件夹以稍后整理和搜索。
+- 您可以创建[顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
+- [!UICONTROL 页面查看]容器现在改名为[!UICONTROL 点击]容器，以指示此容器为所有类型的数据而非仅为页面查看分段。例如，点击容器完全包含或排除链接跟踪调用和移动SDK中的跟踪操作调用。
 
 ## Analysis Workspace 中的分段
 
 Analysis Workspace 包含以下附加功能：
 
 - 您可以[比较区段](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)。
-- 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
+- 在自由格式表可视化中，将区段用作维度。
 - 在[流失分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)中使用区段。
 
 ## Adobe 提供的区段
 
-屏幕左侧的组件边栏显示由您和您的公司创建的区段及现成的 Adobe 区段。当您单击&#x200B;**[!UICONTROL 显示所有]**&#x200B;时，一般将在列表的底部出现这些区段，并通过右侧的 Adobe 徽标标识这些区段。
+组件左边栏显示您和您的公司创建的区段以及现成提供的Adobe区段。 单击&#x200B;**[!UICONTROL 显示全部]**&#x200B;后，这些区段通常出现在列表底部，并由![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)标识。
 
 ## 顺序区段 {#sequential}
 
 通过使用顺序区段，您可以根据站点中的导航和页面查看识别访客，为定义的操作和交互提供了一个区段。顺序区段可帮助您识别访客喜欢和避开的内容。生成顺序区段时，使用 [!UICONTROL THEN] 运算符来定义和排序访客导航。
-
-<!--![](assets/sequential_seg.png)-->
 
 | 访问一 | 访问二 | 访问三 |
 |---|---|---|
@@ -242,40 +240,12 @@ Analysis Workspace 包含以下附加功能：
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/3429103?quality=12&learn=on&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
 
-## 访问分段工具 {#access}
-
-+++ **如何访问区段生成器？**
-
-您可以通过以下方法访问区段生成器：
-
-- 显示一个现有报告，然后单击左侧导航中的“区段”图标 ![ “区段”图标 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
-
-- 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![“添加”按钮](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
-
-  或者
-
-- 在区段管理器中单击现有区段标题，以在区段生成器中编辑该区段。
-
-+++
-
-+++ **如何访问区段管理器？**
-
-访问区段管理器的方法如下：:
-
-- 在顶部导航中，转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 区段]**，或者
-
-- 显示一个现有报告，然后单击左侧导航中的“区段”图标 ![“区段”图标 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
-
-- 在界面的任意位置按斜杠键“/”，并搜索区段管理器。
-
-+++
-
-## 权限 {#section_648DFA3A882146C485A84ED014EEC707}
+## 权限 {#permissions}
 
 +++ **需要哪些权限才能使用、创建和管理区段？**
 
@@ -293,9 +263,9 @@ Report Builder 显示您拥有的区段以及与您共享的区段。
 
 +++
 
-+++ **能否在区段管理器中管理所有 Analytics 区段？**
++++ **我是否可以在区段管理器中管理所有Analytics区段？**
 
-是的，可在 Segment Manager 中管理所有区段。区段管理器显示对所有者（创建区段的用户）、共享用户和管理员用户可见的区段。区段选择器显示用户拥有的区段及与其共享的区段。
+是的，可在区段管理器中管理所有区段。 区段管理器显示所有者（创建区段的用户）、共享用户和管理员用户可见的区段。 区段选择器显示用户拥有的区段及与其共享的区段。
 
 管理员可以在 Analysis Workspace 用户界面中看到所有区段。
 
@@ -303,8 +273,8 @@ Report Builder 仅显示由您构建的区段或已特意与您共享的区段�
 
 +++
 
-+++ **为什么无法删除此区段？**
++++ **为什么无法删除区段？**
 
-如果区段已[发布到 Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md)，则无法删除或编辑该区段。但是，您可以复制该区段，然后编辑其复制版本。
+如果该区段是[发布到Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md)，则不能删除该区段或编辑该区段。 但是，您可以复制区段并编辑复制的版本。
 
 +++

@@ -5,56 +5,116 @@ title: 计划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 32%
 
 ---
 
-# 计划项目
+# 将文件发送给其他人
 
-可从 Workspace **“共享”菜单**&#x200B;使用电子邮件将 Analysis Workspace 项目发送到所选的收件人。可发送 CSV 或 PDF 格式的文件。共享计划项目后，可使用计划项目管理器编辑计划设置以修改频率、收件人列表或文件类型。
+您可以通过电子邮件将Adobe Analytics报表作为文件发送给选定的用户。 您可以临时发送文件，也可以配置按计划发送文件。可以采用 CSV 或 PDF 格式发送文件。
 
-## 立即发送文件
+任何应用于项目的标记都会自动应用于导出文件。
 
-要通过电子邮件立即将文件发送给收件人，请执行以下步骤：
+导出Adobe Analytics数据的其他方法也可用，如[导出概述](/help/export/home.md)中所述。
 
-1. 单击&#x200B;**[!UICONTROL 共享] > [!UICONTROL 导出文件]**。
+![发送文件](assets/send-file.png)
+
+## 发送文件
+
+通过电子邮件将文件发送给收件人：
+
+1. 选择&#x200B;**[!UICONTROL 共享] > [!UICONTROL 发送文件]**。
 1. 指定文件类型：
    * [!UICONTROL **CSV**]：如果您需要纯文本数据，请选择此选项。
    * [!UICONTROL **PDF**]：如果您希望下载的文件包含项目中所有显示（可见）的表和可视化，请选择此选项。
-1. （可选）添加要包括在电子邮件中的描述以解释所接收的文件。
-1. 添加收件人或组。也可以输入电子邮件地址。
-1. 单击&#x200B;**[!UICONTROL 立即发送]**。
-1. （可选）单击&#x200B;**[!UICONTROL 显示计划选项]**&#x200B;以指定发送计划。
+1. （可选）使用&#x200B;**[!UICONTROL Description]**&#x200B;添加要包含在电子邮件中的描述。
+1. 添加收件人或组。您还可以输入电子邮件地址。
+1. （可选）选择&#x200B;**[!UICONTROL 显示计划选项]**&#x200B;到[计划文件导出](#schedule-file-export)。
+1. 单击&#x200B;**[!UICONTROL 立即发送]**。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
-![立即发送文件](assets/send-file-now.png)
 
-## 按计划发送文件
+## 安排文件导出 {#schedule}
 
-要通过电子邮件按重复计划将文件发送给收件人，请执行以下操作：
+通过电子邮件按计划将文件发送给收件人
 
-1. 单击&#x200B;**[!UICONTROL 共享] > [!UICONTROL 安排文件导出]**。
-1. 指定文件类型（CSV 或 PDF）。
-1. （可选）添加要包含在电子邮件中的说明，以阐述所发送的文件。
-1. 添加收件人或组。也可以输入电子邮件地址。
-1. 通过修改开始日期和结束日期输入值来指定计划发送文件的日期范围。结束日期必须在自创建或修改计划之日起的一年内。
-1. 指定发送频率。每种频率均允许进行不同的自定义。
-1. 单击&#x200B;**[!UICONTROL 按计划发送]**。
+1. 选择&#x200B;**[!UICONTROL 共享] > [!UICONTROL 计划文件导出]**。
+1. 指定文件类型：
+   * [!UICONTROL **CSV**]：如果您需要纯文本数据，请选择此选项。
+   * [!UICONTROL **PDF**]：如果您希望下载的文件包含项目中所有显示（可见）的表和可视化，请选择此选项。
+1. （可选）使用&#x200B;**[!UICONTROL Description]**&#x200B;添加要包含在电子邮件中的描述。
+1. 添加收件人或组。您还可以输入电子邮件地址。
+1. （仅适用于Healthcare Shield客户）提供[密码保护计划报告](#password-protect-a-new-scheduled-project)的密码。
+1. 确保已选择&#x200B;**[!UICONTROL 显示计划选项]**。
+1. 选择&#x200B;**[!UICONTROL 频率]**。 您可以在以下各项之间进行选择：
+
+   | 频率 | 选项 |
+   |---|---|
+   | **[!UICONTROL 每小时发送]** | 为&#x200B;**[!UICONTROL 发送间隔小时数]**&#x200B;输入一个值。 |
+   | **[!UICONTROL 每日发送]** | 选择&#x200B;**[!UICONTROL 每日频率]**：**[!UICONTROL 每天发送]**、**[!UICONTROL 每个工作日发送]**&#x200B;或&#x200B;**[!UICONTROL 自定义频率]**。<br/>如果您选择&#x200B;**[!UICONTROL 自定义频率]**，请为&#x200B;**[!UICONTROL 发送间隔天数]**&#x200B;输入一个值。 |
+   | **[!UICONTROL 每周发送]** | 为&#x200B;**[!UICONTROL 发送间隔周数]**&#x200B;输入一个值。 并选择一周中的&#x200B;**[!UICONTROL 天]**。 |
+   | **[!UICONTROL 按星期几发送月报表]** | 选择&#x200B;**[!UICONTROL 周中某天]**&#x200B;和&#x200B;**[!UICONTROL 月中某周]**。 |
+   | **[!UICONTROL 每月按月发送]** | 从&#x200B;**[!UICONTROL 发送日期]**&#x200B;中选择一个值。 |
+   | **[!UICONTROL 按月份中的日期每年发送]** | 选择&#x200B;**[!UICONTROL 周中日]**，选择&#x200B;**[!UICONTROL 月中周]**，然后选择&#x200B;**[!UICONTROL 月中月]**。 |
+   | **[!UICONTROL 按特定日期每年发送]** | 选择&#x200B;**[!UICONTROL 月份]**&#x200B;并从&#x200B;**[!UICONTROL 发送日期]**&#x200B;中选择一个值。 |
+
+1. 输入从&#x200B;]**开始的**[!UICONTROL &#x200B;开始日期。 或者，选择![日历](/help/assets/icons/Calendar.svg)以从日历中选择开始日期。
+
+1. 在&#x200B;**[!UICONTROL 结束日期]**&#x200B;中输入结束日期。 或者，选择![日历](/help/assets/icons/Calendar.svg)以从日历中选择结束日期。
+1. 选择&#x200B;**[!UICONTROL 按计划]**&#x200B;发送。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
+
+
+## 计划项目管理器 {#manager}
+
+使用&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 计划项目]**，可从主界面管理计划的Analysis Workspace项目。 有关更多信息，请参阅[计划项目](/help/components/scheduled-projects-manager.md)。
+
+<!--
+# Schedule projects
+
+From the Workspace **Share menu**, you can send Analysis Workspace projects using email to selected recipients. Files can be sent in CSV or PDF format. After you share scheduled projects, you can edit the schedule settings to modify the frequency, receipient list, or file type using the Scheduled Projects manager.
+
+## Send file now
+
+To send a file immediately to recipients via email:
+
+1. Click **[!UICONTROL Share] > [!UICONTROL Export file]**.
+1. Specify the file type:
+   * [!UICONTROL **CSV**]: Choose this option if you want plain-text data.
+   * [!UICONTROL **PDF**]: Choose this option if you want the downloaded file to contain all the displayed (visible) tables and visualizations in the project.
+1. (Optional) Add a description to include in the email to explain the file being received. 
+1. Add recipients or groups. Email addresses can also be entered. 
+1. Click **[!UICONTROL Send Now]**.
+1. (Optional) Click **[!UICONTROL Show scheduling options]** to specify a delivery schedule.
+
+![Send file now](assets/send-file-now.png)
+
+## Send file on schedule
+
+To send a file on a recurring schedule to recipients via email:
+
+1. Click **[!UICONTROL Share] > [!UICONTROL Schedule file export]**.
+1. Specify the file type (CSV or PDF).
+1. (Optional) Add a description that will be included in the email to explain the file being received. 
+1. Add recipients or groups. Email addresses can also be entered. 
+1. Specify the range the schedule should be delivered over by modifying Starting on and Ending on inputs. The end date must be within a year from the day the schedule is created or modified.
+1. Specify the delivery frequency. Each frequency allows for different customizations. 
+1. Click **[!UICONTROL Send on schedule]**.
 
 ![](assets/send-on-schedule.png)
 
-## 管理计划项目
+## Manage scheduled projects
 
-在管理计划项目时，您可以编辑和删除重复的项目计划：
+When you manage scheduled projects, you can edit and delete recurring project schedules:
 
-* 更改文件类型（.csv 或 PDF）
-* 更新项目描述
-* 添加或移除收件人
-* 更改频率
+*  Change the file type (.csv or PDF)
+*  Update the project description
+*  Add or remove recipients
+*  Change the frequency
 
 
-可在 **Analytics > 组件 > 计划项目**&#x200B;下管理安排的 Analysis Workspace 项目。
+Scheduled Analysis Workspace projects can be managed under **Analytics > Components > Scheduled Projects**.
 
-有关更多信息，请参阅[计划项目](/help/components/scheduled-projects-manager.md)
+For more information, see [Scheduled projects](/help/components/scheduled-projects-manager.md)
+-->

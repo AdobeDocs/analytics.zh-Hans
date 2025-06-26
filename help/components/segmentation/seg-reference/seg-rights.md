@@ -1,16 +1,16 @@
 ---
 description: 使用管理员和非管理员之间的区段的比较图。
-title: 区段权限（按角色）
+title: 按角色划分区段权限
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# 区段权限（按角色）
+# 按角色划分区段权限
 
 区段功能在管理员级别的用户和非管理员用户之间大部分不同。
 
@@ -20,5 +20,3 @@ ht-degree: 1%
 | 在区段管理器中查看区段 | 组织中的所有区段 | 仅限拥有的区段或共享区段 |
 | 管理区段 | 可查看、编辑、删除或批准任何用户的任何区段 | 只能编辑或删除自己的区段。 无法批准区段。 |
 | 共享区段 | 可与整个公司、用户组或个人共享 | 只能与个人共享 |
-
-{style="table-layout:auto"}

@@ -3,10 +3,10 @@ title: 分析营销渠道
 description: 了解如何在工作区中使用营销渠道维度。
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 95%
+source-wordcount: '405'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->为了最大化归因和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化归因和Adobe Analytics的营销渠道效率，我们发布了大约[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
 >Analytics 管理员可以管理其组织的营销渠道，如[管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 

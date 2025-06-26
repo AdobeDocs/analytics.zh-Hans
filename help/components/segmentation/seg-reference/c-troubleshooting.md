@@ -3,45 +3,49 @@ description: 排除和修复与区段相关的问题。
 title: 分段疑难解答
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 99%
+source-wordcount: '166'
+ht-degree: 50%
 
 ---
 
 # 分段疑难解答
 
-## 错误：“此区段中存在不兼容的元素” {#incompatible}
+<!-- Looks like this is not part anymore of the current UI.
 
-当您尝试在“Data Warehouse”文件夹中保存的区段含有与 Data Warehouse 不兼容的元素时，会出现此问题。要解决此错误，请执行以下操作之一：
+## Error: "Incompatible elements in this segment" {#incompatible}
 
-* 将该区段保存在其他文件夹
-* 删除或更改该区段中的不兼容部分。
+This error occurs when you try to save a segment in the Data Warehouse folder where the segment contains elements not compatible with Data Warehouse. To resolve this error, do one of two things:
+
+* Save the segment in a different folder 
+* Remove or change the incompatible portions of the segment.
+
+-->
 
 ## 为何我的区段根本不返回任何数据？ {#no-data}
 
 可能的原因：
 
-* 反向嵌套 — 例如，在访问容器下嵌套访客容器。
+* 反向嵌套 — 例如，在![访问](/help/assets/icons/Visit.svg) **[!UICONTROL 访问]**&#x200B;容器下嵌套![用户](/help/assets/icons/User.svg) **[!UICONTROL 访客]**&#x200B;容器。
 * 报表不支持分段。
 * 没有与此分段标准匹配的数据。
 
-## 为何我看不到在“区段管理器”中创建的区段？ {#invisible}
+## 为什么我在区段管理器中看不到我创建的区段？ {#invisible}
 
 可能的原因：
 
-* 有些维度只能在“Data Warehouse”中使用，不能在“区段管理器”中使用。
+* 某些维度仅在Data Warehouse中可用，在区段管理器中不可用。
 * 已指定该区段专门用于特定的报表包。
 * 其他用户可能删除了共享的区段。
-* 区段由于数据中心或浏览器缓存问题而无法加载。
+* 由于数据中心或浏览器缓存问题，无法加载区段。
 * 未保存区段。
 * 用户端可能阻止了 IP 地址。
 
-## 为何在应用了区段后显示的“页面数据”看似不正确？ {#page-data}
+## 为什么在应用区段后显示的数据不正确？ {#page-data}
 
 可能的原因：
 
-* 规则/运算符不正确，无法获得所需结果
-* 对区段应用了不正确的容器。
+* 规则或运算符对于所需的结果不正确。
+* 区段中的容器使用不正确。
 * 区段使用的流量变量未经过正确设置或者已过期。

@@ -1,10 +1,10 @@
 ---
 description: 了解如何在 Adobe Analytics 中启用 Adobe Campaign Standard 报告
 title: 如何将 Adobe Campaign Standard 报告集成到 Adobe Analytics 中？
-feature: Campaign Integration
+feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 有关如何配置此集成的更多信息，请参阅 [Adobe Campaign 文档](https://helpx.adobe.com/cn/campaign/standard/integrating/using/about-campaign-analytics-integration.html)。
 
 >[!IMPORTANT]
->本文仅适用于 Adobe Campaign **Standard** 报告。有关添加 Adobe Campaign **Classic** 报告，请参阅[此处](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=zh-Hans)。
+>本文仅适用于 Adobe Campaign **Standard** 报告。有关添加 Adobe Campaign **Classic** 报告，请参阅[此处](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html)。
 
 Adobe Analytics 与 Adobe Campaign Standard 之间的此集成：
 

@@ -4,10 +4,10 @@ keywords: 分段;区段
 title: 区段容器
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3566'
-ht-degree: 98%
+source-wordcount: '3563'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 区段根据访客的属性或与您站点的交互来设置条件以过滤访客。要在区段内设置条件，可根据访客的特征和/或导航特性来设置规则以过滤访客。要进一步划分访客数据，可以根据每个访客的特定访问和/或页面查看点击来进行过滤。区段生成器提供了一个简单的架构来生成这些子集，并将规则应用为嵌套的分层“访客”、“访问”或“点击”容器。
 
-区段生成器中采用的容器架构定义
+[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中使用的容器架构定义：
 
-- ![访客](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL 访客]**&#x200B;作为最外部的容器，其中包含访客在不同的访问和页面查看间专属的总体数据。
-- ![访问](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg)嵌套的&#x200B;**[!UICONTROL 访问]**&#x200B;容器可用于设置规则，允许您根据访问划分访客的数据，
-- ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg)嵌套的&#x200B;**[!UICONTROL 点击]**&#x200B;容器可让您根据个别页面查看划分访客信息。
+- ![用户](/help/assets/icons/User.svg) **[!UICONTROL 访客]**&#x200B;作为最外部的容器，包含所有访问和页面查看中特定于该访客的一切数据。
+- ![访问](/help/assets/icons/Visit.svg)嵌套的&#x200B;**[!UICONTROL 访问]**&#x200B;容器可用于设置规则，允许您根据访问划分访客的数据，
+- ![WebPage](/help/assets/icons/WebPage.svg)嵌套的&#x200B;**[!UICONTROL 点击]**&#x200B;容器允许您根据各个页面查看划分访客信息。
 
 通过每个容器都可以跨访客的历史记录和按访问划分的交互进行报告，或者对各个点击进行划分。
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 点击量</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 点击量</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/3429103?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ ht-degree: 98%
 
 - 访问量
 - 登录页面
-- 回访频度
+- 回访频率
 - 参与率指标
 - 线性分配的指标
 
@@ -148,7 +148,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 点击量</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 点击量</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 点击量</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 点击量</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 点击量</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 点击量</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 点击量</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 点击量</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 点击量</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 点击量</td>
 </tr>
 
 <tr>

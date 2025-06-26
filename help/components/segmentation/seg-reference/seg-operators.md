@@ -3,16 +3,16 @@ description: 通过区段生成器，您可以使用选定的运算符比较和�
 title: 区段的比较运算符
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 51%
+ht-degree: 47%
 
 ---
 
 # 区段的比较运算符
 
-通过区段生成器，您可以使用选定的运算符比较和约束值。运算符分为三类：标准、Data Warehouse 和非重复计数。
+通过区段生成器，您可以使用选定的运算符比较和约束值。 运算符分为三类：标准、Data Warehouse 和非重复计数。
 
 根据您选择的运算符：
 
@@ -67,7 +67,7 @@ ht-degree: 51%
 
 ## 不同的计数运算符
 
-您可以按维度中项目的非重复计数进行分段。例如，“查看超过 5 个不同产品的访客数量”或“查看了 5 个以上不同页面的访问数量”。
+您可以按维度中项目的非重复计数进行分段。示例： *查看超过5个不同产品的访客*，或&#x200B;*查看超过5个不同页面的访问*。
 
 | 运算符 | 所选维度、区段或量度事件... |
 | --- | --- |

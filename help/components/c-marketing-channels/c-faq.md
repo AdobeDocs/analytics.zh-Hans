@@ -3,7 +3,7 @@ title: 营销渠道常见问题解答
 description: 有关营销渠道的常见问题解答。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 100%
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 * **手动使所有访客参与到期**：此设置将立即使所有访客的所有首次联系和最近联系渠道到期：
    1. 转到“管理工具”>“报告包”。
-   2. 将鼠标悬停在“图像编辑设置”>“营销渠道”>“访客参与到期”上。
+   2. 将鼠标悬停在“图像编辑设置”>“营销渠道”>“访客参与有效期限”上。
    3. 单击“全部过期”。
    4. 单击警告弹出窗口中的“确定”，确认您了解将要执行的操作。
 

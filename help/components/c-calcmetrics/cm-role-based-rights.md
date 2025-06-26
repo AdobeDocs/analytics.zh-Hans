@@ -1,16 +1,16 @@
 ---
 description: 计算指标权限在管理员级别的用户和非管理员用户之间有所不同。
-title: 计算指标：基于角色的权限
+title: 基于角色的权限
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 78%
+source-wordcount: '233'
+ht-degree: 75%
 
 ---
 
-# 计算指标：基于角色的权限
+# 基于角色的权限
 
 计算指标权限在管理员级别的用户和非管理员用户之间有所不同。
 

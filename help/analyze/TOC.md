@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '960'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -27,17 +27,16 @@ ht-degree: 98%
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + 项目 {#build-workspace-project}
-      + [项目概述](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [概述](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [创建项目](analysis-workspace/build-workspace-project/create-projects.md)
+      + [打开项目](analysis-workspace/build-workspace-project/open-projects.md)
       + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
       + [项目目录](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace 中的文件夹 {#workspace-folders}
-         + [关于 Workspace 中的文件夹](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [文件夹概述](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [创建文件夹和子文件夹](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [删除文件夹](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [添加项目](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [删除项目](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [保存新项目](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [管理文件夹](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [将项目添加或移动到文件夹](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [模板](analysis-workspace/build-workspace-project/starter-projects.md)
       + [多个报告包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [热键（快捷方式）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -65,9 +64,11 @@ ht-degree: 98%
          + [创建区段](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速区段](analysis-workspace/components/segments/quick-segments.md)
       + 日程表和日期范围 {#calendar-date-ranges}
-         + [日程表和日期范围概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [创建自定义日期范围](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [创建日期范围](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [管理数据范围](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [日期比较](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [示例](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + 数据词典 {#data-dictionary}
          + [数据词典概述](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [查看数据词典中的组件信息](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -131,11 +132,11 @@ ht-degree: 98%
          + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [区段比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 策划、共享和计划项目 {#curate-share}
-      + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
+      + [概述](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
       + [创建可共享链接](analysis-workspace/curate-share/shareable-links.md)
-      + [仅供查看的项目](analysis-workspace/curate-share/view-only-projects.md)
+      + [只读项目](analysis-workspace/curate-share/view-only-projects.md)
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
       + [计划项目](analysis-workspace/curate-share/t-schedule-report.md)
    + 归因 {#attribution}

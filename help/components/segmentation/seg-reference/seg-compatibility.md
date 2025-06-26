@@ -1,16 +1,16 @@
 ---
-description: 区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。此表列出支持的功能。
+description: 区段生成器中创建的所有区段并非都与Data Warehouse兼容。 此表列出支持的功能。
 title: Data Warehouse 区段兼容性
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 95%
+ht-degree: 82%
 
 ---
 
-# Data Warehouse区段兼容性
+# 数据仓库区段兼容性
 
 区段生成器中创建的所有区段并非都与[!DNL Data Warehouse]兼容。 此表列出支持的功能。
 
@@ -45,14 +45,14 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <b>维度</b> </td> 
-   <td>将维度拖动到区段生成器的“定义”<span class="uicontrol"></span>字段中，以便了解其产品兼容性的相关信息。例如，仅在 Analysis Workspace、Reports &amp; Analytics 中支持这些维度： 
+   <td>将维度拖放到区段生成器的<span class="uicontrol">定义</span>字段中，以了解其产品兼容性的相关信息。 例如，仅在 Analysis Workspace、Reports &amp; Analytics 中支持这些维度： 
     <ul> 
      <li>登录服务器 </li> 
      <li>登录类别 </li> 
      <li>登录日期 </li> 
      <li>所有搜索页面排名 </li> 
     </ul> </td> 
-   <td> 将维度拖动到区段生成器的“定义”<span class="uicontrol"></span>字段中，以便了解其产品兼容性的相关信息。例如，这些维度只在“Data Warehouse”中受到支持： 
+   <td> 将维度拖放到区段生成器的<span class="uicontrol">定义</span>字段中，以了解其产品兼容性的相关信息。 例如，这些维度只在“Data Warehouse”中受到支持： 
     <ul> 
      <li>IP 地址 </li> 
      <li>页面 URL </li> 
@@ -99,4 +99,4 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-*注意：在使用 `AND/OR` 时，Data Warehouse 不支持使用 `exclusion` 或 `without` 容器的所有情况。在使用此类组合时，Data Warehouse 仅支持那些可以重写为 `A AND NOT B`（或&#x200B;**包括此特征**&#x200B;和&#x200B;**排除此特征**）的区段。*
+*注意：在使用 `AND/OR` 时，Data Warehouse 不支持使用 `exclusion` 或 `without` 容器的所有情况。在使用此类组合时，Data Warehouse 仅支持那些可以重写为 `A AND NOT B`（或&#x200B;**包括此特征**和&#x200B;**排除此特征**）的区段。*
