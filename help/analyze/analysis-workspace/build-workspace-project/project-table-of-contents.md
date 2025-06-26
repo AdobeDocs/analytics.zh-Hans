@@ -18,7 +18,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-请观看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [创建目录](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}演示视频。
+请观看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [创建目录](https://video.tv.adobe.com/v/35185/?quality=12&learn=on&captions=chi_hans){target="_blank"}演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/35185?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
