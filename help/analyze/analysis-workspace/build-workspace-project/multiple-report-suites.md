@@ -1,13 +1,13 @@
 ---
 title: 多个报表包
-description: 了解如何在工作区中使用多个报表包来创建项目以及为什么创建项目。
+description: 了解如何在一个Analysis Workspace项目中使用多个报表包。
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 75%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多个报表包](https://video.tv.adobe.com/v/36690?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[多个报表包](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

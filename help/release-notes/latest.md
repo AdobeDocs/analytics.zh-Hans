@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: adbd342948ce3c38107a86613d77a9bf90a7df97
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 90%
+source-wordcount: '1009'
+ht-degree: 91%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 90%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **新Report Builder中对安全云目标的支持** | Javascript Report Builder加载项现在支持将报表导出到以下云存储目标：<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前，只有FTP和电子邮件目标可用。 出于安全考虑，不再支持FTP。</p><p>有关详细信息，请参阅[通过导出到云目标来计划工作簿](/help/analyze/report-builder/report-builder-export.md)。</p><p>除了这些更改之外，在Adobe Analytics中创建位置时，“与一起使用”字段现在提供将该位置与Report Builder一起使用的选项，如[配置Cloud导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。</p> |  | 2025 年 6 月 19 日（原定 6 月 18 日） |
-| **新预览体验** | 预览面板用于预览区段、计算量度等，现在使用水平条形图可视化图表而不是圆环图可视化图表。 |  | 2025 年 6 月 18 日 |
+| **新Report Builder中对安全云目标的支持** | Javascript Report Builder加载项现在支持将报表导出到以下云存储目标：<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前，只有FTP和电子邮件目标可用。 出于安全考虑，不再支持FTP。</p><p>有关详细信息，请参阅[通过导出到云目标来安排工作簿](/help/analyze/report-builder/report-builder-export.md)。</p><p>除了这些更改之外，在Adobe Analytics中创建位置时，“与一起使用”字段现在提供将该位置与Report Builder一起使用的选项，如[配置Cloud导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。</p> |  | 2025 年 6 月 19 日（原定 6 月 18 日） |
+| **新预览体验** | 在创建区段或配置数据视图设置时使用的预览面板，现在已将原先的圆环图可视化方式更改为横条图显示。 |  | 2025 年 6 月 18 日 |
 | **修改了归因模型对话框** | 您现在可以在归因模型对话框中分别定义容器和时段。 |  | 2025 年 6 月 18 日 |
 | **更新了客户属性 UI 的导航** | 现在可以直接从 Adobe Experience Cloud 中的应用程序选择器访问客户属性用户界面。 |  | 待定 |
 | **流媒体：支持计划数据** | 您现在可以上传过去直播流媒体内容的计划数据，以便更轻松、更准确地跟踪观看人数。以下是支持计划数据上传的直播内容示例：<ul><li>FAST（免费广告支持电视）平台</li><li>本地流</li><li>直播体育赛事</li></ul>上传计划数据允许您跟踪在上传文件中指定的时间内运行的各个节目的观看人数数据。您甚至可以收集特定主题或节目片段的观看人数数据。无论您如何实现流媒体收集，这些功能都是可用的。<p>以前，在分析直播内容时很难准确地将特定场次与特定节目联系起来，也不可能将特定场次与单个主题或节目片段联系起来。了解详情 |  | 2025年8月15日（原为2025年6月25日） |
@@ -65,6 +65,6 @@ ht-degree: 90%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
-* [流媒体收藏集发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [流媒体收藏集发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新

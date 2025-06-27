@@ -1,13 +1,13 @@
 ---
-description: 在 Workspace 项目中使用流失可视化图表。
+description: 了解如何使用Analysis Workspace中的流失可视化图表。
 title: 流失概述
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!ENDSHADEBOX]
 
-流失可视化图表为生成流失报告提供了多个选项。流失报告显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 流失]**&#x200B;可视化图表展示了用户在预定义的页面顺序中离开（流失）和继续浏览（流过）的情况。
 
 
 >[!BEGINSHADEBOX]
@@ -37,6 +37,8 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流失可视化图表](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
+
+
 
 
 流失可视化图表允许您

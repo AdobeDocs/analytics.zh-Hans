@@ -1,12 +1,13 @@
 ---
 title: 打开项目
-description: 了解如何打开项目
+description: 了解如何在Analysis Workspace中打开项目。
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+exl-id: 12c5f5a6-a90f-471a-91c3-0fd8c8b1d3a0
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 97%
+source-wordcount: '251'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +38,7 @@ ht-degree: 97%
 
 
 1. 选择以前的版本，并单击&#x200B;**[!UICONTROL 加载]**。
-然后，以前的版本会加载并出现一条通知。在单击&#x200B;**[!UICONTROL 保存]**&#x200B;之前，以前的版本不会成为项目的当前保存版本。如果离开已加载的版本，当您再次想要打开以前的版本时，您会看到最后保存的版本。
+然后，以前的版本会加载并出现一条通知。在单击**[!UICONTROL 保存]**&#x200B;之前，以前的版本不会成为项目的当前保存版本。如果离开已加载的版本，当您再次想要打开以前的版本时，您会看到最后保存的版本。
 
 
 <!-- 

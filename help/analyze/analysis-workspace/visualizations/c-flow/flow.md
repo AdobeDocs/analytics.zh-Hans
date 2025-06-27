@@ -1,14 +1,14 @@
 ---
-description: 在 Workspace 项目中使用流量可视化图表。
+description: 了解如何在Analysis Workspace中使用流量可视化图表。
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="流量"
->abstract="分析从一个接触点到下一个接触点的访问或访客流量。<br/><br/>**参数&#x200B;**<br/>**用以下为开头**：添加一个维度、维度项或量度以查看在所选组件出现之后出现最多的接触点。<br/>**包含**：添加一个维度或维度项以查看在所选组件出现之前和之后出现最多的接触点。<br/>**用以下为结尾**：添加一个维度、维度项或量度以查看在所选组件出现之前出现最多的接触点。<br/>**路径维度**：添加一个维度，用作通往或者离开您的选定组件的路径。"
+>abstract="分析从一个接触点到下一个接触点的访问次数或访客流量。<br/><br/>**参数&#x200B;**<br/>**用以下为开头**：添加一个维度、维度项或量度以查看在所选组件出现之后出现最多的接触点。<br/>**包含**：添加一个维度或维度项以查看在所选组件出现之前和之后出现最多的接触点。<br/>**用以下为结尾**：添加一个维度、维度项或量度以查看在所选组件出现之前出现最多的接触点。<br/>**路径维度**：添加一个维度，用作通往或者离开您的选定组件的路径。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -35,23 +35,24 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!ENDSHADEBOX]
 
-流量功能会显示客户浏览您的网站或应用程序的路径。
+![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 流量]**&#x200B;可视化图表会显示客户浏览您的网站或应用程序的路径。
 
-它允许您：
+使用该可视化图表可以：
 
-* 可视化客户浏览您的网站或应用程序的历程
-* 分析客户在指定检查点（例如进入、特定维度或退出）之前和之后的去向
-* 通过在选定路径中指定一个特定点来创建区段
+* 可视化客户浏览您的网站或应用程序的历程。
+* 分析客户在指定检查点（例如登入、特定维度或退出）之前和之后的去向。
+* 在选定路径中指定一个特定点来创建区段。
+
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表](https://video.tv.adobe.com/v/3410739?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
-## 维度间流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## 维度间流量
 
 您可以显示[维度间的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一个图表中合并多个页面和部门。在这种情况下，您的流量可能从主页转到“男士”页面，然后转到“鞋类”部门。
 
@@ -67,7 +68,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表中的其他功能](https://video.tv.adobe.com/v/328038?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表中的其他功能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

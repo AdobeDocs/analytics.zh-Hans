@@ -1,13 +1,13 @@
 ---
-description: 如何在 Analysis Workspace 中使用可视化图表调色板
-title: 什么是可视化图表调色板？其工作原理是怎样的？
+description: 了解如何在Analysis Workspace中使用可视化图表调色板。
+title: 可视化图表调色板
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 92%
+source-wordcount: '211'
+ht-degree: 87%
 
 ---
 
@@ -71,7 +71,7 @@ Keep in mind:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/328054?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

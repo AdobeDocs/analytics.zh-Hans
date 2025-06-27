@@ -1,35 +1,27 @@
 ---
-description: 显示特定维度的下一项或上一项维度面板。
-title: “下一项或上一项”面板
+description: 了解如何使用显示特定维度的下一个或上一个维度项目的下一个或上一个项目面板。
+title: “下一个项目”或“上一个项目”面板
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 94%
 
 ---
 
 # “下一项或上一项”面板 {#next-or-previous-item-panel}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
 >title="下一项或上一项"
 >abstract="创建面板来了解人们来自的上一项维度或人们要去的下一项维度。"
 
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="下一项或上一项"
 >abstract="分析访客之前最常来自何处或后续最常访问的地方是什么。<br/><br/>**维度**：选择一个维度。例如&#x200B;**页面**。<br/>**维度项**：选择具体的维度项。例如&#x200B;**主页**。<br/>**方向**：选择&#x200B;**下一项**&#x200B;以查看所选维度项后的下一个维度项。选择&#x200B;**上一项**&#x200B;来查看您所选的维度项之前的维度项。<br/>**容器**：选择&#x200B;**会话**&#x200B;来查看同一会话中的下一项/上一项维度，或选择&#x200B;**人员**&#x200B;来查看同一个人的上一项/下一项维度。"
-
-<!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 

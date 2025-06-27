@@ -1,13 +1,13 @@
 ---
-description: 快速洞察是一款面向新 Workspace 用户的工具，可指导用户生成数据表和可视化图表
-title: 快速洞察面板
+description: 了解如何使用快速分析面板来指导您在Analysis Workspace中构建数据表和可视化图表。
+title: 快速分析面板
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
@@ -125,13 +125,13 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
   ![Quick Insights Builder Result](assets/qibuilder-result.png)
 
-   * **[!UICONTROL 分析]**&#x200B;维度&#x200B;**[!UICONTROL 划分条件]**：您最多可以使用 3 个级别对维度进行划分，以挖掘您真正需要的数据。请参阅 ➊、➋ 和 ➌
+   * **[!UICONTROL 分析]**&#x200B;维度&#x200B;**[!UICONTROL 划分条件]**：您最多可以使用 3 个级别对维度进行划分，以挖掘您真正需要的数据。请参阅➊、➋和➌。
 
-   * 添加更多的量度&#x200B;**[!UICONTROL 条件]**：您最多可以添加 2 个量度。请参阅 ➍ 和 ➎。
+   * 添加更多的量度&#x200B;**[!UICONTROL 条件]**：您最多可以添加 2 个量度。查看➍和➎。
 
-   * **[!UICONTROL 过滤依据]**：您最多可以再添加 2 个区段。例如，将“预订”添加为区段，并将该区段与您所比较的“预订常客”和“首次飞行的客人”区段结合起来。请参阅 ➏、➐ 和 ➑。
+   * **[!UICONTROL 过滤依据]**：您最多可以再添加 2 个区段。例如，将“预订”添加为区段，并将该区段与您所比较的“预订常客”和“首次飞行的客人”区段结合起来。请参阅➏、➐和➑。
 
-   * 在：可以指定日期范围。请参阅 ➒。
+   * 在：可以指定日期范围。请参阅➒。
 
 ## 已知限制
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326701/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

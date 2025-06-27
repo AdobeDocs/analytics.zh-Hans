@@ -1,13 +1,13 @@
 ---
-description: 让您轻松地在 Analysis Workspace 中进行数据的可视化比较，例如构建与上个月、去年等的比较。
-title: 组合图表可视化
+description: 了解如何在Analysis Workspace中将比较数据可视化，例如构建与上个月、去年等的比较。
+title: 组合
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 96%
 
 ---
 
@@ -99,6 +99,6 @@ _请参阅[组合](https://experienceleague.adobe.com/zh-hans/docs/analytics-pla
 >[!MORELIKETHIS]
 >
 >[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

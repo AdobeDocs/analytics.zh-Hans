@@ -1,26 +1,26 @@
 ---
-description: 同类群组分析的用例示例。
-keywords: 分析 Workspace
+description: 了解同类群组分析的一些用例示例。
+keywords: Analysis Workspace
 title: 同类群组分析用例
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
-# [!UICONTROL 同类群组分析]用例
+# 同类群组分析用例
 
 [!UICONTROL 同类群组分析]的用例示例。
 
-## 应用程序参与度用例 {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## 应用程序参与度用例
 
 假设您想分析在安装了您的应用程序的用户中，该应用程序在一段时间内的具体使用情况。他们是否安装后就再也没使用过？使用了一段时间后就放弃不用了？还是说，仍然在继续使用？
 
-您可以创建一个为期六个月的[!UICONTROL 同类群组分析]：
+您可以创建一个为期六个月的同类群组分析.
 
 **粒度**：按月，从 2015 年 1 月至 2015 年 6 月
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 在随后的数月中，访客并不会被算作 *`engaged`*，除非他们会进行会话，或者至少启动该应用程序。[!UICONTROL 同类群组分析]随后会显示使用模式，其中 *`App Install`* 始终出现在第 0 个月。您或许会注意到，无论用户是在何时安装该应用程序，第三个月的使用量都会下降（对于那些在 2015 年 1 月安装了该应用程序的用户而言，第三个月指的是 2015 年 3 月。对于 2015 年 2 月安装该应用程序的用户，第 2 个月是 2015 年 4 月，依此类推。）通过此分析，您可以在所有用户安装该应用程序后的第二个月向他们发送电子邮件或推送消息，提醒他们使用该应用程序。
 
-## 订阅用例 {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## 订阅用例
 
 您就职于 Adobe.com，并且向用户提供了一份免费的 Creative Cloud 订阅。其目的在于让用户从免费版本升级至 30 天的试用版本，或者，最终升级到付费版本。
 

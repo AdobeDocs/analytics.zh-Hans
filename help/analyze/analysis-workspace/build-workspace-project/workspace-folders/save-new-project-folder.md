@@ -1,28 +1,34 @@
 ---
-description: 了解如何将项目保存到 Workspace 中的文件夹
+description: 了解如何将新项目保存到Analysis Workspace中的文件夹。
 keywords: Analysis Workspace
-title: 将项目保存到文件夹
+title: 将新项目保存到文件夹
 feature: Workspace Basics
 exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 
 # 将新项目保存到文件夹
 
-要将新项目保存到特定文件夹，请在“保存项目”对话框窗口中选择该文件夹名称。
+有关详细信息，请参阅[保存项目](../save-projects.md#save)。
 
-1. 在 Workspace 中创建一个新项目。
+<!-- Not in TOC anymore; irrelevant article
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+To save a new project to a specific folder, select the folder name in the Save project dialogue window.
 
-1. 在&#x200B;**项目** > **保存**&#x200B;对话框中，从“文件夹”下拉菜单中选择一个文件夹名称。
+1. In Workspace, create a new project.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. 单击&#x200B;**保存**。
+1. In the **Project** > **Save** dialogue, select a folder name from the Folder drop-down menu.
 
-   该项目即保存在所选的文件夹中。
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+
+1. Click **Save**.
+
+    The project is saved in the selected folder.
+
+-->

@@ -1,14 +1,14 @@
 ---
-description: 在 Workspace 项目中使用地图可视化图表。
+description: 使用地图可视化图表在地理地图可视化图表上绘制数据
 title: 地图
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的地图可视化图表](https://video.tv.adobe.com/v/41507/?quality=12&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的地图可视化图表](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 | 设置 | 描述 |
 |--- |--- |
 | **[!UICONTROL 地图类型]** | |
-| [!UICONTROL 气泡] | 使用气泡描绘事件。气泡图是一种多变量图表，其形式介于散点图和比例面积图之间。这个视图是默认的。 |
-| 热图 | 使用热图描绘事件。热图是对数据的图形化呈现，其中以不同颜色表示矩阵中包含的单独值。 |
+| **[!UICONTROL 气泡] | 使用气泡描绘事件。气泡图是一种多变量图表，其形式介于散点图和比例面积图之间。这个视图是默认的。 |
+| [!UICONTROL 热图] | 使用热图描绘事件。热图是对数据的图形化呈现，其中以不同颜色表示矩阵中包含的单独值。 |
 | **[!UICONTROL 样式]** | |
 | [!UICONTROL 颜色主题] | 显示热图和气泡的颜色方案。您可以选择珊瑚色、红色、绿色或蓝色。默认为珊瑚色。 |
 | [!UICONTROL 地图样式] | 您可以从基本、街道、明亮、浅色、深色和卫星中选择。 |
@@ -132,7 +132,7 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35170/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

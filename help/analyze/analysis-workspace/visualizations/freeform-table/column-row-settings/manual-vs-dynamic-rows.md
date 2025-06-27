@@ -1,19 +1,19 @@
 ---
-title: 自由格式表中的动态维度项与静态维度项
-description: 如何与表中的动态维度项和静态维度项交互。
+title: 动态和静态Dimension项目
+description: 了解如何在Analysis Workspace的自由格式表中使用动态维度项和静态维度项。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
 # 动态项和静态维度项
 
-在自由格式表中，行和列包含各种组件值。这些值可能是动态的（随时间而改变），也可能是静态的（不随时间而改变），具体取决于您要生成的分析。
+在自由格式表中，行和列可以包含各种组件值。 这些值可能是动态的（随时间而改变），也可能是静态的（不随时间而改变），具体取决于您要生成的分析。
 
 ## 动态维度项
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [重新排序静态行](https://video.tv.adobe.com/v/33273?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [重新排序静态行](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

@@ -1,14 +1,14 @@
 ---
-description: 在 Analysis Workspace 中创建一个同类群组并运行同类群组分析报告。
+description: 了解如何在Analysis Workspace中创建同类群组表并运行同类群组分析报表。
 keywords: Analysis Workspace
-title: 运行同类群组分析报告
+title: 配置同类群组表
 feature: Visualizations
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 100%
+source-wordcount: '893'
+ht-degree: 97%
 
 ---
 

@@ -1,17 +1,17 @@
 ---
-title: 自由格式表
-description: 自由格式表是在 Analysis Workspace 中进行数据分析的基础
+title: 自由格式表概述
+description: 了解如何使用自由格式表，这是Analysis Workspace中进行数据分析的基础。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: bb3e8b030af78f0d7758b4cff41d66f20695e11e
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
-# 自由格式表 {#freeform-table-overview}
+# 自由格式表概述 {#freeform-table-overview}
 
 
 <!-- markdownlint-disable MD034 -->
@@ -64,7 +64,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 * 您可以使用 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) 在一行或多行中快速[创建新的可视化图表](../freeform-analysis-visualizations.md#visualize)。
 * 您可以通过调整项目的[视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)，将更多行放入单个屏幕中。
 * 在执行分页之前，每个维度行最多可显示 400 行。在第一列标题中选择&#x200B;**[!UICONTROL 行]**&#x200B;旁边的数字，以在页面上显示更多行。使用第一列标题中的 ![ChevronRight](/help/assets/icons/ChevronRight.svg) 导航到其他页面。
-* 您可以按其他组件划分行。要同时划分多行，请选择多行，然后将下一个组件拖到选定行顶部即可。了解有关[划分](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)的更多信息。
+* 您可以按其他组件划分行。要同时划分多行，请选择多行，然后将下一个组件拖至选定行顶部即可。了解有关[划分](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)的更多信息。
 * 可以[过滤](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)行，以显示缩减的项目集。在[行设置](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)下，提供了其他设置。
 
 ### 列
@@ -76,14 +76,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 ## 设置
 
-选择![设置](/help/assets/icons/Setting.svg)以显示&#x200B;**[!UICONTROL 表设置]**。可以使用以下特定可视化图表[设置](../freeform-analysis-visualizations.md#settings)：
+选择![设置](/help/assets/icons/Setting.svg)以显示&#x200B;**[!UICONTROL 表设置]**。可使用以下特定可视化图表[设置](../freeform-analysis-visualizations.md#settings)：
 
 ### 数据源
 
 | 选项 | 描述 |
 |---|---|
 | **[!UICONTROL 链接的可视化图表]**。 | 列出所有链接的可视化图表。 |
-| **[!UICONTROL 显示数据源]** | 取消选中时，作为可视化图表数据源的自由格式表会隐藏在 Workspace 中。 |
+| **[!UICONTROL 显示数据源]** | 取消选中时，作为可视化图表数据源的自由格式表会隐藏在工作区中。 |
 
 ### 设置
 
@@ -115,19 +115,19 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://video.tv.adobe.com/v/33276?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表过滤器](https://video.tv.adobe.com/v/327360?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表过滤器](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://video.tv.adobe.com/v/32733?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -135,8 +135,8 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!MORELIKETHIS]
 >
 >[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

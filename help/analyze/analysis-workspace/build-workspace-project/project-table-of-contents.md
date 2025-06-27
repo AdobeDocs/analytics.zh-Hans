@@ -1,14 +1,14 @@
 ---
-description: 有关项目中可用的项目目录的信息
+description: 了解如何在Analysis Workspace的项目中使用目录来快速访问面板和可视化图表。
 keywords: Analysis Workspace
-title: 项目目录
+title: 目录
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 94%
+source-wordcount: '209'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-请观看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [创建目录](https://video.tv.adobe.com/v/35185/?quality=12&learn=on&captions=chi_hans){target="_blank"}演示视频。
+请观看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [创建目录](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/35185?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

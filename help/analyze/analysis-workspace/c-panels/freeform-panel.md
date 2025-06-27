@@ -1,17 +1,17 @@
 ---
-description: 了解自由格式面板
+description: 了解如何使用带有自由格式表的自由格式面板作为您的Analysis Workspace项目的开始状态。
 title: 自由格式面板
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 84%
 
 ---
 
-# 自由格式面板
+# “自由格式”面板
 
 >[!BEGINSHADEBOX]
 
@@ -36,6 +36,6 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!MORELIKETHIS]
 >
 >[创建面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Analytics 组件指南](/help/components/home.md)
->[自由格式表可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Analytics 组件指南](/help/components/home.md)
+>>[自由格式表可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

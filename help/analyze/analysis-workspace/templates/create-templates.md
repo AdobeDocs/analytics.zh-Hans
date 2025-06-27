@@ -1,13 +1,13 @@
 ---
-description: 概述如何在 Analysis Workspace 中使用默认报告。
-title: 使用报告
+description: 了解如何在Analysis Workspace中创建和管理模板。
+title: 创建和管理模板
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 管理员可以重命名、标记和批准公司模板。
 
-1. 在 Analysis Workspace 中，选择 [!UICONTROL **Workspace**] 选项卡，然后选择左边栏中的&#x200B;**[!UICONTROL 项目]**。
+1. 在 Analysis Workspace 中，选择&#x200B;[!UICONTROL **工作区**]&#x200B;选项卡，然后选择左边栏中的&#x200B;**[!UICONTROL 项目]**。
 
 1. 选择过滤器图标来过滤项目列表。
 

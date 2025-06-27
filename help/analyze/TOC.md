@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '896'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -31,15 +31,15 @@ ht-degree: 98%
       + [创建项目](analysis-workspace/build-workspace-project/create-projects.md)
       + [打开项目](analysis-workspace/build-workspace-project/open-projects.md)
       + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
-      + [项目目录](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [目录](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace 中的文件夹 {#workspace-folders}
          + [文件夹概述](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [创建文件夹和子文件夹](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [创建文件夹](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理文件夹](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [将项目添加或移动到文件夹](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [添加或移动项目](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [模板](analysis-workspace/build-workspace-project/starter-projects.md)
       + [多个报告包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [热键（快捷方式）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [热键](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [调色板](analysis-workspace/build-workspace-project/color-palettes.md)
       + [视图密度](analysis-workspace/build-workspace-project/view-density.md)
    + 模板 {#templates}
@@ -75,62 +75,62 @@ ht-degree: 98%
          + [编辑数据词典中的组件条目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [监测数据词典健康状况](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 可视化图表 {#visualizations}
-      + [可视化内容概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
       + 自由格式表 {#freeform-table}
-         + [自由格式表](analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [为自由格式表中的维度创建超链接](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [概述](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [创建超链接](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 列和行设置 {#column-row-settings}
             + [列设置](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行设置](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [动态项对静态项](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [自由格式表筛选和排序](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [ Workspace 总计](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+            + [动态项和静态项](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [过滤和排序](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [总计](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同类群组表 {#cohort-table}
-         + [什么是同类群组分析？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [配置同类群组分析报告](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [同类群组分析用例](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [概述](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [配置](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [用例](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 流失 {#fallout}
-         + [流失概述](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [配置流失可视化图表](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [多维度流失](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [在流失分析中应用区段](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [概述](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [配置](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [维度间流失](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [应用区段](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 流量 {#flow}
-         + [流量概述](analysis-workspace/visualizations/c-flow/flow.md)
-         + [配置流量可视化图表](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [概述](analysis-workspace/visualizations/c-flow/flow.md)
+         + [配置](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [维度间流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [面积图和堆叠的面积图](analysis-workspace/visualizations/area.md)
       + [条形图和堆叠的条形图](analysis-workspace/visualizations/bar.md)
-      + [项目符号图表](analysis-workspace/visualizations/bullet-graph.md)
-      + [组合图表](analysis-workspace/visualizations/combo-charts.md)
+      + [项目符号](analysis-workspace/visualizations/bullet-graph.md)
+      + [组合](analysis-workspace/visualizations/combo-charts.md)
       + [圆环图](analysis-workspace/visualizations/donut.md)
       + [直方图](analysis-workspace/visualizations/histogram.md)
-      + [水平条形图和堆叠的水平条形图](analysis-workspace/visualizations/horizontal-bar.md)
+      + [水平条形图（堆叠）](analysis-workspace/visualizations/horizontal-bar.md)
       + [关键量度摘要](analysis-workspace/visualizations/key-metric.md)
       + [折线图](analysis-workspace/visualizations/line.md)
       + [地图](analysis-workspace/visualizations/map-visualization.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
       + [节头](/help/analyze/analysis-workspace/visualizations/section-header.md)
-      + [摘要数字和摘要变化](analysis-workspace/visualizations/summary-number-change.md)
+      + [摘要数字和变化](analysis-workspace/visualizations/summary-number-change.md)
       + [文本](analysis-workspace/visualizations/text.md)
-      + [树形图](analysis-workspace/visualizations/treemap.md)
+      + [树状图](analysis-workspace/visualizations/treemap.md)
       + [维恩图](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
-      + [面板概述](analysis-workspace/c-panels/panels.md)
-      + [”Analytics for Target (A4T)“面板](analysis-workspace/c-panels/a4t-panel.md)
-      + [”归因“面板](analysis-workspace/c-panels/attribution.md)
-      + [”空白“面板](analysis-workspace/c-panels/blank-panel.md)
-      + [“自由格式”面板](analysis-workspace/c-panels/freeform-panel.md)
-      + [“媒体平均受众访问分钟数”面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [“媒体并行查看者”面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [“媒体播放耗时”面板](analysis-workspace/c-panels/media-playback-time-spent.md)
-      + [“下一项或上一项”面板](analysis-workspace/c-panels/next-previous.md)
-      + [”页面摘要“面板](analysis-workspace/c-panels/page-summary.md)
-      + [“快速洞察”面板](analysis-workspace/c-panels/quickinsight.md)
-      + “区段比较”面板  {#segment-comparison}
-         + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
-         + [区段比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
+      + [概述](analysis-workspace/c-panels/panels.md)
+      + [空白](analysis-workspace/c-panels/blank-panel.md)
+      + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
+      + [归因](analysis-workspace/c-panels/attribution.md)
+      + [自由格式表](analysis-workspace/c-panels/freeform-panel.md)
+      + [媒体受众平均逗留分钟数](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [媒体并行查看者](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [媒体播放耗时](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [下一项或上一项](analysis-workspace/c-panels/next-previous.md)
+      + [页面摘要](analysis-workspace/c-panels/page-summary.md)
+      + [快速洞察](analysis-workspace/c-panels/quickinsight.md)
+      + 区段比较 {#segment-comparison}
+         + [概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 策划、共享和计划项目 {#curate-share}
       + [概述](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
@@ -172,8 +172,8 @@ ht-degree: 98%
    + [使用片段工作](report-builder/work-with-segments.md)
    + [过滤器维度](report-builder/filter-dimensions.md)
    + [管理数据块](report-builder/manage-reportbuilder.md)
-   + [计划电子邮件工作簿](report-builder/schedule-reportbuilder.md)
-   + [计划用于云导出的工作簿](/help/analyze/report-builder/report-builder-export.md)
+   + [安排通过电子邮件发送工作簿](report-builder/schedule-reportbuilder.md)
+   + [安排将工作簿导出至云](/help/analyze/report-builder/report-builder-export.md)
    + [管理计划的工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [限制标签](report-builder/restricted-labels.md)
    + [Report Builder 设置](report-builder/report-builder-settings.md)

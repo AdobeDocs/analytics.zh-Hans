@@ -1,13 +1,13 @@
 ---
 title: “媒体平均受众访问分钟数”面板
-description: 如何使用和解释 Analysis Workspace 中的“媒体平均受众访问分钟数”面板。
+description: 了解如何使用和解读Analysis Workspace中的“媒体平均受众访问分钟数”面板。
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1815'
+ht-degree: 98%
 
 ---
 
@@ -187,8 +187,8 @@ _本文记录了 **Customer Journey Analytics** 中的媒体平均受众访问�
 >[!MORELIKETHIS]
 >
 > [Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [媒体并行查看者面板](media-concurrent-viewers.md)
-> [媒体播放耗时面板](media-playback-time-spent.md)
+> > [媒体并行查看者面板](media-concurrent-viewers.md)
+> > [媒体播放耗时面板](media-playback-time-spent.md)
 >
 
 

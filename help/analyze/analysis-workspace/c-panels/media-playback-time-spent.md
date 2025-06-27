@@ -1,13 +1,13 @@
 ---
-title: “媒体播放耗时”面板
-description: 如何在 Analysis Workspace 中使用和解释“媒体播放耗时”面板。
+title: “Media Playback 耗时”面板
+description: 了解如何在Analysis Workspace中使用和解释“媒体播放耗时”面板。
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '1160'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1161'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="媒体播放耗时"
->abstract="分析一段时间内的视频消耗情况，选择各种粒度，并进行细分和比较。<br/><br/>**粒度**：选择查看并发查看者的时间段。<br/>**面板摘要数字（可选）**：选择显示每行带有日期或时间详细信息的摘要数字。“最大值”将会显示播放耗时峰值的详细信息。“最小值”显示低谷期的详细信息。总和显示播放耗时总和的详细信息。<br/>**系列细分（可选）**：按区段、维度、维度项或日期范围细分可视化图表。一次最多查看 10 行。细分仅限一个级别。<br/>**时间格式**：以小时或分钟显示可视化图表时间格式的选项。"
+>abstract="分析一段时间内的视频使用情况，选择各种粒度，并进行细分和比较。<br/><br/>**粒度**：选择查看并发查看者的时间段。<br/>**面板摘要数字（可选）**：选择显示每行带有日期或时间详细信息的摘要数字。“最大值”将会显示播放耗时峰值的详细信息。“最小值”显示低谷期的详细信息。总和显示播放耗时总和的详细信息。<br/>**系列细分（可选）**：按区段、维度、维度项或日期范围细分可视化图表。一次最多查看 10 行。细分仅限一个级别。<br/>**时间格式**：以小时或分钟显示可视化图表时间格式的选项。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -42,14 +42,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!NOTE]
 >
 >只有购买了 Adobe Analytics 流媒体集合附加组件的客户才能使用媒体平均受众访问分钟数面板。
->请联系您的 Adobe 销售代表或 Adobe 帐户团队以获取更多信息。
+>>请联系您的 Adobe 销售代表或 Adobe 帐户团队以获取更多信息。
 >
 
 **[!UICONTROL 媒体播放耗时]**&#x200B;面板支持长期分析播放，其中提供关于并发高峰的详细信息，并可进行细分和比较。
 
 在 Analysis Workspace 中，播放耗时是指在特定时间点查看媒体流的耗时。它包括暂停、缓冲和开始时间。
 
-已购买流媒体集合附加组件的客户可以分析播放耗时，从而深入了解内容质量和查看者参与度。并在故障排除或规划容量或规模时提供帮助。
+已购买流媒体收藏附加组件的客户可以分析播放耗时，从而深入了解内容质量和查看者参与度。并在故障排除或规划容量或规模时提供帮助。
 
 播放耗时可以帮助您了解：
 
@@ -59,7 +59,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体播放耗时面板](https://video.tv.adobe.com/v/3446710?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体播放耗时面板](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -115,18 +115,18 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 | 问题 | 回答 |
 |---|---|
 | 自由格式表在什么位置？如何查看数据源？ | <p></p><p>自由格式表在此视图中不可用。要下载数据源，请从线形图的上下文菜单中选择下载 CSV 文件选项。</p> |
-| <p>为什么我的粒度发生了变化？</p> | <p>这个可视化图表限制为 1440 行数据（例如，以分钟作为粒度级别来表示 24 小时）。如果日期范围和粒度的组合产生的行数超过了 1440 行，则将自动更新粒度以适应完整的日期范围。</p><p></p><p>如果从较大的日期范围更改到较小的日期范围，粒度在日期范围更改后自动更新为允许的最低明细级别。要查看较高的粒度，请编辑面板并重建。</p> |
-| <p></p><p>如何比较视频名称、过滤器、内容类型等？</p> | <p>要在单个可视化图表中比较这些内容，请将过滤器、维度或特定维度项拖到系列细分过滤器中。</p><p></p><p>视图限制为 10 个细分。要查看 10 个以上的细分，您必须使用多个面板。</p> |
+| <p>为什么我的粒度发生了变化？</p> | <p>这个可视化图表限制为 1440 行数据（例如，以分钟作为粒度级别来表示 24 小时）。如果日期范围和粒度的组合产生 1440 行以上，则将自动更新粒度以容纳这个完整的日期范围。</p><p></p><p>如果从较大的日期范围更改到较小的日期范围，粒度在日期范围更改后自动更新为允许的最低明细级别。要查看较高的粒度，请编辑面板并重建。</p> |
+| <p></p><p>如何比较视频名称、过滤器、内容类型等？</p> | <p>要在单个可视化图表中比较这些内容，请将过滤器、维度或特定维度项拖至系列细分过滤器中。</p><p></p><p>视图限制为 10 个细分。要查看 10 个以上的细分，您必须使用多个面板。</p> |
 | 如何比较日期范围？ | 要在单个可视化图表中比较日期范围，请通过拖动 2 个或更多日期范围来使用系列细分。这些日期范围覆盖面板日期范围。 |
-| 如何更改可视化图表类型？ | <p></p><p>此面板仅允许时间系列的线形可视化图表。</p> |
+| 如何更改可视化图表类型？ | <p></p><p>此面板仅允许时间系列的线形图可视化图表。</p> |
 | 能否运行异常检测？ | <p></p><p>否。异常检测对此面板不可用。</p> |
 
 
 >[!MORELIKETHIS]
 >
->[创建面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[媒体平均受众访问分钟数面板](average-minute-audience-panel.md)
->[媒体并发查看者面板](media-concurrent-viewers.md)
+>[Create a panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>>[“媒体平均受众访问分钟数”面板](average-minute-audience-panel.md)
+>>[媒体并行查看者面板](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +146,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446710?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

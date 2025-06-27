@@ -1,13 +1,13 @@
 ---
-title: 同类群组分析是什么及其如何工作？
-description: 用同类群组分析更深入地挖掘您受众周围的数据并细分为相关的各组。了解 Analysis Workspace 中的同类群组分析。
+title: 同类群组表概述
+description: 了解如何更深入地挖掘受众周围的数据，并通过同类群组分析将数据划分为相关的群组。 在Analysis Workspace中使用同类群组分析。
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 96%
+source-wordcount: '704'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的同类群组表。_<br/>_请参阅[同类群组表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的同类群组表。_<br/>_请参阅[同类群组表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同类群组分析](https://video.tv.adobe.com/v/3430077/?quality=12&learn=on&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同类群组分析](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -74,31 +74,31 @@ Adobe Analytics中的同类群组表支持基于双精度（或任何数字）�
 
 有关创建同类群组和运行[!UICONTROL 同类群组分析]报告的更多详细信息，请参阅[配置同类群组表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
-### [!UICONTROL 维系率]表
+### 维系率表
 
 [!UICONTROL 维系率]同类群组表回访人员：每个数据单元格显示了同类群组中在该时段内执行操作的原始人数和百分比。您最多可以包含 3 个量度和 10 个过滤器。
 
 ![维系率同类群组报告显示了同类群组中的人员单位和百分比。](assets/retention-report.png)
 
-### [!UICONTROL 流失率]表
+### 流失率表
 
 [!UICONTROL 流失率]同类群组表与维系率表完全相反，会显示随着时间的推移，您的同类群组中已流失或从不满足回访标准的人员。您最多可以包含 3 个量度和 10 个过滤器。
 
 ![流失率表显示了不符合同类群组回访标准的人员单位和百分比。](assets/churn-report.png)
 
-### [!UICONTROL 滚动计算]
+### 滚动计算
 
 您可以根据上一列而不是包括的列来计算维系率或流失率，这称为滚动计算。
 
 ![同类群组维系率报告显示了基于上一列数据的计算结果。](assets/retention-report-rolling.png)
 
-### [!UICONTROL 延迟]表
+### 延时表
 
 延迟表衡量在发生包含事件之前和之后经过的时间。衡量延迟是进行事件之前和之后分析的绝佳工具。**[!UICONTROL 已包括]**&#x200B;列位于该表的中心，而包含事件之前和之后的时间段则分别显示在两侧。
 
 ![同类群组报告显示了发生事件之前和之后经过的时间。](assets/retention-report-latency.png)
 
-### [!UICONTROL 自定义维度]同类群组
+### 自定义维度同类群组
 
 您可以创建基于所选维度的同类群组，而不是（默认的）基于时间的同类群组。使用[!UICONTROL 地理城市]、[!UICONTROL 营销渠道]、[!UICONTROL 营销活动]、[!UICONTROL 产品]、[!UICONTROL 页面]、[!UICONTROL 区域]等维度或任何其他维度来显示维系率的变化情况。根据这些维度的不同值。
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430085?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430175?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430155?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

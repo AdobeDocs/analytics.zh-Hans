@@ -1,13 +1,13 @@
 ---
-description: 在 Workspace 项目中使用流量可视化图表。
-title: 配置流量可视化图表
+description: 了解如何在Analysis Workspace中配置流量可视化图表
+title: 配置流量可视化
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 100%
+source-wordcount: '1658'
+ht-degree: 95%
 
 ---
 
@@ -69,11 +69,9 @@ ht-degree: 100%
 >abstract="此字段只能在初始生成时设置。要更新此字段，请选择&#x200B;**[!UICONTROL 重置]**&#x200B;以生成新的流量可视化图表。"
 
 
+流量可视化帮助您了解源自网站或应用程序上特定转化事件的旅程。 或导致特定的转化事件。 可视化图表通过维度（和维度项）或量度跟踪路径。
 
-流量可视化图表可帮助您了解源于或导致网站或应用程序上特定转化事件的历程。它通过维度（和维度项）或量度跟踪路径。
-
-流量可视化图表可让您配置感兴趣的路径的起点或终点，或分析流经某个维度或维度项的所有路径。
-
+您可以配置感兴趣的路径的起点或终点。 或者分析流经维度或维度项的所有路径。
 ![新的流量 UI](assets/new-flow.png)
 
 ## 使用
@@ -202,8 +200,8 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

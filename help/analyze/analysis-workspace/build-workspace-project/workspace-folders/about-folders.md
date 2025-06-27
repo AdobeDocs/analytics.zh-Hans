@@ -1,21 +1,21 @@
 ---
-description: 了解 Workspace 中的文件夹
+description: 了解如何在Analysis Workspace的文件夹中整理您的项目。
 keywords: Analysis Workspace
 title: 文件夹概述
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
 # 文件夹概述
 
-当您选择[显示文件夹和项目](../freeform-overview.md#show-selector)时，Adobe Analytics中的文件夹在Workspace登录页面上可用。
-
 Workspace 中的文件夹可以帮助您对项目进行组织和分类。使用文件夹功能，您可以通过创建文件夹和子文件夹来管理您的项目。
+
+当您选择[显示文件夹和项目](../freeform-overview.md#show-selector)时，Adobe Analytics中的文件夹在Workspace登录页面上可用。
 
 Workspace 中有两种类型的文件夹：公司文件夹和个人文件夹。共享的公司文件夹有助于管理员创建内容并与所有 Workspace 用户共享内容。
 
