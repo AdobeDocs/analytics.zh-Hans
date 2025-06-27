@@ -187,8 +187,8 @@ _本文记录了 **Customer Journey Analytics** 中的媒体平均受众访问�
 >[!MORELIKETHIS]
 >
 > [Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [媒体并行查看者面板](media-concurrent-viewers.md)
-> > [媒体播放耗时面板](media-playback-time-spent.md)
+> &#x200B;> [媒体并行查看者面板](media-concurrent-viewers.md)
+> &#x200B;> [媒体播放耗时面板](media-playback-time-spent.md)
 >
 
 
