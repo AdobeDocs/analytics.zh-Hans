@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -174,7 +174,7 @@ ht-degree: 98%
    + [管理数据块](report-builder/manage-reportbuilder.md)
    + [安排通过电子邮件发送工作簿](report-builder/schedule-reportbuilder.md)
    + [安排将工作簿导出至云](/help/analyze/report-builder/report-builder-export.md)
-   + [管理计划的工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
+   + [管理已安排的工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [限制标签](report-builder/restricted-labels.md)
    + [Report Builder 设置](report-builder/report-builder-settings.md)
 + 旧版 Report Builder {#legacy-report-builder}
