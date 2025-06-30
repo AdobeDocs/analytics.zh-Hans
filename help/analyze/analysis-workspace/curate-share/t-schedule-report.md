@@ -1,20 +1,20 @@
 ---
-description: 使用电子邮件发送 Analysis Workspace 项目或安排发送它。
+description: 了解如何直接或按计划发送Analysis Workspace项目以进行电子邮件投放。
 keywords: Analysis Workspace
-title: 计划项目
+title: 发送和计划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 32%
+source-wordcount: '491'
+ht-degree: 28%
 
 ---
 
-# 将文件发送给其他人
+# 发送和计划
 
-您可以通过电子邮件将Adobe Analytics报表作为文件发送给选定的用户。 您可以临时发送文件，也可以配置按计划发送文件。可以采用 CSV 或 PDF 格式发送文件。
+您可以通过电子邮件将Adobe Analytics项目作为文件发送给选定的用户。 您可以临时发送文件，也可以配置按计划发送文件。可以采用 CSV 或 PDF 格式发送文件。
 
 任何应用于项目的标记都会自动应用于导出文件。
 
@@ -24,7 +24,7 @@ ht-degree: 32%
 
 ## 发送文件
 
-通过电子邮件将文件发送给收件人：
+要通过电子邮件将临时文件发送给收件人，请执行以下操作：
 
 1. 选择&#x200B;**[!UICONTROL 共享] > [!UICONTROL 发送文件]**。
 1. 指定文件类型：
@@ -60,7 +60,7 @@ ht-degree: 32%
    | **[!UICONTROL 按月份中的日期每年发送]** | 选择&#x200B;**[!UICONTROL 周中日]**，选择&#x200B;**[!UICONTROL 月中周]**，然后选择&#x200B;**[!UICONTROL 月中月]**。 |
    | **[!UICONTROL 按特定日期每年发送]** | 选择&#x200B;**[!UICONTROL 月份]**&#x200B;并从&#x200B;**[!UICONTROL 发送日期]**&#x200B;中选择一个值。 |
 
-1. 输入从&#x200B;**开始的**&#x200B;开始日期。 或者，选择![日历](/help/assets/icons/Calendar.svg)以从日历中选择开始日期。
+1. 输入从&#x200B;]**开始的**[!UICONTROL &#x200B;开始日期。 或者，选择![日历](/help/assets/icons/Calendar.svg)以从日历中选择开始日期。
 
 1. 在&#x200B;**[!UICONTROL 结束日期]**&#x200B;中输入结束日期。 或者，选择![日历](/help/assets/icons/Calendar.svg)以从日历中选择结束日期。
 1. 选择&#x200B;**[!UICONTROL 按计划]**&#x200B;发送。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。

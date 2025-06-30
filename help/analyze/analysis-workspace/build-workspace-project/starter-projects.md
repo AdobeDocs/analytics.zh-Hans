@@ -1,19 +1,19 @@
 ---
-description: 了解如何使用Analysis Workspace中的模板根据常见报表方案快速创建项目。
-title: 模板
+description: 了解如何使用Analysis Workspace中的模板根据常见报表方案快速启动项目。
+title: 快速启动项目
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 37%
+source-wordcount: '75'
+ht-degree: 24%
 
 ---
 
-# 模板
+# 快速启动项目
 
-Analysis Workspace中的模板（或公司模板）可快速分析最常见的报表方案。
+您可以快速启动项目，并包含相关的面板和可视化图表。 为此，请使用Analysis Workspace中的模板（或公司模板）。 模板可快速分析最常见的报表方案。
 
 有关在 Adobe Analytics 中使用模板的信息，请参阅以下资源：
 

@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -28,6 +28,7 @@ ht-degree: 98%
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + 项目 {#build-workspace-project}
       + [概述](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [快速启动项目](analysis-workspace/build-workspace-project/starter-projects.md)
       + [创建项目](analysis-workspace/build-workspace-project/create-projects.md)
       + [打开项目](analysis-workspace/build-workspace-project/open-projects.md)
       + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
@@ -37,7 +38,6 @@ ht-degree: 98%
          + [创建文件夹](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理文件夹](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [添加或移动项目](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [模板](analysis-workspace/build-workspace-project/starter-projects.md)
       + [多个报告包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [热键](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [调色板](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -131,14 +131,14 @@ ht-degree: 98%
          + [概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 策划、共享和计划项目 {#curate-share}
+   + 策划和共享项目 {#curate-share}
       + [概述](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
       + [创建可共享链接](analysis-workspace/curate-share/shareable-links.md)
       + [只读项目](analysis-workspace/curate-share/view-only-projects.md)
-      + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
-      + [计划项目](analysis-workspace/curate-share/t-schedule-report.md)
+      + [下载项目](analysis-workspace/curate-share/download-send.md)
+      + [发送和计划项目](analysis-workspace/curate-share/t-schedule-report.md)
    + 归因 {#attribution}
       + [归因概述](analysis-workspace/attribution/overview.md)
       + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
