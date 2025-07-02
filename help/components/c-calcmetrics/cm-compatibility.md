@@ -6,7 +6,7 @@ exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 61%
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
 >title="产品兼容性"
->abstract="一小部分可用的指标标准与所有Adobe Analytics工具不兼容。 此列表中列出了与该度量兼容的工具。要使某个量度与所有 Adobe Analytics 工具兼容，请尝试编辑您的标准。"
+>abstract="少数可用的量度标准与有些 Adobe Analytics 工具不兼容。此列表中列出了与该度量兼容的工具。要使某个量度与所有 Adobe Analytics 工具兼容，请尝试编辑您的标准。"
 
 本文介绍了三种产品兼容性选项。
 
