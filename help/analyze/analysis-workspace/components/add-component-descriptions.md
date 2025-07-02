@@ -31,7 +31,7 @@ Analytics管理员可以在报表包中或直接使用Analysis Workspace中的�
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"}。
+观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://video.tv.adobe.com/v/39722?quality=12&learn=on&captions=chi_hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
