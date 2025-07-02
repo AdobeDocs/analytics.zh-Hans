@@ -22,11 +22,11 @@ ht-degree: 59%
 
 ## 相似建模 {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-作为多媒体发布者，您可以使用[区段比较](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison)来比较您的第三方受众，以了解关键的差异特征。 此比较可帮助您构建用于定位的高价值第一方区段。
+作为多媒体发布者，您可以使用[区段比较](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison)来比较您的第三方受众，以了解关键的差异特征。 此比较可帮助您构建用于定位的高价值第一方区段。
 
 ## 前景分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-作为一家 B2B 零售商，您现在可以使用[连续分段](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build)深入分析潜在受众在购买之前的行为，这有助于您了解有哪些操作会促使转化。
+作为一家 B2B 零售商，您现在可以使用[连续分段](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build)深入分析潜在受众在购买之前的行为，这有助于您了解有哪些操作会促使转化。
 
 ## 人口统计定位 {#section_F034DB721A06419283DBD29D4A1B444B}
 
