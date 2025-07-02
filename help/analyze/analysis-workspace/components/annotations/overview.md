@@ -1,14 +1,14 @@
 ---
-title: 注释概述
-description: 如何在 Workspace 中使用注释。
+title: 批注概述
+description: 如何在Analysis Workspace中使用注释。
 role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: e9370d42e84237cb563d9b0776612ca08f097c0b
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 85%
+source-wordcount: '319'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 通过注释，您可以将上下文数据的细微差别和洞察有效地传达给组织中的其他利益相关者。通过注释，您可以将日程表活动与特定的维度和量度关联起来。您可以对已知数据问题、公共假日、营销活动启动等内容注释日期或日期范围。然后您可以以图形方式显示活动并查看营销活动或其他活动是否影响了您的网站流量、移动应用程序使用情况、收入或任何其他量度。
 
-例如，您正与您的组织共享项目。如果您的独特访客数明显下降，则可以创建一个数量递减的&#x200B;**访客**&#x200B;注释，并将其用于您整个报表包。 当您的用户查看任何包括该日期的报表包时，他们会在其项目中与其数据一起看到该注释。
+例如，您正与您的组织共享项目。如果您的独立访客数量出现显著下降，您可以创建一个&#x200B;**访客减少**&#x200B;的注释，并将其作用范围设定为整个报表包。当用户查看包含该日期的任何报表包时，他们将在项目中看到该注释，与数据并列显示。
 
 ![突出显示注释的折线图。](assets/annotation-example.png)
 
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hans).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 

@@ -4,16 +4,16 @@ title: 在 Analysis Workspace 中查看异常
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 57%
+source-wordcount: '447'
+ht-degree: 52%
 
 ---
 
-# 在 Analysis Workspace 中查看异常
+# 查看异常
 
-您可以在表格或折线图中查看异常。
+您可以在Analysis Workspace中的表或折线图中查看异常。
 
 ## 在表中查看异常 {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -27,9 +27,10 @@ ht-degree: 57%
 
    ◥显示在检测到数据异常的每一行的右上角。
 
-   每行➋中的&#x200B;**彩色垂直线**&#x200B;表示预期值。 每行➊中的&#x200B;**彩色阴影区域**&#x200B;表示实际值。 线条（预期值）与阴影区域（实际值）的比较方式决定是否存在异常。（根据[异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中描述的高级统计技术，将观测视为异常。）
+   每行&#x200B;**中的**&#x200B;彩色垂直线➋表示预期值。 每行&#x200B;**中的**&#x200B;彩色阴影区域➊表示实际值。 线条（预期值）与阴影区域（实际值）的比较方式决定是否存在异常。（根据[异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中描述的高级统计技术，将观测视为异常。）
 
 1. 选择行右上角的◥查看有关异常的详细信息。 这显示了实际值偏离预期值以上或以下的程度（以百分比表示）。
+1. 选择[打开贡献分析](run-contribution-analysis.md)以开始贡献分析。
 
 ## 在折线图中查看异常
 

@@ -1,13 +1,13 @@
 ---
-description: 了解如何在 Analysis Workspace 中给项目添加组件
-title: 使用 Analysis Workspace 中的组件
+description: 了解如何在Analysis Workspace中使用项目中的组件
+title: 在Analysis Workspace中使用组件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '953'
+ht-degree: 80%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 1. 滚动到或搜索要添加的组件，然后将其拖放到项目中的面板或可视化图表中。
 
 1. 您可以选择将某个组件拖放到面板标题中的区段放置区。此拖放操作将该组件定义为一个区段，并将该区段应用于该面板内的所有内容。
-有关如何使用面板上的区段放置区将面板分段，请参阅[面板概述](/help/analyze/analysis-workspace/c-panels/panels.md)中的[放置区](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)。
+有关如何使用面板上的区段放置区域对面板进行分段的信息，请参阅[面板概述](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)中的[放置区域](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
 1. 有关更多详细信息，请参阅以下部分：
 
@@ -68,7 +68,7 @@ ht-degree: 97%
 
 要在 Analysis Workspace 的项目中添加量度：
 
-1. 如[在项目中添加组件](#add-components-to-a-project)中所述，开始在 Analysis Workspace 的项目中添加量度。
+1. 开始将量度添加到Analysis Workspace中的项目，如[将组件添加到项目](#add-components-to-a-project)中所述。
 
 
 
@@ -97,24 +97,24 @@ ht-degree: 97%
 
 * 在面板中添加区段：
 在面板中添加区段后，这些区段会应用于该面板内的所有内容。
-有关如何使用面板上的区段放置区将面板分段，请参阅[面板概述](/help/analyze/analysis-workspace/c-panels/panels.md)中的[放置区](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)。
+有关如何使用面板上的区段放置区域对面板进行分段的信息，请参阅[面板概述](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)中的[放置区域](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
 * 在可视化图表中添加区段：
 在自由格式表的一列中添加区段后，这些区段就会应用于该表列内的所有内容。您还可以添加区段作为流失可视化图表的一部分。
 
-* 在组件中使用区段：
-如果您要定义[计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[注释](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)或[区段](/help/components/segmentation/segmentation-workflow/seg-build.md)等组件，您就可以使用区段作为定义的一部分。
+* 在组件中使用区段
+当您定义诸如[计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[注释](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)甚至[区段](/help/components/segmentation/segmentation-workflow/seg-build.md)之类的组件时，可以将区段用作定义的一部分。
 
 
 ### 在项目中添加日期范围
 
-[日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)确定了 Analysis Workspace 中的报告时间范围，可以应用于项目内的一个或多个面板以及某些可视化图表（如自由格式表）。
+[日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)决定Analysis Workspace中的报表时间范围。 可以将数据范围应用于项目中的面板以及一些可视化图表（如自由格式表）。
 
 每个面板在默认情况下包含一个日期范围。有多种方法可以更新面板的日期范围。更新 Analysis Workspace 中面板日期范围的一种方法是从左侧面板拖动一个日期范围组件：
 
 1. 或者，也可以如[在项目中添加组件](#add-components-to-a-project)中所述，在 Analysis Workspace 中给项目添加日期范围。
 
-1. 从左侧面板将日期范围拖放到：
+1. 将日期范围从左侧面板拖放到上：
 
    * 当前日期范围，以更改面板的日期范围。
 
@@ -126,7 +126,7 @@ ht-degree: 97%
 
 ## 组件信息
 
-您可以将鼠标悬停在任何组件上以显示![更多信息](/help/assets/icons/InfoOutline.svg)。选择后，会显示一个包含该组件附加信息的弹出窗口。
+您可以将鼠标悬停在任何组件上以显示![更多信息](/help/assets/icons/InfoOutline.svg)。选择![信息大纲](/help/assets/icons/InfoOutline.svg)时，将显示一个弹出窗口，其中包含有关该组件的其他信息。
 
 ![组件信息](assets/component-info.png)
 

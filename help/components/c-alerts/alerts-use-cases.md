@@ -1,35 +1,32 @@
 ---
-description: 创建和管理警报用例。
-title: 警报 - 用例
+description: 查看创建和管理警报的一些用例。
+title: 警报用例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '66'
-ht-degree: 100%
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 20%
 
 ---
 
-# 警报 - 用例
+# 警报用例
 
-您可以按照[创建警报](/help/components/c-alerts/alert-builder.md)中所述创建警报。
+您可以按照[创建警报](alert-builder.md)中所述创建警报。
 
 以下部分说明了创建警报时需要考虑的示例用例。
 
-## 创建按两个区段过滤的简单警报 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## 过滤警报
 
-<!-- 
+您可以使用区段创建简单警报。 例如，为通过移动应用程序会话访问主页的访客定义会话数警报。
 
-Update screenshots for better readability.
 
- -->
-
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## 合并（堆叠）警报，而不是创建多个警报 {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 栈叠警报
 
-堆叠警报可确保警报得到合并，并且您不会收到大量单独的警报。
+您可以合并（栈叠）警报，而不是创建多个警报。 栈叠警报可确保合并警报，这样您就不会收到大量单独的警报。 在下面的示例中，当触发其中一个量度阈值时，将发送警报。
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

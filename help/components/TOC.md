@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 97%
+source-wordcount: '767'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
 + [Analytics 组件指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
@@ -179,7 +179,7 @@ ht-degree: 97%
    + [关于区段](segmentation/seg-overview.md)
    + [关于区段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
-   + 分段工作流程 {#segmentation-workflow}
+   + 工作流 {#segmentation-workflow}
       + [概述](segmentation/segmentation-workflow/seg-workflow.md)
       + [计划区段](segmentation/segmentation-workflow/seg-plan.md)
       + [创建区段](segmentation/segmentation-workflow/seg-create.md)
@@ -196,7 +196,7 @@ ht-degree: 97%
       + [管理区段](segmentation/segmentation-workflow/seg-manage.md)
       + [将区段发布到 Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [使用区段](segmentation/segmentation-workflow/t-seg-apply.md)
-   + 区段引用 {#segment-reference}
+   + 参考 {#segment-reference}
       + [运算符](segmentation/seg-reference/seg-operators.md)
       + [数据仓库区段兼容性](segmentation/seg-reference/seg-compatibility.md)
       + [按角色划分区段权限](segmentation/seg-reference/seg-rights.md)
@@ -206,7 +206,7 @@ ht-degree: 97%
 + 计算量度 {#calculated-metrics}
    + [概述](c-calcmetrics/cm-overview.md)
    + [操作方法视频](c-calcmetrics/cm-videos.md)
-   + 计算量度工作流程 {#calcmetric-workflow}
+   + 工作流 {#calcmetric-workflow}
       + [创建计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [生成计算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [复制计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [管理计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + 量度引用 {#calcmetrics-reference}
+   + 参考 {#calcmetrics-reference}
       + [基本功能](c-calcmetrics/cm-reference/cm-functions.md)
       + [高级功能](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [量度兼容性](c-calcmetrics/cm-compatibility.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
    + [A4T 注意事项](vrs/vrs-a4t.md)
    + [虚拟报告包常见问题解答](vrs/vrs-faq.md)
    + [虚拟报告包和全局/多包标记注意事项](vrs/vrs-considerations.md)
-   + 虚拟报告包工作流程 {#vrs-workflow}
+   + 工作流 {#vrs-workflow}
       + [虚拟报告包工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
       + [创建虚拟报告包](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虚拟报告包](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 97%
    + [Cross-Device Analytics 常见问题解答](cda/faq.md)
 + 警报 {#alerts}
    + [概述](c-alerts/intellligent-alerts.md)
-   + [创建](c-alerts/alert-builder.md)
-   + [管理](c-alerts/alert-manager.md)
+   + [创建警报](c-alerts/alert-builder.md)
+   + [管理警报](c-alerts/alert-manager.md)
    + [用例](c-alerts/alerts-use-cases.md)
 + 分类 {#classifications}
    + [分类概述](classifications/classifications-overview.md)

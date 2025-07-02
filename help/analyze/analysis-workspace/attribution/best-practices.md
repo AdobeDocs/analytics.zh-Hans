@@ -1,12 +1,12 @@
 ---
 title: 归因最佳实践
-description: 确定归因模型的最佳实践是什么？
+description: 了解最佳实践，以决定使用哪种归因模型。
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 75%
+source-wordcount: '422'
+ht-degree: 74%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 75%
 
 假设您的假设为：*“在特定行业（例如旅游业）中，归因时段为60或90天，而不是30天，因为客户在购买产品之前会进行大量研究。*”
 
-在这种情况下，您会将[回溯时段](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/attribution/models)更改为 90 天。
+在这种情况下，您会将[回溯时段](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)更改为 90 天。
 
 ## 使用算法归因
 
@@ -62,4 +62,4 @@ ht-degree: 75%
 
 * 您可能需要使用数据科学家的服务，而不是仅仅依靠 Analysis Workspace。
 * 您可以依赖原始数据，就像在 Adobe 数据馈送中一样。
-* 例如，如果您需要考虑展示数据，则可考虑使用 [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。
+* 例如，如果您需要考虑展示数据，则可考虑使用 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。

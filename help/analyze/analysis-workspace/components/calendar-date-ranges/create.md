@@ -1,12 +1,13 @@
 ---
 title: 创建日期范围
-description: 创建要用在报告中的日期范围。
+description: 了解如何创建可在Analysis Workspace中使用的日期范围。
 feature: Date Ranges
 role: User
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +65,7 @@ ht-degree: 100%
 
      ![Rolling dates](assets/rolliing-dates.png)
 
-      1. 选择&#x200B;**[!UICONTROL 开始]**、 **[!UICONTROL 结束]**&#x200B;或&#x200B;**[!UICONTROL 固定日期]**。
+      1. 选择&#x200B;**[!UICONTROL 开始]**、**[!UICONTROL 结束]**&#x200B;或&#x200B;**[!UICONTROL 固定日期]**。
       1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。例如：******[!UICONTROL 当前季度结束]****[!UICONTROL 减去]**`20`**[!UICONTROL 天]**。为表达式的每个部分选择适当的值。
          * 选择当前时间的值。例如&#x200B;**[!UICONTROL 当前季度]**。
          * 选择一个值进行额外的计算。例如，**[!UICONTROL 减]**。

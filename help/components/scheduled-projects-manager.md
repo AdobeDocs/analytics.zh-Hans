@@ -1,16 +1,16 @@
 ---
-description: 查看并管理整个组织内的计划报告。
-title: 计划项目管理器
+description: 了解如何管理计划项目。
+title: 计划项目
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 42%
+source-wordcount: '786'
+ht-degree: 41%
 
 ---
 
-# 计划项目
+# 计划的项目
 
 可以在Adobe Analytics中使用&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 计划项目]**&#x200B;管理计划的Analysis Workspace项目。
 
@@ -67,7 +67,7 @@ ht-degree: 42%
 
 ## 过滤器
 
-您可以使用筛选器面板➌筛选计划项目[计划项目列表](#scheduled-project-list)。 要显示或隐藏过滤器面板，请使用![过滤器](/help/assets/icons/Filter.svg)。
+您可以使用筛选器面板[筛选计划项目](#scheduled-project-list)计划项目列表➌。 要显示或隐藏过滤器面板，请使用![过滤器](/help/assets/icons/Filter.svg)。
 
 过滤器面板由以下部分组成。
 

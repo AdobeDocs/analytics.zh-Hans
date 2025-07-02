@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '870'
 ht-degree: 97%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 97%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -46,34 +46,34 @@ ht-degree: 97%
       + [使用模板](analysis-workspace/templates/use-templates.md)
       + [创建模板](analysis-workspace/templates/create-templates.md)
    + 组件 {#components}
-      + [组件概述](analysis-workspace/components/analysis-workspace-components.md)
-      + [在 Workspace 使用组件](analysis-workspace/components/use-components-in-workspace.md)
+      + [概述](analysis-workspace/components/analysis-workspace-components.md)
+      + [使用组件](analysis-workspace/components/use-components-in-workspace.md)
       + [添加组件描述](analysis-workspace/components/add-component-descriptions.md)
       + 批注 {#annotations}
-         + [注释概述](analysis-workspace/components/annotations/overview.md)
+         + [概述](analysis-workspace/components/annotations/overview.md)
          + [创建注释](analysis-workspace/components/annotations/create-annotations.md)
          + [管理注释](analysis-workspace/components/annotations/manage-annotations.md)
          + [查看注释](analysis-workspace/components/annotations/view-annotations.md)
-         + [移动注释](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [移动记分卡批注](analysis-workspace/components/annotations/mobile-annotations.md)
       + 维度 {#dimensions}
          + [预览维度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [划分维度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [时间划分维度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [量度](analysis-workspace/components/apply-create-metrics.md)
       + 区段 {#segments}
-         + [创建区段](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [概述](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速区段](analysis-workspace/components/segments/quick-segments.md)
-      + 日程表和日期范围 {#calendar-date-ranges}
+      + 日期范围 {#calendar-date-ranges}
          + [概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [创建日期范围](analysis-workspace/components/calendar-date-ranges/create.md)
          + [管理数据范围](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [日期比较](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
          + [示例](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
-      + 数据词典 {#data-dictionary}
-         + [数据词典概述](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [查看数据词典中的组件信息](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [编辑数据词典中的组件条目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [监测数据词典健康状况](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+      + 数据字典 {#data-dictionary}
+         + [数据字典概述](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [查看数据字典中的组件信息](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [编辑数据字典中的组件条目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [监测数据字典健康状况](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 可视化图表 {#visualizations}
       + [概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -130,7 +130,7 @@ ht-degree: 97%
       + 区段比较 {#segment-comparison}
          + [概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
-         + [使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
+         + [使用的统计检验方法](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 策划和共享 {#curate-share}
       + [概述](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
@@ -141,26 +141,26 @@ ht-degree: 97%
       + [发送和计划](analysis-workspace/curate-share/t-schedule-report.md)
    + 归因 {#attribution}
       + [归因概述](analysis-workspace/attribution/overview.md)
-      + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
+      + [模型、容器和回顾窗口](analysis-workspace/attribution/models.md)
       + [算法归因](analysis-workspace/attribution/algorithmic.md)
-      + [归因最佳实践](analysis-workspace/attribution/best-practices.md)
+      + [最佳实践](analysis-workspace/attribution/best-practices.md)
       + [常见问题解答](analysis-workspace/attribution/faq.md)
-   + [历程 IQ](analysis-workspace/journey-iq.md)
-   + [区段 IQ](analysis-workspace/segment-iq.md)
+   + [历程管理](analysis-workspace/journey-iq.md)
+   + [区段比较](analysis-workspace/segment-iq.md)
    + 异常检测 {#anomaly-detection}
-      + [异常检测概述](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [在 Analysis Workspace 中查看异常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [概述](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [查看异常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [关闭异常检测](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [运行贡献分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
-      + [在异常检测中使用的统计方法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [统计技术](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [用户偏好设置](analysis-workspace/user-preferences.md)
    + 工作区常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
-      + [优化 Analysis Workspace 性能](analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [错误消息](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace 限制](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [优化性能](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [错误和故障排除](analysis-workspace/workspace-faq/error-messages.md)
+      + [限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理要求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Analysis Workspace 中的辅助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [辅助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder 概述](report-builder/rb-overview.md)
    + [Report Builder 设置](report-builder/report-builder-setup.md)
