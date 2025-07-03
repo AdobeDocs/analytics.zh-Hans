@@ -1,12 +1,12 @@
 ---
-title: 在自由格式表中为维度创建超链接
+title: 创建超链接
 description: 了解如何在Analysis Workspace的自由格式表中为维度项目创建超链接。
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1596'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [维度](https://video.tv.adobe.com/v/3445797?quality=12&learn=on&captions=chi_hans){target="_blank"}的超链接。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [维度](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"}的超链接。
 
 >[!ENDSHADEBOX]
 

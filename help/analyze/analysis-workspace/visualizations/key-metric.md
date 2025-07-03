@@ -4,10 +4,10 @@ title: 关键量度摘要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
    | **[!UICONTROL 量度]** | 选择您希望检查的量度。支持全部量度。 |
    | **[!UICONTROL 主要日期范围]** | 自由表格的当前日期范围。<p>从数据视图的任何可用日期范围中进行选择。</p> <p>如果您想使用与可视化图表所在面板上相同的日期范围，请选择&#x200B;[!UICONTROL **面板日期范围**]。</p> |
    | **[!UICONTROL 比较日期范围。]** | 要与主要日期范围进行比较的日期范围。 |
-   | **[!UICONTROL 过滤器（可选）]** | 您对此摘要特别感兴趣的任何过滤器。 |
+   | **[!UICONTROL 区段（可选）]** | 您对此摘要特别感兴趣的任何区段。 |
 
    {style="table-layout:auto"}
 
@@ -114,15 +114,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 ## 编辑可视化图表
 
-生成可视化图表后，您仍然可以编辑原始配置。
+构建可视化图表后，您可以编辑原始配置。
 
-1. 单击可视化图表右上角的铅笔图标（设置齿轮图标旁边）。
+1. 选择可视化图表右上角的![编辑](/help/assets/icons/Edit.svg)。
 
-   ![可视化图表编辑图标](assets/edit-icon.png)
 
-   现在，您将返回到原始配置视图。
+   现在您将返回到原始[配置视图](#configure)。
 
-1. 根据需要更改量度、主要日期范围、比较日期范围或过滤器。
+1. 根据需要更改量度、主要日期范围、比较日期范围或区段。
 
 >[!MORELIKETHIS]
 >

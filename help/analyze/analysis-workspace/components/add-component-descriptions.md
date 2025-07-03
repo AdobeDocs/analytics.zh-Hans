@@ -1,13 +1,13 @@
 ---
-description: 管理员可以在报表包中或使用数据字典为组件添加描述。
+description: 了解管理员如何使用报表包或数据字典向组件添加说明。
 title: 添加组件描述
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 42%
+source-wordcount: '232'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,7 @@ Analytics管理员可以在报表包中或直接使用Analysis Workspace中的�
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://video.tv.adobe.com/v/39722?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好�
 >[!MORELIKETHIS]
 >
 >[报表组件设置](/help/components/vrs/vrs-components.md)
->&#x200B;>[数据字典组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[数据字典组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

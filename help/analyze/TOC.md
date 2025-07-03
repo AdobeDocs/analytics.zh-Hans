@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '868'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -34,7 +34,7 @@ ht-degree: 98%
       + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
       + [目录](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace 中的文件夹 {#workspace-folders}
-         + [文件夹概述](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [概述](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [创建文件夹](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理文件夹](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [添加或移动项目](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -42,9 +42,10 @@ ht-degree: 98%
       + [热键](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [调色板](analysis-workspace/build-workspace-project/color-palettes.md)
       + [视图密度](analysis-workspace/build-workspace-project/view-density.md)
+      + [调试程序](analysis-workspace/build-workspace-project/debugger.md)
    + 模板 {#templates}
       + [使用模板](analysis-workspace/templates/use-templates.md)
-      + [创建模板](analysis-workspace/templates/create-templates.md)
+      + [创建和管理模板](analysis-workspace/templates/create-templates.md)
    + 组件 {#components}
       + [概述](analysis-workspace/components/analysis-workspace-components.md)
       + [使用组件](analysis-workspace/components/use-components-in-workspace.md)
@@ -99,8 +100,8 @@ ht-degree: 98%
          + [概述](analysis-workspace/visualizations/c-flow/flow.md)
          + [配置](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [维度间流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [面积图和堆叠的面积图](analysis-workspace/visualizations/area.md)
-      + [条形图和堆叠的条形图](analysis-workspace/visualizations/bar.md)
+      + [面积（堆叠）](analysis-workspace/visualizations/area.md)
+      + [条形图（堆叠）](analysis-workspace/visualizations/bar.md)
       + [项目符号](analysis-workspace/visualizations/bullet-graph.md)
       + [组合](analysis-workspace/visualizations/combo-charts.md)
       + [圆环图](analysis-workspace/visualizations/donut.md)

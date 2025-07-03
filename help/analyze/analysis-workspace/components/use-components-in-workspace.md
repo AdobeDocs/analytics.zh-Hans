@@ -4,14 +4,14 @@ title: 在Analysis Workspace中使用组件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 80%
 
 ---
 
-# 使用 Analysis Workspace 中的组件
+# 在项目中使用组件
 
 组件构成了 Analysis Workspace 中任何项目的实际数据。组件由维度、量度、区段和日期范围组成。要在项目中添加组件，您可以将其拖放到可视化图表或面板中。
 

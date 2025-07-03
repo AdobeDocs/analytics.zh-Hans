@@ -1,21 +1,21 @@
 ---
-title: 移动批注
-description: 了解如何在移动记分卡中显示注释。
+title: 移动记分卡注释
+description: 了解如何在移动记分卡中显示批注。
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 93%
+source-wordcount: '307'
+ht-degree: 86%
 
 ---
 
 
 # 移动记分卡批注
 
-您可以在移动记分卡中显示在 Workspace 中创建的注释。您可以使用移动记分卡中的注释分享有关您的组织和营销活动的上下文数据细节和洞察。
+您可以在移动记分卡中显示在Analysis Workspace中创建的批注。 您可以使用移动记分卡中的注释分享有关您的组织和营销活动的上下文数据细节和洞察。
 
 
 ## 在移动记分卡中显示注释

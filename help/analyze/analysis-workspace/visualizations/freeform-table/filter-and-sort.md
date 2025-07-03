@@ -1,17 +1,17 @@
 ---
 description: 了解如何在Analysis Workspace中过滤和排序自由格式表。
-title: 对表进行过滤和排序
+title: 过滤和排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '832'
 ht-degree: 98%
 
 ---
 
-# 筛选和排序自由格式表
+# 过滤和排序
 
 Analysis Workspace 中的自由格式表是进行交互式数据分析的基础。因此，它们可以包含数千行信息。对数据进行过滤和排序是有效地呈现最重要信息的关键部分。
 

@@ -1,12 +1,12 @@
 ---
 title: 创建注释
-description: 如何在Analysis Workspace中创建注释。
+description: 了解如何在Analysis Workspace中创建注释。
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '862'
 ht-degree: 93%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 93%
 默认情况下，只有管理员可以创建注释。用户有权查看注释，这与用户查看其他组件（例如区段、计算量度等）的方式类似。
 
 
-但是，管理员可以通过 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hans) 向用户提供[!UICONTROL 注释创建]权限（Analytics 工具）。
+但是，管理员可以通过 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) 向用户提供[!UICONTROL 注释创建]权限（Analytics 工具）。
 
 您可以通过以下方式创建注释：
 

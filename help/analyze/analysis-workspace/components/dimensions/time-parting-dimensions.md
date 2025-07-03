@@ -1,24 +1,24 @@
 ---
-description: 了解时间划分维度如何采用所收集事件的时间戳，并将其划分为更有意义的维度，例如每天的小时或每周的某天。
+description: 了解时间划分维度如何采用所收集事件的时间戳，并将这些事件划分为更有意义的维度，例如每天时间或每周时间。
 title: 时间划分维度
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 84%
+source-wordcount: '239'
+ht-degree: 74%
 
 ---
 
 # 时间划分维度
 
-时间划分会采用所收集的点击量的时间戳，并将其划分为更有意义的维度，例如“每天时间”或“每周时间”。
+时间划分会采用所收集的点击量的时间戳，并将其划分为更有意义的维度，例如&#x200B;**小时**&#x200B;或&#x200B;**星期**。
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/41460?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [时间划分维度](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -1,10 +1,10 @@
 ---
-description: 了解Adobe Analytics中的量度是什么以及如何使用量度。
+description: 了解什么是量度以及如何在Analysis Workspace中使用量度。
 title: 量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 21%
@@ -41,7 +41,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://video.tv.adobe.com/v/328561?quality=12&learn=on&captions=chi_hans){target="_blank"}观看演示视频。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
    * [!UICONTROL **百分比变化**]：创建一个新列，以显示两个选定列之间的百分比变化。
 
-[计算指标：无实施指标](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[计算指标：无实施指标](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## 比较不同归因模型的指标
@@ -119,7 +119,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 >[!BEGINSHADEBOX]
 
-查看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累积平均值](https://video.tv.adobe.com/v/35005?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+查看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累积平均值](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
