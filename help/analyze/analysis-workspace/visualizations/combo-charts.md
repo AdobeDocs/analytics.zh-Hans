@@ -25,9 +25,9 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的组合可视化。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的组合可视化。_
 
-_请参阅[组合](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_请参阅[组合](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ _请参阅[组合](https://experienceleague.adobe.com/zh-hans/docs/analytics-pla
 
 ## 使用
 
-1. 添加![注释](/help/assets/icons/ComboChart.svg) [!UICONTROL 组合]可视化。请参阅[将可视化添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+1. 添加![注释](/help/assets/icons/ComboChart.svg)[!UICONTROL 组合]可视化。请参阅[将可视化添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 
 1. 从下拉列表中，为 X 轴选择一个维度，为 Y 轴选择一个量度。
 
@@ -99,6 +99,6 @@ _请参阅[组合](https://experienceleague.adobe.com/zh-hans/docs/analytics-pla
 >[!MORELIKETHIS]
 >
 >[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的项目符号可视化图表。_<br/>_请参阅[项目符号](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的项目符号可视化图表。_<br/>_请参阅[项目符号](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [项目符号图形可视化图表](https://video.tv.adobe.com/v/41512/?quality=12/?quality=12&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [项目符号图形可视化图表](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -56,12 +56,12 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 | 设置 | 描述 |
 |---|---|
-| **[!UICONTROL 项目符号选项]** | 在[!UICONTROL 项目符号]可视化图表中指定&#x200B;**[!UICONTROL 高目标]**、**[!UICONTROL 中目标]**&#x200B;和&#x200B;**[!UICONTROL 低目标]**&#x200B;的值。<br/>**[!UICONTROL 高目标&#x200B;]**&#x200B;是您的主要目标。**[!UICONTROL &#x200B;低目标&#x200B;]**&#x200B;和&#x200B;**[!UICONTROL &#x200B;中目标&#x200B;]**&#x200B;创建的是低于高目标的范围。注意：选中&#x200B;**[!UICONTROL &#x200B;百分比&#x200B;]**&#x200B;选项时，请以整数形式输入目标。例如：如果您的目标是百分之二十，则输入 `20`。 |
+| **[!UICONTROL 项目符号选项]** | 在[!UICONTROL 项目符号]可视化图表中指定&#x200B;**[!UICONTROL 高目标]**、**[!UICONTROL 中目标]**&#x200B;和&#x200B;**[!UICONTROL 低目标]**&#x200B;的值。<br/>**[!UICONTROL 高目标&#x200B;]**是您的主要目标。**[!UICONTROL &#x200B;低目标&#x200B;]**和**[!UICONTROL &#x200B;中目标&#x200B;]**创建的是低于高目标的范围。注意：选中**[!UICONTROL &#x200B;百分比&#x200B;]**选项时，请以整数形式输入目标。例如：如果您的目标是百分之二十，则输入 `20`。 |
 
 >[!MORELIKETHIS]
 >
 >[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
