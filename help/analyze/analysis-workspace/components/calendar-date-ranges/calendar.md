@@ -38,8 +38,8 @@ ht-degree: 96%
 您可以像[使用任何组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)一样使用日期范围。从 ![日程表](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期范围]**&#x200B;组件面板中拖动日期范围，并将该组件放置在：
 
 - **[!UICONTROL 日程表]**：用日期范围 ![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;当前的日程表配置。
-- **量度列标题**：![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;量度、将日期范围 ![添加](/help/assets/icons/Add.svg)**[!UICONTROL &#x200B; 添加&#x200B;]**&#x200B;为量度，或者使用日期范围组件 ![过滤](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;过滤&#x200B;]**&#x200B;该量度。
-- **维度列标题**：![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;当前的维度。现在的新维度是&#x200B;**[!UICONTROL 日期范围]**。当维度是日期范围时，您就可以将其他日期范围 ![添加](/help/assets/icons/Add.svg)**[!UICONTROL &#x200B; 添加&#x200B;]**&#x200B;为维度项。
+- **量度列标题**：![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;量度、将日期范围 ![添加](/help/assets/icons/Add.svg)**[!UICONTROL  添加&#x200B;]**为量度，或者使用日期范围组件 ![过滤](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;过滤&#x200B;]**该量度。
+- **维度列标题**：![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;当前的维度。现在的新维度是&#x200B;**[!UICONTROL 日期范围]**。当维度是日期范围时，您就可以将其他日期范围 ![添加](/help/assets/icons/Add.svg)**[!UICONTROL  添加&#x200B;]**为维度项。
 - **维度项**：按日期范围 ![细分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 细分]**&#x200B;特定维度项。
 
 您还可以通过直接在自由格式表格可视化中添加日期范围列：
@@ -97,7 +97,7 @@ In the calendar, you can specify dates and date ranges, or select a preset.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/328022?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -112,7 +112,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=zh-Hans) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |

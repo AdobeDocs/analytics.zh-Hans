@@ -7,14 +7,14 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -131,7 +131,7 @@ ht-degree: 97%
          + [概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [使用的统计检验方法](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 策划和共享 {#curate-share}
+   + 策划和共享  {#curate-share}
       + [概述](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
