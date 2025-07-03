@@ -43,7 +43,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散点图可视化图表](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散点图可视化图表](https://video.tv.adobe.com/v/3416858/?quality=12&captions=chi_hans){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
