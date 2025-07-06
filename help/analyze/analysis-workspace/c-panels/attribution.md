@@ -114,7 +114,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/37445/?quality=12&captions=chi_hans)
 
 ## Create an attribution panel
 
