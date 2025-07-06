@@ -3,10 +3,10 @@ title: 归因最佳实践
 description: 了解最佳实践，以决定使用哪种归因模型。
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 66%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 74%
 
 ### 漏斗上层分析
 
-漏斗上层分析渠道用于创建品牌和产品意识。 例如，大部分电视广告的目标是品牌意识。您可能使用[“时间衰减”归因模型](/help/analyze/analysis-workspace/attribution/models.md)，因为随着时间的推移，人们会忘记您的电视广告。
+漏斗上层分析渠道用于创建品牌和产品意识。 例如，大部分电视广告的目标是品牌意识。您可能使用[时间衰减归因模型](/help/analyze/analysis-workspace/attribution/models.md)，因为随着时间的推移，人们会忘记您的电视广告。
 
 ### 漏斗下层分析
 
@@ -46,13 +46,13 @@ ht-degree: 74%
 
 假设您的假设是：“*我的首次联系渠道比最后一次联系渠道对转化的影响更大。*”
 
-在这种情况下，您将使用[反向J型“归因模型](/help/analyze/analysis-workspace/attribution/models.md)来检验这个假设。 此模型将 60% 的点数分给第一个接触点。
+在这种情况下，您将使用[反向J型归因模型](/help/analyze/analysis-workspace/attribution/models.md)来检验这个假设。 此模型将 60% 的点数分给第一个接触点。
 
 **示例 2**
 
 假设您的假设为：*“在特定行业（例如旅游业）中，归因时段为60或90天，而不是30天，因为客户在购买产品之前会进行大量研究。*”
 
-在这种情况下，您会将[回溯时段](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/attribution/models)更改为 90 天。
+在这种情况下，您会将[回溯时段](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)更改为 90 天。
 
 ## 使用算法归因
 
@@ -62,4 +62,4 @@ ht-degree: 74%
 
 * 您可能需要使用数据科学家的服务，而不是仅仅依靠 Analysis Workspace。
 * 您可以依赖原始数据，就像在 Adobe 数据馈送中一样。
-* 例如，如果您需要考虑展示数据，则可考虑使用 [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。
+* 例如，如果您要考虑展示数据，请考虑使用[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。

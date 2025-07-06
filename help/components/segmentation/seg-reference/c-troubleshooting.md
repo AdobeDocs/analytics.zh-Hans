@@ -1,16 +1,18 @@
 ---
-description: 排除和修复与区段相关的问题。
-title: 分段疑难解答
+description: 了解如何排除和修复与区段相关的问题。
+title: 故障排除
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 50%
+source-wordcount: '181'
+ht-degree: 42%
 
 ---
 
-# 分段疑难解答
+# 故障排除
+
+本文列出了区段的一些常见问题以及如何解决这些问题。
 
 <!-- Looks like this is not part anymore of the current UI.
 
@@ -27,7 +29,7 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 可能的原因：
 
-* 反向嵌套 — 例如，在![访问](/help/assets/icons/Visit.svg) **[!UICONTROL 访问]**&#x200B;容器下嵌套![用户](/help/assets/icons/User.svg) **[!UICONTROL 访客]**&#x200B;容器。
+* 反向嵌套 — 例如，在![访问](/help/assets/icons/User.svg) **[!UICONTROL 访问]**&#x200B;容器下嵌套![用户](/help/assets/icons/Visit.svg) **[!UICONTROL 访客]**&#x200B;容器。
 * 报表不支持分段。
 * 没有与此分段标准匹配的数据。
 

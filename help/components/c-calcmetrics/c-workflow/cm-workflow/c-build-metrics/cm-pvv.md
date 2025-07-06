@@ -1,12 +1,12 @@
 ---
-description: 显示如何生成简单的“每次访问页面查看次数”量度。
-title: 构建简单的“每次访问的页面查看次数”量度
+description: 了解如何构建简单的计算量度。
+title: 构建简单的计算量度
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 25%
+source-wordcount: '225'
+ht-degree: 17%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 25%
 以下信息说明如何创建简单的&#x200B;*每次访问页面查看次数*&#x200B;指标。
 
 1. 开始生成度量，如[生成度量](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中所述。
-1. 命名量度`Page Views per Visits`或类似名称。
+1. 命名量度`Page Views per Visit`或类似名称。
 1. 为量度提供用户友好的&#x200B;**[!UICONTROL 描述]**&#x200B;以显示该量度的用途。
 1. 选择正确的&#x200B;**[!UICONTROL 格式]**。 对于此示例，请选择&#x200B;**[!UICONTROL 十进制]**。
 1. 确定您希望报表显示多少个小数位。
 1. 在&#x200B;**[!UICONTROL 将上升趋势显示为]**&#x200B;下拉菜单中，选择▲ **[!UICONTROL 良好（绿色）]**。
 1. 添加&#x200B;**[!UICONTROL 标记]**&#x200B;以组织您的量度。
-1. 对于此计算量度，首先将&#x200B;**[!UICONTROL 页面查看次数]**&#x200B;从&#x200B;**[!UICONTROL Dimensions]**&#x200B;组件拖动到画布的&#x200B;**[!UICONTROL Definition]**&#x200B;部分。
+1. 对于此计算量度，首先将&#x200B;**[!UICONTROL 页面查看次数]**&#x200B;从&#x200B;**[!UICONTROL Metrics]**&#x200B;组件拖动到画布的&#x200B;**[!UICONTROL Definition]**&#x200B;部分。
 1. 然后从&#x200B;**[!UICONTROL Metrics]**&#x200B;组件中拖动&#x200B;**[!UICONTROL 访问]**，并将指标放在&#x200B;**[!UICONTROL 页面查看次数]**&#x200B;下（等到显示蓝线之后再放置指标）。
 1. 选择除![除](/help/assets/icons/Divide.svg)运算符。 （“除以”是默认的运算符。）
 1. 生成量度时，您可以看到该量度的&#x200B;**[!UICONTROL 预览]**。

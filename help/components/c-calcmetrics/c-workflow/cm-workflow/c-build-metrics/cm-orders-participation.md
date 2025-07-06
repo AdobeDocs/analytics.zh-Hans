@@ -1,12 +1,12 @@
 ---
-description: 有关如何创建量度以显示哪个营销渠道有助于提高订购数量的说明。此说明适用于任何感兴趣的维度或成功事件。
-title: 订购协助量度
+description: 说明如何创建量度，以显示哪些营销渠道有助于推动订单。
+title: 构建更复杂的计算量度
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '239'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 1. 开始生成计算量度，如[生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中所述。
 
-1. 在计算量度生成器中，将量度命名为`Assisted Orders`或类似名称。
+1. 在计算量度生成器中，将量度命名为`Assisted Online Orders`或类似名称。
 
 1. 从&#x200B;**[!UICONTROL Metrics]**&#x200B;组件中选择&#x200B;**[!UICONTROL 在线订单]**&#x200B;量度，并将该量度拖动到&#x200B;**[!UICONTROL Definition]**&#x200B;区域。
 
@@ -41,4 +41,4 @@ ht-degree: 25%
 
 1. （可选）与组织中的其他用户共享该量度，如[共享计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)中所述。
 
-这种方法可轻松显示哪些营销渠道有助于提高订购数量。或者，在自由格式表中，您可以右键单击任意量度并直接从表中调整归因模型。
+这种方法可轻松显示哪些营销渠道有助于提高订购数量。或者，从自由格式表中，您可以选择任何量度，然后从上下文菜单中直接从表中调整归因模型。

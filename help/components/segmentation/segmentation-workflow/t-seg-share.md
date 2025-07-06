@@ -1,12 +1,12 @@
 ---
-description: 根据您的权限，可以与整个组织、组或个人用户共享区段。
+description: 了解如何与整个组织、组或个人用户共享区段。
 title: 共享区段
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 61%
+source-wordcount: '424'
+ht-degree: 57%
 
 ---
 

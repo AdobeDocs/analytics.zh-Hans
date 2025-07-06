@@ -1,13 +1,13 @@
 ---
-description: 了解如何使用显示特定维度的下一个或上一个维度项目的下一个或上一个项目面板。
+description: 了解如何使用显示特定维度的下一个或上一个项目的下一个或上一个项目面板。
 title: “下一个项目”或“上一个项目”面板
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 94%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的下一项或上一项面板。_<br/>_请参阅[下一项或上一项面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/next-previous)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的下一项或上一项面板。_<br/>_请参阅[下一项或上一项面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/next-previous)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 | **[!UICONTROL 维度]** | 选择您想要浏览下一项或上一项的维度。 |
 | **[!UICONTROL 维度项]** | 选择位于下一项/上一项查询中心的特定维度项。 |
 | **[!UICONTROL 方向]** | 请指定您是否正在寻找[!UICONTROL 下一项]或[!UICONTROL 上一项]维度。 |
-| **[!UICONTROL 容器]** | 选择容器，[!UICONTROL 会话]或[!UICONTROL 人员]（默认），以确定您的查询范围。 |
+| **[!UICONTROL 容器]** | 选择容器&#x200B;**[!UICONTROL 访问]**&#x200B;或&#x200B;**[!UICONTROL 访客]**（默认），以确定查询的范围。 |
 
 {style="table-layout:auto"}
 

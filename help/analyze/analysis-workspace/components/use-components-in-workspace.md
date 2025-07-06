@@ -1,10 +1,10 @@
 ---
 description: 了解如何在Analysis Workspace中使用项目中的组件
-title: 在Analysis Workspace中使用组件
+title: 在项目中使用组件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 80%

@@ -1,12 +1,12 @@
 ---
-description: 在区段管理器内，您可以设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
+description: 了解作为管理员，您如何批准区段。
 title: 批准区段
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '115'
+ht-degree: 9%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 2%
 1. 从操作栏中选择![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 取消批准]**。
 
 
-您可以按批准的区段对区段列表进行分段。 从![区段](/help/assets/icons/Filter.svg)**[!UICONTROL 区段]**&#x200B;面板中选择&#x200B;**[!UICONTROL 其他区段]**，然后选择&#x200B;**[!UICONTROL 已批准]**。 有关详细信息，请参阅[对区段列表](t-seg-filter.md)进行分段。
+您可以按批准的区段对区段列表进行分段。 从&#x200B;**[!UICONTROL 区段]**![区段](/help/assets/icons/Filter.svg)面板中选择&#x200B;**[!UICONTROL 其他区段]**，然后选择&#x200B;**[!UICONTROL 已批准]**。 请参阅[过滤区段列表](t-seg-filter.md)，以了解更多信息。

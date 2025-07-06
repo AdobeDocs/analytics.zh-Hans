@@ -1,12 +1,12 @@
 ---
-description: 在计算量度管理器内，您可以设置一个工作流程，用于批准多个级别的应用程序和特定部门或群组的量度。
+description: 了解如何批准计算量度。
 title: 批准计算量度
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 21%
+source-wordcount: '127'
+ht-degree: 4%
 
 ---
 
@@ -25,5 +25,5 @@ ht-degree: 21%
 1. 从操作栏中选择![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 取消批准]**。
 
 
-您可以按批准的计算指标筛选计算指标列表。 从![筛选器](/help/assets/icons/Filter.svg)**[!UICONTROL 筛选器]**&#x200B;面板中选择&#x200B;**[!UICONTROL 其他筛选器]**&#x200B;并选择&#x200B;**[!UICONTROL 已批准]**。 有关详细信息，请参阅[筛选计算量度列表](cm-filter.md)。
+您可以按批准的计算指标筛选计算指标列表。 从&#x200B;**[!UICONTROL 筛选器]**![筛选器](/help/assets/icons/Filter.svg)面板中选择&#x200B;**[!UICONTROL 其他筛选器]**&#x200B;并选择&#x200B;**[!UICONTROL 已批准]**。 有关详细信息，请参阅[筛选计算量度列表](cm-filter.md)。
 

@@ -1,23 +1,23 @@
 ---
-title: 归因模型、容器和回顾时间范围
-description: 不同类型的归因如何在维度项目之间划分点数。
+title: 归因组件
+description: 了解定义归因的组件。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 40%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-# 归因模型、容器和回顾时间范围
+# 归因组件
 
 Adobe Analytics中的归因概念包含三个组件：
 
-* **归因模型：**&#x200B;此模型描述某个群组中点击的转化分布。例如，首次接触或最后接触。
-* **容器**：容器定义归因的范围，或定义如何为每个模型分组点击。
-* **归因回顾时间范围：**&#x200B;回顾时间范围描述所选模型的回顾天数。
+* **归因模型：** [模型](#attribution-model)描述某个群组中点击的转化分布。 例如，首次接触或最后接触。
+* **容器**： [容器](#container)定义归因的范围，或定义如何对每个模型的点击进行分组。
+* **归因回顾时间范围：**[回顾时间范围](#lookback-window)描述所选模型的回顾天数。
 
 
 ## 归因模型
@@ -30,7 +30,7 @@ Adobe Analytics中的归因概念包含三个组件：
 {{attribution-container}}
 
 
-## 回溯时间范围
+## 回顾时间范围
 
 {{attribution-lookback-window}}
 
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40042?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

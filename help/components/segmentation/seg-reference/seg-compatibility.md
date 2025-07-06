@@ -1,12 +1,12 @@
 ---
-description: 区段生成器中创建的所有区段并非都与Data Warehouse兼容。 此表列出支持的功能。
+description: 了解为什么区段生成器中创建的所有区段都不与Data Warehouse兼容。 了解支持的函数。
 title: Data Warehouse 区段兼容性
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 82%
+source-wordcount: '343'
+ht-degree: 80%
 
 ---
 
@@ -99,4 +99,4 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-*注意：在使用 `AND/OR` 时，Data Warehouse 不支持使用 `exclusion` 或 `without` 容器的所有情况。在使用此类组合时，Data Warehouse 仅支持那些可以重写为 `A AND NOT B`（或&#x200B;**包括此特征**&#x200B;和&#x200B;**排除此特征**）的区段。*
+*注意：在使用 `AND/OR` 时，Data Warehouse 不支持使用 `exclusion` 或 `without` 容器的所有情况。在使用此类组合时，Data Warehouse 仅支持那些可以重写为 `A AND NOT B`（或&#x200B;**包括此特征**和&#x200B;**排除此特征**）的区段。*

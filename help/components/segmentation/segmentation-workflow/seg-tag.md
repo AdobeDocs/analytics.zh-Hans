@@ -1,9 +1,9 @@
 ---
-description: 在区段管理器中，您可以通过标记区段来组织区段。
+description: 了解如何标记区段以允许组织区段。
 title: 标记区段
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存区段的标记。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
-保存后，标记将列在[区段生成器](seg-build.md)中选定区段的[!UICONTROL 标记]字段中。
+保存后，标记将列在[!UICONTROL 区段生成器]中选定区段的[标记](seg-build.md)字段中。
 
 
 ## 建议

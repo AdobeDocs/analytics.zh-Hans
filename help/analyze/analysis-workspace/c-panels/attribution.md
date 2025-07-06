@@ -4,10 +4,10 @@ description: 了解如何使用和解读Analysis Workspace中的归因面板。
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 97%
+source-wordcount: '698'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的归因面板。_<br/>_请参阅[归因面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/attribution)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的归因面板。_<br/>_请参阅[归因面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/attribution)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
    ![归因面板窗口显示几个选定的维度和量度。](assets/attribution-panel.png)
 
-1. 从&#x200B;**[!UICONTROL 包含的模型]**&#x200B;中选择一个或多个[归因模型](#attribution-models)，并从要用于比较的&#x200B;**[!UICONTROL 回顾窗口]**&#x200B;中选择一个[回顾窗口](#lookback-window)。
+1. 从[包含的模型](#attribution-models)中选择一个或多个&#x200B;**[!UICONTROL 归因模型]**，从[容器](#container)中选择&#x200B;**[!UICONTROL 容器]**，并从[回顾窗口](#lookback-window)中选择要用于比较的&#x200B;**[!UICONTROL 回顾窗口]**。
 
 1. 选择&#x200B;**[!UICONTROL 生成]**&#x200B;以在面板中生成可视化图表。
 
@@ -114,7 +114,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/37445/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 

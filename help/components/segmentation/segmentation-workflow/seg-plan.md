@@ -3,10 +3,10 @@ description: 介绍了可在规划区段时遵循的步骤和最佳实践。
 title: 计划区段
 feature: Segmentation
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 93%
 1. 确定区段定义中要包含哪些&#x200B;**元素**&#x200B;及其值。在此决策中考虑[变量持久性](/help/components/segmentation/seg-overview.md)。
 
 1. 考虑您希望如何进行&#x200B;**批准过程**。区段是由一个人进行审查和批准，还是由委员会做出决定？
-1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[&#128279;](/help/components/segmentation/segmentation-workflow/seg-build.md)需要定义哪些“模块”才能实现此库？
+1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[](/help/components/segmentation/segmentation-workflow/seg-build.md)需要定义哪些“模块”才能实现此库？

@@ -1,12 +1,12 @@
 ---
-description: 使用管理员和非管理员之间的区段的比较图。
-title: 按角色划分区段权限
+description: 了解管理员和非管理员之间在使用和管理区段方面的差异。
+title: 区段权限（按角色）
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 9%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 

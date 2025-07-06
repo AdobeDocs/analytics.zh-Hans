@@ -1,16 +1,16 @@
 ---
-description: 通过为个别指标分段，可在同一报表中比较各个指标。
-title: 分段指标
+description: 了解如何按单个量度进行分段，以便能够在同一可视化图表中进行量度比较。
+title: 分段量度
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
 
-# 分段指标
+# 分段量度
 
 在[计算量度生成器](cm-build-metrics.md#definition-builder)中，您可以在量度定义中应用区段。 如果您希望在分析中为数据子集使用量度，应用区段会很有帮助。
 
@@ -29,8 +29,8 @@ ht-degree: 4%
 
 ## 受欢迎页面
 
-1. [从名为`Germany`的Workspace项目创建计算量度](../cm-workflow.md)。
-1. 在[计算量度生成器](cm-build-metrics.md)中，[创建一个名为`Germany`的区段](/help/components/segmentation/segmentation-workflow/seg-build.md)，该区段正在使用“国家/地区”字段。
+1. [从名为](../cm-workflow.md)的Workspace项目创建计算量度`Germany`。
+1. 在[计算量度生成器](cm-build-metrics.md)中，[创建一个名为](/help/components/segmentation/segmentation-workflow/seg-build.md)的区段`Germany`，该区段正在使用“国家/地区”字段。
 
    >[!TIP]
    >

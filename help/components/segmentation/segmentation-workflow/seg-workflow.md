@@ -1,12 +1,12 @@
 ---
-description: 描述使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
+description: 了解使用区段生成器创建区段并通过区段管理器管理的建议工作流程。
 title: 分段工作流程概述
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 48%
+source-wordcount: '266'
+ht-degree: 47%
 
 ---
 

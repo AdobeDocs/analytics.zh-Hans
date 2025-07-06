@@ -1,12 +1,12 @@
 ---
-description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会识别所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
-title: 生成顺序区段
+description: 了解使用THEN运算符定义区段条件序列的顺序区段。
+title: 顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 6%
+source-wordcount: '2375'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://video.tv.adobe.com/v/37426?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 ## 基础知识
 
-生成顺序区段的基础知识与使用[区段生成器](seg-build.md)生成常规区段的基础知识没有区别。 只要您在主定义或您在[分段生成器](seg-build.md)中使用的任何容器中选择&#x200B;**[!UICONTROL Then]**&#x200B;运算符，常规区段就会自动变为顺序区段。
+生成顺序区段的基础知识与使用[区段生成器](seg-build.md)生成常规区段的基础知识没有区别。 只要您在主定义或您在&#x200B;**[!UICONTROL 分段生成器]**&#x200B;中使用的任何容器中选择[Then](seg-build.md)运算符，常规区段就会自动变为顺序区段。
 
 ### 示例
 
@@ -69,7 +69,7 @@ ht-degree: 6%
 
 ## [!UICONTROL After]和[!UICONTROL Within]
 
-您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;运算符为点击、访问或维度[&#128279;](#event-session-and-dimension-constraints)定义其他[时间约束](#time-constraints)或约束。
+您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;运算符为点击、访问或维度[定义其他](#time-constraints)时间约束[或](#event-session-and-dimension-constraints)约束。
 
 ### 时间限制
 
@@ -78,7 +78,7 @@ ht-degree: 6%
 1. 选择![时钟](/help/assets/icons/Clock.svg)。
 1. 从上下文菜单中选择&#x200B;**[!UICONTROL Within]**&#x200B;或&#x200B;**[!UICONTROL After]**。
 1. 指定一个时间段（**[!UICONTROL 分钟]**，**[!UICONTROL 小时]**，最多&#x200B;**[!UICONTROL 年]**）。
-1. 选择![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;以打开一个弹出窗口，允许您使用&#x200B;**[!UICONTROL -]**&#x200B;或&#x200B;**[!UICONTROL +]**&#x200B;键入或指定数字。
+1. 选择![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**以打开一个弹出窗口，允许您使用**[!UICONTROL -]**或**[!UICONTROL +]**键入或指定数字。
 
 若要移除时间限制，请使用![CrossSize75](/help/assets/icons/CrossSize75.svg)。
 
@@ -134,7 +134,7 @@ ht-degree: 6%
 
 | 序列 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
 |--- | :---: |
-| 页面`Women \| Shoes`后跟页面`Checkout \| Thank You` | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |
+| 页面`Women \| Shoes`后跟页面`Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 页面`Women \| Shoes`后跟页面`Women \| Tops`，后跟页面`Checkout \| Thank You` | ![删除圆圈](/help/assets/icons/RemoveCircle.svg) |
 
 ## [!UICONTROL 包含]
@@ -153,8 +153,8 @@ ht-degree: 6%
 
 | | 序列 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
 |---:|--- | --- |
-| 1 | 在同一次访问中`Women \| Shoes`然后`Checkout \| Thank You` | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |
-| 2 | `Women \| Shoes`然后`Men \| Shoes`然后`Checkout \| Thank You`（跨不同访问） | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |
+| 1 | 在同一次访问中`Women \| Shoes`然后`Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes`然后`Men \| Shoes`然后`Checkout \| Thank You`（跨不同访问） | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 3 | `Checkout \| Thank You`，然后`Women \| Shoes` | ![删除圆圈](/help/assets/icons/RemoveCircle.svg) |
 
 ### [!UICONTROL 仅在序列之前]，[!UICONTROL 仅在序列之后]
@@ -169,17 +169,17 @@ ht-degree: 6%
 
 | B然后D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| 包含每个人 | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |
-| 仅在序列前 | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
-| 仅在序列后 |  |  |  | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |
+| 包含每个人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 仅在序列前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| 仅在序列后 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 
 
 | B然后D（出现多次） | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 包含每个人 | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |
-| 仅在序列前 | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
-| 仅在序列后 |  |  |  | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) | ![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) |
+| 包含每个人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 仅在序列前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| 仅在序列后 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 #### 示例
 
@@ -193,7 +193,7 @@ ht-degree: 6%
 
 ## [!UICONTROL 排除]
 
-区段定义包括所有数据，除非您使用&#x200B;**[!UICONTROL 排除]**&#x200B;专门排除![用户](/help/assets/icons/User.svg) [!UICONTROL 人员]、![访问](/help/assets/icons/Visit.svg) [!UICONTROL 访问]或![网页](/help/assets/icons/WebPage.svg) [!UICONTROL 点击]数据。
+区段定义包括所有数据，除非您使用![排除](/help/assets/icons/User.svg)专门排除[!UICONTROL 用户] ![人员](/help/assets/icons/Visit.svg)、[!UICONTROL 访问] ![访问](/help/assets/icons/WebPage.svg)或[!UICONTROL 网页] **[!UICONTROL 点击]**&#x200B;数据。
 
 [!UICONTROL 排除]允许您关闭常见数据并创建更集中的区段。 “排除”还允许您创建排除特定访客组的区段。 例如，定义一个区段，该区段指定下订单的访客，然后排除该组访客以识别&#x200B;*非购买者*。 最佳做法是创建使用宽泛定义的规则，而不是尝试使用[!UICONTROL 排除]来定位与特定包含值匹配的特定访客。
 
@@ -213,7 +213,7 @@ ht-degree: 6%
 
 #### [!UICONTROL 排除]，在
 
-识别访问了一个页面、没有访问另一个页面，然后又访问另一个页面的访客。 您使用![设置](/help/assets/icons/Setting.svg) [!UICONTROL 排除]排除容器。 排除的容器由左侧的红色细条标识。
+识别访问了一个页面、没有访问另一个页面，然后又访问另一个页面的访客。 您使用![设置](/help/assets/icons/Setting.svg) [!UICONTROL 排除]排除容器。 左侧的红色细条表示排除的容器。
 
 ![排除序列](assets/sequence-exclude.png)
 
@@ -238,7 +238,7 @@ ht-degree: 6%
 >
 >[!UICONTROL 逻辑组]只能在顺序区段中定义，这意味着容器中使用[!UICONTROL Then]运算符。
 
-通过逻辑组，您可以将条件分组到单个顺序区段检查点中。 作为序列的一部分，在标识为逻辑组的容器中定义的逻辑将在任何先前顺序检查点之后和任何后续顺序检查点之前进行评估。
+使用逻辑组，您可以将条件分组到一个顺序区段检查点。作为序列的一部分，在标识为逻辑组的容器中定义的逻辑将在任何先前顺序检查点之后和任何后续顺序检查点之前进行评估。
 
 可以按任意顺序满足逻辑组本身中的条件。 相反，非顺序容器（点击、访问、访客）不要求在整个序列中满足其条件，如果与&#x200B;**[!UICONTROL Then]**&#x200B;运算符一起使用，则会产生可能不直观的结果。
 
@@ -273,13 +273,13 @@ ht-degree: 6%
 
 #### [!UICONTROL 排除] [!UICONTROL 和]
 
-识别访问了一个页面，然后明确不访问其他页面集，但又访问其他页面的访客。 例如，访客访问了主页，没有访问男性或女性页面，但访问了儿童页面。
+识别访问了一个页面，然后明确不访问其他页面集，但又访问其他页面的访客。 例如，访客访问了主页，但没有访问“男性”或“女性”页面，但访问了“孩子”页面。
 
 ![逻辑组排除和](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL 排除] [!UICONTROL 或]
 
-识别访问了一个页面，然后明确不访问一组页面中的任何页面，但又访问另一个页面的访客。 例如，访客访问了主页，没有访问“男女”页面，但访问了“儿童”页面。
+识别访问了一个页面，然后明确不访问一组页面中的任何页面，但又访问另一个页面的访客。 例如，访客访问了主页，但没有访问“男女”页面，但访问了“儿童”页面。
 
 ![逻辑组排除和](assets/logicgroup-exclude-or.png)
 
@@ -295,11 +295,11 @@ An example of a complex sequential segment if you want to find the visitors that
 
 ## 最后一个示例
 
-最后一个示例，您希望识别了解特定产品页面的访客，而无需这些访客被您的“启用您的移动”营销活动所接触。 在第一次访问网上商店时，他们浏览了主页，但没有进一步查看“男性”类别的任何健身（装备）产品。 但是，在之后直接访问时，访客转到产品页面并下达在线订单，而不先访问主页。
+最后一个示例，您希望识别了解特定产品页面的访客，而无需这些访客被您的“启用您的移动”营销活动所接触。 在第一次访问网上商店时，他们浏览了主页，但没有进一步查看“男性”类别的任何健身（装备）产品。 但是，之后他们下次访问时，会进入产品页面并下达在线订单，而无需先访问主页。
 
 
 ![复杂顺序区段示例](assets/sequential-complex.png)
 
 >[!MORELIKETHIS]
 >
-> * [在AA和CJA中掌握顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [掌握AA和CJA中的顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

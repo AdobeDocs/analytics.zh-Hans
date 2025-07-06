@@ -1,13 +1,13 @@
 ---
-description: 了解如何使用快速分析面板来指导您在Analysis Workspace中构建数据表和可视化图表。
+description: 了解如何使用快速分析面板来指导您在Analysis Workspace中构建自由格式表和可视化图表。
 title: 快速分析面板
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 97%
+source-wordcount: '1149'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的快速洞察面板。_<br/>_请参阅[快速洞察面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/quickinsight)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的快速洞察面板。_<br/>_请参阅[快速洞察面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/quickinsight)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 * 在哪里创建过滤器，
 * 等。
 
-为了帮助解决这些问题，[!UICONTROL 快速洞察]利用了一种算法，该算法为您提供了您公司所使用的最热门的维度、量度、区段和日期范围。该算法基于您的公司对 [!UICONTROL Analysis Workspace] 中数据组件的使用。事实上，您会在下拉列表中看到标记为 [!UICONTROL POPULAR] 的维度、量度和区段，如下所示：
+为了帮助您解答这些问题，[!UICONTROL 快速分析]利用算法来向您介绍您的公司可使用的一些最热门的维度、量度、区段和日期范围。 该算法基于您的公司对 [!UICONTROL Analysis Workspace] 中数据组件的使用。事实上，您会在下拉列表中看到标记为 [!UICONTROL POPULAR] 的维度、量度和区段，如下所示：
 
 ![“快速洞察”面板。](assets/popular-tag.png)
 
@@ -59,10 +59,10 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 |---|---|
 | **[!UICONTROL 维度]** | 维度是可以在项目中查看、划分和比较的量度数据的说明或特性。它们是非数字值和日期，可划分为不同维度项。例如，*浏览器*&#x200B;或&#x200B;*页面*&#x200B;是一个维度。 |
 | **[!UICONTROL 维度项]** | 维度项是维度的单个值。例如，浏览器维度的维度项可能是 *Chrome*、*Firefox*、*Edge* 等。 |
-| **[!UICONTROL 量度]** | 量度是关于查看次数、点进次数、重新加载次数、平均逗留时间、单位、订单数、收入等人员活动的量化信息。 |
+| **[!UICONTROL 量度]** | 量度是有关访客活动的量化信息，包括查看次数、点进次数、重新加载次数、平均逗留时间、件数、订购、收入等。 |
 | **[!UICONTROL 可视化图表]** | Workspace 提供了[许多可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，用于生成数据的可视化表示形式。例如条形图、圆环图、直方图、线形图、地图、散点图等。 |
 | **[!UICONTROL 维度划分]** | 维度划分是一种按其他维度来划分维度的方法。例如，您可以按移动设备划分美国各州的情况，以获取每个州的移动设备访问次数。或者您可以按移动设备类型、地区、内部营销活动等划分移动设备。 |
-| **[!UICONTROL 区段]** | 利用区段可根据相关特征或网站交互辨别一部分人。例如，您可以根据以下内容生成[!UICONTROL 访客]区段 <li>归因：浏览器类型、设备、访问次数、国家/地区、性别或</li><li>交互：营销活动、关键词搜索、搜索引擎或</li><li>退出和进入：来自 Facebook 的访客、定义的登陆页面、反向链接域或</li><li> 自定义变量：表单字段、定义的类别、客户 ID。 |
+| **[!UICONTROL 区段]** | 通过区段，您可以根据用户特征或网站交互情况来识别访客子集。例如，您可以根据以下内容生成[!UICONTROL 访客]区段 <li>归因：浏览器类型、设备、访问次数、国家/地区、性别或</li><li>交互：营销活动、关键词搜索、搜索引擎或</li><li>退出和进入：来自 Facebook 的访客、定义的登陆页面、反向链接域或</li><li> 自定义变量：表单字段、定义的类别、客户 ID。 |
 
 ## 使用
 
@@ -94,7 +94,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 * 从左侧面板中拖放组件。
 * 开始在其中一个生成基块字段中输入内容。当找到输入内容时，生成基块字段会自动填充可能的值。
-* 指定一个生成基块下拉菜单（例如&#x200B;**[!UICONTROL 分析]**&#x200B;中的 `Country`）并在可能的值列表中进行搜索（使用 ![ChevronRight](/help/assets/icons/ChevronRight.svg)），以查找您想要使用的值（例如，**[!UICONTROL 国家代码]**）。
+* 指定构建基块下拉列表（例如&#x200B;**[!UICONTROL 分析]**&#x200B;中的&#x200B;**[!UICONTROL 国家/地区]**），并在可能的值列表（使用![ChevronRight](/help/assets/icons/ChevronRight.svg)）中搜索要使用的值（例如&#x200B;**[!UICONTROL 国家/地区代码]**）。
 
 选择&#x200B;**[!UICONTROL 清除]**&#x200B;来清除所有输入字段。
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326701/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

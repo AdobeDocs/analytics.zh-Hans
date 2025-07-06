@@ -1,20 +1,21 @@
 ---
-title: 归因常见问题解答
+title: 有关归因的常见问题解答
 description: 获取有关归因的常见问题解答。
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1188'
+ht-degree: 85%
 
 ---
 
-# 归因常见问题解答
+# 常见问题解答
 
+以下是有关归因的常见问题解答。
 
-+++## 使用归因时，“无”行项目是什么？
++++##使用归因时，**[!UICONTROL 无]**&#x200B;行项是什么？
 
 “无”行项目是一个全包项，它表示在回顾窗口内发生的不含任何接触点的所有转化。要减少归因于“无”行项目的转化的次数，请尝试使用回顾期较长的“自定义回顾窗口”。
 
@@ -44,12 +45,13 @@ ht-degree: 87%
 +++
 
 
-+++## 何时应使用访问归因回顾？何时应使用访客归因回顾？何时应使用自定义归因回顾？
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-归因回顾的选择取决于您的用例。如果转化通常比单次访问花费的时间长，则建议使用访客或自定义回顾。如果转化周期较长，则自定义回顾窗口最适合，因为它是允许提取报告窗口之前的数据的唯一类型。
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## 使用归因时，如何进行 prop 和 eVar 比较？
 

@@ -1,12 +1,12 @@
 ---
-description: 列出了一些在删除区段前需注意的事项。
+description: 了解在删除区段之前应注意的注意事项。
 title: 删除区段
 feature: Segmentation
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 39%
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
@@ -16,12 +16,18 @@ ht-degree: 39%
 
 删除区段时：
 
-* 已应用此区段的计划报表和功能板将继续正常工作。 例如，区段或功能板将继续使用已删除的区段。
-* 编辑具有相同名称的区段时，计划报表不会更新。以下是示例：假设您有2个同名区段分别位于不同的报表包中：
+* 已应用此区段的计划报表和功能板将继续正常工作。
+* 编辑同名区段时，计划报表不会更新。
 
-  | 区段名称 | 报告包 |
+<!--
+
+For example: Assume you have 2 segments with the same name in different report suites:
+
+  | Segment name | Report suite |
   |---|---|
-  | 来自加利福尼亚的访问 | mainprod |
-  | 来自加利福尼亚的访问 | maindev |
+  | Visits from California | mainprod |
+  | Visits from California | maindev |
 
-  您有一个书签引用[!UICONTROL mainprod]报表包的区段。 然后，由于该区段是重复项，您删除该区段。 书签将继续运行，仍引用已删除区段的定义。如果更改剩余区段的区段定义以包括卡特琳娜岛和墨西哥的提华纳，则应用于书签的区段将不会发生更改。该区段将使用旧定义。 要修复此问题，请更新书签以引用新定义。如果不确定书签、功能板或计划报表是否在使用已删除的区段，可以更改剩余区段的名称，以指示书签是否在使用剩余的区段。
+  You have a visualization that references the segment for the **[!UICONTROL mainprod]** report suite. Then you delete that segment because the segment is a duplicate. The bookmark will continue to run, referencing the definition of the deleted segment. If you change the segment definition for the remaining segment to include Catalina Island and Tijuana Mexico, the segment applied to the bookmark will not change. The segment will use the old definition. To fix this, update the bookmark to reference the new definition. If you are unsure whether a bookmark, dashboard or scheduled report is using a deleted segment, you could change the name of the remaining segment to indicate whether the bookmark is using the remaining segment.
+
+-->

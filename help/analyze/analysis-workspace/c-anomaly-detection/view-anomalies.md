@@ -1,13 +1,13 @@
 ---
-description: 您可以在表格或折线图中查看异常。
-title: 在 Analysis Workspace 中查看异常
+description: 了解如何在Analysis Workspace中查看和分析数据异常。
+title: 查看异常
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 52%
+source-wordcount: '444'
+ht-degree: 49%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 52%
 
 您可以在时间序列自由格式表中查看异常。
 
-1. 在列标题中选择![设置](/help/assets/icons/Setting.svg)，然后确保在选项列表中选择&#x200B;**[!UICONTROL 异常]**&#x200B;选项。 有关更多信息，请参阅[列设置](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)。
+1. 在列标题中选择![Setting](/help/assets/icons/Setting.svg)，然后确保在选项列表中选择&#x200B;**[!UICONTROL Anomalies]**&#x200B;选项。 有关更多信息，请参阅[列设置](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)。
 
 1. 异常情况如下表所示：
 

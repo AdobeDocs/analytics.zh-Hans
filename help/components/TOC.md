@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
 + [Analytics 组件指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
@@ -194,7 +194,7 @@ ht-degree: 100%
       + [删除区段](segmentation/segmentation-workflow/seg-delete.md)
       + [复制区段](segmentation/segmentation-workflow/seg-copy.md)
       + [管理区段](segmentation/segmentation-workflow/seg-manage.md)
-      + [将区段发布到 Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [发布区段](segmentation/segmentation-workflow/seg-publish.md)
       + [使用区段](segmentation/segmentation-workflow/t-seg-apply.md)
    + 参考 {#segment-reference}
       + [运算符](segmentation/seg-reference/seg-operators.md)
@@ -210,17 +210,17 @@ ht-degree: 100%
       + [创建计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [生成计算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [简单的计算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [更复杂的计算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [生成参与率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [简单示例](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [更复杂的示例](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [量度类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [参与率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [分段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [过滤和加权度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [使用函数](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [标记计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [筛选计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [将计算量度标记为收藏内容](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [将计算量度标记为收藏](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [批准计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [复制计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)

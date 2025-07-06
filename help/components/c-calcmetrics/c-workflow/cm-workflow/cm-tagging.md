@@ -1,12 +1,12 @@
 ---
-description: 在计算量度管理器中，您可以通过标记区段来组织区段。
+description: 了解如何标记计算量度以组织计算量度。
 title: 标记计算量度
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 12%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 12%
 
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存计算指标的标记。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
-保存后，标记将在[计算量度生成器](cm-tagging.md)中选定计算量度的[!UICONTROL 标记]字段中列出。
+保存后，标记将在[!UICONTROL 计算量度生成器]中选定计算量度的[标记](cm-tagging.md)字段中列出。
 
 <!--
 In the Calculated metric manager, you can organize segments by tagging them.
