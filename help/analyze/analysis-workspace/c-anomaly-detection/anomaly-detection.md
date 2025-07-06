@@ -18,7 +18,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[异常检测](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [异常检测](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
