@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
 + [Analytics 组件指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
@@ -273,12 +273,12 @@ ht-degree: 97%
       + 分类集合并 {#consolidations}
          + [合并管理器](classifications/sets/consolidations/manage.md)
          + [合并流程](classifications/sets/consolidations/process.md)
-   + 分类规则生成器（旧版）{#classifications-rulebuilder}
+   + 分类规则构建器（旧版）{#classifications-rulebuilder}
       + [概述](classifications/crb/classification-rule-builder.md)
       + [分类规则集](classifications/crb/classification-rule-set.md)
       + [分类规则](classifications/crb/classification-quickstart-rules.md)
       + [分类规则定义](classifications/crb/classification-rule-definitions.md)
-      + [子分类和规则生成器](classifications/crb/subclassification-rule-builder.md)
+      + [子分类和规则构建器](classifications/crb/subclassification-rule-builder.md)
    + 分类导入程序（旧版）{#classifications-importer}
       + [分类导入器概述](classifications/importer/c-working-with-saint.md)
       + [分类数据文件](classifications/importer/c-saint-data-files.md)

@@ -7,14 +7,14 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
@@ -50,12 +50,12 @@ ht-degree: 98%
       + [概述](analysis-workspace/components/analysis-workspace-components.md)
       + [使用组件](analysis-workspace/components/use-components-in-workspace.md)
       + [添加组件描述](analysis-workspace/components/add-component-descriptions.md)
-      + 批注 {#annotations}
+      + 注释 {#annotations}
          + [概述](analysis-workspace/components/annotations/overview.md)
          + [创建注释](analysis-workspace/components/annotations/create-annotations.md)
          + [管理注释](analysis-workspace/components/annotations/manage-annotations.md)
          + [查看注释](analysis-workspace/components/annotations/view-annotations.md)
-         + [移动记分卡批注](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [移动记分卡注释](analysis-workspace/components/annotations/mobile-annotations.md)
       + 维度 {#dimensions}
          + [预览维度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [划分维度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -151,7 +151,7 @@ ht-degree: 98%
    + 异常检测 {#anomaly-detection}
       + [概述](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [查看异常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [运行贡献分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [运行贡献度分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [统计技术](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [用户偏好设置](analysis-workspace/user-preferences.md)
    + 工作区常见问题解答 {#workspace-faq}

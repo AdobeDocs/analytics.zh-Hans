@@ -1,6 +1,6 @@
 ---
-title: 批注概述
-description: 了解如何在Analysis Workspace中使用注释。
+title: 注释概述
+description: 了解如何在 Analysis Workspace 中使用注释功能。
 role: User, Admin
 solution: Analytics
 feature: Annotations
@@ -8,7 +8,7 @@ exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 * 创建注释的数据视图（默认）或所有数据视图。
 
-请参阅[创建注释](create-annotations.md)，了解可用于创建注释的各种选项。然后，您可以在[注释生成器](create-annotations.md#annotation-builder)中构建、修改和保存注释。
+请参阅[创建注释](create-annotations.md)，了解可用于创建注释的各种选项。然后，您可以在[注释构建器](create-annotations.md#annotation-builder)中构建、修改和保存注释。
 
 您可以使用[注释管理器](manage-annotations.md)来管理注释。
 
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hans).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 
