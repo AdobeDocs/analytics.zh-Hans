@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 63%
+ht-degree: 76%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="“区段比较”面板 "
->abstract="对所有数据点快速比较两个区段，以自动查找相关差异。<br/><br/>**参数&#x200B;**<br/>**添加区段**：要分析的第一个区段。<br/>**与**&#x200B;进行比较：要与之比较的第二个区段，将自动使用&#x200B;*其他各项*&#x200B;填充该区段（与第一个区段相反）。 如果需要，您可以使用其他区段替换&#x200B;*其他各项*。<br/>**高级设置**：在区段比较中能够排除被分析的组件。"
+>abstract="对所有数据点快速比较两个区段，以自动查找相关差异。<br/><br/>**参数&#x200B;**<br/>**添加区段**：您要分析的第一个区段。<br/>**与** 进行比较：您希望用于对比的第二个区段会自动填入&#x200B;*其他所有人*（即第一个区段的反向人群）。如有需要，您可以将&#x200B;*其他所有人*&#x200B;替换为其他区段。<br/>**高级设置**：在区段比较中能够排除被分析的组件。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的区段比较面板。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中没有等效面板。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的区段比较面板。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中没有等效面板。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段比较](https://video.tv.adobe.com/v/37493?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段比较](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
