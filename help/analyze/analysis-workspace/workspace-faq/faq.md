@@ -39,7 +39,7 @@ ht-degree: 100%
 
 +++数据如何进入您的 Analysis Workspace 项目？
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://video.tv.adobe.com/v/33229?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 +++
 
