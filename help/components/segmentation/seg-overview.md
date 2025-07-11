@@ -249,7 +249,7 @@ Analysis Workspace 包含以下附加功能：
 
 +++ **需要哪些权限才能使用、创建和管理区段？**
 
-默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
+默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
 
 管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[按角色划分区段权限](/help/components/segmentation/seg-reference/seg-rights.md)
 
