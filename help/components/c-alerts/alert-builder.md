@@ -4,9 +4,9 @@ title: 创建警报
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 source-git-commit: 7945499ab49b488985ff70956c0ee0cd521b1421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics 中的警报允许您根据变化的百分比或特定数据点�
 
 要创建警报：
 
-1. 使用以下任一方式创建警报：
+1. 您可以通过以下任意方式创建警报：
 
    * 在 Analysis Workspace 中打开一个项目，然后选择&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 创建警报]**。
    * 在 Analysis Workspace 中打开一个项目，然后使用以下快捷键：***cmd + shift + a*** (macOS) 或 ***ctrl + shift + a*** (Windows)。
@@ -52,7 +52,7 @@ Adobe Analytics 中的警报允许您根据变化的百分比或特定数据点�
 
 | 元素 | 描述 |
 |---------|----------|
-| **[!UICONTROL 标题]** | 指定警报的名称。警报名称可能包含报告名称或指标阈值。 |
+| **[!UICONTROL 标题]** | 指定警报的名称。警报名称可能包含报告名称或量度阈值。 |
 | **[!UICONTROL 描述（可选）]** | 指定警报的描述。 |
 | **[!UICONTROL 时间粒度]** | 选择检查量度的频率：每天、每周或每月。<p> |
 | **[!UICONTROL 收件人]** | 指定警报的发送地址。可以将警报发送给 Analytics 用户、Analytics 组、原始电子邮件地址或电话号码。<p><b>重要</b>：电话号码前必须加上 `+` 和[国家/地区代码](https://countrycode.org/)。</p><p>用户收到的电子邮件示例：</p><p>![警报电子邮件](assets/alerts-email.PNG)</p> |

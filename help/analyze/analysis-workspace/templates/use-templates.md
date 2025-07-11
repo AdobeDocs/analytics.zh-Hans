@@ -1,13 +1,13 @@
 ---
-description: 了解Analysis Workspace中的默认模板以及如何使用这些默认模板。
+description: 了解 Analysis Workspace 中的默认模板以及如何使用这些默认模板。
 title: 使用模板
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

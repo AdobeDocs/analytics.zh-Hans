@@ -4,9 +4,9 @@ title: 量度类型和归因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 1. 选择量度组件中的![设置](/help/assets/icons/Setting.svg)。
 1. 在弹出的对话框中：
 
-   ![指标类型和归因](assets/cm-type-alloc.png)
+   ![量度类型和归因](assets/cm-type-alloc.png)
 
    * 指定&#x200B;**[!UICONTROL 量度类型]**：
 

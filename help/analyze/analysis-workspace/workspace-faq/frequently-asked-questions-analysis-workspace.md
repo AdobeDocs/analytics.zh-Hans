@@ -1,20 +1,20 @@
 ---
-description: 了解Analysis Workspace的要求。
+description: 了解使用 Analysis Workspace 的相关要求。
 keywords: Analysis Workspace
 title: 要求
 feature: Workspace Basics
 role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # 要求
 
-运行Analysis Workspace的要求包括：
+运行 Analysis Workspace 所需的要求包括：
 
 | 要求 | 描述 |
 |--- |--- |

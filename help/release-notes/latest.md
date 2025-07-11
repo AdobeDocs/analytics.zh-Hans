@@ -4,15 +4,15 @@ description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 91a17aa9ae7a0a6c6b7a1fd8d5ffe5d7d2efb294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2025 年 6 月版本）
 
-**上次更新时间**：2025年7月7日
+**上次更新**：2025 年 7 月 7 日
 
 这些发行说明涵盖 2025 年 6 月 18 日至 7 月 15 日的发行期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **使用算法的Livestream TNT字段** | 直播串流正在进行更新，以确保技术继续保持现代和稳定。 作为此刷新的一部分，如果您的TNT字段中有一个算法，我们将开始将TNT字段合并到Livestream输出中。 但是，这仅包括以前支持的元素： `campaignId`、`recipeId`、`trafficType`、`actionId`和`actionName`。 Livestream的整个TNT架构保持不变。 |   | 7,2025 年 7 月 |
+| **带有算法的 Livestream TNT 字段** | Livestream 正在进行更新，以确保该技术持续保持现代化和稳定性。作为此次更新的一部分，如果您的 TNT 字段中包含算法，我们将开始在 Livestream 输出中纳入该 TNT 字段。但此次仅涵盖先前已支持的元素：`campaignId`、`recipeId`、`trafficType`、`actionId` 和  `actionName`。Livestream 的整体 TNT 架构保持不变。 |   | 2025 年 7 月 7 日 |
 | **新版本 Report Builder 支持安全的云目标** | JavaScript Report Builder 插件现已支持将报表导出至以下云存储目标：<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前，只有 FTP 和电子邮件目标可用。由于安全问题，FTP 不再受支持。</p><p>有关详细信息，请参阅[通过导出到云目标来安排工作簿](/help/analyze/report-builder/report-builder-export.md)。</p><p>除了这些更新外，在 Adobe Analytics 中创建位置时，“使用方式”字段现在新增了将该位置与 Report Builder 搭配使用的选项，相关说明详见[配置云导入与导出位置](/help/components/locations/configure-import-locations.md)。</p> |  | 2025 年 6 月 19 日（原定 6 月 18 日） |
 | **新预览体验** | 在创建区段或配置数据视图设置时使用的预览面板，现在已将原先的圆环图可视化图表更改为水平条形图可视化图表。 |  | 2025 年 6 月 18 日 |
 | **修改了归因模型对话框** | 您现在可以在归因模型对话框中分别定义容器和时段。 |  | 2025 年 6 月 18 日 |
@@ -66,6 +66,6 @@ ht-degree: 94%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
-* [流媒体收藏集发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [流媒体收藏集发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新

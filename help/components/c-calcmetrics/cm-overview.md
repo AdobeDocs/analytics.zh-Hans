@@ -1,19 +1,19 @@
 ---
-description: 了解可从现有量度创建的计算量度。
+description: 了解如何基于现有量度创建计算量度。
 keywords: 计算量度
 title: 计算量度概述
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 计算量度概述
 
-计算量度是指您可以从现有量度创建的自定义量度。
+您可以基于现有量度创建的计算量度和自定义量度。
 
 计算量度是可以基于现有量度创建的自定义量度。计算量度提供了一种灵活的方式来构建、管理和策划自定义量度，使您无需更改实施方案即可分析数据。
 
@@ -59,13 +59,13 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算量度](https://video.tv.adobe.com/v/37926?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算量度](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的分段计算量度](https://video.tv.adobe.com/v/37925?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的分段计算量度](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[创建量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->&#x200B;>[生成指标](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[使用函数](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>>[生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[使用函数](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >

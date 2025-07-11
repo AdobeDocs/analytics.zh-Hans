@@ -1,13 +1,13 @@
 ---
 title: 高级函数
-description: 了解高级计算量度函数。
+description: 了解高级计算量度函数的相关内容。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5020'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
