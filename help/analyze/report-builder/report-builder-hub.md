@@ -1,15 +1,15 @@
 ---
-title: Adobe Analytics中的Report Builder中心是什么
+title: 什么是Adobe Analytics中的Report Builder中心
 description: 介绍 Report Builder 中心组件
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 51%
+source-wordcount: '489'
+ht-degree: 54%
 
 ---
 
@@ -25,10 +25,6 @@ Report Builder中心包含“创建”、“管理”和“计划”按钮、“
 ## “创建”、“管理”和“计划”按钮
 
 使用“创建”、“管理”和“调度”按钮可创建新数据块、管理现有数据块或调度数据块。
-
->[!NOTE]
->
->Adobe Analytics上此版本Report Builder的工作簿计划尚未发布，但将在2025年初可用。 您可以立即开始使用不需要安排的工作簿。
 
 ## “命令”面板
 
@@ -54,7 +50,7 @@ Report Builder中心包含“创建”、“管理”和“计划”按钮、“
 
 使用“快速编辑”部分所做的更改将会应用到所有选定的数据块。
 
-### 报表包
+### 报告包
 
 数据块从选定的报表包中提取数据。 如果在一个工作簿中选择了多个数据块并且它们不从同一报表包提取数据，则&#x200B;**报表包**&#x200B;链接显示&#x200B;*多个*。
 
@@ -62,7 +58,7 @@ Report Builder中心包含“创建”、“管理”和“计划”按钮、“
 
 要更改报表包，请从下拉菜单中选择新的报表包。
 
-![Report Builder中心显示报表包下拉菜单。](./assets/image16.png)
+![显示报表包下拉菜单的Report Builder中心。](./assets/image16.png)
 
 ### 日期范围
 
