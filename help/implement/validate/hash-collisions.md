@@ -4,7 +4,7 @@ description: 描述什么是哈希冲突以及它是如何体现的。
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -42,6 +42,6 @@ Adobe Analytics对大多数维度使用32位哈希，这意味着可能有2<sup>
 大多数哈希冲突都发生在两个不常见的值中，这些值对报表没有任何实际影响。 即使哈希与某个通用值和不通用值发生冲突，结果也几乎可以忽略。 但是，在极少数情况下，当两个常用值遇到哈希冲突时，可以清楚地看到其影响。 Adobe建议采取以下操作来降低它在报表中的影响：
 
 * **更改日期范围**：哈希表每月更改。 将日期范围更改为跨越另一个月，可能会为每个值赋予不同的哈希值，而不会产生冲突。
-* **减少唯一值的数量**：您可以调整实施或使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)来帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
+* **减少唯一值的数量**：您可以调整实施或使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)来帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->
