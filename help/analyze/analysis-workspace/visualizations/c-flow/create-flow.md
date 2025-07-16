@@ -4,10 +4,10 @@ title: 配置流量可视化
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
 workflow-type: tm+mt
-source-wordcount: '1658'
-ht-degree: 91%
+source-wordcount: '1685'
+ht-degree: 88%
 
 ---
 
@@ -138,7 +138,9 @@ ht-degree: 91%
 
 * 流量图是交互式图表。将光标置于该图上可更改显示的详细信息。
 
-* 选择图表中的节点时，将显示该节点的详细信息。再次选择该节点以将其折叠。
+* 在图中选择节点时，将显示该节点的详细信息。 再次选择该节点以将其折叠。
+
+  在流量可视化图表中保留扩展的多个节点可能会影响报表时间。 作为一般准则，在给定时间应保持扩展不超过10个节点。
 
   ![显示节点详细信息的示例交互式流量图。](assets/node-details.png)
 
@@ -173,7 +175,7 @@ ht-degree: 91%
 | **[!UICONTROL 排除项]**&#x200B;或&#x200B;**[!UICONTROL 还原排除项]** | 从列中删除特定节点，并将其自动创建为列顶部的过滤器。要还原排除项，请从上下文菜单中选择&#x200B;**[!UICONTROL 还原排除项]**。您也可以打开列顶部的过滤器，移除带有您刚刚排除的项目的 Pillbox。 |
 | **[!UICONTROL 趋势]** | 为节点创建趋势图表。 |
 | **[!UICONTROL 显示下一列]**/**[!UICONTROL 显示上一列]** | 显示可视化图表的下一列（右）或上一列（左）。 |
-| **[!UICONTROL 隐藏列]**&#x200B;n | 在可视化图表中隐藏选定的列。 |
+| **[!UICONTROL 隐藏列]**n | 在可视化图表中隐藏选定的列。 |
 | **[!UICONTROL 扩展整列]** | 扩展某一列以显示全部节点。默认情况下，只会显示头五个节点。 |
 | **[!UICONTROL 从选择创建受众]** | 根据所选的列创建受众。 |
 | **[!UICONTROL 折叠整列]** | 隐藏某一列中的所有节点。 |
@@ -183,15 +185,15 @@ ht-degree: 91%
 使用此选项时，请记住：
 
 * **[!UICONTROL 限制到第一次/最后一次发生次数]**&#x200B;仅统计序列中的第一次/最后一次发生次数。所有其他满足&#x200B;**[!UICONTROL 开始于]**&#x200B;或&#x200B;**[!UICONTROL 结束于]**&#x200B;标准的发生次数均会被弃用。
-* 如果与&#x200B;**[!UICONTROL 开始于]**&#x200B;流量一起使用，则只包括与开始标准匹配的第一次发生次数。在下面的示例中，包含流量每个步骤中&#x200B;*添加到购物车*&#x200B;和&#x200B;*产品主要类别*&#x200B;的&#x200B;**所有**&#x200B;发生次数。
+* 如果与&#x200B;**[!UICONTROL 开始于]**&#x200B;流量一起使用，则只包括与开始标准匹配的第一次发生次数。在下面的示例中，包含流量每个步骤中&#x200B;*添加到购物车*&#x200B;和&#x200B;*产品主要类别*&#x200B;的&#x200B;**所有**发生次数。
   ![没有限制，第一次](assets/limitofffirst.png)
 
-  在下面的示例中，仅包含流量每个步骤中&#x200B;*添加到购物车*&#x200B;和&#x200B;*产品主要类别*&#x200B;的&#x200B;**第一次**&#x200B;发生次数。
+  在下面的示例中，仅包含流量每个步骤中&#x200B;*添加到购物车*&#x200B;和&#x200B;*产品主要类别*&#x200B;的&#x200B;**第一次**发生次数。
   ![限制，开始](assets/limitonfirst.png)
-* 如果与&#x200B;**[!UICONTROL 结束于]**&#x200B;流量一起使用，则仅包含与结束标准匹配的最后一次发生次数。在下面的示例中，包含流量每个步骤中&#x200B;*产品主要类别*&#x200B;和&#x200B;*添加到购物车*&#x200B;的&#x200B;**所有**&#x200B;发生次数。
+* 如果与&#x200B;**[!UICONTROL 结束于]**&#x200B;流量一起使用，则仅包含与结束标准匹配的最后一次发生次数。在下面的示例中，包含流量每个步骤中&#x200B;*产品主要类别*&#x200B;和&#x200B;*添加到购物车*&#x200B;的&#x200B;**所有**发生次数。
   ![没有限制，第一次](assets/limitofflast.png)
 
-  在下面的示例中，仅包含流量每个步骤中&#x200B;*产品主要类别*&#x200B;和&#x200B;*添加到购物车*&#x200B;的&#x200B;**最后一次**&#x200B;发生次数。
+  在下面的示例中，仅包含流量每个步骤中&#x200B;*产品主要类别*&#x200B;和&#x200B;*添加到购物车*&#x200B;的&#x200B;**最后一次**发生次数。
   ![限制，开始](assets/limitonlast.png)
 * 使用的系列因容器而异。如果使用&#x200B;**[!UICONTROL 访客]**&#x200B;容器，则一系列事件就是访问。 如果使用&#x200B;**[!UICONTROL 访客]**&#x200B;容器，则事件系列是给定用户在提供的日期范围内的所有点击。
 * 在&#x200B;**[!UICONTROL 开始于]**&#x200B;或&#x200B;**[!UICONTROL 结束于]**&#x200B;字段中使用量度或维度项时，可以在高级设置中配置&#x200B;**[!UICONTROL 限制到第一次/最后一次发生次数]**&#x200B;的选项。
@@ -200,8 +202,8 @@ ht-degree: 91%
 >[!MORELIKETHIS]
 >
 >[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
