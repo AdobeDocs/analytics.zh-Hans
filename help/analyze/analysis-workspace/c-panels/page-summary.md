@@ -4,10 +4,10 @@ title: 页面摘要面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '642'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的页面摘要面板。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中没有等效面板。_
+_本文记录了_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的页面摘要面板。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中没有等效面板。_
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _本文记录了_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x20
 
 | 输入 | 描述 |
 | --- | --- |
-| **[!UICONTROL 页面]** | 选择您想要浏览其关键统计数据的页面维度。 |
+| **[!UICONTROL 页面]** | 选择要浏览其关键统计信息的页的页维。 例如，**[!UICONTROL home]**&#x200B;浏览主页的统计信息。 使用下拉菜单选择一个页面或开始键入（例如`home`）以快速搜索页面。 |
 
 {style="table-layout:auto"}
 
