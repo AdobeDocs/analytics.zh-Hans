@@ -5,10 +5,10 @@ title: 自定义日期范围示例
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
+source-git-commit: 8cca98257aeb89226863beed69b4785166141b0c
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 +++ 详细信息
 
-您要定义一个日期范围，以定义一周前的当天到上周同一天结束之间的时间段。 例如，如果今天是2024年9月11日星期三。 您希望在2024年9月4日星期三至2024年9月7日星期六之间设置日期范围。 9 月
+您要定义一个日期范围，以定义一周前的当天到上周同一天结束之间的时间段。 例如，如果今天是2024年9月11日星期三。 您希望在2024年9月4日星期三至2024年9月7日星期六之间设置日期范围。
 
 ![日期范围示例](assets/date-range-example.png)
 
