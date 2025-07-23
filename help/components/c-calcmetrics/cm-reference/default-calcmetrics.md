@@ -4,9 +4,9 @@ title: 默认计算量度
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Adobe Analytics 通过提供各种计算量度来涵盖最常见的用例。这�
 >
 >您可以：
 >
-> * 为流媒体集合添加默认计算量度，如[计算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=zh-Hans)中所述
+> * 为流媒体集合添加默认计算量度，如[计算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)中所述
 > * 从现有量度中创建自定义计算量度，如[计算量度和高级计算量度](/help/components/c-calcmetrics/cm-overview.md)中所述。
 >
 
 >[!TIP]
 >
->使用[数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)更深入地检查默认计算量度的定义以及构成该定义的各个组件。
+>使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 更深入地检查默认计算量度的定义以及构成该定义的各个组成部分。
 >
 
 
