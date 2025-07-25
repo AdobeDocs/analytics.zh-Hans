@@ -4,10 +4,10 @@ description: 了解如何使用和解读Analysis Workspace中的“媒体平均�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: c9299befa63868ce0450af9c63132738474e2371
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了 **Customer Journey Analytics** 中的媒体平均受众访问分钟数面板。<br/>请参阅[媒体平均受众访问分钟数面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)以获取本文的 **Adobe Analytics** 版本。*
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中的“媒体平均受众访问分钟数”面板。<br/>_查看本文的[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**媒体平均受众访问分钟数面板**。_
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ _本文记录了 **Customer Journey Analytics** 中的媒体平均受众访问�
 
    | 选项 | 描述 |
    |---------|------------|
-   | **[!UICONTROL 粒度]** | 默认粒度为 [!UICONTROL **5 分钟**]，但可选择任何粒度作为选定时间段内时间序列的分母。例如，选择下午 12:00 到下午 12:30，粒度为 5 分钟，返回这整个半小时的平均受众访问分钟数，以及每 5 分钟时间段的平均受众访问分钟数，共六行。这些行用作时间序列图的数据点。 |
+   | **[!UICONTROL 粒度]** | 默认粒度为 [!UICONTROL **5 分钟**]，但可选择任何粒度作为选定时间段内时间序列的分母。例如，选择下午12:00点到下午12:30点，粒度为5分钟，将返回这整个半小时的平均受众访问分钟数，以及每5分钟时段的平均受众访问分钟数，共6行。 这些行用作时间序列图的数据点。 |
    | [!UICONTROL **过滤内容的依据（可选）**] | 可根据所需的查看方式或数据的结构化方式选择如何过滤特定内容。 <ul>[!UICONTROL **节目、季、集**]：将在下拉菜单中显示您可用的节目，从中可使用搜索（或通过从左列拖放节目名称）进行过滤。可在这里结束选择以查看您的各季节目，也可按个别的季过滤，然后按个别的集过滤。此设置显示这些节目、季和集在所选时间段的数据。</li><li>[!UICONTROL **自定义维度**]：如果您的节目名称在自定义维度下，则通过在该维度（可选）下拉菜单中搜索或通过使用左列搜索即可找到它。该维度项根据该选择自动填充，并被视为一集。</li><li>[!UICONTROL **无**]：显示在所选时间段上有平均受众访问分钟数数据的所有视频名称。（此选项默认为选中）。</li></ul> |
 
 1. 继续[自定义时间段高级设置](#custom-time-period-advanced-settings)来配置高级设置。
@@ -187,8 +187,8 @@ _本文记录了 **Customer Journey Analytics** 中的媒体平均受众访问�
 >[!MORELIKETHIS]
 >
 > [Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [媒体并行查看者面板](media-concurrent-viewers.md)
-> &#x200B;> [媒体播放耗时面板](media-playback-time-spent.md)
+> > [媒体并行查看者面板](media-concurrent-viewers.md)
+> > [媒体播放耗时面板](media-playback-time-spent.md)
 >
 
 
