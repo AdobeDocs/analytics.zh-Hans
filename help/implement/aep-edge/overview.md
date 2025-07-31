@@ -4,51 +4,75 @@ description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 73%
+source-wordcount: '476'
+ht-degree: 17%
 
 ---
 
 # 使用 Adobe Experience Platform Edge Network 实施 Adobe Analytics
 
-Adobe Experience Platform Edge Network 允许您将发送到多个产品的数据发送到一个集中的位置。 Edge Network 将适当的信息转发给所需的产品。 此概念允许您整合实施工作，尤其是跨多个数据解决方案进行整合。
-
-Adobe 提供了三种向 Edge Network 发送数据的主要方式：
-
-* **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展将数据发送到 Edge。
-* **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩展将数据发送到 Edge。
-* **[Adobe Experience Platform Edge Network API](api/overview.md)**：使用API将数据直接发送到Edge Network。
+Adobe Experience Platform Edge Network 允许您将发送到多个产品的数据发送到一个集中的位置。 Edge Network 将适当的信息转发给所需的产品。 此概念允许您整合实施工作，尤其是跨多个数据解决方案进行整合。 Adobe Analytics是可以使用Edge Network将数据发送到的产品之一。
 
 ## Adobe Analytics 处理 Edge Network 数据的方式
 
-发送到 Adobe Experience Platform Edge Network 的数据可以采用两种格式：
+发送到Adobe Experience Platform Edge Network的数据可遵循三种格式：**XDM对象**、**数据对象**&#x200B;和&#x200B;**上下文数据**。 当数据流将数据转发到Adobe Analytics时，它们会转换为Adobe Analytics可以处理的格式。
 
-* XDM 对象：符合基于 [XDM（体验数据模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)的架构。 XDM 可让您灵活地将字段定义为事件的一部分。事件到达 Adobe Analytics 时，会被转换为 Adobe Analytics 可以处理的格式。
-* 数据对象：使用映射到 Adobe Analytics 的特定字段向 Edge Network 发送数据。 Edge Network 会检测这些字段的存在，并将其转发到 Adobe Analytics，而无需符合架构。
+## `xdm`对象
 
-Edge Network使用以下逻辑来确定Adobe Analytics页面查看次数和链接事件：
+符合您基于[XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (Experience Data Model)创建的架构。 XDM 可让您灵活地将字段定义为事件的一部分。如果要使用特定于Adobe Analytics的预定义架构，可将[Adobe Analytics ExperienceEvent架构字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)添加到您的架构中。 添加后，您可以使用Web SDK中的`xdm`对象填充此架构，以将数据发送到报表包。 数据到达Edge Network时，会将XDM对象转换为Adobe Analytics可以理解的格式。
 
-| XDM 负载包含... | Adobe Analytics... |
-|---|---|
-| `xdm.web.webPageDetails.name` 或 `xdm.web.webPageDetails.URL`，并且没有 `xdm.web.webInteraction.type` | 将负载视为&#x200B;**页面视图** |
-| `xdm.eventType = web.webPageDetails.pageViews` | 将负载视为&#x200B;**页面视图** |
-| `xdm.web.webInteraction.type` 和 (`xdm.web.webInteraction.name` 或 `xdm.web.webInteraction.url`) | 将负载视为&#x200B;**链接事件** |
-| `xdm.web.webInteraction.type` 和 (`xdm.web.webPageDetails.name` 或 `xdm.web.webPageDetails.url`) | 将有效负载视为&#x200B;**链接事件** <br/>还将`xdm.web.webPageDetails.name`和`xdm.web.webPageDetails.URL`设置为`null` |
-| 无 `xdm.web.webInteraction.type` 和（无 `xdm.webPageDetails.name` 且无 `xdm.web.webPageDetails.URL`） | 丢弃负载并忽略数据 |
+有关XDM字段及其映射到Adobe Analytics变量的方式的完整引用，请参阅映射到Analytics的[XDM对象变量](xdm-var-mapping.md)。
 
-{style="table-layout:auto"}
+>[!TIP]
+>
+>如果您计划在未来迁移到[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)，Adobe建议不要使用Adobe Analytics架构字段组。 相反，Adobe建议[创建自己的架构](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)，并使用数据流映射填充所需的Analytics变量。 当您准备好迁移到Customer Journey Analytics时，此策略不会将您锁定在prop和eVar架构中。
 
-除了区分页面查看次数和链接点击次数外，还遵循以下逻辑来确定某些事件是属于A4T还是被放弃。
+## `data`对象
 
-| XDM 负载包含... | Adobe Analytics... |
-| --- | --- |
-| `xdm.eventType = display`或<br/>`xdm.eventType = decisioning.propositionDisplay`或<br/>`xdm.eventType = personalization.request`或<br/>`xdm.eventType = decisioning.propositionFetch`和`xdm._experience.decisioning` | 将有效负载视为&#x200B;**A4T**&#x200B;调用。 |
-| `xdm.eventType = display`、<br/>`xdm.eventType = decisioning.propositionDisplay`、<br/>`xdm.eventType = personalization.request`或<br/>`xdm.eventType = decisioning.propositionFetch`且没有`xdm._experience.decisioning` | 丢弃负载并忽略数据 |
-| `xdm.eventType = click`或`xdm.eventType = decisioning.propositionInteract`和`xdm._experience.decisioning`，无`web.webInteraction.type` | 将有效负载视为&#x200B;**A4T**&#x200B;调用。 |
-| `xdm.eventType = click`或`xdm.eventType = decisioning.propositionInteract`，没有`xdm._experience.decisioning`和没有`web.webInteraction.type` | 丢弃有效负载并忽略数据。 |
+作为使用`xdm`对象的替代方法，您可以改用`data`对象。 数据对象适用于当前使用AppMeasurement的实施，使得升级到Web SDK更加容易。 Edge Network检测特定于Adobe Analytics的字段是否存在，而无需符合架构。
 
-{style="table-layout:auto"}
+请参阅映射到Adobe Analytics的[数据对象变量](data-var-mapping.md)，以获取数据对象字段的完整引用以及它们如何映射到Analytics变量。
 
-请参阅 [Adobe Analytics ExperienceEvent Full Extension 架构字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=zh-Hans)，了解更多信息。
+## 上下文数据变量
+
+以您需要的任何格式将数据发送到Edge Network。 任何未自动映射到`xdm`或`data`对象字段的字段在转发到Adobe Analytics时均包括为[上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。 然后，必须使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)将所需字段映射到各自的Analytics变量。
+
+例如，如果您有一个类似于以下内容的自定义XDM架构：
+
+```json
+{
+  "xdm": {
+    "key": "value",
+    "animal": {
+      "species": "Raven",
+      "size": "13 inches"
+    },
+    "array": [
+      "v0",
+      "v1",
+      "v2"
+    ],
+    "objectArray":[{
+      "ad1": "300x200",
+      "ad2": "60x240",
+      "ad3": "600x50"
+    }]
+  }
+}
+```
+
+然后，这些字段将成为您在处理规则界面中可用的上下文数据键：
+
+```javascript
+a.x.key // value
+a.x.animal.species // Raven
+a.x.animal.size // 13 inches
+a.x.array.0 // v0
+a.x.array.1 // v1
+a.x.array.2 // v2
+a.x.objectarray.0.ad1 // 300x200
+a.x.objectarray.1.ad2 // 60x240
+a.x.objectarray.2.ad3 // 600x50
+```
