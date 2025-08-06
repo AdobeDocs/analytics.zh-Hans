@@ -4,9 +4,9 @@ description: 了解使用交易 ID 数据源的一般工作流程。
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 1d905aa47b4573a35012d56c0cf70fbc944bc972
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '397'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 交易ID数据源是汇总数据源的变体，允许您将在线和离线数据绑定在一起。 它需要在您的 Analytics 实施中使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量。
 
-* 如果数据源文件中的行包含与AppMeasurement已收集的交易ID匹配的交易ID，则维度和量度将附加到在线点击中。
+* 如果数据源文件中的某行包含与AppMeasurement已收集的交易ID匹配的交易ID，则维度和量度将附加到在线点击中。
 * 如果数据源文件中的某行包含不含匹配项的交易ID，则该行的处理方式与汇总数据源类似。
 
 >[!NOTE]
@@ -29,14 +29,13 @@ ht-degree: 7%
 * 首先要收集和处理在线数据。 如果在报表包处理与该交易ID匹配的点击之前上载了交易ID数据源，则不会链接该数据。
 * 通过AppMeasurement收集的交易ID将在25个月后过期。
 * 使用过期的交易ID上传的数据源的处理方式与没有交易ID上传的数据的处理方式类似。
-* 如果在线点击和交易ID数据源中均包含相同变量，则使用交易ID数据源中的值。
+* 如果在线点击和交易ID数据源中均包含相同变量，则交易ID数据源中的值将用于交易数据源点击。
 * 如果某个变量包含在在线点击中，但不包含在匹配的交易ID数据源点击中，则将保留在线点击变量。
 * 如果在多个在线点击中设置相同的交易ID，则只有第一次发生事件会使用来自匹配交易ID数据源的数据进行更改。
-* 如果在同一维的多个数据源行上设置相同的交易ID，则会使用最新的维度项。
 
 例如：
 
-1. 从AppMeasurement发送页面查看，其中：
+1. 您可以从AppMeasurement发送页面查看，其中：
    * `eVar1`等于`blue`
    * `eVar2`等于`water`
    * `events`等于`event1`
