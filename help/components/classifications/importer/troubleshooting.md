@@ -3,7 +3,7 @@ title: 分类导入器故障诊断
 description: 使用分类导入器时出现的常见上载问题。
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # 分类导入器故障诊断
+
+{{classification-importer-deprecation}}
 
 将分类数据上载到 Adobe 时最常见的问题。
 

@@ -3,7 +3,7 @@ description: 描述如何删除或移除分类数据的步骤。
 title: 删除分类数据
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # 删除分类数据
+
+{{classification-importer-deprecation}}
 
 有时，上载分类数据后必须删除该数据。根据要删除的数据，可以使用 `~empty~` 或 `~deletekey~`。
 

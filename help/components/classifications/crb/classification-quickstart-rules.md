@@ -3,7 +3,7 @@ description: 分类规则会定期查找未分类的术语。如果找到匹配�
 title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 88%
@@ -11,6 +11,8 @@ ht-degree: 88%
 ---
 
 # 分类规则（旧版）
+
+{{classification-rulebuilder-deprecation}}
 
 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
 
@@ -57,7 +59,7 @@ about_classification_rules.xml
 
 ## 有关规则的重要信息
 
-* 为[!UICONTROL 管理工具]中的分类指定[组权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)。
+* 为[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)中的分类指定[!UICONTROL 组权限]。
 
 * **正则表达式**：[分类规则中的正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)下提供了相关帮助。
 
@@ -133,7 +135,7 @@ about_classification_rules.xml
 
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
-| 正则表达式 | &Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
+| 正则表达式 | &amp;Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
 
 **语法**
 
@@ -315,7 +317,7 @@ t_classification_rule.xml
    >
    >* 报告包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
    >
-   >   （有关先决条件的说明，请参阅[分类规则集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*变量*。）
+   >   （有关先决条件的说明，请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)。）
    >
    >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报告包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报告包。
 

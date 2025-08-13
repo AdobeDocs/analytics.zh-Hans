@@ -3,14 +3,16 @@ description: Adobe Analytics 支持单级别和多级别分类模型。使用分
 title: 子分类
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
 # 子分类
+
+{{classification-importer-deprecation}}
 
 Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结构可以将分类应用到分类。
 

@@ -3,7 +3,7 @@ description: 将子分类与分类规则生成器一起使用。
 title: 子分类和规则生成器
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -11,6 +11,8 @@ ht-degree: 66%
 ---
 
 # 子分类和规则生成器（旧版）
+
+{{classification-rulebuilder-deprecation}}
 
 如果确保每个子分类都有父值，则可以将分类规则生成器与子分类结合使用。
 
@@ -61,7 +63,7 @@ ht-degree: 66%
 
    示例：
 
-   | 键 | 渠道 | 广泛促销活动代码 | 广泛促销活动代码&Hat;促销活动类型 | 广泛促销活动代码&Hat;促销活动主管 | ... |
+   | 键 | 渠道 | 广泛促销活动代码 | 广泛促销活动代码&amp;Hat;促销活动类型 | 广泛促销活动代码&amp;Hat;促销活动主管 | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | 品牌 | Suzanne |  |
    | &#42; |  | 222 | 品牌 | Frank |  |

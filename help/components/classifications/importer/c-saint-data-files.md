@@ -3,7 +3,7 @@ description: 导入器允许您将文件中的分类数据批量上载至分析�
 title: 分类数据文件
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # 分类数据文件（旧版）
+
+{{classification-importer-deprecation}}
 
 导入器允许您将文件中的分类数据批量上载至分析报告。导入要求使用特定文件格式，才能成功上载数据。
 
@@ -112,7 +114,7 @@ ht-degree: 90%
 
 ### 子分类标题
 
-例如，`Campaigns^Owner`是包含`Campaign Owner`值的列的列标题。 同样，`Creative Elements^Size`是包含`Creative Elements`分类的`Size`子分类的列的列标题。
+例如，`Campaigns^Owner`是包含`Campaign Owner`值的列的列标题。 同样，`Creative Elements^Size`是包含`Size`分类的`Creative Elements`子分类的列的列标题。
 
 ## 有关分类的疑难解答
 
