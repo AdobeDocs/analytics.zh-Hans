@@ -1,22 +1,22 @@
 ---
-title: 流媒体质量量度
+title: 流媒体服务质量量度
 description: 为报表包启用[!UICONTROL 媒体质量]时可用的量度。
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
 
-# 流媒体质量量度
+# 流媒体服务质量量度
 
-*本页介绍了为报表包启用[!UICONTROL 媒体质量]时可用的量度。 有关可用维度，请参阅[流媒体质量维度](../dimensions/sm-quality.md)。*
+*本页介绍了为报表包启用[!UICONTROL 媒体质量]时可用的量度。 有关可用维度，请参阅[流媒体服务质量维度](../dimensions/sm-quality.md)。*
 
-流媒体质量量度通过流媒体收集库为数据收集提供补充报表功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集]**。 有关详细信息，请与您的Adobe客户团队联系。
+流媒体服务质量量度通过流媒体服务库为数据收集提供补充报表功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe Analytics for Streaming Media广告]**。 有关详细信息，请联系您的Adobe客户团队。
 
-当您在[媒体报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下启用&#x200B;**[!UICONTROL 媒体质量]**&#x200B;时，以下量度可用：
+当您在&#x200B;**[!UICONTROL 媒体报告]**&#x200B;下启用[媒体质量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)时，以下量度可用：
 
 | 量度名称 | 描述 | 发送条件 | 上下文数据变量 |
 | --- | --- | --- | --- |

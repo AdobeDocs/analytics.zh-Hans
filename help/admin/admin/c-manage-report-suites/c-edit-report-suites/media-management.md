@@ -4,7 +4,7 @@ title: 媒体管理
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 30%
@@ -21,7 +21,7 @@ ht-degree: 30%
 
 * [!UICONTROL **媒体报告**]
 
-  使用这些复选框可启用特定于流媒体收藏集的维度和量度。
+  使用这些复选框可启用特定于流媒体服务的维度和量度。
 
    * [媒体核心维度](/help/components/dimensions/sm-core.md)
    * [媒体核心量度](/help/components/metrics/sm-core.md)
@@ -38,6 +38,6 @@ ht-degree: 30%
 
 * [!UICONTROL **媒体分类**]
 
-  特定于“流媒体收集”维度的分类可在[!UICONTROL 媒体分类]页面上使用。 它们的操作方式与可用于转化变量的[转化分类](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)类似。 启用[!UICONTROL 媒体报表]下的某些组件会自动为您创建分类维度。 您可以使用此界面创建自己的分类维度或上载分类数据。
+  在[!UICONTROL 媒体分类]页面上提供了特定于流媒体服务维度的分类。 它们的操作方式与可用于转化变量的[转化分类](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)类似。 启用[!UICONTROL 媒体报表]下的某些组件会自动为您创建分类维度。 您可以使用此界面创建自己的分类维度或上载分类数据。
 
-有关在Adobe Analytics中合并流媒体数据的一般信息，请参阅[流媒体收集指南](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。
+有关在Adobe Analytics中合并流媒体数据的一般信息，请参阅[Adobe流媒体服务概述](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。

@@ -3,9 +3,9 @@ title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 60%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 60%
 >
 >此列表中删除了自定义变量名称、分类和访客属性。这些维度项目特定于单个报表包。
 
-## Analysis Workspace支持的Dimension
+## Analysis Workspace中支持的维度
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |---|---|
@@ -76,7 +76,7 @@ ht-degree: 60%
 | [反向链接类型](referrer-type.md) | `referrertype` |
 | [反向链接域](referring-domain.md) | `referringdomain` |
 | [地区](regions.md) | `georegion` |
-| [回访频度](return-frequency.md) | `returnfrequency` |
+| [回访频率](return-frequency.md) | `returnfrequency` |
 | SC-TnT | `tntbase` |
 | [搜索引擎](search-engine.md) | `searchengine` |
 | [搜索关键词](search-keyword.md) | `searchenginekeyword` |
@@ -100,10 +100,10 @@ ht-degree: 60%
 | [上午/下午](am-pm.md) | `timepartampm` |
 | [浏览器高度 — 分段统计](browser-height.md) | `browserheightbucketed` |
 | [浏览器宽度 — 分段统计](browser-width.md) | `browserwidthbucketed` |
-| [日](day.md) | `daterangeday` |
-| [日期](day-of-month.md) | `timepartdayofmonth` |
-| [每周时间](day-of-week.md) | `dayofweek` |
-| [每周时间](day-of-week.md) | `timepartdayofweek` |
+| [其中一天](day.md) | `daterangeday` |
+| [这月的其中一天](day-of-month.md) | `timepartdayofmonth` |
+| [这周的其中一天](day-of-week.md) | `dayofweek` |
+| [这周的其中一天](day-of-week.md) | `timepartdayofweek` |
 | [每年的某一天](day-of-year.md) | `timepartdayofyear` |
 | [上次访问间隔天数](days-since-last-visit.md) | `dayssincelastvisit` |
 | [进入自定义分析](entry-dimensions.md) | `entryprops` |
@@ -117,10 +117,10 @@ ht-degree: 60%
 | [退出网站区域](exit-dimensions.md) | `exitsitesections` |
 | [点击深度](hit-depth.md) | `hitdepth` |
 | [点击类型](hit-type.md) | `hittype` |
-| [小时](hour.md) | `daterangehour` |
-| [小时](hour-of-day.md) | `timeparthourofday` |
+| [其中一个小时](hour.md) | `daterangehour` |
+| [这天的其中一个小时](hour-of-day.md) | `timeparthourofday` |
 | [营销渠道详细信息](marketing-detail.md) | `marketingchanneldetail` |
-| [分钟](minute.md) | `daterangeminute` |
+| [其中一分钟](minute.md) | `daterangeminute` |
 | [移动设备最大书签长度](mobile-dimensions.md) | `mobilebookmarklength` |
 | [移动设备号码](mobile-dimensions.md) | `mobiledevicenumber` |
 | [移动设备DRM](mobile-dimensions.md) | `mobiledrm` |
@@ -129,20 +129,20 @@ ht-degree: 60%
 | [移动设备邮件修饰](mobile-dimensions.md) | `mobilemaildecoration` |
 | [移动网络协议](mobile-dimensions.md) | `mobilenetprotocols` |
 | [移动一键通](mobile-dimensions.md) | `mobilepushtotalk` |
-| [月](month.md) | `daterangemonth` |
-| [月份](month-of-year.md) | `timepartmonthofyear` |
+| [其中一个月](month.md) | `daterangemonth` |
+| [这年的其中一个月](month-of-year.md) | `timepartmonthofyear` |
 | [操作系统类型](operating-system-types.md) | `operatingsystemgroup` |
 | [付费搜索](paid-search.md) | `paidsearch` |
 | [永久性Cookie支持](persistent-cookie-support.md) | `persistentcookie` |
-| [季度](quarter.md) | `daterangequarter` |
-| [季度](quarter-of-year.md) | `timepartquarterofyear` |
+| [其中一个季度](quarter.md) | `daterangequarter` |
+| [这年的其中一个季度](quarter-of-year.md) | `timepartquarterofyear` |
 | 调查 | `surveybase` |
 | [页面逗留时间 — 分段统计](time-spent-on-page.md) | `averagepagetime` |
 | [页面逗留时间 — 粒度](time-spent-on-page.md) | `pagetimeseconds` |
 | [跟踪选择退出的原因](tracking-opt-out-reason.md) | `optoutreason` |
 | [工作日/周末](weekday-weekend.md) | `timepartweekdayweekend` |
-| [周](week.md) | `daterangeweek` |
-| [年](year.md) | `daterangeyear` |
+| [其中一周](week.md) | `daterangeweek` |
+| [其中一年](year.md) | `daterangeyear` |
 
 ## 仅在 Analysis Workspace 中受支持的内容感知维度
 
@@ -157,7 +157,7 @@ ht-degree: 60%
 
 ## Analysis Workspace支持的内容感知维度
 
-### 视频（流媒体收藏集）
+### 视频（流媒体服务）
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
@@ -209,7 +209,7 @@ ht-degree: 60%
 
 ### Adobe Social
 
-Adobe Social退休了。
+Adobe Social已停用。
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
@@ -279,7 +279,7 @@ Adobe Social退休了。
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
-| [Activity Map链接（按地区）](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [按地区划分的Activity Map链接](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
 | [Activity Map地区](activity-map-region.md) | `clickmapregion` |
 | [Activity Map链接](activity-map-link.md) | `clickmaplink` |
 | [Activity Map页面](activity-map-page.md) | `clickmappage` |

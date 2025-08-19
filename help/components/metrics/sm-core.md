@@ -1,22 +1,22 @@
 ---
-title: 流媒体核心量度
+title: 流媒体服务核心量度
 description: 为报表包启用[!UICONTROL 媒体核心]时可用的量度。
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
 
-# 流媒体核心量度
+# 流媒体服务核心量度
 
-*本页介绍了为报表包启用[!UICONTROL 媒体核心]时可用的量度。 有关可用维度，请参阅[流媒体核心维度](../dimensions/sm-core.md)。*
+*本页介绍了为报表包启用[!UICONTROL 媒体核心]时可用的量度。 有关可用维度，请参阅[流媒体服务核心维度](../dimensions/sm-core.md)。*
 
-流媒体核心量度为通过流媒体收集库收集的数据提供基本报表功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe流媒体收藏集]**。 有关详细信息，请与您的Adobe客户团队联系。
+流媒体服务核心量度为通过流媒体服务收集库收集的数据提供基本报表功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe Analytics for Streaming Media广告]**。 有关详细信息，请联系您的Adobe客户团队。
 
-当您在[媒体报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下启用&#x200B;**[!UICONTROL 媒体核心]**&#x200B;时，以下量度可用：
+当您在&#x200B;**[!UICONTROL 媒体报告]**&#x200B;下启用[媒体核心](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)时，以下量度可用：
 
 | 量度名称 | 描述 | 发送条件 | 上下文数据变量 |
 | --- | --- | --- | --- |

@@ -1,24 +1,24 @@
 ---
-title: 流媒体质量维度
+title: 流媒体服务质量维度
 description: 为报表包启用[!UICONTROL 媒体质量]时可用的维度。
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
 
-# 流媒体质量维度
+# 流媒体服务质量维度
 
-*本页介绍了为报表包启用[!UICONTROL 媒体质量]时可用的维度。 有关可用量度，请参阅[流媒体质量量度](../metrics/sm-quality.md)。*
+*本页介绍了为报表包启用[!UICONTROL 媒体质量]时可用的维度。 有关可用的量度，请参阅[流媒体服务质量量度](../metrics/sm-quality.md)。*
 
-流媒体质量维度提供与访客使用的内容质量相关的报表。 使用这些维度需要[!UICONTROL Adobe流媒体收藏集]。 有关详细信息，请与您的Adobe客户团队联系。
+流媒体服务质量维度提供与访客使用的内容质量相关的报表。 使用这些维度需要[!UICONTROL Adobe Analytics for Streaming Media广告]。 有关详细信息，请联系您的Adobe客户团队。
 
-当您在[媒体报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下启用&#x200B;**[!UICONTROL 媒体质量]**&#x200B;时，以下维度可用：
+当您在&#x200B;**[!UICONTROL 媒体报告]**&#x200B;下启用[媒体质量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)时，以下维度可用：
 
-| Dimension名称 | 描述 | 发送条件 | 上下文数据变量 |
+| 维度名称 | 描述 | 发送条件 | 上下文数据变量 |
 | --- | --- | --- | --- |
 | 平均比特率 | 以100-KBPS存储段间隔表示的平均比特率。 其计算为与给定播放会话的播放持续时间相关的所有比特率值的加权平均值。 | 媒体关闭 | `a.media.qoe.bitrateAverageBucket` |
 | 比特率更改 | 播放会话期间发生比特率更改的次数。 | 媒体关闭 | `a.media.qoe.bitrateChangeCount` |

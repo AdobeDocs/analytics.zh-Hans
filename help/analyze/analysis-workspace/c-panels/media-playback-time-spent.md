@@ -4,10 +4,10 @@ description: 了解如何在Analysis Workspace中使用和解释“Media Playbac
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 98%
+source-wordcount: '1167'
+ht-degree: 90%
 
 ---
 
@@ -34,22 +34,23 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的媒体播放耗时面板。_<br/>_请参阅[媒体播放耗时面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的媒体播放耗时面板。_<br/>_请参阅[媒体播放耗时面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->只有购买了 Adobe Analytics 流媒体集合附加组件的客户才能使用媒体平均受众访问分钟数面板。
->&#x200B;>请联系您的 Adobe 销售代表或 Adobe 帐户团队以获取更多信息。
+>“媒体平均受众访问分钟数”面板仅适用于已购买Adobe Analytics for Streaming Media加载项的客户。
+>
+>请联系您的 Adobe 销售代表或 Adobe 帐户团队以获取更多信息。
 >
 
 **[!UICONTROL 媒体播放耗时]**&#x200B;面板支持长期分析播放，其中提供关于并发高峰的详细信息，并可进行细分和比较。
 
 在 Analysis Workspace 中，播放耗时是指在特定时间点查看媒体流的耗时。它包括暂停、缓冲和开始时间。
 
-已购买流媒体收藏附加组件的客户可以分析播放耗时，从而深入了解内容质量和查看者参与度。并在故障排除或规划容量或规模时提供帮助。
+已购买Adobe Analytics for Streaming Media加载项的客户可以分析播放耗时，从而通过内容质量和查看者参与度获得宝贵的insight。 并在故障排除或规划容量或规模时提供帮助。
 
 播放耗时可以帮助您了解：
 
@@ -59,7 +60,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体播放耗时面板](https://video.tv.adobe.com/v/3446710?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体播放耗时面板](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +70,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 1. 创建&#x200B;**[!UICONTROL 媒体播放耗时]**&#x200B;面板。有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
 
-1. 确保为面板选择的数据视图已从流媒体集合中配置了组件。
+1. 确保为面板选择数据视图，该面板具有从Adobe Analytics for Streaming Media加载项配置的组件。
 
 1. 指定面板的[输入](#panel-input)。
 
@@ -87,7 +88,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 | 面板摘要数字 | 要查看播放耗时的日期或时间详细信息，可以使用摘要数字。“最大值”显示并发峰值的详细信息。“最小值”显示低谷期的详细信息。“总和”将计算用于选择的播放耗时的总和。面板默认值仅显示“最大值”，不过您可以将其更改为显示“最小值”、“总和”或这三个值的任意组合。<br>如果您使用细分，则会为每一项显示摘要数字。 |
 | 系列细分 | （可选）您可以按过滤器、维度、维度项或日期范围细分可视化图表。<p>– 一次最多可以查看 10 行。细分仅限一个级别。</p><p>- 在拖动一个维度时，将根据所选面板日期范围，自动选择顶部维度项。</p>– 要比较日期范围，请将 2 个或更多日期范围拖入系列细分过滤器中。 |
 | 时间格式 | 您可以按 `Hours:Minutes:Seconds`（默认）或 `Minutes`（以整数显示，四舍五入到 0.5）格式查看播放耗时。 |
-| 日期序列显示 | 如果您已放置至少两个日期范围过滤器作为系列细分，您将看到用于选择叠加（默认）或顺序的选项。“叠加”显示具有公共 x 轴起点的线，以便它们并行运行，而“顺序”显示具有特定 x 轴起点的线。如果数据对齐（例如，过滤器 1 于晚上 8:44 结束，过滤器 2 于晚上 8:45 开始），则这些线按顺序显示。 |
+| 日期序列显示 | 如果您已放置至少两个日期范围过滤器作为系列细分，您将看到用于选择叠加（默认）或顺序的选项。“叠加”显示具有公共 x 轴起点的线，以便它们并行运行，而“顺序”显示具有特定 x 轴起点的线。如果数据对齐（例如，过滤器1在下午8:44结束，过滤器2在下午8:45开始），则这些行将按顺序显示。 |
 
 
 ![媒体播放耗时的默认视图。](assets/mpts_default_view.png)
@@ -125,8 +126,8 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 >[!MORELIKETHIS]
 >
 >[Create a panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[“媒体平均受众访问分钟数”面板](average-minute-audience-panel.md)
->&#x200B;>[媒体并行查看者面板](media-concurrent-viewers.md)
+>>[“媒体平均受众访问分钟数”面板](average-minute-audience-panel.md)
+>>[媒体并行查看者面板](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446710?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3686'
 ht-degree: 66%
 
 ---
@@ -150,9 +150,9 @@ ht-degree: 66%
 | **`os`** | 表示访客的操作系统的数值ID。 基于 `user_agent` 列。`operating_system.tsv` 标准查找和 `operating_system_type.tsv` [动态查找](dynamic-lookups.md)的关键值。 | 无符号 int |
 | **`page_event`** | 在图像请求中发送的点击类型（标准点击、下载链接、自定义链接、退出链接）。请参阅[页面事件查找](datafeeds-page-event.md)。 | 无符号 tinyint |
 | **`page_event_var1`** | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | 文本 |
-| **`page_event_var2`** | 仅用于链接跟踪图像请求。链接的自定义名称（如果已指定）。 根据`page_event`中的值设置[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)或[退出链接](/help/components/dimensions/exit-link.md)。 | varchar(100) |
+| **`page_event_var2`** | 仅用于链接跟踪图像请求。链接的自定义名称（如果已指定）。 根据[中的值设置](/help/components/dimensions/custom-link.md)自定义链接[、](/help/components/dimensions/download-link.md)下载链接[或](/help/components/dimensions/exit-link.md)退出链接`page_event`。 | varchar(100) |
 | **`page_type`** | 找不到[页面](/help/components/dimensions/pages-not-found.md)维度，该维度通常用于404页面。 | char(20) |
-| **`page_url`** | 点击的 URL。请注意，为链接跟踪图像请求([`tl()`](/help/implement/vars/functions/tl-method.md))剥离了`post_page_url`，并使用varchar(255)数据类型。 | 文本 |
+| **`page_url`** | 点击的 URL。请注意，为链接跟踪图像请求(`post_page_url`)剥离了[`tl()`](/help/implement/vars/functions/tl-method.md)，并使用varchar(255)数据类型。 | 文本 |
 | **`pagename`** | [页面](/help/components/dimensions/page.md)维度。 如果 [`pagename`](/help/implement/vars/page-vars/pagename.md) 变量为空，则 Analytics 改用 `page_url`。 | varchar(100) |
 | **`pagename_no_url`** | 与 `pagename` 类似，但它不会回退到 `page_url`。仅 `post` 列可用。 | varchar(100) |
 | **`paid_search`** | 确定点击是否与付费搜索检测匹配的标记。 | 无符号 tinyint |
@@ -193,50 +193,50 @@ ht-degree: 66%
 | **`va_finder_id`** | 标识[首次接触渠道](/help/components/dimensions/first-touch-channel.md)维度的数值ID。 此ID的查找可在营销渠道管理器中找到。 | 无符号 tinyint |
 | **`va_instance_event`** | 标识营销渠道[实例](/help/components/metrics/instances.md)的标志。 | 无符号 tinyint |
 | **`va_new_engagement`** | 标识营销渠道[新参与](/help/components/metrics/new-engagements.md)的标志。 | 无符号 tinyint |
-| **`video`** | [内容](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
-| **`videoad`** | [广告](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
-| **`videoadinpod`** | 面板中的[广告位置](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
-| **`videoadlength`** | [广告长度（变量）](/help/components/dimensions/sm-ads.md)流媒体维度。 | 整数 |
-| **`videoadload`** | [广告加载](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
-| **`videoadname`** | [广告名称（变量）](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
-| **`videoadplayername`** | [广告播放器名称](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
-| **`videoadpod`** | [广告Pod](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
-| **`videoadvertiser`** | [广告商](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
-| **`videoaudioalbum`** | [相册](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
-| **`videoaudioartist`** | [艺人](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
-| **`videoaudioauthor`** | [作者](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
-| **`videoaudiolabel`** | [标签](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
-| **`videoaudiopublisher`** | [发布者](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
-| **`videoaudiostation`** | [电台](/help/components/dimensions/sm-audio-metadata.md)流媒体维度。 | varchar(255) |
-| **`videocampaign`** | [促销活动ID](/help/components/dimensions/sm-ads.md)流媒体维度。 | varchar(255) |
-| **`videochannel`** | [内容频道](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
-| **`videochapter`** | [Chapter](/help/components/dimensions/sm-chapters.md)流媒体维度。 | varchar(255) |
-| **`videocontenttype`** | [内容类型](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
-| **`videodaypart`** | [天部分](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
-| **`videoepisode`** | [Episode](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
-| **`videofeedtype`** | [媒体馈送类型](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
-| **`videogenre`** | [流派](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 此维度允许在同一个点击中使用多个值，并以逗号分隔。 | 文本 |
-| **`videolength`** | [内容长度（变量）](/help/components/dimensions/sm-core.md)流媒体维度。 | 整数 |
-| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
-| **`videoname`** | [内容名称（变量）](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
-| **`videonetwork`** | [网络](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
-| **`videopath`** | [媒体路径](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(100) |
-| **`videoplayername`** | [内容播放器名称](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
-| **`videotime`** | [内容逗留时间](/help/components/metrics/sm-core.md)流媒体量度。 | 整数 |
-| **`videoqoebitrateaverageevar`** | [平均比特率](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
-| **`videoqoebitratechangecountevar`** | [比特率更改](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
-| **`videoqoebuffercountevar`** | [缓冲事件](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
-| **`videoqoebuffertimeevar`** | 总缓冲持续时间[个](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
-| **`videoqoedroppedframecountevar`** | [丢帧](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
-| **`videoqoeerrorcountevar`** | [错误](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
-| **`videoqoeextneralerrors`** | [外部错误ID](/help/components/dimensions/sm-quality.md)流媒体维度。 此维度允许在同一次点击中使用多个值。 | 文本 |
-| **`videoqoeplayersdkerrors`** | [播放器SDK错误ID](/help/components/dimensions/sm-quality.md)流媒体维度。 此维度允许在同一次点击中使用多个值。 | 文本 |
-| **`videoqoetimetostartevar`** | [开始时间](/help/components/dimensions/sm-quality.md)流媒体维度。 | varchar(255) |
-| **`videoseason`** | [季](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
-| **`videosegment`** | [内容区段](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
-| **`videoshow`** | [节目](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
-| **`videoshowtype`** | [节目类型](/help/components/dimensions/sm-video-metadata.md)流媒体维度。 | varchar(255) |
-| **`videostreamtype`** | [流类型](/help/components/dimensions/sm-core.md)流媒体维度。 | varchar(255) |
+| **`video`** | [内容](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
+| **`videoad`** | [广告](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | varchar(255) |
+| **`videoadinpod`** | 面板中的[广告位置](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | varchar(255) |
+| **`videoadlength`** | [广告长度（变量）](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | 整数 |
+| **`videoadload`** | [广告加载](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | varchar(255) |
+| **`videoadname`** | [广告名称（变量）](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | varchar(255) |
+| **`videoadplayername`** | [广告播放器名称](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | varchar(255) |
+| **`videoadpod`** | [广告Pod](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | varchar(255) |
+| **`videoadvertiser`** | [广告商](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | varchar(255) |
+| **`videoaudioalbum`** | [相册](/help/components/dimensions/sm-audio-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videoaudioartist`** | [艺人](/help/components/dimensions/sm-audio-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videoaudioauthor`** | [作者](/help/components/dimensions/sm-audio-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videoaudiolabel`** | [标签](/help/components/dimensions/sm-audio-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videoaudiopublisher`** | [发布者](/help/components/dimensions/sm-audio-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videoaudiostation`** | [电台](/help/components/dimensions/sm-audio-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videocampaign`** | [促销活动ID](/help/components/dimensions/sm-ads.md)流媒体服务维度。 | varchar(255) |
+| **`videochannel`** | [内容频道](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
+| **`videochapter`** | [Chapter](/help/components/dimensions/sm-chapters.md)流媒体服务维度。 | varchar(255) |
+| **`videocontenttype`** | [内容类型](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
+| **`videodaypart`** | [天部分](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videoepisode`** | [Episode](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videofeedtype`** | [媒体馈送类型](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videogenre`** | [流派](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 此维度允许在同一个点击中使用多个值，并以逗号分隔。 | 文本 |
+| **`videolength`** | [内容长度（变量）](/help/components/dimensions/sm-core.md)流媒体服务维度。 | 整数 |
+| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videoname`** | [内容名称（变量）](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
+| **`videonetwork`** | [网络](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videopath`** | [媒体路径](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(100) |
+| **`videoplayername`** | [内容播放器名称](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
+| **`videotime`** | [内容逗留时间](/help/components/metrics/sm-core.md)流媒体服务量度。 | 整数 |
+| **`videoqoebitrateaverageevar`** | [平均比特率](/help/components/dimensions/sm-quality.md)流媒体服务维度。 | varchar(255) |
+| **`videoqoebitratechangecountevar`** | [比特率更改](/help/components/dimensions/sm-quality.md)流媒体服务维度。 | varchar(255) |
+| **`videoqoebuffercountevar`** | [缓冲事件](/help/components/dimensions/sm-quality.md)流媒体服务维度。 | varchar(255) |
+| **`videoqoebuffertimeevar`** | [总缓冲持续时间](/help/components/dimensions/sm-quality.md)流媒体服务维度。 | varchar(255) |
+| **`videoqoedroppedframecountevar`** | [丢帧](/help/components/dimensions/sm-quality.md)流媒体服务维度。 | varchar(255) |
+| **`videoqoeerrorcountevar`** | [错误](/help/components/dimensions/sm-quality.md)流媒体服务维度。 | varchar(255) |
+| **`videoqoeextneralerrors`** | [外部错误ID](/help/components/dimensions/sm-quality.md)流媒体服务维度。 此维度允许在同一次点击中使用多个值。 | 文本 |
+| **`videoqoeplayersdkerrors`** | [播放器SDK错误ID](/help/components/dimensions/sm-quality.md)流媒体服务维度。 此维度允许在同一次点击中使用多个值。 | 文本 |
+| **`videoqoetimetostartevar`** | [开始时间](/help/components/dimensions/sm-quality.md)流媒体服务维度。 | varchar(255) |
+| **`videoseason`** | [季](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videosegment`** | [内容区段](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
+| **`videoshow`** | [节目](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videoshowtype`** | [节目类型](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
+| **`videostreamtype`** | [流类型](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
 | **`visid_high`** | 与 `visid_low` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | **`visid_low`** | 与 `visid_high` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | **`visid_new`** | 确定点击是否包含新生成的访客ID的标记。 | char(1) |
@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM对象变量映射](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[数据对象变量映射](/help/implement/aep-edge/data-var-mapping.md)
+>>[数据对象变量映射](/help/implement/aep-edge/data-var-mapping.md)
