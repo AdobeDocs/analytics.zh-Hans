@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的媒体播放耗时面板。_<br/>_请参阅[媒体播放耗时面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的媒体播放耗时面板。_<br/>_请参阅[媒体播放耗时面板](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -126,8 +126,8 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!MORELIKETHIS]
 >
 >[Create a panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[“媒体平均受众访问分钟数”面板](average-minute-audience-panel.md)
->>[媒体并行查看者面板](media-concurrent-viewers.md)
+>&#x200B;>[“媒体平均受众访问分钟数”面板](average-minute-audience-panel.md)
+>&#x200B;>[媒体并行查看者面板](media-concurrent-viewers.md)
 >
 
 <!--
