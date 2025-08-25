@@ -4,10 +4,10 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
-workflow-type: ht
-source-wordcount: '2166'
-ht-degree: 100%
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 97%
 
 ---
 
@@ -77,13 +77,25 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 * 选择 Workspace 最后一个面板&#x200B;**外**&#x200B;的 ![AddCircle](/help/assets/icons/AddCircle.svg) 以添加另一个[空白面板](blank-panel.md)。
 
 
+## 管理面板
+
+您可以通过以下方式管理面板：
+
+![管理面板](assets/manage-panel.png)
+
+* 要折叠面板，请选择![V形向下](/help/assets/icons/ChevronDown.svg)。
+* 要显示折叠的面板，请选择![左侧V形](/help/assets/icons/ChevronLeft.svg)。
+* 要删除面板，请选择![CrossSize400](/help/assets/icons/CrossSize200.svg)。 要撤消操作，请选择&#x200B;**[!UICONTROL 编辑]** > **[!UICONTROL 撤消]** (**[!UICONTROL *cmd+z *]**) |**[!UICONTROL * ctrl+z *]**)。
+* 若要移动面板，请每当![移动](/help/assets/icons/Move.svg)可见时拖放该面板（通常是将鼠标悬停在标题上）。
+
+
 ## 报告包
 
 每个面板都与一个[报告包](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相关联，通过面板右上角下拉菜单中&#x200B;**[!UICONTROL *报告包&#x200B;*]**的![数据](/help/assets/icons/Data.svg)名称进行标识。
 
 当您创建新面板时，默认报告包基于您上次在 Analysis Workspace 项目中处理的面板报告包。
 
-在项目中，您可以根据分析用例，使用一个或[多个报告包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans)。
+在项目中，您可以根据分析用例，使用一个或[多个报告包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)。
 
 报告包的列表按照相关性排序，Adobe 根据当前用户在近期使用该包的频率以及该包在组织中的使用频率来定义相关性。
 
@@ -161,7 +173,7 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉区段](https://video.tv.adobe.com/v/327489?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉区段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -272,7 +284,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -336,7 +348,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hans) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

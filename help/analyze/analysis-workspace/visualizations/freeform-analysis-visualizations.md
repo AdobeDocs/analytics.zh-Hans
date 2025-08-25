@@ -5,10 +5,10 @@ title: 可视化概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 94%
+source-wordcount: '1707'
+ht-degree: 88%
 
 ---
 
@@ -93,6 +93,21 @@ Analysis Workspace 中提供了以下可视化图表类型：
 
    * 从自由格式表的上下文菜单中，选择&#x200B;**[!UICONTROL 可视化图表]**。然后，从子菜单中选择可视化图表。根据表中的当前选择，工作区会确定提供哪种可视化图表，并解释数据以生成所请求的可视化图表。
 
+添加简单的可视化图表，例如[条形图](line.md)的[折线图](bar.md)可视化图表时，该可视化图表使用最接近的自由格式表作为数据源。 您始终可以修改可视化图表的[数据源](#data-source)。
+
+## 管理可视化图表
+
+当您将鼠标悬停在可视化图表上或选择可视化图表时，可以管理该可视化图表。
+
+![管理可视化图表](assets/manage-visualization.png)
+
+* 要折叠可视化图表，请选择![V形向下](/help/assets/icons/ChevronDown.svg)。
+* 要显示折叠的可视化图表，请选择![V形左侧](/help/assets/icons/ChevronLeft.svg)。
+* 要删除可视化图表，请选择![CrossSize400](/help/assets/icons/CrossSize400.svg)。 要撤消操作，请选择&#x200B;**[!UICONTROL 编辑]** > **[!UICONTROL 撤消]** (**[!UICONTROL *cmd+z *]**) |**[!UICONTROL * ctrl+z *]**)。
+* 要将可视化返回到默认高度，请选择![ImageResize](/help/assets/icons/Resize.svg)。
+* 要在面板中移动可视化图表，请在![移动](/help/assets/icons/Move.svg)可见时拖放该可视化图表（通常是将鼠标悬停在标题上）。
+
+
 ## 图例
 
 可视化图表图例可帮助您将源表中的日期与可视化图表中绘制的系列关联起来。图例是交互式的 - 您可以选择图例项来显示/隐藏可视化图表中的一个系列，如果您想简化可视化图表的数据，这将很有帮助。
@@ -110,6 +125,20 @@ Analysis Workspace 中提供了以下可视化图表类型：
 1. 按 **[!UICONTROL Enter]** 键保存。
 
 
+## 设置
+
+每个可视化图表都有其自己的设置。要访问可视化设置，请选择可视化标头中的 ![设置](/help/assets/icons/Setting.svg) **[!UICONTROL 设置]**&#x200B;以显示弹出窗口。
+
+根据可视化效果，您可以配置
+
+* 可视化数据来源的详细信息（通过[**[!UICONTROL 数据源]**](#data-source)选项卡进行配置），以及
+* 可视化设置（通过[**[!UICONTROL 设置]**](#settings-1)选项卡进行配置）。
+
+![可视化设置](assets/visualization-settings.png)
+
+### 数据源
+
+您可以控制哪个数据源以及该数据源中的哪些项目或位置与可视化相对应。请参阅[管理数据源](t-sync-visualization.md)，以了解详细信息。
 
 ### 设置
 
@@ -217,8 +246,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
@@ -234,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/41450/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->
