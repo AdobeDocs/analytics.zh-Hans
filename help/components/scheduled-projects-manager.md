@@ -3,9 +3,9 @@ description: 了解如何管理计划项目。
 title: 计划项目
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '795'
 ht-degree: 41%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 41%
 | 图标 | 操作 | 描述 |
 |:---:|---|---|
 | ![关闭](/help/assets/icons/Close.svg) | **[!UICONTROL *x *已选择]** | 选择以取消选择您选择的计划项目。 |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 删除]** | 为项目删除选定的计划项目；不会删除这些项目。 |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 删除]** | 为项目删除选定的计划项目；不会删除这些项目。 <p>有关删除项目的信息，请参阅[项目概述](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。</p> |
 | ![标签](/help/assets/icons/Labels.svg) | **[!UICONTROL 标记]** | 标记所选的计划项目。 在&#x200B;**[!UICONTROL 标记计划项目]**&#x200B;中选择标记并选择&#x200B;**[!UICONTROL 保存]**&#x200B;以进行保存。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 批准]** | 批准所选的计划项目。 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 导出至 CSV]** | 将所选计划项目导出到名为`Export Scheduled Projects List.csv`的文件。 |
