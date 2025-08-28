@@ -4,18 +4,18 @@ description: 覆盖 AppMeasurement 在链接跟踪调用中使用的自动生成
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 65%
+source-wordcount: '190'
+ht-degree: 37%
 
 ---
 
 # linkURL
 
-每当向 Adobe 发送链接跟踪调用时，数据收集服务器都会自动检测 URL。使用 `linkURL` 变量可覆盖检测到的 URL。
+每当向Adobe发送链接跟踪调用时，AppMeasurement都会检测所单击的URL。 此URL可帮助确定链接类型，如下载链接和退出链接。 使用 `linkURL` 变量可覆盖检测到的 URL。
 
-Analysis Workspace中没有报告此变量的维度。 它填充[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)中的`page_event_var1`列。
+Analysis Workspace中没有报告此变量的维度。 它填充`page_event_var1`数据馈送[中的](/help/export/analytics-data-feed/data-feed-overview.md)列。 如果要跟踪点击链接的URL，Adobe建议使用自定义变量，如[Prop](../page-vars/prop.md)。
 
 ## 使用Web SDK的“链接URL”
 
@@ -30,7 +30,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.linkURL
 
-`s.linkURL` 变量是一个字符串，包含点击链接时浏览器的 URL。此变量不会填充报表中可用的任何维度。
+`s.linkURL`变量是一个字符串，包含点击链接的完整URL。 此变量不会填充报表中可用的任何维度。
 
 ```js
 s.linkURL = "https://example.com";
