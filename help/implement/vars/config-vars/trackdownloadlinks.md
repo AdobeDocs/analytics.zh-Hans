@@ -28,7 +28,7 @@ Adobe 提供跟踪下载链接的功能，无需为每个下载链接手动设�
 
 ## 启用或禁用手动实施Web SDK的点击收集
 
-使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)配置SDK。 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。如果要禁用自动链接跟踪，则将此值设置为`false`。 此设置处理下载链接和退出链接的自动链接跟踪。
+使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans#clickCollectionEnabled)配置SDK。 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。如果要禁用自动链接跟踪，则将此值设置为`false`。 此设置处理下载链接和退出链接的自动链接跟踪。
 
 ```json
 alloy("configure", {
