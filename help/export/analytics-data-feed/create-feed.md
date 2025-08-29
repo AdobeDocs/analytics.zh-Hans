@@ -3,9 +3,9 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及有关要提供给Adobe的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 53%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **名称**] | 数据馈送的名称。 在选定的报表包中，名称必须是唯一的，且长度最多为 255 个字符。 |
+   | [!UICONTROL **名称**] | 数据馈送的名称。 在选定的报表包中，名称必须是唯一的，且长度最多为255个字符。 [了解详情](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **报告包**] | 数据馈送所基于的报表包。 如果为同一报表包创建了多个数据馈送，则它们必须具有不同的列定义。只有源报表包支持数据馈送；虚拟报表包则不支持。 |
    | [!UICONTROL **完成时发送电子邮件**] | 在馈送完成处理时要通知的电子邮件地址。 电子邮件地址的格式必须正确。 |
    | [!UICONTROL **馈送间隔**] | 为回填或历史数据选择&#x200B;**每日**。 每日馈送包含一天的数据，从报表包所在时区的午夜到午夜。 选择&#x200B;**每小时**&#x200B;以继续获取数据（如果您愿意，也可选择“每日”继续获取信息源）。 每小时馈送包含一个小时的数据。 |
