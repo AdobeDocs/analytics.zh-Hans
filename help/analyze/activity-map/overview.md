@@ -4,10 +4,10 @@ title: Activity Map 概述
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: dee8f0a13a159f4c7902d2ccddd8848c4016b471
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 5%
+source-wordcount: '605'
+ht-degree: 4%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 5%
 
 Adobe Analytics Activity Map 是 Adobe Analytics 中的一项功能，它用视觉方式展示用户使用网页和移动设备应用程序的情况。它允许营销人员和分析人员跟踪和分析用户交互，如点击次数和滚动行为。 Activity Map生成热图和叠加报表，这些报表显示网页上最受欢迎的元素，可帮助您优化数字体验。
 
-本文档的这一部分重点介绍Activity Map叠加。 但是，使用Activity Map还有其他重要部分：
+Activity Map作为一个概念，由几个重要组件组成：
 
-* **报表包设置**：报表包必须启用Activity Map。 请参阅报表包设置中的[Activity Map报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)。
+* **报表包设置**：报表包必须先启用Activity Map，然后才能开始使用。 请参阅报表包设置中的[Activity Map报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)。
 * **实施**：大多数Activity Map报表都是现成可用的。 但是，某些网站可能需要额外的实施才能充分利用链接跟踪。 以下实施变量可供使用：
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：按链接名称筛选点击数据。
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：按区域名称筛选点击数据。
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)：更改填充Activity Map Region维度的属性。
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md)：自定义Activity Map用于填充Activity Map链接维度的逻辑。
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md)：自定义Activity Map用于填充Activity Map区域维度的逻辑。
+* **覆盖**：一种浏览器扩展，允许您查看网站上覆盖的点击数据。 有关详细信息，请参阅[Activity Map扩展接口](overlay/overview.md)。
 * **维度**：除了叠加扩展之外，Activity Map还提供了多个可在Analysis Workspace中使用的维度。
    * [Activity Map链接](/help/components/dimensions/activity-map-link.md)：已单击的链接名称。
    * [Activity Map地区](/help/components/dimensions/activity-map-region.md)：被点击的地区名称。

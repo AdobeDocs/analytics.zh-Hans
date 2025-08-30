@@ -1,33 +1,32 @@
 ---
-description: 您可以在 Adobe Analytics 中查看 Activity Map 数据
-title: 查看 Adobe Analytics 中的 Activity Map 数据
+description: 启用维度，以便Activity Map能够收集数据。
+title: Activity Map 报表功能
 feature: Admin Tools
 exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 3%
 
 ---
 
-# 查看 Adobe Analytics 中的 Activity Map 数据
+# Activity Map 报表功能
 
-在 Analytics 中启用 Activity Map 报告功能的管理步骤。
+允许您启用维度以用于[Activity Map](/help/analyze/activity-map/overview.md)。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 报告]**
+**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** >选择报表包> **[!UICONTROL 编辑设置]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map报表]**
 
-允许 Analytics 收集 Activity Map（以前的 ClickMap）中提供的用户活动。此集成
+本文档的这一部分重点介绍如何启用Activity Map使用的维度。 有关叠加、实现变量和维度的更多信息，请参阅[Activity Map概述](/help/analyze/activity-map/overview.md)。
 
-* 在 Analytics 中启用了报告功能。
-* 在&#x200B;**[!UICONTROL 查看所有报告]** > **[!UICONTROL Activity Map]** 下添加了新报告：
+当您选择&#x200B;**[!UICONTROL 启用Activity Map报表]**&#x200B;按钮时，将创建以下维度：
 
-  | 报告 | 描述 |
-  |---|---|
-  | Activity Map 页面 | 列出访客点击了其中链接的页面。 |
-  | Activity Map 区域 | 列出在整个网站中收集的所有链接区域。请注意，如果某个区域在多个页面中出现，则该量度将采用其所有页面的汇总值。 |
-  | Activity Map 链接 | 列出在整个网站中收集的所有链接。 |
-  | Activity Map 链接和区域 | 列出在整个网站中收集的所有链接及其区域。 |
+* [[!UICONTROL Activity Map链接]](/help/components/dimensions/activity-map-link.md)：已单击的链接名称。
+* [[!UICONTROL Activity Map地区]](/help/components/dimensions/activity-map-region.md)：被点击的地区名称。
+* [[!UICONTROL Activity Map页面]](/help/components/dimensions/activity-map-page.md)：链接被单击时的页面名称。
+* [[!UICONTROL 按地区]](/help/components/dimensions/activity-map-link-by-region.md)列出的Activity Map链接： Activity Map链接与Activity Map地区的拼接值。
 
-要填充数据，请参阅 [Activity Map 文档](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-Hans)，以了解完整的实施说明。
+启用后，您的实施可以开始将数据发送到这些维度，以在[Analysis Workspace](/help/analyze/analysis-workspace/home.md)和[浏览器扩展叠加](/help/analyze/activity-map/overlay/overview.md)中使用。
 
-<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
+>[!NOTE]
+>
+>当您为报表包启用Activity Map时，它将在未来永久启用，而不会以任何方式禁用它。

@@ -5,16 +5,20 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
 
 # Activity Map扩展界面
 
-Activity Map扩展界面由两部分组成：
+Activity Map扩展允许您查看网站上覆盖的点击数据。 您可以通过导航到以下页面来下载扩展，其中提供了指向网络商店的链接：
+
+**[!UICONTROL 工具]** > **[!UICONTROL Activity Map]** > **[!UICONTROL 下载Activity Map]**
+
+安装并启用后，该接口将包含几个部分：
 
 * 一个顶部面板，可让您配置扩展和报表
 * 显示最受欢迎链接的叠加图
