@@ -62,4 +62,4 @@ ht-degree: 66%
 
 * 您可能需要使用数据科学家的服务，而不是仅仅依靠 Analysis Workspace。
 * 您可以依赖原始数据，就像在 Adobe 数据馈送中一样。
-* 例如，如果您要考虑展示数据，请考虑使用[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。
+* 例如，如果您要考虑展示数据，请考虑使用[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。

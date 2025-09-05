@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 使用 Adobe Analytics 扩展实施 Analytics
 
-在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe当前推荐的方法是通过Adobe Experience Platform中的[标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
+在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe当前推荐的方法是通过Adobe Experience Platform中的[标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)。
 
 Adobe Experience Platform 中的标记是一款标记管理解决方案，可让您在满足其他标记要求的同时部署 Analytics 代码。Adobe 提供了与其他解决方案和产品的集成，并允许您部署自定义代码。无需依赖组织中的开发团队，也可以完成以下所有任务，进而更新网站上的代码。
 
@@ -53,7 +53,7 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 <tr>
 <td>4</td><td>在标记属性中<b>安装 Analytics 扩展</b>。 配置 Analytics 扩展以将数据发送到 Adobe Analytics。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html">Adobe Analytics 扩展概述</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=zh-Hans">Adobe Analytics 扩展概述</a></td>
 </tr>
 
 <tr>
@@ -65,7 +65,7 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 <tr>
 <td>6</td> 
 <td><b>验证并发布到生产环境</b>. 嵌入代码以将标记资产包含到网站页面。 然后使用数据元素、规则等来定制您的实施。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">嵌入代码</a><br/><a href="./validate-publish-prod.md">验证开发实施并发布到生产环境</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hans#embed-code">嵌入代码</a><br/><a href="./validate-publish-prod.md">验证开发实施并发布到生产环境</a></td>
 </tr>
 
 </table>

@@ -39,7 +39,7 @@ ht-degree: 96%
       + [Advertising Analytics 疑难解答](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [常见问题解答](c-advertising-analytics/aa-faq.md)
 + [Adobe Analytics for Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=zh-Hans)
-+ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
++ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 + [Adobe Analytics 中的 Adobe Campaign 报告功能](adobe-campaign.md)
 + [将 Adobe Analytics 数据与 Adobe Campaign Classic 集成](analytics-to-campaign-classic.md)
 + [AEM Assets 报告](aem-assets-reporting.md)
