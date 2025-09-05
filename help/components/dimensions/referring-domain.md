@@ -3,7 +3,7 @@ title: 反向链接域
 description: 访客在点击进入到您的网站之前所处的首要域。
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 97%
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->必须配置报表包的[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)，才能使用此维度。无法配置内部 URL 过滤器，可能会包含内部域或阻止出现外部域。
+>必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)，才能使用此维度。无法配置内部 URL 过滤器，可能会包含内部域或阻止出现外部域。
 
 同一报表在 Analysis Workspace 和 Data Warehouse 中可能会显示不同的结果。Analysis Workspace 会报告每个页面的反向链接域，但不包括与内部 URL 过滤器匹配的值。Data Warehouse 则仅报告访问的第一个反向链接域，并且会忽略内部 URL 过滤器。
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 此维度需要在 Analytics 界面中进行配置，并获取图像请求中的数据。
 
 * 在实施中，此维度从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用浏览器中的 JavaScript 变量 `document.referrer` 收集此数据。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在图像请求中包含 `r` 查询字符串参数。
-* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。无法配置内部 URL 过滤器，可能会包含内部域或阻止出现外部域。
+* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。无法配置内部 URL 过滤器，可能会包含内部域或阻止出现外部域。
 
 Adobe 继续提供访问的反向链接域。如果访客离开并在单次访问中点击不同域上的链接，则新值会更新并且在剩余的访问时间内持续存在。如果只想查看原始值，请参阅[原始反向链接域](original-referring-domain.md)。
 

@@ -3,7 +3,7 @@ title: 付费搜索
 description: 从付费搜索与免费搜索方面区分量度。
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 87%
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 ## 使用数据填充此维度
 
-此维度正常使用的唯一要求是：在报表包设置中正确配置[付费搜索检测](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)。如果付费搜索检测配置正确且报表包包含数据，则此维度始终有效。
+此维度正常使用的唯一要求是：在报表包设置中正确配置[付费搜索检测](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)。如果付费搜索检测配置正确且报表包包含数据，则此维度始终有效。
 
 ## 维度项目
 

@@ -4,7 +4,7 @@ title: 运行贡献分析
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 14%
@@ -59,7 +59,7 @@ ht-degree: 14%
    * [按其他维度划分每个维度项](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [显示一个或多个行的趋势](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [添加新可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [创建警报](/help/components/c-alerts/intellligent-alerts.md)
+   * [创建警报](/help/components/alerts/alerts-overview.md)
    * [创建或比较区段。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]

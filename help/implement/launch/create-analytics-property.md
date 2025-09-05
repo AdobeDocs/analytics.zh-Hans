@@ -4,7 +4,7 @@ description: 使用标记创建一个空间，以自定义数据的收集方式�
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 先决条件
 
-[创建报表包](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：为要收集的 Analytics 数据创建一个容器。
+[创建报表包](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)：为要收集的 Analytics 数据创建一个容器。
 
 ## 创建标记属性并安装重要扩展
 

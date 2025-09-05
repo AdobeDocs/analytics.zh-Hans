@@ -3,7 +3,7 @@ description: 了解如何管理计划项目。
 title: 计划项目
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -35,8 +35,8 @@ ht-degree: 41%
 | **[!UICONTROL 频率]** | 您希望将此计划项目发送给一个或多个收件人的频率。 |
 | **[!UICONTROL 执行时间]** | 在一天中发送此计划项目的时间。 |
 | **[!UICONTROL 查询次数]** | 查询此项目的次数。 |
-| **[!UICONTROL 最长日期范围]** | 为计划项目定义的最长日期范围。 该值可能与调查性能问题相关。 有关详细信息，请参阅[报告活动管理器](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。 |
-| **[!UICONTROL 查询次数]** | 为计划项目执行的查询数。 该值可能与调查性能问题相关。 有关详细信息，请参阅[报告活动管理器](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。 |
+| **[!UICONTROL 最长日期范围]** | 为计划项目定义的最长日期范围。 该值可能与调查性能问题相关。 有关详细信息，请参阅[报告活动管理器](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)。 |
+| **[!UICONTROL 查询次数]** | 为计划项目执行的查询数。 该值可能与调查性能问题相关。 有关详细信息，请参阅[报告活动管理器](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)。 |
 
 
 您可以使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)来配置要显示的列。

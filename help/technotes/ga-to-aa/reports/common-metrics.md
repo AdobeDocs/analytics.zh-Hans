@@ -3,7 +3,7 @@ title: 其他平台上常用的指标翻译指南
 description: 了解如何使用 Google Analytics 用户更熟悉的术语提取许多常见报表的指标数据。
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -51,7 +51,7 @@ ht-degree: 100%
 7. 单击“保存”以返回工作区。
 8. 将新定义的计算指标拖动到工作区上。
 
-   您可在组件用户指南中了解有关[计算指标](/help/components/c-calcmetrics/cm-overview.md)的更多信息。
+   您可在组件用户指南中了解有关[计算指标](/help/components/calculated-metrics/cm-overview.md)的更多信息。
 
 **平均会话持续时间**&#x200B;大致相当于&#x200B;**每次访问逗留时间（秒）**。可在组件用户指南中详细了解[每次访问逗留时间](/help/components/metrics/time-spent-per-visit.md)指标。
 

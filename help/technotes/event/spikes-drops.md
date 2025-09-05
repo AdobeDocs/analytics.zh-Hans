@@ -3,7 +3,7 @@ title: 数据激增和骤减故障诊断
 description: 了解趋势报表中出现数据急剧增加或减少的可能原因。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### 流量增加的其他潜在原因
 
-* **网络爬虫程序或机器人**：如果您发现流量突然大增，首先需要考虑存在网络爬虫程序或机器人的可能性。有时，识别机器人可能会比较棘手，因为每个机器人都有自己在网站上执行代码的方式。可将 IP 用作维度来创建 Data Warehouse 报表，以了解哪些 IP 地址贡献的流量最多。然后，您可以使用[机器人规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)或 VISTA 规则来清除未来报表中的机器人流量。
+* **网络爬虫程序或机器人**：如果您发现流量突然大增，首先需要考虑存在网络爬虫程序或机器人的可能性。有时，识别机器人可能会比较棘手，因为每个机器人都有自己在网站上执行代码的方式。可将 IP 用作维度来创建 Data Warehouse 报表，以了解哪些 IP 地址贡献的流量最多。然后，您可以使用[机器人规则](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)或 VISTA 规则来清除未来报表中的机器人流量。
 * **启动的促销活动**：电子邮件促销活动或搜索引擎优化等营销工作，可能会导致您网站的流量激增。可了解[跟踪代码](/help/components/dimensions/tracking-code.md)维度的趋势，以便进一步研究。此外，也可以联系您的营销团队，确保流量激增是有意为之的行为。
 * **环境或间接原因**：如果发生假期或间接事件（您的网站是已知资源的重要事件，或其他组织的追加营销工作），您网站的流量可能会增加。诊断确切的原因比较困难，因为存在几乎无限数量的间接原因会导致流量增加。但是，这些原因是确定具体原因的最重要因素之一，贵组织可以充分利用这些原因并据此做出明智的业务决策。了解[页面](/help/components/dimensions/page.md)或[反向链接](/help/components/dimensions/referrer.md)维度的趋势，是最有可能确定流量来源的最佳着眼点。
 

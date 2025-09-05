@@ -5,9 +5,9 @@ feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '573'
 ht-degree: 90%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 90%
 
 *此帮助页面介绍了如何实施推销 eVar。有关促销 eVar 如何用作维度的信息，请参阅组件用户指南中的 [eVar（促销维度）](/help/components/dimensions/evar-merchandising.md)。*
 
-有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hans)。
+有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)。
 
 ## 在报告包设置中设置 eVar
 
-在实施中使用 eVar 之前，请确保在报告包设置中将 eVar 配置为所需的语法。 请参阅《管理员指南》中的[转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
+在实施中使用 eVar 之前，请确保在报告包设置中将 eVar 配置为所需的语法。 请参阅《管理员指南》中的[转化变量](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。
 
 >[!WARNING]
 >

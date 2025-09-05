@@ -4,10 +4,10 @@ title: 量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 * **标准指标**：您在项目中使用的大多数指标都是标准指标。相关例子包括[页面浏览量](/help/components/metrics/page-views.md)、[收入](/help/components/metrics/revenue.md)或者[自定义事件。](/help/components/metrics/custom-events.md)有关更多信息，请参阅组件用户指南中的[指标概述。](/help/components/metrics/overview.md)
 
-* **计算指标** ![计算器](/help/assets/icons/Calculator.svg)：基于标准指标、静态数字或算法函数的用户定义指标。 用户定义的计算指标会在可用组件列表中显示一个计算器图标。有关更多信息，请参阅组件用户指南中的[计算指标概述。](/help/components/c-calcmetrics/cm-overview.md)
+* **计算指标** ![计算器](/help/assets/icons/Calculator.svg)：基于标准指标、静态数字或算法函数的用户定义指标。 用户定义的计算指标会在可用组件列表中显示一个计算器图标。有关更多信息，请参阅组件用户指南中的[计算指标概述。](/help/components/calculated-metrics/cm-overview.md)
 
 * **计算量度模板** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：Adobe定义的与计算量度行为相似的量度。 您可以在 Workspace 项目中按原样使用它们，或保存副本以自定义其逻辑。计算指标模板会在可用组件列表中显示一个 Adobe 图标。
 
@@ -41,7 +41,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://video.tv.adobe.com/v/328561?quality=12&learn=on&captions=chi_hans){target="_blank"}观看演示视频。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 ### 为所有项目创建计算指标
 
-您可以使用[计算量度生成器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)来[创建计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)。 通过这种方式创建时，计算量度在组件列表中可用，并可用于您整个组织的项目。
+您可以使用[计算量度生成器](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)来[创建计算量度](/help/components/calculated-metrics/workflow/cm-workflow.md)。 通过这种方式创建时，计算量度在组件列表中可用，并可用于您整个组织的项目。
 
 
 ### 为单个项目创建计算指标
@@ -79,15 +79,15 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
    在选中单列时，以下选项可用：
 
-   * [!UICONTROL **Mean**]：创建一个新列，以显示该列的一组维度元素中的平均值。 列值使用[Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean)函数。
+   * [!UICONTROL **Mean**]：创建一个新列，以显示该列的一组维度元素中的平均值。 列值使用[Mean](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean)函数。
 
-   * [!UICONTROL **中间值**]：创建一个新列，以显示该列维度元素集的中间值。 列值使用[Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median)函数。
+   * [!UICONTROL **中间值**]：创建一个新列，以显示该列维度元素集的中间值。 列值使用[Median](/help/components/calculated-metrics/cm-reference/cm-functions.md#median)函数。
 
-   * [!UICONTROL **列max**]：创建一个新列，以显示该列维度元素集的最大值。 列值使用[Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum)函数。
+   * [!UICONTROL **列max**]：创建一个新列，以显示该列维度元素集的最大值。 列值使用[Column Maximum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum)函数。
 
-   * [!UICONTROL **列min**]：创建一个新列，以显示该列维度元素集的最小值。 列值使用[列最小值](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum)函数。
+   * [!UICONTROL **列min**]：创建一个新列，以显示该列维度元素集的最小值。 列值使用[列最小值](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum)函数。
 
-   * [!UICONTROL **列sum**]：创建一个新列，该列将某个量度的所有数值相加（跨维度的元素）。 列值使用[列Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum)函数。
+   * [!UICONTROL **列sum**]：创建一个新列，该列将某个量度的所有数值相加（跨维度的元素）。 列值使用[列Sum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum)函数。
 
    选择两列时，以下选项可用：
 
@@ -101,7 +101,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
    * [!UICONTROL **百分比变化**]：创建一个新列，以显示两个选定列之间的百分比变化。
 
-[计算指标：无实施指标](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[计算量度：无实施量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## 比较不同归因模型的指标
@@ -119,7 +119,7 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 >[!BEGINSHADEBOX]
 
-查看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累积平均值](https://video.tv.adobe.com/v/35005?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+查看演示视频的![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累积平均值](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -4,7 +4,7 @@ description: 对于电子商务网站，设置页面交易的货币。
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 98%
@@ -15,9 +15,9 @@ ht-degree: 98%
 
 对于商业网站，收入和货币是 Analytics 的重要组成部分。很多网站（尤其是跨多个国家/地区的网站）都会使用多种不同的货币。使用 `currencyCode` 变量可确保按正确的币种计算收入。
 
-货币转换在每次点击时使用以下逻辑。 这些步骤适用于为收入值设置 [`products`](../page-vars/products.md) 变量，以及所有在报告包设置下的[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)中列为“货币”的事件。
+货币转换在每次点击时使用以下逻辑。 这些步骤适用于为收入值设置 [`products`](../page-vars/products.md) 变量，以及所有在报告包设置下的[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)中列为“货币”的事件。
 
-* 如果 `currencyCode` 未定义，Adobe 假定所有货币值都是报告包的货币。 要了解报告包中使用的货币，请参阅报告包设置中的[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+* 如果 `currencyCode` 未定义，Adobe 假定所有货币值都是报告包的货币。 要了解报告包中使用的货币，请参阅报告包设置中的[常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。
 * 如果 `currencyCode` 已定义并且与报告包中使用的货币相一致，则无需进行货币换算。
 * 如果 `currencyCode` 已定义并且与报告包中使用的货币不同，则 Adobe 会根据当天的汇率进行货币换算。Adobe 与 [XE](https://xe.com) 合作，共同开展每日的货币换算工作。存储在报告包中的所有值都以报告包的货币表示。
 * 如果 `currencyCode` 设置为无效值，**则整个点击都会被丢弃，从而导致数据丢失。**&#x200B;确保在使用时正确定义此变量。

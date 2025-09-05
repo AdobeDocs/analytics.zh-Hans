@@ -4,7 +4,7 @@ title: Activity Map 概述
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 4%
@@ -17,7 +17,7 @@ Adobe Analytics Activity Map 是 Adobe Analytics 中的一项功能，它用视�
 
 Activity Map作为一个概念，由几个重要组件组成：
 
-* **报表包设置**：报表包必须先启用Activity Map，然后才能开始使用。 请参阅报表包设置中的[Activity Map报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)。
+* **报表包设置**：报表包必须先启用Activity Map，然后才能开始使用。 请参阅报表包设置中的[Activity Map报表](/help/admin/tools/manage-rs/edit-settings/activity-map.md)。
 * **实施**：大多数Activity Map报表都是现成可用的。 但是，某些网站可能需要额外的实施才能充分利用链接跟踪。 以下实施变量可供使用：
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：按链接名称筛选点击数据。
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：按区域名称筛选点击数据。

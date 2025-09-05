@@ -3,7 +3,7 @@ title: 邮政编码
 description: 访客的邮政编码。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 79%
@@ -21,12 +21,12 @@ ht-degree: 79%
 * 使用 `zip` 变量直接设置邮政编码，或
 * 将其配置为从地理位置数据中提取。
 
-[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)下的[!UICONTROL 邮编选项]控制着填充此维度的方式。
+[常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)下的[!UICONTROL 邮编选项]控制着填充此维度的方式。
 
 如果您选择使用任何涉及地域邮政编码的选项：
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 地理查找]。
+* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[地理查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
 
 ## 维度项
 

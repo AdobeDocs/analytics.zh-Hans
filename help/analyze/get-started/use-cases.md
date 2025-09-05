@@ -3,10 +3,10 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: Analytics 用例
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 提供以下复杂的分段和预测工具来分析网站流量�
 
 * [流量分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [高级分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)
+* [高级分段](/help/components/segmentation/seg-home.md)
 
 
 ## 营销分析
@@ -33,9 +33,7 @@ Adobe Analytics 帮助组织了解客户在何处与其品牌互动、客户喜�
 
 Adobe Analytics 中的以下主要功能提供了这些营销功能：
 
-* [多渠道数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans)
-
-* [离线数据集成](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hans)
+* [离线数据集成](/help/import/data-sources/overview.md)
 
 * [Analysis Workspace 中的临时分析](/help/analyze/analysis-workspace/home.md)
 
@@ -55,4 +53,4 @@ Adobe Analytics 中的以下主要功能提供了这些预测功能：
 
 * [贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [警报](/help/components/c-alerts/intellligent-alerts.md)
+* [警报](/help/components/alerts/alerts-overview.md)

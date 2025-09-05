@@ -5,7 +5,7 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 89%
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 1. 在“[!UICONTROL 请求向导: 第 2 步]”中，单击网格中维度旁边的链接，然后选择&#x200B;**[!UICONTROL 过滤器]**。
 
-   ![屏幕截图显示“定义筛选器”对话框，其中包含按应用程序、用户和项目筛选的选项。](/help/admin/admin/assets/filter.png)
+   ![屏幕截图显示“定义筛选器”对话框，其中包含按应用程序、用户和项目筛选的选项。](/help/admin/tools/assets/filter.png)
 
 1. 在“[!UICONTROL 选择页面]”窗体中，启用&#x200B;**[!UICONTROL 最受欢迎]**，然后配置下列选项：
 

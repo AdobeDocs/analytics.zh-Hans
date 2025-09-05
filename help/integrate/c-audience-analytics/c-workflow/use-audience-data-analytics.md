@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: 在 Analytics 中使用受众数据
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '568'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 ## 区段比较 {#compare}
 
-[区段比较](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=zh-Hans)可发现两个区段间在统计上的最显著差异。区段比较可通过以下两种方式来使用受众数据：1) 作为正在进行比较的 2 个区段，2) 作为“排名最前的维度项目”表中的项目。
+[区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)可发现两个区段间在统计上的最显著差异。区段比较可通过以下两种方式来使用受众数据：1) 作为正在进行比较的 2 个区段，2) 作为“排名最前的维度项目”表中的项目。
 
 1. 转至&#x200B;**[!UICONTROL 工作区]**&#x200B;并从左边栏中选择&#x200B;**[!UICONTROL 区段比较]**&#x200B;面板。
 
@@ -37,27 +37,27 @@ ht-degree: 89%
 1. （可选）：您还可以放入其他维度项目或区段中，最多可比较 2 个。
 1. 单击&#x200B;**[!UICONTROL 生成]**。
 
-   受众 ID 和名称维度将自动显示在“排名最前的维度项目”表中，因为它们是两个正在进行比较的区段的额外配置文件数据。
+   受众 ID 和名称维度将自动显示在“排名最前的维度项目”表中，因为它们是两个正在进行比较的区段的额外轮廓数据。
 
    ![](assets/aud-segcompare.png)
 
 ## Analysis Workspace 中的客户历程（流量） {#flow}
 
-Adobe Audience Manager区段数据是按点击传递到Analytics中的，表示访客在该时间点所具有的受众成员资格。 这意味着，访客可能归属于一个区段（例如“感知”），然后又有资格访问另外一个获得授权的区段（例如“注意事项”）。您可以在 Analysis Workspace 中使用[流量](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)显示访客在各受众之间的历程。
+Adobe Audience Manager区段数据是按点击传递到Analytics中的，表示访客在该时间点所具有的受众成员资格。 这意味着，访客可能归属于一个区段（例如“感知”），然后又有资格访问另外一个获得授权的区段（例如“注意事项”）。您可以在 Analysis Workspace 中使用[流量](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)显示访客在各受众之间的历程。
 
 1. 转至&#x200B;**[!UICONTROL 工作区]**&#x200B;并从左边栏中选择&#x200B;**[!UICONTROL 流量]**&#x200B;可视化。
 
 1. 将[!UICONTROL 受众名称]维度拖至流量生成器中。
 1. 单击&#x200B;**[!UICONTROL 生成]**。
-1. （可选）将任何其他维度拖至流量可视化中以创建[维度间流量](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=zh-Hans)。
+1. （可选）将任何其他维度拖至流量可视化中以创建[维度间流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。
 
 ![](assets/flow-aamaudiences.png)
 
-受众还可用于[流失可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)。
+受众还可用于[流失可视化](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
 ## Analysis Workspace 中的维恩可视化 {#venn}
 
-[维恩可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=zh-Hans)显示最多 3 个区段之间的叠加。
+[维恩可视化](/help/analyze/analysis-workspace/visualizations/venn.md)显示最多 3 个区段之间的叠加。
 
 1. 转至&#x200B;**[!UICONTROL 工作区]**&#x200B;并从左边栏中选择&#x200B;**[!UICONTROL 维恩]**&#x200B;可视化。
 

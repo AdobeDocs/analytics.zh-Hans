@@ -3,7 +3,7 @@ title: Data Warehouse中的组件支持
 description: 了解 Data Warehouse 中有哪些其他维度和指标可用以及不支持哪些维度和指标。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 45%
@@ -45,7 +45,7 @@ Data Warehouse 不支持某些维度和指标。
    * 除“登入页面”之外的所有登入维度
    * 除“退出页面”和“退出链接”之外的所有退出维度
    * 点击深度
-   * 回访频度
+   * 回访频率
    * 发生事件之前逗留的时间
    * 页面逗留时间 — 分段统计
    * 每次访问逗留时间 — 分段统计
@@ -67,7 +67,7 @@ Data Warehouse 不支持某些维度和指标。
    * 重新载入
    * 单次存取
    * “逗留时间”指标
-* 参与率量度（如[构建“参与率”量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)中所述）
+* 参与率量度（如[构建“参与率”量度](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)中所述）
 
 ### 以不同方式支持的维度（非标准日期格式）
 

@@ -3,10 +3,10 @@ description: 设置实时报表的管理步骤。
 title: 配置实时报表
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 77%
+source-wordcount: '271'
+ht-degree: 74%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 77%
 
    1. 从顶部的下拉列表中选择报表包：
 
-      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+      ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report_suite_selector.png)
 
       如果某个报表包未设置实时报表功能，而您尝试查看该报表包的实时报表，则会显示一条消息，让您设置该报表包。
 
-      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/rep_suite_not_set_up.png)
 
 1. 选择&#x200B;**[!UICONTROL 配置]**&#x200B;以运行[!UICONTROL 报表包管理器]。
 
@@ -37,7 +37,7 @@ ht-degree: 77%
 
    ![](assets/real_time_admin.png)
 
-   有关受支持的实时量度和维度的信息，请参阅[受支持的量度和维度](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)。
+   有关受支持的实时量度和维度的信息，请参阅[受支持的量度和维度](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md)。
 
    如果已创建了分类，则分类会缩进显示在其所定义的维度下。
 
@@ -51,10 +51,10 @@ ht-degree: 77%
    >
    >某些维度（例如“搜索关键词”或“产品”）在实时报表中并非持续存在，这一点与 Adobe Analytics 中的其他位置不同。当选择非持续量度时，会出现以下警告：
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
+   ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/warning_dimensions.png)
 
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 保存并查看报表]**。
 
-   在初始报表设置中，最多需要 20 分钟数据才会开始传输。之后，数据会立即可用。有关查看实时报表的信息，请参阅[运行实时报表](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=zh-Hans)。
+   在初始报表设置中，最多需要 20 分钟数据才会开始传输。从那时起，数据立即可用。
 
 1. 默认情况下，所有用户均有权访问实时报表。

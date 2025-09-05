@@ -3,7 +3,7 @@ title: 流媒体服务质量维度
 description: 为报表包启用[!UICONTROL 媒体质量]时可用的维度。
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 流媒体服务质量维度提供与访客使用的内容质量相关的报表。 使用这些维度需要[!UICONTROL Adobe Analytics for Streaming Media广告]。 有关详细信息，请联系您的Adobe客户团队。
 
-当您在&#x200B;**[!UICONTROL 媒体报告]**&#x200B;下启用[媒体质量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)时，以下维度可用：
+当您在&#x200B;**[!UICONTROL 媒体报告]**&#x200B;下启用[媒体质量](/help/admin/tools/manage-rs/edit-settings/media-management.md)时，以下维度可用：
 
 | 维度名称 | 描述 | 发送条件 | 上下文数据变量 |
 | --- | --- | --- | --- |

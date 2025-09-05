@@ -4,10 +4,10 @@ description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2730'
-ht-degree: 86%
+source-wordcount: '2729'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 86%
 
 发行日期：**2024年8月12日**
 
-* 如果已启用`writeSecureCookies`，则现在使用`secure`标志写入`s_ac` Cookie。
+* 如果已启用`s_ac`，则现在使用`secure`标志写入`writeSecureCookies` Cookie。
 * 修复了嵌入式库时的初始化错误。
 * 修复了`localStorage`或`sessionStorage`被禁用的错误。
-* 如果已启用`collectHighEntropyUserAgentHints`，则链接跟踪调用(`tl`)现在包含高熵用户代理提示。
+* 如果已启用`tl`，则链接跟踪调用(`collectHighEntropyUserAgentHints`)现在包含高熵用户代理提示。
 
 ## 版本 2.26.0
 
@@ -71,7 +71,7 @@ ht-degree: 86%
 
 发行日期：**2021 年 9 月 7 日**
 
-* 此更新促使在跟踪链接时始终包含 `opt.dmp` 和 `opt.sell`。有关详细信息，请参阅管理员用户指南中的[隐私报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)。
+* 此更新促使在跟踪链接时始终包含 `opt.dmp` 和 `opt.sell`。有关详细信息，请参阅管理员用户指南中的[隐私报表](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)。
 
 ## 版本 2.22.1
 
@@ -152,7 +152,7 @@ ht-degree: 86%
 
 * 已将受众管理模块更新至 DIL 9.1。(AN-175255)
 * GTM 安全策略不允许使用 Activity Map 模块。(AN-174679)
-* 改进了 AppMeasurement，支持当 Identity Service 未在“选择加入”中获得批准时选择退出。(AN-175259)
+* 改进了 AppMeasurement，支持未在“选择加入”中身份标识服务时选择退出。(AN-175259)
 
 ## 版本 2.11.0
 
@@ -313,7 +313,7 @@ ht-degree: 86%
 
 * 包括 Visitor API 1.6.0。
 * 修复了导致 [!DNL AppMeasurement] 在访客 API 中调用错误的模糊处理方法的问题。(AN-126006)
-* 修复了导致 [!DNL JavaScript] 错误：“属性仅在 v:image 上有效”的问题。(AN-124009)
+* 修复了导致[!DNL JavaScript]错误的问题：“属性仅在v:image上有效”。 (AN-124009)
 
 ## 版本 1.6.1
 

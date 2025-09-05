@@ -4,7 +4,7 @@ keywords: 缺少数据;缓慢
 title: 数据可用性和滞后
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Adobe Experience Cloud 中的某些功能在标准处理时间的基础上固有
 
 有多种策略可以防止滞后或缩短滞后发生后的恢复时间：
 
-* **通知 Adobe 预期流量尖峰：**&#x200B;虽然不可能预测到您网站的每个流量尖峰，但有时您可能会预料到网站的流量会显著增加。例如，时间较长的假期，或大型营销活动推送后不久。在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。有关如何通知 Adobe 流量增加的信息，请参阅管理员用户指南中的[计划流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)。
+* **通知 Adobe 预期流量尖峰：**&#x200B;虽然不可能预测到您网站的每个流量尖峰，但有时您可能会预料到网站的流量会显著增加。例如，时间较长的假期，或大型营销活动推送后不久。在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。有关如何通知 Adobe 流量增加的信息，请参阅管理员用户指南中的[计划流量尖峰](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)。
 * **在激活新功能时请考虑处理负载问题：**&#x200B;某些功能的处理密集度远高于其他功能。对报表包启用的功能越多，越难从滞后问题中恢复。在对报表包启用某些功能时，请注意以下功能会增加要处理的数据量：
 
    * 在同一页面上实施的事件超过 20 个
@@ -50,7 +50,7 @@ Adobe Experience Cloud 中的某些功能在标准处理时间的基础上固有
    * 产品变量中有超过 20 个值
    * 事件序列化
 
-* 启用 IAB 机器人过滤：如果机器人或爬网程序经常影响报表包，则[机器人过滤](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)可以显著减少滞后。推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) ](https://www.iab.net/about_the_iab)更新和维护的。用户可以自定义其自己的机器人规则以补充 IAB 所提供的机器人规则。
+* 启用 IAB 机器人过滤：如果机器人或爬网程序经常影响报表包，则[机器人过滤](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)可以显著减少滞后。推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) ](https://www.iab.net/about_the_iab)更新和维护的。用户可以自定义其自己的机器人规则以补充 IAB 所提供的机器人规则。
 
 ## 如何处理滞后
 

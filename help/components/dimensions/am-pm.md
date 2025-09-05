@@ -3,16 +3,16 @@ title: 上午/下午
 description: 确定点击是否发生在上午或下午时刻。
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 86%
+source-wordcount: '121'
+ht-degree: 64%
 
 ---
 
 # 上午/下午
 
-“AM/PM”[维度](overview.md)提供关于点击发生在上午还是下午时刻的分析。 点击时间基于[报表包所在时区](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+“AM/PM”[维度](overview.md)提供点击发生在上午还是下午时刻的insight。 点击时间基于[报表包所在时区](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。
 
 ## 使用数据填充此维度
 
@@ -20,4 +20,4 @@ ht-degree: 86%
 
 ## 维度项目
 
-此维度始终只包含两个维度项目：`"AM"` 和 `"PM"`。维度项目 `"AM"` 适用于从午夜 12:00 到上午 11:59 的所有点击，而维度项目 `"PM"` 则适用于从中午 12:00 到晚上 11:59 的所有点击。
+此维度始终只包含两个维度项目：`"AM"` 和 `"PM"`。维度项`"AM"`适用于从午夜12:00到上午11:59的所有点击，而维度项`"PM"`适用于从正午12:00到下午11:59的所有点击。

@@ -3,7 +3,7 @@ title: Adobe Analytics 中的报表自定义
 description: 了解如何在 Adobe Analytics 中自定义报表
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 94%
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 ## 功能板
 
-[!UICONTROL Analysis Workspace] 体系结构的构建理念类似于功能板构件的概念。[!UICONTROL Analysis Workspace] 中的项目大致相当于 Google Analytics 中的功能板。[!UICONTROL Analysis Workspace] 中的可视化效果大致相当于 Google Analytics 中的构件。
+[!UICONTROL Analysis Workspace] 体系结构的构建理念类似于功能板小组件的概念。[!UICONTROL Analysis Workspace] 中的项目大致相当于 Google Analytics 中的功能板。[!UICONTROL Analysis Workspace] 中的可视化效果大致相当于 Google Analytics 中的小组件。
 
 ### 将内容添加到项目
 
@@ -26,14 +26,14 @@ ht-degree: 94%
 2. 单击左侧的[!UICONTROL “组件”]图标，然后将所需的维度和指标拖到该可视化效果上以向它填充数据。
 3. 拖动该可视化效果的边缘以调整其大小，然后拖动该可视化效果的标题以移动它。
 
-可在 [!UICONTROL Analysis Workspace] 中找到所有 Google Analytics 构件：
+可在 [!UICONTROL Analysis Workspace] 中找到所有 Google Analytics 小组件：
 
-* **指标构件**&#x200B;大致相当于[!UICONTROL “摘要编号”]可视化效果。
-* **时间线构件**&#x200B;大致相当于[!UICONTROL “折线图”]可视化效果。
-* **Geomap 构件**&#x200B;大致相当于[!UICONTROL “地图”]可视化效果。
-* **表构件**&#x200B;大致相当于[!UICONTROL “自由格式表”]可视化效果。
-* **饼图构件**&#x200B;大致相当于[!UICONTROL “圆环图”]可视化效果。
-* **条形图构件**&#x200B;大致相当于[!UICONTROL “条形图”]可视化效果。
+* **指标小组件**&#x200B;大致相当于[!UICONTROL “摘要编号”]可视化效果。
+* **时间线小组件**&#x200B;大致相当于[!UICONTROL “折线图”]可视化效果。
+* **Geomap 小组件**&#x200B;大致相当于[!UICONTROL “地图”]可视化效果。
+* **表小组件**&#x200B;大致相当于[!UICONTROL “自由格式表”]可视化效果。
+* **饼图小组件**&#x200B;大致相当于[!UICONTROL “圆环图”]可视化效果。
+* **条形图小组件**&#x200B;大致相当于[!UICONTROL “条形图”]可视化效果。
 
 [!UICONTROL Analysis Workspace] 包括更多可视化效果选项，以通过最适合您报表需求的方式呈现数据。有关更多信息，请参阅分析用户指南中的 [Analysis Workspace 中的可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 
@@ -68,8 +68,8 @@ ht-degree: 94%
 4. 计算指标包含所需的公式后，单击“保存”以返回工作区。
 5. 将新定义的计算指标拖动到工作区上。
 
-   您可在组件用户指南中了解有关[计算指标](/help/components/c-calcmetrics/cm-overview.md)的更多信息。
+   您可在组件用户指南中了解有关[计算指标](/help/components/calculated-metrics/cm-overview.md)的更多信息。
 
 ## 自定义警报
 
-警报在两种平台上均可用。在 Adobe Analytics 中，使用标题导航菜单，转到&#x200B;*[!UICONTROL 组件]* > *[!UICONTROL 警报]*。有关详细信息，请参阅组件用户指南中的[警报概述](/help/components/c-alerts/intellligent-alerts.md)。
+警报在两种平台上均可用。在 Adobe Analytics 中，使用标题导航菜单，转到&#x200B;*[!UICONTROL 组件]* > *[!UICONTROL 警报]*。有关详细信息，请参阅组件用户指南中的[警报概述](/help/components/alerts/alerts-overview.md)。

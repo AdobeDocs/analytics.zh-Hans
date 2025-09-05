@@ -3,7 +3,7 @@ title: 广告平台同意书
 description: 请参阅第三方广告提供商的广告同意配置。
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -52,10 +52,10 @@ contextData.['adConsent'] = "YN..."
 您可以使用收集的广告同意数据：
 
 * 数据馈送：广告同意数据可使用`dataprivacydmaconsent` [列](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)获得。
-* Data Warehouse报告：可以使用&#x200B;**[!UICONTROL 广告平台同意]**&#x200B;维度获得广告同意数据。
+* Data Warehouse报告：广告同意数据可使用&#x200B;**[!UICONTROL 广告平台同意]**&#x200B;维度获得。
 
 贵组织确定实施此上下文数据变量的逻辑。 该值不会在设置的点击之外继续存在，因此您必须在每个页面上设置上下文数据变量。
 
-Adobe Analytics当您通过Adobe Advertising将广告数据作为转化事件发送到Google时，请咨询Adobe Advertising团队以协助进行集成。
+当您通过Adobe Advertising将广告数据作为转化事件发送到GoogleAdobe Advertising时，请咨询Adobe Analytics团队以协助进行集成。
 
-有关详细信息，请参阅[隐私报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)。
+有关详细信息，请参阅[隐私报表](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)。

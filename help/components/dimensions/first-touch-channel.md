@@ -1,9 +1,9 @@
 ---
 title: 首个联系渠道
-description: 访客参与到期时间内的第一个营销渠道。
+description: 访客参与有效期限内的第一个营销渠道。
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 91%
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ## 使用数据填充此维度
 
-此维度直接引用您在[营销渠道管理器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中定义的渠道名称。
+此维度直接引用您在[营销渠道管理器](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)中定义的渠道名称。
 
 发送到 Adobe 数据收集服务器的每次点击均通过报表包的营销渠道处理规则运行。它按数字顺序遍历每个规则，直到找到匹配项为止，在该匹配项中，营销渠道与点击关联。首个联系渠道会随着访客一直保留，直到访客不访问网站的时间超过访客参与期（默认为 30 天）为止。
 

@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 73%
@@ -18,13 +18,13 @@ ht-degree: 73%
 
 您可以过滤添加到“行标签”网格中的维度。过滤器可减少请求返回的数据，并且可以从引导布局或自定义布局中进行应用。通过引导布局配置维度过滤时，您还可以指定单元格中的条目数。
 
-选定过滤器表单会根据Report Builder请求中选择的元素和指标进行填充。
+选定过滤器表单会根据Report Builder请求中选择的元素和量度进行填充。
 
 ## 定义过滤器 – 值和特殊字符 {#section_15840216A4044C40974945FAA435AD93}
 
 **[!UICONTROL 最受欢迎的过滤器]** > **[!UICONTROL 定义过滤器]**&#x200B;面板中提供了有关过滤器的信息。
 
-![屏幕截图显示“定义筛选器”对话框，其中包含按应用程序、用户和项目筛选的选项。](/help/admin/admin/assets/filter.png)
+![屏幕截图显示“定义筛选器”对话框，其中包含按应用程序、用户和项目筛选的选项。](/help/admin/tools/assets/filter.png)
 
 以下各表提供了有关过滤器的示例和信息：
 

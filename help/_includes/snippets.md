@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2962'
 ht-degree: 88%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->2024年10月16日发布了新的、简化的[Report Builder](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/rb-overview)。 它在Mac、Windows和Web浏览器上受支持。
->&#x200B;>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/report-builder/convert-workbooks)转换为新的Report Builder。
+>2024年10月16日发布了新的、简化的[Report Builder](/help/analyze/report-builder/rb-overview.md)。 它在Mac、Windows和Web浏览器上受支持。
+>>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
 
-## Reports & Analytics 生命周期结束公告 {#ra-eol}
+## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >

@@ -3,9 +3,9 @@ description: Analytics 和 Audience Manager 均使用区段。但是，Analytics
 title: 了解 Analytics 和 Audience Manager 中的区段
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 91%
 
 ---
@@ -16,7 +16,7 @@ Analytics 和 Audience Manager 均使用区段。但是，Analytics 区段和 Au
 
 ## Audience Manager 区段 {#aam-segments}
 
-Audience Manager区段是指一组符合由逻辑规则连接的一组已定义特征条件的访客（用户ID）。 可通过四个标准来确定访客（用户 ID）是否属于 Audience Manager 中的某个区段：
+Audience Manager区段是指一组符合由逻辑规则连接的一组已定义特征的访客（用户ID）。 可通过四个标准来确定访客（用户 ID）是否属于 Audience Manager 中的某个区段：
 
 * 针对区段本身设置的规则和构成每个区段的特征。这些规则定义用户 ID 必须符合或展示出他有资格访问区段的条件。
 * 算法建模。根据算法建模和分析，有资格访问特定区段的用户可能也有资格访问其他区段。
@@ -45,4 +45,4 @@ Analytics区段是一种对报表数据进行过滤的机制。 不同于在 Aud
 
   相反，在 Analytics 中，将根据报告的日期范围在区段中包含或排除访客。例如有一名访客在上月进行了一次购买。在Adobe Audience Manager中，该访客将包含在“购买者”区段中，而不考虑日期范围。 在 Analytics 中，基于本月的报表将不会在区段中包含该访客。而基于本月和上月的报表将在区段中包含该访客。
 
-有关详细信息，请参阅 [Analytics 分段指南。](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)
+有关详细信息，请参阅 [Analytics 分段指南。](/help/components/segmentation/seg-home.md)

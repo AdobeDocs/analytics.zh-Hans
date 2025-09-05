@@ -4,7 +4,7 @@ title: Adobe Analytics 功能板执行指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 92%
@@ -81,13 +81,13 @@ ht-degree: 92%
 
    有关图块的其他信息：
 
-   * 折线图的粒度取决于日期范围的长度：
+   * 线形图的粒度取决于日期范围的长度：
 
       * 一天会显示每小时的趋势
       * 超过一天且不足一年会显示每日的趋势
       * 一年及以上会显示每周的趋势
 
-   * 百分比值更改公式为：指标总计（当前日期范围）- 指标总计（比较日期范围）/ 指标总计（比较日期范围）。
+   * 百分比值更改公式为：量度总计（当前日期范围）- 量度总计（比较日期范围）/ 量度总计（比较日期范围）。
 
    * 您可以通过下拉屏幕来刷新记分卡。
 
@@ -110,7 +110,7 @@ ht-degree: 92%
 
 1. 要将区段过滤器应用于记分卡，请点按过滤器下拉列表，然后选择由策划人配置的区段。 应用程序中的[过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans)的工作方式与在 Analytics Workspace 中相同。
 
-   ![区段过滤器](/help/admin/admin/assets/filter.png)
+   ![区段过滤器](/help/admin/tools/assets/filter.png)
 
 1. 获取记分卡更新。如果记分卡不包含您可能感兴趣的所有量度或划分，请联系您的 Analytics 团队来更新记分卡。更新后，您可以下拉屏幕上的记分卡进行刷新，并加载最近添加的数据。
 
@@ -136,7 +136,7 @@ ht-degree: 92%
 
 **要提供改进建议**，请执行以下操作：
 
-点按相应选项，然后选择建议的子类别。在建议表单中，在顶部字段中提供您的电子邮件地址，并在其下方的字段中提供建议说明。您帐户信息的屏幕快照会自动附加到消息中，但如果需要，您可以通过点按附件图像中的 **X** 来删除该屏幕快照。您还可以选择进行屏幕录制、添加更多屏幕快照或附加文件。要发送建议，请点按表单右上角的纸飞机图标。
+点按相应选项，然后选择建议的子类别。在建议表单中，在顶部字段中提供您的电子邮件地址，并在其下方的字段中提供错误说明。您帐户信息的屏幕快照会自动附加到消息中，但如果需要，您可以通过点按附件图像中的 **X** 来删除该屏幕快照。您还可以选择进行屏幕录制、添加更多屏幕快照或附加文件。要发送建议，请点按表单右上角的纸飞机图标。
 
 **要咨询问题**，请执行以下操作：
 

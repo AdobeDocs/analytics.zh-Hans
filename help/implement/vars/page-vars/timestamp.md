@@ -4,9 +4,9 @@ description: 手动设置点击的时间戳。
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 81%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## 使用Web SDK的时间戳
 
-在XDM字段`xdm.timestamp`下，为Adobe Analytics[&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=zh-Hans)映射时间戳。 此字段仅支持Unix时间。
+在XDM字段[下，为Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md)映射时间戳`xdm.timestamp`。 此字段仅支持Unix时间。
 
 ## 使用Adobe Analytics扩展的时间戳
 

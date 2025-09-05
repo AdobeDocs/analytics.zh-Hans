@@ -3,7 +3,7 @@ title: 机器人页面查看次数
 description: 与机器人规则匹配的页面查看次数。
 feature: Metrics
 exl-id: d6699880-3faa-4df9-ad49-c7998f6ce45b
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # 机器人页面查看次数
 
-“机器人页面查看次数”[量度](overview.md)显示与[机器人规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)匹配的页面点击数。
+“机器人页面查看次数”[量度](overview.md)显示与[机器人规则](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)匹配的页面点击数。
 
 由于机器人报表与报表包的其他数据是分开的，因此此量度仅适用于以下维度：
 

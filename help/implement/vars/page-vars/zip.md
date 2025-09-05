@@ -4,7 +4,7 @@ description: 在报表包设置允许时手动填充“邮政编码”维度。
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 75%
@@ -17,7 +17,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。如果始终使用[!UICONTROL 地域zip]，则不能使用此变量。 有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+>确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。如果始终使用[!UICONTROL 地域zip]，则不能使用此变量。 有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。
 
 ## 使用Web SDK的邮政编码
 

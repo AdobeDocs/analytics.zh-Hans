@@ -1,13 +1,13 @@
 ---
-description: 了解如何在Analysis Workspace中使用项目中的组件
+description: 了解如何在 Analysis Workspace 的项目中使用组件
 title: 在项目中使用组件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 80%
 
 ### 在项目中添加维度
 
-[维度](/help/components/dimensions/overview.md)是Adobe Analytics中通常包含字符串值的变量。 相反，[量度](/help/components/c-calcmetrics/cm-overview.md)包含与维度相关的数字值。基本报告根据数值列（量度）显示字符串值的行（维度）。
+[维度](/help/components/dimensions/overview.md)是Adobe Analytics中通常包含字符串值的变量。 相反，[量度](/help/components/calculated-metrics/cm-overview.md)包含与维度相关的数字值。基本报告根据数值列（量度）显示字符串值的行（维度）。
 
 1. 如[在项目中添加组件](#add-components-to-a-project)中所述，开始在 Analysis Workspace 的项目中添加维度。
 
@@ -103,7 +103,7 @@ ht-degree: 80%
 在自由格式表的一列中添加区段后，这些区段就会应用于该表列内的所有内容。您还可以添加区段作为流失可视化图表的一部分。
 
 * 在组件中使用区段
-当您定义诸如[计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[注释](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)甚至[区段](/help/components/segmentation/segmentation-workflow/seg-build.md)之类的组件时，可以将区段用作定义的一部分。
+当您定义诸如[计算量度](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[注释](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)甚至[区段](/help/components/segmentation/segmentation-workflow/seg-build.md)之类的组件时，可以将区段用作定义的一部分。
 
 
 ### 在项目中添加日期范围
@@ -245,7 +245,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

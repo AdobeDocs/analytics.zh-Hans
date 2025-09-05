@@ -3,7 +3,7 @@ title: 营销渠道常见问题解答
 description: 有关营销渠道的常见问题解答。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >为了最大化归因和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
->Analytics 管理员可以管理其组织的营销渠道，如[管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
+>Analytics 管理员可以管理其组织的营销渠道，如[管理营销渠道](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)中所述。
 
 有关营销渠道的常见问题解答。
 

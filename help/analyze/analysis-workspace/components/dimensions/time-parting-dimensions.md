@@ -4,9 +4,9 @@ title: 时间划分维度
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [时间划分维度](https://video.tv.adobe.com/v/41460?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [时间划分维度](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->时间划分维度仅在 Analysis Workspace 中可用。要在其他 Analytics 解决方案中使用时间划分维度，您可以实施 [getTimeParting 插件](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=zh-Hans)。
+>时间划分维度仅在 Analysis Workspace 中可用。要在其他 Analytics 解决方案中使用时间划分维度，您可以实施 [getTimeParting 插件](/help/implement/vars/plugins/gettimeparting.md)。
 
 Analysis Workspace 中的时间划分维度包括：
 

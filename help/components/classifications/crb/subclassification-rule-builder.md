@@ -3,7 +3,7 @@ description: 将子分类与分类规则生成器一起使用。
 title: 子分类和规则生成器
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -42,7 +42,7 @@ ht-degree: 66%
 
    示例：
 
-   ![步骤信息](/help/admin/admin/assets/sub_class_create.png)
+   ![步骤信息](/help/admin/tools/assets/sub_class_create.png)
 
 1. 在[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)中，从原始跟踪代码中对子分类键值进行分类。
 
@@ -63,7 +63,7 @@ ht-degree: 66%
 
    示例：
 
-   | 键 | 渠道 | 广泛促销活动代码 | 广泛促销活动代码&Hat;促销活动类型 | 广泛促销活动代码&Hat;促销活动主管 | ... |
+   | 键 | 渠道 | 广泛促销活动代码 | 广泛促销活动代码&amp;Hat;促销活动类型 | 广泛促销活动代码&amp;Hat;促销活动主管 | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | 品牌 | Suzanne |  |
    | &#42; |  | 222 | 品牌 | Frank |  |

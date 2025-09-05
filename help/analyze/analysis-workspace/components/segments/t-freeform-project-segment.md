@@ -4,10 +4,10 @@ title: 区段概述
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 34%
+source-wordcount: '304'
+ht-degree: 43%
 
 ---
 
@@ -20,28 +20,28 @@ ht-degree: 34%
 | --- | --- | --- | --- |
 | 组件列表区段 | 了解如何[创建区段](/help/components/segmentation/segmentation-workflow/seg-create.md)。 | 您的所有工作区项目 | 对于更复杂的区段、顺序区段 |
 | 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 仅用于项目，但可保存并添加到您的区段列表。 | 可用于临时单规则区段（通过拖放），或添加/编辑多个规则（通过单击“区段”图标） |
-| 基于计算量度的区段 | [计算指标生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hans) | 适用于个别计算指标 | 在您的指标定义中应用区段 |
-| 基于虚拟报表包的区段 | [虚拟报表包生成器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans) | 适用于个别虚拟报表包 | 在您的虚拟报表包定义中应用区段 |
+| 基于计算量度的区段 | [计算指标生成器](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | 适用于个别计算指标 | 在您的指标定义中应用区段 |
+| 基于虚拟报表包的区段 | [虚拟报表包生成器](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 适用于个别虚拟报表包 | 在您的虚拟报表包定义中应用区段 |
 
 ## 视频
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用区段](https://video.tv.adobe.com/v/41395?quality=12&learn=on&captions=chi_hans){target="_blank"}来演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用区段](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"}来演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找和创建演示视频的区段](https://video.tv.adobe.com/v/3415641?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找和创建演示视频的区段](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的滚动日期范围](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[区段中的滚动日期范围](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ ht-degree: 34%
 
 >[!BEGINSHADEBOX]
 
-请参阅演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [应用区段的其他方法](https://video.tv.adobe.com/v/33231?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [应用区段的其他方法](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ ht-degree: 34%
 
 区段比较包括以下功能：
 
-* [区段比较面板：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)允许您将两个区段拖入该面板，并查看一份全面的报告，其中从统计角度显示了两个受众之间存在的显着差异和重叠。
+* [区段对比面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)：可将两个区段拖入面板中，查看全面报告，显示两个受众之间的统计显著性差异及重叠情况。
 * [在流失表中比较区段：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)通过流失可视化图表，了解不同受众之间的对比情况。
 
 

@@ -4,7 +4,7 @@ description: 上下文数据变量允许您在处理规则可读取的每个页�
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 68%
@@ -13,13 +13,13 @@ ht-degree: 68%
 
 # contextData
 
-上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。您可以在上下文数据变量中发送数据，而不是显式地为代码中的 Analytics 变量分配值。然后，处理规则会接收上下文数据变量值并将其传递给相应的 Analytics 变量。请参阅《管理员用户指南》中的[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)。
+上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。您可以在上下文数据变量中发送数据，而不是显式地为代码中的 Analytics 变量分配值。然后，处理规则会接收上下文数据变量值并将其传递给相应的 Analytics 变量。请参阅《管理员用户指南》中的[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)。
 
 上下文数据变量有助于开发团队收集指定元素中的数据而不是编号变量。例如，您可以请求开发团队将页面的作者分配给 `s.contextData["author"]`，而不是请求他们将其分配给 `eVar10`。然后，贵组织中的 Analytics 管理员可以创建处理规则，以将上下文数据变量映射到用于报告的 Analytics 变量。开发团队最终只需担心上下文数据变量，而无需考虑Adobe提供的许多页面变量。
 
 ## 使用 Web SDK 的上下文数据变量
 
-如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则所有未映射到Adobe Analytics变量的字段都会自动包含为上下文数据变量。 您还可以使用XDM对象显式设置上下文数据。 然后，您可以使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)将上下文数据变量分配给所需的Analytics变量。  有关详细信息，请参阅[将其他XDM字段映射到Analytics变量](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)。
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则所有未映射到Adobe Analytics变量的字段都会自动包含为上下文数据变量。 您还可以使用XDM对象显式设置上下文数据。 然后，您可以使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)将上下文数据变量分配给所需的Analytics变量。  有关详细信息，请参阅[将其他XDM字段映射到Analytics变量](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)。
 
 如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则所有上下文数据变量都将作为键值对驻留在`data.__adobe.analytics.contextData`中：
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)界面将在适用的下拉菜单中显示`example_variable`和`second_example`。
+[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)界面将在适用的下拉菜单中显示`example_variable`和`second_example`。
 
 ## 使用 Adobe Analytics 扩展程序的上下文数据变量
 

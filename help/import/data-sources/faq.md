@@ -4,7 +4,7 @@ description: 有关数据源的常见问题解答。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 667870f9575bbc03a72738771f34bf1718725d6c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -30,8 +30,8 @@ ht-degree: 7%
 +++通过数据源上传的数据是否通过其他处理（如处理规则）运行？
 否。通过数据源上传的数据：
 
-* 未通过[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
-* 不遵循[营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+* 未通过[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
+* 不遵循[营销渠道处理规则](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
 * 不遵循[VISTA规则](/help/technotes/vista.md)
 +++
 

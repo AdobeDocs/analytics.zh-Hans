@@ -4,9 +4,9 @@ keywords: 数据馈送;作业;前处理列;后处理列;区分大小写
 title: 数据馈送常见问题解答
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,7 @@ Adobe Analytics不会阻止数据馈送文件被覆盖。
 
 ## 数据馈送中是否包含按 Admin Console 机器人规则过滤的机器人？ {#bots}
 
-数据馈送中不包含按 [Admin Console 机器人规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=zh-Hans)过滤的机器人。
+数据馈送中不包含按 [Admin Console 机器人规则](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)过滤的机器人。
 
 ## 为什么在 `event_list` 或 `post_event_list` 数据馈送列中看到了多个 `000` 值？ {#values}
 

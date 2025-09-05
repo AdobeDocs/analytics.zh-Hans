@@ -5,7 +5,7 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 91%
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 1. 创建或编辑请求，然后进入“[!UICONTROL 请求向导: 第 2 步]”。
 
-   ![屏幕截图显示按下列选项进行筛选：“应用程序”、“用户”和“项目”。](/help/admin/admin/assets/filter.png)
+   ![屏幕截图显示按下列选项进行筛选：“应用程序”、“用户”和“项目”。](/help/admin/tools/assets/filter.png)
 
 1. 在“[!UICONTROL 请求向导: 第 2 步]”中，单击网格中维度旁边的链接，然后选择&#x200B;**[!UICONTROL 过滤器]**。
 

@@ -4,9 +4,9 @@ title: 计算量度
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 78%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 78%
 
 {{legacy-arb}}
 
-Report Builder5.2及更高版本支持Adobe Analytics计算指标。 现在，所有计算指标都有一个全局ID — 不再局限于单一的报表包之中。
+Report Builder 5.2及更高版本支持Adobe Analytics计算指标。 现在，所有计算指标都有一个全局ID — 不再局限于单一的报表包之中。
 
 >[!NOTE]
 >
 >现有的工作簿可能会指向包含旧指标 ID 的请求。在使用 Report Builder 5.2 时，这些旧指标 ID 将会被转换为新的全局 ID。如果将该工作簿共享给 Report Builder v5.1 或早期版本的用户，则该用户将看不到计算指标。
 
-如需更加详细地了解如何使用新版计算指标生成器和管理器来创建并管理计算指标，请参阅[《计算指标指南》](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=zh-Hans)。
+如需更加详细地了解如何使用新版计算指标生成器和管理器来创建并管理计算指标，请参阅[《计算指标指南》](/help/components/calculated-metrics/cm-overview.md)。
 
 在“请求向导”的第 2 步，可以过滤并应用计算指标。
 
 ## 筛选计算量度 {#section_376E986D3E684999A7CDB08E53854159}
 
-**通过单击“筛选器”图标![显示“应用程序”、“用户”、“项目”字段的“筛选器”选项屏幕截图，可筛选**&#x200B;计算量度。](/help/admin/admin/assets/filter.png)
+**通过单击“筛选器”图标**&#x200B;显示“应用程序”、“用户”、“项目”字段的“筛选器”选项屏幕截图，可筛选![计算量度。](/help/admin/tools/assets/filter.png)
 
 “高级过滤器”对话框同时包含标准指标和计算指标。
 

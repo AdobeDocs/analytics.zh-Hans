@@ -3,9 +3,9 @@ description: 了解如何在Audience Library、Target和Audience Manager中发�
 title: 发布区段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1330'
 ht-degree: 47%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [发布区段](https://video.tv.adobe.com/v/36689?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[发布区段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ ht-degree: 47%
 
 ## 先决条件
 
-* 请确保要保存此区段的报表包已[启用Experience Cloud](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。 否则，您无法将其发布到Experience Cloud。
+* 请确保要保存此区段的报表包已[启用Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 否则，您无法将其发布到Experience Cloud。
 * 确保您的组织使用的是 Experience Cloud ID。
 * 在发布区段之前，您的管理员需要先在[管理控制台](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-tool-experience-cloud)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
 
@@ -50,7 +50,7 @@ ht-degree: 47%
 * **报告包限制**：每个报告包最多可发布 75 个区段。此限制是强制实施的。如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
 * **会员资格限制**：从 Adobe Analytics 共享到 [!DNL Experience Cloud] 的受众数量不能超过 2000 万个独特会员。
 * **数据隐私**：受众并非基于访客的身份验证状态进行过滤。访客可能能够在未验证和已验证状态下浏览您的网站。 在访客未经过身份验证时发生的操作仍可能会导致将访客包含在受众中。 请查看 [Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
-* 有关&#x200B;**和[!DNL Adobe Analytics]中区段之间的[!DNL Audience Manager]**&#x200B;差异的讨论，请参阅[了解Analytics和Audience Manager中的区段](https://experienceleague.adobe.com/zh-hans/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments)。
+* 有关&#x200B;**和[!DNL Adobe Analytics]中区段之间的[!DNL Audience Manager]**&#x200B;差异的讨论，请参阅[了解Analytics和Audience Manager中的区段](/help/integrate/c-audience-analytics/aam-analytics-segments.md)。
 
 ## 区段发布时间轴
 
@@ -66,7 +66,7 @@ ht-degree: 47%
 ## 在[!UICONTROL 区段生成器]中发布区段
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
-1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
+1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
    ![发布 Experience Cloud](assets/publish-ec.png)
 1. 提供区段的标题和描述。 在保存区段之前，需要填写这些字段。
 1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
@@ -127,14 +127,14 @@ ht-degree: 47%
 
 1. 在加载页面之前启动 Chrome 开发人员工具
 1. 加载页面，并选中“应用程序”>“Cookie”。Adobe Audience Manager UUID应在第三方中设置
-Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/reference/demdex-calls)）。 字段demdex是Adobe Audience Manager UUID集
+Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 字段demdex是Adobe Audience Manager UUID集
 在浏览器上（以下示例中为`35721780439475290181087231320657663953`）。
 
    ![Chrome 开发人员工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 访客轮廓查看器]
 
-默认情况下，加载[!UICONTROL 访客资料查看器]时，浏览器上的Adobe Audience Manager UUID是默认的。 如果验证其他用户的特性实现，请在UUID字段中输入UUID，然后单击[!UICONTROL 刷新]。 请参阅[访客轮廓查看器](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/features/visitor-profile-viewer)，以了解详细信息。
+默认情况下，加载[!UICONTROL 访客资料查看器]时，浏览器上的Adobe Audience Manager UUID是默认的。 如果验证其他用户的特性实现，请在UUID字段中输入UUID，然后单击[!UICONTROL 刷新]。 请参阅[访客轮廓查看器](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)，以了解详细信息。
 
 ## 在 [!DNL Audience Manager] 中查看区段特性
 

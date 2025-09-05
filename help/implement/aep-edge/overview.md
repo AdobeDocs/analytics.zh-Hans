@@ -4,7 +4,7 @@ description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 16%
@@ -23,13 +23,13 @@ Adobe Experience Platform Edge Network 允许您将发送到多个产品的数�
 
 ## `xdm`对象
 
-符合您基于[XDM](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home) (Experience Data Model)创建的架构。 XDM 可让您灵活地将字段定义为事件的一部分。如果要使用特定于Adobe Analytics的预定义架构，可将[Adobe Analytics ExperienceEvent架构字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)添加到您的架构中。 添加后，您可以使用Web SDK中的`xdm`对象填充此架构，以将数据发送到报表包。 数据到达Edge Network时，会将XDM对象转换为Adobe Analytics可以理解的格式。
+符合您基于[XDM](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home) (Experience Data Model)创建的架构。 XDM 可让您灵活地将字段定义为事件的一部分。如果要使用特定于Adobe Analytics的预定义架构，可将[Adobe Analytics ExperienceEvent架构字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)添加到您的架构中。 添加后，您可以使用Web SDK中的`xdm`对象填充此架构，以将数据发送到报表包。 数据到达Edge Network时，会将XDM对象转换为Adobe Analytics可以理解的格式。
 
 有关XDM字段及其映射到Adobe Analytics变量的方式的完整引用，请参阅映射到Analytics的[XDM对象变量](xdm-var-mapping.md)。
 
 >[!TIP]
 >
->如果您计划在未来迁移到[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing)，Adobe建议不要使用Adobe Analytics架构字段组。 相反，Adobe建议[创建自己的架构](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)，并使用数据流映射填充所需的Analytics变量。 当您准备好迁移到Customer Journey Analytics时，此策略不会将您锁定在prop和eVar架构中。
+>如果您计划在未来迁移到[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)，Adobe建议不要使用Adobe Analytics架构字段组。 相反，Adobe建议[创建自己的架构](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)，并使用数据流映射填充所需的Analytics变量。 当您准备好迁移到Customer Journey Analytics时，此策略不会将您锁定在prop和eVar架构中。
 
 ## `data`对象
 
@@ -39,7 +39,7 @@ Adobe Experience Platform Edge Network 允许您将发送到多个产品的数�
 
 ## 上下文数据变量
 
-以您需要的任何格式将数据发送到Edge Network。 任何未自动映射到`xdm`或`data`对象字段的字段在转发到Adobe Analytics时均包括为[上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。 然后，必须使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)将所需字段映射到各自的Analytics变量。
+以您需要的任何格式将数据发送到Edge Network。 任何未自动映射到`xdm`或`data`对象字段的字段在转发到Adobe Analytics时均包括为[上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。 然后，必须使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)将所需字段映射到各自的Analytics变量。
 
 例如，如果您有一个类似于以下内容的自定义XDM架构：
 

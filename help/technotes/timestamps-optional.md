@@ -5,9 +5,9 @@ title: 可选时间戳
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 96%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/3418611?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 -->
@@ -36,7 +36,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optio
 >
 >“可选时间戳”是从模板生成的所有新报表包的默认设置。从现有报表包复制而来的新报表包将继承原始报表包的设置。
 
-请参阅[可选时间戳](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=zh-Hans)，以了解更多设置信息。
+请参阅[可选时间戳](/help/technotes/timestamps-optional.md)，以了解更多设置信息。
 
 ## 可选时间戳：集成加盖时间戳和未加盖时间戳的数据 {#integrate}
 

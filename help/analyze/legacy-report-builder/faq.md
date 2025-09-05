@@ -4,9 +4,9 @@ title: Report Builder 常见问题解答
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '450'
 ht-degree: 100%
 
 ---
@@ -37,4 +37,4 @@ Report Builder 支持具有以下限制的工作簿：
 
 ## 我如何知道我是否有权访问 Report Builder？ {#access}
 
-您需要获得 Adobe Analytics 管理员授予的 Report Builder 访问权限。管理员在 [Adobe Admin Console](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-console/home)中设置产品配置文件。请求您的管理员授予您访问权限。
+您需要获得 Adobe Analytics 管理员授予的 Report Builder 访问权限。管理员在 [Adobe Admin Console](/help/admin/admin-console/home.md)中设置产品配置文件。请求您的管理员授予您访问权限。

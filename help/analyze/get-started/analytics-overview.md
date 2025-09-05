@@ -4,9 +4,9 @@ short-description: 了解针对分析师、最终用户和管理员的关键功�
 title: Adobe Analytics 概述
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
 >[!ENDSHADEBOX]
 
 
-有关使用哪种工具的问题，请参阅[我应该使用哪种 Adobe Analytics 工具？](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=zh-Hans)
+有关使用哪种工具的问题，请参阅[我应该使用哪种 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)
 
 ## 通过 Customer Journey Analytics 走得更远
 

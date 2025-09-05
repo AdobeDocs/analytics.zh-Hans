@@ -3,7 +3,7 @@ title: eVar（维度）
 description: 可在报告中使用的自定义维度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 77%
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 eVar是自定义[维度](overview.md)，您可以随意使用。 如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则您组织专属的大多数维度最终都将是[!UICONTROL eVars]。
 
-默认情况下，eVar会在设定的点击之外继续存在。 有关eVar持久性如何在Adobe的架构上进行操作的详细信息，请参阅下面的[eVar的工作方式](#how-evars-work)和[eVar如何与量度绑定](#how-evars-tie-to-metrics)部分。 您可以在[报表包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)中的[!UICONTROL 转换变量]下启用、禁用或自定义其到期和分配。 下图显示了“转化变量”界面中eVar定义的示例：
+默认情况下，eVar会在设定的点击之外继续存在。 有关eVar持久性如何在Adobe的架构上进行操作的详细信息，请参阅下面的[eVar的工作方式](#how-evars-work)和[eVar如何与量度绑定](#how-evars-tie-to-metrics)部分。 您可以在[报表包设置](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)中的[!UICONTROL 转换变量]下启用、禁用或自定义其到期和分配。 下图显示了“转化变量”界面中eVar定义的示例：
 
 ![Evar 示例](assets/evars-sample.png)
 
@@ -90,7 +90,7 @@ Analysis Workspace 使用以下逻辑提取此报表：
 * 默认情况下，eVar 使用上一次分配。新值将覆盖保留值。
 * 默认情况下，eVar 使用访问的有效期限。访问结束后，值将停止在 `post_evar` 列中逐行复制。
 
-您可以在报表包设置的[转换变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)下更改 eVar 分配和有效期限情况。
+您可以在报表包设置的[转换变量](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)下更改 eVar 分配和有效期限情况。
 
 ## eVar 与 Prop 的 值比较
 

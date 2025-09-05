@@ -3,7 +3,7 @@ title: 语音分析维度
 description: 语音分析维度
 feature: Dimensions
 exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # 语音分析维度
 
-当您在[!UICONTROL 应用程序报告]上启用[[!UICONTROL 语音和聊天机器人]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)时，将创建以下维度（和[量度](../metrics/voice-metrics.md)）。 您可以使用[上下文数据变量](/help/implement/vars/page-vars/contextdata.md)将它们设置为所需的字符串值。 在报表包设置中启用时，会自动创建[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)，以将语音分析维度映射到其关联的上下文数据变量。
+当您在[!UICONTROL 应用程序报告]上启用[[!UICONTROL 语音和聊天机器人]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md)时，将创建以下维度（和[量度](../metrics/voice-metrics.md)）。 您可以使用[上下文数据变量](/help/implement/vars/page-vars/contextdata.md)将它们设置为所需的字符串值。 在报表包设置中启用时，会自动创建[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)，以将语音分析维度映射到其关联的上下文数据变量。
 
 | 维度名称 | 描述 | 上下文数据变量 |
 | --- | --- | --- |

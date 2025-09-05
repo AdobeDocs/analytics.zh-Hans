@@ -3,7 +3,7 @@ title: 流媒体服务播放器状态跟踪量度
 description: 为报表包启用[!UICONTROL 播放器状态跟踪]时可用的量度。
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 流媒体服务播放器状态跟踪量度通过流媒体服务库为数据收集提供补充报表功能。 使用这些量度需要&#x200B;**[!UICONTROL Adobe Analytics for Streaming Media广告]**。 有关详细信息，请联系您的Adobe客户团队。
 
-当您在&#x200B;**[!UICONTROL 媒体报告]**&#x200B;下启用[播放器状态跟踪](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)时，以下量度可用：
+当您在&#x200B;**[!UICONTROL 媒体报告]**&#x200B;下启用[播放器状态跟踪](/help/admin/tools/manage-rs/edit-settings/media-management.md)时，以下量度可用：
 
 | 量度名称 | 描述 | 发送条件 | 上下文数据变量 |
 | --- | --- | --- | --- |

@@ -4,9 +4,9 @@ title: Adobe Analytics 登陆页面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: ht
-source-wordcount: '1463'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '1460'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登录页面](https://video.tv.adobe.com/v/346461/?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登录页面](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +74,8 @@ Adobe Analytics 登陆页面由以下子选项卡组成：项目、模板和学�
 | 编辑偏好设置 | 可让您[!UICONTROL 查看教程]和[编辑用户偏好设置](/help/analyze/analysis-workspace/user-preferences.md)。 |
 | [!UICONTROL 新建] | 打开项目模式，您可以在其中创建 Workspace 项目或移动记分卡，也可以打开公司模板。 |
 | [!UICONTROL 显示更少<br> 显示更多] | 在不显示和显示横幅之间切换：![顶部横幅](assets/top-banner.png) |
-| [!UICONTROL Workspace 项目] | 创建一个空白 [Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)以便您进行设计和构建。 |
-| [!UICONTROL 移动记分卡] | 创建一个空白[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hans)以便您进行设计和构建。 |
+| [!UICONTROL Workspace 项目] | 创建一个空白 [Workspace 项目](/help/analyze/analysis-workspace/home.md)以便您进行设计和构建。 |
+| [!UICONTROL 移动记分卡] | 创建一个空白[移动记分卡](/help/analyze/mobile-app/curator.md)以便您进行设计和构建。 |
 | [!UICONTROL 打开培训教程] | 打开 Workspace 培训教程，它会通过分步教程指导您完成构建新的入门项目的过程。 |
 | [!UICONTROL 打开发行说明] | 打开最新的 Adobe Experience Cloud 发行说明的 Adobe Analytics 部分。 |
 | 筛选条件图标 | 按标记、报告包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |
@@ -84,7 +84,7 @@ Adobe Analytics 登陆页面由以下子选项卡组成：项目、模板和学�
 | [!UICONTROL 收藏] | 在可用作筛选条件的收藏项目或文件夹旁边添加星号。 |
 | [!UICONTROL 名称] | 标识项目的名称。 |
 | 固定图标 | 固定项目，使它们始终显示在列表顶部，但您可以通过上移或下移项目来重新调整其顺序。使用省略号选项菜单并在列表中选择&#x200B;**上移**&#x200B;或&#x200B;**下移**。 |
-| 信息 (i) 图标 | 显示有关项目的以下信息：类型、项目角色、所有者、描述及其共享对象。它还指示谁可以[编辑或复制](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)此项目。 |
+| 信息 (i) 图标 | 显示有关项目的以下信息：类型、项目角色、所有者、描述及其共享对象。它还指示谁可以[编辑或复制](/help/analyze/analysis-workspace/curate-share/share-projects.md)此项目。 |
 | 省略号 (...) | 显示您可以执行的项目管理操作：**删除**、**共享**、**重命名**、**复制**、**取消固定**、**上移**、**下移**、**标记**、**批准**、**导出 CSV** 和&#x200B;**移至**。您可能无权执行所有列出的操作。 |
 | 显示：文件夹和项目或所有项目 | 更改表格上的视图设置可根据文件夹结构显示文件夹和项目&#x200B;**或**&#x200B;在无结构的列表中显示所有项目。 |
 | &lt;（“返回”按钮） | 返回到 Workspace 项目或报告中最新的登陆页面配置。您离开登陆页面时的页面配置将在您返回时保留。 |

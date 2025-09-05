@@ -1,20 +1,20 @@
 ---
-description: 了解如何在Analysis Workspace中策划项目。 策划限制了在共享项目之前对组件的访问。
+description: 了解如何在 Analysis Workspace 中策划项目。在共享项目之前，策划功能可用于限制对组件的访问权限。
 keywords: Analysis Workspace 策划
 title: 策划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 60%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
 # 策划项目
 
-“策划”让您可在共享项目前限制组件（维度、量度、区段、日期范围）。当收件人打开项目时，他们将看到您为其策划的有限组件。 策划虽然是一个可选步骤，但建议在共享项目前执行此步骤。
+策划功能可让您在共享项目之前，限制可用的组件（维度、量度、区段和日期范围）。当接收者打开项目时，他们将仅看到您为其策划的限定组件集。策划虽然是一个可选步骤，但建议在共享项目前执行此步骤。
 
 >[!NOTE]
 > 产品配置文件是控制用户可以查看哪些组件的主要机制。此类配置文件通过 Adobe Experience Cloud Admin Console 进行管理。“策划”是一个次级过滤器。
@@ -22,23 +22,22 @@ ht-degree: 60%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [策划项目](https://video.tv.adobe.com/v/328057?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [策划项目](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 
 ## 应用项目策划
 
-1. 选择&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 策划项目数据]**。
-将自动添加项目中使用的组件。
+1. 选择&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 策划项目数据]**。项目中使用的组件将会自动添加。
 如果一个项目有多个报表包，您会在项目中看到每个报表包都有一个策划放置目标。
-1. （可选）要添加更多组件，请将要共享的组件从左侧面板拖至数据视图的&#x200B;**[!UICONTROL 策划组件]**&#x200B;拖放区域。
+1. （可选）如需添加更多组件，请将您希望共享的组件从左侧面板拖动至该数据视图的&#x200B;**[!UICONTROL 策划组件]**&#x200B;投放区域。
 1. 选择&#x200B;**[!UICONTROL 完成]**。
 
 
 ![](assets/curation-field.png)
 
-当收件人打开应用策划后的项目时，他们将只看到您定义的策划组件集：
+当收件人打开经过策划的项目时，他们将只看到您在策划时定义的组件集：
 
 
 ## 删除项目策划
@@ -46,12 +45,12 @@ ht-degree: 60%
 要删除项目策划并恢复左边栏中的完整组件集，请执行以下操作：
 
 1. 选择&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 策划项目数据]**。
-1. 选择&#x200B;**[!UICONTROL 删除策划]**。
+1. 选择&#x200B;**[!UICONTROL 移除策划]**。
 1. 选择&#x200B;**[!UICONTROL 完成]**。
 
 ## 虚拟报告包策划
 
-要在报告包级别应用策划，以使其同时适用于多个项目，可[在虚拟报告包中策划组件](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/virtual-report-suites/vrs-components)。
+要在报告包级别应用策划，以使其同时适用于多个项目，可[在虚拟报告包中策划组件](/help/components/vrs/vrs-components.md)。
 
 >[!NOTE]
 >

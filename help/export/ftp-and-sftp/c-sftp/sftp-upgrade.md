@@ -3,9 +3,9 @@ title: SFTP 服务升级 — 常见问题解答
 description: 有关计划进行的 SFTP 服务升级的常见问题解答。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -24,17 +24,17 @@ Adobe Analytics 将于 2022 年 9 月 20 日升级其安全文件传输协议 ([
 
 以下功能可使用 SFTP 将数据上传到 Adobe Analytics。
 
-* [分类](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=zh-Hans)
+* [分类](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
 * [客户属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hans)
 
-* [数据馈送](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=zh-Hans)
+* [数据源](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
-* [数据源](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=zh-Hans)
+* [数据源](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
 
-* [Data Warehouse 传送的报表](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=zh-Hans)
+* [Data Warehouse 传送的报表](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* 此外，通过[工程技术服务](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=zh-Hans)创建的某些自定义实现可使用 SFTP 与 Adobe 交换数据。
+* 此外，通过[工程技术服务](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)创建的某些自定义实现可使用 SFTP 与 Adobe 交换数据。
 
 ## 此更新将包含哪些具体更改？
 

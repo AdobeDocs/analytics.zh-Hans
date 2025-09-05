@@ -3,9 +3,9 @@ description: 了解如何使用Audience Analytics案例。
 title: Audience Analytics用例
 feature: Audience Analytics
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 59%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 59%
 
 ## 相似建模 {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-作为多媒体发布者，您可以使用[区段比较](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison)来比较您的第三方受众，以了解关键的差异特征。 此比较可帮助您构建用于定位的高价值第一方区段。
+作为多媒体发布者，您可以使用[区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)来比较您的第三方受众，以了解关键的差异特征。 此比较可帮助您构建用于定位的高价值第一方区段。
 
 ## 前景分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-作为一家 B2B 零售商，您现在可以使用[连续分段](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build)深入分析潜在受众在购买之前的行为，这有助于您了解有哪些操作会促使转化。
+作为一家 B2B 零售商，您现在可以使用[连续分段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)深入分析潜在受众在购买之前的行为，这有助于您了解有哪些操作会促使转化。
 
 ## 人口统计定位 {#section_F034DB721A06419283DBD29D4A1B444B}
 
-作为一家目的地度假酒店，您可以使用 [Analysis Workspace 中的直方图](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/visualizations/histogram)来了解各个年龄段的购买情况。直方图可帮助您找到适合每个度假区资产的受众。
+作为一家目的地度假酒店，您可以使用 [Analysis Workspace 中的直方图](/help/analyze/analysis-workspace/visualizations/histogram.md)来了解各个年龄段的购买情况。直方图可帮助您找到适合每个度假区资产的受众。

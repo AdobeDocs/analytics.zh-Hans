@@ -5,10 +5,10 @@ uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 99%
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 99%
 * 使用任何自定义事件、购物车事件或实例。
 * 最多查看 20 个小时的实时历史数据。
 
-实时需要考虑用户和群组的权限。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。不支持 eVar（转化量度）。[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=zh-Hans)中已启用实时权限。
+实时需要考虑用户和群组的权限。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。不支持 eVar（转化量度）。[管理工具](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)中已启用实时权限。
 
 >[!NOTE]
 >
->[!UICONTROL 实时报表]与以前发布的[包括当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=zh-Hans)（数据回访间隔）功能不同，后者通过在最终确定数据之前显示数据而降低标准报表的延迟。
+>[!UICONTROL 实时报表]与以前发布的[包括当前数据](/help/analyze/legacy-report-builder/options.md)（数据回访间隔）功能不同，后者通过在最终确定数据之前显示数据而降低标准报表的延迟。

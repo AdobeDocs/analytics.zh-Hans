@@ -4,7 +4,7 @@ description: 了解如何在没有标签管理系统的情况下使用 JavaScrip
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 42%
@@ -17,20 +17,24 @@ AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用
 
 实施任务的高级概述：
 
-![如何通过Javascript的AppMeasurement实施Adobe分析，如本节中所述。](../assets/appmeasurement-annotated.png)
+![如何在AppMeasurement for Javascript中实施Adobe Analytics，如本节中所述。](../assets/appmeasurement-annotated.png)
 
 <table>
+
 <tr>
 <th style="width:5%"></th><th style="width:75%"><b>任务</b></th><th style="width:20%"><b>更多信息</b></th>
 </tr>
+
 <tr>
-<td>1</td><td>确保您已<b>定义报表包</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
+<td>1</td><td>确保您已<b>定义报表包</b></td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">报告包管理器</a></td>
 </tr>
+
 <tr>
-<td>2</td><td><b>从代码管理器下载AppMeasurement</b>所需的JavaScript代码。 解压缩文件。</td><td><a href="../../admin/admin/code-manager-admin.md">代码管理器</a></td>
+<td>2</td><td><b>从代码管理器下载AppMeasurement</b>所需的JavaScript代码。 解压缩文件。</td><td><a href="../../admin/tools/code-manager-admin.md">代码管理器</a></td>
 </tr>
+
 <tr>
-<td>3</td><td><b>将<code>AppMeasurement.js</code>添加到您网站的模板文件</b>。 该代码包含向Adobe发送数据所需的库。
+<td>3</td><td><b>将<code>AppMeasurement.js</code>添加到您网站的模板文件</b>。 该代码包含将数据发送到Adobe所需的库。
 
 ```html
 <head>
@@ -41,6 +45,7 @@ AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用
 
 </td><td></td>
 </tr>
+
 <tr>
 <td>4</td><td><b>在<code>AppMeasurement.js</code></b>中定义配置变量。 实例化Analytics对象后，这些变量可确保数据收集设置正确无误。
 
@@ -55,8 +60,9 @@ s.trackingServer = "example.data.adobedc.net";
 
 </td><td><a href="../vars/config-vars/configuration-variables.md">配置变量</a></td>
 </tr>
+
 <tr>
-<td>5</td><td><b>在网站的页面代码中定义页面级变量</b>。 这些变量可确定发送给Adobe的特定维度和量度。
+<td>5</td><td><b>在网站的页面代码中定义页面级变量</b>。 这些变量可确定发送到Adobe的特定维度和量度。
 
 ```js
 s.pageName = "Example page";
@@ -66,8 +72,9 @@ s.events = "event1";
 
 </td><td><a href="../vars/page-vars/page-variables.md">页面变量</a></td>
 </tr>
+
 <tr>
-<td>6</td><td><b>定义所有Adobe变量后，使用<code>t()</code>方法</b>将数据发送到Page。
+<td>6</td><td><b>定义所有页面变量后，使用<code>t()</code>方法</b>将数据发送到Adobe。
 
 ```js
 s.t();
@@ -75,9 +82,11 @@ s.t();
 
 </td><td><a href="../vars/functions/t-method.md">t()方法</a></td>
 </tr>
+
 <tr>
 <td>7</td><td><b>将您的实施</b>推向生产环境之前，对其进行扩展和验证。</b></td><td></td>
 </tr>
+
 </table>
 
 ## 其他资源

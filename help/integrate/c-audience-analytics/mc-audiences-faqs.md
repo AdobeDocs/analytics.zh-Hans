@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics 常见问题解答。
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1090'
 ht-degree: 31%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 31%
 
 +++ 如何知道我的Analytics数据中是否有个人身份信息(PII)？ 如果有，我该怎么做？
 
-如果在prop或eVar中有电子邮件/地址/等，请考虑在收集期间对数据进行哈希处理。 如果您的国家/地区将IP地址视为PII，请[启用IP模糊处理](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hans)。 咨询您的Analytics管理员，查看您正在收集的内容。 请咨询您的法律部门，了解他们对PII的看法。
+如果您在prop或eVar中有电子邮件/地址/等，请考虑在收集期间对数据进行哈希处理。 如果您的国家/地区将IP地址视为PII，请[启用IP模糊处理](/help/admin/tools/exclude-ip.md)。 咨询您的Analytics管理员，查看您正在收集的内容。 请咨询您的法律部门，了解他们对PII的看法。
 
 +++
 
@@ -135,7 +135,7 @@ ht-degree: 31%
 
 只能启用映射到您的 Experience Cloud 组织的报表包。
 
-有关此主题的更多常见问题解答，请参阅[服务器端转发常见问题解答](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)。
+有关此主题的更多常见问题解答，请参阅[服务器端转发常见问题解答](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)。
 
 +++
 

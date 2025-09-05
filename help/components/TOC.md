@@ -4,18 +4,18 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: ht
+source-git-commit: edc64aeef6eb987c5533f6a14d95aca6ff29a467
+workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
-+ [Analytics 组件指南](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
++ [Analytics组件指南](home.md)
++ [Analytics 发行说明](https://experienceleague.adobe.com/zh-hans/docs/analytics/release-notes/latest)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
@@ -204,34 +204,34 @@ ht-degree: 100%
    + [旧版区段常见问题解答](segmentation/seg-transition.md)
    + [最佳实践](segmentation/best-practices.md)
 + 计算量度 {#calculated-metrics}
-   + [概述](c-calcmetrics/cm-overview.md)
-   + [操作方法视频](c-calcmetrics/cm-videos.md)
+   + [概述](calculated-metrics/cm-overview.md)
+   + [操作方法视频](calculated-metrics/cm-videos.md)
    + 工作流 {#calcmetric-workflow}
-      + [创建计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [生成计算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [简单示例](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [一个更复杂的示例](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [量度类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [参与率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [分段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [过滤和加权度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [使用函数](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [标记计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [筛选计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [将计算量度标记为收藏项](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
-      + [批准计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [复制计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [管理计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [创建计算量度](calculated-metrics/workflow/cm-workflow.md)
+      + [查找量度](calculated-metrics/workflow/cm-finding.md)
+      + [生成计算量度](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+      + [简单示例](calculated-metrics/workflow/c-build-metrics/cm-pvv.md)
+      + [一个更复杂的示例](calculated-metrics/workflow/c-build-metrics/cm-orders-participation.md)
+      + [量度类型和归因](calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [参与率量度](calculated-metrics/workflow/c-build-metrics/participation-metric.md)
+      + [分段量度](calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)
+      + [堆叠和替换区段](calculated-metrics/workflow/c-build-metrics/cm-stack-seg.md)
+      + [过滤和加权度量](calculated-metrics/workflow/c-build-metrics/cm-weighted-metric.md)
+      + [使用函数](calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+      + [标记计算量度](calculated-metrics/workflow/cm-tagging.md)
+      + [筛选计算量度](calculated-metrics/workflow/cm-filter.md)
+      + [将计算量度标记为收藏项](calculated-metrics/workflow/cm-favorite.md)
+      + [批准计算量度](calculated-metrics/workflow/cm-approving.md)
+      + [共享计算量度](calculated-metrics/workflow/cm-sharing.md)
+      + [复制计算量度](calculated-metrics/workflow/cm-copy.md)
+      + [管理计算量度](calculated-metrics/workflow/cm-manager.md)
    + 参考 {#calcmetrics-reference}
-      + [基本功能](c-calcmetrics/cm-reference/cm-functions.md)
-      + [高级功能](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [量度兼容性](c-calcmetrics/cm-compatibility.md)
-      + [基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
-      + [计算量度总计](c-calcmetrics/cm-totals.md)
-      + [默认计算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [基本功能](calculated-metrics/cm-reference/cm-functions.md)
+      + [高级功能](calculated-metrics/cm-reference/cm-adv-functions.md)
+      + [量度兼容性](calculated-metrics/cm-compatibility.md)
+      + [基于角色的权限](calculated-metrics/cm-role-based-rights.md)
+      + [计算量度总计](calculated-metrics/cm-totals.md)
+      + [默认计算量度](calculated-metrics/cm-reference/default-calcmetrics.md)
 + 虚拟报告包 {#virtual-report-suites}
    + [虚拟报告包概述](vrs/vrs-about.md)
    + [虚拟报告包 — 组件管理](vrs/vrs-components.md)
@@ -255,10 +255,10 @@ ht-degree: 100%
    + [将虚拟报告包限制在特定日期](cda/limit-vrs-date.md)
    + [Cross-Device Analytics 常见问题解答](cda/faq.md)
 + 警报 {#alerts}
-   + [概述](c-alerts/intellligent-alerts.md)
-   + [创建警报](c-alerts/alert-builder.md)
-   + [管理警报](c-alerts/alert-manager.md)
-   + [用例](c-alerts/alerts-use-cases.md)
+   + [概述](alerts/alerts-overview.md)
+   + [创建警报](alerts/alert-builder.md)
+   + [管理警报](alerts/alert-manager.md)
+   + [用例](alerts/alerts-use-cases.md)
 + 分类 {#classifications}
    + [分类概述](classifications/classifications-overview.md)
    + 分类集 {#sets}

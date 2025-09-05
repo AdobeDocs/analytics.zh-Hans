@@ -4,7 +4,7 @@ keywords: Analytics 实施
 title: 重定向和别名
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 99%
@@ -41,8 +41,8 @@ ht-degree: 99%
 重定向可能会导致浏览器清除真正的反向链接 URL。请考虑下列情景︰
 
 1. 用户将其浏览器指向 `https://www.google.com`，然后在搜索字段输入 *discount airline tickets* 并单击&#x200B;**[!UICONTROL 搜索]**&#x200B;按钮。
-1. 浏览器窗口的地址栏显示用户在搜索字段输入的搜索词 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`。请注意，搜索词包括在 `https://www.google.com/search?` ? 后面的 URL 查询字符串参数中。浏览器还会显示包含搜索结果的页面，其中包括到您的一个域名的链接：[!DNL https://www.flytohawaiiforfree.com/] 。此&#x200B;*虚构的*&#x200B;域已配置为将用户重定向到`https://www.example.com/` 。
-1. 用户单击链接 `https://www.flytohawaiiforfree.com/`，即被服务器重定向到您的主网站 `https://www.example.com`。在发生重定向后，由于浏览器清除了反向链接 URL，因此对 [!DNL Analytics] 数据收集极其重要的数据将丢失。所以，在 [!DNL Analytics] 报表中使用的原始搜索信息（例如[!UICONTROL 反向链接域名]、[!UICONTROL 搜索引擎]、[!UICONTROL 搜索关键词]）将丢失。
+1. 浏览器窗口的地址栏显示用户在搜索字段输入的搜索词 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`。请注意，搜索词包括在 `https://www.google.com/search?` ? 后面的 URL 查询字符串参数中。浏览器还会显示包含搜索结果的页面，其中包括到您的一个域名的链接：[!DNL https://www.flytohawaii.example/] 。此&#x200B;*虚构的*&#x200B;域已配置为将用户重定向到`https://www.example.com/` 。
+1. 用户单击链接 `https://www.flytohawaii.example/`，即被服务器重定向到您的主网站 `https://www.example.com`。在发生重定向后，由于浏览器清除了反向链接 URL，因此对 [!DNL Analytics] 数据收集极其重要的数据将丢失。所以，在 [!DNL Analytics] 报表中使用的原始搜索信息（例如[!UICONTROL 反向链接域名]、[!UICONTROL 搜索引擎]、[!UICONTROL 搜索关键词]）将丢失。
 
 ## 实施重定向 {#implement}
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 
 ## 配置反向链接覆盖 JavaScript 代码 {#override}
 
-以下代码片段显示了两个 JavaScript 变量，即 *`s_referrer`* 和 *`s_pageURL`*。此代码位于重定向的最终登陆页面上。
+以下代码片段显示了两个 JavaScript 变量，即 `s.referrer` 和 `s.pageURL`。此代码位于重定向的最终登陆页面上。
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ if(tempVar)
 因此，登陆页面的最终版本需要包含下列代码以更正在“discount airline tickets”方案中介绍的问题。
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## 利用 Adobe Debugger 验证反向链接 {#verify}
@@ -135,8 +135,8 @@ s.pageURL="https://www.flytohawaiiforfree.com"
   </tr> 
   <tr> 
    <td> <p>页面 URL </p> </td> 
-   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com </span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>如果使用 <span class="varname">pageURL</span> 变量，此值将显示在 DigitalPulse Debugger 中。 </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>如果使用 <span class="varname">pageURL</span> 变量，此值将显示在 DigitalPulse Debugger 中。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>最终登陆页面 URL </p> </td> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

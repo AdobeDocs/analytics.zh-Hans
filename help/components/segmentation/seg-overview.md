@@ -3,9 +3,9 @@ description: 了解如何通过区段根据访客特征或其在网站上的互�
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: ht
-source-wordcount: '988'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '987'
 ht-degree: 100%
 
 ---
@@ -240,7 +240,7 @@ Analysis Workspace 包含以下附加功能：
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/3429103?quality=12&learn=on&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -249,7 +249,7 @@ Analysis Workspace 包含以下附加功能：
 
 +++ **需要哪些权限才能使用、创建和管理区段？**
 
-默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
+默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](/help/admin/admin-console/home.md)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
 
 管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[按角色划分区段权限](/help/components/segmentation/seg-reference/seg-rights.md)
 

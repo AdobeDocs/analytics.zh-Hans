@@ -4,9 +4,9 @@ keywords: 虚拟报表包
 title: 创建虚拟报表包
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '674'
 ht-degree: 62%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://video.tv.adobe.com/v/3428878?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ ht-degree: 62%
 | 启用报表时间处理 | 使用报表时间处理可更改默认的访问超时时长。这些设置不具有任何破坏性，仅适用于 Analysis Workspace。[了解详情](/help/components/vrs/vrs-report-time-processing.md) |
 | 访问超时 | 定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。这将影响访问指标、访问区段容器和访问时过期的 eVar。 |
 | 通过事件开始新访问 | 当任何指定事件触发时，无论会话是否超时，都将计为启动了一个新会话。 |
-| **移动应用程序访问设置** | 修改如何定义由Adobe的移动SDK收集的移动设备应用程序点击的访问量。 这些设置不具有破坏性，仅适用于Analysis Workspace。 |
+| **移动应用程序访问设置** | 修改如何定义通过Adobe的Mobile SDK收集的移动应用程序点击量。 这些设置不具有破坏性，仅适用于Analysis Workspace。 |
 | 避免将后台点击计算为一次新的访问 | 避免将后台点击计算为一次新的访问，从而防止后台点击量使访问次数和独特访客指标被夸大。 |
 | 在每次应用程序启动后即开始一个新访问 | 每当应用程序启动时，即视为开始了一个新会话。[了解详情](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
@@ -65,7 +65,7 @@ ht-degree: 62%
 ![](assets/components.png)
 
 1. 在[!UICONTROL 组件]选项卡上，选中此复选框可应用策划，以在 Analysis Workspace 中包含、排除和重命名此虚拟报表包的组件。
-有关虚拟报表包策划的更多信息，请参阅[虚拟报表包组件策划](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites?lang=zh-Hans)。
+有关虚拟报表包策划的更多信息，请参阅[虚拟报表包组件策划](/help/components/vrs/vrs-components.md)。
 
 1. 将要包含在虚拟报表包中的组件（维度、量度、区段或日期范围）拖入[!UICONTROL 包含的组件]部分。
 

@@ -4,7 +4,7 @@ description: 帮助删除网站上的重复量度。
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -21,7 +21,7 @@ ht-degree: 83%
 
 ## 设置事件序列化
 
-您必须先在报表包设置中将事件的[!UICONTROL 独特事件记录]设置为[!UICONTROL 使用事件 ID]。请参阅《管理员用户指南》中的[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)。
+您必须先在报表包设置中将事件的[!UICONTROL 独特事件记录]设置为[!UICONTROL 使用事件 ID]。请参阅《管理员用户指南》中的[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)。
 
 使用事件 ID 时，会在以下级别进行重复数据删除：
 

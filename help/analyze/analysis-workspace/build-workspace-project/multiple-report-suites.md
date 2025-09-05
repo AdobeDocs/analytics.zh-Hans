@@ -4,9 +4,9 @@ description: 了解如何在一个Analysis Workspace项目中使用多个报表�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多个报表包](https://video.tv.adobe.com/v/36690?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[多个报表包](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ ht-degree: 71%
 
 1. （可选）您还可以转到其他 Analytics 组件生成器，并确保它们现在显示一个报表包标签，指示
 
-   * 将创建区段的位置： [区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)。
-   * 将创建计算量度的位置： [计算量度生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hans)。
-   * 将生成警报的位置： [警报生成器](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=zh-Hans)。
+   * 将创建区段的位置： [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)。
+   * 将创建计算量度的位置： [计算量度生成器](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)。
+   * 将生成警报的位置： [警报生成器](/help/components/alerts/alert-builder.md)。

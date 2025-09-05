@@ -3,7 +3,7 @@ title: 反向链接类型
 description: 反向链接类型，取决于访客的来源。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的多个查找表。每个值都基于点击的[反向链接](referrer.md)，具体取决于[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。确保正确配置反向链接维度和内部 URL 过滤器。
+此维度引用 Adobe 内部的多个查找表。每个值都基于点击的[反向链接](referrer.md)，具体取决于[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。确保正确配置反向链接维度和内部 URL 过滤器。
 
 ## 维度项目
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->此列表不同于[营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)中的社交网络默认列表。
+>此列表不同于[营销渠道处理规则](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)中的社交网络默认列表。
 
 * `12seconds.tv`
 * `4travel.jp`

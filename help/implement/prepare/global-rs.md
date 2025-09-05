@@ -4,7 +4,7 @@ description: 了解使用全局报表包的优势和要求。
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 * **汇总数据：**&#x200B;通过全局报表包，您能够查看自己所拥有的网站中的 KPI 和成功事件。分段和虚拟报表包可用于查看特定于网站的数据。
 * **支持 Cross-Device Analytics：** CDA 要求一个报表包能从多个位置（如网站和移动设备应用程序）收集数据。如果实施得当，各个设备可以将数据拼合在一起。有关更多信息，请参阅《组件用户指南》中的 [Cross-Device Analytics](../../components/cda/overview.md)。
 * **无需多个报表包：**&#x200B;可以将所有数据收集到一个报表包中，如此一来，开发人员便不太可能将数据误发到错误的报表包。
-* **无需汇总**：汇总是一个比较过时的功能，是指每天对各个报表包的数据进行汇总。汇总不会删除重复的访问或访客数据，因此会导致数字虚增。有关详细信息，请参阅《管理员用户指南》中的[汇总](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)。
+* **无需汇总**：汇总是一个比较过时的功能，是指每天对各个报表包的数据进行汇总。汇总不会删除重复的访问或访客数据，因此会导致数字虚增。有关详细信息，请参阅《管理员用户指南》中的[汇总](../../admin/tools/manage-rs/rollup-report-suite.md)。
 * **节省时间：**&#x200B;工作区项目、分类、区段和计算量度都与同一全局报表包相关联。因此，可以节省管理员在管理这些组件和数据上所花费的时间。
 * **更准确的跨品牌归因：**&#x200B;如果在触发成功事件之前，访客首先访问了您的一个网站，然后又点击了您的另一个网站，则系统会收集准确的归因信息。例如，访客先点击付费搜索链接并登陆网站 A。在此之后，访客又点击指向网站 B 的链接，然后进行购买。在这种情况下，全局报表包可正确地将购买归因于付费搜索。
 * **简化的实施：**&#x200B;由于所有品牌/网站都将数据发送到同一报表包，因此您在每个网站上的实施都将保持一致。这一强制性管理功能可确保将特定维度或量度保存在同一 eVar 或事件中。管理员、测试人员、标签管理负责人员和分析师都将从这项简化中受益。
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 请阅读以下一般准则，以了解实施全局报表包的流程。
 
-1. 在 Adobe Analytics 中创建全局报表包。有关详细信息，请参阅《管理员用户指南》中的[创建报表包](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)。
+1. 在 Adobe Analytics 中创建全局报表包。有关详细信息，请参阅《管理员用户指南》中的[创建报表包](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)。
 1. 与组织中负责每个域的团队合作。许多团队都有特定于其业务领域的报告要求。
 1. 将所有这些要求记录并汇总到一个[解决方案设计文档](solution-design.md)中。如果各个团队具有类似的维度要求，则他们可以使用相同的自定义变量。例如，如果网站 A 和网站 B 都需要痕迹导航维度，则两个网站在实施过程中都可以通过 eVar1 发送该数据。
 
@@ -58,4 +58,4 @@ ht-degree: 100%
 ## 相关页面
 
 [从多包标记转换到全局报表包和虚拟报表包](../../components/vrs/vrs-considerations.md)
-[比较汇总和全局报表包](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)
+[比较汇总和全局报表包](../../admin/tools/manage-rs/rollup-report-suite.md)

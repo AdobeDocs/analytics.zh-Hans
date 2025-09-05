@@ -1,18 +1,18 @@
 ---
-description: 了解Analysis Workspace中的辅助功能支持功能。
-title: Analysis Workspace中的辅助功能
+description: 了解 Analysis Workspace 中的无障碍支持功能。
+title: Analysis Workspace 中的无障碍功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Analysis Workspace 中的辅助功能
+# Analysis Workspace 中的无障碍功能
 
 了解 Customer Journey Analytics 的首要分析工具 [!UICONTROL Analysis Workspace] 中的无障碍支持。
 
@@ -31,7 +31,7 @@ ht-degree: 91%
 [!UICONTROL Analysis Workspace] 中的导航方式包括自上而下，以及从左至右。以下导航元素有助于促进无障碍功能：
 
 * **[!UICONTROL Tab]** 键启用地标快捷方式，可在 Workspace 中的较大部分之间移动。在左侧面板中，**[!UICONTROL Tab]** 还允许您从一个可拖动选项移到下一个可拖动选项。
-* 在&rbrace;︎◀Tab▶键突出显示某个元素后，**[!UICONTROL 和&rbrace;︎]**&#x200B;在单个元素之间移动。
+* 当 **[!UICONTROL Tab]** 键突出显示某个元素后，使用 ◀◀︎ 和 ▶▶︎ 可在各个元素之间移动。
 * 使用 **[!UICONTROL F6]** 键可以导航到项目中的第一个面板，并在该面板内的可视化内容之间移动。然后，它会移到项目中的下一个面板并重复上述操作。
 * 焦点指示器的应用有助于具有视力的键盘用户能够清楚地了解当前具有焦点的 UI 元素。该指示器是具有焦点的面板的蓝色边框。最近选择的功能以及功能内的选择具有灰色背景。在该示例中，[!UICONTROL 组件]和页面维度是最近选定的。
 
@@ -55,7 +55,7 @@ ht-degree: 91%
 
 ### 键盘快捷键（热键）
 
-[!UICONTROL Analysis Workspace]提供了一组丰富的[键盘快捷键（热键）](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以实现更加无缝的工作流程。
+[!UICONTROL Analysis Workspace] 提供丰富的[键盘快捷键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（热键），以实现更顺畅的工作流。
 
 ## 支持屏幕阅读器和屏幕放大镜
 
@@ -118,7 +118,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 ### Keyboard shortcuts (hotkeys) 
 
-[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hans) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
+[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
 
 #### Navigation
 
@@ -160,7 +160,7 @@ A screen reader reads text that appears on the computer screen. It also reads no
 
 [!UICONTROL Analysis Workspace] strives for WCAG 2.1 AA conformance, including requirements for color contrast. 
 
-In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hans). 
+In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md). 
 
 ## Required field validation in component builders 
 

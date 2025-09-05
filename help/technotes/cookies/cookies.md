@@ -4,9 +4,9 @@ description: 了解跟踪预防措施如何影响 Adobe Analytics 设置的第�
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1908'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 ## 浏览器如何限制 Cookie 的使用？
 
 >[!NOTE]
->如果有个人 ID（如经过哈希处理的登录 ID）可用，则 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda?lang=zh-Hans) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics?lang=zh-Hans) 可使用它在 Cookie 间拼合。
+>如果有个人 ID（如经过哈希处理的登录 ID）可用，则 [Cross-Device Analytics](/help/components/cda/overview.md#cda) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics?lang=zh-Hans) 可使用它在 Cookie 间拼合。
 
 ### 第三方 Cookie 限制
 
@@ -75,7 +75,7 @@ ITP 限制的影响根据用户的行为差别非常大。只有使用受 ITP �
 
 第三方 Cookie 并非由用户访问的网站创建。
 
-虽然浏览器目前以同样方式处理所有第三方 Cookie 并进行存储，但第三方 Cookie 可能会有不同的行为方式。对于客户的 Analytics 第三方 Cookie 实施，浏览器存储 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) ID 作为第三方 Cookie，但客户端仅对 Adobe 发出调用，而不会向未知的或可疑的第三方域发出调用。此 Cookie 提供跨域的持久性标识符并允许安全 (HTTPS) 内容。有关更多信息，请参阅 [Cookie 和 Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
+虽然浏览器目前以同样方式处理所有第三方 Cookie 并进行存储，但第三方 Cookie 可能会有不同的行为方式。对于客户的 Analytics 第三方 Cookie 实施，浏览器存储 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) ID 作为第三方 Cookie，但客户端仅对 Adobe 发出调用，而不会向未知的或可疑的第三方域发出调用。此 Cookie 提供跨域的持久性标识符并允许安全 (HTTPS) 内容。有关更多信息，请参阅 [Cookie 和 Experience Platform 身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
 
 在 Analytics 实施中，第三方 Cookie 用于跨域跟踪以及用于广告用例，包括重新定位广告。您可使用第三方 Cookie 在访客访问您拥有的不同域时标识访客，或者在并非您拥有的网站上向其显示广告时进行标识。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -178,4 +178,4 @@ Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改�
 >[!MORELIKETHIS]
 >
 >[减轻浏览器 Cookie 限制影响的选项](cookieless.md)
->[Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>>[Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)

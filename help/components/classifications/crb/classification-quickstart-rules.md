@@ -3,10 +3,10 @@ description: 分类规则会定期查找未分类的术语。如果找到匹配�
 title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 88%
+source-wordcount: '1970'
+ht-degree: 89%
 
 ---
 
@@ -58,8 +58,6 @@ about_classification_rules.xml
 >[!UICONTROL 规则生成器]不支持数值 2 分类。
 
 ## 有关规则的重要信息
-
-* 为[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)中的分类指定[!UICONTROL 组权限]。
 
 * **正则表达式**：[分类规则中的正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)下提供了相关帮助。
 
@@ -135,7 +133,7 @@ about_classification_rules.xml
 
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
-| 正则表达式 | &Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
+| 正则表达式 | &amp;Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
 
 **语法**
 

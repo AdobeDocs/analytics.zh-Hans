@@ -3,8 +3,8 @@ title: 量度概述
 description: 查看维度项目的数量或数据随时间变化的情况。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 {style="table-layout:fixed"}
 
-如果找不到给定量度的帮助页面，量度可能是[自定义事件](custom-events.md)或[计算量度。](../c-calcmetrics/cm-overview.md)
+如果找不到给定量度的帮助页面，量度可能是[自定义事件](custom-events.md)或[计算量度。](../calculated-metrics/cm-overview.md)
 
 * 如果量度是自定义事件，请咨询您组织的 Analytics 管理员，或查看报告包的[解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * 如果量度是计算量度，请单击信息图标以确定其公式。

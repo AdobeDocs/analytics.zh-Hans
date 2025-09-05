@@ -3,9 +3,9 @@ description: 可对虚拟报表包进行管理以在 Analysis Workspace 中包�
 title: 虚拟报表包组件管理
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 92%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [组件策划](https://video.tv.adobe.com/v/3425528?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [组件策划](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -77,4 +77,4 @@ ht-degree: 92%
 
 ## 工作区行为 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)。
+有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](/help/analyze/analysis-workspace/curate-share/curate.md)。

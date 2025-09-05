@@ -4,7 +4,7 @@ description: 可在实施中使用的自定义变量。
 feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 85%
@@ -57,7 +57,7 @@ s.prop1 = "Example custom value";
 
 ### 配置列表属性
 
-在报表包设置下的[流量变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)中启用列表 props。 确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
+在报表包设置下的[流量变量](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)中启用列表 props。 确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
 
 >[!TIP]
 >

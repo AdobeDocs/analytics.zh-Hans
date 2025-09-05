@@ -3,7 +3,7 @@ description: Adobe Analytics 支持单级别和多级别分类模型。使用分
 title: 子分类
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 97%
@@ -18,7 +18,7 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 
 >[!NOTE]
 >
->子分类是指创建分类的分类的功能。 但请注意，这与创建[!UICONTROL 层次]报表的[!UICONTROL 分类层次]不同。有关分类层次结构的详细信息，请参阅[分类层次结构](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)。
+>子分类是指创建分类的分类的功能。 但请注意，这与创建[!UICONTROL 层次]报表的[!UICONTROL 分类层次]不同。有关分类层次结构的详细信息，请参阅[分类层次结构](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)。
 
 例如：
 
@@ -62,7 +62,7 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 
 ## 示例
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

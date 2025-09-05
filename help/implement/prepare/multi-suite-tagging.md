@@ -4,7 +4,7 @@ title: 实施多包标记
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 93%
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 # 实施多包标记
 
-利用[多包标记](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md)，您不仅可以将图像请求发送到全局报表包，还可以发送到各个子报表包，以便您可以向不同的最终用户提供公司全局报表包数据的子集。
+利用[多包标记](/help/admin/tools/manage-rs/rollup-report-suite.md)，您不仅可以将图像请求发送到全局报表包，还可以发送到各个子报表包，以便您可以向不同的最终用户提供公司全局报表包数据的子集。
 
 要实施多包标记，您必须在网页和应用程序的跟踪代码中包含全局报表包的报表包 ID (RSID)，还要包括适用子报表包的 RSID。
 

@@ -4,7 +4,7 @@ description: 使用在线点击中存储的值扩充共享交易ID的离线点�
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->在使用交易ID数据源之前，必须先在所需报表包的[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)中启用它。
+>在使用交易ID数据源之前，必须先在所需报表包的[常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)中启用它。
 
 ## 工作原理
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 * [首次购买间隔天数](/help/components/dimensions/days-before-first-purchase.md)
 * [上次购买间隔天数](/help/components/dimensions/days-since-last-purchase.md)
 * [eVar 1-250](/help/components/dimensions/evar.md)
-* 在[报表包设置](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)中启用的特定功能维度，其行为与eVar类似。 行为与prop相似的特定于特征的维度不包括在内。
+* 在[报表包设置](/help/admin/tools/manage-rs/report-suites-admin.md)中启用的特定功能维度，其行为与eVar类似。 行为与prop相似的特定于特征的维度不包括在内。
 * [列表变量](/help/implement/vars/page-vars/list.md)
 * [营销渠道](/help/components/dimensions/marketing-channel.md)
 * [营销渠道详细信息](/help/components/dimensions/marketing-detail.md)

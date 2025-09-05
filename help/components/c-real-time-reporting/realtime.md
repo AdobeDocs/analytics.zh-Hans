@@ -4,7 +4,7 @@ title: 实时报表概述
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 89%
@@ -17,11 +17,11 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅[实时报表配置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
+>实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅[实时报表配置](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)。
 
 ## 访问实时报表
 
-1. 在 Analysis Workspace 中，选择 [!UICONTROL **Workspace**] 选项卡。
+1. 在 Analysis Workspace 中，选择&#x200B;[!UICONTROL **工作区**]&#x200B;选项卡。
 
 1. 在页面左侧的&#x200B;**[!UICONTROL 模板]**&#x200B;下，选择&#x200B;[!UICONTROL **Adobe模板**]。
 
@@ -31,7 +31,7 @@ ht-degree: 89%
 
 实时回答以下问题：我的网站上有什么趋势，为什么？它可以让营销人员快速响应并主动管理营销内容和促销活动的表现。报告的实时数据延迟不超过两分钟，并且会每分钟自动更新。
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report-realtime.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
 功能板包括 Adobe Analytics 高频率量度和网站分析，直观地报告动态新闻和零售网站的流量及页面查看趋势。只需数秒钟进行收集，即可时时刻刻看到数据的实时趋势。它通过对内容和某些转化进行实时关联和跟踪，来收集数据并将数据传输到自动更新的 UI。
 
@@ -64,4 +64,4 @@ ht-degree: 89%
 * 对于实时流、实时报表和API请求以及流量变量的当前数据，只有具有补充数据ID的点击才会延迟。
 * 对于转化量度的当前数据、最终数据和数据馈送，所有的点击都会额外延迟 5 至 7 分钟的时间。
 
-请注意，实施 Identity 服务之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
+请注意，实施身份标识服务之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
