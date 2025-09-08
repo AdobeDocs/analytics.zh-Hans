@@ -5,10 +5,10 @@ title: 处理规则用例
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -27,8 +27,9 @@ ht-degree: 22%
 以下示例采用`search_term`上下文数据变量并将其值放入eVar3：
 
 | 规则集 | 值 |
+| --- | --- |
 | 条件 | `search_term` （上下文数据）已设置 |
-| 操作 | [!UICONTROL 使用]覆盖`search_term` eVar3的值（上下文数据） |
+| 操作 | [!UICONTROL 用]覆盖`search_term` eVar3的值（上下文数据） |
 
 ![显示上下文数据变量用法的处理规则界面屏幕截图](assets/set-context-data.png)
 
@@ -37,9 +38,10 @@ ht-degree: 22%
 以下示例使用变化的上下文数据变量填充多个变量。 一个操作还包含一个条件语句：
 
 | 规则集 | 值 |
+| --- | --- |
 | 操作 | [!UICONTROL 用]覆盖`spa.billing_customer_name`的eVar55值（上下文数据） |
-| 操作 | 如果设置了[!UICONTROL &#x200B; （上下文数据），则使用] （上下文数据）覆盖`testhierarchy` Prop7的值 |
-| 操作 | `testhierarchy`用[!UICONTROL 覆盖] eVar8的值（上下文数据） `spa.ims_org` |
+| 操作 | 如果设置了[!UICONTROL  （上下文数据），则使用] （上下文数据）覆盖`testhierarchy` Prop7的值`testhierarchy` |
+| 操作 | [!UICONTROL 用]覆盖`spa.ims_org` eVar8的值（上下文数据） |
 
 ![显示如何有条件地设置值的处理规则界面屏幕截图](assets/add-conditional.png)
 
