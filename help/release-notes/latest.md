@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 247304b6cf3c7c79ff1521d8786ea887a515fdfb
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 100%
+source-wordcount: '1147'
+ht-degree: 81%
 
 ---
 
@@ -20,24 +20,23 @@ ht-degree: 100%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| 将项目和组件迁移到Customer Journey Analytics时的&#x200B;**改进** | 现在，将项目和组件从Adobe Analytics迁移到Customer Journey Analytics时，可使用以下改进：<ul><li>同时迁移多个项目。<p>一次最多可以迁移20个项目。</p><p>以前，一次只能迁移一个项目。</p></li><li>更新已经与上一次项目迁移映射的维度和量度的映射。<p>现在，每次迁移项目时，您都可以更新这些映射，即使以前使用以前的迁移来映射相同的维度和量度也是如此。</p><p>以前，您选择的所有映射对于所有未来的项目迁移都是永久的。</p></li><li>提高了拥有大量项目的组织的性能。</li></ul><p>有关详细信息，请参阅[将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md)。</p> | 2025年9月15日 | 2025年9月18日 |
 | **通过新的“反向链接类型”维度项分析 AI 流量** | 10 月份将推出一个新的反向链接类型维度项，帮助分析来自 AI 工具的流量。 <p>这个新的反向链接类型维度项称为“对话式 AI 工具”，它将主要 AI 工具的反向链接域合成一组，让您可以查看该组作为整体的趋势。这个新类别中的反向链接域初始列表包括（但不限于）：</p><ul><li>chatgpt.com</li><li>claude.ai</li><li>m365.cloud.microsoft</li><li>grok.com</li><li>gemini.google.com</li><li>perplexity.ai</li></ul><p>这个新的维度项将在所有 Adobe Analytics 相关的工具中提供，包括 Analysis Workspace、Report Builder、数据仓库、数据馈送等。</p><p>使用新的维度项时请考虑以下事项：</p><ul><li>并不总是能够区分来自搜索引擎中“AI 模式”所提供结果的引荐流量与来自传统搜索结果点进而产生的引荐流量。</li><li>新的对话式 AI 工具维度项重点关注带来最多流量的主要提供商。新的趋势表明，越来越多的模仿网站具有与主要 AI 工具提供商相似的域。这可能是因为个人或团体可以非常轻松地创建自己的 AI 工具并将其托管在互联网上。由于这是一个快速发展的领域，如果您发现某个热门网站未包含在内，请联系 Adobe 支持团队。</li><li>反向链接类型维度，包括新的对话式 AI 工具维度项，仅适用于 Adobe Analytics 处理的数据。 </li></ul><p>（文档链接见下文。）</p> |   | 2025 年 10 月 |
-| **以 PDF 格式下载的项目将保存到您的工作站** | 当项目以 PDF 格式下载时，文件将被保存到您工作站的下载文件夹中。 <p>此前，将项目以 PDF 格式下载时，会在新的浏览器标签页中打开该 PDF，并生成唯一的 URL。</p><p>更多信息请参阅[下载项目和数据](/help/analyze/analysis-workspace/curate-share/download-send.md)</p> |  | 2025 年 8 月 25 日 |
-| **项目一旦删除，就无法再通过 URL 访问，并立即从已计划的投放中删除** | 项目一旦删除，就会立即从已计划的投放中删除，并且无法再通过其 URL 访问。<p>以前，项目包含在已计划的投放中，在删除后 60 天内仍可通过其 URL 访问。</p><p>有关删除项目的更多信息，请参阅[项目概述](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。</p> | | 2025 年 8 月底 |
 | **流媒体服务：更新了用于将流媒体数据收集到 Adobe Experience Platform 的 XDM 字段** | 将流媒体数据收集到 Adobe Experience Platform 时，不应再使用流媒体参数文档中“XDM 字段路径”标题下显示的 XDM 字段路径。在 2025 年 5 月 9 日之前实施了 Analytics 源连接器以将流媒体数据收集到平台的客户，必须将其现有配置迁移到 mediaReporting 字段路径，参见流媒体参数文档中“报告 XDM 字段路径”标题下的段落。<p> 这些字段路径位于以下页面并标记为“已弃用”：[音频和视频参数](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/variables/audio-video-parameters)、[广告参数](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/variables/ad-parameters)、[章节参数](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/variables/chapter-parameters)、[播放器状态参数](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/variables/player-state-parameters)和[质量参数](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/variables/quality-parameters)。（2025 年 5 月 9 日之后实施 Analytics 源连接器，并且只使用 mediaReporting XDM 路径的客户无需采取任何行动。）</p><p>在已弃用的 XDM 字段路径上的数据摄取将继续进行，直到 2025 年 10 月底。之后，已弃用的字段路径将被完全移除，并且不再显示在 Adobe Experience Platform Schema UI 中，届时起将只使用 mediaReporting 字段路径发送数据。</p><p>有关详细信息请参阅[将 Analytics 源连接器实施迁移到更新后的 XDM 流媒体字段](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-use-cases/xdm-updates/updated-xdm-fields)。</p><p>请联系您的 Adobe Consulting 服务或帐户团队以获取迁移支持。 </p> |  | 2025 年 10 月 |
 
 ## Adobe Analytics 中的修复
 
-**Activity Map**：AN-389205；AN-384186
-**Analysis Workspace**：AN-390102；AN-389066；AN-388841；AN-388687；AN-388478；AN-387089；AN-387044；AN-384560；AN-379213；AN-351639
-**分类**：AN-390442；AN-390385；AN-389953；AN-389703；AN-389321；AN-389116；AN-388833；AN-388717；AN-387987；AN-383329
-**数据收集**：AN-389320
-**数据馈送和数据仓库**：AN-389702；AN-388136；AN-387779；AN-384369；AN-383075；AN-380307
+**Activity Map**：
+**Analysis Workspace**： AN-386791、AN-380838、AN-389373、AN-390851、AN-391593、AN-391404、AN-393064、AN-379337
+**分类**：AN-391364、AN-393014、AN-393882、AN-394346、AN-394333、AN-390201
+**数据收集**： AN-388127
+**数据馈送和Data Warehouse**： AN-391243
 **隐私**：
-**Report Builder**：AN-389336；AN-382775
-**报告**：AN-390398
-**计划报告**：
+**Report Builder**： AN-387741、AN-386777、AN-388720、AN-389343
+**报告**： AN-392863、AN-371871、AN-393640、AN-391334
+**计划报告**： AN-391150、AN-390474
 **区段比较**：
-**其他**：AN-388180；AN-383164；AN-366532
+**Other**： AN-387858、AN-393985、AN-393287
 
 
 ## 生命周期终止 (EOL) 通知 {#eol}
@@ -57,6 +56,6 @@ ht-degree: 100%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
-* [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
