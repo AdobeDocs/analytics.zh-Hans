@@ -3,18 +3,18 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 247304b6cf3c7c79ff1521d8786ea887a515fdfb
+source-git-commit: e1ae808920490f7d7c0611e45606a3f82b61ccdb
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 81%
+source-wordcount: '1148'
+ht-degree: 79%
 
 ---
 
-# 当前的 Adobe Analytics 发行说明（2025 年 8 月版本）
+# 当前Adobe Analytics发行说明（2025年9月版）
 
-**上次更新**：2025 年 8 月 13 日
+**上次更新日期**：2025年9月11日
 
-这些发行说明涵盖了 2025 年 8 月 13 日至 2025 年 9 月 16 日的发布期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖2025年9月至10月初的发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
@@ -56,6 +56,6 @@ ht-degree: 81%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
-* [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
