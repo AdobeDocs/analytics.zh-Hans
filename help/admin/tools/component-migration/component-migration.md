@@ -3,10 +3,10 @@ description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer J
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 5%
+source-wordcount: '1641'
+ht-degree: 4%
 
 ---
 
@@ -39,39 +39,53 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
 ## 将Adobe Analytics项目迁移到Customer Journey Analytics
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >在按照本节所述将任何项目迁移到Customer Journey Analytics之前，请在[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md)中了解有关迁移项目的更多信息。
 >
->**您映射的任何维度或量度对于此项目以及在整个IMS组织中迁移的所有未来项目都是永久性的，无论哪个用户正在执行迁移。 无法修改或撤消这些映射，除非联系客户关怀团队。**
+>**映射到此项目以及整个IMS组织中所有未来项目的任何维度或量度，无论哪个用户正在执行迁移。 迁移未来的项目时，可以更新这些映射。**
 
 1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**]&#x200B;选项卡，然后选择&#x200B;[!UICONTROL **所有管理员**]。
 
 1. 在&#x200B;[!UICONTROL **数据配置和集合**]&#x200B;下，选择&#x200B;[!UICONTROL **组件迁移**]。
 
-1. 找到要迁移的项目。 您可以过滤、排序或搜索项目列表。
+1. 找到要迁移的每个项目。 您可以过滤、排序或搜索项目列表。
 
    默认情况下，仅显示与您共享的项目。 要查看您组织中的所有项目，请选择&#x200B;**筛选器**&#x200B;图标，然后展开&#x200B;[!UICONTROL **其他筛选器**]&#x200B;并选择&#x200B;[!UICONTROL **显示所有**]。 （有关筛选、排序和搜索项目列表的详细信息，请参阅[筛选、排序和搜索项目列表](#filter-sort-and-search-the-list-of-projects)。）
 
-1. 将鼠标悬停在要迁移的项目上，然后选择&#x200B;**迁移**&#x200B;图标![迁移项目](assets/migrate.svg)。
+1. （视情况而定）要同时迁移多个项目，请选中要迁移的每个项目左侧的复选框，然后选择&#x200B;[!UICONTROL **迁移到Customer Journey Analytics**]。
 
-   或
+   迁移多个项目时，请考虑以下事项：
 
-   选择要迁移的项目，然后选择&#x200B;[!UICONTROL **迁移到Customer Journey Analytics**]。
+   * 一次最多可以选择20个要迁移的项目。
 
-   一次只能选择一个要迁移的项目。
+   * 您要迁移的所有项目的迁移状态必须相同。
+
+     例如，如果选择迁移状态为&#x200B;**[!UICONTROL 未启动]**&#x200B;的项目进行迁移，则无法选择迁移状态为&#x200B;**[!UICONTROL 失败]**&#x200B;的其他项目。
+
+   * 您必须为要迁移的所有项目指定相同的项目所有者。
+
+   * 对于要迁移的所有项目，维度和量度必须映射到相同的数据视图。
 
    将显示&#x200B;[!UICONTROL **将project_name迁移到Customer Journey Analytics**]&#x200B;对话框。
 
    <!-- add screenshot -->
 
-1. 在&#x200B;[!UICONTROL **项目所有者**]&#x200B;字段中，开始键入要在Customer Journey Analytics中设置为项目所有者的用户的名称，然后在下拉菜单中选择其名称。
+1. （视情况而定）要迁移单个项目，请将鼠标悬停在要迁移的项目上，然后选择&#x200B;**迁移**&#x200B;图标![迁移项目](assets/migrate.svg)。
 
-   您指定的所有者具有项目的完全管理权限。 所有者必须是Customer Journey Analytics中的管理员。 您可以在后续步骤中更改项目的所有权。
+   将显示&#x200B;[!UICONTROL **将project_name迁移到Customer Journey Analytics**]&#x200B;对话框。
+
+   <!-- add screenshot -->
+
+1. 在&#x200B;[!UICONTROL **项目所有者**]&#x200B;字段中，开始键入要设置为在Customer Journey Analytics中迁移的项目所有者的用户的名称，然后在下拉菜单中选择其名称。
+
+   您指定的所有者对迁移的项目具有完全管理权限。 所有者必须是Customer Journey Analytics中的管理员。 您可以在后续步骤中更改项目的所有权。
 
 1. 在&#x200B;[!UICONTROL **映射报表包**]&#x200B;部分中，选择一个报表包。
 
 1. 在&#x200B;[!UICONTROL **数据视图**]&#x200B;下拉菜单中，选择要将项目和组件迁移到的Customer Journey Analytics数据视图。
+
+   在迁移多个项目时，所有要迁移的项目将合并到单个数据视图映射中。
 
 1. 选择&#x200B;[!UICONTROL **映射架构**]。
 
@@ -123,13 +137,13 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 
    >[!WARNING]
    >
-   >   选择&#x200B;[!UICONTROL **迁移**]&#x200B;后，将显示屏幕上的警告消息。 在选择继续之前，请了解您映射的任何维度或量度对于此项目以及迁移整个组织的所有未来项目都是永久性的。 如果继续，将无法修改您所做的映射。
+   >选择&#x200B;[!UICONTROL **迁移**]&#x200B;后，将显示屏幕上的警告消息。 在选择继续之前，请了解您映射的任何维度或量度均适用于此项目以及整个IMS组织中的所有未来项目，而不管哪个用户正在执行迁移。 迁移未来项目时，可以更新这些映射。
 
    迁移完成后，[!UICONTROL **迁移状态**]&#x200B;页面将提供迁移内容的摘要。
 
    如果迁移失败，请参阅下面的[重试失败的迁移](#retry-a-failed-migration)部分以了解更多信息。
 
-1. （可选）迁移项目后，您可以将该项目的所有权转移给Customer Journey Analytics中的任何用户。 有关详细信息，请参阅《Customer Journey Analytics指南》中的[转移资源](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
+1. （可选）迁移项目后，您可以在Customer Journey Analytics中将项目的所有权转移给任何用户。 有关详细信息，请参阅《Customer Journey Analytics指南》中的[转移资源](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
 
 ## 重试失败的迁移
 
