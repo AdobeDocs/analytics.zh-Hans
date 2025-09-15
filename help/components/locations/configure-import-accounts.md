@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1489'
 ht-degree: 56%
 
 ---
@@ -61,7 +61,9 @@ ht-degree: 56%
 
    **帐户类型**
 
-   +++Amazon S3角色ARN
+   +++Amazon S3 Role ARN
+
+   **注意：**&#x200B;将Amazon S3与数据馈送和Data Warehouse结合使用时，仅支持SSE-S3加密。
 
    若要配置 Amazon S3 角色 ARN 帐户，请指定以下信息：
 
@@ -99,7 +101,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
    +++Azure RBAC
 
@@ -115,7 +117,7 @@ ht-degree: 56%
 
    +++
 
-   +++Email
+   +++电子邮件
 
    >[!NOTE]
    >

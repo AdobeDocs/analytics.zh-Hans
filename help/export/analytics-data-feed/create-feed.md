@@ -3,9 +3,9 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及有关要提供给Adobe的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4140'
 ht-degree: 53%
 
 ---
@@ -69,6 +69,8 @@ ht-degree: 53%
    您可以直接将馈送发送到 Amazon S3 存储段。此目标类型只需要您的Amazon S3帐户和位置（存储段）。
 
    Adobe Analytics使用跨帐户身份验证将文件从Adobe Analytics上传到Amazon S3实例中的指定位置。
+
+   在将Amazon S3与数据馈送结合使用时，仅支持SSE-S3加密。
 
    要将Amazon S3存储段配置为数据馈送的目标，请执行以下操作：
 
