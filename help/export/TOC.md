@@ -5,16 +5,16 @@ user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送和 Data Warehouse 来检索数据输出。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Analytics 导出指南 {#export}
 
-+ [Analytics导出指南](home.md)
++ [Analytics 导出指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/zh-hans/docs/analytics/release-notes/latest)
 + Analytics 数据馈送 {#analytics-data-feed}
    + [数据馈送概述](analytics-data-feed/data-feed-overview.md)

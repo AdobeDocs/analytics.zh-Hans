@@ -4,7 +4,7 @@ description: 查看维度项目的数量或数据随时间变化的情况。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
 ht-degree: 100%
 

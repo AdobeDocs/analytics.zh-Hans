@@ -5,16 +5,16 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
-+ [Analytics组件指南](home.md)
++ [Analytics 组件指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/zh-hans/docs/analytics/release-notes/latest)
 + 维度 {#dimensions}
    + [维度概述](dimensions/overview.md)

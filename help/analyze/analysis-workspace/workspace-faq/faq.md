@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 93%
 
 +++数据如何进入您的 Analysis Workspace 项目？
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://video.tv.adobe.com/v/33229?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 +++
 
@@ -55,24 +55,24 @@ ht-degree: 93%
 
 +++
 
-+++当我将指标拖动到上面时，显示“数据无效”。 如何解决这个问题？
++++当我将量度拖动到上面时，显示“数据无效”。如何解决这个问题？
 
 无效数据意味着 Adobe 无法通过报告中使用的维度和量度组合返回数据。例如，两个彼此堆叠的量度不能作为数据返回，因为无法以这种堆叠方式显示这两个量度。相反，应将两个量度并排放置。
 
 +++
 
-+++当我将量度拖动到上面时，看不到任何实际数据 — 只有零。 如何解决此问题？
++++当我将量度拖动到上面时，看不到任何实际数据 - 只有零。如何解决此问题？
 
 如果您成功创建了工作区报告，但报告中没有数据，则可以检查以下几项内容：
 
 * 仔细检查报告包，并确保报告包中已填充数据。
 * 如果在报告中应用了区段，区段标准可能与所有数据不匹配。请尝试移除区段或调整区段定义。
 * 检查右上角的日期范围，并确保它已设置为预期的值。
-* 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 验证正在收集的数据。
+* 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 验证正在收集的数据。
 
 
 +++
 
-+++作为只读用户，我可以在Analysis Workspace中执行哪些操作？
++++作为只读用户，我可以在 Analysis Workspace 中执行哪些操作？
 如果项目以只读方式共享，所有编辑功能和特点都被完全禁用，接收者只能更改下拉菜单，按一种预定义的方式在面板上应用过滤器。
 +++

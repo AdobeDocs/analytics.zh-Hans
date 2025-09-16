@@ -5,9 +5,9 @@ user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 浏览一个知识库，其中包含不属于特定 Analytics 工具或组件的有用文章。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 90%
 
 + [Analytics 技术说明](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/zh-hans/docs/analytics/release-notes/latest)
-+ 适用于Google Analytics用户的Adobe Analytics {#ga-to-aa}
++ 针对 Google Analytics 用户的 Adobe Analytics  {#ga-to-aa}
    + [针对 Google Analytics 用户的 Adobe Analytics 帮助](ga-to-aa/home.md)
    + [帐户和报表包](ga-to-aa/accounts.md)
    + [自定义报告视图](ga-to-aa/customization.md)
-   + Google Analytics报表 {#reports}
+   + Google Analytics 报告 {#reports}
       + [在 Analysis Workspace 中为 GA 用户创建基本报表](ga-to-aa/reports/create-report.md)
       + [其他 Analytics 平台上使用的常见量度](ga-to-aa/reports/common-metrics.md)
       + [实时](ga-to-aa/reports/realtime-reports.md)
@@ -54,9 +54,9 @@ ht-degree: 90%
    + [隐私概述](privacy/privacy-overview.md)
    + [隐私工作流程](privacy/privacy-workflow.md)
    + [Analytics 和 GDPR](privacy/gdpr.md)
-   + [Analytics和CCPA](privacy/ccpa.md)
-   + [Analytics和CNIL准许劐免](privacy/cnil-consent-exemption.md)
-   + [隐私常见问题解答](privacy/faq.md)
+   + [Analytics 和 CCPA](privacy/ccpa.md)
+   + [Analytics 和 CNIL 准许豁免](privacy/cnil-consent-exemption.md)
+   + [隐私常见问题](privacy/faq.md)
 + [处理顺序](processing-order.md)
 + [渐进式 Web 应用程序](pwa.md)
 + [重定向和别名](redirects.md)
