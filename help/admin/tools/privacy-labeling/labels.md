@@ -4,9 +4,9 @@ title: Analytics 变量的数据隐私标签
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '3760'
+source-wordcount: '3758'
 ht-degree: 100%
 
 ---
@@ -128,7 +128,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份标识数据、敏感�
 
 >[!CAUTION]
 >
->命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
+>命名空间 `visitorId` 和 `customVisitorId` 是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
 
 ## 变量类型及其支持的“数据隐私”标签 {#variable-types}
 

@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 浏览一个知识库，其中包含不属于特定 Analytics 工具或组件的有用文章。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
-source-wordcount: '206'
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 100%
 + [重定向和别名](redirects.md)
 + [安全资源](security.md)
 + [使用的术语（术语表）](terms.md)
-+ [可选时间戳](timestamps-optional.md)
 + [登录疑难解答](troubleshoot-login.md)
 + [注销疑难解答](troubleshoot-sessions.md)
 + [未指定、其他和未知](unspecified.md)

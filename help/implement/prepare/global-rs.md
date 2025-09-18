@@ -4,10 +4,10 @@ description: 了解使用全局报表包的优势和要求。
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
    > 请确保所有给定的自定义变量在各个域中的使用方式均类似。请勿在不同网站上将同一 eVar 或事件用于不同目的。
 1. 请确保每个域都有一个数据层，以便能够简化数据收集流程。如果没有数据层，虽然仍然可以收集数据，但实施的可靠性会降低且使用时间会缩短，在对您的网站进行重新设计时尤其如此。
 1. 使用 Adobe Experience Platform 中的标记实施 Analytics。不同的网站可能需要不同的数据元素。请使用特定于每个域的规则以确保正确填充每个数据元素，然后将这些数据元素分配给相应的 eVar 和事件。请参阅[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)。
-1. 包含 [Adobe Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)，并使用 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=zh-Hans) 函数。当用户从一个域单击到另一个域时，此函数将合并访客数据。
+1. 包括[Adobe Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)并使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=zh-Hans)函数。 当用户从一个域单击到另一个域时，此函数将合并访客数据。
 
 ## 使用全局报表包修改现有的实施
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 3. 按照上述步骤操作（创建报表包、收集所有报表要求并将其汇总到一个解决方案设计文档中、在每个网站上建立一个数据层）。实施 Adobe Experience Platform 中的标记时，请使用您网站的开发版本验证您的实施。
 4. 确认您的标记实施可以在开发版网站上正常使用后，请在既定的直接转换日期推出标记实施。
 
-## 相关页面
-
-[从多包标记转换到全局报表包和虚拟报表包](../../components/vrs/vrs-considerations.md)
-[比较汇总和全局报表包](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[从多包标记移至全局报表包和虚拟报表包](../../components/vrs/vrs-considerations.md)
+>>[比较汇总报表包和全局报表包](../../admin/tools/manage-rs/rollup-report-suite.md)

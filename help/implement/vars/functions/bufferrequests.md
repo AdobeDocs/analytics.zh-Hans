@@ -4,7 +4,7 @@ description: 增强捕获立即卸载页面的浏览器的链接跟踪请求的�
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->与发送数据的页面共享缓冲请求的时间戳。 如果您希望提高在准确时间内记录缓冲请求的精度，则可以在缓冲请求之前设置[`timestamp`](../page-vars/timestamp.md)页面变量。 如果使用此变量，请确保启用[可选时间戳](/help/technotes/timestamps-optional.md) — 如果未启用，则所有带有时间戳的点击将永久丢失！
+>与发送数据的页面共享缓冲请求的时间戳。 如果您希望提高在准确时间内记录缓冲请求的精度，则可以在缓冲请求之前设置[`timestamp`](../page-vars/timestamp.md)页面变量。 如果使用此变量，请确保启用[可选时间戳](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) — 如果未启用，则所有带有时间戳的点击将永久丢失！
 
 ## 限制
 
@@ -40,7 +40,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.bufferRequests()
 
-在调用`t()`或`tl()`之前调用`bufferRequests()`方法。 调用`bufferRequests()`时，后续跟踪调用将写入会话存储中，而不是发送到Adobe数据收集服务器。
+在调用`bufferRequests()`或`t()`之前调用`tl()`方法。 调用`bufferRequests()`时，后续跟踪调用将写入会话存储中，而不是发送到Adobe数据收集服务器。
 
 ```js
 // Instantiate the tracking object

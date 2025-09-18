@@ -3,10 +3,10 @@ title: 独特访客
 description: 独特访客 ID 的数量。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 95%
 
 ---
 
@@ -28,13 +28,13 @@ Analysis Workspace 根据报表的粒度处理独特访客。例如，如果您�
 | --- | --- | --- |
 | 1 | `vid` | 已设置 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量。 |
 | 2 | `aid` | 访客现有 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie。在不实施访客 ID 服务或在实施该服务之前进行设置。 |
-| 3 | `mid` | 访客现有 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie。在使用 [Adobe Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)实施时设置。 |
+| 3 | `mid` | 访客现有 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie。在使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的实施上设置。 Adobe建议尽可能对所有实施使用ID服务。 |
 | 4 | `fid` | 访客现有 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie，或者如果由于任何原因无法设置 `aid` 和 `mid`。 |
 | 5 | IP 地址、用户代理、网关 IP 地址 | 如果访客的浏览器不接受 Cookie，最后诉诸于确定独特访客。 |
 
 >[!NOTE]
 >
->每个 Analytics 访客 ID 都与 Adobe 服务器上的个人资料相关联。无论任何访客 ID Cookie 是否过期，这些访客资料在处于至少 13 个月的非活动状态之后都会被删除。
+>每个 Analytics 访客 ID 都与 Adobe 服务器上的轮廓相关联。无论任何访客 ID Cookie 是否过期，这些访客轮廓在处于至少 13 个月的非活动状态之后都会被删除。
 
 ## 影响独特访客计数的行为
 

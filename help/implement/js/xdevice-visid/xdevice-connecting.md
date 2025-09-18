@@ -1,14 +1,14 @@
 ---
-description: 跨设备访客识别可帮助您连接跨多个设备的访客。跨设备访客识别使用访客 ID 变量 s.visitorID 来关联跨设备的用户。
+description: 跨设备访客识别可帮助您连接跨多个设备的访客。
 keywords: Analytics 实施
 subtopic: Visitors
 title: 跨设备连接用户
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '383'
 ht-degree: 95%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 95%
 
 跨设备访客识别可帮助您连接跨多个设备的访客。跨设备访客识别使用 `visitorID` 变量来关联跨设备的用户。在识别独特访客时，`visitorID` 变量享有最高优先级别。
 
-当您使用自定义访客 ID 发送点击时，Adobe 会检查是否存在任何具有匹配访客 ID 的访客资料。如果存在，则会从此时开始使用系统中已存在的该访客资料，并且不再使用之前的访客资料。
+当您使用自定义访客 ID 发送点击时，Adobe 会检查是否存在任何具有匹配访客 ID 的访客轮廓。如果存在，则会从此时开始使用系统中已存在的该访客轮廓，并且不再使用之前的访客轮廓。
 
 `visitorID` 变量通常在出现以下情况后进行设置：执行身份验证；或访客执行了某些其他操作，使您能够脱离他们所使用的设备进行唯一识别。有效标识符包含由用户名、电子邮件地址或内部 ID 构成且不含任何个人身份信息的哈希。
 
-客户从每台设备登录后，所有这些设备都会绑定到同一个用户资料。如果访客稍后在设备上注销，则这些设备将继续属于同一访客资料，因为 Adobe 可识别出每台设备上的浏览器 Cookie 属于同一访客资料。Adobe 建议尽量使用 `visitorID` 变量以防浏览器 Cookie 被删除。
+客户从每台设备登录后，所有这些设备都会绑定到同一个用户资料。如果访客稍后在设备上注销，则这些设备将继续属于同一访客轮廓，因为 Adobe 可识别出每台设备上的浏览器 Cookie 属于同一访客轮廓。Adobe 建议尽量使用 `visitorID` 变量以防浏览器 Cookie 被删除。
 
 ## 限制
 

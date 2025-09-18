@@ -4,7 +4,7 @@ description: 创建和跟踪 AppMeasurement 实例。
 feature: Appmeasurement Implementation
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Web SDK 扩展可为您实例化并管理跟踪对象。但是，您可以在扩
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-请参阅 Web SDK 文档中的[安装 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans)，以获取更多信息。
+请参阅 Web SDK 文档中的[安装 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)，以获取更多信息。
 
 ## 使用 Adobe Analytics 扩展实例化跟踪对象
 
@@ -81,8 +81,8 @@ var s = s_gi('examplersid1');
 var z = s_gi('examplersid2');
 
 // The s object and z object contain their own independent Analytics variables simultaneously
-s.pageName = "Example page name 1";
-z.pageName = "Example page name 2";
+s.pageName = "Example page name";
+z.pageName = "An alternate page name";
 
 // Send data to the examplersid1 report suite
 s.t();

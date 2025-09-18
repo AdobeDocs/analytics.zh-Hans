@@ -4,9 +4,9 @@ title: 数据治理的常见问题解答
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2040'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 各种数据隐私法规 (GDPR、CCPA) 正式生效后，Adobe Analytics 将支持处理“数据控制者”向 Experience Cloud 数据隐私 API 提交的验证请求，以实现更加自动化的流程。针对我们的客户在各种 Adobe Experience Cloud 解决方案中存储的数据，Adobe 的数据隐私 API 旨在帮助处理个人权利请求（例如，访问和删除请求）。它具有灵活性和伸缩性，具体情况将依据贵公司从“数据主体”接收到的数据访问和删除请求数量。
 
-此外，通过 Privacy Service API，客户还可检查关于如何履行访问和删除数据的请求的状态。有关更多详细信息，请参阅 [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文档。
+此外，通过 Privacy Service API，客户还可检查关于如何履行访问和删除数据的请求的状态。有关更多详细信息，请参阅 [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文档。
 
 +++
 
@@ -63,7 +63,7 @@ ht-degree: 99%
 
 * 一种选择是，设置一个单独的 Experience Cloud 组织，其中仅包含测试报告包。然后，使用此 Experience Cloud 组织进行数据隐私测试，并使用常规的 Experience Cloud 组织进行实际的数据隐私处理。
 
-* 另一种选择是，为测试报告包中的 ID 分配与生产报告包中的 ID 不同的命名空间。例如，您可以在测试报告包中为每个命名空间添加“qa-”作为前缀。当您提交仅带有 qa 前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报告包运行。之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报告包。**推荐使用此方法，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空间。 这些命名空间经硬编码，无法在测试报告包中为其指定替代名称。**
+* 另一种选择是，为测试报告包中的 ID 分配与生产报告包中的 ID 不同的命名空间。例如，您可以在测试报告包中为每个命名空间添加“qa-”作为前缀。当您提交仅带有 qa 前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报告包运行。之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报告包。**除非您使用`visitorId`、AAID、ECID或`customVisitorId`命名空间，否则建议使用此方法。 这些命名空间经硬编码，无法在测试报告包中为其指定替代名称。**
 
 +++
 
