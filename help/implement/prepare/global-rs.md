@@ -58,4 +58,4 @@ ht-degree: 96%
 >[!MORELIKETHIS]
 >
 >[从多包标记移至全局报表包和虚拟报表包](../../components/vrs/vrs-considerations.md)
->>[比较汇总报表包和全局报表包](../../admin/tools/manage-rs/rollup-report-suite.md)
+>&#x200B;>[比较汇总报表包和全局报表包](../../admin/tools/manage-rs/rollup-report-suite.md)
