@@ -19,6 +19,6 @@ ht-degree: 13%
 
 `trackingServer`变量可确定AppMeasurement用于通过HTTP向Adobe发送数据的域。 如果未正确定义此变量，则您的实施可能会丢失数据。
 
-在[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/en/docs/id-service/using/home)之前，此变量还确定第三方Cookie的设置位置。 Adobe强烈建议尽可能在所有实施中使用ID服务。
+在[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/home)之前，此变量还确定第三方Cookie的设置位置。 Adobe强烈建议尽可能在所有实施中使用ID服务。
 
 如果未设置`trackingServer`，AppMeasurement将使用[`trackingServerSecure`](trackingserversecure.md)作为回退。 许多旧实施未设置`trackingServerSecure`，在安全页面上使用`trackingServer`作为回退。 随着HTTPS的流行，Adobe建议尽可能使用`trackingServerSecure`。
