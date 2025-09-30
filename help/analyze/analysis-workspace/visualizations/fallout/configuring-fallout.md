@@ -4,10 +4,10 @@ title: 配置流失可视化图表
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 75c1585f88d9d3adcf66632c52cecf2a97fa2632
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 95%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 95%
    >
    >多个区段通过 AND 相连，而多个项目（如维度项）和量度通过 OR 相连。
 
-   ![页面：CamerRoll 或页面：相机接触点突出显示。](assets/fallout-or.png)
+   ![页面:CamerRoll或页面：摄像头接触点已突出显示。](assets/fallout-or.png)
 
 1. 您还可以将各个接触点&#x200B;**限制为路径中的下一个事件**（而不是&#x200B;*最终*）。每个接触点下方都有一个选择器，其中包含&#x200B;**[!UICONTROL 最终路径]**&#x200B;和&#x200B;**[!UICONTROL 下一个事件]**&#x200B;选项，如下所示：
 
@@ -50,8 +50,8 @@ ht-degree: 95%
 
    | 选项 | 描述 |
    |---|---|
-   | **[!UICONTROL 最终路径]**（默认） | 对&#x200B;*最终*&#x200B;在路径中登陆下一页，但不一定发生下一个事件的人员进行计数。 |
-   | **[!UICONTROL 下一个事件]** | 重新对在路径中登陆下一页且发生下一个事件的人员进行计数。 |
+   | **[!UICONTROL 最终路径]**（默认） | 计入的访客最终&#x200B;*将*&#x200B;登陆路径中的下一个页面，但不一定登陆下一个事件。 |
+   | **[!UICONTROL 下一个事件]** | 对将登陆下一个事件路径中下一页的访客进行计数。 |
 
 
 ## 设置
@@ -74,14 +74,14 @@ ht-degree: 95%
 | **[!UICONTROL 显示接触点趋势]** | 在预先生成了一些异常检测数据的线形图中查看接触点的趋势数据。 |
 | **[!UICONTROL 显示接触点趋势（%）]** | 显示总流失百分比趋势。 |
 | **[!UICONTROL 显示所有接触点趋势（%）]** | 在同一个图表中显示流失中的所有接触点百分比趋势（如果包括&#x200B;**[!UICONTROL 所有人员]**，则将其排除）。 |
-| **[!UICONTROL 划分此接触点的流过]** | 查看人员在两个接触点（此接触点和下一个接触点）之间的行为（如果他们继续到下一个接触点）。这会创建一个自由格式表来显示您的维度。您可以替换表的维度和其他元素。 |
-| **[!UICONTROL 划分此接触点的流失]** | 查看未通过漏斗的人员在选定步骤后立即做了些什么。 |
+| **[!UICONTROL 划分此接触点的流过]** | 查看访客在两个接触点（此触点和下一个触点）之间的行为（如果他们继续到下一个触点）。这会创建一个自由格式表来显示您的维度。可以替换表的尺寸和其他元素。 例如，一个标记为&#x200B;**[!UICONTROL 流过：所有访客>页面等于任何主页]**，并包含&#x200B;**[!UICONTROL 页面]**&#x200B;作为维度以及按&#x200B;**[!UICONTROL 仅用于项目的快速区段]**&#x200B;分段的[独特访客](/help/components/segmentation/segmentation-workflow/seg-quick.md)作为量度的表。**[!UICONTROL 流过：所有访客>页面等于任何主页]**。 检查区段以了解如何确定流过区段。 |
+| **[!UICONTROL 划分此接触点的流失]** | 查看未通过funnel的访客在选定步骤后立即做了些什么。 这会创建一个自由格式表来显示您的维度。可以替换表的尺寸和其他元素。 例如，一个标记为&#x200B;**[!UICONTROL 流失：所有访客>页面等于任何主页]**，并包含&#x200B;**[!UICONTROL 页面]**&#x200B;作为维度以及按&#x200B;**[!UICONTROL 仅用于项目的快速区段]** [流过：所有访客>页面等于任何主页](/help/components/segmentation/segmentation-workflow/seg-quick.md)区段分段的&#x200B;**[!UICONTROL 独特访客]**&#x200B;作为量度的表。 检查区段以了解如何确定流失区段。 |
 | **[!UICONTROL 从接触点创建区段]** | 从选定的接触点创建新区段。 |
 
 >[!MORELIKETHIS]
 >
 >[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
