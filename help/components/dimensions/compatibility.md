@@ -88,7 +88,7 @@ ht-degree: 60%
 | [服务器](server.md) | `server` |
 | [单页面访问量](single-page-visits.md) | `singlepagevisits` |
 | [网站区域](site-section.md) | `sitesections` |
-| 每次访问逗留时间[ — 粒度](time-spent-per-visit.md) | `sitetime` |
+| 每次访问逗留时间[&#x200B; — 粒度](time-spent-per-visit.md) | `sitetime` |
 | [跟踪代码](tracking-code.md) | `campaign` |
 | [美国 DMA](us-dma.md) | `geodma` |
 | [美国各州](us-states.md) | `state` |

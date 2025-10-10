@@ -20,7 +20,7 @@ ht-degree: 87%
 
 * [!UICONTROL **Document Cloud 报告**]
 
-  媒体报表页面上提供了特定于流媒体服务的报表。 有关媒体报告的更多信息，请参阅[配置 Document Cloud 报告 ](/help/admin/tools/manage-rs/edit-settings/document-cloud-config.md)。
+  媒体报表页面上提供了特定于流媒体服务的报表。 有关媒体报告的更多信息，请参阅[配置 Document Cloud 报告 &#x200B;](/help/admin/tools/manage-rs/edit-settings/document-cloud-config.md)。
 
 * [!UICONTROL **Document Cloud 分类**]
 

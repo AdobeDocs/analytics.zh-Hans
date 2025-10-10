@@ -66,7 +66,7 @@ ht-degree: 48%
 | `xdm.environment.carrier` | 移动生命周期维度[运营商名称](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.connectionType` | 帮助设置 [“连接类型”](/help/components/dimensions/connection-type.md) 维度。 |
 | `xdm.environment._dc.language` | 设置上下文数据变量`a.locale`。 仅在未设置`xdm.environment.language`时使用。 Adobe建议超过`xdm.environment.language`使用此字段。 |
-| `xdm.environment.ipV4` | 用作后备的[独特访客 ](/help/components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
+| `xdm.environment.ipV4` | 用作后备的[独特访客 &#x200B;](/help/components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
 | `xdm.environment.language` | 设置上下文数据变量`a.locale`。 Adobe建议改用`xdm.environment._dc.language`。 |
 | `xdm.environment.operatingSystem` | 移动生命周期维度[操作系统](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | 帮助设置移动生命周期维度[操作系统版本](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |

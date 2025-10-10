@@ -17,7 +17,7 @@ ht-degree: 99%
 
 各种数据隐私法规 (GDPR、CCPA) 正式生效后，Adobe Analytics 将支持处理“数据控制者”向 Experience Cloud 数据隐私 API 提交的验证请求，以实现更加自动化的流程。针对我们的客户在各种 Adobe Experience Cloud 解决方案中存储的数据，Adobe 的数据隐私 API 旨在帮助处理个人权利请求（例如，访问和删除请求）。它具有灵活性和伸缩性，具体情况将依据贵公司从“数据主体”接收到的数据访问和删除请求数量。
 
-此外，通过 Privacy Service API，客户还可检查关于如何履行访问和删除数据的请求的状态。有关更多详细信息，请参阅 [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文档。
+此外，通过 Privacy Service API，客户还可检查关于如何履行访问和删除数据的请求的状态。有关更多详细信息，请参阅 [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文档。
 
 +++
 
@@ -69,7 +69,7 @@ ht-degree: 99%
 
 +++ **我该从哪里开始着手准备 Adobe Analytics 以支持数据隐私法？**
 
-有关为数据隐私做好准备的分步说明，请参阅[ Adobe Analytics 数据隐私工作流程](privacy-workflow.md)。
+有关为数据隐私做好准备的分步说明，请参阅[&#x200B; Adobe Analytics 数据隐私工作流程](privacy-workflow.md)。
 
 +++
 

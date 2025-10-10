@@ -40,7 +40,7 @@ ht-degree: 66%
 >[!IMPORTANT]
 >
 >Report Builder需要管理员授权访问您的组织资源。 如果您需要访问权限，请要求管理员授予您权限。
->> Microsoft管理员可以查看在以下位置找到的&#x200B;*用户可注册应用程序*&#x200B;设置： **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 用户设置允许选项]**。 如果此选项设置为&#x200B;**否**，则管理员可以注册这些类型的应用程序。
+>&#x200B;> Microsoft管理员可以查看在以下位置找到的&#x200B;*用户可注册应用程序*&#x200B;设置： **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 用户设置允许选项]**。 如果此选项设置为&#x200B;**否**，则管理员可以注册这些类型的应用程序。
 
 用户可以通过登录到其[Microsoft Power BI帐户](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US)来授予访问权限。
 

@@ -47,5 +47,5 @@ Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好�
 >[!MORELIKETHIS]
 >
 >[报表组件设置](/help/components/vrs/vrs-components.md)
->>[数据字典组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>&#x200B;>[数据字典组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

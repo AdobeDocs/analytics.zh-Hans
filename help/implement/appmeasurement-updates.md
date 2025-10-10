@@ -424,7 +424,7 @@ ht-degree: 85%
 
   >[!IMPORTANT]
   >
-  > 对于在 [!DNL Analytics] 中使用 POST 方法而不是 GET 方法（一种用于解决 [!DNL AppMeasurement]IE 中的截断 URL[ 的方法）的 ](https://helpx.adobe.com/cn/analytics/kb/shortening-image-request-urls.html) 调用，您必须对 Experience Cloud 使用最新的访客 ID 服务实施。
+  > 对于在 [!DNL Analytics] 中使用 POST 方法而不是 GET 方法（一种用于解决 [!DNL AppMeasurement]IE 中的截断 URL[&#x200B; 的方法）的 &#x200B;](https://helpx.adobe.com/cn/analytics/kb/shortening-image-request-urls.html) 调用，您必须对 Experience Cloud 使用最新的访客 ID 服务实施。
 
 ## 版本 1.4
 

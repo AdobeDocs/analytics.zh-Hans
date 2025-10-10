@@ -20,7 +20,7 @@ ht-degree: 66%
 |---|---|---|
 | [[!UICONTROL 所用总秒数]](total-seconds-spent.md) | 表示访客与特定维度项目交互所用的总时间。包括所有后续点击中的值和持久性的实例。对于 prop，也会在后续链接事件中统计逗留时间。 | Analysis Workspace、Report Builder（称为“总逗留时间”）、Data Warehouse |
 | [[!UICONTROL 每次访问逗留时间] （秒）](time-spent-per-visit.md) | 大约&#x200B;*所用总秒数/（访问跳出次数）*<br>&#x200B;表示访客在每次访问期间与特定维度项目交互所用的平均时间。 **注意**：此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace |
-| 每位访客逗留时间[ （秒）](time-spent-per-visitor.md) | 大约&#x200B;*所用总秒数/独特访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace |
+| 每位访客逗留时间[&#x200B; （秒）](time-spent-per-visitor.md) | 大约&#x200B;*所用总秒数/独特访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace |
 | [!UICONTROL 逗留时间/用户（状态）] | 大约&#x200B;*移动设备应用程序所用总秒数/独特移动设备应用程序访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，移动设备应用程序访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace |
 | [[!UICONTROL 网站平均逗留时间] （秒）](average-time-on-site.md) | 表示访客与特定维度项目交互所用的总时间，其中每个序列包含一个维度项目。这不仅仅局限于“站点”平均值（顾名思义）。 有关序列的详细信息，请参阅“‘逗留时间’的计算方式”部分。<br>**注意**：由于计算中所用的分母不同，因此，此指标很可能会与维度项目级别的“每次访问逗留时间”有所不同。 | Analysis Workspace、Report Builder（以分钟为单位显示） |
 | [[!UICONTROL 网站平均逗留时间]](average-time-on-site.md) | 此指标与&#x200B;*网站平均逗留时间（秒）*&#x200B;相同，但采用的时间格式为`hh:mm:ss` | Analysis Workspace |

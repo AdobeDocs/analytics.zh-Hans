@@ -22,4 +22,4 @@ ht-degree: 84%
 
 * 从只能断断续续连接到网络的设备收集数据。这些设备存储交互数据，直到接收网络连接。然后，设备可以通过 BDIA 一次上传所有数据。
 
-数据插入 API 和[ 批量数据插入 API ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)是将服务器端收集的数据提交到 Adobe Analytics 的两种方式。每次生成事件时都将调用“数据插入 API”。“批量数据插入 API”接受包含事件数据在内的 CSV 格式的文件，其中每行有一个事件。如果您正在实施新的服务器端收集，我们建议您使用“批量数据插入 API”。
+数据插入 API 和[&#x200B; 批量数据插入 API &#x200B;](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)是将服务器端收集的数据提交到 Adobe Analytics 的两种方式。每次生成事件时都将调用“数据插入 API”。“批量数据插入 API”接受包含事件数据在内的 CSV 格式的文件，其中每行有一个事件。如果您正在实施新的服务器端收集，我们建议您使用“批量数据插入 API”。

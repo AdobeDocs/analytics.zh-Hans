@@ -63,7 +63,7 @@ Adobe建议在以下情况下遵循此实施路径：
 
 使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
 
-在Web SDK [`datastreamId`命令中使用](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)[`orgId`和](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)`configure`属性：
+在Web SDK [`datastreamId`命令中使用](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId`和](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)`configure`属性：
 
 * 将`datastreamId`设置为从上一步检索到的数据流ID。
 * 将`orgId`设置为您组织的IMS组织。
