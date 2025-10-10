@@ -5,7 +5,7 @@ feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/33232?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

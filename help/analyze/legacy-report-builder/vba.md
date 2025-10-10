@@ -23,7 +23,7 @@ Visual Basic (VBA)宏提供的功能可帮助您刷新Excel工作簿。 Visual B
 >
 >出于安全原因，您不能计划包含宏的工作簿。
 
-Adobe支持三种Report BuilderAPI方法。
+Adobe支持三种Report Builder API方法。
 
 ## `RefreshAllReportBuilderRequests()`
 

@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="mobilescorecard_annotations"
->title="注释"
+>title="批注"
 >abstract="可以在组件管理器或 Workspace 项目内部创建注释。"
 
 <!-- markdownlint-enable MD034 -->
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [移动记分卡生成器](https://video.tv.adobe.com/v/38139?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [移动记分卡生成器](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 ![示例记分卡](assets/intro_scorecard.png)
 
-作为此记分卡的策划人，您可以使用记分卡生成器来配置要在执行用户的记分卡上显示的磁贴。您还可以配置在点按磁贴后，如何调整详细视图或细分。记分卡生成器界面如下所示：
+作为此记分卡的策划人，您可以使用记分卡生成器来配置要在执行用户的记分卡上显示的磁贴。您还可以配置在点按图块后，如何调整详细视图或细分。记分卡生成器界面如下所示：
 
 ![记分卡生成器](assets/scorecard_builder.png)
 
@@ -130,7 +130,7 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [可视化图表](https://video.tv.adobe.com/v/3445776?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [可视化图表](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ### [!UICONTROL 线形图]
 
-此线形图可视化图表使用线条来表示量度，以显示一段时间内值的变化情况。线形图显示随时间变化的维度，但适用于任何可视化图表。在此示例中，您将对产品类别维度进行可视化。
+此线形图可视化图表使用线条来表示指标，以显示一段时间内值的变化情况。线形图显示随时间变化的维度，但适用于任何可视化图表。在此示例中，您将对产品类别维度进行可视化。
 
 ![线形图可视化图表](assets/line.png)
 
@@ -206,7 +206,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自定义详细信息视图](https://video.tv.adobe.com/v/3413785?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自定义详细信息视图](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [创建数据故事](https://video.tv.adobe.com/v/3420558?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [创建数据故事](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

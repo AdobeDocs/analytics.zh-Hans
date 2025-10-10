@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM对象变量映射](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[数据对象变量映射](/help/implement/aep-edge/data-var-mapping.md)
+>>[数据对象变量映射](/help/implement/aep-edge/data-var-mapping.md)

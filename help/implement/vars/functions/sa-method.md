@@ -32,7 +32,7 @@ Web SDK扩展为每个环境提供了一个数据流下拉列表。 或者，您
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
 1. 在[!UICONTROL 数据流]下，从每个环境的下拉列表中选择所需的数据流。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

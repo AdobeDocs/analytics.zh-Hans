@@ -1,5 +1,5 @@
 ---
-title: Data Warehouse请求提交时间故障诊断
+title: Data Warehouse请求发送时间故障诊断
 description: 确定 Data Warehouse 请求存在的可能会延长提交时间的潜在问题。
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
@@ -25,7 +25,7 @@ ht-degree: 59%
 
 ## 更改请求以加快投放
 
-如果Data Warehouse请求持续需要很长时间，请考虑更改您的请求。 更改请求是加快Data Warehouse请求投放的唯一方法。
+如果Data Warehouse请求持续处理较长时间，请考虑更改您的请求。 更改请求是加快Data Warehouse请求投放速度的唯一方法。
 
 要加快Data Warehouse请求的提交速度，您可以通过以下任何方式对其进行更改：
 
@@ -39,4 +39,4 @@ ht-degree: 59%
 
 * **Analysis Workspace**：虽然不能使用无限数量的维度项目，但它包含 Data Warehouse 提供的几乎所有其他用例。
 * **数据馈送**：每天获取报表包中的所有原始数据，并将其发送到云目标。 然后，您可以将数据导入自己的数据库，并运行查询以获取所需的数据。
-* **自定义工程服务解决方案**：Adobe 工程服务团队可以为贵组织提供自定义解决方案，但需支付额外费用。有关其他详细信息，请与您的Adobe客户团队联系。
+* **自定义工程服务解决方案**：Adobe 工程服务团队可以为贵组织提供自定义解决方案，但需支付额外费用。有关更多详细信息，请联系您的Adobe客户团队。

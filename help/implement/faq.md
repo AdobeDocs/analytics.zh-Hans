@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Experience Cloud 访客 ID 与 Analytics 访客 ID 之间有何区别？
 
-Identity Service 可分配一个唯一的永久标识符，该标识符可以在 Experience Cloud 中的其他解决方案之间共享。而 Analytics 访客 ID 仅供 Analytics 使用。Adobe 建议在您的实施中使用 Experience Cloud 访客 ID 服务。
+身份标识服务可分配一个唯一的永久标识符，该标识符可以在 Experience Cloud 中的其他解决方案之间共享。而 Analytics 访客 ID 仅供 Analytics 使用。Adobe 建议在您的实施中使用 Experience Cloud 访客 ID 服务。
 
 ## 我该如何实施心率视频跟踪？
 

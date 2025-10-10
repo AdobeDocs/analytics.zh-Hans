@@ -12,11 +12,11 @@ ht-degree: 16%
 
 # 多货币支持
 
-Adobe提供了多个货币转换级别，以便贵组织在许多报表中均可获得所需的货币。 转化发生在三个级别：
+Adobe提供了多个级别的货币转换，以便贵组织可以在许多报表中实现所需的货币。 转化发生在三个级别：
 
 ## 页面级别
 
-您可以使用[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)变量在每个页面上设置所需的货币。 如果页面上的货币与目标报表包的货币不匹配，Adobe会根据当天的汇率执行到报表包所用货币的货币换算。 将记录转换后的货币。
+您可以使用[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)变量在每个页面上设置所需的货币。 如果页面上的货币与目标报表包的货币不匹配，Adobe会根据当天的汇率执行到报表包货币的货币换算。 将记录转换后的货币。
 
 ## 报表包级别
 

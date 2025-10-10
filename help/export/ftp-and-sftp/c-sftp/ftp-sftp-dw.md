@@ -13,7 +13,7 @@ ht-degree: 52%
 
 # 将 Data Warehouse 请求发送到 SFTP 服务器
 
-Adobe支持将Data Warehouse请求导出到SFTP服务器，如[为Data Warehouse请求配置报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)一文中的[SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp)中所述。
+Adobe支持将Data Warehouse请求导出到SFTP服务器，如[为Data Warehouse请求配置报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp)一文中的[SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)中所述。
 
 请确保已完成以下任务：
 
@@ -25,8 +25,8 @@ Adobe支持将Data Warehouse请求导出到SFTP服务器，如[为Data Warehouse
 
 要通过 SFTP 成功地发送 Data Warehouse 请求，请执行以下操作：
 
-1. 完成[SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) [为Data Warehouse请求配置报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)一文中所述的步骤，包括下载公钥。
+1. 完成文章[为Data Warehouse请求配置报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp)中[SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)所述的步骤，包括下载公钥。
 1. 使用与Data Warehouse请求相同的凭据登录到SFTP站点。
 1. 在根目录中，导航到名为 `.ssh` 的文件夹（如果不存在，请创建一个），并将 `authorized_keys` 文件置于此处。
 
-1. 如果尚未完成Data Warehouse请求，请按照[为Data Warehouse请求配置报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)中的说明完成请求。
+1. 如果您尚未完成Data Warehouse请求，请按照[为Data Warehouse请求配置报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)中的说明完成此操作。

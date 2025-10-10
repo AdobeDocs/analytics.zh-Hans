@@ -6,11 +6,11 @@ exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 将区段标记为收藏
+# 将区段标记为收藏项
 
 您可以将区段标记为收藏。 将区段标记为“收藏”有助于您组织区段。 所有用户都可以青睐区段。
 

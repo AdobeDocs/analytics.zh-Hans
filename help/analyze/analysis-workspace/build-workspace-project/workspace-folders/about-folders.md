@@ -1,5 +1,5 @@
 ---
-description: 了解如何在Analysis Workspace的文件夹中整理您的项目。
+description: 了解如何在 Analysis Workspace 中的文件夹内整理您的项目。
 keywords: Analysis Workspace
 title: 文件夹概述
 feature: Workspace Basics
@@ -7,7 +7,7 @@ exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 

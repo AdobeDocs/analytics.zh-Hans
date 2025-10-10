@@ -32,7 +32,7 @@ ht-degree: 86%
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 第一方域名段]字段。
 
 仅当域的后缀中包含句点时，才会将此字段设置为 `3`。否则，可将此字段留空。

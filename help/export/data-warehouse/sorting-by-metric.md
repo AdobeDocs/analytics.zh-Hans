@@ -1,5 +1,5 @@
 ---
-description: 了解按指标排序如何让Data Warehouse报表易于解释和与其他Analytics划分报表视图进行比较。
+description: 了解按量度排序如何让Data Warehouse报表易于解释和与其他Analytics划分报表视图进行比较。
 title: 按量度排序
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b

@@ -14,11 +14,11 @@ ht-degree: 35%
 
 一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。您可以使用此范围列表来更改贵组织的防火墙设置，以允许从组织内访问和发送数据。
 
-Adobe Analytics使用的所有IP地址都是Adobe Experience Cloud[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/ip-addresses)使用的IP地址的一部分，但“中国性能优化”附加组件包除外。
+Adobe Analytics使用的所有IP地址都是Adobe Experience Cloud[使用的](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)IP地址的一部分，但“中国性能优化”附加组件包除外。
 
 ## 中国性能优化IP地址
 
-中国性能优化附加组件包是一项额外的付费服务，可改善中国境内访客的AppMeasurement数据收集性能。 请联系您的Adobe客户团队，了解有关使用此功能的更多信息。
+中国性能优化附加组件包是一项额外的付费服务，可提高AppMeasurement对中国境内访客的数据收集性能。 请联系您的Adobe客户团队，了解有关使用此功能的更多信息。
 
 >[!IMPORTANT]
 >
@@ -36,6 +36,6 @@ Adobe Analytics使用的所有IP地址都是Adobe Experience Cloud[&#128279;](ht
 
 >[!MORELIKETHIS]
 >
->Adobe Experience Cloud使用的[IP地址](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/ip-addresses)
+>Adobe Experience Cloud使用的[IP地址](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
 >Adobe Analytics使用的[域](domains.md)

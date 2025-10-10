@@ -21,7 +21,7 @@ ht-degree: 11%
 
 ## Web SDK JavaScript库中的“区域ID”属性
 
-启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`clickCollection`对象中使用`filterClickDetails`回调。 在此回调中，您可以检查`clickedElement`的值，并自定义所收集区域的逻辑。
+启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`filterClickDetails`对象中使用`clickCollection`回调。 在此回调中，您可以检查`clickedElement`的值，并自定义所收集区域的逻辑。
 
 ```js
 alloy("configure", {

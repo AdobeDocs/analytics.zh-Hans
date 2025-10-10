@@ -22,7 +22,7 @@ ht-degree: 42%
 
    有关更多详细信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
-1. 在“新建Data Warehouse请求”页面上，选择&#x200B;[!UICONTROL **生成报表**]&#x200B;选项卡。
+1. 在新的Data Warehouse请求页面上，选择&#x200B;[!UICONTROL **构建您的报表**]&#x200B;选项卡。
 
    ![生成报告选项卡](assets/build-report.png)
 

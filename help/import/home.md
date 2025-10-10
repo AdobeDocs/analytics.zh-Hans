@@ -4,7 +4,7 @@ description: 本指南阐述如何使用数据源和数据插入 API 将数据�
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 
@@ -32,11 +32,11 @@ ht-degree: 100%
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
+* [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

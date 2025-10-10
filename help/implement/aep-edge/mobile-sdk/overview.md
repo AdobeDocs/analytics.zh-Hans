@@ -40,12 +40,12 @@ Adobe Experience Platform Mobile SDK 有助于在您的移动应用程序中支�
 <tr>
 <td>2</td>
 <td><b>配置数据流</b>。 数据流表示实施 Adobe Experience Platform Web SDK 时的服务器端配置。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans">配置数据流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">配置数据流<a></td> 
 </tr>
 
 <td>3</td>
 <td><b>将 Adobe Analytics 服务</b>添加到您的数据流。 该服务控制数据是否以及如何发送到 Adobe Analytics。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
 </tr>
 
 <tr>

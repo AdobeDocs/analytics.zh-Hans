@@ -6,7 +6,7 @@ feature: Curate and Share
 source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Analytics 提供了一种简单可靠的方法，来使用分段重点关�
 观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [分析和传输数据中的变体](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"}。
 
 * **0:27**：使用分段排除数据
-* **2:55**：比较事件与先前的日期范围
+* **2:55**：将事件与先前的范围进行比较
 * **8:42**：使用计算量度获取数据
 * **11:46**：将影响告知用户
 

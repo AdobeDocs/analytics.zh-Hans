@@ -16,7 +16,7 @@ ht-degree: 83%
 
 ## 如何计算此指标
 
-考虑到每个[人员](people.md)（已识别或未识别），如果点击包含`mid`查询字符串（基于[`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie），则此[指标](overview.md)将增加。
+考虑到每个[人员](people.md)（已识别或未识别），如果点击包含[查询字符串（基于](overview.md)`mid` Cookie），则此[`s_ecid`指标](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans)将增加。
 
 可创建计算指标 `[People with ECID] ÷ [People]` 以使用 ID 服务获取您网站访客所占的百分比。
 

@@ -17,10 +17,10 @@ ht-degree: 6%
 
 ## 使用数据填充此维度
 
-此维度从[上下文数据变量](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.page`中检索数据。 如果您的实现使用[Activity Map](/help/analyze/activity-map/overview.md)，则此上下文数据变量会在单击链接时自动收集数据。
+此维度从[上下文数据变量](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.page`中检索数据。 如果您的实施使用[Activity Map](/help/analyze/activity-map/overview.md)，则此上下文数据变量会在单击链接时自动收集数据。
 
 对于已单击的给定链接，此上下文数据变量将收集[页面](page.md)维度中的值。 如果页面维度不包含值，则改用[页面URL](page-url.md)维度（与页面维度使用的回退类似）。 Activity Map数据通常会在点击链接后的下一次点击中发送。 利用此维度，可确定点击链接时的页面值，而不是发送数据时的页面值。
 
 ## 维度项
 
-Dimension项包含在[页面](page.md)维度中找到的所有值。
+Dimension项目包括[页面](page.md)维度中找到的所有值。

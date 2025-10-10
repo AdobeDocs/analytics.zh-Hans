@@ -14,7 +14,7 @@ ht-degree: 33%
 
 “页面事件”[量度](overview.md)显示执行任何链接跟踪调用的次数。 当您想要了解哪些页面具有最吸引人的内容时，此量度很有用。当访客无需导航到新页面即可对页面执行操作时，此量度的度量最有价值。
 
-例如，在电子商务网站的典型历程中，访客可以在单个页面上进行多次交互。 典型的Analytics实施将这些交互配置为链接跟踪([`tl()`](/help/implement/vars/functions/tl-method.md))调用，而页面查看([`t()`](/help/implement/vars/functions/t-method.md))调用保留用于初始页面加载。 此实施方法提供了丰富的事件跟踪功能，可让您深入了解在访客继续其历程之前发生了哪些交互。
+例如，在电子商务网站的典型历程中，访客可以在单个页面上进行多次交互。 典型的Analytics实施将这些交互配置为链接跟踪([`tl()`](/help/implement/vars/functions/tl-method.md))调用，而页面查看([`t()`](/help/implement/vars/functions/t-method.md))调用保留用于初始页面加载。 此实施方法提供了丰富的事件跟踪功能，可为insight提供访客在继续其旅程之前发生交互的情况。
 
 ## 如何计算此量度
 

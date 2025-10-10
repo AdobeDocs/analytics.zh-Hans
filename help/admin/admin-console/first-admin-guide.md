@@ -15,7 +15,7 @@ ht-degree: 43%
 
 必须先在 Experience Cloud 中将任一用户分配为第一个管理员，之后才能在 Adobe Analytics 中为该用户分配角色。然后，第一个管理员可以为组织中的用户设置其他关键角色。
 
-为使组织内其他成员能够使用各种Experience Cloud解决方案(包括Adobe Analytics)，首先需确定一个管理员，即第一个管理员。
+为使组织内其他成员能够使用每个Experience Cloud解决方案(包括Adobe Analytics)，首先需确定一个管理员，即第一个管理员。
 
 ## 第一个管理员的配置过程
 

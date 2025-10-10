@@ -23,12 +23,12 @@ Adobe 提供跟踪出站链接的功能，无需为每个退出链接手动设�
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
 1. 在[!UICONTROL 数据收集]下，单击&#x200B;**[!UICONTROL 启用“单击数据收集”]**&#x200B;复选框。
 
 ## 启用或禁用手动实施Web SDK的点击收集
 
-使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans#clickCollectionEnabled)配置SDK。 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。如果要禁用自动链接跟踪，则将此值设置为`false`。 此设置处理下载链接和退出链接的自动链接跟踪。
+使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)配置SDK。 字段是一个布尔值，用于确定是否自动收集与链接点击关联的数据。 其默认值为 `true`。如果要禁用自动链接跟踪，则将此值设置为`false`。 此设置处理下载链接和退出链接的自动链接跟踪。
 
 ```json
 alloy("configure", {
@@ -42,7 +42,7 @@ alloy("configure", {
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 跟踪出站链接]复选框。
 
 单击此复选框可启用自动退出链接跟踪。

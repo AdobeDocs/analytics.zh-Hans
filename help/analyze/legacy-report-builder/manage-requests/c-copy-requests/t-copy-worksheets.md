@@ -1,6 +1,6 @@
 ---
 description: 了解如何在同一个工作簿中将一个电子表格复制到另一个电子表格。
-title: 如何复制Report Builder中的工作表
+title: 如何在Report Builder中复制工作表
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
 role: User, Admin

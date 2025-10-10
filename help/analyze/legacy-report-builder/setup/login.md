@@ -1,5 +1,5 @@
 ---
-description: 了解如何使用您的Experience Cloud登录帐户登录Report Builder。
+description: 了解如何使用您的Experience Cloud登录帐户登录到Report Builder。
 title: 如何登录到Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder

@@ -46,7 +46,7 @@ Report Builder 使用 Analytics 的自定义日历。您可以使用该日历定
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：一月有四周，二月有五周，三月有四周，以此类推。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：一月份拥有四周，二月份拥有四周，三月份拥有五周，以此类推。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>：一月份拥有五周，二月份拥有五周，三月份拥有四周，以此类推。 </li> 
-    </ul> <p>注意：所有Adobe Analytics工具都支持此日历选项：Analysis Workspace、Report Builder和Activity Map。 但 Data Warehouse 例外，它不支持自定义日历。 </p> </td> 
+    </ul> <p>注意：以下所有Adobe Analytics工具都支持此日历选项：Analysis Workspace、Report Builder和Activity Map。 但 Data Warehouse 例外，它不支持自定义日历。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

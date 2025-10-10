@@ -49,4 +49,4 @@ ht-degree: 90%
 
 以下是一段演示该过程的视频：
 
-https://video.tv.adobe.com/v/40098/?quality=12&captions=chi_hans
+https://video.tv.adobe.com/v/25445/?quality=12

@@ -29,7 +29,7 @@ ht-degree: 5%
 * 第一个注释指示您为数据源配置的模板类型、创建数据源的后端用户ID以及数据源ID。
 * 第二个注释为模板文件中包含的每个标头提供友好名称。
 
-在处理文件时，Adobe会忽略所有注释行，因此您可以移除模板注释或在整个文件中添加自己的注释。 只能注释整个行；不能注释掉单个字段或部分行。
+处理文件时，Adobe会忽略所有注释行，因此您可以移除模板注释或在整个文件中添加自己的注释。 只能注释整个行；不能注释掉单个字段或部分行。
 
 ## 标头
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 {style="table-layout:auto"}
 
-Dimension和量度进入相同的标题行。
+维度和量度进入相同的标题行。
 
 | 量度 | 数据源标题 |
 | --- | --- |
@@ -64,7 +64,7 @@ Dimension和量度进入相同的标题行。
 | [自定义事件](/help/components/metrics/custom-events.md) | `Event 1` — `Event 1000` |
 | [订单数](/help/components/metrics/orders.md) | `Orders` |
 | [收入](/help/components/metrics/revenue.md) | `Price` |
-| [件数](/help/components/metrics/units.md) | `Quantity` |
+| [单位](/help/components/metrics/units.md) | `Quantity` |
 
 {style="table-layout:auto"}
 
@@ -81,7 +81,7 @@ Adobe不支持任何其他维度或指标的数据源。 如果要求以上表�
 
 单个数据源文件最多可支持90个唯一日期。 如果您想在上传中包含90天以上的唯一天数，请将数据拆分为多个文件。
 
-## Dimension和指标数据
+## Dimension和量度数据
 
 每行中日期之后的后续值包含要上传的数据。 每一行对应于相应的时间戳。 确保每行的制表符数量相同。 列可以按任意顺序；确保每行中的数据与顶部的标题一致。 单行可以包含的最大数据量为4096字节。
 
@@ -89,4 +89,4 @@ Dimension数据不能包含分号(`;`)。 包含分号的行将被跳过。
 
 ## 后续步骤
 
-[文件上传](file-upload.md)：了解按Adobe上传要摄取的数据源文件的过程。
+[文件上传](file-upload.md)：了解上传数据源文件以供Adobe摄取的流程。

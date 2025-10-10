@@ -39,4 +39,4 @@ ht-degree: 33%
 
    {style="table-layout:auto"}
 
-1. 继续在&#x200B;[!UICONTROL **Data Warehouse电子邮件**]&#x200B;选项卡上配置通知请求。 有关详细信息，请参阅[为Data Warehouse请求配置通知电子邮件](/help/export/data-warehouse/create-request/dw-request-email.md)。
+1. 继续在&#x200B;[!UICONTROL **通知电子邮件**]&#x200B;选项卡上配置Data Warehouse请求。 有关详细信息，请参阅[为Data Warehouse请求配置通知电子邮件](/help/export/data-warehouse/create-request/dw-request-email.md)。

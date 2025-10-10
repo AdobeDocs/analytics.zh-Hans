@@ -17,7 +17,7 @@ ht-degree: 96%
 
 要获取有关 Adobe Admin Console 主题的常规帮助（与 Analytics 迁移无关），请参阅 [Admin Console 用户指南](https://helpx.adobe.com/cn/enterprise/administering/user-guide.html)。
 
-迁移后，您可以在 Adobe Admin Console 中[管理 Experience Cloud 用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)。
+迁移后，您可以在 Adobe Admin Console 中[管理 Experience Cloud 用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## 什么是 Analytics 用户 ID 迁移？ {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -48,7 +48,7 @@ ht-degree: 96%
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">邀请新用户 </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">创建产品配置文件 </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">授予用户对特定产品和服务的权限 </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">获取对 Adobe Experience Cloud 中提供的<a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans">跨解决方案核心服务</a>的访问权限。 </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">获取对 Adobe Experience Cloud 中提供的<a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html">跨解决方案核心服务</a>的访问权限。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

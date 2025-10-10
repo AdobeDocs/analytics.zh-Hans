@@ -8,12 +8,12 @@ exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
 
-# 移动记分卡批注
+# 移动记分卡注释
 
 您可以在移动记分卡中显示在Analysis Workspace中创建的批注。 您可以使用移动记分卡中的注释分享有关您的组织和营销活动的上下文数据细节和洞察。
 

@@ -1,5 +1,5 @@
 ---
-description: 了解有助于减少从Data Warehouse检索数据所花费时间的准则。
+description: 了解有助于缩短从Data Warehouse检索数据所用时间的准则。
 keywords: 最佳实践；失败；超时；疑难解答
 title: Data Warehouse 最佳实践
 feature: Data Warehouse

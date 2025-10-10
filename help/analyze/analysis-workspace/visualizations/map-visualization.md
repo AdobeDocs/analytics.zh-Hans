@@ -46,7 +46,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的地图可视化图表。_<br/>_查看本文的[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/map)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**映射**。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的地图可视化图表。_<br/>_查看本文的[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**映射**。_
 
 >[!ENDSHADEBOX]
 
@@ -63,14 +63,14 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的地图可视化图表](https://video.tv.adobe.com/v/41507/?quality=12&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的地图可视化图表](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 ## 使用
 
-1. 添加![地图](/help/assets/icons/Globe.svg) [!UICONTROL 地图]可视化图表。请参阅[将可视化图表添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。您只能将地图可视化图表拖到自由格式表的顶部。
+1. 添加![地图](/help/assets/icons/Globe.svg)[!UICONTROL 地图]可视化图表。请参阅[将可视化图表添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。您只能将地图可视化图表拖到自由格式表的顶部。
 
    ![地图配置](assets/map-configuration.png){width="50%"} -
 
@@ -132,7 +132,7 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35170/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

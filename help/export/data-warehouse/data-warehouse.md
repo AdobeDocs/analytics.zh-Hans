@@ -35,7 +35,7 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
 
 ## 访问
 
-对于特定的报表包，Adobe 仅为管理员级别的用户启用 Data Warehouse。（它可以为全局报表包和子报表包启用，但不能为汇总报表包启用。） 管理员可创建一个有权访问Data Warehouse的组，然后将非管理员级别的用户与该组相关联。
+对于特定的报表包，Adobe 仅为管理员级别的用户启用 Data Warehouse。（它可以为全局报表包和子报表包启用，但不能为汇总报表包启用。） 管理员可以创建有权访问Data Warehouse的组，然后将非管理员级别的用户与该组相关联。
 
 请参阅[管理 Data Warehouse 权限](/help/export/data-warehouse/t-dw-group.md)。
 

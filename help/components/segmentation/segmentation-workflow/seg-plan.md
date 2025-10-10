@@ -26,4 +26,4 @@ ht-degree: 92%
 1. 确定区段定义中要包含哪些&#x200B;**元素**&#x200B;及其值。在此决策中考虑[变量持久性](/help/components/segmentation/seg-overview.md)。
 
 1. 考虑您希望如何进行&#x200B;**批准过程**。区段是由一个人进行审查和批准，还是由委员会做出决定？
-1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[&#128279;](/help/components/segmentation/segmentation-workflow/seg-build.md)需要定义哪些“模块”才能实现此库？
+1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[](/help/components/segmentation/segmentation-workflow/seg-build.md)需要定义哪些“模块”才能实现此库？

@@ -39,9 +39,9 @@ ht-degree: 92%
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击要在网站上实施的标记属性。
-3. 单击 **[!UICONTROL 发布流]** 选项卡，然后单击 **[!UICONTROL 添加库]**。有关此页面的更多信息，请参阅标记文档中的[发布概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hans)。
+3. 单击 **[!UICONTROL 发布流]** 选项卡，然后单击 **[!UICONTROL 添加库]**。有关此页面的更多信息，请参阅标记文档中的[发布概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)。
 4. 为此库命名`'Initial changes'`，并选择您的开发环境。
-5. 单击&#x200B;**[!UICONTROL 添加所有更改的资源]**，自动列出 Adobe Analytics、标识服务和核心。
+5. 单击&#x200B;**[!UICONTROL 添加所有更改的资源]**，自动列出 Adobe Analytics、身份标识服务和核心。
 6. 单击&#x200B;**[!UICONTROL 保存]**。
 7. 返回发布工作流程屏幕，单击新库旁边的下拉列表，然后单击&#x200B;**[!UICONTROL 为开发构建]**。 几秒钟后，库上的黄点变为绿色，表示构建成功。
 8. 导航到&#x200B;**[!UICONTROL 环境]**，然后单击开发环境右侧的安装图标。此操作将再次打开“Web 安装说明”模式窗口。

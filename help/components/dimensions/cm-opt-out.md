@@ -28,6 +28,6 @@ ht-degree: 93%
 
 维度项包括以下三个值：
 
-* **`SSF`**：访客选择退出[服务器端转发](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)。此维度项在上下文数据变量 `cm.ssf` 等于 `1` 时存在。有关更多信息，请参阅 Audience Manager 用户指南中的[数据隐私概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=zh-Hans)。点击不会转发到 Adobe Audience Manager。
+* **`SSF`**：访客选择退出[服务器端转发](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)。此维度项在上下文数据变量 `cm.ssf` 等于 `1` 时存在。有关更多信息，请参阅 Audience Manager 用户指南中的[数据隐私概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html)。点击不会转发到 Adobe Audience Manager。
 * **`DMP`**：访客选择不分享到数据管理平台。此维度项在上下文数据变量 `opt.dmp` 等于 `N` 时存在。与 `SSF` 类似，点击不会转发到 Adobe Audience Manager。
 * **`SELL`**：访客选择不向第三方共享或出售数据。此维度在上下文数据变量 `opt.sell` 等于 `N` 时存在。

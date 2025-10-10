@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ![管理](assets/manage.png)
 
-最顶层的数据源始终是[!UICONTROL Web信标]。 此数据源是您用于通过AppMeasurement进行典型数据收集的数据源。 无法编辑或停用它。
+最顶层的数据源始终是[!UICONTROL Web信标]。 此数据源是您通过AppMeasurement进行典型数据收集时使用的数据源。 无法编辑或停用它。
 
 每个数据源都有以下选项：
 
@@ -75,5 +75,5 @@ ht-degree: 7%
 * **[!UICONTROL 行]**：文件中的总行数。
 * **[!UICONTROL 错误]**：包含错误的行数。
 * **[!UICONTROL 警告]**：不再使用。 包含警告的行数。
-* **[!UICONTROL 已接收]**：Adobe开始处理文件的日期和时间。
+* **[!UICONTROL 已接收]**： Adobe开始处理文件的日期和时间。
 * **[!UICONTROL 状态]**：文件的状态（`Success`或`Failed`）。

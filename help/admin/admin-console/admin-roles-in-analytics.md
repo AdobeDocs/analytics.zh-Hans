@@ -67,7 +67,7 @@ Adobe Analytics 支持各种类型的管理员。具有完全访问权限的 Ado
 
 ## 授予产品配置文件的完全产品管理员访问权限
 
-有关将用户分配为产品配置文件管理员的信息，请参阅《企业用户指南》的[管理企业用户的产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)一文中的“管理产品配置文件管理员”部分。
+有关将用户分配为产品配置文件管理员的信息，请参阅《企业用户指南》的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)一文中的“管理产品配置文件管理员”部分。
 
 ## 后续步骤
 

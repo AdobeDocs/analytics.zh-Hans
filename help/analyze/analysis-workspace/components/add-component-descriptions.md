@@ -31,7 +31,7 @@ Analytics管理员可以在报表包中或直接使用Analysis Workspace中的�
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://video.tv.adobe.com/v/39722?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好�
 >[!MORELIKETHIS]
 >
 >[报表组件设置](/help/components/vrs/vrs-components.md)
->&#x200B;>[数据字典组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[数据字典组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

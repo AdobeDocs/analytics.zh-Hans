@@ -9,13 +9,13 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
 # 将旧版Report Builder工作簿转换为数据块
 
-在向新Report Builder技术迁移的过程中，您可以快速将当前旧版工作簿转换为基于Javascript的工作簿。
+作为迁移到新Report Builder技术的一部分，您可以快速将当前旧版工作簿转换为基于Javascript的工作簿。
 
 >[!IMPORTANT]
 >
@@ -24,17 +24,17 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [转换工作簿](https://video.tv.adobe.com/v/3446192?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [转换工作簿](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 
-1. 按照[&#128279;](/help/analyze/report-builder/report-builder-setup.md)中的说明由设置新Report Builder。
+1. 按[中的说明操作](/help/analyze/report-builder/report-builder-setup.md)设置新的Report Builder。
 
 1. 打开Excel，然后单击右上方的Adobe Report Builder图标。
 
-1. 单击&#x200B;**[!UICONTROL 登录]**&#x200B;并登录Report Builder。
+1. 单击&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
 
 1. Report Builder加载项检测到此工作簿是否包含[旧版Report Builder](/help/analyze/legacy-report-builder/home.md)请求。
 
@@ -62,17 +62,17 @@ ht-degree: 0%
 您现在可以[管理数据块](/help/analyze/report-builder/manage-reportbuilder.md)。
 
 
-## 新Report Builder中不支持旧版Report Builder功能 {#unsupported}
+## 新版 Report Builder 不支持旧版 Report Builder 的功能 {#unsupported}
 
-将旧版Report Builder的功能与新Report Builder加载项进行比较时，某些旧版功能不再可用：
+如果将旧版 Report Builder 的功能与新版 Report Builder 插件进行比较，某些旧版功能不再可用：
 
 - 实时请求
 
-- 路径/流失报表
+- 路径/流失报告
 
-- 计划报表的FTP选项
+- 用于计划报告的 FTP 选项
 
-- 访客量度。 以下量度将全部转换为“独特访客”，即使报表结果可能不完全匹配： `visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`和`visitorsyearly`。 这也适用于`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`和`mobilevisitorsyearly`。
+- 访客量度。以下量度都将转换为“唯一访客”，即使报告结果可能不完全匹配：`visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly` 和 `visitorsyearly`。这也适用于`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly` 和 `mobilevisitorsyearly`。
 
 ## 计划转换的工作簿 {#schedule}
 

@@ -26,7 +26,7 @@ ht-degree: 100%
 这些维度的可用性取决于实施类型：
 
 * 对于 AppMeasurement 实施，这些维度开箱即用。
-* 对于 Web SDK 实施，在[!UICONTROL 配置数据流]时启用[!UICONTROL 地理查找]（针对移动运营商）或[设备查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)（针对所有其他维度）。
+* 对于 Web SDK 实施，在[!UICONTROL 配置数据流]时启用[!UICONTROL 地理查找]（针对移动运营商）或[设备查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)（针对所有其他维度）。
 
 ## 移动设备维度描述
 

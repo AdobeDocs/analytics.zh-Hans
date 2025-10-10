@@ -16,7 +16,7 @@ ht-degree: 60%
 
 ## 仅使用`Contains`运算符作为最后手段
 
-[**[!UICONTROL Contains &#x200B;]**&#x200B;运算符](/help/components/segmentation/seg-reference/seg-operators.md)是分段中处理最密集的功能之一，因为该运算符必须分析每个值的全部内容。 如果所需值位于字符串的开头或结尾，请考虑使用其他运算符，如&#x200B;**[!UICONTROL &#x200B; Starts with &#x200B;]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; Ends with &#x200B;]**。
+[**[!UICONTROL Contains ]**运算符](/help/components/segmentation/seg-reference/seg-operators.md)是分段中处理最密集的功能之一，因为该运算符必须分析每个值的全部内容。 如果所需值位于字符串的开头或结尾，请考虑使用其他运算符，如**[!UICONTROL  Starts with ]**或**[!UICONTROL  Ends with ]**。
 
 如果区段中的&#x200B;**[!UICONTROL Contains]**&#x200B;运算符返回大量结果，报表通常会超时。 例如，如果您创建了一个区段，其中&#x200B;**[!UICONTROL 反向链接]** **[!UICONTROL 等于]** `"."`，则该区段会搜索每个值的内容。 请考虑改用&#x200B;**[!UICONTROL 存在]**&#x200B;运算符。
 

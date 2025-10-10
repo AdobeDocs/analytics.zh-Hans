@@ -37,7 +37,7 @@ ht-degree: 80%
 1. 确定从单元格范围还是列表进行选择。
 1. 如果从列表进行选择，请单击&#x200B;**[!UICONTROL 添加]**&#x200B;以选择要添加到流失路径的检查点。您可以定义 3 至 8 个检查点。（通过单击&#x200B;**[!UICONTROL 更多]**，可搜索可用的元素。）
 
-   有关优化过滤器的详细信息，请参阅[过滤Dimension](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)。
+   有关优化过滤器的详细信息，请参阅[过滤维度](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)。
 
 1. 通过选择&#x200B;**[!UICONTROL 可用元素]**&#x200B;并单击橙色箭头，将其从左栏移至右栏。
 1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;三次，然后单击&#x200B;**[!UICONTROL 完成]**。

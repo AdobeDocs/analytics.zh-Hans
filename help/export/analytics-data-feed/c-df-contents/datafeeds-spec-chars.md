@@ -32,7 +32,7 @@ Adobe 使用转义逻辑确保发送到数据收集服务器的值不会损坏�
 | `\\n` | “`\n`”值在数据收集期间发送，由 Adobe 转义。 |
 | `\\` | “`\`”值在数据收集期间发送，由 Adobe 转义。 |
 
-例如，您网站的访客使用内部搜索并搜索`"search\nstring"`。 您使用`"search\nstring"`填充eVar1，并将该值发送给Adobe。 Adobe 接收该点击，并对字符串中包含的换行符进行转义处理。原始数据中的实际值为`"search\\nstring"`。
+例如，您网站的访客使用内部搜索并搜索`"search\nstring"`。 您使用`"search\nstring"`填充eVar1，并将该值发送到Adobe。 Adobe 接收该点击，并对字符串中包含的换行符进行转义处理。原始数据中的实际值为`"search\\nstring"`。
 
 ## 多值变量（events_list、products_list、mvvar）中的特殊字符
 

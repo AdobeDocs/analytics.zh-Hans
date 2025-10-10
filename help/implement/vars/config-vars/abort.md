@@ -17,11 +17,11 @@ ht-degree: 39%
 
 ## 使用Web SDK扩展取消发送事件
 
-在事件发送回调代码编辑器之前使用On并返回`false`。
+在事件发送回调[!UICONTROL 代码编辑器之前使用]On并返回`false`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
 1. 在[!UICONTROL 数据收集]下，单击&#x200B;**[!UICONTROL 在事件发送回调代码之前编辑]**&#x200B;按钮。
 1. 在代码编辑器中，将以下代码置于您希望中止向Edge发送数据的任何条件下：
 
@@ -31,7 +31,7 @@ return false;
 
 ## 取消手动发送事件以实施Web SDK
 
-使用`onBeforeEventSend`回调并返回`false`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+使用`onBeforeEventSend`回调并返回`false`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 alloy("configure"), {
@@ -60,7 +60,7 @@ s.abort = true;
 >
 >`abort` 变量在每次跟踪调用后将重置为 `false`。如果要中止同一页面上的后续跟踪调用，请再次将`abort`设置为`true`。
 
-可以在[`doPlugins()`](../functions/doplugins.md)函数中设置`abort`变量，该函数是将图像请求发送到Adobe之前要运行的最后一个函数。 此示例的操作方式与使用Web SDK的`onBeforeEventSend`回调类似。
+可以在`abort`函数中设置[`doPlugins()`](../functions/doplugins.md)变量，该函数是将图像请求发送到Adobe之前要运行的最后一个函数。 此示例的操作方式与使用Web SDK的`onBeforeEventSend`回调类似。
 
 ```js
 s.doPlugins = function(s) {

@@ -1,6 +1,6 @@
 ---
 title: 营销渠道
-description: 访客参与到期期间的最新营销渠道。
+description: 访客参与有效期限期间的最新营销渠道。
 feature: Dimensions
 exl-id: c833a801-b7c6-498c-8094-1a5ad6c22fe4
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f

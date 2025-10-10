@@ -28,7 +28,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计划工作簿](https://video.tv.adobe.com/v/3417502?quality=12&learn=on&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计划工作簿](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -108,6 +108,6 @@ ht-degree: 69%
 
 1. 单击&#x200B;**立即发送**。
 
-## 管理计划的工作簿
+## 管理已安排的工作簿
 
 有关管理已计划工作簿的信息，请参阅[管理计划的工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)。

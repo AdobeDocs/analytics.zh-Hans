@@ -14,7 +14,7 @@ ht-degree: 19%
 
 “内容周转率”计算量度可帮助您衡量维度（通常为[[!UICONTROL 页面]](/help/components/dimensions/page.md)）对用户在您的网站或应用程序上花费时间的贡献情况。
 
-此量度使用[页面查看次数](page-views.md)量度上的[参与率归因](/help/analyze/analysis-workspace/attribution/models.md)作为其计算的一部分。 利用访问参与率，每次点击页面时，之前在同一次访问期间点击的所有页面都会获得页面查看的点数。 此公式通常意味着在访问期间越早点击页面，它获得的点数越多。 (请参阅[页面查看次数（参与率） | 访问)或“访问参与率”](#page-views-participation--visit-or-visit-participation)以了解更多信息。)
+此量度使用[页面查看次数](/help/analyze/analysis-workspace/attribution/models.md)量度上的[参与率归因](page-views.md)作为其计算的一部分。 利用访问参与率，每次点击页面时，之前在同一次访问期间点击的所有页面都会获得页面查看的点数。 此公式通常意味着在访问期间越早点击页面，它获得的点数越多。 (请参阅[页面查看次数（参与率） | 访问)或“访问参与率”](#page-views-participation--visit-or-visit-participation)以了解更多信息。)
 
 ## 计算
 

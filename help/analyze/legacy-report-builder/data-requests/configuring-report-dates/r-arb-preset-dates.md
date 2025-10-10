@@ -28,7 +28,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>常用日期 </p> </td> 
-   <td colname="col2"> <p>显示最常用的日期范围。创建新请求时，默认情况下启用此设置。如果工作簿中至少有一个请求，则Report Builder使用现有请求的日期作为默认设置。 </p> </td> 
+   <td colname="col2"> <p>显示最常用的日期范围。创建新请求时，默认情况下启用此设置。如果工作簿中至少有一个请求，Report Builder会使用现有请求的日期作为默认设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 保存的日期模板 </p> </td> 

@@ -1,6 +1,6 @@
 ---
 title: 如何在Adobe Analytics的Report Builder中使用区段
-description: 介绍如何在Adobe Analytics的Report Builder中使用区段
+description: 介绍如何在Report Builder for Adobe Analytics中使用区段
 role: User
 feature: Report Builder
 type: Documentation
@@ -61,7 +61,7 @@ ht-degree: 4%
 
    添加区段会将该区段应用到选区中的所有数据块。
 
-1. 要删除区段，请单击&#x200B;**[!UICONTROL 已应用的区段]**&#x200B;列表中区段右侧的删除图标&#x200B;**x**。
+1. 要删除区段，请单击&#x200B;**已应用的区段**&#x200B;列表中区段右侧的删除图标&#x200B;**[!UICONTROL x]**。
 
 1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以保存更改并返回到中心面板。
 

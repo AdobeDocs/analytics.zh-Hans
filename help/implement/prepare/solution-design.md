@@ -42,7 +42,7 @@ ht-degree: 97%
 
 ## 其他资源
 
-定义解决方案设计文档是一个相当复杂的项目，尤其是对于以前从未创建过此类文档的组织而言。如果需要其他帮助，Adobe 将会为您提供专门的咨询服务，以帮助贵组织启动并运行 Adobe Analytics。如果您想获得Adobe的专业服务，请与您的Adobe客户团队联系。 您可以填写一份[技术实施前调查问卷](assets/technical-pre-implementation-questionnaire.pdf)，以便 Adobe 知道如何根据贵组织的需求提供帮助。
+定义解决方案设计文档是一个相当复杂的项目，尤其是对于以前从未创建过此类文档的组织而言。如果需要其他帮助，Adobe 将会为您提供专门的咨询服务，以帮助贵组织启动并运行 Adobe Analytics。如果要获得Adobe的专业服务，请联系您的Adobe客户团队。 您可以填写一份[技术实施前调查问卷](assets/technical-pre-implementation-questionnaire.pdf)，以便 Adobe 知道如何根据贵组织的需求提供帮助。
 
 另外还有一些 Adobe 合作伙伴专门负责帮助创建解决方案设计文档，以及在您的网站上实施 Adobe Analytics。
 

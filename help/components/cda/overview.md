@@ -51,7 +51,7 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * Adobe Analytics 报告包无法映射到多个组织 ID。由于跨设备分析拼合给定报表包中的设备，因此跨设备分析无法用于拼合多个组织ID之间的数据。
 * 跨设备分析使用复杂的处理管道，并具有多个依赖组件。 此管道与基本Analytics报告工作流并行运行。 预计源报表包和Cross-Device Analytics虚拟报表包之间的点击总数的数据不匹配率约为1%。
 * Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。例如，它们目前不支持营销渠道变量。有关具体限制的详细信息，请参阅[虚拟报表包](/help/components/vrs/vrs-about.md)和[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)。
-* 专用图形利用Experience Cloud和Adobe Analytics中的[客户属性](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/customer-attributes/attributes)功能所使用的相同ID同步。 但是，Cross-Device Analytics虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。 换句话说，基于客户属性的维度不可用于Cross-Device Analytics虚拟报表包。
+* 专用图形利用Experience Cloud和Adobe Analytics中的[客户属性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)功能所使用的相同ID同步。 但是，Cross-Device Analytics虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。 换句话说，基于客户属性的维度不可用于Cross-Device Analytics虚拟报表包。
 * Cross-Device Analytics当前与A4T不兼容。
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
 * Adobe对跨设备分析拼合过程的主动监视仅适用于生产报表包。

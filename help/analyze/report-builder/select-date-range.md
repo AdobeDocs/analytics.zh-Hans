@@ -1,6 +1,6 @@
 ---
 title: 如何在Adobe Analytics的Report Builder中选择数据范围
-description: 介绍如何在Adobe Analytics的Report Builder中使用日历、滚动日期和自定义表达式
+description: 介绍如何在Report Builder for Adobe Analytics中使用日历、滚动日期和自定义表达式
 role: User
 feature: Report Builder
 type: Documentation
@@ -36,7 +36,7 @@ ht-degree: 88%
 
 您可以通过选项在任意选择的日期范围上排除当天。
 
-![选择了日历且选择了排除今天的Report Builder快速编辑窗格。](./assets/image17.png)
+![已选定日历且已选定“排除当天”的“Report Builder快速编辑”窗格。](./assets/image17.png)
 
 ## 使用日历
 
@@ -62,7 +62,7 @@ ht-degree: 88%
 
 要反向设置日期范围，请先单击结束日期，然后再单击开始日期。
 
-![Report Builder日期范围窗格，显示日历和结束日期以及选定的开始日期。](./assets/image18.png)
+![Report Builder日期范围窗格，显示选定的日历和结束日期及开始日期。](./assets/image18.png)
 
 ### 预设下拉菜单
 

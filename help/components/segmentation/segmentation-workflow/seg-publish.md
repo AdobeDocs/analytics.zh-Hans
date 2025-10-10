@@ -30,7 +30,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [发布区段](https://video.tv.adobe.com/v/36689?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[发布区段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ ht-degree: 47%
 ## 在[!UICONTROL 区段生成器]中发布区段
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
-1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
+1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
    ![发布 Experience Cloud](assets/publish-ec.png)
 1. 提供区段的标题和描述。 在保存区段之前，需要填写这些字段。
 1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
@@ -127,14 +127,14 @@ ht-degree: 47%
 
 1. 在加载页面之前启动 Chrome 开发人员工具
 1. 加载页面，并选中“应用程序”>“Cookie”。Adobe Audience Manager UUID应在第三方中设置
-Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/reference/demdex-calls)）。 字段demdex是Adobe Audience Manager UUID集
+Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 字段demdex是Adobe Audience Manager UUID集
 在浏览器上（以下示例中为`35721780439475290181087231320657663953`）。
 
    ![Chrome 开发人员工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 访客轮廓查看器]
 
-默认情况下，加载[!UICONTROL 访客资料查看器]时，浏览器上的Adobe Audience Manager UUID是默认的。 如果验证其他用户的特性实现，请在UUID字段中输入UUID，然后单击[!UICONTROL 刷新]。 请参阅[访客轮廓查看器](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/features/visitor-profile-viewer)，以了解详细信息。
+默认情况下，加载[!UICONTROL 访客资料查看器]时，浏览器上的Adobe Audience Manager UUID是默认的。 如果验证其他用户的特性实现，请在UUID字段中输入UUID，然后单击[!UICONTROL 刷新]。 请参阅[访客轮廓查看器](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)，以了解详细信息。
 
 ## 在 [!DNL Audience Manager] 中查看区段特性
 

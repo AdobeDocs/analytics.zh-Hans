@@ -33,7 +33,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的 Analytics for Target 面板。_<br/>_请参阅[试验面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)，了解如何比较_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的不同用户体验、营销或消息变化。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的 Analytics for Target 面板。_<br/>_请参阅[试验面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)，了解如何比较_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的不同用户体验、营销或消息变化。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 面板](https://video.tv.adobe.com/v/326712?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 面板](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -85,10 +85,10 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | **[!UICONTROL 成功量度]** | 输入面板中选择的成功量度。 |
 | **[!UICONTROL 转化率]** | 成功量度/标准化量度。 |
 | **[!UICONTROL 提升度]** | 每个体验与对照体验比较转化率。注意：提升度是目标体验的&#x200B;*锁定量度*，不能对其细分或将其与其他维度一起使用。 |
-| **[!UICONTROL 提升度（下限）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的最差提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hans) Excel 文件。 |
-| **[!UICONTROL 提升度（中等）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的中等提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hans) Excel 文件。 |
-| **[!UICONTROL 提升度（上限）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的最佳提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hans) Excel 文件。 |
-| **[!UICONTROL 置信度]** | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。已对量度应用了 75%/85%/95% 的固定条件格式化范围。如果需要，可以在“列”设置下自定义此格式化范围。注意：置信度是 Target 体验的“固定量度”；无法细分它或将它与其他维度一起使用。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hans) Excel 文件。 |
+| **[!UICONTROL 提升度（下限）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的最差提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 文件。 |
+| **[!UICONTROL 提升度（中等）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的中等提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 文件。 |
+| **[!UICONTROL 提升度（上限）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的最佳提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 文件。 |
+| **[!UICONTROL 置信度]** | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。已对量度应用了 75%/85%/95% 的固定条件格式化范围。如果需要，可以在“列”设置下自定义此格式化范围。注意：置信度是 Target 体验的“固定量度”；无法细分它或将它与其他维度一起使用。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 文件。 |
 
 与 Analysis Workspace 中的任何其他面板一样，通过添加其他帮助您分析 Adobe Target 活动的表和[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)即可继续进行分析。还可在面板级别或自由格式表内应用区段。请注意，如果在自由格式表内添加它，则必须让它横跨整个表以保留提升和置信度计算结果。目前不支持列级区段。
 

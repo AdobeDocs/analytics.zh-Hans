@@ -17,7 +17,7 @@ ht-degree: 55%
 
 >[!WARNING]
 >
->请勿在`registerPreTrackCallback`变量内进行任何跟踪调用，如[`t()`](t-method.md)或[`tl()`](tl-method.md)。 在此变量中设置跟踪调用会导致图像请求无限循环！
+>请勿在[`t()`](t-method.md)变量内进行任何跟踪调用，如[`tl()`](tl-method.md)或`registerPreTrackCallback`。 在此变量中设置跟踪调用会导致图像请求无限循环！
 
 每次调用 `registerPreTrackCallback` 变量时，您都会挂接该函数以在每次编译图像请求 URL 时运行。避免在同一页面加载过程中多次注册同一函数。
 
@@ -31,13 +31,13 @@ Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数�
 
 1. 使用您的AdobeID凭据登录到[Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) UI。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
 1. 在[!UICONTROL 数据收集]下，单击&#x200B;**[!UICONTROL 在事件发送回调代码之前编辑]**&#x200B;按钮。
 1. 将所需的代码置于编辑器中。
 
 ## 手动实施Web SDK的预跟踪回调
 
-Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用`onBeforeEventSend`注册一个函数，以便在发送数据之前执行，类似于`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用`onBeforeEventSend`注册一个函数，以便在发送数据之前执行，类似于`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

@@ -36,12 +36,12 @@ ht-degree: 55%
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
 1. 在[!UICONTROL 数据收集]下，在&#x200B;**[!UICONTROL 下载链接限定符]**&#x200B;文本字段中设置所需的值。
 
 ## 手动实施Web SDK的下载链接限定符
 
-[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans)使用[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hans#automaticLinkTracking)配置 SDK。 该字段对单击的URL使用正则表达式来确定它是否为有效的下载链接。 如果未定义`downloadLinkQualifier`，则默认值设置为`\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`。
+[使用](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans)[`downloadLinkQualifier`配置](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) SDK。 该字段对单击的URL使用正则表达式来确定它是否为有效的下载链接。 如果未定义`downloadLinkQualifier`，则默认值设置为`\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`。
 
 ```json
 alloy("configure", {
@@ -55,7 +55,7 @@ alloy("configure", {
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示&#x200B;**[!UICONTROL 下载扩展]**&#x200B;字段。
 
 通过在字段中输入文本并单击&#x200B;**[!UICONTROL 添加]**，可将文件扩展名添加到列表中。通过单击相应的&#x200B;**&#39;X&#39;**&#x200B;图标，可从列表中删除文件扩展名。

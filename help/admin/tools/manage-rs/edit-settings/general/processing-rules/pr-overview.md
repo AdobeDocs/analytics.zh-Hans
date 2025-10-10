@@ -67,4 +67,4 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用处理规则将上下文数据变量映射到prop和eVar](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用处理规则将上下文数据变量映射到prop和eVar](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}

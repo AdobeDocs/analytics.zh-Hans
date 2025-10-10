@@ -15,7 +15,7 @@ ht-degree: 80%
 
 `s_objectID` 变量为链接提供唯一标识符。此变量可使 [Activity Map](/help/analyze/activity-map/overview.md) 中的报表更准确。如果页面上的链接经常更改，则可以使用 `s_objectID` 变量告知 Activity Map 唯一链接位置，以便它可以根据需要正确地对数据进行分组。
 
-如果Activity Map的准确性对贵组织至关重要，Adobe建议在网站链接的`onClick`事件中包含`s_objectID`变量。
+如果Activity Map的准确性对贵组织至关重要，Adobe建议在网站链接的`s_objectID`事件中包含`onClick`变量。
 
 ## 使用Adobe Analytics扩展的对象ID
 

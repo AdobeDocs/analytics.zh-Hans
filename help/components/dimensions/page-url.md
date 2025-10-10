@@ -20,7 +20,7 @@ ht-degree: 95%
 
 ## 使用数据填充此维度
 
-此维度从[页面查看调用 (`t()`)](/help/implement/vars/functions/t-method.md) [&#128279;](/help/implement/validate/query-parameters.md) 中的 `g` 和 `-g` 查询字符串检索数据。[链接跟踪调用 (`tl()`)](/help/implement/vars/functions/tl-method.md) 始终剥离此维度，即使存在 `g` 查询字符串。
+此维度从[页面查看调用 (`t()`)](/help/implement/vars/functions/t-method.md)](/help/implement/validate/query-parameters.md) 中的 [`g` 和 `-g` 查询字符串检索数据。[链接跟踪调用 (`tl()`)](/help/implement/vars/functions/tl-method.md) 始终剥离此维度，即使存在 `g` 查询字符串。
 
 有时 URL 的长度会大于 255 字节。AppMeasurement 对图像请求中 URL 的前 255 字节使用 `g` 查询字符串参数。如果 URL 的长度大于 255 字节，则 URL 的其余部分会存储在 `-g` 查询字符串参数中。URL 中的协议和查询字符串均包含在此变量中。
 

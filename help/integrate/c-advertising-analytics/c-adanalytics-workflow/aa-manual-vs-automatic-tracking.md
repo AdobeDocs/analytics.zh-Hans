@@ -18,7 +18,7 @@ ht-degree: 29%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/37439/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/reference/csp)的更多信息。
+>了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)的更多信息。
 
 ## 手动跟踪 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_值（下面显示为&#x200B;**粗体**&#x200B;的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕的“跟踪”部分下获取特定的帐户ID字符串。
+>_`<Advertising Analytics ID>`_值（下面显示为&#x200B;**粗体**的内容）是一个泛指的值，**必须将其替换为您的特定帐户 ID 字符串**。您可以从帐户屏幕的“跟踪”部分下获取特定的帐户ID字符串。
 
 **适用于促销活动的跟踪字符串：**
 

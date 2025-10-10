@@ -13,9 +13,9 @@ ht-degree: 4%
 
 # 完全处理数据源生命周期结束
 
-过去，完全处理数据源使组织能够将点击级别的数据提交到Adobe Analytics。 这些数据的处理方式与通过AppMeasurement等传统数据收集手段收集的数据的处理方式相同。 2020年，Adobe发布了[批量数据插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，它执行与完全处理数据源相同的功能，但具有附加功能。 本页详细介绍了Bulk Data Insertion API提供的其他功能，并概述了文件格式的差异。
+过去，完全处理数据源使组织能够将点击级别的数据提交到Adobe Analytics。 此数据的处理方式与通过AppMeasurement等传统数据收集手段收集的数据的处理方式相同。 2020年，Adobe发布了[批量数据插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，它执行与完全处理数据源相同的功能，但具有附加功能。 本页详细介绍了Bulk Data Insertion API提供的其他功能，并概述了文件格式的差异。
 
-2021年3月25日，Adobe阻止创建新的完全处理数据源连接。 2022年1月31日，所有完全处理数据服务被停用。
+2021年3月25日，Adobe禁止创建新的完全处理数据源连接。 2022年1月31日，所有完全处理数据服务被停用。
 
 ## 完全处理数据源与批量数据插入API之间的主要区别
 
@@ -33,13 +33,13 @@ ht-degree: 4%
 
 * **`aamlh`**： Adobe Audience Manager位置提示。
 * **`contextData.key`**： [上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。
-* **`customerID`**： ID服务变量Experience Cloud。 包括 `id`、`authState` 和 `isMCSeed`。
-* **`hints`**： [客户端提示](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hans)变量。 包括`bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`和`wow64`。
+* **`customerID`**： Experience Cloud ID服务变量。 包括 `id`、`authState` 和 `isMCSeed`。
+* **`hints`**： [客户端提示](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)变量。 包括`bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`和`wow64`。
 * **`ipaddress`**：访客的IP地址。
 * **`language`**： [语言](/help/components/dimensions/language.md)维度。
 * **`list1`** - **`list3`**： [列表变量](/help/implement/vars/page-vars/list.md)。
-* **`marketingCloudVisitorID`**：访客的Experience CloudID。
-* **`tnta`**： [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)集成中使用的Target数据有效负载。
+* **`marketingCloudVisitorID`**：访客的Experience Cloud ID。
+* **`tnta`**： [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)集成中使用的Target数据有效负载。
 * **`trackingServer`**： [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)变量。
 * **`transactionID`**： [`transactionID`](/help/implement/vars/page-vars/transactionid.md)变量。
 * **`userAgent`**：设备的用户代理字符串。
@@ -48,4 +48,4 @@ ht-degree: 4%
 
 * **`charSet`**： [`charSet`](/help/implement/vars/config-vars/charset.md)变量。 批量数据插入仅支持UTF-8。
 * **`timezone`**：访客的时区与GMT的时差（以小时为单位）。
-* **`clickAction`**、**`clickActionType`**、**`clickContext`**、**`clickContextType`**、**`clickSourceID`**、**`clickTag`**：Activity Map数据收集中使用的变量。
+* **`clickAction`**、**`clickActionType`**、**`clickContext`**、**`clickContextType`**、**`clickSourceID`**、**`clickTag`**： Activity Map数据收集中使用的变量。

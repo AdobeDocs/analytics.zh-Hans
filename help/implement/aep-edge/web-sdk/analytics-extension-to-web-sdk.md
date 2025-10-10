@@ -5,13 +5,13 @@ exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1706'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
 # 从Adobe Analytics标记扩展迁移到Web SDK标记扩展
 
-此实施路径涉及从Adobe Analytics标记扩展迁移到Web SDK标记扩展的方法迁移。 其他实施路径将在单独的页面上介绍：
+此实施路径包含一种从Adobe Analytics标记扩展迁移到Web SDK标记扩展的方法体系。 其他实施路径将在单独的页面上介绍：
 
 * [AppMeasurement到Web SDK JavaScript库](appmeasurement-to-web-sdk.md)：一种流畅、系统地迁移到Web SDK的方法，只不过它不使用标记。 而是手动删除Adobe Analytics数据收集库(`AppMeasurement.js`)并将其替换为Web SDK JavaScript库(`alloy.js`)。
 * [Web SDK标记扩展](web-sdk-tag-extension.md)：一个全新的Web SDK安装，您可以在其中使用Adobe Experience Platform数据收集中的标记管理实施。 它需要Adobe Analytics ExperienceEvent字段组，其中包括要包含在XDM架构中的典型Analytics变量。
@@ -21,14 +21,14 @@ ht-degree: 1%
 
 使用此迁移方法既有优点，也有缺点。 仔细权衡每个选项，以确定哪种方法最适合您的组织。
 
-| 优势 | 缺点 |
+| 优点 | 缺点 |
 | --- | --- |
-| <ul><li>**您的网站上没有代码更改**：由于您的实施已安装标记，因此可以在标记界面中进行所有迁移更新。</li><li>**使用您现有的实现**：此方法不需要全新实现。 虽然它确实需要新的规则操作，但您可以以最小的更改重复使用现有数据元素和规则条件。</li><li>**不需要架构**：对于迁移到Web SDK的这一阶段，您不需要XDM架构。 相反，您可以填充`data`对象，这会将数据直接发送到Adobe Analytics。 迁移到Web SDK完成后，您可以为组织创建架构，并使用数据流映射填充适用的XDM字段。 如果在迁移过程的此阶段需要架构，则贵组织将被强制使用Adobe Analytics XDM架构。 使用此架构会使贵组织将来更难以使用自己的架构。</li></ul> | <ul><li>**实施技术债务**：由于此方法使用现有实施的修改形式，因此可能更难跟踪实施逻辑并在需要时执行更改。 自定义代码可能特别难以调试。</li><li>**需要映射才能将数据发送到Platform**：当您的组织准备好使用Customer Journey Analytics时，您必须将数据发送到Adobe Experience Platform中的数据集。 此操作要求`data`对象中的每个字段都必须是数据流映射工具中的条目，以便将其分配给XDM架构字段。 此工作流的映射只需执行一次，并且不涉及对实施进行更改。 但是，这是一个额外的步骤，在XDM对象中发送数据时不需要执行此步骤。</li></ul> |
+| <ul><li>**您的网站上没有代码更改**：由于您的实施已安装标记，因此可以在标记界面中进行所有迁移更新。</li><li>**使用您现有的实现**：此方法不需要全新实现。 虽然它确实需要新的规则操作，但您可以以最小的更改重复使用现有数据元素和规则条件。</li><li>**不需要架构**：对于迁移到Web SDK的这一阶段，您不需要XDM架构。 相反，您可以填充`data`对象，这会将数据直接发送到Adobe Analytics。 迁移到Web SDK完成后，您可以为组织创建架构，并使用数据流映射填充适用的XDM字段。 如果在迁移过程的此阶段需要架构，则贵组织将被强制使用Adobe Analytics XDM架构。 使用此架构会使贵组织将来更难以使用自己的架构。</li></ul> | <ul><li>**实施技术债务**：由于此方法使用现有实施的修改形式，因此可能更难跟踪实施逻辑并在需要时执行更改。 自定义代码可能特别难以调试。</li><li>**需要映射才能将数据发送到 Platform**：当您的组织准备好使用 Customer Journey Analytics 时，您必须将数据发送到 Adobe Experience Platform 中的数据集。此操作要求`data`对象中的每个字段都必须是数据流映射工具中的条目，以便将其分配给XDM架构字段。 对于此工作流程，仅需进行一次映射，并且不涉及对实施进行更改。但是，这是一个额外的步骤，在 XDM 对象中发送数据时并不需要该步骤。</li></ul> |
 
 Adobe建议在以下情况下遵循此实施路径：
 
-* 您已有使用Adobe Analytics标记扩展的实施项目。 如果您有一个使用AppMeasurement的实现，请改为遵循[从AppMeasurement迁移到Web SDK](appmeasurement-to-web-sdk.md)。
-* 您打算在将来使用Customer Journey Analytics，但不希望从头开始使用Web SDK实施来替换Analytics实施。 在Web SDK上从头开始替代实施需要做出最大努力，但同时需要提供最可行的长期实施架构。 如果贵组织愿意进行干净的Web SDK实施，请参阅Customer Journey Analytics用户指南中的[通过Adobe Experience Platform Web SDK摄取数据](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
+* 您已有使用Adobe Analytics标记扩展的实施项目。 如果您有一个使用AppMeasurement的实施，请改为遵循[从AppMeasurement迁移到Web SDK](appmeasurement-to-web-sdk.md)。
+* 您打算在将来使用Customer Journey Analytics，但不希望从头开始使用Web SDK实施来替换Analytics实施。 在Web SDK上从头开始替代实施需要花费最大精力，但同时需要提供最可行的长期实施架构。 如果您的组织愿意进行干净的Web SDK实施，请参阅Customer Journey Analytics用户指南中的[通过Adobe Experience Platform Web SDK摄取数据](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
 
 ## 迁移到Web SDK所需的步骤
 
@@ -97,9 +97,9 @@ Adobe建议在以下情况下遵循此实施路径：
 
 +++
 
-+++**4. 更新规则以使用Web SDK扩展而不是Analytics扩展**
++++**4. 更新规则以使用Web SDK扩展而非Analytics扩展**
 
-此步骤包含迁移到Web SDK所需的大部分工作，并且需要了解您的实施的工作方式。 以下提供了示例，作为如何编辑典型标记规则的示例。 更新实施中的所有标记规则，将对Adobe Analytics扩展的所有引用替换为Web SDK扩展。
+此步骤包含迁移到Web SDK所需的大部分工作，需要了解您的实施的工作原理。 以下提供了示例，作为如何编辑典型标记规则的示例。 更新实施中的所有标记规则，将对Adobe Analytics扩展的所有引用替换为Web SDK扩展。
 
 1. 在标记界面的左侧导航中，选择&#x200B;**[!UICONTROL 规则]**。
 1. 选择要编辑的规则。
@@ -111,9 +111,9 @@ Adobe建议在以下情况下遵循此实施路径：
 1. 确保在右侧的下拉列表中选择数据对象。
 1. 将Analytics变量设置为其各自的值，这些值与Analytics扩展中配置的值相同。
    * 在标记界面中设置的变量可以直接转换为相同的值。
-   * 在自定义代码中设置的字符串变量需要进行的调整最少。 请改用`data.__adobe.analytics`，而不要使用`s`对象。 例如，`s.eVar1`将转换为`data.__adobe.analytics.eVar1`。
+   * 在自定义代码中设置的字符串变量需要进行的调整最少。 请改用`s`，而不要使用`data.__adobe.analytics`对象。 例如，`s.eVar1`将转换为`data.__adobe.analytics.eVar1`。
    * 自定义代码中的Analytics配置变量和方法调用可能需要修改实施逻辑。 查看每个相应的[变量](/help/implement/vars/overview.md)，以确定如何使用Web SDK实现等效变量。
-1. 使用Web SDK扩展复制所有规则逻辑后，选择&#x200B;**[!UICONTROL 保留更改]**。
+1. 使用Web SDK扩展复制所有规则逻辑后，请选择&#x200B;**[!UICONTROL 保留更改]**。
 1. 对使用Adobe Analytics扩展设置值的每个操作配置重复这些步骤。 此步骤包括使用标记界面设置的变量和使用自定义代码设置的变量。 自定义代码块不能在任何地方引用`s`对象。
 
 上述步骤仅适用于设置值的规则。 以下步骤将替换使用[!UICONTROL 操作配置] [!UICONTROL 发送信标]的所有操作。
@@ -134,7 +134,7 @@ Adobe建议在以下情况下遵循此实施路径：
 
 +++
 
-+++**5. Publish已更新规则**
++++**5. 发布更新的规则**
 
 发布更新规则的工作流程与对标记配置进行的任何其他更改相同。
 
@@ -153,7 +153,7 @@ Adobe建议在以下情况下遵循此实施路径：
 
 +++**6. 禁用Analytics扩展**
 
-标记实施完全在Web SDK上后，您可以禁用Adobe Analytics扩展。
+在Web SDK上完全实施标记后，您可以禁用Adobe Analytics扩展。
 
 1. 在标记界面的左侧导航中，选择&#x200B;**[!UICONTROL 扩展]**。
 1. 找到并选择[!UICONTROL Adobe Analytics]扩展。 在右侧，选择&#x200B;**[!UICONTROL 禁用]**。
@@ -163,4 +163,4 @@ Adobe建议在以下情况下遵循此实施路径：
 
 +++
 
-此时，您的Analytics实施已完全放在Web SDK上，并准备好将来迁移到Customer Journey Analytics。
+此时，您的Analytics实施已完全位于Web SDK上，并为将来迁移到Customer Journey Analytics进行了充分准备。

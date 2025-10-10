@@ -15,7 +15,7 @@ ht-degree: 13%
 
 `trackingServerSecure`变量可确定AppMeasurement用于通过HTTPS向Adobe发送数据的域。 如果未正确定义此变量，则您的实施可能会丢失数据。
 
-在[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/home)之前，此变量还确定第三方Cookie的设置位置。 Adobe强烈建议尽可能在所有实施中使用ID服务。
+在[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/en/docs/id-service/using/home)之前，此变量还确定第三方Cookie的设置位置。 Adobe强烈建议尽可能在所有实施中使用ID服务。
 
 ## 使用Web SDK扩展的Edge域
 
@@ -34,7 +34,7 @@ Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器�
 
 ## Edge域手动实施Web SDK
 
-使用[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/edgedomain)配置SDK。 字段是一个字符串，可确定要将数据发送到的域。
+使用[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)配置SDK。 字段是一个字符串，可确定要将数据发送到的域。
 
 ```json
 alloy("configure", {
@@ -69,8 +69,8 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 您为`trackingServerSecure`（或`edgeDomain`）使用的值取决于几个因素：
 
-* 您参与了[Adobe管理的证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)
-* 如果已实施并正确设置[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/home)
+* 您参与了[Adobe管理的证书计划](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
+* 如果已实施并正确设置[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/en/docs/id-service/using/home)
 
 **如果您的组织参与了Adobe管理的证书计划**，请将该值设置为设置证书时选择的第一方域。 通常此值是您的组织拥有的子域。 例如：`data.example.com`。贵组织中的CNAME记录将该数据重定向到Adobe。
 
@@ -92,10 +92,10 @@ Adobe强烈建议在[解决方案设计文档](../../prepare/solution-design.md)
 
 ## 不使用访客ID服务所产生的后果
 
-Adobe强烈建议在所有实施中使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/home)。 ID服务可以通过多种不同的方式进行实施：
+Adobe强烈建议在所有实施中使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/en/docs/id-service/using/home)。 ID服务可以通过多种不同的方式进行实施：
 
-* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[实施适用于Analytics的Experience Cloud Identity服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/setup-analytics)。
-* 使用Adobe Analytics标记扩展的实施使用[Adobe Experience Cloud ID服务标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)。 添加后，无需其他配置。
+* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[实施适用于Analytics的Experience Cloud Identity服务](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)。
+* 使用Adobe Analytics标记扩展的实施使用[Adobe Experience Cloud ID服务标记扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)。 添加后，无需其他配置。
 * 使用任何形式的Web SDK(`alloy.js`或Web SDK标记扩展)的实施已经以本机方式装载了ID服务。 设置`edgeDomain`值后无需进行配置。
 
 **如果您的实施未使用Identity服务**，请考虑对您的实施产生以下影响：

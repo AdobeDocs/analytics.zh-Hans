@@ -18,7 +18,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [时间划分维度](https://video.tv.adobe.com/v/41460?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [时间划分维度](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -20,7 +20,7 @@ Analysis Workspace中的流失让您可以将维度和量度作为漏斗和工�
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多维度流失](https://video.tv.adobe.com/v/327469?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多维度流失](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

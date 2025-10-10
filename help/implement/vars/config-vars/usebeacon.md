@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-有关详细信息，请参阅Web SDK文档中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#using-the-sendbeacon-api)。
+有关详细信息，请参阅Web SDK文档中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)。
 
 ## 使用Adobe Analytics扩展的“使用信标”
 

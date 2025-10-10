@@ -22,7 +22,7 @@ ht-degree: 35%
 
    ![添加请求的按钮](assets/dw-add-request.png)
 
-   此时将显示“新建Data Warehouse请求”页面。
+   此时会显示新的Data Warehouse请求页面。
 
    ![常规设置选项卡](assets/dw-general-settings.png)
 

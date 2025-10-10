@@ -20,7 +20,7 @@ ht-degree: 13%
 
 ## 使用Web SDK覆盖区域值
 
-您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回调来更改Web SDK有效负载或中止发送数据。
+您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回调来更改Web SDK有效负载或中止发送数据。
 
 ## 使用Adobe Analytics扩展的区域覆盖
 

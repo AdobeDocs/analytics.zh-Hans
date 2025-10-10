@@ -18,9 +18,9 @@ ht-degree: 8%
 
 ## 使用数据填充此维度
 
-此维度从[上下文数据变量](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`中检索数据。 如果您的实现使用[Activity Map](/help/analyze/activity-map/overview.md)，则此上下文数据变量会在单击链接时自动收集数据。
+此维度从[上下文数据变量](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`中检索数据。 如果您的实施使用[Activity Map](/help/analyze/activity-map/overview.md)，则此上下文数据变量会在单击链接时自动收集数据。
 
-对于已单击的给定链接，Activity Map将依次搜索以下内容：
+对于已单击的给定链接，Activity Map会搜索以下内容（按顺序）：
 
 1. `s_objectID`变量
 1. 链接的内部文本
@@ -29,7 +29,7 @@ ht-degree: 8%
 1. 图像的`src`属性
 1. 表单的`action`属性
 
-如果点击的元素不包含上述任何条件，则Activity Map不会收集该点击的数据。
+如果点击的元素不包含上述任何条件，Activity Map将不会收集该点击的数据。
 
 ## 维度项
 

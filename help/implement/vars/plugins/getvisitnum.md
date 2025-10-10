@@ -6,8 +6,8 @@ exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 78%
+source-wordcount: '777'
+ht-degree: 76%
 
 ---
 
@@ -79,7 +79,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 `getVisitNum` 函数使用以下参数：
 
 * **`rp`**（可选，整数或字符串）：访问量计数器重置前的天数。如果未设置此参数，则将默认使用 `365`。
-   * 如果将此参数设置为 `"w"`，则计数器将在周末（本周六晚上 11:59）重置
+   * 如果此参数为`"w"`，则计数器将在周末（本周六晚上11:59）重置
    * 如果将此参数设置为 `"m"`，则计数器将在月末（本月的最后一天）重置
    * 如果将此参数设置为 `"y"`，则计数器将在年末（12 月 31 日）重置
 * **`erp`**（可选，布尔）：如果 `rp` 参数是数字，则此参数可确定是否应延长访问量过期时间。如果设置为 `true`，则对您网站的后续点击将重置访问数量计数器。如果设置为 `false`，则当访问数量计数器重置时，对您网站的后续点击将不会延期。默认为 `true`。如果 `rp` 参数为字符串，此参数将无效。

@@ -1,5 +1,5 @@
 ---
-description: 了解如何上传要共享的Report BuilderExcel工作簿。
+description: 了解如何上传要共享的Report Builder Excel工作簿。
 title: 如何上载工作簿
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder

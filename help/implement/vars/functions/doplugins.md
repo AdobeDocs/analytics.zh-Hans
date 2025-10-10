@@ -22,17 +22,17 @@ ht-degree: 63%
 
 ## 使用Web SDK扩展的“在事件之前发送”回调代码
 
-Web SDK使用具有类似功能的`onBeforeEventSend`，而不是`doPlugins`。
+Web SDK使用具有类似功能的`doPlugins`，而不是`onBeforeEventSend`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
 1. 在[!UICONTROL 数据收集]下，单击&#x200B;**[!UICONTROL 在事件发送回调代码之前编辑]**&#x200B;按钮。
 1. 将所需的代码置于编辑器中。
 
 ## 使用`onBeforeEventSend`手动实施Web SDK
 
-Web SDK使用具有类似功能的`onBeforeEventSend`，而不是`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+Web SDK使用具有类似功能的`doPlugins`，而不是`onBeforeEventSend`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

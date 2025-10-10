@@ -26,7 +26,7 @@ ht-degree: 79%
 如果您选择使用任何涉及地域邮政编码的选项：
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[地理查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)。
+* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[地理查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
 
 ## 维度项
 

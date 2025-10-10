@@ -1,5 +1,5 @@
 ---
-description: 修改Activity Map中所有类型的叠加图可视化的设置和属性。
+description: 在Activity Map中修改所有类型的叠加图可视化的设置和属性。
 title: 配置 Activity Map 设置
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 配置 Activity Map 设置
 
-通过“Activity Map设置”面板，您可以修改所有类型的叠加图可视化的设置和属性。
+通过Activity Map设置面板，可修改所有类型的叠加图可视化的设置和属性。
 
 **[!UICONTROL Activity Map叠加]** > **显示设置（齿轮图标）** > **[!UICONTROL 设置]**
 

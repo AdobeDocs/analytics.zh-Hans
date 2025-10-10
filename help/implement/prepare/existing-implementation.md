@@ -24,7 +24,7 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用继承的实施行动手册](https://video.tv.adobe.com/v/3438779?quality=12&learn=on&captions=chi_hans){target="_blank"}观看演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用继承的实施行动手册](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"}观看演示视频。
 
 >[!ENDSHADEBOX]
 

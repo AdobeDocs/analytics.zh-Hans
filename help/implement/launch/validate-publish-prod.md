@@ -39,7 +39,7 @@ Experience Cloud Debugger 是一个可显示页面上存在的所有 Experience 
 1. 再次单击库的下拉列表（现在位于“已提交”列中），然后选择&#x200B;**[!UICONTROL Build for Staging]**。
 1. 片刻后，库上的黄色指示灯变为绿色，表示已成功构建。
 1. 再次单击库的下拉列表，然后选择&#x200B;**[!UICONTROL 批准以供发布]**。
-1. 再次单击库的下拉列表（现在位于[!UICONTROL Approved]列中），然后选择&#x200B;**[!UICONTROL Build and Publish to Production]**。
+1. 再次单击库的下拉列表（现在位于[!UICONTROL 已批准]列中），然后选择&#x200B;**[!UICONTROL 生成并发布到生产环境]**。
 1. 转到“环境”选项卡，单击&#x200B;**[!UICONTROL 生产环境]**。
 1. 复制生产安装代码块并将其提供给网站所有者。请求他们在网站的生产环境中实施此代码。
 

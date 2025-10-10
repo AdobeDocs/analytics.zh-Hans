@@ -6,7 +6,7 @@ exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -22,7 +22,7 @@ AMO 客户可以利用现有的 Analytics-AMO 集成；他们将无法使用 Ad 
 
 +++
 
-+++ 哪些Adobe Analytics SKU使您可以使用Advertising Analytics？
++++ 哪些Adobe Analytics SKU使您可以使用Advertising Analytics？ 
 
 Advertising Analytics可用于Adobe Analytics
 
@@ -34,7 +34,7 @@ Advertising Analytics可用于Adobe Analytics
 
 +++
 
-+++ 使用Advertising Analytics需要额外付费吗？
++++ 使用Advertising Analytics需要额外付费吗？ 
 
 不需要，在适当的SKU配置之外，Advertising Analytics不会产生额外成本。
 
@@ -52,7 +52,7 @@ Advertising Analytics可用于Adobe Analytics
 
 +++
 
-+++ 我拥有正确的SKU，但我无法访问Advertising Analytics，为什么？
++++ 我拥有正确的SKU，但我无法访问Advertising Analytics，为什么？ 
 
 Advertising Analytics仅适用于Adobe Analytics管理员；但是，管理员可以向非管理员授予访问权限。 请联系您的管理员获取访问权限。
 
@@ -72,13 +72,13 @@ Advertising Analytics仅适用于Adobe Analytics管理员；但是，管理员�
 
 +++
 
-+++ 如何收集数据并将其传递到Analytics？
++++ 如何收集数据并将其传递到Analytics？ 
 
 Advertising Analytics利用一系列自定义API，通过Adobe Advertising Cloud将数据从搜索引擎传递到Analytics中。
 
 +++
 
-+++ 通过此集成，我可以获得哪些搜索数据？
++++ 通过此集成，我可以获得哪些搜索数据？ 
 
 你会得到
 
@@ -91,11 +91,11 @@ Advertising Analytics利用一系列自定义API，通过Adobe Advertising Cloud
 
 +++
 
-+++ 我是否可以根据其他Advertising Analytics数据（指标/维度）划分我的Analytics数据？
++++ 我是否可以根据其他Advertising Analytics数据（指标/维度）划分我的Analytics数据？ 
 
 不会，原始搜索数据将以独立数据集的形式提供。 不过，您可以通过其他 Analytics 数据对实例数版本的点击数据进行划分。
 
-+++ 我的帐户的各种状态指示器（待处理、活动、已暂停等）的定义是什么？ 每个状态指标都标识每个搜索引擎帐户的生命周期阶段。
++++ 我的帐户的各种状态指示器（待处理、活动、已暂停等）的定义是什么？ 每个状态指标都标识每个搜索引擎帐户的生命周期阶段。 
 
 * [!UICONTROL 挂起]
 * [!UICONTROL 暂停]表示该帐户之前进行过设置，但现在处于非活动状态。
@@ -103,28 +103,28 @@ Advertising Analytics利用一系列自定义API，通过Adobe Advertising Cloud
 
 +++
 
-+++ 我正在尝试将我的Advertising Analytics帐户映射到特定的报表包，但该帐户在报表包模式中不可用。 为什么？
++++ 我正在尝试将我的Advertising Analytics帐户映射到特定的报表包，但该帐户在报表包模式中不可用。 为什么？ 
 
 在将报表包分配到Advertising Analytics帐户之前，需要[为Advertising Analytics报表配置所需的报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 此操作可通过单独的管理员页面完成，访问方式如下：管理员>报表包> `[select report suite]` >编辑设置> Advertising Analytics配置。
 
 +++
 
-+++ 是否可以将虚拟报表包分配给Advertising Analytics帐户？
++++ 是否可以将虚拟报表包分配给Advertising Analytics帐户？ 
 
 虚拟报表包不收集数据，因此您无法将Advertising Analytics帐户直接映射到虚拟报表包。 但是，您可以将Advertising Analytics帐户映射到您想要在其中查看数据的虚拟报表包的父报表包。 除非您根据AMO ID（或其分类）在区段逻辑中包含“或”条件，否则搜索引擎量度（点击次数/成本/展示次数）可能不会显示在虚拟报表包中。 示例：添加“存在 AMO ID 的所有点击”将包括该区段中的搜索引擎指标。
 
 +++
 
-+++ Advertising Analytics指标是否可以在&#x200B;*营销渠道*&#x200B;报表中进行报告？
++++ Advertising Analytics指标是否可以在&#x200B;*营销渠道*&#x200B;报表中进行报告？ 
 
 不可以，营销渠道报表中不包含这些指标。
 
 +++
 
-+++ 何时可将搜索数据提取到 Analytics 中？
++++ 何时可将搜索数据提取到 Analytics 中？ 
 
-您所在 Analytics 数据中心时区的上午 6 点 (06:00) 左右，系统会从搜索引擎中提取搜索数据。此时收集 AMO 数据并将其插入报表包。然后，在将数据插入 Analytics 的过程中，将该时间转换为报表包所在的时区。
+您所在Analytics数据中心时区的上午6点(06:00)左右，系统会从搜索引擎中提取搜索数据。 此时收集 AMO 数据并将其插入报表包。然后，在将数据插入 Analytics 的过程中，将该时间转换为报表包所在的时区。
 
 +++
 
@@ -134,7 +134,7 @@ AMO ID将捕获以下搜索引擎指标：展示次数、成本、点击次数�
 
 +++
 
-+++ 此数据是在哪个级别捕获的？ *访客？点击级别？*
++++ 此数据是在哪个级别捕获的？ *访客？点击级别？* 
 
 搜索引擎量度是在点击级别捕获的，且关联到AMO ID（及其分类）。 此类数据是摘要级别的数据，未关联到访问次数/访客数。因此，搜索引擎指标只能在属于点击级别范围且基于 AMO ID（或其分类）的区段中使用。
 
@@ -142,19 +142,19 @@ AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 
 
 +++
 
-+++ 我们是否也只捕获google.com或&#x200B;*国家/地区版本*(如google.co.uk、google.it、google.fr或google.de)？
++++ 我们是否也只捕获google.com或&#x200B;*国家/地区版本*(如google.co.uk、google.it、google.fr或google.de)？ 
 
 广告平台分类可捕获以下值：“Google Adwords”和“Bing Ads”。 通常的最佳做法是将国家/地区代码包含在营销活动名称中。之后，您可以进一步过滤或分段（例如，如果所有促销活动均以 countrycode_ 开头，则创建一个以“UK_”开头的促销活动 (AMO ID) 区段，可提供仅与 UK 有关的数据）。
 
 +++
 
-+++ “AMO成本”量度是搜索引擎所报告的每个关键字/广告的成本花费。 这是指净成本还是总成本？
++++ “AMO成本”量度是搜索引擎所报告的每个关键字/广告的成本花费。 这是指净成本还是总成本？ 
 
 “AMO成本”只是支付给搜索引擎的成本。 它不包含任何代理费用或搜索优化/管理平台费用。
 
 +++
 
-+++ 是否计划包括其他广告渠道，如&#x200B;*显示*&#x200B;或&#x200B;*社交*？
++++ 是否计划包括其他广告渠道，如&#x200B;*显示*&#x200B;或&#x200B;*社交*？ 
 
 否，目前我们在路线图中没有关于这些其他渠道的计划。
 
@@ -163,13 +163,13 @@ AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 
 
 ## 自动跟踪与手动跟踪 {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ 在设置我的Advertising帐户时，它声明&#x200B;*自动跟踪*&#x200B;可能会导致意外结果。 会产生什么样的后果？
++++ 在设置我的Advertising帐户时，它声明&#x200B;*自动跟踪*&#x200B;可能会导致意外结果。 会产生什么样的后果？ 
 
 自动模式会尝试以正确格式将URL参数附加到跟踪模板/目标URL的末尾。 但是，您有责任确保添加的URL参数能够正确保持到最终登陆页面。 自动模式可以将关键字插入到登陆 URL 中，而您的 Web 服务器可能不支持包含特殊字符的关键字。
 
 +++
 
-+++ 如果我最初设置了手动或自动跟踪，那么我以后能否切换到另一种跟踪模式？ 会产生哪些影响？
++++ 如果我最初设置了手动或自动跟踪，那么我以后能否切换到另一种跟踪模式？ 会产生哪些影响？ 
 
 可以，您可以切换跟踪模式，但在切换之前需要删除旧的跟踪逻辑。 这可能导致在切换当天出现一段跟踪停机时间（特别是从手动切换到自动时）。因此，我们建议不要切换，除非绝对必要。
 

@@ -1,6 +1,6 @@
 ---
 title: 移动存留期维度
-description: 基于使用Mobile SDK收集的数据的Dimension。
+description: 基于使用Mobile SDK收集的数据的维度。
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
@@ -12,7 +12,7 @@ ht-degree: 26%
 
 # 移动存留期维度
 
-*此页面引用了通常通过Adobe Experience Platform Mobile SDK跟踪的数据。 有关使用用户代理的移动设备信息，请参阅[移动设备查找维度](mobile-dimensions.md)。 有关使用Mobile SDK跟踪的量度，请参阅[移动生命周期量度](../metrics/lifecycle-metrics.md)。*
+*此页面引用了通常通过Adobe Experience Platform Mobile SDK跟踪的数据。 有关使用用户代理的移动设备信息，请参阅[移动设备查找维度](mobile-dimensions.md)。 有关使用Mobile SDK跟踪的指标，请参阅[移动生命周期指标](../metrics/lifecycle-metrics.md)。*
 
 | 生命周期维度名称 | 描述 | 上下文数据变量 |
 | --- | --- | --- |

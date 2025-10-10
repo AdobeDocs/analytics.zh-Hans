@@ -23,7 +23,7 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->Adobe Experience Platform Edge Network提供[机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hans)，该服务将识别为来自机器人的点击标记为机器人点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过Edge Network到达的数据中包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
+>Adobe Experience Platform Edge Network提供[机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html)，该服务将识别为来自机器人的点击标记为机器人点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过Edge Network到达的数据中包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
 
 ## 更新或上传机器人规则
 
@@ -34,7 +34,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://video.tv.adobe.com/v/3418506/?quality=12&captions=chi_hans){target="_blank"}。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

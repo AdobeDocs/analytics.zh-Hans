@@ -117,8 +117,8 @@ ht-degree: 25%
 
 下载文件时，您会看到以下通知：
 
-* 已请求蓝色&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv。_x _%完成]**&#x200B;表示进度。 要随时取消下载，请选择&#x200B;**[!UICONTROL 取消下载]**。 如果要关闭消息，请选择![CrossSize100](/help/assets/icons/CrossSize100.svg)，这样不会取消下载。
-* 在文件下载完成后，已下载绿色的&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv]**&#x200B;完成通知。 该文件将下载到为您的浏览器配置的下载文件夹。
+* 已请求蓝色&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv。_x _%完成]**表示进度。 要随时取消下载，请选择&#x200B;**[!UICONTROL 取消下载]**。 如果要关闭消息，请选择![CrossSize100](/help/assets/icons/CrossSize100.svg)，这样不会取消下载。
+* 在文件下载完成后，已下载绿色的&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv]**完成通知。 该文件将下载到为您的浏览器配置的下载文件夹。
 
 如果您一次请求多个下载，您将收到一条通知，说明每个额外的下载都将排队等待，直到前一个下载完成为止。
 
@@ -237,6 +237,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hans) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

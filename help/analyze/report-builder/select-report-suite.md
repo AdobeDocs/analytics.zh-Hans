@@ -5,14 +5,15 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
 
 ---
 
-# 选择某个报告包
+# 选择报告包
 
 您可以从下拉列表中选择一个报表包，或从单元格中选择一个报表包，然后使用新的报表包自动更新数据块。
 
@@ -25,7 +26,7 @@ ht-degree: 2%
 1. 创建数据块。
 有关创建数据块的信息，请参阅[创建数据块](/help/analyze/report-builder/create-a-data-block.md)。
 
-1. 单击&#x200B;**[!UICONTROL 报表包]**&#x200B;部分中的&#x200B;*单元格图标*。
+1. 单击&#x200B;*报表包*&#x200B;部分中的&#x200B;**[!UICONTROL 单元格图标]**。
 
 1. 选择单元格位置以将报表包添加到所选单元格。
 

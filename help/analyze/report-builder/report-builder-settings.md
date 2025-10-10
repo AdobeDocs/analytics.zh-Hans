@@ -1,5 +1,5 @@
 ---
-title: 如何在Adobe Analytics中配置Report Builder设置
+title: 如何在Adobe Analytics中为Report Builder配置设置
 description: 介绍如何设置离线模式、语言、截止日期以及故障排除设置。
 role: Admin
 feature: Report Builder

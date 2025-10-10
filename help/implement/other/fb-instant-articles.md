@@ -93,4 +93,4 @@ Adobe 建议将您的 `stats.html` 页面与最新版本的 `AppMeasurement.js`�
 
 ## Facebook Instant Articles 和隐私政策
 
-只要 Analytics HTML 页面托管在您的 Web 服务器中，Adobe 就能够在所有 Facebook Instant Articles 中支持您现有的隐私政策。如果用户在主网站上选择退出跟踪，则他们也会在所有 Facebook Instant Articles 上选择退出跟踪。此实用程序页面还支持 Adobe Experience Cloud Identity Service，以便您可以将 Facebook Instant Articles 数据与 Experience Cloud 的其他服务相集成。
+只要 Analytics HTML 页面托管在您的 Web 服务器中，Adobe 就能够在所有 Facebook Instant Articles 中支持您现有的隐私政策。如果用户在主网站上选择退出跟踪，则他们也会在所有 Facebook Instant Articles 上选择退出跟踪。此实用程序页面还支持 Adobe Experience Cloud 身份标识服务，以便您可以将 Facebook Instant Articles 数据与 Experience Cloud 的其他服务相集成。

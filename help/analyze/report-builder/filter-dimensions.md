@@ -1,6 +1,6 @@
 ---
 title: 如何在Report Builder中筛选维度
-description: 介绍如何在Report Builder中使用筛选维度
+description: 介绍如何在Report Builder中使用过滤器维度
 role: User
 feature: Report Builder
 type: Documentation
@@ -25,7 +25,7 @@ ht-degree: 75%
 
 1. 在“命令”面板中单击&#x200B;**[!UICONTROL 编辑数据块]**。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示“Dimension”选项卡。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示“维度”选项卡。
 
 1. 单击表中组件名称旁边的&#x200B;**...**&#x200B;图标。
 
@@ -139,11 +139,11 @@ ht-degree: 75%
 
 1. 在&#x200B;**[!UICONTROL 添加项]**&#x200B;字段中输入搜索词以搜索列表。
 
-1. 要搜索未包含在过去90天数据中的项，请单击“显示过去6个月的项”**&#x200B;**&#x200B;以扩展搜索。
+1. 要搜索未包含在过去90天数据中的项，请单击“显示过去6个月的项”****&#x200B;以扩展搜索。
 
    ![显示过去6个月列表中的项。](./assets/image34.png)
 
-   加载过去6个月的数据后，Report Builder将链接更新为&#x200B;**[!UICONTROL 显示过去18个月的项]**。
+   加载了过去6个月的数据后，Report Builder将链接更新为&#x200B;**[!UICONTROL 显示过去18个月的项]**。
 
 1. 选择维度项。
 
@@ -179,6 +179,6 @@ ht-degree: 75%
 
 从&#x200B;**[!UICONTROL 维度]**&#x200B;选项卡，单击维度名称旁边的 V 形图标以查看维度项列表。
 
-![Dimension选项卡和维度列表。](./assets/dimensions_chevron.png)
+![维度选项卡和维度列表。](./assets/dimensions_chevron.png)
 
 您可以将项拖放到&#x200B;**[!UICONTROL 表]**&#x200B;上或者双击项名称以将其添加到&#x200B;**[!UICONTROL 表]**&#x200B;生成器。

@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: aa2182f9-a140-4239-b2fb-f723e2767260
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 49%
@@ -20,9 +21,9 @@ ht-degree: 49%
 
 此外，从Adobe Analytics导出数据时（通过报表、导出、API等），将添加警告或标签，以通知用户报表包含需要以特定方式处理的敏感信息。
 
-此集成允许您更轻松地管理合规性。 组织中的数据管理员可以设置策略以限制使用。 因此，您的Adobe Analytics用户可以更自信地使用数据，因为他们知道此等数据使用符合数据管理员定义的策略。
+此集成允许您更轻松地管理合规性。组织中的数据管理员可以设置策略以限制使用。因此，您的Adobe Analytics用户可以更自信地使用数据，因为他们知道此等数据使用符合数据管理员定义的策略。
 
-有关详细信息，请参阅[Adobe Analytics和数据管理](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html?lang=zh-Hans)
+有关详细信息，请参阅[Adobe Analytics和数据管理](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html)
 
 ## 查看 Report Builder 中受到限制的标签
 
@@ -31,7 +32,7 @@ Adobe Analytics中出现了两个Adobe定义的策略，这些策略影响报表
 * 强制分析策略
 * 强制下载策略
 
-受这些策略影响的组件将以灰色显示。当您将鼠标悬停在应用了策略的组件上时，将会显示一条注释，以指示以下内容：**相关策略已应用于此字段，因此禁止使用此数据。**&#x200B;有关更多信息，请参阅[标签和政策](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html?lang=zh-Hans)。
+受这些策略影响的组件将以灰色显示。当您将鼠标悬停在应用了策略的组件上时，将会显示一条注释，以指示以下内容：**相关策略已应用于此字段，因此禁止使用此数据。**&#x200B;有关更多信息，请参阅[标签和政策](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html)。
 
 ![指示禁止使用数据的策略注释。](assets/rb-restricted-label.png)
 

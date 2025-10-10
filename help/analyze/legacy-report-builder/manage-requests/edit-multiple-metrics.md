@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '591'
 ht-degree: 28%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 28%
 
 替换量度时，请考虑以下准则：
 
-* 仅允许1:1替换。 不允许1:0或1:1。
+* 仅允许1:1个替换。 不允许1:many或多:1。
 * 如果选定的指标不存在于某一个选定的请求中，则该请求将保持不变。
 * 新量度将被放置在与被替换的量度相同的位置。
 

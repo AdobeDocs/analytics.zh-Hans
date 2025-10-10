@@ -46,7 +46,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://video.tv.adobe.com/v/3428878?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

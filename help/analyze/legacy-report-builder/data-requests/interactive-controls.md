@@ -1,5 +1,5 @@
 ---
-description: 交互控件允许您直接从工作表编辑一个或多个请求的区段和日期范围。这让您在更新Report Builder请求时拥有更大的灵活性。
+description: 交互控件允许您直接从工作表编辑一个或多个请求的区段和日期范围。这让您在更新Report Builder请求时可以更加灵活。
 title: 交互控件
 feature: Report Builder
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 72%
 
 {{legacy-arb}}
 
-交互控件允许您直接从工作表编辑一个或多个请求的区段和日期范围。这让您在更新Report Builder请求时拥有更大的灵活性。
+交互控件允许您直接从工作表编辑一个或多个请求的区段和日期范围。这让您在更新Report Builder请求时可以更加灵活。
 
-交互控件是为了响应分析人员创建工作簿并将这些工作簿与营销组织共享的常见工作流程而创建的。通过交互式控件，营销人员无需深入了解Report Builder的工作方式，即可修改和刷新请求。 (请注意，要刷新请求，工作簿收件人必须是Report Builder用户。) 这些控件在计划工作簿内部使用。目前提供了两种类型的交互控件：
+交互控件是为了响应分析人员创建工作簿并将这些工作簿与营销组织共享的常见工作流程而创建的。通过交互式控件，营销人员无需深入了解Report Builder的工作方式，即可修改和刷新请求。 (请注意，要刷新请求，工作簿收件人必须是Report Builder用户。) 这些控件在计划工作簿内工作。 目前提供了两种类型的交互控件：
 
 * 滚动日期范围
 * 区段
@@ -25,7 +25,7 @@ ht-degree: 72%
 >[!IMPORTANT]
 >
 >必须安装 Report Builder v5.0 才能使用交互控件。>
->* 如果您在Windows上运行Microsoft Excel，但运行较低版本的Report Builder，或者如果您未安装Report Builder：您可以更改交互控件中的值，但不会刷新关联的请求，也不会更新请求的关联参数。
+>* 如果您在Windows上运行Microsoft Excel，但运行较低版本的Report Builder，或者如果您未安装Report Builder：您可以更改交互控件中的值，但不会刷新关联的请求，也不会更新请求的相关参数。
 >* 如果您在 Mac 上运行 Excel，则更改控件中的值将会导致显示以下消息：“找不到宏‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。”
 >
 

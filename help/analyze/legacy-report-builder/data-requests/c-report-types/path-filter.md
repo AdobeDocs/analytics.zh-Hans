@@ -50,7 +50,7 @@ ht-degree: 62%
 
    ![](assets/select_a_pattern.png)
 
-   其中一些模式特定于Report Builder：登入路径的下一项目模式、退出路径的上一项目模式、下一项目模式。
+   其中一些模式特定于Report Builder：登入路径的下一项目模式、退出路径的上一个项目模式、下一项目模式。
 
 ## 要编辑预定义模式
 

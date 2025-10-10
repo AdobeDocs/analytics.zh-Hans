@@ -5,8 +5,8 @@ feature: Dimensions
 exl-id: 63f13083-321f-4fd8-9352-e413e1ebf168
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 91%
+source-wordcount: '146'
+ht-degree: 76%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 91%
 
 ## 维度项目
 
-维度项目包括报表日期范围内的给定分钟及其日期。其格式为 `HH:MM YYYY-MM-DD`。以 `00:00` 开始的维度项目等同于当天的午夜，而以 `23:59` 开始则等同于当天的晚上 11:59。
+维度项目包括报表日期范围内的给定分钟及其日期。其格式为 `HH:MM YYYY-MM-DD`。以`00:00`开头的Dimension项目等于当天的午夜，而以`23:59`开头的值等于当天的晚上11:59。

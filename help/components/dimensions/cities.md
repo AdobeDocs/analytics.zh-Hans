@@ -16,10 +16,10 @@ ht-degree: 73%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe与[Digital Element](https://www.digitalelement.com/)合作，以维护IP地址与城市之间的查找服务。
+此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe与[Digital Element](https://www.digitalelement.com/)合作，共同维护IP地址与城市之间的查找服务。
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 地理查找]。
+* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[地理查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
 
 ## 维度项目
 
@@ -35,4 +35,4 @@ ht-degree: 73%
 * **移动设备 IP 地址**：移动设备 IP 定位会根据不同位置和网络以不同级别运行。某些运营商通过集中式或区域式接入点回传IP流量。
 * **卫星 ISP 用户**：确定这些用户的特定位置比较困难，因为他们通常看起来源自上行链路位置。
 * **军事和政府 IP**：表示全球各地的差旅人员通过其本地地址进入，而非他们目前驻扎的基地或办公室。
-* **出于隐私原因而遮蔽IP地址的代理**：Apple的私有中继等服务通过中间或代理随机发送数据来隐藏真实的IP地址。 然后，此代理在转发到Adobe之前替换其他IP地址。
+* **出于隐私原因而遮蔽IP地址的代理**：Apple的私有中继等服务通过中间或代理随机发送数据来隐藏真实的IP地址。 然后，此代理会替换其他IP地址，然后再转发到Adobe。

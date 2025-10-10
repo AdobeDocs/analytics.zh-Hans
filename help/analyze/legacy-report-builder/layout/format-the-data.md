@@ -1,6 +1,6 @@
 ---
 description: 了解如何将标准和有限的格式应用到单元格范围。
-title: 如何以Report Builder设置日期格式
+title: 如何在Report Builder中设置日期格式
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 {{legacy-arb}}
 
-除了通过Excel的“格式”>“单元格(Ctrl+1)”功能提供的标准单元格格式选项之外，您还可以对具有Report Builder的单元格范围应用有限的格式。 这些格式选项取决于您选择的量度。
+除了Excel的“格式”>“单元格(Ctrl+1)”功能提供的标准单元格格式选项之外，您还可以使用Report Builder将有限的格式应用到单元格范围。 这些格式选项取决于您选择的量度。
 
 向“行标签”网格[添加维度](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)后，单击&#x200B;**[!UICONTROL 格式]**。
 

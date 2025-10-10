@@ -20,7 +20,7 @@ Audience Analytics集成就绪后，您可以将Adobe Audience Manager受众数�
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/40735?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -55,6 +55,6 @@ Audience Analytics 集成功能具有以下主要优点：
 * 您是 Audience Manager 管理员。
 * 您使用的是身份标识服务 v1.5 或更高版本。
 * Adobe Audience Manager和Adobe Analytics报表包已映射到相同的Experience Cloud组织。
-* 您使用[服务器端转发](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)并实施了[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)（不是 DIL 代码）- AppMeasurement 1.5 或更高版本。
+* 您使用[服务器端转发](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)并实施了[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)（不是 DIL 代码）- AppMeasurement 1.5 或更高版本。
 
 [Audience Analytics 工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中介绍了这些先决条件。

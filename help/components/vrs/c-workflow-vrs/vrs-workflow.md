@@ -19,7 +19,7 @@ ht-degree: 74%
 
 在决定您的策略时，请了解[全局/多包标记注意事项](/help/components/vrs/vrs-considerations.md)以及常见问题解答。
 
-![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) [ 通过以下方法创建虚拟报表包](/help/components/vrs/c-workflow-vrs/vrs-create.md)：向父报表包应用一个或多个区段。
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png)[ 通过以下方法创建虚拟报表包](/help/components/vrs/c-workflow-vrs/vrs-create.md)：向父报表包应用一个或多个区段。
 
 虚拟报表包在虚拟报表包管理器中创建，可通过&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**&#x200B;使用。
 
@@ -29,6 +29,6 @@ ht-degree: 74%
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 打开一个项目或报表，然后选择一个虚拟报表包，以提供数据的分段视图。
 
-![](assets/step4_icon.png) [管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虚拟报表包。
+![](assets/step4_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虚拟报表包。
 
 通过虚拟报表包管理器，您可以编辑、添加、标记、删除、重命名、批准、复制、导出和筛选虚拟报表包。 虚拟报表包管理器对非管理员用户不可见。

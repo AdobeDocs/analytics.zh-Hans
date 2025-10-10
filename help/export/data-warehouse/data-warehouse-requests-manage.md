@@ -1,5 +1,5 @@
 ---
-description: 了解如何查看、复制请求以及重新优化Data Warehouse请求的优先级。
+description: 了解如何查看、复制和重新排定Data Warehouse请求的优先级。
 title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
@@ -7,7 +7,7 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 ## 查看请求
 
-默认情况下，您只能查看您创建的请求，除非用户已选择将其请求显示给组织中的其他人(如[Data Warehouse请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)中所述)。 系统管理员可以查看所有请求。
+默认情况下，您只能查看您创建的请求，除非用户已选择将其请求对组织中的其他人可见(如[Data Warehouse请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)中所述)。 系统管理员可以查看所有请求。
 
 要查看Data Warehouse请求，请执行以下操作：
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-   “Data Warehouse”页显示您已提出的所有请求。 数据显示在每列中。 您可以[配置哪些列](#configure-columns)可见。
+   Data Warehouse页面会显示您提出的所有请求。 数据显示在每列中。 您可以[配置哪些列](#configure-columns)可见。
 
    <!-- add screenshot of main page -->
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
    * 当请求开始处理时
 
-   * 比率限制：您的组织有太多正在运行的Data Warehouse请求。 请求将暂停，直到其他数据请求完成。
+   * 速率限制：您的组织运行过多的Data Warehouse请求。 请求将暂停，直到其他数据请求完成。
 
 ## 编辑请求
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-1. 在“Data Warehouse”页面上，选择要编辑的请求。
+1. 在Data Warehouse页面上，选择要编辑的请求。
 
    ![管理请求](assets/dw-manage-request.png)
 
@@ -69,13 +69,13 @@ ht-degree: 3%
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-1. 在“Data Warehouse”页面上，选择要查看其历史记录的请求。
+1. 在Data Warehouse页面上，选择要查看其历史记录的请求。
 
    ![管理请求](assets/dw-manage-request.png)
 
 1. 选择&#x200B;[!UICONTROL **查看历史记录**]。
 
-   [!UICONTROL **查看Data Warehouse请求**]&#x200B;页面显示与该请求关联的单个报告交付的列表。
+   [!UICONTROL **查看Data Warehouse请求**]&#x200B;页面显示与该请求关联的各个报告投放的列表。
 
    选择&#x200B;**配置列**&#x200B;图标![配置列图标](assets/configure-column-icon.png)以隐藏默认不显示的列或显示列。
 
@@ -89,7 +89,7 @@ ht-degree: 3%
    | [!UICONTROL **开始日期**] | 报表开始的日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **完成日期**] | 报表完成的日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **日期已更新**] | 上次更新报告的日期和时间。<p>以发起请求的用户的时区显示。</p> |
-   | [!UICONTROL **状态**] | 报告投放的状态。 可能的状态是：<ul><li>[!UICONTROL **已创建**]：报告已创建，但尚未处理。</li><li>[!UICONTROL **挂起**]：报表正在等待处理。</li><li>[!UICONTROL **正在处理**]：报表当前正在处理。</li><li>[!UICONTROL **已完成**]：报告已完成，现在可用。</li><li>[!UICONTROL **已计划**]：报告已计划，但尚未启动。</li><li>[!UICONTROL **已取消**]：用户已取消报告。</li><li>[!UICONTROL **错误 — 正在处理**：]报告遇到错误，无法处理。</li><li>[!UICONTROL **错误 — 无法发送**]：报告生成成功，但无法传送。 检查目标[&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)的配置，然后重新发送报告。</li></ul>。 |
+   | [!UICONTROL **状态**] | 报告投放的状态。 可能的状态是：<ul><li>[!UICONTROL **已创建**]：报告已创建，但尚未处理。</li><li>[!UICONTROL **挂起**]：报表正在等待处理。</li><li>[!UICONTROL **正在处理**]：报表当前正在处理。</li><li>[!UICONTROL **已完成**]：报告已完成，现在可用。</li><li>[!UICONTROL **已计划**]：报告已计划，但尚未启动。</li><li>[!UICONTROL **已取消**]：用户已取消报告。</li><li>[!UICONTROL **错误 — 正在处理**：]报告遇到错误，无法处理。</li><li>[!UICONTROL **错误 — 无法发送**]：报告生成成功，但无法传送。 检查目标[的](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)配置，然后重新发送报告。</li></ul>。 |
    | [!UICONTROL **从**] | 报表中包含的整体时间范围的开始日期。<p>它以报表包的时区显示。</p> |
    | [!UICONTROL **至**] | 报告中包含的整体时间范围的结束日期。 <p>它以报表包的时区显示。</p> |
    | [!UICONTROL **旧请求ID**] | 用于在旧版Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |
@@ -111,13 +111,13 @@ ht-degree: 3%
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-1. 在“Data Warehouse”页面上，选择要复制的请求。
+1. 在Data Warehouse页面上，选择要复制的请求。
 
    ![管理请求](assets/dw-manage-request.png)
 
 1. 选择&#x200B;[!UICONTROL **复制**]。
 
-   此时将显示复制Data Warehouse请求页面。 所有配置选项都复制自原始请求。
+   此时会显示复制Data Warehouse请求页面。 所有配置选项都复制自原始请求。
 
 1. 更新与请求关联的任何配置选项。
 
@@ -133,7 +133,7 @@ ht-degree: 3%
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-1. 在“Data Warehouse”页面上，选择要编辑的请求。
+1. 在Data Warehouse页面上，选择要编辑的请求。
 
    ![管理请求](assets/dw-manage-request.png)
 
@@ -141,11 +141,11 @@ ht-degree: 3%
 
    该请求将不再按计划时间运行。
 
-## 配置列
+## 配置各列
 
 您可以通过添加或删除列来配置为每个请求显示的信息。
 
-1. 选择Data Warehouse页右上角的&#x200B;**配置列**&#x200B;图标。
+1. 选择Data Warehouse页面右上角的&#x200B;**配置列**&#x200B;图标。
 
    ![配置列](assets/dw-configure-columns.png)
 
@@ -154,14 +154,14 @@ ht-degree: 3%
    | 可用列 | 描述 |
    |---------|----------|
    | 请求名称 | 创建请求的人员的姓名。 |
-   | 报表包 | 与请求关联的报表包。 |
+   | 报告包 | 与请求关联的报表包。 |
    | 请求者 | 创建请求的用户。 |
    | 请求日期 | 发出请求的日期。 |
    | 状态 | 可以使用以下状态：<ul><li><p>**已完成**：请求已成功运行。</p></li><li><p>**已取消**：用户已取消请求。</p></li><li><p>**已计划**：请求已配置为按计划运行。</p></li><li><p>**失败**：请求未能完成。 如果请求仍然失败，请联系客户支持。</p></li></ul> |
 
    {style="table-layout:auto"}
 
-1. 确保选定您要显示的任何列。 选定的列将显示在“Data Warehouse”页上，并显示相关信息。
+1. 确保选定您要显示的任何列。 选定的列会显示在Data Warehouse页面上，并显示相关信息。
 
 ## 过滤和排序请求
 
@@ -173,6 +173,6 @@ ht-degree: 3%
 
 ## 搜索请求
 
-1. 在“Data Warehouse”页顶部的“搜索”字段中，指定要查看的请求名称。
+1. 在Data Warehouse页面顶部的搜索字段中，指定要查看的请求名称。
 
    请求会在您键入内容时进行过滤。

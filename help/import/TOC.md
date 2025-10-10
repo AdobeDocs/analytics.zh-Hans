@@ -5,7 +5,7 @@ user-guide-title: Analytics 导入指南
 breadcrumb-title: 导入指南
 user-guide-description: 从外部来源批次或实时地将数据引入 Adobe Analytics。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%
 

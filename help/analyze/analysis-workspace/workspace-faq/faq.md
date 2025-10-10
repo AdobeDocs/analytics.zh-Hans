@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 +++数据如何进入您的 Analysis Workspace 项目？
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://video.tv.adobe.com/v/33229?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 * 仔细检查报告包，并确保报告包中已填充数据。
 * 如果在报告中应用了区段，区段标准可能与所有数据不匹配。请尝试移除区段或调整区段定义。
 * 检查右上角的日期范围，并确保它已设置为预期的值。
-* 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 验证正在收集的数据。
+* 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 验证正在收集的数据。
 
 
 +++

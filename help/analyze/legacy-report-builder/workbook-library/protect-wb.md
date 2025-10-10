@@ -20,7 +20,7 @@ ht-degree: 69%
 
 作为分析人员，锁定工作簿可以保护工作簿请求不被组织内的其他用户篡改。与此同时，这些用户仍可以刷新工作簿中的请求。
 
-若要禁止编辑工作簿，请单击Report Builder工具栏( ![](assets/locked_icon.png))上的&#x200B;**[!UICONTROL 锁定]**。
+若要禁止编辑工作簿，请单击Report Builder工具栏( **[!UICONTROL )上的]**&#x200B;已锁定![](assets/locked_icon.png)。
 
 要取消保护工作簿，请单击&#x200B;**[!UICONTROL 已解锁]** ( ![](assets/unlocked_icon.png))。
 

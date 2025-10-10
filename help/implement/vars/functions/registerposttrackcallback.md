@@ -17,7 +17,7 @@ ht-degree: 73%
 
 >[!WARNING]
 >
->请勿在`registerPostTrackCallback`变量内进行任何跟踪调用，如[`t()`](t-method.md)或[`tl()`](tl-method.md)。 在此变量中设置跟踪调用会导致图像请求无限循环！
+>请勿在[`t()`](t-method.md)变量内进行任何跟踪调用，如[`tl()`](tl-method.md)或`registerPostTrackCallback`。 在此变量中设置跟踪调用会导致图像请求无限循环！
 
 每次调用 `registerPostTrackCallback` 变量时，您都会挂接该函数以使其在成功发送图像请求后立即运行。避免在同一页面加载过程中多次注册同一函数。
 
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-有关详细信息，请参阅Web SDK文档中的[处理来自事件的响应](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#handling-responses-from-events)。
+有关详细信息，请参阅Web SDK文档中的[处理来自事件的响应](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)。
 
 ## 使用Adobe Analytics扩展注册后跟踪回调
 

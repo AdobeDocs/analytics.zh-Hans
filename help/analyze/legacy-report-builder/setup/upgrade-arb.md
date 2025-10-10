@@ -42,7 +42,7 @@ ht-degree: 51%
 
    ![显示Report Builder设置屏幕的屏幕截图。](assets/setup.png)
 
-1. 升级完成后，重新登录Report Builder。
+1. 升级完成后，请重新登录Report Builder。
 
 ## 手动升级说明 {#section_27A0200010DC4747A718F1A65B180599}
 

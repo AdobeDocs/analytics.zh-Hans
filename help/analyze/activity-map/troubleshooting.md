@@ -13,26 +13,26 @@ ht-degree: 15%
 
 # Activity Map数据收集疑难解答
 
-如果您没有看到Activity Map维的数据，请使用此页帮助确定原因。
+如果您没有看到Activity Map维度的数据，请使用此页帮助确定原因。
 
 ## 使用调试器确认数据收集
 
 首先，确保AppMeasurement正确收集Activity Map数据。
 
-1. 下载并安装[Adobe Experience Cloud Debugger Chrome扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)。
+1. 下载并安装[Adobe Experience Cloud Debugger Chrome扩展](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)。
 2. 导航到您的网页，然后单击链接。
-3. 加载后续页面时，打开调试器。 验证您是否看到在`activitymap.`和`.activitymap`之间夹有Activity Map上下文数据变量：
+3. 加载后续页面时，打开调试器。 验证您是否看到介于`activitymap.`和`.activitymap`之间的Activity Map上下文数据变量：
 
 ## Activity Map数据不存在的可能原因
 
 检查以下各项以确保Activity Map组件存在：
 
 * **AppMeasurement版本**： v1.6及更高版本支持Activity Map。 当您升级到最新稳定版本的AppMeasurement时，许多边缘案例问题都已得到解决。
-* **Activity Map模块**：检查`AppMeasurement.js`文件中是否存在`AppMeasurement_Module_Activity_Map`模块。 如果您的实施使用Adobe Experience Platform收集数据，请确保在&#x200B;**[!UICONTROL 链接跟踪]**&#x200B;下配置Analytics扩展时选中&#x200B;**[!UICONTROL 启用ClickMap]**。
-* **`s_sq` Cookie**：Activity Map依赖于`s_sq` Cookie进行数据收集。
+* **Activity Map模块**：检查`AppMeasurement_Module_Activity_Map`文件中是否存在`AppMeasurement.js`模块。 如果您的实施使用Adobe Experience Platform收集数据，请确保在&#x200B;**[!UICONTROL 链接跟踪]**&#x200B;下配置Analytics扩展时选中&#x200B;**[!UICONTROL 启用ClickMap]**。
+* **`s_sq` Cookie**： Activity Map依赖于`s_sq` Cookie进行数据收集。
    * 确保正确设置`cookieDomainPeriods`变量，尤其是为区域域，如`*.co.uk`或`*.co.jp`。
    * 确保`linkInternalFilters`变量设置为所需值。 如果点击的链接与内部过滤器不匹配，Activity Map会将其视为退出链接，因此不会收集数据。
-* **Activity Map覆盖正在运行**：启用AppMeasurement覆盖后，Activity Map不会跟踪网页的点击数据。
+* **Activity Map覆盖正在运行**：启用AppMeasurement覆盖后，Activity Map不会跟踪您网页的点击数据。
 
 显示与 Activity Map 的使用不兼容的浏览器参数。Adobe建议禁用这些设置。
 

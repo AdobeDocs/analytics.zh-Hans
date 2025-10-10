@@ -20,7 +20,7 @@ ht-degree: 9%
 
 ## 使用Web SDK覆盖链接值
 
-您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回调来更改Web SDK有效负载或中止发送数据。
+您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回调来更改Web SDK有效负载或中止发送数据。
 
 ## 使用Adobe Analytics扩展进行链接覆盖
 
@@ -78,6 +78,6 @@ s.ActivityMap.link = function(ele, linkName) {
 <button type="button" onclick="s.tl(this,'o',customFunction(this)">Add To Cart</button>
 ```
 
-1. 如果传递了`linkName`，则`tl()`调用了该方法。 返回作为`linkName`传入的`tl()`。
+1. 如果传递了`linkName`，则`tl()`调用了该方法。 返回作为`tl()`传入的`linkName`。
 2. 当由Activity Map调用时，永远不会传递`linkName`，因此使用链接元素调用`customFunction()`。 您可以使用任何想要返回值的自定义函数。
 3. 如果以上两个值都不返回，则使用通常收集为回退的链接名称。

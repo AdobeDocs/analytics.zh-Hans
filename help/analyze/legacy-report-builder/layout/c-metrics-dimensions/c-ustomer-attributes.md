@@ -17,7 +17,7 @@ ht-degree: 83%
 
 客户属性将存储在名为 VisAttr 的全新元素类型中，可将其配置为维度或指标。
 
-有关如何上传客户属性的更多详细信息，请参阅 [Experience Cloud 帮助](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)。
+有关如何上传客户属性的更多详细信息，请参阅 [Experience Cloud 帮助](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
 
 * 如果将VisAttr配置为量度，那么它可同时作为量度和“维度”显示。
 

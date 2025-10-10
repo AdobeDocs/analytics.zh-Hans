@@ -1,5 +1,5 @@
 ---
-title: 关于Adobe Analytics的旧版Report Builder
+title: 关于适用于Adobe Analytics的旧版Report Builder
 description: 学习如何使用 Report Builder 将 Adobe Analytics 数据直接带入到 Microsoft Excel 中。
 feature: Workspace Basics
 role: User, Admin

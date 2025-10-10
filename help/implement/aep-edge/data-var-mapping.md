@@ -13,9 +13,9 @@ ht-degree: 2%
 
 # 数据对象变量映射到Adobe Analytics
 
-下表显示了Adobe Experience PlatformEdge Network自动映射到Adobe Analytics的数据对象变量。 如果您使用这些数据对象字段路径，则无需额外配置即可将数据发送到Adobe Analytics。
+下表显示了Adobe Experience Platform Edge Network自动映射到Adobe Analytics的数据对象变量。 如果您使用这些数据对象字段路径，则无需额外配置即可将数据发送到Adobe Analytics。
 
-如果您打算在将来使用Customer Journey Analytics，建议使用这些字段。 此实施方法允许贵组织使用Web SDK向Adobe发送数据，而不遵循XDM架构。 当您的组织准备好将数据发送到Adobe Experience Platform时，您可以使用[数据流映射](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/data-prep#mapping)将数据对象字段指向它们各自的XDM字段。
+如果您打算将来使用Customer Journey Analytics，建议使用这些字段。 这种实施方法允许贵组织使用Web SDK将数据发送到Adobe，而不遵循XDM架构。 当您的组织准备好将数据发送到Adobe Experience Platform时，您可以使用[数据流映射](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping)将数据对象字段指向它们各自的XDM字段。
 
 ## 价值优先级
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 数据对象字段映射
 
-以前对此表的更新可以在GitHub[&#128279;](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)上此页面的提交历史记录中找到。 与AppMeasurement变量类似，所有数据对象字段都区分大小写。
+以前对此表的更新可以在GitHub[上此页面的](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)提交历史记录中找到。 与AppMeasurement变量类似，所有数据对象字段都区分大小写。
 
 | 数据对象字段路径 | Analytics变量和描述 |
 | --- | --- |

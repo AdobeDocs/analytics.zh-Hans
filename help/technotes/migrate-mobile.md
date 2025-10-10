@@ -6,7 +6,7 @@ exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 1. 登录 `experience.adobe.com` 并转到 Mobile Services。
 1. 对您要将其上下文变量映射迁移到 Adobe Analytics 的移动应用程序，单击其齿轮图标。
-1. 单击&#x200B;**[!UICONTROL 管理变量和量度]**&#x200B;菜单项，然后单击&#x200B;**[!UICONTROL 自定义变量]**&#x200B;选项卡。在这里，您可以看到向配置中添加了哪些上下文变量映射（上下文数据）。记录这些配置（或者获取屏幕快照）。示例：
+1. 单击&#x200B;**[!UICONTROL 管理变量和量度]**&#x200B;菜单项，然后单击&#x200B;**[!UICONTROL 自定义变量]**&#x200B;选项卡。在这里，您可以看到向配置中添加了哪些上下文变量映射（上下文数据）。记录这些配置（或拍摄屏幕快照）。 示例：
 
    ![上下文变量](assets/context-var.png)
 

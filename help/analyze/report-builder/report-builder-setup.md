@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 68%
@@ -18,7 +19,7 @@ ht-degree: 68%
 
 ## 要求
 
-以下操作系统和Web浏览器支持Report BuilderAdobe Analytics。
+以下操作系统和Web浏览器支持适用于Adobe Analytics的Report Builder。
 
 ### macOS
 
@@ -43,7 +44,7 @@ ht-degree: 68%
 
 ## Report Builder Excel 插件
 
-您必须安装Report BuilderExcel加载项才能使用Adobe Analytics的Report Builder。 安装 Report Builder Excel 插件之后，您可以从打开的 Excel 工作簿中访问 Report Builder。
+您必须安装Report Builder Excel加载项才能使用适用于Adobe Analytics的Report Builder。 安装 Report Builder Excel 插件之后，您可以从打开的 Excel 工作簿中访问 Report Builder。
 
 ### 下载并安装 Report Builder 插件
 
@@ -97,7 +98,7 @@ ht-degree: 68%
 
 ## 切换组织
 
-首次登录时，您会登录到分配给您的配置文件的默认组织。
+首次登录时，您会登录到分配给您的轮廓的默认组织。
 
 1. 单击在您登录时显示的组织的名称。
 
@@ -107,11 +108,11 @@ ht-degree: 68%
 
 ## 注销
 
-您可从 Report Builder 的用户配置文件中注销。
+您可从 Report Builder 的用户轮廓中注销。
 
 1. 保存对任何打开工作簿的更改。
 
-1. 单击头像图标以显示您的用户配置文件。
+1. 单击头像图标以显示您的用户轮廓。
 
    ![您的用户个人资料头像和“注销”按钮。](./assets/image6.png)
 

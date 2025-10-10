@@ -7,20 +7,20 @@ role: Admin, Developer, Leader
 source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
 # 使用 Adobe Experience Platform Web SDK 实施 Adobe Analytics
 
-您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans) 向 Adobe Analytics 发送数据。 实现Web SDK的方法主要有两种，每种方法都有两种实现类型：
+您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) 向 Adobe Analytics 发送数据。 实现Web SDK有两种主要方法，每种方法都有两种实现类型：
 
-| | **从AppMeasurement迁移** | **清理Web SDK实施** |
+| | **从AppMeasurement迁移** | **清理Web SDK实现** |
 | --- | --- | --- |
 | **使用标记** | [从Analytics扩展迁移到Web SDK扩展](analytics-extension-to-web-sdk.md) | [使用Web SDK扩展将数据发送到Adobe Analytics](web-sdk-tag-extension.md) |
 | **使用JavaScript** | [从AppMeasurement迁移到Web SDK JavaScript库](appmeasurement-to-web-sdk.md) | [使用Web SDK JavaScript库将数据发送到Adobe Analytics](web-sdk-javascript-library.md) |
 
-如果您的组织需要新的Web SDK实施并计划在未来使用Customer Journey Analytics，则Adobe建议使用您自己的架构来实施干净的Web SDK。 请参阅Customer Journey Analytics用户指南中的[通过Adobe Experience Platform Web SDK摄取数据](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
+如果您的组织需要新的Web SDK实施，并且计划将来使用Customer Journey Analytics，则Adobe建议使用您自己的架构来实施干净的Web SDK。 请参阅Customer Journey Analytics用户指南中的[通过Adobe Experience Platform Web SDK摄取数据](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
 
 ## 其他资源
 
