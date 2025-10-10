@@ -19,7 +19,7 @@ ht-degree: 73%
 此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe与[Digital Element](https://www.digitalelement.com/)合作，共同维护IP地址与城市之间的查找服务。
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[地理查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
+* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[地理查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)。
 
 ## 维度项目
 

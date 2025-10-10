@@ -66,31 +66,31 @@ ht-degree: 18%
 <tr>
 <td> 4</td>
 <td><b>安装预构建的独立版本</b>。 您可以直接在页面上引用 CDN 上的库 (<code>alloy.js</code>) 或下载并托管在您自己的基础设施上。 或者，您可以使用 NPM 包。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">安装预构建的独立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">使用 NPM 包</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=zh-Hans">安装预构建的独立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=zh-Hans">使用 NPM 包</a></td>
 </tr>
 
 <tr>
 <td>5</td>
 <td><b>配置数据流</b>。 数据流表示实施 Adobe Experience Platform Web SDK 时的服务器端配置。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">配置数据流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans">配置数据流<a></td> 
 </tr>
 
 <td>6</td>
 <td><b>将 Adobe Analytics 服务</b>添加到您的数据流。 该服务控制是否以及如何将数据发送到Adobe Analytics，以及具体将数据发送到哪些报表包。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>配置 Web SDK</b>。 确保使用数据流ID(以前称为边缘配置ID (<code>datastreamId</code>))、组织ID (<code>orgId</code>)和其他可用选项正确配置您在步骤4中安装的库。 确保正确映射变量。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">配置Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM对象变量映射</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=zh-Hans">配置Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM对象变量映射</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>执行命令</b>和/或<b>跟踪事件</b>。 在您的网页上实施基础代码后，您可以开始使用 SDK 执行命令和跟踪事件。
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">发送事件</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=zh-Hans">发送事件</a></td>
 </tr>
 
 <tr>

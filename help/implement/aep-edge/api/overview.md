@@ -42,13 +42,13 @@ ht-degree: 35%
 <tr>
 <td>3</td>
 <td><b>配置数据流</b>。 数据流表示使用Adobe Experience Platform Edge Network API中的API时的服务器端配置。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">配置数据流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans">配置数据流<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
 <td><b>使用单事件数据和批次事件数据收集API实施和测试数据收集</b>。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans">单事件数据收集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">批次事件数据收集</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans">单事件数据收集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=zh-Hans">批次事件数据收集</a>
 </tr>
 
 <td>5</td>

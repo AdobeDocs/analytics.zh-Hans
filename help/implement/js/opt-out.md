@@ -44,7 +44,7 @@ ht-degree: 67%
    1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
    1. 记下 `trackingServer` 变量值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)：
    1. 使用 Chrome 浏览器导航到您的网站。
    1. 打开 Experience Cloud Debugger，然后转到[!UICONTROL 网络]选项卡。
    1. 记下[!UICONTROL 请求 URL - 主机名]值。

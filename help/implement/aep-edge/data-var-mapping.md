@@ -15,7 +15,7 @@ ht-degree: 2%
 
 下表显示了Adobe Experience Platform Edge Network自动映射到Adobe Analytics的数据对象变量。 如果您使用这些数据对象字段路径，则无需额外配置即可将数据发送到Adobe Analytics。
 
-如果您打算将来使用Customer Journey Analytics，建议使用这些字段。 这种实施方法允许贵组织使用Web SDK将数据发送到Adobe，而不遵循XDM架构。 当您的组织准备好将数据发送到Adobe Experience Platform时，您可以使用[数据流映射](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping)将数据对象字段指向它们各自的XDM字段。
+如果您打算将来使用Customer Journey Analytics，建议使用这些字段。 这种实施方法允许贵组织使用Web SDK将数据发送到Adobe，而不遵循XDM架构。 当您的组织准备好将数据发送到Adobe Experience Platform时，您可以使用[数据流映射](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/data-prep#mapping)将数据对象字段指向它们各自的XDM字段。
 
 ## 价值优先级
 

@@ -138,7 +138,7 @@ Activity Map 每两秒检查一次是否发现网页的状态有更改，例如�
 禁用Activity Map的方法取决于您的实施类型：
 
 * **Web SDK扩展**：在扩展配置设置中，取消选中&#x200B;**[!UICONTROL 收集内部链接点击次数]**、**[!UICONTROL 收集外部链接点击次数]**&#x200B;和&#x200B;**[!UICONTROL 收集下载链接点击次数]**&#x200B;复选框。
-* **Web SDK JavaScript库**：将[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)设置为`false`。
+* **Web SDK JavaScript库**：将[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)设置为`false`。
 * **Analytics扩展**：在扩展配置设置中，取消选中标记为&#x200B;**[!UICONTROL 使用Activity Map]**&#x200B;的框。
 * **AppMeasurement**：在`AppMeasurement.js`中移除或注释掉Activity Map模块，或使用空正文覆盖模块函数调用：
 

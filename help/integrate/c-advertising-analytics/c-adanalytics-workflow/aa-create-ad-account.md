@@ -40,7 +40,7 @@ Adobe Analytics管理员可以创建新的广告帐户，并将多个帐户映�
 
    | 设置 | 描述 |
    | --- | --- |
-   | 类型 | <ul><li>**自动**：让Advertising Cloud引擎自行决定如何将跟踪参数附加到的跟踪模板/目标URL。 [!UICONTROL 自动类型跟踪]是最简单的方法，但可能不会生成最佳的集成数据集。<br>**重要提示：**&#x200B;若要使用[!UICONTROL 自动类型跟踪]配置搜索引擎帐户，您需要执行以下操作：<ul><li>`s_kwcid`参数和值已添加到要添加帐户的帐户跟踪模板或登陆页面URL中。 参数和值插入到URL的末尾。 如果您的Web服务器要求在URL末尾使用特定的`key=value`对，则可能需要执行其他操作。 或者需要更新才能支持URL中的任何新`key=value`对。 **注意**：了解关于是否应将此参数添加到您的[内容安全策略](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)的更多信息。</li><li>此外，还可以将关键字作为 `s_kwcid` 值的一部分插入到登陆 URL 中。如果关键字包含特殊字符或符号，请确认您的Web服务器可以支持这些字符。 `+`是常见的特殊字符示例，该字符用于“修改广泛匹配”关键字。</li></ul></li><li>**手动**：让您管理如何将跟踪参数添加到搜索引擎的跟踪模板/目标URL。 [请参考每个搜索引擎的手动跟踪示例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+   | 类型 | <ul><li>**自动**：让Advertising Cloud引擎自行决定如何将跟踪参数附加到的跟踪模板/目标URL。 [!UICONTROL 自动类型跟踪]是最简单的方法，但可能不会生成最佳的集成数据集。<br>**重要提示：**&#x200B;若要使用[!UICONTROL 自动类型跟踪]配置搜索引擎帐户，您需要执行以下操作：<ul><li>`s_kwcid`参数和值已添加到要添加帐户的帐户跟踪模板或登陆页面URL中。 参数和值插入到URL的末尾。 如果您的Web服务器要求在URL末尾使用特定的`key=value`对，则可能需要执行其他操作。 或者需要更新才能支持URL中的任何新`key=value`对。 **注意**：了解关于是否应将此参数添加到您的[内容安全策略](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/reference/csp)的更多信息。</li><li>此外，还可以将关键字作为 `s_kwcid` 值的一部分插入到登陆 URL 中。如果关键字包含特殊字符或符号，请确认您的Web服务器可以支持这些字符。 `+`是常见的特殊字符示例，该字符用于“修改广泛匹配”关键字。</li></ul></li><li>**手动**：让您管理如何将跟踪参数添加到搜索引擎的跟踪模板/目标URL。 [请参考每个搜索引擎的手动跟踪示例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 1. 免责声明会显示警告列表。 确认您已阅读并理解本协议。 选中复选框，然后选择&#x200B;**[!UICONTROL 确定]**。

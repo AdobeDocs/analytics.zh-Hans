@@ -54,7 +54,7 @@ ht-degree: 62%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在完成配置更改的 6 小时后</b>：更新您的 Analytics JavaScript 代码中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 变量，从而使用新的数据收集服务器。 </p> </td> 
-   <td colname="col3"> <p>进行此更改后，使用 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html">Experience Cloud Debugger</a> 验证 Analytics 图像请求传送到了更新后的数据收集服务器。 </p> </td> 
+   <td colname="col3"> <p>进行此更改后，使用 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans">Experience Cloud Debugger</a> 验证 Analytics 图像请求传送到了更新后的数据收集服务器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>更新 Analytics 代码之后立即执行</b>：测试网站，验证是否会重定向到之前的数据收集域。 </p> </td> 
@@ -70,6 +70,6 @@ ht-degree: 62%
 | 任务 | 描述 |
 |--- |--- |
 | 开始：联系客户关怀团队，告知您要迁移的域以及希望启用的迁移周期（30、60或90天）。 确保包括不安全和安全的域。 | 使用您要迁移到的域和从中迁移的域的确切语法创建列表。<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>迁移主机名在 Adobe Data 收集服务器上配置。客户关怀会告知您何时进行更改，以便您为下一步做好计划。 |
-| 在完成配置更改的6小时后：更新您的Analytics JavaScript代码中的`s.trackingServer`和`s.trackingServerSecure`变量以使用新的数据收集服务器。 | 进行此更改后，请使用[Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)验证Analytics图像请求是否被发送到更新后的数据收集服务器。 |
+| 在完成配置更改的6小时后：更新您的Analytics JavaScript代码中的`s.trackingServer`和`s.trackingServerSecure`变量以使用新的数据收集服务器。 | 进行此更改后，请使用[Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)验证Analytics图像请求是否被发送到更新后的数据收集服务器。 |
 | 紧接在更新Analytics代码之后：测试您的网站，验证是否正在重定向到之前的数据收集域。 | 使用[数据包监视器](../implement/validate/packet-monitor.md)验证在您首次访问网站时或清除Cookie后，您能否在200（确定）HTTP状态代码之前看到两个302（重定向）HTTP状态代码。 如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 |
 | 在整个迁移期间：保持先前主机名的DNS记录有效。 | 前一个主机名必须通过 DNS 解析，否则 Cookie 迁移无法进行。 |

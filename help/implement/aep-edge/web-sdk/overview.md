@@ -13,7 +13,7 @@ ht-degree: 40%
 
 # 使用 Adobe Experience Platform Web SDK 实施 Adobe Analytics
 
-您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) 向 Adobe Analytics 发送数据。 实现Web SDK有两种主要方法，每种方法都有两种实现类型：
+您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans) 向 Adobe Analytics 发送数据。 实现Web SDK有两种主要方法，每种方法都有两种实现类型：
 
 | | **从AppMeasurement迁移** | **清理Web SDK实现** |
 | --- | --- | --- |

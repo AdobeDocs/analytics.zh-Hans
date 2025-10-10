@@ -19,7 +19,7 @@ ht-degree: 52%
 Adobe 合作伙伴使用 [Digital Element](https://www.digitalelement.com/) 确定访问点域。有包括 DNS 反向查询在内的多种方法可用于确定访问点域。它不需要任何配置，也没有要填充的变量。
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[网络查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
+* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[网络查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)。
 
 ## 维度项目
 
