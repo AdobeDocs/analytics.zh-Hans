@@ -36,7 +36,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在数据馈送界面中导航](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在数据馈送界面中导航](https://video.tv.adobe.com/v/3428569?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}以获取演示视频。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送ID](https://video.tv.adobe.com/v/3418478?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]

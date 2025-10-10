@@ -115,19 +115,19 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://video.tv.adobe.com/v/33276?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表过滤器](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表过滤器](https://video.tv.adobe.com/v/327360?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://video.tv.adobe.com/v/32733?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
