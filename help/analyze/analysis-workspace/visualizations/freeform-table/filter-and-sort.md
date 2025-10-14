@@ -4,17 +4,16 @@ title: 过滤和排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 3daac356a1d3f90572ab8b627dfeedfc6575cbbc
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 98%
+source-wordcount: '1123'
+ht-degree: 72%
 
 ---
 
 # 过滤和排序
 
 Analysis Workspace 中的自由格式表是进行交互式数据分析的基础。因此，它们可以包含数千行信息。对数据进行过滤和排序是有效地呈现最重要信息的关键部分。
-
 
 ## 过滤表格
 
@@ -26,9 +25,9 @@ Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
 
 您可以使用多种方法来过滤自由格式表中的行。
 
-- 排除表中的特定行
-- 在表中应用过滤器
-- 使用受众过滤器
+* 排除表中的特定行
+* 在表中应用过滤器
+* 使用区段过滤器
 
 请务必阅读每种方法对[自由格式表总计](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的影响。
 
@@ -90,6 +89,38 @@ Note: this option does not seem to work. AN-338422
    | [!UICONTROL **始终排除项目**] | 指定要从过滤数据中排除的任何项目的名称。 |
 
 1. 选择&#x200B;**[!UICONTROL 应用]**&#x200B;以筛选数据。选择&#x200B;**[!UICONTROL 清除]**&#x200B;来清除所有输入内容。选择&#x200B;**[!UICONTROL 取消]**&#x200B;来取消并关闭对话框。<br/>当表中应用有过滤器时，彩色的 ![过滤器](/help/assets/icons/FilterColored.svg) **过滤器**&#x200B;图标会指示并显示详细信息。
+
+### 在迷你图和折线图可视化图表的趋势数据中包括筛选条件 {#include-filter-criteria}
+
+应用于自由格式表的表维度的任何搜索筛选条件始终包含在迷你图中。
+
+除了迷你图之外，您还可以配置要包含在连接的行可视化中的筛选条件。 (默认情况下，筛选条件不包含在行可视化中。 折线图可视化图表显示所连接表中选定行的数据。 如果未选择任何行，则只显示所连接表的第一个维的数据。)
+
+有关迷你图和折线图可视化的详细信息，请参阅[查看自由格式表的趋势数据](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)。
+
+#### 配置包含筛选条件的行可视化
+
+1. 在量度列标题中选择迷你图。
+
+   选择迷你图单元格时，它显示为深灰色。 这表示所连接的折线图可视化图表中包含筛选条件。 筛选条件将作为列的区段应用。<!--show how to see it? Show what the segment looks like when it's applied? -->
+
+   已选择![迷你图](assets/table-sparkline-selected.png)
+
+#### 了解列总数何时可能不准确
+
+在以下场景中，列总数可能并不精确：
+
+* 当在左列中使用静态组件时，[列总数计算为行的总和](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+
+  如果此方案中的行项目包含重叠数据，则列总数将不正确。
+
+  例如，如果您在左列添加静态区段，然后在右列添加用户作为量度，则其中某些用户可能属于多个静态区段。 在这种情况下，Workspace不会为每个静态区段删除重复用户。 这可能会导致用户总数增加，因为某些用户可能会被多次计数。
+
+* 使用多值维度时
+
+>[!NOTE]
+>
+>折线图和折线图仍可反映这些场景中的准确总计。
 
 
 ## 对表格进行排序

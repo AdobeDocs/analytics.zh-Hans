@@ -5,10 +5,10 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 9035ea758a5e84812460c042685eae954303cc8a
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 98%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的线形图可视化图表。_<br/>_请参阅[线形图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/line)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的线形图可视化图表。_<br/>_请参阅[线形图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/line)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 |---|---|
 | **[!UICONTROL 粒度]** | 从粒度下拉菜单中进行选择，将趋势可视化图表从每日更改为每周、每月等。粒度也会在数据源表中更新。 |
 | **[!UICONTROL 显示最小值]** <br/>**[!UICONTROL 显示最大值&#x200B;]** | 您可以通过叠加最小值和最大值标签来突出显示量度中的最小值和最大值。最小值/最大值派生自可视化图表中的可见数据点，而不是维度中的完整值集。<br/>![带有最小值和最大值标签的叠加。](assets/min-max-labels.png) |
-| **[!UICONTROL 显示趋势线]** | 您可选择将回归趋势线或均线趋势线添加到线系列。趋势线有助于在数据中描绘更清晰的图案。选择后，从列表中选择一个模型。请参阅[模型](#models)了解可用模型的概述和说明。<br/>![线性趋势线](assets/show-linear-trendline.png)。 |
-
->[!TIP]
->
->建议将趋势线应用到不包含今天（部分数据）或未来日期的数据。今天或未来日期的数据会扭曲趋势线。但是，如果您需要包括未来的日期，请从数据中删除零以防止这些日期的扭曲。转到可视化图表的数据源表，选择量度列，然后启用&#x200B;**[!UICONTROL 列设置]** > **[!UICONTROL 将零解释为没有值]**。
-
-
+| **[!UICONTROL 显示趋势线]** | 您可选择将回归趋势线或均线趋势线添加到线系列。趋势线有助于在数据中描绘更清晰的图案。选择后，从列表中选择一个模型。请参阅[模型](#models)了解可用模型的概述和说明。<br/>![线性趋势线](assets/show-linear-trendline.png)。<p>**提示**&#x200B;建议将趋势线应用于不包含今天（部分数据）或未来日期的数据。 今天或未来日期的数据会扭曲趋势线。但是，如果您需要包括未来的日期，请从数据中删除零以防止这些日期的扭曲。转到可视化图表的数据源表，选择量度列，然后启用&#x200B;**[!UICONTROL 列设置]** > **[!UICONTROL 将零解释为没有值]**。</p> |
 
 ### 模型
 
@@ -67,7 +61,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 >[!MORELIKETHIS]
 >
 >[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
