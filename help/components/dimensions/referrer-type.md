@@ -3,10 +3,10 @@ title: 反向链接类型
 description: 反向链接类型，取决于访客的来源。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 88%
 
 ---
 
@@ -24,10 +24,34 @@ ht-degree: 96%
 
 * **已输入/添加书签**：点击不存在反向链接数据。
 * **搜索引擎**：反向链接来自于包括关键词查询字符串的可识别搜索引擎。
+* **对话AI工具**：反向链接来自公认的对话AI工具。
 * **社交网络**：反向链接数据属于 Adobe 可识别的社交网络。
 * **其他网站**：反向链接数据既不属于搜索引擎，也不属于 Adobe 可识别的社交网络。
+* **无JavaScript**：反向链接来自未启用JavaScript的浏览器。
 * **硬盘**：反向链接源于访客硬盘上网页的本地副本。
 * **电子邮件**：反向链接源于使用 `imap://` 或 `mail://` 协议的 URL。不包括在线电子邮件服务，因为这些服务通常使用 `https://` 协议。
+
+### 对话式人工智能工具
+
+以下列表引用了Adobe使用的“对话式人工智能工具”查找表。 Adobe 将以下列表免费提供给 Adobe Analytics 客户。如果您希望向 Adobe 提出建议将某个域添加到此列表，请让贵组织的支持代表联系客户服务部门。
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### 社交网站
 

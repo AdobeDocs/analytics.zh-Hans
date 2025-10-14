@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 浏览一个知识库，其中包含不属于特定 Analytics 工具或组件的有用文章。
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
    + [常见问题解答](ga-to-aa/faq.md)
    + [处理平台之间的差异](ga-to-aa/processing-differences.md)
    + [比较数据与第三方产品](ga-to-aa/compare-data.md)
++ [分析AI流量](/help/technotes/ai-traffic.md)
 + 分析受事件影响的数据 {#event}
    + [分析受事件影响的数据概述](event/overview.md)
    + [数据激增/骤减故障诊断](event/spikes-drops.md)
