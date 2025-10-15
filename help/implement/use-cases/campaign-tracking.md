@@ -20,7 +20,7 @@ ht-degree: 100%
 1. [设置或调整您的 Adobe Analytics 实施以使其加入跟踪代码数据](#include-campaign-variables-in-your-implementation)
 1. [在 Analysis Workspace 中查看报告](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) 可帮助简化其中每个步骤，以使您的营销工作发挥最大作用。有关更多信息，请与您的 Adobe 销售代表联系。
+[Adobe Campaign](https://business.adobe.com/cn/products/campaign/adobe-campaign.html) 可帮助简化其中每个步骤，以使您的营销工作发挥最大作用。有关更多信息，请与您的 Adobe 销售代表联系。
 
 ## 建立跟踪代码生成过程
 

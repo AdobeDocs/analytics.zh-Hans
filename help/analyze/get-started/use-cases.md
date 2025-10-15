@@ -14,7 +14,7 @@ ht-degree: 98%
 
 以下是 Adobe Analytics 帮助组织获得重要见解以更好地服务客户的一些关键方法。
 
-有关 Adobe Analytics 提供的优势的更多详细信息，请参阅[Adobe Analytics 产品页面](https://business.adobe.com/products/analytics/adobe-analytics.html)。
+有关 Adobe Analytics 提供的优势的更多详细信息，请参阅[Adobe Analytics 产品页面](https://business.adobe.com/cn/products/analytics/adobe-analytics.html)。
 
 ## 网站分析
 
