@@ -46,7 +46,7 @@ ht-degree: 99%
 
 ## 实施重定向 {#implement}
 
-若要通过重定向捕获 [!DNL Analytics][!DNL AppMeasurement] 数据，需要对创建重定向和 JavaScript 文件的代码做出四个较小的修改。
+若要通过重定向捕获 [!DNL Analytics]&#x200B;[!DNL AppMeasurement] 数据，需要对创建重定向和 JavaScript 文件的代码做出四个较小的修改。
 
 完成下列步骤将保留原始反向链接（例如，上述场景中的 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）传递至您的网站的信息：
 
