@@ -3,7 +3,7 @@ description: 分类规则会定期查找未分类的术语。如果找到匹配�
 title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 89%
@@ -133,14 +133,14 @@ about_classification_rules.xml
 
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
-| 正则表达式 | &Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
+| 正则表达式 | &amp;Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
 
 **语法**
 
 | 正则表达式 | 字符串或匹配结果 | 对应的匹配群组 |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`： `em:JuneSale:20XX0601` `$1`： em `$2`： JuneSale `$3`： 20XX0601 |
-| 构建语法 | `^` = 开始此行  () = 将字符分组并让您提取括号中的匹配字符。`(.+)` = 捕获一个 ( . ) 字符，以及再捕获 ( + )  \ = 字符串的开头。`$` = 指示前面的字符（或字符组）位于行的最后。 |
+| 构建语法 | `^` = 开始此行  () = 将字符分组并让您提取括号中的匹配字符。`(.+)` = 捕获一个 ( . ) 字符，以及再捕获 ( + )  \ = 字符串的开头。`$` = 指示前面的字符（或字符组）位于行的最后。 | |
 
 有关正则表达式中字符含义的信息，请参阅[正则表达式 - 参考表](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
