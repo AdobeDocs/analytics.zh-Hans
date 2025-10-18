@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -131,6 +131,14 @@ ht-degree: 100%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [集成模块](vars/integrate.md)
++ 访客识别 {#id}
+   + [概述](id/overview.md)
+   + [使用AppMeasurement](id/appmeasurement.md)
+   + [使用Analytics扩展](id/analytics-extension.md)
+   + [使用Web SDK(Alloy)](id/alloy.md)
+   + [使用Web SDK扩展](id/web-sdk-extension.md)
+   + [迁移到访客ID服务](id/migration.md)
+   + [跨实施类型跟踪](id/cross-type-implementation.md)
 + 准备实施 Adobe Analytics {#prepare}
    + [创建数据层](prepare/data-layer.md)
    + [比较实施方法](prepare/comparison.md)
@@ -188,7 +196,6 @@ ht-degree: 100%
 + [在移动设备上实施 Analytics](mobile-device-sdk.md)
 + 实施用例 {#use-cases}
    + [将 AppMeasurement 与 iFrames 结合使用](use-cases/iframe.md)
-   + [跨不同的实施类型跟踪](use-cases/cross-type-implementation.md)
    + [营销活动跟踪工作流程](use-cases/campaign-tracking.md)
 + 验证您的实施 {#validate}
    + [旧版 Adobe Experience Cloud Debugger](validate/debugger.md)

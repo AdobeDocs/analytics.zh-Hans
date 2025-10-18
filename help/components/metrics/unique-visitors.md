@@ -3,10 +3,10 @@ title: 独特访客
 description: 独特访客 ID 的数量。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
+source-git-commit: f26f406848ab26092738089aac64ed9b4fc08019
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 95%
+source-wordcount: '172'
+ht-degree: 83%
 
 ---
 
@@ -22,30 +22,4 @@ Analysis Workspace 根据报表的粒度处理独特访客。例如，如果您�
 
 ## 如何计算此指标
 
-此指标计算给定维度项目的独特访客 ID 数量。它使用多种高级机制来识别独特访客，因为有多种方法可以识别他们。下表列出了识别访客的方法及其优先级。某些点击可能有多种访客识别方法；在这种情况下，使用较高优先级的方法。
-
-| 使用顺序 | 查询参数（收集方法） | 前提条件 |
-| --- | --- | --- |
-| 1 | `vid` | 已设置 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量。 |
-| 2 | `aid` | 访客现有 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie。在不实施访客 ID 服务或在实施该服务之前进行设置。 |
-| 3 | `mid` | 访客现有 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie。在使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的实施上设置。 Adobe建议尽可能对所有实施使用ID服务。 |
-| 4 | `fid` | 访客现有 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie，或者如果由于任何原因无法设置 `aid` 和 `mid`。 |
-| 5 | IP 地址、用户代理、网关 IP 地址 | 如果访客的浏览器不接受 Cookie，最后诉诸于确定独特访客。 |
-
->[!NOTE]
->
->每个 Analytics 访客 ID 都与 Adobe 服务器上的轮廓相关联。无论任何访客 ID Cookie 是否过期，这些访客轮廓在处于至少 13 个月的非活动状态之后都会被删除。
-
-## 影响独特访客计数的行为
-
-独特访客标识符通常存储在浏览器 Cookie 中。如果新独特访客执行以下任一操作，则计算该独特访客：
-
-* 随时清除其缓存
-* 在同一台计算机上打开其他浏览器。每个浏览器计算一个独特访客。
-* 同一人在不同设备上浏览您的网站。每台设备计算一个单独的独特访客。您可以使用[跨设备分析](../cda/overview.md)和[人员](people.md)指标将访客合并起来。
-* 打开隐私浏览会话（例如，Chrome 的“隐身”选项卡）。
-
-只要保留 Cookie 标识符，就&#x200B;*不会* 计算新的独特访客：
-
-* 访客关闭他们的浏览器过长时间
-* 访客将他们的浏览器升级到最新版本
+此量度计算给定维度项目的独特访客ID数量。 有关Adobe Analytics如何识别独特访客的更多信息，请参阅[访客识别概述](/help/implement/id/overview.md)。
