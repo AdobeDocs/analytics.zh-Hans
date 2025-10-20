@@ -24,9 +24,9 @@ Adobe Analytics中的访客识别包含以下组件：
 | 使用的顺序 | 查询参数 | 前提条件 |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | 已设置 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量。 |
-| **2<sup>nd</sup>** | `aid` | 访客现有[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不实施访客 ID 服务或在实施该服务之前进行设置。 |
-| **3<sup>rd</sup>** | `mid` | 访客现有[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的实施上设置。 Adobe建议尽可能对所有实施使用ID服务。 |
-| **4<sup>th</sup>** | `fid` | 访客现有[`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie，或者由于任何原因无法设置`aid`和`mid`。 |
+| **2<sup>nd</sup>** | `aid` | 访客现有[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不实施访客 ID 服务或在实施该服务之前进行设置。 |
+| **3<sup>rd</sup>** | `mid` | 访客现有[`s_ecid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的实施上设置。 Adobe建议尽可能对所有实施使用ID服务。 |
+| **4<sup>th</sup>** | `fid` | 访客现有[`s_fid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie，或者由于任何原因无法设置`aid`和`mid`。 |
 | **5<sup>th</sup>** | IP 地址、用户代理、网关 IP 地址 | 在访客的浏览器不接受Cookie时用作最后手段来识别独特访客。 |
 
 ## 影响独特访客计数的行为
