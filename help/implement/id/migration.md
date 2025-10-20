@@ -1,7 +1,7 @@
 ---
 title: 适用于Adobe Analytics的访客ID服务迁移注意事项
 description: 概述Adobe Analytics如何与访客ID服务进行交互。
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 ## 跨域跟踪
 
-某些旧版Analytics访客ID实施可能使用“友好的第三方Cookie”，其中两个域在像`data.example.com`这样的公共域上共享相同的访客Cookie。 由于友好的第三方Cookie仍然是第三方Cookie，因此大多数现代浏览器都会拒绝它们，从而导致Analytics依赖回退ID (`fid`)来识别访客。 迁移到ID服务后，所有域都可以在第一方上下文中设置`AMCV` Cookie，从而提高它们保留访客ID的可行性。
+某些旧版Analytics访客ID实施可能使用“友好的第三方Cookie”，其中两个域在像`data.example.com`这样的公共域上共享相同的访客Cookie。 由于友好的第三方Cookie仍然是第三方Cookie，因此许多现代浏览器会拒绝它们，从而导致Analytics依赖回退ID (`fid`)来识别访客。 迁移到ID服务后，所有域都可以在第一方上下文中设置`AMCV` Cookie，从而提高它们保留访客ID的可行性。
 
-当访客ID服务尝试为跨域跟踪设置第三方Cookie([`demdex` Cookie](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/intro/cookies))时，它经常被大多数现代浏览器拒绝。 考虑使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/appendvisitorid)方法在您拥有的域之间传递Experience Cloud ID。
+当访客ID服务尝试为跨域跟踪设置第三方Cookie([`demdex` Cookie](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies))时，它经常被现代浏览器拒绝。 考虑使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid)方法在您拥有的域之间传递访客的Experience Cloud ID (`mid`)。
 
 ## 服务器端跟踪
 
-您可以调用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/getmcvid)以获取Experience Cloud ID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以获取旧版Analytics ID (`aid`)。 Adobe建议同时检查这两个变量，以保留访客识别逻辑。
+您可以调用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)以获取Experience Cloud ID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以获取旧版Analytics ID (`aid`)。 Adobe建议同时检查这两个变量，以保留访客识别逻辑。

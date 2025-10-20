@@ -4,10 +4,10 @@ description: 使用不同的实施类型并在不同实施类型之间无缝跟�
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 64%
+source-wordcount: '377'
+ht-degree: 59%
 
 ---
 
@@ -29,4 +29,4 @@ Adobe 建议通过在所有页面使用相同的实施类型来保持站点实�
 | Experience Cloud ID 服务 | 实施 [`VisitorAPI.js`](appmeasurement.md) | 使用[Experience Cloud ID服务扩展](analytics-extension.md) | [本机包含](alloy.md) | [本机包含](web-sdk-extension.md) | 单独调用[ID服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=zh-Hans)以获取所需的ID，并在查询字符串中包含`mid` |
 | Edge域 | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md)变量 | 当[!UICONTROL 配置扩展]时，位于[!UICONTROL 常规]部分下的[SSL跟踪服务器](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=zh-Hans) | [配置 Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans) 时的 `edgeDomain` 属性 | [!UICONTROL 配置扩展时]Edge域[字段](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hans) | 图像请求 URL 的 `hostname` |
 
-如果这些变量中的任何一个在跨实施类型中不一致，Adobe 会将它们视为不同的访客。如果未在您的网站上对访客进行跨实施类型无缝跟踪，则最常见的原因是 ID Service 配置不正确。确保每个实现类型在整个网站上正确获取相同的Experience Cloud ID (`mid`)。
+如果这些变量中的任何一个变量在每种实施类型中不一致，Adobe可能会将它们视为单独的访客。 如果未在您的网站上对访客进行跨实施类型无缝跟踪，则最常见的原因是 ID Service 配置不正确。确保每个实现类型在整个网站上正确获取相同的Experience Cloud ID (`mid`)。

@@ -1,24 +1,24 @@
 ---
 title: 使用AppMeasurement进行访客识别
 description: 在使用AppMeasurement实施Adobe Analytics时正确识别访客。
-source-git-commit: 5bd1914dc52c664348f30793761f0fc347343156
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
 # 使用AppMeasurement进行访客识别
 
-AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽然AppMeasurement本身提供了用于识别访客的本机方法，但许多现代浏览器会拒绝它尝试设置的Cookie。 Adobe强烈建议在所有实施中使用Adobe Experience Cloud访客ID服务以符合现代浏览器隐私标准。 所有版本的AppMeasurement都与`VisitorAPI.js`捆绑在一起，JavaScript库用于实施访客ID服务。
+AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽然AppMeasurement本身提供了用于识别访客的本机方法，但许多现代浏览器会拒绝它尝试设置的第三方Cookie。 Adobe强烈建议在所有实施中使用Adobe Experience Cloud访客ID服务以符合现代浏览器隐私标准。 所有版本的AppMeasurement都与`VisitorAPI.js`捆绑在一起，JavaScript库用于实施访客ID服务。
 
 ## 使用访客ID服务识别访客（推荐）
 
-使用此部分可创建Adobe Analytics与访客ID服务之间的基本集成。 确保您已做好以下准备：
+确保您已做好以下准备：
 
 * 下载[最新版本的AppMeasurement](https://github.com/adobe/appmeasurement)。 下载的库包含`AppMeasurement.js`和`VisitorAPI.js`。
 * 开发[报表包ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
-* [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)的所需域。
+* [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)的所需边缘域。
 * 您的IMS组织ID：
    1. 使用您的Adobe ID凭据登录[experience.adobe.com](https://experience.adobe.com)。
    1. 在Experience Cloud界面中的任意位置，按`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
@@ -26,7 +26,7 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
    1. 展开所需的IMS组织。
    1. 找到&#x200B;**[!UICONTROL ID]**&#x200B;字段。
 
-拥有上述资源后，请参阅以下基本示例页面，其中包含将数据发送到Adobe Analytics所需的最低调用数：
+获得上述资源后，以下基本示例页面包含将数据发送到Adobe Analytics所需的最低调用：
 
 ```html
 <html>
@@ -50,10 +50,12 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 
 >[!TIP]
 >
->您可以通过将`Visitor`的存在分配给自定义变量来跟踪点击是否使用访客ID服务：
+>您可以通过将`Visitor`的存在分配给[`doPlugins`](/help/implement/vars/functions/doplugins.md)中的自定义变量来跟踪点击是否使用访客ID服务：
 >
 >```js
->s.prop1 = typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI Missing";
+>s.doPlugins = function() {
+>   s.prop1 = typeof(Visitor) != "undefined" ? "VisitorAPI present" : "VisitorAPI missing";
+>};
 >```
 
 ## 使用`s_vi` Cookie识别访客（不推荐）
@@ -62,10 +64,10 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 >
 >Adobe建议不要使用此方法来识别访客。
 
-如果贵组织未使用访客ID服务，则AppMeasurement将使用其自身的访客识别形式。 当访客首次访问您的网站时，库会检查[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie在匹配[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)（对于HTTPS）或[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)（对于HTTP）的域中设置。
+如果贵组织未使用访客ID服务，则AppMeasurement将使用其自身的访客识别形式。 当访客首次访问您的网站时，库会检查[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie在匹配[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)（对于HTTPS）或[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)（对于HTTP）的域中设置。
 
-* 如果您参与[托管证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
-* 如果您未参与托管证书计划，则跟踪服务器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子域，从而使`s_vi` Cookie成为第三方Cookie。 由于现代浏览器隐私惯例，第三方Cookie被大多数浏览器拒绝。 被拒绝后，AppMeasurement会尝试改为设置第一方回退Cookie (`fid`)。
+* 如果您参与[托管证书计划](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
+* 如果您未参与托管证书计划，则跟踪服务器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子域，从而使`s_vi` Cookie成为第三方Cookie。 由于现代浏览器隐私标准，第三方Cookie被大多数浏览器拒绝。 被拒绝后，AppMeasurement会尝试改为设置第一方回退Cookie (`fid`)。
 
 如果您正确设置`trackingServerSecure`，则无需进一步的访客识别措施。
 

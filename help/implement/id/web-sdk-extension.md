@@ -1,9 +1,9 @@
 ---
 title: 使用Web SDK标记扩展进行访客识别
 description: 在实施Web SDK标记扩展时正确识别访客。
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
