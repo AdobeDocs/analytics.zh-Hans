@@ -1,9 +1,9 @@
 ---
 title: 使用AppMeasurement进行访客识别
 description: 在使用AppMeasurement实施Adobe Analytics时正确识别访客。
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 >
 >Adobe建议不要使用此方法来识别访客。
 
-如果贵组织未使用访客ID服务，则AppMeasurement将使用其自身的访客识别形式。 当访客首次访问您的网站时，库会检查[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie在匹配[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)（对于HTTPS）或[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)（对于HTTP）的域中设置。
+如果贵组织未使用访客ID服务，则AppMeasurement将使用其自身的访客识别形式。 当访客首次访问您的网站时，库会检查[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie在匹配[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)（对于HTTPS）或[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)（对于HTTP）的域中设置。
 
-* 如果您参与[托管证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
+* 如果您参与[托管证书计划](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
 * 如果您未参与托管证书计划，则跟踪服务器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子域，从而使`s_vi` Cookie成为第三方Cookie。 由于现代浏览器隐私标准，第三方Cookie被大多数浏览器拒绝。 被拒绝后，AppMeasurement会尝试改为设置第一方回退Cookie (`fid`)。
 
 如果您正确设置`trackingServerSecure`，则无需进一步的访客识别措施。
@@ -82,7 +82,7 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 * 每次点击必须包含相同的`visitorID`值才能计为单个访客。
    * 任何忽略`visitorID`的点击都会自动尝试使用其他访客识别方法，将它们视为单独的访客。
    * 任何包含与上一次点击不同的`visitorID`值的点击都将被视为单独的访客。
-   * Adobe不提供将使用不同访客ID的点击拼合在一起的任何方式。
+   * Adobe不提供在Adobe Analytics中将使用不同访客ID的点击拼合在一起的方法。
 * 使用`visitorID`标识的访客不支持共享受众、Analytics for Target和客户属性。
 
 有关使用此变量的实施说明，请参阅[`visitorID`](/help/implement/vars/config-vars/visitorid.md)。

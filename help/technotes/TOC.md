@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 浏览一个知识库，其中包含不属于特定 Analytics 工具或组件的有用文章。
-source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 98%
 
 ---
@@ -66,5 +66,4 @@ ht-degree: 98%
 + [登录疑难解答](troubleshoot-login.md)
 + [注销疑难解答](troubleshoot-sessions.md)
 + [未指定、其他和未知](unspecified.md)
-+ [访客迁移](visitor-migration.md)
 + [VISTA 规则](vista.md)

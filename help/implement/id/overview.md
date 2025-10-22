@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics中的访客识别
 description: 了解如何使用最新最佳实践在Adobe Analytics中识别访客。
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 12%
+source-wordcount: '572'
+ht-degree: 10%
 
 ---
 
@@ -19,15 +19,17 @@ Adobe Analytics中的访客识别包含以下组件：
 
 ## Adobe Analytics标识操作顺序
 
-当Adobe收到点击时，将按顺序进行以下检查。 如果给定属性存在，Adobe会使用该标识符进行点击。 如果点击中存在多个标识符，则仅使用第一个方法。
+当Adobe收到点击时，将按顺序进行以下检查。 如果给定属性存在，Adobe会使用该标识符进行点击。 如果点击中存在多个标识符，则仅使用第一个方法。 请注意，操作顺序不会反映Adobe建议识别访客的顺序。
 
 | 使用的顺序 | 查询参数 | 前提条件 |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | 已设置 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量。 |
-| **2<sup>nd</sup>** | `aid` | 访客现有[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不实施访客 ID 服务或在实施该服务之前进行设置。 |
-| **3<sup>rd</sup>** | `mid` | 访客现有[`s_ecid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的实施上设置。 Adobe建议尽可能对所有实施使用ID服务。 |
-| **4<sup>th</sup>** | `fid` | 访客现有[`s_fid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie，或者由于任何原因无法设置`aid`和`mid`。 |
-| **5<sup>th</sup>** | IP 地址、用户代理、网关 IP 地址 | 在访客的浏览器不接受Cookie时用作最后手段来识别独特访客。 |
+| **2<sup>nd</sup>** | `aid` | 访客现有[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不实施访客 ID 服务或在实施该服务之前进行设置。 |
+| **3<sup>rd</sup>** | `mid` | 访客现有[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的实施上设置。 Adobe建议尽可能对所有实施使用ID服务。 |
+| **4<sup>th</sup>** | `fid` | 访客现有[`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 如果由于任何原因无法设置`aid`和`mid`，AppMeasurement会自动生成回退ID。 |
+| **5<sup>th</sup>** | IP地址+用户代理 | 在访客的浏览器不接受Cookie时用作最后手段来识别独特访客。 在[IP模糊处理](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)之前生成哈希访客ID。 如果IP地址不可用，则改用其他IP详细信息（如网关IP）。 |
+
+然后，选定的访客ID将进行哈希处理，并成为其服务器端标识符。 此服务器端标识符在`visid_high`数据馈送`visid_low`中可用为[ + ](/help/export/analytics-data-feed/data-feed-overview.md)。
 
 ## 影响独特访客计数的行为
 
