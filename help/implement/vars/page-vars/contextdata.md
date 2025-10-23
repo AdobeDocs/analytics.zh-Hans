@@ -4,10 +4,10 @@ description: 上下文数据变量允许您在处理规则可读取的每个页�
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 68%
+source-wordcount: '595'
+ht-degree: 64%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 68%
 上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。您可以在上下文数据变量中发送数据，而不是显式地为代码中的 Analytics 变量分配值。然后，处理规则会接收上下文数据变量值并将其传递给相应的 Analytics 变量。请参阅《管理员用户指南》中的[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)。
 
 上下文数据变量有助于开发团队收集指定元素中的数据而不是编号变量。例如，您可以请求开发团队将页面的作者分配给 `s.contextData["author"]`，而不是请求他们将其分配给 `eVar10`。然后，贵组织中的 Analytics 管理员可以创建处理规则，以将上下文数据变量映射到用于报告的 Analytics 变量。开发团队最终只需担心上下文数据变量，而无需考虑Adobe提供的许多页面变量。
+
+所有上下文数据变量组合的最大大小（包括键和值）为32 KB。
 
 ## 使用 Web SDK 的上下文数据变量
 
@@ -54,7 +56,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * 有效的上下文数据变量只包含字母数字字符、下划线和句点。如果您包括其他字符（如连字符），则 Adobe 无法对处理规则中的数据收集提供担保。
-* 请勿将上下文数据变量以 `"a."` 开头。此前缀由 Adobe 保留和使用。例如，请勿使用 `s.contextData["a.InstallEvent"]`。
+* 请勿以`"a."`为前缀启动上下文数据变量。 此前缀由 Adobe 保留和使用。例如，请勿使用 `s.contextData["a.InstallEvent"]`。
 * 上下文数据变量不区分大小写。变量 `s.contextData["example"]` 和 `s.contextData["EXAMPLE"]` 是相同的。
 * 单个键不能包含多个值。 如果要将上下文数据变量用于多值变量，请使用分隔符（通常是逗号）连接所有值，然后使用处理规则将其传递到[列表prop](prop.md#list-props)或[列表变量](list.md)。
 
