@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >分类集尚不支持规则。 在旧版规则生成器功能变得不可用之前，规则功能将会添加到分类集界面中。
->>如果确实需要用于分类的规则，请继续使用[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)。
+>&#x200B;>如果确实需要用于分类的规则，请继续使用[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)。
 
 
 <!--

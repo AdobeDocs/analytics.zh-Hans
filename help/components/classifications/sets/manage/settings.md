@@ -16,7 +16,7 @@ ht-degree: 2%
 
 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要编辑其设置的分类集。
 
-在&#x200B;**[!UICONTROL 分类集：]**&#x200B;分类集标题&#x200B;**[!UICONTROL 对话框的&#x200B;_设置_]**选项卡中，根据需要：
+在&#x200B;**[!UICONTROL 分类集：]**&#x200B;分类集标题&#x200B;**[!UICONTROL 对话框的&#x200B;_设置_]**&#x200B;选项卡中，根据需要：
 
 ![分类集 — 设置](assets/classification-sets-settings.png)
 
