@@ -1,8 +1,8 @@
 ---
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
 workflow-type: tm+mt
-source-wordcount: '2962'
-ht-degree: 88%
+source-wordcount: '2997'
+ht-degree: 87%
 
 ---
 # 片段
@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >2024年10月16日发布了新的、简化的[Report Builder](/help/analyze/report-builder/rb-overview.md)。 它在Mac、Windows和Web浏览器上受支持。
->&#x200B;>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
+>>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
 
-## Reports & Analytics 生命周期结束公告 {#ra-eol}
+## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -87,13 +87,14 @@ ht-degree: 88%
 
 归因容器定义了归因的所需范围。可能的选项为：
 
-* **访问**：查看访问容器范围内的转化。
+* **访问**：查看访问容器范围内的转化。 选择&#x200B;**[!UICONTROL 访问]**&#x200B;后，[归因回顾时间范围](#atribution-lookback-window)会自动设置为&#x200B;**[!UICONTROL 报告时间范围]**，且无法更改。
 * **访客**：查看访客容器范围内的转化。
 
 ## 归因回顾窗口 {#attribution-lookback-window}
 
 回顾窗口是指转化应回顾以包含接触点所花费的时间。如果一个维度项设置在回顾窗口之外，该值就不包含在任何归因计算中。
 
+* **[!UICONTROL 报告窗口]**：从转换发生时开始回顾到报告窗口的开头。
 * **14 天**：自转化发生后最多回顾 14 天。
 * **30 天**：自转化发生后最多回顾 30 天。
 * **60 天**：自转化发生后最多回顾 60 天。
