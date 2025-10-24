@@ -1,7 +1,7 @@
 ---
-source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
+source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
 workflow-type: tm+mt
-source-wordcount: '2997'
+source-wordcount: '2999'
 ht-degree: 87%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >2024年10月16日发布了新的、简化的[Report Builder](/help/analyze/report-builder/rb-overview.md)。 它在Mac、Windows和Web浏览器上受支持。
->&#x200B;>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
+>>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
 
-## Reports & Analytics 生命周期结束公告 {#ra-eol}
+## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -203,6 +203,6 @@ Customer Journey analytics 中的各种可视化图表旨在分析您为客户�
 
 >[!WARNING]
 >
->分类规则生成器已弃用，在&#x200B;**2026年8月31日**&#x200B;之后将无法再访问。 请切换到[分类集](/help/components/classifications/sets/overview.md)体验以确保继续正常运行。
+>分类规则生成器已弃用，在&#x200B;**2026年8月31日**&#x200B;之后将无法再访问。 一旦可用，请切换到[分类集](/help/components/classifications/sets/overview.md)体验，以确保继续正常运行。
 >
 

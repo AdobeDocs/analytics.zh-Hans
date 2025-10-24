@@ -1,28 +1,49 @@
 ---
 title: 分类集设置
-description: 创建或编辑分类集。
+description: 了解如何创建或编辑分类集。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 97%
+source-wordcount: '144'
+ht-degree: 2%
 
 ---
 
 # 分类集设置
 
-配置分类集的设置。
+您可以编辑分类集的初始设置。
 
-**[!UICONTROL 组件]** > **[!UICONTROL 分类集]** > **[!UICONTROL 集]** > 单击所需的分类集名称 > **[!UICONTROL 设置]**
+在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要编辑其设置的分类集。
 
-![分类集设置](../../assets/classification-set-settings.png)
+在&#x200B;**[!UICONTROL 分类集：]**&#x200B;分类集标题&#x200B;**[!UICONTROL 对话框的&#x200B;_设置_]**选项卡中，根据需要：
 
-此选项卡中提供以下字段：
+![分类集 — 设置](assets/classification-sets-settings.png)
 
-* **[!UICONTROL 名称]**：分类集名称。
-* **[!UICONTROL 描述]**：分类集描述。
-* **[!UICONTROL 通知问题]**：通知此分类集问题的电子邮件地址的逗号分隔列表。
-* **[!UICONTROL 标记]**：将一个或多个标记添加到选定的分类集。标记使您能够梳理或分组分类集，以便将来更容易查找。
-* **[!UICONTROL 类型]**：[!UICONTROL 主要查找]与[!UICONTROL 查找]之间的分类类型。通常使用初级分类。创建分类集后，无法更改其类型。
-* **[!UICONTROL 订阅]**：此分类集适用于的报告包和维度组合。
+1. 编辑&#x200B;**[!UICONTROL 名称]**。
+1. 编辑&#x200B;**[!UICONTROL 描述（可选）]**。
+1. 在&#x200B;**[!UICONTROL 通知问题]**&#x200B;中编辑电子邮件地址列表（逗号分隔符）。 如果发生任何问题，这些用户会通过电子邮件收到通知。
+1. 将一个或多个&#x200B;**[!UICONTROL 标记（可选）]**&#x200B;添加到分类集。 从&#x200B;**[!UICONTROL 标记]**&#x200B;下拉菜单中选择现有标记，或输入新标记。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)删除标记。
+1. 编辑&#x200B;**[!UICONTROL 订阅]**。
+   * 您可以为分类集定义多个&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL Dimension]**&#x200B;组合。
+   * 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)以删除&#x200B;**[!UICONTROL 报表包]**&#x200B;和&#x200B;**[!UICONTROL 键Dimension]**&#x200B;组合。
+
+
+<!--
+
+Configure a classification set's settings.
+
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Settings]**
+
+![classification set settings](../../assets/classification-set-settings.png)
+
+The following fields are available in this tab:
+
+* **[!UICONTROL Name]**: The classification set name.
+* **[!UICONTROL Description]**: The description for the classification set.
+* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this classification set.
+* **[!UICONTROL Tags]**: Add one or more tags to the selected classification set. Tags allow you to organize or group classification sets so that it is easier to locate them in the future.
+* **[!UICONTROL Type]**: The type of classification between [!UICONTROL Primary] and [!UICONTROL Lookup]. Primary classifications are typically used. You cannot alter a classification set's type after it is created.
+* **[!UICONTROL Subscriptions]**: The report suite and dimension combinations that the classification set applies to.
+
+-->

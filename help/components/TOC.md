@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -264,16 +264,16 @@ ht-degree: 100%
    + 分类集 {#sets}
       + [概述](classifications/sets/overview.md)
       + [数据文件](classifications/sets/data-files.md)
-      + 管理分类集 {#manage}
-         + [分类集管理器](classifications/sets/manage/set-manager.md)
-         + [创建分类集](classifications/sets/manage/create.md)
-         + [分类集设置](classifications/sets/manage/settings.md)
-         + [分类集架构](classifications/sets/manage/schema.md)
-         + [分类集规则](classifications/sets/manage/rules.md)
-      + [分类集作业管理器](classifications/sets/job-manager.md)
-      + 分类集合并 {#consolidations}
-         + [合并管理器](classifications/sets/consolidations/manage.md)
-         + [合并流程](classifications/sets/consolidations/process.md)
+      + 分类集 {#manage}
+         + [管理](classifications/sets/manage/set-manager.md)
+         + [创建和编辑](classifications/sets/manage/create.md)
+         + [设置](classifications/sets/manage/settings.md)
+         + [架构](classifications/sets/manage/schema.md)
+         + [规则](classifications/sets/manage/rules.md)
+      + [分类作业](classifications/sets/job-manager.md)
+      + 分类合并 {#consolidations}
+         + [管理](classifications/sets/consolidations/manage.md)
+         + [创建和编辑](classifications/sets/consolidations/process.md)
    + 分类规则构建器（旧版）{#classifications-rulebuilder}
       + [概述](classifications/crb/classification-rule-builder.md)
       + [分类规则集](classifications/crb/classification-rule-set.md)
