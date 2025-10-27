@@ -47,7 +47,7 @@ ht-degree: 2%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 选择分类集的标题。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集标题_]**对话框中，您可以为分类集定义[设置](settings.md)和[架构](schema.md)。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集标题_]**&#x200B;对话框中，您可以为分类集定义[设置](settings.md)和[架构](schema.md)。
 1. 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
 
