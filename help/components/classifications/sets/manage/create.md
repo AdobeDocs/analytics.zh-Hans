@@ -3,10 +3,10 @@ title: 创建分类集
 description: 了解如何在创建分类集时提供字段和描述。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 2%
+source-wordcount: '442'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,10 @@ ht-degree: 2%
 
          * 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)以删除&#x200B;**[!UICONTROL 报表包]**&#x200B;和&#x200B;**[!UICONTROL 键Dimension]**&#x200B;组合。
 
-        如果添加的&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL 键Dimension]**&#x200B;组合已存在于另一个分类集中，则会在组合下看到红色警报。 您可以选择&#x200B;**[!UICONTROL 添加到现有]**&#x200B;以打开另一个分类集，并选择[将分类添加到该另一个分类集的架构](schema.md)，或更改维度。
+        如果添加的&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL 键Dimension]**组合已存在于另一个分类集中，则该组合下将显示一条红色消息。
+您可以：
+         * 选择&#x200B;**[!UICONTROL 添加到现有]**&#x200B;以打开另一个分类集并[将分类添加到该另一个分类集的架构](schema.md)。
+         * 将&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL 密钥Dimension]**&#x200B;更改为尚未订阅其他分类集的组合。
       * **[!UICONTROL 查找]**。 查找表通常称为子分类或子分类，它是主要分类的分类。 查找是关于分类值的元数据，而不是原始维度。 例如，*Product*&#x200B;维度可能具有&#x200B;*颜色代码*&#x200B;的主要分类。 然后可以将&#x200B;*颜色名称*&#x200B;的查找表附加到&#x200B;*颜色代码*&#x200B;以说明每个颜色代码。
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存分类集。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;以取消定义。
 1. 要定义分类集的架构，请从&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中选择新建的分类集以[编辑分类集](#edit-a-classification-set)。
@@ -46,8 +49,8 @@ ht-degree: 2%
 
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
-1. 选择分类集的标题。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集标题_]**&#x200B;对话框中，您可以为分类集定义[设置](settings.md)和[架构](schema.md)。
+1. 选择分类集的名称。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，您可以为分类集定义[设置](settings.md)和[架构](schema.md)。
 1. 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
 

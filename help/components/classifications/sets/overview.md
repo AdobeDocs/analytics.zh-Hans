@@ -3,9 +3,9 @@ title: 分类集概述
 description: 了解如何使用分类集管理分类数据。 了解分类集与旧版分类有何不同。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '800'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 ![旧分类](manage/assets/classifications-legacy.svg)
 
-在分类集中，您可以定义报表包的订阅和键维度组合。 例如，适用于多个报表包的产品目录分类，您只需将一次定义为分类集。 在该分类集中，您可以配置多个报表包和键维度组合以订阅该分类集。
+在分类集中，您可以定义报表包的订阅和键维度组合。 例如，一种产品目录分类，适用于多个报表包，并且基于产品(SKU)维度，您只需定义一次作为分类集。 在该分类集中，您可以配置多个报表包和键维度组合以订阅该分类集。
 
 ![分类集](manage/assets/classifications-sets.svg)
 
@@ -42,7 +42,7 @@ ht-degree: 11%
 分类集的工作流通常涉及以下步骤：
 
 1. 考虑要创建分类集的报表包和维度组合。 例如，定义您为任何要为其分类产品的报告包创建的产品分类集，其中包含更多详细信息。 例如，类别和颜色等详细信息。
-1. [创建一个分类集](/help/components/classifications/sets/manage/create.md)，该分类集包含用于标识产品的一个或多个报表包和维度组合的订阅。 例如：
+1. [创建一个分类集](/help/components/classifications/sets/manage/create.md)，该分类集包含用于标识产品的一个或多个报表包和键维度组合的订阅。 例如：
 
    | 报告包 | 关键维度 |
    |---|---|
@@ -77,13 +77,15 @@ ht-degree: 11%
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
+在分类数据文件中，使用&#x200B;**[!UICONTROL 引用每个报表包的键维度（例如：]**&#x200B;产品ID **[!UICONTROL 和]**&#x200B;产品SKU`Key`）。 您使用&#x200B;**[!UICONTROL 分类名称]**&#x200B;引用每个分类（例如`Category`或`Color`）。
+
 1. [将包含分类数据的文件上传](/help/components/classifications/sets/manage/schema.md#upload)到分类集架构中。
 
 1. [自动](/help/components/classifications/sets/manage/schema.md#automate)通过使用云位置对要显示在分类数据中的产品目录进行更新的过程。
 
 1. [下载](/help/components/classifications/sets/manage/schema.md#download)分类数据以验证内容。
 
-1. [检查作业历史记录](/help/components/classifications/sets/job-manager.md)以查看您的分类操作（导入、导出等）。
+1. [检查作业历史记录](/help/components/classifications/sets/job-manager.md)以查看分类操作的结果（上传、下载、模板等）。
 1. 如果由于从旧版分类功能迁移而产生了多个相似的分类集，请[合并](consolidations/manage.md)这些分类集。
 
 
@@ -94,7 +96,7 @@ ht-degree: 11%
 
 * 缩短处理时间（从72小时缩短到24小时）。
 * 重新设计了用于管理分类的用户界面。
-* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
+* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
 
 随分类集一起发布的后端架构还包含几项更改：
 

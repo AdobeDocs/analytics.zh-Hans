@@ -3,7 +3,7 @@ title: 管理分类集
 description: 在Adobe Analytics中管理分类集。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 | 列 | 描述 |
 |---|---|
-| **[!UICONTROL 分类集]** | 分类集的标题。 选择标题以[编辑分类集](create.md#edit-a-classification-set)。 |
+| **[!UICONTROL 分类集]** | 分类集的名称。 选择名称以[编辑分类集](create.md#edit-a-classification-set)。 |
 | **[!UICONTROL 订阅]** | 分类集应用的订阅数。 |
 | **[!UICONTROL 分类]** | 分类集包含的分类维度数。 |
 | **[!UICONTROL 自动]** | 分类集是否配置为自动从云位置导入数据？ 此自动化可以配置为[分类集架构](schema.md)的一部分。 |
@@ -65,10 +65,10 @@ ht-degree: 5%
 | 图标 | 操作 | 描述 |
 |---|---|---|
 | ![编辑](/help/assets/icons/Edit.svg) | **[!UICONTROL Edit]** | [在分类集生成器中编辑分类集](create.md#edit-a-classification-set)。 |
-| ![重命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重命名]** | 重命名分类集。<br/>在&#x200B;**[!UICONTROL 重命名：_分类集_]**&#x200B;对话框中，输入新名称并选择&#x200B;**[!UICONTROL 重命名]**。 |
+| ![重命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重命名]** | 重命名分类集。<br/>在&#x200B;**[!UICONTROL 重命名：_分类集_]**对话框中，输入新名称并选择&#x200B;**[!UICONTROL 重命名]**。 |
 | ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL 合并]** | [合并分类集](/help/components/classifications/sets/consolidations/manage.md)。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 删除]** | 删除分类集。<br/> **[!UICONTROL 删除&#x200B;_分类集_？]**&#x200B;对话框出现。 无法撤消删除分类集。 任何使用此分类集的计划项目或合并将继续使用此分类集的定义，直至您重新保存计划项目或重新验证计划合并。 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以删除分类集。 |
-| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 标记]** | 标记分类集。<br/>在&#x200B;**[!UICONTROL 标记：_分类集_]**&#x200B;对话框中，从&#x200B;**[!UICONTROL 标记]**&#x200B;下拉菜单中选择一个或多个标记以添加标记。 或者输入一个或多个新标记。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)删除标记。 <br/>选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存标记。 |
+| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 标记]** | 标记分类集。<br/>在&#x200B;**[!UICONTROL 标记：_分类集_]**对话框中，从&#x200B;**[!UICONTROL 标记]**下拉菜单中选择一个或多个标记以添加标记。 或者输入一个或多个新标记。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)删除标记。 <br/>选择&#x200B;**[!UICONTROL 保存]**以保存标记。 |
 
 
 ### 过滤器面板
