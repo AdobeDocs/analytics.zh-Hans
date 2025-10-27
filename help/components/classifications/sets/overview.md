@@ -96,7 +96,7 @@ ht-degree: 11%
 
 * 缩短处理时间（从72小时缩短到24小时）。
 * 重新设计了用于管理分类的用户界面。
-* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
+* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
 
 随分类集一起发布的后端架构还包含几项更改：
 
