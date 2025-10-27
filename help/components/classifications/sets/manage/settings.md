@@ -3,9 +3,9 @@ title: 分类集设置
 description: 了解如何创建或编辑分类集。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
@@ -16,10 +16,13 @@ ht-degree: 3%
 
 要编辑分类集的设置，请执行以下操作：
 
-1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要编辑其架构的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集： _分类集_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
 
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集_]**&#x200B;对话框中，根据需要：
+1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
+1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要编辑其架构的分类集。
+1. 在&#x200B;**[!UICONTROL 分类集： _分类集_]**对话框中，选择&#x200B;**[!UICONTROL 设置]**选项卡。
+
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集_]**对话框中，根据需要：
 
    ![分类集 — 设置](assets/classification-sets-settings.png)
 

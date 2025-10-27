@@ -3,9 +3,9 @@ title: 创建分类集
 description: 了解如何在创建分类集时提供字段和描述。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 ## 创建分类集
 
-要创建分类集，请在主界面中：
+要创建分类集，请执行以下操作：
 
-1. 在主界面中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
+1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 选择![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新建]**。
 1. 在&#x200B;**[!UICONTROL 添加新分类集]**&#x200B;对话框中：
@@ -42,12 +42,12 @@ ht-degree: 2%
 
 ## 编辑分类集
 
-要编辑分类集，请在主界面中：
+要编辑分类集，请执行以下操作：
 
-1. 在主界面中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
+1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 选择分类集的标题。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集标题_]**&#x200B;对话框中，您可以为分类集定义[设置](settings.md)和[架构](schema.md)。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集标题_]**对话框中，您可以为分类集定义[设置](settings.md)和[架构](schema.md)。
 1. 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
 
