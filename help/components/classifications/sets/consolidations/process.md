@@ -75,7 +75,7 @@ Drag the desired classification sets from the available column on the left to th
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择&#x200B;**[!UICONTROL 合并]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集合并]**&#x200B;管理器中：
-   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
+   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**&#x200B;对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
 
       | 可用操作 | 描述 |
       |---|---|
