@@ -5,9 +5,9 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
 source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -131,13 +131,13 @@ ht-degree: 94%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [集成模块](vars/integrate.md)
-+ 访客识别 {#id}
++ 访客识别  {#id}
    + [概述](id/overview.md)
-   + [使用Web SDK扩展](id/web-sdk-extension.md)
-   + [使用Web SDK(Alloy)](id/alloy.md)
-   + [使用Analytics扩展](id/analytics-extension.md)
-   + [使用AppMeasurement](id/appmeasurement.md)
-   + [迁移到访客ID服务](id/migration.md)
+   + [使用 Web SDK 扩展](id/web-sdk-extension.md)
+   + [使用 Web SDK（Alloy）](id/alloy.md)
+   + [使用 Analytics 扩展](id/analytics-extension.md)
+   + [使用 AppMeasurement](id/appmeasurement.md)
+   + [迁移到访客 ID 服务](id/migration.md)
    + [跨实施类型跟踪](id/cross-type-implementation.md)
 + 准备实施 Adobe Analytics {#prepare}
    + [创建数据层](prepare/data-layer.md)
