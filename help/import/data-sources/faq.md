@@ -4,10 +4,10 @@ description: 有关数据源的常见问题解答。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 否。通过数据源上传的数据：
 
 * 未通过[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
-* 不遵循[营销渠道处理规则](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+* 不遵循[营销渠道处理规则](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
 * 不遵循[VISTA规则](/help/technotes/vista.md)
 +++
 
@@ -39,8 +39,8 @@ ht-degree: 7%
 是的。您可以使用[数据修复API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)删除此数据。 Adobe强烈建议先将数据源数据上传到测试报表包，然后再上传到生产报表包，以缓解删除数据的需要。
 +++
 
-+++一次可以导入多少数据？
-如果数据总量超过 50 MB，处理便会暂停，并且直到数据总量低于 50 MB 时才会恢复。请确保FTP站点上所有文件的总大小小于50 MB。
++++一次可导入多少数据？
+如果大小超过50 MB，处理将暂停，直到总计低于50 MB才会恢复。 请确保FTP站点上所有文件的总大小小于50 MB。
 +++
 
 +++如果我通过数据源将负值传递到报表，会发生什么情况？
