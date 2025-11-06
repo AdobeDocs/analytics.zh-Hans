@@ -3,10 +3,10 @@ title: Adobe Analytics 中的 VISTA 规则
 description: 详细了解 VISTA 规则及其功能。
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 81%
+source-wordcount: '354'
+ht-degree: 57%
 
 ---
 
@@ -26,7 +26,13 @@ VISTA 规则的许多用例已由[处理规则](/help/admin/tools/manage-rs/edit
 
 >[!IMPORTANT]
 >
->VISTA 规则要求您的组织与 Adobe Professional Services 之间签订付费协议。如果要创建或更新VISTA规则，请联系您的Adobe客户团队。
+>VISTA规则实施和配置需要贵组织与Adobe Professional Services之间签订付费协议。 如果要创建或更新VISTA规则，请联系您的Adobe客户团队。
+>
+>请注意：
+>
+>* VISTA规则创建仅包括初始实施。 持续维护或VISTA规则更新需要单独的付费参与。
+>
+>* VISTA规则取决于数据中的特定条件。 例如，更改Adobe Analytics实施、收集的数据类型或字符串长度、更改用于DB VISTA的表或对输入数据模式进行其他更改可能会导致VISTA规则停止按预期运行。 Adobe建议定期审查VISTA规则，以确定是否需要更新或删除。
 
 ## 创建 VISTA 规则 {#create}
 
