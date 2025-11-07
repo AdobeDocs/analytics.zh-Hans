@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
+source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: '3690'
 ht-degree: 58%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 58%
 >
 >大多数列中包含一个以 `post_` 为前缀的相似列。post 列包含应用服务器端逻辑、处理规则和 VISTA 规则后得出的值。大多数情况下，Adobe 建议使用 post_ 列。有关更多信息，请参阅[数据馈送常见问题解答](../df-faq.md)。
 
-可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.zh-Hans/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到此表之前的更新内容。
+可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到此表之前的更新内容。
 
 | 列名称 | 列说明 | 数据类型 |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ ht-degree: 58%
 | **`purchaseid`** | 某次购买的唯一标识符，使用 [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 变量设置它。供 `duplicate_purchase` 列使用。 | char(20) |
 | **`quarterly_visitor`** | 确定点击是否为新的每季度访客的标记。 | 无符号 tinyint |
 | **`ref_domain`** | [反向链接域](/help/components/dimensions/referring-domain.md)维度。 基于`referrer`列。 | varchar(100) |
-| **`ref_type`** | 表示点击的反向链接类型的数值ID。 在[反向链接类型](/help/components/dimensions/referrer-type.md)维度中使用。 <ul><li>网站内部</li><li>其他网站</li> <li>搜索引擎</li> <li> 对话式人工智能工具</li><li>硬盘</li> <li>USENET</li> <li>已输入/添加书签（无反向链接）</li> <li>电子邮件</li> <li>无JavaScript</li> <li>社交网站</li></ul> | 无符号 tinyint |
+| **`ref_type`** | 表示点击的反向链接类型的数值ID。 在[反向链接类型](/help/components/dimensions/referrer-type.md)维度中使用。 <p>1：网站内部</p><p>2：其他网站</p> <p>3：搜索引擎</p> <p>4：硬盘</p> <p>5：USENET</p> <p>6：已输入/添加书签（无反向链接）</p> <p>7：电子邮件</p> <p>8：无JavaScript</p> <p>9：社交网络</p><p>10：对话式人工智能工具</p> | 无符号 tinyint |
 | **`referrer`** | [反向链接](/help/components/dimensions/referrer.md)维度。 请注意，在 `referrer` 使用数据类型 varchar(255) 时，`post_referrer` 使用数据类型 varchar(244)。 | varchar(255) |
 | **`resolution`** | 表示监视器分辨率的数值ID。 在[显示器分辨率](/help/components/dimensions/monitor-resolution.md)维度中用到。使用 `resolution.tsv` 查询表。 | 无符号 smallint |
 | **`s_kwcid`** | Adobe Advertising 集成中使用的关键词 ID。 | varchar(255) |
