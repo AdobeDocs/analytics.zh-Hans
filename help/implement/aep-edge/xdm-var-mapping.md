@@ -23,7 +23,7 @@ ht-degree: 48%
 
 ## XDM对象字段映射
 
-可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到此表之前的更新内容。
+可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.zh-Hans/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到此表之前的更新内容。
 
 | XDM 字段路径 | Analytics变量和描述 |
 | --- | --- |

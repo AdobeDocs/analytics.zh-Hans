@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 数据对象字段映射
 
-以前对此表的更新可以在GitHub[上此页面的](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)提交历史记录中找到。 与AppMeasurement变量类似，所有数据对象字段都区分大小写。
+以前对此表的更新可以在GitHub[上此页面的](https://github.com/AdobeDocs/analytics.zh-Hans/commits/main/help/implement/aep-edge/data-var-mapping.md)提交历史记录中找到。 与AppMeasurement变量类似，所有数据对象字段都区分大小写。
 
 | 数据对象字段路径 | Analytics变量和描述 |
 | --- | --- |
