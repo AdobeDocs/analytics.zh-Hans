@@ -5,7 +5,7 @@ title: 可视化概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 88%
@@ -22,7 +22,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 
 
 | 图标 | 名称 | 描述 |
-| :---: | --- | ---| 
+| :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [面积图](/help/analyze/analysis-workspace/visualizations/area.md) | 面积图可视化。与线形图相似，但线条下有彩色区域。当您有多个量度并且希望显示两个或更多量度相交的区域时，可以使用面积图。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [条形图](/help/analyze/analysis-workspace/visualizations/bar.md) | 一种条形图可视化，其中垂直条表示一个或多个量度的不同值。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [堆积条形图](/help/analyze/analysis-workspace/visualizations/bar.md) | 一种堆积条形图可视化，其中垂直条表示一个或多个量度的不同值。 |
@@ -42,7 +42,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 散点图可视化图表显示维度项与最多三个量度之间的关系。 |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [部分标头](section-header.md) | 识别并阐述面板中的各个部分。 |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要变化可视化将所选单元格之间的变化显示为一个大的数字或百分比。 |
-| ![&#x200B; 123](/help/assets/icons/123.svg)</p> | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要数字可视化将选定的单元格显示为一个大的数字。 |
+| ![ 123](/help/assets/icons/123.svg)</p> | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要数字可视化将选定的单元格显示为一个大的数字。 |
 | ![Text](/help/assets/icons/Text.svg) | [文本](/help/analyze/analysis-workspace/visualizations/text.md) | 文本可视化功能允许您将用户定义的文本添加到工作区。在利用面板/可视化图表描述之外，对于向您的分析和洞察添加额外的上下文非常有用 |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [树状图](/help/analyze/analysis-workspace/visualizations/treemap.md)<p> | 树状图可视化将层次化（树状结构）数据显示为一组嵌套的矩形。 |
 | ![Type](/help/assets/icons/TwoDots.svg) | [维恩图](/help/analyze/analysis-workspace/visualizations/venn.md) | 可视化维恩图使用圆圈来描绘最多 3 个区段的量度重叠。 |
@@ -116,7 +116,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 
 要编辑图例标签，请执行以下操作：
 
-1. 右键单击某个图例标签。
+1. 右键单击其中一个图例标签。
 1. 单击&#x200B;**[!UICONTROL 编辑标签]**。
 
    ![图例标签和编辑标签选项。](assets/edit-label.png)
@@ -263,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/41450/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->

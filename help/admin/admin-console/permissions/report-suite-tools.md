@@ -4,10 +4,10 @@ description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 1dba07de2836699ceaad31b4bd3149c169c51211
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 | 报表包工具权限项 | 描述 |
 |------|------|
 | [!UICONTROL 帐户摘要] | 授予对报告包管理器中“常规”>“一般帐户设置”的访问权限。 |
-| [!UICONTROL Advertising Analytics配置] | 允许用户将报表包配置为可以使用 Advertising Analytics。 |
+| [!UICONTROL Advertising Analytics配置] | 允许用户配置要为Advertising Analytics配置的报表包。 |
 | [!UICONTROL 异常检测] | 授予对 Analysis Workspace 中“异常检测”的访问权限。 |
 | [!UICONTROL 机器人页面] | 不使用 |
 | [!UICONTROL 机器人] | 不使用 |

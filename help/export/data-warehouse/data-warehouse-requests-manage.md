@@ -4,7 +4,7 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 4%
@@ -90,7 +90,7 @@ ht-degree: 4%
    | [!UICONTROL **完成日期**] | 报表完成的日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **日期已更新**] | 上次更新报告的日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **状态**] | 报告投放的状态。 可能的状态是：<ul><li>[!UICONTROL **已创建**]：报告已创建，但尚未处理。</li><li>[!UICONTROL **挂起**]：报表正在等待处理。</li><li>[!UICONTROL **正在处理**]：报表当前正在处理。</li><li>[!UICONTROL **已完成**]：报告已完成，现在可用。</li><li>[!UICONTROL **已计划**]：报告已计划，但尚未启动。</li><li>[!UICONTROL **已取消**]：用户已取消报告。</li><li>[!UICONTROL **错误 — 正在处理**：]报告遇到错误，无法处理。</li><li>[!UICONTROL **错误 — 无法发送**]：报告生成成功，但无法传送。 检查目标[的](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)配置，然后重新发送报告。</li></ul>。 |
-   | [!UICONTROL **从**] | 报表中包含的整体时间范围的开始日期。<p>它以报表包的时区显示。</p> |
+   | [!UICONTROL **来自**] | 报表中包含的整体时间范围的开始日期。<p>它以报表包的时区显示。</p> |
    | [!UICONTROL **至**] | 报告中包含的整体时间范围的结束日期。 <p>它以报表包的时区显示。</p> |
    | [!UICONTROL **旧请求ID**] | 用于在旧版Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |
    | [!UICONTROL **报告ID**] | 用于在当前Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |

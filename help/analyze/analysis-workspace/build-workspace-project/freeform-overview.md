@@ -5,7 +5,7 @@ title: 项目概述
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 91%
@@ -49,7 +49,7 @@ ht-degree: 91%
 项目列表 ➋ 显示您拥有的所有项目，以及与您共享的所有项目。该列表具有以下各列：
 
 | 列 | 描述 |
-| --- | --- | 
+| --- | --- |
 | ![SelectBox](/help/assets/icons/SelectBox.svg) | 当选择一个或多个项目时，项目界面底部会出现一个蓝色的操作栏。有关更多详细信息，请参阅[操作](#actions)。 |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 选择以加入收藏 ![Star](/help/assets/icons/Star.svg) 或取消收藏 ![StarOutline](/help/assets/icons/StarOutline.svg) 一个项目。 |
 | **[!UICONTROL 标题和描述]** | 要编辑项目，请选择标题链接，这会打开[工作区项目](/help/analyze/analysis-workspace/home.md)。与您共享的项目会以 ![分享](/help/assets/icons/ShareAlt.svg) 标示。选择 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 以显示一个弹出菜单，其中包含有关该项目的更多详细信息。选择![更多](/help/assets/icons/More.svg)以打开带有操作选项的上下文菜单。有关更多详细信息，请参阅[操作](#actions)。 |
@@ -83,7 +83,7 @@ ht-degree: 91%
 | ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *已选择]** | 取消选择您选择的项目和文件夹，并移除蓝色操作栏。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 删除]** | 删除一个或多个项目或文件夹。系统将提示您确认。 <p>您要删除的项目：</p><ul><li>无法恢复</li><li>从项目列表中移除</li><li>无法再通过其 URL 访问</li><li>不再包含在计划交付中（如果之前已配置为计划交付）<br/>有关计划交付的信息，请参阅 [计划项目](/help/components/scheduled-projects-manager.md)。  </p> |
 | ![Share](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共享]** | 共享项目。请参阅[共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)，以了解更多信息。 |
-| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重命名]** | 重命名项目。打开&#x200B;**[!UICONTROL 重命名：*项目名称对话框&#x200B;*]**。输入新名称并选择&#x200B;**[!UICONTROL 保存&#x200B;]**。 |
+| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重命名]** | 重命名项目。打开&#x200B;**[!UICONTROL 重命名：*项目名称对话框&#x200B;*]**。输入新名称并选择**[!UICONTROL 保存&#x200B;]**。 |
 | ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 复制]** | 复制一个或多个项目。相关会获得相同的名称和后缀 `(Copy)`。 |
 | ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL 固定]**&#x200B;或者&#x200B;**[!UICONTROL 取消固定]** | 固定或取消固定一个或多个项目或文件夹。固定的项目和文件夹会在列表顶部显示，并忽略您指定的排序顺序。 |
 | ![ArrowUp](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL 上移]** | 将固定的项目或文件夹在项目列表中上移。 |
@@ -100,7 +100,7 @@ ht-degree: 91%
 
 您可以使用&#x200B;**[!UICONTROL 显示]**&#x200B;选择器 ➌ 来切换项目界面的外观。**[!UICONTROL 显示]**&#x200B;选择器定义了[标题区域](#title-area)中可用的选项，以及[项目列表](#project-list)中显示的列。
 
-* 要更改[标题区域](#title-area)可用的选项，请选择&#x200B;**[!UICONTROL 显示]**&#x200B;**[!UICONTROL 所有项目]**&#x200B;或&#x200B;**[!UICONTROL 显示]**&#x200B;**[!UICONTROL 文件夹和项目]**。
+* 要更改[标题区域](#title-area)可用的选项，请选择&#x200B;**[!UICONTROL 显示]****[!UICONTROL 所有项目]**&#x200B;或&#x200B;**[!UICONTROL 显示]****[!UICONTROL 文件夹和项目]**。
 
 * 要定义在[项目列表](#project-list)中显示哪些列，请选择 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)，然后从&#x200B;**[!UICONTROL 自定义表格]**&#x200B;对话框中选择或取消选择列。选择&#x200B;**[!UICONTROL 应用]**&#x200B;以应用自定义设置。有关列的更多详细信息，请参阅[项目列表](#project-list)。
 
@@ -172,7 +172,7 @@ Here is a video on how to build a Workspace project:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/3415636?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -188,8 +188,8 @@ The Projects page contains the following information:
 | [Edit preferences](/help/analyze/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
 | [Create folder](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
 | [Create project](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch or from a report.  |
-|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
-| ![Show filters](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | To show or hide filters. You can filter on tags, report suite, owners, type (project, folder, mobile scorecard), and other filters. | 
+|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
+| ![Show filters](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | To show or hide filters. You can filter on tags, report suite, owners, type (project, folder, mobile scorecard), and other filters. |
 | ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Use the search field to search for folders, Workspace projects or mobile scorecards. |
 | Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 |  ![Customize table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | This icon allows you to customize the columns you see for each project in the projects list.  |
@@ -198,7 +198,7 @@ The list of projects can display the following columns:
 
 |  Column  | Description  |
 |---|---|
-| [!UICONTROL Name]  | Name of the Workspace project. Select ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) to show a popup with more details on a project or folder. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) to show actions available. See [Manage projects](#manage-projects) for more details.  | 
+| [!UICONTROL Name]  | Name of the Workspace project. Select ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) to show a popup with more details on a project or folder. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) to show actions available. See [Manage projects](#manage-projects) for more details.  |
 | [!UICONTROL Type] | Indicates whether this entry is a Workspace project, a folder, or a [Mobile scorecard](/help/analyze/mobile-app/home.md). |
 | [!UICONTROL Tags]  |Tags that were applied to the project.  |
 | [!UICONTROL Scheduled] | Indicates whether projects are scheduled to be emailed to recipients. See [Schedule projects](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
@@ -209,7 +209,7 @@ The list of projects can display the following columns:
 | [!UICONTROL Shared with]  | Users that the project has been shared with.  |
 | [!UICONTROL Last Modified]  | Date and time when the project was last modified.  |
 | [!UICONTROL Last Opened]  | Date and time when the project was last opened.  |
-| [!UICONTROL Last Used] | Date and time when the project was last used. | 
+| [!UICONTROL Last Used] | Date and time when the project was last used. |
 | [!UICONTROL Project ID]  | The ID of the project.  |
 | [!UICONTROL Longest Date Range]  | The longest date range of the project.  |
 | [!UICONTROL Number of Queries]  | The total number of queries contained in the project.  |
@@ -221,7 +221,7 @@ To manage projects, select one or more projects from the project list.
 
 From the blue action bar, you can select the following actions:
 
-| Action | Description | 
+| Action | Description |
 |---|---|
 | ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) Delete | When selected, a confirmation dialog prompts you to confirm the deletion of a Workspace project or Mobile scorecard. Select **[!UICONTROL OK]** to confirm. |
 | ![Share](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) Share | This action allows you to share your project. See [Share projects](../curate-share/share-projects.md).|
@@ -231,7 +231,7 @@ From the blue action bar, you can select the following actions:
 | ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) Tag | Opens up the **[!UICONTROL Tag Project]** dialog. You can select an existing tag or add new tags. Select **[!UICONTROL Save]** to save the tags for the project. |
 | ![(Un-)Approve](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) Approve or Unapprove |  Approves or unapproves the project.  |
 | ![Export CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) Export CSV | Immediately downloads a file containing a comma-separated value list of the projects. |
-| ![Move to](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Move to | This action allows you to move the project to a folder. In the **[!UICONTROL Select Folder]** dialog, select a folder from the **[!UICONTROL Folder]** list, and select **[!UICONTROL Move]**. | 
+| ![Move to](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Move to | This action allows you to move the project to a folder. In the **[!UICONTROL Select Folder]** dialog, select a folder from the **[!UICONTROL Folder]** list, and select **[!UICONTROL Move]**. |
 
 
 ## Menu bar {#menu-bar}
@@ -309,7 +309,7 @@ Here is a video on using the right-click menu in Analysis Workspace:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/327459?quality=12&learn=on&captions=chi_hans){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

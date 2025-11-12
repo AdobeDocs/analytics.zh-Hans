@@ -4,10 +4,10 @@ description: 了解如何在Analysis Workspace中管理日期范围。
 feature: Date Ranges
 role: User
 exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 30%
 日期范围列表➊显示所有日期范围。 该列表具有以下各列：
 
 | 列 | 描述 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 选择支持![星型](/help/assets/icons/Star.svg)或取消支持![星型大纲](/help/assets/icons/StarOutline.svg)日期范围。 |
 | **[!UICONTROL 标题和描述]** | 要编辑标题和描述，请选择标题链接，这将打开[日期范围生成器](create.md#date-range-builder)。 |
 | **[!UICONTROL 所有者]** | 日期范围的所有者。 |

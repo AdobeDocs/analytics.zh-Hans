@@ -4,10 +4,10 @@ title: 标记示例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 假设您具有以下点击数据：
 
 * 第一行包含适用于每个变量的标签。
-* 第二行是变量的名称。如果它有一个 ID 标签，它将包含括号中分配的命名空间。
+* 第二行是变量的名称。如果它具有ID标签，则在括号中包含分配的命名空间。
 * 而第三行是点击数据；
 
 | 标签 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
 | **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **访客 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
-| 点击数据 | Mary | 77 | A | M | X |
-| | Mary | 88 | B | N | Y |
-| | Mary | 99 | C | O | Z |
+| 点击数据 | 玛丽 | 77 | A | M | X |
+| | 玛丽 | 88 | B | N | Y |
+| | 玛丽 | 99 | C | O | Z |
 | | John | 77 | D | P | W |
 | | John | 88 | E | N | U |
 | | John | 44 | F | Q | V |
@@ -42,12 +42,13 @@ ht-degree: 100%
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API 值</th>
-    <th rowspan="2">返回的摘要<br/>文件类型<br/></th>
+    <th>返回的摘要<br/>文件类型<br/></th>
     <th colspan="5" style="text-align:center">摘要访问文件中的数据</th>
   </tr>
   <tr>
     <th>命名空间/ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>访客 ID</th>
     <th>MyEvar1</th>
@@ -57,88 +58,88 @@ ht-degree: 100%
   <tr>
     <td> AAID=77</td>
     <td>false</td>
-    <td>“设备”</td>
+    <td>设备</td>
     <td>不存在</td>
     <td>77</td>
     <td>不存在</td>
-    <td>M、P</td>
-    <td>X、W</td>
+    <td>M， P</td>
+    <td>X， W</td>
   </tr>
   <tr>
     <td> AAID=77</td>
     <td>true</td>
-    <td>“设备”</td>
+    <td>设备</td>
     <td>不存在</td>
     <td>77</td>
     <td>不存在</td>
-    <td>M、P</td>
-    <td>X、W</td>
+    <td>M， P</td>
+    <td>X， W</td>
   </tr>
   <tr>
     <td>user=Mary</td>
     <td>false</td>
-    <td>“人员”</td>
-    <td>Mary</td>
-    <td>77、88、99</td>
+    <td>人员</td>
+    <td>玛丽</td>
+    <td>77， 88， 99</td>
     <td>A、B、C</td>
-    <td>M、N、O</td>
-    <td>X、Y、Z</td>
+    <td>M， N， O</td>
+    <td>X， Y， Z</td>
   </tr>
   <tr>
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
-    <td>“人员”</td>
-    <td>Mary</td>
-    <td>77、88、99</td>
+    <td>人员</td>
+    <td>玛丽</td>
+    <td>77， 88， 99</td>
     <td>A、B、C</td>
-    <td>M、N、O</td>
-    <td>X、Y、Z</td>
+    <td>M， N， O</td>
+    <td>X， Y， Z</td>
   </tr>
   <tr>
-    <td>“设备”</td>
+    <td>设备</td>
     <td>不存在</td>
-    <td>77、88</td>
+    <td>77， 88</td>
     <td>A、B、C</td>
-    <td>N、P</td>
-    <td>U、W</td>
+    <td>N， P</td>
+    <td>U， W</td>
   </tr>
   <tr>
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
-    <td>“人员”</td>
-    <td>Mary</td>
-    <td>77、88、99</td>
+    <td>人员</td>
+    <td>玛丽</td>
+    <td>77， 88， 99</td>
     <td>A、B、C</td>
-    <td>M、N、O</td>
-    <td>X、Y、Z</td>
+    <td>M， N， O</td>
+    <td>X， Y， Z</td>
   </tr>
   <tr>
-    <td>“设备”</td>
+    <td>设备</td>
     <td>不存在</td>
-    <td>66、77、88</td>
+    <td>66， 77， 88</td>
     <td>A、B、C</td>
-    <td>N、P</td>
-    <td>U、W、Z</td>
+    <td>N， P</td>
+    <td>U， W， Z</td>
   </tr>
   <tr>
     <td>xyz=X</td>
     <td>false</td>
-    <td>“设备”</td>
+    <td>设备</td>
     <td>不存在</td>
-    <td>55、77</td>
+    <td>55， 77</td>
     <td>不存在</td>
-    <td>M、R</td>
+    <td>M， R</td>
     <td>X</td>
   </tr>
   <tr>
     <td>xyz=X</td>
     <td>true</td>
-    <td>“设备”</td>
+    <td>设备</td>
     <td>不存在</td>
-    <td>55、77</td>
+    <td>55， 77</td>
     <td>不存在</td>
     <td>M、P、R</td>
-    <td>W、X</td>
+    <td>W， X</td>
   </tr>
 </table>
 
@@ -160,21 +161,21 @@ ht-degree: 100%
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>玛丽</td>
     <td>42</td>
     <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>玛丽</td>
     <td>88</td>
     <td>B</td>
     <td>N</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>玛丽</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>

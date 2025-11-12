@@ -1,5 +1,5 @@
 ---
-source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '2999'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >2024年10月16日发布了新的、简化的[Report Builder](/help/analyze/report-builder/rb-overview.md)。 它在Mac、Windows和Web浏览器上受支持。
->&#x200B;>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
+>此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
 
-## Reports & Analytics 生命周期结束公告 {#ra-eol}
+## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ ht-degree: 87%
 
 回顾窗口是指转化应回顾以包含接触点所花费的时间。如果一个维度项设置在回顾窗口之外，该值就不包含在任何归因计算中。
 
-* **[!UICONTROL 报告窗口]**：从转换发生时开始回顾到报告窗口的开头。
+* **[!UICONTROL 报告窗口]**：从转化发生开始回顾到报告窗口的开始。
 * **14 天**：自转化发生后最多回顾 14 天。
 * **30 天**：自转化发生后最多回顾 30 天。
 * **60 天**：自转化发生后最多回顾 60 天。

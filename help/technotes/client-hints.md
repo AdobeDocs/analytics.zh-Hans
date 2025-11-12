@@ -4,10 +4,10 @@ description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -64,14 +64,14 @@ Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您
 下表对截至 2022 年 10 月的客户提示进行了说明。
 
 | 提示 | 描述 | 高熵或低熵 | 示例 |
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | Sec-CH-UA | 浏览器和重要版本 | 低 | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | 移动设备类型（true 或 false） | 低 | `true` |
 | Sec-CH-UA-Platform | 操作系统/平台 | 低 | `"Android"` |
 | 体系结构 | 网站架构 | 高 | `"arm"` |
 | 位数 | 架构位 | 高 | `"64"` |
 | fullVersionList | 品牌及其版本的列表 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| model | 设备型号 | 高 | `"Pixel 3"` |
+| 模型 | 设备型号 | 高 | `"Pixel 3"` |
 | 平台版本 | 操作系统/平台版本 | 高 | `"10"` |
 
 * 通过请求头收集底熵提示。

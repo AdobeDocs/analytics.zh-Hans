@@ -4,10 +4,10 @@ title: 配置流量可视化
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1685'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -130,13 +130,13 @@ ht-degree: 88%
 
 ## 配置
 
-流量配置的摘要显示在可视化图表的顶部。图表中的路径按比例显示。活动越多，路径越粗。
+流量配置的摘要显示在可视化图表的顶部。图中的路径是成比例的。 活动量较大的路径看起来较粗。
 
 ![显示访问结束、路径维度的流量输出示例：页面和流量容器：访客。](assets/flow-output.png)
 
 要进一步深入了解数据，您有几个选项：
 
-* 流量图是交互式图表。将光标置于该图上可更改显示的详细信息。
+* 流程图是交互式的。 将光标置于该图上可更改显示的详细信息。
 
 * 在图中选择节点时，将显示该节点的详细信息。 再次选择该节点以将其折叠。
 
@@ -167,7 +167,7 @@ ht-degree: 88%
 
 | 选项 | 描述 |
 |--- |--- |
-| **[!UICONTROL 关注此节点]** | 转而关注选定的节点。关注节点在流量图表的中间显示。 |
+| **[!UICONTROL 关注此节点]** | 将焦点更改为选定的节点。 焦点节点出现在流程图的中心。 |
 | **[!UICONTROL 从头开始]** | 返回到自由格式图表生成器，您可从中生成新的流量图表。 |
 | **[!UICONTROL 为该路径创建过滤器]** | 创建过滤器。此选择会带您转至过滤器生成器，您可从中配置新过滤器。 |
 | **[!UICONTROL 细分]** | 按可用维度、量度或时间划分节点。 |
@@ -175,8 +175,8 @@ ht-degree: 88%
 | **[!UICONTROL 排除项]**&#x200B;或&#x200B;**[!UICONTROL 还原排除项]** | 从列中删除特定节点，并将其自动创建为列顶部的过滤器。要还原排除项，请从上下文菜单中选择&#x200B;**[!UICONTROL 还原排除项]**。您也可以打开列顶部的过滤器，移除带有您刚刚排除的项目的 Pillbox。 |
 | **[!UICONTROL 趋势]** | 为节点创建趋势图表。 |
 | **[!UICONTROL 显示下一列]**/**[!UICONTROL 显示上一列]** | 显示可视化图表的下一列（右）或上一列（左）。 |
-| **[!UICONTROL 隐藏列]**&#x200B;n | 在可视化图表中隐藏选定的列。 |
-| **[!UICONTROL 扩展整列]** | 扩展某一列以显示全部节点。默认情况下，只会显示头五个节点。 |
+| **[!UICONTROL 隐藏列]**n | 在可视化图表中隐藏选定的列。 |
+| **[!UICONTROL 扩展整列]** | 展开列以显示所有节点。 默认情况下，仅显示前五个节点。 |
 | **[!UICONTROL 从选择创建受众]** | 根据所选的列创建受众。 |
 | **[!UICONTROL 折叠整列]** | 隐藏某一列中的所有节点。 |
 
@@ -185,15 +185,15 @@ ht-degree: 88%
 使用此选项时，请记住：
 
 * **[!UICONTROL 限制到第一次/最后一次发生次数]**&#x200B;仅统计序列中的第一次/最后一次发生次数。所有其他满足&#x200B;**[!UICONTROL 开始于]**&#x200B;或&#x200B;**[!UICONTROL 结束于]**&#x200B;标准的发生次数均会被弃用。
-* 如果与&#x200B;**[!UICONTROL 开始于]**&#x200B;流量一起使用，则只包括与开始标准匹配的第一次发生次数。在下面的示例中，包含流量每个步骤中&#x200B;*添加到购物车*&#x200B;和&#x200B;*产品主要类别*&#x200B;的&#x200B;**所有**&#x200B;发生次数。
+* 如果与&#x200B;**[!UICONTROL 开始于]**&#x200B;流量一起使用，则只包括与开始标准匹配的第一次发生次数。在下面的示例中，包含流量每个步骤中&#x200B;*添加到购物车*&#x200B;和&#x200B;*产品主要类别*&#x200B;的&#x200B;**所有**发生次数。
   ![没有限制，第一次](assets/limitofffirst.png)
 
-  在下面的示例中，仅包含流量每个步骤中&#x200B;*添加到购物车*&#x200B;和&#x200B;*产品主要类别*&#x200B;的&#x200B;**第一次**&#x200B;发生次数。
+  在下面的示例中，仅包含流量每个步骤中&#x200B;*添加到购物车*&#x200B;和&#x200B;*产品主要类别*&#x200B;的&#x200B;**第一次**发生次数。
   ![限制，开始](assets/limitonfirst.png)
-* 如果与&#x200B;**[!UICONTROL 结束于]**&#x200B;流量一起使用，则仅包含与结束标准匹配的最后一次发生次数。在下面的示例中，包含流量每个步骤中&#x200B;*产品主要类别*&#x200B;和&#x200B;*添加到购物车*&#x200B;的&#x200B;**所有**&#x200B;发生次数。
+* 如果与&#x200B;**[!UICONTROL 结束于]**&#x200B;流量一起使用，则仅包含与结束标准匹配的最后一次发生次数。在下面的示例中，包含流量每个步骤中&#x200B;*产品主要类别*&#x200B;和&#x200B;*添加到购物车*&#x200B;的&#x200B;**所有**发生次数。
   ![没有限制，第一次](assets/limitofflast.png)
 
-  在下面的示例中，仅包含流量每个步骤中&#x200B;*产品主要类别*&#x200B;和&#x200B;*添加到购物车*&#x200B;的&#x200B;**最后一次**&#x200B;发生次数。
+  在下面的示例中，仅包含流量每个步骤中&#x200B;*产品主要类别*&#x200B;和&#x200B;*添加到购物车*&#x200B;的&#x200B;**最后一次**发生次数。
   ![限制，开始](assets/limitonlast.png)
 * 使用的系列因容器而异。如果使用&#x200B;**[!UICONTROL 访客]**&#x200B;容器，则一系列事件就是访问。 如果使用&#x200B;**[!UICONTROL 访客]**&#x200B;容器，则事件系列是给定用户在提供的日期范围内的所有点击。
 * 在&#x200B;**[!UICONTROL 开始于]**&#x200B;或&#x200B;**[!UICONTROL 结束于]**&#x200B;字段中使用量度或维度项时，可以在高级设置中配置&#x200B;**[!UICONTROL 限制到第一次/最后一次发生次数]**&#x200B;的选项。
@@ -202,8 +202,8 @@ ht-degree: 88%
 >[!MORELIKETHIS]
 >
 >[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
@@ -310,7 +310,7 @@ Above each column, a filter appears when you hover over it. By selecting the fil
 | [!UICONTROL Breakdown] | Break the node down by available Dimensions, Metrics, or Time. |
 | [!UICONTROL Trend] | Create a trended diagram for the node. |
 | Show next column / Show previous column | Reveals the next (right) or previous (left) column of the visualization. |
-| Hide column | Hides the selected column from the visualization. | 
+| Hide column | Hides the selected column from the visualization. |
 | [!UICONTROL Expand entire column] | Expand a column to show all nodes. By default, only the top five nodes display. |
 
 ## Example scenario for 'limit to first/last occurrence'

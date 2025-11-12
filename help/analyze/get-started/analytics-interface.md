@@ -3,10 +3,10 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1973'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 指的是用于存储和自定义报表的 Analytics 数据副本，您可以通过筛选数据来运行这些数据 <p>请求管理器允许您查看和复制请求，并重新安排请求的优先级。</p> | [管理 Data Warehouse 请求](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map 专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。 | [Activity Map 概述](/help/analyze/activity-map/overview.md) |
-   | 经典版推荐 | 推荐是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [推荐](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hans) |
+   | 经典版推荐 | 推荐是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [推荐](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 不再支持此功能。 |  |
    | Mobile Services | 不再支持此功能。 |  |
    | Analytics 功能板（移动应用程序） | Adobe Analytics 功能板应用程序可以随时随地从 Adobe Analytics 提供见解。通过此应用程序，用户可以查看您使用 Adobe Analytics 桌面 UI 创建的直观记分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 功能板应用程序 |
@@ -106,12 +106,12 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 分类规则生成器 | 您无需在每次跟踪代码变更时维护并上载分类，而是可以创建自动、基于规则的分类并将这些分类应用在多个报告包中。 | [分类规则生成器工作流](/help/components/classifications/crb/classification-rule-builder.md) |
    | 数据源 | 可使用数据源管理器创建、编辑或停用数据源。您还可以使用此界面跟踪上传到数据源 FTP 位置的文件的状态。 | [管理数据源](/help/import/data-sources/manage.md) |
    | 代码管理器 | 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码 | [代码管理器](/help/admin/tools/code-manager-admin.md) |
-   | 流量管理 | 使用“流量管理”页面可以指定预期流量的变更。这些设置可让 Adobe 分配适当的资源，确保能够及时跟踪和处理您的流量。 | [流量管理概述](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
+   | 流量管理 | “流量管理”页面允许您指定预期的流量更改。 这些设置允许Adobe分配适当的资源，以确保及时跟踪和处理您的流量。 | [流量管理概述](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
    | 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。提供了“服务器调用使用情况”功能板，来跟踪服务器调用使用情况数据，并将其与合同中的使用限制进行比较。可以设置警报以防止超额情况。 | [服务器调用使用情况概述](/help/admin/tools/server-call-usage/overage-overview.md) |
    | 日志 | 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报告包，以及管理员执行的更改。 | [日志](/help/admin/tools/logs.md) |
    | Advertising Analytics | 配置Adobe Analytics以并排显示您的所有Google广告和Microsoft Advertising付费搜索数据。 | [配置 Advertising Analytics](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |
    | 数据馈送 | 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 | [Analytics 数据馈送概述](/help/export/analytics-data-feed/data-feed-overview.md) |
-   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。 | [按 IP 地址排除](/help/admin/tools/exclude-ip.md) |
+   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。排除数据可通过排除IP地址数据来提高报表准确性。 此外，您可以从拒绝服务或其他可能扭曲报表数据的恶意事件中删除数据。 您可以配置排除项或使用防火墙。 | [按 IP 地址排除](/help/admin/tools/exclude-ip.md) |
    | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报告包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
    | 数据治理隐私标签 | 为报告包数据设置标签即是向给定报告包中的每个变量分配身份标识、敏感性和数据管理标签。 | [隐私标签](/help/admin/tools/privacy-labeling/labeling-overview.md) |
    | 公司设置主页 | 通过“公司设置”页面，您可以配置设置以将其应用于您的组织所管理的所有报告包。 | [公司设置概述](/help/admin/tools/company/c-company-settings.md) |

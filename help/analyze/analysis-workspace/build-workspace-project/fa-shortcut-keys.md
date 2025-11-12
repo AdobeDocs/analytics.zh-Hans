@@ -5,7 +5,7 @@ title: 热键
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 89%
@@ -18,16 +18,16 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 
 请注意，您的键盘上可能会使用以下符号：
 
-- **⇧** 表示 **[!UICONTROL **&#x200B; shift &#x200B;**]** 键。
-- **⌘** 表示 **[!UICONTROL **&#x200B; cmd &#x200B;**]**（命令）。
-- **⌃** 表示 **[!UICONTROL **&#x200B; ctrl &#x200B;**]**（控制）。
-- **⌥** 表示 **[!UICONTROL **&#x200B; opt &#x200B;**]**（选项）。
-- **⎇** 表示 **[!UICONTROL **&#x200B; alt &#x200B;**]**（备选）。
+- **⇧** 表示 **[!UICONTROL ** shift **]** 键。
+- **⌘** 表示 **[!UICONTROL ** cmd **]**（命令）。
+- **⌃** 表示 **[!UICONTROL ** ctrl **]**（控制）。
+- **⌥** 表示 **[!UICONTROL ** opt **]**（选项）。
+- **⎇** 表示 **[!UICONTROL ** alt **]**（备选）。
 
 ## 导航操作
 
 | 操作 | Mac 快捷方式 | Windows 快捷方式 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 新建项目 | **[!UICONTROL *cmd + shift + p *]** | **[!UICONTROL *ctrl + shift + p *]** |
 | 打开现有项目 | **[!UICONTROL *cmd + o *]** | **[!UICONTROL *ctr + o *]** |
 | 转到“面板”窗格 | **[!UICONTROL *opt + shift + 1 *]** | **[!UICONTROL *alt + shift + 1 *]** |
@@ -41,7 +41,7 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 ## 分析操作
 
 | 操作 | Mac 快捷方式 | Windows 快捷方式 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 搜索左侧面板 | **[!UICONTROL *cmd + /*]** | **[!UICONTROL *ctrl + /*]** |
 | 创建警报 | **[!UICONTROL *cmd + shift + a *]** | **[!UICONTROL *ctrl + shift + a *]** |
 | 创建计算量度 | **[!UICONTROL *cmd + shift + c *]** | **[!UICONTROL *ctrl + shift + c *]** |
@@ -58,7 +58,7 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 ## 添加面板和可视化内容操作
 
 | 操作 | Mac 快捷方式 | Windows 快捷方式 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 新建归因面板 | **[!UICONTROL *opt + e *]** | **[!UICONTROL *alt + e *]** |
 | 新建空白面板 | **[!UICONTROL *opt + b *]** | **[!UICONTROL *alt + b *]** |
 | 新建自由格式面板 | **[!UICONTROL *opt + a *]** | **[!UICONTROL *alt + a *]** |
@@ -71,14 +71,14 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 ## 移动面板操作
 
 | 操作 | Mac 快捷方式 | Windows 快捷方式 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 将面板上移 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
 | 下移面板 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
 ## 大众化操作
 
 | 操作 | Mac 快捷方式 | Windows 快捷方式 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 保存项目 | **[!UICONTROL *cmd + s *]** | **[!UICONTROL *ctrl + s *]** |
 | 项目另存为 | **[!UICONTROL *cmd + shift + s *]** | **[!UICONTROL *ctrl + shift + s *]** |
 | 另存为模板 | **[!UICONTROL *opt + t *]** | **[!UICONTROL *alt + t *]** |

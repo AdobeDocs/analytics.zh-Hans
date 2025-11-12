@@ -3,10 +3,10 @@ description: 了解使用区段生成器创建区段并通过区段管理器管�
 title: 分段工作流程概述
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 47%
+ht-degree: 40%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 47%
 
 | 步骤 | 操作 | 详细信息 |
 |:--:|---|---|
-| 1 | [计划区段](/help/components/segmentation/segmentation-workflow/seg-plan.md) | 在生成区段和设置区段管理环境之前，是否提出了所有该问的问题？您设计区段时是否考虑到了区段的用途和用法？<br/>请参阅[区段规划核对清单](seg-plan.md)，获取有关规划和组织区段的帮助。 |
+| 1 | [计划区段](/help/components/segmentation/segmentation-workflow/seg-plan.md) | 在构建区段和设置区段管理环境之前，您是否已问过自己所有正确的问题？ 您设计区段时是否考虑到了区段的用途和用法？<br/>请参阅[区段规划核对清单](seg-plan.md)，获取有关规划和组织区段的帮助。 |
 | 2 | [创建区段](seg-create.md) | 使用可用的各种选项创建新区段。 |
 | 3 | [生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md) | 生成和编辑区段以用于所有Analytics功能。 <br/>有关如何使用THEN运算符生成区段的信息，请参阅[生成顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。 |
 | 4 | [标记区段](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 为区段加标签便于整理和共享。请参阅如何规划和分配标签以进行简单和高级搜索和整理。 |

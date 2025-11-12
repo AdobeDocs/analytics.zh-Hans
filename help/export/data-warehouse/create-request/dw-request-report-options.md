@@ -3,10 +3,10 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表选项
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 22%
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
    | [!UICONTROL **以压缩文件(ZIP)形式发送报告**] | 以压缩(ZIP)文件格式发送报表。 建议在使用电子邮件作为[报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)时启用此选项。 |
    | [!UICONTROL **返回所有行**] | 启用后，所有行都将包含在报表中。 禁用此选项可指定要包含的行数。 |
    | [!UICONTROL **报告评论的开始**] | 添加任何要包含在报告中的注释。 评论显示在报告开头。 |
-   | [!UICONTROL **按量度排序**] | 在Data Warehouse中提供排名划分报表，这些报表按量度值的降序排序。 按量度排序可以让您更易于解释 Data Warehouse 报表，同时，也可以更轻松地将这些报表与其他 Analytics 划分报表查看次数进行比较。<p>有关详细信息，请参阅[按量度排序](/help/export/data-warehouse/sorting-by-metric.md)。</p> |
+   | [!UICONTROL **按量度排序**] | 在Data Warehouse中提供排名划分报表，这些报表按量度值的降序排序。 按量度排序使您更轻松地解释Data Warehouse报表，并使这些报表更易于与其他Analytics划分报表视图进行比较。<p>有关详细信息，请参阅[按量度排序](/help/export/data-warehouse/sorting-by-metric.md)。</p> |
    | [!UICONTROL **发送清单文件**] | 包含有关报表中包含的文件的元数据。<!-- What kind of metadata is included in the manifest file? --> |
    | [!UICONTROL **发送数字签名文件**] | 允许报表接收者验证文件是否来自Adobe以及是否未被更改。 |
    | [!UICONTROL **当报告中没有数据时，发送空文件**] | 发送报告，即使报告不包含任何数据。 |

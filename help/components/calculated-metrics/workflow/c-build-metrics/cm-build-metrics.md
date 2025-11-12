@@ -3,7 +3,7 @@ description: 了解计算量度构建器，它提供了一个画布，您可以�
 title: 生成度量
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
@@ -185,7 +185,7 @@ Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和�
 >[!MORELIKETHIS]
 >
 >[使用函数](cm-using-functions.md)
->>[区段](/help/components/segmentation/seg-overview.md)
+>[区段](/help/components/segmentation/seg-overview.md)
 >
 
 

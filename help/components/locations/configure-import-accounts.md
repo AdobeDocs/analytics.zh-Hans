@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 56%
+ht-degree: 55%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 56%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **Host**] | 输入所需的FTP目标URL。 例如，`ftp.adobe.com`。 |
+   | [!UICONTROL **主机**] | 输入所需的FTP目标URL。 例如，`ftp.adobe.com`。 |
    | [!UICONTROL **路径**] | 可留空。 |
    | [!UICONTROL **用户名**] | 输入用户名以登录到FTP站点。 |
    | [!UICONTROL **密码并确认密码**] | 输入登录FTP站点的密码。 |
