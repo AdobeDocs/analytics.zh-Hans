@@ -3,7 +3,7 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及有关要提供给Adobe的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
 workflow-type: tm+mt
 source-wordcount: '4227'
 ht-degree: 51%

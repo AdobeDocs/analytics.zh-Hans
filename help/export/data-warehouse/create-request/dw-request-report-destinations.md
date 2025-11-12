@@ -3,7 +3,7 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为 Data Warehouse 请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 82%
