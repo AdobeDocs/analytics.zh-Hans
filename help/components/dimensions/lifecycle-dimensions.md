@@ -3,10 +3,10 @@ title: 移动存留期维度
 description: 基于使用Mobile SDK收集的数据的维度。
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 26%
+source-wordcount: '177'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 | 生命周期维度名称 | 描述 | 上下文数据变量 |
 | --- | --- | --- |
-| [!UICONTROL 首次启动日期] | | 待定 |
+| [!UICONTROL 首次启动日期] | | |
 | [!UICONTROL 设备名称(SDK)] | | `a.DeviceName` |
 | [!UICONTROL 操作系统版本(SDK)] | | `a.OSVersion` |
 | [!UICONTROL 分辨率(SDK)] | | `a.Resolution` |
@@ -33,16 +33,16 @@ ht-degree: 26%
 | [!UICONTROL 与目标点中心的距离] | | `a.loc.dist` |
 | [!UICONTROL 启动次数] | | `a.Launches` |
 | [!UICONTROL 首次使用后间隔天数] | | `a.DaysSinceFirstUse` |
-| [!UICONTROL 操作名称] | | 待定 |
+| [!UICONTROL 操作名称] | | |
 | [!UICONTROL 生命周期值(evar)] | | `a.ltv.amount` |
-| [!UICONTROL 信标Major] | | 待定 |
-| [!UICONTROL 次要信标] | | 待定 |
-| [!UICONTROL 信标UUID] | | 待定 |
-| [!UICONTROL 邻近地区信标] | | 待定 |
+| [!UICONTROL 信标Major] | | |
+| [!UICONTROL 次要信标] | | |
+| [!UICONTROL 信标UUID] | | |
+| [!UICONTROL 邻近地区信标] | | |
 | [!UICONTROL 上次使用后间隔天数] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL 小时(SDK)] | | `a.HourOfDay` |
 | [!UICONTROL 每周时间(SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL 目标点ID] | | 待定 |
+| [!UICONTROL 目标点ID] | | |
 
 {style="table-layout:auto"}
 

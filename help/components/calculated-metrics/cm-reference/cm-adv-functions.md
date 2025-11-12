@@ -4,10 +4,10 @@ description: 了解高级计算量度函数的相关内容。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '5020'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 表函数与行函数
 
-在 table 函数中，输出对于表中的每一行都是相同的。在 row 函数中，输出对于表中的每一行都是不同的。
+table函数是其中表的每一行的输出都相同的函数。 行函数是指其中表的每一行的输出都不同的函数。
 
 在适用且相关的情况下，函数具有函数类型注释：[!BADGE 表]{type="Neutral"}或[!BADGE 行]{type="Neutral"}
 
@@ -1474,9 +1474,9 @@ CDF-Z(-3) ? 0.0013499
 | 量度 | 您希望求 Z 分数的量度 |
 | include_zeros | 是否在计算中包含零值 |
 
-Z 分数为 0（零）表示分数与平均值相同。Z 分数可以为正数或负数，用于指示该分数在平均值之上还是之下，以及依据多少个标准偏差。
+Z 分数为 0（零）表示分数与平均值相同。Z分数可以是正数或负数，指示它是否高于或低于平均值以及标准偏差数。
 
-Z 分数的方程式为：
+Z分数的等式为：
 
 ![](assets/z_score.png)
 
@@ -1538,7 +1538,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Approximate Count Distinct (dimension)
 
-Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts. It is configured to guarantee the value is within 5% of the actual value 95% of the time.
 
 ```
 Approximate Count Distinct (dimension)

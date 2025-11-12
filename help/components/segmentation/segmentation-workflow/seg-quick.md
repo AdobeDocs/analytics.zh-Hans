@@ -4,7 +4,7 @@ title: 快速区段
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 79%
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的快速区段](https://video.tv.adobe.com/v/345335/?quality=12&learn=on&captions=chi_hans){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的快速区段](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +85,7 @@ ht-degree: 79%
 
 | 元素 | 描述 |
 |---|---|
-| **[!UICONTROL 维度]**<br/>**[!UICONTROL 量度]**<br/>**[!UICONTROL 日期范围]** | 从下拉菜单![ChevronDown](/help/assets/icons/ChevronDown.svg)中选择是否要为维度、量度或日期范围指定条件。 |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL 指标]**<br/>**[!UICONTROL 日期范围]** | 从下拉菜单![ChevronDown](/help/assets/icons/ChevronDown.svg)中选择是否要为维度、量度或日期范围指定条件。 |
 | **[!UICONTROL *组件&#x200B;*]** | 条件的组件字段。您可以&#x200B;[!UICONTROL *通过输入来添加*]&#x200B;组件，从列表中选择组件，或者从组件面板中拖放组件。您只能将相似的组件放在条件的组件字段上。例如，您只能将维度组件从组件面板拖放到维度条件上。<br/>您还可以通过拖放操作来替换现有组件。<br/>选择 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 从组件字段中删除该组件。 |
 | **[!UICONTROL *运算符&#x200B;*]** | 组件的运算符。有关更多信息，请参阅[运算符](../seg-reference/seg-operators.md)。仅适用于维度和量度。 |
 | **[!UICONTROL *值&#x200B;*]** | 条件的值。根据所选的运算符，可以从列表中选择值或者输入一个值。 |

@@ -4,10 +4,10 @@ title: GDPR/ePrivacy 合规和服务器端转发
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 55%
+ht-degree: 47%
 
 ---
 
@@ -25,22 +25,22 @@ ht-degree: 55%
 
 ## 实施详细信息 {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
-根据您的实施方法，请按照下列步骤操作。
+请根据您的实施方法，执行以下步骤。
 
 | 实施方法 | 步骤 |
 |--- |--- |
-| Adobe Experience Platform 中的标记 | 假设您已安装 Adobe Analytics 扩展，请将以下 contextData 变量定义添加到规则的“操作”配置内的自定义代码编辑器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：如果客户不同意进行目标营销，请定义 contextData 变量，并将它设置为 1。对于同意进行目标营销的客户，请将 `contextdata` 变量设置为 *0*。 |
-| AppMeasurement | 将上下文数据变量定义添加到AppMeasurement.js文件： <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：如果客户不同意进行目标营销，请定义上下文数据变量并将其设置为1。 对于同意进行目标营销的客户，请将 contextData 变量设置为 0。 |
+| Adobe Experience Platform 中的标记 | 假设您已安装 Adobe Analytics 扩展，请将以下 contextData 变量定义添加到规则的“操作”配置内的自定义代码编辑器：<br/>`s.contextData['cm.ssf'] = '1'`<br/>注意：如果客户不同意进行目标营销，请定义 contextData 变量，并将它设置为 1。对于同意进行目标营销的客户，请将 `contextdata` 变量设置为 *0*。 |
+| AppMeasurement | 将上下文数据变量定义添加到AppMeasurement.js文件： <br/>`s.contextData['cm.ssf'] = '1'` <br/>注意：如果客户不同意进行目标营销，请定义上下文数据变量并将其设置为1。 对于同意进行目标营销的客户，请将 contextData 变量设置为 0。 |
 
 ## 报表（可选） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 您可以使用Adobe Analytics报告有多少流量基于同意并经由服务器端转发，以及有多少流量非基于同意且尚未转发到Adobe Audience Manager。
 
-要配置此类型的报表，请通过处理规则将新上下文变量映射到自定义流量变量 (prop)。为此，请执行以下步骤：
+要配置此类报表，请通过处理规则将新的上下文变量映射到自定义流量变量(prop)。 为此，请执行以下操作
 
 1. 实施“cm.ssf”变量（如上所示。）
-1. [启用 prop。](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
-1. 使用处理规则将上下文变量映射到 prop。
+1. [启用prop。](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
+1. 使用处理规则将上下文变量映射到prop。
 
    1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，然后选择一个报表包。
    1. 单击&#x200B;**[!UICONTROL 编辑报表包]** > **[!UICONTROL 常规]** > **[!UICONTROL 处理规则]**。
