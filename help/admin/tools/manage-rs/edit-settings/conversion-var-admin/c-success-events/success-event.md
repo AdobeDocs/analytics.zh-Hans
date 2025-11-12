@@ -16,7 +16,7 @@ ht-degree: 31%
 
 成功事件（也称为转化事件或自定义事件）是可以跟踪的操作。 什么是成功事件完全由您来决定。例如，如果访客购买一件产品，该购买事件可被视为成功事件。
 
-有关成功事件的视频概述，请参阅Analytics教程指南中的[转化事件简介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)。
+有关成功事件的视频概述，请参阅Analytics教程指南中的[转化事件简介](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)。
 
 ## 成功事件示例
 
