@@ -3,9 +3,9 @@ title: 动态查找
 description: 了解什么是动态查找以及如何启用它们。 包括运营商、移动设备属性和操作系统类型。
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,16 @@ ht-degree: 1%
 * **移动设备属性**：为`mobile_id`列提供额外的上下文，包括为每个移动设备跟踪的所有功能。 包含的文件名是`mobile_attributes.tsv`。
 * **操作系统类型**：为`os`列提供替代上下文。 `operating_systems.tsv`和`operating_system_type.tsv`都使用`os`列作为键，但只有`operating_system_type.tsv`是动态查找。
 
-## 启用动态查找
+## 启用动态查找 {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="启用动态查找"
+>abstract="选择此选项可在数据馈送中接收其他查找文件，否则不可用。 此设置允许随每个数据馈送文件发送以下查找表：<ul><li>运营商名称</li><li>移动设备属性</li><li>操作系统类型</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 如果要接收上述查找文件，则必须满足以下所有先决条件：
 

@@ -3,10 +3,10 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及有关要提供给Adobe的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: af3583bb7dfc2fce083a41432680ef3933eb9582
 workflow-type: tm+mt
-source-wordcount: '4140'
-ht-degree: 53%
+source-wordcount: '4227'
+ht-degree: 51%
 
 ---
 
@@ -19,7 +19,25 @@ ht-degree: 53%
 
 在创建数据馈送之前，一定要基本了解数据馈送，并确保满足所有先决条件。 有关详细信息，请参阅[数据馈送概述](data-feed-overview.md)。
 
-## 创建和配置数据馈送
+## 创建和配置数据馈送 {#create-and-configure-data-feed}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_os_strings"
+>title="替换操作系统字符串"
+>abstract="此选项通过检测嵌入到客户数据中的以下字符串序列并将其替换为空格来清除数据输出： <br/>Windows： CRLF、CR或TAB<br/>Mac和Linux： \n、\r或\t"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_export_file"
+>title="清单"
+>abstract="选择是否在每次数据馈送提交时都包含清单文件。 清单文件包含数据馈送中包含的每个文件的信息。 在单个包中发送数据馈送数据时，您还可以选择包含完成文件，但建议使用清单文件。 "
+
+<!-- markdownlint-enable MD034 -->
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 选择右上角的9个正方形图标，然后选择&#x200B;[!UICONTROL **Analytics**]。
