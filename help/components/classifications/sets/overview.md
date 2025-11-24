@@ -3,7 +3,7 @@ title: 分类集概述
 description: 了解如何使用分类集管理分类数据。 了解分类集与旧版分类有何不同。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 11%
@@ -77,7 +77,7 @@ ht-degree: 11%
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
-在分类数据文件中，使用&#x200B;**[!UICONTROL 引用每个报表包的键维度（例如：]**&#x200B;产品ID **[!UICONTROL 和]**&#x200B;产品SKU`Key`）。 您使用&#x200B;**[!UICONTROL 分类名称]**&#x200B;引用每个分类（例如`Category`或`Color`）。
+   在分类数据文件中，使用&#x200B;**[!UICONTROL 引用每个报表包的键维度（例如：]**&#x200B;产品ID **[!UICONTROL 和]**&#x200B;产品SKU`Key`）。 您使用&#x200B;**[!UICONTROL 分类名称]**&#x200B;引用每个分类（例如`Category`或`Color`）。
 
 1. [将包含分类数据的文件上传](/help/components/classifications/sets/manage/schema.md#upload)到分类集架构中。
 
@@ -96,7 +96,7 @@ ht-degree: 11%
 
 * 缩短处理时间（从72小时缩短到24小时）。
 * 重新设计了用于管理分类的用户界面。
-* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
+* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
 
 随分类集一起发布的后端架构还包含几项更改：
 
