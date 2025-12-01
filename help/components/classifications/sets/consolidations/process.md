@@ -3,18 +3,25 @@ title: 创建和编辑分类合并
 description: 介绍如何创建、验证、运行、批准和取消分类合并。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '981'
 ht-degree: 1%
 
 ---
 
 # 创建和编辑分类合并
 
-利用分类集合并，您可以从多个数据集获取分类并将它们组合到一起。 使用此界面从头到尾创建分类集合并。 此界面对于从旧版分类迁移到分类集的组织而言最有价值。 大多数使用分类集的组织已经很可能不需要使用此合并工作流。
+分类集合并允许您从多个分类集获取分类并将它们组合到一个分类集中。 使用此界面从头到尾创建分类集合并。 此界面对于从旧版分类迁移到分类集的组织最有价值。 使用分类集的组织已经不需要使用此合并工作流。
 
-## 创建合并
+## 创建合并 {#create-a-consolidation}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidation_setpriority"
+>title="分类集优先级"
+>abstract="![键](/help/assets/icons/Key.svg) *分类集*&#x200B;是基本分类集，它定义了整个架构，在任何合并冲突中都具有优先权。 其他分类集按从上到下的顺序应用。"
+
 
 要创建分类合并，请在Adobe Analytics主界面中：
 
@@ -29,11 +36,13 @@ ht-degree: 1%
    1. 在&#x200B;**[!UICONTROL 通知问题]**&#x200B;中输入一个或多个电子邮件地址（以逗号分隔）。 向这些用户发送有关问题的电子邮件通知。
    1. 从&#x200B;**[!UICONTROL 要匹配的分类集]**&#x200B;下拉菜单中选择一个分类集。
 
-      **[!UICONTROL Source分类集]**&#x200B;左侧列表中填充了与选定分类列表类似且可合并的分类集。
+      **[!UICONTROL Source分类集]**&#x200B;左侧列表中填充了与选定分类列表类似且可合并的分类集。 使用选定的![键](/help/assets/icons/Key.svg)分类集自动填充右侧列表。 该基集定义了整个架构，在任何合并冲突中始终具有优先权。
 
-   1. 从左侧列表中选择要合并的分类集，并将所选集拖放到右侧列表中，使其位于所选![键](/help/assets/icons/Key.svg) **[!UICONTROL _分类集_]**&#x200B;的下方。
+   1. 从左侧列表中选择要合并的分类集，并将所选分类集拖放到右侧列表中，使其位于选定![键](/help/assets/icons/Key.svg)基本&#x200B;**[!UICONTROL _分类集_]**&#x200B;的下方。
 
-      您可以在列表中移动单个和选定的分类集。 您还可以通过拖放将![键](/help/assets/icons/Key.svg) **[!UICONTROL _分类集_]**&#x200B;替换为选定的分类集。
+      运行合并时，附加分类集将按升序合并。 如果一个键值存在于多个其他集中，则采用来自排名最前的分类集的键值。 如果![Key](/help/assets/icons/Key.svg)基集和任何其他集都存在键，则使用基集中的值。
+
+      要管理使用键的值，请通过拖放移动列表中的单个分类集和选定的分类集。 您还可以通过拖放将![键](/help/assets/icons/Key.svg) **[!UICONTROL _分类集_]**&#x200B;替换为选定的分类集。
 
    1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存分类合并。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
@@ -75,7 +84,7 @@ Drag the desired classification sets from the available column on the left to th
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择&#x200B;**[!UICONTROL 合并]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集合并]**&#x200B;管理器中：
-   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**&#x200B;对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
+   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
 
       | 可用操作 | 描述 |
       |---|---|
@@ -96,7 +105,7 @@ Drag the desired classification sets from the available column on the left to th
 
 1. 使用与创建合并相同的拖放界面重新配置合并。
 1. 选择![复选标记](/help/assets/icons/Checkmark.svg) **[!UICONTROL 重新验证]**。 验证将确保每个单独的分类集对此合并有效。 成功后，将显示Toast消息： ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已成功提交合并进行验证！]**
-1. 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)关闭对话框。 或者选择![播放](/help/assets/icons/Play.svg)运行以运行合并，或者选择![取消](/help/assets/icons/Cancel.svg)取消以取消分类。
+1. 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)关闭对话框。 或者选择![播放](/help/assets/icons/Play.svg) **[!UICONTROL 运行]**&#x200B;以运行合并，或者选择![取消](/help/assets/icons/Cancel.svg) **[!UICONTROL 取消]**&#x200B;以取消分类。
 
 
 
@@ -115,9 +124,20 @@ Once you have created a consolidation, a list of source datasets appears on the 
 1. 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)关闭对话框。
 
 
-### 批准
+### 批准 {#approve}
 
-成功运行分类合并后，合并状态为&#x200B;**[!UICONTROL 正在等待批准]**。 批准分类综合以综合分类集取代个别分类集，而个别分类集则予以移除。
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="不匹配"
+>abstract="当合并分类集中的值与源分类集不匹配时的键不匹配百分比。"
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="不存在"
+>abstract="键在统一分类集中，但不在源分类集中所占的百分比。"
+
+成功运行分类合并后，合并状态为![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 正在等待批准]**。 批准分类综合以综合分类集取代个别分类集，而个别分类集则予以移除。
 
 ![分类集 — 合并等待批准](assets/classifications-sets-consolidations-waitingforapproval.png)
 

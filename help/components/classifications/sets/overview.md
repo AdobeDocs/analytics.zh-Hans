@@ -3,10 +3,10 @@ title: 分类集概述
 description: 了解如何使用分类集管理分类数据。 了解分类集与旧版分类有何不同。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
+source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 11%
+source-wordcount: '950'
+ht-degree: 9%
 
 ---
 
@@ -17,15 +17,28 @@ ht-degree: 11%
 
 ## 分类集与旧版分类
 
-分类集和旧版分类的主要区别在于分类与报表包的关系。
+分类集和旧版分类的主要区别在于，分类集将所有功能整合到一个界面中，而旧版分类依赖于三个界面。
 
-在旧版分类中，每个分类都直接链接到报表包。 在多个报表包中使用时，会复制非常相似的分类（例如产品目录）。
+### 旧版分类
 
-![旧分类](manage/assets/classifications-legacy.svg)
+![旧分类](./assets/classifications-legacy.svg)
 
-在分类集中，您可以定义报表包的订阅和键维度组合。 例如，一种产品目录分类，适用于多个报表包，并且基于产品(SKU)维度，您只需定义一次作为分类集。 在该分类集中，您可以配置多个报表包和键维度组合以订阅该分类集。
+在旧版分类中，分类![架构](/help/assets/icons2/Schema.svg)（如流量、转化、营销渠道等）都有各自的维度（键![键](/help/assets/icons2/Key.svg)）。 将这些分类定义为[报表包设置](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md)的一部分。
 
-![分类集](manage/assets/classifications-sets.svg)
+在规则集中将规则![BidRule](/help/assets/icons/BidRule.svg)单独定义为[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)界面的一部分。 在该界面中，您将规则集与一个或多个报表包关联。
+
+您使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)下载模板![DocumentFragment](/help/assets/icons/DocumentFragment.svg)，将![UploadToCloud](/help/assets/icons/UploadToCloud.svg)分类导入报表包，或从报表包中导出![下载](/help/assets/icons/Download.svg)分类 — 键（数据集）组合。
+
+
+### 分类集
+
+![分类集](./assets/classifications-sets.svg)
+
+分类集将所有的旧版分类界面组合在一起。 每个分类集定义：
+
+* 您要分类的一个或多个订阅，是报表包![Data](/help/assets/icons2/Data.svg)和维度![键](/help/assets/icons2/Key.svg) （键）的组合。 如果您要根据产品SKU对产品进行分类，则可以定义所有具有适用产品SKU维度的报表包。 您也不必像在旧版分类界面中那样跨报表包复制分类。
+* 键的分类![架构](/help/assets/icons2/Schema.svg) （架构）列表。 例如，对于产品分类，您可以指定类别、颜色、大小、性别等。 定义分类后，您可以下载模板![DocumentFragment](/help/assets/icons/DocumentFragment.svg)、上传![UploadToCloud](/help/assets/icons/UploadToCloud.svg)分类数据、下载![下载](/help/assets/icons/Download.svg)分类数据等。
+* 一个或多个规则![竞价规则](/help/assets/icons/BidRule.svg)支持分类。
 
 
 要从Adobe Analytics界面的&#x200B;**[!UICONTROL 组件]**&#x200B;菜单访问&#x200B;**[!UICONTROL 分类集]**，您必须是产品管理员或属于包含权限项[!UICONTROL 报表包工具] > [!UICONTROL 分类]的产品配置文件。 请注意，旧版分类管理界面可从&#x200B;**[!UICONTROL 管理员]**&#x200B;菜单使用。
@@ -81,6 +94,8 @@ ht-degree: 11%
 
 1. [将包含分类数据的文件上传](/help/components/classifications/sets/manage/schema.md#upload)到分类集架构中。
 
+1. 设置[规则](manage/rules.md)以自动对传入数据和过去的数据进行分类。
+
 1. [自动](/help/components/classifications/sets/manage/schema.md#automate)通过使用云位置对要显示在分类数据中的产品目录进行更新的过程。
 
 1. [下载](/help/components/classifications/sets/manage/schema.md#download)分类数据以验证内容。
@@ -96,7 +111,7 @@ ht-degree: 11%
 
 * 缩短处理时间（从72小时缩短到24小时）。
 * 重新设计了用于管理分类的用户界面。
-* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
+* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
 
 随分类集一起发布的后端架构还包含几项更改：
 
