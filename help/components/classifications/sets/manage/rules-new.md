@@ -4,7 +4,7 @@ description: 了解如何使用分类集规则来定义分类数据的规则。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: bccb3409875336a092ab641ad69b866b43621984
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要为其定义规则的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，选择&#x200B;**[!UICONTROL 规则]**选项卡。
 
    * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您到目前为止已决定继续使用旧版规则生成器界面，则会显示一个对话框，允许您选择如何开始使用。 选项包括：
 
