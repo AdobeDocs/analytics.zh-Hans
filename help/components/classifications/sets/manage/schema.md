@@ -156,14 +156,14 @@ ht-degree: 4%
 >id="classificationsets_schema_automate_locationaccount"
 >title="位置帐户"
 >abstract="支持导入分类数据的帐户类型的位置帐户列表。 选择&#x200B;**[!UICONTROL 新建帐户]**&#x200B;以创建新的位置帐户。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="配置云导入和导出帐户"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=zh-Hans" text="配置云导入和导出帐户"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="位置"
 >abstract="所选位置帐户中支持导入分类数据的位置的列表。 选择&#x200B;**[!UICONTROL 新位置]**&#x200B;以创建新位置。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="配置云导入和导出位置"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=zh-Hans" text="配置云导入和导出位置"
 
 
 要自动摄取分类，请选择![齿轮](/help/assets/icons/Gear.svg)**[!UICONTROL 自动]**。
