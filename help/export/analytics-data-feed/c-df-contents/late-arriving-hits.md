@@ -3,14 +3,23 @@ title: 迟到的点击量
 description: 了解数据馈送如何处理迟到的点击量。
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 85%
+source-wordcount: '363'
+ht-degree: 70%
 
 ---
 
-# 迟到的点击量
+# 迟到的点击量 {#late-arriving-hits}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="允许迟到的点击"
+>abstract="选择此选项可以包括数据馈送作业在设置的报告频率内（每天、每小时或每15分钟）完成数据处理后到达的数据。 启用此选项后，每次数据馈送处理数据时，它都会查看任何已到达的迟到点击，并将它们与发送的下一个数据馈送文件分批加入。"
+
+<!-- markdownlint-enable MD034 -->
 
 历史数据可能会在数据馈送作业完成给定小时或一天的处理后到达（例如，通过带有时间戳的点击或数据源）。迟到的点击量是 Adobe 为帮助将此数据纳入数据馈送中而提供的后端自定义设置。
 
