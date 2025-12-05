@@ -4,10 +4,10 @@ description: 了解如何使用分类集规则来定义分类数据的规则。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: bccb3409875336a092ab641ad69b866b43621984
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 13%
+source-wordcount: '1578'
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要为其定义规则的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，选择&#x200B;**[!UICONTROL 规则]**选项卡。
 
    * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您到目前为止已决定继续使用旧版规则生成器界面，则会显示一个对话框，允许您选择如何开始使用。 选项包括：
 
@@ -96,7 +96,17 @@ ht-degree: 13%
 
 您希望定义一个规则，当关键维度“内部营销活动”的值以`Email`开头时（例如： **[!UICONTROL ），自动将]**&#x200B;分配为`em`Channel`em:FY2025:Summer Sale`分类的值。
 
+>[!BEGINTABS]
+
+>[!TAB 规则]
+
 ![规则 — 开头为](assets/rule-startswith.png)
+
+>[!TAB 测试结果]
+
+![规则 — 从测试结果开始](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -110,13 +120,23 @@ ht-degree: 13%
 
 #### 必需输入
 
-输入&#x200B;**[!UICONTROL Ends With]**&#x200B;的值。 例如：`Sale`。
+输入&#x200B;**[!UICONTROL Ends With]**&#x200B;的值。 例如：`2025`。
 
 #### 用例
 
-当键维度Internal Campaign的值包含`Sale`时（例如： **[!UICONTROL ），要定义规则以自动将]**&#x200B;分配为`Sale`Type`em:FY2025:Summer Sale`分类的值。
+当关键维度Internal Campaign的值包含`2025`时（例如：**[!UICONTROL ），要定义规则以自动将]**&#x200B;分配为`2025`Year`em:Summer Sale:FY2025`分类的值。
+
+>[!BEGINTABS]
+
+>[!TAB 规则]
 
 ![规则 — 结束于](assets/rule-endswith.png)
+
+>[!TAB 测试结果]
+
+![规则 — 以测试结果结束](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -129,13 +149,24 @@ ht-degree: 13%
 
 #### 必需输入
 
-输入&#x200B;**[!UICONTROL Contains]**&#x200B;的值。 例如：`2025`。
+输入&#x200B;**[!UICONTROL Contains]**&#x200B;的值。 例如：`Winter`。
 
 #### 用例
 
-您希望定义一个规则，当键维度“内部营销活动”的值以`2025`结束时（例如： **[!UICONTROL ），自动将]**&#x200B;分配为`2025`Year`em:FY2025:Summer Sale`分类的值。
+当Internal Campaign的键维度的值包含`Winter Sale`时（例如：**[!UICONTROL ），要定义规则以自动将]**&#x200B;分配为`Winter`Type`fb:Winter:FY2024`分类的值。
+
+
+>[!BEGINTABS]
+
+>[!TAB 规则]
 
 ![规则 — Contains](assets/rule-contains.png)
+
+>[!TAB 测试结果]
+
+![规则 — 包含结果](assets/rule-contains-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -152,9 +183,20 @@ ht-degree: 13%
 
 #### 用例
 
-当键维度Internal Campaign的值与`2025 Summer Email`匹配时，要定义规则以自动将&#x200B;**[!UICONTROL 分配为]** Type`em:FY2025:Summer`分类的值。
+当关键维度“内部营销活动”的值与`Email`匹配时，要定义规则以自动将&#x200B;**[!UICONTROL 分配为]** Channel`Summer Sale`分类的值，将&#x200B;**[!UICONTROL 分配为]** Type`2025`分类的值，并将&#x200B;**[!UICONTROL 分配为]** Year`em:FY2025:Summer`分类的值。
+
+
+>[!BEGINTABS]
+
+>[!TAB 规则]
 
 ![规则 — 匹配项](assets/rule-match.png)
+
+>[!TAB 测试结果]
+
+![规则 — 匹配项](assets/rule-match.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -167,13 +209,23 @@ ht-degree: 13%
 
 #### 必需输入
 
-输入&#x200B;**[!UICONTROL 正则表达式]**&#x200B;的值。 例如：`^(.+)\:(.+)\:(.+)$`。
+输入&#x200B;**[!UICONTROL 正则表达式]**&#x200B;的值。 例如：`^(.+)\:(.+)\:FY(.+)$`。
 
 #### 用例
 
-要定义规则以通过应用正则表达式&#x200B;**[!UICONTROL 并将匹配组（]**、**[!UICONTROL 和]**）用于关键维度Internal Campaign的值，自动将值分配给&#x200B;**[!UICONTROL Channel]**、`^(.+)\:(.+)\:(.+)$`Type`$1`和`$2`Year`$3`分类。
+要定义规则以通过应用正则表达式&#x200B;**[!UICONTROL 并将匹配组（]**、**[!UICONTROL 和]**）用于键维度Internal Campaign的值自动分配给&#x200B;**[!UICONTROL Channel]**、`^(.+)\:(.+)\:FY(.+)$`Type`$1`和`$2`Year`$3`分类。
+
+>[!BEGINTABS]
+
+>[!TAB 规则]
 
 ![规则 — 正则表达式](assets/rule-regex.png)
+
+>[!TAB 测试结果]
+
+![规则 — 正则表达式测试结果](assets/rule-regex-test.png)
+
+>[!ENDTABS]
 
 
 #### 参考表 {#section_0211DCB1760042099CCD3ED7A665D716}
