@@ -3,7 +3,7 @@ title: 分类集规则
 description: 了解如何查看和编辑分类集的规则。
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
@@ -15,8 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >分类集尚不支持规则。 在旧版规则生成器功能变得不可用之前，规则功能将会添加到分类集界面中。
->&#x200B;>如果确实需要用于分类的规则，请继续使用[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)。
-
+>如果确实需要用于分类的规则，请继续使用[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)。
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
