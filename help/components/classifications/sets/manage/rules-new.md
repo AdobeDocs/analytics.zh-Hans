@@ -4,9 +4,9 @@ description: 了解如何使用分类集规则来定义分类数据的规则。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: badd606b708778f7f839756c6de7b6118d366a67
+source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1673'
 ht-degree: 10%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 10%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要为其定义规则的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，选择&#x200B;**[!UICONTROL 规则]**选项卡。
 
    * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您目前决定继续使用旧版规则生成器界面，则将显示一个对话框，允许您选择如何开始使用。 选项包括：
 
@@ -233,10 +233,14 @@ ht-degree: 10%
 
 >[!ENDTABS]
 
++++
+
 
 ### 拆分
 
 根据令牌将键维度值拆分为一个或多个分类。
+
++++ 详细信息
 
 #### 必需输入
 
@@ -244,7 +248,7 @@ ht-degree: 10%
 
 #### 用例
 
-要定义一个规则，以根据&#x200B;**&#x200B;**&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
+要定义一个规则，以根据&#x200B;****&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
 
 >[!BEGINTABS]
 
@@ -257,6 +261,8 @@ ht-degree: 10%
 ![规则 — 拆分测试结果](assets/rule-split-test.png)
 
 >[!ENDTABS]
+
++++
 
 
 #### 参考表 {#section_0211DCB1760042099CCD3ED7A665D716}
