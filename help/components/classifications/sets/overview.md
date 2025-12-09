@@ -3,7 +3,7 @@ title: 分类集概述
 description: 了解如何使用分类集管理分类数据。 了解分类集与旧版分类有何不同。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
+source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -21,13 +21,14 @@ ht-degree: 9%
 
 ### 旧版分类
 
-![旧分类](./assets/classifications-legacy.svg)
+![旧分类](/help/components/classifications/sets/assets/classifications-legacy.svg)
 
 在旧版分类中，分类![架构](/help/assets/icons2/Schema.svg)（如流量、转化、营销渠道等）都有各自的维度（键![键](/help/assets/icons2/Key.svg)）。 将这些分类定义为[报表包设置](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md)的一部分。
 
 在规则集中将规则![BidRule](/help/assets/icons/BidRule.svg)单独定义为[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)界面的一部分。 在该界面中，您将规则集与一个或多个报表包关联。
 
 您使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)下载模板![DocumentFragment](/help/assets/icons/DocumentFragment.svg)，将![UploadToCloud](/help/assets/icons/UploadToCloud.svg)分类导入报表包，或从报表包中导出![下载](/help/assets/icons/Download.svg)分类 — 键（数据集）组合。
+
 
 
 ### 分类集
@@ -111,7 +112,7 @@ ht-degree: 9%
 
 * 缩短处理时间（从72小时缩短到24小时）。
 * 重新设计了用于管理分类的用户界面。
-* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
+* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
 
 随分类集一起发布的后端架构还包含几项更改：
 
