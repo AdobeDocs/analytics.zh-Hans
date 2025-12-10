@@ -4,9 +4,9 @@ description: 了解如何使用分类集规则来定义分类数据的规则。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
+source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1661'
 ht-degree: 10%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 10%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要为其定义规则的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，选择&#x200B;**[!UICONTROL 规则]**选项卡。
 
    * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您目前决定继续使用旧版规则生成器界面，则将显示一个对话框，允许您选择如何开始使用。 选项包括：
 
@@ -248,7 +248,7 @@ ht-degree: 10%
 
 #### 用例
 
-要定义一个规则，以根据&#x200B;**&#x200B;**&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
+要定义一个规则，以根据&#x200B;****&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
 
 >[!BEGINTABS]
 
@@ -296,7 +296,6 @@ ht-degree: 10%
 | `a{3,}` | 3 个或更多 a |
 | `a{3,6}` | 3 到 6 个 a |
 
-+++
 
 
 ## 规则优先级
@@ -313,11 +312,22 @@ ht-degree: 10%
 
 ### 示例
 
-您要使用分类&#x200B;**[!UICONTROL 类型]**&#x200B;来分类，用户如何使用搜索字符串作为关键维度来搜索运动员。 例如，使用此规则集：
+您要使用分类&#x200B;**[!UICONTROL 类型]**&#x200B;来分类，用户如何使用搜索字符串作为关键维度来搜索团队、泛型类型或播放器。 例如，通过使用此规则集：
 
-![规则优先级](assets/rule-priority.png)
++++ 详细信息
 
-* 当用户搜索`Cowboys Fantasy Tony Romo`时，`Romo`被分类为&#x200B;**[!UICONTROL 类型]**。
-* 当用户搜索`Cowboys Fantasy Tony Romeo`时，`Fantasy`被分类为&#x200B;**[!UICONTROL 类型]**。
-* 当用户搜索`Cowboys vs. Broncos`时，`Team`被分类为&#x200B;**[!UICONTROL 类型]**。
+
+>[!BEGINTABS]
+
+>[!TAB 规则]
+
+![规则 — 优先级](assets/rule-priority.png)
+
+>[!TAB 测试结果]
+
+![规则 — 优先级测试结果](assets/rule-priority-test.png)
+
+>[!ENDTABS]
+
++++ 
 
