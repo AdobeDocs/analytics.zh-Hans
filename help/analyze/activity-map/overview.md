@@ -4,9 +4,9 @@ title: Activity Map 概述
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '623'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Activity Map作为一个概念，由几个重要组件组成：
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)：更改填充Activity Map Region维度的属性。
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md)：自定义Activity Map用于填充Activity Map链接维度的逻辑。
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md)：自定义Activity Map用于填充Activity Map区域维度的逻辑。
-* **覆盖**：一种浏览器扩展，允许您查看网站上覆盖的点击数据。 有关详细信息，请参阅[Activity Map扩展接口](overlay/overview.md)。
+* **覆盖**：一种浏览器扩展，允许您查看网站上覆盖的点击数据。 有关详细信息，请参阅[Activity Map扩展接口](overlay/overview.md)。 此功能不适用于Web SDK实施。
 * **维度**：除了叠加扩展之外，Activity Map还提供了多个可在Analysis Workspace中使用的维度。
    * [Activity Map链接](/help/components/dimensions/activity-map-link.md)：已单击的链接名称。
    * [Activity Map地区](/help/components/dimensions/activity-map-region.md)：被点击的地区名称。
@@ -37,7 +37,7 @@ Activity Map作为一个概念，由几个重要组件组成：
 
 * **热图**： Activity Map生成显示网页中点击次数或交互次数最多的区域的热图。 热图使用颜色编码来表示参与程度，使您能够识别热点并优先关注高影响力的区域。 此信息对于优化call-to-action按钮、链接、表单或任何其他交互式元素非常有用。
 
-* **叠加报表**： Activity Map中的叠加报表为网页上的特定元素提供了详细的点击量度。 通过了解各个元素的点进率和参与级别，您可以优化设计和内容策略以提升用户体验。
+* **叠加报表**： Activity Map中的叠加报表为网页上的特定元素提供了详细的点击量度。 通过了解各个元素的点进率和参与级别，您可以优化设计和内容策略以提升用户体验。 此功能不适用于Web SDK实施。
 
 * **区段分析**：您可以根据不同的区段分析用户行为，如流量源、人口统计或角色。 通过对数据进行分段，您可以揭示针对特定用户组的宝贵见解，从而实现个性化体验和有针对性的营销策略。
 
