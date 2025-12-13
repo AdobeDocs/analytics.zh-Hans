@@ -3,10 +3,10 @@ title: 最近联系渠道
 description: 访客参与有效期限期间的最新营销渠道。
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 90%
 * 在报表包设置下的“营销渠道管理器”中，将所需的维度项目设置为渠道。
 * 设置包含点击所需条件的营销渠道处理规则。
 * 访客对网站的点击，必须符合营销渠道处理规则中所述的条件。
+
+>[!TIP]
+>
+>如果将此维度与使用[参与率归因](/help/analyze/analysis-workspace/attribution/models.md)的量度一起使用，则当其他归因模型未使用时，可以将点数归因到`None`。 参与率量度需要报表时段内的营销渠道[实例](../metrics/instances.md)来接收点数。 如果营销渠道最初设置在报表窗口之外，而报表窗口内只存在保留值，则参与量度会将点数归因于`None`。 其他归因模型将点数归因于持久值。 如果要避免在此场景中归因于`None`，请考虑使用非参与归因模型。
 
 ## 维度项目
 
