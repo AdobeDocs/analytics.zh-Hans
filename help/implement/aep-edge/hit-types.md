@@ -13,7 +13,7 @@ ht-degree: 20%
 
 # Adobe Analytics中的Edge Network事件类型
 
-Adobe Analytics根据您在AppMeasurement中调用的函数来处理点击量不同。 例如，[`s.t`](/help/implement/vars/functions/t-method.md)和[`s.tl`](/help/implement/vars/functions/tl-method.md)包含或省略某些维度，并以不同的方式递增[页面查看次数](/help/components/metrics/page-views.md)。 Adobe Experience Platform仅包含[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/overview)命令。 [`xdm`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/xdm)或[`data`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/data)有效负载中的特定属性决定了如何在Adobe Analytics中解释该数据。
+Adobe Analytics根据您在AppMeasurement中调用的函数来处理点击量不同。 例如，[`s.t`](/help/implement/vars/functions/t-method.md)和[`s.tl`](/help/implement/vars/functions/tl-method.md)包含或省略某些维度，并以不同的方式递增[页面查看次数](/help/components/metrics/page-views.md)。 Adobe Experience Platform仅包含[`sendEvent`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/sendevent/overview)命令。 [`xdm`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/sendevent/xdm)或[`data`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/sendevent/data)有效负载中的特定属性决定了如何在Adobe Analytics中解释该数据。
 
 Edge Network使用以下逻辑来确定Adobe Analytics [页面查看次数](/help/components/metrics/page-views.md)和[链接事件](/help/components/metrics/page-events.md)：
 
@@ -29,7 +29,7 @@ Edge Network使用以下逻辑来确定Adobe Analytics [页面查看次数](/hel
 
 >[!TIP]
 >
->有效负载中的XDM字段名称区分大小写（例如，`webPageDetails.URL`）。 `xdm.eventType`字段是一个字符串值，它自己有一组接受值，这些值中的大小写可能与XDM字段名称不匹配。 有关接受的值，请参阅`eventType`XDM ExperienceEvent类[中的](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType)字段。
+>有效负载中的XDM字段名称区分大小写（例如，`webPageDetails.URL`）。 `xdm.eventType`字段是一个字符串值，它自己有一组接受值，这些值中的大小写可能与XDM字段名称不匹配。 有关接受的值，请参阅`eventType`XDM ExperienceEvent类[中的](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/classes/experienceevent#eventType)字段。
 
 +++使用`xdm`字段的最小页面查看次数
 
@@ -193,4 +193,4 @@ Edge Network使用以下逻辑来确定Adobe Analytics [页面查看次数](/hel
 
 +++
 
-请参阅 [Adobe Analytics ExperienceEvent Full Extension 架构字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)，了解更多信息。
+请参阅 [Adobe Analytics ExperienceEvent Full Extension 架构字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)，了解更多信息。
