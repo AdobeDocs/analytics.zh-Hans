@@ -3,7 +3,7 @@ title: 分类集概述
 description: 了解如何使用分类集管理分类数据。 了解分类集与旧版分类有何不同。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -12,12 +12,12 @@ ht-degree: 9%
 
 # 分类集概述
 
-分类集提供单一界面来管理分类和规则。此工作流将在报告包设置中创建的分类与[分类导入器](/help/components/classifications/sets/manage/set-manager.md)相结合。 结果是创建和管理分类数据的单一直观界面。
+分类集提供单一界面来管理分类和规则。此工作流将[报告包设置](/help/admin/tools/manage-rs/report-suites-admin.md)中创建的分类与[分类导入器](/help/components/classifications/sets/manage/set-manager.md)相结合。 结果是创建和管理分类数据的单一直观界面。
 
 
 ## 分类集与旧版分类
 
-分类集和旧版分类的主要区别在于，分类集将所有功能整合到一个界面中，而旧版分类依赖于三个界面。
+分类集和旧版分类的主要区别在于，分类集将所有功能合并到一个界面中，而旧版分类依赖三个界面。
 
 ### 旧版分类
 
@@ -95,7 +95,7 @@ ht-degree: 9%
 
 1. [将包含分类数据的文件上传](/help/components/classifications/sets/manage/schema.md#upload)到分类集架构中。
 
-1. 设置[规则](manage/rules.md)以自动对传入数据和过去的数据进行分类。
+1. 设置[规则](manage/rules.md)以自动对来自过去的传入数据和数据进行分类。
 
 1. [自动](/help/components/classifications/sets/manage/schema.md#automate)通过使用云位置对要显示在分类数据中的产品目录进行更新的过程。
 
@@ -112,7 +112,7 @@ ht-degree: 9%
 
 * 缩短处理时间（从72小时缩短到24小时）。
 * 重新设计了用于管理分类的用户界面。
-* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
+* 用于通过[Adobe Experience Platform源连接器在Adobe Analytics中使用分类数据](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)的选项。
 
 随分类集一起发布的后端架构还包含几项更改：
 

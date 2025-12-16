@@ -3,9 +3,9 @@ description: 了解分类集支持的各种文件格式
 title: 分类集文件格式
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * **JSON**：包含结构化数据的JavaScript对象表示法文件
 * **CSV**：逗号分隔值文件
-* **TSV/TAB**：以制表符分隔的值文件
+* **TSV或TAB**：以Tab分隔的值文件
 
 ## 一般文件要求
 
@@ -48,7 +48,7 @@ JSON文件格式遵循JSON行(JSONL)的约定。 文件每行必须包含一个J
 * `key` （必需）：分类记录的唯一标识符
 * `data` （更新时必需）：包含分类列名称及其值的对象
 * `action` （可选）：要执行的操作。 支持的值包括：
-   * `update` （默认）
+   * `update` （未指定操作时的默认操作）
    * `delete-field`
    * `delete-key`
 * `enc` （可选）：数据编码规范。 支持的值包括：
@@ -57,32 +57,6 @@ JSON文件格式遵循JSON行(JSONL)的约定。 文件每行必须包含一个J
 
 所有JSON字段名称(`key`、`data`、`action`、`enc`)都区分大小写，且必须为小写。
 
-### JSON示例
-
-**基本更新记录：**
-
-```json
-{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
-```
-
-**使用指定的编码更新：**
-
-```json
-{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
-```
-
-**删除特定字段：**
-
-```json
-{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
-```
-
-**删除整个键：**
-
-```json
-{"key": "product999", "action": "delete-key"}
-```
-
 ### JSON验证规则
 
 * `key`字段为必填，不能为null或为空。
@@ -90,6 +64,35 @@ JSON文件格式遵循JSON行(JSONL)的约定。 文件每行必须包含一个J
 * 对于`delete-field`操作，`data`字段必须包含要删除的字段。
 * 对于`delete-key`操作，`data`字段不得存在。
 * 支持的编码值不区分大小写，并包含标准字符集名称。
+
+### JSON示例
+
+JSON文件中的JSON记录的一些示例。
+
+#### 基本更新记录
+
+```json
+{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
+```
+
+#### 使用指定的编码更新
+
+```json
+{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
+```
+
+#### 删除特定字段
+
+```json
+{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
+```
+
+#### 删除整个键
+
+```json
+{"key": "product999", "action": "delete-key"}
+```
+
 
 +++
 
@@ -104,32 +107,6 @@ CSV（逗号分隔值）文件使用逗号分隔分类数据字段。
 * **分隔符**：字段用逗号分隔
 * **引号**：包含逗号、引号或换行符的字段应包含在双引号中
 
-### CSV示例
-
-**基本分类数据：**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Basketball Shoes",Brand A,Sports,89.99
-product456,"Running Shoes",Brand B,Sports,79.99
-product789,"Winter Jacket",Brand C,Clothing,149.99
-```
-
-**删除整个键：**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product999,~deletekey~,,,
-```
-
-**删除特定字段（混合了更新）：**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Updated Product Name",Brand A,Sports,89.99
-product456,,~empty~,~empty~,79.99
-```
-
 ### CSV格式规则
 
 * 包含逗号的字段必须用双引号引住。
@@ -138,11 +115,39 @@ product456,,~empty~,~empty~,79.99
 * 字段周围的前导空格和尾随空格会自动裁剪。
 * 带引号的字段内的特殊字符（制表符、换行符）将被保留。
 
-**删除操作：**
+### csv删除操作
 
 * 在任意字段中使用`~deletekey~`删除整个键及其所有分类数据
 * 在特定字段中使用`~empty~`以仅删除这些分类值（保留其他字段不变）
 * 使用`~empty~`时，可以在同一文件中将删除与更新混合使用
+
+### CSV示例
+
+CSV文件中的CSV记录的示例。
+
+#### 基本分类数据
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Basketball Shoes",Brand A,Sports,89.99
+product456,"Running Shoes",Brand B,Sports,79.99
+product789,"Winter Jacket",Brand C,Clothing,149.99
+```
+
+#### 删除整个键
+
+```csv
+Key,Product Name,Brand,Category,Price
+product999,~deletekey~,,,
+```
+
+#### 删除特定字段（混合了更新）
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Updated Product Name",Brand A,Sports,89.99
+product456,,~empty~,~empty~,79.99
+```
 
 +++
 
@@ -157,9 +162,25 @@ TSV（制表符分隔值）和TAB文件使用制表符字符来分隔分类数�
 * **分隔符**：字段由制表符分隔(`\t`)。
 * **引用**：通常不需要引用，但某些实现支持引用字段。
 
+### TSV和TAB格式规则
+
+* 字段由单个制表符分隔。
+* 空字段（连续制表符）表示null值。
+* 通常不需要特别报价。
+* 保留前导空格和尾随空格。
+* 字段内应避免使用换行符。
+
+### TSV和TAB删除操作
+
+* 在任意字段中使用`~deletekey~`删除整个键及其所有分类数据。
+* 在特定字段中使用`~empty~`以仅删除这些分类值（保留其他字段不变）。
+* 使用`~empty~`时，可以在同一文件中将删除与更新混合使用。
+
 ### TSV和选项卡示例
 
-**基本分类数据：**
+TSV或TAB文件中记录的TSV或TAB分隔的一些示例。
+
+#### 基本分类数据
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -168,14 +189,14 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**删除整个键：**
+#### 删除整个键
 
 ```tsv
 Key    Product Name    Brand    Category    Price
 product999    ~deletekey~            
 ```
 
-**删除特定字段（混合了更新）：**
+#### 删除特定字段（混合了更新）
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -183,39 +204,16 @@ product123    Updated Product Name    Brand A    Sports    89.99
 product456        ~empty~    ~empty~    79.99
 ```
 
-### TSV/选项卡格式规则
-
-* 字段由单个制表符分隔。
-* 空字段（连续制表符）表示null值。
-* 通常不需要特别报价。
-* 保留前导空格和尾随空格。
-* 字段内应避免使用换行符。
-
-**删除操作：**
-
-* 在任意字段中使用`~deletekey~`删除整个键及其所有分类数据。
-* 在特定字段中使用`~empty~`以仅删除这些分类值（保留其他字段不变）。
-* 使用`~empty~`时，可以在同一文件中将删除与更新混合使用。
-
 +++
 
 ## 错误处理
 
-常见上传问题和解决方案：
+上传文件时的常见问题和解决方案：
 
 ### 一般文件格式错误
 
 * **无效的文件格式**：验证您的文件扩展名是否与内容格式（`.json`、`.csv`、`.tsv`或`.tab`）匹配。
 * **未知标头**：列名称必须与您的分类集架构匹配（适用于所有格式）。
-
-### CSV和TSV特定错误
-
-* **第一列必须为键**：请确保您的CSV或TSV文件具有正确的标题行，键列在前。
-* **至少需要两个标题项**： CSV或TSV文件必须至少有一个`Key`列和一个分类列。
-* **第一个标头列必须称为“键”**：第一个列标头必须为`Key`（大写`K`，区分大小写）。
-* **不允许空标头**：所有CSV/TSV列标头都必须有名称。
-* **列数与标头不匹配**：每个CSV或TSV数据行的字段数必须与标头行相同。
-* **&quot;格式错误的文档**：检查CSV引号、TSV文件中的正确制表符分隔等。
 
 ### JSON特定错误
 
@@ -225,6 +223,17 @@ product456        ~empty~    ~empty~    79.99
 * 使用action=delete-key **时，**&#x200B;数据不得存在： JSON delete-key操作不能包含`"data"`字段。
 * **不支持的编码**：仅在`"enc"`字段(`utf8`、`UTF8`、`latin1`、`LATIN1`)中使用支持的编码值。
 * **无效的JSON语法**：请确保JSON文件的格式符合JSONL约定。 另外，还要检查常规JSON格式、缺少引号、逗号、括号等。
+
+
+### CSV和TSV特定错误
+
+* **第一列必须为键**：请确保CSV或TSV文件具有正确的标题行，键列在前。
+* **至少需要两个标题项**： CSV或TSV文件必须至少有一个`Key`列和一个分类列。
+* **第一个标头列必须称为“键”**：第一个列标头必须为`Key`（大写`K`，区分大小写）。
+* **不允许空标头**：所有CSV/TSV列标头都必须有名称。
+* **列数与标头不匹配**：每个CSV或TSV数据行的字段数必须与标头行相同。
+* **&quot;格式错误的文档**：检查CSV引号、TSV文件中的正确制表符分隔等。
+
 
 ### 大小限制错误
 

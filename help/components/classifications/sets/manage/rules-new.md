@@ -4,9 +4,9 @@ description: 了解如何使用分类集规则来定义分类数据的规则。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1662'
 ht-degree: 10%
 
 ---
@@ -24,9 +24,13 @@ ht-degree: 10%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要为其定义规则的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，选择&#x200B;**[!UICONTROL 规则]**选项卡。
 
-   * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您目前决定继续使用旧版规则生成器界面，则将显示一个对话框，允许您选择如何开始使用。 选项包括：
+   * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您目前决定继续使用旧版规则生成器界面，则将显示一个对话框，允许您选择如何开始使用。
+
+     ![规则迁移](assets/rules-migration.png)
+
+     选项包括：
 
       * **迁移现有规则**。 导入当前分类规则，并在新界面中继续使用这些规则。 您的现有规则将被保留并转换为新格式。
          * 选择&#x200B;**[!UICONTROL 迁移规则]**&#x200B;以继续。
@@ -248,7 +252,7 @@ ht-degree: 10%
 
 #### 用例
 
-要定义一个规则，以根据&#x200B;**&#x200B;**&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
+要定义一个规则，以根据&#x200B;****&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
 
 >[!BEGINTABS]
 
