@@ -4,10 +4,10 @@ description: 配置虚拟报表包以启用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '525'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。请参阅[概述页面](overview.md)和所需的拼合方法（分别为[基于字段的拼合](field-based-stitching.md)或[设备图](device-graph.md)），了解先决条件和限制。
+>在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。有关先决条件和限制，请参阅[概述页面](overview.md)和所需的拼接方法（[基于字段的拼接](field-based-stitching.md)）。
 
 ## 1.向客户关怀部门提交工单以在跨设备报表包上配置CDA
 
@@ -27,7 +27,7 @@ CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过
 
 * 您的 Adobe Experience Cloud 组织 ID（一个以 @AdobeOrg 结尾的字母数字字符串）
 * 希望通过 CDA 启用的跨设备报表包的报表包 ID
-* 要使用哪种CDA方法(基于字段的拼合或Adobe设备图)
+* 要使用哪种CDA方法（基于字段的拼合）
 * 如果要使用基于字段的拼合，请提供包含用户 ID 的 prop 或 eVar
 * 您对于重放频率和回看时长的首选项。选项包括每周重放一次且回看时段为 7 天或每天重放一次且回看时段为 1 天。
 默认为每周重放一次且回看时段为 7 天。在此情况下，上周内的数据可能会发生变化（因为它正在逐步拼合和更新）。
