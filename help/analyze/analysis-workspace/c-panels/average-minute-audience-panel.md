@@ -4,7 +4,7 @@ description: 了解如何使用和解读Analysis Workspace中的“媒体平均�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 92%
@@ -33,7 +33,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中的“媒体平均受众访问分钟数”面板。<br/>_查看本文的[&#x200B; &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**媒体平均受众访问分钟数面板**。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中的“媒体平均受众访问分钟数”面板。<br/>_查看本文的[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**媒体平均受众访问分钟数面板**。_
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 1. 创建&#x200B;**[!UICONTROL 媒体平均受众访问分钟数]**&#x200B;面板。有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
 
-1. 确保为面板选择数据视图，该面板具有从Adobe Analytics for Streaming Media加载项配置的组件。
+1. 确保为面板选择具有从Adobe Analytics for Streaming Media加载项配置的组件的报表包。
 
 1. 指定面板的[输入](#panel-input)。
 
@@ -187,8 +187,8 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 >[!MORELIKETHIS]
 >
 > [Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [媒体并行查看者面板](media-concurrent-viewers.md)
-> &#x200B;> [媒体播放耗时面板](media-playback-time-spent.md)
+> [媒体并行查看者面板](media-concurrent-viewers.md)
+> [媒体播放耗时面板](media-playback-time-spent.md)
 >
 
 

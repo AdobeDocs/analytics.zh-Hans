@@ -4,7 +4,7 @@ description: 了解如何在Analysis Workspace中使用和解释“Media Playbac
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 90%
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的媒体播放耗时面板。_<br/>_请参阅[媒体播放耗时面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的媒体播放耗时面板。_<br/>_请参阅[媒体播放耗时面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体播放耗时面板](https://video.tv.adobe.com/v/3446710?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体播放耗时面板](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 1. 创建&#x200B;**[!UICONTROL 媒体播放耗时]**&#x200B;面板。有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
 
-1. 确保为面板选择数据视图，该面板具有从Adobe Analytics for Streaming Media加载项配置的组件。
+1. 确保为面板选择具有从Adobe Analytics for Streaming Media加载项配置的组件的报表包。
 
 1. 指定面板的[输入](#panel-input)。
 
@@ -126,8 +126,8 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 >[!MORELIKETHIS]
 >
 >[Create a panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[“媒体平均受众访问分钟数”面板](average-minute-audience-panel.md)
->&#x200B;>[媒体并行查看者面板](media-concurrent-viewers.md)
+>[“媒体平均受众访问分钟数”面板](average-minute-audience-panel.md)
+>[媒体并行查看者面板](media-concurrent-viewers.md)
 >
 
 <!--
@@ -147,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446710?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

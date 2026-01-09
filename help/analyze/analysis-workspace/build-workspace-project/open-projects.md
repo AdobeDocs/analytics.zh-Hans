@@ -4,7 +4,7 @@ description: 了解如何在Analysis Workspace中打开项目。
 feature: Workspace Basics
 role: User, Admin
 exl-id: 12c5f5a6-a90f-471a-91c3-0fd8c8b1d3a0
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 96%
@@ -38,21 +38,4 @@ ht-degree: 96%
 
 
 1. 选择以前的版本，并单击&#x200B;**[!UICONTROL 加载]**。
-然后，以前的版本会加载并出现一条通知。在单击&#x200B;**[!UICONTROL 保存]**&#x200B;之前，以前的版本不会成为项目的当前保存版本。如果离开已加载的版本，当您再次想要打开以前的版本时，您会看到最后保存的版本。
-
-
-<!-- 
-## Incompatible data view
-
-When you open a project, you might see an **[!UICONTROL Incompatible data view]** warning dialog. This dialog explains that certain components within the project are not enabled in the selected data view for one of the panels in the project. 
-
-![Incompatible](assets/incompatible-data-view.png)
-
-To fix this warning, you can:
-
-* **[!UICONTROL Change the data view]**. Select a proper data view from **[!UICONTROL Change data view:]** ![Data](/help/assets/icons/Data.svg). If the selected data view is valid, your project opens in Analysis Workspace.
-* **[!UICONTROL Return to landing page]**. Your selected project is not opened and you can select another project.
-* **[!UICONTROL Continue anyway]**. Your project opens in Analysis Workspace, but shows errors in some of the visualization and the incompatible data views have an alert ![Alert](/help/assets/icons/Alert.svg) before the name of the data view.
-
-
--->
+然后，以前的版本会加载并出现一条通知。在单击**[!UICONTROL 保存]**&#x200B;之前，以前的版本不会成为项目的当前保存版本。如果离开已加载的版本，当您再次想要打开以前的版本时，您会看到最后保存的版本。

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 88%
 
 ### 预设下拉菜单
 
-预设下拉菜单包括一组标准的预设日期范围和日期范围组件，可用于您保存的数据视图或者与您共享的数据视图。
+预设下拉菜单包括一组标准的预设日期范围和您保存的报表包或与您共享的报表包的日期范围组件。
 
 ### 滚动日期
 

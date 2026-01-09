@@ -5,10 +5,10 @@ title: 策划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 80%
+ht-degree: 71%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [策划项目](https://video.tv.adobe.com/v/328057?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [策划项目](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -31,7 +31,7 @@ ht-degree: 80%
 
 1. 选择&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 策划项目数据]**。项目中使用的组件将会自动添加。
 如果一个项目有多个报表包，您会在项目中看到每个报表包都有一个策划放置目标。
-1. （可选）如需添加更多组件，请将您希望共享的组件从左侧面板拖动至该数据视图的&#x200B;**[!UICONTROL 策划组件]**&#x200B;投放区域。
+1. （可选）要添加更多组件，请将要共享的组件从左侧面板拖至报表包的&#x200B;**[!UICONTROL 策划组件]**&#x200B;拖放区域。
 1. 选择&#x200B;**[!UICONTROL 完成]**。
 
 
@@ -71,5 +71,5 @@ ht-degree: 80%
 | 策划类型 | 管理员 | 非管理员项目所有者或编辑角色 | 非管理员重复角色 |
 |---|---|---|---|
 | **策划的虚拟报表包** | 所有非策划的虚拟报告包组件 | 此角色拥有或与其共享的非策划的虚拟报告包组件 | 此角色拥有或与其共享的非策划的虚拟报告包组件 |
-| **策划的项目** | 所有非策划的项目组件 | 所有非策划的项目组件 | 此角色拥有或与其共享的非策划的项目组件 |
+| **策划的项目** | 所有非策划的项目组件 | 所有非策划的项目组件 | 此角色拥有或已与其共享的非策划项目组件 |
 | **已监管虚拟报表包中的已监管项目** | 所有非策划的组件，如&#x200B;**[!UICONTROL 非策划的项目组件]**&#x200B;和&#x200B;**[!UICONTROL 非策划的虚拟报告包组件]**&#x200B;下所示 | 此角色拥有或与其共享的所有非策划的项目组件和非策划的虚拟报告包组件 | 此角色拥有或与其共享的非策划的虚拟报告包和项目组件 |

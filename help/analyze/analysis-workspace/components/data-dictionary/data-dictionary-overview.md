@@ -4,10 +4,10 @@ title: 数据字典概述
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -65,11 +65,11 @@ Analytics 管理员可通过数据字典实现以下用途：
 
 * 确定尚未批准的组件。
 
-* 直接在 Analysis Workspace 中更新组件描述。对数据字典中组件描述所做的任何更新都会反映在数据视图中。
+* 直接在 Analysis Workspace 中更新组件描述。对数据字典中的组件描述所做的任何更新都会反映在报表包中。
 
-  同样，对数据视图中组件描述所做的任何更新都会反映在 Analysis Workspace 中。
+  同样，对报表包中组件描述所做的任何更新都会反映在Analysis Workspace中。
 
-  有关在 Analysis Workspace 或数据视图中添加组件描述的更多信息，请参阅[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
+  有关在Analysis Workspace或报表包中添加组件说明的详细信息，请参阅[添加组件说明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
 
 ## 访问数据字典
 

@@ -4,10 +4,10 @@ description: 了解如何在Analysis Workspace的自由格式表中为维度项�
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [维度](https://video.tv.adobe.com/v/3445797?captions=chi_hans&quality=12&learn=on){target="_blank"}的超链接。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [维度](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"}的超链接。
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 * 您创建的超链接存储在 Analysis Workspace 项目内的自由格式表中。在另一个表或另一个项目中使用相同维度或维度项时，超链接不会保留。
 
-* 如果更改自由格式表的数据视图，则为表中的维度或维度项创建的任何超链接仍然可用。此功能假定该维度仍然存在于数据视图中。
+* 如果更改自由格式表的报表包，则为表中的维度或维度项目创建的任何超链接仍然可用。 此功能假定报表包中仍存在该维度。
 
 * 创建超链接时，不会检查 URL 的有效性。如果您
 
