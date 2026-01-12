@@ -27,7 +27,7 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476894/?captions=chi_hans&format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -64,7 +64,7 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476894/?captions=chi_hans&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -180,7 +180,7 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476894/?captions=chi_hans&learn=on&enablevpops)
 
 加入[Adobe Experience League](https://experienceleague.adobe.com/zh-hans)以访问[文档](https://experienceleague.adobe.com/zh-hans/docs/analytics)、[教程](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/overview)等，帮助您成功。
 
