@@ -4,10 +4,10 @@ description: 了解如何为用户设置常规偏好和项目偏好。
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
 workflow-type: tm+mt
-source-wordcount: '3456'
-ht-degree: 99%
+source-wordcount: '3485'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://video.tv.adobe.com/v/3429988/?captions=chi_hans&quality=12&learn=on){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -98,6 +98,11 @@ ht-degree: 99%
 
 单击链接的偏好设置标题以获取有关每个偏好设置的更多信息和上下文。
 
+>[!IMPORTANT]
+>
+>您无法再在&#x200B;**[!UICONTROL 用户首选项]**&#x200B;的&#x200B;**[!UICONTROL 项目和分析]** > **[!UICONTROL 数据]**&#x200B;部分中定义数字格式。 数字格式自动由为登录用户配置的[默认语言](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language)确定。
+>
+
 | 部分 | 偏好设置 | 选项 |
 | --- | --- | --- |
 | **显示** | | |
@@ -108,7 +113,6 @@ ht-degree: 99%
 |  | [日历](/help/analyze/analysis-workspace/c-panels/panels.md) | 从以下列表中选择： <ul><li>Adobe 提供的范围（默认为“本月”）</li><li>自定义范围</li></ul> |
 |  | [面板类型](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>自由格式（默认）</li><li>空白</li><li>快速洞察</li></ul> |
 |  | 计数重复实例 | 指定是否将重复实例计入报告中。例如，此设置（激活时）会将同一页面的多次连续页面查看视为多次页面查看。关闭它后，它们将计为单个页面视图。 <p>**注意：**&#x200B;此设置仅影响某些量度（例如单页访问），不适用于流量或流失可视化。</p> |
-|  | 数字格式 | <ul><li>1,000.00（默认）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符字符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线</li><li>句点</li><li>空格</li><li>制表符</li></ul> |
 |  | 显示注释 | 选择注释是否在您的项目中可见。有关注释的更多信息，请参阅[注释概述](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
 
@@ -178,7 +182,7 @@ ht-degree: 99%
 | | 标准化（适用时） | 要求所有量度按等比例计算。当绘制的量度数量级相差较大时，此设置非常有用。 |
 | | 将 Y 轴定位在零 | 如果图表上绘制的所有值都远远大于零，图表默认会将 y 轴底部设置为非零值。如果选中此框，y 轴将被强制设为零（并将重新绘制图表）。 |
 | | 允许异常缩放 Y 轴 | 如果图表中有多个量度，则必须将鼠标悬停在每个异常上以查看该量度的置信区间。为了使可视化更清晰，异常检测置信区间不会自动缩放 y 轴。此选项允许置信区间缩放可视化。 <p>有关详细信息，请参阅 Analysis Workspace 中的[查看异常情况](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)。</p> |
-| **[线形图](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
+| **[折线图](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
 | | 百分比 | 以百分比显示线条可视化的值。 |
 | | 图例可见 | 隐藏折线图可视化的详细图例文本。 |
 | | 限制最大项目数 | 减少直线可视化中 X 轴上的项目数。当数据集较大时，此设置非常有用。 |
