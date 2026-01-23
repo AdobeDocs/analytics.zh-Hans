@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 99%
+source-wordcount: '748'
+ht-degree: 100%
 
 ---
 
@@ -233,7 +233,7 @@ ht-degree: 99%
       + [计算量度总计](calculated-metrics/cm-totals.md)
       + [默认计算量度](calculated-metrics/cm-reference/default-calcmetrics.md)
 + 虚拟报告包 {#virtual-report-suites}
-   + [虚拟报告包概述](vrs/vrs-about.md)
+   + [虚拟报表包概述](vrs/vrs-about.md)
    + [虚拟报告包 — 组件管理](vrs/vrs-components.md)
    + [上下文感知会话](vrs/vrs-mobile-visit-processing.md)
    + [报表时间处理](vrs/vrs-report-time-processing.md)
@@ -270,7 +270,6 @@ ht-degree: 99%
          + [设置](classifications/sets/manage/settings.md)
          + [架构](classifications/sets/manage/schema.md)
          + [规则](classifications/sets/manage/rules.md)
-         + [新规则](classifications/sets/manage/rules-new.md)
       + [分类作业](classifications/sets/job-manager.md)
       + 分类合并 {#consolidations}
          + [管理](classifications/sets/consolidations/manage.md)
