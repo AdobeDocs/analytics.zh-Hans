@@ -26,7 +26,7 @@ ht-degree: 68%
 * 创建功能板以查看这些关键量度和变量每小时的趋势视图（或为每个量度设置[警报](/help/components/alerts/alerts-overview.md)）。 然后，对其进行一到两天的监控，确保您能获得所需数据并且数据正确。 寻找拐点。准备好立即纠正任何严重问题。如果发现任何误差，请查看数据层、标签管理器规则及处理规则，并找出原因。
 * 重新运行 [Analytics 运行状况功能板](https://express.adobe.com/page/tnNQGNlfzta3b/)，以监控 KPI 量度和变量的总体趋势。
 
-*有关如何确保量度和变量正常工作的更多详细信息，[请参阅 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)Adobe Analytics 冠军 Sarah Owen 给出的这些提示。*
+*有关如何确保量度和变量正常工作的更多详细信息，[请参阅 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=zh-Hans)Adobe Analytics 冠军 Sarah Owen 给出的这些提示。*
 
 ## &#x200B;3. 彻底检查网站更新部分的数据
 

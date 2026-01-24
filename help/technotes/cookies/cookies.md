@@ -178,4 +178,4 @@ Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改�
 >[!MORELIKETHIS]
 >
 >[减轻浏览器 Cookie 限制影响的选项](cookieless.md)
->>[Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>>[Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=zh-Hans)

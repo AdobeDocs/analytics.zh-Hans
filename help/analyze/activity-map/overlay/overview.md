@@ -50,7 +50,7 @@ Activity Map扩展允许您查看网站上覆盖的点击数据。 您可以通�
 * **[!UICONTROL 显示设置]**：打开一个菜单，以显示可更改的设置（齿轮图标）：
    * **[!UICONTROL 设置]**：打开扩展的[设置](settings.md)。
    * **[!UICONTROL 帮助]**：向Experience League打开文档（此页面）。
-   * **[!UICONTROL Adobe社区]**：打开[Experience League社区](https://experienceleaguecommunities.adobe.com/)。
+   * **[!UICONTROL Adobe社区]**：打开[Experience League社区](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hans)。
    * **[!UICONTROL 关于]**：显示扩展版本。
    * **[!UICONTROL 注销]**：将您从扩展注销，要求您重新登录。
 * **[!UICONTROL 退出Activity Map]**：关闭扩展的所有叠加图（X图标）。

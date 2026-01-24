@@ -46,6 +46,6 @@ Adobe Analytics 的一些主要功能包括：
 ## 其他 Analytics 资源
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
-* [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hans)
+* [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hans)
 * [Experience League](https://landing.adobe.com/experience-league/)
