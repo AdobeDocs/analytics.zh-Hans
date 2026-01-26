@@ -24,7 +24,7 @@ ht-degree: 13%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要为其定义规则的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，选择&#x200B;**[!UICONTROL 规则]**选项卡。
 
    * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您目前决定继续使用旧版规则生成器界面，则将显示一个对话框，允许您选择如何开始使用。 选项包括：
 
@@ -283,7 +283,7 @@ ht-degree: 13%
 
 #### 用例
 
-要定义一个规则，以根据&#x200B;**&#x200B;**&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
+要定义一个规则，以根据&#x200B;****&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
 
 >[!BEGINTABS]
 
