@@ -3,7 +3,7 @@ title: 分类集概述
 description: 了解如何使用分类集管理分类数据。了解分类集与旧版分类有何不同。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 分类集概述
 
-分类集提供单一界面来管理分类和规则。此工作流将[报告包设置](/help/admin/tools/manage-rs/report-suites-admin.md)中的分类创建与[分类导入器](/help/components/classifications/sets/manage/set-manager.md)结合起来。结果是一个用于创建和管理分类数据的直观界面。
+分类集提供单一界面来管理分类和规则。此工作流将[报告包设置](/help/admin/tools/manage-rs/report-suites-admin.md)中的分类创建与[分类导入器](/help/components/classifications/sets/set-manager.md)结合起来。结果是一个用于创建和管理分类数据的直观界面。
 
 
 ## 分类集与旧版分类
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 分类集由三个功能区组成：
 
-* [**[!UICONTROL 分类集]**](manage/set-manager.md)：创建、编辑和删除分类集。
+* [**[!UICONTROL 分类集]**](set-manager.md)：创建、编辑和删除分类集。
 * [**[!UICONTROL 作业]**](job-manager.md)：查看分类集作业的状态。
 * [**[!UICONTROL 合并]**](consolidations/manage.md)：将多个分类集合并为一个分类集。
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 分类集的工作流通常涉及以下步骤：
 
 1. 考虑您想为哪些报告包和维度组合创建分类集。例如，您可以为任何报告包定义一个产品分类集，以便对产品进行更详细的分类。例如，类别和颜色等详细信息。
-1. [创建一个分类集](/help/components/classifications/sets/manage/create.md)，其中包含一个或多个报告包的订阅和用于识别产品的键维度组合。例如：
+1. [创建一个分类集](/help/components/classifications/sets/create.md)，其中包含一个或多个报告包的订阅和用于识别产品的键维度组合。例如：
 
    | 报告包 | 关键维度 |
    |---|---|
