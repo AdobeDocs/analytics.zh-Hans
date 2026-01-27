@@ -27,7 +27,7 @@ Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面都提供了
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [配置变量](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [配置变量](https://video.tv.adobe.com/v/31220?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
