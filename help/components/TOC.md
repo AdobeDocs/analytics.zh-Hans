@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -264,9 +264,9 @@ ht-degree: 100%
    + 分类集 {#sets}
       + [概述](classifications/sets/overview.md)
       + [数据文件](classifications/sets/data-files.md)
-      + 分类集 {#manage}
-         + [管理](classifications/sets/manage/set-manager.md)
-         + [创建和编辑](classifications/sets/manage/create.md)
+      + [创建和编辑](classifications/sets/manage/create.md)
+      + [管理](classifications/sets/manage/set-manager.md)
+      + 分类集 {#set}
          + [设置](classifications/sets/manage/settings.md)
          + [架构](classifications/sets/manage/schema.md)
          + [规则](classifications/sets/manage/rules.md)
@@ -274,25 +274,26 @@ ht-degree: 100%
       + 分类合并 {#consolidations}
          + [管理](classifications/sets/consolidations/manage.md)
          + [创建和编辑](classifications/sets/consolidations/process.md)
-   + 分类规则构建器（旧版）{#classifications-rulebuilder}
-      + [概述](classifications/crb/classification-rule-builder.md)
-      + [分类规则集](classifications/crb/classification-rule-set.md)
-      + [分类规则](classifications/crb/classification-quickstart-rules.md)
-      + [分类规则定义](classifications/crb/classification-rule-definitions.md)
-      + [子分类和规则构建器](classifications/crb/subclassification-rule-builder.md)
-   + 分类导入程序（旧版）{#classifications-importer}
-      + [分类导入器概述](classifications/importer/c-working-with-saint.md)
-      + [分类数据文件](classifications/importer/c-saint-data-files.md)
-      + [删除分类数据](classifications/importer/t-delete-classification-data.md)
-      + [分类模板](classifications/importer/c-download-saint-data.md)
-      + [浏览器导入](classifications/importer/browser-import.md)
-      + [浏览器导出](classifications/importer/browser-export.md)
-      + [FTP 导入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-      + [FTP 导出](classifications/importer/ftp-export.md)
-      + [处理时间](classifications/importer/processing-time.md)
-      + [子分类](classifications/importer/subclassifications.md)
-      + [故障排除](classifications/importer/troubleshooting.md)
-      + [常见问题解答](classifications/importer/importer-faq.md)
+   + 旧版分类 {#legacy-classifications}
+      + 分类规则生成器 {#classifications-rulebuilder}
+         + [概述](classifications/crb/classification-rule-builder.md)
+         + [分类规则集](classifications/crb/classification-rule-set.md)
+         + [分类规则](classifications/crb/classification-quickstart-rules.md)
+         + [分类规则定义](classifications/crb/classification-rule-definitions.md)
+         + [子分类和规则构建器](classifications/crb/subclassification-rule-builder.md)
+      + 分类导入器 {#classifications-importer}
+         + [分类导入器概述](classifications/importer/c-working-with-saint.md)
+         + [分类数据文件](classifications/importer/c-saint-data-files.md)
+         + [删除分类数据](classifications/importer/t-delete-classification-data.md)
+         + [分类模板](classifications/importer/c-download-saint-data.md)
+         + [浏览器导入](classifications/importer/browser-import.md)
+         + [浏览器导出](classifications/importer/browser-export.md)
+         + [FTP 导入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+         + [FTP 导出](classifications/importer/ftp-export.md)
+         + [处理时间](classifications/importer/processing-time.md)
+         + [子分类](classifications/importer/subclassifications.md)
+         + [故障排除](classifications/importer/troubleshooting.md)
+         + [常见问题解答](classifications/importer/importer-faq.md)
 + 位置 {#locations}
    + [位置管理器](/help/components/locations/locations-manager.md)
    + [云导入帐号](/help/components/locations/configure-import-accounts.md)
@@ -309,3 +310,4 @@ ht-degree: 100%
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
    + [营销渠道常见问题解答和示例](c-marketing-channels/c-faq.md)
+
