@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4227'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 0%
    | [!UICONTROL **完成后发送电子邮件**] | 馈送完成处理后所通知的电子邮件地址。电子邮件地址的格式必须正确。 |
    | [!UICONTROL **馈送间隔**] | 选择&#x200B;**每日**&#x200B;用于回填或历史数据。每日馈送包含报告包所在时区从午夜到午夜的一整天数据。选择&#x200B;**每小时**&#x200B;用于连续数据（如果您希望，也可以为连续馈送使用“每日”）。每小时馈送包含一个小时的数据。 |
    | [!UICONTROL **延迟处理**] | 在处理数据馈送文件之前等待一段指定的时间。延迟可用于为移动设备实施提供使离线设备变为在线并发送数据的机会。它还可用于在管理以前处理的文件时容纳组织的服务器端进程。在大多数情况下，无需延迟。馈送最多可延迟 120 分钟。 |
-   | [!UICONTROL **开始日期和结束日期**] | 开始日期表示您希望数据馈送开始的日期。要立即开始处理历史数据的数据馈送，可将此日期设置为过去收集数据时的任何日期。开始日期和结束日期基于报表包所在的时区。 |
+   | [!UICONTROL **开始日期和结束日期**] | 开始日期表示您希望数据馈送开始的日期。要立即开始处理历史数据的数据馈送，可将此日期设置为过去收集数据时的任何日期。开始日期和结束日期基于报告包所在的时区。 |
    | [!UICONTROL **持续馈送**] | 勾选此复选框可以移除结束日期，允许馈送无限期运行。当馈送完成历史数据处理时，馈送会等待完成给定小时或天的数据收集。当前小时或天结束后，处理将在指定的延迟后开始。 |
 
 1. 在&#x200B;[!UICONTROL **目标**]&#x200B;部分中，在&#x200B;[!UICONTROL **类型**]&#x200B;下拉菜单中选择您希望数据发送到那里的目标。
@@ -102,7 +102,7 @@ ht-degree: 0%
 
       现在显示 Amazon S3 导出位置页面。
 
-   1. （根据条件）如果 Adobe Analytics 已配置了 Amazon S3 帐户（以及该帐户上的一个位置），您可以将其用作数据馈送目标：
+   1. （视情况而定）如果 Adobe Analytics 已配置了 Amazon S3 帐户（以及该帐户上的一个位置），您可以将其用作数据馈送目标：
 
       >[!NOTE]
       >
@@ -124,7 +124,7 @@ ht-degree: 0%
 
       现在目标已配置为将数据发送到您指定的 Amazon S3 位置。
 
-   1. （根据条件）如果您之前还未添加 Amazon S3 帐户：
+   1. （视情况而定）如果您之前还未添加 Amazon S3 帐户：
 
       1. 选择&#x200B;[!UICONTROL **添加帐户**]，然后指定以下信息：
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
          现在目标已配置为将数据发送到您指定的 Amazon S3 位置。
 
-      1. （根据条件）如果您需要管理刚刚创建的目标（帐户和位置），可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
+      1. （视情况而定）如果您需要管理刚刚创建的目标（帐户和位置），可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
 
    +++
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 
       现在显示 Azure RBAC 导出位置页面。
 
-   1. （根据条件）如果 Adobe Analytics 已配置了 Azure RBAC 帐户（以及该帐户上的一个位置），您可以将其用作数据馈送目标：
+   1. （视情况而定）如果 Adobe Analytics 已配置了 Azure RBAC 帐户（以及该帐户上的一个位置），您可以将其用作数据馈送目标：
 
       >[!NOTE]
       >
@@ -196,7 +196,7 @@ ht-degree: 0%
 
          现在目标已配置为将数据发送到您指定的 Azure RBAC 位置。
 
-   1. （根据条件）如果您之前还未添加 Azure RBAC 帐户：
+   1. （视情况而定）如果您之前还未添加 Azure RBAC 帐户：
 
       1. 选择&#x200B;[!UICONTROL **添加帐户**]，然后指定以下信息：
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 
          现在目标已配置为将数据发送到您指定的 Azure RBAC 位置。
 
-      1. （根据条件）如果您需要管理刚刚创建的目标（帐户和位置），可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
+      1. （视情况而定）如果您需要管理刚刚创建的目标（帐户和位置），可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
 
    +++
 
@@ -248,7 +248,7 @@ ht-degree: 0%
 
       现在显示 Azure SAS 导出位置页面。
 
-   1. （根据条件）如果 Adobe Analytics 已配置了 Azure SAS 帐户（以及该帐户上的一个位置），您可以将其用作数据馈送目标：
+   1. （视情况而定）如果 Adobe Analytics 已配置了 Azure SAS 帐户（以及该帐户上的一个位置），您可以将其用作数据馈送目标：
 
       >[!NOTE]
       >
@@ -270,7 +270,7 @@ ht-degree: 0%
 
          现在目标已配置为将数据发送到您指定的 Azure SAS 位置。
 
-   1. （根据条件）如果您之前还未添加 Azure SAS 帐户：
+   1. （视情况而定）如果您之前还未添加 Azure SAS 帐户：
 
       1. 选择&#x200B;[!UICONTROL **添加帐户**]，然后指定以下信息：
 
@@ -280,7 +280,7 @@ ht-degree: 0%
          | [!UICONTROL **帐户描述**] | Azure SAS 帐户的描述。这个描述会显示在&#x200B;[!UICONTROL **选择帐户**]&#x200B;下拉字段中，您可以选择任何名称。 |
          | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
          | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-         | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥存储库中 SAS URI 的路径。要配置 Azure SAS，需要使用 Azure Key Vault 将 SAS URI 存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。<p>有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果要在不创建访问策略的情况下直接授予访问角色，请参阅 [Microsoft Azure 文档，了解如何使用 Azure 门户分配 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。这将为应用程序 ID 添加访问密钥存储库 URI 的角色分配。 </p></li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul> |
+         | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥存储库中 SAS URI 的路径。要配置 Azure SAS，需要使用 Azure Key Vault 将 SAS URI 存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。<p>有关信息，请参阅[有关如何分配密钥存储库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果要在不创建访问策略的情况下直接授予访问角色，请参阅 [Microsoft Azure 文档，了解如何使用 Azure 门户分配 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。这将为应用程序 ID 添加访问密钥存储库 URI 的角色分配。 </p></li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul> |
          | [!UICONTROL **密钥保管库密码名称**] | 将密码添加到 Azure 密钥保管库时创建的密码名称。在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥保管库**&#x200B;设置页面上创建的密钥保管库中。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
          | [!UICONTROL **密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
@@ -301,7 +301,7 @@ ht-degree: 0%
 
          现在目标已配置为将数据发送到您指定的 Azure SAS 位置。
 
-      1. （根据条件）如果您需要管理刚刚创建的目标（帐户和位置），可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
+      1. （视情况而定）如果您需要管理刚刚创建的目标（帐户和位置），可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
 
    +++
 
@@ -321,7 +321,7 @@ ht-degree: 0%
 
       现在显示 GCP 导出位置页面。
 
-   1. （根据条件）如果 Adobe Analytics 已配置了 Google Cloud Platform 帐户（以及该帐户上的一个位置），您可以将其用作数据馈送目标：
+   1. （视情况而定）如果 Adobe Analytics 已配置了 Google Cloud Platform 帐户（以及该帐户上的一个位置），您可以将其用作数据馈送目标：
 
       >[!NOTE]
       >
@@ -343,7 +343,7 @@ ht-degree: 0%
 
          现在目标已配置为将数据发送到您指定的 Google Cloud Platform 位置。
 
-   1. （根据条件）如果您之前还未添加 GCP 帐户：
+   1. （视情况而定）如果您之前还未添加 GCP 帐户：
 
       1. 选择&#x200B;[!UICONTROL **添加帐户**]，然后指定以下信息：
 
@@ -371,7 +371,7 @@ ht-degree: 0%
 
          现在目标已配置为将数据发送到您指定的 GCP 位置。
 
-      1. （根据条件）如果您需要管理刚刚创建的目标（帐户和位置），可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
+      1. （视情况而定）如果您需要管理刚刚创建的目标（帐户和位置），可以在[位置管理器](/help/components/locations/locations-manager.md)中找到它。
 
    +++
 

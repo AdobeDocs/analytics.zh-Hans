@@ -8,7 +8,7 @@ role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -22,12 +22,12 @@ Analytics 提供了多个变量来收集 Analytics 数据。此部分中的变�
 
 ## 变量和实施方法
 
-Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面中都提供了一部分来说明如何使用Web SDK、使用Adobe Analytics扩展和使用AppMeasurement for JavaScript实施该变量。
+Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面都提供了一个部分，介绍如何使用 Web SDK、Adobe Analytics 扩展以及 AppMeasurement for JavaScript 来实施此变量。
 
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置变量](https://video.tv.adobe.com/v/31220?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [配置变量](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -36,9 +36,9 @@ Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面中都提供
 
 在向 Adobe 发送数据时，由 Adobe Analytics 发布的 AppMeasurement 库将按特定顺序依次执行。如果您不按顺序执行任务，则数据可能不完整。
 
-1. 如果您的网站使用数据层，请确保首先填充所有适用变量。例如，您使用页面标题填充`adobeDataLayer.page.title`。 有关更多信息，请参阅[数据层](../prepare/data-layer.md)。
-2. 使用数据层填充 Analytics 变量。<br/>如果您使用Adobe Experience Platform中的标记，此任务可通过在标记之间使用数据元素来完成。 使用数据层中的值填充数据元素。 例如，数据元素`Page Title`从数据层变量`adobeDataLayer.page.title`获取值。 <br/>然后可以使用数据元素填充Analytics变量。 例如，`eVar4`从数据元素`Page Title`获取值。 <br/>查看详细信息[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)、[将数据层对象映射到数据元素](../launch/layer-to-elements.md)以及[将标记数据元素映射到Analytics变量](../launch/elements-to-variable.md)
-3. 最后，调用跟踪函数。 大多数 AppMeasurement 库都使用 `t()` 方法，但某些 Mobile SDK 使用 `track()`。调用跟踪函数时，在 Analytics 对象中定义的所有受支持变量都将以图像请求的形式发送到 Adobe。
+1. 如果您的网站使用数据层，请确保首先填充所有适用变量。例如，您用页面标题填充 `adobeDataLayer.page.title`。有关更多信息，请参阅[数据层](../prepare/data-layer.md)。
+2. 使用数据层填充 Analytics 变量。<br/>如果您使用 Adobe Experience Platform 中的标记，就可以通过使用这些标记之间的数据元素来完成这个任务。通过数据层中的值填充数据元素。例如，数据元素 `Page Title` 从数据层变量 `adobeDataLayer.page.title` 中获得值。<br/>然后您可以使用这个数据元素填充 Analytics 变量。例如，`eVar4` 从数据元素 `Page Title` 中获得值。<br/>有关更多信息，请查阅[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)、[将数据层对象映射到数据元素](../launch/layer-to-elements.md)以及[将标记数据元素映射到 Analytics 变量](../launch/elements-to-variable.md)
+3. 最后，调用跟踪函数。大多数 AppMeasurement 库都使用 `t()` 方法，但某些 Mobile SDK 使用 `track()`。调用跟踪函数时，在 Analytics 对象中定义的所有受支持变量都将以图像请求的形式发送到 Adobe。
 
 ## 非法字符
 

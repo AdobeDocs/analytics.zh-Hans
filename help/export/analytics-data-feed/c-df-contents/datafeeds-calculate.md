@@ -7,7 +7,7 @@ exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->通常会从Analysis Workspace中排除的点击将包含在数据馈送中。 如果查询相关，请考虑添加以下条件：
+>Analysis Workspace 中不包含的点击通常包含在数据馈送中。考虑为您相关的查询添加以下条件：
 >
->* **`exclude_hit`**： Analysis Workspace仅包含`exclude_hit = 0`的数据。
->* **`customer_perspective`**： Analysis Workspace仅包含`customer_perspective = 0`的数据，除非您使用的虚拟报表包包含移动设备后台点击量。
->* **`hit_source`**：数据源中的数据可能包含原始数据与Analysis Workspace之间的差异。 如果要从数据源排除点击，请排除`hit_source = 5,7,8,9`的所有行。
+>* **`exclude_hit`**： Analysis Workspace 仅包含符合 `exclude_hit = 0` 的数据。
+>* **`customer_perspective`**： Analysis Workspace 仅包含符合 `customer_perspective = 0` 的数据，除非您使用的虚拟报告包中包含了移动后台点击。
+>* **`hit_source`**：数据源中的数据可能包含原始数据与 Analysis Workspace 之间的差异。如果要排除数据源中的点击，应排除符合 `hit_source = 5,7,8,9` 的所有行。
 
 ## 页面查看
 
@@ -31,18 +31,18 @@ ht-degree: 76%
 
 1. 计算总行数。
 
-## 访问
+## 访问次数
 
 1. 拼接 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 1. 计算唯一值的数量。
 
 >[!TIP]
 >
->Internet 违规、系统违规或使用自定义访客 ID 极少数情况下会将相同的 `visit_num` 值用于不同的访问。虽然可选，但在计算访问次数时使用`visit_start_time_gmt`以确保计算这些访问次数。
+>Internet 违规、系统违规或使用自定义访客 ID 极少数情况下会将相同的 `visit_num` 值用于不同的访问。虽然是可选的，但在计算访问次数时使用 `visit_start_time_gmt` 可确保计入这些访问量。
 
 ## 访客
 
-Adobe用于识别独特访客的所有方法(自定义访客ID、Experience Cloud ID服务等)最终都会计算为`post_visid_high`和`post_visid_low`中的值。 无论以何种方式标识为独特访客，均可使用这两列的拼接来作为标识独特访客的标准。如果您想了解 Adobe 使用哪种方法来识别独特访客，请使用列 `post_visid_type`。
+Adobe 用于识别独特访客的所有方法（自定义访客 ID、Experience Cloud ID 服务等）最终都会被计算为 `post_visid_high` 和 `post_visid_low` 中的一个值。无论以何种方式标识为独特访客，均可使用这两列的拼接来作为标识独特访客的标准。如果您想了解 Adobe 使用哪种方法来识别独特访客，请使用列 `post_visid_type`。
 
 1. 拼接 `post_visid_high` 和 `post_visid_low`。
 2. 计算唯一值的数量。

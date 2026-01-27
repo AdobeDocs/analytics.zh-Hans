@@ -6,7 +6,7 @@ exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -72,20 +72,20 @@ ht-degree: 82%
 
       | 字段 | 功能 |
       |---------|----------|
-      | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 此名称会在创建位置时出现 |
+      | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。此名称会在创建位置时出现 |
       | [!UICONTROL **位置帐户描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。 |
-      | [!UICONTROL **使帐户对贵组织的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该帐户。<p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> |
-      | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
+      | [!UICONTROL **使组织中所有用户都能使用帐户**] | 启用此选项后，组织中的其他用户就可以使用此帐户。<p>共享帐户时请考虑以下事项：</p><ul><li>您已共享的帐户无法取消共享。</li><li>共享帐户只能由帐户的所有者进行编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> |
+      | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，参阅[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中的说明。如果无法按这个部分中所述创建帐户，请与系统管理员联系。</p> |
 
-   1. 在&#x200B;[!UICONTROL **帐户属性**]&#x200B;部分中，指定特定于所选帐户类型的信息。
+   1. 在&#x200B;[!UICONTROL **帐户属性**]&#x200B;部分中，指定您选定的帐户类型的特有信息。
 
-      有关配置说明，请展开下面与您选择的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的部分。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
+      有关配置说明，请展开与选定的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的以下部分。（也提供了其他旧帐户类型，但建议不要使用。）
 
       **帐户类型**
 
       +++Amazon S3 Role ARN
 
-      **注意：**&#x200B;在将Amazon S3与Data Warehouse结合使用时，仅支持SSE-S3加密。
+      **注意：** Amazon S3 与 Data Warehouse 一起使用时，仅支持 SSE-S3 加密。
 
       若要配置 Amazon S3 角色 ARN 帐户，请指定以下信息：
 
@@ -117,8 +117,8 @@ ht-degree: 82%
       |---------|----------|
       | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
       | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-      | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。要配置Azure SAS，必须使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果要直接授予访问角色而不创建访问策略，请参阅[Microsoft Azure文档，了解如何使用Azure门户分配Azure角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。 这会添加应用程序ID的角色分配，以访问密钥保管库URI。 </p> |
-      | [!UICONTROL **密钥保管库密码名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥保管库中，位于&#x200B;**密钥保管库**&#x200B;设置页面上。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+      | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。要配置 Azure SAS，必须使用 Azure 密钥存储库将 SAS 令牌存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥存储库 URI 后，在密钥存储库中添加访问策略，以授予对您创建的 Azure 应用程序的访问权限。有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果要在不创建访问策略的情况下直接授予访问角色，请参阅 [Microsoft Azure 文档，了解如何使用 Azure 门户分配 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。这将为应用程序 ID 添加访问密钥存储库 URI 的角色分配。 </p> |
+      | [!UICONTROL **密钥存储库密码名称**] | 将密码添加到 Azure 密钥存储库时所创建的密码名称。在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥存储库**&#x200B;设置页面上创建的密钥存储库中。有关信息，请参阅[有关如何从 Azure 密钥存储库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
       | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
       {style="table-layout:auto"}
@@ -143,7 +143,7 @@ ht-degree: 82%
 
       >[!NOTE]
       >
-      >电子邮件帐户只能用于[数据馈送](/help/export/analytics-data-feed/create-feed.md)。 (不支持电子邮件帐户使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分类集](/help/components/classifications/sets/overview.md))。
+      >电子邮件帐户只能与[数据馈送](/help/export/analytics-data-feed/create-feed.md)使用。（电子邮件帐户不支持 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或[分类集](/help/components/classifications/sets/overview.md)）。
 
       若要配置 Azure RBAC 帐户，请指定以下信息：
 

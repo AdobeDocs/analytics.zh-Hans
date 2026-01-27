@@ -6,7 +6,7 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 77%
 
 *此帮助页面介绍 eVar 如何作为[维度](overview.md)使用。有关如何实施 eVar 的信息，请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
-eVar是自定义[维度](overview.md)，您可以随意使用。 如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则您组织专属的大多数维度最终都将是[!UICONTROL eVars]。
+eVar 是自定义[维度](overview.md)，您可以根据需要随意使用。如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则您的组织专用的大多数维度最终都将是 [!UICONTROL eVar]。
 
-默认情况下，eVar会在设定的点击之外继续存在。 有关eVar持久性如何在Adobe的架构上进行操作的详细信息，请参阅下面的[eVar的工作方式](#how-evars-work)和[eVar如何与量度绑定](#how-evars-tie-to-metrics)部分。 您可以在[报表包设置](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)中的[!UICONTROL 转换变量]下启用、禁用或自定义其到期和分配。 下图显示了“转化变量”界面中eVar定义的示例：
+默认情况下，eVar 在被设置的点击发生后会继续存在。有关 eVar 的持久性如何在 Adobe 的架构上运行的详细信息，请参阅下面的 [eVar 如何工作](#how-evars-work)以及 [eVar 如何与量度绑定](#how-evars-tie-to-metrics)两个部分。您可以在[!UICONTROL 报告包设置]中的[转化变量](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)中启用、禁用或自定义其有效期限和分配。下图显示了转化变量界面中 eVar 定义的一个例子：
 
 ![Evar 示例](assets/evars-sample.png)
 
 可用 eVar 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 250 个 eVar 可供使用。
 
-报表中使用的大写或小写基于您在给定日历月中发送的第一个值。 根据报表窗口以及首次收集的eVar值的大小写，大小写可能会发生更改。
+报告中使用的大写或小写基于您在某个给定的日历月中发送的第一个值。取决于报告窗口以及此时段内首次收集的 eVar 值的情况，大小写可能会发生变化。
 
 ## 使用数据填充 eVar
 
@@ -45,7 +45,7 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 
 ### eVar 如何与指标绑定
 
-成功事件和eVar通常在不同的时间定义。 `post_evar` 列允许 eVar 值将自己绑定到事件，以显示报告中的数据。以下列访问为例：
+成功事件和 eVar 通常在不同的时期中定义。`post_evar` 列允许 eVar 值将自己绑定到事件，以显示报告中的数据。以下列访问为例：
 
 1. 访客来到您主页的网站。
 2. 他们使用您网站的内部搜索功能搜索“cat”。您的实施使用 eVar1 进行内部搜索。
@@ -78,10 +78,10 @@ Adobe Analytics 中的工具（如 Analysis Workspace）可以处理此收集的
 
 Analysis Workspace 使用以下逻辑提取此报表：
 
-* 查看所有`event_list`值，并选取其中包含`purchase`的所有行。
-* 在这些行中，显示`post_evar1`值。
+* 查看所有 `event_list` 值，挑选出其中所有带 `purchase` 的行。
+* 从这些行中显示 `post_evar1` 值。
 
-生成的报告在左侧显示`post_evar1`中包含的每个不同值，并在右侧显示有多少订单归因于该值。
+生成的报告中，左侧显示 `post_evar1` 中包含的每一个不同的值，右侧显示有多少订单归因于这个值。
 
 ### 分配和有效期限的重要性
 

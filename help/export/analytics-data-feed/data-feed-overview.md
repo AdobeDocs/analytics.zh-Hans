@@ -1,13 +1,13 @@
 ---
-description: 了解如何使用数据馈送从Adobe Analytics中获取原始数据。 了解使用数据馈送的先决条件，以及下一步操作。
+description: 了解如何使用数据馈送从 Adobe Analytics 中获取原始数据。了解使用数据馈送的前提条件以及下一步该怎么做。
 keywords: 点击流;数据馈送;数据馈送;数据馈送
-title: Analytics数据馈送概述
+title: Analytics 数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 79%
 * [数据馈送最佳实践](/help/export/analytics-data-feed/data-feeds-best-practices.md)：有关创建和管理数据馈送的最佳实践。
 * [创建数据馈送](create-feed.md)：有关创建数据馈送的技术详细信息，更加详细地阐述各个字段
 * [管理数据馈送](df-manage-feeds.md)：了解有关导览数据馈送界面的更多信息
-* [数据馈送内容](c-df-contents/datafeeds-contents.md)：了解压缩文件<!-- Is this still the output users can download from the destination? I aske Jun. -->中的内容
+* [数据馈送内容](c-df-contents/datafeeds-contents.md)：了解压缩文件 <!-- Is this still the output users can download from the destination? I aske Jun. --> 中的内容
 * [数据列定义](c-df-contents/datafeeds-reference.md)：所有可用列的完整列表。
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在数据馈送界面中导航](https://video.tv.adobe.com/v/3428569?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在数据馈送界面中导航](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送ID](https://video.tv.adobe.com/v/3418478?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+查看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送 ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]

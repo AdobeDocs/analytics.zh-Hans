@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Analytics 发行说明](https://experienceleague.adobe.com/zh-hans/docs/analytics/release-notes/latest)
 + Adobe Analytics 快速入门 {#admin-overview}
    + [Analytics 概述](get-started/analytics-overview.md)
-   + [入门](get-started/onboard.md)
+   + [加入](get-started/onboard.md)
    + [快速入门（按角色）](get-started/get-started-by-role.md)
    + [了解 Analytics 界面](get-started/analytics-interface.md)
    + [用例](get-started/use-cases.md)

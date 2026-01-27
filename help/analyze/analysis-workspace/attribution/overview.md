@@ -1,13 +1,13 @@
 ---
 title: 归因概述
-description: 了解将成功事件的点数归因到多个维度项目的概念。
+description: 了解将成功事件的点数归因到多个维度项的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -53,32 +53,32 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表中的归因](https://video.tv.adobe.com/v/37441?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[自由格式表中的归因](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算量度中的归因](https://video.tv.adobe.com/v/41481?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算量度中的归因](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用归因面板](https://video.tv.adobe.com/v/37445?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用归因面板](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加归因模型的并排比较](https://video.tv.adobe.com/v/327797?quality=12&learn=on&captions=chi_hans){target="_blank"}以查看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加归因模型的并排比较](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
-## 不支持归因的Adobe Analytics工具
+## 不支持归因的 Adobe Analytics 工具
 
-任何不支持Analytics 2.0 API的工具(如[旧版Report Builder](/help/analyze/legacy-report-builder/home.md))均不支持归因。
+任何不支持 Analytics 2.0 API 的工具，例如[旧版 Report Builder](/help/analyze/legacy-report-builder/home.md)，都不支持归因。

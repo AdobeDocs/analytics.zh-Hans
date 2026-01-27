@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 1. **使用浏览器控制台验证数据层**：创建数据层后，您可以使用任意浏览器的开发人员控制台来验证数据层是否可正常使用。在大多数浏览器中，您都可以使用 `F12` 键打开开发人员控制台。`adobeDataLayer.page.title` 是一个示例变量值。
 1. **使用 Adobe Experience Platform 数据收集将数据层对象映射到数据元素**：此步骤因您组织的实施方法而异：
-   * **如果使用 Web SDK**：将所需的数据层对象映射到 Adobe Experience Platform Edge 中所需的 XDM 字段。 请参阅[Analytics XDM变量映射](../aep-edge/xdm-var-mapping.md)以确定所需的数据层映射。
+   * **如果使用 Web SDK**：将所需的数据层对象映射到 Adobe Experience Platform Edge 中所需的 XDM 字段。 请参阅 [Analytics XDM 变量映射](../aep-edge/xdm-var-mapping.md)，确定所需的数据层映射。
    * **如果使用 Analytics 扩展程序**：在 Adobe Experience Platform 数据集的标签下创建数据元素，并将其分配给所需的数据层对象。 然后在 Analytics 扩展程序中，将每个数据元素分配给适当的 Analytics 变量。
 
 ## 规范
