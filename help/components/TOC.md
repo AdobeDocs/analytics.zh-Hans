@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '737'
 ht-degree: 99%
 
 ---
@@ -277,15 +277,15 @@ ht-degree: 99%
    + 旧版分类 {#legacy-classifications}
       + 分类规则生成器 {#classifications-rulebuilder}
          + [概述](classifications/crb/classification-rule-builder.md)
-         + [分类规则集](classifications/crb/classification-rule-set.md)
-         + [分类规则](classifications/crb/classification-quickstart-rules.md)
-         + [分类规则定义](classifications/crb/classification-rule-definitions.md)
-         + [子分类和规则构建器](classifications/crb/subclassification-rule-builder.md)
+         + [规则集](classifications/crb/classification-rule-set.md)
+         + [规则](classifications/crb/classification-quickstart-rules.md)
+         + [规则定义](classifications/crb/classification-rule-definitions.md)
+         + [子分类](classifications/crb/subclassification-rule-builder.md)
       + 分类导入器 {#classifications-importer}
-         + [分类导入器概述](classifications/importer/c-working-with-saint.md)
-         + [分类数据文件](classifications/importer/c-saint-data-files.md)
+         + [概述](classifications/importer/c-working-with-saint.md)
+         + [数据文件](classifications/importer/c-saint-data-files.md)
          + [删除分类数据](classifications/importer/t-delete-classification-data.md)
-         + [分类模板](classifications/importer/c-download-saint-data.md)
+         + [模板](classifications/importer/c-download-saint-data.md)
          + [浏览器导入](classifications/importer/browser-import.md)
          + [浏览器导出](classifications/importer/browser-export.md)
          + [FTP 导入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
@@ -310,3 +310,4 @@ ht-degree: 99%
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
    + [营销渠道常见问题解答和示例](c-marketing-channels/c-faq.md)
+
