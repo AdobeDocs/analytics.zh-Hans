@@ -3,7 +3,7 @@ title: 创建和编辑分类合并
 description: 介绍如何创建、验证、运行、批准和取消分类合并。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -77,14 +77,24 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## 编辑合并
+## 编辑合并 {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="不匹配"
+>abstract="当合并分类集中的值与源分类集不匹配时的键不匹配百分比。"
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="不存在"
+>abstract="键在统一分类集中，但不在源分类集中所占的百分比。"
 
 要编辑分类合并，请在Adobe Analytics主界面中：
 
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择&#x200B;**[!UICONTROL 合并]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集合并]**&#x200B;管理器中：
-   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**&#x200B;对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
+   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
 
       | 可用操作 | 描述 |
       |---|---|
@@ -124,18 +134,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
 1. 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)关闭对话框。
 
 
-### 批准 {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="不匹配"
->abstract="当合并分类集中的值与源分类集不匹配时的键不匹配百分比。"
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="不存在"
->abstract="键在统一分类集中，但不在源分类集中所占的百分比。"
+### 批准
 
 成功运行分类合并后，合并状态为![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 正在等待批准]**。 批准分类综合以综合分类集取代个别分类集，而个别分类集则予以移除。
 
