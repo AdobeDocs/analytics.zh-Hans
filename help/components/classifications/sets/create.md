@@ -34,7 +34,7 @@ ht-degree: 3%
 
          * 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)以删除&#x200B;**[!UICONTROL 报表包]**&#x200B;和&#x200B;**[!UICONTROL 键Dimension]**&#x200B;组合。
 
-        如果添加另一个分类集中已存在的&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL 关键Dimension]**组合，将显示一条红色消息。
+        如果添加另一个分类集中已存在的&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL 关键Dimension]**&#x200B;组合，将显示一条红色消息。
 您可以：
          * 选择&#x200B;**[!UICONTROL 添加到现有]**&#x200B;以打开另一个分类集并[将分类添加到该另一个分类集的架构](manage/schema.md)。
          * 将&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL 密钥Dimension]**&#x200B;更改为尚未订阅其他分类集的组合。
@@ -50,5 +50,5 @@ ht-degree: 3%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 选择分类集的名称。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，您可以为分类集定义[设置](manage/settings.md)和[架构](manage/schema.md)。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，您可以为分类集定义[设置](manage/settings.md)和[架构](manage/schema.md)。
 1. 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
