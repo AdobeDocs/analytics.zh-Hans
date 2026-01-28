@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 50700a4ee1d836516a96be3816d4c777c4172ce5
+source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -310,4 +310,3 @@ ht-degree: 99%
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
    + [营销渠道常见问题解答和示例](c-marketing-channels/c-faq.md)
-
