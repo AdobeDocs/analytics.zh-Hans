@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 58098a24e826161bbd7aadb98abe050fd944791e
+source-git-commit: 39a87f6d9cfd3c80c1762f30c9b0aa8c51b90838
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 49%
+source-wordcount: '1226'
+ht-degree: 48%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 49%
 | ----------- | ---------- | ------- | ---- |
 | **分类集规则生成器** | [规则生成器](/help/components/classifications/sets/manage/rules.md)功能现在可用于分类集中。 您可以在分类集的上下文中定义规则。 规则将应用（激活时）到订阅了分类集的所有报表包和键维度组合。</p> |  | 2026年1月23日 |
 | **改进的数据馈送** | 数据馈送现在提供以下改进：<ul><li>改善了用户体验。</li><li>提供了创建和管理列模板的新体验。</li><li>您现在可以选择何时创建列模板以供将来数据馈送重复使用。 您还可以删除、编辑和复制模板。<br/>以前，创建的每个数据馈送都会生成一个新的列模板，这会导致大量未使用的列模板，并且无法删除或管理这些模板。</li><li>按标记添加和筛选。</li><li>查看数据馈送作业的历史记录。 （请求时段开始时、开始时、结束时，依此类推。）</li><li>重新发送或重新处理数据馈送。 （从“作业历史记录”页）</li><li>允许迟到的点击。 现在，您可以在设置的报告频率内包含数据馈送作业完成数据处理后到达的数据。</li><li>为数据馈送选择结束日期时，您选择的结束日期将作为数据馈送的最后一天包含在内。<br/>以前，从数据馈送中排除结束日期。</li><li>现在可以提供15分钟导出频率，但默认情况下不可用。 要使此选项在您的环境中可用，您必须首先联系Adobe客户关怀团队，并请求将您的报表包配置为支持15分钟导出。</li></ul><p>**注意：**&#x200B;通过这些改进，Adobe Analytics中的数据馈送页面的URL也在更新中。 请在2026年4月30日之前更新任何现有书签以指向新的数据馈送页面。</p>（文档链接见下文。）</p> | 2026年1月20日 | 2026年2月10日 |
-| **按多个列对表进行排序** | 您现在可以在Analysis Workspace中按多个列对自由格式表的数据进行排序，无论它们是维度还是量度。<p>当您为多个列排序数据时，将根据您分配给每个列的优先级对数据排序。 优先级编号显示在排序图标旁边。</p><p>（文档链接见下文。）<!-- For more information, see "Filter and sort freeform tables". (need to move info to this article from "Include multiple dimension columns in a freeform table") --></p> | 2026年1月28日 | 2026年2月18日 |
+| **按多个列对表进行排序** | 您现在可以在Analysis Workspace中按多个列对自由格式表的数据进行排序，无论它们是维度还是量度。<p>当您为多个列排序数据时，将根据您分配给每个列的优先级对数据排序。 优先级编号显示在排序图标旁边。</p><p>有关详细信息，请参阅[筛选和排序自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。</p> | 2026年1月28日 | 2026年2月18日 |
 | **流媒体服务：支持计划数据** | 您现在可以上传过去直播流媒体内容的计划数据，以便更轻松、更准确地跟踪观看人数。<p>以下是支持计划数据上传的直播内容示例：</p><ul><li>FAST（免费广告支持电视）平台</li><li>本地流</li><li>直播体育赛事</li></ul><p>上传计划数据允许您跟踪在上传文件中指定的时间内运行的各个节目的观看人数数据。您甚至可以收集特定主题或节目片段的观看人数数据。</p><p>无论您如何实现流媒体收集，这些功能都是可用的。</p><p>以前，在分析直播内容时很难准确地将特定场次与特定节目联系起来，也不可能将特定场次与单个主题或节目片段联系起来。</p><p>如需了解更多信息，请参阅[上传计划数据以跟踪实时内容](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>（原计划于 2025 年 10 月 29 日发布）</p> |
 
 ## Adobe Analytics 中的修复
@@ -58,6 +58,6 @@ ht-degree: 49%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
-* [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hans)
-* [Adobe Experience Cloud 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-hans)
+* [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
