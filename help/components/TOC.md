@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 99%
 
 ---
@@ -284,7 +284,7 @@ ht-degree: 99%
       + 分类导入器 {#classifications-importer}
          + [概述](classifications/importer/c-working-with-saint.md)
          + [数据文件](classifications/importer/c-saint-data-files.md)
-         + [删除分类数据](classifications/importer/t-delete-classification-data.md)
+         + [删除数据](classifications/importer/t-delete-classification-data.md)
          + [模板](classifications/importer/c-download-saint-data.md)
          + [浏览器导入](classifications/importer/browser-import.md)
          + [浏览器导出](classifications/importer/browser-export.md)
