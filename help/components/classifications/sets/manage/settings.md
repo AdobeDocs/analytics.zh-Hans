@@ -20,9 +20,9 @@ ht-degree: 3%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要编辑其架构的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集： _分类集_]**对话框中，选择&#x200B;**[!UICONTROL 设置]**选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集： _分类集_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
 
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集_]**对话框中，根据需要：
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集_]**&#x200B;对话框中，根据需要：
 
    ![分类集 — 设置](assets/classification-sets-settings.png)
 
