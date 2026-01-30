@@ -3,10 +3,10 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及提供给 Adobe 的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
+source-git-commit: ee29f837d72cf3243e92230dbee5b379d1c6c415
 workflow-type: tm+mt
-source-wordcount: '4227'
-ht-degree: 100%
+source-wordcount: '4257'
+ht-degree: 99%
 
 ---
 
@@ -36,6 +36,15 @@ ht-degree: 100%
 >id="aa_datafeed_export_file"
 >title="清单"
 >abstract="选择是否在每次数据馈送传递时附带一个清单文件。清单文件中包含了用于数据馈送中所含每个文件的信息。如果用一个包发送数据馈送数据，您还可以选择包含一个完成文件，但建议包含清单文件。 "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_notify"
+>title="完成时通知"
+>abstract="指定一个或多个电子邮件地址，在发送数据馈送后应将通知发送到这些地址。 多个电子邮件地址必须以逗号分隔。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -280,7 +289,7 @@ ht-degree: 100%
          | [!UICONTROL **帐户描述**] | Azure SAS 帐户的描述。这个描述会显示在&#x200B;[!UICONTROL **选择帐户**]&#x200B;下拉字段中，您可以选择任何名称。 |
          | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
          | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-         | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥存储库中 SAS URI 的路径。要配置 Azure SAS，需要使用 Azure Key Vault 将 SAS URI 存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。<p>有关信息，请参阅[有关如何分配密钥存储库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果要在不创建访问策略的情况下直接授予访问角色，请参阅 [Microsoft Azure 文档，了解如何使用 Azure 门户分配 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。这将为应用程序 ID 添加访问密钥存储库 URI 的角色分配。 </p></li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul> |
+         | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥存储库中 SAS URI 的路径。要配置 Azure SAS，需要使用 Azure Key Vault 将 SAS URI 存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库 URI 后：<ul><li>在密钥保管库上添加访问策略，以便向您创建的 Azure 应用程序授予权限。<p>有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果要在不创建访问策略的情况下直接授予访问角色，请参阅 [Microsoft Azure 文档，了解如何使用 Azure 门户分配 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。这将为应用程序 ID 添加访问密钥存储库 URI 的角色分配。 </p></li><li>确保已将应用程序 ID 授予 `Key Vault Certificate User` 内置角色，以便访问密钥保管库 URI。</br><p>有关更多信息，请参阅 [Azure 内置角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)。</p></li></ul> |
          | [!UICONTROL **密钥保管库密码名称**] | 将密码添加到 Azure 密钥保管库时创建的密码名称。在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥保管库**&#x200B;设置页面上创建的密钥保管库中。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
          | [!UICONTROL **密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
