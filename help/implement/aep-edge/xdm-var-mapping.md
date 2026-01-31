@@ -1,17 +1,17 @@
 ---
-title: 映射到 Adobe Analytics 的 XDM 对象变量
+title: XDM对象字段映射到Adobe Analytics
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 100%
+source-wordcount: '1470'
+ht-degree: 94%
 
 ---
 
-# 映射到 Adobe Analytics 的 XDM 对象变量
+# XDM对象字段映射到Adobe Analytics
 
 下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的 XDM 变量。如果使用这些 XDM 字段路径，则无需额外配置即可将数据发送到 Adobe Analytics。这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent 模板]**&#x200B;字段组中。如果您打算将数据同时发送到 Adobe Analytics 和 Adobe Experience Platform，则建议使用这些字段。
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 ## 值的优先级
 
-此表中的大多数 XDM 对象字段与[数据对象字段](data-var-mapping.md)一致。如果您同时设置某个给定 XDM 对象字段及其相应的数据对象字段，则数据对象字段具有优先级。如果您同时使用 XDM 对象字段和数据对象字段，Adobe 建议使用数据对象字段设置自定义事件。如果字段 `data.__adobe.analytics.events` 存在，它会覆盖所有与商务和自定义事件相关的 XDM 对象字段。
+此表的大多数XDM对象字段对应于[映射的数据对象字段](data-var-mapping.md)。 在Adobe Analytics摄取期间，值首先从XDM映射到Analytics变量。 识别的数据对象字段映射到同一Analytics变量时，会映射并覆盖之前设置的任何值。 例如，如果存在`data.__adobe.analytics.events`，则它替换原本从XDM派生的整个事件集；事件不会跨两个源合并。
 
 ## XDM 对象字段映射
 
-可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.zh-Hans/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到此表之前的更新内容。
+可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到此表之前的更新内容。
 
 | XDM 字段路径 | Analytics 变量和描述 |
 | --- | --- |

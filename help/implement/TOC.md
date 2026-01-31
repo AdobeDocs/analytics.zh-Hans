@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -73,14 +73,14 @@ ht-degree: 100%
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
       + [pageURL](vars/page-vars/pageurl.md)
-      + [products](vars/page-vars/products.md)
+      + [产品](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
       + [referrer](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
       + [state](vars/page-vars/state.md)
-      + [timestamp](vars/page-vars/timestamp.md)
+      + [时间戳](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + 函数和方法 {#functions}
@@ -148,8 +148,8 @@ ht-degree: 100%
    + [负责现有的 Adobe Analytics 实施](prepare/existing-implementation.md)
 + 使用 Experience Platform Edge 实施 Analytics {#aep-edge}
    + [Experience Edge 概述](aep-edge/overview.md)
-   + [数据对象变量映射](aep-edge/data-var-mapping.md)
-   + [XDM 对象变量映射](aep-edge/xdm-var-mapping.md)
+   + [数据对象字段映射](aep-edge/data-var-mapping.md)
+   + [XDM 对象字段映射](aep-edge/xdm-var-mapping.md)
    + [Edge Network 事件类型](aep-edge/hit-types.md)
    + Web SDK {#web-sdk}
       + [Web SDK 概述](aep-edge/web-sdk/overview.md)
