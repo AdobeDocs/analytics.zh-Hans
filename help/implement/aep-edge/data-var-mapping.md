@@ -35,7 +35,7 @@ ht-degree: 77%
 | `data.__adobe.analytics.channel` | [网站分区](../../components/dimensions/site-section.md)维度。也支持简写字段 `data.__adobe.analytics.ch`。 |
 | `data.__adobe.analytics.colorDepth` | [颜色深度](../../components/dimensions/color-depth.md)维度。也支持简写字段 `data.__adobe.analytics.c`。 |
 | `data.__adobe.analytics.connectionType` | [连接类型](../../components/dimensions/connection-type.md)维度。也支持简写字段 `data.__adobe.analytics.ct`。 |
-| `data.__adobe.analytics.contextData` | [ 上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。 |
+| `data.__adobe.analytics.contextData` | [&#x200B; 上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。 |
 | `data.__adobe.analytics.cookiesEnabled` | [Cookie 支持](../../components/dimensions/cookie-support.md)维度。也支持简写字段 `data.__adobe.analytics.k`。 |
 | `data.__adobe.analytics.currencyCode` | [`currencyCode`](../vars/config-vars/currencycode.md) 实施变量。也支持简写字段 `data.__adobe.analytics.cc`。 |
 | `data.__adobe.analytics.dynamicVariablePrefix` | [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md) 实施变量。 |
