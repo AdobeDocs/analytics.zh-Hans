@@ -4,10 +4,10 @@ description: 了解如何为用户设置常规偏好和项目偏好。
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
+source-git-commit: 3d786731c959da9a5eb02572394aced6ffd0deb1
 workflow-type: tm+mt
-source-wordcount: '3485'
-ht-degree: 98%
+source-wordcount: '3456'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://video.tv.adobe.com/v/3429988/?captions=chi_hans&quality=12&learn=on){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -98,10 +98,12 @@ ht-degree: 98%
 
 单击链接的偏好设置标题以获取有关每个偏好设置的更多信息和上下文。
 
+<!--
 >[!IMPORTANT]
 >
->您无法再在&#x200B;**[!UICONTROL 用户首选项]**&#x200B;的&#x200B;**[!UICONTROL 项目和分析]** > **[!UICONTROL 数据]**&#x200B;部分中定义数字格式。 数字格式自动由为登录用户配置的[默认语言](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/browser-language)确定。
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
+-->
 
 | 部分 | 偏好设置 | 选项 |
 | --- | --- | --- |
@@ -112,6 +114,7 @@ ht-degree: 98%
 |  | [报告包](/help/analyze/analysis-workspace/c-panels/panels.md) | 选择表格和可视化从中获取数据的位置。 <ul><li>最近（默认）</li><li>从列表中选择特定报告包</li></ul> |
 |  | [日历](/help/analyze/analysis-workspace/c-panels/panels.md) | 从以下列表中选择： <ul><li>Adobe 提供的范围（默认为“本月”）</li><li>自定义范围</li></ul> |
 |  | [面板类型](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>自由格式（默认）</li><li>空白</li><li>快速洞察</li></ul> |
+|  | 数字格式 | <ul><li>1,000.00（默认）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | 计数重复实例 | 指定是否将重复实例计入报告中。例如，此设置（激活时）会将同一页面的多次连续页面查看视为多次页面查看。关闭它后，它们将计为单个页面视图。 <p>**注意：**&#x200B;此设置仅影响某些量度（例如单页访问），不适用于流量或流失可视化。</p> |
 |  | CSV 分隔符字符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线</li><li>句点</li><li>空格</li><li>制表符</li></ul> |
 |  | 显示注释 | 选择注释是否在您的项目中可见。有关注释的更多信息，请参阅[注释概述](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
