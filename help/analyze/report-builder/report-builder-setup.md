@@ -1,21 +1,21 @@
 ---
-title: 如何在Adobe Analytics中设置Report Builder
-description: 介绍如何在Adobe Analytics中设置Report Builder
+title: 设置Report Builder
+description: 介绍如何在Adobe Analytics中设置Report Builder。
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '497'
+ht-degree: 67%
 
 ---
 
 # Report Builder 设置
 
-您可以使用Excel插件菜单快速访问Report Builder。
+本文概述了在Microsoft Excel中使用适用于Adobe Analytics的Report Builder的要求。 以及如何安装和设置加载项。
 
 ## 要求
 

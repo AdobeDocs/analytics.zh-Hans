@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
+source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3005'
 ht-degree: 87%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->2024年10月16日发布了新的、简化的[Report Builder](/help/analyze/report-builder/rb-overview.md)。 它在Mac、Windows和Web浏览器上受支持。
+>自2024年10月16日起，推出新的简化版[Report Builder](/help/analyze/report-builder/rb-overview.md)。 此Report Builder在macOS、Windows和Web浏览器上受支持，可以与Adobe Analytics和Customer Journey Analytics一起使用。
 >此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
 
-## Reports & Analytics 生命周期结束公告 {#ra-eol}
+## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
