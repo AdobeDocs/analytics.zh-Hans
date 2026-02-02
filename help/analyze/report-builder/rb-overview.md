@@ -76,7 +76,7 @@ Report Builder for Adobe Analytics是一个Microsoft Excel加载项。 该插件
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder 概述](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder 概述](https://video.tv.adobe.com/v/3452590?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
