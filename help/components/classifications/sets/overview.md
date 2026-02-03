@@ -3,9 +3,9 @@ title: 分类集概述
 description: 了解如何使用分类集管理分类数据。了解分类集与旧版分类有何不同。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -123,8 +123,3 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >分类集的性能主要取决于包含数据的唯一键值的数量。当您使用的变量包含大量唯一值时，请务必谨慎。将多个报告包中的这类变量和维度合并到一个分类集中时，尤其要注意这一点。
-
-## 限制
-
-* 分类集尚不支持规则。在[旧版规则生成器](/help/components/classifications/crb/classification-rule-builder.md)功能不可用之前，规则功能已添加到分类集界面。
-* 旧版分类规则和配置不会迁移到分类集。在旧版分类功能不可用之前，迁移工具已添加到分类集界面中。
