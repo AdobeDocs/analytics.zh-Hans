@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送和 Data Warehouse 来检索数据输出。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 99%
 
 ---
 

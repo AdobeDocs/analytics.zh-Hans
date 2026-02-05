@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 55%
+source-wordcount: '1583'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->创建和编辑帐户时，请考虑以下事项： <ul><li>系统管理员可以限制用户创建帐户，如[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果无法按本节所述创建帐户，请与系统管理员联系。</li><li>帐户只能由创建该帐户的用户或系统管理员编辑。</li></ul>
+>创建和编辑帐户时，请考虑以下事项： <ul><li>系统管理员可以限制用户创建帐户，如[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果无法按这个部分中所述创建帐户，请与系统管理员联系。</li><li>帐户只能由创建该帐户的用户或系统管理员编辑。</li></ul>
 
 您可以配置用于以下任意或所有目的的云帐户：
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 
 有关如何查看和删除现有帐户的信息，请参阅[位置管理器](/help/components/locations/locations-manager.md)。
 
-要配置云导入或导出帐户，请执行以下操作：
+## 从帐户页面开始创建或编辑帐户
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **组件**] > [!UICONTROL **位置**]。
 1. 在[!UICONTROL 位置]页面上，选择&#x200B;[!UICONTROL **位置帐户**]&#x200B;选项卡。
@@ -46,18 +46,24 @@ ht-degree: 55%
 
    显示&#x200B;[!UICONTROL **添加帐户**]&#x200B;对话框。
 
+1. 继续[配置位置帐户](#configure-a-location-account)。
+
+## 配置位置帐户
+
+要在开始创建或编辑云导入或导出帐户后对其进行配置，请执行以下操作：
+
 1. 指定以下信息：
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。 此名称会在创建位置时出现 |
+   | [!UICONTROL **位置帐户名称**] | 位置帐户的名称。此名称会在创建位置时出现 |
    | [!UICONTROL **位置帐户描述**] | 提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。 |
-   | [!UICONTROL **使帐户对贵组织的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该帐户。<p>共享帐户时，请考虑以下事项：</p><ul><li>无法取消共享您共享的帐户。</li><li>共享帐户只能由帐户的所有者编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> |
-   | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，如[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果无法按本节所述创建帐户，请与系统管理员联系。</p> |
+   | [!UICONTROL **使组织中所有用户都能使用帐户**] | 启用此选项后，组织中的其他用户就可以使用此帐户。<p>共享帐户时请考虑以下事项：</p><ul><li>您已共享的帐户无法取消共享。</li><li>共享帐户只能由帐户的所有者进行编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul> |
+   | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。我们建议为每种帐户类型创建一个帐户，并根据需要在该帐户内设置多个位置。<p>系统管理员可以限制用户可以创建的帐户类型，参阅[配置用户是否可以创建帐户](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中的说明。如果无法按这个部分中所述创建帐户，请与系统管理员联系。</p> |
 
-1. 在&#x200B;[!UICONTROL **帐户属性**]&#x200B;部分中，指定特定于所选帐户类型的信息。
+1. 在&#x200B;[!UICONTROL **帐户属性**]&#x200B;部分中，指定您选定的帐户类型的特有信息。
 
-   有关配置说明，请展开下面与您选择的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的部分。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
+   有关配置说明，请展开与选定的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的以下部分。（也提供了其他旧帐户类型，但建议不要使用。）
 
    **帐户类型**
 
@@ -95,8 +101,8 @@ ht-degree: 55%
    |---------|----------|
    | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
    | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
-   | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。要配置Azure SAS，必须使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
-   | [!UICONTROL **密钥保管库密码名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥保管库中，位于&#x200B;**密钥保管库**&#x200B;设置页面上。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+   | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。要配置 Azure SAS，必须使用 Azure 密钥存储库将 SAS 令牌存储为密码。有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥存储库 URI 后，在密钥存储库中添加访问策略，以授予对您创建的 Azure 应用程序的访问权限。有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
+   | [!UICONTROL **密钥存储库密码名称**] | 将密码添加到 Azure 密钥存储库时所创建的密码名称。在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥存储库**&#x200B;设置页面上创建的密钥存储库中。有关信息，请参阅[有关如何从 Azure 密钥存储库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
    | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
    {style="table-layout:auto"}
@@ -139,7 +145,7 @@ ht-degree: 55%
 
    +++FTP
 
-   数据馈送数据可以提交到Adobe或客户托管的FTP位置。 需要 FTP 主机、用户名和密码。可使用路径字段将馈送文件放置在文件夹中。文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。
+   数据馈送数据可以传输到由 Adobe 或客户托管的 FTP 位置。需要 FTP 主机、用户名和密码。可使用路径字段将馈送文件放置在文件夹中。文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。
 
    | 字段 | 功能 |
    |---------|----------|
@@ -154,7 +160,14 @@ ht-degree: 55%
 
    +++SFTP
 
-   提供了对数据馈送的 SFTP 支持。需要 SFTP 主机、用户名，以及包含有效 RSA 或 DSA 公钥的目标站点。您可以在创建馈送时下载相应的公钥。
+   提供了对数据馈送的 SFTP 支持。这要求SFTP主机、用户名和目的地站点包含有效的RSA或DSA公钥。 您可以在创建馈送时下载相应的公钥。
+
+   下载数据馈送的RSA或DSA公钥时，请执行下列任一操作：
+
+   * 将下载的公钥文件重命名为`authorized_keys`，然后将该文件上传到SFTP服务器上的`.ssh`文件夹。
+
+   * 如果现有`authorized_keys`文件已包含其他密钥，请将Adobe提供的密钥添加到现有`authorized_keys`文件中，并确保不会覆盖现有密钥。
+
 
    +++
 

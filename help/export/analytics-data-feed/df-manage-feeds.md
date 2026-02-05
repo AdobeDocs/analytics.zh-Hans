@@ -3,10 +3,10 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 21%
+source-wordcount: '1257'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://video.tv.adobe.com/v/3428569?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -25,16 +25,16 @@ ht-degree: 21%
 ## 查看数据馈送
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-1. 选择右上角的9个正方形图标，然后选择&#x200B;[!UICONTROL **Analytics**]。
-1. 在顶部导航栏中，转到&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
+1. 选择右上方的九宫格图标，然后选择 [!UICONTROL **Analytics**]。
+1. 在顶部导航栏中前往&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
    此时将显示您有权访问的所有报表包的数据馈送。 或者，如果尚未配置馈送，则页面会显示[!UICONTROL 新建数据馈送]按钮。
 
-   ![数据馈送](assets/feeds.png)
+   ![数据馈送管理器](assets/data-feed-manager.png)
 
 ## 创建数据馈送
 
-使用[!UICONTROL 添加]按钮可创建新馈送。 有关详细信息，请参阅[创建数据馈送](create-feed.md)。
+使用&#x200B;**[!UICONTROL 创建数据馈送]**&#x200B;按钮可创建新馈送。 有关详细信息，请参阅[创建数据馈送](create-feed.md)。
 
 ## 编辑数据馈送
 
@@ -45,6 +45,8 @@ ht-degree: 21%
 1. 在&#x200B;[!UICONTROL **馈送名称**]&#x200B;列中选择数据馈送。
 
 1. 对数据馈送进行任何所需的更改。
+
+   有关数据馈送选项的信息，请参阅[创建数据馈送](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)中的[创建并配置数据馈送](/help/export/analytics-data-feed/create-feed.md)。
 
    为正在编辑的数据馈送更新&#x200B;[!UICONTROL **目标**]&#x200B;分区时，您可以在&#x200B;[!UICONTROL **帐户**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉字段中选择用于新数据馈送的其他帐户和位置。
 
@@ -62,9 +64,9 @@ ht-degree: 21%
 
    * 在搜索字段中，开始键入馈送的名称。 只有匹配的馈送才会显示在可用馈送列表中。
 
-   * 在最左侧，单击过滤器图标可显示或隐藏过滤选项。过滤器按类别进行组织。您可以折叠或展开过滤类别。 选中要应用的任何过滤器旁边的复选框。
+   * 在最左侧，选择过滤器图标以显示或隐藏过滤选项。 筛选器按类别组织，包括&#x200B;**[!UICONTROL 报表包]**、**[!UICONTROL 所有者]**、**[!UICONTROL 状态]**&#x200B;和&#x200B;**[!UICONTROL 标记]**。 您可以折叠或展开过滤类别。 选中要应用的任何过滤器旁边的复选框。
 
-![过滤器](assets/filters.png)
+     ![过滤器](assets/filters.png)
 
 ## 查看数据馈送作业
 

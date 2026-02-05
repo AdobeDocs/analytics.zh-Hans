@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 30%
+source-wordcount: '1703'
+ht-degree: 33%
 
 ---
 
@@ -59,7 +59,9 @@ ht-degree: 30%
    | [!UICONTROL **使位置对组织中的所有用户都可用**] | 启用此选项可允许组织中的其他用户使用该位置。<p>共享位置时，请考虑以下事项：</p><ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由位置的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul> |
    | [!UICONTROL **位置帐户**] | 选择要创建此位置的位置帐户。 有关如何创建帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)。 |
 
-1. 要完成用于配置位置的表单，请继续下面的部分，该部分与您在&#x200B;[!UICONTROL **位置帐户**]&#x200B;字段中选择的帐户类型相对应。 （此外，还提供其他旧版帐户类型，但不建议这样做。）
+1. 要完成用于配置位置的表单，请继续[配置位置](#configure-a-location)。 使用与您在&#x200B;[!UICONTROL **位置帐户**]&#x200B;字段中选择的帐户类型对应的部分中的信息。 （也提供了其他旧帐户类型，但建议不要使用。）
+
+## 配置位置
 
 ### Amazon S3 Role ARN
 
@@ -69,7 +71,7 @@ ht-degree: 30%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 账户中的存储段。 <p>确保Adobe提供的用户ARN具有`S3:PutObject`权限，以便将文件上传到此存储桶。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 帐户中的存储桶。 <p>确保Adobe提供的用户ARN具有`S3:PutObject`权限，以便将文件上传到此存储桶。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -141,7 +143,7 @@ ht-degree: 30%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **帐户**] | Azure存储帐户。 |
+   | [!UICONTROL **帐户**] | Azure 存储帐户。 |
    | [!UICONTROL **容器**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。确保授予将文件上传到您之前创建的 Azure 应用程序的权限。 |
    | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
 
@@ -180,7 +182,7 @@ ht-degree: 30%
 
 +++FTP
 
-数据馈送数据可以提交到Adobe或客户托管的FTP位置。 指定目录使用路径字段将馈送文件放置在文件夹中。
+数据馈送数据可以传输到由 Adobe 或客户托管的 FTP 位置。指定目录使用路径字段将馈送文件放置在文件夹中。
 
 | 字段 | 功能 |
 |---------|----------|
