@@ -4,14 +4,14 @@ description: 了解高级计算量度函数的相关内容。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
 workflow-type: tm+mt
-source-wordcount: '5020'
+source-wordcount: '4807'
 ht-degree: 98%
 
 ---
 
-# 高级函数
+# 高级功能
 
 使用[计算量度生成器](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)可以应用统计和数学函数。本文记录了按字母顺序排列的高级函数及其定义列表。
 
@@ -228,29 +228,29 @@ CDF-Z(-3) ? 0.0013499
 | 量度 | 要舍入的量度 |
 
 
-## 置信度 {#confidence}
+<!-- Only available in CJA 
 
-<!-- markdownlint-disable MD034 -->
+## Confidence {#confidence}
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
->title="置信度"
->abstract="使用[时间统一中心极限定理和渐近置信序列](https://arxiv.org/pdf/2103.06476)中所述的 WASKR 方法计算任意时间有效的置信度。"
+>title="Confidence"
+>abstract="Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 
-<!-- markdownlint-enable MD034 -->
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476).
 
-使用[时间统一中心极限定理和渐近置信序列](https://arxiv.org/pdf/2103.06476)中所述的 WASKR 方法计算任意时间有效的置信度。
+Confidence is a probabilistic measure of how much evidence there is that a given variant is the same as the control variant. A higher confidence indicates less evidence for the assumption that control and non-control variant have equal performance. 
 
-置信度是一种概率度量，可表明有多少证据能够表明给定变量与控制变量相同。置信度越高，表明支持控制变量和非控制变量具有相同性能的假设的证据越少。
-
-| 参数 | 描述 |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | 运行测试的基础（人员、会话或事件）。 |
-| success-metric | 用户用来比较变量的一个或多个量度。 |
-| 控制 | 试验中所有其他变量要与之进行比较的变量。输入控制变量维度项的名称。 |
-| significance-threshold | 此函数中的阈值默认设置为 95%。 |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+| significance-threshold | The threshold in this function is set to a default of 95%. |
+
+-->
 
 
 ## 置信度（下限） {#confidence-lower}
@@ -728,25 +728,24 @@ CDF-Z(-3) ? 0.0013499
 `Metric 1 <= Metric 2`
 
 
+<!-- Only available in CJA 
 
-## 提升 (#lift)
+## Lift (#lift)
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
->title="提升"
->abstract="与控制值相比，比率的提升。"
+>title="Lift"
+>abstract="The lift of the ratio compared to the control value."
 
-<!-- markdownlint-enable MD034 -->
 
-| 参数 | 描述 |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | 运行测试的基础（人员、会话或事件）。 |
-| success-metric | 用户用来比较变量的一个或多个量度。 |
-| 控制 | 试验中所有其他变量要与之进行比较的变量。输入控制变量维度项的名称。 |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
-
+-->
 
 ## 线性回归：相关系数 {#linear-regression-correlation-coefficient}
 
