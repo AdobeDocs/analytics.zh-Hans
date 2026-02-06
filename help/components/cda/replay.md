@@ -4,7 +4,7 @@ description: 了解 Cross-Device Analytics 中的“重播”概念
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 89%
@@ -31,7 +31,7 @@ Cross-Device Analytics 在虚拟报表包中对数据进行两次传递：
 *收集数据当天显示的数据：*
 
 | 时间戳 | ECID | eVar1 或客户 ID | 点击说明 | 使用基于字段的拼合的人员量度（累积） |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob 在其台式计算机上访问，未经身份验证 | `1` (246) |
 | `2` | `246` | `Bob` | Bob 在其台式机上登录 | `2`（246 和 Bob） |
 | `3` | `3579` | - | Bob 在其移动设备上访问，未经身份验证 | `3`（246、Bob 和 3579） |
