@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics 常见问题解答。
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 31%
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 31%
 
 * 您是否会将与MCA维度共享的Analytics共享区段返回到Experience Cloud？
 
-* 您是否要导出（例如，通过数据馈送）至商业智能 (BI) 系统，以用于上述目的？
+* 是否导出（例如通过数据馈送）到用于这些目的的Business Intelligence (BI)系统？
 
 +++
 
@@ -43,31 +43,31 @@ ht-degree: 31%
 
 +++ 创建和保存Analytics目标后，需要多长时间才能将数据显示在我选择的报表包中？
 
-可能需要几个小时的时间才能在您的报表包中填充新数据。
+向报表包填充新数据可能需要几个小时。
 
 +++
 
 +++ 我已创建了一个新的Analytics目标，但在可用区段的“目标映射”部分中看不到该目标。 这个目的地在哪里，我怎么找到它？
 
-当您在&#x200B;**[!UICONTROL 区段映射]**&#x200B;中选择&#x200B;**[!UICONTROL 自动映射所有当前和未来区段]**&#x200B;选项时，Analytics目标会从区段的“目标映射”部分中消失。 要防止出现这种情况，请选择&#x200B;**[!UICONTROL 手动映射区段]**，而不要选择自动选项。
+当您在&#x200B;**[!UICONTROL 区段映射]**&#x200B;中选择&#x200B;**[!UICONTROL 自动映射所有当前和未来区段]**&#x200B;选项时，Analytics目标会从区段的“目标映射”部分中消失。 要防止出现这种情况，请选择&#x200B;**[!UICONTROL 手动映射区段]**，而不是自动选项。
 
 +++
 
-在Analytics中，这是否会为我提供Adobe Audience Manager中的所有信息？
++++ 在Analytics中，这是否会为我提供Adobe Audience Manager中的所有信息？
 
-不会，仅提供 Audience Manager 受众启用期间或之后，以及区段鉴定期间或之后访问您站点的用户相关数据。
+不会，只有与启用Audience Manager受众期间或之后以及区段资格期间/之后访问您网站的人员相关的数据。
 
 +++
 
 +++ 这可提供每个区段的可寻址受众总数吗？
 
-事实上不会。它会向您提供该区段中，在区段鉴定期间或之后访问您站点的访客数量。
+不算是。 它将告知您在区段资格期间或之后访问您网站的区段中的访客数量。
 
 +++
 
 +++ 这与Analytics的旧版Cookie目标有何不同？
 
-区段在同一点击中实时进行资格鉴定和返回。 将会自动显示易记名称。
+区段在同一点击中实时进行资格鉴定和返回。 友好名称会自动显示。
 
 +++
 
@@ -77,7 +77,7 @@ ht-degree: 31%
 
 +++
 
-## Analytics 特定的常见问题解答 {#aa-specific}
+## Analytics特定的常见问题解答 {#aa-specific}
 
 +++ 此集成在Analytics中会作为维度还是区段显示？
 
@@ -113,17 +113,17 @@ ht-degree: 31%
 
 * 选项1：继续让集成以现成状态工作，为特定访客发送150个最近符合条件的区段。
 
-* 选项2：在Adobe Audience Manager中，选择对您的业务最重要的150个区段进行集成。 然后，Adobe Audience Manager仅根据这150个区段检查访客。 此方法的缺点在于您只能收到所有访客间的这 150 个区段。而在另一方面，选项 1 方法因为集成的每次点击特性可提供无限的区段。
+* 选项2：在Adobe Audience Manager中，选择对您的业务最重要的150个区段进行集成。 然后，Adobe Audience Manager仅根据这150个区段检查访客。 此方法的缺点是，您在所有访客中仅会收到这150个区段。 另一方面，由于集成的按点击性质，选项1方法可提供无限区段。
 
 +++
 
 +++ 对于此集成，Analytics是否需要为额外的服务器调用付费？
 
-否。Adobe Audience Manager受众已纳入Analytics点击服务器端。 这不会对 Analytics 引发额外的服务器调用（主要或次要）。
+否。Adobe Audience Manager受众已纳入Analytics点击服务器端。 这不会产生对Analytics（主要或次要）的额外服务器调用。
 
 +++
 
-## 服务器端转发 (SSF) 常见问题解答 {#SSF}
+## 服务器端转发(SSF)常见问题 {#SSF}
 
 +++ 如果我实施了旧版SSF，我是否还需要转到Analytics“管理员”并打开报表包SSF？
 
@@ -161,6 +161,6 @@ ht-degree: 31%
 
 +++ 对于此问题的传统方法（例如，旧的测试版或“咨询”插件Cookie目标）怎么样了？
 
-我们建议您实施新的集成并删除旧目标。
+我们建议您实施新集成并删除旧目标。
 
 +++
