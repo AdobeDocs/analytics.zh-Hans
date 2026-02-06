@@ -3,7 +3,7 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 20%
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://video.tv.adobe.com/v/3428569?captions=chi_hans&quality=12&learn=on){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ ht-degree: 20%
 
    或
 
-   要查看特定数据馈送的作业，请选中一个或多个数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **作业历史记录**]。
+   要查看特定数据馈送的作业历史记录，请选中数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **作业历史记录**]。
 
    有关详细信息，请参阅[管理数据馈送作业](df-manage-jobs.md)。
 
