@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
+source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [转换工作簿](https://video.tv.adobe.com/v/3446192?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [转换工作簿](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,7 @@ ht-degree: 1%
 
 要打开旧工作簿，您可以：
 
-* 直接从本地计算机或网络打开旧工作簿。 在Excel中打开旧版工作簿时：
-
-   1. 从Excel功能区栏中选择![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
-   1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
-   1. 然后[转换旧工作簿](#convert-a-workbook)。
-
-* 从&#x200B;**[!UICONTROL Report Builder中心]**&#x200B;的[计划](report-builder-hub.md)选项卡中打开计划的旧工作簿。 操作方法：
+* 从&#x200B;**[!UICONTROL Report Builder中心]**&#x200B;的[计划](report-builder-hub.md)选项卡中打开计划的旧工作簿。 这是计划旧版工作簿的首选方法。 您可以选择在[计划转换的旧工作簿后，立即使用与旧工作簿关联的计划](#schedule-a-converted-legacy-workbook)。
 
    1. 打开Excel，然后从Excel功能区栏中选择![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
 
@@ -56,6 +50,13 @@ ht-degree: 1%
       ![旧版工作台](assets/upgrade-legacy-schedule.png)
 
    1. 从列表中选择![SelectBox](/help/assets/icons/SelectBox.svg)要转换的计划工作簿，然后选择![下载](/help/assets/icons/Download.svg)。 在Excel中下载工作簿并在新窗口中打开。 您现在可以[转换旧版Report Builder工作簿](#convert-a--workbook)。
+
+
+* 直接从本地计算机或网络打开旧工作簿。 使用此方法时，不提供使用可能与旧版工作簿关联的计划。 <br/>在Excel中打开旧工作簿时：
+
+   1. 从Excel功能区栏中选择![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
+   1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
+   1. 然后[转换旧工作簿](#convert-a-workbook)。
 
 
 ## 转换旧工作簿
@@ -89,14 +90,14 @@ ht-degree: 1%
 
      ![Excel Report Builder升级报告工作簿](assets/upgrade-report.png)
 
-您现在可以[管理数据块](/help/analyze/report-builder/manage-reportbuilder.md)。
+您现在可以[管理工作簿中的数据块](/help/analyze/report-builder/manage-reportbuilder.md)。 这些数据块是升级的结果，它们将替换您的旧版Report Builder请求。
 
 
 ## 计划转换的旧工作簿
 
 您可以选择使用从Report Builder中心的&#x200B;**[!UICONTROL 计划]**&#x200B;选项卡下载和打开的旧版工作簿的计划详细信息。 此选项不适用于具有从本地计算机或网络打开的计划详细信息的旧版工作簿。
 
-1. 计划工作簿。 要计划使用旧版计划转换的旧版工作簿，请执行以下操作：
+1. 要计划使用旧版计划转换的旧版工作簿，请执行以下操作：
 
    * 从Report Builder中心选择&#x200B;**[!UICONTROL 发送工作簿]**，或者
    * 从Report Builder的&#x200B;**[!UICONTROL 计划]**&#x200B;选项卡中提供的&#x200B;**[!UICONTROL 工作簿]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL 计划工作簿]**。
