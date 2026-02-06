@@ -3,9 +3,9 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及提供给 Adobe 的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2137'
 ht-degree: 25%
 
 ---
@@ -15,7 +15,10 @@ ht-degree: 25%
 创建数据馈送时，您为 Adobe 提供：
 
 * 您想将原始数据文件发送到那里的目标的信息
+
 * 您想在每一个文件中包含的数据
+
+* 应发送数据馈送的频率（如果您选择包含迟到的点击，则还包括回顾窗口）
 
 在创建数据馈送之前，重要的是要对数据馈送有基本的了解，并确保满足所有前提条件。更多信息请参阅[数据馈送概述](data-feed-overview.md)。
 
@@ -135,7 +138,7 @@ ht-degree: 25%
    | 字段 | 功能 |
    |---------|----------|
    | [!UICONTROL **帐户**] | 执行以下其中一项操作：<ul><li>**使用现有帐户：**&#x200B;选择&#x200B;**[!UICONTROL 帐户]**&#x200B;字段旁边的下拉菜单。 或者，开始键入帐户名称，然后从下拉菜单中选择该名称。 <p>只有在配置帐户或与您所属的某个组织共享帐户后，您才可以使用帐户。</p></li><li>**创建新帐户：**&#x200B;在&#x200B;**[!UICONTROL 帐户]**&#x200B;字段下选择&#x200B;**[!UICONTROL 添加新]**。 有关如何配置帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md#configure-a-location-account)中的[配置位置帐户](/help/components/locations/configure-import-accounts.md)。</li></ul> |
-   | [!UICONTROL **位置**] | 执行以下其中一项操作：<ul><li>**使用现有位置：**&#x200B;选择&#x200B;**[!UICONTROL 位置]**&#x200B;字段旁边的下拉菜单。 或者，开始键入位置名称，然后从下拉菜单中选择该位置。</li><li>**创建新位置：**&#x200B;在&#x200B;**[!UICONTROL 位置]**&#x200B;字段下选择&#x200B;**[!UICONTROL 添加新]**。 有关如何配置位置的信息，请参阅[配置云导入和导出位置](/help/components/locations/configure-import-locations.md#configure-a-location)中的[配置位置](/help/components/locations/configure-import-locations.md)。 |
+   | [!UICONTROL **位置**] | 执行以下其中一项操作：<ul><li>**使用现有位置：**&#x200B;选择&#x200B;**[!UICONTROL 位置]**&#x200B;字段旁边的下拉菜单。 或者，开始键入位置名称，然后从下拉菜单中选择该位置。</li><li>**创建新位置：**&#x200B;在&#x200B;**[!UICONTROL 位置]**&#x200B;字段下选择&#x200B;**[!UICONTROL 添加新]**。 有关如何配置位置的信息，请参阅[配置云导入和导出位置](/help/components/locations/configure-import-locations.md#configure-a-location)中的[配置位置](/help/components/locations/configure-import-locations.md)。</li></ul> |
    | [!UICONTROL **完成时通知**] | 指定一个或多个电子邮件地址，在成功发送数据馈送或无法发送数据馈送后，应将通知发送到这些地址。 多个电子邮件地址必须以逗号分隔。 |
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
@@ -146,7 +149,7 @@ ht-degree: 25%
 
 在管理模板时，您可以创建新模板、使用已创建的模板、复制模板、编辑模板和删除模板。
 
-[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**] > **[!UICONTROL 管理模板]**
+**[!UICONTROL 管理员]** > **[!UICONTROL 数据馈送]** > **[!UICONTROL 管理模板]**
 
 ![管理列模板](assets/data-feed-template-manage.png)
 
