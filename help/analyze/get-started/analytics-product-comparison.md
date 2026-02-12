@@ -3,10 +3,10 @@ description: Analysis Workspace、Report Builder、Data Warehouse 和 Data Workb
 title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 68%
 
 ---
 
@@ -38,3 +38,4 @@ ht-degree: 100%
 | **计划提交** | 是 | 是 | 是 | 是 | 否 |
 | **提交目标** | 电子邮件 | 电子邮件、FTP、SFTP、[发布到 Microsoft PowerBI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC 和电子邮件 | Amazon S3、Azure RBAC、Azure SAS 和 Google Cloud Platform | - |
 | **虚拟报告包报告时间处理**<br> [了解详情](/help/components/vrs/vrs-report-time-processing.md) | 是 | 否 | 否 | 否 | 是 |
+| **地理和技术报表** | 是 <p>使用中间值而不是post字段。 访问首次点击逻辑基于`post_cust_hit_time_gmt`而不是`visit_page_num=1`。 如果IP在访问期间更改、点击无序到达或访问跨越月份边界，则结果可能与其他工具不同。</p> | 是 <p>使用中间值而不是post字段。 访问首次点击逻辑基于`post_cust_hit_time_gmt`而不是`visit_page_num=1`。 如果IP在访问期间更改、点击无序到达或访问跨越月份边界，则结果可能与其他工具不同。</p> | 是 <p>使用post值和`visit_page_num=1`确定访问的首次点击。 将第一次点击的值应用于这些维度在访问中的所有点击。</p> | 是 <p>使用post值和`visit_page_num=1`确定访问的首次点击。 将第一次点击的值应用于这些维度在访问中的所有点击。</p> | 是 <p>使用中间值而不是post字段。 访问首次点击逻辑基于`post_cust_hit_time_gmt`而不是`visit_page_num=1`。 如果IP在访问期间更改、点击无序到达或访问跨越月份边界，则结果可能与其他工具不同。</p> |
