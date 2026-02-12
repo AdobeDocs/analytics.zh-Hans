@@ -3,9 +3,9 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: dabcb339238813b1da605a62f9a70599fbcef1bf
+source-git-commit: d1d08ded701ad68628179874aa6ac21e59ad08dc
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1440'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 44%
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
 | **改进的数据馈送** <p>数据馈送现在提供以下改进：</p><ul><li>改善了用户体验。</li><li>提供了创建和管理列模板的新体验。</li><li>您现在可以选择何时创建列模板以供将来数据馈送重复使用。 您还可以删除、编辑和复制模板。<br/>以前，创建的每个数据馈送都会生成一个新的列模板，这会导致大量未使用的列模板，并且无法删除或管理这些模板。</li><li>按标记添加和筛选。</li><li>查看数据馈送作业的历史记录。 （请求时段开始时、开始时、结束时，依此类推。）</li><li>重新发送或重新处理数据馈送。 （从“作业历史记录”页）</li><li>允许迟到的点击。 现在，您可以在设置的报告频率内包含数据馈送作业完成数据处理后到达的数据。</li><li>为数据馈送选择结束日期时，您选择的结束日期将作为数据馈送的最后一天包含在内。<br/>以前，从数据馈送中排除结束日期。</li><li>现在可以提供15分钟导出频率，但默认情况下不可用。 要使此选项在您的环境中可用，您必须首先联系Adobe客户关怀团队，并请求将您的报表包配置为支持15分钟导出。</li></ul><p>**注意：**&#x200B;通过这些改进，Adobe Analytics中的数据馈送页面的URL也在更新中。 请在2026年4月30日之前更新任何现有书签以指向新的数据馈送页面。</p><p>有关详细信息，请参阅[创建数据馈送](/help/export/analytics-data-feed/create-feed.md)和[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)。</p> | 2026年1月20日 | 2026年2月24日<p>（原计划于2026年2月10日发布）</p> |
-| **按多个列对表格进行排序** <p>现在，您可以在 Analysis Workspace 中按多个列（无论是维度还是量度）对自由格式表的数据进行排序。</p><p>当按多个列进行排序时，数据将根据您为每个列指定的优先级进行排序。优先级编号会显示在排序图标旁。</p><p>有关详细信息，请参阅[筛选和排序自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。</p> | 2026 年 1 月 28 日 | 2026 年 2 月 18 日 |
+| **按多个列对表格进行排序** <p>现在，您可以在 Analysis Workspace 中按多个列（无论是维度还是量度）对自由格式表的数据进行排序。</p><p>当按多个列进行排序时，数据将根据您为每个列指定的优先级进行排序。优先级编号会显示在排序图标旁。</p><p>有关详细信息，请参阅[筛选和排序自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。</p> | 2026 年 1 月 28 日 | 3 月 <p>（原计划于2026年2月18日）</p> |
 | **更新为近似非重复计数函数**<p>Approximate Count Distinct函数中使用的HLL概率算法将很快更新。 使用此函数得出的数字输出可能与历史数字略有不同，如下所示：</p><ul><li>当计算非常少量的唯一值时，将改进结果以使用精确计数，而不是使用估计值。</li><li>在计数任何更大的数字时，计数估计将保持本次更新之前的准确性（估计准确性在准确数字的5%之内，即时间的95%）。</li></ul><p>有关Approximate Count Distinct函数的更多信息，请参阅[高级函数](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct)中的[Approximate Count Distinct](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> |  | 2026 年 3 月 |
 | **流媒体服务：支持计划数据** <p>您现在可以上传过去直播流媒体内容的计划数据，以便更轻松、更准确地跟踪观看人数。</p><p>以下是支持计划数据上传的直播内容示例：</p><ul><li>FAST（免费广告支持电视）平台</li><li>本地流</li><li>直播体育赛事</li></ul><p>上传计划数据允许您跟踪在上传文件中指定的时间内运行的各个节目的观看人数数据。您甚至可以收集特定主题或节目片段的观看人数数据。</p><p>无论您如何实现流媒体收集，这些功能都是可用的。</p><p>以前，在分析直播内容时很难准确地将特定场次与特定节目联系起来，也不可能将特定场次与单个主题或节目片段联系起来。</p><p>如需了解更多信息，请参阅[上传计划数据以跟踪实时内容](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>（原计划于 2025 年 10 月 29 日发布）</p> |
 | **新的Adobe Analytics 2.0报表包API指南** <p>创建、检索、更新和删除报表包API。 有关详细信息，请参阅[Adobe Analytics 2.0报表包API参考指南](https://developer.adobe.com/analytics-apis/docs/2.0/apis/report-suites/)和[Adobe Analytics 2.0报表包API端点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/report-suites/)。</p> | | 现在可用 |
@@ -62,6 +62,6 @@ ht-degree: 44%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-hans)
-* [Adobe Experience Cloud 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
+* [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
