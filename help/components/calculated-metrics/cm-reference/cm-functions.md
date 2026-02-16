@@ -4,9 +4,9 @@ description: 了解基本计算量度函数。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2579f33a57b2dfaf6d63470f42286bf782675c68
+source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3600'
 ht-degree: 49%
 
 ---
@@ -93,7 +93,7 @@ table函数是其中表的每一行的输出都相同的函数。 行函数是�
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)语句(如&#x200B;**IF**(*Revenue* = **列最大值***(Revenue*)， 1， 0))突出显示划分中表现最佳的项。
+>使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)语句(如&#x200B;**IF**(*Revenue* = **列最大值***(Revenue*)， 1， 0))突出显示划分中表现最佳的项。
 >
 
 ## 列最小值 {#column-minimum}
@@ -123,7 +123,7 @@ table函数是其中表的每一行的输出都相同的函数。 行函数是�
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)语句(如&#x200B;**IF**(*Revenue* = **列最小值***(Revenue*)， 1， 0))突出显示划分中性能最低的项目。
+>使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)语句(如&#x200B;**IF**(*Revenue* = **列最小值***(Revenue*)， 1， 0))突出显示划分中性能最低的项目。
 >
 
 
@@ -205,9 +205,9 @@ table函数是其中表的每一行的输出都相同的函数。 行函数是�
 |---|---|
 | 量度 | 应用于底数 e 的指数。 |
 
-**用例**：将数字或量度提升到指定的幂，例如平方值或应用指数增长因子。 在为增长趋势建模或按指数级缩放量度时，这非常有用。
+**用例**：将&#x200B;*e*&#x200B;提升到给定数字或量度的幂。 在为增长趋势建模或按指数级缩放量度时，这非常有用。
 
-**在计算量度生成器**&#x200B;中：将&#x200B;**指数**&#x200B;与量度和幂值一起使用。 例如：**指数**（*访问次数*， 2）等于&#x200B;*访问次数*&#x200B;次次次数的平方。
+计算量度生成器&#x200B;**中的**：将&#x200B;**指数**&#x200B;与量度一起使用。 例如：**指数**（*访问次数*）将&#x200B;*e*&#x200B;提升到&#x200B;*访问次数*&#x200B;量度的幂。
 
 >[!TIP]
 >
