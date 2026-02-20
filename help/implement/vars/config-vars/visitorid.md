@@ -58,4 +58,4 @@ s.visitorID = "abc123";
 
 ## 使用Web SDK的访客ID
 
-Adobe Experience Platform Edge Network允许您使用XDM的[身份映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)提供多个标识符。 “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为[数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)的一部分。 一旦配置了此字段，当您发送具有为此命名空间指定的值的事件时，它会自动用作Analytics中的访客ID。
+Adobe Experience Platform Edge Network允许您使用XDM的[身份映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=zh-Hans#using-identitymap)提供多个标识符。 “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为[数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#analytics)的一部分。 一旦配置了此字段，当您发送具有为此命名空间指定的值的事件时，它会自动用作Analytics中的访客ID。
