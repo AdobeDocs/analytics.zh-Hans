@@ -27,7 +27,7 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用区段](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"}来演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用区段](https://video.tv.adobe.com/v/41395?captions=chi_hans&quality=12&learn=on){target="_blank"}来演示视频。
 
 >[!ENDSHADEBOX]
 
