@@ -1,22 +1,22 @@
 ---
 description: 在您开始创建虚拟报表包之前，请注意下面一些事项。
 keywords: 虚拟报表包
-title: 创建虚拟报表包
+title: 创建虚拟报告包
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 62%
+source-wordcount: '675'
+ht-degree: 50%
 
 ---
 
-# 创建虚拟报表包
+# 创建虚拟报告包
 
 在您开始创建虚拟报表包之前，请注意下面一些事项。
 
 * 非管理员用户看不到虚拟报表包管理器。
-* 无法共享虚拟报表包。可通过群组/权限实现“共享”。
+* 无法共享虚拟报表包。 “共享”通过组/权限完成。
 * 在虚拟报表包管理器中，您只能看到自己的虚拟报表包。 您需要单击“显示所有”才能看到其他所有人的虚拟报表包。
 
 1. 导航到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**。
@@ -30,10 +30,10 @@ ht-degree: 62%
 
 | 元素 | 描述 |
 | --- |--- |
-| 名称 | 虚拟报表包的名称不会继承父报表包的名称，该名称应当具有独特性。 |
-| 描述 | 为便于业务用户识别，应添加适当的描述。 |
+| 名称 | 虚拟报表包的名称不会从父报表包继承，因此应该是不同的。 |
+| 描述 | 为了业务用户的利益，添加准确的描述。 |
 | 标记 | 您可以添加标记以组织报表包。 |
-| 来源 | 此虚拟报表包从中继承以下设置的报表包。大多数服务级别和功能（例如，eVar 设置、处理规则、分类等）都会被继承。要更改虚拟报表包中的这些继承设置，您必须编辑父报表包（“管理员”>“报表包”）。 |
+| 来源 | 此虚拟报表包会从中继承以下设置的报表包。 大多数服务级别和功能(例如，eVar设置、处理规则、分类等)都是继承的。 要更改虚拟报表包中的这些继承设置，您必须编辑父报表包（“管理员”>“报表包”）。 |
 | 时区 | 选择时区为可选操作。如果您选择了时区，则该时区会与虚拟报表包一起保存。 如果您没有选择时区，则使用父报表包的时区。编辑虚拟报表包时，与虚拟报表包一起保存的时区会显示在下拉选择器中。 如果虚拟报表包是在添加时区支持之前创建的，则父报表包的时区将显示在下拉选择器中。 |
 | 区段 | 您可以仅添加一个区段，也可以堆叠区段。注意：堆叠两个区段时，将使用 AND 语句联接它们。无法更改为 OR 语句。当您尝试删除或修改虚拟报表包中当前使用的某个区段时，会显示一条警告。 |
 
@@ -46,7 +46,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://video.tv.adobe.com/v/3428878?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -5,10 +5,10 @@ title: 在流失分析中应用区段
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 37%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 42%
 
    ![](assets/fallout-createsegment.png)
 
-   区段生成器即会打开，并预先填充匹配选定接触点的预置序列区段：
+   区段生成器即会打开，并预先填充与您选择的接触点匹配的预置连续区段：
 
    ![](assets/fallout-definesegment.png)
 
-1. 为该区段提供一个标题和描述，然后保存它。
+1. 为区段提供标题和描述，然后保存它。
 
    您现在可以在所需的任何项目中使用此区段。
 
@@ -51,12 +51,6 @@ ht-degree: 42%
 
 您可以在“流失”可视化图表中比较任意区段数量。 （请注意，以下视频说明最多可以比较3个区段，这是错误的。）
 
-
->[!BEGINSHADEBOX]
-
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在流失可视化图表中比较区段](https://video.tv.adobe.com/v/328033?quality=12&learn=on&captions=chi_hans){target="_blank"}。
-
->[!ENDSHADEBOX]
 
 
 1. 从左侧的[!UICONTROL 区段]面板中选择要比较的区段。 在示例中选择了两个区段：**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!UICONTROL Android]**。

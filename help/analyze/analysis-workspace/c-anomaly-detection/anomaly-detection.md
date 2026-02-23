@@ -4,10 +4,10 @@ title: 异常检测概述
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '1294'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [异常检测](https://video.tv.adobe.com/v/40730?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [异常检测](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Analysis Workspace 的异常检测算法包括
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [贡献度分析](https://video.tv.adobe.com/v/40762?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [贡献度分析](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -119,17 +119,17 @@ Analysis Workspace 的异常检测算法包括
    <td colname="col3" colsep="1"> <p>无令牌 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/cn/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>仅每天粒度 </p> </td> 
    <td colname="col3"> <p>无令牌 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/cn/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  > Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 10 个令牌 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/cn/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 20 个令牌 </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Analysis Workspace 的异常检测算法包括
    <td colname="col3"> <p>每月 2 个令牌 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium（完整，<a href="https://business.adobe.com/cn/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>） </p> </td> 
+   <td colname="col1"> <p>Premium（完整，<a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>） </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>无限制令牌 </p> </td> 
   </tr> 

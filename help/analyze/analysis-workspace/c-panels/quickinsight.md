@@ -4,7 +4,7 @@ title: 快速分析面板
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 91%
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的快速洞察面板。_<br/>_查看本文的[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/quickinsight.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**快速分析面板**。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的快速洞察面板。_<br/>_查看本文的[ ](/help/analyze/analysis-workspace/c-panels/quickinsight.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**快速分析面板**。_
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 | **[!UICONTROL 量度]** | 量度是有关访客活动的量化信息，包括查看次数、点进次数、重新加载次数、平均逗留时间、件数、订购、收入等。 |
 | **[!UICONTROL 可视化图表]** | Workspace 提供了[许多可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，用于生成数据的可视化表示形式。例如条形图、圆环图、直方图、线形图、地图、散点图等。 |
 | **[!UICONTROL 维度划分]** | 维度划分是一种按其他维度来划分维度的方法。例如，您可以按移动设备划分美国各州的情况，以获取每个州的移动设备访问次数。或者您可以按移动设备类型、地区、内部营销活动等划分移动设备。 |
-| **[!UICONTROL 区段]** | 通过区段，您可以根据用户特征或网站交互情况来识别访客子集。例如，您可以根据以下内容生成[!UICONTROL 访客]区段 <li>归因：浏览器类型、设备、访问次数、国家/地区、性别或</li><li>交互：营销活动、关键词搜索、搜索引擎或</li><li>退出和进入：来自 Facebook 的访客、定义的登陆页面、反向链接域或</li><li> 自定义变量：表单字段、定义的类别、客户 ID。 |
+| **[!UICONTROL 区段]** | 通过区段，您可以根据用户特征或网站交互情况来识别访客子集。例如，您可以根据以下内容生成[!UICONTROL 访客]区段 <li>属性：浏览器类型、设备、访问次数、国家/地区、性别或</li><li>交互：营销活动、关键词搜索、搜索引擎或</li><li>退出和进入：来自 Facebook 的访客、定义的登陆页面、反向链接域或</li><li> 自定义变量：表单字段、定义的类别、客户 ID。 |
 
 ## 使用
 
@@ -103,7 +103,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 1. 当您添加了至少一个维度和一个量度后，您就可以看到结果。
 
-   ![The Freeform table showing the dimension vertically and the metric horizontally.](assets/quick-insights-output.png)
+   ![自由格式表纵向显示维度，横向显示量度。](assets/quick-insights-output.png)
 
    * 包含维度（[!UICONTROL 国家/地区 Site]）和量度（[!UICONTROL 访问次数]）的自由格式表，按[!UICONTROL 过去 12 个月]来自[!UICONTROL 搜索引擎]的[!UICONTROL 访问次数]分段。
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326701/?quality=12&captions=chi_hans)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
 
 ## Basic key terminology
 

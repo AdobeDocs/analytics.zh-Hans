@@ -5,7 +5,7 @@ title: 可视化概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: b2e6b10fb468d5661f65b31c60d4d16b93dc9139
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 88%
@@ -37,12 +37,12 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [水平条](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 水平条可视化显示了一些水平条，这些水平条表示一个或多个量度中的各种值。 |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [堆叠的水平条形图](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 堆叠水平条形图可视化展示了代表一个或多个量度不同值的水平条。 |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [关键量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 关键量度摘要可视化结合了线形图、摘要变化图和摘要数字可视化。 |
-| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Line](/help/analyze/analysis-workspace/visualizations/line.md) | 线形图可视化图表使用线条来表示量度，以显示一段时间内值的变化情况。将时间作为 x 轴的线形图。 |
+| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [折线图](/help/analyze/analysis-workspace/visualizations/line.md) | 线形图可视化图表使用线条来表示量度，以显示一段时间内值的变化情况。将时间作为 x 轴的线形图。 |
 | ![地球](/help/assets/icons/Globe.svg) | [地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 允许您构建任何量度（包括计算量度）的可视地图 |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 散点图可视化图表显示维度项与最多三个量度之间的关系。 |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [部分标头](section-header.md) | 识别并阐述面板中的各个部分。 |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要变化可视化将所选单元格之间的变化显示为一个大的数字或百分比。 |
-| ![&#x200B; 123](/help/assets/icons/123.svg)</p> | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要数字可视化将选定的单元格显示为一个大的数字。 |
+| ![ 123](/help/assets/icons/123.svg)</p> | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要数字可视化将选定的单元格显示为一个大的数字。 |
 | ![Text](/help/assets/icons/Text.svg) | [文本](/help/analyze/analysis-workspace/visualizations/text.md) | 文本可视化功能允许您将用户定义的文本添加到工作区。在利用面板/可视化图表描述之外，对于向您的分析和洞察添加额外的上下文非常有用 |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [树状图](/help/analyze/analysis-workspace/visualizations/treemap.md)<p> | 树状图可视化将层次化（树状结构）数据显示为一组嵌套的矩形。 |
 | ![Type](/help/assets/icons/TwoDots.svg) | [维恩图](/help/analyze/analysis-workspace/visualizations/venn.md) | 可视化维恩图使用圆圈来描绘最多 3 个区段的量度重叠。 |
@@ -200,69 +200,3 @@ Analysis Workspace 中提供了以下可视化图表类型：
 如果您不确定选择哪种可视化图表，请在任意自由格式表行（将光标悬停于上方即可显示）中选择 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 可视化]**。这一选择是添加可视化图表最快的方法。Analysis Workspace 针对哪种可视化图表最适合您的数据做出有根据的推测。例如，如果您选择了一行，则会创建趋势[线形图](line.md)。如果您选择了三个过滤器行，则会创建[维恩](venn.md)图。
 
 ![快速可视化](assets/quick-viz.png)
-
-
-<!--
-## Settings {#settings}
-
-![](assets/settings.png)
-
-| Setting | Description |
-| --- | --- |
-| Visualization Type | Change the type of visual used to depict the data. |
-| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
-| Percentages | Displays values in percentages. |
-| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
-| Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
-| Limit Max Items | Lets you limit the number of items that a visualization displays. |
-| Anchor Y Axis at Zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
-| Normalization | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
-| Display Dual Axis | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
-| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
-
-## Legend {#legend}
-
-A visualization legend helps you to relate date in a source table to plotted series in the visualization. The legend is interactive - you can click a legend item to show/hide a series in the visualization. This is helpful if you want to simplify the data being visualized. 
-
-Additionally, you can rename legend labels to help you make visuals more consumable. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
-
-To edit a legend label:
-
-1. Right-click one of the legend labels.
-1. Click **[!UICONTROL Edit Label]**.
-
-   ![](assets/edit-label.png)
-
-1. Enter the new label text.
-1. Press **[!UICONTROL Enter]** to save.
-
-## Right-click menu {#right-click}
-
-Additional functionality for a visualziation is available by right-clicking on the visualization header. Settings will vary by visualization. Some of the settings available are:
-
-![](assets/right-click.png)
-
-| Setting | Description |
-| --- | --- |
-| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
-| Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-data) | Download visualization data source as a CSV. |
-| Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
-| Edit Description | Add (or edit) a text description for the visualization. |
-| Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
-| Start Over | (Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization so you can re-configure it from scratch. |
-
-## Create Visual icon {#quick-viz}
-
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
-
-![](assets/quick-viz.png)
-
-## Change the scale axis on visualizations
-
-Here is a video overview:
-
->[!VIDEO](https://video.tv.adobe.com/v/41450/?captions=chi_hans&quality=12)
-
--->

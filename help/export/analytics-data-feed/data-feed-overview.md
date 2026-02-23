@@ -4,10 +4,10 @@ keywords: 点击流;数据馈送;数据馈送;数据馈送
 title: Analytics 数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在数据馈送界面中导航](https://video.tv.adobe.com/v/3428569?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在数据馈送界面中导航](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-查看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送 ID](https://video.tv.adobe.com/v/3418478?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+查看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送 ID](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]

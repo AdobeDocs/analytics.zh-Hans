@@ -4,10 +4,10 @@ title: 区段概述
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 43%
+source-wordcount: '307'
+ht-degree: 42%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用区段](https://video.tv.adobe.com/v/41395?captions=chi_hans&quality=12&learn=on){target="_blank"}来演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用区段](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"}来演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找和创建演示视频的区段](https://video.tv.adobe.com/v/3415641?captions=chi_hans&quality=12&learn=on){target="_blank"}。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找和创建演示视频的区段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的滚动日期范围](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[区段中的滚动日期范围](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-请参阅演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [应用区段的其他方法](https://video.tv.adobe.com/v/33231?captions=chi_hans&quality=12&learn=on){target="_blank"}。
+请参阅演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [应用区段的其他方法](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

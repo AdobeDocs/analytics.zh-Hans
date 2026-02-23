@@ -4,10 +4,10 @@ description: 了解将成功事件的点数归因到多个维度项的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 99%
 
 ---
 
@@ -53,28 +53,28 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[自由格式表中的归因](https://video.tv.adobe.com/v/37441?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[自由格式表中的归因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算量度中的归因](https://video.tv.adobe.com/v/41481?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算量度中的归因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用归因面板](https://video.tv.adobe.com/v/37445?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用归因面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加归因模型的并排比较](https://video.tv.adobe.com/v/327797?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加归因模型的并排比较](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 

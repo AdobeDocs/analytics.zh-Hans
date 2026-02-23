@@ -3,9 +3,9 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1278'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://video.tv.adobe.com/v/3428569?captions=chi_hans&quality=12&learn=on){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

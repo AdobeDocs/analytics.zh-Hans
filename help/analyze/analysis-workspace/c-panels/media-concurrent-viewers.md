@@ -4,9 +4,9 @@ description: 了解如何使用和解读Analysis Workspace中的“媒体并行�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1241'
 ht-degree: 95%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的媒体并发查看者面板。_<br/>_请参阅[媒体并发查看者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的媒体并发查看者面板。_<br/>_请参阅[媒体并发查看者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体并行查看者面板](https://video.tv.adobe.com/v/342834?captions=chi_hans&quality=12&learn=on){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体并行查看者面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342834/?captions=chi_hans&quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
 
 ## Panel Inputs {#Input}
 

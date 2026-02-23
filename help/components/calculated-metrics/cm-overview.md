@@ -4,10 +4,10 @@ keywords: 计算量度
 title: 计算指标概述
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 99%
 
 ---
 
@@ -59,13 +59,13 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算量度](https://video.tv.adobe.com/v/37926?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计算量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的分段计算量度](https://video.tv.adobe.com/v/37925?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的分段计算量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[创建量度](/help/components/calculated-metrics/workflow/cm-workflow.md)
->>[生成量度](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
->>[使用函数](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+>[生成量度](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[使用函数](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

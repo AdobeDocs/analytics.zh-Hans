@@ -3,10 +3,10 @@ title: Analytics 集成
 description: 了解怎样才能将其他位置的数据集成到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/327667?quality=12&learn=on&captions=chi_hans){target="_blank"} 以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} 以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
-* [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hans)
-* [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hans)
+* [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

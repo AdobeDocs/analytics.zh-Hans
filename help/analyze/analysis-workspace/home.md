@@ -4,10 +4,10 @@ description: 了解 Analysis Workspace —— Adobe Analytics 的高级分析工
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概述](https://video.tv.adobe.com/v/35509/?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概述](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

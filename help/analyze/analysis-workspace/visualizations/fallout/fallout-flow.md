@@ -4,10 +4,10 @@ title: 流失概述
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 95%
+source-wordcount: '260'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的流失可视化图表。_<br/>_请参阅[流失](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的流失可视化图表。_<br/>_请参阅[流失](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流失可视化图表](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流失可视化图表](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -47,14 +47,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 * 拖放和重新排列漏斗步骤（接触点）
 * 混合和匹配来自不同维度和量度的值
 * 创建多维度流失报告
-* 识别客户在流失之后马上前往何处
+* 识别客户在吵架后立即前往何处
 
 流失显示一个序列中每个步骤或接触点之间的转化和流失率。
 
-例如，您可以跟踪购买过程中的客户流失点。您只需选择一个起始接触点和一个结束接触点，并在其中添加中间接触点，即可创建网站浏览路径。但是，您还可以执行多维度流失。
+例如，您可以跟踪访客在购买过程中的流失点数。 只需选择一个开始接触点和一个结束接触点，然后添加中间接触点即可创建网站导航路径。 但是，您还可以执行多维度流失。
 
 流失可视化图表有助于分析以下内容：
 
 * 网站上特定过程的转化率（例如购买或注册过程）。
-* 一般、更宽范围的流量：显示在查看主页的访客中，有多少人继续进行搜索及有多少人最终查看特定项目。
-* 网站上事件之间的关联。显示查看隐私政策后继续购买产品的访客百分比。
+* 更广泛的一般流量流：在查看了主页的用户中，此流量显示有多少人接下来执行了搜索，随后又有多少人最终查看了特定项目。
+* 网站上事件之间的关联。 关联显示查看了您的隐私政策的用户购买产品的百分比。

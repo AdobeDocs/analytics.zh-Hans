@@ -3,9 +3,9 @@ title: 散点图
 description: 了解如何在Analysis Workspace中创建和解读散点可视化图表以分析维度项目与最多三个量度之间的关系。
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '232'
 ht-degree: 65%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的散点图可视化图表。_<br/>_请参阅[散点图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的散点图可视化图表。_<br/>_请参阅[散点图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散点图可视化图表](https://video.tv.adobe.com/v/3416858/?captions=chi_hans&quality=12){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散点图可视化图表](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 

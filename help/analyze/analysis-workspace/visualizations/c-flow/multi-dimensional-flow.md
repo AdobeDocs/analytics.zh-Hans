@@ -5,9 +5,9 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '334'
 ht-degree: 96%
 
 ---
@@ -16,11 +16,15 @@ ht-degree: 96%
 
 通过维度间流量可以跨不同维度查看用户路径。
 
+<!-- 
+
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [维度间流量](https://video.tv.adobe.com/v/327474?quality=12&learn=on&captions=chi_hans){target="_blank"}以获取演示视频。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+
+-->
 
 本文展示了如何在两种用例中使用此流量：移动应用程序交互和事件，以及营销活动如何推动 Web 访问次数。
 
@@ -40,7 +44,7 @@ ht-degree: 96%
 
   ![显示将页面维度拖到末端空白处的流量。](assets/flowapp-add.png)
 
-下面的流量可视化图表显示了添加&#x200B;**[!UICONTROL 事件类型]**&#x200B;维度的结果。该可视化图表可让您深入了解移动应用程序用户在将产品添加到购物车、关闭应用程序、展现产品建议等之前是如何在应用程序的各个屏幕之间移动的。
+下面的流量可视化图表显示了添加&#x200B;**[!UICONTROL 事件类型]**&#x200B;维度的结果。该可视化图表可让您洞察移动应用程序用户在将产品添加到购物车、关闭应用程序、展现产品建议等之前是如何在应用程序的各个屏幕之间移动的。
 
 ![显示将页面维度结果展现在列表顶部的流量。](assets/flowapp-result.png)
 

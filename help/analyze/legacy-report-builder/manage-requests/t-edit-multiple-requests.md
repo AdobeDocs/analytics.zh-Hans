@@ -5,10 +5,10 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 90%
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 您可以基于请求的报表包、粒度和日期范围同时更改多个请求。
 
-您可以基于请求的报表包、区段、粒度和日期范围同时更改多个请求。例如，您可以更新报表的参数，以便所有请求基于相同的报表包或区段，或者您可以将每日报表转换为每周或每月报表，只要保留相同的时段数即可。您可以编辑电子表格中当前工作表或所有工作表的多个请求。
+您可以根据请求的报表包、区段、粒度和日期范围同时更改多个请求。 例如，您可以更新报表的参数，以便所有请求均基于相同的报表包或区段，或者，如果您保留相同的期间数，则可以将每日报表转换为每周或每月报表。 您可以编辑当前工作表或电子表格的所有工作表的多个请求。
 
 **编辑多个请求**
 
@@ -36,7 +36,7 @@ ht-degree: 90%
    * **按报表包**：按报表包对显示的请求进行分组。
    * **按区段**：根据区段名称对请求进行分组。
 
-      * **选择区段**：在请求不存在区段时显示。要添加区段，请单击&#x200B;**[!UICONTROL 编辑群组]**&#x200B;并从[!UICONTROL 编辑群组]面板中选择一个区段。
+      * **选择区段**：当请求不存在区段时显示。 要添加区段，请单击&#x200B;**[!UICONTROL 编辑组]**，然后从[!UICONTROL 编辑组]面板中选择一个区段。
 
    * **按量度：**&#x200B;请参阅[编辑跨越多个请求的量度](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md)。
 
@@ -49,4 +49,4 @@ ht-degree: 90%
 
 以下是一段演示该过程的视频：
 
-https://video.tv.adobe.com/v/40098/?quality=12&captions=chi_hans
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

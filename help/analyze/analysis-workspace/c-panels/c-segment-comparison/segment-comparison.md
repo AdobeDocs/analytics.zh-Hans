@@ -5,9 +5,9 @@ keywords: Analysis Workspace;区段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 3324d04af41b5de1e42c6ec3958e17fc0fadd0df
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 74%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的区段比较面板。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中没有等效面板。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的区段比较面板。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中没有等效面板。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段比较](https://video.tv.adobe.com/v/37493?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段比较](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

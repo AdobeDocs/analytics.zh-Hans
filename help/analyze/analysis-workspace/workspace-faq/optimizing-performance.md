@@ -4,10 +4,10 @@ title: 优化Analysis Workspace性能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 42%
+source-wordcount: '2490'
+ht-degree: 41%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 42%
 | 自由格式表的单元格数量 | 项目中自由格式表单元格的总量，计算方法是所有表的行数乘以列数。此值排除了隐藏的数据源。 该准则为 4,000。 | 应当将表中的列数减少至仅包含最相关的数据点。应通过调整显示的行数、应用表过滤器，或应用区段来减少表中的行数。 |
 | 可用组件 | 在项目的左边栏检索到的所有报表包中的组件总数。此值会影响左边栏加载的速度以及返回搜索结果的速度。 该准则为 2,000。 | 应当与您的产品管理员探讨如何创建一个策划的虚拟报表包，其中包含一组更适合应用环境的组件。 |
 | 已用的组件 | 项目中已使用的组件总数。该准则为 100。 | 使用的组件数量不会对性能产生直接影响。 但是，这些组件的复杂性会影响项目的性能。 请参阅下面的A[其他因素](#additional-factors)部分中的优化。 |
-| 最长的日期范围 | 此因素显示项目中使用的最长日期范围。 该准则为 1 年。 | 请尽量不要获取超过需求的数据。将面板日历缩小到用于分析的相关日期。 或者在自由格式表中使用日期范围组件。 表中使用的日期范围将覆盖面板日期范围。例如，您可以将上月、上周和昨天添加到表列中，以请求这些特定范围的数据。有关在 Analysis Workspace 中使用日期范围的更多信息，请观看[此视频](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace)。<br><br>另外，应在项目中最大限度地减少使用年度同期比较的次数。在计算年度同期比较时，计算过程会查看感兴趣的月份之间整整13个月的数据。 此比较与将面板日期范围更改为过去13个月具有相同的效果。 |
+| 最长的日期范围 | 此因素显示项目中使用的最长日期范围。 该准则为 1 年。 | 请尽量不要获取超过需求的数据。将面板日历缩小到用于分析的相关日期。 或者在自由格式表中使用日期范围组件。 表中使用的日期范围将覆盖面板日期范围。例如，您可以将上月、上周和昨天添加到表列中，以请求这些特定范围的数据。有关在 Analysis Workspace 中使用日期范围的更多信息，请观看[此视频](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace)。<br><br>另外，应在项目中最大限度地减少使用年度同期比较的次数。在计算年度同期比较时，计算过程会查看感兴趣的月份之间整整13个月的数据。 此比较与将面板日期范围更改为过去13个月具有相同的效果。 |
 
 ## 请求因素
 
@@ -101,8 +101,8 @@ ht-degree: 42%
 
 | 因素 | 定义 | 影响因素 | 优化 |
 | --- | --- | --- | --- |
-| 区段复杂性 | 复杂的区段可能会对项目性能产生重大影响。 | 增加区段复杂性的因素（按影响程度降序排列）包括： <ul><li>**[!UICONTROL 的运算符包含]**，**[!UICONTROL 包含任意]**，**[!UICONTROL 匹配]**，**[!UICONTROL 开头为]**，或&#x200B;**[!UICONTROL 结尾为]**/ </li><li>连续分段，尤其是使用维度限制（之内/之后）时的连续分段 </li><li>区段中使用的维度中的唯一维度项目数(例如，具有10个唯一项目的页面的速度比具有100000个唯一项目的页面的速度更快，则页面=“A”)。</li><li>使用的不同维度的数量(例如，Page = &#39;Home&#39;和Page = &#39;Search results&#39;比eVar 1 =&#39;red&#39;和eVar 2 =&#39;blue&#39;更快)</li><li>许多“或”运算符（而不是“和”）</li><li>范围不同的嵌套容器（例如，访客访问内部的点击）</li></ul> | 虽然无法避免某些复杂因素，但应寻找机会降低区段的复杂性。通常，您的区段标准越具体，其性能就越好。例如：<ul><li>对于容器，使用区段顶部的单个容器的速度比使用一系列嵌套容器的速度更快。</li><li>使用运算符时，**[!UICONTROL 等于]**&#x200B;比&#x200B;**[!UICONTROL 包含]**&#x200B;快，**[!UICONTROL 等于]**&#x200B;中的任意一个比&#x200B;**[!UICONTROL 包含任何]**&#x200B;快。</li><li>对于许多标准，使用“和”运算符的速度比使用一系列“或”运算符的速度更快。</li></ul> 寻找机会将多个OR语句简化为一个&#x200B;**[!UICONTROL 等于任何]**&#x200B;语句。使用<br><br>[分类](/help/components/classifications/classifications-overview.md)可有助于将众多值合并到简洁的组中，您随后可以在这些组中创建区段。与包含许多OR语句或&#x200B;**[!UICONTROL 包含]**&#x200B;标准的区段相比，按分类组划分区段可提供更好的性能。 |
-| 可视化图表的复杂性（区段、量度、过滤器） | 自行添加到项目中的可视化图表类型（例如，流失与自由格式表）不会对项目性能产生太大影响。 可视化图表的复杂性会增加处理时间。 | 导致可视化图表复杂性增加的因素包括：<ul><li>请求的数据范围</li><li>应用的区段数量；例如，用作自由格式表行的区段</li><li>使用复杂区段</li><li>[静态项目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)行或列（位于自由格式表中）</li><li>应用于自由格式表行的过滤器</li><li>包含的量度数量，尤其是使用区段的计算量度</li></ul> | 如果您注意到项目没有按所需的速度加载，请尽量尝试将某些区段替换为 eVar 和过滤器。<br><br>如果您发现自己正在不断地将一些区段和计算量度用于对业务非常重要的数据点，请考虑改进您的实施方式，以便更直接地捕获这些数据点。使用 Adobe Experience Platform 中的标记和 Adobe 的处理规则，可以快速更改实施方式，而且也有利于实施。 |
+| 区段复杂性 | 复杂的区段可能会对项目性能产生重大影响。 | 增加区段复杂性的因素（按影响程度降序排列）包括： <ul><li>**[!UICONTROL 的运算符包含]**，**[!UICONTROL 包含任意]**，**[!UICONTROL 匹配]**，**[!UICONTROL 开头为]**，或&#x200B;**[!UICONTROL 结尾为]**/ </li><li>顺序分段，尤其是使用维度限制（“之内”/“之后”）时 </li><li>区段中使用的维度中的唯一维度项目数(例如，具有10个唯一项目的页面的速度比具有100000个唯一项目的页面的速度更快，则页面=“A”)。</li><li>使用的不同维度的数量(例如，Page = &#39;Home&#39;和Page = &#39;Search results&#39;比eVar 1 =&#39;red&#39;和eVar 2 =&#39;blue&#39;更快)</li><li>许多“或”运算符（而不是“和”）</li><li>范围不同的嵌套容器（例如，访客访问内部的点击）</li></ul> | 虽然无法避免某些复杂因素，但应寻找机会降低区段的复杂性。通常，区段标准越具体，其性能就越好。 例如：<ul><li>对于容器，使用区段顶部的单个容器的速度比使用一系列嵌套容器的速度更快。</li><li>使用运算符时，**[!UICONTROL 等于]**&#x200B;比&#x200B;**[!UICONTROL 包含]**&#x200B;快，**[!UICONTROL 等于]**&#x200B;中的任意一个比&#x200B;**[!UICONTROL 包含任何]**&#x200B;快。</li><li>对于许多标准，使用“和”运算符的速度比使用一系列“或”运算符的速度更快。</li></ul> 寻找机会将多个OR语句简化为一个&#x200B;**[!UICONTROL 等于任何]**&#x200B;语句。使用<br><br>[分类](/help/components/classifications/classifications-overview.md)可有助于将众多值合并到简洁的组中，您随后可以在这些组中创建区段。与包含许多OR语句或&#x200B;**[!UICONTROL 包含]**&#x200B;标准的区段相比，按分类组划分区段可提供更好的性能。 |
+| 可视化图表的复杂性（区段、量度、过滤器） | 自行添加到项目中的可视化图表类型（例如，流失与自由格式表）不会对项目性能产生太大影响。 可视化图表的复杂性会增加处理时间。 | 导致可视化图表复杂性增加的因素包括：<ul><li>请求的数据范围</li><li>应用的区段数量；例如，用作自由格式表行的区段</li><li>使用复杂区段</li><li>[静态项目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)行或列（位于自由格式表中）</li><li>应用于自由格式表行的过滤器</li><li>包含的指标数，尤其是使用区段的计算指标</li></ul> | 如果您注意到项目没有按所需的速度加载，请尽量尝试将某些区段替换为 eVar 和过滤器。<br><br>如果您发现自己正在不断地将一些区段和计算量度用于对业务非常重要的数据点，请考虑改进您的实施方式，以便更直接地捕获这些数据点。使用 Adobe Experience Platform 中的标记和 Adobe 的处理规则，可以快速更改实施方式，而且也有利于实施。 |
 | 报表包大小 | 报表包中收集到的数据量。 | - | 请咨询您的实施团队或Adobe专家，确定是否可以开展实施方面的改进，以改善Adobe Analytics的整体体验。 |
 | 并行查询 | 您的组织同时请求的查询数。 每个组织都有权进行至少 5 个并发查询。 | 如果报告需要较长时间，报告可能与其他报告位于队列中。 您的组织针对特定报表包尝试运行的并发请求过多。 查询可以来自API请求、报表UI(Analysis Workspace、Report Builder)、计划项目、计划报表、计划警报以及发出报表请求的并发用户。 | 将报表包的请求和计划较为均匀地分布在一天当中。此外，请尽可能将您的请求转移到非高峰时段。周一早上、周二早上和每个月的第一天是报告高峰时段。 |
 
@@ -111,7 +111,7 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [提高生产力的提示](https://video.tv.adobe.com/v/33228?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [提高生产力的提示](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

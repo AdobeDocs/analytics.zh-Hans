@@ -1,12 +1,12 @@
 ---
-title: “Media Playback 耗时”面板
+title: “媒体播放耗时”面板
 description: 了解如何在Analysis Workspace中使用和解释“Media Playback耗时”面板。
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1167'
 ht-degree: 90%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的媒体播放耗时面板。_<br/>_请参阅[媒体播放耗时面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的媒体播放耗时面板。_<br/>_请参阅[媒体播放耗时面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体播放耗时面板](https://video.tv.adobe.com/v/3446710?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体播放耗时面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -147,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446710?captions=chi_hans)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

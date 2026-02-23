@@ -4,9 +4,9 @@ description: 了解算法归因模型的详细信息。
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 42%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspace 中的算法[归因模型](models.md)与其他模型有所不
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [算法归因](https://video.tv.adobe.com/v/40050?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[算法归因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

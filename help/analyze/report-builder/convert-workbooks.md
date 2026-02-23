@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [转换工作簿](https://video.tv.adobe.com/v/3446192?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [转换工作簿](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/exporting/report-builder/upgrade-and-reschedule-workbooks){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

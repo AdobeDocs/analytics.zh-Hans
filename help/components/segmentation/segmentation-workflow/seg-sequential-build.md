@@ -3,10 +3,10 @@ description: 了解使用THEN运算符定义区段条件序列的顺序区段。
 title: 顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '2375'
-ht-degree: 5%
+source-wordcount: '2376'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://video.tv.adobe.com/v/37426?quality=12&learn=on&captions=chi_hans){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 #### 简单序列
 
-确定查看某个页面并随后查看另一个页面的访客。命中级别的数据将使用此序列进行分段。 不考虑以往、过去或临时访客访问，也不考虑两次访问之间发生页面查看的时间或次数。
+识别查看了某个页面然后又查看了另一个页面的访客。 命中级别的数据将使用此序列进行分段。 不考虑以往、过去或临时访客访问，也不考虑两次访问之间发生页面查看的时间或次数。
 
 ![顺序区段包括所有人](assets/sequence-include-everyone.png)
 
@@ -78,7 +78,7 @@ ht-degree: 5%
 1. 选择![时钟](/help/assets/icons/Clock.svg)。
 1. 从上下文菜单中选择&#x200B;**[!UICONTROL Within]**&#x200B;或&#x200B;**[!UICONTROL After]**。
 1. 指定一个时间段（**[!UICONTROL 分钟]**，**[!UICONTROL 小时]**，最多&#x200B;**[!UICONTROL 年]**）。
-1. 选择![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;以打开一个弹出窗口，允许您使用&#x200B;**[!UICONTROL -]**&#x200B;或&#x200B;**[!UICONTROL +]**&#x200B;键入或指定数字。
+1. 选择![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**以打开一个弹出窗口，允许您使用**[!UICONTROL -]**或**[!UICONTROL +]**键入或指定数字。
 
 若要移除时间限制，请使用![CrossSize75](/help/assets/icons/CrossSize75.svg)。
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 | 运算符 | 描述 |
 |--- |--- |
 | **[!UICONTROL After]** | [!UICONTROL After]运算符用于指定两个检查点之间的时间长度的最小限制。 设置After值时，时间限制从应用区段时开始。 例如，如果在容器上设置[!UICONTROL After]运算符以识别访问页面A，但直到一天后才返回访问页面B的访客，那么该日期将从访客离开页面A时开始。 对于要包含在区段中的访客，离开页面A后必须至少经过1440分钟（一天）才能查看页面B。 |
-| **[!UICONTROL Within]** | [!UICONTROL Within] 运算符用于指定两个检查点之间的时间长度的最大限制。例如，如果在容器上设置[!UICONTROL Within]运算符以识别访问页面A，然后在一天内返回访问页面B的访客，那么该日期将从访客离开页面A时开始。要包含在此区段中，访客在打开页面B前最长有一天的时间。对于要包含在区段中的访客，在离开页面A以查看页面B后，最多必须在1440分钟（一天）内打开页面B。 |
+| **[!UICONTROL Within]** | [!UICONTROL Within]运算符用于指定两个检查点之间的时间长度的最大限制。 例如，如果在容器上设置[!UICONTROL Within]运算符以识别访问页面A，然后在一天内返回访问页面B的访客，那么该日期将从访客离开页面A时开始。要包含在此区段中，访客在打开页面B前最长有一天的时间。对于要包含在区段中的访客，在离开页面A以查看页面B后，最多必须在1440分钟（一天）内打开页面B。 |
 | **[!UICONTROL 晚于]**&#x200B;之内 | 同时使用[!UICONTROL After]和[!UICONTROL Within]运算符时，这两个运算符是并行开始和结束的，而不是按顺序开始和结束。 <br/>例如，您生成了一个区段，其容器设置为： `After = 1 Week(s) and Within = 2 Week(s)`。<br/>此区段中用于识别访客的条件仅在一周至两周内满足要求。 这两个条件是从第一次查看页面时开始执行的。 |
 
 
@@ -135,7 +135,7 @@ ht-degree: 5%
 | 序列 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
 |--- | :---: |
 | 页面`Women \| Shoes`后跟页面`Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 页面`Women \| Shoes`后跟页面`Women \| Tops`，后跟页面`Checkout \| Thank You` | ![删除圆圈](/help/assets/icons/RemoveCircle.svg) |
+| 页面`Women \| Shoes`后跟页面`Women \| Tops`，后跟页面`Checkout \| Thank You` | ![移除圆圈](/help/assets/icons/RemoveCircle.svg) |
 
 ## [!UICONTROL 包含]
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 |---:|--- | --- |
 | 1 | 在同一次访问中`Women \| Shoes`然后`Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 2 | `Women \| Shoes`然后`Men \| Shoes`然后`Checkout \| Thank You`（跨不同访问） | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 3 | `Checkout \| Thank You`，然后`Women \| Shoes` | ![删除圆圈](/help/assets/icons/RemoveCircle.svg) |
+| 3 | `Checkout \| Thank You`，然后`Women \| Shoes` | ![移除圆圈](/help/assets/icons/RemoveCircle.svg) |
 
 ### [!UICONTROL 仅在序列之前]，[!UICONTROL 仅在序列之后]
 
@@ -170,16 +170,16 @@ ht-degree: 5%
 | B然后D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | 包含每个人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 仅在序列前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
-| 仅在序列后 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 仅在序列之前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| 仅在序列之后 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 
 
 | B然后D（出现多次） | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 包含每个人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 仅在序列前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
-| 仅在序列后 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 仅在序列之前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| 仅在序列之后 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 #### 示例
 
@@ -199,9 +199,9 @@ ht-degree: 5%
 
 排除定义的示例包括：
 
-* **排除页面**。使用区段定义从报告中排除特定页面（如&#x200B;*主页*），创建页面等于`Home Page`的点击规则，然后排除该规则。 此定义自动包括&#x200B;*主页*&#x200B;以外的所有页面。
-* **排除反向链接域**。请使用仅包含来自Google.com的反向链接域并排除所有其他域的定义。
-* **确定非顾客**。识别订单大于零的时间，然后排除[!UICONTROL 人员]。
+* **排除页面**。 使用区段定义从报告中排除特定页面（如&#x200B;*主页*），创建页面等于`Home Page`的点击规则，然后排除该规则。 此定义自动包括&#x200B;*主页*&#x200B;以外的所有页面。
+* **排除反向链接域**。 请使用仅包含来自Google.com的反向链接域并排除所有其他域的定义。
+* **识别非购买者**。 识别订单大于零的时间，然后排除[!UICONTROL 人员]。
 
 [!UICONTROL 排除]可用于识别访客不属于特定访问的序列或执行特定点击。 [!UICONTROL 排除]也可以包含在[!UICONTROL 逻辑组]中（请参阅下文）。
 
@@ -302,4 +302,4 @@ An example of a complex sequential segment if you want to find the visitors that
 
 >[!MORELIKETHIS]
 >
-> * [掌握AA和CJA中的顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=zh-Hans)
+> * [掌握AA和CJA中的顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

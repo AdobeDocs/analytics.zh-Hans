@@ -5,9 +5,9 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '866'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表中的行和列设置](https://video.tv.adobe.com/v/328499/?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表中的行和列设置](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -38,7 +38,7 @@ ht-degree: 92%
 | **[!UICONTROL 显示全部总计]** | 显示服务器端列的总和。全部总计会去除会话或人员等重复量度。 |
 | **[!UICONTROL 显示迷您图]** | 在列标题处显示线形图。 |
 | **[!UICONTROL 数值]** | 确定单元格是否显示/隐藏量度的数值。例如，如果量度是页面查看次数，则数值是行项目的页面查看次数。 |
-| **[!UICONTROL 百分比]** | 确定单元格是否显示/隐藏量度的百分比值。例如，如果量度是“页面查看次数”，则百分比值等于行项目的页面查看次数，除以该列的总页面查看次数。注释：为了确保准确性，百分比可以大于 100%。上限可以调整为 1,000%，以防止列宽变得太大。 |
+| **[!UICONTROL Percent]** | 确定单元格是否显示/隐藏量度的百分比值。例如，如果量度是“页面查看次数”，则百分比值等于行项目的页面查看次数，除以该列的总页面查看次数。注释：为了确保准确性，百分比可以大于 100%。上限可以调整为 1,000%，以防止列宽变得太大。 |
 | **[!UICONTROL 显示异常情况]** | 确定此列中的值是否要运行异常检测。 |
 | **[!UICONTROL 显示预测]** | 确定预测值是否显示在此列中。 |
 | **[!UICONTROL 标题文本换行]** | 让自由格式表中的标题文本换行，以使标题更加易读，表格更易共享。换行对 PDF 渲染和名称较长的量度非常有用。默认处于启用状态。 |
@@ -130,7 +130,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [动态列](https://video.tv.adobe.com/v/37450?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [动态列](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

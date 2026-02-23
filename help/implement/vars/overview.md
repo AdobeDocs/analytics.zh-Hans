@@ -5,9 +5,9 @@ keywords: appmeasurement,变量,变量,配置,页面,实施
 feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面都提供了
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [配置变量](https://video.tv.adobe.com/v/31220?captions=chi_hans&quality=12&learn=on){target="_blank"}，获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [配置变量](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-variables-in-the-admin-console){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]
 
