@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -302,4 +302,4 @@ An example of a complex sequential segment if you want to find the visitors that
 
 >[!MORELIKETHIS]
 >
-> * [掌握AA和CJA中的顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [掌握AA和CJA中的顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=zh-Hans)

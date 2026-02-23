@@ -27,4 +27,4 @@ ht-degree: 99%
 
 观看以下视频演示，了解如何在 Adobe Analytics 中添加管理员：
 
-[在 Adobe Analytics 中添加管理员](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
+[在 Adobe Analytics 中添加管理员](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}

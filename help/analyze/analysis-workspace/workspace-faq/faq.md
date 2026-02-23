@@ -45,13 +45,13 @@ ht-degree: 93%
 
 +++数据如何进入您的 Analysis Workspace 项目？
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"}以获取演示视频。
 
 +++
 
 +++如何跟踪 Workspace 使用情况？
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日志跟踪](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} 以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日志跟踪](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} 以获取演示视频。
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 93%
 * 仔细检查报告包，并确保报告包中已填充数据。
 * 如果在报告中应用了区段，区段标准可能与所有数据不匹配。请尝试移除区段或调整区段定义。
 * 检查右上角的日期范围，并确保它已设置为预期的值。
-* 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 验证正在收集的数据。
+* 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 验证正在收集的数据。
 
 
 +++

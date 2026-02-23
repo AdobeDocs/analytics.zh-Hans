@@ -47,7 +47,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段容器](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
