@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * 从&#x200B;**[!UICONTROL Report Builder中心]**&#x200B;的[计划](report-builder-hub.md)选项卡中打开计划的旧工作簿。 此操作是计划旧版工作簿的首选方法。 您可以选择在[计划转换的旧工作簿后，立即使用与旧工作簿关联的计划](#schedule-a-converted-legacy-workbook)。
 
-   1. 打开[!DNL Excel]并从![功能区栏中选择](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedonWhite **** Report Builder[!DNL Excel]。
+   1. 打开[!DNL Excel]并从![功能区栏中选择](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedonWhite **&#x200B;**&#x200B;Report Builder[!DNL Excel]。
 
    1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 直接从本地计算机或网络打开旧工作簿。 使用此方法时，不提供使用可能与旧版工作簿关联的计划。 <br/>在[!DNL Excel]中打开旧工作簿时：
 
-   1. 从![功能区栏中选择](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedOnWhite **** Report Builder[!DNL Excel]。
+   1. 从![功能区栏中选择](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedOnWhite **&#x200B;**&#x200B;Report Builder[!DNL Excel]。
    1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
    1. 然后[转换旧工作簿](#convert-a-workbook)。
 
