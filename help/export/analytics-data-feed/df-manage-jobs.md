@@ -3,18 +3,27 @@ title: 管理数据馈送作业
 description: 了解如何管理数据馈送中的各个作业。 导航界面，使用筛选器和搜索，以及查找列定义。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 11%
+source-wordcount: '541'
+ht-degree: 8%
 
 ---
 
-# 管理数据馈送作业
+# 管理数据馈送作业 {#manage-data-feed-jobs}
 
 作业是输出压缩文件的单个任务。 作业由馈送创建和管理。
 
 您可以查看每个数据馈送、重新发送作业或重新处理作业的作业历史记录。
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_job_history"
+>title="数据馈送作业历史记录"
+>abstract="您可以在此页面上查看给定数据馈送的数据馈送作业列表。 按请求ID或请求期间开始日期搜索作业。 有关每个作业的信息将显示在可用列中。 您还可以使用相同数据重新发送作业，或者在重新发送作业之前重新处理作业的源数据。"
+
+<!-- markdownlint-enable MD034 -->
 
 ## 查看数据馈送的作业历史记录
 
@@ -68,6 +77,8 @@ ht-degree: 11%
 
 1. 选中包含要重新发送的作业的数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **作业历史记录**]。
 
+1. （可选）在搜索字段中，按请求ID或请求时段开始日期进行搜索，以搜索数据馈送作业列表。
+
 1. 选中一个或多个数据馈送作业旁边的复选框，然后选择&#x200B;**[!UICONTROL 重新发送]**。<!-- What does the status need to be? Error, ... -->
 
    ![重新处理数据馈送作业](assets/data-feed-job-resend.png)
@@ -81,6 +92,8 @@ ht-degree: 11%
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
 1. 选中包含要重新处理的作业的数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **作业历史记录**]。
+
+1. （可选）在搜索字段中，按请求ID或请求时段开始日期进行搜索，以搜索数据馈送作业列表。
 
 1. 选中一个或多个数据馈送作业旁边的复选框，然后选择&#x200B;**[!UICONTROL 重新处理]**。<!-- What does the status need to be? Error, ... -->
 

@@ -3,23 +3,32 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1310'
 ht-degree: 15%
 
 ---
 
-# 管理数据馈送
+# 管理数据馈送 {#manage-data-feeds}
 
 通过数据馈送管理器，您可以为贵组织创建、编辑和删除数据馈送。如果您有权访问数据馈送管理器，则可以管理对您可见的所有报表包的数据馈送。
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="管理数据馈送"
+>abstract="您可以从此页面查看、创建和管理数据馈送。 按名称或ID搜索馈送，或者选择过滤器图标以查看可用的过滤器。"
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## 查看数据馈送
@@ -62,7 +71,7 @@ ht-degree: 15%
 
 1. 使用搜索或筛选器来查找特定馈送。
 
-   * 在搜索字段中，开始键入馈送的名称。 只有匹配的馈送才会显示在可用馈送列表中。
+   * 在搜索字段中，开始键入馈送的名称或ID。 只有匹配的馈送才会显示在可用馈送列表中。
 
      ![Search](assets/search.png)
 
