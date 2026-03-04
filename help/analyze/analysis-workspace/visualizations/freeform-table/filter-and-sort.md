@@ -4,10 +4,10 @@ title: 过滤和排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e288365f2c984b64ae8c16ce023a7a0357a0e2b7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -151,8 +151,6 @@ Note: this option does not seem to work. AN-338422
 
 ## 按多列对表进行排序（高级排序）
 
-{{release-limited-testing-section}}
-
 ### 将排序应用于多个列
 
 要按多列对表中的数据进行排序，请执行以下操作：
@@ -187,7 +185,7 @@ Note: this option does not seem to work. AN-338422
 
 ### 排序优先级
 
-当您为多个列排序数据时，将根据您分配给每个列的优先级对数据排序。 优先级编号显示在排序图标![排序优先级图标](assets/sort-priority-icon.png)旁边。
+当按多个列进行排序时，数据将根据您为每个列指定的优先级进行排序。优先级编号显示在排序图标![排序优先级图标](assets/sort-priority-icon.png)旁边。
 
 具有主优先级的列决定主顺序；具有次优先级的列决定主列中行的相同值的顺序；具有第三优先级的列决定主列和次列中行的相同值的顺序；依此类推。
 
