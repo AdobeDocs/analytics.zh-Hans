@@ -6,13 +6,13 @@ feature: Data Feeds
 source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
 # 动态查找
 
-动态查找允许您在数据馈送中接收其他查找文件，否则不可用。 此设置允许随每个数据馈送文件发送以下查找表：
+动态查找允许您在数据馈送中接收其他查找文件，否则不可用。 启用此设置后，每个数据馈送文件将同时发送以下查找表：
 
 * **运营商名称**：为`carrier`列提供其他上下文。 包含的文件名是`carrier.tsv`。
 * **移动设备属性**：为`mobile_id`列提供额外的上下文，包括为每个移动设备跟踪的所有功能。 包含的文件名是`mobile_attributes.tsv`。
@@ -25,7 +25,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="启用动态查找"
->abstract="选择此选项可在数据馈送中接收其他查找文件，否则不可用。 此设置允许随每个数据馈送文件发送以下查找表：<ul><li>运营商名称</li><li>移动设备属性</li><li>操作系统类型</li></ul>"
+>abstract="选择此选项后，数据馈送中将包含原本不可用的额外查找文件。启用此设置后，每个数据馈送文件将同时发送以下查找表：<ul><li>运营商名称</li><li>移动设备属性</li><li>操作系统类型</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

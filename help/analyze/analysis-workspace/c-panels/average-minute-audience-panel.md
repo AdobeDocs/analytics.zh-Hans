@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaminuteaverageaudience_button"
->title="媒体平均受众访问分钟数"
+>title="媒体受众平均逗留分钟数"
 >abstract="创建面板来分析特定内容或特定时间段内的平均受众访问分钟数。"
 
 <!-- markdownlint-enable MD034 -->
@@ -26,14 +26,14 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
->title="媒体平均受众访问分钟数"
+>title="媒体受众平均逗留分钟数"
 >abstract="显示特定媒体内容或自定义时间段内的性能。<br/><br/>**常规参数&#x200B;**<br/>**计算量度**：选择面板使用的量度。选择&#x200B;**特定内容**&#x200B;以根据内容长度分析特定内容或事件的平均受众访问分钟数。**选择自定义时间段**&#x200B;来分析平均受众访问分钟数在自定义选定时间段内的变化情况。<br/>**报告维度**：选择按&#x200B;**内容 ID** 维度的&#x200B;**视频名称**&#x200B;进行报告。仅当您选择特定内容作为量度时可用。<br/>**粒度**：选择报告的粒度。仅当您选择自定义时间段作为量度时可用。<br/>**按以下条件筛选内容（可选）**：选择特定的节目、季、剧集，或选择自定义维度来筛选内容。<br/><br/>**高级设置&#x200B;**<br/>**表格设置**：选择是否在表格中显示计算值。<br/>**逗留时间量度**：选择您想要用于特定内容计算的逗留时间量度。仅当您选择特定内容作为量度时可用。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中的“媒体平均受众访问分钟数”面板。<br/>_查看本文的[&#x200B; &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**媒体平均受众访问分钟数面板**。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中的“媒体平均受众访问分钟数”面板。<br/>_查看本文的[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**媒体平均受众访问分钟数面板**。_
 
 >[!ENDSHADEBOX]
 

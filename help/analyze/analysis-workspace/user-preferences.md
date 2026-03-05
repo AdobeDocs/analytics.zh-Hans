@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -135,7 +135,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="默认表量度"
->abstract="选择用于自由格式表的默认量度。如果选定的报表包不包含选定的默认指标，则表会自动切换到另一个主要指标。"
+>abstract="选择用于自由格式表的默认量度。如果所选报表包不包含所选的默认量度，表格将自动切换到其他主要量度。"
 
 
 您可以为在 Analysis Workspace 中创建的所有新项目自定义自由格式表偏好设置。有关如何访问这些偏好设置的信息，请参阅[更新偏好设置](#update-preferences)。

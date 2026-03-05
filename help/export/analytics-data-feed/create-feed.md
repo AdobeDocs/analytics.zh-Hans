@@ -6,7 +6,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
 source-wordcount: '2137'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
 >title="清单"
->abstract="选择是否在每次数据馈送传递时附带一个清单文件。清单文件包含数据馈送中包含的每个文件的信息。 如果用一个包发送数据馈送数据，您还可以选择包含一个完成文件，但建议包含清单文件。 "
+>abstract="选择是否在每次数据馈送传递时附带一个清单文件。清单文件包含数据馈送中每个文件的相关信息。如果用一个包发送数据馈送数据，您还可以选择包含一个完成文件，但建议包含清单文件。 "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,7 +47,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_notify"
 >title="完成时通知"
->abstract="指定一个或多个电子邮件地址，在发送数据馈送后应将通知发送到这些地址。 多个电子邮件地址必须以逗号分隔。"
+>abstract="指定一个或多个电子邮件地址，用于在数据馈送发送完成后接收通知。多个电子邮件地址必须使用逗号分隔。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,8 +82,8 @@ ht-degree: 25%
    | [!UICONTROL **清单**] | 选择是否在每次数据馈送提交时都包含清单文件。 <p>您可以从以下选项中进行选择：</p><ul><li>**[!UICONTROL 清单文件]**：包含数据馈送中包含的每个文件的信息。</li><li>**[!UICONTROL 完成文件（旧版）]**：表示数据馈送已成功完成。 不包含其他信息。 此选项适用于最初使用此选项但需要重新处理的现有馈送。 仅当在单个包中发送数据馈送数据时，它才可用。 </li><li>**[!UICONTROL 无]**：不包含任何文件</li></ul> |
    | [!UICONTROL **即使没有数据也发送清单**] | 确定在某个馈送间隔未收集数据的情况下，Adobe 是否要将一个[清单文件](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest)传输到目标。如果选择&#x200B;**清单文件**，则在未收集到数据时，您将收到类似于以下内容的清单文件：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **替换操作系统字符串**] | 在收集数据时，某些字符（如新行）可能会导致问题。 选择此选项可从馈送文件中删除这些字符。<p>此选项会检测嵌入到客户数据中的以下字符串序列，并将其替换为空格：</p> <ul><li>**Windows：** CRLF、CR或TAB</li><li>**Mac和Linux：** \n、\r或\t</li></ul> |
-   | [!UICONTROL **启用动态查找**] | 动态查找允许您在数据馈送中接收其他不可用的查找文件。 此设置允许随每个数据馈送文件发送以下查找表：<ul><li> **运营商名称**</li><li>**移动设备属性**</li><li>**操作系统类型**</li></ul><p>有关详细信息，请参阅[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)。</p> |
-   | **允许迟到的点击** | 历史数据可能会在数据馈送作业完成给定小时或一天的处理后到达（例如，通过带有时间戳的点击或数据源）。<p>选择此选项可以包括数据馈送作业在设置的报告频率内（通常是每日或每小时）完成数据处理后到达的数据。 启用此选项后，每次数据馈送处理数据时，它都会查看任何已到达的迟到点击，并将它们与发送的下一个数据馈送文件分批加入。</p><p>有关详细信息，请参阅[迟到的点击](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)。</p> |
+   | [!UICONTROL **启用动态查找**] | 动态查找允许您在数据馈送中接收其他不可用的查找文件。 启用此设置后，每个数据馈送文件将同时发送以下查找表：<ul><li> **运营商名称**</li><li>**移动设备属性**</li><li>**操作系统类型**</li></ul><p>有关详细信息，请参阅[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)。</p> |
+   | **允许迟到的点击** | 历史数据可能会在数据馈送作业完成给定小时或一天的处理后到达（例如，通过带有时间戳的点击或数据源）。<p>选择此选项后，将包含在设定报告频率（通常为每日或每小时）内数据馈送作业完成处理之后到达的数据。启用此选项后，每次数据馈送处理数据时，都会检查延迟到达的点击，并将其与下一次发送的数据馈送文件一并批量发送。</p><p>有关详细信息，请参阅[迟到的点击](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)。</p> |
    | **回顾窗口**（对于迟到的点击） | 启用选项&#x200B;**[!UICONTROL 允许迟到的点击]**&#x200B;时，将显示此选项。 选择回顾窗口以限制包含的最新点击的时间范围。 如果要允许所有迟到的点击，而不考虑迟到的时间，请选择&#x200B;**[!UICONTROL 无限制]**。 您可以选择预设间隔，如&#x200B;**[!UICONTROL 1小时]**、**[!UICONTROL 2小时]**、**[!UICONTROL 1周]**、**[!UICONTROL 2周]**&#x200B;等。 或者，选择&#x200B;**[!UICONTROL 自定义回看窗口期]**，然后在&#x200B;**[!UICONTROL 自定义回看窗口期]**&#x200B;字段中指定最多26,280小时的回看窗口期。 |
 
 1. 在&#x200B;[!UICONTROL **数据结构**]&#x200B;部分的&#x200B;**[!UICONTROL 报表包]**&#x200B;字段中，选择包含要导出的数据的源报表包。 <p>选择报表包时，请考虑以下事项：</p> <ul><li>如果为同一报表包创建了多个数据馈送，则每个数据馈送必须具有不同的列定义。</li><li>只有源报表包支持数据馈送；虚拟报表包则不支持。</li><li>可用列的列表取决于所选报表包所属的登录公司。 如果更改报表包，则可用列的列表可能会发生更改。 </li></ul>
@@ -139,7 +139,7 @@ ht-degree: 25%
    |---------|----------|
    | [!UICONTROL **帐户**] | 执行以下其中一项操作：<ul><li>**使用现有帐户：**&#x200B;选择&#x200B;**[!UICONTROL 帐户]**&#x200B;字段旁边的下拉菜单。 或者，开始键入帐户名称，然后从下拉菜单中选择该名称。 <p>只有在配置帐户或与您所属的某个组织共享帐户后，您才可以使用帐户。</p></li><li>**创建新帐户：**&#x200B;在&#x200B;**[!UICONTROL 帐户]**&#x200B;字段下选择&#x200B;**[!UICONTROL 添加新]**。 有关如何配置帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md#configure-a-location-account)中的[配置位置帐户](/help/components/locations/configure-import-accounts.md)。</li></ul> |
    | [!UICONTROL **位置**] | 执行以下其中一项操作：<ul><li>**使用现有位置：**&#x200B;选择&#x200B;**[!UICONTROL 位置]**&#x200B;字段旁边的下拉菜单。 或者，开始键入位置名称，然后从下拉菜单中选择该位置。</li><li>**创建新位置：**&#x200B;在&#x200B;**[!UICONTROL 位置]**&#x200B;字段下选择&#x200B;**[!UICONTROL 添加新]**。 有关如何配置位置的信息，请参阅[配置云导入和导出位置](/help/components/locations/configure-import-locations.md#configure-a-location)中的[配置位置](/help/components/locations/configure-import-locations.md)。</li></ul> |
-   | [!UICONTROL **完成时通知**] | 指定一个或多个电子邮件地址，在成功发送数据馈送或无法发送数据馈送后，应将通知发送到这些地址。 多个电子邮件地址必须以逗号分隔。 |
+   | [!UICONTROL **完成时通知**] | 指定一个或多个电子邮件地址，在成功发送数据馈送或无法发送数据馈送后，应将通知发送到这些地址。 多个电子邮件地址必须使用逗号分隔。 |
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 

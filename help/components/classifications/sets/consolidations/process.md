@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '983'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 分类集合并允许您从多个分类集获取分类并将它们组合到一个分类集中。 使用此界面从头到尾创建分类集合并。 此界面对于从旧版分类迁移到分类集的组织最有价值。 使用分类集的组织已经不需要使用此合并工作流。
 
-## 创建合并 {#create-a-consolidation}
+## 创建整合分类集 {#create-a-consolidation}
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="分类集优先级"
->abstract="![键](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分类集*&#x200B;是基本分类集，它定义了整个架构，在任何合并冲突中都具有优先权。 其他分类集按从上到下的顺序应用。"
+>abstract="![键](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分类集*&#x200B;是基础分类集，用于定义整体架构，并在发生任何合并冲突时具有优先权。其他分类集将按照从上到下的顺序依次应用。"
 
 
 要创建分类合并，请在Adobe Analytics主界面中：
@@ -56,24 +56,24 @@ ht-degree: 1%
 
 
 
-## 编辑合并 {#edit-a-classification}
+## 编辑整合分类集 {#edit-a-classification}
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="不匹配"
->abstract="当合并分类集中的值与源分类集不匹配时的键不匹配百分比。"
+>abstract="当整合分类集中的值与源分类集不匹配时的键不匹配的百分比。"
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="不存在"
->abstract="键在统一分类集中，但不在源分类集中所占的百分比。"
+>abstract="存在于整合分类集中但不存在于源分类集中的键所占百分比。"
 
 要编辑分类合并，请在Adobe Analytics主界面中：
 
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择&#x200B;**[!UICONTROL 合并]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集合并]**&#x200B;管理器中：
-   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**&#x200B;对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
+   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
 
       | 可用操作 | 描述 |
       |---|---|

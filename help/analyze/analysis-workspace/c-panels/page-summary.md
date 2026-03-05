@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的页面摘要面板。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中没有等效面板。_
+_本文记录了_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的页面摘要面板。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中没有等效面板。_
 
 >[!ENDSHADEBOX]
 

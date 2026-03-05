@@ -6,7 +6,7 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 21%
+ht-degree: 41%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
->title="允许迟到的点击"
->abstract="选择此选项可以包括数据馈送作业在设置的报告频率内（通常是每日或每小时）完成数据处理后到达的数据。 启用此选项后，每次数据馈送处理数据时，它都会查看任何已到达的迟到点击，并将它们与发送的下一个数据馈送文件分批加入。"
+>title="允许延迟到达的点击"
+>abstract="选择此选项后，将包含在设定报告频率（通常为每日或每小时）内数据馈送作业完成处理之后到达的数据。启用此选项后，每次数据馈送处理数据时，都会检查延迟到达的点击，并将其与下一次发送的数据馈送文件一并批量发送。"
 
 <!-- markdownlint-enable MD034 -->
 
