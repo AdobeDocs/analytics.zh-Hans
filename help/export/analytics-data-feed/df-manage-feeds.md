@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

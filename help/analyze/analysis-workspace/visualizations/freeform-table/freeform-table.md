@@ -115,19 +115,19 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表过滤器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表过滤器](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
