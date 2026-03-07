@@ -16,5 +16,5 @@ ht-degree: 35%
 
 >[!WARNING]
 >
->Cross-Device Analytics中的设备图[已停用](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)，并且从&#x200B;**2025年12月31日起**&#x200B;不再可用。 请将当前任何启用设备图的虚拟报表包切换到基于[字段的方法](/help/components/cda/field-based-stitching.md)。
+>Cross-Device Analytics中的设备图[已停用](https://experienceleague.adobe.com/zh-hans/docs/discontinued/using/device-graph)，并且从&#x200B;**2025年12月31日起**&#x200B;不再可用。 请将当前任何启用设备图的虚拟报表包切换到基于[字段的方法](/help/components/cda/field-based-stitching.md)。
 >
