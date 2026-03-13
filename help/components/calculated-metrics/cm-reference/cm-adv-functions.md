@@ -4,7 +4,7 @@ description: 了解高级计算量度函数的相关内容。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: fd4d0a9f7c3083720f9d69a0299bb02426dbe451
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '4799'
 ht-degree: 97%
@@ -228,7 +228,8 @@ CDF-Z(-3) ? 0.0013499
 | 量度 | 要舍入的量度 |
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Confidence {#confidence}
 
@@ -249,7 +250,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 | significance-threshold | The threshold in this function is set to a default of 95%. |
-
 -->
 
 
@@ -397,7 +397,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!NOTE]
 >
 >此函数不适用于人均收入等比率量度。该函数对比率求平均值，而不是对最后 N 行的收入求和，对最后 N 行的人数求和，然后再除以它们。<br/>相反，使用 [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative)。
->
 
 
 ## 等于 {#equal}
@@ -728,7 +727,8 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 `Metric 1 <= Metric 2`
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Lift (#lift)
 

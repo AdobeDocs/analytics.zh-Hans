@@ -4,7 +4,7 @@ title: 下载项目和数据
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 281dbf68c7a3f1afc35d775c731904bd9c413d6a
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 25%
@@ -78,7 +78,8 @@ ht-degree: 25%
 
 * 从任何表或可视化图表的标题中，从上下文菜单中选择&#x200B;**[!UICONTROL 以CSV格式下载数据]**。 这样可将表中显示的数据或可视化的基础数据源下载为 CSV 格式。
 
-<!-- Only relevant as soon as CJA supports Map visualization 
+<!--
+Only relevant as soon as CJA supports Map visualization 
   >[!NOTE]
   >
   >  Note: the Map visualization does not support this option.
@@ -90,7 +91,7 @@ ht-degree: 25%
 
 ## 以CSV文件格式下载项目 {#download-items}
 
-如果要分析表中的400多行可见数据，请从表标题或任何行的上下文菜单中选择&#x200B;**以CSV格式下载项目(_Dimension名称_)**。 此选项会导出所选维度的最多 50,000 个维度项（根据表格排序方式），并会应用排序选项和过滤器。如果从表的顶部选择此选项，将导出表中的第一个维。
+如果要分析表中的400多行可见数据，请从表标题或任何行的上下文菜单中选择&#x200B;**以CSV格式下载项目（_Dimension名称_）**。 此选项会导出所选维度的最多 50,000 个维度项（根据表格排序方式），并会应用排序选项和过滤器。如果从表的顶部选择此选项，将导出表中的第一个维。
 
 ![将项目下载为 CSV（页面）的选项。](assets/download-items-as-csv.png)
 
@@ -107,7 +108,7 @@ ht-degree: 25%
 
 自由格式表的以下功能适用于下载的文件：
 
-* 以过滤器形式应用所有区段。
+* 以过滤器形式应用所有面板区段。
 * 在每列上方以过滤器形式应用表格中所选维度&#x200B;**上面**&#x200B;的细分。
 * 删除表格中所选维度&#x200B;**下面**&#x200B;的细分。
 
@@ -117,8 +118,8 @@ ht-degree: 25%
 
 下载文件时，您会看到以下通知：
 
-* 已请求蓝色&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv。_x _%完成]**&#x200B;表示进度。 要随时取消下载，请选择&#x200B;**[!UICONTROL 取消下载]**。 如果要关闭消息，请选择![CrossSize100](/help/assets/icons/CrossSize100.svg)，这样不会取消下载。
-* 在文件下载完成后，已下载绿色的&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv]**&#x200B;完成通知。 该文件将下载到为您的浏览器配置的下载文件夹。
+* 已请求蓝色&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv。_x _%完成]**表示进度。 要随时取消下载，请选择&#x200B;**[!UICONTROL 取消下载]**。 如果要关闭消息，请选择![CrossSize100](/help/assets/icons/CrossSize100.svg)，这样不会取消下载。
+* 在文件下载完成后，已下载绿色的&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv]**完成通知。 该文件将下载到为您的浏览器配置的下载文件夹。
 
 如果您一次请求多个下载，您将收到一条通知，说明每个额外的下载都将排队等待，直到前一个下载完成为止。
 
@@ -237,6 +238,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hans) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

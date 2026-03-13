@@ -3,7 +3,7 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及提供给 Adobe 的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 30%
@@ -18,7 +18,7 @@ ht-degree: 30%
 
 * 您想在每一个文件中包含的数据
 
-* 应发送数据馈送的频率（如果您选择包含迟到的点击，则还包括回顾窗口）
+* The frequency of how often the data feed should be sent (including the lookback window if you choose to include late-arriving hits)
 
 在创建数据馈送之前，重要的是要对数据馈送有基本的了解，并确保满足所有前提条件。更多信息请参阅[数据馈送概述](data-feed-overview.md)。
 
@@ -69,9 +69,9 @@ ht-degree: 30%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **名称**] | 数据馈送的名称。名称在选定的报表包中必须是唯一的，长度最多为255个字符。 [了解详情](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **标记**] | 将任何标记应用到数据馈送以方便分类。 您可以按照[筛选和搜索](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)管理数据馈送[中的数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的说明对标记进行筛选。 |
-   | [!UICONTROL **描述**] | 指定数据馈送的描述。 编辑数据馈送时，您添加的描述可见。 |
+   | [!UICONTROL **名称**] | 数据馈送的名称。名称在所选报告包中必须是唯一的，且最多可包含255个字符。 [了解详情](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
+   | [!UICONTROL **标记**] | Apply any tags to the data feed for easier categorization. You can filter on tags as described in [Filter and search the list of data feeds](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md). |
+   | [!UICONTROL **描述**] | 指定数据馈送的说明。 编辑数据馈送时，您可以看到所添加的描述。 |
 
 1. 在&#x200B;[!UICONTROL **数据格式**]&#x200B;部分中，指定以下信息：
 
@@ -79,18 +79,18 @@ ht-degree: 30%
    |---------|----------|
    | [!UICONTROL **压缩格式**] | 所用的压缩类型。**Gzip** 输出文件为 `.tar.gz` 格式。**Zip** 输出文件为 `.zip` 格式。 |
    | [!UICONTROL **打包类型**] | 为大多数数据馈送选择&#x200B;[!UICONTROL **多文件**]。此选项会将您的数据分页成未经压缩的 2GB 数据块。（如果选择了&#x200B;[!UICONTROL **多文件**]&#x200B;选项，并且报告窗口的未压缩数据小于 2GB，就会发送一个文件。）选择&#x200B;**单个文件**&#x200B;会将 `hit_data.tsv` 文件输出为一个单独的可能很大的文件。 |
-   | [!UICONTROL **清单**] | 选择是否在每次数据馈送提交时都包含清单文件。 <p>您可以从以下选项中进行选择：</p><ul><li>**[!UICONTROL 清单文件]**：包含数据馈送中包含的每个文件的信息。</li><li>**[!UICONTROL 完成文件（旧版）]**：表示数据馈送已成功完成。 不包含其他信息。 此选项适用于最初使用此选项但需要重新处理的现有馈送。 仅当在单个包中发送数据馈送数据时，它才可用。 </li><li>**[!UICONTROL 无]**：不包含任何文件</li></ul> |
-   | [!UICONTROL **即使没有数据也发送清单**] | 确定在某个馈送间隔未收集数据的情况下，Adobe 是否要将一个[清单文件](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest)传输到目标。如果选择&#x200B;**清单文件**，则在未收集到数据时，您将收到类似于以下内容的清单文件：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **替换操作系统字符串**] | 在收集数据时，某些字符（如新行）可能会导致问题。 选择此选项可从馈送文件中删除这些字符。<p>此选项会检测嵌入到客户数据中的以下字符串序列，并将其替换为空格：</p> <ul><li>**Windows：** CRLF、CR或TAB</li><li>**Mac和Linux：** \n、\r或\t</li></ul> |
-   | [!UICONTROL **启用动态查找**] | 动态查找允许您在数据馈送中接收其他不可用的查找文件。 启用此设置后，每个数据馈送文件将同时发送以下查找表：<ul><li> **运营商名称**</li><li>**移动设备属性**</li><li>**操作系统类型**</li></ul><p>有关详细信息，请参阅[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)。</p> |
-   | **允许迟到的点击** | 历史数据可能会在数据馈送作业完成给定小时或一天的处理后到达（例如，通过带有时间戳的点击或数据源）。<p>选择此选项后，将包含在设定报告频率（通常为每日或每小时）内数据馈送作业完成处理之后到达的数据。启用此选项后，每次数据馈送处理数据时，都会检查延迟到达的点击，并将其与下一次发送的数据馈送文件一并批量发送。</p><p>有关详细信息，请参阅[迟到的点击](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)。</p> |
-   | **回顾窗口**（对于迟到的点击） | 启用选项&#x200B;**[!UICONTROL 允许迟到的点击]**&#x200B;时，将显示此选项。 选择回顾窗口以限制包含的最新点击的时间范围。 如果要允许所有迟到的点击，而不考虑迟到的时间，请选择&#x200B;**[!UICONTROL 无限制]**。 您可以选择预设间隔，如&#x200B;**[!UICONTROL 1小时]**、**[!UICONTROL 2小时]**、**[!UICONTROL 1周]**、**[!UICONTROL 2周]**&#x200B;等。 或者，选择&#x200B;**[!UICONTROL 自定义回看窗口期]**，然后在&#x200B;**[!UICONTROL 自定义回看窗口期]**&#x200B;字段中指定最多26,280小时的回看窗口期。 |
+   | [!UICONTROL **清单**] | 选择是否在每次数据馈送提交时都包含清单文件。 <p>您可以从以下选项中进行选择：</p><ul><li>**[!UICONTROL 清单文件]**：包含数据馈送中包含的每个文件的信息。</li><li>**[!UICONTROL 完成文件（旧版）]**：表示数据馈送已成功完成。 No other information is included. 此选项适用于最初使用此选项但需要重新处理的现有订阅源。 仅在单个包中发送数据馈送数据时才可用。 </li><li>**[!UICONTROL 无]**：不包含任何文件</li></ul> |
+   | [!UICONTROL **即使没有数据，也发送清单**] | 确定在某个馈送间隔未收集数据的情况下，Adobe 是否要将一个[清单文件](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest)传输到目标。如果选择&#x200B;**清单文件**，则当未收集数据时，您将收到类似以下内容的清单文件：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **替换操作系统字符串**] | 在收集数据时，某些字符（如新行）可能会导致问题。 选择此选项可从馈送文件中删除这些字符。<p>此选项会检测嵌入在客户数据中的以下字符串序列，并将它们替换为空格：</p> <ul><li>**Windows：** CRLF、CR或TAB</li><li>**Mac和Linux：** \n、\r或\t</li></ul> |
+   | [!UICONTROL **启用动态查找**] | 动态查找允许您在数据馈送中接收其他不可用的查找文件。 启用此设置后，每个数据馈送文件将同时发送以下查找表：<ul><li> **运营商名称**</li><li>**移动设备属性**</li><li>**操作系统类型**</li></ul><p>For more information, see [Dynamic lookups](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
+   | **Allow late-arriving hits** | Historical data can arrive after a data feed job finishes processing for a given hour or day, such as through timestamped hits or data sources.<p>选择此选项后，将包含在设定报告频率（通常为每日或每小时）内数据馈送作业完成处理之后到达的数据。启用此选项后，每次数据馈送处理数据时，都会检查延迟到达的点击，并将其与下一次发送的数据馈送文件一并批量发送。</p><p>有关详细信息，请参阅[迟到的点击](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)。</p> |
+   | **回顾窗口**（对于迟到的点击） | 此选项在启用选项&#x200B;**[!UICONTROL 允许迟到的点击]**&#x200B;时显示。 选择回顾窗口以限制所包括的延迟点击的时间范围。 如果要允许所有迟到的点击，请选择&#x200B;**[!UICONTROL 无限制]**，无论迟到多晚。 你可以选择预设间隔，如&#x200B;**[!UICONTROL 1小时]**、**[!UICONTROL 2小时]**、**[!UICONTROL 1周]**、**[!UICONTROL 2周]**&#x200B;等。 或者，选择&#x200B;**[!UICONTROL 自定义回顾时间范围]**，然后在&#x200B;**[!UICONTROL 自定义回顾时间范围]**&#x200B;字段中指定长达26,280小时的回顾时间范围。 |
 
-1. 在&#x200B;[!UICONTROL **数据结构**]&#x200B;部分的&#x200B;**[!UICONTROL 报表包]**&#x200B;字段中，选择包含要导出的数据的源报表包。 <p>选择报表包时，请考虑以下事项：</p> <ul><li>如果为同一报表包创建了多个数据馈送，则每个数据馈送必须具有不同的列定义。</li><li>只有源报表包支持数据馈送；虚拟报表包则不支持。</li><li>可用列的列表取决于所选报表包所属的登录公司。 如果更改报表包，则可用列的列表可能会发生更改。 </li></ul>
+1. 在&#x200B;[!UICONTROL **数据结构**]&#x200B;部分的&#x200B;**[!UICONTROL 报表包]**&#x200B;字段中，选择包含要导出数据的源报表包。 <p>选择报表包时，请考虑以下事项：</p> <ul><li>如果为同一报表包创建了多个数据馈送，则每个数据馈送必须具有不同的列定义。</li><li>只有源报表包支持数据馈送；虚拟报表包则不支持。</li><li>可用列的列表取决于所选报表包所属的登录公司。 如果更改报表包，可用列的列表可能会发生更改。 </li></ul>
 
-1. 使用以下任一方法或同时使用以下两种方法确定要包含在馈送中的数据列：
+1. 使用以下一种或两种方法确定要包括在信息源中的数据列：
 
-   * **单独添加列：**&#x200B;在左侧的&#x200B;**[!UICONTROL 可用]**&#x200B;部分中，选择要包含的任何列，然后选择&#x200B;**[!UICONTROL 包含]**。 Adobe Analytics中的所有数据列均可用。 您可以通过按住&#x200B;**[!UICONTROL Shift]**&#x200B;或按住&#x200B;**[!UICONTROL Command]**(在macOS上)或&#x200B;**[!UICONTROL Ctrl]**（在Windows上）来选择多个列。 单击“**[!UICONTROL 全部添加]**”可在数据馈送中包含所有列。
+   * **单独添加列：**&#x200B;在左侧的&#x200B;**[!UICONTROL 可用]**&#x200B;部分中，选择要包括的任何列，然后选择&#x200B;**[!UICONTROL 包含]**。 Adobe Analytics中的所有数据列均可用。 您可以通过按住&#x200B;**[!UICONTROL Shift]**&#x200B;或按住&#x200B;**[!UICONTROL Command]**（在macOS上）或&#x200B;**[!UICONTROL Ctrl]**（在Windows上）来选择多个列。 单击“**[!UICONTROL 全部添加]**”可在数据馈送中包含所有列。
 
      添加的列显示在右侧的&#x200B;**[!UICONTROL 已包括]**&#x200B;部分中。
 
@@ -98,21 +98,21 @@ ht-degree: 30%
 
      模板中包含的所有列都显示在右侧的&#x200B;**[!UICONTROL Included]**&#x200B;部分中。
 
-1. （可选）要基于当前创建的数据馈送创建列模板，请选择&#x200B;**[!UICONTROL 另存为模板]**，指定模板的名称，然后选择&#x200B;**[!UICONTROL 保存]**。 如果您计划创建包含相同列的其他数据馈送，则此选项非常有用。
+1. (Optional) To create a column template that is based on the data feed that you are currently creating, select **[!UICONTROL Save as template]**, specify a name for the template, then select **[!UICONTROL Save]**. This option is useful if you plan to create additional data feeds that include the same columns.
 
-   创建数据馈送时![创建列模板](assets/data-feed-template-create2.png)
+   ![Create column template while creating a data feed](assets/data-feed-template-create2.png)
 
-1. （可选）要下载.csv格式包含的列的列表，请选择&#x200B;**[!UICONTROL 下载列]**。 此选项对于具有大量列的数据馈送很有用。
+1. (Optional) To download a list of included columns in .csv format, select **[!UICONTROL Download columns]**. This option can be useful for data feeds that have a large number of columns.
 
-1. 在&#x200B;[!UICONTROL **计划**]&#x200B;部分中，指定以下信息：
+1. In the [!UICONTROL **Schedule**] section, specify the following information:
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **频率**] | 选择应发送数据馈送的频率。 可用选项会根据您的报表包配置动态填充。 <p>通常提供以下选项：</p><ul><li>**每日**：馈送包含一天的数据，从报表包时区的午夜到午夜。 此选项可用于回填或历史数据，或者用于连续馈送。</li><li>**小时**：馈送包含一小时的数据。 使用此选项可继续馈送。</li></ul><p>导出频率可以为15分钟，但默认情况下不可用。 要使此选项在您的环境中可用，您必须首先联系Adobe客户关怀团队，并请求将您的报表包配置为支持15分钟导出。</p> |
-   | [!UICONTROL **处理延迟**] | 选择在处理数据馈送文件之前是否等待给定的时长。 延迟可用于为移动设备实施提供使离线设备变为在线并发送数据的机会。它还可用于在管理以前处理的文件时容纳组织的服务器端进程。在大多数情况下，无需延迟。馈送的延迟时间最多可达8小时（480分钟），如果您选择自定义的时间量（延迟9,999分钟或大约1周），则延迟时间会更长。 |
-   | [!UICONTROL **持续馈送**] | 选中此选项后，将删除结束日期，允许馈送无限期运行。 当馈送完成历史数据处理时，馈送会等待完成给定小时或天的数据收集。当当前的小时或天结束时，处理将在指定的延迟后开始。 |
-   | [!UICONTROL **开始日期**] | 指定希望数据馈送开始的日期。 要立即开始处理历史数据的数据馈送，可将此日期设置为过去收集数据时的任何日期。开始日期基于报表包所在时区。 |
-   | [!UICONTROL **结束日期**] | 指定您希望数据馈送结束的日期。 结束日期基于报表包所在时区。 |
+   | [!UICONTROL **频率**] | 选择应发送数据馈送的频率。 可用的选项会根据报告包配置动态填充。 <p>通常提供以下选项：</p><ul><li>**每天**：源包含一整天的数据，从午夜到报告包时区的午夜。 此选项可用于回填或历史数据，或者用于连续馈送。</li><li>**小时**：馈送包含一小时的数据。 使用此选项可继续馈送。</li></ul><p>导出频率可以为15分钟，但默认情况下不可用。 要使此选项在您的环境中可用，您必须首先联系Adobe客户关怀团队，并请求将您的报表包配置为支持15分钟导出。</p> |
+   | [!UICONTROL **处理延迟**] | 选择在处理数据馈送文件之前是否等待给定的时长。 延迟可用于为移动设备实施提供使离线设备变为在线并发送数据的机会。它还可用于在管理以前处理的文件时容纳组织的服务器端进程。在大多数情况下，无需延迟。You can delay a feed by up to 8 hours (480 minutes), or even longer if you select a custom amount of time (9,999 minutes of delay, or about 1 week). |
+   | [!UICONTROL **持续馈送**] | When selected, this option removes the end date, allowing a feed to run indefinitely. 当馈送完成历史数据处理时，馈送会等待完成给定小时或天的数据收集。When the current hour or day concludes, processing begins after the specified delay. |
+   | [!UICONTROL **开始日期**] | 指定希望数据馈送开始的日期。 要立即开始处理历史数据的数据馈送，可将此日期设置为过去收集数据时的任何日期。开始日期基于报告包的时区。 |
+   | [!UICONTROL **结束日期**] | 指定希望数据馈送结束的日期。 结束日期基于报告包的时区。 |
 
 1. 在&#x200B;[!UICONTROL **目标**]&#x200B;部分中，配置要将数据发送到的目标。
 
@@ -120,7 +120,7 @@ ht-degree: 30%
    >
    >在配置报表目标时，请考虑以下事项：
    >
-   >* Adobe建议为报表目标使用云帐户。 虽然[旧版 FTP 和 SFTP 帐户](#legacy-destinations)可用，但建议不要使用这些帐户。
+   >* Adobe建议使用云帐户作为报告目标。 虽然[旧版 FTP 和 SFTP 帐户](#legacy-destinations)可用，但建议不要使用这些帐户。
    >* 您之前配置的任何云帐户均可用于数据馈送。 您可以通过以下任一方式配置云帐户：
    >
    >   * 为 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 配置云帐户时
@@ -137,9 +137,9 @@ ht-degree: 30%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **帐户**] | 执行以下其中一项操作：<ul><li>**使用现有帐户：**&#x200B;选择&#x200B;**[!UICONTROL 帐户]**&#x200B;字段旁边的下拉菜单。 或者，开始键入帐户名称，然后从下拉菜单中选择该名称。 <p>只有在配置帐户或与您所属的某个组织共享帐户后，您才可以使用帐户。</p></li><li>**创建新帐户：**&#x200B;在&#x200B;**[!UICONTROL 帐户]**&#x200B;字段下选择&#x200B;**[!UICONTROL 添加新]**。 有关如何配置帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md#configure-a-location-account)中的[配置位置帐户](/help/components/locations/configure-import-accounts.md)。</li></ul> |
+   | [!UICONTROL **帐户**] | 执行以下其中一项操作：<ul><li>**使用现有帐户：**&#x200B;选择&#x200B;**[!UICONTROL 帐户]**&#x200B;字段旁边的下拉菜单。 Or, begin typing the account name, then select it from the drop-down menu. <p>只有在您配置了帐户或与您所属的组织共享帐户时，您才能使用这些帐户。</p></li><li>**创建新帐户：**&#x200B;选择&#x200B;**[!UICONTROL 帐户]**&#x200B;字段下的&#x200B;**[!UICONTROL 添加新]**。 有关如何配置帐户的信息，请参阅[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md#configure-a-location-account)中的[配置位置帐户](/help/components/locations/configure-import-accounts.md)。</li></ul> |
    | [!UICONTROL **位置**] | 执行以下其中一项操作：<ul><li>**使用现有位置：**&#x200B;选择&#x200B;**[!UICONTROL 位置]**&#x200B;字段旁边的下拉菜单。 或者，开始键入位置名称，然后从下拉菜单中选择该位置。</li><li>**创建新位置：**&#x200B;在&#x200B;**[!UICONTROL 位置]**&#x200B;字段下选择&#x200B;**[!UICONTROL 添加新]**。 有关如何配置位置的信息，请参阅[配置云导入和导出位置](/help/components/locations/configure-import-locations.md#configure-a-location)中的[配置位置](/help/components/locations/configure-import-locations.md)。</li></ul> |
-   | [!UICONTROL **完成时通知**] | 指定一个或多个电子邮件地址，在成功发送数据馈送或无法发送数据馈送后，应将通知发送到这些地址。 多个电子邮件地址必须使用逗号分隔。 |
+   | [!UICONTROL **完成时通知**] | 指定一个或多个电子邮件地址，用于在成功发送数据馈送或发送失败后提交通知。 多个电子邮件地址必须使用逗号分隔。 |
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
@@ -153,23 +153,23 @@ ht-degree: 30%
 
 ![管理列模板](assets/data-feed-template-manage.png)
 
-### 创建列模板
+### Create a column template
 
-在创建多个使用相同列的数据馈送时，Adobe建议您创建列模板。 您创建的任何列模板均可供贵组织中的任何人使用。
+When creating multiple data feeds that use the same columns, Adobe recommends that you create column templates. 您创建的任何列模板均可供组织中的任何人使用。
 
 要创建列模板，请执行以下操作：
 
 1. 在Adobe Analytics中，转到&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**] > **[!UICONTROL 管理模板]**。
 
-1. 选择&#x200B;**[!UICONTROL 创建新模板]**&#x200B;以创建新列模板。
+1. 选择&#x200B;**[!UICONTROL 创建新模板]**&#x200B;以创建新的列模板。
 
    ![创建列模板](assets/data-feed-template-create.png)
 
 1. 在&#x200B;**[!UICONTROL 模板名称]**&#x200B;字段中，指定模板的名称。
 
-1. 在左侧的&#x200B;**[!UICONTROL 可用]**&#x200B;部分中，选择要包含的任何列，然后选择&#x200B;**[!UICONTROL 包含]**。 Adobe Analytics中的所有可用数据列均可用。 您可以通过按住&#x200B;**[!UICONTROL Shift]**&#x200B;或按住&#x200B;**[!UICONTROL Command]**(在macOS上)或&#x200B;**[!UICONTROL Ctrl]**（在Windows上）来选择多个列。 单击“**[!UICONTROL 全部添加]**”可在数据馈送中包含所有列。
+1. 在左侧的&#x200B;**[!UICONTROL 可用]**&#x200B;部分中，选择要包括的任何列，然后选择&#x200B;**[!UICONTROL 包括]**。 Adobe Analytics中的所有可用数据列均可用。 您可以通过按住&#x200B;**[!UICONTROL Shift]**，或者按住&#x200B;**[!UICONTROL Command]**(在macOS上)或&#x200B;**[!UICONTROL Ctrl]**（在Windows上）来选择多个列。 单击“**[!UICONTROL 全部添加]**”可在数据馈送中包含所有列。
 
-   添加的列显示在右侧的&#x200B;**[!UICONTROL 已包括]**&#x200B;部分中。
+   您添加的列显示在右侧的&#x200B;**[!UICONTROL 已包含]**&#x200B;部分中。
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
@@ -183,17 +183,17 @@ ht-degree: 30%
 
 ### 复制列模板
 
-1. 在Adobe Analytics中，转到&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**] > **[!UICONTROL 管理模板]**。
+1. 在Adobe Analytics中，转到&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据源**] > **[!UICONTROL 管理模板]**。
 
-1. 选择要复制的模板，然后选择&#x200B;**[!UICONTROL 复制]**。
+1. Select the template that you want to copy, then select **[!UICONTROL Copy]**.
 
-1. 在&#x200B;**[!UICONTROL 模板名称]**&#x200B;字段中，指定模板的名称。
+1. In the **[!UICONTROL Template name]** field, specify a name for the template.
 
 1. 进行任何其他更改，然后选择&#x200B;**[!UICONTROL 保存]**。
 
-### 删除列模板
+### Delete column templates
 
-1. 在Adobe Analytics中，转到&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**] > **[!UICONTROL 管理模板]**。
+1. 在Adobe Analytics中，转到&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据源**] > **[!UICONTROL 管理模板]**。
 
 1. 选择一个或多个要删除的模板，然后选择&#x200B;**[!UICONTROL 删除]**。
 
@@ -201,7 +201,8 @@ ht-degree: 30%
 <!-- why would you want to do this? -->
 
 
-<!-- I don't think we need anything after this, but saving here just in case:
+<!--
+I don't think we need anything after this, but saving here just in case:
 
 1. In the [!UICONTROL **Feed Information**] section, complete the following fields:
    

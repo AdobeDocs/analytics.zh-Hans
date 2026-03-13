@@ -4,10 +4,10 @@ description: 获取有关归因的常见问题解答。
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '1192'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -45,7 +45,8 @@ ht-degree: 72%
 +++
 
 
-<!-- not relevant anymore due to introduction of separation of container and lookback window 
+<!--
+not relevant anymore due to introduction of separation of container and lookback window 
 +++## When should I use a visit, visitor, or custom attribution lookback?
 
 The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
@@ -60,7 +61,7 @@ The choice of attribution lookback depends on your use case. If conversions typi
 +++
 
 
-+++##归因模型在其他Analytics功能(例如数据馈送或Data Warehouse)中是否可以使用？
++++##归因模型在其他Analytics功能（例如数据馈送或Data Warehouse）中是否可以使用？
 
 不会。归因模型会使用报表时间处理，这项功能仅在 Analysis Workspace 中可用。有关更多信息，请参阅[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)。
 
@@ -83,9 +84,9 @@ The choice of attribution lookback depends on your use case. If conversions typi
 * 访问次数
 * 发生次数
 * 页面查看次数
-* A4T 量度
+* A4T指标
 * 逗留时间量度
-* 跳出次数
+* 退信数
 * 跳出率
 * 登录
 * 退出
