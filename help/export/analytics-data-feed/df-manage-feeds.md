@@ -6,7 +6,7 @@ exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
+观看演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据馈送管理](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="管理数据馈送"
->abstract="您可以从此页面查看、创建和管理数据馈送。 按名称或ID搜索馈送，或者选择过滤器图标以查看可用的过滤器。"
+>abstract="您可以在此页面查看、创建和管理数据馈送。您可以按名称或 ID 搜索馈送，也可以选择筛选图标查看可用筛选条件。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,7 +61,7 @@ ht-degree: 15%
 
    可以按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的说明编辑帐户和位置。 编辑帐户或位置会影响与该帐户或位置关联的所有项目。
 
-   早期版本的数据馈送管理器允许您创建FTP、SFTP、S3和Azure blob目标。 无法编辑或复制在这些早期版本的数据馈送管理器中创建的目标。
+   早期版本的数据馈送管理器允许您创建FTP、SFTP、S3和Azure Blob目标。 无法编辑或复制在这些早期版本的数据馈送管理器中创建的目标。
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
@@ -101,7 +101,7 @@ ht-degree: 15%
 
    可以按照[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的说明编辑帐户和位置。 编辑帐户或位置会影响与该帐户或位置关联的所有项目。
 
-   早期版本的数据馈送管理器允许您创建FTP、SFTP、S3和Azure blob目标。 无法编辑或复制在这些早期版本的数据馈送管理器中创建的目标。
+   早期版本的数据馈送管理器允许您创建FTP、SFTP、S3和Azure Blob目标。 无法编辑或复制在这些早期版本的数据馈送管理器中创建的目标。
 
 ## 暂停数据馈送
 

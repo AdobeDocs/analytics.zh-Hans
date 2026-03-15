@@ -6,7 +6,7 @@ exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
 >title="数据馈送作业历史记录"
->abstract="您可以在此页面上查看给定数据馈送的数据馈送作业列表。 按请求ID或请求期间开始日期搜索作业。 有关每个作业的信息将显示在可用列中。 您还可以使用相同数据重新发送作业，或者在重新发送作业之前重新处理作业的源数据。"
+>abstract="您可以在此页面查看指定数据馈送的作业列表。您可以按请求 ID 或请求周期开始日期搜索作业。每个作业的相关信息会显示在可用列中。您还可以使用相同的数据重新发送作业，或在重新发送之前重新处理该作业的源数据。"
 
 <!-- markdownlint-enable MD034 -->
 
