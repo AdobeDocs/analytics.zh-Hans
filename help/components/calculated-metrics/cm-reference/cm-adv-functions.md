@@ -7,7 +7,7 @@ role: User
 source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '4799'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -432,7 +432,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="指数回归：相关系数"
->abstract="指数回归：Y = b * exp(aX)。 返回相关系数。"
+>abstract="指数回归：Y = b * exp(aX)。返回相关系数。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -455,7 +455,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="指数回归：预测的 Y"
->abstract="指数回归：Y = b * exp(aX)。 返回 Y。"
+>abstract="指数回归：Y = b * exp(aX)。返回 Y。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -479,7 +479,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="指数回归：截距"
->abstract="指数回归：Y = b * exp(aX)。 返回 b。"
+>abstract="指数回归：Y = b * exp(aX)。返回 b。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -502,7 +502,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="指数回归：斜率"
->abstract="指数回归：Y = b * exp(aX)。 返回 a。"
+>abstract="指数回归：Y = b * exp(aX)。返回 a。"
 
 <!-- markdownlint-enable MD034 -->
 
