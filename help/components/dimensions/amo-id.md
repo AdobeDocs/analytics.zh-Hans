@@ -145,7 +145,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 | **[!UICONTROL 广告平台]** | 广告DSP或搜索引擎名称。 | &amp;amp；检查； | &amp;amp；检查； |
 | **[!UICONTROL 广告标题]** | 广告类型(DSP)或广告标题（搜索、社交和Commerce）。 | &amp;amp；检查； | &amp;amp；检查； |
 | **[!UICONTROL 广告类型]** | 广告类型，如`text`、`video`、`display`或`native`。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL AdCloud属性1]** -<br>**[!UICONTROL AdCloud属性5 ]** | 预留给未来自定义属性的占位符分类。 当前未使用。 | | |
+| **[!UICONTROL AdCloud属性1]** -<br>**[!UICONTROL AdCloud属性5 &#x200B;]** | 预留给未来自定义属性的占位符分类。 当前未使用。 | | |
 | **[!UICONTROL Campaign]** | 营销活动名称。 | &amp;amp；检查； | &amp;amp；检查； |
 | **[!UICONTROL Creative体验名称]** | 与广告交互关联的创意体验的名称，表示在测试或个性化中使用的一组创意变体。 | &amp;amp；检查； | |
 | **[!UICONTROL Creative分支名称]** | 创意体验中表示创意体验中特定变体或路径的分支名称。 | &amp;amp；检查； | |
