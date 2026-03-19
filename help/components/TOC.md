@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '745'
 ht-degree: 98%
 
 ---
@@ -25,6 +25,9 @@ ht-degree: 98%
    + [Activity Map 区域](dimensions/activity-map-region.md)
    + [广告平台同意书](dimensions/ad-consent.md)
    + [所有搜索页面排名](dimensions/all-search-page-rank.md)
+   + [AMO ID](dimensions/amo-id.md)
+   + [AMO EF ID](dimensions/amo-ef-id.md)
+   + [AMO 元广告点击 ID](dimensions/amo-meta-id.md)
    + [上午/下午](dimensions/am-pm.md)
    + [机器人名称](dimensions/bot-name.md)
    + [浏览器高度](dimensions/browser-height.md)
@@ -120,7 +123,7 @@ ht-degree: 98%
    + [邮政编码](dimensions/zip-code.md)
 + 量度 {#metrics}
    + [量度概述](metrics/overview.md)
-   + [计数重复实例](metrics/count-repeat-instances.md)
+   + [Advertising指标](metrics/amo-metrics.md)
    + [平均页面深度](metrics/average-page-depth.md)
    + [每次访问的平均页面查看次数](metrics/average-page-views-per-visit.md)
    + [平均会话时长](metrics/average-session-length.md)

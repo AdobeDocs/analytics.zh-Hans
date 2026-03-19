@@ -4,10 +4,10 @@ description: 跟踪新访客与回访访客的活动。
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 74%
+source-wordcount: '642'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 {{plug-in}}
 
-`getNewRepeat` 插件允许您确定网站访客是新访客还是所需天数内的回访访客。如果您想要使用自定义天数将访客识别为“新”访客，Adobe 建议使用此插件。如果 Analysis Workspace 中的新访客/回访访客维度满足贵组织的需求，则无需使用此插件。
+`getNewRepeat` 插件允许您确定网站访客是新访客还是所需天数内的回访访客。如果您想要使用自定义天数将访客识别为“新”访客，Adobe 建议使用此插件。如果Analysis Workspace中的“[!UICONTROL 新访客]”和“[!UICONTROL 重复访客]”区段满足您组织的需求，则无需使用此插件。
 
 ## 使用Web SDK扩展安装此插件
 
