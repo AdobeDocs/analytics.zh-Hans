@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # AMO ID
 
-**[!UICONTROL AMO ID]**&#x200B;是Adobe Advertising集成中使用的连接标识符的集合。 此维度中存储的值会自动组织为更加易于用户识别的单独分类维度，以用于Analytics报表。 启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
+**[!UICONTROL AMO ID]**&#x200B;是Adobe Advertising集成中使用的连接标识符的集合。 此维度中存储的值会自动组织为更加易于用户识别的单独分类维度，以用于Analytics报表。 启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
 
 ## 使用数据填充此维度
 
@@ -133,7 +133,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 分类
 
-启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，会自动创建以下分类。 分类值由集成自动维护。
+启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，会自动创建以下分类。 分类值由集成自动维护。
 
 | 分类 | 描述 | DSP | 搜索、<br>Social和<br>Commerce |
 | --- | --- | :---: | :---: |

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Advertising指标
 
-启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，将自动创建这些指标。 有关详细信息，请参阅Adobe Advertising文档中的[Analysis Workspace中的Adobe Advertising指标](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)。
+启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，将自动创建这些指标。 有关详细信息，请参阅Adobe Advertising文档中的[Analysis Workspace中的Adobe Advertising指标](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)。
 
 | 量度 | 描述 |
 | --- | --- |

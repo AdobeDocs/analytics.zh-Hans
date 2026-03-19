@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # AMO EF ID
 
-**[!UICONTROL AMO EF ID]**&#x200B;是Adobe Advertising集成中使用的广告点击标识符。 它是Adobe Advertising用于将活动与访客级别的在线点击或广告曝光度关联的唯一令牌。 启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
+**[!UICONTROL AMO EF ID]**&#x200B;是Adobe Advertising集成中使用的广告点击标识符。 它是Adobe Advertising用于将活动与访客级别的在线点击或广告曝光度关联的唯一令牌。 启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
 
 ## 使用数据填充此维度
 
