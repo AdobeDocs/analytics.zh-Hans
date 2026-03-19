@@ -3,7 +3,7 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d61dc175eed0737ce8fc43506712dedf5341367c
+source-git-commit: 0900b9adb801bec4d433c57d83ac117efbe78168
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 45%
@@ -47,7 +47,7 @@ ht-degree: 45%
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
 | **实时流处理改进** | 2026年1月14日 | Adobe计划对LiveStream有效负载的格式进行改进和更改。 这些更新在LiveStream与其他Adobe Analytics功能（如Analysis Workspace）之间提供了更好的对等性。 预览端点可用，可让您测试计划的更改。 有关更改完整列表和预览终结点详细信息，请参阅[LiveStream发行说明](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/release-notes/)。 Adobe计划在2026年4月13日硬性转换到更新的有效载荷格式。 |
-| **TLS 1.2密码套件移除** | 2026年2月11日 | 管理员须知： Adobe计划于2026年5月27日从Adobe数据收集服务器中删除对以下TLS 1.2密码包的支持。<ul><li>`TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA`</li><li>`TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`</li><li>`TLS_RSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_RSA_WITH_AES_256_CBC_SHA`</li></ul><p>大多数实施不需要客户操作。 此更改主要影响从使用过时TLS库的旧版本机应用程序发送的Analytics数据，以及少量使用过时浏览器或操作系统的Web访客。 取消对这些密码包的支持可增强安全性，并使Adobe与现代加密标准保持一致。 目前，不到0.1%的数据收集流量依赖这些密码套件。</p> |
+| **TLS 1.2密码套件移除** | 2026年2月11日 | 管理员须知： Adobe计划于2026年5月27日从Adobe数据收集服务器中删除对以下TLS 1.2密码包的支持。<ul><li>`TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA`</li><li>`TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`</li><li>`TLS_RSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_RSA_WITH_AES_256_CBC_SHA`</li><li>`TLS_RSA_WITH_AES_128_GCM_SHA256`</li><li>`TLS_RSA_WITH_AES_256_GCM_SHA384`</li></ul><p>大多数实施不需要客户操作。 此更改主要影响从使用过时TLS库的旧版本机应用程序发送的Analytics数据，以及少量使用过时浏览器或操作系统的Web访客。 取消对这些密码包的支持可增强安全性，并使Adobe与现代加密标准保持一致。 目前，不到0.1%的数据收集流量依赖这些密码套件。</p> |
 | **旧版 Report Builder** | 2025 年 6 月 18 日 | 旧版 Report Builder 插件将于 2026 年 6 月停用。所有用户都应开始将其旧工作簿升级到[新的 Report Builder](/help/analyze/report-builder/rb-overview.md)。新的 Report Builder 可供 Adobe Analytics 和 Customer Journey Analytics 客户使用。它具有[几乎相同的功能](/help/analyze/report-builder/convert-workbooks.md#unsupported)以及许多新的便捷功能和 UI 增强功能。要促进升级过程，新的 Report Builder 包含一个简单的工作簿转化功能。新的 Report Builder 仅通过 Microsoft Store 作为插件提供。许多组织要求在向用户提供加载项之前进行内部审批流程。请留出时间完成此流程并立即开始与您的组织合作，以确保有足够的时间在 EOL 日期之前升级您的工作簿。 |
 | **通过旧域或旧 SSO 访问** | 2025年 4 月 10 日 | Adobe 计划更新用户访问 Adobe Analytics 的方式，以增强安全性并简化您的登录体验。作为此项努力的一部分，通过旧域或旧 SSO（包括 `my.omniture.com`）进行的访问将于 **2026 年 1 月 2 日**&#x200B;永久停止。此日期之后，旧版登录凭据和旧版 SSO 将不再起作用。所有用户都必需通过 `experience.adobe.com` 使用他们的 Adobe Experience Cloud ID 登录。如果您需要有关 Experience Cloud ID 方面的帮助，请联系您所在组织的 Adobe Analytics 管理员或 [Adobe 客户服务](https://helpx.adobe.com/cn/contact.html)。 |
 | **Adobe Analytics API（版本 1.4）** | 2024 年 7 月 17 日 | **2026 年 8 月 12 日**，以下 Analytics 旧版 API 服务将终止使用并关闭，使用这些服务构建的当前集成也将停止工作：<ul><li>Adobe Analytics API（版本 1.4）</li><li>Adobe Analytics WSSE 身份验证</li></ul><p>使用 Adobe Analytics API（版本 1.4）的集成必须迁移到 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)，而 WSSE 集成必须迁移到 [Adobe Developer Console](https://developer.adobe.com/console) 中基于 OAuth 的身份验证协议。</p><p>请参阅  [Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) ，获取常见问题的解答和进一步的指导。</p> |
@@ -61,6 +61,6 @@ ht-degree: 45%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-hans)
-* [Adobe Experience Cloud 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
+* [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
