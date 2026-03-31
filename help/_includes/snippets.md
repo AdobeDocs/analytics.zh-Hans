@@ -1,8 +1,8 @@
 ---
-source-git-commit: b1a774e6f6af0c27a5e60f8f7e4c8eaf96005928
+source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 87%
+source-wordcount: '3047'
+ht-degree: 86%
 
 ---
 # 片段
@@ -14,7 +14,7 @@ ht-degree: 87%
 >自2024年10月16日起，推出新的简化版[Report Builder](/help/analyze/report-builder/rb-overview.md)。 此Report Builder在macOS、Windows和Web浏览器上受支持，可以与Adobe Analytics和Customer Journey Analytics一起使用。
 >此旧版Report Builder加载项版本仍然有效。 您可以[将旧工作簿](/help/analyze/report-builder/convert-workbooks.md)转换为新的Report Builder。
 
-## Reports & Analytics 生命周期结束公告 {#ra-eol}
+## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -61,6 +61,9 @@ ht-degree: 87%
 >本节中介绍的功能仅适用于已获得相应功能许可证的现有客户。 此功能不再作为现有或新客户的附加组件提供。
 >
 
+## 视频演示Customer Journey Analytics {#videocja}
+
+本视频演示了使用Customer Journey Analytics的功能。 但是，该功能在Adobe Analytics中同样可用。 请注意 Adobe Analytics 与 Customer Journey Analytics 之间的术语差异（例如&#x200B;*访问次数*&#x200B;与&#x200B;*会话*&#x200B;的不同）。
 
 
 ## 归因模型 {#attribution-models-details}
