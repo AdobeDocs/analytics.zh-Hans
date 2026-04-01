@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
+source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 44%
+source-wordcount: '1468'
+ht-degree: 40%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 44%
 | **Report Builder：管理员可看到所有计划工作簿**<br/> Report Builder Excel加载项包含一个新的筛选器选项，该选项允许管理员查看给定组织的所有计划工作簿，而不管这些工作簿是谁计划的。 此过滤器选项仅适用于Analytics管理员。 在查看计划工作簿时，它在“工作簿”选项卡和“旧版”选项卡上均可用。<p>查看所有计划工作簿的功能在跨分布式团队迁移工作簿时特别有用，因为它允许管理员在迁移工作簿之前轻松找到所有旧工作簿。</p><p>以前，管理员只能查看他们计划的工作簿，而不能查看其他用户计划的工作簿。</p><p>有关详细信息，请参阅[托管计划工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)。</p> | | 2026年3月10日 |
 | **更新到Approximate Count Distinct函数**<br/>&#x200B;将很快更新Approximate Count Distinct函数中使用的HLL概率算法。 使用此函数得出的数字输出可能与历史数字略有不同，如下所示：</p><ul><li>当计算非常少量的唯一值时，将改进结果以使用精确计数，而不是使用估计值。</li><li>在计数任何更大的数字时，计数估计将保持本次更新之前的准确性（估计准确性在准确数字的5%之内，即时间的95%）。</li></ul><p>有关Approximate Count Distinct函数的更多信息，请参阅[高级函数](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct)中的[Approximate Count Distinct](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> | | 2026年3月10日 |
 | **Analysis Workspace实践教程**<br/>&#x200B;现在提供了新的实践教程，可指导新用户了解在Analysis Workspace中使用面板、可视化图表和组件的基础知识。 <p>有关详细信息，请参阅[Adobe Analytics登录页面](/help/analyze/landing.md)。</p> | | 2026年3月18日 |
+| **流失可视化图表改进**<br/>&#x200B;流失可视化图表包含以下增强功能：<ul><li>改进了拖放体验。<br/>只需将鼠标悬停在接触点上，并将其拖动到可视化中的新位置。<br/>以前，您必须先单击接触点上的“编辑”图标，然后才能拖动它。</li><li>使用拖放操作组合接触点时语言更清晰。<br/>将接触点拖动到另一个接触点时，会显示“合并”文本，这表示两个接触点正在合并。<br/>以前，无论接触点已移动到可视化图表中的新位置还是与其他接触点组合，都会显示“添加”文本。</li><li>重新设计了工具提示。<br/>将鼠标悬停在接触点上时显示的工具提示更加直观易读。</li><li>更易于发现的上下文菜单。<br/>工具提示包括一个新的“单击以分析”选项，该选项提供了对接触点上下文菜单的便捷访问。<br/>以前，上下文菜单仅在右键单击接触点时可用。</li></ul><p>有关详细信息，请参阅[配置流失可视化图表](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md)。</p> | | 2026年3月25日 |
 | **将划分应用于面板**<br/>&#x200B;您现在可以将划分应用于面板。 在面板级别应用划分时，划分将应用于面板中所有自由格式表的所有列。 | 2026 年 3 月 | 2026 年 5 月 |
 | **流媒体服务：支持计划数据** <br/>您现在可以上传过去实时流媒体内容的计划数据，以便更轻松准确地跟踪收视率。<p>以下是支持计划数据上传的直播内容示例：</p><ul><li>FAST（免费广告支持电视）平台</li><li>本地流</li><li>直播体育赛事</li></ul><p>上传计划数据允许您跟踪在上传文件中指定的时间内运行的各个节目的观看人数数据。 您甚至可以收集特定主题或节目片段的观看人数数据。</p><p>无论您如何实现流媒体收集，这些功能都是可用的。</p><p>以前，在分析直播内容时很难准确地将特定场次与特定节目联系起来，也不可能将特定场次与单个主题或节目片段联系起来。</p><p>如需了解更多信息，请参阅[上传计划数据以跟踪实时内容](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>（原计划于 2025 年 10 月 29 日发布）</p> |
 
@@ -62,6 +63,6 @@ ht-degree: 44%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-hans)
-* [Adobe Experience Cloud 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
+* [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
