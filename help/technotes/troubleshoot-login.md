@@ -20,7 +20,7 @@ Adobe Analytics 使用多种身份验证方法来登录：
 
 **如果您经常访问 Analytics 但开始随机遇到登录问题，则清理浏览器的 Cookie 和缓存可解决大多数问题。**
 
-有时候，可用性问题也会影响到登录的能力。有关任何维护事件，请查看 [status.adobe.com](https://status.adobe.com)。否则，请根据组织的身份验证方法使用相应的部分。
+有时候，可用性问题也会影响到登录的能力。有关任何维护事件，请查看 [status.adobe.com](https://status.adobe.com/zh-cn)。否则，请根据组织的身份验证方法使用相应的部分。
 
 ## Adobe ID
 
