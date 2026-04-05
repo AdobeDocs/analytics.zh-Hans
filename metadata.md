@@ -2,12 +2,14 @@
 cloud: Experience Cloud
 product: analytics
 solution: Analytics
+landing-page-name: analytics
+landing-page-breadcrumb-title: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.zh-Hans
 type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d876f191b2b10dd29b50fae53235e194e29ed1d1
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
@@ -15,9 +17,9 @@ ht-degree: 100%
 ---
 
 
-# 内部使用的元数据
+# 供内部使用的元数据
 
-metadata.md 文件包括可传递给存储库中用户指南 TOC.md 文件的存储库级别元数据。如果要更改任何用户指南的 metadata.md 内容，请在任意 TOC.md 文件中进行更改。
+metadata.md 文件包含存储库级别的元数据，这些元数据会传送到存储库中的用户指南 TOC.md 文件。 如果要更改任何用户指南的 metadata.md 内容，请在任何 TOC.md 文件中进行更改。
 
 | 元数据 | 作用 |
 |--- |--- |
