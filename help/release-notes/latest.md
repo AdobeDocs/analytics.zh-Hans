@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
+source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 53%
+source-wordcount: '1041'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 53%
 
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
-| **Activity Map改进**<br/> Activity Map包含以下增强功能：</p><ul><li>通过Activity Map Analytics的Web SDK实施支持Adobe Overlay扩展。</li><li>支持WebSDK跟踪（当跟踪转到Analytics时）。</li><li>更新了整个用户界面的样式。</li></ul><p>（文档链接见下文。）</p> | | 2026 年 4 月 |
 | **用于Adobe Analytics的MCP服务器** <br/>您现在可以使用MCP（模型上下文协议）将Adobe Analytics绑定到现有代理工作流中。 您可以使用自然语言请求报表和见解。<p>（文档链接见下文。）</p> | | 2026年4月底 |
 | **流媒体服务：支持计划数据** <br/>您现在可以上传过去实时流媒体内容的计划数据，以便更轻松准确地跟踪收视率。<p>以下是支持计划数据上传的直播内容示例：</p><ul><li>FAST（免费广告支持电视）平台</li><li>本地流</li><li>直播体育赛事</li></ul><p>上传计划数据允许您跟踪在上传文件中指定的时间内运行的各个节目的观看人数数据。 您甚至可以收集特定主题或节目片段的观看人数数据。</p><p>无论您如何实现流媒体收集，这些功能都是可用的。</p><p>以前，在分析直播内容时很难准确地将特定场次与特定节目联系起来，也不可能将特定场次与单个主题或节目片段联系起来。</p><p>如需了解更多信息，请参阅[上传计划数据以跟踪实时内容](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>（原计划于 2025 年 10 月 29 日发布）</p> |
 | **其他API日期范围格式**<br/>&#x200B;现在支持使用两种新格式在Analytics 2.0 API报表请求中指定日期范围。 这包括日期公式和混合格式。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | 2026 年 3 月 |
@@ -62,6 +61,6 @@ ht-degree: 53%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-hans)
-* [Adobe Experience Cloud 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
+* [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
