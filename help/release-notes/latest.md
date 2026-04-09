@@ -3,45 +3,44 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
+source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 40%
+source-wordcount: '1086'
+ht-degree: 53%
 
 ---
 
-# 当前的 Adobe Analytics 发行说明（2026 年 3 月）
+# 当前 Adobe Analytics 发行说明（2026 年 4 月）
 
-**上次更新时间**：2026年3月11日
+**上次更新时间**：2026年4月9日
 
-这些发行说明涵盖2026年3月发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。 请定期检查。
+这些发行说明涵盖2026年4月发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。 请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
-| **面板划分**<br/>&#x200B;面板的拖放区域现在为[根据维度划分面板](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)（而不是区段）提供附加功能。 | 2026年3月31日 | 2026年3月31日 |
-| **按多列对表进行排序** <br/>您现在可以在Analysis Workspace中按多列对自由格式表的数据进行排序，无论它们是维度还是指标。<p>当按多个列进行排序时，数据将根据您为每个列指定的优先级进行排序。优先级编号会显示在排序图标旁。</p><p>有关详细信息，请参阅[筛选和排序自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。</p> | 2026 年 1 月 28 日 | 2026年3月4日 <p>（原计划于2026年2月18日）</p> |
-| **Report Builder：管理员可看到所有计划工作簿**<br/> Report Builder Excel加载项包含一个新的筛选器选项，该选项允许管理员查看给定组织的所有计划工作簿，而不管这些工作簿是谁计划的。 此过滤器选项仅适用于Analytics管理员。 在查看计划工作簿时，它在“工作簿”选项卡和“旧版”选项卡上均可用。<p>查看所有计划工作簿的功能在跨分布式团队迁移工作簿时特别有用，因为它允许管理员在迁移工作簿之前轻松找到所有旧工作簿。</p><p>以前，管理员只能查看他们计划的工作簿，而不能查看其他用户计划的工作簿。</p><p>有关详细信息，请参阅[托管计划工作簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)。</p> | | 2026年3月10日 |
-| **更新到Approximate Count Distinct函数**<br/>&#x200B;将很快更新Approximate Count Distinct函数中使用的HLL概率算法。 使用此函数得出的数字输出可能与历史数字略有不同，如下所示：</p><ul><li>当计算非常少量的唯一值时，将改进结果以使用精确计数，而不是使用估计值。</li><li>在计数任何更大的数字时，计数估计将保持本次更新之前的准确性（估计准确性在准确数字的5%之内，即时间的95%）。</li></ul><p>有关Approximate Count Distinct函数的更多信息，请参阅[高级函数](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct)中的[Approximate Count Distinct](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> | | 2026年3月10日 |
-| **Analysis Workspace实践教程**<br/>&#x200B;现在提供了新的实践教程，可指导新用户了解在Analysis Workspace中使用面板、可视化图表和组件的基础知识。 <p>有关详细信息，请参阅[Adobe Analytics登录页面](/help/analyze/landing.md)。</p> | | 2026年3月18日 |
-| **流失可视化图表改进**<br/>&#x200B;流失可视化图表包含以下增强功能：<ul><li>改进了拖放体验。<br/>只需将鼠标悬停在接触点上，并将其拖动到可视化中的新位置。<br/>以前，您必须先单击接触点上的“编辑”图标，然后才能拖动它。</li><li>使用拖放操作组合接触点时语言更清晰。<br/>将接触点拖动到另一个接触点时，会显示“合并”文本，这表示两个接触点正在合并。<br/>以前，无论接触点已移动到可视化图表中的新位置还是与其他接触点组合，都会显示“添加”文本。</li><li>重新设计了工具提示。<br/>将鼠标悬停在接触点上时显示的工具提示更加直观易读。</li><li>更易于发现的上下文菜单。<br/>工具提示包括一个新的“单击以分析”选项，该选项提供了对接触点上下文菜单的便捷访问。<br/>以前，上下文菜单仅在右键单击接触点时可用。</li></ul><p>有关详细信息，请参阅[配置流失可视化图表](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md)。</p> | | 2026年3月25日 |
-| **将划分应用于面板**<br/>&#x200B;您现在可以将划分应用于面板。 在面板级别应用划分时，划分将应用于面板中所有自由格式表的所有列。 | 2026 年 3 月 | 2026 年 5 月 |
+| **Activity Map改进**<br/> Activity Map包含以下增强功能：</p><ul><li>通过Activity Map Analytics的Web SDK实施支持Adobe Overlay扩展。</li><li>支持WebSDK跟踪（当跟踪转到Analytics时）。</li><li>更新了整个用户界面的样式。</li></ul><p>（文档链接见下文。）</p> | | 2026 年 4 月 |
+| **用于Adobe Analytics的MCP服务器** <br/>您现在可以使用MCP（模型上下文协议）将Adobe Analytics绑定到现有代理工作流中。 您可以使用自然语言请求报表和见解。<p>（文档链接见下文。）</p> | | 2026年4月底 |
 | **流媒体服务：支持计划数据** <br/>您现在可以上传过去实时流媒体内容的计划数据，以便更轻松准确地跟踪收视率。<p>以下是支持计划数据上传的直播内容示例：</p><ul><li>FAST（免费广告支持电视）平台</li><li>本地流</li><li>直播体育赛事</li></ul><p>上传计划数据允许您跟踪在上传文件中指定的时间内运行的各个节目的观看人数数据。 您甚至可以收集特定主题或节目片段的观看人数数据。</p><p>无论您如何实现流媒体收集，这些功能都是可用的。</p><p>以前，在分析直播内容时很难准确地将特定场次与特定节目联系起来，也不可能将特定场次与单个主题或节目片段联系起来。</p><p>如需了解更多信息，请参阅[上传计划数据以跟踪实时内容](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>（原计划于 2025 年 10 月 29 日发布）</p> |
+| **其他API日期范围格式**<br/>&#x200B;现在支持使用两种新格式在Analytics 2.0 API报表请求中指定日期范围。 这包括日期公式和混合格式。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | 2026 年 3 月 |
+| **API报表请求中的可选维度**<br/>&#x200B;报表API请求中不需要维度对象。 如果未指定维度，则响应会显示总计报表的数据。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | 2026 年 3 月 |
+| **日期趋势高级API报告**<br/>&#x200B;新的Adobe Analytics 2.0 API日期趋势高级报告指南。 使用日期范围比较和区段创建高级日期趋势API报表。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced/) | | 2026 年 3 月 |
 
 ## Adobe Analytics 中的修复
 
 **Activity Map**：
-**Analysis Workspace**： AN-440336、AN-440216、AN-440121、AN-438445、AN-438216、AN-437856、AN-437776、AN-437765、AN-437365、AN-432793、AN-432094、AN-431557、AN-431200、AN-429621、AN-429424、AN-427973、AN-426089、AN-425883、AN-424359、AN-
-**分类**：AN-440143、AN-439891、AN-439844、AN-438994、AN-438057、AN-438052、AN-437986、AN-437896、AN-435387、AN-435335、AN-435150、AN-433050、AN-432062、AN-431873、AN-429642
-**数据馈送和Data Warehouse**：AN-439441、AN-437086、AN-433064、AN-432121、AN-431755、AN-428239、AN-427049、AN-425036、AN-424972、AN-423509、AN-335417、AN-283958、AN-256948
-**迁移**：
-**导出**： AN-432030
-**Report Builder**： AN-437895、AN-437083、AN-434288、AN-434209、AN-433224、AN-430622
-**报告**： AN-434545、AN-431206、AN-428043
+**Analysis Workspace**： AN-442813、AN-442410、AN-441943、AN-441717、AN-434855、AN-431409、AN-429777、AN-429048、AN-428892、AN-428189、AN-425215
+**分类**：AN-443453、AN-443275、AN-443148、AN-442906、AN-442232、AN-442207、AN-442148、AN-442133、AN-441937、AN-441901、AN-441807、AN-441671、AN-441333、AN-441302、AN-441149、AN-441132、AN-441085、AN-441048、AN-440846、AN-440727、AN-440716、AN-440511、AN-440496 432100
+**数据馈送和Data Warehouse**：AN-442211、AN-441719、AN-441183、AN-441011、AN-440625、AN-438953
+**迁移**： AN-442467、AN-440380、AN-440357
+**导出**：
+**Report Builder**： AN-441136、AN-438147、AN-425150
+**报告**： AN-441506、AN-440919、AN-440545、AN-440300
+**报表包**： AN-439429、AN-439423、AN-430988
 **计划报告**：
 **分段**：
-**Other**： AN-440076、AN-434783、AN-434542、AN-434233、AN-433368、AN-432138、AN-431322、AN-431012、AN-429067、AN-423285
+**Other**： AN-423359、AN-406242、AN-397985
 
 
 ## 生命周期终止 (EOL) 通知 {#eol}
@@ -63,6 +62,6 @@ ht-degree: 40%
 ## 相关资产
 
 * [以前的 2025 年发行说明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [流媒体服务发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-hans)
-* [Adobe Experience Cloud 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
+* [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
