@@ -5,7 +5,7 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -43,7 +43,7 @@ ht-degree: 67%
    1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
    1. 记下 `trackingServer` 变量值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)：
    1. 使用 Chrome 浏览器导航到您的网站。
    1. 打开 Experience Cloud Debugger，然后转到[!UICONTROL 网络]选项卡。
    1. 记下[!UICONTROL 请求 URL - 主机名]值。
