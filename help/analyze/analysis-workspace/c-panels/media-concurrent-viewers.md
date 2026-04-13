@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的媒体并发查看者面板。_<br/>_请参阅[媒体并发查看者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的媒体并发查看者面板。_<br/>_请参阅[媒体并发查看者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体并行查看者面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体并行查看者面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
 
 ## Panel Inputs {#Input}
 

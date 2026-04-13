@@ -8,7 +8,7 @@ exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 89%
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的直方图可视化图表。_<br/>_请参阅[直方图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/histogram)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的直方图可视化图表。_<br/>_请参阅[直方图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/histogram)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -52,9 +52,9 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 | 直方图设置 | 描述 |
 |---|---|
-| **[!UICONTROL 开始存储段]** | 确定直方图从哪个存储段开始。“1”为默认值。您可以在 0 到无穷大（非负数）的范围内设置开始数量。 |
+| **[!UICONTROL 开始存储段]** | 确定直方图开始的分段。 默认值为“1”。 您可以将起始数字从0设置为无限（无负数）。 |
 | **[!UICONTROL 量度存储段]** | 您可以增加/减少数据范围（存储段）的数量。存储段的最大数量为 50。 |
-| **[!UICONTROL 量度存储段大小]** | 您可以设置每个存储段的大小。例如，您可以将存储段大小从 1 次页面查看更改为 2 次页面查看。 |
+| **[!UICONTROL 量度存储段大小]** | 允许您设置每个分段的大小。 例如，您可以将存储段大小从1次页面查看更改为2次页面查看。 |
 | **[!UICONTROL 计算方法]** | 从&#x200B;**[!UICONTROL 人员]**、**[!UICONTROL 会话]**&#x200B;或&#x200B;**[!UICONTROL 事件]**&#x200B;中选择。例如，每次会话的页面查看次数、每人的页面查看次数或每个事件的页面查看次数。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
@@ -69,7 +69,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 >[!MORELIKETHIS]
 >
 >[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->&#x200B;>[使用直方图识别意外数据值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=zh-Hans)
+>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[使用直方图识别意外数据值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
