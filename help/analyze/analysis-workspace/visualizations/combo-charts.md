@@ -76,7 +76,7 @@ _请参阅[组合](https://experienceleague.adobe.com/zh-hans/docs/analytics-pla
 
 如果您选择&#x200B;**[!UICONTROL 函数]**&#x200B;作为[!UICONTROL 线形比较类型]，则会返回已选择量度的函数。
 
-| 函数 | 定义 |
+| 功能 | 定义 |
 | --- | --- |
 | **[!UICONTROL 列总和]** | 添加列中某量度的所有数值（某一维度的各个元素） |
 | **[!UICONTROL 累积平均数]** | 返回最后 N 行的平均数。 |
@@ -99,6 +99,6 @@ _请参阅[组合](https://experienceleague.adobe.com/zh-hans/docs/analytics-pla
 >[!MORELIKETHIS]
 >
 >[在面板中添加可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[可视化图表上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

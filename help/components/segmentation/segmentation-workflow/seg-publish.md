@@ -110,7 +110,7 @@ ht-degree: 47%
 有两种方法可捕获当前与浏览器关联的Adobe Audience Manager UUID：
 
 * Adobe Experience Cloud 调试器
-* 浏览器中的本机开发人员工具(例如，Chrome Developer Tools)
+* 浏览器中的本机开发人员工具（例如，Chrome Developer Tools）
 
 以下屏幕截图显示了如何在浏览器中检索Adobe Audience Manager UUID，并在Audience Manager访客资料查看器中使用它来验证特征和区段成员资格。
 

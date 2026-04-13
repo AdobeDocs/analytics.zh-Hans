@@ -1,5 +1,5 @@
 ---
-description: 了解在Analysis Workspace中保存项目的不同选项。
+description: 了解在Analysis Workspace中保存项目所需的其他选项。
 title: 保存项目
 feature: Workspace Basics
 role: User, Admin

@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [将标记数据元素映射到 Analytics 变量](launch/elements-to-variable.md)
 + 使用 JavaScript 实施 Analytics {#js}
    + [JavaScript 概述](js/overview.md)
-   + [实施选择退出链接](js/opt-out.md)
+   + {hide-from-toc}[实施选择退出链接](js/opt-out.md)
    + [变量覆盖](js/overrides.md)
    + [从 H 码迁移](js/migrate-from-hcode.md)
    + H 码 {#h-code}
