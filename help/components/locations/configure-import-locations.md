@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
+source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 33%
@@ -26,7 +26,7 @@ ht-degree: 33%
 * 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)时导出文件
 * 使用[分类集](/help/components/classifications/sets/overview.md)导入架构
 
-您必须为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照[配置Google导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的说明添加和配置帐户(如Amazon S3角色ARN、Cloud Platform等)，然后添加和配置该帐户中的位置（如本文所述）。
+您必须为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照[配置Google导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的说明添加和配置帐户（如Amazon S3角色ARN、Cloud Platform等），然后添加和配置该帐户中的位置（如本文所述）。
 
 有关如何查看和删除现有位置的信息，请参阅[位置管理器](/help/components/locations/locations-manager.md)。
 
@@ -174,7 +174,7 @@ ht-degree: 33%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导出到使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)时配置的帐户和位置。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件位置)。
+   您现在可以将数据导出到使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)时配置的帐户和位置。 （[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件位置）。
 
 ### 旧帐户类型
 
@@ -241,7 +241,7 @@ ht-degree: 33%
 
 +++Azure Blob
 
-Data Warehouse 支持 Azure Blob 目标。需要容器、帐户和密钥。Amazon 会自动加密静态数据。当您下载数据时，数据会自动解密。有关详细信息，请参阅 Microsoft Azure 文档中的[创建存储帐户](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+Data Warehouse支持Azure Blob目标。 需要容器、帐户和密钥。Azure会自动加密静态数据。 当您下载数据时，数据会自动解密。有关详细信息，请参阅 Microsoft Azure 文档中的[创建存储帐户](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
 
 >[!NOTE]
 >
