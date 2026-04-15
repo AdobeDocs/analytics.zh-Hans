@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
+source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1711'
 ht-degree: 33%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 33%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
+   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[Report Builder](/help/analyze/report-builder/report-builder-export.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
 
    导入数据后，不会从云目标中删除导入的数据。
 
@@ -102,7 +102,7 @@ ht-degree: 33%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
+   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[Report Builder](/help/analyze/report-builder/report-builder-export.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
 
    导入数据后，不会从云目标中删除导入的数据。
 
@@ -126,7 +126,7 @@ ht-degree: 33%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
+   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[Report Builder](/help/analyze/report-builder/report-builder-export.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
 
    导入数据后，不会从云目标中删除导入的数据。
 
@@ -151,7 +151,7 @@ ht-degree: 33%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
+   您现在可以将数据导入或导出到您配置的帐户和位置，或从配置的帐户和位置导出数据。 若要导出数据，请使用[数据馈送](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[Report Builder](/help/analyze/report-builder/report-builder-export.md)。 若要导入数据，请使用[分类集](/help/components/classifications/sets/overview.md)。
 
    导入数据后，不会从云目标中删除导入的数据。
 
