@@ -4,10 +4,10 @@ description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 76%
+source-wordcount: '622'
+ht-degree: 72%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 76%
 | [!UICONTROL 实时报表] | 授予对Adobe模板中“参与”>“实时”的访问权限。 |
 | [!UICONTROL 报告活动管理器管理员] | 不使用 |
 | [!UICONTROL 报告活动管理器访问权限] | 不使用 |
-| [!UICONTROL 报表包管理] | 授予对报告包管理器的访问权限，但不允许进行任何更改。 |
+| [!UICONTROL 报表包管理] | 授予对报表包管理器的访问权限。 允许创建报表包，但不授予对“[!UICONTROL 编辑设置]”下的任何项目的访问权限。 另请参阅[[!UICONTROL 报表包管理员UI访问权限]](analytics-tools.md)。 |
 | [!UICONTROL 回访] | 不使用 |
 | [!UICONTROL R&amp;A功能板公司摘要报表] | 不使用 |
 | [!UICONTROL R&amp;A功能板外部缩图报表] | 不使用 |
@@ -60,5 +60,3 @@ ht-degree: 76%
 | [!UICONTROL 流量变量] | 授予对报告包管理器中“流量”>“流量变量”的访问权限。 |
 | [!UICONTROL 页面查看次数] | 授予对“转化”>“独特访客变量”的访问权限。通常不用于新版实施。 |
 | [!UICONTROL URL 过滤器] | 授予对报告包管理器中“常规”>“内部 URL 过滤器”的访问权限。 |
-
-{style="table-layout:auto"}

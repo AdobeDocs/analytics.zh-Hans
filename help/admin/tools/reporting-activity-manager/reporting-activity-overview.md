@@ -4,16 +4,14 @@ title: 报告活动管理器概述
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
 
 # 报告活动管理器概述
-
-[!UICONTROL 报告活动管理器]可供管理员使用。
 
 如果您的组织在报告高峰期遇到报告性能下降的情况时，报告活动管理器可以让您自行诊断和修复容量问题，而无需 Adobe 客户关怀部门干预。在单个界面中即可轻松地管理报告队列，并可立即采取行动以改善您用户的体验。
 
