@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 浏览一个知识库，其中包含不属于特定 Analytics 工具或组件的有用文章。
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 100%
 + [渐进式 Web 应用程序](pwa.md)
 + [重定向和别名](redirects.md)
 + [安全资源](security.md)
++ [FTP和SFTP的安全性](sftp-password-rotation.md)
 + [使用的术语（术语表）](terms.md)
 + [登录疑难解答](troubleshoot-login.md)
 + [注销疑难解答](troubleshoot-sessions.md)
