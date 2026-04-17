@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入和导出帐户
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
+source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 68%
+source-wordcount: '1597'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 68%
 * 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)时导出文件
 * 使用[分类集](/help/components/classifications/sets/overview.md)导入架构
 
-您需要为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照本文所述添加和配置帐户(如Amazon S3角色ARN、Google Cloud Platform等)，然后按照[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述，添加和配置该帐户内的位置（如帐户内的文件夹）。
+您需要为Adobe Analytics配置访问您的云帐户所需的信息。 此过程包括按照本文所述添加和配置帐户（如Amazon S3角色ARN、Google Cloud Platform等），然后按照[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述，添加和配置该帐户内的位置（如帐户内的文件夹）。
 
 有关如何查看和删除现有帐户的信息，请参阅[位置管理器](/help/components/locations/locations-manager.md)。
 
@@ -145,14 +145,19 @@ ht-degree: 68%
 
    +++FTP
 
-   数据馈送数据可以传输到由 Adobe 或客户托管的 FTP 位置。需要 FTP 主机、用户名和密码。可使用路径字段将馈送文件放置在文件夹中。文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。
+   >[!IMPORTANT]
+   >
+   >不应使用FTP，因为数据以纯文本形式在Internet上流动。
+
+
+   数据馈送数据可以传输到由 Adobe 或客户托管的 FTP 位置。需要FTP主机、用户名和密码。
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **主机**] | 输入所需的FTP目标URL。 例如，`ftp.adobe.com`。 |
-   | [!UICONTROL **路径**] | 可留空。 |
+   | [!UICONTROL **主机名**] | 输入所需的FTP目标URL。 例如，`ftp.adobe.com`。 |
+   | [!UICONTROL **端口**] | 可留空。 使用此字段可将馈送文件放置在文件夹中。 文件夹必须已存在；如果指定的端口不存在，则馈送将引发错误。 |
    | [!UICONTROL **用户名**] | 输入用户名以登录到FTP站点。 |
-   | [!UICONTROL **密码并确认密码**] | 输入登录FTP站点的密码。 |
+   | [!UICONTROL **位置帐户密码**] | 输入密码（密码）以登录到FTP站点。 |
 
    {style="table-layout:auto"}
 
@@ -160,9 +165,9 @@ ht-degree: 68%
 
    +++SFTP
 
-   提供了对数据馈送的 SFTP 支持。这要求SFTP主机、用户名和目的地站点包含有效的RSA或DSA公钥。 您可以在创建馈送时下载相应的公钥。
+   提供了对数据馈送的 SFTP 支持。这要求SFTP主机、用户名和目的地站点包含有效的RSA或ed25519公钥。 您可以在创建馈送时下载相应的公钥。
 
-   下载数据馈送的RSA或DSA公钥时，请执行下列任一操作：
+   下载数据馈送的RSA或ed25519公钥时，执行以下任一操作：
 
    * 将下载的公钥文件重命名为`authorized_keys`，然后将该文件上传到SFTP服务器上的`.ssh`文件夹。
 
