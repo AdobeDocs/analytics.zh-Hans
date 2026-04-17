@@ -3,7 +3,7 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送以及提供给 Adobe 的文件信息。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 30%
@@ -120,7 +120,7 @@ ht-degree: 30%
    >
    >在配置报表目标时，请考虑以下事项：
    >
-   >* Adobe建议为报表目标使用云帐户。 虽然[旧版 FTP 和 SFTP 帐户](#legacy-destinations)可用，但建议不要使用这些帐户。
+   >* Adobe建议为报表目标使用云帐户。 虽然[旧版 FTP 和 SFTP 帐户](/help/components/locations/configure-import-accounts.md)可用，但建议不要使用这些帐户。
    >* 您之前配置的任何云帐户均可用于数据馈送。 您可以通过以下任一方式配置云帐户：
    >
    >   * 为 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 配置云帐户时
