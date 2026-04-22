@@ -3,16 +3,16 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
+source-git-commit: 907f510e02a0f5cb378c139a20cc147304ad0d70
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1103'
+ht-degree: 90%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2026 年 4 月）
 
-**上次更新时间**：2026 年 4 月 9 日
+**上次更新时间**：2026年4月22日
 
 这些发行说明涵盖了 2026 年 4 月的发行期。Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
-| **适用于 Adobe Analytics 的 MCP 服务器** <br/>您现在可以使用 MCP（模型上下文协议）将 Adobe Analytics 捆绑到您现有的代理式工作流中。您可以使用自然语言请求报告和洞察。<p>（文档链接见下文。）</p> | | 2026 年 4 月底 |
+| **用于Adobe Analytics的MCP服务器** <br/>Analytics MCP（模型上下文协议）服务器允许您将受支持的MCP客户端连接到Adobe Analytics。 连接后，MCP客户端可以调用特定于产品的工具来检索数据、运行查询或执行作为LLM或代理工作流一部分的受支持操作。 有关详细信息，请参阅[Analytics MCP服务器](https://developer.adobe.com/analytics-mcp/docs/)。<p>如果您在Beta测试期间使用这些MCP服务器，请注意，Beta测试版和生产版端点之间有不同的URL。 请确保在5月31日之前将测试期间创建的任何代理工作流更新为使用生产端点。</p> | | 2026年4月29日 |
 | **流媒体服务：支持计划数据** <br/>您现在可以上传过去直播流媒体服务内容的计划数据，以便更轻松、更准确地跟踪观看人数。<p>以下是支持计划数据上传的直播内容示例：</p><ul><li>FAST（免费广告支持电视）平台</li><li>本地流</li><li>直播体育赛事</li></ul><p>上传计划数据允许您跟踪在上传文件中指定的时间内运行的各个节目的观看人数数据。 您甚至可以收集特定主题或节目片段的观看人数数据。</p><p>无论您如何实现流媒体收集，这些功能都是可用的。</p><p>以前，在分析直播内容时很难准确地将特定场次与特定节目联系起来，也不可能将特定场次与单个主题或节目片段联系起来。</p><p>如需了解更多信息，请参阅[上传计划数据以跟踪实时内容](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>（原计划于 2025 年 10 月 29 日发布）</p> |
 | **其他 API 日期范围格式**<br/>&#x200B;现在，在 Analytics 2.0 API 报告请求中指定日期范围时可以使用两种新格式。一种是日期公式，一种是混合格式。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | 2026 年 3 月 |
 | **API 报告请求中的可选维度**<br/>&#x200B;报告 API 请求中不需要维度对象。如果未指定维度，响应就会显示总计报告的数据。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | 2026 年 3 月 |
