@@ -3,16 +3,16 @@ title: 分类集架构
 description: 了解如何查看和编辑单个分类集的架构。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
 
 # 分类集架构
 
-架构是您要应用于为分类集定义的关键维度的分类列表。 例如，如果您已将product定义为关键维度，并且此字段包含产品SKU，则使用该架构添加产品名称、产品颜色、产品大小等分类。
+架构是您要应用于为分类集定义的关键维度的分类列表。 例如，如果您已将product定义为关键维度，并且此字段包含产品SKU，则使用该架构可添加产品名称、颜色和大小等分类。
 
 要编辑分类集的架构，请执行以下操作：
 
@@ -107,7 +107,7 @@ ht-degree: 7%
 在&#x200B;**[!UICONTROL 下载&#x200B;_分类集名称_]**&#x200B;的数据对话框中：
 
 1. 输入要下载的&#x200B;**[!UICONTROL 行数]**。 例如：`10000`。
-1. 要选择要下载分类数据行的期间，请为&#x200B;**[!UICONTROL 下载接收行数（介于]**&#x200B;之间）输入开始和结束数据。 或者使用![日历](/help/assets/icons/Calendar.svg)使用日历弹出窗口选择时段。
+1. 要选择要下载分类数据行的期间，请为&#x200B;**[!UICONTROL 下载接收行数（介于]**&#x200B;之间）输入开始日期和结束日期。 或者使用![日历](/help/assets/icons/Calendar.svg)使用日历弹出窗口选择时段。
 1. 若要选择要返回的数据，请从&#x200B;**[!UICONTROL 返回的数据]**&#x200B;中选择一个选项。
 
    * **[!UICONTROL 所有值]**&#x200B;返回当前分类数据的所有值。
@@ -119,7 +119,7 @@ ht-degree: 7%
    * **[!UICONTROL 逗号分隔值]** (CSV)。
    * **[!UICONTROL Excel选项卡分隔值]**（TSV或TAB）。
 
-1. 要选择下载文件时要使用的[文件编码](/help/components/classifications/sets/data-files.md#general-file-requirements)，请从“文件编码”下拉菜单中选择一个选项。 选项如下：
+1. 要选择下载文件时[文件编码](/help/components/classifications/sets/data-files.md#general-file-requirements)，请按2。 要在下载文件时选择[文件编码](/help/components/classifications/sets/data-files.md#general-file-requirements)，请从“文件编码”下拉菜单中选择一个选项。 选项如下：
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁语–1]**。
@@ -146,7 +146,7 @@ ht-degree: 7%
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁语–1]**。
 
-1. 选择&#x200B;**[!UICONTROL 下载]**&#x200B;以下载分类数据模板。 您可以在浏览器的默认下载目录中找到下载的文件，其标题为<code><i>分类集</i>。<i>csv</i>|<i>tsv</i></code>。如果文件已存在，则序列号为<code>(<i>x</i>)</code> 会添加到文件名中。
+1. 选择&#x200B;**[!UICONTROL 下载]**&#x200B;以下载分类数据模板。 您可以在浏览器的默认下载目录中找到下载的文件。 该文件标题为<code><i>分类集</i>。<i>csv</i>|<i>tsv</i></code>。如果文件已存在，则序列号为<code>(<i>x</i>)</code> 会添加到文件名中。
 
 
 ### 自动化 {#automate}
@@ -166,8 +166,6 @@ ht-degree: 7%
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=zh-Hans" text="配置云导入和导出位置"
 
 您可以通过配置和使用云帐户和云位置来自动摄取分类数据。
-
-
 
 >[!IMPORTANT]
 >要自动从云帐户提取分类，您（或您的网络管理员）需要指定IP地址范围以允许将数据提取到您的网络中。 根据您使用的Analytics数据中心的位置，配置一个或多个IP地址范围。
@@ -206,14 +204,18 @@ ht-degree: 7%
    * **[!UICONTROL 拉丁语–1]**。
 
 1. 要通知用户已完成引入作业，请输入以逗号分隔的电子邮件地址，以便&#x200B;**[!UICONTROL 在引入作业完成时通知电子邮件（以逗号分隔）]**。
-1. 选择&#x200B;**[!UICONTROL 验证]**。 已验证与云位置的连接。
-1. 如果验证成功，您会看到一则显示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置验证成功的Toast消息。 已验证与云存储的连接。]**<br/>如果已创建与云连接的连接，请选择&#x200B;**[!UICONTROL &#x200B;保存&#x200B;]**。 否则，请选择&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或者选择&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消云位置的配置。
+1. 选择&#x200B;**[!UICONTROL 验证]**。 与云位置的连接已验证如果验证成功，将显示一条显示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置验证成功的toast消息。 已验证与云存储的连接。]**<br/>如果已创建与云连接的连接，请选择&#x200B;**[!UICONTROL &#x200B;保存&#x200B;]**。 否则，请选择&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或者选择&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消云位置的配置。
 
 将文件上传到云位置时，会在15分钟内检测到文件并将其作为导入作业提交。 该导入作业的结果在[分类作业管理器](/help/components/classifications/sets/job-manager.md)中报告。 如果您被添加到要通知引入作业完成情况的用户列表，则还会收到电子邮件。
 
 例如：
 
 ![分类集 — 作业验证电子邮件](assets/job-failed-validation.png){width="400"}
+
+>[!IMPORTANT]
+>
+>在成功导入和处理文件后，手动或使用文件轮换策略从云位置删除文件。 否则，将在下次导入作业时重新导入和重新处理文件。
+
 
 
 ## 操作栏
