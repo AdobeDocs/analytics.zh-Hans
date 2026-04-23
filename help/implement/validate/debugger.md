@@ -1,13 +1,13 @@
 ---
 title: 旧版 Adobe Experience Cloud Debugger
-description: 安装旧版 Adobe Experience Cloud Debugger。此调试器可检查 Analytics、Target、Advertising Cloud、身份标识服务和 Data Collection 的标记。
+description: 安装旧版 Adobe Experience Cloud Debugger。This debugger inspects tags for Analytics, Target, Advertising, Identity Service, and Data Collection tags.
 feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -41,14 +41,14 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 1. 单击右上方的三个圆点，然后转到“书签”>“书签管理器”。此外，您还可以按 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在书签管理器的右上方，单击三个圆点，然后单击“添加新书签”。
-3. 在“名称”字段中，将其标记为“Adobe Experience Cloud Debugger”，然后将相应的代码段粘贴到“URL”字段中。
+3. 在“名称”字段中，为其赋予“Adobe Experience Cloud 调试器”标签，然后将相应的代码段粘贴到“URL”字段中。
 4. 使用书签管理器将新建的小书签放在所需位置。
 
 #### Firefox
 
 1. 单击右上方的三条横线，然后转到“库”>“书签”>“显示所有书签”。此外，您还可以按 `Ctrl` + `Shift` + `B` (Windows) 或 `Cmd` + `Shift` + `B` (Mac)。
 2. 单击“组织”>“新建书签”。
-3. 在“名称”字段中，将其标记为“Adobe Experience Cloud Debugger”，然后将相应的代码段粘贴到“位置”字段中。“标签”和“关键字”字段不是必填字段。
+3. 在“名称”字段中，为其赋予“Adobe Experience Cloud 调试器”标签，然后将相应的代码段粘贴到“位置”字段中。“标签”和“关键字”字段不是必填字段。
 4. 使用库窗口将新建的小书签放在所需位置。
 
 #### Edge
