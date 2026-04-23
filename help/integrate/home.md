@@ -3,25 +3,25 @@ title: Analytics 集成
 description: 了解怎样才能将其他位置的数据集成到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 99%
+source-wordcount: '167'
+ht-degree: 72%
 
 ---
 
 # Analytics 集成
 
-本指南重点介绍有关集成多个 Adobe Experience Cloud 解决方案的内容，例如 Audience Manager、Advertising Cloud 或 Target。 这些集成包括：
+本指南重点介绍如何集成多个Adobe Experience Cloud解决方案，例如Audience Manager、Advertising或Target。 这些集成包括：
 
 * **Audience Analytics：**&#x200B;将 Adobe Audience Manager 与 Adobe Analytics 相集成。
 * **Advertising Analytics：**&#x200B;可使用 Adobe Analytics 数据并排查看付费搜索数据。
-* **Analytics for Advertising Cloud DSP：**&#x200B;集成 Adobe Analytics 和 Adobe Advertising Cloud 以扩展和增强每个产品的功能。
+* **Analytics for Advertising DSP：**&#x200B;集成Adobe Analytics和Adobe Advertising以扩展和增强每个产品的功能。
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} 以获取演示视频。
+有关演示视频，请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -3,10 +3,10 @@ title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 60%
+source-wordcount: '894'
+ht-degree: 46%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 60%
 
 ## Analysis Workspace中支持的维度
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |---|---|
 | Analytics for Target | `targetraw` |
 | 受众 ID | `mcaudiences` |
@@ -146,9 +146,9 @@ ht-degree: 60%
 
 ## 仅在 Analysis Workspace 中受支持的内容感知维度
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
-| Activity Map XY | `clickmapxy` |
+| ACTIVITY MAP XY | `clickmapxy` |
 | 媒体会话 ID | `videosessionid` |
 | Nielsen 访问方法 | `nielsenaccmethod` |
 | Nielsen 应用程序 ID | `nielsenappid` |
@@ -159,7 +159,7 @@ ht-degree: 60%
 
 ### 视频（流媒体服务）
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
 | [内容](sm-core.md) | `video` |
 | [内容区段](sm-core.md) | `videosegment` |
@@ -167,36 +167,36 @@ ht-degree: 60%
 | [广告播放器名称](sm-ads.md) | `videoadplayername` |
 | [面板中的广告位置](sm-ads.md) | `videoadinpod` |
 | [丢帧](sm-quality.md) | `videoqoedroppedframecountevar` |
-| [错误](sm-quality.md) | `videoqoeerrorcountevar` |
+| [个错误](sm-quality.md) | `videoqoeerrorcountevar` |
 | [平均比特率](sm-quality.md) | `videoqoebitrateaverageevar` |
 | [比特率更改](sm-quality.md) | `videoqoebitratechangecountevar` |
 | [缓冲总持续时间](sm-quality.md) | `videoqoebuffertimeevar` |
 | [缓冲事件](sm-quality.md) | `videoqoebuffercountevar` |
 | [开始时间](sm-quality.md) | `videoqoetimetostartevar` |
-| [广告面板](sm-ads.md) | `videoadpod` |
+| [广告Pod](sm-ads.md) | `videoadpod` |
 | [媒体路径](sm-core.md) | `videopath` |
 | [广告](sm-ads.md) | `videoad` |
 | [内容播放器名称](sm-core.md) | `videoplayername` |
 | [内容渠道](sm-core.md) | `videochannel` |
 | [章节](sm-chapters.md) | `videochapter` |
 | [内容名称（变量）](sm-core.md) | `videoname` |
-| [内容时长（变量）](sm-core.md) | `videolength` |
+| [内容长度（变量）](sm-core.md) | `videolength` |
 | [广告名称（变量）](sm-ads.md) | `videoadname` |
 | [广告长度（变量）](sm-ads.md) | `videoadlength` |
-| [在“客户获取链接”页面上显示](sm-video-metadata.md) | `videoshow` |
+| [节目](sm-video-metadata.md) | `videoshow` |
 | [季](sm-video-metadata.md) | `videoseason` |
-| [剧集](sm-video-metadata.md) | `videoepisode` |
+| [集](sm-video-metadata.md) | `videoepisode` |
 | [网络](sm-video-metadata.md) | `videonetwork` |
 | [显示类型](sm-video-metadata.md) | `videoshowtype` |
 | [广告加载](sm-ads.md) | `videoadload` |
 | [MVPD](sm-video-metadata.md) | `videomvpd` |
-| [播出时段](sm-video-metadata.md) | `videodaypart` |
+| [天部分](sm-video-metadata.md) | `videodaypart` |
 | [广告商](sm-ads.md) | `videoadadvertiser` |
 | [营销活动 ID](sm-ads.md) | `videoadcampaign` |
 | [流派](sm-video-metadata.md) | `videogenre` |
 | [流类型](sm-core.md) | `videostreamtype` |
-| [播放器 SDK 错误 ID](sm-quality.md) | `videoqoeplayersdkerrors` |
-| [外部错误 ID](sm-quality.md) | `videoqoeextneralerrors` |
+| [播放器SDK错误ID](sm-quality.md) | `videoqoeplayersdkerrors` |
+| [外部错误ID](sm-quality.md) | `videoqoeextneralerrors` |
 | [媒体馈送类型](sm-video-metadata.md) | `videofeedtype` |
 | [进入媒体路径](entry-dimensions.md) | `entryvideopath` |
 | [退出媒体路径](exit-dimensions.md) | `exitvideopath` |
@@ -211,7 +211,7 @@ ht-degree: 60%
 
 Adobe Social已停用。
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
 | 术语 | `socialterm` |
 | 社交平台/属性 | `socialcontentprovider` |
@@ -226,14 +226,14 @@ Adobe Social已停用。
 | 拥有的属性和应用程序 | `socialownedpropertypropertyvsapp` |
 | 拥有的属性名称 | `socialownedpropertyname` |
 | 拥有的定义属性和帖子 | `socialowneddefinitionpropertyvspost` |
-| 拥有的定义分析类型 | `socialowneddefinitioninsighttype` |
-| 拥有的定义分析值 | `socialowneddefinitioninsightvalue` |
+| 拥有的定义洞察类型 | `socialowneddefinitioninsighttype` |
+| 拥有的定义洞察值 | `socialowneddefinitioninsightvalue` |
 | 拥有的定义指标 | `socialowneddefinitionmetric` |
 | 资产 | `socialmediaid` |
 
 ### Mobile SDK
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
 | [首次启动日期](lifecycle-dimensions.md) | `mobileinstalldate` |
 | [应用程序ID](lifecycle-dimensions.md) | `mobileappid` |
@@ -268,29 +268,29 @@ Adobe Social已停用。
 | [登录信标Proximity](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
 | [退出信标Proximity](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
-### Adobe Advertising Cloud (AMO)
+### Adobe Advertising
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
 | AMO EF ID | `amo_ef_id` |
 | AMO ID | `amo_cid` |
 
 ### Activity Map
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
-| [按地区划分的Activity Map链接](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
-| [Activity Map地区](activity-map-region.md) | `clickmapregion` |
-| [Activity Map链接](activity-map-link.md) | `clickmaplink` |
-| [Activity Map页面](activity-map-page.md) | `clickmappage` |
+| [按区域划分的 Activity Map 链接](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [Activity Map 区域](activity-map-region.md) | `clickmapregion` |
+| [Activity Map 链接](activity-map-link.md) | `clickmaplink` |
+| [Activity Map 页面](activity-map-page.md) | `clickmappage` |
 
 ### Nielsen 集成
 
 有关如何实施此集成的更多信息，请参阅Adobe Exchange上的[Nielsen扩展](https://exchange.adobe.com/apps/ec/101361)。
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
-| Nielsen 广告模型 | `nielsenadmodel` |
+| Nielsen广告模型 | `nielsenadmodel` |
 | Nielsen 区段 C | `nielsensegmentc` |
 | Nielsen 区段 B | `nielsensegmentb` |
 | Nielsen 区段 A | `nielsensegmenta` |
@@ -309,7 +309,7 @@ Adobe Social已停用。
 
 ### Adobe Experience Manager (AEM)
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
 | 资产 ID | `aemassetid` |
 | 资产来源 | `aemassetsource` |
@@ -319,6 +319,6 @@ Adobe Social已停用。
 
 ### Adobe Campaign
 
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
+| 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
-| Adobe Campaign 执行的提交 ID | `ac_delivery_internal_name` |
+| Adobe Campaign执行的投放ID | `ac_delivery_internal_name` |

@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: fd5a38ca3c621e67f7a670f361e73b439ce9861a
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '3652'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 92%
 | **`post_`** | **`aemassetid`** | 一个多值变量与一组 Adobe Experience Manager Assets 的资产 ID (GUID) 相对应。可增加展示事件的计数。 | 文本 |
 | **`post_`** | **`aemassetsource`** | 标识资产事件的来源。在 Adobe Experience Manager 中使用。 | varchar(255) |
 | **`post_`** | **`aemclickedassetid`** | Adobe Experience Manager 资产的资产 ID。增加点击事件的数量。 | varchar(255) |
-| **`post_`** | **`amo_cid`** | [AMO ID](/help/components/dimensions/amo-id.md)维度，用于Adobe Advertising集成。 | varchar(255) |
-| **`post_`** | **`amo_ef_id`** | [AMO EF ID](/help/components/dimensions/amo-ef-id.md)维度，用于Adobe Advertising集成。 | varchar(255) |
+| **`post_`** | **`amo_cid`** | The [AMO ID](/help/components/dimensions/amo-id.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
+| **`post_`** | **`amo_ef_id`** | The [AMO EF ID](/help/components/dimensions/amo-ef-id.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
 | | **`browser`** | 表示浏览器的数值 ID。引用 `browser.tsv` 查找表。 | 无符号 int |
 | **`post_`** | **`browser_height`** | [浏览器高度](/help/components/dimensions/browser-height.md)维度。 | 无符号 smallint |
 | **`post_`** | **`browser_width`** | [浏览器宽度](/help/components/dimensions/browser-width.md) | 无符号 smallint |
@@ -45,13 +45,13 @@ ht-degree: 92%
 | **`post_`** | **`channel`** | [网站分区](/help/components/dimensions/site-section.md)维度。 | varchar(100) |
 | | **`ch_hdr`** | 通过 HTTP 请求头收集的客户端提示。 | 文本 |
 | | **`ch_js`** | 通过用户代理客户端提示 JavaScript API 收集的客户端提示。 | 文本 |
-| **`post_`** | **`clickmaplink`** | [Activity Map链接](/help/components/dimensions/activity-map-link.md)维度。 | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | [按地区](/help/components/dimensions/activity-map-link-by-region.md)列出的Activity Map链接。 | varchar(255) |
-| **`post_`** | **`clickmappage`** | [Activity Map页面](/help/components/dimensions/activity-map-page.md)维度。 | varchar(255) |
-| **`post_`** | **`clickmapregion`** | [Activity Map区域](/help/components/dimensions/activity-map-region.md)维度。 | varchar(255) |
+| **`post_`** | **`clickmaplink`** | The [Activity Map link](/help/components/dimensions/activity-map-link.md) dimension. | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | The [Activity Map link by region](/help/components/dimensions/activity-map-link-by-region.md) dimension. | varchar(255) |
+| **`post_`** | **`clickmappage`** | The [Activity Map page](/help/components/dimensions/activity-map-page.md) dimension. | varchar(255) |
+| **`post_`** | **`clickmapregion`** | The [Activity Map region](/help/components/dimensions/activity-map-region.md) dimension. | varchar(255) |
 | | **`code_ver`** | 用于编译和发送图像请求的 API 或客户端 SDK 版本。 | char(16) |
 | | **`color`** | 颜色深度 ID，它基于 `c_color` 列的值。引用 `color_depth.tsv` 查找表。 | 无符号 smallint |
-| | **`connection_type`** | 表示[连接类型](/help/components/dimensions/connection-type.md)维度的数值ID。 引用 `connection_type.tsv` 查找表。 | 无符号 tinyint |
+| | **`connection_type`** | Numeric ID representing the [Connection type](/help/components/dimensions/connection-type.md) dimension. 引用 `connection_type.tsv` 查找表。 | 无符号 tinyint |
 | **`post_`** | **`cookies`** | [Cookie 支持](/help/components/dimensions/cookie-support.md)维度。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
 | | **`country`** | 表示访客所在国家/地区的数值 ID。引用 `country.tsv` 查找表。 | 无符号 smallint |
 | **`post_`** | **`currency`** | 交易过程中使用的货币代码。用 [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 设置。 | char(8) |
@@ -70,10 +70,10 @@ ht-degree: 92%
 | | **`duplicated_from`** | 仅在包含点击复制 VISTA 规则的报表包中使用。指示从中复制点击的报表包。 | varchar(40) |
 | | **`duplicate_events`** | 列出每一个算作重复的事件。 | varchar(255) |
 | | **`duplicate_purchase`** | 确定此次点击对应的购买事件是重复事件因而被忽略的标记。 | 无符号 tinyint |
-| **`post_`** | **`ef_id`** | EF ID，用于Adobe Advertising集成。 | varchar(255) |
+| **`post_`** | **`ef_id`** | The EF ID, used in Adobe Advertising integrations. | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | 自定义变量 1 至 250。在 [eVar](/help/components/dimensions/evar.md) 维度中用到。每个公司使用 eVar 的方式有所不同。要了解有关您的组织如何填充各个 eVar 的更多信息，您最好参阅您的组织特有的[解决方案设计文档](/help/implement/prepare/solution-design.md)。 | varchar(255) |
-| **`post_`** | **`event_list`** | 以逗号分隔的数值 ID 列表，各 ID 表示点击时所触发的事件。包括商务事件和[自定义事件1-1000](/help/components/metrics/custom-events.md)。 使用 `event.tsv` 查找。 | 文本 |
-| | **`exclude_hit`** | 确定报告中是否包含此点击的标记。对于被排除的点击，`visit_num` 列不递增。<br>1：未使用。属于某个已弃用的功能。<br>2：未使用。属于某个已弃用的功能。<br>3：已不再使用。用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。替代特定于帐户的排除。<br>9：未使用。属于某个已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。属于某个已弃用的功能。<br>13：未使用。属于某个已弃用的功能。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16：与 Analytics 点击不匹配的 Advertising Cloud 点击 | 无符号 tinyint |
+| **`post_`** | **`event_list`** | 以逗号分隔的数值 ID 列表，各 ID 表示点击时所触发的事件。Includes both commerce events and [custom events 1-1000](/help/components/metrics/custom-events.md). 使用 `event.tsv` 查找。 | 文本 |
+| | **`exclude_hit`** | 确定报告中是否包含此点击的标记。对于被排除的点击，`visit_num` 列不递增。<br>1：未使用。属于某个已弃用的功能。<br>2：未使用。属于某个已弃用的功能。<br>3：已不再使用。用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。替代特定于帐户的排除。<br>9：未使用。属于某个已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。属于某个已弃用的功能。<br>13：未使用。属于某个已弃用的功能。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16: Adobe Advertising hit that did not match up to an Analytics hit | 无符号 tinyint |
 | | **`first_hit_pagename`** | [原始登入页面](/help/components/dimensions/entry-dimensions.md)维度。访客访问的原始登入页面的名称。 | varchar(100) |
 | | **`first_hit_page_url`** | 访客访问的第一个 URL。 | varchar(255) |
 | | **`first_hit_referrer`** | 访客访问的第一个反向链接 URL。 | varchar(255) |
@@ -87,7 +87,7 @@ ht-degree: 92%
 | | **`geo_zip`** | 根据 IP 地址判断的点击来源的邮政编码。有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `zip`。 | varchar(16) |
 | | **`hitid_high`** | 与 `hitid_low` 配合使用可标识某次点击。 | 无符号 bigint |
 | | **`hitid_low`** | 与 `hitid_high` 配合使用可标识某次点击。 | 无符号 bigint |
-| | **`hit_source`** | 点击的来源。点击源1和2将计费。 <br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：不再使用；完全处理数据源上载<br>7：TransactionID数据源上载<br>8：不再使用；Adobe Advertising数据源的以前版本<br>9：不再使用；Adobe Social概要量度<br>10：使用了Audience Manager服务器端转发 | 无符号 tinyint |
+| | **`hit_source`** | 点击的来源。Hit sources 1 and 2 are billed. <br>1: Standard image request without timestamp <br>2: Standard image request with timestamp <br>3: Live data source upload with timestamps <br>4: Not used <br>5: Generic data source upload <br>6: No longer used; full processing data source upload <br>7: TransactionID data source upload <br>8: No longer used; Previous versions of Adobe Advertising data sources <br>9: No longer used; Adobe Social summary metrics <br>10: Audience Manager server-side forwarding used | 无符号 tinyint |
 | | **`hit_time_gmt`** | Adobe 数据收集服务器接收到点击的时间戳（基于 UNIX® 时间）。 | int |
 | | **`hourly_visitor`** | 用于确定点击是否为新小时访客的标记。 | 无符号 tinyint |
 | | **`ip`** | IPv4 地址，基于图像请求的 HTTP 标头。与 `ipv6` 互斥；如果此列包含未进行模糊处理的 IP 地址，则 `ipv6` 为空白。 | char(20) |
@@ -155,7 +155,7 @@ ht-degree: 92%
 | **`post_`** | **`page_event_var1`** | 仅用于链接跟踪图像请求。所点击的下载链接、退出链接或自定义链接的 URL。 | 文本 |
 | **`post_`** | **`page_event_var2`** | 仅用于链接跟踪图像请求。链接的自定义名称（如果已指定）。根据 `page_event` 中的值设置[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)或者[退出链接](/help/components/dimensions/exit-link.md)。 | varchar(100) |
 | **`post_`** | **`page_type`** | [页面未找到](/help/components/dimensions/pages-not-found.md)维度，通常用于 404 页面。 | char(20) |
-| **`post_`** | **`page_url`** | **`page_url`**：点击的URL。 使用文本的数据类型。<br>**`post_page_url`**：已剥离链接跟踪图像请求([`tl()`](/help/implement/vars/functions/tl-method.md))。 使用varchar(255)数据类型。 | text<br>varchar(255) |
+| **`post_`** | **`page_url`** | **`page_url`**: The URL of the hit. Uses a data type of text.<br>**`post_page_url`**: Stripped for link tracking image requests ([`tl()`](/help/implement/vars/functions/tl-method.md)). Uses a data type of varchar(255). | text<br>varchar(255) |
 | | **`paid_search`** | 确定点击是否与付费搜索检测相匹配的标记。 | 无符号 tinyint |
 | **`post_`** | **`persistent_cookie`** | 在[永久性 Cookie 支持](/help/components/dimensions/persistent-cookie-support.md)维度中用到。表示访客是否支持每次点击后不丢弃的 Cookie。 | char(1) |
 | **`post_`** | **`pointofinterest`** | Mobile Services 目标点名称 | varchar(255) |
@@ -166,7 +166,7 @@ ht-degree: 92%
 | | **`quarterly_visitor`** | 确定此点击是否为新季度访客的标记。 | 无符号 tinyint |
 | **`post_`** | **`referrer`** | [反向链接](/help/components/dimensions/referrer.md)维度。请注意，在 `referrer` 使用数据类型 varchar(255) 时，`post_referrer` 使用数据类型 varchar(244)。 | varchar(255)<br>varchar(244) |
 | | **`ref_domain`** | [反向链接域](/help/components/dimensions/referring-domain.md)维度。基于 `referrer` 列。 | varchar(100) |
-| | **`ref_type`** | 表示此点击的反向链接类型的数值 ID。用于[反向链接类型](/help/components/dimensions/referrer-type.md)维度。<br>1：网站内<br>2：其他网站<br>3：搜索引擎<br>4：硬盘<br>5：未发送<br>6：已输入/添加书签（无反向链接）<br>7：电子邮件<br>8：无JavaScript<br>9：社交网络<br>10：对话式AI工具 | 无符号 tinyint |
+| | **`ref_type`** | 表示此点击的反向链接类型的数值 ID。用于[反向链接类型](/help/components/dimensions/referrer-type.md)维度。<br>1: Inside your site<br>2: Other web sites<br>3: Search engines<br>4: Hard drive<br>5: USENET<br>6: Typed/Bookmarked (no referrer)<br>7: Email<br>8: No JavaScript<br>9: Social Networks<br>10: Conversational AI tools | 无符号 tinyint |
 | | **`resolution`** | 表示显示器分辨率的数值 ID。在[显示器分辨率](/help/components/dimensions/monitor-resolution.md)维度中用到。使用 `resolution.tsv` 查询表。 | 无符号 smallint |
 | **`post_`** | **`search_engine`** | 表示将访客引向您的网站的搜索引擎的数值 ID。用于[搜索引擎](/help/components/dimensions/search-engine.md)维度。引用 `search_engines.tsv` 查找表。 | 无符号 smallint |
 | | **`search_page_num`** | 供[所有搜索网页排名](/help/components/dimensions/all-search-page-rank.md)维度使用。指示用户在点进您的网站之前您的网站出现在搜索结果的第几页上。 | 无符号 smallint |
@@ -178,7 +178,7 @@ ht-degree: 92%
 | **`post_`** | **`tnt`** | 在 Adobe Target 集成中使用。表示所有当前符合条件的测试。格式为：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文本 |
 | **`post_`** | **`tnt_action`** | 在 Adobe Target 集成中使用。表示点击符合条件的所有测试。 | 文本 |
 | | **`tnt_instances`** | 在 Adobe Target 集成中使用。Target 实例变量。 | 文本 |
-| **`post_`** | **`transactionid`** | 稍后可通过数据源上传各种数据点的唯一标识符。 使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
+| **`post_`** | **`transactionid`** | A unique identifier where various data points can be uploaded later through data sources. 使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
 | | **`truncated_hit`** | 表示图像请求被截断（收到部分点击）的标记。 <br>Y：点击被截断；接收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
 | **`post_`** | **`t_time_info`** | 访客的当地时间。格式为：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | | **`userid`** | 没有用处。报告包 ID 的数值 ID。请改用 `username`。 | 无符号 int |
@@ -231,7 +231,7 @@ ht-degree: 92%
 | **`post_`** | **`videoqoetimetostartevar`** | [开始时间](/help/components/dimensions/sm-quality.md)流媒体服务维度。 | varchar(255) |
 | **`post_`** | **`videoseason`** | [季](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
 | **`post_`** | **`videosegment`** | [内容区段](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videosessionid`** | [媒体会话ID](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videosessionid`** | The [Media session ID](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
 | **`post_`** | **`videoshow`** | [节目](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
 | **`post_`** | **`videoshowtype`** | [节目类型](/help/components/dimensions/sm-video-metadata.md)流媒体服务维度。 | varchar(255) |
 | | **`videostreamtype`** | [流传输类型](/help/components/dimensions/sm-core.md)流媒体服务维度。 | varchar(255) |
@@ -240,7 +240,7 @@ ht-degree: 92%
 | | **`visid_new`** | 确定此点击是否包含新生成访客 ID 的标记。 | char(1) |
 | | **`visid_timestamp`** | 如果新生成了访客 ID，就会在生成时提供 UNIX® 时间戳。 | int |
 | **`post_`** | **`visid_type`** | 不能用于外部用途；Adobe 内部用于处理优化。表示用于确定访客的方法的数值 ID。<br>`0`：自定义访客 ID 或未知/不适用<br>`1`：IP 和用户代理回退<br>`2`：HTTP 移动订户标头<br>`3`：旧版 Cookie 值 (`s_vi`)<br>`4`：回退 Cookie 值 (`s_fid`)<br>`5`：身份标识服务 | 无符号 tinyint |
-| **`post_`** | **`visit_keywords`** | [搜索关键词](/help/components/dimensions/search-keyword.md)维度。此列使用varchar(244)的非标准字符限制容纳Adobe使用的后端逻辑。 后处理列是`**post_keywords**`，而不是`**post_visit_keywords**`。 | varchar(244) |
+| **`post_`** | **`visit_keywords`** | [搜索关键词](/help/components/dimensions/search-keyword.md)维度。This column uses a non-standard character limit of varchar(244) to accommodate back-end logic used by Adobe. The post-processed column is `**post_keywords**`, not `**post_visit_keywords**`. | varchar(244) |
 | | **`visit_num`** | [访问次数](/help/components/dimensions/visit-number.md)维度。起始值为 1，每当每个访客开始新的访问时，此项就会递增。 | 无符号 int |
 | | **`visit_page_num`** | [点击深度](/help/components/dimensions/hit-depth.md)维度。访客每产生一次点击，此值就增加 1。重置每一个访问。 | 无符号 int |
 | | **`visit_referrer`** | 此访问的第一个反向链接。 | varchar(255) |
