@@ -4,18 +4,18 @@ keywords: ftp;sftp
 title: 通过 FTP 开展工程技术服务工作
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 90%
+source-wordcount: '156'
+ht-degree: 71%
 
 ---
 
-# 通过 FTP 开展工程技术服务工作
+# 通过FTP或SFTP开展工程技术服务工作
 
-许多 Adobe 工程技术服务工作涉及数据交换，这会频繁要求 FTP。
+许多Adobe工程技术服务工作涉及数据交换，这通常需要FTP或SFTP。
 
-这些工作包括 [!UICONTROL DB VISTA] 和自定义项目。
+这些预订包括[!UICONTROL DB VISTA]和自定义项目。
 
 有关FTP限制和数据保留的信息，请参阅[FTP限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
