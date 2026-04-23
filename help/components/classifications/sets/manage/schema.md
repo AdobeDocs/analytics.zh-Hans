@@ -3,9 +3,9 @@ title: 分类集架构
 description: 了解如何查看和编辑单个分类集的架构。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1605'
 ht-degree: 7%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 7%
    * **[!UICONTROL 逗号分隔值]** (CSV)。
    * **[!UICONTROL Excel选项卡分隔值]**（TSV或TAB）。
 
-1. 要选择下载文件时[文件编码](/help/components/classifications/sets/data-files.md#general-file-requirements)，请按2。 要在下载文件时选择[文件编码](/help/components/classifications/sets/data-files.md#general-file-requirements)，请从“文件编码”下拉菜单中选择一个选项。 选项如下：
+1. 要在下载文件时选择[文件编码](/help/components/classifications/sets/data-files.md#general-file-requirements)，请从&#x200B;**[!UICONTROL 文件编码]**&#x200B;下拉菜单中选择一个选项。 选项如下：
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁语–1]**。
