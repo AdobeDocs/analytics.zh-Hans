@@ -1,14 +1,15 @@
 ---
 title: 分类集架构
-description: 了解如何查看和编辑单个分类集的架构。
+description: 了解如何在Adobe Analytics中查看和编辑分类集架构。 使用云位置添加、上传、下载或自动化分类数据。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
+source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1618'
 ht-degree: 7%
 
 ---
+
 
 # 分类集架构
 
@@ -36,7 +37,7 @@ ht-degree: 7%
 | 列 | 描述 |
 |---|---|
 | **[!UICONTROL 分类名称]** | 您为分类提供的名称。 |
-| **[!UICONTROL 身份名称]** | 系统为分类派生的名称。 此名称是只读值，您可以使用标识名称 |
+| **[!UICONTROL 身份名称]** | 系统为分类生成的名称。 此名称是只读值，您可以使用标识名称。 |
 | **[!UICONTROL 分类者]** | 如果使用了，则为用于对此分类进行分类的查找分类集链接。 |
 
 
@@ -65,8 +66,6 @@ ht-degree: 7%
 ![分类集 — 将分类添加到架构](assets/classification-sets-schema-add-classification.png)
 
 在&#x200B;**[!UICONTROL 为&#x200B;_分类集名称_]**&#x200B;添加新分类对话框中，输入&#x200B;**[!UICONTROL 分类名称]**&#x200B;并选择&#x200B;**[!UICONTROL 添加]**。 分类即添加到列表中。
-
-
 
 ### 上传
 
@@ -141,7 +140,7 @@ ht-degree: 7%
    * **[!UICONTROL 逗号分隔值]**。
    * **[!UICONTROL Excel选项卡分隔值]**。
 
-1. 要选择下载文件时要使用的[文件编码](/help/components/classifications/sets/data-files.md#general-file-requirements)，请从“文件编码”下拉菜单中选择一个选项。 选项如下：
+1. 要在下载文件时选择[文件编码](/help/components/classifications/sets/data-files.md#general-file-requirements)，请从&#x200B;**[!UICONTROL 文件编码]**&#x200B;下拉菜单中选择一个选项。 选项如下：
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁语–1]**。
@@ -204,7 +203,7 @@ ht-degree: 7%
    * **[!UICONTROL 拉丁语–1]**。
 
 1. 要通知用户已完成引入作业，请输入以逗号分隔的电子邮件地址，以便&#x200B;**[!UICONTROL 在引入作业完成时通知电子邮件（以逗号分隔）]**。
-1. 选择&#x200B;**[!UICONTROL 验证]**。 与云位置的连接已验证如果验证成功，将显示一条显示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置验证成功的toast消息。 已验证与云存储的连接。]**<br/>如果已创建与云连接的连接，请选择&#x200B;**[!UICONTROL &#x200B;保存&#x200B;]**。 否则，请选择&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或者选择&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消云位置的配置。
+1. 选择&#x200B;**[!UICONTROL 验证]**。 已验证与云位置的连接。 如果验证成功，则会显示Toast消息，显示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置验证成功。 已验证与云存储的连接。]**<br/>如果已创建与云连接的连接，请选择&#x200B;**[!UICONTROL &#x200B;保存&#x200B;]**。 否则，请选择&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或者选择&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消云位置的配置。
 
 将文件上传到云位置时，会在15分钟内检测到文件并将其作为导入作业提交。 该导入作业的结果在[分类作业管理器](/help/components/classifications/sets/job-manager.md)中报告。 如果您被添加到要通知引入作业完成情况的用户列表，则还会收到电子邮件。
 
