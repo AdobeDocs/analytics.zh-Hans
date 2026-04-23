@@ -28,14 +28,14 @@ ht-degree: 44%
 
 此处理架构允许使用更加灵活的报告选项。 例如，您可以无损地将访问超时时段更改为所需的任意时间长度，并且这些更改会反映在完整报表时段的eVar持久性和区段容器中。 此外，您可以创建任意数量的虚拟报表包，每个报表包均具有基于同一基础报表包的不同报表时间处理选项，而无需更改基础报表包中的任何数据。
 
-[!UICONTROL 报表时间处理]还允许Analytics避免将后台点击计算为新的访问，并允许[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)在每次触发应用程序启动事件时才开始一次新访问。
+[!UICONTROL 报表时间处理]还允许Analytics避免将后台点击计算为新的访问，并允许[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)在每次触发应用程序启动事件时才开始一次新访问。
 
 ## 配置选项
 
 以下配置选项当前可用于启用了报表时间处理的虚拟报表包：
 
 * **[!UICONTROL 访问超时]：**&#x200B;访问超时设置定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。 默认为 30 分钟。例如，如果将访问超时设置为15分钟，则会以15分钟的非活动状态进行分隔，为每个收集的点击序列创建一个新的访问分组。 此设置不仅影响您的访问计数，还会影响访问区段容器的评估方式，以及访问时过期的任何eVar的访问过期逻辑。 减少访问超时可能会增加报表中的访问总数，而增加访问超时可能会减少报表中的访问总数。
-* **[!UICONTROL 移动应用程序访问设置]：**&#x200B;对于包含移动应用程序通过 [Adobe Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) 生成的数据的报表包，可以使用其他访问设置。 这些设置不具有破坏性，只会影响通过 Mobile SDK 收集的点击量。这些设置对通过 Mobile SDK 之外的程序收集的数据没有影响。
+* **[!UICONTROL 移动应用程序访问设置]：**&#x200B;对于包含移动应用程序通过 [Adobe Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans) 生成的数据的报表包，可以使用其他访问设置。 这些设置不具有破坏性，只会影响通过 Mobile SDK 收集的点击量。这些设置对通过 Mobile SDK 之外的程序收集的数据没有影响。
 * **[!UICONTROL 避免将后台点击计算为一次新的访问]：**&#x200B;当应用程序处于后台状态时，后台点击由 Mobile SDK 收集。
 * **[!UICONTROL 在每次应用程序启动后即开始一个新访问]：**&#x200B;除了访问超时之外，只要从 Mobile SDK 记录了应用程序启动事件，您就可以强制开始访问，而不管处于非活动状态的时间长短。 此设置会影响访问量度和访问区段容器，以及 eVar 中的访问过期逻辑。
 * **[!UICONTROL 通过事件开始新访问]：**&#x200B;无论会话是否超时，都会在触发事件时启动新会话。 新创建的会话包括启动该会话的事件。 此外，您可以使用多个事件来启动会话，如果在数据中观察到这些事件中的任一事件，则会触发新会话。 此设置将影响您的访问计数、访问分段容器以及eVar上的访问过期逻辑。
@@ -43,7 +43,7 @@ ht-degree: 44%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [开始新的访问（事件](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"}）。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [开始新的访问（事件](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"}）。
 
 >[!ENDSHADEBOX]
 
