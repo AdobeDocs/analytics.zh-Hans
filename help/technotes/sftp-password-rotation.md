@@ -32,7 +32,7 @@ ht-degree: 3%
 >FTP和SFTP是旧版目标类型。 Adobe建议迁移到现代云目标类型（例如Amazon S3、Google Cloud Platform或Azure），而不是像本文所述将FTP帐户升级到SFTP和轮换SFTP密码。 这些云目标提供了更高级别的安全性。 有关详细信息，请参阅[配置云导入和导出帐户](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts)。
 >
 >* **如果FTP和SFTP帐户仅用于分类，请迁移到分类集。**
->如果您的FTP或SFTP帐户专门用于分类，则您应该从&#x200B;**分类导入器**&#x200B;迁移到&#x200B;**分类集**，而不是按照本文中的说明将FTP帐户升级到SFTP并轮换SFTP密码。 分类导入器将被弃用，在&#x200B;**2026年8月31日**&#x200B;后无法再访问。 有关详细信息，请参阅[分类集概述](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview)。
+>如果您的FTP或SFTP帐户专门用于分类，则您应该从&#x200B;**分类导入器**&#x200B;迁移到&#x200B;**分类集**，而不是按照本文中的说明将FTP帐户升级到SFTP并轮换SFTP密码。 分类导入器将被弃用，在&#x200B;**2026年8月31日**&#x200B;后无法再访问。 有关详细信息，请参阅[分类集概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/classifications/sets/overview)。
 
 ## 先决条件
 
@@ -177,7 +177,7 @@ ht-degree: 3%
 
 1. 为您创建的每个SFTP帐户重复此过程。
 
-有关详细说明，请参阅[配置云导入和导出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations)。
+有关详细说明，请参阅[配置云导入和导出位置](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-locations)。
 
 ### 步骤3：编辑数据馈送和Data Warehouse请求以使用新的SFTP目标
 
