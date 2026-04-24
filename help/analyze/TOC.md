@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -110,7 +111,7 @@ ht-degree: 100%
       + [直方图](analysis-workspace/visualizations/histogram.md)
       + [水平条形图（堆叠）](analysis-workspace/visualizations/horizontal-bar.md)
       + [关键量度摘要](analysis-workspace/visualizations/key-metric.md)
-      + [折线图](analysis-workspace/visualizations/line.md)
+      + [线形图](analysis-workspace/visualizations/line.md)
       + [地图](analysis-workspace/visualizations/map-visualization.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
       + [节头](/help/analyze/analysis-workspace/visualizations/section-header.md)
@@ -134,7 +135,7 @@ ht-degree: 100%
          + [概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [使用的统计检验方法](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 策划和共享  {#curate-share}
+   + 策划和共享 {#curate-share}
       + [概述](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
