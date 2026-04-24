@@ -1,22 +1,22 @@
 ---
-title: Security Requirements for FTP and SFTP Servers
-description: Learn about security requirements for FTP and SFTP servers.
+title: FTP和SFTP服务器的安全要求
+description: 了解FTP和SFTP服务器的安全要求。
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 9067b57a7436656b6776de08e8411ee0a87f2b20
+source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
 workflow-type: tm+mt
-source-wordcount: '1881'
-ht-degree: 2%
+source-wordcount: '1933'
+ht-degree: 3%
 
 ---
 
-# Security requirements for FTP and SFTP servers
+# FTP和SFTP服务器的安全要求
 
-This page covers security requirements for existing FTP and SFTP servers that receive data delivered by Adobe Analytics Data Feeds or Data Warehouse.
+本页介绍了接收Adobe Analytics数据馈送或Data Warehouse交付的数据的现有FTP和SFTP服务器的安全要求。
 
-* **Existing FTP servers**: Must be upgraded to use SFTP, as described in the section below, [Upgrade FTP servers to use SFTP](#upgrade-ftp-servers-to-use-sftp).
+* **现有FTP服务器**：必须升级为使用SFTP，如下节所述，[升级FTP服务器以使用SFTP](#upgrade-ftp-servers-to-use-sftp)。
 
-  Upgrading from FTP to SFTP is a requirement because SFTP allows for increased security.
+  需要从FTP升级到SFTP，因为SFTP可提高安全性。
 
   或者，为了获得更高级别的安全性，您可以转换为现代云目标。 （有关详细信息，请参阅[配置云导入和导出帐户](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts)。）
 
@@ -28,43 +28,43 @@ This page covers security requirements for existing FTP and SFTP servers that re
 >
 >完成本文中的步骤之前，请考虑以下情况。
 >
->* **Adobe建议尽可能转换到新版云目标，而不是升级到SFTP。**
+>* **Adobe建议尽可能转换到新版Cloud目标，而不是升级到SFTP。**
 >FTP和SFTP是旧版目标类型。 Adobe建议迁移到现代云目标类型（例如Amazon S3、Google Cloud Platform或Azure），而不是像本文所述将FTP帐户升级到SFTP和轮换SFTP密码。 这些云目标提供了更高级别的安全性。 有关详细信息，请参阅[配置云导入和导出帐户](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts)。
 >
->* **如果FTP和SFTP帐户专门用于分类，请迁移到分类集。**
+>* **如果FTP和SFTP帐户仅用于分类，请迁移到分类集。**
 >如果您的FTP或SFTP帐户专门用于分类，则您应该从&#x200B;**分类导入器**&#x200B;迁移到&#x200B;**分类集**，而不是按照本文中的说明将FTP帐户升级到SFTP并轮换SFTP密码。 分类导入器将被弃用，在&#x200B;**2026年8月31日**&#x200B;后无法再访问。 有关详细信息，请参阅[分类集概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/classifications/sets/overview)。
 
 ## 先决条件
 
-### Inventory your FTP accounts
+### 清点FTP帐户
 
-You must complete the SFTP upgrade steps on this page for every FTP site used with Data Feeds or Data Warehouse.
+对于与数据馈送或Data Warehouse一起使用的每个FTP站点，您必须完成本页面上的SFTP升级步骤。
 
-因此，您必须确定正在接收数据馈送或Data Warehouse数据的所有FTP帐户。 此信息显示在FTP配置设置中，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md#configure-a-location-account)中的[旧帐户类型](/help/components/locations/configure-import-accounts.md)部分所述。
+因此，您必须确定正在接收数据馈送或Data Warehouse数据的所有FTP帐户。 此信息显示在FTP配置设置中，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的[旧帐户类型](/help/components/locations/configure-import-accounts.md#configure-a-location-account)部分所述。
 
 针对每个帐户，收集以下信息：
 
-* **Host**: The hostname of the FTP server your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth).
+* **主机**：您的帐户连接到的FTP服务器的主机名（例如，`ftp.omniture.com`、`ftp2.omniture.com`等）。
 
-* **Port**: When using an Adobe-hosted SFTP server, SFTP clients connect on port 22. FTP connections that are non-secure use port 21.
+* **端口**：使用Adobe托管的SFTP服务器时，SFTP客户端连接到端口22。 不安全的FTP连接使用端口21。
 
-* **Username**: The username used to log in to the FTP server.
+* **用户名**：用于登录到FTP服务器的用户名。
 
-* **Location account secret**: The current account secret for the account. This is the account secret (password) that you use currently when downloading data delivered to your FTP location. This information is not available from the Adobe Analytics interface.
+* **位置帐户密码**：帐户的当前帐户密码。 这是您在下载发送到您的FTP位置的数据时当前使用的帐户密码。 Adobe Analytics界面中没有此信息。
 
 ### 确认您可以在工具中更新凭据
 
-Make sure you can update the SFTP passwords in whatever tool or script you use to connect to the SFTP site (for example, an SFTP client, automated script, or third-party platform).
+确保您可以在用于连接到SFTP站点的任何工具或脚本（例如，SFTP客户端、自动脚本或第三方平台）中更新SFTP密码。
 
-All clients should connect via SFTP with password as a fallback.
+所有客户端都应通过SFTP连接，并使用密码作为后备。
 
-## Upgrade FTP servers to use SFTP
+## 升级FTP服务器以使用SFTP
 
 >[!IMPORTANT]
 >
->If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before following the steps in this article.
+>如果您的FTP数据交付给第三方合作伙伴（例如，咨询公司或分析供应商），请在执行以下步骤之前与他们协调。
 
-### Step 1: Generate your organization&#39;s SSH keys for downloading data
+### 步骤1：生成组织的SSH密钥以下载数据
 
 本节介绍如何生成组织的SSH密钥（公钥/私钥对），这些密钥用于从SFTP服务器&#x200B;**下载数据**。
 
@@ -78,33 +78,33 @@ All clients should connect via SFTP with password as a fallback.
 
 1. 生成公钥/私钥对以用于安全传输。
 
-   When using an Adobe-hosted SFTP server, Adobe supports RSA and ed25519 keys.
+   使用Adobe托管的SFTP服务器时，Adobe支持RSA和ed25519密钥。
 
-   * **In a Linux environment**: Run the following command to generate the ed25519 key pair:
+   * **在Linux环境中**：运行以下命令以生成ed25519密钥对：
 
      ```
      ssh-keygen -t ed25519 -C "your-comment-or-email"
      ```
 
-     If your policy does not allow you to use ed25519 keys, run the following command to generate the RSA key pair:
+     如果您的策略不允许使用ed25519密钥，请运行以下命令来生成RSA密钥对：
 
      ```
      ssh-keygen -t rsa -b 4096 -C "your-comment-or-email"
      ```
 
-   * **In a Windows environment**: Use PuTTYgen.
+   * **在Windows环境中**：使用PuTTYgen。
 
 1. 创建名为 [!DNL `authorized_keys`] 的文件（无扩展名）。
 
-1. Copy the contents of the public key into the [!DNL `authorized_keys`] file.
+1. 将公钥的内容复制到[!DNL `authorized_keys`]文件中。
 
-1. In a future step, you will come back to this [!DNL `authorized_keys`] file to add Adobe&#39;s public key, which is used by Adobe to upload data to the SFTP server. Then you will add the [!DNL `authorized_keys`] file to the SFTP server.
+1. 在将来的步骤中，您将返回此[!DNL `authorized_keys`]文件以添加Adobe的公共密钥，Adobe使用该密钥将数据上载到SFTP服务器。 然后将[!DNL `authorized_keys`]文件添加到SFTP服务器。
 
-### Step 2: Create a new SFTP location account in Adobe Analytics
+### 步骤2：在Adobe Analytics中创建新的SFTP位置帐户
 
-Create a new SFTP location account to replace each existing FTP account.
+创建新的SFTP位置帐户以替换每个现有的FTP帐户。
 
-When creating a new SFTP location account, you must use the same hostname and username that are used in the existing FTP account it is replacing.
+创建新的SFTP位置帐户时，必须使用要替换的现有FTP帐户中使用的相同主机名和用户名。
 
 >[!NOTE]
 >
@@ -124,9 +124,9 @@ When creating a new SFTP location account, you must use the same hostname and us
 
    | 字段名称 | 功能 |
    |---------|----------|
-   | [!UICONTROL **Hostname**] | 您的SFTP主机名（例如，`ftp.omniture.com`）。 |
-   | [!UICONTROL **Port**] | The firewall port through which data will be sent. This is port 22 for Adobe-hosted SFTP connections. |
-   | [!UICONTROL **Username**] | Your SFTP username. Use the same username that you used for your FTP account. |
+   | [!UICONTROL **主机名**] | 您的SFTP主机名（例如，`ftp.omniture.com`）。 |
+   | [!UICONTROL **端口**] | 用于发送数据的防火墙端口。 这是Adobe托管的SFTP连接的端口22。 |
+   | [!UICONTROL **用户名**] | SFTP用户名。 使用与您的FTP帐户相同的用户名。 |
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
@@ -148,70 +148,70 @@ When creating a new SFTP location account, you must use the same hostname and us
 
 1. 打开[!DNL `authorized_keys`]文件并添加Adobe的上传密钥。 此文件应已包含贵组织的下载密钥，该密钥来自[步骤1：生成贵组织的SSH密钥以下载数据](#step-1-generate-your-organizations-ssh-keys-for-downloading-data)。
 
-1. Upload the [!DNL `authorized_keys`] file to your FTP server:
+1. 将[!DNL `authorized_keys`]文件上传到FTP服务器：
 
-   1. Connect to the FTP server and log in with your username and password.
-This can be an Adobe-hosted FTP server or your own FTP server.
+   1. 连接到FTP服务器并使用您的用户名和密码登录。
+这可以是由Adobe托管的FTP服务器或您自己的FTP服务器。
    1. 创建一个 [!DNL .ssh] 目录（如果没有）。
    1. 将 [!DNL `authorized_keys`] 文件上传到 [!DNL .ssh] 目录。
 
 1. 更新防火墙设置以允许来自SFTP服务器的入站连接。 使用Adobe托管的SFTP服务器时，请允许来自端口22上Adobe IP范围的入站连接。
 
-1. Test the connection by logging in to the server using your SFTP client.
+1. 通过使用SFTP客户端登录到服务器来测试连接。
 
-1. Repeat this process for each SFTP account that you created in the previous section, [Create the SFTP account](#create-the-sftp-account).
+1. 对您在上一节[创建SFTP帐户](#create-the-sftp-account)中创建的每个SFTP帐户重复此过程。
 
-1. Continue with the following section, [Add a location within the account](#add-a-location-within-the-account).
+1. 继续下面的部分，[在帐户](#add-a-location-within-the-account)中添加位置。
 
-#### Add a location within the account
+#### 在帐户中添加位置
 
-1. On the [!UICONTROL **Locations**] tab, select [!UICONTROL **Add location**].
+1. 在&#x200B;[!UICONTROL **位置**]&#x200B;选项卡上，选择&#x200B;[!UICONTROL **添加位置**]。
 
-1. Specify a name, description, and whether this location will be used with Data Feeds or Data Warehouse.
+1. 指定名称、描述，以及此位置是将与数据馈送还是Data Warehouse一起使用。
 
-1. In the [!UICONTROL **Location account**] field, select the account you just created.
+1. 在&#x200B;[!UICONTROL **位置帐户**]&#x200B;字段中，选择您刚刚创建的帐户。
 
-1. In the [!UICONTROL **Directory path**] field, specify the path to the directory on the SFTP server. Folders in the path must already exist; otherwise, an error occurs. 例如，`/folder_name/folder_name`。
+1. 在&#x200B;[!UICONTROL **目录路径**]&#x200B;字段中，指定SFTP服务器上目录的路径。 路径中的文件夹必须已存在；否则，会发生错误。 例如，`/folder_name/folder_name`。
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-1. Repeat this process for each SFTP account you created.
+1. 为您创建的每个SFTP帐户重复此过程。
 
 有关详细说明，请参阅[配置云导入和导出位置](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-locations)。
 
-### Step 3: Edit Data Feeds and Data Warehouse requests to use the new SFTP destination
+### 步骤3：编辑数据馈送和Data Warehouse请求以使用新的SFTP目标
 
-Update any existing scheduled Data Feeds and Data Warehouse requests that currently send data to FTP destinations to use the new SFTP destinations you created.
+更新当前将数据发送到FTP目标的任何现有计划数据馈送和Data Warehouse请求，以使用您创建的新SFTP目标。
 
-#### Edit Data Feeds
+#### 编辑数据馈送
 
 编辑配置了旧FTP目标的每个计划数据馈送，以使用新的SFTP目标：
 
 1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
-1. Locate the data feed that you want to edit. To locate a data feed, you can [filter and search the list of data feeds](#filter-and-search-the-list-of-data-feeds).
+1. 找到要编辑的数据馈送。 若要查找数据馈送，您可以[筛选和搜索数据馈送列表](#filter-and-search-the-list-of-data-feeds)。
 
-1. Select the data feed in the [!UICONTROL **Feed name**] column.
+1. 在&#x200B;[!UICONTROL **馈送名称**]&#x200B;列中选择数据馈送。
 
-   The [!UICONTROL **Edit _feed_name_**] page is displayed.
+   将显示&#x200B;[!UICONTROL **编辑&#x200B;_馈送名称_**]页面。
 
-1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Account**] field, use the drop-down menu to select the new SFTP destination that you created.
+1. 在&#x200B;[!UICONTROL **目标**]&#x200B;部分的&#x200B;[!UICONTROL **帐户**]&#x200B;字段中，使用下拉菜单选择您创建的新SFTP目标。
 
-1. In the [!UICONTROL **Location**] field, use the drop-down menu to select the location in the SFTP account.
+1. 在&#x200B;[!UICONTROL **位置**]&#x200B;字段中，使用下拉菜单选择SFTP帐户中的位置。
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-For more detailed information, see [Edit a data feed](/help/export/analytics-data-feed/df-manage-feeds.md#edit-a-data-feed) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md).
+有关详细信息，请参阅[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的[编辑数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#edit-a-data-feed)。
 
-#### Edit Data Warehouse requests
+#### 编辑Data Warehouse请求
 
-Edit each scheduled Data Warehouse request that is configured with the old FTP destination to use the new SFTP destination:
+编辑每个配置了旧FTP目标的计划Data Warehouse请求，以使用新的SFTP目标：
 
-1. In Adobe Analytics, select [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
 1. 在Data Warehouse页面上，选择要编辑的请求。
 
-   ![管理请求](assets/dw-manage-request.png)
+   ![管理请求](/help/technotes/assets/dw-manage-request.png)
 
 1. 选择&#x200B;[!UICONTROL **编辑**]。
 
@@ -219,25 +219,25 @@ Edit each scheduled Data Warehouse request that is configured with the old FTP d
 
 1. 在&#x200B;[!UICONTROL **帐户**]&#x200B;字段中，使用下拉菜单选择您创建的新SFTP目标。
 
-1. In the [!UICONTROL **Location**] field, use the drop-down menu to select the location in the SFTP account.
+1. 在&#x200B;[!UICONTROL **位置**]&#x200B;字段中，使用下拉菜单选择SFTP帐户中的位置。
 
-1. Select [!UICONTROL **Save changes**].
+1. 选择&#x200B;[!UICONTROL **保存更改**]。
 
-For more detailed information, see [Edit requests](/help/export/data-warehouse/data-warehouse-requests-manage.md#edit-requests) in [Manage Data Warehouse requests](/help/export/data-warehouse/data-warehouse-requests-manage.md).
+有关详细信息，请参阅[管理Data Warehouse请求](/help/export/data-warehouse/data-warehouse-requests-manage.md)中的[编辑请求](/help/export/data-warehouse/data-warehouse-requests-manage.md#edit-requests)。
 
-### Step 4: Update your firewall settings
+### 步骤4：更新防火墙设置
 
-If you haven&#39;t already, you need to update your firewall settings, as follows:
+如果尚未更新，则需要按如下方式更新防火墙设置：
 
 * **使用Adobe的FTP服务器时**：您需要更新防火墙设置以允许端口22上的&#x200B;**出站**&#x200B;连接。
 
-* **When using your own FTP server**: You need to update your firewall settings to allow **inbound** connection on whatever port you are hosting the service, which is typically port 22.
+* **使用您自己的FTP服务器时**：您需要更新防火墙设置，以便在您托管服务的任何端口（通常是端口22）上允许&#x200B;**入站**&#x200B;连接。
 
-You should also remove old FTP-specific rules, such as allowing inbound connections on port 21. (FTP uses port 21, plus a range of additional ports for data transfer. As a security best practice, you should eventually remove this unnecessary access through your firewall.)
+您还应该删除旧的FTP专用规则，例如允许端口21上的入站连接。 (FTP使用端口21，外加一系列用于数据传输的附加端口。 作为安全最佳实践，您最终应删除通过防火墙进行的这种不必要的访问。)
 
-### Step 5: Ensure that scheduled Data Feeds and Data Warehouse requests are being delivered correctly
+### 步骤5：确保正确提交计划的数据馈送和Data Warehouse请求
 
-After updating each existing Data Feed and Data Warehouse request to use the new SFTP account and location, wait for the next scheduled delivery. Verify that data arrives at the new destination as expected.
+在更新每个现有数据馈送和Data Warehouse请求以使用新的SFTP帐户和位置后，等待下一个计划提交。 验证数据是否按预期到达新目标。
 
 ### 步骤6：在升级后的SFTP服务器上轮换密码
 
