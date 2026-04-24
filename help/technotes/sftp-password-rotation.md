@@ -3,7 +3,7 @@ title: FTP和SFTP服务器的安全要求
 description: 了解FTP和SFTP服务器的安全要求。
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
+source-git-commit: 94059a3b7d667fafe1900a4a9c82ed931d769df1
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 3%
@@ -211,7 +211,7 @@ ht-degree: 3%
 
 1. 在Data Warehouse页面上，选择要编辑的请求。
 
-   ![管理请求](/help/technotes/assets/dw-manage-request.png)
+   ![管理请求](assets/dw-manage-request.png)
 
 1. 选择&#x200B;[!UICONTROL **编辑**]。
 
