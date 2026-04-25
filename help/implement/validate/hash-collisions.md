@@ -42,7 +42,7 @@ Adobe Analytics对大多数维度使用32位哈希，这意味着可能有2<sup>
 * **更改日期范围**：哈希表每月更改。 将日期范围更改为跨越另一个月，可能会为每个值赋予不同的哈希值，而不会产生冲突。 它通常是清除特定报表中可见异常的最快方式。
 * **减少唯一值的数量**：您可以调整实施或使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)来帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
 * **使用[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)或[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)**：这些工具不依赖哈希表。
-* **移动到[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)**： Customer Journey Analytics没有哈希层，并且[维度没有基数限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果哈希冲突或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)经常影响您的报表，请考虑转移到此产品。
+* **移动到[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans)**： Customer Journey Analytics没有哈希层，并且[维度没有基数限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果哈希冲突或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)经常影响您的报表，请考虑转移到此产品。
 
 >[!MORELIKETHIS]
 >
