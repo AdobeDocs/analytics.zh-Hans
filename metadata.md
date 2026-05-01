@@ -1,7 +1,9 @@
 ---
 cloud: Experience Cloud
-product: analytics
+product: analytics 
 solution: Analytics
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 landing-page-name: analytics
 landing-page-breadcrumb-title: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.zh-Hans
@@ -9,24 +11,24 @@ type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
-source-git-commit: d876f191b2b10dd29b50fae53235e194e29ed1d1
+source-git-commit: 2a171cd0154e96873b12c962eca2d35effa057e8
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: 124
+ht-degree: 96%
 
 ---
 
 
 # 供内部使用的元数据
 
-metadata.md 文件包含存储库级别的元数据，这些元数据会传送到存储库中的用户指南 TOC.md 文件。 如果要更改任何用户指南的 metadata.md 内容，请在任何 TOC.md 文件中进行更改。
+metadata.md 文件包含存储库级别的元数据，这些元数据会被传送到存储库中的用户指南 TOC.md 文件。 如果要更改任何用户指南的 metadata.md 内容，请在任何 TOC.md 文件中进行更改。
 
-| 元数据 | 作用 |
+| 元数据 | 用途是什么 |
 |--- |--- |
 | solution-title | 在文章标题中用作链接 |
 | solution-hub-url | 打开 helpx 中心页面 |
-| solution-icon | 在解决方案标题旁边显示解决方案图标。尚未实施 |
+| solution-icon | 在解决方案标题旁边显示解决方案图标。 尚未实施 |
 | getting-started-url | 指向 helpx 快速入门页面的链接 |
-| tutorials-url | 指向视频教程的链接 -- helpx 教程或 KT 教程 |
-| mini-toc-levels | 确定右侧边栏中显示的标题级别数量。默认为 2 |
-| git-repo | 指定主存储库的位置以供内部使用 |
+| tutorials-url | 指向视频教程的链接 – helpx 教程或 KT 教程 |
+| mini-toc-levels | 确定右边栏中显示的标题层级数。 默认值为 2 |
+| git-repo | 指定供内部使用的主存储库的位置 |
