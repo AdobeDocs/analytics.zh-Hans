@@ -4,9 +4,9 @@ description: 跟踪新访客与回访访客的活动。
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+source-git-commit: 53f44c09cd68fce618f08ea0042c411cfc6d1681
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 71%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-`getNewRepeat` 插件允许您确定网站访客是新访客还是所需天数内的回访访客。如果您想要使用自定义天数将访客识别为“新”访客，Adobe 建议使用此插件。如果Analysis Workspace中的“[!UICONTROL 新访客]”和“[!UICONTROL 重复访客]”区段满足您组织的需求，则无需使用此插件。
+`getNewRepeat` 插件允许您确定网站访客是新访客还是所需天数内的回访访客。 如果您想要使用自定义天数将访客识别为“新”访客，Adobe 建议使用此插件。 如果Analysis Workspace中的[!UICONTROL 首次访问]和[!UICONTROL 回访]区段满足您组织的需求，则无需使用此插件。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -65,7 +65,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -78,11 +78,11 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 `getNewRepeat` 函数使用以下参数：
 
-* **`d`**（整数，可选）：将访客重置回 `"New"` 的两次访问之间所需的最小天数。如果未设置此参数，则默认为 30 天。
+* **`d`**（整数，可选）：将访客重置回 `"New"` 的两次访问之间所需的最小天数。 如果未设置此参数，则默认为 30 天。
 
-如果插件设置的 Cookie 不存在或已过期，则此函数将返回值 `"New"`。如果插件设置的 Cookie 存在，并且自当前点击以来的时间以及 Cookie 中设置的时间大于 30 分钟，则它将返回值 `"Repeat"`。在整个访问期间，此函数将返回相同的值。
+如果插件设置的 Cookie 不存在或已过期，则此函数将返回值 `"New"`。 如果插件设置的 Cookie 存在，并且自当前点击以来的时间以及 Cookie 中设置的时间大于 30 分钟，则它将返回值 `"Repeat"`。 在整个访问期间，此函数将返回相同的值。
 
-该插件使用名为 `"s_nr[LENGTH]"` 的 Cookie，其中 `[LENGTH]` 等于 `d` 参数。Cookie 包含一个 Unix 时间戳，该时间戳表示访客的当前时间和当前状态（`"New"` 或 `"Repeat"`）。
+该插件使用名为 `"s_nr[LENGTH]"` 的 Cookie，其中 `[LENGTH]` 等于 `d` 参数。 Cookie 包含一个 Unix 时间戳，该时间戳表示访客的当前时间和当前状态（`"New"` 或 `"Repeat"`）。
 
 ## 示例
 
@@ -107,4 +107,4 @@ s.eVar2 = getNewRepeat(365);
 ### 2.0（2018 年 4 月 16 日）
 
 * 使用较小的代码大小重新编译
-* 删除了命名 Cookie 以存储访问信息的功能。该插件现在会根据传递到 `d` 参数的值动态命名 Cookie。
+* 删除了命名 Cookie 以存储访问信息的功能。 该插件现在会根据传递到 `d` 参数的值动态命名 Cookie。
