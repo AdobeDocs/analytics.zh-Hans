@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 94%
+source-wordcount: '714'
+ht-degree: 91%
 
 ---
 
@@ -24,18 +24,18 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="归因面板"
->abstract="使用任意维度和转化量度，快速比较并可视化任意数量的归因模型。<br/><br/>**参数&#x200B;**<br/>**渠道**<br/>&#x200B;归因的对比维度。该维度可以是营销渠道、营销活动或任何其他维度。<br/>**模型**<br/>&#x200B;该模型可以确定如何将点数分配给各个接触点。<br/>**回顾窗口**<br/>&#x200B;此设置可以确定应用于每次转化的数据归因窗口。"
+>abstract="使用任意维度和转化量度，快速比较并可视化任意数量的归因模型。<br/><br/>**参数&#x200B;**<br/>**渠道**<br/>&#x200B;用于归因分析的维度。 这个维度可以是营销渠道、营销活动或任何其他维度。<br/>**模型**<br/>&#x200B;模型决定了如何为接触点分配点数。<br/>**回顾窗口**<br/>&#x200B;此设置可以确定应用于每次转化的数据归因窗口。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的归因面板。_<br/>_请参阅[归因面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/attribution)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了归因面板。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[归因面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/attribution)。_
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 归因]**&#x200B;面板是一种简单的方式，用于生成分析来比较各种归因模型。该面板为您提供了一个专用的工作区来使用和比较归因模型。
+**[!UICONTROL 归因]**&#x200B;面板是一种简单的方式，用于构建分析来比较各种归因模型。 该面板为您提供了一个专用的工作区来使用和比较归因模型。
 
 Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
@@ -52,7 +52,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 要使用&#x200B;**[!UICONTROL 归因]**&#x200B;面板：
 
-1. 创建&#x200B;**[!UICONTROL 归因]**&#x200B;面板。有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
+1. 创建&#x200B;**[!UICONTROL 归因]**&#x200B;面板。 有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
 
 1. 指定面板的[输入](#panel-input)。
 
@@ -62,11 +62,11 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 可以使用以下输入设置配置归因面板：
 
-1. 添加&#x200B;**[!UICONTROL 成功量度]**&#x200B;以及您想要归因的&#x200B;**[!UICONTROL 渠道]**&#x200B;维度。例如“营销渠道”或自定义维度，如内部促销。
+1. 添加&#x200B;**[!UICONTROL 成功量度]**&#x200B;以及您想要归因的&#x200B;**[!UICONTROL 渠道]**&#x200B;维度。 例如“营销渠道”或自定义维度，如内部促销。
 
    ![归因面板窗口显示几个选定的维度和量度。](assets/attribution-panel.png)
 
-1. 从[包含的模型](#attribution-models)中选择一个或多个&#x200B;**[!UICONTROL 归因模型]**，从[容器](#container)中选择&#x200B;**[!UICONTROL 容器]**，并从[回顾窗口](#lookback-window)中选择要用于比较的&#x200B;**[!UICONTROL 回顾窗口]**。
+1. 从&#x200B;**[!UICONTROL 包含的模型]**&#x200B;中选择一个或多个[归因模型](#attribution-models)，从&#x200B;**[!UICONTROL 容器]**&#x200B;中选择[容器](#container)，并从&#x200B;**[!UICONTROL 回顾窗口]**&#x200B;中选择要用于比较的[回顾窗口](#lookback-window)。
 
 1. 选择&#x200B;**[!UICONTROL 生成]**&#x200B;以在面板中生成可视化图表。
 
@@ -81,11 +81,11 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 以下可视化图表是面板输出的一部分。
 
 * **总量度**：报告时间窗口发生的总转化次数，归因于选定维度。
-* **归因比较条形图**：以可视方式，比较所选维度中各个维度项的归因转化。每种条形颜色代表一个不同的归因模型。
-* **归因比较表**：将相同的数据显示为条形图，以表格的形式表示。选择此表中的不同列或行，会筛选条形图以及面板中的其他一些可视化图表。此表的作用与 Workspace 中任何其他自由格式表的作用相似，允许您添加量度、区段或细分等组件。
-* **重叠图**：一种维恩图可视化图表，显示前三个维度项以及它们共同参与某个转化的频率。例如，气泡重叠的大小表示当人员出现在两个维度项中时发生转化的频率。选择相邻自由格式表中的其他行，会更新可视化图表以反映所选内容。
+* **归因比较条形图**：以可视方式，比较所选维度中各个维度项的归因转化。 每种条形颜色代表一个不同的归因模型。
+* **归因比较表**：将相同的数据显示为条形图，以表格的形式表示。 选择此表中的不同列或行，会筛选条形图以及面板中的其他一些可视化图表。 此表的作用与 Workspace 中任何其他自由格式表的作用相似，允许您添加量度、区段或细分等组件。
+* **重叠图**：一种维恩图可视化图表，显示前三个维度项以及它们共同参与某个转化的频率。 例如，气泡重叠的大小表示当人员出现在两个维度项中时发生转化的频率。 选择相邻自由格式表中的其他行，会更新可视化图表以反映所选内容。
 * **性能详细信息**：散点图可视化图表可直观地比较最多三个归因模型。
-* **趋势化性能**：显示排名最前的维度项的归因转化趋势。选择相邻自由格式表中的其他行，会更新可视化图表以反映所选内容。
+* **趋势化性能**：显示排名最前的维度项的归因转化趋势。 选择相邻自由格式表中的其他行，会更新可视化图表以反映所选内容。
 * **流量**：让您可以查看在人员的历程中与哪个渠道交互得最多，以及按照什么顺序。
 
 ## 归因模型
@@ -96,7 +96,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 {{attribution-container}}
 
-## 回顾时间范围
+## 回顾窗口
 
 {{attribution-lookback-window}}
 
@@ -114,7 +114,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 

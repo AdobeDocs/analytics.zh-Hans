@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 87%
+source-wordcount: '334'
+ht-degree: 73%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="流量"
->abstract="分析从一个接触点到下一个接触点的访问次数或访客流量。<br/><br/>**参数&#x200B;**<br/>**用以下为开头**：添加一个维度、维度项或量度以查看在所选组件出现之后出现最多的接触点。<br/>**包含**：添加一个维度或维度项以查看在所选组件出现之前和之后出现最多的接触点。<br/>**用以下为结尾**：添加一个维度、维度项或量度以查看在所选组件出现之前出现最多的接触点。<br/>**路径维度**：添加一个维度，用作通往或者离开您的选定组件的路径。"
+>abstract="分析访问流或访客从一个接触点到下一个接触点的流动。<br/><br/>**参数&#x200B;**<br/>**这样开始**：添加一个维度、维度项或量度，查看所选组件发生后发生频率最高的接触点。<br/>**包含**：添加一个维度或维度项，查看所选组件发生之前和之后发生频率最高的接触点。<br/>**用以下为结尾**：添加一个维度、维度项或量度以查看在所选组件出现之前出现最多的接触点。<br/>**路径维度**：添加一个维度，用作通往或者离开您的选定组件的路径。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的流量可视化图表。_<br/>_请参阅[流量](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了流量可视化图表。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[流量](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)。_
 
 >[!ENDSHADEBOX]
 
@@ -47,14 +47,14 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 ## 维度间流量
 
-您可以显示[维度间的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一个图表中合并多个页面和部门。在这种情况下，您的流量可能从主页转到“男士”页面，然后转到“鞋类”部门。
+您可以显示[维度间的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。 例如，您可以在一个图表中合并多个页面和部门。 在这种情况下，您的流量可能从主页转到“男士”页面，然后转到“鞋类”部门。
 
 每列可显示不同的维度。 将一个维度拖放到拖放区域中，以将该维度添加到图中。
 
@@ -68,7 +68,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表中的其他功能](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量可视化图表中的其他功能](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
