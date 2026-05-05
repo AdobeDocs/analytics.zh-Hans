@@ -5,10 +5,10 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
 index: true
-source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
+source-git-commit: 24c05a7f323198716486519e2de6ef70fa19fc10
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -103,6 +103,10 @@ ht-degree: 100%
          + [概述](analysis-workspace/visualizations/c-flow/flow.md)
          + [配置](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [维度间流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + 历程画布 {#journey-canvas}
+         + {hide-from-toc}[概述](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + {hide-from-toc}[配置](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + {hide-from-toc}[疑难解答](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [面积（堆叠）](analysis-workspace/visualizations/area.md)
       + [条形图（堆叠）](analysis-workspace/visualizations/bar.md)
       + [项目符号](analysis-workspace/visualizations/bullet-graph.md)
