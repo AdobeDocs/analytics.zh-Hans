@@ -4,7 +4,7 @@ title: 历程画布故障排除
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: fee3fe30f695c0ef151e998abe45c54c3bce9d31
+source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -18,6 +18,8 @@ ht-degree: 91%
 _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了历程画布可视化图表。<br/><br/>_&#x200B;对于本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[历程画布概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
 
 >[!ENDSHADEBOX]
+
+{{release-limited-testing}}
 
 历程画布可视化图表可帮助您进行分析，获得关于您为用户和客户提供的历程的深入洞察。
 
