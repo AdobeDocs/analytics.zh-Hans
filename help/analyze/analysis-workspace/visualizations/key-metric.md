@@ -21,7 +21,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了关键量度摘要可视化。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[关键量度摘要](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了关键量度摘要可视化。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[关键量度摘要](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)。_
 
 >[!ENDSHADEBOX]
 

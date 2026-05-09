@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中记录了“媒体平均受众访问分钟数”面板。<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[媒体平均受众访问分钟数面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中记录了“媒体平均受众访问分钟数”面板。<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[媒体平均受众访问分钟数面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)。_
 
 >[!ENDSHADEBOX]
 

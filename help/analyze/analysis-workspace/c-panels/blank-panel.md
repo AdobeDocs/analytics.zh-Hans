@@ -26,7 +26,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录空白面板。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录空白面板。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)。_
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe An
   | ![Table](/help/assets/icons/Table.svg) | [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![折线图](/help/assets/icons/GraphTrend.svg) | [折线图](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [条形图](/help/analyze/analysis-workspace/visualizations/bar.md) |
-  | ![ 123](/help/assets/icons/123.svg) | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![&#x200B; 123](/help/assets/icons/123.svg) | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Text](/help/assets/icons/Text.svg) | [文本](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
   | ![Workflow](/help/assets/icons/GraphPathing.svg) | [流](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |

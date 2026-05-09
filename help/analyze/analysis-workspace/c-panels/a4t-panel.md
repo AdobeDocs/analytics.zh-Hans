@@ -33,7 +33,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了Analytics for Target面板。_<br/>_有关如何比较_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._中的不同用户体验、营销或消息变化的信息，请参阅[实验面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了Analytics for Target面板。_<br/>_有关如何比较_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._中的不同用户体验、营销或消息变化的信息，请参阅[实验面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
 
 >[!ENDSHADEBOX]
 

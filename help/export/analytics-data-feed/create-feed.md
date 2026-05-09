@@ -70,7 +70,7 @@ ht-degree: 31%
    | 字段 | 功能 |
    |---------|----------|
    | [!UICONTROL **名称**] | 数据馈送的名称。 名称在选定的报表包中必须是唯一的，长度最多为255个字符。 [了解详情](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **标记**] | 将任何标记应用到数据馈送以方便分类。 您可以按照[筛选和搜索[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)中的说明对标记进行筛选。 |
+   | [!UICONTROL **标记**] | 将任何标记应用到数据馈送以方便分类。 您可以按照[&#128279;](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)筛选和搜索[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的数据馈送中的说明对标记进行筛选。 |
    | [!UICONTROL **描述**] | 指定数据馈送的描述。 编辑数据馈送时，您添加的描述可见。 |
 
 1. 在&#x200B;[!UICONTROL **数据格式**]&#x200B;部分中，指定以下信息：

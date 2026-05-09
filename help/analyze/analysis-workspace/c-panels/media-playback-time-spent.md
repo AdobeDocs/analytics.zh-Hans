@@ -34,7 +34,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了“媒体播放耗时”面板。_<br/>_请参阅_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本本文的[媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了“媒体播放耗时”面板。_<br/>_请参阅_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本本文的[媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。_
 
 >[!ENDSHADEBOX]
 
