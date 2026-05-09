@@ -4,10 +4,10 @@ description: 使用节标题在Analysis Workspace项目中插入节标题。
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 83%
+source-wordcount: '108'
+ht-degree: 58%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 83%
 >[!BEGINSHADEBOX]
 
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的节头可视化图表。_<br/>_请参阅[节头](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/section-header)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了节标题可视化。_<br/>_请参阅本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本的[节标题](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/section-header)。_
 
 >[!ENDSHADEBOX]
 
 
-要识别和阐明面板中的分区，您可以在面板内的任何位置插入 ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL 节头]**&#x200B;可视化图表。
+要识别和阐明面板中的各个部分，您可以在面板内的任何位置插入 ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL 分区标头]**&#x200B;可视化图表。
 
 ![分区标头](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
 

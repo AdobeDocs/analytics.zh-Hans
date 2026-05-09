@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的面积图和堆叠面积可视化图表。_<br/>_请参阅[面积图和堆叠面积](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/area)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了面积图和栈叠面积图可视化图表。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[面积图和栈叠面积图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/area)。_
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 <!-- markdownlint-enable MD034 -->
 
 
-![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 面积图]**&#x200B;可视化图表与线形图类似，只是线条下方显示了彩色区域。当您有多个量度并且希望显示两个或更多量度交叉的区域时，可添加面积图。
+![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 面积图]**&#x200B;可视化图表与线形图类似，只是线条下方显示了彩色区域。 当您有多个量度并且希望显示两个或更多量度交叉的区域时，可添加面积图。
 
 ![显示多个量度的面积图可视化图表](assets/area.png)
 

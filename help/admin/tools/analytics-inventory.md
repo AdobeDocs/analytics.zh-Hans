@@ -4,10 +4,10 @@ title: 分析库存
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 19%
+source-wordcount: '1224'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="analytics-inventory"
 >title="分析库存"
->abstract="此页面提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。在您开始准备升级到 Customer Journey Analytics 时，此信息尤为宝贵。"
+>abstract="此页面提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。 在您开始准备升级到 Customer Journey Analytics 时，此信息尤为宝贵。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -68,7 +68,7 @@ Analytics清单的目标是帮助您回答以下问题：
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-components"
 >title="组件"
->abstract="此部分显示 Adobe Analytics 环境中存在的项目、区段和计算量度的数量。项目和组件可以迁移到 Customer Journey Analytics。"
+>abstract="此部分显示 Adobe Analytics 环境中存在的项目、区段和计算量度的数量。 项目和组件可以迁移到 Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -108,13 +108,13 @@ Analytics清单的目标是帮助您回答以下问题：
    | 元素 | 描述 |
    | --- | --- |
    | 名称 | 报表包的名称 |
-   | ID | 报表包ID (rsid)。 指定只能包含字母数字字符的唯一ID。 此ID在创建后无法更改。 Adobe会设置所需的ID前缀，该前缀也无法更改。 |
-   | 发生次数（最近 90 天） | “发生次数”量度显示设置或保留给定维度的点击次数。此报表包在过去90天内接收了多少次点击？ |
+   | ID | 报表包ID (rsid)。 指定只能包含字母数字字符的唯一ID。 此ID在创建后无法更改。 Adobe 会设置所需的 ID 前缀，该前缀也无法更改。 |
+   | 发生次数（最近 90 天） | “发生次数”量度显示设置或保留给定维度的点击次数。 此报表包在过去90天内接收了多少次点击？ |
    | 量度 | 此报告包中定义了多少个量度？ |
    | 维度 | 此报表包中定义了多少个维度？ |
    | Analytics for Target (A4T) 已启用 | [默认隐藏]是否为[Analytics for Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t)启用此报表包？ |
    | 已启用营销渠道 | [默认隐藏]是否为[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)启用此报表包？ |
-   | 源连接器已启用 | 是否为Adobe Experience Platform中的报表包数据[的](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source Connector启用了此报表包？ 换句话说，能否使用Analytics Source Connector将此报表包迁移到Customer Journey Analytics？ |
+   | 源连接器已启用 | 是否为Adobe Experience Platform中的报表包数据[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector启用了此报表包？ 换句话说，能否使用Analytics Source Connector将此报表包迁移到Customer Journey Analytics？ |
    | 日程表类型 | [默认情况下隐藏]有关详细信息，请参阅[自定义日历](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
 
 #### 分析维度
@@ -132,7 +132,7 @@ Analytics清单的目标是帮助您回答以下问题：
    | ID | 维度ID。 |
    | 类型 | 维度的类型。 可能的值包括转化、流量、导航、流量源、客户、日期或Adobe产品特定的维度，例如AEM、受众、Adobe Campaign、移动设备应用程序等。 |
    | 描述 | 并非所有维度都有描述。 |
-   | 源连接器已启用 | 是否为Adobe Experience Platform中的报表包数据[的](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source Connector启用此维度？ 换句话说，能否使用Analytics Source Connector将此维度迁移到Customer Journey Analytics？ |
+   | 源连接器已启用 | 是否为Adobe Experience Platform中的报表包数据[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector启用此维度？ 换句话说，能否使用Analytics Source Connector将此维度迁移到Customer Journey Analytics？ |
 
 1. 确定哪些维度适合迁移到CJA。
 

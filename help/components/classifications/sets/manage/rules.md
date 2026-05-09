@@ -3,10 +3,10 @@ title: 分类集规则
 description: 了解如何使用分类集规则来定义分类数据的规则。
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 14%
+source-wordcount: '1692'
+ht-degree: 12%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 14%
             * 选择&#x200B;**[!UICONTROL 迁移规则]**&#x200B;以确认迁移。 迁移完成后，使用[规则集接口](#rule-set-interface)创建新规则并编辑现有迁移规则。
             * 选择&#x200B;**[!UICONTROL 取消]**&#x200B;以取消迁移
 
-      * **重新开始**。 使用新的规则生成器从零开始创建新的分类规则。如果您希望重新设计分类逻辑或以全新的分类规则重新开始，请选择此选项。
+      * **重新开始**。 使用新的规则生成器从头开始创建新分类规则。 如果要重新设计分类逻辑或使用新的分类规则从头开始，请选择此选项。
          * 选择&#x200B;**[!UICONTROL 创建新规则]**&#x200B;以继续。
          * 在&#x200B;**[!UICONTROL 确认重新开始]**&#x200B;对话框中，阅读重新开始的含义。
             * 选择&#x200B;**[!UICONTROL 重新开始]**&#x200B;以确认重新开始并放弃任何现有规则。 使用[规则集接口](#rule-set-interface)创建新规则。
             * 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
 
-      * **使用旧版接口**。 继续使用之前的规则生成器界面。准备就绪后，您可随时迁移到新的体验。
+      * **使用旧版接口**。 继续使用以前的规则生成器界面。 您可以在准备就绪后随时迁移到新Experience。
          * 选择&#x200B;**[!UICONTROL 转到旧版接口]**&#x200B;以继续。 您将被定向到旧版&#x200B;**[!UICONTROL 分类规则生成器]**&#x200B;界面。
 
    * 如果您已经为分类集迁移规则或创建新规则，则最终将直接进入规则集界面。
@@ -53,7 +53,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="classificationsets_rules_samplekeys"
 >title="示例键"
->abstract="输入或粘贴测试键以测试规则集。每一行表示一个单独的键值。选择&#x200B;**[!UICONTROL 测试规则集]**&#x200B;以显示包含测试结果的对话框。"
+>abstract="输入或粘贴测试键以测试规则集。 每一行表示一个单独的键值。 选择&#x200B;**[!UICONTROL 测试规则集]**&#x200B;以显示包含测试结果的对话框。"
 
 
 要创建或编辑规则，请使用规则集界面。
@@ -63,7 +63,7 @@ ht-degree: 14%
 | | 名称 | 描述 |
 |---|---|---|
 | 1 | **[!UICONTROL 函数]** | 您可以使用&#x200B;**[!UICONTROL 函数]**&#x200B;区域选择函数，并将函数拖放到规则集生成器中。 |
-| 2 | **规则集生成器** | 您可以使用一个或多个规则来构建规则集。 规则是函数的实现，并且始终只与一个函数关联。 一个函数可以有多个运算符。 通过将函数拖放到规则集生成器中来创建规则。 函数类型定义规则的接口。 <br/>有关详细信息，请参阅[规则接口](#rule-interface)。<br/>您可以在任何位置插入函数，这些函数将按顺序执行，以确定分类的最终值。<br/>使用&#x200B;**[!UICONTROL 全部折叠]**&#x200B;折叠所有规则，并使用&#x200B;**[!UICONTROL 全部展开]**&#x200B;展开所有规则。 |
+| 2 | **规则集生成器** | 您可以使用一个或多个规则来构建规则集。 规则是函数的实现，并且始终只与一个函数关联。 一个函数可以有多个运算符。 通过将函数拖放到规则集生成器中来创建规则。 函数类型定义规则的接口。 <br/>有关更多信息，请参阅[规则界面](#rule-interface)。<br/>您可以在任何位置插入函数，这些函数将按顺序执行，以确定分类的最终值。<br/>使用&#x200B;**[!UICONTROL 全部折叠]**&#x200B;折叠所有规则，并使用&#x200B;**[!UICONTROL 全部展开]**&#x200B;展开所有规则。 |
 | 3 | **[!UICONTROL 状态]** | 显示规则集的状态和上次修改日期。 <br/>选择&#x200B;**[!UICONTROL 激活]**&#x200B;以激活规则集。 <br/>选择&#x200B;**[!UICONTROL 停用]**&#x200B;以停用规则集。 |
 | 4 | **[!UICONTROL 回顾]** | 指定规则集的回顾时间范围。<br/>从下拉菜单中选择一个选项（从1个月到6个月）。<br/>选择&#x200B;**[!UICONTROL 执行回溯]**&#x200B;以使用所选回溯时段执行回溯。 |
 | 5 | **[!UICONTROL 测试选项]** | 使用示例关键维度值测试分类： <ul><li>在&#x200B;**[!UICONTROL 示例键]**&#x200B;文本区域中添加或粘贴值。<br/>检查&#x200B;**[!UICONTROL 记住示例键]**，以确保示例键在规则集接口的不同用法之间保持不变。</li><li>选择&#x200B;**[!UICONTROL 测试规则集]**&#x200B;以测试您的规则集。</li></ul> |
@@ -100,7 +100,7 @@ ht-degree: 14%
 
 #### 用例
 
-当关键维度“内部营销活动”的值以`Email`开头时（例如： **[!UICONTROL ），要定义一个规则以将]**&#x200B;分配为`em`Channel`em:FY2025:Summer Sale`分类的值。
+当关键维度“内部营销活动”的值以`em`开头时（例如： `em:FY2025:Summer Sale`），要定义一个规则以将`Email`分配为&#x200B;**[!UICONTROL Channel]**&#x200B;分类的值。
 
 >[!BEGINTABS]
 
@@ -130,7 +130,7 @@ ht-degree: 14%
 
 #### 用例
 
-当关键维度Internal Campaign的值包含`2025`时（例如：**[!UICONTROL ），要定义规则以将]**&#x200B;分配为`2025`Year`em:Summer Sale:FY2025`分类的值。
+当关键维度Internal Campaign的值包含`2025`时（例如：`em:Summer Sale:FY2025`），要定义规则以将`2025`分配为&#x200B;**[!UICONTROL Year]**&#x200B;分类的值。
 
 >[!BEGINTABS]
 
@@ -159,7 +159,7 @@ ht-degree: 14%
 
 #### 用例
 
-当Internal Campaign的键维度值包含`Winter Sale`时（例如：**[!UICONTROL ），要定义规则以将]**&#x200B;分配为`Winter`Type`fb:Winter:FY2024`分类的值。
+当Internal Campaign的键维度值包含`Winter`时（例如：`fb:Winter:FY2024`），要定义规则以将`Winter Sale`分配为&#x200B;**[!UICONTROL Type]**&#x200B;分类的值。
 
 
 >[!BEGINTABS]
@@ -283,7 +283,7 @@ ht-degree: 14%
 
 #### 用例
 
-要定义一个规则，以根据&#x200B;**&#x200B;**&#x200B;令牌&#x200B;**[!UICONTROL 将关键维度Internal Campaign的值拆分到]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
+要定义一个规则，以根据`:` **[!UICONTROL 令牌]**&#x200B;将关键维度Internal Campaign的值拆分到&#x200B;**[!UICONTROL Channel]**、**[!UICONTROL Type]**&#x200B;和&#x200B;**[!UICONTROL Year]**&#x200B;分类。
 
 >[!BEGINTABS]
 

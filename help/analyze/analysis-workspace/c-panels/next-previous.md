@@ -4,10 +4,10 @@ title: “下一个项目”或“上一个项目”面板
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 88%
+source-wordcount: '471'
+ht-degree: 85%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="下一项或上一项"
->abstract="分析访客之前最常来自何处或后续最常访问的地方是什么。<br/><br/>**维度**：选择一个维度。例如&#x200B;**页面**。<br/>**维度项**：选择具体的维度项。例如&#x200B;**主页**。<br/>**方向**：选择&#x200B;**下一项**&#x200B;以查看所选维度项后的下一个维度项。选择&#x200B;**上一项**&#x200B;来查看您所选的维度项之前的维度项。<br/>**容器**：选择&#x200B;**会话**&#x200B;来查看同一会话中的下一项/上一项维度，或选择&#x200B;**人员**&#x200B;来查看同一个人的上一项/下一项维度。"
+>abstract="分析访客最常见的来源位置或下一步去向。<br/><br/>**维度**：选择一个维度。 例如&#x200B;**页面**。<br/>**维度项**：选择一个具体的维度项。 例如&#x200B;**主页**。<br/>**方向**：选择&#x200B;**下一项**，查看紧接在所选维度项之后的维度项。 选择&#x200B;**上一项**，查看导向所选维度项的维度项。<br/>**容器**：选择&#x200B;**会话**，查看同一会话中的前序/后续维度项；或选择 **人员**，查看同一人员的上一项/下一项维度项。"
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的下一项或上一项面板。_<br/>_查看本文的[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/next-previous.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**下一个或上一个项目面板**。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的下一个或上一个项目面板。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[下一个或上一个项目面板](/help/analyze/analysis-workspace/c-panels/next-previous.md)。_
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL 下一项或上一项]**&#x200B;面板包含许多表格和可视化图表，用于识别特定维度的下一项或上一项维度。例如，您可能想要浏览客户访问主页后最常访问哪些页面。
+**[!UICONTROL 下一项或上一项]**&#x200B;面板包含许多表格和可视化图表，用于识别特定维度的下一项或上一项维度。 例如，您可能想要浏览客户访问主页后最常访问哪些页面。
 
 ## 使用
 
 要使用&#x200B;**[!UICONTROL 下一项或上一项]**&#x200B;面板：
 
-1. 创建&#x200B;**[!UICONTROL 下一项或上一项]**&#x200B;面板。有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
+1. 创建&#x200B;**[!UICONTROL 下一项或上一项]**&#x200B;面板。 有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
 
 1. 指定面板的[输入](#panel-input)。
 
@@ -67,16 +67,16 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 | 可视化图表 | 描述 |
 | --- | --- |
-| **[!UICONTROL 水平条]** | 根据您选择的维度项列出下一项（或上一项）维度。将光标悬停在单个条形图上可突出显示自由格式表中相应的项。 |
+| **[!UICONTROL 水平条]** | 根据您选择的维度项列出下一项（或上一项）维度。 将光标悬停在单个条形图上可突出显示自由格式表中相应的项。 |
 | **[!UICONTROL 摘要数字]** | 当前月份（迄今为止）所有下一项或上一项维度发生次数的高级摘要数字。 |
-| **[!UICONTROL 自由格式表]** | 根据您选择的维度项以表的格式列出下一项（或上一项）维度。例如，人们在主页或工作区页面之后（或之前）访问的最受欢迎的页面是哪些（按发生次数计算）。 |
+| **[!UICONTROL 自由格式表]** | 根据您选择的维度项以表的格式列出下一项（或上一项）维度。 例如，人们在主页或工作区页面之后（或之前）访问的最受欢迎的页面是哪些（按发生次数计算）。 |
 
 {style="table-layout:auto"}
 
 
 >[!MORELIKETHIS]
 >
->[创建一个面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[创建面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 >
 
 <!--

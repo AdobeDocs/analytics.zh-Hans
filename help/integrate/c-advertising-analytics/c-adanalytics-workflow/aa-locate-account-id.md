@@ -3,10 +3,10 @@ description: 帮助查找您的Google Ads帐户ID和Microsoft Advertising帐户I
 title: 找到帐户 ID
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 20%
+source-wordcount: '344'
+ht-degree: 22%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="帐户 ID"
->abstract="&#39;帐户 ID&#39; 是一个数字值，位于 Microsoft Advertising 界面中。您可以通过导航至“设置”>“帐户设置”>“帐户 ID”找到该值。"
+>abstract="&#39;帐户 ID&#39; 是一个数字值，位于 Microsoft Advertising 界面中。 您可以通过导航至“设置”>“帐户设置”>“帐户 ID”找到该值。"
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
 >title="管理器帐户 ID"
->abstract="&#39;管理器帐户 ID&#39; 是一个数字值，位于 Microsoft Advertising 界面中。您可以通过导航至“设置”>“管理器帐户设置”>“管理器帐户 ID”找到该值。"
+>abstract="&#39;管理器帐户 ID&#39; 是一个数字值，位于 Microsoft Advertising 界面中。 您可以通过导航至“设置”>“管理器帐户设置”>“管理器帐户 ID”找到该值。"

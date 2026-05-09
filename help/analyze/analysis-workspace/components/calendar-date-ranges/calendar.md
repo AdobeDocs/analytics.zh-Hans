@@ -4,9 +4,9 @@ title: 日期范围概述
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '530'
 ht-degree: 100%
 
 ---
@@ -27,27 +27,27 @@ ht-degree: 100%
 
 ![日期范围使用情况](assets/date-ranges-usage.png)
 
-- **量度**。例如，比较两个不同月份的特定量度的维度。
-- **维度**。比较日期范围维度上不同维度项的量度。
+- **量度**。 例如，比较两个不同月份的特定量度的维度。
+- **维度**。 比较日期范围维度上不同维度项的量度。
 
 >[!NOTE]
 >
 >当您在自由格式表中使用日期范围时，这些日期范围会覆盖为自由表格所属面板指定的日程表。
 >
 
-您可以像[使用任何组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)一样使用日期范围。从 ![日程表](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期范围]**&#x200B;组件面板中拖动日期范围，并将该组件放置在：
+您可以像[使用任何组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)一样使用日期范围。 从 ![日程表](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期范围]**&#x200B;组件面板中拖动日期范围，并将该组件放置在：
 
 - **[!UICONTROL 日程表]**：用日期范围 ![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;当前的日程表配置。
 - **量度列标题**：![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;量度、将日期范围 ![添加](/help/assets/icons/Add.svg)**[!UICONTROL  添加&#x200B;]**为量度，或者使用日期范围组件 ![过滤](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;过滤&#x200B;]**该量度。
-- **维度列标题**：![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;当前的维度。现在的新维度是&#x200B;**[!UICONTROL 日期范围]**。当维度是日期范围时，您就可以将其他日期范围 ![添加](/help/assets/icons/Add.svg)**[!UICONTROL  添加&#x200B;]**为维度项。
+- **维度列标题**：![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;当前的维度。 现在的新维度是&#x200B;**[!UICONTROL 日期范围]**。 当维度是日期范围时，您就可以将其他日期范围 ![添加](/help/assets/icons/Add.svg)**[!UICONTROL  添加&#x200B;]**为维度项。
 - **维度项**：按日期范围 ![细分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 细分]**&#x200B;特定维度项。
 
 您还可以通过直接在自由格式表格可视化中添加日期范围列：
 
 1. 在量度列中，从上下文菜单中选择：
 
-   - **[!UICONTROL 添加时间段列]**。您可以选择基于当前日程表的建议选项，或创建一个[自定义日期范围](#custom-date-ranges)。
-   - **[!UICONTROL 比较时间段]**。您可以选择基于当前日程表的建议选项，或创建一个[自定义日期范围](#custom-date-ranges)。
+   - **[!UICONTROL 添加时间段列]**。 您可以选择基于当前日程表的建议选项，或创建一个[自定义日期范围](#custom-date-ranges)。
+   - **[!UICONTROL 比较时间段]**。 您可以选择基于当前日程表的建议选项，或创建一个[自定义日期范围](#custom-date-ranges)。
 
 1. 根据您的选择，额外的日期范围列将会添加到自由格式表中。
 
@@ -76,7 +76,7 @@ Analysis Workspace 提供了许多默认日期范围。
 
 ## 自定义日期范围
 
-您可以创建自定义日期范围。请参阅[创建日期范围](create.md)，了解可用于创建日期范围的各种选项。然后，您可以在[日期范围构建器](create.md#date-range-builder)中构建、修改和保存日期范围。
+您可以创建自定义日期范围。 请参阅[创建日期范围](create.md)，了解可用于创建日期范围的各种选项。 然后，您可以在[日期范围构建器](create.md#date-range-builder)中构建、修改和保存日期范围。
 
 您可以使用[日期范围管理器](manage.md)来管理日期范围。
 

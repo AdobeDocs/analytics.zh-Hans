@@ -3,10 +3,10 @@ title: 创建和编辑分类合并
 description: 介绍如何创建、验证、运行、批准和取消分类合并。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 9%
+source-wordcount: '998'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="分类集优先级"
->abstract="![键](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分类集*&#x200B;是基础分类集，用于定义整体架构，并在发生任何合并冲突时具有优先权。其他分类集将按照从上到下的顺序依次应用。"
+>abstract="![键](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分类集*&#x200B;是基础分类集，用于定义整体架构，并在发生任何合并冲突时具有优先权。 其他分类集将按照从上到下的顺序依次应用。"
 
 
 要创建分类合并，请在Adobe Analytics主界面中：
@@ -127,7 +127,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
    * **[!UICONTROL 不匹配]**：键值与源分类集不匹配的行的百分比。 如果不匹配百分比很高，则该不匹配可能表示分类数据相差太大。 检查并确保所选分类集具有相似的分类数据。
    * **[!UICONTROL 不存在]**：键值在![键](/help/assets/icons/Key.svg)分类集中但不在源分类集中的行的百分比。 所有缺失的行都将添加到合并的分类集中。
 
-1. 如果分类合并已准备好进行审批，请选择![复选标记](/help/assets/icons/Checkmark.svg) **[!UICONTROL 批准]**。 **[!UICONTROL 批准合并？]**&#x200B;对话框提示确认。 选择&#x200B;**[!UICONTROL 批准]**&#x200B;以批准合并。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
+1. 如果分类合并已准备好进行审批，请选择![复选标记](/help/assets/icons/Checkmark.svg) **[!UICONTROL 批准]**。 **[!UICONTROL 批准合并？]** 对话框提示进行确认。 选择&#x200B;**[!UICONTROL 批准]**&#x200B;以批准合并。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
 批准后，将创建合并的分类集。 状态设置为&#x200B;**[!UICONTROL 完成]**。
 
