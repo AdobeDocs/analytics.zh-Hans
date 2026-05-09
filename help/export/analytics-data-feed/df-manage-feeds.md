@@ -3,16 +3,16 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 17%
+source-wordcount: '1329'
+ht-degree: 18%
 
 ---
 
 # 管理数据馈送 {#manage-data-feeds}
 
-通过数据馈送管理器，您可以为贵组织创建、编辑和删除数据馈送。如果您有权访问数据馈送管理器，则可以管理对您可见的所有报表包的数据馈送。
+通过数据馈送管理器，您可以为贵组织创建、编辑和删除数据馈送。 如果您有权访问数据馈送管理器，则可以管理对您可见的所有报表包的数据馈送。
 
 
 >[!BEGINSHADEBOX]
@@ -26,7 +26,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="管理数据馈送"
->abstract="您可以在此页面查看、创建和管理数据馈送。您可以按名称或 ID 搜索馈送，也可以选择筛选图标查看可用筛选条件。"
+>abstract="您可以在此页面查看、创建和管理数据馈送。 您可以按名称或 ID 搜索馈送，也可以选择筛选图标查看可用筛选条件。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ ht-degree: 17%
 
 1. 对数据馈送进行任何所需的更改。
 
-   有关数据馈送选项的信息，请参阅[创建数据馈送](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)中的[创建并配置数据馈送](/help/export/analytics-data-feed/create-feed.md)。
+   有关数据馈送选项的信息，请参阅[创建数据馈送](/help/export/analytics-data-feed/create-feed.md)中的[创建并配置数据馈送](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)。
 
    为正在编辑的数据馈送更新&#x200B;[!UICONTROL **目标**]&#x200B;分区时，您可以在&#x200B;[!UICONTROL **帐户**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉字段中选择用于新数据馈送的其他帐户和位置。
 
@@ -164,16 +164,16 @@ ht-degree: 17%
    * **报表包**：馈送从中引用数据的报表包。
    * **报表包ID**：报表包的唯一标识符。
    * **间隔**：指示馈送的频率是每小时还是每天。
-   * **目标类型**：馈送的目标类型。例如，Amazon S3、GCP或Azure。
+   * **目标类型**：馈送的目标类型。 例如，Amazon S3、GCP或Azure。
    * **目标**：文件的放置位置。
    * **所有者**：创建馈送时所用的用户帐户。
    * **状态**：馈送的状态。
       * 活动：馈送正在运行。
       * 有待批准：在某些情况下，馈送需要先获得 Adobe 的批准，然后才能开始生成作业。
       * 已删除：馈送已删除。
-      * 已完成：馈送已完成处理。可以编辑、搁置或取消已完成的馈送。
-      * 待定：馈送已创建但尚未激活。馈送会在短暂的过渡时间内保持此状态。
-      * 不活动：等同于“已暂停”或“已搁置”状态。有关在重新激活不活动的馈送时回填馈送和实时馈送会发生什么情况的信息，请参阅[激活数据馈送](#activate-a-data-feed)。
+      * 已完成：馈送已完成处理。 可以编辑、搁置或取消已完成的馈送。
+      * 待定：馈送已创建但尚未激活。 馈送会在短暂的过渡时间内保持此状态。
+      * 不活动：等同于“已暂停”或“已搁置”状态。 有关在重新激活不活动的馈送时回填馈送和实时馈送会发生什么情况的信息，请参阅[激活数据馈送](#activate-a-data-feed)。
    * **上次修改时间**：上次修改馈送的日期。 日期和时间将以报表包的时区显示，且含GMT时差。
    * **开始日期**：此馈送的第一个作业的日期。 日期和时间将以报表包的时区显示，且含GMT时差。
    * **结束日期**：此馈送交付最后一个作业的日期。 持续进行的数据馈送没有结束日期。

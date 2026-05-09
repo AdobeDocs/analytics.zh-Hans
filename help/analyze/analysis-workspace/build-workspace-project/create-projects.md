@@ -4,17 +4,17 @@ title: 创建项目
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 81%
+source-wordcount: '408'
+ht-degree: 87%
 
 ---
 
 # 创建项目 {#create-projects}
 
 
-使用 Analysis Workspace 中的[项目](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可以创建和查看业务关键分析。这些分析可以与组织内部或外部的利益相关者共享。
+使用 Analysis Workspace 中的[项目](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可以创建和查看业务关键分析。  这些分析可以与组织内部或外部的利益相关者共享。
 
 1. 在 Adobe Analytics 中，选择 **[!UICONTROL Workspace]**。
 
@@ -22,21 +22,21 @@ ht-degree: 81%
 
 1. 选择&#x200B;**空白 Workspace 项目**，以使用浏览器创建您的 Workspace 项目。
 
-   有关如何创建移动记分卡项目的更多信息，请参阅[空白移动记分卡](/help/analyze/mobile-app/curator.md)，您可以使用移动应用程序与其他利益相关者共享该项目。
+   有关如何创建可使用移动应用程序与其他利益相关者共享的移动记分卡项目的更多信息，请参阅[空白移动记分卡](/help/analyze/mobile-app/curator.md)。
 
 1. 选择&#x200B;[!UICONTROL **创建**]。
 
 
-现在您已经创建了一个空白 Workspace 项目，请确保您熟悉 [Analysis Workspace](/help/analyze/analysis-workspace/home.md) 用户界面。完成后，您就可以构建您的项目了。操作方法：
+现在您已经创建了一个空白 Workspace 项目，请确保您熟悉 [Analysis Workspace](/help/analyze/analysis-workspace/home.md) 用户界面。 完成后，您就可以构建您的项目了。 操作方法：
 
 ![Example project](assets/example-project.png)
 
-* 将[面板](/help/analyze/analysis-workspace/c-panels/panels.md)添加到您的项目中。例如，**[!DNL Example Panel]** ➊。
+* 将[面板](/help/analyze/analysis-workspace/c-panels/panels.md)添加到您的项目中。 例如，**[!DNL Example Panel]** ➊。
 
-* 在您的面板中添加[可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。例如：
+* 在您的面板中添加[可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。 例如：
    * **[!DNL Line]** [线形图](/help/analyze/analysis-workspace/visualizations/line.md)可视化图表➋
    * **[!DNL US States]** [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)可视化图表➌
-* 在可视化效果中添加[组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)例如：
+* 在可视化效果中添加[组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 例如：
    * **[!DNL US States]** [维度](/help/components/dimensions/overview.md) ➍
    * **[!DNL Unique Visitors]** [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
    * **[!DNL Average Revenue Per Order]** [计算量度](/help/components/calculated-metrics/cm-overview.md) ➏
@@ -50,12 +50,12 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
 >title="计数重复实例"
->abstract="指定是否将重复实例计入报告中。<br/><br/>注意：此设置不适用于“流”或“流失”可视化。"
+>abstract="指定是否在报告中统计重复实例。<br/><br/>注意：此设置不适用于“流量”或“流失”可视化。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="计数重复实例"
->abstract="指定是否将重复实例计入报告中。<br/>注意：此设置不适用于“流”或“流失”可视化。"
+>abstract="指定是否在报告中统计重复实例。<br/>注意：此设置不适用于“流量”或“流失”可视化。"
 
 
 >[!CONTEXTUALHELP]
@@ -77,9 +77,9 @@ ht-degree: 81%
 | 最近修改 | 上次修改项目的日期。 |
 | 标记 | 列出为了便于分类而应用于项目的任何标记。 |
 | 描述 | 描述有助于澄清项目的目的。 您可以双击该描述进行编辑。 |
-| 计数重复实例 | 指定是否将重复实例计入报告中。注意：此设置不适用于“流”或“流失”可视化。 |
+| 计数重复实例 | 指定是否将重复实例计入报告中。 注意：此设置不适用于“流”或“流失”可视化。 |
 | 显示注释 | 指定是否显示该项目的注释。 |
-| [项目调色板](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | 通过从已为色盲优化过的现成调色板中进行选择或通过指定您的自定义调色板，可更改在 Workspace 中使用的类别调色板。此功能影响 Workspace 中的许多内容，包括大多数可视化。 |
+| [项目调色板](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | 通过从已为色盲优化过的现成调色板中进行选择或通过指定您的自定义调色板，可更改在 Workspace 中使用的类别调色板。 此功能影响 Workspace 中的许多内容，包括大多数可视化。 |
 | [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 通过减小左侧面板、自由格式表和同类群组表的垂直边距，让您可在屏幕上看到更多数据。 |
 
 

@@ -3,7 +3,7 @@ title: 动态查找
 description: 了解什么是动态查找以及如何启用它们。 包括运营商、移动设备属性和操作系统类型。
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="启用动态查找"
->abstract="选择此选项后，数据馈送中将包含原本不可用的额外查找文件。启用此设置后，每个数据馈送文件将同时发送以下查找表：<ul><li>运营商名称</li><li>移动设备属性</li><li>操作系统类型</li></ul>"
+>abstract="选择此选项后，数据馈送中将包含原本不可用的额外查找文件。 启用此设置后，每个数据馈送文件将同时发送以下查找表：<ul><li>运营商名称</li><li>移动设备属性</li><li>操作系统类型</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

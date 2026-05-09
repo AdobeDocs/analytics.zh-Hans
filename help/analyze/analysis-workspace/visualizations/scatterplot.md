@@ -3,10 +3,10 @@ title: 散点图
 description: 了解如何在Analysis Workspace中创建和解读散点可视化图表以分析维度项目与最多三个量度之间的关系。
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 65%
+source-wordcount: '252'
+ht-degree: 52%
 
 ---
 
@@ -17,21 +17,21 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="workspace_scatter_button"
 >title="散点图"
->abstract="创建一个散点图可视化图表，显示维度项与最多三个量度之间的关系。"
+>abstract="创建一个可视化散点图，显示维度项与最多三个量度之间的关系。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的散点图可视化图表。_<br/>_请参阅[散点图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的散点图可视化图表。_<br/>_请参阅本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[散点图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)。_
 
 >[!ENDSHADEBOX]
 
 
 ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]**&#x200B;可视化图表可帮助您识别数据中不同量度之间的关联和模式。 可视化图表显示维度项目与最多三个量度之间的关系。 可视化图表需要三个组件，并且最多支持四个组件的可视化。
 
-* 行组件（通常为维度）表示图表上的每个点。不同的行显示为不同的彩色点。
+* 行组件（通常为维度）表示图表上的每个点。 不同的行显示为不同的彩色点。
 * 最左侧的列（通常是量度）绘制点在 Y 轴（垂直）上的位置。
 * 第二列绘制点在 X 轴（水平）上的位置。
 * 第三列确定点的半径。
@@ -42,7 +42,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散点图可视化图表](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散点图可视化图表](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ title: 空白面板
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 88%
+source-wordcount: '255'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的空白面板。_<br/>_查看本文的[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**空白面板**。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录空白面板。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)。_
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 要使用&#x200B;**[!UICONTROL 空白面板]**：
 
-1. 创建一个&#x200B;**[!UICONTROL 空白面板]**。有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
+1. 创建一个&#x200B;**[!UICONTROL 空白面板]**。 有关如何创建面板的信息，请参阅[创建面板](panels.md#create-a-panel)。
 
    ![创建面板](assets/create-panel.png)
 
@@ -55,21 +55,21 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 您可以：
 
-* 在面板&#x200B;**内**&#x200B;选择 ![AddCircle](/help/assets/icons/AddCircle.svg)，以添加另一个可视化图表。弹出的窗口可供选择可视化图表。
+* 在面板&#x200B;**内**&#x200B;选择 ![AddCircle](/help/assets/icons/AddCircle.svg)，以添加另一个可视化图表。 弹出的窗口可供选择可视化图表。
 
   | 选择… | 要创建… |
   |---|---|
   | ![Table](/help/assets/icons/Table.svg) | [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![折线图](/help/assets/icons/GraphTrend.svg) | [折线图](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [条形图](/help/analyze/analysis-workspace/visualizations/bar.md) |
-  | ![&#x200B; 123](/help/assets/icons/123.svg) | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![ 123](/help/assets/icons/123.svg) | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Text](/help/assets/icons/Text.svg) | [文本](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
   | ![Workflow](/help/assets/icons/GraphPathing.svg) | [流](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
   | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [堆叠的面积图](/help/analyze/analysis-workspace/visualizations/area.md) |
   | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同类群组表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
   | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [项目符号](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) |
-  | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [圆环图](/help/analyze/analysis-workspace/visualizations/donut.md) |
+  | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [环形图](/help/analyze/analysis-workspace/visualizations/donut.md) |
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![直方图](/help/assets/icons/Histogram.svg) | [直方图](/help/analyze/analysis-workspace/visualizations/histogram.md) |
   | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |

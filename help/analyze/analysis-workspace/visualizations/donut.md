@@ -4,10 +4,10 @@ title: 圆环图
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 86%
+source-wordcount: '151'
+ht-degree: 61%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的圆环图可视化图表。_<br/>_请参阅[圆环图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/donut)以获取本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了圆环图可视化图表。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[圆环图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/donut)。_
 
 >[!ENDSHADEBOX]
 
 
-![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL 圆环图]**&#x200B;可视化图表与饼图类似，它将数据显示为整体的一部分或过滤器。在比较总数的百分比时，通常是在项目较少的情况下，使用环形图可视化图表。
+![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL 圆环图]**&#x200B;可视化图表与饼图类似，它将数据显示为整体的一部分或过滤器。 在比较总数的百分比时，通常是在项目较少的情况下，使用环形图可视化图表。
 
 ![环形图将数据显示为整体的一部分或过滤器。](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加环形图可视化图表](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [添加环形图可视化图表](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 

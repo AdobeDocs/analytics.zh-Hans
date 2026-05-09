@@ -3,9 +3,9 @@ title: 管理数据馈送作业
 description: 了解如何管理数据馈送中的各个作业。 导航界面，使用筛选器和搜索，以及查找列定义。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '545'
 ht-degree: 20%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
 >title="数据馈送作业历史记录"
->abstract="您可以在此页面查看指定数据馈送的作业列表。您可以按请求 ID 或请求周期开始日期搜索作业。每个作业的相关信息会显示在可用列中。您还可以使用相同的数据重新发送作业，或在重新发送之前重新处理该作业的源数据。"
+>abstract="您可以在此页面查看指定数据馈送的作业列表。 您可以按请求 ID 或请求周期开始日期搜索作业。 每个作业的相关信息会显示在可用列中。 您还可以使用相同的数据重新发送作业，或在重新发送之前重新处理该作业的源数据。"
 
 <!-- markdownlint-enable MD034 -->
 
