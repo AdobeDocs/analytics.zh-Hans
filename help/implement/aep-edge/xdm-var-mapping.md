@@ -4,18 +4,24 @@ description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
+TQID: https://experienceleague.adobe.com/RQer9MEMvEkjecZ-0EkFyAQthPh7Vi9GmxtJcGGKDeI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 94%
+source-wordcount: 1955
+ht-degree: 76%
 
 ---
 
 # XDM对象字段映射到Adobe Analytics
 
-下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的 XDM 变量。如果使用这些 XDM 字段路径，则无需额外配置即可将数据发送到 Adobe Analytics。这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent 模板]**&#x200B;字段组中。如果您打算将数据同时发送到 Adobe Analytics 和 Adobe Experience Platform，则建议使用这些字段。
+下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的 XDM 变量。 如果使用这些 XDM 字段路径，则无需额外配置即可将数据发送到 Adobe Analytics。 这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent 模板]**&#x200B;字段组中。 如果您打算将数据同时发送到 Adobe Analytics 和 Adobe Experience Platform，则建议使用这些字段。
 
-如果您的组织计划迁移到 Customer Journey Analytics，Adobe 建议改用 `data` 对象将数据直接发送到 Adobe Analytics，无需符合某个架构。此策略允许您的组织使用自己的架构，而不使用 [!UICONTROL Adobe Analytics ExperienceEvent 模板]（后者不太适用于 Customer Journey Analytics）。请参阅[映射到 Adobe Analytics 的数据对象变量](data-var-mapping.md)，了解一种类似的映射表。
+如果您的组织计划迁移到 Customer Journey Analytics，Adobe 建议改用 `data` 对象将数据直接发送到 Adobe Analytics，无需符合某个架构。 此策略允许您的组织使用自己的架构，而不使用 [!UICONTROL Adobe Analytics ExperienceEvent 模板]（后者不太适用于 Customer Journey Analytics）。 请参阅[映射到 Adobe Analytics 的数据对象变量](data-var-mapping.md)，了解一种类似的映射表。
 
 ## 值的优先级
 
@@ -23,7 +29,7 @@ ht-degree: 94%
 
 ## XDM 对象字段映射
 
-可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.zh-Hans/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到此表之前的更新内容。
+可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到此表之前的更新内容。
 
 | XDM 字段路径 | Analytics 变量和描述 |
 | --- | --- |
@@ -65,71 +71,71 @@ ht-degree: 94%
 | `xdm.environment.browserDetails.viewportWidth` | 设置 [“浏览器宽度”](/help/components/dimensions/browser-width.md) 维度。 |
 | `xdm.environment.carrier` | 移动生命周期维度[运营商名称](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.connectionType` | 帮助设置 [“连接类型”](/help/components/dimensions/connection-type.md) 维度。 |
-| `xdm.environment._dc.language` | 设置上下文数据变量 `a.locale`。仅在未设置 `xdm.environment.language` 的情况下使用。Adobe 建议使用这个字段，而不是 `xdm.environment.language`。 |
-| `xdm.environment.ipV4` | 用作后备的[独特访客 &#x200B;](/help/components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
-| `xdm.environment.language` | 设置上下文数据变量 `a.locale`。Adobe 建议改用 `xdm.environment._dc.language`。 |
+| `xdm.environment._dc.language` | 设置上下文数据变量 `a.locale`。 仅在未设置 `xdm.environment.language` 的情况下使用。 Adobe 建议使用这个字段，而不是 `xdm.environment.language`。 |
+| `xdm.environment.ipV4` | 用作后备的[独特访客 ](/help/components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
+| `xdm.environment.language` | 设置上下文数据变量 `a.locale`。 Adobe 建议改用 `xdm.environment._dc.language`。 |
 | `xdm.environment.operatingSystem` | 移动生命周期维度[操作系统](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | 帮助设置移动生命周期维度[操作系统版本](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 设置相应的 [eVar](/help/components/dimensions/evar.md) 维度。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier5` | 设置相应的[层级](/help/components/dimensions/hierarchy.md)维度。 |
-| `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 列表属性分隔符覆盖。不建议使用此字段，因为会从报告包设置下的[流量变量管理](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)中自动检索分隔符。使用此字段可能会导致使用的分隔符与 Analytics 需要的分隔符不匹配。 |
+| `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 列表属性分隔符覆盖。 不建议使用此字段，因为会从报告包设置下的[流量变量管理](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)中自动检索分隔符。 使用此字段可能会导致使用的分隔符与 Analytics 需要的分隔符不匹配。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 一个字符串数组，包含相应的 [List Prop](../vars/page-vars/prop.md#list-props) 值。 |
-| `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 将每个 `list[]` 数组中的所有 `value` 字符串连接到其各自的[列表变量](../vars/page-vars/list.md)。分隔符是根据[报告包设置](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)中的值集自动选择的。 |
+| `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 将每个 `list[]` 数组中的所有 `value` 字符串连接到其各自的[列表变量](../vars/page-vars/list.md)。 分隔符是根据[报告包设置](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)中的值集自动选择的。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | 设置相应的 [Prop](/help/components/dimensions/prop.md) 维度。 |
-| `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于相应的[自定义事件](/help/components/metrics/custom-events.md)量度。每个事件 ID 驻留在其 100 组父项中。例如，要将序列化应用于 `event678`，请使用 `xdm._experience.analytics.event601to700.event678.id`。 |
-| `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 按所需的量增加相应的[自定义事件](/help/components/metrics/custom-events.md)量度。每个事件驻留在其 100 组父项中。例如，`event567` 的字段为 `xdm._experience.analytics.event501to600.event567.value`。 |
+| `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于相应的[自定义事件](/help/components/metrics/custom-events.md)量度。 每个事件 ID 驻留在其 100 组父项中。 例如，要将序列化应用于 `event678`，请使用 `xdm._experience.analytics.event601to700.event678.id`。 |
+| `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 按所需的量增加相应的[自定义事件](/help/components/metrics/custom-events.md)量度。 每个事件驻留在其 100 组父项中。 例如，`event567` 的字段为 `xdm._experience.analytics.event501to600.event567.value`。 |
 | `xdm.identityMap.ECID[0].id` | [Adobe Experience Cloud 身份标识服务 ID](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。 |
 | `xdm.marketing.trackingCode` | 设置 [“跟踪代码”](/help/components/dimensions/tracking-code.md) 维度。 |
-| `xdm.media.mediaTimed.completes.value` | 流媒体服务量度[内容完成](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-complete)。 |
+| `xdm.media.mediaTimed.completes.value` | 流媒体服务量度[内容完成](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)。 |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`, `a.media.timePlayed`, `a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | 流媒体服务量度[联合数据](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#federated-data)。 |
-| `xdm.media.mediaTimed.firstQuartiles.value` | 流媒体服务量度 [25% 进度标记](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#twenty-five--progress-marker)。 |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | 流媒体服务量度[内容区段视图](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-segment-views)。 |
-| `xdm.media.mediaTimed.midpoints.value` | 流媒体服务量度 [50% 进度标记](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#progress-marker)。 |
-| `xdm.media.mediaTimed.pauseTime.value` | 流媒体服务量度[总暂停时间](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#total-pause-duration)。 |
-| `xdm.media.mediaTimed.pauses.value` | 流媒体服务量度[暂停事件](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#pause-events)。 |
-| `xdm.mediaCollection.sessionDetails.assetID` | 流媒体服务维度[资产 ID](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#asset-id)。 |
-| `xdm.mediaCollection.sessionDetails.friendlyName` | 流媒体服务维度[视频名称](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#video-name)。 |
-| `xdm.mediaCollection.sessionDetails.originator` | 流媒体服务维度[来源方](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#originator)。 |
-| `xdm.mediaCollection.sessionDetails.episode` | 流媒体服务维度[剧集](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#episode)。 |
-| `xdm.mediaCollection.sessionDetails.genre` | 流媒体服务维度[流派](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#genre)。 |
-| `xdm.mediaCollection.sessionDetails.rating` | 流媒体服务维度[内容分级](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-rating)。 |
-| `xdm.mediaCollection.sessionDetails.season` | 流媒体服务维度[季](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#season)。 |
-| `xdm.mediaCollection.sessionDetails.name` | 流媒体服务维度[内容 ID](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-id)。 |
-| `xdm.mediaCollection.sessionDetails.show` | 流媒体服务维度[节目](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#show)。 |
-| `xdm.mediaCollection.sessionDetails.showType` | 流媒体服务维度[节目类型](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#show-type)。 |
-| `xdm.mediaCollection.sessionDetails.length` | 流媒体服务维度[视频长度](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#video-length)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 流媒体服务维度[媒体会话 ID](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-session-id)。 |
-| `xdm.mediaCollection.sessionDetails.channel` | 流媒体服务维度[内容频道](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-channel)。 |
-| `xdm.mediaCollection.sessionDetails.contentType` | 流媒体服务维度[内容类型](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-type)。 |
-| `xdm.mediaCollection.sessionDetails.network` | 流媒体服务维度[网络](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#network)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 流媒体服务维度[内容区段](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-segment)。 |
-| `xdm.mediaCollection.sessionDetails.playerName` | 流媒体服务维度[内容播放器名称](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-player-name)。 |
-| `xdm.mediaCollection.sessionDetails.appVersion` | 流媒体服务维度 [SDK 版本](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#sdk-version)。 |
-| `xdm.mediaCollection.sessionDetails.feed` | 流媒体服务维度[媒体馈送类型](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-feed-type)。 |
-| `xdm.mediaCollection.sessionDetails.streamFormat` | 流媒体服务维度[流传输格式](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#stream-format)。 |
-| `xdm.media.mediaTimed.progress10.value` | 流媒体服务量度 [10% 进度标记](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#ten--progress-marker)。 |
-| `xdm.media.mediaTimed.progress95.value` | 流媒体服务量度 [95% 进度标记](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#ninety-five--progress-marker)。 |
-| `xdm.mediaCollection.sessionDetails.hasResume` | 流媒体服务量度[内容继续](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-resumes)。 |
-| `xdm.media.mediaTimed.starts.value` | 流媒体服务量度[媒体开始](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-starts)。 |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | 流媒体服务量度 [75% 进度标记](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#seventy-five--progress-marker)。 |
-| `xdm.media.mediaTimed.timePlayed.value` | 流媒体服务量度[内容逗留时间](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-time-spent)。 |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | 流媒体服务量度[媒体逗留时间](https://experienceleague.adobe.com/cn/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-time-spent)。 |
-| `xdm.placeContext.geo._schema.latitude` | 访客的纬度位置。帮助设置[移动生命周期位置](/help/components/dimensions/lifecycle-dimensions.md)维度。 |
-| `xdm.placeContext.geo._schema.longitude` | 访客的经度位置。帮助设置[移动生命周期位置](/help/components/dimensions/lifecycle-dimensions.md)维度。 |
+| `xdm.media.mediaTimed.federated.value` | 流媒体服务量度[联合数据](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/federated-data)。 |
+| `xdm.media.mediaTimed.firstQuartiles.value` | 流媒体服务量度 [25% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | 流媒体服务量度[内容区段视图](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)。 |
+| `xdm.media.mediaTimed.midpoints.value` | 流媒体服务量度 [50% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.pauseTime.value` | 流媒体服务量度[总暂停时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)。 |
+| `xdm.media.mediaTimed.pauses.value` | 流媒体服务量度[暂停事件](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)。 |
+| `xdm.mediaCollection.sessionDetails.assetID` | 流媒体服务维度[资产 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id)。 |
+| `xdm.mediaCollection.sessionDetails.friendlyName` | 流媒体服务维度[视频名称](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)。 |
+| `xdm.mediaCollection.sessionDetails.originator` | 流媒体服务维度[来源方](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator)。 |
+| `xdm.mediaCollection.sessionDetails.episode` | 流媒体服务维度[剧集](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)。 |
+| `xdm.mediaCollection.sessionDetails.genre` | 流媒体服务维度[流派](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)。 |
+| `xdm.mediaCollection.sessionDetails.rating` | 流媒体服务维度[内容分级](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating)。 |
+| `xdm.mediaCollection.sessionDetails.season` | 流媒体服务维度[季](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)。 |
+| `xdm.mediaCollection.sessionDetails.name` | 流媒体服务维度[内容 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)。 |
+| `xdm.mediaCollection.sessionDetails.show` | 流媒体服务维度[节目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)。 |
+| `xdm.mediaCollection.sessionDetails.showType` | 流媒体服务维度[节目类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)。 |
+| `xdm.mediaCollection.sessionDetails.length` | 流媒体服务维度[视频长度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 流媒体服务维度[媒体会话 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)。 |
+| `xdm.mediaCollection.sessionDetails.channel` | 流媒体服务维度[内容频道](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)。 |
+| `xdm.mediaCollection.sessionDetails.contentType` | 流媒体服务维度[内容类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)。 |
+| `xdm.mediaCollection.sessionDetails.network` | 流媒体服务维度[网络](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 流媒体服务维度[内容区段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)。 |
+| `xdm.mediaCollection.sessionDetails.playerName` | 流媒体服务维度[内容播放器名称](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)。 |
+| `xdm.mediaCollection.sessionDetails.appVersion` | 流媒体服务SDK版本维度。 请参阅[流媒体服务概述](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。 |
+| `xdm.mediaCollection.sessionDetails.feed` | 流媒体服务维度[媒体馈送类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)。 |
+| `xdm.mediaCollection.sessionDetails.streamFormat` | 流媒体服务维度[流传输格式](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-format)。 |
+| `xdm.media.mediaTimed.progress10.value` | 流媒体服务量度 [10% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.progress95.value` | 流媒体服务量度 [95% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.mediaCollection.sessionDetails.hasResume` | 流媒体服务量度[内容继续](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)。 |
+| `xdm.media.mediaTimed.starts.value` | 流媒体服务量度[媒体开始](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)。 |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | 流媒体服务量度 [75% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.timePlayed.value` | 流媒体服务量度[内容逗留时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)。 |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | 流媒体服务量度[媒体逗留时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)。 |
+| `xdm.placeContext.geo._schema.latitude` | 访客的纬度位置。 帮助设置[移动生命周期位置](/help/components/dimensions/lifecycle-dimensions.md)维度。 |
+| `xdm.placeContext.geo._schema.longitude` | 访客的经度位置。 帮助设置[移动生命周期位置](/help/components/dimensions/lifecycle-dimensions.md)维度。 |
 | `xdm.placeContext.geo.postalCode` | [“邮政编码”](/help/components/dimensions/zip-code.md) 维度。 |
 | `xdm.placeContext.geo.stateProvince` | [“美国”](/help/components/dimensions/us-states.md) 维度。 |
 | `xdm.placeContext.localTime` | 在[数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中显示为 `t_time_info`。 |
 | `xdm.productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`xdm.productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 将[产品语法](../vars/page-vars/products.md)促销应用于 eVar。 |
 | `xdm.productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`xdm.productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 将[产品语法](../vars/page-vars/products.md)促销应用于事件。 |
-| `xdm.productListItems[].productCategories[].categoryID` | [“类别”](/help/components/dimensions/category.md) 维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
-| `xdm.productListItems[].name` | [产品](/help/components/dimensions/product.md)维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 如果 `xdm.productListItems[].SKU` 和 `xdm.productListItems[].name` 都包含数据，则使用 `xdm.productListItems[].SKU` 中的值。 |
-| `xdm.productListItems[].priceTotal` | 帮助确定[收入](/help/components/metrics/revenue.md)量度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
-| `xdm.productListItems[].quantity` | 帮助确定[单位](/help/components/metrics/units.md)量度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
-| `xdm.productListItems[].SKU` | [产品](/help/components/dimensions/product.md)维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 如果 `xdm.productListItems[].SKU` 和 `xdm.productListItems[].name` 都包含数据，则使用 `xdm.productListItems[].SKU` 中的值。 |
+| `xdm.productListItems[].productCategories[].categoryID` | [“类别”](/help/components/dimensions/category.md) 维度。 另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
+| `xdm.productListItems[].name` | [产品](/help/components/dimensions/product.md)维度。 另请参阅[产品](../vars/page-vars/products.md)页面变量。 如果 `xdm.productListItems[].SKU` 和 `xdm.productListItems[].name` 都包含数据，则使用 `xdm.productListItems[].SKU` 中的值。 |
+| `xdm.productListItems[].priceTotal` | 帮助确定[收入](/help/components/metrics/revenue.md)量度。 另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
+| `xdm.productListItems[].quantity` | 帮助确定[单位](/help/components/metrics/units.md)量度。 另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
+| `xdm.productListItems[].SKU` | [产品](/help/components/dimensions/product.md)维度。 另请参阅[产品](../vars/page-vars/products.md)页面变量。 如果 `xdm.productListItems[].SKU` 和 `xdm.productListItems[].name` 都包含数据，则使用 `xdm.productListItems[].SKU` 中的值。 |
 | `xdm.web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 实施变量。 |
 | `xdm.web.webInteraction.name` | [自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md) 或者[退出链接](/help/components/dimensions/exit-link.md)维度取决于 `xdm.web.webInteraction.type` 中的值 |
-| `xdm.web.webInteraction.type` | 确定所点击链接的类型。有效值包括 `other`（自定义链接）、`download`（下载链接）和 `exit`（退出链接）。 |
+| `xdm.web.webInteraction.type` | 确定所点击链接的类型。 有效值包括 `other`（自定义链接）、`download`（下载链接）和 `exit`（退出链接）。 |
 | `xdm.web.webPageDetails.URL` | [页面 URL](/help/components/dimensions/page-url.md) 维度。 |
 | `xdm.web.webPageDetails.isErrorPage` | 帮助确定“找不到页面”[维度](/help/components/dimensions/pages-not-found.md)和[量度](/help/components/metrics/pages-not-found.md)。 |
 | `xdm.web.webPageDetails.name` | [页面](/help/components/dimensions/page.md)维度。 |
@@ -147,7 +153,7 @@ ht-degree: 94%
 
 ### 隐式映射
 
-任何未自动映射的 XDM 字段元素都会作为上下文数据发送到 Adobe Analytics，并带有前缀 `a.x.`。然后，您可以使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)将此上下文数据变量映射到所需的 Analytics 变量。例如，如果发送以下事件：
+任何未自动映射的 XDM 字段元素都会作为上下文数据发送到 Adobe Analytics，并带有前缀 `a.x.`。 然后，您可以使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)将此上下文数据变量映射到所需的 Analytics 变量。 例如，如果发送以下事件：
 
 ```js
 alloy("event",{
@@ -167,7 +173,7 @@ Web SDK 将该数据作为上下文数据变量发送给 Adobe Analytics `a.x._a
 
 ## 显式映射
 
-您还可以将 XDM 字段元素作为上下文数据进行显式映射。使用 `contextData` 元素进行显式映射的任何 XDM 字段元素都会作为无前缀的上下文数据发送到 Adobe Analytics。然后，您可以使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)将此上下文数据变量映射到所需的 Analytics 变量。例如，如果发送以下事件：
+您还可以将 XDM 字段元素作为上下文数据进行显式映射。 使用 `contextData` 元素进行显式映射的任何 XDM 字段元素都会作为无前缀的上下文数据发送到 Adobe Analytics。 然后，您可以使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)将此上下文数据变量映射到所需的 Analytics 变量。 例如，如果发送以下事件：
 
 ```js
 alloy("event",{
@@ -183,6 +189,6 @@ alloy("event",{
 })
 ```
 
-Web SDK 将此数据作为值 `1` 的上下文数据变量 `somevalue` 发送给 Adobe Analytics。然后，您可以使用处理规则将此上下文数据变量值分配给所需的 Analytics 变量，例如 `eVar`：
+Web SDK 将此数据作为值 `1` 的上下文数据变量 `somevalue` 发送给 Adobe Analytics。  然后，您可以使用处理规则将此上下文数据变量值分配给所需的 Analytics 变量，例如 `eVar`：
 
 ![搜索词处理规则](assets/examplerule-explicit.png)

@@ -3,37 +3,43 @@ title: 流媒体服务核心维度
 description: 为报表包启用[!UICONTROL 媒体核心]时可用的维度。
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
+TQID: https://experienceleague.adobe.com/JYaEwFPGW4YHtZySogcJkYvDCHPJy-l0JlGxh9eFHSQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 6%
+source-wordcount: 275
+ht-degree: 1%
 
 ---
 
 # 流媒体服务核心维度
 
-*本页介绍了为报表包启用[!UICONTROL 媒体核心]时可用的维度。 有关可用量度，请参阅[流媒体服务核心量度](../metrics/sm-core.md)。*
+流媒体服务核心维度为通过流媒体收集库收集的数据提供基本报表功能。 这些维度需要&#x200B;**[!UICONTROL 适用于流媒体的Adobe Analytics加载项]**。 有关详细信息，请联系您的Adobe客户团队。
 
-流媒体服务核心维度为通过流媒体服务库收集的数据提供基本报表功能。 使用这些维度需要&#x200B;**[!UICONTROL 适用于流媒体的Adobe Analytics加载项]**。 有关详细信息，请联系您的Adobe客户团队。
+若要使用这些维度，请为报表包启用[[!UICONTROL 媒体报告]](/help/admin/tools/manage-rs/edit-settings/media-management.md)下的&#x200B;**[!UICONTROL 媒体核心]**。
 
-当您在&#x200B;**[!UICONTROL 媒体报告]**&#x200B;下启用[媒体核心](/help/admin/tools/manage-rs/edit-settings/media-management.md)时，以下维度可用：
+以下维度可供使用：
 
-| 维度名称 | 描述 | 发送条件 | 上下文数据变量 | XDM字段 |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 内容]** | 内容的内容ID。 | 媒体开始，媒体关闭 | `a.media.`<br>`name` | `xdm.mediaCollection.`<br>`sessionDetails.name`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.name` |
-| **[!UICONTROL 内容渠道]** | 播放内容的分发站点或渠道。 任何字符串值都有效。 | 媒体开始，媒体关闭 | `a.media.`<br>`channel` | `xdm.mediaCollection.`<br>`sessionDetails.channel`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.channel` |
-| **[!UICONTROL 内容长度（变量）]** | 所用内容的最大长度（或持续时间），以秒为单位。 多个量度需要此维度，包括“[!UICONTROL 平均受众访问分钟数]”。 如果未设置此维度，则从属量度将不可用。<br><br>还提供了一个名为“[!UICONTROL 视频长度]”的分类维度，它提供了类似目的。 此维度和分类被视为两个不同的维度。 | 媒体开始，媒体关闭 | `a.media.`<br>`length` | `xdm.mediaCollection.`<br>`sessionDetails.length`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.length` |
-| **[!UICONTROL 内容名称（变量）]** | 内容的友好名称。 名为“[!UICONTROL 视频名称]”的分类也可用，它提供了类似的用途。 此维度和分类被视为两个不同的维度。 | 媒体开始，媒体关闭 | `a.media.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`sessionDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.friendlyName` |
-| **[!UICONTROL 内容播放器名称]** | 内容播放器的名称。 | 媒体开始，媒体关闭 | `a.media.`<br>`playerName` | `xdm.mediaCollection.`<br>`sessionDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.playerName` |
-| **[!UICONTROL 内容区段]** | 描述已查看的内容部分的间隔，以分钟为单位。 区段在播放会话期间计算为播放头的最小值和最大值。 | 媒体关闭 | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
-| **[!UICONTROL 内容类型]** | 内容的类型。 有效值包括`song`、`podcast`、`audiobook`、`radio`、`VoD`、`Live`、`Linear`、`UGC`、`DVoD`或自定义值。 | 媒体开始，媒体关闭 | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
-| **[!UICONTROL 媒体路径]** | 访客访问内容所使用的路径。 | 媒体开始 | `a.media.path` | |
-| **[!UICONTROL 媒体会话ID]** | 标识对于单次播放而言具有唯一性的内容流实例。 | 媒体开始，媒体关闭 | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
-| **[!UICONTROL 流类型]** | 流类型。 有效值包括 `audio` 和 `video`。 | 媒体开始，媒体关闭 | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
+* [[!UICONTROL 内容]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL 内容渠道]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL 内容长度（变量）]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL 内容名称（变量）]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL 内容播放器名称]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL 内容区段]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL 内容类型]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL 媒体路径]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL 媒体会话ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL 流类型]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 除了上述维度之外，Adobe还会自动创建以下分类维度。 您必须上传分类数据，以查看使用这些维度的报表。
 
-| 分类名称 | 父维度 | 描述 |
-| --- | --- | --- |
-| **[!UICONTROL 视频长度]** | [!UICONTROL 内容] | 所用内容的最大长度（或持续时间），以秒为单位。 依赖于内容长度的量度不能使用此分类；您必须创建计算量度才能使用此分类获取“[!UICONTROL 平均受众访问分钟数]”等量度。 |
-| **[!UICONTROL 视频名称]** | [!UICONTROL 内容] | 内容的友好名称。 它是“[!UICONTROL 内容名称（变量）]”的等效分类。 |
+| 分类名称 | 父维度 |
+| --- | --- |
+| [[!UICONTROL 视频长度]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL 内容] |
+| [[!UICONTROL 视频名称]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL 内容] |
+
+请参阅[流媒体服务核心量度](../metrics/sm-core.md)以了解相应的量度。
