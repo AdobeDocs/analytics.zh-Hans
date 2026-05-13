@@ -4,9 +4,14 @@ description: 描述什么是哈希冲突以及它是如何体现的。
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: e6dd38fe34d7e0ab69bdf1c68716427905caa356
+TQID: https://experienceleague.adobe.com/yjYX-h-8jJA7k-jzRMOJ0l2BxN5-no2kCfySkGYss8w
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9b4525e014170b72688044a6ead344b1bde8c39b
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: 539
 ht-degree: 5%
 
 ---
@@ -42,7 +47,7 @@ Adobe Analytics对大多数维度使用32位哈希，这意味着可能有2<sup>
 * **更改日期范围**：哈希表每月更改。 将日期范围更改为跨越另一个月，可能会为每个值赋予不同的哈希值，而不会产生冲突。 它通常是清除特定报表中可见异常的最快方式。
 * **减少唯一值的数量**：您可以调整实施或使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)来帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
 * **使用[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)或[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)**：这些工具不依赖哈希表。
-* **移动到[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans)**： Customer Journey Analytics没有哈希层，并且[维度没有基数限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果哈希冲突或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)经常影响您的报表，请考虑转移到此产品。
+* **移动到[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)**： Customer Journey Analytics没有哈希层，并且[维度没有基数限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果哈希冲突或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)经常影响您的报表，请考虑转移到此产品。
 
 >[!MORELIKETHIS]
 >

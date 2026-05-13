@@ -4,9 +4,13 @@ description: 确保某些例程在每页上仅触发一次。
 feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/7kJ-oRIsYzFeRnApFYvIigsBMb8QgeBtjCiHt8am7Nk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: 742
 ht-degree: 77%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 77%
 
 {{plug-in}}
 
-`p_fo` 插件是用于检查特定 JavaScript 对象是否存在的实用工具。如果特定对象不存在，则此插件将创建该对象并返回 `true`。如果页面上已存在特定 JavaScript 对象，则将返回 `false`。此插件可用于确保代码仅在页面上运行一次。有一些其他插件需要此插件代码才能正常运行。如果您不担心代码在某个页面上运行的次数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
+`p_fo` 插件是用于检查特定 JavaScript 对象是否存在的实用工具。 如果特定对象不存在，则此插件将创建该对象并返回 `true`。 如果页面上已存在特定 JavaScript 对象，则将返回 `false`。 此插件可用于确保代码仅在页面上运行一次。 有一些其他插件需要此插件代码才能正常运行。 如果您不担心代码在某个页面上运行的次数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -64,7 +68,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -79,15 +83,15 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 * **on**（必需，字符串）：插件将创建的 JavaScript 对象的名称，前提是页面上不存在该对象。
 
-如果对象尚不存在，则此函数将返回 `true` 并创建该对象。如果对象尚已存在，则此函数将返回 `false`。
+如果对象尚不存在，则此函数将返回 `true` 并创建该对象。 如果对象尚已存在，则此函数将返回 `false`。
 
 ## 示例调用
 
 ### 示例 1
 
-以下代码将检查页面中是否存在“myobject”对象。如果“myobject”对象不存在，则代码将创建“myobject”对象并返回值“true”。因此，将运行条件语句（即 Console.log(&#39;hello&#39;);）中的代码。
+以下代码将检查页面中是否存在“myobject”对象。  如果“myobject”对象不存在，则代码将创建“myobject”对象并返回值“true”。  因此，将运行条件语句（即 Console.log(&#39;hello&#39;);）中的代码。
 
-另一方面，如果在 p_fo 调用发生时“myobject”对象已存在，则 p_fo 函数将返回值“false”，条件语句将因此被视为 false。在这种情况下，将不运行条件语句中的代码。
+另一方面，如果在 p_fo 调用发生时“myobject”对象已存在，则 p_fo 函数将返回值“false”，条件语句将因此被视为 false。  在这种情况下，将不运行条件语句中的代码。
 
 ```js
 if(p_fo("myobject"))

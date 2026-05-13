@@ -3,9 +3,15 @@ title: 首个联系渠道
 description: 访客参与有效期限内的第一个营销渠道。
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/1XBUjwxlZXmhXJtQZgpv9yU5Fwhns-bb9Q7BcP5S30Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: 284
 ht-degree: 91%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 91%
 
 此维度直接引用您在[营销渠道管理器](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)中定义的渠道名称。
 
-发送到 Adobe 数据收集服务器的每次点击均通过报表包的营销渠道处理规则运行。它按数字顺序遍历每个规则，直到找到匹配项为止，在该匹配项中，营销渠道与点击关联。首个联系渠道会随着访客一直保留，直到访客不访问网站的时间超过访客参与期（默认为 30 天）为止。
+发送到 Adobe 数据收集服务器的每次点击均通过报表包的营销渠道处理规则运行。 它按数字顺序遍历每个规则，直到找到匹配项为止，在该匹配项中，营销渠道与点击关联。 首个联系渠道会随着访客一直保留，直到访客不访问网站的时间超过访客参与期（默认为 30 天）为止。
 
 如果要将此维度设置为特定值，必须执行以下步骤：
 
@@ -30,4 +36,4 @@ ht-degree: 91%
 
 ## 维度项目
 
-维度项目包括营销渠道管理器中的任何渠道名称。默认情况下，这些值包括 `"Paid search"`、`"Natural search"`、`"Display"`、`"Email"`、`"Affiliate"`、`"Direct"`、`"Internal"`、`"Social networks"` 和 `"Referring domains"`。您可以在营销渠道管理器中添加或删除渠道，但这会影响此维度的值。
+维度项目包括营销渠道管理器中的任何渠道名称。 默认情况下，这些值包括 `"Paid search"`、`"Natural search"`、`"Display"`、`"Email"`、`"Affiliate"`、`"Direct"`、`"Internal"`、`"Social networks"` 和 `"Referring domains"`。 您可以在营销渠道管理器中添加或删除渠道，但这会影响此维度的值。

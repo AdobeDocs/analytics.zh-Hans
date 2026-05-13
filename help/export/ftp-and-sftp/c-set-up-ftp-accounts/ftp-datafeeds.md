@@ -4,10 +4,13 @@ keywords: ftp;sftp
 title: 数据馈送
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
+TQID: https://experienceleague.adobe.com/SWXC-g3KTGuKiT0CBFfptUSBigs8pgkPVdRLzWhl6z4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 82%
+source-wordcount: 331
+ht-degree: 28%
 
 ---
 
@@ -19,8 +22,8 @@ ht-degree: 82%
 
 数据馈送是对 Adobe 收到的点击流数据的导出，其中提供标准和自定义[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。
 
-如果您已购买 Adobe Data Warehouse、[!UICONTROL Standard Data Feeds]，则可以自行设置您自己的 Analytics 数据馈送。可将它们发送到任何 FTP 帐户（无论是由 Adobe 设置的帐户还是外部 FTP）。Adobe 工程技术服务提供了几乎可通过任何方式发送的自定义[!UICONTROL 数据馈送]。
+如果您已购买 Adobe Data Warehouse、[!UICONTROL Standard Data Feeds]，则可以自行设置您自己的 Analytics 数据馈送。 它们可以发送到任何FTP帐户（由Adobe设置的帐户或外部FTP帐户）。 Adobe工程技术服务提供自定义[!UICONTROL 数据馈送]，几乎可以通过任何方式发送。
 
-[!UICONTROL 数据馈送] FTP帐户允许10 GB（默认情况下）。 所有其他标准 FTP 帐户的默认限制为 50 MB。在客户端将 FTP 帐户用于适当用途的情况下，某些高流量用户可快速填满这些帐户。当 FPT 帐户已填满时，不可再向其推送任何其他文件。因此，传送给该 FTP 帐户的任何文件（[!UICONTROL 数据馈送]、数据仓库请求等）都不会被传送。正因如此，通过删除已接收和下载的文件来管理 Adobe FTP 帐户才会如此重要。
+[!UICONTROL 数据馈送] FTP帐户允许10 GB（默认情况下）。 所有其他标准 FTP 帐户的默认限制为 50 MB。 如果客户端使用FTP帐户作为正常预期用途，则一些流量较大的用户可能会迅速填充这些帐户。 当FTP帐户已满时，无法向其推送其他文件。 因此，传送给该 FTP 帐户的任何文件（[!UICONTROL 数据馈送]、数据仓库请求等）都不会被传送。 这就是为什么必须通过删除已接收和下载的文件来管理Adobe FTP帐户的原因之一。
 
-当 FTP 帐户已填满时，您应当下载并删除当前的文件，并让 Adobe 知道空间已清理。Adobe 随后可以重新发送还未传送的文件。某些工具，如数据仓库，允许用户重新发送这些文件。重新发送可能不需要 Adobe 的介入。如果您的 FTP 帐户总是频繁被填满，请联系 Adobe 客户关怀，他们会建议您采用其他传送选项，以增加帐户上的 FTP 空间和文件数量配额。
+当FTP帐户已满时，您应该下载并删除当前文件，并告知Adobe空间已被清除。 然后，Adobe可以重新发送尚未提供的文件。 某些工具（如Data Warehouse）允许用户重新发送这些文件。 重新发送可能无需Adobe的参与。 如果您的FTP帐户似乎经常被占满，请联系Adobe客户关怀团队，他们可以提出交付替代方案，包括增加帐户的FTP空间和文件数量配额。

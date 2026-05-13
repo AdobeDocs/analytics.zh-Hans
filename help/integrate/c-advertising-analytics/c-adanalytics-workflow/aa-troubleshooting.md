@@ -3,10 +3,15 @@ description: 排除和修复与 Advertising Analytics 相关的问题。
 title: Advertising Analytics 疑难解答
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+TQID: https://experienceleague.adobe.com/IcQbKVVNL0xv3Y-Ux4OsORlSFSn3HhK0Fx6HeY2fCa4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 18%
+source-wordcount: 178
+ht-degree: 15%
 
 ---
 
@@ -17,7 +22,7 @@ ht-degree: 18%
 
 ## 我在“映射”部分中看不到我的报表包 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-您正在尝试[设置新的Advertising帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，并且在&#x200B;**[!UICONTROL 映射的报表包]**&#x200B;下拉列表中列出的报表包中，没有看到您的报表包。 出现此问题的原因可能有两个：
+您正在尝试[设置新的Advertising帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，并且在&#x200B;**[!UICONTROL 映射的报表包]**&#x200B;下拉列表中列出的报表包中，没有看到您的报表包。 这种情况有两个可能的原因：
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -28,11 +33,11 @@ ht-degree: 18%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1.未将报表包映射到登录用户的Experience Cloud组织ID。 </p> </td> 
+   <td colname="col1"> <p>1. 报表包未映射到登录用户的Experience Cloud组织ID。 </p> </td> 
    <td colname="col2"> <p>联系客户关怀团队以将报表包映射到组织ID。</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2.未为Advertising Analytics报表配置报表包。 </p> </td> 
+   <td colname="col1"> <p>2. 没有为Advertising Analytics报表配置报表包。 </p> </td> 
    <td colname="col2"> <p>有关说明，请参阅<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >配置报表包</a>。 </p> </td> 
   </tr> 
  </tbody> 

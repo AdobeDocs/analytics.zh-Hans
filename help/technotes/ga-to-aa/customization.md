@@ -3,22 +3,28 @@ title: Adobe Analytics 中的报表自定义
 description: 了解如何在 Adobe Analytics 中自定义报表
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/vvVKR7JKV12zgIic0rso4OihH5kyAoZBV983R3VmOic
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 609
 ht-degree: 94%
 
 ---
 
 # 自定义报表
 
-在 Google Analytics 等第三方平台中，提供了多个自定义选项。这些自定义允许用户创建功能板、自定义报表、保存的报表和自定义警报。由于 Analysis Workspace 允许用户从空白画布构建报表，因此大多数自定义操作都直接内置到工具中。
+在 Google Analytics 等第三方平台中，提供了多个自定义选项。 这些自定义允许用户创建功能板、自定义报表、保存的报表和自定义警报。 由于 Analysis Workspace 允许用户从空白画布构建报表，因此大多数自定义操作都直接内置到工具中。
 
-本页面假定用户具有使用 [!UICONTROL Analysis Workspace] 的基本知识。如果您还不熟悉 Adobe Analytics 中的工具，请参阅[在 Analysis Workspace 中为 Google Analytics 用户创建基本报表](reports/create-report.md)。
+本页面假定用户具有使用 [!UICONTROL Analysis Workspace] 的基本知识。 如果您还不熟悉 Adobe Analytics 中的工具，请参阅[在 Analysis Workspace 中为 Google Analytics 用户创建基本报表](reports/create-report.md)。
 
 ## 功能板
 
-[!UICONTROL Analysis Workspace] 体系结构的构建理念类似于功能板小组件的概念。[!UICONTROL Analysis Workspace] 中的项目大致相当于 Google Analytics 中的功能板。[!UICONTROL Analysis Workspace] 中的可视化效果大致相当于 Google Analytics 中的小组件。
+[!UICONTROL Analysis Workspace] 体系结构的构建理念类似于功能板小组件的概念。 [!UICONTROL Analysis Workspace] 中的项目大致相当于 Google Analytics 中的功能板。 [!UICONTROL Analysis Workspace] 中的可视化效果大致相当于 Google Analytics 中的小组件。
 
 ### 将内容添加到项目
 
@@ -35,14 +41,14 @@ ht-degree: 94%
 * **饼图小组件**&#x200B;大致相当于[!UICONTROL “圆环图”]可视化效果。
 * **条形图小组件**&#x200B;大致相当于[!UICONTROL “条形图”]可视化效果。
 
-[!UICONTROL Analysis Workspace] 包括更多可视化效果选项，以通过最适合您报表需求的方式呈现数据。有关更多信息，请参阅分析用户指南中的 [Analysis Workspace 中的可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
+[!UICONTROL Analysis Workspace] 包括更多可视化效果选项，以通过最适合您报表需求的方式呈现数据。 有关更多信息，请参阅分析用户指南中的 [Analysis Workspace 中的可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 
 ### 共享项目
 
 完成向项目添加内容后，即可共享该内容。
 
-* 要与同事共享项目，请转到&#x200B;**[!UICONTROL 共享 > 共享项目]**。收件人是您组织中拥有 Adobe Analytics 帐户的其他用户。
-* 要通过链接共享您的项目，请转到&#x200B;**[!UICONTROL 共享 > 获取项目链接]**。请注意，这仍需要您登录组织内的 Adobe Analytics。
+* 要与同事共享项目，请转到&#x200B;**[!UICONTROL 共享 > 共享项目]**。 收件人是您组织中拥有 Adobe Analytics 帐户的其他用户。
+* 要通过链接共享您的项目，请转到&#x200B;**[!UICONTROL 共享 > 获取项目链接]**。 请注意，这仍需要您登录组织内的 Adobe Analytics。
 
 ### 导出项目
 
@@ -54,11 +60,11 @@ ht-degree: 94%
 
 ## 自定义报表
 
-在 Google Analytics 中创建自定义报表时，所需字段与在工作区中构建可视化的工作流类似。两平台中的维度、指标和过滤器定义相似。在 Analysis Workspace 中，将维度和指标拖动到自由格式表中，而不是从列表中选择维度和指标。
+在 Google Analytics 中创建自定义报表时，所需字段与在工作区中构建可视化的工作流类似。 两平台中的维度、指标和过滤器定义相似。 在 Analysis Workspace 中，将维度和指标拖动到自由格式表中，而不是从列表中选择维度和指标。
 
 ### 自定义报表中的计算指标
 
-自定义报表是 Google Analytics 中允许使用计算指标的少数几个区域之一。由于 Analysis Workspace 的运行方式与画布类似，因此计算指标可在任何上下文中逆向工作。
+自定义报表是 Google Analytics 中允许使用计算指标的少数几个区域之一。 由于 Analysis Workspace 的运行方式与画布类似，因此计算指标可在任何上下文中逆向工作。
 
 创建计算指标：
 
@@ -72,4 +78,4 @@ ht-degree: 94%
 
 ## 自定义警报
 
-警报在两种平台上均可用。在 Adobe Analytics 中，使用标题导航菜单，转到&#x200B;*[!UICONTROL 组件]* > *[!UICONTROL 警报]*。有关详细信息，请参阅组件用户指南中的[警报概述](/help/components/alerts/alerts-overview.md)。
+警报在两种平台上均可用。 在 Adobe Analytics 中，使用标题导航菜单，转到&#x200B;*[!UICONTROL 组件]* > *[!UICONTROL 警报]*。 有关详细信息，请参阅组件用户指南中的[警报概述](/help/components/alerts/alerts-overview.md)。

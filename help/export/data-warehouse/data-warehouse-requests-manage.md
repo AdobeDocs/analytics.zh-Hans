@@ -4,9 +4,13 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: 1150
 ht-degree: 4%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 4%
 
 ## 查看请求
 
-默认情况下，您只能查看您创建的请求，除非用户已选择将其请求对组织中的其他人可见(如[Data Warehouse请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)中所述)。 系统管理员可以查看所有请求。
+默认情况下，您只能查看您创建的请求，除非用户已选择将其请求对组织中的其他人可见（如[Data Warehouse请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)中所述）。 系统管理员可以查看所有请求。
 
 要查看Data Warehouse请求，请执行以下操作：
 
@@ -89,7 +93,7 @@ ht-degree: 4%
    | [!UICONTROL **开始日期**] | 报表开始的日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **完成日期**] | 报表完成的日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **日期已更新**] | 上次更新报告的日期和时间。<p>以发起请求的用户的时区显示。</p> |
-   | [!UICONTROL **状态**] | 报告投放的状态。 可能的状态是：<ul><li>[!UICONTROL **已创建**]：报告已创建，但尚未处理。</li><li>[!UICONTROL **挂起**]：报表正在等待处理。</li><li>[!UICONTROL **正在处理**]：报表当前正在处理。</li><li>[!UICONTROL **已完成**]：报告已完成，现在可用。</li><li>[!UICONTROL **已计划**]：报告已计划，但尚未启动。</li><li>[!UICONTROL **已取消**]：用户已取消报告。</li><li>[!UICONTROL **错误 — 正在处理**：]报告遇到错误，无法处理。</li><li>[!UICONTROL **错误 — 无法发送**]：报告生成成功，但无法传送。 检查目标[的](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)配置，然后重新发送报告。</li></ul>。 |
+   | [!UICONTROL **状态**] | 报告投放的状态。 可能的状态是：<ul><li>[!UICONTROL **已创建**]：报告已创建，但尚未处理。</li><li>[!UICONTROL **挂起**]：报表正在等待处理。</li><li>[!UICONTROL **正在处理**]：报表当前正在处理。</li><li>[!UICONTROL **已完成**]：报告已完成，现在可用。</li><li>[!UICONTROL **已计划**]：报告已计划，但尚未启动。</li><li>[!UICONTROL **已取消**]：用户已取消报告。</li><li>[!UICONTROL **错误 — 正在处理**：]报告遇到错误，无法处理。</li><li>[!UICONTROL **错误 — 无法发送**]：报告生成成功，但无法传送。 检查目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)的[配置，然后重新发送报告。</li></ul>。 |
    | [!UICONTROL **来自**] | 报表中包含的整体时间范围的开始日期。<p>它以报表包的时区显示。</p> |
    | [!UICONTROL **至**] | 报告中包含的整体时间范围的结束日期。 <p>它以报表包的时区显示。</p> |
    | [!UICONTROL **旧请求ID**] | 用于在旧版Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |

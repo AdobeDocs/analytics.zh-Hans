@@ -3,10 +3,16 @@ description: 了解如何将 Mobile Services 处理规则迁移到 Adobe Analyti
 title: 将 Mobile Services 处理规则迁移到 Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+TQID: https://experienceleague.adobe.com/ISDjTVU-ro6M-zZmIvUHlvQKo8VsiCvyXlhaq-O7H58
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 88%
+source-wordcount: 701
+ht-degree: 89%
 
 ---
 
@@ -14,19 +20,19 @@ ht-degree: 88%
 
 此文档向您介绍如何将在 Mobile Services UI 中创建的附加处理规则（在生命周期量度之外）迁移到 Adobe Analytics。
 
-处理规则用于将上下文数据变量的值迁移到 prop 和 eVar。例如，您可以将“search-term”上下文数据变量的指放在商务变量 eVar 的值中，并在每次点击时覆盖该值。如果没有处理规则，上下文数据变量将毫无意义，并且不会在 Analytics 中填充任何报表。
+处理规则用于将上下文数据变量的值迁移到 prop 和 eVar。 例如，您可以将“search-term”上下文数据变量的指放在商务变量 eVar 的值中，并在每次点击时覆盖该值。 如果没有处理规则，上下文数据变量将毫无意义，并且不会在 Analytics 中填充任何报表。
 
 本文档还会向您演示如何在 Analysis Workspace 完成移动设备使用情况报告。
 
 ## 迁移处理规则
 
-如果您要将 Mobile Services 用于免费功能，例如处理规则和使用情况报告功能，则可以无缝迁移到 Analytics UI（处理规则 UI 或 Analysis Workspace）来完成这些功能。对于生命周期量度，或者在 AA 处理规则 UI 中设置的规则，无需进行任何迁移。生命周期量度是现成可用的量度，当您在应用程序中首次实施 Mobile SDK 时自动收集。
+如果您要将 Mobile Services 用于免费功能，例如处理规则和使用情况报告功能，则可以无缝迁移到 Analytics UI（处理规则 UI 或 Analysis Workspace）来完成这些功能。 对于生命周期量度，或者在 AA 处理规则 UI 中设置的规则，无需进行任何迁移。 生命周期量度是现成可用的量度，当您在应用程序中首次实施 Mobile SDK 时自动收集。
 
 但是，如果您在 Mobile Services UI 设置了任何其他处理规则（在生命周期量度之外），则应迁移这些处理规则，这样在您无法访问 Mobile Services 之后才能在 Analytics 中编辑/删除这些规则。
 
 1. 登录 `experience.adobe.com` 并转到 Mobile Services。
 1. 对您要将其上下文变量映射迁移到 Adobe Analytics 的移动应用程序，单击其齿轮图标。
-1. 单击&#x200B;**[!UICONTROL 管理变量和量度]**&#x200B;菜单项，然后单击&#x200B;**[!UICONTROL 自定义变量]**&#x200B;选项卡。在这里，您可以看到向配置中添加了哪些上下文变量映射（上下文数据）。记录这些配置（或拍摄屏幕快照）。 示例：
+1. 单击&#x200B;**[!UICONTROL 管理变量和量度]**&#x200B;菜单项，然后单击&#x200B;**[!UICONTROL 自定义变量]**&#x200B;选项卡。 在这里，您可以看到向配置中添加了哪些上下文变量映射（上下文数据）。 记录这些配置（或拍摄屏幕快照）。 示例：
 
    ![上下文变量](assets/context-var.png)
 
@@ -76,5 +82,5 @@ ht-degree: 88%
 如果您将 Mobile Services 用于付费功能，则没有向其他内部/外部工具迁移的可行途径：
 
 * 对于客户获取链接，我们可以将您引导至 Adobe Partners 以满足您的需求。
-* 推送消息传送和应用程序内消息传送在 Adobe Campaign Standard 和 Adobe Campaign Classic（仅限推送）中可用。但是，用于定位的底层数据集是不同的。我们建议您与 Adobe 客户团队合作来确定消息传送数据的迁移选项。
+* 推送消息传送和应用程序内消息传送在 Adobe Campaign Standard 和 Adobe Campaign Classic（仅限推送）中可用。 但是，用于定位的底层数据集是不同的。 我们建议您与 Adobe 客户团队合作来确定消息传送数据的迁移选项。
 * 对于位置功能，建议您采用新的[Adobe Experience Platform位置服务](https://www.adobe.com/experience-platform/location-service.html)，该服务对所有Adobe Experience Platform客户免费。

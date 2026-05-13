@@ -4,9 +4,15 @@ description: 单击链接时的页面名称。
 feature: Dimensions
 role: User, Admin
 exl-id: 8dc5d5a1-ee44-4c98-80fa-13dd1cf4edf2
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+TQID: https://experienceleague.adobe.com/WJ0uk-LqIABwehzzy79c2o1cd3EvI-AKUJ--vmLnKRE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: 189
 ht-degree: 6%
 
 ---
@@ -21,6 +27,6 @@ ht-degree: 6%
 
 对于已单击的给定链接，此上下文数据变量将收集[页面](page.md)维度中的值。 如果页面维度不包含值，则改用[页面URL](page-url.md)维度（与页面维度使用的回退类似）。 Activity Map数据通常会在点击链接后的下一次点击中发送。 利用此维度，可确定点击链接时的页面值，而不是发送数据时的页面值。
 
-## 维度项
+## 维度项目
 
 Dimension项目包括[页面](page.md)维度中找到的所有值。

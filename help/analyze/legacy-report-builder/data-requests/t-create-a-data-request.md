@@ -4,10 +4,14 @@ title: 创建数据请求
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/w-oiIfs1qFMoQbaN8YrNIn1TRNHeN97lQOlkLeXdLb0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 97%
+source-wordcount: 284
+ht-degree: 73%
 
 ---
 
@@ -19,9 +23,9 @@ ht-degree: 97%
 
 1. 在 Excel 中，单击&#x200B;**[!UICONTROL 创建]**。
 1. 在[!UICONTROL 请求向导：第 1 步]窗口中，选择一个[报表包](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
-1. （可选）选择一个要应用到请求的区段。选择一个或多个区段后，它们将会移动到列表顶部。
+1. （可选）选择一个要应用到请求的区段。 选择一个或多个区段后，它们将会移动到列表顶部。
 
-   Report Builder 使用区段的方式与 Adobe Analytics 使用区段的方式相同。请参阅 [Analytics 分段指南](/help/components/segmentation/seg-home.md)。
+   Report Builder 使用区段的方式与 Adobe Analytics 使用区段的方式相同。 请参阅 [Analytics 分段指南](/help/components/segmentation/seg-home.md)。
 1. 选择[报表类型](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md)。
 1. 指定[日期范围](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)和报表[粒度](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md)。
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
@@ -29,12 +33,12 @@ ht-degree: 97%
 
    | 元素 | 描述 |
    |---|---|
-   | 引导布局 | 为布局提供行、列和指标网格，类似于标准 Excel 表。使用此布局，您可以在原始请求中添加划分请求。 |
-   | 自定义布局 | 提供[!UICONTROL 引导布局]的大多数功能，但是允许您选择网格中的每个项目应该位于电子表格中的什么位置。此布局具备了早期版本的灵活性。 |
+   | 引导布局 | 为布局提供行、列和指标网格，类似于标准 Excel 表。 使用此布局，您可以在原始请求中添加划分请求。 |
+   | 自定义布局 | 提供[!UICONTROL 引导布局]的大多数功能，但是允许您选择网格中的每个项目应该位于电子表格中的什么位置。 此布局提供了以前版本中提供的灵活性。 |
 
 1. 在[!UICONTROL 指标]选项卡上，双击（或拖动）树中的指标，以将其添加到[!UICONTROL 指标]网格中。
 1. 在[!UICONTROL 维度]选项卡上，双击（或拖动）维度，以将其添加到[!UICONTROL 行标签]网格中。
 
-   在第 2 步中提供的[维度](/help/analyze/report-builder/filter-dimensions.md)取决于您在第 1 步中选择的基本报表和报表包的配置。维度是具有关联、子关系的项目，或者是在[!UICONTROL 请求向导: 第 1 步]窗口中选择的原始报表类型指标的分类。通过在第 2 步中添加多个维度，可在数据请求中创建划分。
+   步骤2中可用的[维度](/help/analyze/report-builder/filter-dimensions.md)取决于您在步骤1中选择的基本报表以及报表包的配置。 维度是具有关联、子关系的项目，或者是在[!UICONTROL 请求向导: 第 1 步]窗口中选择的原始报表类型指标的分类。 在步骤2中添加多个维度是在数据请求中创建划分的方式。
 
    有关详细信息，请参阅[添加量度和维度](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)。

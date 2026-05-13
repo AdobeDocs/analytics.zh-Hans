@@ -3,9 +3,13 @@ title: 反向链接类型
 description: 反向链接类型，取决于访客的来源。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 98316266eb25c01c571901a62aa076276622bfc5
+TQID: https://experienceleague.adobe.com/KPTS2iWls0V8I2gI0xcH1V89w0stZyVq6jWdQyEyrLY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: 502
 ht-degree: 88%
 
 ---
@@ -16,11 +20,11 @@ ht-degree: 88%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的多个查找表。每个值都基于点击的[反向链接](referrer.md)，具体取决于[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。确保正确配置反向链接维度和内部 URL 过滤器。
+此维度引用 Adobe 内部的多个查找表。 每个值都基于点击的[反向链接](referrer.md)，具体取决于[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 确保正确配置反向链接维度和内部 URL 过滤器。
 
 ## 维度项目
 
-维度项目包括点击的反向链接类型。具体值包括：
+维度项目包括点击的反向链接类型。 具体值包括：
 
 * **已输入/添加书签**：点击不存在反向链接数据。
 * **搜索引擎**：反向链接来自于包括关键词查询字符串的可识别搜索引擎。
@@ -29,11 +33,11 @@ ht-degree: 88%
 * **其他网站**：反向链接数据既不属于搜索引擎，也不属于 Adobe 可识别的社交网络。
 * **无JavaScript**：反向链接来自未启用JavaScript的浏览器。
 * **硬盘**：反向链接源于访客硬盘上网页的本地副本。
-* **电子邮件**：反向链接源于使用 `imap://` 或 `mail://` 协议的 URL。不包括在线电子邮件服务，因为这些服务通常使用 `https://` 协议。
+* **电子邮件**：反向链接源于使用 `imap://` 或 `mail://` 协议的 URL。 不包括在线电子邮件服务，因为这些服务通常使用 `https://` 协议。
 
 ### 对话式人工智能工具
 
-以下列表引用了Adobe使用的“对话式人工智能工具”查找表。 Adobe 将以下列表免费提供给 Adobe Analytics 客户。如果您希望向 Adobe 提出建议将某个域添加到此列表，请让贵组织的支持代表联系客户服务部门。
+以下列表引用了Adobe使用的“对话式人工智能工具”查找表。 Adobe 将以下列表免费提供给 Adobe Analytics 客户。 如果您希望向 Adobe 提出建议将某个域添加到此列表，请让贵组织的支持代表联系客户服务部门。
 
 * `https://chatgpt.com`
 * `https://chat.com`
@@ -57,7 +61,7 @@ ht-degree: 88%
 
 ### 社交网站
 
-以下列表引用了 Adobe 使用的“社交网络”查找表。Adobe 将以下列表免费提供给 Adobe Analytics 客户。如果您希望向 Adobe 提出建议将某个域添加到此列表，请让贵组织的支持代表联系客户服务部门。
+以下列表引用了 Adobe 使用的“社交网络”查找表。 Adobe 将以下列表免费提供给 Adobe Analytics 客户。 如果您希望向 Adobe 提出建议将某个域添加到此列表，请让贵组织的支持代表联系客户服务部门。
 
 >[!NOTE]
 >
@@ -233,7 +237,7 @@ ht-degree: 88%
 
 ### “其他网站”维度项目中的搜索引擎
 
-在查看“反向链接类型”维度中的特定域时，您可能会发现自己预计会列在“搜索引擎”下的域，实际上列在“其他网站”下。例如，您可能会看到 `'google.com'` 列在“其他网站”下。
+在查看“反向链接类型”维度中的特定域时，您可能会发现自己预计会列在“搜索引擎”下的域，实际上列在“其他网站”下。 例如，您可能会看到 `'google.com'` 列在“其他网站”下。
 
-* **“搜索引擎”维度项目中的搜索引擎域**：反向链接符合 Adobe 分类为搜索引擎的所有条件。反向链接域是有效的搜索引擎，*并且*&#x200B;反向链接 URL 包含关键词查询字符串参数。
-* **“其他网站”维度项目中的搜索引擎域**：反向链接 URL 不符合分类为搜索引擎的所有条件。常见示例包括专用于搜索之外的其他功能的子域。例如，`mail.google.com` 或 `autos.yahoo.com` 不是搜索引擎，但驻留在通常与搜索相关联的顶级域上。这些子域不包含关键词查询字符串，这正是它们被归入“其他网站”而不是“搜索引擎”下的原因。
+* **“搜索引擎”维度项目中的搜索引擎域**：反向链接符合 Adobe 分类为搜索引擎的所有条件。 反向链接域是有效的搜索引擎，*并且*&#x200B;反向链接 URL 包含关键词查询字符串参数。
+* **“其他网站”维度项目中的搜索引擎域**：反向链接 URL 不符合分类为搜索引擎的所有条件。 常见示例包括专用于搜索之外的其他功能的子域。 例如，`mail.google.com` 或 `autos.yahoo.com` 不是搜索引擎，但驻留在通常与搜索相关联的顶级域上。 这些子域不包含关键词查询字符串，这正是它们被归入“其他网站”而不是“搜索引擎”下的原因。

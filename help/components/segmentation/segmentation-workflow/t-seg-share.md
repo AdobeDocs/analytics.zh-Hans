@@ -3,10 +3,15 @@ description: 了解如何与整个组织、组或个人用户共享区段。
 title: 共享区段
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/6NHInvDefCx7jcszRiGERN2FadCAC3QIUqgCw9pnoII
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 57%
+source-wordcount: 431
+ht-degree: 38%
 
 ---
 
@@ -14,16 +19,16 @@ ht-degree: 57%
 
 根据您的权限，可以与整个组织、组或个人用户共享区段。
 
-| 管理员 | 可以与“所有人”、“组”和“用户”共享区段。组在管理控制台内设置为权限组。 |
+| 管理员 | 可以与“所有人”、“群组”和“用户”共享区段。 组在Admin Console中设置为权限组。 |
 |---|---|
 | 非管理员 | 只能与个人用户共享区段。 |
 
-相比于与用户组或个人用户共享，什么时候应当与整个公司共享区段？下面是可能需要遵循的一些最佳实践：
+何时应将区段共享给整个公司而不仅是一组用户或个人？ 下面是可能需要遵循的一些最佳实践：
 
-* 作为管理员，如果某个区段对整个公司都有用，或者每个人都能熟练使用，那么就应当与“**[!UICONTROL 所有人]**”共享该区段。在这种情况下，还应当考虑将其设为[已批准](/help/components/segmentation/segmentation-workflow/seg-approve.md)的区段。
+* 作为管理员，如果某个区段对整个公司都有用，或者每个人都能熟练使用，那么就应当与“**[!UICONTROL 所有人]**”共享该区段。 在这种情况下，还应当考虑将其设为[已批准](/help/components/segmentation/segmentation-workflow/seg-approve.md)的区段。
 
-* 作为管理员，如果某个区段为团队带来良好的商业价值，那么就应当将此区段与特定“**[!UICONTROL 组]**”共享。请不要正式批准此类型的区段。
-* 作为管理员或个人用户，请将区段与其他个人用户共享，以便审查和验证该区段。如果经证实没有用处，则可以放弃。请不要正式批准此类型的区段。
+* 作为管理员，如果某个区段为团队带来良好的商业价值，那么就应当将此区段与特定“**[!UICONTROL 组]**”共享。 请勿正式批准此类型的区段。
+* 作为管理员或个人用户，请将区段与其他个人共享以审查和验证区段。 如果经证实没有用处，则可以放弃。 请勿正式批准此类型的区段。
 
 1. 在区段管理器中，选中要共享的区段旁边的![SelectBox](/help/assets/icons/SelectBox.svg)复选框。
 1. 选择![共享](/help/assets/icons/Share.svg)共享。
@@ -31,7 +36,7 @@ ht-degree: 57%
 
    ![共享区段](assets/share-segments-dialog.png)
 
-   如果您是管理员，则可以选择“**[!UICONTROL 所有人]**”或组织中的“**[!UICONTROL 组]**”和“用户&#x200B;**[!UICONTROL ”。]**&#x200B;如果您不是管理员，则只能看到个人用户。使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段搜索组或用户。1.
+   如果您是管理员，则可以选择“**[!UICONTROL 所有人]**”或组织中的“**[!UICONTROL 组]**”和“用户&#x200B;**[!UICONTROL ”。]** 如果您不是管理员，则只能看到个人用户。 使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段搜索组或用户。 1.
 
    1. （可选）使用![搜索](/help/assets/icons/Search.svg)到&#x200B;*搜索个人或组*，并限制要与其共享区段的组或个人的列表。
 

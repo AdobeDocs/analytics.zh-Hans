@@ -4,10 +4,14 @@ description: 使用此变量将在线和离线数据链接在一起。
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/3dK-vqoRvlIA682zDh4KqlujSC6zqMxpz5ZEpmkTJN8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 75%
+source-wordcount: 410
+ht-degree: 79%
 
 ---
 
@@ -17,9 +21,9 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->在使用此变量之前，请确保在报表包中启用了[!UICONTROL 交易 ID 存储]。有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。
+>在使用此变量之前，请确保在报表包中启用了[!UICONTROL 交易 ID 存储]。 有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。
 
-当您在点击上设置 `transactionID` 时，Adobe 会及时拍摄在该时间点设置或持久保留的所有 Analytics 变量的快照。有关快照中包含的维度列表，请参阅[交易ID数据源](/help/import/data-sources/transactionid.md)。 Adobe最多可在25个月内记住所有交易ID值（已链接和未链接）。
+当您在点击上设置 `transactionID` 时，Adobe 会及时拍摄在该时间点设置或持久保留的所有 Analytics 变量的快照。 有关快照中包含的维度列表，请参阅[交易ID数据源](/help/import/data-sources/transactionid.md)。 Adobe最多可在25个月内记住所有交易ID值（已链接和未链接）。
 
 ## 使用 Web SDK 的交易 ID
 
@@ -36,20 +40,20 @@ ht-degree: 75%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 交易 ID] 部分。
 
 您可以将交易 ID 设置为任何字符串值，包括数据元素。
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.transactionID
 
-`s.transactionID` 变量是一个包含交易的唯一标识符的字符串。有效值包括长度不超过 100 字节的字母数字字符。其默认值是空字符串。
+`s.transactionID` 变量是一个包含交易的唯一标识符的字符串。 有效值包括长度不超过 100 字节的字母数字字符。 其默认值是空字符串。
 
 ```js
 s.transactionID = "ABC123";
 ```
 
-如果一次点击涉及多个交易 ID，则可以用逗号分隔每个交易 ID。多个交易 ID 仍受最大长度为 100 字节的限制。
+如果一次点击涉及多个交易 ID，则可以用逗号分隔每个交易 ID。 多个交易 ID 仍受最大长度为 100 字节的限制。
 
 ```js
 s.transactionID = "ABC123,XYZ456";
@@ -57,4 +61,4 @@ s.transactionID = "ABC123,XYZ456";
 
 >[!TIP]
 >
->如果您使用此变量集成多个离线渠道，请确保各个渠道不会与交易 ID 重叠。例如，如果呼叫中心交易 ID 值为 `1234`，而潜在销售顾客交易 ID 值为 `1234`，则它们可能会发生冲突并导致意外结果。确保每个离线渠道的交易 ID 都包含唯一的格式，并在必要时加以区分。例如，在数据源和 AppMeasurement 中将呼叫中心交易 ID 设置为 `call_1234`，并将潜在销售顾客交易 ID 设置为 `lead_1234`。
+>如果您使用此变量集成多个离线渠道，请确保各个渠道不会与交易 ID 重叠。 例如，如果呼叫中心交易 ID 值为 `1234`，而潜在销售顾客交易 ID 值为 `1234`，则它们可能会发生冲突并导致意外结果。 确保每个离线渠道的交易 ID 都包含唯一的格式，并在必要时加以区分。 例如，在数据源和 AppMeasurement 中将呼叫中心交易 ID 设置为 `call_1234`，并将潜在销售顾客交易 ID 设置为 `lead_1234`。

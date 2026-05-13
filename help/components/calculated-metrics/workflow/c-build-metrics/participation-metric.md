@@ -3,10 +3,15 @@ description: 了解如何创建参与率量度。
 title: 参与率度量
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/KATQCXbw-92hpWIzjMMl8K6WCB4ePASY0fZ7g0zRYtc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 2%
+source-wordcount: 191
+ht-degree: 5%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 2%
 1. [创建计算量度](../cm-workflow.md)，在[计算量度生成器](cm-build-metrics.md)中，将量度命名为`Orders (Visit Participation)`或类似名称。
 1. 将包含成功事件的量度（例如[!DNL Online Orders]）拖入[!UICONTROL **[!UICONTROL 定义]**]区域。
 1. 为量度选择![齿轮](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)。
-1. 在出现的弹出窗口中，选择&#x200B;**[!UICONTROL 使用非默认归因模型]**&#x200B;将该事件的[归因模型](m-metric-type-alloc.md#attribution-models)定义为&#x200B;**[!UICONTROL 参与率]**，并为&#x200B;**[!UICONTROL 容器]**&#x200B;选择[!UICONTROL 访问次数]。 选择&#x200B;**[!UICONTROL 应用]**&#x200B;以确认。
+1. 在出现的弹出窗口中，选择&#x200B;**[!UICONTROL 使用非默认归因模型]**&#x200B;将该事件的[归因模型](m-metric-type-alloc.md#attribution-models)定义为&#x200B;**[!UICONTROL 参与率]**，并为[!UICONTROL 容器]选择&#x200B;**[!UICONTROL 访问次数]**。 选择&#x200B;**[!UICONTROL 应用]**&#x200B;以确认。
 
 
    ![列归因模型弹出窗口，其中显示已选定参与率作为模型和已选定访问容器的。](assets/participation-setup.png)

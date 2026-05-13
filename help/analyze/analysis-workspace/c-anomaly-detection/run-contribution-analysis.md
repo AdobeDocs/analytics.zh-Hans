@@ -4,16 +4,22 @@ title: 运行贡献分析
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/gRnQxBkxEqtDdZ-zbgeg4Oe0MweTmqKwtThl3NYPpgs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 14%
+source-wordcount: 554
+ht-degree: 9%
 
 ---
 
 # 运行贡献分析
 
-[贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)是一个密集型机器学习过程，旨在揭示导致在 Adobe Analytics 中观察到异常的各项因素。意图在于协助用户以远快于其他方式的速度找到焦点领域或时机以供进行其他分析。
+[贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)是一个密集型机器学习过程，旨在揭示导致在 Adobe Analytics 中观察到异常的各项因素。 意图在于协助用户以远快于其他方式的速度找到焦点领域或时机以供进行其他分析。
 
 >[!NOTE]
 >
@@ -69,7 +75,7 @@ ht-degree: 14%
 
 ## 排除维度
 
-您可能需要从贡献分析中排除某些维度。 例如，您可能根本不关心任何与浏览器或硬件相关的维度，因此希望删除它们从而加快分析速度。
+您可能需要从贡献分析中排除某些维度。 例如，您可能根本不关心任何与浏览器或硬件相关的维度，并且希望通过删除这些维度来加快分析速度。
 
 要管理排除的维度，请执行以下操作：
 

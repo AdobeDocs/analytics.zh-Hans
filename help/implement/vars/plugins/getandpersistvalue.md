@@ -4,9 +4,13 @@ description: 存储稍后可随时检索的值。
 feature: Appmeasurement Implementation
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/yLRVVYMrVX4-FUDDqSs8jJjgMuOvlqr3WxOXZKFC8AI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 716
 ht-degree: 70%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。其作用与Adobe Experience Platform数据收集中Adobe Analytics扩展的[!UICONTROL 存储持续时间]功能类似。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果Analytics扩展中的[!UICONTROL 存储持续时间]功能足够，则没必要使用此插件。 如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。eVar 的内置持久性不需要使用此插件，因为 eVar 会由 Adobe 保留在服务器端。
+`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。 其作用与Adobe Experience Platform数据收集中Adobe Analytics扩展的[!UICONTROL 存储持续时间]功能类似。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。 如果Analytics扩展中的[!UICONTROL 存储持续时间]功能足够，则没必要使用此插件。 如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。 eVar 的内置持久性不需要使用此插件，因为 eVar 会由 Adobe 保留在服务器端。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -65,7 +69,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -79,10 +83,10 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 `getAndPersist` 函数使用以下参数：
 
 * **`vtp`**（必需）：要在页面之间保留的值
-* **`cn`**（可选）：用于存储值的 Cookie 的名称。如果未设置此参数，则将 Cookie 命名为 `"s_gapv"`
-* **`ex`**（可选）：Cookie 过期前的天数。如果此参数为 `0` 或未设置，则 Cookie 将在访问结束时过期（处于不活动状态 30 分钟）。
+* **`cn`**（可选）：用于存储值的 Cookie 的名称。 如果未设置此参数，则将 Cookie 命名为 `"s_gapv"`
+* **`ex`**（可选）：Cookie 过期前的天数。 如果此参数为 `0` 或未设置，则 Cookie 将在访问结束时过期（处于不活动状态 30 分钟）。
 
-如果已设置 `vtp` 参数中的变量，则插件会设置 Cookie，然后返回 Cookie 值。如果未设置 `vtp` 参数中的变量，则插件只会返回 Cookie 值。
+如果已设置 `vtp` 参数中的变量，则插件会设置 Cookie，然后返回 Cookie 值。 如果未设置 `vtp` 参数中的变量，则插件只会返回 Cookie 值。
 
 ## 示例
 

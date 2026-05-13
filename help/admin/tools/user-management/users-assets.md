@@ -4,10 +4,15 @@ title: 管理Analytics用户和资产
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 4%
+source-wordcount: 455
+ht-degree: 9%
 
 ---
 
@@ -22,7 +27,7 @@ ht-degree: 4%
 | [!UICONTROL 用户 ID] | 用户用于登录到Adobe Analytics的用户ID。 |
 | [!UICONTROL 名称] | 用户的名称。 |
 | [!UICONTROL 迁移状态] | 从旧用户帐户迁移到Enterprise ID或Adobe ID的状态。  状态可以是“未启动”、“已排队”或“已迁移”。 |
-| [!UICONTROL 电子邮件] | 用户的电子邮件。 |
+| [!UICONTROL 电子邮件] | 用户的邮箱。 |
 | [!UICONTROL 旧版登录] | 旧版登录的状态，可为“启用”或“禁用”。 |
 | [!UICONTROL 创建日期] | 在Adobe Analytics中创建用户帐户的时间戳。 |
 | [!UICONTROL 上次Analytics访问权限] | 用户帐户最近访问Adobe Analytics的时间戳， |

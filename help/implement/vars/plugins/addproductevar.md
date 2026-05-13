@@ -4,9 +4,13 @@ description: 将推销 eVar 添加到产品变量。
 feature: Appmeasurement Implementation
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/ZfOvSvoKgSRbESRnKQo-59s4GteAEgTwXINoXpyVsk4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: 557
 ht-degree: 87%
 
 ---
@@ -15,11 +19,11 @@ ht-degree: 87%
 
 {{plug-in}}
 
-通过 `addProductEvar` 插件，您轻松地将使用产品语法的 Adobe Analytics 推销 eVar 添加到产品变量中，而不必担心产品变量的现有内容是否会被更改/移动/删除。如果您想轻松地将产品语法推销 eVar 添加到 [`products`](../page-vars/products.md) 变量中，则 Adobe 建议使用此插件。如果不将推销 eVar 与产品语法一起使用，则无需使用 `addProductEvar` 插件。
+通过 `addProductEvar` 插件，您轻松地将使用产品语法的 Adobe Analytics 推销 eVar 添加到产品变量中，而不必担心产品变量的现有内容是否会被更改/移动/删除。 如果您想轻松地将产品语法推销 eVar 添加到 [`products`](../page-vars/products.md) 变量中，则 Adobe 建议使用此插件。 如果不将推销 eVar 与产品语法一起使用，则无需使用 `addProductEvar` 插件。
 
 >[!NOTE]
 >
->此插件不会替换产品条目中已存在的 eVar。它仅会附加您使用此插件设置的值。附加该产品中已存在的 eVar 时请务必小心。
+>此插件不会替换产品条目中已存在的 eVar。 它仅会附加您使用此插件设置的值。 附加该产品中已存在的 eVar 时请务必小心。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -54,7 +58,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,11 +71,11 @@ function addProductEvar(en,ev,ap){var e=en,f=ev,d=ap;if("-v"===e)return{plugin:"
 
 `addProductEvar` 插件使用以下参数：
 
-* **`en`**（必需，字符串）：要添加到当前包含在产品变量中的最后一个条目的 eVar。如果产品变量为空，则插件将创建一个“空白”产品条目，并在条目末尾附加 eVar 值。
+* **`en`**（必需，字符串）：要添加到当前包含在产品变量中的最后一个条目的 eVar。 如果产品变量为空，则插件将创建一个“空白”产品条目，并在条目末尾附加 eVar 值。
 * **`ev`**（必需，字符串）：分配给 eVar 的值。
-* **`ap`**（可选，布尔值）：如果产品变量当前包含多个产品条目，则值为 true（或 1）时，会将 eVar 添加到&#x200B;**所有**&#x200B;产品条目。该值默认为 false（或 0），即仅将 eVar 添加到产品变量中包含的&#x200B;**最后一个**&#x200B;条目。
+* **`ap`**（可选，布尔值）：如果产品变量当前包含多个产品条目，则值为 true（或 1）时，会将 eVar 添加到&#x200B;**所有**&#x200B;产品条目。  该值默认为 false（或 0），即仅将 eVar 添加到产品变量中包含的&#x200B;**最后一个**&#x200B;条目。
 
-`addProductEvar` 插件不会返回任何内容。而是将 `en` 和 `ev` 参数中指定的 eVar（和 eVar 值）添加到 `products` 变量中。
+`addProductEvar` 插件不会返回任何内容。 而是将 `en` 和 `ev` 参数中指定的 eVar（和 eVar 值）添加到 `products` 变量中。
 
 ## 示例
 

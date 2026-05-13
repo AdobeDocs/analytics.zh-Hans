@@ -6,16 +6,20 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
-source-git-commit: ff1722416fe5062d16c12185d17271ebc2d6b624
+TQID: https://experienceleague.adobe.com/RDgK9vgflGZC0HWd1GD-9nmBNdsJAHYEWt4jrmLGw5w
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 20%
+source-wordcount: 773
+ht-degree: 21%
 
 ---
 
 # 创建一个数据块
 
-*数据块*&#x200B;是由单个数据请求创建的数据的表。Report Builder 工作簿可以包含多个数据块。创建数据块时，首先配置数据块，然后构建数据块。
+*数据块*&#x200B;是由单个数据请求创建的数据的表。 Report Builder 工作簿可以包含多个数据块。 创建数据块时，首先配置数据块，然后构建数据块。
 
 ## 配置数据块
 
@@ -42,7 +46,7 @@ ht-degree: 20%
 
 1. 设置&#x200B;**[!UICONTROL 日期范围]**。
 
-   **[!UICONTROL 日期范围]**&#x200B;选项允许您选择日期范围。 日期范围可以是固定的，也可以是滚动的。
+   **[!UICONTROL 日期范围]**&#x200B;选项允许您选择日期范围。 日期范围可以固定，也可以是滚动的。
 
    选择&#x200B;**[!UICONTROL 日历]**&#x200B;以使用![日历](/help/assets/icons/Calendar.svg)选择数据范围，或手动输入日期范围。 或者，您可以从&#x200B;**[!UICONTROL _搜索预设_]**&#x200B;下拉菜单中选择预设。
 
@@ -75,7 +79,7 @@ ht-degree: 20%
 
    拖放“表”窗格中每个列表中的组件以重新排列组件，或者选择![MoreSmall](/help/assets/icons/MoreSmall.svg)并选择![向上箭头](/help/assets/icons/ArrowUp.svg)上移、![向下箭头](/help/assets/icons/ArrowDown.svg)下移等等，以在列表中移动组件。
 
-   将组件添加到表时，数据块的预览显示在工作表中的“数据块”位置。在表中添加、移动或删除项目时，数据块版面的预览自动更新。
+   将组件添加到表时，数据块的预览显示在工作表中的“数据块”位置。 在表中添加、移动或删除项目时，数据块版面的预览自动更新。
 
    ![显示已添加组件和已更新工作表的屏幕截图。](./assets/image10.png)
 
@@ -114,8 +118,8 @@ ht-degree: 20%
 >[!MORELIKETHIS]
 >
 >[选择报表包](select-report-suite.md)
->[选择日期范围](select-date-range.md)
->[筛选维度](filter-dimensions.md)
+>[选择一个日期范围](select-date-range.md)
+>[过滤器维度](filter-dimensions.md)
 >[使用区段](work-with-segments.md)
 >
 

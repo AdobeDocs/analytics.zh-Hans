@@ -4,9 +4,15 @@ description: 了解旧版 JavaScript 实施存在的一些常见问题。
 feature: Implementation Basics
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/DootwtTj5kDIRHKhFPeY3Fnt3bWdVLsXc6J3UEc5LPI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 246
 ht-degree: 100%
 
 ---
@@ -21,11 +27,11 @@ ht-degree: 100%
 >
 >虽然 H 码实施要求在 `<body>` 标记中引用代码，但其他实施（如使用 Adobe Experience Platform 中的标记的实施）要求在 `<head>` 标记中引用代码。
 
-Analytics 代码可创建不可见的 1x1 像素图像。过去，一种常用的实施做法是将 `s_code.js` 引用放置到 `<head>` 标记中。将代码放置到此处可防止图像以任何方式影响页面布局。此外，Analytics 代码还可以更快执行，从而允许您更有效地计算部分页面加载的页面查看次数。
+Analytics 代码可创建不可见的 1x1 像素图像。 过去，一种常用的实施做法是将 `s_code.js` 引用放置到 `<head>` 标记中。 将代码放置到此处可防止图像以任何方式影响页面布局。 此外，Analytics 代码还可以更快执行，从而允许您更有效地计算部分页面加载的页面查看次数。
 
-但是，某些代码元素要求存在 `<body>` 对象。如果 Analytics JavaScript 代码位于 `<head>` 标记中，则该代码会在 `<body>` 对象存在之前先执行。因此，您的实施不会收集 [!UICONTROL ClickMap] 数据、文件下载或退出链接的自动跟踪数据，或连接类型数据。虽然可以将对 `s_code.js` 的脚本引用放置到 `<head>` 标记中，但生成的结果只能是非常受限的 Analytics 版本。
+但是，某些代码元素要求存在 `<body>` 对象。 如果 Analytics JavaScript 代码位于 `<head>` 标记中，则该代码会在 `<body>` 对象存在之前先执行。 因此，您的实施不会收集 [!UICONTROL ClickMap] 数据、文件下载或退出链接的自动跟踪数据，或连接类型数据。 虽然可以将对 `s_code.js` 的脚本引用放置到 `<head>` 标记中，但生成的结果只能是非常受限的 Analytics 版本。
 
-对于格式正确的 HTML 页面，Analytics 代码可置于 `<body>` 标记中的任何位置。Adobe 建议尽量靠近 `<body>` 标记的顶部放置 Analytics 代码。确保在 `s_code.js` 文件加载后再设置任何页面变量。
+对于格式正确的 HTML 页面，Analytics 代码可置于 `<body>` 标记中的任何位置。 Adobe 建议尽量靠近 `<body>` 标记的顶部放置 Analytics 代码。 确保在 `s_code.js` 文件加载后再设置任何页面变量。
 
 >[!TIP]
 >

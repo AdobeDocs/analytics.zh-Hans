@@ -4,10 +4,16 @@ title: 数据请求 — 请求向导第 1 步
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/87MzdxBePRZKBttF3P6XhuDq5hR6XpEWaLdrYDMu-5Y
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 91%
+source-wordcount: 401
+ht-degree: 70%
 
 ---
 
@@ -19,25 +25,25 @@ ht-degree: 91%
 
 ![显示“请求向导：第1步”表单的屏幕截图。](assets/rw1_overview.png)
 
-1. **[!UICONTROL 报表包：]**&#x200B;根据您的登录凭据向您提供的报表包列表。请参阅[选择报表包](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
+1. **[!UICONTROL 报表包]**：基于您的登录凭据可供您使用的报表包列表。 请参阅[选择报表包](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 
-1. **范围选择器：**&#x200B;允许您从 Excel 的单元格中选择报表包 ID。请参阅[选择报表包](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
+1. **范围选择器**：允许您从Excel中的单元格选择报表包ID。 请参阅[选择报表包](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 
-1. **区段**：区段是数据的自定义子集，或者是按您创建的规则所过滤的数据。区段基于点击数、访问次数和访客数。请参阅[《Analytics 分段指南》](/help/components/segmentation/seg-home.md)，以了解有关区段的更多信息。
+1. **区段**：区段是数据的自定义子集，或者是按您创建的规则所过滤的数据。 区段基于点击、访问和访客。 请参阅[《Analytics 分段指南》](/help/components/segmentation/seg-home.md)，以了解有关区段的更多信息。
 
    例如，您可以运行[!UICONTROL 页面报表]，然后应用“首次访问”区段。
 
-1. **允许发布列表覆盖**：发布列表是Reports &amp; Analytics中的一项功能，其生命周期已结束[&#128279;](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?)。
+1. **允许发布列表覆盖**：发布列表是Reports &amp; Analytics中的一项功能，其生命周期已结束[](https://new.express.adobe.com/webpage/WFCyq7w8kijmB？)。
 
-1. **报表类型**：指定要在数据请求中运行的基本报表。每个请求运行一个报表，并且报表可以包含一对多维度和一对多指标。报表类型的指标和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。请参阅[选择报表类型](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md)。
+1. **报表类型**：指定要在数据请求中运行的基础报表。 每个请求运行一个报表，并且报表可以包含一对多维度和一对多指标。 报表类型的指标和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。 请参阅[选择报表类型](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md)。
 
-1. **日期范围**：定义请求涵盖的时间跨度。系统提供了多种类型的请求时段，如预设、固定和滚动。最大时段数是 366。您还可以选择单元格指定的日期范围，并且将日期范围保存为模板，供以后使用。请参阅[配置报表日期](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+1. **日期范围**：定义请求涵盖的时间范围。 有多种类型的请求时间段可用，例如预设、固定和滚动。 最大期间数为366。 您还可以选择单元格指定的日期范围，并且将日期范围保存为模板，供以后使用。  请参阅[配置报表日期](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
-1. **应用粒度**：指定报表中包含的基于时间的详细信息级别。请参阅[粒度](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md)。
+1. **应用粒度**：指定报表中包含的基于时间的详细信息级别。 请参阅[粒度](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md)。
 
-## 故障诊断
+## 故障排除
 
-有时，请求向导会显示在屏幕外，尤其是对于在不同显示器设置之间切换的用户而言更是如此。例如，您在办公室使用扩展坞，但在家中使用的是笔记本电脑屏幕。如果在请求向导已打开的情况下再次单击“创建”，则将出现以下错误：
+有时，请求向导会显示在屏幕外，尤其是对于在不同显示器设置之间切换的用户而言更是如此。 例如，您在办公室使用扩展坞，但在家中使用的是笔记本电脑屏幕。 如果在请求向导已打开的情况下再次单击“创建”，则将出现以下错误：
 
 “您需要先完成请求向导过程，然后再启动新过程。”
 

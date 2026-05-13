@@ -2,9 +2,15 @@
 title: 使用Web Adobe Analytics JavaScript库将数据发送到SDK
 description: 从干净的Web SDK实施开始，使用JavaScript库将数据发送到Adobe Analytics。
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ABGykiS-qco3XECUtZqQpR2m-d1yXsLbaRQRXg0ObO4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: 1129
 ht-degree: 18%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 18%
 此实施路径包括使用Web SDK JavaScript库的全新Web SDK安装。 其他实施路径将在单独的页面上介绍：
 
 * [Web SDK标记扩展](web-sdk-tag-extension.md)：使用Web SDK标记扩展的全新Web SDK安装。 与Web SDK JavaScript库方法（此页面）类似，不同之处在于，您可以使用Adobe Experience Platform数据收集中的标记来管理实施。 它需要Adobe Analytics ExperienceEvent字段组，其中包括要包含在XDM架构中的典型Analytics变量。
-* [Analytics扩展到Web SDK扩展](analytics-extension-to-web-sdk.md)：采用一种流畅、有条不紊的方法从Adobe Analytics标记扩展迁移到Web SDK标记扩展。 在您的组织准备好使用Adobe Experience Platform服务(例如Customer Journey Analytics)之前，此方法会抑制使用XDM的需求。 使用`data`对象而不是`xdm`对象将数据发送到Adobe。
+* [Analytics扩展到Web SDK扩展](analytics-extension-to-web-sdk.md)：采用一种流畅、有条不紊的方法从Adobe Analytics标记扩展迁移到Web SDK标记扩展。 在您的组织准备好使用Adobe Experience Platform服务（例如Customer Journey Analytics）之前，此方法会抑制使用XDM的需求。 使用`data`对象而不是`xdm`对象将数据发送到Adobe。
 * [AppMeasurement到Web SDK JavaScript库](appmeasurement-to-web-sdk.md)：一种流畅、系统地迁移到Web SDK的方法，只不过它不使用标记。 您可以手动删除Adobe Analytics数据收集库(`AppMeasurement.js`)，并将其替换为Web SDK JavaScript库(`alloy.js`)。
 
 ## 此实施路径的优缺点
@@ -29,7 +35,7 @@ ht-degree: 18%
 >
 >此实施方法要求您使用为Adobe Analytics配置的架构。 如果您的组织计划将来在Customer Journey Analytics中使用您自己的架构，则使用Adobe Analytics架构可能会给数据管理员或架构师带来困惑。 减轻这一障碍有多种选择：
 >
->* 您可以在CJA中使用Adobe Analytics架构。 请注意，CJA没有prop或eVar的概念；它们被视为任何其他架构字段。 另请注意，在CJA中使用Adobe Analytics架构可能会使其他平台服务(例如Adobe Journey Optimizer或Real-Time Customer Data Platform)更难使用。
+>* 您可以在CJA中使用Adobe Analytics架构。 请注意，CJA没有prop或eVar的概念；它们被视为任何其他架构字段。 另请注意，在CJA中使用Adobe Analytics架构可能会使其他平台服务（例如Adobe Journey Optimizer或Real-Time Customer Data Platform）更难使用。
 >* 您可以使用数据对象，这与迁移工作流类似。 请注意，使用数据对象要求您将每个数据对象字段映射到XDM架构字段。
 >* 您可以完全跳过Adobe Analytics实施，并使用您自己的架构将数据发送到Adobe Experience Platform。 从长远来看，这种方法非常理想，允许贵组织开始使用Customer Journey Analytics。
 
@@ -66,31 +72,31 @@ ht-degree: 18%
 <tr>
 <td> 4</td>
 <td><b>安装预构建的独立版本</b>。 您可以直接在页面上引用 CDN 上的库 (<code>alloy.js</code>) 或下载并托管在您自己的基础设施上。 或者，您可以使用 NPM 包。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=zh-Hans">安装预构建的独立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=zh-Hans">使用 NPM 包</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">安装预构建的独立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">使用 NPM 包</a></td>
 </tr>
 
 <tr>
 <td>5</td>
 <td><b>配置数据流</b>。 数据流表示实施 Adobe Experience Platform Web SDK 时的服务器端配置。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans">配置数据流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">配置数据流<a></td> 
 </tr>
 
 <td>6</td>
 <td><b>将 Adobe Analytics 服务</b>添加到您的数据流。 该服务控制是否以及如何将数据发送到Adobe Analytics，以及具体将数据发送到哪些报表包。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">将 Adobe Analytics 服务添加到数据流</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>配置 Web SDK</b>。 确保使用数据流ID(以前称为边缘配置ID (<code>datastreamId</code>))、组织ID (<code>orgId</code>)和其他可用选项正确配置您在步骤4中安装的库。 确保正确映射变量。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=zh-Hans">配置Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM对象变量映射</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">配置Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM对象变量映射</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>执行命令</b>和/或<b>跟踪事件</b>。 在您的网页上实施基础代码后，您可以开始使用 SDK 执行命令和跟踪事件。
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=zh-Hans">发送事件</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">发送事件</a></td>
 </tr>
 
 <tr>

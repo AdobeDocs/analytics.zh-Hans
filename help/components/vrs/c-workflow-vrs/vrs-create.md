@@ -4,10 +4,15 @@ keywords: 虚拟报表包
 title: 创建虚拟报告包
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 50%
+source-wordcount: 697
+ht-degree: 41%
 
 ---
 
@@ -33,9 +38,9 @@ ht-degree: 50%
 | 名称 | 虚拟报表包的名称不会从父报表包继承，因此应该是不同的。 |
 | 描述 | 为了业务用户的利益，添加准确的描述。 |
 | 标记 | 您可以添加标记以组织报表包。 |
-| 来源 | 此虚拟报表包会从中继承以下设置的报表包。 大多数服务级别和功能(例如，eVar设置、处理规则、分类等)都是继承的。 要更改虚拟报表包中的这些继承设置，您必须编辑父报表包（“管理员”>“报表包”）。 |
-| 时区 | 选择时区为可选操作。如果您选择了时区，则该时区会与虚拟报表包一起保存。 如果您没有选择时区，则使用父报表包的时区。编辑虚拟报表包时，与虚拟报表包一起保存的时区会显示在下拉选择器中。 如果虚拟报表包是在添加时区支持之前创建的，则父报表包的时区将显示在下拉选择器中。 |
-| 区段 | 您可以仅添加一个区段，也可以堆叠区段。注意：堆叠两个区段时，将使用 AND 语句联接它们。无法更改为 OR 语句。当您尝试删除或修改虚拟报表包中当前使用的某个区段时，会显示一条警告。 |
+| 来源 | 此虚拟报表包会从中继承以下设置的报表包。 大多数服务级别和功能（例如，eVar设置、处理规则、分类等）都是继承的。 要更改虚拟报表包中的这些继承设置，您必须编辑父报表包（“管理员”>“报表包”）。 |
+| 时区 | 选择时区为可选操作。 如果您选择了时区，则该时区会与虚拟报表包一起保存。 如果您没有选择时区，则使用父报表包的时区。  编辑虚拟报表包时，与虚拟报表包一起保存的时区会显示在下拉选择器中。 如果虚拟报表包是在添加时区支持之前创建的，则父报表包的时区将显示在下拉选择器中。 |
+| 区段 | 您可以仅添加一个区段，也可以堆叠区段。   注意：堆叠两个区段时，将使用 AND 语句联接它们。 无法更改为 OR 语句。 当您尝试删除或修改虚拟报表包中当前使用的某个区段时，会显示一条警告。 |
 
 ## 定义访问定义
 
@@ -46,19 +51,19 @@ ht-degree: 50%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 | 元素 | 描述 |
 | --- |--- |
 | **配置访问定义** |  |
-| 启用报表时间处理 | 使用报表时间处理可更改默认的访问超时时长。这些设置不具有任何破坏性，仅适用于 Analysis Workspace。[了解详情](/help/components/vrs/vrs-report-time-processing.md) |
-| 访问超时 | 定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。这将影响访问指标、访问区段容器和访问时过期的 eVar。 |
+| 启用报表时间处理 | 使用报表时间处理可更改默认访问超时时长。 这些设置不具有破坏性，仅适用于Analysis Workspace。 [了解详情](/help/components/vrs/vrs-report-time-processing.md) |
+| 访问超时 | 定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。 这将影响访问量度、访问区段容器和访问时过期的eVar。 |
 | 通过事件开始新访问 | 当任何指定事件触发时，无论会话是否超时，都将计为启动了一个新会话。 |
 | **移动应用程序访问设置** | 修改如何定义通过Adobe的Mobile SDK收集的移动应用程序点击量。 这些设置不具有破坏性，仅适用于Analysis Workspace。 |
 | 避免将后台点击计算为一次新的访问 | 避免将后台点击计算为一次新的访问，从而防止后台点击量使访问次数和独特访客指标被夸大。 |
-| 在每次应用程序启动后即开始一个新访问 | 每当应用程序启动时，即视为开始了一个新会话。[了解详情](/help/components/vrs/vrs-mobile-visit-processing.md) |
+| 在每次应用程序启动后即开始一个新访问 | 每当应用程序启动时，即视为开始了一个新会话。 [了解详情](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## 包括和重命名组件
 

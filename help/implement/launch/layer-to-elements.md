@@ -4,10 +4,16 @@ description: 将标记配置为从数据层读取。
 feature: Tags
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/MmwNCdmt9TwNojJEyzbfTukeh4sKITk06gY-EBzjZPw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 94%
+source-wordcount: 312
+ht-degree: 93%
 
 ---
 
@@ -17,11 +23,11 @@ ht-degree: 94%
 
 ## 先决条件
 
-[创建数据层](../prepare/data-layer.md)：确保网站上存在数据层。虽然从技术上讲，您可以直接从页面映射任何 JavaScript 对象或抓取 CSS 元素，但是 Adobe 建议只有在万不得已时才使用此做法。如果网站版面发生更改，则标记中使用的 CSS 选择器会停止工作，进而导致数据丢失。
+[创建数据层](../prepare/data-layer.md)：确保网站上存在数据层。 虽然从技术上讲，您可以直接从页面映射任何 JavaScript 对象或抓取 CSS 元素，但是 Adobe 建议只有在万不得已时才使用此做法。 如果网站版面发生更改，则标记中使用的 CSS 选择器会停止工作，进而导致数据丢失。
 
 ## 使用标记创建数据元素
 
-[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)是 Adobe Experience Platform 数据收集中的组件，您可以在整个工具中使用这些组件。您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
+[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)是 Adobe Experience Platform 数据收集中的组件，您可以在整个工具中使用这些组件。 您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -29,10 +35,10 @@ ht-degree: 94%
 
    ![创建数据元素](assets/createelement.png)
 
-1. 输入数据元素的名称。它可以是一个简单标签，对应于要跟踪的数据层中的 JavaScript 变量。
+1. 输入数据元素的名称。 它可以是一个简单标签，对应于要跟踪的数据层中的 JavaScript 变量。
 1. 在&#x200B;**[!UICONTROL 扩展]**&#x200B;下拉列表下，选择&#x200B;**[!UICONTROL 核心]**。
 1. 在&#x200B;**[!UICONTROL 数据元素类型]**&#x200B;下拉列表下，选择&#x200B;**[!UICONTROL JavaScript变量]**。 右侧会显示一个文本字段，允许您输入要映射到此数据元素的 JavaScript 变量。
-1. 通常情况下，在数据层中输入所需的 Javascript 变量。例如，如果贵组织的数据层比较符合 Adobe 的建议做法，则该值可能为 `digitalData.page.pageInfo.pageName`。您可以使用浏览器的控制台来验证 JavaScript 变量语法和值。
+1. 通常情况下，在数据层中输入所需的 Javascript 变量。 例如，如果贵组织的数据层比较符合 Adobe 的建议做法，则该值可能为 `digitalData.page.pageInfo.pageName`。 您可以使用浏览器的控制台来验证 JavaScript 变量语法和值。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 后续步骤

@@ -4,20 +4,24 @@ description: 在报表包设置允许时手动填充“邮政编码”维度。
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/y46MdBiCa0og3VQb56p5qcAOyr-2mbJmRUsYXnKjYic
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 75%
+source-wordcount: 275
+ht-degree: 81%
 
 ---
 
 # zip
 
-通过 `zip` 变量，您可以在报表包设置中的[!UICONTROL 邮政编码选项]允许时手动填充“邮政编码”维度。在 Adobe Analytics 的先前版本中，通常只有在零售网站上输入送货信息时才能手动设置此变。Adobe Analytics 的改进允许您能够使用地理位置数据自动设置此变量。此变量不会在设置的点击之外继续存在。
+通过 `zip` 变量，您可以在报表包设置中的[!UICONTROL 邮政编码选项]允许时手动填充“邮政编码”维度。 在 Adobe Analytics 的先前版本中，通常只有在零售网站上输入送货信息时才能手动设置此变。 Adobe Analytics 的改进允许您能够使用地理位置数据自动设置此变量。 此变量不会在设置的点击之外继续存在。
 
 >[!IMPORTANT]
 >
->确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。如果始终使用[!UICONTROL 地域zip]，则不能使用此变量。 有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。
+>确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。 如果始终使用[!UICONTROL 地域zip]，则不能使用此变量。 有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。
 
 ## 使用Web SDK的邮政编码
 
@@ -34,7 +38,7 @@ ht-degree: 75%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 邮政编码]部分。
 
 您可以将“邮政编码”设置为任何字符串值，包括数据元素。

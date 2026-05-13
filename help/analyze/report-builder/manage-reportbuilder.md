@@ -6,10 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
+TQID: https://experienceleague.adobe.com/ABoNikHpWClofkV4y5i0z39aDZeWd5nmCz3tcVFoOMY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 20%
+source-wordcount: 519
+ht-degree: 21%
 
 ---
 
@@ -47,7 +51,7 @@ ht-degree: 20%
 
 例如，您可以用一个或多个数据块中的新区段替换现有区段。
 
-1. 选择要更新的数据块。您可以选中顶级复选框以选择所有数据块，也可以选择单个数据块。
+1. 选择要更新的数据块。 您可以选中顶级复选框以选择所有数据块，也可以选择单个数据块。
 
    ![铅笔编辑图标](./assets/image56.png){zoomable="yes"}
 
@@ -82,7 +86,7 @@ ht-degree: 20%
 
 您可以使用&#x200B;**[!UICONTROL 分组依据]**&#x200B;下拉菜单对数据块进行分组，也可以选择列标题。
 
-要按列对数据块进行排序，请选择列标题。 要按组对数据块进行分组，请从&#x200B;**[!UICONTROL 分组]**&#x200B;下拉菜单中选择组名。例如，下面的屏幕截图显示了按报表包分组的数据块。
+要按列对数据块进行排序，请选择列标题。 要按组对数据块进行分组，请从&#x200B;**[!UICONTROL 分组]**&#x200B;下拉菜单中选择组名。 例如，下面的屏幕截图显示了按报表包分组的数据块。
 
 您可以使用分组快速选择要修改其公共元素（如区段）的数据块。
 

@@ -5,10 +5,14 @@ uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/xkXfYdzVjIIRXRCNrtQxaAl6KgisCVXTmTva0AqNbLA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 17%
+source-wordcount: 265
+ht-degree: 13%
 
 ---
 
@@ -26,7 +30,7 @@ ht-degree: 17%
 
 Experience Cloud登录信息允许您使用Enterprise ID（电子邮件和密码）登录到Adobe Experience Cloud。
 
-单击&#x200B;**[!UICONTROL 登录]** > **[!UICONTROL 使用企业 ID 登录]**&#x200B;可重定向到贵公司的单点登录页面。有关Enterprise ID的详细信息，请参阅[登录到您的公司或学校帐户](https://helpx.adobe.com/cn/enterprise/kb/enterprise-id-faq.html#whatis)。
+单击&#x200B;**[!UICONTROL 登录]** > **[!UICONTROL 使用Enterprise ID登录]**，以重定向到您公司的单点登录页面。 有关Enterprise ID的详细信息，请参阅[登录到您的公司或学校帐户](https://helpx.adobe.com/cn/enterprise/kb/enterprise-id-faq.html#whatis)。
 
 ![屏幕截图显示Adobe Experience Cloud登录窗口，其中显示了使用或不使用您的Adobe ID登录的选项](assets/adobe_id_login.png)
 

@@ -4,9 +4,14 @@ description: 了解如何使用VBA宏扩展Excel工作簿和Report Builder的功
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/RxOpojtJn2vi5uMO8CGzCCm7FcPp4qVwbH-XTEBSRsY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: 195
 ht-degree: 64%
 
 ---
@@ -27,7 +32,7 @@ Adobe支持三种Report Builder API方法。
 
 ## `RefreshAllReportBuilderRequests()`
 
-`RefreshAllReportBuilderRequests()` 宏会刷新活动工作簿中的所有 Report Builder 请求。首先，通过产品 ID 调用 Report Builder COM 加载项，然后调用 `RefreshAllRequests()` API 命令：
+`RefreshAllReportBuilderRequests()` 宏会刷新活动工作簿中的所有 Report Builder 请求。 首先，通过产品 ID 调用 Report Builder COM 加载项，然后调用 `RefreshAllRequests()` API 命令：
 
 ```vba
 Sub RefreshAllReportBuilderRequests()
@@ -44,7 +49,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
 
-`RefreshAllReportBuilderRequestsInActiveWorksheet()` 宏会刷新活动工作表中的所有 Report Builder 请求。`RefreshWorksheetRequests()` API 调用会将工作表对象作为参数。您可以对包含 Report Builder 请求的任何工作表使用此调用：
+`RefreshAllReportBuilderRequestsInActiveWorksheet()` 宏会刷新活动工作表中的所有 Report Builder 请求。 `RefreshWorksheetRequests()` API 调用会将工作表对象作为参数。 您可以对包含 Report Builder 请求的任何工作表使用此调用：
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInActiveWorksheet()
@@ -61,7 +66,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInCellsRange()`
 
-`RefreshAllReportBuilderRequestsInCellsRange()` 宏会刷新单元格输出与指定单元格范围相交的所有 Report Builder 请求。此示例中使用的单元格范围指向活动工作簿中“Data”工作表的范围 `B1:B54`。范围表达式支持所有受支持的 Excel 范围表达式：
+`RefreshAllReportBuilderRequestsInCellsRange()` 宏会刷新单元格输出与指定单元格范围相交的所有 Report Builder 请求。 此示例中使用的单元格范围指向活动工作簿中“Data”工作表的范围 `B1:B54`。 范围表达式支持所有受支持的 Excel 范围表达式：
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInCellsRange()

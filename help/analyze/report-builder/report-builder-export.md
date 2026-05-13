@@ -6,9 +6,15 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
-source-git-commit: da7b4568fcdb03ff97437879e84a1ed45749494d
+TQID: https://experienceleague.adobe.com/GQb-eyhHPlUC3rweaoprqj6LO34gSymgC1buu2gl9iw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: 1263
 ht-degree: 33%
 
 ---
@@ -70,12 +76,12 @@ ht-degree: 33%
    | **[!UICONTROL 密码保护工作簿]** | 指定密码以保护导出的文件，以便只有拥有密码的人才能访问它。 <p>密码长度必须至少为8个字符，并且至少包含1个数字和1个特殊字符（如`!`、`@`、`#`和`$`）。</p> |
    | **[!UICONTROL 电子邮件]** | 选择此选项将文件发送到特定电子邮件地址。 有关详细信息，请参阅[通过电子邮件共享计划工作簿](schedule-reportbuilder.md)。 |
    | **[!UICONTROL 其他投放]** | 选择此选项将文件发送到云帐户，然后使用如下所述的&#x200B;**[!UICONTROL 帐户]**&#x200B;和&#x200B;**[!UICONTROL 位置]**&#x200B;下拉菜单选择帐户和位置。 |
-   | **[!UICONTROL 帐户]** | 选择您想要发送数据的云导出账户。 <p>或者，如果您尚未配置要使用的云帐户，则可以配置一个新帐户：<ol><li>选择&#x200B;[!UICONTROL **添加帐户**]，然后指定以下信息：<ul><li>[!UICONTROL **位置帐户名称**]：指定位置账户的名称。此名称会在创建位置时出现 </li><li>[!UICONTROL **位置账户描述**]：提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。</li><li>**[!UICONTROL 使帐户对贵组织的所有用户都可用]**：选择此选项可允许贵组织中的其他用户使用该帐户。 共享帐户时请考虑以下事项：<ul><li>您已共享的帐户无法取消共享。</li><li>共享帐户只能由帐户的所有者进行编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul></li><li>[!UICONTROL **帐户类型**]：选择您要导出到的云帐户类型。 可用的帐户类型为Amazon S3角色ARN、Google Cloud Platform、Azure SAS和Azure RBAC。</li></ul><li>要完成帐户配置，请继续执行[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的步骤6，然后展开与您选择的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的部分。 <p>可以使用以下帐户类型：</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
+   | **[!UICONTROL 帐户]** | 选择您想要发送数据的云导出账户。 <p>或者，如果您尚未配置要使用的云帐户，则可以配置一个新帐户：<ol><li>选择&#x200B;[!UICONTROL **添加帐户**]，然后指定以下信息：<ul><li>[!UICONTROL **位置帐户名称**]：指定位置账户的名称。 此名称会在创建位置时出现 </li><li>[!UICONTROL **位置账户描述**]：提供帐户的简短描述，以帮助将它与同一帐户类型的其他帐户区分开来。</li><li>**[!UICONTROL 使帐户对贵组织的所有用户都可用]**：选择此选项可允许贵组织中的其他用户使用该帐户。 共享帐户时请考虑以下事项：<ul><li>您已共享的帐户无法取消共享。</li><li>共享帐户只能由帐户的所有者进行编辑。</li><li>任何人都可以为共享帐户创建位置。</li></ul></li><li>[!UICONTROL **帐户类型**]：选择您要导出到的云帐户类型。 可用的帐户类型有Amazon S3角色ARN、Google Cloud Platform、Azure SAS和Azure RBAC。</li></ul><li>要完成帐户配置，请继续执行[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)中的步骤6，然后展开与您选择的&#x200B;[!UICONTROL **帐户类型**]&#x200B;对应的部分。 <p>可以使用以下帐户类型：</p><ul><li>Amazon S3 角色 ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
    | **[!UICONTROL 位置]** | 在帐户上选择要发送导出数据的位置。<p>或者，如果您尚未配置要在所选帐户上使用的位置，则可以配置一个新位置：<ol><li>选择&#x200B;[!UICONTROL **添加位置**]，然后指定以下信息： <ul><li>[!UICONTROL **名称：**]&#x200B;位置的名称。</li><li>[!UICONTROL **描述**]：提供位置的简短描述，以帮助将它与帐户上的其他位置区分开来。</li><li>**[!UICONTROL 使位置对贵组织的所有用户都可用]**：选择此选项可允许贵组织中的其他用户使用该位置。 共享帐户时请考虑以下事项：<ul><li>无法取消共享您共享的位置。</li><li>共享位置只能由帐户的所有者编辑。</li><li>仅当与位置关联的帐户也共享时，才能共享位置。</li></ul></li><li>[!UICONTROL **位置帐户**]：选择要在其中创建位置的帐户。</li></ul><li>要完成位置配置，请继续使用下面与您在&#x200B;[!UICONTROL **位置帐户**]&#x200B;字段中选择的帐户类型相对应的链接：<ul><li>[Amazon S3 Role ARN](/help/components/locations/configure-import-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/locations/configure-import-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/locations/configure-import-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/locations/configure-import-locations.md#azure-rbac)</li></ul> |
    | **[!UICONTROL 显示计划选项]** | 选择此选项可查看用于计划导出的其他选项。 如果只想发送导出一次，请将此选项保留为未选中状态。 取消选择此选项后，将立即启动导出。 |
    | **[!UICONTROL 开始于]** | 计划导出开始的日期和时间。 <p>仅当选择计划导出频率时此选项才可用。</p> |
-   | **[!UICONTROL 结束日期]** | 计划导出的到期日期和时间。计划导出在您设置的日期和时间过后不再运行。 <p>仅当选择计划导出频率时此选项才可用。</p> |
-   | **[!UICONTROL 频率]** | 您可以将频率设置为每小时、每天、每周、每月或每年的特定日期。例如，您可以设置一个计划，在该月的第一个星期日晚上发送工作簿，这样收件人就会在星期一早上第一时间在收件箱中收到电子邮件。 |
+   | **[!UICONTROL 结束日期]** | 计划导出的到期日期和时间。 计划导出在您设置的日期和时间过后不再运行。 <p>仅当选择计划导出频率时此选项才可用。</p> |
+   | **[!UICONTROL 频率]** | 您可以将频率设置为每小时、每天、每周、每月或每年的特定日期。 例如，您可以设置一个计划，在该月的第一个星期日晚上发送工作簿，这样收件人就会在星期一早上第一时间在收件箱中收到电子邮件。 |
 
    {style="table-layout:auto"}
 
@@ -98,7 +104,7 @@ ht-degree: 33%
 
 * 将数据输出组织为连接值。
 
-* 导出一次或按计划。
+* 一次性或按计划导出。
 
 * 以Excel、PDF或CSV格式导出文件。
 

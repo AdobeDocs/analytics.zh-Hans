@@ -4,9 +4,13 @@ description: abort 变量是一个布尔值，用于阻止将点击发送到 Ado
 feature: Appmeasurement Implementation
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/xVOUnGUxNcQqBGAoDxefFBT1Yg2mKzpXLPSVFqOcJSM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: 343
 ht-degree: 39%
 
 ---
@@ -17,11 +21,11 @@ ht-degree: 39%
 
 ## 使用Web SDK扩展取消发送事件
 
-在事件发送回调[!UICONTROL 代码编辑器之前使用]On并返回`false`。
+在事件发送回调]代码编辑器之前使用[!UICONTROL On并返回`false`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 在[!UICONTROL 数据收集]下，单击&#x200B;**[!UICONTROL 在事件发送回调代码之前编辑]**&#x200B;按钮。
 1. 在代码编辑器中，将以下代码置于您希望中止向Edge发送数据的任何条件下：
 
@@ -31,7 +35,7 @@ return false;
 
 ## 取消手动发送事件以实施Web SDK
 
-使用`onBeforeEventSend`回调并返回`false`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+使用`onBeforeEventSend`回调并返回`false`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 alloy("configure"), {
@@ -47,7 +51,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.abort
 
-`s.abort` 变量是一个布尔值。其默认值为 `false`。
+`s.abort` 变量是一个布尔值。 其默认值为 `false`。
 
 * 如果设置为 `true`，则下一次跟踪调用（[`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md)）不会向 Adobe 发送任何数据。
 * 如果设置为 `false` 或未定义，则此变量不执行任何操作。
@@ -58,9 +62,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->`abort` 变量在每次跟踪调用后将重置为 `false`。如果要中止同一页面上的后续跟踪调用，请再次将`abort`设置为`true`。
+>`abort` 变量在每次跟踪调用后将重置为 `false`。 如果要中止同一页面上的后续跟踪调用，请再次将`abort`设置为`true`。
 
-可以在`abort`函数中设置[`doPlugins()`](../functions/doplugins.md)变量，该函数是将图像请求发送到Adobe之前要运行的最后一个函数。 此示例的操作方式与使用Web SDK的`onBeforeEventSend`回调类似。
+可以在[`doPlugins()`](../functions/doplugins.md)函数中设置`abort`变量，该函数是将图像请求发送到Adobe之前要运行的最后一个函数。 此示例的操作方式与使用Web SDK的`onBeforeEventSend`回调类似。
 
 ```js
 s.doPlugins = function(s) {
@@ -71,4 +75,4 @@ s.doPlugins = function(s) {
 };
 ```
 
-您可以将用于确认您不希望跟踪的活动（如一些自定义链接或显示广告中的外部链接）的逻辑集中在一起。
+您可以将用于确认您不希望跟踪的活动（如一些自定义链接或展示广告中的外部链接）的逻辑集中在一起。

@@ -3,10 +3,16 @@ title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/WntN8KyUXgQUt8vvoHUZyQfTtEUSS3aPOF6pIDbJynk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 46%
+source-wordcount: 905
+ht-degree: 47%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->此列表中删除了自定义变量名称、分类和访客属性。这些维度项目特定于单个报表包。
+>此列表中删除了自定义变量名称、分类和访客属性。 这些维度项目特定于单个报表包。
 
 ## Analysis Workspace中支持的维度
 
@@ -88,7 +94,7 @@ ht-degree: 46%
 | [服务器](server.md) | `server` |
 | [单页面访问量](single-page-visits.md) | `singlepagevisits` |
 | [网站区域](site-section.md) | `sitesections` |
-| 每次访问逗留时间[&#x200B; — 粒度](time-spent-per-visit.md) | `sitetime` |
+| 每次访问逗留时间[ — 粒度](time-spent-per-visit.md) | `sitetime` |
 | [跟踪代码](tracking-code.md) | `campaign` |
 | [美国 DMA](us-dma.md) | `geodma` |
 | [美国各州](us-states.md) | `state` |
@@ -100,7 +106,7 @@ ht-degree: 46%
 | [上午/下午](am-pm.md) | `timepartampm` |
 | [浏览器高度 — 分段统计](browser-height.md) | `browserheightbucketed` |
 | [浏览器宽度 — 分段统计](browser-width.md) | `browserwidthbucketed` |
-| [其中一天](day.md) | `daterangeday` |
+| [日](day.md) | `daterangeday` |
 | [这月的其中一天](day-of-month.md) | `timepartdayofmonth` |
 | [这周的其中一天](day-of-week.md) | `dayofweek` |
 | [这周的其中一天](day-of-week.md) | `timepartdayofweek` |
@@ -117,10 +123,10 @@ ht-degree: 46%
 | [退出网站区域](exit-dimensions.md) | `exitsitesections` |
 | [点击深度](hit-depth.md) | `hitdepth` |
 | [点击类型](hit-type.md) | `hittype` |
-| [其中一个小时](hour.md) | `daterangehour` |
+| [小时](hour.md) | `daterangehour` |
 | [这天的其中一个小时](hour-of-day.md) | `timeparthourofday` |
 | [营销渠道详细信息](marketing-detail.md) | `marketingchanneldetail` |
-| [其中一分钟](minute.md) | `daterangeminute` |
+| [分钟](minute.md) | `daterangeminute` |
 | [移动设备最大书签长度](mobile-dimensions.md) | `mobilebookmarklength` |
 | [移动设备号码](mobile-dimensions.md) | `mobiledevicenumber` |
 | [移动设备DRM](mobile-dimensions.md) | `mobiledrm` |
@@ -129,26 +135,26 @@ ht-degree: 46%
 | [移动设备邮件修饰](mobile-dimensions.md) | `mobilemaildecoration` |
 | [移动网络协议](mobile-dimensions.md) | `mobilenetprotocols` |
 | [移动一键通](mobile-dimensions.md) | `mobilepushtotalk` |
-| [其中一个月](month.md) | `daterangemonth` |
+| [月](month.md) | `daterangemonth` |
 | [这年的其中一个月](month-of-year.md) | `timepartmonthofyear` |
 | [操作系统类型](operating-system-types.md) | `operatingsystemgroup` |
 | [付费搜索](paid-search.md) | `paidsearch` |
 | [永久性Cookie支持](persistent-cookie-support.md) | `persistentcookie` |
-| [其中一个季度](quarter.md) | `daterangequarter` |
+| [季度](quarter.md) | `daterangequarter` |
 | [这年的其中一个季度](quarter-of-year.md) | `timepartquarterofyear` |
 | 调查 | `surveybase` |
 | [页面逗留时间 — 分段统计](time-spent-on-page.md) | `averagepagetime` |
 | [页面逗留时间 — 粒度](time-spent-on-page.md) | `pagetimeseconds` |
 | [跟踪选择退出的原因](tracking-opt-out-reason.md) | `optoutreason` |
 | [工作日/周末](weekday-weekend.md) | `timepartweekdayweekend` |
-| [其中一周](week.md) | `daterangeweek` |
-| [其中一年](year.md) | `daterangeyear` |
+| [周](week.md) | `daterangeweek` |
+| [年](year.md) | `daterangeyear` |
 
 ## 仅在 Analysis Workspace 中受支持的内容感知维度
 
 | 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
-| ACTIVITY MAP XY | `clickmapxy` |
+| Activity Map XY | `clickmapxy` |
 | 媒体会话 ID | `videosessionid` |
 | Nielsen 访问方法 | `nielsenaccmethod` |
 | Nielsen 应用程序 ID | `nielsenappid` |
@@ -290,7 +296,7 @@ Adobe Social已停用。
 
 | 维度名称（在 Analytics UI 中可见） | Dimension ID（用于API请求） |
 |--- |--- |
-| Nielsen广告模型 | `nielsenadmodel` |
+| Nielsen 广告模型 | `nielsenadmodel` |
 | Nielsen 区段 C | `nielsensegmentc` |
 | Nielsen 区段 B | `nielsensegmentb` |
 | Nielsen 区段 A | `nielsensegmenta` |

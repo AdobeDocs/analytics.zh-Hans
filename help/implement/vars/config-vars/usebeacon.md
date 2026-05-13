@@ -4,24 +4,29 @@ description: 通过 useBeacon，您可以强制 AppMeasurement 使用浏览器 s
 feature: Appmeasurement Implementation
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/-drQZhKcoWzWfwcbFKms2xV2eunuNYIjkm4AWTmD-Pg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 62%
+source-wordcount: 406
+ht-degree: 60%
 
 ---
 
 # useBeacon
 
-大多数现代浏览器都包含本机方法 `navigator.sendBeacon()`。它通过 HTTP 将少量数据异步发送到 Web 服务器。如果启用了 `useBeacon` 变量，则 AppMeasurement 可以使用 `navigator.sendBeacon()` 方法。对于退出链接以及要在卸载页面之前发送信息的其他情况，此变量将非常有用。
+大多数现代浏览器都包含本机方法 `navigator.sendBeacon()`。 它通过 HTTP 将少量数据异步发送到 Web 服务器。 如果启用了 `useBeacon` 变量，则 AppMeasurement 可以使用 `navigator.sendBeacon()` 方法。 对于退出链接以及要在卸载页面之前发送信息的其他情况，此变量将非常有用。
 
-如果启用了 `useBeacon`，则发送给 Adobe 的下一个点击将使用浏览器的 `navigator.sendBeacon()` 方法，而不是标准的 `GET` 图像请求。此变量同时适用于 [`s.t()`](../functions/t-method.md) 和 [`s.tl()`](../functions/tl-method.md) 图像请求。它需要 AppMeasurement 2.17.0 或更高版本。
+如果启用了 `useBeacon`，则发送给 Adobe 的下一个点击将使用浏览器的 `navigator.sendBeacon()` 方法，而不是标准的 `GET` 图像请求。 此变量同时适用于 [`s.t()`](../functions/t-method.md) 和 [`s.tl()`](../functions/tl-method.md) 图像请求。 它需要 AppMeasurement 2.17.0 或更高版本。
 
 >[!TIP]
 >
-> AppMeasurement 会自动为退出链接图像请求启用 `useBeacon`。
+>AppMeasurement 会自动为退出链接图像请求启用 `useBeacon`。
 
-当访客使用的浏览器不支持 `useBeacon` 时，将忽略 `navigator.sendBeacon()` 变量。使用此变量需要 AppMeasurement 2.16.0 或更高版本。
+当访客使用的浏览器不支持 `useBeacon` 时，将忽略 `navigator.sendBeacon()` 变量。 使用此变量需要 AppMeasurement 2.16.0 或更高版本。
 
 ## 通过Web SDK扩展使用sendBeacon API
 
@@ -47,7 +52,7 @@ alloy("sendEvent", {
 });
 ```
 
-有关详细信息，请参阅Web SDK文档中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#using-the-sendbeacon-api)。
+有关详细信息，请参阅Web SDK文档中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)。
 
 ## 使用Adobe Analytics扩展的“使用信标”
 
@@ -55,7 +60,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.useBeacon
 
-`s.useBeacon` 变量是一个布尔值，用于确定 AppMeasurement 是否使用浏览器的 `navigator.sendBeacon()` 方法。其默认值为 `false`。如果要使用 `navigator.sendBeacon()` 的异步特性，请在调用跟踪函数之前将此变量设置为 `true`。
+`s.useBeacon` 变量是一个布尔值，用于确定 AppMeasurement 是否使用浏览器的 `navigator.sendBeacon()` 方法。 其默认值为 `false`。 如果要使用 `navigator.sendBeacon()` 的异步特性，请在调用跟踪函数之前将此变量设置为 `true`。
 
 ```js
 s.useBeacon = true;
@@ -63,4 +68,4 @@ s.useBeacon = true;
 
 >[!NOTE]
 >
->运行跟踪调用后，此变量将被重置为 `false`。如果您多个图像的实施在同一页面加载（例如单页应用程序）中发送了请求，请在每次跟踪调用之前将此变量设置为 `true`。
+>运行跟踪调用后，此变量将被重置为 `false`。 如果您多个图像的实施在同一页面加载（例如单页应用程序）中发送了请求，请在每次跟踪调用之前将此变量设置为 `true`。

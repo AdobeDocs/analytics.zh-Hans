@@ -4,16 +4,22 @@ description: Adobe Analytics 如何解读从 Edge Network 接收的事件。
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 31085025-9c38-4375-8dfb-4fded6542ca7
-source-git-commit: 0096a53505b3b1bc925c813c2c6c11ee3c7ee0c0
+TQID: https://experienceleague.adobe.com/Bf-OnlQu7TFYb1V4uKCVVoQkaPP4MuhyVWSdgjlZ6e8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: 478
 ht-degree: 100%
 
 ---
 
 # Adobe Analytics 中的 Edge Network 事件类型
 
-Adobe Analytics 根据您在 AppMeasurement 中调用了哪些函数而对点击进行不同的处理。例如，[`s.t`](/help/implement/vars/functions/t-method.md) 和 [`s.tl`](/help/implement/vars/functions/tl-method.md) 包含或略去某些维度，以不同的方式增加[页面浏览量](/help/components/metrics/page-views.md)。Adobe Experience Platform 仅包含 [`sendEvent`](https://experienceleague.adobe.com/cn/docs/experience-platform/collection/js/commands/sendevent/overview) 命令。[`xdm`](https://experienceleague.adobe.com/cn/docs/experience-platform/collection/js/commands/sendevent/xdm) 或 [`data`](https://experienceleague.adobe.com/cn/docs/experience-platform/collection/js/commands/sendevent/data) 负载中的特定属性决定了 Adobe Analytics 如何解读这些数据。
+Adobe Analytics 根据您在 AppMeasurement 中调用了哪些函数而对点击进行不同的处理。 例如，[`s.t`](/help/implement/vars/functions/t-method.md) 和 [`s.tl`](/help/implement/vars/functions/tl-method.md) 包含或略去某些维度，以不同的方式增加[页面浏览量](/help/components/metrics/page-views.md)。 Adobe Experience Platform 仅包含 [`sendEvent`](https://experienceleague.adobe.com/cn/docs/experience-platform/collection/js/commands/sendevent/overview) 命令。 [`xdm`](https://experienceleague.adobe.com/cn/docs/experience-platform/collection/js/commands/sendevent/xdm) 或 [`data`](https://experienceleague.adobe.com/cn/docs/experience-platform/collection/js/commands/sendevent/data) 负载中的特定属性决定了 Adobe Analytics 如何解读这些数据。
 
 Edge Network 使用以下逻辑来确定 Adobe Analytics [页面浏览量](/help/components/metrics/page-views.md)和[链接事件](/help/components/metrics/page-events.md)：
 
@@ -29,7 +35,7 @@ Edge Network 使用以下逻辑来确定 Adobe Analytics [页面浏览量](/help
 
 >[!TIP]
 >
->负载中的 XDM 字段名称区分大小写（例如 `webPageDetails.URL`）。`xdm.eventType` 字段是一个字符串值，它自己有一组可接受的值，这些值的大小写可能与 XDM 字段名称不匹配。有关可接受的值请参阅 [XDM ExperienceEvent 类](https://experienceleague.adobe.com/cn/docs/experience-platform/xdm/classes/experienceevent#eventType)中的 `eventType` 字段。
+>负载中的 XDM 字段名称区分大小写（例如 `webPageDetails.URL`）。 `xdm.eventType` 字段是一个字符串值，它自己有一组可接受的值，这些值的大小写可能与 XDM 字段名称不匹配。 有关可接受的值请参阅 [XDM ExperienceEvent 类](https://experienceleague.adobe.com/cn/docs/experience-platform/xdm/classes/experienceevent#eventType)中的 `eventType` 字段。
 
 +++使用 `xdm` 字段的最少页面浏览量
 
@@ -139,11 +145,11 @@ Edge Network 使用以下逻辑来确定 Adobe Analytics [页面浏览量](/help
 
 >[!TIP]
 >
->以下 `eventType` 值已弃用。请注意，这些值与它们当前的对应值对逻辑的影响相同：
+>以下 `eventType` 值已弃用。 请注意，这些值与它们当前的对应值对逻辑的影响相同：
 >
->* 事件类型 `display` 已弃用。请改用 `decisioning.propositionDisplay`。
->* 事件类型 `click` 已弃用。请改用 `decisioning.propositionInteract`。
->* 事件类型 `personalization.request` 已弃用。请改用 `decisioning.propositionFetch`。
+>* 事件类型 `display` 已弃用。 请改用 `decisioning.propositionDisplay`。
+>* 事件类型 `click` 已弃用。 请改用 `decisioning.propositionInteract`。
+>* 事件类型 `personalization.request` 已弃用。 请改用 `decisioning.propositionFetch`。
 
 +++最少 A4T 显示
 

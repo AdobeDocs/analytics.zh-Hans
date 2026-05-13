@@ -4,13 +4,17 @@ keywords: Analysis Workspace
 title: 将项目添加或移动到文件夹
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+TQID: https://experienceleague.adobe.com/qrxN1QLSGxawo-DAL9iwhRGpP4WmnSkPW3iRhULj574
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 87%
+source-wordcount: 266
+ht-degree: 86%
 
 ---
-
 
 # 将项目添加或移动到文件夹
 
@@ -20,16 +24,16 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->当管理员将某个项目移至公司文件夹时，即使现有的共享权限受限，也会与所有人共享该文件夹。当管理员将项目移出公司文件夹时，则会重新应用现有的共享权限。
+>当管理员将某个项目移至公司文件夹时，即使现有的共享权限受限，也会与所有人共享该文件夹。 当管理员将项目移出公司文件夹时，则会重新应用现有的共享权限。
 >
 
 要将项目从[项目列表](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)移动到文件夹：
 
 1. 选择 ![SelectBox](/help/assets/icons/SelectBox.svg) 一个或多个要移动到文件夹的项目。
 
-1. 从可能会出现的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)列表中选择 ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **移动到**。随后会显示&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;对话框。
+1. 从可能会出现的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)列表中选择 ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **移动到**。 随后会显示&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;对话框。
 
-1. 从&#x200B;**[!UICONTROL 文件夹]**&#x200B;下拉菜单中选择一个文件夹名称。下拉菜单可让您遍历文件夹层次结构以在任何级别选择子文件夹。
+1. 从&#x200B;**[!UICONTROL 文件夹]**&#x200B;下拉菜单中选择一个文件夹名称。 下拉菜单可让您遍历文件夹层次结构以在任何级别选择子文件夹。
 
    ![The Select Folder view showing the drop down menu and available subfolders.](../assets/add-projects.png)
 
@@ -45,7 +49,7 @@ ht-degree: 87%
 
 1. 选择 ![SelectBox](/help/assets/icons/SelectBox.svg) 您要添加项目的文件夹。
 
-1. 从可能出现的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)列表中选择 ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **添加项目**。随后会显示&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;对话框。
+1. 从可能出现的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)列表中选择 ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **添加项目**。 随后会显示&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;对话框。
 
 1. 从&#x200B;[!UICONTROL *选择要添加到文件夹的项目*]&#x200B;中选择一个或多个项目。
 

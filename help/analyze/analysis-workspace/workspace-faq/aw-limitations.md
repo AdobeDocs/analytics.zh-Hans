@@ -4,9 +4,14 @@ title: 已知限制
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/LyEGQ6cujNFJLknmiTqwNpj0iRKnimoZzTUbokSpIzE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: 309
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 100%
 ## 表格
 
 * 将日期范围或量度用作表的行时，无法添加日期比较列。
-* 当区段用作表的行时，将禁用通过所选内容创建量度。此外，通过所选内容创建量度不应应用于日期对齐列。
+* 当区段用作表的行时，将禁用通过所选内容创建量度。 此外，通过所选内容创建量度不应应用于日期对齐列。
 * 划分行的条件格式不能使用自定义范围。
 * 当应用通过汇总行值设置来计算总数时（通常与静态行项目一起使用），表总行数不能趋势化。
 
@@ -31,13 +36,13 @@ ht-degree: 100%
 ## 区段
 
 * 某些量度和维度不可分段，如[!UICONTROL 事件]、[!UICONTROL 人员]等。
-* 在[面板放置区](/help/analyze/analysis-workspace/c-panels/panels.md)中创建的临时区段是一种快速区段。它们不出现在 Workspace 的左侧面板或区段管理器中，除非它们被公开。有关更多信息，请参阅[快速区段](/help/components/segmentation/segmentation-workflow/seg-quick.md)。
+* 在[面板放置区](/help/analyze/analysis-workspace/c-panels/panels.md)中创建的临时区段是一种快速区段。 它们不出现在 Workspace 的左侧面板或区段管理器中，除非它们被公开。 有关更多信息，请参阅[快速区段](/help/components/segmentation/segmentation-workflow/seg-quick.md)。
 
 ## 计算量度
 
-* 计算量度不能用于某些可视化图表。请参阅[可视化图表](#visualizations)。
+* 计算量度不能用于某些可视化图表。 请参阅[可视化图表](#visualizations)。
 * 计算量度无法在[!UICONTROL 归因]面板中使用，因为计算量度本身可以包括单独的归因模型。
-* 如果从 Workspace 创建计算量度（而不是从[!UICONTROL 组件 > 区段]创建），则某些组件和操作符不可用。例如，[!UICONTROL IP 地址]。
+* 如果从 Workspace 创建计算量度（而不是从[!UICONTROL 组件 > 区段]创建），则某些组件和操作符不可用。 例如，[!UICONTROL IP 地址]。
 
 ## 日期范围
 
@@ -46,7 +51,7 @@ ht-degree: 100%
 
 ## 报告设置
 
-* [!UICONTROL 报告设置]页面上的某些设置不适用。Analysis Workspace 只使用底部的[!UICONTROL 语言/货币/编码]设置：[!UICONTROL 千位分隔符]、[!UICONTROL 计划报告编码]和 [!UICONTROL CSV 分隔符]。
+* [!UICONTROL 报告设置]页面上的某些设置不适用。 Analysis Workspace 只使用底部的[!UICONTROL 语言/货币/编码]设置：[!UICONTROL 千位分隔符]、[!UICONTROL 计划报告编码]和 [!UICONTROL CSV 分隔符]。
 
 
 

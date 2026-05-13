@@ -6,10 +6,15 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
-source-git-commit: 1e893ce94ee3da46bbf22d7a90573681950d1135
+TQID: https://experienceleague.adobe.com/a7cYk3fdAL90KUUllMaAmlhqrNPSboBmOoQ9gaPbDWg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 39%
+source-wordcount: 564
+ht-degree: 40%
 
 ---
 
@@ -70,7 +75,7 @@ ht-degree: 39%
 
 **如果组织阻止了对 Microsoft Store 的访问**
 
-- 联系 IT 或安全团队，请求批准使用 Report Builder 插件。获得批准后，在“Office加载项”对话框中，选择&#x200B;**[!UICONTROL 管理员托管]**&#x200B;选项卡。
+- 联系 IT 或安全团队，请求批准使用 Report Builder 插件。 获得批准后，在“Office加载项”对话框中，选择&#x200B;**[!UICONTROL 管理员托管]**&#x200B;选项卡。
 
   ![Office加载项对话框中的管理员管理选项卡。](./assets/image1.png)
 
@@ -88,11 +93,11 @@ ht-degree: 39%
 
 1. 单击 Report Builder 图标以启动 Report Builder。
 
-1. 在Adobe Report Builder工具栏中，单击&#x200B;**[!UICONTROL 登录]**。
+1. 从 Adobe Report Builder 工具栏，单击&#x200B;**[!UICONTROL 登录]**。
 
    ![单击“Report Builder登录”按钮。](/help/analyze/report-builder/assets/rb_login.png)
 
-1. 输入您的 Adobe Experience ID 帐户信息。您的帐户信息应该与您的Adobe Analytics凭据匹配。
+1. 输入您的 Adobe Experience ID 帐户信息。 您的帐户信息应该与您的Adobe Analytics凭据匹配。
 
    ![您的登录图标和组织。](/help/analyze/report-builder/assets/image4.png)
 
@@ -104,7 +109,7 @@ ht-degree: 39%
 
 1. 单击在您登录时显示的组织的名称。
 
-1. 从可用组织列表中选择组织。只列出您有访问权限的组织。
+1. 从可用组织列表中选择组织。 只列出您有访问权限的组织。
 
    ![您可以访问的组织列表。](/help/analyze/report-builder/assets/image5.png)
 

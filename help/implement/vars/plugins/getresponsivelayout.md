@@ -4,9 +4,13 @@ description: 确定当前正在查看网站的哪个布局。
 feature: Appmeasurement Implementation
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/Sw07Ex4a5-7MaosYUtwwIEIeFv230mfp47XPKPx0iv8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: 530
 ht-degree: 86%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 86%
 
 {{plug-in}}
 
-`getResponsiveLayout` 插件允许您跟踪访客当前正在查看基于响应式设计的网站的哪个版本。如果您的网站使用响应式设计且您希望跟踪访客查看的网站版本，则 Adobe 建议您使用此插件。如果您的网站未使用响应式设计，则无需使用此插件。
+`getResponsiveLayout` 插件允许您跟踪访客当前正在查看基于响应式设计的网站的哪个版本。 如果您的网站使用响应式设计且您希望跟踪访客查看的网站版本，则 Adobe 建议您使用此插件。 如果您的网站未使用响应式设计，则无需使用此插件。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -50,7 +54,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,7 +71,7 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 * **`plw`**（必需，整数）：在页面从手机横屏布局切换到基于平板电脑布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
 * **`tw`**（必需，布尔）：在页面从平板电脑布局切换到基于桌面的布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
 
-调用此函数将返回一个字符串，其中包含以冒号 (`:`) 分隔的两个部分。根据浏览器的宽度和上述参数，该字符串的第一个部分包含下列值之一：
+调用此函数将返回一个字符串，其中包含以冒号 (`:`) 分隔的两个部分。 根据浏览器的宽度和上述参数，该字符串的第一个部分包含下列值之一：
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
@@ -75,7 +79,7 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 * `"tablet layout"`
 * `"desktop layout"`
 
-返回字符串的第二个部分是浏览器的宽度和高度尺寸。例如：`"desktop layout:1243x700"`。
+返回字符串的第二个部分是浏览器的宽度和高度尺寸。 例如，`"desktop layout:1243x700"`。
 
 ## 示例
 

@@ -4,20 +4,24 @@ description: 覆盖由 AppMeasurement 创建的 Cookie 的有效期限。
 feature: Appmeasurement Implementation
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/QWYqMdVf7Zl0FIw25NuquxYP-T7bGCZEd-67OzrRzpg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 64%
+source-wordcount: 271
+ht-degree: 63%
 
 ---
 
 # cookieLifetime
 
-由 AppMeasurement 设置的 Cookie 通常有 2 年期限。使用 `cookieLifetime` 变量可覆盖由 AppMeasurement 设置的 Cookie 的过期日期。
+由 AppMeasurement 设置的 Cookie 通常有 2 年期限。 使用 `cookieLifetime` 变量可覆盖由 AppMeasurement 设置的 Cookie 的过期日期。
 
 >[!NOTE]
 >
->此变量可影响独特访客计数和归因。设置此变量时请务必小心。
+>此变量可影响独特访客计数和归因。 设置此变量时请务必小心。
 
 ## 使用Web SDK的“Cookie生命周期”
 
@@ -29,7 +33,7 @@ Web SDK尚不提供对其设置的Cookie生命周期的自定义。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 1. 展开[!UICONTROL Cookie]折叠面板，这会显示[!UICONTROL Cookie生命周期]下拉列表。
 
 此下拉列表包含以下值：
@@ -37,7 +41,7 @@ Web SDK尚不提供对其设置的Cookie生命周期的自定义。
 * **默认**：Cookie 在 2 年后过期。
 * **无**：AppMeasurement 未设置 Cookie。
 * **会话**：Cookie 在访客会话结束时过期。
-* **秒**：Cookie 在指定的秒数后过期。例如，将此下拉列表设置为[!UICONTROL 秒]并将`86400`放入自定义字段会强制Cookie在24小时后过期。
+* **秒**：Cookie 在指定的秒数后过期。 例如，将此下拉列表设置为[!UICONTROL 秒]并将`86400`放入自定义字段会强制Cookie在24小时后过期。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.cookieLifetime
 

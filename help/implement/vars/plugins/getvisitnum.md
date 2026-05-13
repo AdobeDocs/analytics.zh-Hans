@@ -4,9 +4,14 @@ description: 跟踪访客的当前访问数量。
 feature: Appmeasurement Implementation
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/KlNcru45h6rsw9Yce3UBLZEiTm8BSYID7M2Ey2ZLzi8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: 821
 ht-degree: 76%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 76%
 
 {{plug-in}}
 
-`getVisitNum` 插件可返回在所需天数内访问网站的所有访客所产生的访问数量。Analysis Workspace 提供了一个具有类似功能的维度，即“访问数量”维度。如果您希望提高对访问量递增方式的控制，Adobe 建议您使用此插件。如果 Analysis Workspace 中内置的“访问数量”维度足以满足您的报告需求，则无需使用此插件。
+`getVisitNum` 插件可返回在所需天数内访问网站的所有访客所产生的访问数量。 Analysis Workspace 提供了一个具有类似功能的维度，即“访问数量”维度。 如果您希望提高对访问量递增方式的控制，Adobe 建议您使用此插件。 如果 Analysis Workspace 中内置的“访问数量”维度足以满足您的报告需求，则无需使用此插件。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -65,7 +70,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -78,15 +83,15 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 `getVisitNum` 函数使用以下参数：
 
-* **`rp`**（可选，整数或字符串）：访问量计数器重置前的天数。如果未设置此参数，则将默认使用 `365`。
+* **`rp`**（可选，整数或字符串）：访问量计数器重置前的天数。  如果未设置此参数，则将默认使用 `365`。
    * 如果此参数为`"w"`，则计数器将在周末（本周六晚上11:59）重置
    * 如果将此参数设置为 `"m"`，则计数器将在月末（本月的最后一天）重置
    * 如果将此参数设置为 `"y"`，则计数器将在年末（12 月 31 日）重置
-* **`erp`**（可选，布尔）：如果 `rp` 参数是数字，则此参数可确定是否应延长访问量过期时间。如果设置为 `true`，则对您网站的后续点击将重置访问数量计数器。如果设置为 `false`，则当访问数量计数器重置时，对您网站的后续点击将不会延期。默认为 `true`。如果 `rp` 参数为字符串，此参数将无效。
+* **`erp`**（可选，布尔）：如果 `rp` 参数是数字，则此参数可确定是否应延长访问量过期时间。 如果设置为 `true`，则对您网站的后续点击将重置访问数量计数器。 如果设置为 `false`，则当访问数量计数器重置时，对您网站的后续点击将不会延期。 默认为 `true`。 如果 `rp` 参数为字符串，此参数将无效。
 
-每当访客在处于非活动状态 30 分钟后返回到您的网站时，访问数量便会增加。调用此函数将返回一个表示访客当前访问数量的整数。
+每当访客在处于非活动状态 30 分钟后返回到您的网站时，访问数量便会增加。 调用此函数将返回一个表示访客当前访问数量的整数。
 
-此插件将设置一个名为 `"s_vnc[LENGTH]"` 的第一方 Cookie，其中 `[LENGTH]` 为传递到 `rp` 参数的值。例如，`"s_vncw"`、`"s_vncm"` 或 `"s_vnc365"`。该 Cookie 的值包含一个 Unix 时间戳，该时间戳表示访问数量计数器重置的时间，例如周末、月末或处于非活动状态 365 天后。此外，该值还包含当前访问数量。此插件还会设置一个名为 `"s_ivc"` 的 Cookie，该 Cookie 已设为 `true`，且将在处于非活动状态 30 分钟后过期。
+此插件将设置一个名为 `"s_vnc[LENGTH]"` 的第一方 Cookie，其中 `[LENGTH]` 为传递到 `rp` 参数的值。 例如，`"s_vncw"`、`"s_vncm"` 或 `"s_vnc365"`。 该 Cookie 的值包含一个 Unix 时间戳，该时间戳表示访问数量计数器重置的时间，例如周末、月末或处于非活动状态 365 天后。 此外，该值还包含当前访问数量。 此插件还会设置一个名为 `"s_ivc"` 的 Cookie，该 Cookie 已设为 `true`，且将在处于非活动状态 30 分钟后过期。
 
 ## 示例
 

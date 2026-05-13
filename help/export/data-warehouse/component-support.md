@@ -3,16 +3,22 @@ title: Data Warehouse中的组件支持
 description: 了解 Data Warehouse 中有哪些其他维度和指标可用以及不支持哪些维度和指标。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 45%
+source-wordcount: 580
+ht-degree: 47%
 
 ---
 
 # Data Warehouse 中的组件支持
 
-Data Warehouse架构中的独特处理允许使用某些在Adobe Analytics的其他功能中通常不可用的组件。 由于其独特的架构，某些组件无法用于报表或区段。使用此页面可了解哪些组件可以使用，哪些组件不可使用。
+Data Warehouse架构中的独特处理允许使用某些在Adobe Analytics的其他功能中通常不可用的组件。 由于其独特的架构，某些组件无法用于报表或区段。 使用此页面可了解哪些组件可以使用，哪些组件不可使用。
 
 ## Data Warehouse 的特有组件
 
@@ -23,7 +29,7 @@ Data Warehouse架构中的独特处理允许使用某些在Adobe Analytics的其
 * **Experience Cloud ID**：对于使用Experience Cloud ID服务(ECID)的实施，由两个64位数字拼接而成的128位数字，填充到19位数。
 * **页面URL**：点击发生的页面URL。
 * **购买ID**：购买的唯一标识符，使用purchaseID变量设置。
-* **访客ID**：提供访客的唯一标识符。 此值与数据馈送中的 `visid_high` 和 `visid_low` 列的拼接值相同。有关更多信息，请参阅“数据馈送”下的[数据列引用](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+* **访客ID**：提供访客的唯一标识符。 此值与数据馈送中的 `visid_high` 和 `visid_low` 列的拼接值相同。 有关更多信息，请参阅“数据馈送”下的[数据列引用](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
 ### 专门支持的指标
 
@@ -36,7 +42,7 @@ Data Warehouse 不支持某些维度和指标。
 
 >[!NOTE]
 >
->如果 Data Warehouse 不支持某个维度或指标，则也不支持使用这些维度或指标的区段。在创建或编辑区段时，请务必检查产品兼容性。
+>如果 Data Warehouse 不支持某个维度或指标，则也不支持使用这些维度或指标的区段。 在创建或编辑区段时，请务必检查产品兼容性。
 
 ### 不支持的维度
 
@@ -61,7 +67,7 @@ Data Warehouse 不支持某些维度和指标。
 ### 不支持的指标
 
 * 一些基于路径的指标，包括：
-   * 跳出次数
+   * 退信数
    * 登录
    * 退出
    * 重新载入
@@ -81,7 +87,7 @@ Data Warehouse 不支持某些维度和指标。
 * 小时
 * 分钟
 
-但是，使用这些维度时，日期输出不是标准输出。
+但是，在使用这些维度时，日期的输出不是标准格式。
 
 在Data Warehouse中计算日期输出时，请考虑以下事项：
 

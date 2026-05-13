@@ -6,9 +6,13 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: ff1722416fe5062d16c12185d17271ebc2d6b624
+TQID: https://experienceleague.adobe.com/cjmpTOapngB6Rwd4QvdCZVTXfRjZAXFz4yfWLw2wvCA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: 535
 ht-degree: 22%
 
 ---
@@ -38,7 +42,7 @@ Report Builder中心包含![AddCircle](/help/assets/icons/AddCircle.svg) **[!UIC
 | 命令 | 可用的时间… | 用途 |
 |------|------------------|--------|
 | ![编辑](/help/assets/icons/Edit.svg)**[!UICONTROL 编辑数据块]** | 所选一个或多个单元格仅属于一个数据块。 | 用于编辑数据块。 |
-| ![刷新](/help/assets/icons/Refresh.svg) **[!UICONTROL 刷新数据块]** | 选区至少包含一个数据块。该命令仅刷新选区中的数据块。 | 用于刷新一个或多个数据块。 |
+| ![刷新](/help/assets/icons/Refresh.svg) **[!UICONTROL 刷新数据块]** | 选区至少包含一个数据块。 该命令仅刷新选区中的数据块。 | 用于刷新一个或多个数据块。 |
 | ![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL 刷新所有数据块]** | 工作簿包含一个或多个数据块。 | 用于刷新工作簿中的所有数据块 |
 | ![发送](/help/assets/icons/Send.svg) **[!UICONTROL 发送工作簿]** | 工作簿包含一个或多个数据块。 | 使用以电子邮件的形式[发送工作簿](schedule-reportbuilder.md)。 |
 | ![复制](/help/assets/icons/Copy.svg) **[!UICONTROL 复制数据块]** | 所选单元格或单元格属于一个或多个数据块。 | 用于复制数据块。 |
@@ -62,7 +66,7 @@ Report Builder中心包含![AddCircle](/help/assets/icons/AddCircle.svg) **[!UIC
 
 ### 日期范围
 
-**日期范围**&#x200B;显示所选数据块的日期范围。如果选择具有多个日期范围的多个数据块，则&#x200B;**[!UICONTROL 日期范围]**&#x200B;链接显示&#x200B;**[!UICONTROL _多个_]**。
+**日期范围**&#x200B;显示所选数据块的日期范围。 如果选择具有多个日期范围的多个数据块，则&#x200B;**[!UICONTROL 日期范围]**&#x200B;链接显示&#x200B;**[!UICONTROL _多个_]**。
 
 ### 区段
 
@@ -71,7 +75,7 @@ Report Builder中心包含![AddCircle](/help/assets/icons/AddCircle.svg) **[!UIC
 >[!MORELIKETHIS]
 >
 >[选择报表包](select-report-suite.md)
->[选择日期范围](select-date-range.md)
+>[选择一个日期范围](select-date-range.md)
 >[使用筛选器](work-with-segments.md)
 >
 

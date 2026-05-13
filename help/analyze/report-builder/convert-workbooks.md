@@ -6,10 +6,16 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: 9743d7ac2a6c7e63d7a6701e60d05683c5680d36
+TQID: https://experienceleague.adobe.com/0nmyJL9FDtcP8FTaJXbLCdBSZ0Nnb8U7g0Ox5xH40yw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 0%
+source-wordcount: 1202
+ht-degree: 1%
 
 ---
 
@@ -38,13 +44,13 @@ ht-degree: 0%
 
 要打开旧工作簿，您可以：
 
-* 从&#x200B;**[!UICONTROL Report Builder中心]**&#x200B;的[计划](report-builder-hub.md)选项卡中打开计划的旧工作簿。 此操作是计划旧版工作簿的首选方法。 您可以选择在[计划转换的旧工作簿后，立即使用与旧工作簿关联的计划](#schedule-a-converted-legacy-workbook)。
+* 从[Report Builder中心](report-builder-hub.md)的&#x200B;**[!UICONTROL 计划]**&#x200B;选项卡中打开计划的旧工作簿。 此操作是计划旧版工作簿的首选方法。 您可以选择在[计划转换的旧工作簿后，立即使用与旧工作簿关联的计划](#schedule-a-converted-legacy-workbook)。
 
-   1. 打开[!DNL Excel]并从![功能区栏中选择](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedonWhite **&#x200B;**&#x200B;Report Builder[!DNL Excel]。
+   1. 打开[!DNL Excel]并从[!DNL Excel]功能区栏中选择![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
 
    1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
 
-   1. 在&#x200B;**[!UICONTROL Report Builder中心]**&#x200B;中选择[计划](report-builder-hub.md)。
+   1. 在[Report Builder中心](report-builder-hub.md)中选择&#x200B;**[!UICONTROL 计划]**。
    1. 选择&#x200B;**[!UICONTROL 旧版]**&#x200B;选项卡。 选项卡列出了您创建的基于Report Builder的旧版计划工作簿。
 
       ![旧版工作台](assets/upgrade-legacy-schedule.png)
@@ -54,7 +60,7 @@ ht-degree: 0%
 
 * 直接从本地计算机或网络打开旧工作簿。 使用此方法时，不提供使用可能与旧版工作簿关联的计划。 <br/>在[!DNL Excel]中打开旧工作簿时：
 
-   1. 从![功能区栏中选择](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedOnWhite **&#x200B;**&#x200B;Report Builder[!DNL Excel]。
+   1. 从[!DNL Excel]功能区栏中选择![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
    1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
    1. 然后[转换旧工作簿](#convert-a-workbook)。
 
@@ -139,10 +145,10 @@ ht-degree: 0%
       1. 选择&#x200B;**[!UICONTROL 确定]**。
    1. 从源工作表中：
       1. 选择包含所有数据块的单元格范围。
-      1. 从![Report Builder中心](/help/assets/icons/Copy.svg)中选择&#x200B;**[!UICONTROL 复制]** [复制数据块](/help/analyze/report-builder/report-builder-hub.md)。
+      1. 从[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL 复制数据块]**。
    1. 在目标工作表中：
       1. 选择要将复制的单元格范围粘贴到的单元格。
-      1. 从![Report Builder中心](/help/assets/icons/Paste.svg)中选择&#x200B;**[!UICONTROL 粘贴]** [粘贴数据块](/help/analyze/report-builder/report-builder-hub.md)。
+      1. 从[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)中选择![粘贴](/help/assets/icons/Paste.svg) **[!UICONTROL 粘贴数据块]**。
 
 * **日期范围**。 Report Builder不迁移应用于旧版Report Builder中日期范围的行标签的日期范围格式选项&#x200B;**[!UICONTROL 将开始和结束期间显示为]**。
 

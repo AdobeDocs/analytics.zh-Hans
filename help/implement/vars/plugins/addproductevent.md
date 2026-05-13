@@ -4,9 +4,13 @@ description: 将自定义事件添加到产品变量和事件变量。
 feature: Appmeasurement Implementation
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/WnRum8j4fP5rzQ4pz3hK2ORcpIv69oOz14mgvb1x3ME
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 517
 ht-degree: 86%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 86%
 
 {{plug-in}}
 
-`addProductEvent` 插件会向 [`products`](../page-vars/products.md) 变量添加数值或货币事件。如果您希望向 `products` 变量添加数值或货币事件而无需担心产品字符串格式，Adobe 建议使用此插件。如果不在 `products` 变量中使用数值或货币事件，则无需使用此插件。
+`addProductEvent` 插件会向 [`products`](../page-vars/products.md) 变量添加数值或货币事件。 如果您希望向 `products` 变量添加数值或货币事件而无需担心产品字符串格式，Adobe 建议使用此插件。 如果不在 `products` 变量中使用数值或货币事件，则无需使用此插件。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -50,7 +54,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,11 +67,11 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 `addProductEvent` 函数使用以下参数：
 
-* **`en`**（必需，字符串）：要添加到 `products` 变量中最后一个条目的事件。如果 `products` 变量为空，则会创建一个“空白”产品条目，并附加事件（及其值）。
-* **`ev`**（必需，字符串）：分配给 `en` 参数中的数值或货币事件的值。如果未设置，则默认为 `1`。未包含在字符串引号中的数字也是有效的。
-* **`ap`**（可选，布尔值）：如果产品变量当前包含多个产品条目，则值为 `true`（或 `1`）会将事件添加到所有产品条目。如果未设置，则默认为 `false`。
+* **`en`**（必需，字符串）：要添加到 `products` 变量中最后一个条目的事件。 如果 `products` 变量为空，则会创建一个“空白”产品条目，并附加事件（及其值）。
+* **`ev`**（必需，字符串）：分配给 `en` 参数中的数值或货币事件的值。  如果未设置，则默认为 `1`。 未包含在字符串引号中的数字也是有效的。
+* **`ap`**（可选，布尔值）：如果产品变量当前包含多个产品条目，则值为 `true`（或 `1`）会将事件添加到所有产品条目。  如果未设置，则默认为 `false`。
 
-`addProductEvent` 不会返回任何结果。而是将事件及其值添加到 `products` 变量。该插件还会自动将事件添加到 [`events`](../page-vars/events/events-overview.md) 变量中，因为此变量也需要该事件。
+`addProductEvent` 不会返回任何结果。 而是将事件及其值添加到 `products` 变量。 该插件还会自动将事件添加到 [`events`](../page-vars/events/events-overview.md) 变量中，因为此变量也需要该事件。
 
 ## Cookie
 

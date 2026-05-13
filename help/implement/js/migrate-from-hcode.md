@@ -4,16 +4,21 @@ description: 确定从 H 码迁移实施所需的内容。
 feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/Ml3fp170Ggn8-lpJCvDOAMBMF1izsmrG0BAnWcS-BUo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 91%
+source-wordcount: 297
+ht-degree: 90%
 
 ---
 
 # 迁移到 AppMeasurement for JavaScript
 
-如果您的实施仍使用 H 码，Adobe 强烈建议迁移到最新版 AppMeasurement。建议通过 [Adobe Experience Platform 中的标记](../launch/overview.md) 实施 Analytics，但也可以使用更新的 JavaScript 实施。
+如果您的实施仍使用 H 码，Adobe 强烈建议迁移到最新版 AppMeasurement。 建议通过 [Adobe Experience Platform 中的标记](../launch/overview.md) 实施 Analytics，但也可以使用更新的 JavaScript 实施。
 
 与 H 码相比，AppMeasurement 中存在以下显著更改：
 
@@ -26,7 +31,7 @@ ht-degree: 91%
 
 以下步骤概述了典型的迁移工作流程。
 
-1. **下载新的 AppMeasurement 文件**：登录到 Adobe Analytics，然后导航到“管理员”>“所有管理员”>“代码管理器”以访问新文件。下载的压缩文件包含一个缩小的 `AppMeasurement.js` 文件，以及媒体和集成模块。
+1. **下载新的 AppMeasurement 文件**：登录到 Adobe Analytics，然后导航到“管理员”>“所有管理员”>“代码管理器”以访问新文件。 下载的压缩文件包含一个缩小的 `AppMeasurement.js` 文件，以及媒体和集成模块。
 1. **将 `s_code.js` 自定义项复制到`AppMeasurement.js`**：将 `s_code.js` 中 `DO NOT ALTER ANYTHING BELOW THIS LINE` 部分之前的所有代码移到 `AppMeasurement.js` 的开头。
 1. **更新所有插件**：确保使用`s_code.js`文件中列出的每个插件的最新版本。 此步骤包括媒体和集成模块。
 1. **部署 AppMeasurement.js 文件**：将 `AppMeasurement.js` 文件上传到 Web 服务器。
@@ -34,7 +39,7 @@ ht-degree: 91%
 
 ## 示例 Appmeasurement 代码
 
-典型的 `AppMeasurement.js` 文件。确保在 `doPlugins` 函数上方设置配置变量。
+典型的 `AppMeasurement.js` 文件。 确保在 `doPlugins` 函数上方设置配置变量。
 
 ```js
 // Initialize AppMeasurement
@@ -89,4 +94,4 @@ s.t();
 </script>
 ```
 
-请务必在每个页面上也加入 `AppMeasurement.js` 和 `VisitorAPI.js` 的引用。有关更多信息，请参阅 [JavaScript 实施](/help/implement/js/overview.md)。
+请务必在每个页面上也加入 `AppMeasurement.js` 和 `VisitorAPI.js` 的引用。 有关更多信息，请参阅 [JavaScript 实施](/help/implement/js/overview.md)。

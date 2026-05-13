@@ -5,10 +5,15 @@ uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/ZAVAW4NN9WCHCdj-ZPXDOflV4oC0-WPbClzkdlrf3JM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 74%
+source-wordcount: 563
+ht-degree: 24%
 
 ---
 
@@ -22,7 +27,7 @@ ht-degree: 74%
 
 [!UICONTROL 请求管理器]提供了您为所有工作表或仅为活动工作簿的一个工作表生成的所有请求的详细状态视图。 您还可以添加、编辑、刷新和删除请求。 当您右键单击Excel电子表格中包含先前请求的可用单元格时，这些函数通常与[!UICONTROL 请求向导]和[!UICONTROL 请求管理器]相关联。
 
-单击Report Builder工具栏中的[!UICONTROL 管理] **[!UICONTROL 后，将显示]**&#x200B;请求管理器![](assets/edit_request.gif)。
+单击Report Builder工具栏中的&#x200B;**[!UICONTROL 管理]** ![](assets/edit_request.gif)后，将显示[!UICONTROL 请求管理器]。
 
 >[!NOTE]
 >
@@ -40,14 +45,14 @@ ht-degree: 74%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>所有工作表 </p> </td> 
-   <td colname="col2"> <p>显示活动工作簿的所有工作表中的请求。要查看特定工作表中的请求，请禁用此选项。如果禁用此选项，必须单击 Excel 报表底部的工作表标签，以在<span class="wintitle">请求管理器</span>中显示与该工作表相关联的请求。复选框旁边的标签指示工作簿中的哪个工作表当前获得了焦点。 </p> </td> 
+   <td colname="col2"> <p>显示活动工作簿的所有工作表中的请求。 要查看特定工作表中的请求，请关闭此选项。 如果禁用此选项，必须单击 Excel 报表底部的工作表标签，以在<span class="wintitle">请求管理器</span>中显示与该工作表相关联的请求。 复选框旁边的标签表示工作簿的哪个工作表当前具有焦点。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>工作表 </p> </td> 
    <td colname="col2"> <p>显示工作簿中工作表的名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>报表包 </p> </td> 
+   <td colname="col1"> <p>报告包 </p> </td> 
    <td colname="col2"> <p>显示报表包的名称。 </p> </td> 
   </tr> 
   <tr> 
@@ -60,35 +65,35 @@ ht-degree: 74%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 上次运行 </p> </td> 
-   <td colname="col2"> <p>指定 Report Builder 上次处理请求的日期。诊断消息也会显示在此表的“<span class="wintitle">上次运行</span>”列中（如果适用）。 </p> </td> 
+   <td colname="col2"> <p>指定Report Builder上次处理请求的日期。 诊断消息也会显示在此表的“<span class="wintitle">上次运行</span>”列中（如果适用）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>添加 </p> </td> 
-   <td colname="col2"> <p>显示请求向导对话框。请参阅<a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   >创建数据请求</a>。 </p> </td> 
+   <td colname="col1"> <p>加 </p> </td> 
+   <td colname="col2"> <p>显示请求向导对话框。 请参阅<a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   >创建数据请求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>编辑 </p> </td> 
-   <td colname="col2"> <p> （或者“编辑多个”）编辑所选的请求。系统会显示<span class="wintitle">请求向导</span>对话框。请参阅<a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   >编辑多个请求</a>。 </p> </td> 
+   <td colname="col2"> <p> （或编辑多个）编辑选定的请求。 系统会显示<span class="wintitle">请求向导</span>对话框。 请参阅<a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   >编辑多个请求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>删除 </p> </td> 
-   <td colname="col2"> <p>删除请求。您可以删除多个选定的请求。您还可以通过选择请求并按键盘上的 Delete 键来删除列表中的请求。 </p> </td> 
+   <td colname="col2"> <p>删除请求。 您可以删除多个选定的请求。 您也可以通过选择请求并按键盘上的Delete来删除列表中的请求。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 选择全部 </p> </td> 
-   <td colname="col2"> <p>选择全部请求。<span class="wintitle">请求管理器</span>在请求列表的底部显示您选择的请求数。 </p> </td> 
+   <td colname="col1"> <p> 全选 </p> </td> 
+   <td colname="col2"> <p>选择所有请求。 <span class="wintitle">请求管理器</span>在请求列表的底部显示您选择的请求数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>从单元格 </p> </td> 
-   <td colname="col2"> <p>从工作表中获取请求的数据。如果某请求与活动工作表中当前选定的单元格相关联，则列表中关联的请求处于选定状态。 </p> </td> 
+   <td colname="col2"> <p>从工作表中获取请求的数据。 如果某个请求与活动工作表中当前选定的单元格相关联，则会选择列表中关联的请求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 刷新 </p> </td> 
-   <td colname="col2"> <p>刷新单个请求或所选的多个请求。（请参阅<a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   >刷新请求</a>。） </p> </td> 
+   <td colname="col2"> <p>刷新单个请求或选定的请求。 （请参阅<a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   >刷新请求</a>。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>刷新列表 </p> </td> 
-   <td colname="col2"> <p>刷新显示的所有请求。刷新所有请求时，将信息从服务器更新到报表所用的时间与报表中请求的复杂程度成正比。对于大型报表，刷新所有请求可能需要数分钟的时间。因此，您可能希望单独更新最紧急的请求，然后在时间不太紧张时选择“<span class="wintitle">全部刷新</span>”。 </p> <p> <p>注意：如果您刷新包含多个请求的工作表，建议您经常在<span class="wintitle">请求管理器</span>中查看结果。如果请求失败，诊断列中的错误消息可帮助您找出错误的根源。尽管在大多数情况下请求失败时都会显示错误消息，但请注意，有时不生成错误消息。您可能会发现，刷新不更新包含引用的单元格中的数据，或者更新从单元格中删除了数据。 </p> </p> </td> 
+   <td colname="col2"> <p>刷新所有显示的请求。 在刷新所有请求时，将信息从服务器更新到报表的时间与报表中请求的复杂性成正比。 对于非常大的报表，刷新所有请求可能需要几分钟时间。 因此，您可能希望单独更新最紧急的请求，然后在时间不太紧张时选择“<span class="wintitle">全部刷新</span>”。 </p> <p> <p>注意：如果您刷新包含多个请求的工作表，建议您经常在<span class="wintitle">请求管理器</span>中查看结果。 如果发生请求失败，诊断列中的错误消息将帮助您查明错误的来源。 虽然在大多数情况下，请求失败时会显示错误消息，但请注意，有时不会生成任何错误消息。 您可能会注意到，刷新不会更新包含引用的单元格中的数据，或者更新会从单元格中删除数据。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

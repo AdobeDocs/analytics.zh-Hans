@@ -3,10 +3,15 @@ title: Adobe Analytics使用的域
 description: 允许这些域通过贵组织的防火墙，以获得最佳的Adobe Analytics使用体验。
 feature: Data Configuration and Collection
 exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
-source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
+TQID: https://experienceleague.adobe.com/y5UXvG8gVAw4fp-Hep-nNHixMQydt-xjr5MGNbp0SQk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 13%
+source-wordcount: 164
+ht-degree: 11%
 
 ---
 
@@ -16,23 +21,23 @@ ht-degree: 13%
 
 | 技术 | 域 |
 | --- | --- |
-| Adobe Analytics 域 | `adobe.com`、`adobe.net`、`adobe.io` |
+| Adobe Analytics 域 | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Analytics 旧域 | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Gainsight | `esp.aptrinsic.com`、`esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
-| Microsoft® Azure Blob存储 | `awaascicdprodva7.blob.core.windows.net` |
-| Microsoft® Azure CDN | `aauicdnva7.azureedge.net` |
+| ® Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
+| ® AZURE CDN | `aauicdnva7.azureedge.net` |
 
 {style="table-layout:auto"}
 
 ## Adobe Experience Cloud 域
 
-除了上述域之外，Adobe Experience Cloud还依靠多个域来收集和导出报表。 有关此域列表，请参阅[Adobe Experience Cloud使用的域](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/domains)。
+除了上述域之外，Adobe Experience Cloud还依靠多个域来收集和导出报表。 有关此域列表，请参阅[Adobe Experience Cloud使用的域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)。
 
 >[!MORELIKETHIS]
 >
 >Adobe Analytics使用的[IP地址](ip-addresses.md)
 >
->[Adobe Experience Cloud使用的域](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/domains)
+>[Adobe Experience Cloud使用的域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

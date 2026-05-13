@@ -4,16 +4,20 @@ description: 在编译点击并将其发送到 Adobe 之前配置逻辑。
 feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/T-AyesoP2IMk3J-ftdnR-o48HqTmoRsAYtaIgn9cc1Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 63%
+source-wordcount: 326
+ht-degree: 61%
 
 ---
 
 # doPlugins
 
-`doPlugins` 变量会用作“最后一次调用”，以便在您的实施中设置值。它是调用[插件方法](../plugins/impl-plugins.md)并在发送图像请求之前设置任何所需变量的理想场所。 如果启用了 [`usePlugins`](../config-vars/useplugins.md)，它将在编译任何类型的图像请求并将其发送到 Adobe 之前自动运行，包括：
+`doPlugins` 变量会用作“最后一次调用”，以便在您的实施中设置值。 它是调用[插件方法](../plugins/impl-plugins.md)并在发送图像请求之前设置任何所需变量的理想场所。 如果启用了 [`usePlugins`](../config-vars/useplugins.md)，它将在编译任何类型的图像请求并将其发送到 Adobe 之前自动运行，包括：
 
 * 所有页面查看 ([`t()`](t-method.md)) 调用
 * 所有链接跟踪 ([`tl()`](tl-method.md)) 调用，包括自动下载链接和退出链接
@@ -22,17 +26,17 @@ ht-degree: 63%
 
 ## 使用Web SDK扩展的“在事件之前发送”回调代码
 
-Web SDK使用具有类似功能的`doPlugins`，而不是`onBeforeEventSend`。
+Web SDK使用具有类似功能的`onBeforeEventSend`，而不是`doPlugins`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 在[!UICONTROL 数据收集]下，单击&#x200B;**[!UICONTROL 在事件发送回调代码之前编辑]**&#x200B;按钮。
 1. 将所需的代码置于编辑器中。
 
 ## 使用`onBeforeEventSend`手动实施Web SDK
 
-Web SDK使用具有类似功能的`doPlugins`，而不是`onBeforeEventSend`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+Web SDK使用具有类似功能的`onBeforeEventSend`，而不是`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -49,7 +53,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement 和自定义代码编辑器中的 s.doPlugins
 
-将 `s.doPlugins` 变量设置为包含所需代码的函数。当您进行跟踪调用时，该函数会自动运行。
+将 `s.doPlugins` 变量设置为包含所需代码的函数。 当您进行跟踪调用时，该函数会自动运行。
 
 ```js
 s.doPlugins = function() {/* Desired code */};
@@ -57,7 +61,7 @@ s.doPlugins = function() {/* Desired code */};
 
 >[!IMPORTANT]
 >
->在您的实施中仅一次将函数设置为 `doPlugins` 变量。如果多次设置 `doPlugins` 变量，则仅会使用最新的代码。
+>在您的实施中仅一次将函数设置为 `doPlugins` 变量。 如果多次设置 `doPlugins` 变量，则仅会使用最新的代码。
 
 ## 示例
 
@@ -75,4 +79,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
->AppMeasurement 的先前版本具有的 `doPlugins()` 代码略有不同。Adobe 建议将上述格式作为最佳实践。
+>AppMeasurement 的先前版本具有的 `doPlugins()` 代码略有不同。 Adobe 建议将上述格式作为最佳实践。

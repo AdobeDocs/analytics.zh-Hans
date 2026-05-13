@@ -4,10 +4,16 @@ description: 描述 Analysis Workspace 内 CDA 模板中的每个字段。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
 role: Admin
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+TQID: https://experienceleague.adobe.com/Zui1m27pi3eQnm-dac2akfGRF01IbPaQ0SwLD01iDAE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 93%
+source-wordcount: 391
+ht-degree: 92%
 
 ---
 
@@ -23,16 +29,16 @@ Adobe 提供一个模板以查看重要的跨设备性能数据。
 1. 找到“跨设备分析”模板&quot;，然后单击[!UICONTROL 创建]。
 1. 如果出现提示，请将报表包更改为支持 CDA 的报表包。
 
-将创建一个包含多个面板的 Analysis Workspace 项目。在顶部显示了目录和简介，允许查看报表的上下文和导致到单个报表。单击目录中的链接或展开面板的折叠面板可查看这些报表。
+将创建一个包含多个面板的 Analysis Workspace 项目。 在顶部显示了目录和简介，允许查看报表的上下文和导致到单个报表。 单击目录中的链接或展开面板的折叠面板可查看这些报表。
 
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **用户标识**：显示使用基于 Cross-Device Analytics 的方法识别网站访客的频率。
-* **测量受众规模**：显示“独特设备”与“人员”的对比。这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。此压缩量度取决于多种因素：
-   * 登录率：登录您网站的用户越多，Adobe 跨设备识别和拼合的访客越多。登录率较低的网站，其压缩率也较低。
-   * Experience Cloud ID 覆盖：只能拼合拥有 ECID 的访客。使用 ECID 访问您网站的访客百分比越低，则压缩率也越低。
+* **测量受众规模**：显示“独特设备”与“人员”的对比。 这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。 此压缩量度取决于多种因素：
+   * 登录率：登录您网站的用户越多，Adobe 跨设备识别和拼合的访客越多。 登录率较低的网站，其压缩率也较低。
+   * Experience Cloud ID 覆盖：只能拼合拥有 ECID 的访客。 使用 ECID 访问您网站的访客百分比越低，则压缩率也越低。
    * 多种设备使用情况：如果网站的访客不使用多种设备，则压缩率可能较低。
-   * 报表粒度：按日压缩通常比按月或按年压缩更小。单个用户在一天内使用多种设备的几率比整个月内使用多种设备的几率更小。分段、过滤或使用划分维度也可能会获得较低的压缩率。
+   * 报表粒度：按日压缩通常比按月或按年压缩更小。 单个用户在一天内使用多种设备的几率比整个月内使用多种设备的几率更小。 分段、过滤或使用划分维度也可能会获得较低的压缩率。
 * **基于人员的区段**：包含区段下拉列表，允许您查看设备特定数据。 此面板鼓励对区段进行实验，以了解包括或排除设备类型对报表有何影响。
 * **分析跨设备历程**：根据设备类型提供流量和流失报告。
 * **跨设备归因**：将跨设备分析和归因的功能结合在一起。

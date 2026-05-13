@@ -4,9 +4,12 @@ title: 创建和管理模板
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 726
 ht-degree: 100%
 
 ---
@@ -33,9 +36,9 @@ ht-degree: 100%
    |---------|----------|
    | **[!UICONTROL 名称]** | 为模板提供一个描述性名称。 |
    | **[!UICONTROL 描述]** | 为模板提供简短描述，说明其预期用途。 |
-   | **[!UICONTROL 为什么使用此模板]** | 提供简短的说明，告知组织中的人员如何使用该模板。此说明显示在模板的预览页面上。 |
-   | **[!UICONTROL 用例]** | 选择适用于此模板的任何用例。您可以选择多个用例：**[!UICONTROL 参与度]**、**[!UICONTROL 转化]**、**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 客户获取]**。 <p>您选择的选项将决定模板的显示位置，以及用户从组织模板页面访问模板时适用的过滤器。</p> |
-   | **[!UICONTROL 标记]** | 指定您想要应用于模板的任何标记。人们可以根据您添加的标记来过滤模板列表。 |
+   | **[!UICONTROL 为什么使用此模板]** | 提供简短的说明，告知组织中的人员如何使用该模板。 此说明显示在模板的预览页面上。 |
+   | **[!UICONTROL 用例]** | 选择适用于此模板的任何用例。 您可以选择多个用例：**[!UICONTROL 参与度]**、**[!UICONTROL 转化]**、**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 客户获取]**。 <p>您选择的选项将决定模板的显示位置，以及用户从组织模板页面访问模板时适用的过滤器。</p> |
+   | **[!UICONTROL 标记]** | 指定您想要应用于模板的任何标记。 人们可以根据您添加的标记来过滤模板列表。 |
 
 1. 选择&#x200B;[!UICONTROL **另存为模板**]。
 
@@ -45,7 +48,7 @@ ht-degree: 100%
 
 管理员可以编辑或删除公司模板。
 
-1. 在 Analysis Workspace 中，选择 [!UICONTROL **Workspace**] 选项卡，然后选择 **[!UICONTROL _login_company_name _模板]**。
+1. 在 Analysis Workspace 中，选择 [!UICONTROL **Workspace**] 选项卡，然后选择 **[!UICONTROL _login _company_name_ 模板]**。
 
 1. 如果您正在列视图![列视图图标](assets/column-view-icon.png)中查看模板：
 
@@ -79,9 +82,9 @@ ht-degree: 100%
    |---------|----------|
    | **[!UICONTROL 名称]** | 为模板提供一个描述性名称。 |
    | **[!UICONTROL 描述]** | 为模板提供简短描述，说明其预期用途。 |
-   | **[!UICONTROL 为什么使用此模板]** | 提供简短的说明，告知组织中的人员如何使用该模板。此说明显示在模板的预览页面上。 |
-   | **[!UICONTROL 用例]** | 选择适用于此模板的任何用例。您可以选择多个用例：**[!UICONTROL 参与度]**、**[!UICONTROL 转化]**、**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 客户获取]**。 <p>您选择的选项将决定模板的显示位置，以及用户从组织模板页面访问模板时适用的过滤器。</p> |
-   | **[!UICONTROL 标记]** | 指定您想要应用于模板的任何标记。人们可以根据您添加的标记来过滤模板列表。 |
+   | **[!UICONTROL 为什么使用此模板]** | 提供简短的说明，告知组织中的人员如何使用该模板。 此说明显示在模板的预览页面上。 |
+   | **[!UICONTROL 用例]** | 选择适用于此模板的任何用例。 您可以选择多个用例：**[!UICONTROL 参与度]**、**[!UICONTROL 转化]**、**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 客户获取]**。 <p>您选择的选项将决定模板的显示位置，以及用户从组织模板页面访问模板时适用的过滤器。</p> |
+   | **[!UICONTROL 标记]** | 指定您想要应用于模板的任何标记。 人们可以根据您添加的标记来过滤模板列表。 |
 
 1. 选择&#x200B;[!UICONTROL **另存为模板**]。
 
@@ -95,7 +98,7 @@ ht-degree: 100%
 
 1. 在过滤器边栏中，选择 **OTHER FILTERS**，然后选择&#x200B;**公司模板**。
 
-   显示公司模板的列表。不会显示所有常规项目（除非已固定）。
+   显示公司模板的列表。 不会显示所有常规项目（除非已固定）。
 
    公司模板可通过模板名称前的![模板图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)识别。
 

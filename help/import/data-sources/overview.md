@@ -4,16 +4,21 @@ description: 使用外部文件将数据导入Adobe Analytics。
 exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/AOl1PUYf4TL0FrYB8eHL-JLiWvz6ixJYKUPpIZEFqj8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: 327
+ht-degree: 4%
 
 ---
 
 # 数据源概述
 
-Adobe Analytics数据源允许您导入其他在线或离线数据以便进行报告。 它们对于帮助了解网站外部业务的各个方面以及它们如何与您的网站交互很有价值。 使用数据源的常规工作流包含以下步骤：
+Adobe Analytics 数据源允许您导入其他在线或离线数据以便进行报告。 它们对于帮助了解网站外部业务的各个方面以及它们如何与您的网站交互很有价值。 使用数据源的常规工作流包含以下步骤：
 
 1. 您的组织从其他来源收集数据。 例如，点击前数据、呼叫中心数据或在您的网站外发生的交易信息。
 1. 数据格式化的方式与Adobe Analytics使用制表符分隔的文本文件所理解的方式相同。

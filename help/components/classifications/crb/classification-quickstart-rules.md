@@ -1,12 +1,18 @@
 ---
-description: 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
+description: 分类规则会定期查找未分类的术语。 如果找到匹配规则的术语，规则会自动将其添加到分类数据表。 您还可以使用分类规则覆盖现有键值。
 title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
+TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 89%
+source-wordcount: 1978
+ht-degree: 86%
 
 ---
 
@@ -14,11 +20,11 @@ ht-degree: 89%
 
 {{classification-rulebuilder-deprecation}}
 
-分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
+分类规则会定期查找未分类的术语。 如果找到匹配规则的术语，规则会自动将其添加到分类数据表。 您还可以使用分类规则覆盖现有键值。
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 分类规则生成器]**
 
-规则生成器可让您创建&#x200B;*分类规则集*，这是&#x200B;*分类规则*&#x200B;的列表。如果规则与您指定的条件相匹配，则执行相应的操作。
+规则生成器可让您创建&#x200B;*分类规则集*，这是&#x200B;*分类规则*&#x200B;的列表。 如果规则与您指定的条件相匹配，则执行相应的操作。
 
 分类规则可提供以下便利性：
 
@@ -61,22 +67,22 @@ about_classification_rules.xml
 
 * **正则表达式**：[分类规则中的正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)下提供了相关帮助。
 
-* **报告包**：在至少选择一个报告包后，您才可以选取分类。在创建规则集并分配变量后，您才可以应用报告包。
+* **报告包**：在至少选择一个报告包后，您才可以选取分类。 在创建规则集并分配变量后，您才可以应用报告包。
 
-  在测试规则集时，使用报告中的键值（经过分类的变量）可查看规则集将如何影响键值。（[键](/help/components/classifications/importer/c-saint-data-files.md)是要分类的变量，或者是分类上载表中的第一列。）
+  在测试规则集时，使用报告中的键值（经过分类的变量）可查看规则集将如何影响键值。 （[键](/help/components/classifications/importer/c-saint-data-files.md)是要分类的变量，或者是分类上载表中的第一列。）
 
-* **规则优先级**：如果一个键值匹配多条规则，这些规则设置了相同的分类（在“[!UICONTROL 设置分类]”列中），则将使用匹配分类的最后一条规则。请参阅[关于规则优先级](/help/components/classifications/crb/classification-quickstart-rules.md)。
+* **规则优先级**：如果一个键值匹配多条规则，这些规则设置了相同的分类（在“[!UICONTROL 设置分类]”列中），则将使用匹配分类的最后一条规则。 请参阅[关于规则优先级](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
-* **规则数量的限制**：对于您可以创建的规则数量，不设定任何限制。但是，大量规则可能会影响浏览器性能。
+* **规则数量的限制**：对于您可以创建的规则数量，不设定任何限制。 但是，大量规则可能会影响浏览器性能。
 * **处理**：根据分类相关的流量数目，定期处理规则。
 
-  活动规则每四小时进行一次处理，通常每月检查一次返回的分类数据。规则会自动检查新值，并使用导入器上载分类。
+  活动规则每四小时进行一次处理，通常每月检查一次返回的分类数据。 规则会自动检查新值，并使用导入器上载分类。
 
-* **覆盖现有分类**：请参阅[规则何时不会对键值进行分类？](/help/components/classifications/crb/classification-quickstart-rules.md)如有必要，您可以使用导入器删除或移除现有分类。
+* **覆盖现有分类**：请参阅[规则何时不对键值进行分类？](/help/components/classifications/crb/classification-quickstart-rules.md) 如有必要，您可以使用导入器删除或移除现有分类。
 
 ## 规则何时不会对键值进行分类？
 
-在激活规则时，您可以覆盖现有分类。在以下情况下，分类规则不会对[键](/help/components/classifications/importer/c-saint-data-files.md)（变量）进行分类，如果：
+在激活规则时，您可以覆盖现有分类。 在以下情况下，分类规则不会对[键](/help/components/classifications/importer/c-saint-data-files.md)（变量）进行分类，如果：
 
 * 已对键值进行分类，并且您未选择[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)。
 
@@ -87,13 +93,13 @@ about_classification_rules.xml
 
   >[!NOTE]
   >
-  >在报告中，当存在键值时，分类适用于指定的任何时间范围。报告的日期范围不会影响报告。
+  >在报告中，当存在键值时，分类适用于指定的任何时间范围。 报告的日期范围不会影响报告。
 
 ![](assets/overwrite_keys.png)
 
 ## 分类规则中的正则表达式 {#regex-in-classification-rules}
 
-使用正则表达式将格式一致的字符串值与分类进行匹配。例如，您可以从跟踪代码中的特定字符创建分类。您可以匹配特定字符、词语或字符模式。
+使用正则表达式将格式一致的字符串值与分类进行匹配。 例如，您可以从跟踪代码中的特定字符创建分类。 您可以匹配特定字符、词语或字符模式。
 
 >[!NOTE]
 >
@@ -133,20 +139,20 @@ about_classification_rules.xml
 
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
-| 正则表达式 | &Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
+| 正则表达式 | &amp;Hat；(.+)\：(.+)\：(.+)$ | 促销活动日期 | $3 |
 
 **语法**
 
 | 正则表达式 | 字符串或匹配结果 | 对应的匹配群组 |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`： `em:JuneSale:20XX0601` `$1`： em `$2`： JuneSale `$3`： 20XX0601 |
-| 构建语法 | `^` = 开始此行  () = 将字符分组并让您提取括号中的匹配字符。`(.+)` = 捕获一个 ( . ) 字符，以及再捕获 ( + )  \ = 字符串的开头。`$` = 指示前面的字符（或字符组）位于行的最后。 | |
+| 构建语法 | `^` =开始此行() =将字符分组并允许您提取括号中的匹配字符。 `(.+)` =捕获一个( . )字符和( + )任何其他字符\ =字符串的开头。 `$` =指示前面的字符（或字符组）位于行的最后。 | |
 
 有关正则表达式中字符含义的信息，请参阅[正则表达式 - 参考表](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
 ## 正则表达式 - 对特定字符进行分类 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
-使用正则表达式的一种方式是对一串字符中的特定字符进行分类。例如，假设以下跟踪代码包含两个重要字符：
+使用正则表达式的一种方式是对一串字符中的特定字符进行分类。 例如，假设以下跟踪代码包含两个重要字符：
 
 示例密钥： `4s3234`
 
@@ -166,7 +172,7 @@ about_classification_rules.xml
 
 ## 正则表达式 - 匹配不同长度的跟踪代码 {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
-此示例显示当跟踪代码具有不同的长度时，如何识别逗号分隔符之间的特定字符。Adobe 建议为每个跟踪代码使用一个正则表达式。
+此示例显示当跟踪代码具有不同的长度时，如何识别逗号分隔符之间的特定字符。 Adobe 建议为每个跟踪代码使用一个正则表达式。
 
 示例关键值：
 
@@ -255,7 +261,7 @@ c:d:yoyo
 
 ## 关于规则优先级
 
-如果一个键值匹配多条规则，并且这些规则在“[!UICONTROL 设置分类]”列中设置了相同的分类列，则将使用最后一条规则。因此，您可能需要将最重要的规则排在规则集的最后。
+如果一个键值匹配多条规则，并且这些规则在“[!UICONTROL 设置分类]”列中设置了相同的分类列，则将使用最后一条规则。 因此，您可能需要将最重要的规则排在规则集的最后。
 
 <!-- 
 
@@ -296,7 +302,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->在此过程中，必须将规则应用到一个或多个报告包。即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您有超过100条规则，请考虑使用[子分类](/help/components/classifications/importer/subclassifications.md)来简化规则集。
+>在此过程中，必须将规则应用到一个或多个报告包。 即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。 如果您有超过100条规则，请考虑使用[子分类](/help/components/classifications/importer/subclassifications.md)来简化规则集。
 
 添加或编辑分类规则：
 
@@ -315,7 +321,7 @@ t_classification_rule.xml
    >
    >* 报告包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
    >
-   >   （有关先决条件的说明，请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)。）
+   >   （有关先决条件的说明，请参阅[分类规则集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*变量*。）
    >
    >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报告包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报告包。
 
@@ -323,7 +329,7 @@ t_classification_rule.xml
 
    | **规则会覆盖任何现有的值** | （默认设置）始终覆盖现有的分类键值，包括通过导入器上载的分类 (SAINT)。 |
    |---|---|
-   | **规则仅会覆盖未设置的值** | 仅填写空白（未设置）的单元格。不会更改现有分类。 |
+   | **规则仅会覆盖未设置的值** | 仅填写空白（未设置）的单元格。 不会更改现有分类。 |
 
 1. [定义一条或多条规则](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529)。
 
@@ -333,7 +339,7 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >如果一个键值匹配多条规则，而这些规则设置了相同的分类（在“设置分类”列中），则将使用匹配分类的最后一条规则。请参阅上述&#x200B;**关于规则优先级**，以了解有关对规则进行排序的详细信息。
+   >如果一个键值匹配多条规则，而这些规则设置了相同的分类（在“设置分类”列中），则将使用匹配分类的最后一条规则。 请参阅上述&#x200B;**关于规则优先级**，以了解有关对规则进行排序的详细信息。
 
 1. [测试规则集](/help/components/classifications/crb/classification-quickstart-rules.md)。
 1. 测试后，单击&#x200B;**[!UICONTROL 活动]**&#x200B;以验证并激活规则。

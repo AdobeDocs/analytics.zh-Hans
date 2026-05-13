@@ -3,13 +3,18 @@ description: 了解如何管理警报。
 title: 管理警报
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/ch83E4k1pJ3CpnAn54buMAqFLAHCVMBC8HZkHvGRlmU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: 599
 ht-degree: 21%
 
 ---
-
 
 # 管理警报
 
@@ -61,16 +66,16 @@ When "Last used" column is added, add this information as the description: Shows
 | ![Search](/help/assets/icons/Search.svg) | [!UICONTROL *按标题搜索*] | 在列表中未选择警报时，使用此搜索字段搜索警报。 |
 | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 标记]** | 标记所选警报。 在&#x200B;**[!UICONTROL 标记警报]**&#x200B;对话框中，选择或取消选择所选警报的标记。 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存选定警报的标记。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 删除]** | 删除所选警报。 系统将提示您确认。 |
-| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重命名]** | 重命名单个选定警报。 选中后，可以内联重命名警报。 |
+| ![编辑](/help/assets/icons/Edit.svg) | **[!UICONTROL 重命名]** | 重命名单个选定警报。 选中后，可以内联重命名警报。 |
 | ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 复制]** | 复制所选警报。 创建的新警报具有相同的名称和后缀`(Copy)`。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 启用]**&#x200B;或&#x200B;**[!UICONTROL 禁用]** | 启用或禁用所选警报。 |
-| ![刷新](/help/assets/icons/Refresh.svg) | **[!UICONTROL 续订]** | 续订警报过期日期。过期日期从选择此选项之日起延长1年，与原始过期日期无关。 |
+| ![刷新](/help/assets/icons/Refresh.svg) | **[!UICONTROL 续订]** | 续订警报过期日期。 过期日期从选择此选项之日起延长1年，与原始过期日期无关。 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 导出至 CSV]** | 将警报导出到`Alerts List.csv`文件。 |
 
 
 ### 活动过滤器栏
 
-筛选器栏➌显示从筛选器面板应用到警报列表（如果有）的活动筛选器。 您可以使用 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 快速移除过滤器。如果指定了多个过滤器，则可以使用&#x200B;**[!UICONTROL 全部移除]**&#x200B;来移除所有过滤器。
+筛选器栏➌显示从筛选器面板应用到警报列表（如果有）的活动筛选器。 您可以使用 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 快速移除过滤器。 如果指定了多个过滤器，则可以使用&#x200B;**[!UICONTROL 全部移除]**&#x200B;来移除所有过滤器。
 
 
 ### 过滤器面板
@@ -78,7 +83,7 @@ When "Last used" column is added, add this information as the description: Shows
 您可以使用![筛选器](/help/assets/icons/Filter.svg) **[!UICONTROL 筛选器]**&#x200B;左侧面板➍来筛选警报列表。 过滤器面板显示过滤器的类型和遵循特定过滤器的警报数。
 
 
-1. 选择![Filter](/help/assets/icons/Filter.svg)以打开筛选面板。如果警报列表需要更多空间，您可以再次选择![筛选器](/help/assets/icons/Filter.svg)以关闭面板。
+1. 选择![Filter](/help/assets/icons/Filter.svg)以打开筛选面板。 如果警报列表需要更多空间，您可以再次选择![筛选器](/help/assets/icons/Filter.svg)以关闭面板。
 1. 从任何可用的过滤器部分中选择过滤器。
 
 

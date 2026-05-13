@@ -4,10 +4,14 @@ description: 比较用于排除机器人的不同方法
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 role: Admin
 feature: Bot Removal
-source-git-commit: 75c1585f88d9d3adcf66632c52cecf2a97fa2632
+TQID: https://experienceleague.adobe.com/zm3kClXgzo6sKMk20XKWGI66s2kjk4VZ2ohDj41JAes
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 45%
+source-wordcount: 327
+ht-degree: 46%
 
 ---
 
@@ -15,7 +19,7 @@ ht-degree: 45%
 
 下表显示了用于排除机器人的不同方法以及它们之间的对比情况。
 
-| 方法 | 机器人规则 | 按 IP 地址排除 | 客户属性 | 区段 | 第三方评分 + 区段 | 在运行时禁止对机器人的服务器调用 | 自定义 DB VISTA 规则 |
+| 方法 | 机器人规则 | 按 IP 地址排除 | 客户属性 | 分段 | 第三方评分 + 区段 | 在运行时禁止对机器人的服务器调用 | 自定义 DB VISTA 规则 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **用于排除数据的方法的描述** | 根据用户代理、IP地址或IP地址范围排除 | IP 地址 | 客户属性中的标记，用于将ECID标识为机器人 | Analytics区段中的标准，用于根据机器人行为识别已知机器人 | 第三方（如[Perimeter X](https://www.perimeterx.com)或[Akamai Bot Manager](https://www.akamai.com/us/en/products/security/bot-manager.jsp)）为每个页面视图分配一个分数，用于指示它是机器人的可能性。 分数将被发送到 Analytics 中，并且区段可用于根据分数筛选数据。 | 客户端逻辑停止为机器人执行Analytics服务器调用。 | VISTA规则会将流量从符合特定标准的机器人转移到单独的报表包。 |
 | **机器人名称可用于报告？** | 是 | 否 | 否 | 否 | 否 | 否 | 是 |

@@ -3,20 +3,26 @@ title: 季度
 description: 季度的数字，不管是哪个年份。
 feature: Dimensions
 exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/a41aEgQ2NkPzWzcn59JfOd8LgL3vmhr1y11lsIwHpjI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: 132
 ht-degree: 87%
 
 ---
 
 # 季度
 
-“季度”[维度](overview.md)将任何给定年份的季度报告为维度项目。 当您希望报表按季度划分，但不希望静态日期作为维度项目时，此报表很有价值。您可以按季度汇总年度同期报表，因此在相同维度项目中，今年的第 1 季度数据会与去年的第 1 季度数据汇总在一起。
+“季度”[维度](overview.md)将任何给定年份的季度报告为维度项目。 当您希望报表按季度划分，但不希望静态日期作为维度项目时，此报表很有价值。 您可以按季度汇总年度同期报表，因此在相同维度项目中，今年的第 1 季度数据会与去年的第 1 季度数据汇总在一起。
 
 ## 使用数据填充此维度
 
-此维度可开箱即用于所有实施。如果报表包包含数据，则此维度有效。
+此维度可开箱即用于所有实施。 如果报表包包含数据，则此维度有效。
 
 ## 维度项目
 

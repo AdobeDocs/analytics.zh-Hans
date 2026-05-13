@@ -4,10 +4,15 @@ keywords: Analysis Workspace
 title: 配置云导入和导出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
+TQID: https://experienceleague.adobe.com/Q0cJR470jmLkrurcF20vP72mJyJ18Kd6DWICWVLp5ws
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 33%
+source-wordcount: 1769
+ht-degree: 38%
 
 ---
 
@@ -71,8 +76,8 @@ ht-degree: 33%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 帐户中的存储桶。 <p>确保Adobe提供的用户ARN具有`S3:PutObject`权限，以便将文件上传到此存储桶。 </p><p>桶名称必须符合特定的命名规则。例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。[若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
-   | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
+   | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 Amazon S3 帐户中的存储桶。 <p>确保 Adobe 提供的用户 ARN 具有 `S3:PutObject` 权限，以便将文件上传到此存储段。 </p><p>桶名称必须符合特定的命名规则。 例如，它们的长度必须在 3 到 63 个字符之间，只能由小写字母、数字、点 (.) 和连字符 (-) 组成，并且必须以字母或数字开头和结尾。 [若要了解完整的命名规则列表，请参阅 AWS 文档](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -95,8 +100,8 @@ ht-degree: 33%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **存储桶**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 |
-   | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，folder_name/ |
+   | [!UICONTROL **存储桶**] | 您要将 Adobe Analytics 数据发送到的 GCP 账户中的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 |
+   | [!UICONTROL **前缀**] | 存储段中要用于放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -120,7 +125,7 @@ ht-degree: 33%
    | 字段 | 功能 |
    |---------|----------|
    | [!UICONTROL **容器**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。 |
-   | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
+   | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -144,8 +149,8 @@ ht-degree: 33%
    | 字段 | 功能 |
    |---------|----------|
    | [!UICONTROL **帐户**] | Azure 存储帐户。 |
-   | [!UICONTROL **容器**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。确保授予将文件上传到您之前创建的 Azure 应用程序的权限。 |
-   | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。例如，`folder_name/` |
+   | [!UICONTROL **容器**] | 要将 Adobe Analytics 数据发送到的指定帐户中的容器。 确保授予将文件上传到您之前创建的 Azure 应用程序的权限。 |
+   | [!UICONTROL **前缀**] | 容器中要用于放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -182,7 +187,7 @@ ht-degree: 33%
 
 +++FTP
 
-数据馈送数据可以传输到由 Adobe 或客户托管的 FTP 位置。指定目录使用路径字段将馈送文件放置在文件夹中。
+数据馈送数据可以传输到由 Adobe 或客户托管的 FTP 位置。 指定目录使用路径字段将馈送文件放置在文件夹中。
 
 | 字段 | 功能 |
 |---------|----------|
@@ -206,7 +211,7 @@ ht-degree: 33%
 
 +++S3
 
-您可以直接将数据仓库数据发送到 Amazon S3 存储段。此目标类型需要存储段名称、访问密钥 ID 和密钥。有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+您可以直接将数据仓库数据发送到 Amazon S3 存储段。 此目标类型需要存储段名称、访问密钥 ID 和密钥。 有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
 
 您为上传 Data Warehouse 数据提供的用户必须具有以下[权限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 
@@ -241,11 +246,11 @@ ht-degree: 33%
 
 +++Azure Blob
 
-Data Warehouse支持Azure Blob目标。 需要容器、帐户和密钥。Azure会自动加密静态数据。 当您下载数据时，数据会自动解密。有关详细信息，请参阅 Microsoft Azure 文档中的[创建存储帐户](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+Data Warehouse支持Azure Blob目标。 需要容器、帐户和密钥。 Azure会自动加密静态数据。 当您下载数据时，数据会自动解密。 有关详细信息，请参阅 Microsoft Azure 文档中的[创建存储帐户](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
 
 >[!NOTE]
 >
->您必须实施自己的流程来管理 Data Warehouse 目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。
+>您必须实施自己的流程来管理 Data Warehouse 目标上的磁盘空间。 Adobe 不会从服务器中删除任何数据。
 
 +++
 

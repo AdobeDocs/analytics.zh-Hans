@@ -4,9 +4,14 @@ description: 了解如何使用 Adobe Experience Platform 标记将 Adobe Analyt
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: 635
 ht-degree: 89%
 
 ---
@@ -41,25 +46,25 @@ Experience Cloud Debugger 是一个可显示页面上存在的所有 Experience 
 1. 再次单击库的下拉列表，然后选择&#x200B;**[!UICONTROL 批准以供发布]**。
 1. 再次单击库的下拉列表（现在位于[!UICONTROL 已批准]列中），然后选择&#x200B;**[!UICONTROL 生成并发布到生产环境]**。
 1. 转到“环境”选项卡，单击&#x200B;**[!UICONTROL 生产环境]**。
-1. 复制生产安装代码块并将其提供给网站所有者。请求他们在网站的生产环境中实施此代码。
+1. 复制生产安装代码块并将其提供给网站所有者。 请求他们在网站的生产环境中实施此代码。
 
 ## 验证您的生产实施
 
 确认您会在网站的在线版本上看到数据，然后开始正式收集 Adobe Analytics 的数据。
 
 1. 向网站所有者确认他们已将标记代码推送到生产环境后，请在 Chrome 中导航到您网站的主页并打开 [!UICONTROL Adobe Experience Cloud Debugger]。
-2. 如果一切运行正常，您应会在开发环境中看到与测试类似的数据。此时，您将可收集网站上的数据，并且可以立即开始使用 Adobe Analytics 进行报告。
+2. 如果一切运行正常，您应会在开发环境中看到与测试类似的数据。 此时，您将可收集网站上的数据，并且可以立即开始使用 Adobe Analytics 进行报告。
 
-## 故障诊断
+## 故障排除
 
 **调试器中不显示任何数据。**
 
-在您的网站上，打开浏览器的开发人员控制台（通常按 F12）。查看页面的源代码，确保符合以下情况：
+在您的网站上，打开浏览器的开发人员控制台（通常按 F12）。 查看页面的源代码，确保符合以下情况：
 
-* 控制台中没有 JavaScript 错误。与贵组织的网站所有者合作，确保解决了所有 JS 错误。
+* 控制台中没有 JavaScript 错误。 与贵组织的网站所有者合作，确保解决了所有 JS 错误。
 * 正确实施了页眉代码：确保页眉代码位于 `<head>` 标记内部，并且文件存在。
-* AppMeasurement 库存在：直接导航到 JS 源，以确保 JS 文件包含代码。如果不包含，请确保创建了每个环境，并且库已发布到各自对应的环境。
-* 干扰扩展：一些扩展，如广告拦截器，可以阻止触发图像请求。禁用任何可能阻止数据发送到 Adobe 的扩展。
+* AppMeasurement 库存在：直接导航到 JS 源，以确保 JS 文件包含代码。 如果不包含，请确保创建了每个环境，并且库已发布到各自对应的环境。
+* 干扰扩展：一些扩展，如广告拦截器，可以阻止触发图像请求。 禁用任何可能阻止数据发送到 Adobe 的扩展。
 
 ## 后续步骤
 

@@ -5,16 +5,22 @@ keywords: Analysis Workspace;区段 IQ
 role: User, Admin
 exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
 feature: Visualizations
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+TQID: https://experienceleague.adobe.com/ArkueD5vMvC-44udsWspYbxythWfSZOig2PuGctBiSg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: 139
 ht-degree: 100%
 
 ---
 
 # 区段比较功能
 
-分析人员可能需要花费几个小时乃至几天时间，在组织的各种量度和维度中搜索区段之间的相关差异。这种分析既繁琐又耗时。并且您可能会错过某个区段的关键差异，而这些差异可能会对您的目标营销工作产生重大影响。
+分析人员可能需要花费几个小时乃至几天时间，在组织的各种量度和维度中搜索区段之间的相关差异。 这种分析既繁琐又耗时。 并且您可能会错过某个区段的关键差异，而这些差异可能会对您的目标营销工作产生重大影响。
 
 [区段对比的实际应用场景](c-panels/c-segment-comparison/segment-compare-use-cases.md)可帮助组织深入了解各区段的特征及其差异，从而获得有价值的洞察。
 

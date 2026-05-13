@@ -1,14 +1,18 @@
 ---
-description: 您可以通过从工作表中选择包含请求的单元格来指定日期范围。Report Builder 使用这些请求中的特定日期范围信息。如果选择今天的日期，那么您只能基于请求在今天的运行时间看到部分数据。
+description: 您可以从包含请求的工作表中选择单元格来指定日期范围。 Report Builder在这些请求中使用特定的日期范围信息。 如果选择今天的日期，您将看到基于请求运行时间的部分数据。
 title: 单元格中的日期
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
 role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/9-U5bdrNbEahhtBuJA4ylaXzGEgH01q1z7FBR2w5sPs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 78%
+source-wordcount: 179
+ht-degree: 24%
 
 ---
 
@@ -16,9 +20,9 @@ ht-degree: 78%
 
 {{legacy-arb}}
 
-您可以通过从工作表中选择包含请求的单元格来指定日期范围。Report Builder 使用这些请求中的特定日期范围信息。如果选择今天的日期，那么您只能基于请求在今天的运行时间看到部分数据。
+您可以从包含请求的工作表中选择单元格来指定日期范围。 Report Builder在这些请求中使用特定的日期范围信息。 如果选择今天的日期，您将看到基于请求运行时间的部分数据。
 
-**配置单元格中的日期**
+**从单元格配置日期**
 
 1. 在“[!UICONTROL 请求向导: 第 1 步]”中，选择&#x200B;**[!UICONTROL 单元格中的日期]**。
 1. 在&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;字段中输入单元格引用，或者单击选择器并选择包含具有开始和结束日期的请求的单元格。

@@ -3,16 +3,21 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表选项
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 454
 ht-degree: 17%
 
 ---
 
 # 为Data Warehouse请求配置报表选项
 
-提供了在创建 Data Warehouse 请求时可使用的多种配置选项。以下信息介绍了如何为请求配置报表选项。
+提供了在创建 Data Warehouse 请求时可使用的多种配置选项。 以下信息介绍了如何为请求配置报表选项。
 
 有关如何开始创建请求的信息以及其他重要配置选项的链接，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
@@ -30,7 +35,7 @@ ht-degree: 17%
 
    | 选项 | 功能 |
    |---------|----------|
-   | [!UICONTROL **文件名**] | 标识报表。 <p>如果文件名中使用了以下任何特殊字符，则无法保存请求： <code>！ &quot; # $ &amp; &#39; ( ) * + ， / ： ； > = &lt; ？@ [ ] \ ^ &#39; { } \| ~</code> </p><p>%字符必须后跟“R”、“rsid”或“id”，才能使用，如下所示： <code>%R</code>，<code>%rsid</code>和<code>%id</code>。</p> |
+   | [!UICONTROL **文件名**] | 标识报表。 <p>如果文件名中使用了以下任何特殊字符，则无法保存请求： <code>！ &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &#39; { } \| ~</code> </p><p>%字符必须后跟“R”、“rsid”或“id”，才能使用，如下所示： <code>%R</code>，<code>%rsid</code>和<code>%id</code>。</p> |
    | [!UICONTROL **将报表日期范围附加到文件名**] | 将日期范围添加到报表文件名。 <p>例如，如果您请求获得从2024年5月1日到2024年5月7日的数据，则文件名将包含日期范围20240501 - 20240507。</p> |
    | [!UICONTROL **CSV**] | 以CSV文件格式发送报表，用于查看电子表格中的数据。 |
    | [!UICONTROL **表格(TDE)**] | 以Tableau数据提取(TDE)文件格式发送报告，该文件格式可用于在Tableau中可视化附加数据的数据和层。 |

@@ -2,10 +2,14 @@
 title: 从AppMeasurement迁移到Web SDK
 description: 将Adobe Analytics实施从AppMeasurement JavaScript库更新到Web SDK JavaScript库。
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
+TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 7%
+source-wordcount: 1432
+ht-degree: 9%
 
 ---
 
@@ -13,7 +17,7 @@ ht-degree: 7%
 
 此实施路径涉及系统地从AppMeasurement实施迁移到Web SDK JavaScript库实施的方法。 其他实施路径将在单独的页面上介绍：
 
-* [Analytics扩展到Web SDK扩展](analytics-extension-to-web-sdk.md)：采用一种流畅、有条不紊的方法从Adobe Analytics标记扩展迁移到Web SDK标记扩展。 在您的组织准备好使用Adobe Experience Platform服务(例如Customer Journey Analytics)之前，此方法会抑制使用XDM的需求。 使用`data`对象而不是`xdm`对象将数据发送到Adobe。
+* [Analytics扩展到Web SDK扩展](analytics-extension-to-web-sdk.md)：采用一种流畅、有条不紊的方法从Adobe Analytics标记扩展迁移到Web SDK标记扩展。 在您的组织准备好使用Adobe Experience Platform服务（例如Customer Journey Analytics）之前，此方法会抑制使用XDM的需求。 使用`data`对象而不是`xdm`对象将数据发送到Adobe。
 * [Web SDK JavaScript库](web-sdk-javascript-library.md)：使用Web SDK JavaScript库(`alloy.js`)的全新Web SDK安装。 自行管理实施，而不是使用标记UI。 它需要Adobe Analytics ExperienceEvent字段组，其中包括要包含在XDM架构中的典型Analytics变量。
 * [Web SDK标记扩展](web-sdk-tag-extension.md)：一个全新的Web SDK安装，您可以在其中使用Adobe Experience Platform数据收集中的标记管理实施。 它需要Adobe Analytics ExperienceEvent字段组，其中包括要包含在XDM架构中的典型Analytics变量。
 
@@ -23,7 +27,7 @@ ht-degree: 7%
 
 | 优点 | 缺点 |
 | --- | --- |
-| <ul><li>**使用您现有的实施**：虽然这种方法需要进行一些实施方面的变更，但它并不需要从头开始进行全新的实施。您可以使用现有的数据层和代码，只需对实施逻辑进行最低限度的更改即可。</li><li>**不需要架构**：对于迁移到Web SDK的这一阶段，您不需要XDM架构。 相反，您可以填充`data`对象，这会将数据直接发送到Adobe Analytics。 迁移到Web SDK完成后，您可以为组织创建架构，并使用数据流映射填充适用的XDM字段。 如果在迁移过程的此阶段需要架构，则贵组织将被强制使用Adobe Analytics XDM架构。 使用此架构会使贵组织将来更难以使用自己的架构。</li></ul> | <ul><li>**实施更改需要开发人员干预**：如果要更改Web SDK实施，必须与开发团队合作来编辑网站上的代码。 [迁移到Web SDK标记扩展](analytics-extension-to-web-sdk.md)的方法可避免此缺点。</li><li>**实施技术债务**：由于此方法使用现有实施的修改形式，因此将来需要跟踪实施逻辑和执行更改会更加困难。</li><li>**需要映射才能将数据发送到 Platform**：当您的组织准备好使用 Customer Journey Analytics 时，您必须将数据发送到 Adobe Experience Platform 中的数据集。此操作要求`data`对象中的每个字段都必须是数据流映射工具中的条目，以便将其分配给XDM架构字段。 对于此工作流程，仅需进行一次映射，并且不涉及对实施进行更改。但是，这是一个额外的步骤，在 XDM 对象中发送数据时并不需要该步骤。</li></ul> |
+| <ul><li>**使用您现有的实施**：虽然这种方法需要进行一些实施方面的变更，但它并不需要从头开始进行全新的实施。 您可以使用现有的数据层和代码，只需对实施逻辑进行最低限度的更改即可。</li><li>**不需要架构**：对于迁移到Web SDK的这一阶段，您不需要XDM架构。 相反，您可以填充`data`对象，这会将数据直接发送到Adobe Analytics。 迁移到Web SDK完成后，您可以为组织创建架构，并使用数据流映射填充适用的XDM字段。 如果在迁移过程的此阶段需要架构，则贵组织将被强制使用Adobe Analytics XDM架构。 使用此架构会使贵组织将来更难以使用自己的架构。</li></ul> | <ul><li>**实施更改需要开发人员干预**：如果要更改Web SDK实施，必须与开发团队合作来编辑网站上的代码。 [迁移到Web SDK标记扩展](analytics-extension-to-web-sdk.md)的方法可避免此缺点。</li><li>**实施技术债务**：由于此方法使用现有实施的修改形式，因此将来需要跟踪实施逻辑和执行更改会更加困难。</li><li>**需要映射才能将数据发送到 Platform**：当您的组织准备好使用 Customer Journey Analytics 时，您必须将数据发送到 Adobe Experience Platform 中的数据集。 此操作要求`data`对象中的每个字段都必须是数据流映射工具中的条目，以便将其分配给XDM架构字段。 对于此工作流程，仅需进行一次映射，并且不涉及对实施进行更改。 但是，这是一个额外的步骤，在 XDM 对象中发送数据时并不需要该步骤。</li></ul> |
 
 Adobe建议在以下情况下遵循此实施路径：
 
@@ -61,9 +65,9 @@ Adobe建议在以下情况下遵循此实施路径：
 
 +++**3. 配置Web SDK**
 
-使用Web SDK [`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
+使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
 
-在Web SDK [`datastreamId`命令中使用](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId`和](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/orgid)`configure`属性：
+在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
 
 * 将`datastreamId`设置为从上一步检索到的数据流ID。
 * 将`orgId`设置为您组织的IMS组织。
@@ -75,7 +79,7 @@ alloy("configure", {
 });
 ```
 
-您可以选择在[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中设置其他属性，具体取决于贵组织的实施要求。
+您可以选择在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中设置其他属性，具体取决于贵组织的实施要求。
 
 +++
 
@@ -116,7 +120,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. 更新方法调用以使用Web SDK**
 
-更新调用[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有实例，将它们替换为[`sendEvent`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 需要考虑三种情况：
+更新调用[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有实例，将它们替换为[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 需要考虑三种情况：
 
 * **页面查看跟踪**：将页面查看跟踪调用替换为Web SDK `sendEvent`命令：
 
@@ -128,7 +132,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **自动链接跟踪**：默认情况下启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)配置属性。 它会自动设置正确的链接跟踪变量，以将数据发送到Adobe Analytics。 如果要禁用自动链接跟踪，请在`false`[`configure`命令中将此属性设置为](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)。
+* **自动链接跟踪**：默认情况下启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/cn/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)配置属性。 它会自动设置正确的链接跟踪变量，以将数据发送到Adobe Analytics。 如果要禁用自动链接跟踪，请在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中将此属性设置为`false`。
 
 * **手动链接跟踪**： Web SDK在pageview调用与非页面视图调用之间没有单独的命令。 在有效负荷对象中提供该区别。
 

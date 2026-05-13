@@ -5,16 +5,20 @@ feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/JqGAROITuNweukfIg2t-OLC4Pf-8qb0XINZNAvi3xZs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 573
 ht-degree: 90%
 
 ---
 
-# eVar（推销）
+# eVar (Merchandising)
 
-*此帮助页面介绍了如何实施推销 eVar。有关促销 eVar 如何用作维度的信息，请参阅组件用户指南中的 [eVar（促销维度）](/help/components/dimensions/evar-merchandising.md)。*
+*此帮助页面介绍了如何实施推销 eVar。 有关促销 eVar 如何用作维度的信息，请参阅组件用户指南中的 [eVar（促销维度）](/help/components/dimensions/evar-merchandising.md)。*
 
 有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)。
 
@@ -24,11 +28,11 @@ ht-degree: 90%
 
 >[!WARNING]
 >
->未能正确配置推销 eVar 会导致变量出现意外值或数据丢失。确保为您的实施正确配置推销 eVar。
+>未能正确配置推销 eVar 会导致变量出现意外值或数据丢失。 确保为您的实施正确配置推销 eVar。
 
 ## 使用产品语法实施
 
-启用“产品语法”后，将直接在 `products` 变量内填充推销类别，因此无需选择和设置捆绑事件。推荐使用此方法，除非当发生成功事件时无法在 `products` 中设置此值。
+启用“产品语法”后，将直接在 `products` 变量内填充推销类别，因此无需选择和设置捆绑事件。 推荐使用此方法，除非当发生成功事件时无法在 `products` 中设置此值。
 
 ```js
 // The bare minimum to set a merchandising eVar with product syntax
@@ -41,7 +45,7 @@ s.products = "Example category;Example product;1;5.99;event1=1;eVar1=Turtles";
 s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2;550;;eVar1=love birds";
 ```
 
-`eVar1` 的值已分配给产品。所有与本产品相关的后续成功事件将计入 eVar 值。
+`eVar1` 的值已分配给产品。 所有与本产品相关的后续成功事件将计入 eVar 值。
 
 ### 使用 Web SDK 的产品语法
 
@@ -91,9 +95,9 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ## 使用转化变量语法实施
 
-如果在 `products` 变量中无法设置 eVar 值，应使用转化变量语法。这种情况通常意味着您的页面没有推销渠道的任何上下文或查找方法。在这类情况下，请先设置推销变量，然后再进入产品页，该值会持续到捆绑事件发生为止。
+如果在 `products` 变量中无法设置 eVar 值，应使用转化变量语法。 这种情况通常意味着您的页面没有推销渠道的任何上下文或查找方法。 在这类情况下，请先设置推销变量，然后再进入产品页，该值会持续到捆绑事件发生为止。
 
-当在配置期间选择捆绑事件时，eVar 的这个持久值将与该产品关联。例如，如果 `prodView` 指定为捆绑事件，那么只有当该事件发生时，推销类别才会与当前产品列表绑定。只有后续捆绑事件才能更新已分配给产品的推销 eVar。
+当在配置期间选择捆绑事件时，eVar 的这个持久值将与该产品关联。 例如，如果 `prodView` 指定为捆绑事件，那么只有当该事件发生时，推销类别才会与当前产品列表绑定。 只有后续捆绑事件才能更新已分配给产品的推销 eVar。
 
 ```js
 // Place on the same or previous page before the binding event:
@@ -104,7 +108,7 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-`eVar1` 的值 `"Aviary"` 已分配给产品 `"Canary"`。所有与本产品相关的后续成功事件将计入 `"Canary"`。另外，推销变量的当前值将被绑定到所有后续产品，直到满足以下其中一个条件为止：
+`eVar1` 的值 `"Aviary"` 已分配给产品 `"Canary"`。 所有与本产品相关的后续成功事件将计入 `"Canary"`。 另外，推销变量的当前值将被绑定到所有后续产品，直到满足以下其中一个条件为止：
 
 * eVar 过期（根据“过期时间”设置）
 * 推销 eVar 被新值覆盖。

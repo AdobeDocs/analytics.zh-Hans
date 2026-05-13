@@ -4,10 +4,15 @@ title: 标记示例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
+TQID: https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 82%
+source-wordcount: 734
+ht-degree: 88%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 82%
 假设您具有以下点击数据：
 
 * 第一行包含适用于每个变量的标签。
-* 第二行是变量的名称。如果它具有ID标签，则在括号中包含分配的命名空间。
+* 第二行是变量的名称。 如果它具有ID标签，则在括号中包含分配的命名空间。
 * 而第三行是点击数据；
 
 | 标签 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
@@ -35,9 +40,9 @@ ht-degree: 82%
 
 ## 访问请求示例 {#access}
 
-如果您提交访问请求，您将收到两个可以返回给数据主体的文件。一个文件是 CSV 文件，其中包含与数据主体的每个匹配点击量对应的一行，和每个具有相应访问标签的变量列。另一个文件是摘要 HTML 文件，其中列出了每个变量，以及数据主体的该变量出现的所有唯一值以及每个唯一值出现的次数。
+如果您提交访问请求，您将收到两个可以返回给数据主体的文件。 一个文件是 CSV 文件，其中包含与数据主体的每个匹配点击量对应的一行，和每个具有相应访问标签的变量列。 另一个文件是摘要 HTML 文件，其中列出了每个变量，以及数据主体的该变量出现的所有唯一值以及每个唯一值出现的次数。
 
-在我们的示例中，摘要文件包含下表中所示的值。一个请求只返回一个设备文件、一个人员文件，或各一个文件。只有在使用人员 ID 并且 `expandIds` 为 true 时，会返回两个摘要文件。
+在我们的示例中，摘要文件包含下表中所示的值。 一个请求只返回一个设备文件、一个人员文件，或各一个文件。 只有在使用人员 ID 并且 `expandIds` 为 true 时，会返回两个摘要文件。
 
 <table>
   <tr>
@@ -56,7 +61,7 @@ ht-degree: 82%
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td> AAID=77</td>
+    <td>AAID=77</td>
     <td>false</td>
     <td>设备</td>
     <td>不存在</td>
@@ -66,7 +71,7 @@ ht-degree: 82%
     <td>X， W</td>
   </tr>
   <tr>
-    <td> AAID=77</td>
+    <td>AAID=77</td>
     <td>true</td>
     <td>设备</td>
     <td>不存在</td>
@@ -80,7 +85,7 @@ ht-degree: 82%
     <td>false</td>
     <td>人员</td>
     <td>玛丽</td>
-    <td>77， 88， 99</td>
+    <td>77, 88, 99</td>
     <td>A、B、C</td>
     <td>M， N， O</td>
     <td>X， Y， Z</td>
@@ -90,7 +95,7 @@ ht-degree: 82%
     <td rowspan="2">true</td>
     <td>人员</td>
     <td>玛丽</td>
-    <td>77， 88， 99</td>
+    <td>77, 88, 99</td>
     <td>A、B、C</td>
     <td>M， N， O</td>
     <td>X， Y， Z</td>
@@ -98,7 +103,7 @@ ht-degree: 82%
   <tr>
     <td>设备</td>
     <td>不存在</td>
-    <td>77， 88</td>
+    <td>77, 88</td>
     <td>A、B、C</td>
     <td>N， P</td>
     <td>U， W</td>
@@ -108,7 +113,7 @@ ht-degree: 82%
     <td rowspan="2">true</td>
     <td>人员</td>
     <td>玛丽</td>
-    <td>77， 88， 99</td>
+    <td>77, 88, 99</td>
     <td>A、B、C</td>
     <td>M， N， O</td>
     <td>X， Y， Z</td>
@@ -116,7 +121,7 @@ ht-degree: 82%
   <tr>
     <td>设备</td>
     <td>不存在</td>
-    <td>66， 77， 88</td>
+    <td>66, 77, 88</td>
     <td>A、B、C</td>
     <td>N， P</td>
     <td>U， W， Z</td>
@@ -126,7 +131,7 @@ ht-degree: 82%
     <td>false</td>
     <td>设备</td>
     <td>不存在</td>
-    <td>55， 77</td>
+    <td>55, 77</td>
     <td>不存在</td>
     <td>M， R</td>
     <td>X</td>
@@ -136,7 +141,7 @@ ht-degree: 82%
     <td>true</td>
     <td>设备</td>
     <td>不存在</td>
-    <td>55， 77</td>
+    <td>55, 77</td>
     <td>不存在</td>
     <td>M、P、R</td>
     <td>W， X</td>
@@ -293,7 +298,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->只有包含 `user=Mary` 和 `DEL-PERSON` 标签的行中的列会受到影响。此外，在实际情况中，包含 `A_ID` 的变量可能是 prop 或 eVar。其替换值是以 `Privacy-` 开头的字符串，后跟一个随机数 (GUID)，而不是使用另一个随机数值替换该数值。
+>只有包含 `user=Mary` 和 `DEL-PERSON` 标签的行中的列会受到影响。 此外，在实际情况中，包含 `A_ID` 的变量可能是 prop 或 eVar。 其替换值是以 `Privacy-` 开头的字符串，后跟一个随机数 (GUID)，而不是使用另一个随机数值替换该数值。
 
 <table>
   <tr>

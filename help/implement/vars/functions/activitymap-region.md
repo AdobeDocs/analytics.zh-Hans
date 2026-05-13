@@ -4,10 +4,14 @@ description: 自定义Activity Map收集所点击区域的方式。
 feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 9bbdb124-b865-4431-8a98-9814c3f2e65c
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/--7PQfTw20gS6EdKvtlbaUtvw5HrdHx49NNDSC3JAso
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 13%
+source-wordcount: 218
+ht-degree: 15%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 13%
 
 ## 使用Web SDK覆盖区域值
 
-您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回调来更改Web SDK有效负载或中止发送数据。
+您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回调来更改Web SDK有效负载或中止发送数据。
 
 ## 使用Adobe Analytics扩展的区域覆盖
 

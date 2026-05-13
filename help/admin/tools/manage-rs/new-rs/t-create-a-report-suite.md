@@ -3,16 +3,22 @@ description: 创建用于在 Adobe Analytics 中收集数据的基本容器
 title: 创建报表包
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: 313
 ht-degree: 98%
 
 ---
 
 # 创建报表包
 
-报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。通过引入[虚拟报表包](/help/components/vrs/vrs-about.md#virtual-report-suites)和报表时间处理，管理员可创建您自己的数据子集，使得可灵活地获取全局数据和站点专属数据。
+报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。 一个组织可以有多个报表包，每个报表包中包含不同的数据集。 过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。 通过引入[虚拟报表包](/help/components/vrs/vrs-about.md#virtual-report-suites)和报表时间处理，管理员可创建您自己的数据子集，使得可灵活地获取全局数据和站点专属数据。
 
 本文旨在帮助系统级别管理员或 Adobe Analytics 管理员为数据收集做好准备。
 
@@ -28,18 +34,18 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >只能复制设置，而不能复制数据。如果客户关怀团队复制设置，您将需要对客户关怀团队提供的与所涉及的风险相关的免责声明进行书面确认。请参阅[不会从源报表包复制的设置](/help/admin/tools/manage-rs/new-rs/settings-not-copied-from-rs.md)，以了解更多信息。
+   >只能复制设置，而不能复制数据。 如果客户关怀团队复制设置，您将需要对客户关怀团队提供的与所涉及的风险相关的免责声明进行书面确认。 请参阅[不会从源报表包复制的设置](/help/admin/tools/manage-rs/new-rs/settings-not-copied-from-rs.md)，以了解更多信息。
 
 1. 填写[新的报表包](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)中描述的字段。
 1. 单击“**[!UICONTROL 创建报表包]**”。
 
-报表包 ID 最长为 40 字节。报表包易记名称最长为 255 字节。
+报表包 ID 最长为 40 字节。 报表包易记名称最长为 255 字节。
 
-## 故障诊断
+## 故障排除
 
 **登录到 Experience Cloud 后，Analytics 图标显示为灰色。**
 
-这意味着您的帐户尚未获得所需的 Analytics 访问权限。与组织中的系统级别管理员合作，确保您所属的轮廓具有足够权限访问 Adobe Analytics。
+这意味着您的帐户尚未获得所需的 Analytics 访问权限。 与组织中的系统级别管理员合作，确保您所属的轮廓具有足够权限访问 Adobe Analytics。
 
 ## 后续步骤
 

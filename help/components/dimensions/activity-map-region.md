@@ -4,9 +4,15 @@ description: 您网站上被点击的区域。
 feature: Dimensions
 role: User, Admin
 exl-id: e262e537-ce73-492a-8ab3-b88cd77cb8c5
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+TQID: https://experienceleague.adobe.com/mmLp5-dgKGeovIOMPZxliyhfbpUSMLXca-3Qs6QA0SA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 5%
 
 ---
@@ -22,11 +28,11 @@ ht-degree: 5%
 对于已单击的给定链接，请检查父DOM元素中的以下内容（按顺序）：
 
 * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)设置的属性中的一个值 — 默认设置为`id`属性
-* 属性`aria-label`时`role="region"`属性中的值
-* 语义元素`<header>`、`<main>`、`<footer>`或`<nav>`(仅限Web SDK)
+* 属性`role="region"`时`aria-label`属性中的值
+* 语义元素`<header>`、`<main>`、`<footer>`或`<nav>`（仅限Web SDK）
 
 如果父DOM元素不符合上述任何条件，则搜索将向DOM层次结构中递回地继续进行。 如果未找到匹配的元素，则返回值`BODY`。
 
-## 维度项
+## 维度项目
 
 Dimension项目包括您在网站上标记的地区。 特定区域值取决于使用的属性以及是否存在语义HTML元素。

@@ -3,26 +3,32 @@ title: 实例
 description: 设置了变量（且未保留）的点击数。
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
+TQID: https://experienceleague.adobe.com/a6Ycw6CVzeSKuOCHezQtLNIZZo6vbkVneVWO0C2QfxQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 263
 ht-degree: 50%
 
 ---
 
 # 实例
 
-“实例”[量度](overview.md)显示在图像请求中明确定义维度的次数。 某些维度（例如 [eVar](../dimensions/evar.md)）会在设定的点击之后保留维度项目。当您希望查看维度项目设定的次数，但不包含保留该值的点击时，此量度非常有用。
+“实例”[量度](overview.md)显示在图像请求中明确定义维度的次数。 某些维度（例如 [eVar](../dimensions/evar.md)）会在设定的点击之后保留维度项目。 当您希望查看维度项目设定的次数，但不包含保留该值的点击时，此量度非常有用。
 
-## 如何计算此量度
+## 如何计算此指标
 
-在报表包的所有点击中，只包含在图像请求中显式设置维度项目的点击。某些维度（例如 [eVar](../dimensions/evar.md)）会在设定的点击之后保留。[页面视图](page-views.md)和[发生次数](occurrences.md)等量度计算初始值和保留值。此量度不计算保留值。
+在报表包的所有点击中，只包含在图像请求中显式设置维度项目的点击。 某些维度（例如 [eVar](../dimensions/evar.md)）会在设定的点击之后保留。 [页面视图](page-views.md)和[发生次数](occurrences.md)等量度计算初始值和保留值。 此量度不计算保留值。
 
 例如，访客访问您的网站并使用内部搜索。 您可以在eVar1中跟踪内部搜索。 使用内部搜索一次后，访客在离开之前又访问了5个页面。
 
 如果在Workspace中查看报表，您将看到一个eVar1实例和六次发生次数。 一个实例计入搜索结果页面，而“发生次数”量度计入初始值和后续保留值。
 
-## 与类似指标比较
+## 与类似量度比较
 
 * **实例与[发生次数](occurrences.md)**：实例不包括维度项持续存在的点击。 发生次数计算设置或保留维度项目的点击次数。
 * **实例与[页面查看次数](page-views.md)**：实例包含所有点击类型，包括页面查看跟踪调用([`t()`](/help/implement/vars/functions/t-method.md))、链接跟踪调用([`tl()`](/help/implement/vars/functions/tl-method.md))以及来自摘要[数据源](/help/import/data-sources/overview.md)的数据。 页面查看次数量度仅包括页面查看跟踪调用，不包括链接跟踪调用和摘要数据源。

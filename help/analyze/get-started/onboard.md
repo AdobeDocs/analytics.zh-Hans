@@ -4,10 +4,15 @@ description: 欢迎观看Adobe Analytics数字体验入门系列！ 加入支持
 role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 7%
+source-wordcount: 573
+ht-degree: 10%
 
 ---
 
@@ -15,7 +20,7 @@ ht-degree: 7%
 
 欢迎观看Adobe Analytics数字体验入门系列！
 
-Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获得可操作洞察。通过深入分析、多用途报表和预测智能，组织可以获得构建更好的客户体验所需的洞察信息。
+Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获得可操作洞察。 通过深入分析、多用途报表和预测智能，组织可以获得构建更好的客户体验所需的洞察信息。
 
 您的历程从载入正确的配置和用户访问权限开始。 以下资源可简化该入职流程，并使您和您的组织更轻松地成功使用Adobe Analytics。
 
@@ -29,7 +34,7 @@ CARDS
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476894/?captions=chi_hans&format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -67,7 +72,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476894/?captions=chi_hans&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -169,7 +174,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="#adobe-analytics" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
                     </p>
-                    <p class="is-size-6">您的Adobe Analytics旅程从入门培训正确的配置和用户访问开始。 以下资源可简化该入门培训，并使您和您的组织更容易成功使用Adobe Analytics。</p>
+                    <p class="is-size-6">您的历程从载入正确的配置和用户访问权限开始。 以下资源可简化该入职流程，并使您和您的组织更轻松地成功使用Adobe Analytics。</p>
                 </div>
                 <a href="#adobe-analytics" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">板载</span>
@@ -183,9 +188,9 @@ CARDS
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476894/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-加入[Adobe Experience League](https://experienceleague.adobe.com/zh-hans)以访问[文档](https://experienceleague.adobe.com/zh-hans/docs/analytics)、[教程](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/overview)等，帮助您成功。
+加入[Adobe Experience League](https://experienceleague.adobe.com/)以访问[文档](https://experienceleague.adobe.com/zh-hans/docs/analytics)、[教程](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/overview)等，帮助您成功。
 
 
 ## Adobe Admin Console
@@ -204,7 +209,7 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-加入Adobe Experience League以[提出支持案例，审查当前和过去的案例](https://experienceleague.adobe.com/home?lang=zh-Hans#support)。
+加入Adobe Experience League以[提出支持案例，审查当前和过去的案例](https://experienceleague.adobe.com/home#support)。
 
 
 ## Adobe Analytics
@@ -217,7 +222,7 @@ CARDS
 
 在完成Adobe Analytics及其支持平台的入门培训后，请考虑探索以下资源以加深您的了解并提高您的技能：
 
-1. [Adobe Analytics简介](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [了解并创建报告包](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Adobe Analytics简介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [了解和创建报表包](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Adobe Analytics 文档](https://experienceleague.adobe.com/zh-hans/docs/analytics)
 4. [Adobe Analytics教程和视频](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/overview)

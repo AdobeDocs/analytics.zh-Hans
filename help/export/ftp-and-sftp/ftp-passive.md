@@ -4,10 +4,13 @@ keywords: ftp;sftp
 title: 使用被动 FTP 模式
 feature: FTP Export
 exl-id: 92f39569-ee41-4c1d-b7de-7a0fff42896c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+TQID: https://experienceleague.adobe.com/R0fWu2Ik2OQB7VtF9ZVEEX1iLJfTl9A1YvlBm2p3nyU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 85%
+source-wordcount: 100
+ht-degree: 48%
 
 ---
 
@@ -15,4 +18,4 @@ ht-degree: 85%
 
 选择主动 FTP 或被动 FTP 控制如何建立端口连接，并且该选择对防火墙可能会产生一些影响。
 
-Adobe 使用被动 FTP，这是一种更为安全的数据传输形式，其中的数据流是由文件传输程序 (FTP) 客户端而不是 FTP 服务器程序来设置和启动的。如果连接到Adobe FTP时遇到困难，请确保使用被动模式。
+Adobe使用被动FTP，这是一种更安全的数据传输形式，其中数据流由文件传输程序(FTP)客户端设置和启动，而不是由FTP服务器程序设置和启动。 如果连接到Adobe FTP时遇到困难，请确保使用被动模式。

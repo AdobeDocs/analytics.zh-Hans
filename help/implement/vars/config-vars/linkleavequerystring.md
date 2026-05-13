@@ -4,26 +4,30 @@ description: 允许在链接跟踪维度中保留查询字符串。
 feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/ebg-JRfYQ4VBpZChrgHN4IF5PBGCVriVWWQ7qN3a5pM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: 331
 ht-degree: 84%
 
 ---
 
 # linkLeaveQueryString
 
-默认情况下，AppMeasurement 会从链接跟踪 URL 中剥离查询字符串。使用 `linkLeaveQueryString` 变量可在链接跟踪维度中保留查询字符串。
+默认情况下，AppMeasurement 会从链接跟踪 URL 中剥离查询字符串。 使用 `linkLeaveQueryString` 变量可在链接跟踪维度中保留查询字符串。
 
-对于某些退出链接和下载链接，URL 的重要部分可以包含在查询字符串中。例如，下载链接（如 `https://example.com/download.asp?filename=myfile.exe`）在查询字符串中包含重要链接信息。
+对于某些退出链接和下载链接，URL 的重要部分可以包含在查询字符串中。 例如，下载链接（如 `https://example.com/download.asp?filename=myfile.exe`）在查询字符串中包含重要链接信息。
 
-如果链接跟踪信息不在网站的 URL 中，则不必使用此变量。从链接跟踪 URL 中剥离查询字符串有助于限制维度包含的唯一值的数量。
+如果链接跟踪信息不在网站的 URL 中，则不必使用此变量。 从链接跟踪 URL 中剥离查询字符串有助于限制维度包含的唯一值的数量。
 
 启用 `linkLeaveQueryString` 适用于所有链接跟踪维度（包括自定义链接、退出链接和下载链接）。
 
 >[!TIP]
 >
->此变量不影响链接跟踪外部的维度。它仅影响自定义链接、退出链接和下载链接。
+>此变量不影响链接跟踪外部的维度。 它仅影响自定义链接、退出链接和下载链接。
 
 ## 使用Web SDK处理链接查询字符串
 
@@ -35,14 +39,14 @@ ht-degree: 84%
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 保留 URL 参数]复选框。
 
 如果要在链接跟踪维度中包含查询字符串，请选中此框。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.linkLeaveQueryString
 
-`s.linkLeaveQueryString` 变量是一个布尔值。其默认值为 `false`。
+`s.linkLeaveQueryString` 变量是一个布尔值。 其默认值为 `false`。
 
 * 如果将此变量设置为 `true`，则查询字符串将保留在链接跟踪 URL 中。
 * 如果将此变量设置为 `false` 或未定义此变量，则将从链接跟踪 URL 中剥离查询字符串。

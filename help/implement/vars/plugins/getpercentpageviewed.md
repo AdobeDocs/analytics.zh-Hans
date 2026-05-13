@@ -4,10 +4,15 @@ description: 检索访客查看的页面内容所占的百分比。
 feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/eOAPLlR2hFz2q9-3MrwDCTANtKwwR6wvZW3fxsj-1gc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 84%
+source-wordcount: 804
+ht-degree: 83%
 
 ---
 
@@ -15,7 +20,7 @@ ht-degree: 84%
 
 {{plug-in}}
 
-`getPercentPageViewed` 插件可衡量访客的页面滚动活动，以了解访客在进入其他页面前查看了某个页面的多少内容。如果您的页面高度较小或者您不想要测量页面滚动活动，则无需使用此插件。
+`getPercentPageViewed` 插件可衡量访客的页面滚动活动，以了解访客在进入其他页面前查看了某个页面的多少内容。 如果您的页面高度较小或者您不想要测量页面滚动活动，则无需使用此插件。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -50,7 +55,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,18 +68,18 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 `getPercentPageViewed` 函数使用以下参数：
 
-* **`pid`**（可选，字符串）：等于当前页面的变量或值。默认为 Analytics AppMeasurement `pageName` 变量或当前 URL（如果未设置 AppMeasurement pageName 变量）。
-* **`ch`**（可选，布尔）：如果您不希望此插件考虑在页面初次加载后对页面大小所做的任何更改，请将该参数设置为 `false`（或 `0`）。如果忽略，则该参数将默认为 `true`。在大多数情况下，Adobe 建议忽略该参数。
+* **`pid`**（可选，字符串）：等于当前页面的变量或值。 默认为 Analytics AppMeasurement `pageName` 变量或当前 URL（如果未设置 AppMeasurement pageName 变量）。
+* **`ch`**（可选，布尔）：如果您不希望此插件考虑在页面初次加载后对页面大小所做的任何更改，请将该参数设置为 `false`（或 `0`）。 如果忽略，则该参数将默认为 `true`。 在大多数情况下，Adobe 建议忽略该参数。
 
 调用此函数时，不会返回任何内容；但是，会设置以下变量：
 
-* `window._ppvPreviousPage`：查看的上一个页面的名称。直到新页面加载完成后，才能获得当前页面的最终滚动测量结果。
-* `window._ppvInitialPercentViewed`：上一页面首次加载时查看内容所占的百分比。如果整个页面在首次加载时可见，则此值为 `100`。
-* `window._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。访客在上一页面上向下滚动到的最远点。如果整个页面在首次加载时可见，则此值为 `100`。
-* `window._ppvFinalPercentViewed`：在访客移至当前页面上时，上一页的可见内容的百分比。该值将大于或等于已查看内容的初始百分比，也将等于或小于已查看页面内容的最高百分比。
+* `window._ppvPreviousPage`：查看的上一个页面的名称。 直到新页面加载完成后，才能获得当前页面的最终滚动测量结果。
+* `window._ppvInitialPercentViewed`：上一页面首次加载时查看内容所占的百分比。 如果整个页面在首次加载时可见，则此值为 `100`。
+* `window._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。 访客在上一页面上向下滚动到的最远点。 如果整个页面在首次加载时可见，则此值为 `100`。
+* `window._ppvFinalPercentViewed`：在访客移至当前页面上时，上一页的可见内容的百分比。 该值将大于或等于已查看内容的初始百分比，也将等于或小于已查看页面内容的最高百分比。
 * `window._ppvHighestPixelsSeen`：访客在上一页面上向下滚动时，所看到的总像素的最大值（以高度衡量）。
-* `window._ppvFoldsAvailable`：在上一页面上向下滚动时，可达到的“页面折叠”总量。如果整个页面在首次加载时可见，则此值为 `1`。
-* `window._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。此变量包括“页面顶部”折叠。如果整个页面在首次加载时可见，则此值为 `1`。
+* `window._ppvFoldsAvailable`：在上一页面上向下滚动时，可达到的“页面折叠”总量。 如果整个页面在首次加载时可见，则此值为 `1`。
+* `window._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。 此变量包括“页面顶部”折叠。 如果整个页面在首次加载时可见，则此值为 `1`。
 
 将上述一个或多个变量分配给 eVar，以便在报告中查看维度数据。
 

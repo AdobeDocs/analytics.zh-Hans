@@ -3,10 +3,15 @@ title: Analytics 导入指南
 description: 本指南阐述如何使用数据源和数据插入 API 将数据导入到 Analytics 中。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+TQID: https://experienceleague.adobe.com/umLLEQAAmvcloxJ8HF-eWfdkZac5PHya0jKeUA8TSv4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: 179
+ht-degree: 93%
 
 ---
 
@@ -14,9 +19,9 @@ ht-degree: 100%
 
 
 
-本指南介绍如何将数据引入 Analytics。其中包括：
+本指南介绍如何将数据引入 Analytics。 其中包括：
 
-* **[数据源](data-sources/overview.md)**：将文件上传到指定的 Adobe FTP 站点。Adobe 将检索该文件，并包含您的报表包中的数据。
+* **[数据源](data-sources/overview.md)**：将文件上传到指定的 Adobe FTP 站点。 Adobe 将检索该文件，并包含您的报表包中的数据。
 * **[批量数据插入 API](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** 允许您以文件的形式批量上传服务器调用数据，而不是使用客户端库（如 AppMeasurement）。
 * **[数据插入 API](c-data-insertion-api/c-data-insertion-api.md)**：通过 API，将数据直接发送到 Adobe 的数据收集中。
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：查找当前可用于充实您的 Adobe Analytics 报表包的集成。
@@ -32,11 +37,11 @@ ht-degree: 100%
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
+[Analytics用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
-* [Experience League 上的 Adobe Analytics 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hans)
-* [Adobe Analytics 资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hans)
+* [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

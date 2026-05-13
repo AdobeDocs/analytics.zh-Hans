@@ -4,10 +4,15 @@ title: 命名空间
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: 942
+ht-degree: 83%
 
 ---
 
@@ -15,13 +20,13 @@ ht-degree: 100%
 
 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在所有报告包之间使用的任何变量中识别该 ID。
 
-命名空间字符串用于识别您在数据隐私请求中提供 ID 时要搜索的字段。在提交数据隐私请求后，该请求将包含一个 JSON 部分，以指定要用于该请求的数据主体 ID。一位数据主体的一个请求中，可以包含多个 ID。JSON 包括：
+命名空间字符串用于识别您在数据隐私请求中提供 ID 时要搜索的字段。 在提交数据隐私请求后，该请求将包含一个 JSON 部分，以指定要用于该请求的数据主体 ID。 一位数据主体的一个请求中，可以包含多个 ID。 JSON包括：
 
-* “namespace”字段，其中包含命名空间字符串。
-* “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
+* 包含命名空间字符串的“namespace”字段。
+* 对于大多数Adobe Analytics请求而言，包含值“analytics”的“type”字段。
 * “value”字段，其中包含 Analytics 应在每个报告包的关联命名空间变量中搜索的 ID。
 
-请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)了解更多详细信息和[标准身份标识命名空间的列表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix#standard-namespaces)。请参阅[创建一个访问/删除作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/privacy-jobs#access-delete)中的一个请求示例。
+请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)了解更多详细信息和[标准身份标识命名空间的列表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix#standard-namespaces)。 请参阅[创建一个访问/删除作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/privacy-jobs#access-delete)中的一个请求示例。
 
 ## Cookie ID
 
@@ -35,7 +40,7 @@ ht-degree: 100%
 }
 ```
 
-该值必须指定为两个十六进制数字，并使用短横线进行分隔。十六进制数中的所有字母字符都必须指定为使用大写字母。十六进制值不得以零开头（请注意，这与弃用版本中指定相同值的要求不同，弃用版本中要求该值以零开头）。
+该值必须指定为两个用破折号分隔的十六进制数字。 所有由字母构成的十六进制数字必须使用大写字母指定。 十六进制值不应有任何前导零（请注意与已弃用形式中指定的相同值不同，后者要求前导零）。
 
 此外，也可以转而使用 `"namespaceId": 10` 作为 `"namespace": "AAID"` 的代替或补充，您可能会看到其他一些 Adobe 产品使用该表单。
 
@@ -49,7 +54,7 @@ ht-degree: 100%
 }
 ```
 
-该值应指定为两个 16 位十六进制数或两个 19 位十进制数。数字之间应使用短横线、下划线或冒号进行分隔。如果任一数字没有足够的位数，则需在开头补零。
+应将该值指定为两个16位十六进制数字或两个19位十进制数字。 数字应以短划线、下划线或冒号分隔。 如果任一数字没有足够的位数，则需在开头补零。
 
 ## 身份标识服务 Cookie
 
@@ -61,7 +66,7 @@ ht-degree: 100%
 }
 ```
 
-该值必须指定为一个 38 位十进制数。如果您要从数据馈送或 Data Warehouse 报告的 mcvisid\_high/low 或 post\_msvisid\_high/low 两列中提取该数字，则必须将这两个数字都补零为 19 位，然后先将它们与高值连接起来。
+该值必须指定为一个 38 位十进制数。 如果您要从数据馈送或 Data Warehouse 报告的 mcvisid\_high/low 或 post\_msvisid\_high/low 两列中提取该数字，则必须将这两个数字都补零为 19 位，然后先将它们与高值连接起来。
 
 此外，也可以转而使用 `"namespaceId": 4` 作为 `"namespace": "ECID"` 的代替或补充，您可能会看到其他一些 Adobe 产品使用该表单。
 
@@ -87,7 +92,7 @@ ht-degree: 100%
 }
 ```
 
-还会为自定义访客 ID 预定义命名空间。
+此外，还为自定义访客ID预定义命名空间。
 
 ## 自定义变量中的 ID
 
@@ -104,16 +109,16 @@ ht-degree: 100%
 }
 ```
 
-对于自定义流量或转化变量（prop 或 eVar）中的 ID，您应当为变量设置 ID-DEVICE 或 ID-PERSON 标签，然后将您自己的命名空间名称分配给此类型的 ID。请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间。](/help/admin/tools/privacy-labeling/labels.md)
+对于自定义流量或转化变量（prop 或 eVar）中的 ID，您应当为变量设置 ID-DEVICE 或 ID-PERSON 标签，然后将您自己的命名空间名称分配给此类型的 ID。 请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间。](/help/admin/tools/privacy-labeling/labels.md)
 
-您还可以查看之前为其他变量或报告包定义的命名空间并重复使用其中之一，以便轻松地将相同的命名空间用于存储此类型 ID 的所有报告包。另外，还可以将相同的命名空间分配给一个报告包内的多个变量。例如，某些客户将 CRM ID 存储在流量变量和转化变量中（根据页面，有时存储在其中任一变量中，有时同时存储在这两个变量中），并且他们可以将命名空间“CRM ID”同时分配给这两个变量。
+您还可以查看之前为其他变量或报告包定义的命名空间并重复使用其中之一，以便轻松地将相同的命名空间用于存储此类型 ID 的所有报告包。 另外，还可以将相同的命名空间分配给一个报告包内的多个变量。 例如，一些客户将CRM ID存储在流量变量和转化变量中（根据页面，它有时位于其中一个变量中，有时位于另一个变量中，有时位于两个变量中），并且他们可以为这两个变量分配命名空间“CRM ID”。
 
 >[!TIP]
 >
->在为数据隐私 API 指定命名空间时，请避免使用变量的友好名称（报告 UI 中显示的名称）或变量的编号（如 eVar12），除非该友好名称或变量编号也是您在应用 ID-DEVICE 或 ID-PERSON 标签时指定的命名空间。使用命名空间而不是友好名称可以使相同的用户身份标识块为多个报告包指定正确的变量：例如，当 ID 在某些报告包中位于不同的 eVar 中时，或者友好名称不匹配时（例如，友好名称已在特定的报告包中本地化）。
+>在为数据隐私 API 指定命名空间时，请避免使用变量的友好名称（报告 UI 中显示的名称）或变量的编号（如 eVar12），除非该友好名称或变量编号也是您在应用 ID-DEVICE 或 ID-PERSON 标签时指定的命名空间。 使用命名空间而不是友好名称可以使相同的用户身份标识块为多个报告包指定正确的变量： 例如，当 ID 在某些报告包中位于不同的 eVar 中时，或者友好名称不匹配时（例如，友好名称已在特定的报告包中本地化）。
 
 >[!CAUTION]
 >
->命名空间 `visitorId` 和 `customVisitorId` 是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
+>命名空间 `visitorId` 和 `customVisitorId` 是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。 请勿将这些命名空间用于自定义流量或转化变量。
 
 有关更多信息，请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间。](/help/admin/tools/privacy-labeling/labels.md)

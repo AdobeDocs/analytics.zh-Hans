@@ -3,16 +3,20 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求构建报告
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
+TQID: https://experienceleague.adobe.com/9ZPqEsJ8Dg-raXva9DfJxPHde3Teb3vFf1IeEcHTC3o
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 42%
+source-wordcount: 233
+ht-degree: 36%
 
 ---
 
 # 为Data Warehouse请求构建报告
 
-提供了在创建 Data Warehouse 请求时可使用的多种配置选项。以下信息介绍了如何为请求构建报表。
+提供了在创建 Data Warehouse 请求时可使用的多种配置选项。 以下信息介绍了如何为请求构建报表。
 
 有关如何开始创建请求的信息以及其他重要配置选项的链接，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
@@ -28,7 +32,7 @@ ht-degree: 42%
 
 1. 在左上角，选择要在构建Data Warehouse报表时使用的报表包。
 
-   区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。如果选择包含不兼容区段的虚拟报表包，则会显示错误。
+   区段生成器中创建的所有区段并非都与Data Warehouse兼容。 如果选择包含不兼容区段的虚拟报表包，则会显示错误。
 
    有关区段内支持的函数的列表，请参阅[Data Warehouse区段兼容性](/help/components/segmentation/seg-reference/seg-compatibility.md)。
 

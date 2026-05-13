@@ -5,10 +5,16 @@ title: 可用于处理规则的维度和量度
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 10%
+source-wordcount: 721
+ht-degree: 15%
 
 ---
 
@@ -27,13 +33,13 @@ ht-degree: 10%
 
 | 属性 | 读/写状态 | 描述 |
 | --- | --- | --- |
-| **页面 URL** | 读取+写入 | [页面URL](/help/components/dimensions/page-url.md)维度。 链接跟踪点击在到达处理规则之前剥离此维度。 如果使用处理规则重新插入页面URL值，则将点击视为[页面查看](/help/components/metrics/page-views.md)，而不是[页面事件](/help/components/metrics/page-events.md)。 Adobe建议在修改页面维度之前检查该维度中的值。 |
+| **页面 URL** | 读取+写入 | [页面 URL](/help/components/dimensions/page-url.md) 维度。 链接跟踪点击在到达处理规则之前剥离此维度。 如果使用处理规则重新插入页面URL值，则将点击视为[页面查看](/help/components/metrics/page-views.md)，而不是[页面事件](/help/components/metrics/page-events.md)。 Adobe建议在修改页面维度之前检查该维度中的值。 |
 | **页面名称** | 读取+写入 | [页面](/help/components/dimensions/page.md)维度。 链接跟踪点击在到达处理规则之前剥离此维度。 如果使用处理规则重新插入页面值，则将点击视为[页面查看](/help/components/metrics/page-views.md)，而不是[页面事件](/help/components/metrics/page-events.md)。 Adobe建议在修改页面维度之前检查该维度中的值。 |
 | **报告包ID** | 只读 | 执行处理规则的报表包。 此报表包可能与最初通过AppMeasurement发送的报表包不同，例如当使用VISTA规则时。 |
 | **AppMeasurement代码版本** | 只读 | 用于生成图像请求的AppMeasurement库版本。 |
 | **IP地址** | 只读 | 访客的IP地址。 |
 | **用户代理** | 只读 | 访客的用户代理。 |
-| **反向链接** | 只读 | [推荐人](/help/components/dimensions/referrer.md)维度。 |
+| **反向链接** | 只读 | [反向链接](/help/components/dimensions/referrer.md)维度。 |
 | **查询字符串参数** | 只读 | 当前URL中指定查询字符串参数的值。 |
 | **引用查询字符串参数** | 只读 | 引用URL中指定查询字符串参数的值，如果不存在则为空字符串。 |
 | **反向链接域** | 只读 | 反向链接URL的页面域，包括子域。 |
@@ -49,13 +55,13 @@ ht-degree: 10%
 
 | 变量 | 读/写状态 | 描述 |
 | --- | --- | --- |
-| **eVar 1-250** | 读取+写入 | [eVar](/help/components/dimensions/evar.md)维度。 |
+| **eVar 1-250** | 读取+写入 | [eVar](/help/components/dimensions/evar.md) 维度。 |
 | **Campaign** | 读取+写入 | [跟踪代码](/help/components/dimensions/tracking-code.md)维度。 |
-| **购买ID** | 读取+写入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)实现变量。 |
+| **购买ID** | 读取+写入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 实施变量。 |
 | **省/州** | 读取+写入 | （已停用） [`state`](/help/implement/vars/page-vars/state.md)实现变量。 |
 | **Zip** | 读取+写入 | [邮政编码](/help/components/dimensions/zip-code.md)维度。 |
-| **货币代码** | 读取+写入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md)实现变量。 重要信息：如果将此变量设置为无效值，则将丢弃点击。 |
-| **交易 ID** | 读取+写入 | [`transactionID`](/help/import/data-sources/transactionid.md)实现变量。 |
+| **货币代码** | 读取+写入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 实施变量。 重要信息：如果将此变量设置为无效值，则将丢弃点击。 |
+| **交易 ID** | 读取+写入 | [`transactionID`](/help/import/data-sources/transactionid.md) 实施变量。 |
 
 >[!NOTE]
 >Adobe不支持使用处理规则设置[`products`](/help/implement/vars/page-vars/products.md)实现变量。
@@ -64,10 +70,10 @@ ht-degree: 10%
 
 | 变量 | 读/写状态 | 描述 |
 | --- | --- | --- |
-| **Prop 1-75** | 读取+写入 | [Prop](/help/components/dimensions/prop.md)维度。 |
+| **Prop 1-75** | 读取+写入 | [Prop](/help/components/dimensions/prop.md) 维度。 |
 | **层次结构1-5** | 读取+写入 | （已停用）[层次结构](/help/components/dimensions/hierarchy.md)维度。 |
 | **服务器** | 读取+写入 | [服务器](/help/components/dimensions/server.md)维度。 |
-| **渠道** | 读取+写入 | [网站区域](/help/components/dimensions/site-section.md)维度。 |
+| **渠道** | 读取+写入 | [网站分区](/help/components/dimensions/site-section.md)维度。 |
 
 ## 上下文变量
 
@@ -75,7 +81,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->如果处理规则未将给定的上下文数据变量映射到其他变量(如prop或eVar)，则上下文数据变量中的值将永久丢失。
+>如果处理规则未将给定的上下文数据变量映射到其他变量（如prop或eVar），则上下文数据变量中的值将永久丢失。
 
 ## 成功事件
 

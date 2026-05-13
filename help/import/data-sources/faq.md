@@ -4,10 +4,15 @@ description: 有关数据源的常见问题解答。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/RS75oqFMxi3GsiNkcqTUKAVEvlHVo9bLiR2Nt-cVU74
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: 430
+ht-degree: 3%
 
 ---
 
@@ -28,7 +33,7 @@ ht-degree: 0%
 +++
 
 +++通过数据源上传的数据是否通过其他处理（如处理规则）运行？
-否。通过数据源上传的数据：
+否。 通过数据源上传的数据：
 
 * 未通过[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 * 不遵循[营销渠道处理规则](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
@@ -36,7 +41,7 @@ ht-degree: 0%
 +++
 
 +++我是否可以删除使用数据源导入的数据？
-是的。您可以使用[数据修复API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)删除此数据。 Adobe强烈建议先将数据源数据上传到测试报表包，然后再上传到生产报表包，以缓解删除数据的需要。
+是的。 您可以使用[数据修复API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)删除此数据。 Adobe强烈建议先将数据源数据上传到测试报表包，然后再上传到生产报表包，以缓解删除数据的需要。
 +++
 
 +++一次可导入多少数据？
@@ -48,7 +53,7 @@ ht-degree: 0%
 +++
 
 +++文件扩展名是否区分大小写？
-是的。不会处理扩展名为`.TXT`或`.FIN`的文件。 确保文件扩展名全部为小写。
+是的。 不会处理扩展名为`.TXT`或`.FIN`的文件。 确保文件扩展名全部为小写。
 +++
 
 +++可以向数据源文件中添加多少列？

@@ -6,10 +6,15 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ba4fe682d717e8a90d87eaa5244a269f49a4a00a
+TQID: https://experienceleague.adobe.com/YyGOeSkPtmEW-8NzCGQ3niglLGcLG5DsPZw-TRwX-xU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 33%
+source-wordcount: 993
+ht-degree: 34%
 
 ---
 
@@ -22,7 +27,7 @@ ht-degree: 33%
 
 1. 在数据块中选择单元格。
 
-1. 在![命令](/help/assets/icons/Edit.svg)面板中选择&#x200B;**[!UICONTROL 编辑]** **[!UICONTROL 编辑数据块]**。
+1. 在&#x200B;**[!UICONTROL 命令]**&#x200B;面板中选择![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL 编辑数据块]**。
 
 1. 选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示&#x200B;**[!UICONTROL 维度]**&#x200B;选项卡。
 
@@ -42,7 +47,7 @@ ht-degree: 33%
 
 1. Report Builder 显示通知以确认添加了过滤器。
 
-要显示应用的过滤器，请将光标悬停在维度上。应用了筛选器的维度在维度名称旁显示![筛选器](/help/assets/icons/Filter.svg)筛选器图标。
+要显示应用的过滤器，请将光标悬停在维度上。 应用了筛选器的维度在维度名称旁显示![筛选器](/help/assets/icons/Filter.svg)筛选器图标。
 
 ## 更改过滤器和排序顺序
 
@@ -75,7 +80,7 @@ ht-degree: 33%
 
 #### “页面”和“行”选项
 
-使用&#x200B;**[!UICONTROL 页面]**&#x200B;和&#x200B;**[!UICONTROL 行]**&#x200B;字段将数据划分为顺序组或页面。通过此功能，您可以将排名的行值而不是最高的值提取到报表中。 并且对于提取超过50,000行限制的数据特别有用。
+使用&#x200B;**[!UICONTROL 页面]**&#x200B;和&#x200B;**[!UICONTROL 行]**&#x200B;字段将数据划分为顺序组或页面。 通过此功能，您可以将排名的行值而不是最高的值提取到报表中。 并且对于提取超过50,000行限制的数据特别有用。
 
 页面的默认值为`1`，行的默认值为`10`。 这些默认值表示每页有10行数据。 页面 1 返回前 10 项，页面 2 返回接下来的 10 项，以此类推。
 
@@ -99,7 +104,7 @@ ht-degree: 33%
 
 #### 包括“无值”
 
-在Customer Journey Analytics中，某些维度收集&#x200B;*没有值*&#x200B;条目。 **[!UICONTROL 包括“无值”]**&#x200B;设置允许您从报表中排除这些值。 例如，您可以创建分类，例如基于产品 SKU 键的产品名称分类。如果特定产品SKU未设置其特定产品名称分类，则其产品名称值设置为&#x200B;*无值*。
+在Customer Journey Analytics中，某些维度收集&#x200B;*没有值*&#x200B;条目。 **[!UICONTROL 包括“无值”]**&#x200B;设置允许您从报表中排除这些值。 例如，您可以创建分类，例如基于产品 SKU 键的产品名称分类。 如果特定产品SKU未设置其特定产品名称分类，则其产品名称值设置为&#x200B;*无值*。
 
 默认情况下选中&#x200B;**[!UICONTROL 包括“无值”]**。 取消选择此选项可排除无值的条目。
 
@@ -123,7 +128,7 @@ ht-degree: 33%
 
 ### **[!UICONTROL 特定]**
 
-**[!UICONTROL 特定]**&#x200B;选项允许您为每个维度创建固定的维度项列表。 使用&#x200B;**[!UICONTROL 特定]**&#x200B;筛选类型指定要包括在过滤器中的确切维度项。可从列表或从单元格范围中选择项。
+**[!UICONTROL 特定]**&#x200B;选项允许您为每个维度创建固定的维度项列表。 使用&#x200B;**[!UICONTROL 特定]**&#x200B;筛选类型指定要包括在过滤器中的确切维度项。 可从列表或从单元格范围中选择项。
 
 ![特定选项和选定项。](./assets/image32.png){zoomable="yes"}
 

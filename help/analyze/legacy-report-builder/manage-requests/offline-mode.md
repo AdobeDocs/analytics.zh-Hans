@@ -5,10 +5,14 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/HKk--fSRTABpRb8Q9yOeySHyAVSR-W2Ktzldmp7UeJQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 33%
+source-wordcount: 200
+ht-degree: 12%
 
 ---
 
@@ -22,12 +26,12 @@ ht-degree: 33%
 
 启用脱机模式
 
-1. 单击 Report Builder 菜单中的&#x200B;**[!UICONTROL 选项]**。
+1. 在Report Builder菜单中单击&#x200B;**[!UICONTROL 选项]**。
 
    ![已选择脱机代码的“选项”屏幕截图。](assets/offline_mode.png)
 
-1. 选中&#x200B;**[!UICONTROL 打开脱机模式以创建和编辑请求]**&#x200B;旁边的复选框。
-1. 在&#x200B;**[!UICONTROL 将量度数据显示为]**&#x200B;字段中，输入要在请求中返回的占位符数据。例如，输入“1”。
+1. 选中&#x200B;**[!UICONTROL 启用脱机模式以创建和编辑请求]**&#x200B;旁边的复选框。
+1. 在&#x200B;**[!UICONTROL 将量度数据显示为]**&#x200B;字段中，输入要在请求中返回的占位符数据。 例如，输入“1”。
 1. 单击&#x200B;**[!UICONTROL 确定]**。
 1. 使用“请求向导”在脱机模式下创建并运行请求。 以下屏幕截图显示了将“1”作为占位符数据的请求示例。
 
