@@ -4,10 +4,18 @@ description: 逗留时间维度和指标的汇总页面。
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1659
@@ -25,7 +33,7 @@ ht-degree: 53%
 |---|---|---|
 | [[!UICONTROL 所用总秒数]](total-seconds-spent.md) | 表示访客与特定维度项目交互所用的总时间。 包括所有后续点击中的值和持久性的实例。 对于 prop，也会在后续链接事件中统计逗留时间。 | Analysis Workspace、Report Builder（称为“总逗留时间”）、Data Warehouse |
 | [[!UICONTROL 每次访问逗留时间] （秒）](time-spent-per-visit.md) | 大约&#x200B;*所用总秒数/（访问跳出次数）*<br>&#x200B;表示访客在每次访问期间与特定维度项目交互所用的平均时间。 **注意**：此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace |
-| 每位访客逗留时间[ （秒）](time-spent-per-visitor.md) | 大约&#x200B;*所用总秒数/独特访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace |
+| 每位访客逗留时间[&#x200B; （秒）](time-spent-per-visitor.md) | 大约&#x200B;*所用总秒数/独特访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace |
 | [!UICONTROL 逗留时间/用户（状态）] | 大约&#x200B;*移动设备应用程序所用总秒数/独特移动设备应用程序访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，移动设备应用程序访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace |
 | [[!UICONTROL 网站平均逗留时间] （秒）](average-time-on-site.md) | 表示访客按顺序与特定维度项目交互所用的总时间。 这不仅仅局限于“站点”平均值（顾名思义）。 有关序列的详细信息，请参阅“逗留时间计算方式”部分。<br>**注意**：由于计算中所用的分母不同，因此，此量度很可能会与维度项目级别的“每次访问逗留时间”有所不同。 | Analysis Workspace、Report Builder（以分钟为单位显示） |
 | [[!UICONTROL 网站平均逗留时间]](average-time-on-site.md) | 此指标与&#x200B;*网站平均逗留时间（秒）*&#x200B;相同，但采用的时间格式为`hh:mm:ss` | Analysis Workspace |

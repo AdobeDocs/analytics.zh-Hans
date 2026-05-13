@@ -6,10 +6,15 @@ feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
 TQID: https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 832
@@ -45,7 +50,7 @@ ht-degree: 21%
 | 规则集 | 值 |
 | --- | --- |
 | 操作 | [!UICONTROL 用`spa.billing_customer_name`覆盖]的eVar55值（上下文数据） |
-| 操作 | 如果设置了`testhierarchy` （上下文数据），则使用`testhierarchy` （上下文数据）覆盖] Prop7的值[!UICONTROL  |
+| 操作 | 如果设置了`testhierarchy` （上下文数据），则使用`testhierarchy` （上下文数据）覆盖 Prop7的值 |
 | 操作 | [!UICONTROL 用`spa.ims_org`覆盖] eVar8的值（上下文数据） |
 
 ![显示如何有条件地设置值的处理规则界面屏幕截图](assets/add-conditional.png)

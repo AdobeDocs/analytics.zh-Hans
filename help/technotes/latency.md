@@ -5,10 +5,18 @@ title: 数据可用性和滞后
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 824
@@ -55,7 +63,7 @@ Adobe Experience Cloud 中的某些功能在标准处理时间的基础上固有
    * 产品变量中的值超过20个
    * 事件序列化
 
-* 启用 IAB 机器人过滤：如果机器人或爬网程序经常影响报表包，则[机器人过滤](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)可以显著减少滞后。 推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) ](https://www.iab.net/about_the_iab)更新和维护的。 用户可以自定义其自己的机器人规则以补充 IAB 所提供的机器人规则。
+* 启用 IAB 机器人过滤：如果机器人或爬网程序经常影响报表包，则[机器人过滤](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)可以显著减少滞后。 推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) &#x200B;](https://www.iab.net/about_the_iab)更新和维护的。 用户可以自定义其自己的机器人规则以补充 IAB 所提供的机器人规则。
 
 ## 如何处理滞后
 

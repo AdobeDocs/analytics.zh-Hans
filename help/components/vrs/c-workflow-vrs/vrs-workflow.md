@@ -5,10 +5,15 @@ title: 虚拟报告包工作流程
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 TQID: https://experienceleague.adobe.com/psqP8b-OG8WguflQ1pPJZrEDbxR-pyuFaNTq3nl-Np4
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 208
@@ -24,7 +29,7 @@ ht-degree: 63%
 
 在决定您的策略时，请了解[全局/多包标记注意事项](/help/components/vrs/vrs-considerations.md)以及常见问题解答。
 
-![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png)[ 通过以下方法创建虚拟报表包](/help/components/vrs/c-workflow-vrs/vrs-create.md)：向父报表包应用一个或多个区段。
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) [&#x200B; 通过以下方法创建虚拟报表包](/help/components/vrs/c-workflow-vrs/vrs-create.md)：向父报表包应用一个或多个区段。
 
 虚拟报表包在虚拟报表包管理器中创建，可通过&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**&#x200B;使用。
 
@@ -34,6 +39,6 @@ ht-degree: 63%
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 打开一个项目或报表，然后选择一个虚拟报表包，以提供数据的分段视图。
 
-![](assets/step4_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虚拟报表包。
+![](assets/step4_icon.png) [管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虚拟报表包。
 
 通过虚拟报表包管理器，您可以编辑、添加、标记、删除、重命名、批准、复制、导出和筛选虚拟报表包。 虚拟报表包管理器对非管理员用户不可见。

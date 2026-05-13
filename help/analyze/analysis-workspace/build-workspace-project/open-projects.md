@@ -5,9 +5,14 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 12c5f5a6-a90f-471a-91c3-0fd8c8b1d3a0
 TQID: https://experienceleague.adobe.com/AODpS3mnwp8rghMW9IDOLJ82tiT-0UXxQHY7PuG3jdI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 251
@@ -42,4 +47,4 @@ ht-degree: 96%
 
 
 1. 选择以前的版本，并单击&#x200B;**[!UICONTROL 加载]**。
-然后，以前的版本会加载并出现一条通知。 在单击**[!UICONTROL 保存]**&#x200B;之前，以前的版本不会成为项目的当前保存版本。 如果离开已加载的版本，当您再次想要打开以前的版本时，您会看到最后保存的版本。
+然后，以前的版本会加载并出现一条通知。 在单击&#x200B;**[!UICONTROL 保存]**&#x200B;之前，以前的版本不会成为项目的当前保存版本。 如果离开已加载的版本，当您再次想要打开以前的版本时，您会看到最后保存的版本。
