@@ -62,7 +62,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查看您的实施](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"}以了解演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查看您的实施](https://video.tv.adobe.com/v/3440179?captions=chi_hans&quality=12&learn=on){target="_blank"}以了解演示视频。
 
 >[!ENDSHADEBOX]
 
