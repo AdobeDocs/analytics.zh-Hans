@@ -2,12 +2,11 @@
 description: 了解如何配置历程画布可视化图表。
 title: 配置历程画布可视化图表
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
-source-wordcount: '5614'
-ht-degree: 96%
+source-wordcount: '5783'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了历程画布可视化图表。<br/><br/>_&#x200B;请参阅[为本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本配置历程画布可视化图表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中记录了历程画布可视化图表。<br/><br/>_&#x200B;请参阅[为本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本配置历程画布可视化图表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +88,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
    | 设置 | 功能 |
    |---------|----------|
-   | [!UICONTROL **百分比值**] | 历程中每个节点上显示的百分比值。<p>![百分比值](assets/journey-canvas-percentage.png)</p> <p>配置历程中节点上显示的百分比值时，请考虑以下事项：</p><ul><li>每个节点上显示主要量度的百分比。 如果配置了辅助量度，还会显示辅助量度的百分比。 （关于主要和辅助量度设置的详细信息，请参阅[开始构建历程画布可视化图表](#begin-building-a-journey-canvas-visualization)。）</li><li>百分比包括在面板的日期范围内包含在报表包中的所有人员或会话。 使用&#x200B;_人员_&#x200B;还是&#x200B;_会话_&#x200B;取决于容器设置。 （关于容器设置的详细信息，请参阅[开始构建历程画布可视化图表](#begin-building-a-journey-canvas-visualization)。）</li></ul> <p>从以下选项中进行选择：</p> <ul><li>[!UICONTROL **起始节点的百分比**]：计算每个节点上显示的相对于起始节点的百分比。 百分比基于您选择的主要和辅助量度。 <p>_起始节点_&#x200B;是一个前面没有任何连接节点的节点。</p><p>一个历程可以包含多个起始节点。 但是，如果历程包含的 2 个或更多起始节点都引向某个公共节点，就会使用&#x200B;[!UICONTROL **总数的百分比**]。 如果您想使用&#x200B;**起始节点的百分比**，请更新历程，使历程中的每个节点都可以回溯到单一的起始节点。</p></li><li>[!UICONTROL **前一个节点的百分比**]：计算每个节点上显示的相对于前一个节点的百分比。 百分比基于您选择的主要和辅助量度。</li><li>[!UICONTROL **合计百分比**]：计算每个节点上显示的与报表包中所有数据相关的百分比。 百分比基于您选择的主要和辅助量度。</li></ul> |
+   | [!UICONTROL **百分比值**] | 历程中每个节点上显示的百分比值。<p>![百分比值](assets/journey-canvas-percentage.png)</p> <p>配置历程中节点上显示的百分比值时，请考虑以下事项：</p><ul><li>每个节点上显示主要量度的百分比。 如果配置了辅助量度，还会显示辅助量度的百分比。 （关于主要和辅助量度设置的详细信息，请参阅[开始构建历程画布可视化图表](#begin-building-a-journey-canvas-visualization)。）</li><li>百分比包括在面板的日期范围内包含在报表包中的所有人员或会话。 使用&#x200B;_人员_&#x200B;还是&#x200B;_会话_&#x200B;取决于容器设置。 （关于容器设置的详细信息，请参阅[开始构建历程画布可视化图表](#begin-building-a-journey-canvas-visualization)。）</li></ul> <p>从以下选项中进行选择：</p> <ul><li>[!UICONTROL **起始节点的百分比**]：计算每个节点上显示的相对于起始节点的百分比。 百分比基于您选择的主要和辅助量度。 <p>_起始节点_&#x200B;是一个前面没有任何连接节点的节点。</p><p>一个历程可以包含多个起始节点。 但是，如果历程包含的 2 个或更多起始节点都引向某个公共节点，就会使用&#x200B;[!UICONTROL **总数的百分比**]。 如果您想使用&#x200B;**]起始节点的百分比[!UICONTROL **，请更新历程，使历程中的每个节点都可以回溯到单一的起始节点。</p></li><li>[!UICONTROL **前一个节点的百分比**]：计算每个节点上显示的相对于前一个节点的百分比。 百分比基于您选择的主要和辅助量度。</li><li>[!UICONTROL **合计百分比**]：计算每个节点上显示的与报表包中所有数据相关的百分比。 百分比基于您选择的主要和辅助量度。</li></ul> |
    | [!UICONTROL **箭头设置**] | 历程画布中两个节点之间显示的箭头可以配置为显示自定义的标签和值。 <p>![箭头设置](assets/journey-canvas-arrow-settings.png)</p><p>_标签_&#x200B;是您可以在历程画布中添加的自定义名称，如[添加或更新箭头上的标签](#add-or-update-a-label-on-an-arrow)中所述。</li></ol><p>_值_&#x200B;是箭头上显示的数字和百分比，它们表示从历程中的一个节点移动到下一个节点的人员或会话。 （换句话说，就是那些没有在某个步骤中退出历程的人。） </p><p>可以使用以下选项：</p><ul><li>[!UICONTROL **无标签**]：历程中的箭头上不显示标签。</br> 仅当历程在中被修改时，此选项才可用 </li><li>[!UICONTROL **仅标签**]：历程中的箭头上显示标签。</li></ul> |
    | [!UICONTROL **显示流失**] | 流失数据表示了历程的每个节点流失的百分比和数量。 流失数据是基于与历程的容器设置相关联的量度，而不是基于主要或辅助量度。 <p>![流失](assets/journey-canvas-fallout.png)</p><p>默认情况下，容器是&#x200B;_人员_，那么用于流失数据的量度就是&#x200B;_人员_。 如果容器更改为&#x200B;_会话_，用于流失数据的量度就是&#x200B;_会话_，依此类推。</p><p>例如，使用&#x200B;_人员_&#x200B;作为容器设置，流失显示的是历程中从未到达任何紧邻的后续节点的人员的百分比和人数。 他们可能在网站上执行了其他操作，但他们不符合任何紧随其后的节点所定义的标准。</p> <p>关于历程画布容器设置的详细信息，请参阅[开始构建历程画布可视化图表](#begin-building-a-journey-canvas-visualization)。 |
    | **缩放控件** | 以下缩放控件位于画布的右上角：<ul><li>**放大** ![放大图标](assets/zoom-in-icon.png)：放大可视化图表的特定区域。<p>您也可以使用鼠标控制，例如在触控板上捏合。</li><li>**缩小** ![缩小图标](assets/zoom-out-icon.png)：缩小可视化图表，在画布上腾出更多空间。<p>您也可以使用鼠标控制，例如在触控板上捏合。</p></li><li>**适合屏幕** ![适合屏幕图标](assets/fill-screen-icon.png)：调整当前缩放和平移设置，让完整的可视化图表填满屏幕。</li></ul><p>要在缩放后在画布上平移，请单击鼠标并拖动到所需的位置。</p> |
@@ -147,7 +146,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 1. 重复这个过程，继续添加节点，构建您的历程。
 
-1. 按照以下部分所述，继续自定义历程。 您可以连接节点、重命名节点、应用细分、创建受众、添加时间限制等。
+1. 按照以下部分所述，继续自定义历程。 您可以连接节点、重命名节点、应用划分、添加时间限制等。
 
 ### 根据现有节点显示最顶级节点
 
@@ -441,6 +440,8 @@ To change the color of a node or arrow:
 
 * 节点之间的多个箭头
 
+* 流失数据（在节点上显示流失时）
+
 应用细分时，请考虑以下事项：
 
 * 细分应用于主要量度。 辅助量度不受影响。
@@ -451,15 +452,17 @@ To change the color of a node or arrow:
 
 * 如果在更早的时候历程中发生了更改，就会更新细分数据。
 
-#### 将细分应用于一个或多个节点或箭头
+#### 将划分应用于节点、箭头或流失数据
 
-1. 在历程画布可视化图表中，选择您想应用细分的一个或多个节点，然后右键单击一个选定的节点。
+1. 在历程画布可视化中，执行以下任一操作：
 
-   或
+   * 右键单击要应用划分的节点的流失（显示流失时）。
 
-   在历程画布可视化图表中，选择您想应用细分的 2 个节点之间的一个或多个箭头，然后右键单击一个选定的箭头。
+   * 选择要应用划分的一个或多个节点，然后右键单击其中一个选定的节点。
 
-   要选择多个节点或箭头，请按住 Command 键（Mac）或 Ctrl 键（Windows）。
+   * 在2个要应用划分的节点之间选择一个或多个箭头，然后右键单击其中一个选定的箭头。
+
+     要选择多个节点或箭头，请按住 Command 键（Mac）或 Ctrl 键（Windows）。
 
 1. 选择&#x200B;[!UICONTROL **细分**]。
 
@@ -505,21 +508,33 @@ To change the color of a node or arrow:
 
 * 节点之间的多个箭头
 
+* 流失数据（在节点上显示流失时）
+
 要查看趋势数据：
 
-1. 在历程画布可视化图表中，选择要查看其趋势数据的一个或多个节点，然后右键单击一个选定的节点。
+1. 在历程画布可视化中，执行以下任一操作：
 
-   或
+   * 右键单击想要查看其趋势数据的节点所产生的流失（显示流失时）。
 
-   在历程画布可视化图表中，选择要查看其趋势数据的 2 个节点之间的一个或多个箭头，然后右键单击一个选定的箭头。
+   * 选择要查看其趋势数据的一个或多个节点，然后右键单击其中一个选定的节点。
 
-   要选择多个节点或箭头，请按住 Command 键（Mac）或 Ctrl 键（Windows）。
+   * 在2个要查看其趋势数据的节点之间选择一个或多个箭头，然后右键单击其中一个选定的箭头。
+
+     要选择多个节点或箭头，请按住 Command 键（Mac）或 Ctrl 键（Windows）。
 
 1. 选择&#x200B;[!UICONTROL **趋势**]。
 
-### 基于节点或箭头创建区段
+### 根据节点、箭头或流失创建区段
 
-您可以基于历程中的节点或箭头创建新区段。 创建区段后，您可以在 Analysis Workspace 中的任意位置使用该区段。
+创建区段的选项适用于画布上的以下对象：
+
+* 单个节点
+
+* 节点之间的箭头
+
+* 流失数据（在节点上显示流失时）
+
+创建区段后，您可以在 Analysis Workspace 中的任意位置使用该区段。
 
 从历程画布创建的区段使用[顺序分段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。 这意味着该区段使用 THEN 运算符，将人员经历的一系列事件（历程）按顺序链接起来，最终导向选定的节点或箭头。 与选定的节点或箭头匹配的所有事件都包含在这个区段中。
 
@@ -527,9 +542,9 @@ To change the color of a node or arrow:
 
 要创建区段：
 
-1. 在历程画布可视化图表中，右键单击要用于创建区段的节点或箭头。
+1. 在历程画布可视化中，右键单击要用于创建区段的节点、箭头或流失数据。
 
-1. 选择&#x200B;[!UICONTROL **从节点创建区段**]&#x200B;或者&#x200B;[!UICONTROL **从箭头创建区段**]。
+1. 选择&#x200B;[!UICONTROL **从节点创建区段**]、[!UICONTROL **从箭头创建区段**]&#x200B;或&#x200B;[!UICONTROL **从流失创建区段**]。
 
    现在会显示区段生成器。 在&#x200B;[!UICONTROL **定义**]&#x200B;部分中，区段定义是根据您选择的节点或箭头及其在历程中的上下文创建的。
 
@@ -546,6 +561,22 @@ To change the color of a node or arrow:
 1. 在历程画布可视化图表中，选择一个或多个要删除的节点，然后右键单击一个选定的节点。
 
 1. 选择&#x200B;[!UICONTROL **删除**]。
+
+### 排除节点
+
+从历程中排除节点时，旅程数据会更新以排除经过该节点的历程。 旅程的区段定义也会更新，以排除经过该节点的旅程。
+
+要从历程中排除节点，请执行以下操作：
+
+1. 在历程画布可视化图表中，右键单击要排除的节点。
+
+1. 选择&#x200B;[!UICONTROL **从历程**]&#x200B;中排除。
+
+要在历程中重新包含排除的节点，请执行以下操作：
+
+1. 在历程画布可视化图表中，右键单击排除的节点。
+
+1. 选择&#x200B;[!UICONTROL **删除历程排除项**]。
 
 ### 删除节点之间的箭头
 
