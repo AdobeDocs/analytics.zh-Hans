@@ -5,24 +5,38 @@ feature: Components
 role: Admin
 exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
 TQID: https://experienceleague.adobe.com/q-wAiW4oUc9kH-ywKVLfNKtXHdEfnIr01GXSK-g0YqY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
-source-wordcount: 237
-ht-degree: 100%
+source-wordcount: 361
+ht-degree: 66%
 
 ---
 
-# 监测数据字典健康状况
+# 监测数据字典健康状况 {#monitor-data-dictionary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datadictionary_share_primary"
+>title="共享主要组件"
+>abstract="选择此选项后，主组件将与所有有权访问重复组件的用户共享（所有者以及共享这些组件的任何人）。 然后，这些用户可以从组件列表中选择主要组件，以供将来项目使用。 但是，即使他们是已合并的重复组件的所有者，他们也无法编辑该组件。 <br/>仅当主要组件是区段、计算量度或日期范围时，此选项才可用。 量度和维度始终可供所有用户使用。
+>
+>When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datadictionary_delete_duplicates"
+>title="删除替换的重复项"
+>abstract="选择此选项后，合并的重复项将不再可用。 如果希望重复项继续可用，请取消选择此选项。"
+
+<!-- markdownlint-enable MD034 -->
 
 Analytics 管理员负责维持健康的数据词典。
 
