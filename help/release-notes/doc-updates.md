@@ -28,14 +28,14 @@ ht-degree: 95%
 | **2026年5月** | |
 | 流媒体维度和量度 | 流媒体文档的重要更新。 示例链接包括[流媒体服务核心维度](/help/components/dimensions/sm-core.md)和[流媒体服务核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
-| 划分面板 | 重新构建了面板](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的[放置区域文档，以支持新的[划分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
+| 划分面板 | 重新构建了面板[&#128279;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的放置区域文档，以支持新的[划分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
 | 已识别新报表包的IP模糊处理的默认选项 | 添加了信息来声明&#x200B;**删除IP地址**&#x200B;是新报表包的默认[IP模糊处理选项](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。 |
-| 处理订单大修 | 显着改进了Adobe Analytics](/help/technotes/processing-order.md)中的[处理顺序。 |
+| 处理订单大修 | 显着改进了Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中的处理顺序。 |
 | Adobe Advertising集成 | 添加了Adobe Advertising集成维度和指标，包括[AMO ID](/help/components/dimensions/amo-id.md)。 |
 | **2026 年 2 月** |  |
-| 添加了有关使用地理和技术报表的信息 | 添加了有关在不同的Analytics产品](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理和技术报表[时差异的信息。 |
+| 添加了有关使用地理和技术报表的信息 | 添加了有关在不同的Analytics产品[&#128279;](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理和技术报表时差异的信息。 |
 | **2026 年 1 月** | |
-| 分类集规则生成器 | 有关分类集](/help/components/classifications/sets/manage/rules.md)功能中新的[规则生成器功能的文档。 |
+| 分类集规则生成器 | 有关分类集[&#128279;](/help/components/classifications/sets/manage/rules.md)功能中新的规则生成器功能的文档。 |
 | 设备图 | 已删除对[已停用的设备图功能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)的引用。 |
 
 ### 2025 {#year2025}
@@ -204,7 +204,7 @@ ht-degree: 95%
 | 多货币更新 | 有关[多货币支持](/help/implement/vars/config-vars/currencycode.md)的页面已更新。 |
 | **2022 年 10 月** |  |
 | Data Workbench | [生命周期终止通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
-| 客户端提示 | 新的[概述和常见问题解答 ](/help/technotes/client-hints.md)。 |
+| 客户端提示 | 新的[概述和常见问题解答 &#x200B;](/help/technotes/client-hints.md)。 |
 | 关键量度摘要 | 关于[关键量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)可视化的新主题。 |
 | 分类集 | 新用户[分类集](/help/components/classifications/sets/overview.md)体验提供单个界面以管理分类和规则，并更容易看到客户拥有的分类数据。 |
 | 移动设备应用程序：自定义详细信息视图 | 关于[自定义详细视图](/help/analyze/mobile-app/create-scorecard.md)的新主题。 |
