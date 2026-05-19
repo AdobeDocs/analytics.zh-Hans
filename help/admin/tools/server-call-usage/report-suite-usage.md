@@ -5,16 +5,13 @@ feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
 TQID: https://experienceleague.adobe.com/reCYMlZM7HH2H1ewI6tN6x6Bn4ghaKKyrkXGUzC64-g
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 436
-ht-degree: 48%
+ht-degree: 43%
 
 ---
 
@@ -26,11 +23,11 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->如果报表包未关联到 Experience Cloud 组织，则该功能板中将不会反映此报表包的使用情况数据。 此外，计费ID可以绑定到多个Experience Cloud组织；组织与计费ID之间并不总是存在1:1关系。
+>如果报表包未关联到CX Enterprise组织，则该功能板中将不会反映此报表包的使用情况数据。 另外，一个账单ID可以绑定到多个CX Enterprise组织；一个组织与账单ID之间并不总是有1:1关系。
 
 报表包使用情况仪表板
 
-* 显示Experience Cloud组织中每个报表包的当前使用时段的服务器调用使用情况（所有调用、主调用、次级调用、移动设备主调用、移动设备次级调用）。
+* 显示CX Enterprise组织中每个报表包的当前使用时段的服务器调用使用情况（所有调用、主要、次要、移动设备主要、移动设备次要）。
 * 显示每个服务器调用类别的整体使用率的百分比。
 * 每日更新。
 * 可下载。

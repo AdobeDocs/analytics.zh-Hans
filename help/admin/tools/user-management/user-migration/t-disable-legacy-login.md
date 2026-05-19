@@ -5,15 +5,11 @@ feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 role: Admin
 TQID: https://experienceleague.adobe.com/xwLXKuaeoKB5-TSVC7FLQXdUsBEeOg-zuITMa8Z3OIo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 185
 ht-degree: 52%
@@ -24,7 +20,7 @@ ht-degree: 52%
 
 了解如何为Analytics用户禁用旧版登录。
 
-当用户从旧版Analytics用户管理系统迁移到Adobe Admin Console后，您可以禁用其旧版登录。 如果禁用旧版登录，则当用户尝试使用旧版登录时，会将用户重定向到Experience Cloud登录。
+当用户从旧版Analytics用户管理系统迁移到Adobe Admin Console后，您可以禁用其旧版登录。 如果用户尝试使用旧版登录，则禁用旧版登录会将用户重定向到CX Enterprise登录。
 
 1. 在 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户 ID 迁移]**&#x200B;中打开迁移工具。
 1. 在 [!DNL User Information] 部分中，找到包含待处理用户的域，然后单击&#x200B;**[!UICONTROL 选择用户]**。

@@ -1,48 +1,33 @@
 ---
-description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Admin Console 的应知事项。
+description: 在Adobe CX Enterprise中将Analytics用户ID迁移到Admin Console的应知事项。
 title: 将 Analytics 用户迁移到 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
 TQID: https://experienceleague.adobe.com/bCf6DWIpIVALcGPAi3tL8zlZ5V8lzPR-9XNCm4HuFnY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
-  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: d124af73-4061-4b84-9063-ae2b60f2c1f3id: e499b847-6dc4-408a-9f0b-70d35ce9b711id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 2971
-ht-degree: 61%
+source-wordcount: 2960
+ht-degree: 54%
 
 ---
 
 # 将 Analytics 用户迁移到 Adobe Admin Console{#analytics-user-migration-to-the-admin-console}
 
-在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Adobe Admin Console 的应知事项。
+在Adobe CX Enterprise中将Analytics用户ID迁移到Adobe Admin Console的应知事项。
 
 要获取有关 Adobe Admin Console 主题的常规帮助（与 Analytics 迁移无关），请参阅 [Admin Console 用户指南](https://helpx.adobe.com/cn/enterprise/administering/user-guide.html)。
 
-迁移后，您可以在 Adobe Admin Console 中[管理 Experience Cloud 用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)。
+迁移后，您可以在Adobe Admin Console中[管理CX Enterprise用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## 什么是Analytics用户ID迁移？ {#section-adbe49aba10c4e62afa836a97894107c}
 
-通过 Analytics 用户 ID 迁移，管理员可以轻松地将 Analytics User Management 中的用户帐户迁移到 Adobe Admin Console。 迁移用户后，他们将有权访问Experience Cloud中提供的解决方案和核心服务。 迁移过程将分阶段向客户推出。
+通过 Analytics 用户 ID 迁移，管理员可以轻松地将 Analytics User Management 中的用户帐户迁移到 Adobe Admin Console。 迁移用户后，他们将能够访问CX Enterprise中提供的解决方案和核心服务。 迁移过程将分阶段向客户推出。
 
 使用 Adobe Admin Console 的好处包括：
 
@@ -56,7 +41,7 @@ ht-degree: 61%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>单点登录 </p> </td> 
-   <td colname="col2"> <p>Analytics用户可以使用其Adobe ID或Enterprise ID登录到Experience Cloud和所有解决方案。 此登录允许访问Experience Cloud中的集成解决方案和核心服务。 </p> <p>迁移后，尝试通过旧版登录（<span class="filepath">my.omniture.com</span> 和 <span class="filepath">sc.omniture.com</span>）进行登录的用户将被重定向至 <span class="filepath">experiencecloud.adobe.com</span>。 </p> </td> 
+   <td colname="col2"> <p>Analytics用户可以使用其Adobe ID或Enterprise ID登录到CX Enterprise和所有解决方案。 此登录允许访问CX Enterprise中的集成解决方案和核心服务。 </p> <p>迁移后，尝试通过旧版登录（<span class="filepath">my.omniture.com</span> 和 <span class="filepath">sc.omniture.com</span>）进行登录的用户将被重定向至 <span class="filepath">experiencecloud.adobe.com</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>管理用户身份标识和权限 </p> </td> 
@@ -69,7 +54,7 @@ ht-degree: 61%
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">邀请新用户 </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">创建产品轮廓 </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">授予用户对特定产品和服务的权限 </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">获取对 Adobe Experience Cloud 中提供的<a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans">跨解决方案核心服务</a>的访问权限。 </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">获得Adobe CX Enterprise中提供的<a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html">跨解决方案核心服务</a>的访问权限 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -89,7 +74,7 @@ ht-degree: 61%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>我是一名Analytics管理员，并收到了一封迁移前电子邮件。 我先做什么？ </p> </td> 
-   <td colname="col2"> <p>确认您具有 Adobe ID 并能够访问 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>。 </p> <p>如果没有，请联系 <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 （您应当先联系邀请您加入相应的组织的系统或产品管理员。） </p> </td> 
+   <td colname="col2"> <p>确认您拥有Adobe ID并且可以访问<a href="https://adminconsole.adobe.com/enterprise/"> CX Enterprise Admin Console</a>。 </p> <p>如果没有，请联系 <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 （您应当先联系邀请您加入相应的组织的系统或产品管理员。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AEM与Analytics的集成 </p> </td> 
@@ -109,7 +94,7 @@ ht-degree: 61%
     </ul> <p> 在迁移当日，您以前的权限组将被自动复制到 Adobe Admin Console。 您将无法在 Analytics 管理工具中邀请新用户或创建新群组。 </p> <p>迁移后： </p> 
     <ul id="ul_4639963EB08F407F8C18ACE2B3D30223"> 
      <li id="li_7F24A3FC900146C3B2E988D399C859EA">管理员将使用 Adobe Admin Console 管理他们的 Analytics 用户和权限。 （您将无法在“Analytics”&gt;“管理员”&gt;“用户管理”中使用用户管理界面。） </li> 
-     <li id="li_5B5234D4F94A4B96A8920F6A5831A64C">用户将使用其 Adobe ID 或 Enterprise ID 通过 Experience Cloud 访问 Analytics，而不是通过 <span class="filepath">my.omniture.com</span> 来访问。 </li> 
+     <li id="li_5B5234D4F94A4B96A8920F6A5831A64C">用户将使用其Adobe或Enterprise ID通过CX Enterprise访问Analytics，而不是通过<span class="filepath"> my.omniture.com</span>。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -125,11 +110,11 @@ ht-degree: 61%
   </tr> 
   <tr> 
    <td colname="col1"> <p>如何迁移用户ID？ </p> </td> 
-   <td colname="col2"> <p> 在“管理”页面的“用户管理”下，单击<a href="/help/admin/tools/user-management/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9">迁移用户ID</a>。 使用该工具将用户添加到 Adobe Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。 您可以按照自己的步调迁移用户ID。 </p> <p>需要管理权限。 迁移完成后，将无法撤销。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。 用户（包括那些尚未迁移的用户）将被重定向，以便通过新的 Experience Cloud URL (<span class="filepath">experiencecloud.adobe.com</span>) 登录 </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。 删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>相关主题：<a href="/help/admin/tools/user-management/user-migration/migrate-enterprise.md">迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID</a>。 </p> </td> 
+   <td colname="col2"> <p> 在“管理”页面的“用户管理”下，单击<a href="/help/admin/tools/user-management/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9">迁移用户ID</a>。 使用该工具将用户添加到 Adobe Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。 您可以按照自己的步调迁移用户ID。 </p> <p>需要管理权限。 迁移完成后，将无法撤销。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。 用户（包括尚未迁移的用户）将被重定向，以便通过新的CX Enterprise URL (<span class="filepath"> experiencecloud.adobe.com</span>)登录 </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。 删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>相关主题：<a href="/help/admin/tools/user-management/user-migration/migrate-enterprise.md">迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移是否会影响我的Analytics实施或数据收集方式？ </p> </td> 
-   <td colname="col2"> <p>不会。 </p> <p>现有的迁移工具可帮助您将用户 ID 和权限从 Analytics 用户管理过渡到 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>。 </p> </td> 
+   <td colname="col2"> <p>否。 </p> <p>现有的迁移工具可帮助您将用户ID和权限从Analytics“用户管理”过渡到<a href="https://adminconsole.adobe.com/enterprise/"> CX Enterprise Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移过程需要多长时间？ </p> </td> 
@@ -182,7 +167,7 @@ ht-degree: 61%
   </tr> 
   <tr> 
    <td colname="col1"> <p>我是否可以将迁移工作委派给其他管理员？ </p> </td> 
-   <td colname="col2"> <p>迁移开始后，任何通过Experience Cloud访问Analytics实例的管理员都可以使用迁移工具开始（或继续）迁移用户。 </p> </td> 
+   <td colname="col2"> <p>一旦迁移开始，任何通过CX Enterprise访问Analytics实例的管理员都可以使用该迁移工具开始（或继续）迁移用户。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>能否更新未迁移用户的权限组成员资格？ </p> </td> 
@@ -195,7 +180,7 @@ ht-degree: 61%
   </tr> 
   <tr> 
    <td colname="col1"> <p>我使用迁移工具迁移的用户是否会分配在Analytics中拥有的相同权限？ </p> </td> 
-   <td colname="col2"> <p>是的。 使用该工具迁移的用户将获得他们当前在Analytics中的权限。 此外，他们在通过 Experience Cloud 访问 Analytics 时，还将保留对其 Analytics 资产（如区段、项目、计算指标等等）的访问权限。 </p> </td> 
+   <td colname="col2"> <p>是的。 使用该工具迁移的用户将获得他们当前在Analytics中的权限。 此外，他们在通过CX Enterprise访问Analytics时，还将保留对其Analytics资产（如区段、项目、计算量度等）的访问权限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移到 Adobe Admin Console 的用户可继续使用 <span class="filepath">my.omniture.com</span> 访问 Analytics 吗？ </p> </td> 
@@ -219,7 +204,7 @@ ht-degree: 61%
   </tr> 
   <tr> 
    <td colname="col1"> <p>当我使用该工具迁移用户时，他们会有什么体验？ </p> </td> 
-   <td colname="col2"> <p>他们将在Analytics用户记录中收到一封发送到电子邮件ID的欢迎电子邮件，通知他们通过Experience Cloud访问Analytics的新方式。 如果他们没有现有的Adobe ID，则系统将提示他们创建一个，之后他们可以使用其Adobe ID访问解决方案。 </p> </td> 
+   <td colname="col2"> <p>他们将在Analytics用户记录中收到一封发送到电子邮件ID的欢迎电子邮件，通知他们通过CX Enterprise访问Analytics的新方法。 如果他们没有现有的Adobe ID，则系统将提示他们创建一个，之后他们可以使用其Adobe ID访问解决方案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我能否使用API而不是迁移工具来迁移用户？ </p> </td> 
@@ -244,11 +229,11 @@ ht-degree: 61%
   </tr> 
   <tr> 
    <td colname="col1"> <p>在迁移结束日期会发生什么？ </p> </td> 
-   <td colname="col2"> <p>迁移结束日期后（从迁移开始算起60天），登录公司内的所有用户都将被重定向，以便使用他们的Adobe ID通过Experience Cloud登录页面进行登录。 </p> </td> 
+   <td colname="col2"> <p>在迁移结束日期（从迁移开始算起60天）之后，登录公司内的所有用户都将被重定向，以便使用他们的Adobe ID通过CX企业登录页进行登录。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>在迁移结束日期之前，我无法迁移所有用户。 未迁移的用户是否会失去对Analytics的访问权限？ </p> </td> 
-   <td colname="col2"> <p>截止到结束日期还未被迁移的用户将被重定向到 Experience Cloud 登录页面 (experiencecloud.adobe.com)，并将无法访问 Analytics。 但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
+   <td colname="col2"> <p>截止到结束日期仍未迁移的用户将被重定向到CX Enterprise登录页面(experiencecloud.adobe.com)，并将无法访问Analytics。 但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -269,7 +254,7 @@ ht-degree: 61%
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户过期 </p> </td> 
-   <td colname="col2"> <p> 您可以在“管理工具”的Analytics中手动设置帐户到期日期。 过期日期过后，用户将无法访问Analytics，而只能访问他们实际的Experience Cloud用户帐户（例如Adobe ID、Enterprise ID、Federated ID等） 不会过期。 他们仍可以登录Experience Cloud，只是无法单击Analytics。 </p> </td> 
+   <td colname="col2"> <p> 您可以在“管理工具”的Analytics中手动设置帐户到期日期。 过期日期过后，用户将无法访问Analytics，但只能访问他们实际的CX Enterprise用户帐户（例如Adobe ID、Enterprise ID、Federated ID等） 不会过期。 他们仍可以登录CX Enterprise ，只是无法单击Analytics。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,7 +283,7 @@ ht-degree: 61%
   </tr> 
   <tr> 
    <td colname="col1"> <p>上次访问（上次登录） </p> </td> 
-   <td colname="col2"> <p> 有关用户上次登录日期和时间的详细信息将显示在“Analytics 用户和资产”链接中，而不是显示在 Adobe Admin Console 中。 Analytics 中的上次登录日期与用户从 Experience Cloud 内实际访问 Analytics 的时间有关，而不反映他们登录到 Experience Cloud 的日期/时间。 </p> </td> 
+   <td colname="col2"> <p> 有关用户上次登录日期和时间的详细信息将显示在“Analytics 用户和资产”链接中，而不是显示在 Adobe Admin Console 中。 Analytics中的上次登录日期与用户从CX Enterprise中实际访问Analytics的时间有关，而不反映他们登录CX Enterprise的日期/时间。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用户管理 API <a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">Adobe 支持的身份标识类型</a> </p> </td> 
@@ -310,7 +295,7 @@ ht-degree: 61%
   </tr> 
   <tr> 
    <td colname="col1"> <p>单点登录 </p> </td> 
-   <td colname="col2"> <p> 完成迁移后，Analytics单点登录配置将被删除。 迁移期间，它们将保持活动状态。 使用 Analytics 单点登录的客户应当升级到 <a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">Adobe 联合 ID</a>。 </p> <p>Analytics建议您首先以Adobe ID迁移用户，以便轻松创建Experience Cloud帐户，然后将这些帐户转换为Federated Single-sign用户。 </p> </td> 
+   <td colname="col2"> <p> 完成迁移后，Analytics单点登录配置将被删除。 迁移期间，它们将保持活动状态。 使用 Analytics 单点登录的客户应当升级到 <a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">Adobe 联合 ID</a>。 </p> <p>Analytics建议您首先以Adobe ID迁移用户，以便轻松地创建CX Enterprise帐户，然后将这些帐户转换为Federated Single-sign用户。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>正在下载权限组 </p> </td> 

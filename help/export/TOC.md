@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送和 Data Warehouse 来检索数据输出。
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 99%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 99%
    + [Data Warehouse 中支持的组件](data-warehouse/component-support.md)
    + [Data Warehouse 最佳实践](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
-   + [将 FTP 和 SFTP 用于 Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
+   + [将FTP和SFTP用于Adobe CX Enterprise](ftp-and-sftp/ftp-overview.md)
    + 设置 Adobe 托管的 FTP 帐户 {#set-up-ftp-accounts}
       + [设置 FTP 帐户 — 概述](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分类](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
@@ -73,4 +73,4 @@ ht-degree: 99%
       + [通过 SFTP 将 Adobe 数据发送到外部 FTP 帐户](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [将 Data Warehouse 请求发送到 SFTP 服务器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [在无密码的情况下通过 SFTP 连接到 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Adobe Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [ADOBE ANALYTICS API](https://developer.adobe.com/analytics-apis/docs/2.0/)

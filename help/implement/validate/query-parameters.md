@@ -5,26 +5,12 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 92%
@@ -37,8 +23,8 @@ ht-degree: 92%
 
 | 参数 | Analytics 实施变量 | 描述 |
 | --- | --- | --- |
-| `aamlh` | 无 | Audience Manager位置提示。 用于Experience Cloud共享配置文件集成。 |
-| `aamb` | 无 | Audience Manager blob. 用于Experience Cloud共享配置文件集成。 |
+| `aamlh` | 无 | Audience Manager位置提示。 用于CX Enterprise Shared Profile集成。 |
+| `aamb` | 无 | Audience Manager blob. 用于CX Enterprise Shared Profile集成。 |
 | `aid` | 无 | Analytics 访客 ID。 |
 | `AQB` | 无 | 指示图像请求查询字符串的开头。 |
 | `AQE` | 无 | 指示图像请求的结尾，这表明该请求未被截断。 |
@@ -69,7 +55,7 @@ ht-degree: 92%
 | `k` | 无 | 在 [Cookie 支持](/help/components/dimensions/cookie-support.md)维度中使用。 |
 | `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | 列表变量。 |
 | `lrt` | 无 | “上次请求时间”，即上次请求的往返时间，以毫秒为单位。 仅当从一个页面发出多个请求或页面是单页面应用程序 (SPA) 时才发送。 |
-| `mid` | 无 | Experience Cloud 访客 ID。 |
+| `mid` | 无 | CX Enterprise访客ID。 |
 | `ndh` | 无 | 指示图像请求是否来自 AppMeasurement 的标记。 |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | 帮助确定 Cookie 的设置位置。 |
 | `oid` | [`s_objectID`](../vars/page-vars/s-objectid.md) | 最后一页的对象标识符。 在 Activity Map 中使用。 |

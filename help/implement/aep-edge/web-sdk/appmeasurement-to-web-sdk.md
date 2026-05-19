@@ -3,18 +3,12 @@ title: 从AppMeasurement迁移到Web SDK
 description: 将Adobe Analytics实施从AppMeasurement JavaScript库更新到Web SDK JavaScript库。
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
 TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1434
 ht-degree: 9%
 
 ---
@@ -48,7 +42,7 @@ Adobe建议在以下情况下遵循此实施路径：
 
 在Adobe Experience Platform数据收集中创建数据流。 当您将数据发送到此数据流时，它会将数据转发到Adobe Analytics。 将来，同一数据流会将数据转发到Customer Journey Analytics。
 
-1. 导航到[experience.adobe.com](https://experience.adobe.com)并使用您的凭据登录。
+1. 导航到[Adobe CX Enterprise](https://experience.adobe.com)并使用您的凭据登录。
 1. 使用右上角的主页或产品选择器导航到&#x200B;**[!UICONTROL 数据收集]**。
 1. 在左侧导航中，选择&#x200B;**[!UICONTROL 数据流]**。
 1. 选择&#x200B;**[!UICONTROL 新数据流]**。
@@ -71,9 +65,9 @@ Adobe建议在以下情况下遵循此实施路径：
 
 +++**3. 配置Web SDK**
 
-使用Web SDK [`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
+使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
 
-在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
+在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
 
 * 将`datastreamId`设置为从上一步检索到的数据流ID。
 * 将`orgId`设置为您组织的IMS组织。
@@ -85,7 +79,7 @@ alloy("configure", {
 });
 ```
 
-您可以选择在[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中设置其他属性，具体取决于贵组织的实施要求。
+您可以选择在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中设置其他属性，具体取决于贵组织的实施要求。
 
 +++
 
@@ -126,7 +120,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. 更新方法调用以使用Web SDK**
 
-更新调用[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有实例，将它们替换为[`sendEvent`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 需要考虑三种情况：
+更新调用[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有实例，将它们替换为[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 需要考虑三种情况：
 
 * **页面查看跟踪**：将页面查看跟踪调用替换为Web SDK `sendEvent`命令：
 
@@ -138,7 +132,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **自动链接跟踪**：默认情况下启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/cn/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)配置属性。 它会自动设置正确的链接跟踪变量，以将数据发送到Adobe Analytics。 如果要禁用自动链接跟踪，请在[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中将此属性设置为`false`。
+* **自动链接跟踪**：默认情况下启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/cn/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)配置属性。 它会自动设置正确的链接跟踪变量，以将数据发送到Adobe Analytics。 如果要禁用自动链接跟踪，请在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中将此属性设置为`false`。
 
 * **手动链接跟踪**： Web SDK在pageview调用与非页面视图调用之间没有单独的命令。 在有效负荷对象中提供该区别。
 

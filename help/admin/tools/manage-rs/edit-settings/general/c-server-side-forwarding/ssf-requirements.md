@@ -1,39 +1,33 @@
 ---
-description: 您必须满足这些Experience Cloud解决方案、服务和代码要求才能实施服务器端转发。 这些要求还包括有关如何检查代码版本以及在何处获取最新代码库的说明。
+description: 您必须满足这些CX Enterprise解决方案、服务和代码要求才能实施服务器端转发。 这些要求还包括有关如何检查代码版本以及在何处获取最新代码库的说明。
 solution: Analytics
 title: 服务器端转发要求
 feature: Report Suite Settings
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 role: Admin
 TQID: https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 58%
+source-wordcount: 325
+ht-degree: 52%
 
 ---
 
 # 服务器端转发要求
 
-您必须满足这些Experience Cloud解决方案、服务和代码要求才能实施服务器端转发。 这些要求还包括有关如何检查代码版本以及在何处获取最新代码库的说明。
+您必须满足这些CX Enterprise解决方案、服务和代码要求才能实施服务器端转发。 这些要求还包括有关如何检查代码版本以及在何处获取最新代码库的说明。
 
 ## 解决方案要求
 
-服务器端转发适用于 [Analytics](https://www.adobe.com/cn/data-analytics-cloud/analytics.html)、[Audience Manager](https://www.adobe.com/cn/data-analytics-cloud/audience-manager.html) 和/或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
+服务器端转发适用于 [Analytics](https://www.adobe.com/cn/data-analytics-cloud/analytics.html)、[Audience Manager](https://www.adobe.com/cn/data-analytics-cloud/audience-manager.html) 和/或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 
 ## 服务要求
 
-服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 身份标识服务提供了一个通用 ID，用于在 Experience Cloud 的所有解决方案中标识网站访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
+服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 Identity Service提供了一个通用ID ，用于在CX Enterprise的所有解决方案中标识站点访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
 
 ## 代码版本
 

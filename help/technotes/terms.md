@@ -4,41 +4,15 @@ description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
 TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 2640
-ht-degree: 88%
+source-wordcount: 2638
+ht-degree: 86%
 
 ---
 
@@ -61,7 +35,7 @@ ht-degree: 88%
 * **促销活动：**&#x200B;可以称为：
    * 促销活动变量，用于填充“跟踪代码”维度。 请参阅《实施用户指南》中的[促销活动](../implement/vars/page-vars/campaign.md)。
    * 跟踪代码维度的默认分类；将自动为所有报表包创建。
-   * Adobe Campaign 是 Adobe Experience Cloud 的一部分。 可在 [Adobe.com](https://www.adobe.com/cn/marketing/campaign.html) 查看更多相关信息。
+   * Adobe Campaign是Adobe CX Enterprise的一部分。 可在 [Adobe.com](https://www.adobe.com/cn/marketing/campaign.html) 查看更多相关信息。
 * **渠道：**&#x200B;可以称为：
    * 渠道变量，用于填充“网站区域”维度。 请参阅《实施用户指南》中的[页面变量](/help/implement/vars/page-vars/page-variables.md)。
    * 营销渠道，可以帮助了解用户如何到达您网站的组件。 请参阅《组件用户指南》中的[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
@@ -75,7 +49,7 @@ ht-degree: 88%
 * **转化变量：**&#x200B;也称为 eVar。 存储自定义值，并保留变量值，直到其过期。 请参阅《组件用户指南》中的 [eVar](/help/components/dimensions/evar.md) 维度。
 * **关联：**&#x200B;不再用作术语；替换为维度划分。 在 Adobe Analytics 的早期版本中，通过关联可以划分流量变量。 请参阅“Analytics工具指南”中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **自定义链接：**&#x200B;包含非页面视图数据的点击类型。 请参阅《实施用户指南》中的 [s.tl() 函数](../implement/vars/functions/tl-method.md)。 另请参阅“点击”。
-* **客户属性：** Experience Cloud 的一项功能，允许上载属性数据。 请参阅《核心服务用户指南》中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)。
+* **客户属性：**&#x200B;允许上载属性数据的CX Enterprise功能。 请参阅《核心服务用户指南》中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)。
 * **数据收集服务器：**&#x200B;接收和处理数据的 Adobe 自有服务器。 图像请求将发送到 Adobe 的数据收集服务器以用于报告。
 * **Data Connectors：**&#x200B;已停用的开发解决方案，允许第三方自动将数据上载到Adobe Analytics。 该第三方的客户可以使用数据连接器在 Adobe Analytics 中丰富其数据。 已替换为[Adobe Exchange市场](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE)。
 * **数据馈送：**&#x200B;将每次点击列为行，将变量列为单独的列的原始数据导出。 最常用于将 Adobe Analytics 数据导出到第三方数据库。 请参阅《导出用户指南》中的[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。
@@ -99,14 +73,14 @@ ht-degree: 88%
    * 自定义洞察，自定义流量变量的历史名称。
 * **KPI：**&#x200B;关键绩效指标的缩写。 有助于企业了解其网站表现的量度。 每个组织分别使用不同的 KPI 来衡量业务的不同方面。 请参阅《实施用户指南》中的[创建解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * **延迟：**&#x200B;收集数据时和在报表中使用数据时之间的延迟。 报表包中的典型延迟时间为 30-90 分钟。 请参阅 Technotes 用户指南中的[延迟](/help/technotes/latency.md)。
-* **启动：**&#x200B;不再用作术语。 Adobe Experience Platform 中的标记的以前简称，Adobe 当前的实施解决方案。 请参阅《Adobe Experience Platform 用户指南》中的[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)。
+* **启动：**&#x200B;不再用作术语。 Adobe Experience Platform 中的标记的以前简称，Adobe 当前的实施解决方案。 请参阅《Adobe Experience Platform 用户指南》中的[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 * **列表属性：**&#x200B;一种设置，可转化典型流量变量以支持同一点击中的多个值。 如果启用了该设置，则任何自定义流量变量都可以成为列表属性。 请参阅《实施用户指南》中的[属性](../implement/vars/page-vars/prop.md)。
 * **列表变量：**&#x200B;与转化变量分开的不同变量。 列表变量支持同一点击中的多个值，并且变量值会在访问中保留，与转化变量类似。 组织只能使用三个列表变量。 请参阅《实施用户指南》中的[列表](/help/implement/vars/page-vars/list.md)。
 * **登录公司：**&#x200B;由您的组织使用的报表包集合。 某些组织具有多个适用于该组织不同部分的登录公司。
 * **营销渠道：** Adobe Analytics 中的一项功能，可按访客到达网站的方式对点击量进行分类。 可使用营销渠道处理规则自定义用于分类点击的逻辑。 请参阅《组件用户指南》中的[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **量度：**&#x200B;包含定量数据的组件类型。 量度值通常包含数字，如页面查看次数、访问次数和收入。 通常与维度相对应。
 * **移动设备应用程序：**&#x200B;也称为&#x200B;**Adobe Analytics [!UICONTROL 功能板]**，该移动设备应用程序允许用户通过移动设备访问直观的记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。 iOS 和 Android 操作系统均支持移动设备应用程序。
-* **Mobile Services：**&#x200B;已停用的 Adobe 产品，可以在整个 Adobe Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。
+* **Mobile Services：**&#x200B;已停用的Adobe产品将整个Adobe CX Enterprise中针对移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。
 * **多包标记：**&#x200B;向多个报表包发送相同点击的实践。 随着虚拟报表包的推出，基本上不再需要这一实践。 大多数多包标记工作可帮助满足全局报表包的需求。
 * **标准化：**&#x200B;一种组织可视化的方法，采用所有量度并强制按同等比例排列量度，从而更容易比较趋势。
 * **发生次数：**&#x200B;一种量度类型，用于显示设置或保留维度项目的点击量。 请参阅《组件用户指南》中的[发生次数](/help/components/metrics/occurrences.md)量度。
@@ -123,7 +97,7 @@ ht-degree: 88%
 * **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。 请参阅管理用户指南中的[实时报表](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md)。
 * **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md)加载项允许您从Adobe Analytics数据构建自定义请求。
 * **报表包**：将数据发送到的首要容器。 Adobe Analytics 中的所有报表都引用了一个报表包。
-* **Reports &amp; Analytics：**&#x200B;此工具[生命周期结束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=zh-Hans)。
+* **Reports &amp; Analytics：**&#x200B;此工具[生命周期结束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滚动日期范围：**&#x200B;随时间变化而更改的相对日期范围类型。 例如，显示最近 7 天的报表可视为滚动日期范围。 另请参阅“静态日期范围”。
 * **RSID：**&#x200B;报表包 ID 的缩写。 报表包同时具有易记名称和报表包 ID。
 * **s.t()：** AppMeasurement 库中发送页面查看图像请求的函数的名称。 有些 AppMeasurement 库使用 `s.track()`。 请参阅《实施用户指南》中的 [t](../implement/vars/functions/t-method.md)。

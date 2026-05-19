@@ -5,18 +5,13 @@ feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
 TQID: https://experienceleague.adobe.com/tcREdTxSH3L5XcCcu3W1aEQySJSDyAzrlQgyrutcUds
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 388
-ht-degree: 80%
+ht-degree: 73%
 
 ---
 
@@ -42,7 +37,7 @@ ht-degree: 80%
    >
    >H 代码要求在 `s_code.js` 标记中调用 `<body>` 脚本。 这与其他实施方法有所不同，因为大多数实施方法要求在 `<head>` 标记中引用脚本。
 1. **在每个页面上定义特定于页面的变量**：应在每个页面上定义各个变量，如页面名称或 eVar。 在每个页面上通常使用内联 `<script>` 标记来定义各个变量。
-1. **使用调试器验证数据收集**：下载并安装 [Experience Cloud Debugger](../../validate/debugger.md)，以确保将数据发送到 Adobe，且已正确定义页面变量。
+1. **使用调试器验证数据收集**：下载并安装[CX Enterprise Debugger](../../validate/debugger.md)，以确保将数据发送到Adobe，且已正确定义页面变量。
 
 ## 缓存
 

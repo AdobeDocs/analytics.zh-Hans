@@ -5,21 +5,12 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 837
 ht-degree: 54%
@@ -32,7 +23,7 @@ ht-degree: 54%
 
 >[!WARNING]
 >
->跨设备分析中的设备图[已弃用](https://experienceleague.adobe.com/zh-hans/docs/discontinued/using/device-graph)，在&#x200B;**2025年12月31日**&#x200B;不再可用。 请将当前任何启用设备图的虚拟报表包切换到基于[字段的方法](/help/components/cda/field-based-stitching.md)。
+>跨设备分析中的设备图[已弃用](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)，在&#x200B;**2025年12月31日**&#x200B;不再可用。 请将当前任何启用设备图的虚拟报表包切换到基于[字段的方法](/help/components/cda/field-based-stitching.md)。
 >
 
 
@@ -70,7 +61,7 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * Adobe Analytics 报告包无法映射到多个组织 ID。 由于跨设备分析拼合给定报表包中的设备，因此跨设备分析无法用于拼合多个组织ID之间的数据。
 * 跨设备分析使用复杂的处理管道，并具有多个依赖组件。 此管道与基本Analytics报告工作流并行运行。 预计源报表包和Cross-Device Analytics虚拟报表包之间的点击总数的数据不匹配率约为1%。
 * Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。 例如，它们目前不支持营销渠道变量。 有关具体限制的详细信息，请参阅[虚拟报表包](/help/components/vrs/vrs-about.md)和[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)。
-* 专用图形利用Experience Cloud和Adobe Analytics中的[客户属性](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/customer-attributes/attributes)功能所使用的相同ID同步。 但是，Cross-Device Analytics虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。 换句话说，基于客户属性的维度不可用于Cross-Device Analytics虚拟报表包。
+* 专用图形利用CX Enterprise和Adobe Analytics中的[客户属性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)功能所使用的相同ID同步。 但是，Cross-Device Analytics虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。 换句话说，基于客户属性的维度不可用于Cross-Device Analytics虚拟报表包。
 * Cross-Device Analytics当前与A4T不兼容。
 * 不支持 1.4 API。 Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
 * Adobe对跨设备分析拼合过程的主动监视仅适用于生产报表包。

@@ -3,18 +3,12 @@ title: 从Adobe Analytics标记扩展迁移到Web SDK标记扩展
 description: 更新您在Adobe Experience Platform数据收集标记上的Analytics实施，以使用Web SDK扩展。
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1729
+source-wordcount: 1731
 ht-degree: 6%
 
 ---
@@ -48,7 +42,7 @@ Adobe建议在以下情况下遵循此实施路径：
 
 在Adobe Experience Platform数据收集中创建数据流。 当您将数据发送到此数据流时，它会将数据转发到Adobe Analytics。 将来，同一数据流会将数据转发到Customer Journey Analytics。
 
-1. 导航到[experience.adobe.com](https://experience.adobe.com)并使用您的凭据登录。
+1. 导航到[Adobe CX Enterprise](https://experience.adobe.com)并使用您的凭据登录。
 1. 使用右上角的主页或产品选择器导航到&#x200B;**[!UICONTROL 数据收集]**。
 1. 在左侧导航中，选择&#x200B;**[!UICONTROL 数据流]**。
 1. 选择&#x200B;**[!UICONTROL 新数据流]**。

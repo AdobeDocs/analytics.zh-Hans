@@ -3,10 +3,10 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 95%
+source-wordcount: '1993'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
 
 ## “报告”选项卡
 
-请使用 [!UICONTROL **Workspace**] 选项卡上左边栏中的&#x200B;[!UICONTROL **报告**]&#x200B;区域。有关更多信息，请参阅在 [Adobe Analytics 登录页面](/help/analyze/landing.md)中的&#x200B;*导航“报告”选项卡*。
+请使用 [!UICONTROL **Workspace**] 选项卡上左边栏中的&#x200B;[!UICONTROL **报告**]&#x200B;区域。 有关更多信息，请参阅在 [Adobe Analytics 登录页面](/help/analyze/landing.md)中的&#x200B;*导航“报告”选项卡*。
 
 ## “组件”选项卡
 
@@ -45,18 +45,18 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
 
    | 产品功能 | 功能 | 更多信息 |
    |---------|----------|----------|
-   | 区段 | Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。 | [Analytics 分段](/help/components/segmentation/seg-home.md) |
-   | 计算量度 | 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。通过使用这些工具，营销人员、产品经理和分析人员不必更改 Analytics 实施，即可提出有关数据的问题。 | [计算量度和高级计算量度](/help/components/calculated-metrics/cm-overview.md) |
-   | 日期范围 | Analysis Workspace 包含用户在构建分析时可以使用的默认日期范围列表。此外，您可以创建自定义日期范围并将其提供给 Analysis Workspace 中的用户。 | [创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
+   | 区段 | Adobe Analytics允许您使用Analytics功能、Adobe CX Enterprise、Adobe Target和其他集成的Adobe产品生成、管理、共享强大而集中的受众区段，并将这些区段应用于您的报表。 | [Analytics 分段](/help/components/segmentation/seg-home.md) |
+   | 计算量度 | 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。  通过使用这些工具，营销人员、产品经理和分析人员不必更改 Analytics 实施，即可提出有关数据的问题。 | [计算量度和高级计算量度](/help/components/calculated-metrics/cm-overview.md) |
+   | 日期范围 | Analysis Workspace 包含用户在构建分析时可以使用的默认日期范围列表。 此外，您可以创建自定义日期范围并将其提供给 Analysis Workspace 中的用户。 | [创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虚拟报告包 | 虚拟报告包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。 | [虚拟报告包概述](/help/components/vrs/vrs-about.md) |
    | 警报 | 警报功能允许对警报进行更多粒度控制，而且还可以将异常检测与警报系统集成在一起。 | [警报概述](/help/components/alerts/alerts-overview.md) |
-   | 批注 | 工作区中注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。它们可让您将日程表活动与特定维度和量度关联起来。 | [管理批注](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md) |
-   | 分类集 | 分类集提供单一界面来管理分类和规则。 <p>分类是在生成报表时对 Analytics 变量数据进行分类，然后以不同的方式显示数据的方法。您在变量值和与该值相关的元数据之间建立关系。分类可用于大多数自定义维度，例如跟踪代码、props 和 eVar。</p> | [分类集概述](/help/components/classifications/sets/overview.md) |
-   | 位置 | 为了从云目标导入 Adobe Analytics 分类数据，您首先需要添加并配置要收集分类数据的位置。您可以创建、编辑或删除位置。 | [位置管理器](/help/components/locations/locations-manager.md) |
-   | 计划项目 | 管理计划项目时，可以编辑和删除重复项目计划；在搜索栏中或使用左侧边栏中的过滤器选项搜索计划；并按标记、批准的计划、所有者等进行过滤。 | [计划项目](/help/components/scheduled-projects-manager.md) |
+   | 注释 | Workspace 中的注释使您能够有效地将上下文数据的细微差别和洞察传达给您的组织。 它们可让您将日程表活动与特定维度和量度关联起来。 | [管理批注](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md) |
+   | 分类集 | 分类集提供单一界面来管理分类和规则。 <p>分类是在生成报表时对 Analytics 变量数据进行分类，然后以不同的方式显示数据的方法。 您在变量值和与该值相关的元数据之间建立关系。 分类可用于大多数自定义维度，例如跟踪代码、props 和 eVar。</p> | [分类集概述](/help/components/classifications/sets/overview.md) |
+   | 位置 | 为了从云目标导入 Adobe Analytics 分类数据，您首先需要添加并配置要收集分类数据的位置。 您可以创建、编辑或删除位置。 | [位置管理器](/help/components/locations/locations-manager.md) |
+   | 计划的项目 | 管理计划项目时，可以编辑和删除重复项目计划；在搜索栏中或使用左侧边栏中的过滤器选项搜索计划；并按标记、批准的计划、所有者等进行过滤。 | [计划项目](/help/components/scheduled-projects-manager.md) |
    | 计划报告 | 管理员级别的用户能够跨组织查看和管理计划报表。 | [计划报表队列](/help/components/scheduled-reports-admin.md) |
-   | 报表设置 | 这些设置引用旧版 Adobe Analytics 产品，其中不包括 Analysis Workspace 及其相关组件。对 Analysis Workspace 设置进行调整，转至“组件”>“偏好设置”。 |  |
-   | 偏好设置 | 为创建的所有新项目或面板管理 Analysis Workspace 及其相关组件的设置。现有项目和面板不受影响。 | [偏好设置](/help/analyze/analysis-workspace/user-preferences.md) |
+   | 报表设置 | 这些设置引用旧版 Adobe Analytics 产品，其中不包括 Analysis Workspace 及其相关组件。 对 Analysis Workspace 设置进行调整，转至“组件”>“偏好设置”。 |  |
+   | 偏好设置 | 为创建的所有新项目或面板管理 Analysis Workspace 及其相关组件的设置。 现有项目和面板不受影响。 | [偏好设置](/help/analyze/analysis-workspace/user-preferences.md) |
 
    {style="table-layout:auto"}
 
@@ -73,12 +73,12 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 产品功能 | 功能 | 更多信息 |
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 指的是用于存储和自定义报表的 Analytics 数据副本，您可以通过筛选数据来运行这些数据 <p>请求管理器允许您查看和复制请求，并重新安排请求的优先级。</p> | [管理 Data Warehouse 请求](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
-   | Activity Map | Activity Map 专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。 | [Activity Map 概述](/help/analyze/activity-map/overview.md) |
-   | 经典版推荐 | 推荐是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [推荐](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hans) |
+   | Activity Map | Activity Map 专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。 让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。 | [Activity Map 概述](/help/analyze/activity-map/overview.md) |
+   | 经典版推荐 | 推荐是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [推荐](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 不再支持此功能。 |  |
    | Mobile Services | 不再支持此功能。 |  |
-   | Analytics 功能板（移动应用程序） | Adobe Analytics 功能板应用程序可以随时随地从 Adobe Analytics 提供见解。通过此应用程序，用户可以查看您使用 Adobe Analytics 桌面 UI 创建的直观记分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 功能板应用程序 |
-   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的一个加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder 是什么？](/help/analyze/report-builder/rb-overview.md) |
+   | Analytics 功能板（移动应用程序） | Adobe Analytics 功能板应用程序可以随时随地从 Adobe Analytics 提供洞察。 通过此应用程序，用户可以查看您使用 Adobe Analytics 桌面 UI 创建的直观记分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 功能板应用程序 |
+   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的一个加载项。 通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。 请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder 是什么？](/help/analyze/report-builder/rb-overview.md) |
 
    {style="table-layout:auto"}
 
@@ -96,36 +96,36 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    |---------|----------|----------|
    | Analytics 用户和资源 | 大多数用户和产品管理功能现在只能在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中使用，将资源从一个用户转移到另一个用户以及设置用户帐户有效期限的管理功能只能从 Adobe Analytics 管理员区域使用。 | [转移用户资源或设置帐户有效期限](/help/admin/tools/user-management/users-assets.md) |
    | 用户 ID 迁移 | 通过 Analytics 用户 ID 迁移，管理员可以轻松地将 Analytics User Management 中的用户帐户迁移到 Adobe Admin Console。 | [将 Analytics 用户迁移到 Adobe Admin Console](/help/admin/tools/user-management/user-migration/c-migration-tool.md) |
-   | 用户管理主页（旧版） | 用户和产品管理已移至 Adobe Admin Console。可使用 Adobe Admin Console 开始管理 Adobe Analytics 用户的用户权限。 | [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md) |
-   | 群组（旧版） | 群组管理已移至 Adobe Admin Console。可使用 Adobe Admin Console 开始管理 Adobe Analytics 的群组。 | [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md) |
-   | 报告包访问 | 用于授予对报告包工具的访问权限的方法已移至 Adobe Admin Console。可使用 Adobe Admin Console 向 Adobe Analytics 用户授予报告包访问权限。 | [报告包工具的产品轮廓权限](/help/admin/admin-console/permissions/report-suite-tools.md) |
+   | 用户管理主页（旧版） | 用户和产品管理已移至 Adobe Admin Console。 可使用 Adobe Admin Console 开始管理 Adobe Analytics 用户的用户权限。 | [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md) |
+   | 群组（旧版） | 群组管理已移至 Adobe Admin Console。 可使用 Adobe Admin Console 开始管理 Adobe Analytics 的群组。 | [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md) |
+   | 报告包访问 | 用于授予对报告包工具的访问权限的方法已移至 Adobe Admin Console。 可使用 Adobe Admin Console 向 Adobe Analytics 用户授予报告包访问权限。 | [报告包工具的产品轮廓权限](/help/admin/admin-console/permissions/report-suite-tools.md) |
    | 管理工具主页 | Analytics 管理工具区域是管理 Adobe Analytics 实例的主要区域；可以在此区域完成大多数管理任务。 | [管理工具概述](/help/admin/tools/c-admin-tools.md) |
    | 报告包 | 可让您定义一些规则来管理报告包中数据的处理方式。 | [报告包管理器](/help/admin/tools/manage-rs/report-suites-admin.md) |
-   | Analytics 用户和资源 | 用户和资源管理已移至 Adobe Admin Console。可使用 Adobe Admin Console 开始管理 Adobe Analytics 用户的用户权限。 | [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md) |
-   | 分类导入器 | 使用导入器将分类上传到 Adobe Analytics。您也可以在导入前导出要更新的数据。 | [分类导入器概述](/help/components/classifications/importer/c-working-with-saint.md) |
+   | Analytics 用户和资源 | 用户和资源管理已移至 Adobe Admin Console。 可使用 Adobe Admin Console 开始管理 Adobe Analytics 用户的用户权限。 | [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md) |
+   | 分类导入器 | 使用导入器将分类上传到 Adobe Analytics。 您也可以在导入前导出要更新的数据。 | [分类导入器概述](/help/components/classifications/importer/c-working-with-saint.md) |
    | 分类规则生成器 | 您无需在每次跟踪代码变更时维护并上载分类，而是可以创建自动、基于规则的分类并将这些分类应用在多个报告包中。 | [分类规则生成器工作流](/help/components/classifications/crb/classification-rule-builder.md) |
-   | 数据源 | 可使用数据源管理器创建、编辑或停用数据源。您还可以使用此界面跟踪上传到数据源 FTP 位置的文件的状态。 | [管理数据源](/help/import/data-sources/manage.md) |
+   | 数据源 | 可使用数据源管理器创建、编辑或停用数据源。 您还可以使用此界面跟踪上传到数据源 FTP 位置的文件的状态。 | [管理数据源](/help/import/data-sources/manage.md) |
    | 代码管理器 | 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码 | [代码管理器](/help/admin/tools/code-manager-admin.md) |
    | 流量管理 | “流量管理”页面允许您指定预期的流量更改。 这些设置允许Adobe分配适当的资源，以确保及时跟踪和处理您的流量。 | [流量管理概述](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
-   | 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。提供了“服务器调用使用情况”功能板，来跟踪服务器调用使用情况数据，并将其与合同中的使用限制进行比较。可以设置警报以防止超额情况。 | [服务器调用使用情况概述](/help/admin/tools/server-call-usage/overage-overview.md) |
+   | 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。 提供了“服务器调用使用情况”功能板，来跟踪服务器调用使用情况数据，并将其与合同中的使用限制进行比较。 可以设置警报以防止超额情况。 | [服务器调用使用情况概述](/help/admin/tools/server-call-usage/overage-overview.md) |
    | 日志 | 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报告包，以及管理员执行的更改。 | [日志](/help/admin/tools/logs.md) |
    | Advertising Analytics | 配置Adobe Analytics以并排显示您的所有Google广告和Microsoft Advertising付费搜索数据。 | [配置 Advertising Analytics](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |
-   | 数据馈送 | 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 | [Analytics 数据馈送概述](/help/export/analytics-data-feed/data-feed-overview.md) |
-   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。排除数据可通过排除IP地址数据来提高报表准确性。 此外，您可以从拒绝服务或其他可能扭曲报表数据的恶意事件中删除数据。 您可以配置排除项或使用防火墙。 | [按 IP 地址排除](/help/admin/tools/exclude-ip.md) |
-   | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报告包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
+   | 数据馈送 | 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。 此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 | [Analytics 数据馈送概述](/help/export/analytics-data-feed/data-feed-overview.md) |
+   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。 排除数据可通过排除IP地址数据来提高报表准确性。 此外，您可以从拒绝服务或其他可能扭曲报表数据的恶意事件中删除数据。 您可以配置排除项或使用防火墙。 | [按 IP 地址排除](/help/admin/tools/exclude-ip.md) |
+   | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报告包的报告容量。 它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
    | 数据治理隐私标签 | 为报告包数据设置标签即是向给定报告包中的每个变量分配身份标识、敏感性和数据管理标签。 | [隐私标签](/help/admin/tools/privacy-labeling/labeling-overview.md) |
    | 公司设置主页 | 通过“公司设置”页面，您可以配置设置以将其应用于您的组织所管理的所有报告包。 | [公司设置概述](/help/admin/tools/company/c-company-settings.md) |
-   | 安全管理器 | 通过安全管理器，您可以控制对报表数据的访问。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 | [安全管理器](/help/admin/tools/company/security-manager.md) |
+   | 安全管理器 | 通过安全管理器，您可以控制对报表数据的访问。 相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 | [安全管理器](/help/admin/tools/company/security-manager.md) |
    | Web 服务 | Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。 | [Web 服务](/help/admin/tools/company/web-services-admin.md) |
    | Report Builder 报告 | 管理分配给 Report Builder 用户的许可证。 | [Report Builder 报表](/help/admin/tools/company/report-builder-reports-admin.md) |
-   | 单点登录服务 | Adobe Experience Cloud 中的单点登录是通过 Admin Console 实施的。 | [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md) |
+   | 单点登录服务 | Adobe CX Enterprise中的单点登录是通过Admin Console实现的。 | [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md) |
    | 隐藏报告包 | 可让您在不再希望报告包对您和您的用户可用时，在 Adobe Analytics 用户界面中隐藏报告包。 | [隐藏报告包](/help/admin/tools/company/c-hide-report-suites.md) |
 
    {style="table-layout:auto"}
 
 ## Analysis Workspace
 
-利用 Analysis Workspace，可以快速生成分析以收集见解，然后与其他人共享这些见解。可以使用拖放浏览器界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集以及与您选定的任何人员共享和安排项目。
+利用 Analysis Workspace，可以快速生成分析以收集洞察，然后与其他人共享这些洞察。 可以使用拖放浏览器界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集以及与您选定的任何人员共享和安排项目。
 
 下面的图像和附表解释了 Analysis Workspace 中的一些主要区域。
 
@@ -135,7 +135,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
 
 | 图像中的位置 | 名称和功能 |
 |---------|----------|
-| A | **最左侧边栏：**&#x200B;包含用于向 Analysis Workspace 添加面板、可视化图表和组件的选项卡。还包含用于打开数据词典的数据词典图标。 |
+| A | **最左侧边栏：**&#x200B;包含用于向 Analysis Workspace 添加面板、可视化图表和组件的选项卡。 还包含用于打开数据词典的数据词典图标。 |
 | B | **左边栏：**&#x200B;根据在最左侧边栏中选择的选项卡，此区域包含单独的面板、可视化图表或组件。 |
-| C | **画布：**&#x200B;这是您从左边栏拖动内容以构建项目的主要区域。当您向画布添加面板、可视化图表和组件时，项目将动态更新。 |
+| C | **画布：**&#x200B;这是您从左边栏拖动内容以构建项目的主要区域。 当您向画布添加面板、可视化图表和组件时，项目将动态更新。 |
 | D | **报告包下拉菜单：**&#x200B;对于 Analysis Workspace 中的每个面板，报告包下拉菜单可让您选择要用作数据源的报告包。 |

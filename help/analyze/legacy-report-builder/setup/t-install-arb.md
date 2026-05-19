@@ -6,15 +6,10 @@ feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 TQID: https://experienceleague.adobe.com/JlUR5vXjGeaE0PS2-CqIk1AKxqwygyiIGUn6XJMwYNA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 128
 ht-degree: 50%
@@ -27,7 +22,7 @@ ht-degree: 50%
 
 安装 Report Builder：
 
-1. 单击&#x200B;**[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Report Builder]**。
+1. 单击&#x200B;**[Adobe CX Enterprise](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Report Builder]**。
 1. 单击&#x200B;**[!UICONTROL 立即下载]**&#x200B;以下载 32 位或 64 位版本（具体取决于安装的 MS Excel 版本）。
 1. 打开下载的安装程序包。
 1. 按照安装向导进行操作。

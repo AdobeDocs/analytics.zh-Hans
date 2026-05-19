@@ -5,27 +5,14 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1511
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -43,7 +30,7 @@ Adobe Analytics登陆页面包含以下子选项卡：
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登录页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登录页面](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +76,7 @@ Adobe Analytics登陆页面包含以下子选项卡：
 | [!UICONTROL **上次打开时间**] | 标识当前正在查看“项目”页面的用户上次打开项目的日期。 |
 | [!UICONTROL **上次使用**] | 通过显示组织内任何用户上次打开项目的日期和时间，帮助确定项目对组织中的用户是否有价值。<p>查看本列时请考虑以下事项：</p><ul><li>使用情况信息从 2023 年 9 月开始提供。</li><li>此列仅供系统管理员使用。</li></ul> |
 | [!UICONTROL **项目 ID**] | 可用于调试项目。 |
-| [!UICONTROL **&#x200B;**] | 较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 |
+| [!UICONTROL ****] | 较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 |
 | [!UICONTROL **查询次数**] | 加载项目时向 Analytics 发出的请求总数。 较多的项目查询次数会增加项目的复杂性，并可能增加处理和加载时间。 此数据仅在加载项目或发送计划项目后可用。 |
 | [!UICONTROL **位置**] | 显示项目所在的文件夹。 |
 
@@ -103,7 +90,7 @@ Adobe Analytics登陆页面包含以下子选项卡：
 | [!UICONTROL Workspace 项目] | 创建一个空白 [Workspace 项目](/help/analyze/analysis-workspace/home.md)以便您进行设计和构建。 |
 | [!UICONTROL 移动记分卡] | 创建一个空白[移动记分卡](/help/analyze/mobile-app/curator.md)以便您进行设计和构建。 |
 | [!UICONTROL 打开培训教程] | 打开 Workspace 培训教程，它会通过分步教程指导您完成构建新的入门项目的过程。 |
-| [!UICONTROL 打开发行说明] | 打开最新的 Adobe Experience Cloud 发行说明的 Adobe Analytics 部分。 |
+| [!UICONTROL 打开发行说明] | 打开最新Adobe CX企业版发行说明的Adobe Analytics部分。 |
 | 筛选条件图标 | 按标记、报告包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |
 | 搜索栏 | 搜索表中的所有列。 |
 | 选区框 | 选择一个或多个项目可显示您可以执行的项目管理操作：**删除**、**共享**、**重命名**、**复制**、**取消固定**、**上移**、**下移**、**标记**、**批准**、**导出 CSV** 和&#x200B;**移至**。 您可能无权执行所有列出的操作。 |

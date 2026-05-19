@@ -5,21 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 TQID: https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 942
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -33,7 +26,7 @@ ht-degree: 83%
 * 对于大多数Adobe Analytics请求而言，包含值“analytics”的“type”字段。
 * “value”字段，其中包含 Analytics 应在每个报告包的关联命名空间变量中搜索的 ID。
 
-请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)了解更多详细信息和[标准身份标识命名空间的列表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix#standard-namespaces)。 请参阅[创建一个访问/删除作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/privacy-jobs#access-delete)中的一个请求示例。
+有关更多详细信息和[标准身份命名空间列表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix#standard-namespaces)，请参阅[CX企业数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。 请参阅[创建一个访问/删除作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/privacy-jobs#access-delete)中的一个请求示例。
 
 ## Cookie ID
 

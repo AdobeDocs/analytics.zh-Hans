@@ -5,15 +5,12 @@ title: 分类
 feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 TQID: https://experienceleague.adobe.com/JdxiVF-HzQPiFzC6CH0yeIIPEulsacjl11-X8wLMrl4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 68%
+source-wordcount: 449
+ht-degree: 64%
 
 ---
 
@@ -35,6 +32,6 @@ ht-degree: 68%
 
 完成文件：[!DNL Classifications.fin]
 
-如果您在上传数据源或分类文件时没有提供 `.fin` 文件，Adobe 不会将它添加到待处理的队列。 该文件将保留在 FTP 上，并且不会被应用到 [!UICONTROL Experience Cloud] 中的数据。 只有在Analytics的[!UICONTROL 创建FTP帐户]窗口中输入您的电子邮件地址作为[!UICONTROL 通知收件人]时，才会通知您。 如果未在此字段中输入电子邮件地址，则不会发送任何通知。
+如果您在上传数据源或分类文件时没有提供 `.fin` 文件，Adobe 不会将它添加到待处理的队列。 该文件将保留在FTP上，不会应用于CX Enterprise中的数据。 只有在Analytics的[!UICONTROL 创建FTP帐户]窗口中输入您的电子邮件地址作为[!UICONTROL 通知收件人]时，才会通知您。 如果未在此字段中输入电子邮件地址，则不会发送任何通知。
 
 如果您上传文件时含有 `.fin` 文件，但文件中存在错误，则在提交它进行处理时，该错误会导致处理停止，并将文件发送到错误文件夹。 如果发生这种情况，会向[!UICONTROL 创建 FTP 帐户]窗口的[!UICONTROL 通知收件人]字段中列出的电子邮件地址发送一个通知。 如果没有输入电子邮件地址，则不会发送通知。

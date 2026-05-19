@@ -4,14 +4,10 @@ title: 管理区段
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 TQID: https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 567
 ht-degree: 64%
@@ -49,7 +45,7 @@ ht-degree: 64%
 | **[!UICONTROL 所有者]** | 区段的所有者。 作为用户，您只能看到您拥有的区段或与您共享的注释。 |
 | **[!UICONTROL 标记]** | 此区段的标记。 |
 | **[!UICONTROL 共享对象]** | 您与多少个人或群组共享此区段。 选择以打开&#x200B;**[!UICONTROL 分享组件]**&#x200B;对话框。 有关更多信息，请参阅[共享区段](t-seg-share.md)。 |
-| **[!UICONTROL 已发布]** | [区段是否已发布](seg-publish.md)到Experience Cloud。 |
+| **[!UICONTROL 已发布]** | [区段是否已发布](seg-publish.md)到CX Enterprise。 |
 | **[!UICONTROL 修改日期]** | 上次更改区段的日期和时间。 |
 
 使用 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) 指定您想要显示的列。
@@ -145,6 +141,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=zh-Hans) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

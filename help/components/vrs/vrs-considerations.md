@@ -5,30 +5,15 @@ title: 虚拟报表包和多包标记注意事项
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5id: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1659
-ht-degree: 78%
+source-wordcount: 1657
+ht-degree: 72%
 
 ---
 
@@ -46,11 +31,11 @@ ht-degree: 78%
 
 在确定应使用多包标记还是虚拟报表包时，请考虑以下因素：
 
-### 将区段发布到 Adobe Experience Cloud
+### 将区段发布到Adobe CX Enterprise
 
-虚拟报表包不支持将区段共享到 Adobe Experience Cloud。 要将区段共享到 Experience Cloud 的用户必须有权访问源报表包。
+虚拟报表包不支持将区段共享到Adobe CX Enterprise。 要将区段共享到CX Enterprise的用户必须有权访问源报表包。
 
-尚且无法从虚拟报表包中将区段发布到 Adobe Experience Cloud 以进行个性化和定位。 要实现此目的，发布区段的所有用户都必须有权访问源报表包。 例如，您希望用户只能访问他们所在地区的数据，但您希望他们能够从 Adobe Analytics 中创建区段，并将区段共享到 Adobe Experience Cloud，以便在 Adobe Target 中进行定位。 在这种情况下，Adobe 建议使用多包标记。 如果您不介意用户是否有权访问全局报表包，或者您不需要发布区段以用于其他解决方案，则可以使用虚拟报表包。
+尚无法从虚拟报表包中将区段发布到Adobe CX Enterprise以进行个性化和定位。 要实现此目的，发布区段的所有用户都必须有权访问源报表包。 例如，您希望用户只能访问他们所在地理区域的数据，但却希望他们能够从Adobe Analytics中创建区段，并将区段共享到Adobe CX Enterprise，以便在Adobe Target中进行定位。 在这种情况下，Adobe 建议使用多包标记。 如果您不介意用户是否有权访问全局报表包，或者您不需要发布区段以用于其他解决方案，则可以使用虚拟报表包。
 
 ### 独特（低流量）限制
 
@@ -66,7 +51,7 @@ Adobe客户关怀团队有时可以为少量维度增加唯一值限制，从而
 
 不同网站有不同的实施需求。 某些维度和事件可以在两个网站之间共享。 例如，电子邮件注册可以在多个网站上使用同一事件，从而触发相同的自定义事件。 其他一些维度可能特定于网站。 例如，用户只能在您的其中一个网站上更改个人资料图片。 此自定义事件将仅在支持它的网站上实施。
 
-确保唯一维度和量度的数量适合单个全局报表包。 如果您发现唯一维度或量度的数量过多，请检查每个实施中的每个维度。 可能存在对业务成功不重要的重叠情况和维度。 此外，还请考虑使用[&#128279;](/help/components/classifications/classifications-overview.md)分类。 例如，根据“产品”维度创建“产品名称”分类，而不是在 eVar5 中捕获“产品名称”。 源报表包中的分类可自动用于任何从属虚拟报表包。
+确保唯一维度和量度的数量适合单个全局报表包。 如果您发现唯一维度或量度的数量过多，请检查每个实施中的每个维度。 可能存在对业务成功不重要的重叠情况和维度。 此外，还请考虑使用](/help/components/classifications/classifications-overview.md)分类[。 例如，根据“产品”维度创建“产品名称”分类，而不是在 eVar5 中捕获“产品名称”。 源报表包中的分类可自动用于任何从属虚拟报表包。
 
 >[!TIP]
 >

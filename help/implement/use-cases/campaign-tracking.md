@@ -5,25 +5,15 @@ feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 583
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +26,7 @@ ht-degree: 100%
 1. [设置或调整您的 Adobe Analytics 实施以使其加入跟踪代码数据](#include-campaign-variables-in-your-implementation)
 1. [在 Analysis Workspace 中查看报告](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/cn/products/campaign/adobe-campaign.html) 可帮助简化其中每个步骤，以使您的营销工作发挥最大作用。 有关更多信息，请与您的 Adobe 销售代表联系。
+[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) 可帮助简化其中每个步骤，以使您的营销工作发挥最大作用。 有关更多信息，请与您的 Adobe 销售代表联系。
 
 ## 建立跟踪代码生成过程
 
@@ -69,7 +59,7 @@ Adobe Analytics 有一个专用的[跟踪代码](/help/components/dimensions/tra
 
 正确设置实施以收集跟踪代码数据后，您可以在 Analysis Workspace 中查看报告。
 
-1. 登录到 [Adobe Experience Cloud](https://experience.adobe.com) 并选择 [!UICONTROL Adobe Analytics]。
+1. 登录到[Adobe CX Enterprise](https://experience.adobe.com)并选择[!UICONTROL Adobe Analytics]。
 1. 创建 [Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。
 1. 在左侧的组件列表中，将[跟踪代码](/help/components/dimensions/tracking-code.md)维度拖动到工作区画布。
 1. 将[访问次数](/help/components/metrics/visits.md)或[订单数](/help/components/metrics/orders.md)等所需的指标拖至工作区画布的右侧。

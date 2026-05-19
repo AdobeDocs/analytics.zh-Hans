@@ -6,20 +6,15 @@ feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 role: Admin
 TQID: https://experienceleague.adobe.com/NSfOfy6aLyM69Xqgn-bXb5PHzbI1eIWg4Q5pf8mXvSA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 266
-ht-degree: 84%
+ht-degree: 81%
 
 ---
 
@@ -36,7 +31,7 @@ ht-degree: 84%
 | 任务或资源 | 描述 |
 | --- | --- |
 | 将 Analytics 用户 ID 迁移到 Adobe Admin Console | Adobe正在协助Analytics管理员将用户ID迁移到Adobe Admin Console。 这种努力将分批进行。 轮到您迁移用户时，Adobe将通过电子邮件通知Analytics管理员，并附上相关说明。 [Analytics User Management](/help/admin/tools/user-management/user-migration/c-migration-tool.md) 中提供了迁移工具以简化此任务。<p>**重要提示**：在您迁移用户的当日，您以前的权限组将自动复制到 Adobe Admin Console。 您将无法在 Analytics 管理工具中邀请新用户或创建新群组。 查看有关将 Analytics 用户迁移到 Adobe Admin Console 的常见问题解答和帮助，了解有关如何准备迁移以及受影响的管理功能的信息。 |
-| 启动 Adobe Admin Console | 迁移用户帐户后，您可以在 Adobe Admin Console 中管理所有解决方案中的用户和产品。 导航到 `https://adminconsole.adobe.com/enterprise/`。 另请参阅[管理 Experience Cloud 用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans)。 |
+| 启动 Adobe Admin Console | 迁移用户帐户后，您可以在 Adobe Admin Console 中管理所有解决方案中的用户和产品。 导航到 `https://adminconsole.adobe.com/enterprise/`。 另请参阅[管理CX Enterprise用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)。 |
 | 管理 Adobe Analytics 产品配置文件、用户和权限 | 请参阅 [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md)。 |
 
 <!--

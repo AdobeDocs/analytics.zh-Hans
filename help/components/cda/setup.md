@@ -5,18 +5,14 @@ exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 547
-ht-degree: 85%
+ht-degree: 82%
 
 ---
 
@@ -34,7 +30,7 @@ ht-degree: 85%
 
 CDA 由 Adobe 工程团队在您的跨设备报表包上预配。 要开始此过程，请联系客户关怀部门并准备提供以下信息：
 
-* 您的 Adobe Experience Cloud 组织 ID（一个以 @AdobeOrg 结尾的字母数字字符串）
+* 您的Adobe CX Enterprise组织ID（以@AdobeOrg结尾的字母数字字符串）
 * 希望通过 CDA 启用的跨设备报表包的报表包 ID
 * 要使用哪种CDA方法（基于字段的拼合）
 * 如果要使用基于字段的拼合，请提供包含用户 ID 的 prop 或 eVar

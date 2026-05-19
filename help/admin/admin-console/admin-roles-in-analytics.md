@@ -5,21 +5,14 @@ feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
 TQID: https://experienceleague.adobe.com/zw5i-IcWrh9hlcYExqh8Wkukxa5dBlmF34oDbScnwBQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1155
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -29,10 +22,10 @@ Adobe Analytics 支持各种类型的管理员。 具有完全访问权限的 Ad
 
 >[!NOTE]
 >
->必须先在 Experience Cloud 中将任一用户分配为第一个管理员，之后才能在 Adobe Analytics 中为该用户分配角色。 随后，第一个管理员可以为组织中的用户设置其他重要角色，如本文所述。 有关第一个管理员的更多信息，请参阅 [Adobe Analytics 管理入门指南](/help/admin/admin-console/first-admin-guide.md)。
+>在Adobe Analytics中为任何用户分配角色之前，必须将用户分配为CX Enterprise中的第一个管理员。 随后，第一个管理员可以为组织中的用户设置其他重要角色，如本文所述。 有关第一个管理员的更多信息，请参阅 [Adobe Analytics 管理入门指南](/help/admin/admin-console/first-admin-guide.md)。
 
 
-## Experience Cloud 和 Adobe Analytics 中的重要角色
+## CX Enterprise和Adobe Analytics中的关键角色
 
 在使用 Adobe Analytics 时，请考虑以下重要角色：
 
@@ -80,7 +73,7 @@ Adobe Analytics 支持各种类型的管理员。 具有完全访问权限的 Ad
 
 ## 授予产品配置文件的完全产品管理员访问权限
 
-有关将用户分配为产品配置文件管理员的信息，请参阅《企业用户指南》的[管理企业用户的产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)一文中的“管理产品配置文件管理员”部分。
+有关将用户分配为产品配置文件管理员的信息，请参阅《企业用户指南》的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)一文中的“管理产品配置文件管理员”部分。
 
 ## 后续步骤
 
@@ -88,9 +81,9 @@ Adobe Analytics 支持各种类型的管理员。 具有完全访问权限的 Ad
 
 [创建 Analytics 标记属性](/help/implement/launch/create-analytics-property.md)：让您的数据收集管理员登录该工具，并创建一个要在您的网站上实施的属性
 
-必须先在 Experience Cloud 中将任一用户分配为第一个管理员，之后才能在 Adobe Analytics 中为该用户分配角色。 随后，第一个管理员可以为组织中的用户设置其他重要角色，如本文所述。
+在Adobe Analytics中为任何用户分配角色之前，必须将用户分配为CX Enterprise中的第一个管理员。 随后，第一个管理员可以为组织中的用户设置其他重要角色，如本文所述。
 
-为使组织内其他成员能够使用各个 Experience Cloud 解决方案，首先需确定一个管理员，即第一个管理员。
+让公司其他成员能够使用各个CX企业解决方案时，首先需要一位管理员。
 
 签署合同后
 

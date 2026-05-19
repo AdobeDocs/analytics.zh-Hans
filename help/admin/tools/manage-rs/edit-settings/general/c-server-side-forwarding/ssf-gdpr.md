@@ -5,21 +5,13 @@ feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
 TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 49%
+source-wordcount: 588
+ht-degree: 40%
 
 ---
 
@@ -27,7 +19,7 @@ ht-degree: 49%
 
 此部分阐述（2017 年 9 月 30 日生效的）[欧盟 Cookie 监管法规](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies)促成的服务器端转发改进。
 
-服务器端转发用于实时将数据从 Adobe Analytics 共享到其他 [!DNL Experience Cloud Solutions]，例如 Audience Manager。 启用服务器端转发后，Analytics 还可在数据收集过程中将数据推送到其他 Experience Cloud 解决方案，并且这些解决方案可将数据推送到 Analytics。
+服务器端转发用于实时将数据从Adobe Analytics共享到其他CX Enterprise解决方案，如Audience Manager。 启用服务器端转发后，Analytics还可以在数据收集过程中将数据推送到其他CX Enterprise解决方案，并让这些解决方案将数据推送到Analytics。
 
 以前，服务器端转发无法区分同意和同意前的事件/点击。 自2018年11月1日起，作为数据控制者（Adobe Analytics客户），您可以选择将预先同意的数据限制在Adobe Analytics中，并阻止将这些数据转发到Adobe Audience Manager。 新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。 设置该变量后，在收到同意之前，这些点击将不会发送到 Adobe Audience Manager。
 

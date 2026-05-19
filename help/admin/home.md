@@ -5,22 +5,15 @@ feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
 TQID: https://experienceleague.adobe.com/cHTZXklRrRyFVRmUb2dDiZ4Pnt0-la3PrGaJFFEa2QM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 353
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -39,7 +32,7 @@ ht-degree: 96%
 
 Adobe Analytics 目前有两个管理员区域：
 
-* Adobe Admin Console：使用此区域可配置 Experience Cloud 工具并管理用户权限。 它位于 [adminconsole.adobe.com](https://adminconsole.adobe.com)。
+* Adobe Admin Console：使用此区域配置CX Enterprise工具并管理用户权限。 它位于 [adminconsole.adobe.com](https://adminconsole.adobe.com)。
 * Analytics 管理员工具：此区域用于报表包和变量管理。 通过单击 Adobe Analytics 顶部标题中的[!UICONTROL 管理]，可以访问该区域。
 
 本指南涵盖：
@@ -60,7 +53,7 @@ Adobe Analytics 目前有两个管理员区域：
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hans)
-* [Adobe Analytics资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hans)
+* [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

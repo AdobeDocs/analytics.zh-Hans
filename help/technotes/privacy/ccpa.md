@@ -5,20 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 TQID: https://experienceleague.adobe.com/medgbA9EBG0fE2xttZ7HLKT42-RBr7rlMGGGGrAyoKw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 476
-ht-degree: 88%
+source-wordcount: 474
+ht-degree: 63%
 
 ---
 
@@ -36,13 +30,13 @@ ht-degree: 88%
 
 Adobe 向企业提供软件和服务时，作为提供服务的一部分，Adobe 将以数据处理者身份，代表我们的客户对收到和存储的任何个人数据进行处理。 作为“数据处理方”，Adobe 将根据贵公司授予的权限及指示（例如，遵照您与 Adobe 签署的协议中的规定）处理个人数据。
 
-作为“数据控制者”，您可以决定 Adobe 代表您处理和存储的个人数据。 如果您使用 Adobe Experience Cloud 解决方案，Adobe 可能会根据您使用的解决方案和您选择发送到 Adobe Experience Cloud 帐户的信息来为您托管个人数据。 有关示例列表，请参阅 [Adobe Experience Cloud 隐私权。](https://www.adobe.com/cn/privacy/marketing-cloud.html#collect)
+作为“数据控制者”，您可以决定 Adobe 代表您处理和存储的个人数据。 如果您使用Adobe CX Enterprise解决方案，Adobe可能会根据您使用的解决方案和您选择发送到Adobe CX Enterprise帐户的信息，来为您托管个人数据。 有关示例列表，请参阅[Adobe CX Enterprise隐私。](https://www.adobe.com/cn/privacy/marketing-cloud.html#collect)
 
 ## Adobe 如何处理 CCPA 数据
 
-Adobe Experience Cloud 提供了一项集成的解决方案，它将您的品牌的数据治理基础架构与它用来创建和管理客户体验的 Adobe 工具结合在一起。 Adobe Experience Cloud 的数据治理功能可以将数据治理策略与数据使用直接关联在一起。
+Adobe CX Enterprise提供了一个集成式解决方案，它将您品牌的数据治理基础架构与其用于创建和管理消费者体验的Adobe工具连接在一起。 Adobe CX Enterprise的数据管理功能实现了数据管理策略与数据使用的直接关联。
 
-熟悉 [Adobe Analytic 如何处理 GDPR](https://www.adobe.com/cn/data-analytics-cloud/analytics/general-data-protection-regulation.html)，其中讨论了做好隐私法准备工作的步骤，以及如何集成 Adobe Experience Cloud 隐私服务 API。
+熟悉[Adobe Analytics如何处理GDPR](https://www.adobe.com/cn/data-analytics-cloud/analytics/general-data-protection-regulation.html)，其中讨论了做好隐私法准备工作的步骤，以及如何集成Adobe CX Enterprise Privacy Service API。
 
 ## CCPA 准备工作和您的 Adobe Analytics 数据
 

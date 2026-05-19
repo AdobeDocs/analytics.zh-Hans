@@ -4,19 +4,14 @@ description: 无法登录 Adobe Analytics 时应采取的步骤。
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 617
-ht-degree: 95%
+source-wordcount: 607
+ht-degree: 88%
 
 ---
 
@@ -24,19 +19,19 @@ ht-degree: 95%
 
 Adobe Analytics 使用多种身份验证方法来登录：
 
-* Adobe ID（通过 Experience Cloud）
+* 通过CX Enterprise的Adobe ID
 * 旧版 Analytics ID
 * 单点登录
 
 **如果您经常访问 Analytics 但开始随机遇到登录问题，则清理浏览器的 Cookie 和缓存可解决大多数问题。**
 
-有时候，可用性问题也会影响到登录的能力。 有关任何维护事件，请查看 [status.adobe.com](https://status.adobe.com/zh-cn)。 否则，请根据组织的身份验证方法使用相应的部分。
+有时候，可用性问题也会影响到登录的能力。 有关任何维护事件，请查看 [status.adobe.com](https://status.adobe.com)。 否则，请根据组织的身份验证方法使用相应的部分。
 
 ## Adobe ID
 
-排除使用 Experience Cloud 登录到 Adobe Analytics 时的问题
+排除使用CX Enterprise登录Adobe Analytics时出现的问题。
 
-1. 导航到 [experience.adobe.com](https://experience.adobe.com)。 如果您无法访问此网站，则组织的防火墙可能不允许此域通过。 请与组织的 IT 团队合作来允许此域。 请查看 [Adobe Experience Cloud 中使用的 IP 和域](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html)，获取可提供给 IT 团队的有用信息。
+1. 导航到[Adobe CX Enterprise](https://experience.adobe.com)。 如果您无法访问此网站，则组织的防火墙可能不允许此域通过。 请与组织的 IT 团队合作来允许此域。 请查看Adobe Analytics使用的[IP地址](/help/technotes/ip-addresses.md)，以获取可提供给IT团队的有用信息。
 
 2. 使用 Adobe ID 进行身份验证：单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。 如果您无法登录，请仔细检查是否正确输入了电子邮件地址。 否则，请单击&#x200B;**[!UICONTROL 重置密码]**&#x200B;并按照提示操作，重置您的 Adobe ID 密码。
 
