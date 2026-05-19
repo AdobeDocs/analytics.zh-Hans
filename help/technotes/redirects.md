@@ -5,10 +5,17 @@ title: 重定向和别名
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1139
@@ -51,7 +58,7 @@ ht-degree: 68%
 
 ## 实施重定向 {#implement}
 
-若要通过重定向捕获 [!DNL Analytics][!DNL AppMeasurement] 数据，需要对创建重定向和 JavaScript 文件的代码做出四个较小的修改。
+若要通过重定向捕获 [!DNL Analytics]&#x200B;[!DNL AppMeasurement] 数据，需要对创建重定向和 JavaScript 文件的代码做出四个较小的修改。
 
 完成下列步骤将保留原始反向链接（例如，上述场景中的 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）传递至您的网站的信息：
 
