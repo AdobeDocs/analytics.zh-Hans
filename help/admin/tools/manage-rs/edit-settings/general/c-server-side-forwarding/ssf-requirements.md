@@ -29,11 +29,11 @@ ht-degree: 52%
 
 ## 解决方案要求
 
-服务器端转发适用于 [Analytics](https://www.adobe.com/cn/data-analytics-cloud/analytics.html)、[Audience Manager](https://www.adobe.com/cn/data-analytics-cloud/audience-manager.html) 和/或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
+服务器端转发适用于 [Analytics](https://www.adobe.com/cn/data-analytics-cloud/analytics.html)、[Audience Manager](https://www.adobe.com/cn/data-analytics-cloud/audience-manager.html) 和/或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
 
 ## 服务要求
 
-服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 Identity Service提供了一个通用ID ，用于在CX Enterprise的所有解决方案中标识站点访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
+服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 Identity Service提供了一个通用ID ，用于在CX Enterprise的所有解决方案中标识站点访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
 
 ## 代码版本
 
