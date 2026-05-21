@@ -3,7 +3,7 @@ description: 了解如何在 Analysis Workspace 中使用历程画布。
 title: 历程画布概述
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 89%
@@ -15,31 +15,19 @@ ht-degree: 89%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_button"
+>id="aa_journeycanvas_button"
 >title="历程画布"
 >abstract="显示人们如何完成或退出一系列接触点。 适用于具有多个入口点和路径的历程。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_panel"
+>id="aa_journeycanvas_panel"
 >title="历程画布"
 >abstract="分析人们如何完成或退出既定的历程。 创建由节点和箭头构成的灵活图表来代表事件、维度项和区段之间的任意组合，从而生成用户历程分析。 拖动画布上的节点来重新排列历程的事件和条件。 当您进行该操作时，数据会相应更新。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="历程画布"
 >abstract="显示人们如何完成或退出一系列接触点。 适用于具有多个入口点和路径的历程。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
@@ -50,7 +38,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了历程画布可视化图表。<br/><br/>_&#x200B;对于本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[历程画布概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中记录了历程画布可视化图表。<br/><br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[历程画布概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)。_
 
 >[!ENDSHADEBOX]
 
@@ -158,5 +146,5 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics 中的历程画布可视化图表指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=zh-Hans)
+> * [Adobe Customer Journey Analytics 中的历程画布可视化图表指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 
