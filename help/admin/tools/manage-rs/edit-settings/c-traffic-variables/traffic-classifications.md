@@ -1,26 +1,38 @@
 ---
-description: 流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
+description: 流量分类允许您对流量变量(prop)进行分类。 流量分类只能使用文本分类。
 subtopic: Classifications
 title: 流量分类
 feature: Admin Tools
 role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/I834qVgOoOjpjwrrX3Lmp-NvV98hxXlgJXNA9DiSpKA'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+  - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: 174
+ht-degree: 72%
 
 ---
 
 # 流量分类
 
-流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
+流量分类允许您对流量变量(prop)进行分类。 流量分类只能使用文本分类。
 
 ## 流量分类
 
-流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
+流量分类允许您对流量变量(prop)进行分类。 流量分类只能使用文本分类。
 
-使用“流量分类”页面可以创建所选报告包的分类。分类后，任何可使用关键数据生成的报告也可通过关联的属性来生成。
+使用“流量分类”页面可以创建所选报告包的分类。 分类后，任何可使用关键数据生成的报告也可通过关联的属性来生成。
 
 ## 添加流量分类
 

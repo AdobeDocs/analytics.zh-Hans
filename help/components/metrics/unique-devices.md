@@ -3,22 +3,34 @@ title: 独特设备
 description: 独特设备的数量。
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
+TQID: https://experienceleague.adobe.com/7KUpaGPuFGBHTXj8L4MKnjOsi1YQtA8KUCIXSa-NtXc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 266
 ht-degree: 73%
 
 ---
 
 # 独特设备
 
-“独特设备”[指标](overview.md)是一个[跨设备分析](../cda/overview.md)指标，它计算独特的未识别的设备和独特的虚拟设备的数量。 未识别的设备是产生匿名点击的设备。独特的虚拟设备是每个设备识别的不同的人员。
+“独特设备”[指标](overview.md)是一个[跨设备分析](../cda/overview.md)指标，它计算独特的未识别的设备和独特的虚拟设备的数量。 未识别的设备是产生匿名点击的设备。 独特的虚拟设备是每个设备识别的不同的人员。
 
 ## 如何计算此指标
 
 对于每个设备，合计所有与它相关的不同人员（如果设备包含非拼接的点击，则其中包括匿名人员）。
 
-请注意，此指标与非 CDA 报表包中的[独特访客](unique-visitors.md)不等。例如，一个设备由 3 个不同的帐户共享。如果所有3个帐户都在报表时段中访问您的网站，则生成的报表将在CDA中显示3个独特设备。 CDA 之外的相同数据将显示 1 个独特访客。
+请注意，此指标与非 CDA 报表包中的[独特访客](unique-visitors.md)不等。 例如，一个设备由 3 个不同的帐户共享。 如果所有3个帐户都在报表时段中访问您的网站，则生成的报表将在CDA中显示3个独特设备。 CDA 之外的相同数据将显示 1 个独特访客。
 
 ## 示例
 

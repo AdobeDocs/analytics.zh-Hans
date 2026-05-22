@@ -5,9 +5,23 @@ feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 role: Admin
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+TQID: 'https://experienceleague.adobe.com/x4raBXJrinRqi2LpaWgc-zbzPoHKIELZ3zt5IV8oBWM'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: 437
 ht-degree: 6%
 
 ---
@@ -36,7 +50,7 @@ ht-degree: 6%
 
 使用此时间戳配置将数据发送到报表包时，每次点击都必须包含[`timestamp`](/help/implement/vars/page-vars/timestamp.md)变量。 如果任何点击缺少`timestamp`实施变量，则将永久删除该点击。
 
-启用了时间戳的会话数据会保存长达 92 天。换言之，访问将“保持打开”92天，从而允许在同一访问/会话中包含任何其他点击。 虽然您可以向现有会话添加数据，但Adobe建议按访客顺序添加点击。 每位访客按顺序收到的点击可能会产生意外的报表结果，尽管通过报表时间处理可以缓解其中的许多限制。
+启用了时间戳的会话数据会保存长达 92 天。 换言之，访问将“保持打开”92天，从而允许在同一访问/会话中包含任何其他点击。 虽然您可以向现有会话添加数据，但Adobe建议按访客顺序添加点击。 每位访客按顺序收到的点击可能会产生意外的报表结果，尽管通过报表时间处理可以缓解其中的许多限制。
 
 ## 可选时间戳
 

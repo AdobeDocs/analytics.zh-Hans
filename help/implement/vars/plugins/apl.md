@@ -4,10 +4,26 @@ description: 将值附加到支持多个值的变量。
 feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/6WIccys5OCj1QCxELr-6L4h-Qs-gzV-LfirCaoHADW0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 90%
+source-wordcount: 718
+ht-degree: 89%
 
 ---
 
@@ -18,10 +34,10 @@ ht-degree: 90%
 `apl` 插件允许您安全地向已列表分隔的变量（如 [`events`](../page-vars/events/events-overview.md)、[`linkTrackVars`](../config-vars/linktrackvars.md)、[`list`](../page-vars/list.md) 和其他变量）添加新值。
 
 * 如果要添加的值在变量中不存在，则代码会将该值添加到字符串的结尾。
-* 如果要添加的值在变量中已存在，则此插件不会更改该值。此功能可让您的实施避免出现重复的值。
+* 如果要添加的值在变量中已存在，则此插件不会更改该值。 此功能可让您的实施避免出现重复的值。
 * 如果要添加到的变量为空，则插件会将该变量设置为新值。
 
-如果要向现有变量添加新值，并且现有变量包含由分隔值构成的字符串，Adobe 建议使用此插件。如果您要为包含分隔值的变量连接字符串，则不需要使用此插件。
+如果要向现有变量添加新值，并且现有变量包含由分隔值构成的字符串，Adobe 建议使用此插件。 如果您要为包含分隔值的变量连接字符串，则不需要使用此插件。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -56,7 +72,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -71,9 +87,9 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 * **`lv`**（必需，字符串）：包含要向其添加新值的已分隔列表的变量
 * **`vta`**（必需，字符串）：要添加到 `lv` 参数值的以逗号分隔的新值列表。
-* **`d1`**（可选，字符串）：用于分隔已包含在 `lv` 参数中的各个值的分隔符。如果未设置，则将默认使用逗号 (`,`)。
-* **`d2`**（可选，字符串）：输出分隔符。如果未设置，则默认值与 `d1` 的值相同。
-* **`cc`**（可选，布尔值）：指示是否使用区分大小写检查的标志。如果为 `true`，则重复检查区分大小写。如果为 `false` 或未设置，则重复检查不区分大小写。默认为 `false`。
+* **`d1`**（可选，字符串）：用于分隔已包含在 `lv` 参数中的各个值的分隔符。  如果未设置，则将默认使用逗号 (`,`)。
+* **`d2`**（可选，字符串）：输出分隔符。 如果未设置，则默认值与 `d1` 的值相同。
+* **`cc`**（可选，布尔值）：指示是否使用区分大小写检查的标志。 如果为 `true`，则重复检查区分大小写。 如果为 `false` 或未设置，则重复检查不区分大小写。 默认为 `false`。
 
 `apl` 函数会返回 `lv` 参数的值以及 `vta` 参数中的任何非重复值。
 

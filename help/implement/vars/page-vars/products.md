@@ -4,31 +4,46 @@ description: 发送有关所显示产品或购物车中产品的数据。
 feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: 663
 ht-degree: 100%
 
 ---
 
 # 产品
 
-`products` 变量会跟踪与其关联的产品和属性。此变量通常在单个产品页面、购物车页面和购买确认页面上设置。它是一个多值变量，这意味着您可以在同一次点击中发送多个产品，Adobe 会将该值解析为单独的维度项目。
+`products` 变量会跟踪与其关联的产品和属性。 此变量通常在单个产品页面、购物车页面和购买确认页面上设置。 它是一个多值变量，这意味着您可以在同一次点击中发送多个产品，Adobe 会将该值解析为单独的维度项目。
 
 >[!NOTE]
 >
->如果在点击中设置此变量，而没有 [`events`](events/events-overview.md) 变量，则[产品查看次数](/help/components/metrics/product-views.md)量度将递增 1。确保使用 `products` 变量对每次点击设置适当的事件。
+>如果在点击中设置此变量，而没有 [`events`](events/events-overview.md) 变量，则[产品查看次数](/help/components/metrics/product-views.md)量度将递增 1。 确保使用 `products` 变量对每次点击设置适当的事件。
 
 ## 使用 Web SDK 的产品
 
 如果使用 [**XDM 对象**](/help/implement/aep-edge/xdm-var-mapping.md)，产品就会映射到以下变量：
 
-* 类别映射到 `xdm.productListItems[].productCategories[].categoryID`。它使用 `productCategories[]` 数组中的第一项。`lineItemId` 也能正确映射，但 Adobe 建议 `categoryID`，因为它是标准 XDM。如果两个 XDM 字段都存在，`lineItemId` 优先使用。
-* 产品映射到 `xdm.productListItems[].SKU` 或 `xdm.productListItems[].name`。如果两个 XDM 字段都存在，就使用 `xdm.productListItems[].SKU`。
+* 类别映射到 `xdm.productListItems[].productCategories[].categoryID`。 它使用 `productCategories[]` 数组中的第一项。 `lineItemId` 也能正确映射，但 Adobe 建议 `categoryID`，因为它是标准 XDM。 如果两个 XDM 字段都存在，`lineItemId` 优先使用。
+* 产品映射到 `xdm.productListItems[].SKU` 或 `xdm.productListItems[].name`。 如果两个 XDM 字段都存在，就使用 `xdm.productListItems[].SKU`。
 * 数量映射到 `xdm.productListItems[].quantity`。
 * 价格映射到 `xdm.productListItems[].priceTotal`。
 * 促销 eVar 映射到 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 到 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要将哪个 eVar 绑定到产品。
-* 促销事件映射到 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 到 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要将哪个事件绑定到产品。如果您在这些字段的某一个中设置了事件，该事件就会自动包含在发送到 Adobe Analytics 的[事件](events/events-overview.md)字符串中。
+* 促销事件映射到 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 到 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要将哪个事件绑定到产品。 如果您在这些字段的某一个中设置了事件，该事件就会自动包含在发送到 Adobe Analytics 的[事件](events/events-overview.md)字符串中。
 
 ```json
 {
@@ -53,7 +68,7 @@ ht-degree: 100%
 }
 ```
 
-如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，产品变量就会按照 AppMeasurement 语法使用 `data.__adobe.analytics.products`。如果设置了此字段，XDM 对象中设置的任何产品都会被覆盖，且不会发送到 Adobe Analytics。
+如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，产品变量就会按照 AppMeasurement 语法使用 `data.__adobe.analytics.products`。 如果设置了此字段，XDM 对象中设置的任何产品都会被覆盖，且不会发送到 Adobe Analytics。
 
 ```json
 {
@@ -80,21 +95,21 @@ Adobe Experience Platform 数据收集中没有专门用于设置此变量的字
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.products
 
-`s.products` 变量是一个字符串，其中包含每个产品的多个分隔字段。在字符串中使用分号 (`;`) 分隔每个字段。
+`s.products` 变量是一个字符串，其中包含每个产品的多个分隔字段。 在字符串中使用分号 (`;`) 分隔每个字段。
 
-* **类别**（可选）：产品类别。此字段的最大长度为 100 个字节。
-* **产品名称**（必需）：产品的名称。此字段的最大长度为 100 个字节。
-* **数量**（可选）：购物车中此产品的数量。此字段仅适用于具有购买事件的点击。
-* **价格**（可选）：以小数表示的产品总价格。如果数量大于 1，则将价格设置为总价，而不是产品单价。调整此值的货币以与 [`currencyCode`](../config-vars/currencycode.md) 变量匹配。请勿在此字段中包含货币符号。此字段仅适用于具有购买事件的点击。
-* **事件**（可选）：与产品绑定的事件。使用管道字符 (`|`) 分隔多个事件。有关更多信息，请参阅[事件](events/events-overview.md)。
-* **eVar**（可选）：与产品绑定的推销 eVar。使用管道字符 (`|`) 分隔多个推销 eVar。有关更多信息，请参阅[推销 eVar ](evar-merchandising.md)。
+* **类别**（可选）：产品类别。 此字段的最大长度为 100 个字节。
+* **产品名称**（必需）：产品的名称。 此字段的最大长度为 100 个字节。
+* **数量**（可选）：购物车中此产品的数量。 此字段仅适用于具有购买事件的点击。
+* **价格**（可选）：以小数表示的产品总价格。 如果数量大于 1，则将价格设置为总价，而不是产品单价。 调整此值的货币以与 [`currencyCode`](../config-vars/currencycode.md) 变量匹配。 请勿在此字段中包含货币符号。 此字段仅适用于具有购买事件的点击。
+* **事件**（可选）：与产品绑定的事件。 使用管道字符 (`|`) 分隔多个事件。 有关更多信息，请参阅[事件](events/events-overview.md)。
+* **eVar**（可选）：与产品绑定的推销 eVar。 使用管道字符 (`|`) 分隔多个推销 eVar。 有关更多信息，请参阅[推销 eVar ](evar-merchandising.md)。
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此变量在同一点击中支持多个产品。它对于购物车和包含多种产品的购买非常有用。整个 `products` 字符串的最大长度为 64K 字节。在字符串中使用逗号 (`,`) 分隔每个产品。
+此变量在同一点击中支持多个产品。 它对于购物车和包含多种产品的购买非常有用。 整个 `products` 字符串的最大长度为 64K 字节。 在字符串中使用逗号 (`,`) 分隔每个产品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -103,11 +118,11 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->从产品名称、类别和推销 eVar 值中去除所有分号、逗号和管道字符。如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。此错误解析会丢掉产品字符串的其余部分，导致维度和报表中的数据不正确。
+>从产品名称、类别和推销 eVar 值中去除所有分号、逗号和管道字符。 如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。 此错误解析会丢掉产品字符串的其余部分，导致维度和报表中的数据不正确。
 
 ## 示例
 
-当省略字段并包含多个产品时，`products` 变量会非常灵活。这种灵活性可能会使您容易丢失分隔符，从而导致您的实施向 Adobe 发送错误数据。
+当省略字段并包含多个产品时，`products` 变量会非常灵活。 这种灵活性可能会使您容易丢失分隔符，从而导致您的实施向 Adobe 发送错误数据。
 
 ```js
 // Include only product and category. Common on individual product pages

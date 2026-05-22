@@ -4,16 +4,30 @@ description: 填充“服务器”维度。
 feature: Appmeasurement Implementation
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/P0txq9O6mdXQ-avevETR0BTLRf3kQHAaN9HBFki8XKQ'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 74%
+source-wordcount: 187
+ht-degree: 82%
 
 ---
 
 # server
 
-`server` 变量通常存储网站的主机名。它通常在包含来自多个域的数据的报表包中使用。它的功能与 prop 相同。
+`server` 变量通常存储网站的主机名。 它通常在包含来自多个域的数据的报表包中使用。 它的功能与 prop 相同。
 
 ## 使用Web SDK的服务器
 
@@ -30,14 +44,14 @@ ht-degree: 74%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 服务器]部分。
 
 可以将服务器设置为任何字符串值或数据元素。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.server
 
-`s.server` 变量是一个字符串，通常包含网站的主机名。其值的最大长度为 100 字节；超出此长度的值会被截断。
+`s.server` 变量是一个字符串，通常包含网站的主机名。 其值的最大长度为 100 字节；超出此长度的值会被截断。
 
 ```js
 // Set the server variable to a static string

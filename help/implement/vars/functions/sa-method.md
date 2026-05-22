@@ -4,16 +4,30 @@ description: 在您的实施中随时更改报表包。
 feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/xA02rmiZkiSsFwmACdN-YUlwKVGgeprnySEKEO0w3l8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 42%
+source-wordcount: 447
+ht-degree: 44%
 
 ---
 
 # sa
 
-`sa()` 方法可让您随时在页面上动态更改报表包。如果要在不重新加载页面的情况下将数据发送到不同的报表包，则可以使用此方法。
+`sa()` 方法可让您随时在页面上动态更改报表包。 如果要在不重新加载页面的情况下将数据发送到不同的报表包，则可以使用此方法。
 
 ## 使用Web SDK处理报表包
 
@@ -32,7 +46,7 @@ Web SDK扩展为每个环境提供了一个数据流下拉列表。 或者，您
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;下的[!UICONTROL 配置]按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL Adobe Experience Platform Web SDK]下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 在[!UICONTROL 数据流]下，从每个环境的下拉列表中选择所需的数据流。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -51,11 +65,11 @@ alloy("configure", {
 
 ## 使用Adobe Analytics扩展更改报表包
 
-界面中没有提供任何灵活的方法来更改报表包。配置 Adobe Analytics 扩展时，可以在[!UICONTROL 库管理]折叠面板下设置报表包。但是，您不能使用规则更改或更新报表包。如果要在设置报表包值后更新这些值，请按照 AppMeasurement 语法使用自定义代码编辑器。
+界面中没有提供任何灵活的方法来更改报表包。 配置 Adobe Analytics 扩展时，可以在[!UICONTROL 库管理]折叠面板下设置报表包。 但是，您不能使用规则更改或更新报表包。 如果要在设置报表包值后更新这些值，请按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.sa()
 
-调用 `s.sa()` 方法以更改目标报表包。其唯一参数是包含报表包 ID 或以逗号分隔的多个报表包 ID 的字符串。报表包 ID 参数为必需参数。请勿在字符串参数中使用空格。
+调用 `s.sa()` 方法以更改目标报表包。 其唯一参数是包含报表包 ID 或以逗号分隔的多个报表包 ID 的字符串。 报表包 ID 参数为必需参数。 请勿在字符串参数中使用空格。
 
 ```js
 s.sa("examplersid");

@@ -3,28 +3,41 @@ title: 连接类型
 description: 访客如何连接到 Internet。
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/5kdDrW5vGzc4EKpLOF4VWzXish439t-aGp6q-XcK3Fs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 236
 ht-degree: 94%
 
 ---
 
 # 连接类型
 
-“连接类型”[维度](overview.md)显示访客如何连接到Internet。 此维度可用于确定访客如何连接到 Internet 以浏览您的网站。您可以使用它根据访客的连接速度来优化网站内容。
+“连接类型”[维度](overview.md)显示访客如何连接到Internet。 此维度可用于确定访客如何连接到 Internet 以浏览您的网站。 您可以使用它根据访客的连接速度来优化网站内容。
 
 ## 使用数据填充此维度
 
-此维度使用[`ct`查询字符串](/help/implement/validate/query-parameters.md)和 Adobe 服务器端逻辑的组合。Adobe 使用以下规则来确定其值：
+此维度使用[`ct`查询字符串](/help/implement/validate/query-parameters.md)和 Adobe 服务器端逻辑的组合。 Adobe 使用以下规则来确定其值：
 
-1. 如果 `ct` 查询字符串等于 `"modem"`，则将维度项设置为 `"Modem"`。AppMeasurement 仅在不受支持的 Internet Explorer 浏览器上收集这些数据，因此该维度项并不常见。
-1. 检查点击的 IP 地址，并将它引用到 Adobe 内部的查找表中。如果 IP 地址来自移动运营商，则将维度项设置为 `"Mobile Carrier"`。
+1. 如果 `ct` 查询字符串等于 `"modem"`，则将维度项设置为 `"Modem"`。 AppMeasurement 仅在不受支持的 Internet Explorer 浏览器上收集这些数据，因此该维度项并不常见。
+1. 检查点击的 IP 地址，并将它引用到 Adobe 内部的查找表中。 如果 IP 地址来自移动运营商，则将维度项设置为 `"Mobile Carrier"`。
 1. 如果 `ct` 查询字符串等于 `"lan"`，则将维度项设置为 `"LAN/Wifi"`。
 1. 如果点击源自[数据源](/help/import/data-sources/overview.md)或被视为特殊类型的点击，则将维度项设置为 `"Not specified"`。
 1. 如果不满足上述规则，则默认为值 `"LAN/Wifi"`。
 
-## 维度项
+## 维度项目
 
 维度项包括 `LAN/Wifi`、`Mobile Carrier`、`Modem` 和 `Not Specified`。
 

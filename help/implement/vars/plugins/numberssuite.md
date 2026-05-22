@@ -4,10 +4,24 @@ description: 生成和处理数字以供在其他 JavaScript 变量中使用。
 feature: Appmeasurement Implementation
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/YFelBs9LtJboFZKcwBCn5SX47SZtOPDFWkLEB59VSo0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 89%
+source-wordcount: 645
+ht-degree: 88%
 
 ---
 
@@ -15,11 +29,11 @@ ht-degree: 89%
 
 {{plug-in}}
 
-Numbers Suite 包含一系列 JavaScript 函数。具体包含以下插件：
+Numbers Suite 包含一系列 JavaScript 函数。 具体包含以下插件：
 
-* **`zeroPad`**：在数字的开头处添加特定数量的零。如果变量需要达到特定的位数，例如您要使用 JavaScript 日期对象，并且希望用两位数（而不是只用一位数）来格式化某个日期对应的月和日，则可以使用此插件。例如，采用 `01/09/2020` 格式而不是 `1/9/2020` 格式。
-* **`randomNumber`**：生成具有特定位数的随机数。如果您部署第三方标签并希望获取用于搜索缓存的随机数，此插件非常有用。
-* **`twoDecimals`**：将数字四舍五入到其最接近的百分位值。此插件可用于处理货币，允许您将数字四舍五入为有效货币值。
+* **`zeroPad`**：在数字的开头处添加特定数量的零。 如果变量需要达到特定的位数，例如您要使用 JavaScript 日期对象，并且希望用两位数（而不是只用一位数）来格式化某个日期对应的月和日，则可以使用此插件。 例如，采用 `01/09/2020` 格式而不是 `1/9/2020` 格式。
+* **`randomNumber`**：生成具有特定位数的随机数。 如果您部署第三方标签并希望获取用于搜索缓存的随机数，此插件非常有用。
+* **`twoDecimals`**：将数字四舍五入到其最接近的百分位值。 此插件可用于处理货币，允许您将数字四舍五入为有效货币值。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -54,7 +68,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -73,12 +87,12 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 `zeroPad` 函数使用以下参数：
 
-* **num**（必需，整数）：要填充的数字。如果此参数的值含小数，则此函数会对该值进行四舍五入。
-* **nod**（必需，整数）：最终返回值的位数。如果要填充的数字的位数少于要填充的位数，则此插件会在 `num` 参数的开头处添加相应数量的零。
+* **num**（必需，整数）：要填充的数字。 如果此参数的值含小数，则此函数会对该值进行四舍五入。
+* **nod**（必需，整数）：最终返回值的位数。 如果要填充的数字的位数少于要填充的位数，则此插件会在 `num` 参数的开头处添加相应数量的零。
 
 `randomNumber` 函数使用以下参数：
 
-* **nod**（可选，整数）：要生成的随机数的位数。最大值为 17 位。默认值为 10 位。
+* **nod**（可选，整数）：要生成的随机数的位数。 最大值为 17 位。 默认值为 10 位。
 
 `twoDecimals` 函数使用以下参数：
 

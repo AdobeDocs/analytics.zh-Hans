@@ -4,10 +4,22 @@ title: 查看当前的服务器调用使用情况
 feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/5DgWR4QWklOEMK1Ato17-lcpMdnRgaIrMfds9ATXUpE'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: 293
+ht-degree: 25%
 
 ---
 
@@ -19,27 +31,27 @@ ht-degree: 100%
 >
 >您所看到的任何使用情况和承诺使用数值是所有登录公司和报表包的累计数值。
 
-“当前使用情况”功能板
+当前使用情况仪表板
 
-* 可显示根据各个服务器调用类型划分的服务器调用使用情况和使用承诺详细信息。此视图对于不同的客户可能会有所不同，但与合同中包含的相关内容一致。例如，您可能注册了 4 种不同类型的服务器调用，分别为 Web 主调用、Web 次级调用、移动设备主调用和移动设备次级调用。在这种情况下，此视图将包含 4 个选项卡，每种类型分别对应一个选项卡。在每个选项卡中，您将能够查看当前使用时段内的使用情况。
-* 将当前使用量（绿线）与合同规定的使用限制（红线）进行比较。
+* 显示每种服务器调用类型的服务器调用消耗量和承诺量的细目。 此视图对于不同的客户可能有所不同，并且与您的合同所包括的内容一致。 例如，您可能已注册了4种不同类型的服务器调用：Web的主服务器调用和次服务器调用，以及移动设备的主服务器调用和次服务器调用。 在这种情况下，该视图将包含4个选项卡，每个类型各一个。 在每个选项卡中，您将能够查看当前使用期间的消耗量。
+* 将当前使用情况（绿线）与合同使用限制（红线）进行比较。
 
   ![](/help/admin/tools/server-call-usage/assets/current_period.png)
 
-* 将当前时段的使用量（绿线）与去年的使用量（蓝色）进行比较。显而易见，仅当贵公司具有上一年的服务器调用使用情况数据时蓝线才会显示。
+* 将您当前时段的使用情况与去年的使用情况进行比较（蓝线）。 显然，仅当您的公司具有上一年的服务器调用使用情况数据时，才会显示蓝线。
 
   >[!NOTE]
   >
-  > 如果要查看前一段时间的使用情况，则必须转到[报表包使用情况](/help/admin/tools/server-call-usage/report-suite-usage.md)选项卡，并下载前一期间的使用情况数据。
+  >如果要查看前一段时间的使用情况，则必须转到[报表包使用情况](/help/admin/tools/server-call-usage/report-suite-usage.md)选项卡，并下载前一期间的使用情况数据。
 
-* 列出了已使用的调用所占的百分比（使用百分数和原始数据）以及已使用的时段所占的百分比（使用百分数和原始数据）。
-* 默认情况下，此数据每日更新一次，但由于需要处理，因此会延迟 5 天。
+* 列出已使用的调用的百分比（以百分比和原始数据表示）以及已使用的使用时段的百分比（以百分比和原始数据表示）。
+* 默认情况下，每日更新，处理延迟为5天。
 * 允许您折叠和展开所有缩图报表。
 
 ![](/help/admin/tools/server-call-usage/assets/server_call_dashboard.png)
 
-| 用户界面术语 | 定义 |
+| UI术语 | 定义 |
 | --- | --- |
-| 当前时段的使用情况（绿线） | 当前时段以[使用时段](/help/admin/tools/server-call-usage/overage-overview.md)为基础。 |
-| 上一时段的使用情况（蓝线） | 上一时段是指当前使用时段的前一年。 |
-| 使用限制（红线） | 合同中规定的此使用时段内的使用限制。 |
+| 当前期间使用情况（绿色） | 当前时段基于[使用时段](/help/admin/tools/server-call-usage/overage-overview.md)。 |
+| 上一时段使用情况（蓝色） | 上一期间定义为当前使用期间减去1年。 |
+| 使用限制（红色） | 您在此使用期间的合同使用限制。 |

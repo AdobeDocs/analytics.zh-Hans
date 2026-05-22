@@ -3,16 +3,29 @@ title: Data Warehouse请求发送时间故障诊断
 description: 确定 Data Warehouse 请求存在的可能会延长提交时间的潜在问题。
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+TQID: 'https://experienceleague.adobe.com/oWkM-wTuJ75sR6AzkjD8WfY9DYLUdtToSGyu8hJIXVk'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: 358
 ht-degree: 59%
 
 ---
 
 # Data Warehouse 请求提交时间故障诊断
 
-给定 Data Warehouse 请求可能需要不到一小时，或者几天甚至更长时间才能处理。由于以下因素，很难估计处理请求所需的确切时间：
+给定 Data Warehouse 请求可能需要不到一小时，或者几天甚至更长时间才能处理。 由于以下因素，很难估计处理请求所需的确切时间：
 
 * 请求的日期范围
 * 在请求的时间段内，您的报表包收到的流量
@@ -39,4 +52,4 @@ ht-degree: 59%
 
 * **Analysis Workspace**：虽然不能使用无限数量的维度项目，但它包含 Data Warehouse 提供的几乎所有其他用例。
 * **数据馈送**：每天获取报表包中的所有原始数据，并将其发送到云目标。 然后，您可以将数据导入自己的数据库，并运行查询以获取所需的数据。
-* **自定义工程服务解决方案**：Adobe 工程服务团队可以为贵组织提供自定义解决方案，但需支付额外费用。有关更多详细信息，请联系您的Adobe客户团队。
+* **自定义工程服务解决方案**：Adobe 工程服务团队可以为贵组织提供自定义解决方案，但需支付额外费用。 有关更多详细信息，请联系您的Adobe客户团队。

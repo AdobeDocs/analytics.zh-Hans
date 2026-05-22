@@ -3,18 +3,30 @@ title: Adobe Analytics使用的IP地址
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
+TQID: https://experienceleague.adobe.com/-4XZdprTBXpIaFnHeXBQsAr5YoZMW4ocnZRY50bHGUs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 35%
+source-wordcount: 204
+ht-degree: 32%
 
 ---
 
 # Adobe Analytics使用的IP地址
 
-一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。您可以使用此范围列表来更改贵组织的防火墙设置，以允许从组织内访问和发送数据。
+一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。 您可以使用此范围列表来更改贵组织的防火墙设置，以允许从组织内访问和发送数据。
 
-Adobe Analytics使用的所有IP地址都是Adobe Experience Cloud[使用的](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/ip-addresses)IP地址的一部分，但“中国性能优化”附加组件包除外。
+Adobe Analytics使用的所有IP地址都是CX Enterprise[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/ip-addresses)使用的IP地址的一部分，但“中国性能优化”附加组件包除外。
 
 ## 中国性能优化IP地址
 
@@ -36,6 +48,6 @@ Adobe Analytics使用的所有IP地址都是Adobe Experience Cloud[使用的](ht
 
 >[!MORELIKETHIS]
 >
->Adobe Experience Cloud使用的[IP地址](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/ip-addresses)
+>CX Enterprise使用的[个IP地址](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/ip-addresses)
 >
 >Adobe Analytics使用的[域](domains.md)

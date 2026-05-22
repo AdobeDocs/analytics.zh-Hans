@@ -3,10 +3,19 @@ title: 管理数据馈送
 description: 了解如何导航数据馈送界面。 了解如何创建、编辑和查看数据馈送。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 18%
+source-wordcount: 1329
+ht-degree: 24%
 
 ---
 
@@ -47,11 +56,11 @@ ht-degree: 18%
 
 ## 编辑数据馈送
 
-1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
+1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
-1. 找到要编辑的数据馈送。 若要查找数据馈送，您可以[筛选和搜索数据馈送列表](#filter-and-search-the-list-of-data-feeds)。
+1. 找到您想编辑的数据馈送。 要查找某个数据馈送，您可以[筛选和搜索数据馈送列表](#filter-and-search-the-list-of-data-feeds)。
 
-1. 在&#x200B;[!UICONTROL **馈送名称**]&#x200B;列中选择数据馈送。
+1. 在&#x200B;[!UICONTROL **馈送名称**]&#x200B;一列中选择数据馈送。
 
 1. 对数据馈送进行任何所需的更改。
 
@@ -67,7 +76,7 @@ ht-degree: 18%
 
 ## 筛选和搜索数据馈送列表
 
-1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
+1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
 1. 使用搜索或筛选器来查找特定馈送。
 
@@ -81,7 +90,7 @@ ht-degree: 18%
 
 ## 查看数据馈送作业
 
-1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
+1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
 1. 选择&#x200B;[!UICONTROL **作业**]&#x200B;选项卡可查看每个馈送创建的各个作业。
 
@@ -91,7 +100,7 @@ ht-degree: 18%
 
 ## 复制数据馈送
 
-1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
+1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
 1. 选中要复制的数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **复制**]。
 
@@ -111,7 +120,7 @@ ht-degree: 18%
 
 暂停数据馈送：
 
-1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
+1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
 1. 选中要暂停的数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **暂停**]。
 
@@ -127,7 +136,7 @@ ht-degree: 18%
 
 激活数据馈送：
 
-1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
+1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
 1. 选中要激活的非活动数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **激活**]。
 
@@ -137,7 +146,7 @@ ht-degree: 18%
 
 要删除数据馈送，请执行以下操作：
 
-1. 在Adobe Analytics中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
+1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**] > [!UICONTROL **数据馈送**]。
 
 1. 选中要删除的数据馈送旁边的复选框，然后选择&#x200B;[!UICONTROL **删除**]。
 

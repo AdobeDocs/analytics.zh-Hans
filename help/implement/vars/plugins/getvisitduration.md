@@ -4,10 +4,24 @@ description: 跟踪访客在网站上停留的时间。
 feature: Appmeasurement Implementation
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/OUw5EZxg9Fs6byMdgMx2K6legXrrQtSJJahvvGnfcQ8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 70%
+source-wordcount: 581
+ht-degree: 71%
 
 ---
 
@@ -15,7 +29,7 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getVisitDuration` 插件可跟踪访客在某个时间点之前在网站上停留的时间（以分钟为单位）。如果您希望跟踪截至某个时间点为止访客在网站上停留的总时间，或跟踪访客执行某项活动所用的时间，Adobe 建议您使用此插件。此插件不会跟踪事件之间的间隔时间；如果需要使用此功能，请使用 [`getTimeBetweenEvents`](gettimebetweenevents.md) 插件。
+`getVisitDuration` 插件可跟踪访客在某个时间点之前在网站上停留的时间（以分钟为单位）。 如果您希望跟踪截至某个时间点为止访客在网站上停留的总时间，或跟踪访客执行某项活动所用的时间，Adobe 建议您使用此插件。 此插件不会跟踪事件之间的间隔时间；如果需要使用此功能，请使用 [`getTimeBetweenEvents`](gettimebetweenevents.md) 插件。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -64,7 +78,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -75,14 +89,14 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## 使用此插件
 
-`getVisitDuration` 函数不使用任何参数。它会返回以下任一值：
+`getVisitDuration` 函数不使用任何参数。 它会返回以下任一值：
 
 * `"first hit of visit"`
 * `"less than a minute"`
 * `"1 minute"`
 * `"[x] minutes"`（其中 `[x]` 是自访客登录网站后所经过的时间，以分钟为单位）
 
-此插件将创建一个名为 `"s_dur"` 的第一方 Cookie，用于记录自访客登录网站起所经过的时间（以毫秒为单位）。该 Cookie 将在处于非活动状态 30 分钟后过期。
+此插件将创建一个名为 `"s_dur"` 的第一方 Cookie，用于记录自访客登录网站起所经过的时间（以毫秒为单位）。 该 Cookie 将在处于非活动状态 30 分钟后过期。
 
 ## 示例
 

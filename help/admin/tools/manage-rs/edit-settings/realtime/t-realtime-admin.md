@@ -3,10 +3,22 @@ description: 设置实时报表的管理步骤。
 title: 实时报表配置
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 76%
+source-wordcount: 226
+ht-degree: 68%
 
 ---
 
@@ -38,13 +50,13 @@ ht-degree: 76%
 
    >[!NOTE]
    >
-   >某些维度（例如“搜索关键词”或“产品”）在实时报表中并非持续存在，这一点与 Adobe Analytics 中的其他位置不同。当选择非持续量度时，会出现以下警告：
+   >某些维度（例如“搜索关键词”或“产品”）在实时报表中并非持续存在，这一点与 Adobe Analytics 中的其他位置不同。 当选择非持续量度时，会出现以下警告：
 
    ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/warning_dimensions.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   在初始报表设置中，最多需要 20 分钟数据才会开始传输。从那时起，数据立即可用。
+   初次设置报表后，可能需要20分钟才能开始流式传输数据。 从那时起，数据立即可用。
 
 1. 要查看实时报表，请导航至：
 

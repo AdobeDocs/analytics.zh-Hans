@@ -1,19 +1,31 @@
 ---
-description: “查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
+description: “查找方法”页面可识别各种查找方法报表如何接收您网站上转化成功事件的信用。 例如，如果搜索引擎将访客引荐至您的网站并购买了商品，则查找方法可指定搜索引擎接收引荐点数的方式。
 title: 查找方法
 feature: Admin Tools
 role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/eIZhSAm5tZsV4bY3Bznamfq87nhWd82ZwL-M4OIkFSM'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: 319
+ht-degree: 48%
 
 ---
 
 # 查找方法
 
-“查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
+“查找方法”页面可识别各种查找方法报表如何接收您网站上转化成功事件的信用。 例如，如果搜索引擎将访客引荐至您的网站并购买了商品，则查找方法可指定搜索引擎接收引荐点数的方式。
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 查找方法]**
 
@@ -33,7 +45,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> 分配 </td> 
-   <td colname="col2"> 指定如何对反向链接应用信用。支持的分配选项包括： <p> <span class="uicontrol">最近（上一个）：</span>将所有信用提供给最后一个反向链接（默认）。 </p> <p> <span class="uicontrol">原始值：</span>将所有信用给予第一个反向链接。 </p> <p> <span class="uicontrol">线性：</span>将信用平均分配到所有反向链接。 </p> </td> 
+   <td colname="col2"> 指定如何为反向链接应用点数。 支持的分配选项包括： <p> <span class="uicontrol">最近（上一个）：</span>将所有信用提供给最后一个反向链接（默认）。 </p> <p> <span class="uicontrol">原始值：</span>将所有信用给予第一个反向链接。 </p> <p> <span class="uicontrol">线性：</span>将信用平均分配到所有反向链接。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 过期时间 </td> 
@@ -56,4 +68,4 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->访问结束时，所有“查找方法”都会过期。如果您选择在不同事件（例如，购物车结账）后过期，则“查找方法”会在访问期间购物车结账时过期。如果访问期间没有购物车结账，则“查找方法”仍会在访问结束后过期。
+>访问结束时，所有“查找方法”都会过期。 如果您选择在其他事件（例如，购物车结帐）后过期，则当访问期间发生购物车结帐时，查找方法过期。 如果在访问期间未进行购物车结帐，则查找方法将在访问结束时过期。

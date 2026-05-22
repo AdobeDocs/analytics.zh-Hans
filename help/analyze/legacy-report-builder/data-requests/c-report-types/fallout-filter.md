@@ -1,23 +1,32 @@
 ---
 description: 描述将过滤器应用于流失报表所涉及的各个步骤。
-title: 使用请求向导过滤流失报表
+title: 使用请求向导过滤流失报告
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/b-OBsmKfOFGtPK3Ar6pJtGUc3vZ4L2Jeei2sNK-7Npg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 80%
+source-wordcount: 248
+ht-degree: 77%
 
 ---
 
-# 使用请求向导过滤流失报表
+# 使用请求向导过滤流失报告
 
 {{legacy-arb}}
 
 描述将过滤器应用于流失报表所涉及的各个步骤。
 
-此示例显示了页面流失报表。
+此示例显示了“页面流失”报表。
 
 1. 在 Adobe Report Builder 中，单击&#x200B;**[!UICONTROL 创建]**&#x200B;以打开“请求向导”。
 1. 选择适当的报表包。
@@ -27,15 +36,15 @@ ht-degree: 80%
 
 1. 配置相应的[日期范围](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
-1. 在向导的第 2 步中，在&#x200B;**[!UICONTROL 行标签]**&#x200B;下面单击&#x200B;**[!UICONTROL 定义检查点]**&#x200B;链接。（在流失报表中，您始终必须定义路径元素，这与预先应用了模式的路径报表不同。）
+1. 在向导的第 2 步中，在&#x200B;**[!UICONTROL 行标签]**&#x200B;下面单击&#x200B;**[!UICONTROL 定义检查点]**&#x200B;链接。 （在流失报表中，您始终必须定义路径元素，这与预先应用了模式的路径报表不同。）
 
    ![显示“定义检查点”链接的屏幕截图。](assets/define_checkpoints.png)
 
 1. 选择&#x200B;**[!UICONTROL 过滤器]**&#x200B;选项。
 
-1. 在&#x200B;**[!UICONTROL 定义网站区域流失检查点]**&#x200B;对话框中，从单元格范围或列表定义检查点。然后，单击&#x200B;**[!UICONTROL 确定]**。
+1. 在&#x200B;**[!UICONTROL 定义网站区域流失检查点]**&#x200B;对话框中，从单元格范围或列表定义检查点。 然后，单击&#x200B;**[!UICONTROL 确定]**。
 1. 确定从单元格范围还是列表进行选择。
-1. 如果从列表进行选择，请单击&#x200B;**[!UICONTROL 添加]**&#x200B;以选择要添加到流失路径的检查点。您可以定义 3 至 8 个检查点。（通过单击&#x200B;**[!UICONTROL 更多]**，可搜索可用的元素。）
+1. 如果从列表进行选择，请单击&#x200B;**[!UICONTROL 添加]**&#x200B;以选择要添加到流失路径的检查点。 您可以定义 3 至 8 个检查点。 （通过单击&#x200B;**[!UICONTROL 更多]**，可搜索可用的元素。）
 
    有关优化过滤器的详细信息，请参阅[过滤维度](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)。
 

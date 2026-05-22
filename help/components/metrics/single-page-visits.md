@@ -3,16 +3,27 @@ title: 单页访问次数（指标）
 description: “页面”维度项目在访问中未更改的次数。
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+TQID: https://experienceleague.adobe.com/iDXuwf-Ls1N7VzmtZiMRISLbSEtHOtDTeoddfDEiAwA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 239
 ht-degree: 34%
 
 ---
 
 # 单页面访问量
 
-*此帮助页面介绍了“单页面访问量”如何作为维度使用。有关更多信息，请参阅[单页面访问量](../dimensions/single-page-visits.md)维度。*
+*此帮助页面介绍了“单页面访问量”如何作为维度使用。 有关更多信息，请参阅[单页面访问量](../dimensions/single-page-visits.md)维度。*
 
 **[!UICONTROL 单页面访问量]** [量度](overview.md)显示[页面](../dimensions/page.md)维度项目在整个访问期间仅包含单个值的访问次数。 当您想要了解短期访问次数维度，但没有设置如[[!UICONTROL 跳出次数]](bounces.md)那么严格的规则时，此量度非常有用。
 

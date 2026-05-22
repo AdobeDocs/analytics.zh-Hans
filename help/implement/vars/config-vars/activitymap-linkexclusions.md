@@ -4,10 +4,24 @@ description: 按链接名称筛选Activity Map数据。
 role: Admin, Developer
 feature: Appmeasurement Implementation
 exl-id: 9fc95016-362d-4c21-806e-e23adce9b6f7
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/m4ovqFSZBZ88KFm8lnKRI7z5wbbTNZygEj8koL6HC6E'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 12%
+source-wordcount: 206
+ht-degree: 17%
 
 ---
 
@@ -21,7 +35,7 @@ ht-degree: 12%
 
 ## Web SDK JavaScript库中的链接排除项
 
-启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`filterClickDetails`对象中使用`clickCollection`回调。 在此回调中，您可以检查`linkName`的值，然后更改该值或放弃链接跟踪数据的集合。
+启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/cn/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)后，在`clickCollection`对象中使用`filterClickDetails`回调。 在此回调中，您可以检查`linkName`的值，然后更改该值或放弃链接跟踪数据的集合。
 
 ```js
 alloy("configure", {

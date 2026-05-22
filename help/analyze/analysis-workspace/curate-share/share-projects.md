@@ -5,10 +5,28 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 94%
+source-wordcount: 2059
+ht-degree: 88%
 
 ---
 
@@ -60,9 +78,9 @@ ht-degree: 94%
 
 与组织中的用户和组共享特定项目角色时，请考虑以下事项：
 
-* 项目角色（**[!UICONTROL 编辑原始版本]**、**[!UICONTROL 编辑副本]**&#x200B;和&#x200B;**[!UICONTROL 只读]**）与用户和特定项目 ID 关联。 项目角色与 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans) 中管理的用户权限无关。
+* 项目角色（**[!UICONTROL 编辑原始版本]**、**[!UICONTROL 编辑副本]**&#x200B;和&#x200B;**[!UICONTROL 只读]**）与用户和特定项目 ID 关联。 项目角色与[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)中管理的用户权限无关。
 
-* 在 Adobe Analytics 中，组由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans) 中的产品配置文件定义。 管理员可以共享到任何组，包括“全部”组。 除“全部”组外，非管理员可以共享到其所属的任何组。
+* 在Adobe Analytics中，组由[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)中的产品配置文件定义。 管理员可以共享到任何组，包括“全部”组。 除“全部”组外，非管理员可以共享到其所属的任何组。
 
 * 如果用户分配到了多个角色，将始终获得权限最高的角色体验。 如果同时将用户添加为个人和组成员，则可能发生这种情况。 例如，如果作为个人授予用户&#x200B;**[!UICONTROL 编辑原始版本]**&#x200B;角色，并作为组成员授予用户&#x200B;**[!UICONTROL 只读]**&#x200B;角色，则该用户将获得&#x200B;**[!UICONTROL 编辑原始版本]**&#x200B;项目体验。
 
@@ -131,8 +149,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="需要 Experience Cloud 身份验证"
->abstract="您的组织要求用户登录 Experience Cloud 才能使用此链接。"
+>title="需要CX Enterprise身份验证"
+>abstract="您的组织要求用户登录CX Enterprise才能使用此链接。"
 
 可为无权访问 Adobe Analytics 的人员授予对 Analysis Workspace 项目的[只读访问权限](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 其中可包括：
 
@@ -180,15 +198,15 @@ ht-degree: 94%
 
 1. 选择是否启用以下安全选项（您的 Analytics 管理员可控制此选项）：
 
-   * **[!UICONTROL 要求进行 Experience Cloud 身份验证]：**
+   * **[!UICONTROL 需要CX Enterprise身份验证]：**
 
-     启用此选项后，只有可登录到从中创建了您所共享的项目的 Adobe Experience Cloud 组织的用户才能访问该项目。 但是，您与其共享的用户无需有权访问 Adobe Analytics。
+     启用此选项后，唯一能够访问项目的用户是那些能够登录到创建您共享的项目的Adobe CX Enterprise组织的用户。 但是，您与其共享的用户无需有权访问 Adobe Analytics。
 
      Analytics 管理员可为公司配置此首选项，如[首选项](/help/analyze/analysis-workspace/user-preferences.md)所述。 根据管理员如何配置此选项，您可能会遇到以下情况：
 
       * 如果此选项不可见，则您的 Analytics 管理员未启用此功能。
 
-      * 如果启用了此选项但它为灰色，则您的 Analytics 管理员要求对访问 Analysis Workspace 项目的任何人进行 Experience Cloud 身份验证。
+      * 如果此选项已启用且灰显，则Analytics管理员要求所有访问Analysis Workspace项目的用户都使用CX企业身份验证。
 
 1. 在&#x200B;**[!UICONTROL 与任何人共享（无需登录）]**&#x200B;字段旁，单击&#x200B;**复制链接**&#x200B;图标 ![复制链接图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) 以将链接复制到您的系统剪贴板。
 

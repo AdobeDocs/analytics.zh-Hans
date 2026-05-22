@@ -4,13 +4,27 @@ title: 下载项目和数据
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: 1131
 ht-degree: 25%
 
 ---
-
 
 # 下载项目和数据
 
@@ -91,7 +105,7 @@ Only relevant as soon as CJA supports Map visualization
 
 ## 以CSV文件格式下载项目 {#download-items}
 
-如果要分析表中的400多行可见数据，请从表标题或任何行的上下文菜单中选择&#x200B;**以CSV格式下载项目（_Dimension名称_）**。 此选项会导出所选维度的最多 50,000 个维度项（根据表格排序方式），并会应用排序选项和过滤器。如果从表的顶部选择此选项，将导出表中的第一个维。
+如果要分析表中的400多行可见数据，请从表标题或任何行的上下文菜单中选择&#x200B;**以CSV格式下载项目（_Dimension名称_）**。 此选项会导出所选维度的最多 50,000 个维度项（根据表格排序方式），并会应用排序选项和过滤器。 如果从表的顶部选择此选项，将导出表中的第一个维。
 
 ![将项目下载为 CSV（页面）的选项。](assets/download-items-as-csv.png)
 
@@ -99,9 +113,9 @@ Only relevant as soon as CJA supports Map visualization
 
 >[!TIP]
 >
-> 如果您的维度超过 50,000 项，请下载应用了不同排序量度的文件或者应用一个区段。例如，在一次下载中按访问量降序排序，然后在第二次下载中按访问量升序排序。此提示可以帮助您检索较长尾项。
+> 如果您的维度超过 50,000 项，请下载应用了不同排序量度的文件或者应用一个区段。 例如，在一次下载中按访问量降序排序，然后在第二次下载中按访问量升序排序。 此提示可以帮助您检索较长尾项。
 
-您可以在项目中执行多项任务，甚至可以在下载过程中导航到同一选项卡中的新工作区项目。如果打开新的浏览器标签页，则下载暂停。如果完全离开 Workspace 或关闭浏览器标签页，则取消下载。
+您可以在项目中执行多项任务，甚至可以在下载过程中导航到同一选项卡中的新工作区项目。 如果打开新的浏览器标签页，则下载暂停。 如果完全离开 Workspace 或关闭浏览器标签页，则取消下载。
 
 
 ### 下载的项目文件 {#items-file}

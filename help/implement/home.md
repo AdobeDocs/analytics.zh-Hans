@@ -24,7 +24,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 197233b18a57ac67d4b56ddd34f296d88dd9c4b2
+source-git-commit: 29d1585ad3d00922a7e39bf1b4da64089d9168c7
 workflow-type: tm+mt
 source-wordcount: 814
 ht-degree: 83%
@@ -106,7 +106,7 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 * [在 Experience Platform 中创建标记属性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
 * [使用Platform Web SDK设置Adobe Analytics教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=zh-Hans)
-* [在移动应用程序中实施Adobe Experience Cloud教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)
+* [在移动应用程序中实施Adobe CX Enterprise教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)
 
 
 ## 重要 Analytics 资源

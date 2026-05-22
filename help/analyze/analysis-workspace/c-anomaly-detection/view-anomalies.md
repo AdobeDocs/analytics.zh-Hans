@@ -4,10 +4,23 @@ title: 查看异常
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+TQID: https://experienceleague.adobe.com/FFrOBGUYdaBiIzutrZNlcKcLD8jUiT2aCpGd252rVlU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 49%
+source-wordcount: 448
+ht-degree: 45%
 
 ---
 
@@ -27,7 +40,7 @@ ht-degree: 49%
 
    ◥显示在检测到数据异常的每一行的右上角。
 
-   每行&#x200B;**中的**&#x200B;彩色垂直线➋表示预期值。 每行&#x200B;**中的**&#x200B;彩色阴影区域➊表示实际值。 线条（预期值）与阴影区域（实际值）的比较方式决定是否存在异常。（根据[异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中描述的高级统计技术，将观测视为异常。）
+   每行➋中的&#x200B;**彩色垂直线**&#x200B;表示预期值。 每行➊中的&#x200B;**彩色阴影区域**&#x200B;表示实际值。 线条（预期值）与阴影区域（实际值）的比较方式决定是否存在异常。 （根据[异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中描述的高级统计技术，将观测视为异常。）
 
 1. 选择行右上角的◥查看有关异常的详细信息。 这显示了实际值偏离预期值以上或以下的程度（以百分比表示）。
 1. 选择[打开贡献分析](run-contribution-analysis.md)以开始贡献分析。
@@ -48,9 +61,9 @@ ht-degree: 49%
 
    ![异常检测到的折线图可视化图表](assets/anomaly-detected-line.gif)
 
-   当检测到数据异常时，**白点**&#x200B;出现在折线上。（根据[异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中描述的高级统计技术，将观测视为异常。）
+   当检测到数据异常时，**白点**&#x200B;出现在折线上。 （根据[异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中描述的高级统计技术，将观测视为异常。）
 
-   **浅色阴影区域**&#x200B;是值应该出现的置信带或预期范围。超出此预期范围的任何值都是异常。
+   **浅色阴影区域**&#x200B;是值应该出现的置信带或预期范围。 超出此预期范围的任何值都是异常。
 
    如果折线图中包含多个量度，仅显示异常，您必须将鼠标悬停在每个异常上，才能查看该量度的置信带。
 
@@ -62,7 +75,7 @@ ht-degree: 49%
 
    * 异常的原始值。
 
-   * 与预期值相差（高出或低于）的百分比，该值由绿色实线表示。
+   * 百分比值高于或低于预期值，以实心绿色线表示。
 
    * 用于启动贡献分析的&#x200B;**[!UICONTROL 分析]**&#x200B;链接
 

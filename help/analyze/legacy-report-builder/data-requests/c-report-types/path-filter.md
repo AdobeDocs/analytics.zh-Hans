@@ -1,23 +1,32 @@
 ---
 description: 描述将过滤器应用于路径报表所涉及的各个步骤。
-title: 使用请求向导过滤路径报表
+title: 使用请求向导过滤路径报告
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/DQ75Rl9mhTocg9aDfBfTYvwUZxb875iEynjc7BCcy90
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 62%
+source-wordcount: 427
+ht-degree: 57%
 
 ---
 
-# 使用请求向导过滤路径报表
+# 使用请求向导过滤路径报告
 
 {{legacy-arb}}
 
 描述将过滤器应用于路径报表所涉及的各个步骤。
 
-此示例使用“网站区域路径”。
+此示例使用网站区域路径。
 
 1. 在 Adobe Report Builder 中，单击&#x200B;**[!UICONTROL 创建]**&#x200B;以打开“请求向导”。
 1. 选择适当的报表包。
@@ -29,7 +38,7 @@ ht-degree: 62%
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 在向导的第 2 步中，在&#x200B;**[!UICONTROL 行标签]**&#x200B;下面单击&#x200B;**[!UICONTROL 前 1-10 项（应用了模式）]**&#x200B;链接。默认情况下，路径报表中已应用模式。
+1. 在向导的第 2 步中，在&#x200B;**[!UICONTROL 行标签]**&#x200B;下面单击&#x200B;**[!UICONTROL 前 1-10 项（应用了模式）]**&#x200B;链接。 默认情况下，路径报表中已应用模式。
 
    ![显示默认路径模式的屏幕快照。](assets/site_section_path_2.png)
 
@@ -46,7 +55,7 @@ ht-degree: 62%
 
    ![](assets/custom_pattern.png)
 
-1. 您还可以从&#x200B;**[!UICONTROL 选择模式]**&#x200B;下拉列表中选择一个预定义模式并对其进行修改。下面显示了可用的模式：
+1. 您还可以从&#x200B;**[!UICONTROL 选择模式]**&#x200B;下拉列表中选择一个预定义模式并对其进行修改。 下面显示了可用的模式：
 
    ![](assets/select_a_pattern.png)
 
@@ -60,15 +69,15 @@ ht-degree: 62%
 
    ![突出显示所选模式的屏幕快照。](assets/exited_site_pattern.png)
 
-1. 定义用户在退出前所遵循的网站区域路径。 单击&#x200B;**[!UICONTROL 指定项目: 已选择 0 个项目]**。如果您正在编辑现有请求，则可以通过从单元格范围中进行选择来定义此路径，也可以通过从部分列表中进行选择来定义此路径。
+1. 定义用户在退出前所遵循的网站区域路径。 单击&#x200B;**[!UICONTROL 指定项目: 已选择 0 个项目]**。 如果您正在编辑现有请求，则可以通过从单元格范围中进行选择来定义此路径，也可以通过从部分列表中进行选择来定义此路径。
 
-1. 要从前一请求的单元格范围进行选择，请选择&#x200B;**[!UICONTROL 来自单元格范围]**，并单击单元格选择器图标。然后，从报表中选取单元格。
+1. 要从前一请求的单元格范围进行选择，请选择&#x200B;**[!UICONTROL 来自单元格范围]**，并单击单元格选择器图标。 然后，从报表中选取单元格。
 
    ![显示从单元格范围或列表选择选项的屏幕快照。](assets/choose_site_section_paths.png)
 
 1. 要从网站区域列表进行选择，请选择&#x200B;**[!UICONTROL 来自列表]**，然后单击&#x200B;**[!UICONTROL 添加]**。
 
-1. 通过选择&#x200B;**[!UICONTROL 可用元素]**&#x200B;栏中的元素并单击橙色箭头，将其移至&#x200B;**[!UICONTROL 选定元素]**&#x200B;栏。然后，单击&#x200B;**[!UICONTROL 确定]**。
+1. 通过选择&#x200B;**[!UICONTROL 可用元素]**&#x200B;栏中的元素并单击橙色箭头，将其移至&#x200B;**[!UICONTROL 选定元素]**&#x200B;栏。 单击&#x200B;**[!UICONTROL 确定]**。
 
    ![显示可用元素和选定元素的屏幕截图。](assets/move_site_section_elements.png)
 

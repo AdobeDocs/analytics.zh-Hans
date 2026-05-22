@@ -5,10 +5,26 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
+TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 67%
+source-wordcount: 638
+ht-degree: 65%
 
 ---
 
@@ -16,18 +32,17 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> 本文为（计划）在其网站上实施Adobe Analytics **的** Adobe Analytics客户提供了有关如何为网站用户提供选择退出链接的说明。 <p><p>
-> 如果您&#x200B;**正在访问已实施Adobe Analytics**&#x200B;的网站，并且希望选择退出，则&#x200B;**<span style="color:red">本文不适合您</span>**。 请参阅[Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html)以控制Adobe如何使用您的信息。
+> 本文为（计划）在其网站上实施Adobe Analytics **的** Adobe Analytics客户提供了有关如何为网站用户提供选择退出链接的说明。 <p><p>> 如果您&#x200B;**正在访问已实施Adobe Analytics**&#x200B;的网站，并且希望选择退出，则&#x200B;**<span style="color:red">本文不适合您</span>**。 请参阅[Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html)以控制Adobe如何使用您的信息。
 
-某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。Adobe让您能够向网站访客提供一种方法，禁止对其信息进行分析。
+某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。 Adobe让您能够向网站访客提供一种方法，禁止对其信息进行分析。
 
-通过选择退出链接，您可以允许网站的访客在Analytics报表中忽略其数据。 这些链接仅限于AppMeasurement实施；Adobe建议改用[Adobe Experience Cloud选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。 选择加入服务更加稳健，可跨多个Adobe Experience Cloud产品（包括Adobe Analytics和AppMeasurement）使用。
+通过选择退出链接，您可以允许网站的访客在Analytics报表中忽略其数据。 这些链接仅限于AppMeasurement实施；Adobe建议改用[Adobe CX Enterprise选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。 选择加入服务更加可靠，适用于包括Adobe Analytics和AppMeasurement在内的多种Adobe CX Enterprise产品。
 
-当访客访问选择退出 URL 时，系统会提示他们安装选择退出 Cookie。如果用户选择不被跟踪，并设置了选择退出Cookie，则AppMeasurement将继续向Adobe发送数据。 但是，该数据不会进行处理或包含在报表中。
+当访客访问选择退出 URL 时，系统会提示他们安装选择退出 Cookie。 如果用户选择不被跟踪，并设置了选择退出Cookie，则AppMeasurement将继续向Adobe发送数据。 但是，该数据不会进行处理或包含在报表中。
 
 >[!TIP]
 >
->Adobe 还根据每个报表包提供了相应的隐私设置。请参阅《管理员用户指南》中的[隐私设置](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md)。
+>Adobe 还根据每个报表包提供了相应的隐私设置。 请参阅《管理员用户指南》中的[隐私设置](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md)。
 
 ## 选择退出 URL
 
@@ -43,12 +58,12 @@ ht-degree: 67%
    1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
    1. 记下 `trackingServer` 变量值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)：
+* 使用[Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)：
    1. 使用 Chrome 浏览器导航到您的网站。
-   1. 打开 Experience Cloud Debugger，然后转到[!UICONTROL 网络]选项卡。
+   1. 打开CX Enterprise Debugger，然后转到[!UICONTROL 网络选项卡]。
    1. 记下[!UICONTROL 请求 URL - 主机名]值。
 
-找到实施的 `trackingServer` 域后，将路径 `/optout.html` 附加到结尾处。例如：
+找到实施的 `trackingServer` 域后，将路径 `/optout.html` 附加到结尾处。 例如：
 
 * 第三方 Cookie：`https://example.data.adobedc.net/optout.html`
 * 第一方 Cookie: `https://stats.example.com/optout.html`
@@ -59,7 +74,7 @@ ht-degree: 67%
 
 ### 区域设置
 
-通过包含 `locale` 查询字符串参数自动切换选择退出页面的语言。为此查询字符串参数分配以下任一值：
+通过包含 `locale` 查询字符串参数自动切换选择退出页面的语言。 为此查询字符串参数分配以下任一值：
 
 * `en_US` （英语，默认）
 * `bg_BG` （保加利亚语）
@@ -88,22 +103,22 @@ ht-degree: 67%
 
 ### 弹出窗口
 
-向页面添加“关闭窗口”按钮，从而使选择退出页面成为弹出窗口。使用 `popup` 查询字符串参数，并将其值设置为 `1`。
+向页面添加“关闭窗口”按钮，从而使选择退出页面成为弹出窗口。 使用 `popup` 查询字符串参数，并将其值设置为 `1`。
 
 例如，`https://example.data.adobedc.net/optout.html?popup=1` 会加载具有“关闭窗口”按钮的选择退出页面。
 
 >[!NOTE]
 >
->以前，此查询字符串参数会强制作为弹出窗口。但是，大多数现代浏览器都会控制向最终用户显示弹出窗口。
+>以前，此查询字符串参数会强制作为弹出窗口。 但是，大多数现代浏览器都会控制向最终用户显示弹出窗口。
 
 ### 单击选择退出
 
-允许用户立即选择退出跟踪。添加两个查询字符串参数 `opt_out` 和 `confirm_change`，为每个参数赋值 `1`。
+允许用户立即选择退出跟踪。 添加两个查询字符串参数 `opt_out` 和 `confirm_change`，为每个参数赋值 `1`。
 
 例如，`https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` 会立即在访客页面上安装选择退出 Cookie。
 
 ### 单击选择加入
 
-允许用户通过删除选择退出 Cookie 立即选择加入跟踪。添加两个查询字符串参数 `opt_in` 和 `confirm_change`，为每个参数赋值 `1`。
+允许用户通过删除选择退出 Cookie 立即选择加入跟踪。 添加两个查询字符串参数 `opt_in` 和 `confirm_change`，为每个参数赋值 `1`。
 
 例如，`https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` 会立即删除访客的选择退出 Cookie。

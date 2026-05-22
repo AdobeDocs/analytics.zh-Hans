@@ -5,9 +5,35 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b7156124-d291-4de4-ac0c-ed17d8078449
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '7327'
+source-wordcount: 7326
 ht-degree: 95%
 
 ---
@@ -321,7 +347,7 @@ ht-degree: 95%
 | 2020 年 4 月 28 日 | 添加了有关[内容周转率](/help/components/metrics/content-velocity.md)￼量度的文档。 |
 | 2020 年 4 月 16 日 | 有关如何自动从空白状态构建[!UICONTROL 自由格式表]的文档。 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。 现在，您可以将组件直接拖放到空白项目或面板中，并且系统将以推荐的格式自动为您构建自由格式表。 此外，改进了将混合组件类型（如维度与量度）一起拖放到空白[!UICONTROL 自由格式表]中时，对这些组件的处理方式。 |
 | **2020 年 3 月** |  |
-| 2020 年 3 月 12 日 | 添加了[将区段发布到 Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) 的更新。 |
+| 2020 年 3 月 12 日 | 添加了[将区段发布到CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)的更新。 |
 | 2020 年 3 月 12 日 | 更新了 CDA 拼合延迟。 |
 | 2020 年 3 月 12 日 | 支持工作区中的多个报告包。 您现在可以将多个报告包中的数据并入一个项目，以便并排查看。 [了解详情...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 2020 年 3 月 12 日 | 工作区中的培训教程模板。 这个新的标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。 该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。 [了解详情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |

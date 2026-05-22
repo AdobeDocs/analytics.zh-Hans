@@ -1,12 +1,23 @@
 ---
-description: 描述如何删除或移除分类数据的步骤。
+description: 描述如何删除分类数据的步骤。
 title: 删除分类数据
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/NZhXTXSwpA-E-6JaGRInMf3TMwHp5A1uMSjaAU1whts
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 96%
+source-wordcount: 366
+ht-degree: 85%
 
 ---
 
@@ -14,7 +25,7 @@ ht-degree: 96%
 
 {{classification-importer-deprecation}}
 
-有时，上载分类数据后必须删除该数据。根据要删除的数据，可以使用 `~empty~` 或 `~deletekey~`。
+有时，上载分类数据后必须删除该数据。 根据要删除的数据，可以使用 `~empty~` 或 `~deletekey~`。
 
 ## 删除分类数据的步骤
 
@@ -30,7 +41,7 @@ ht-degree: 96%
 
 ## 删除单个分类值
 
-多个分类可属于同一变量。例如，eVar1 可以有 2 个不同的分类。如果您只想删除单个分类值，请将该分类值替换为 `~empty~`。例如：
+多个分类可属于同一变量。 例如，eVar1 可以有 2 个不同的分类。 如果您只想删除单个分类值，请将该分类值替换为 `~empty~`。 例如：
 
 | 库存 SKU (eVar8) | 库存名称 | 库存类别 |
 | --- | --- | --- |
@@ -38,11 +49,11 @@ ht-degree: 96%
 | 948203 | 脚链 | 珠宝 |
 | 174391 | 白色灯芯绒裤子 | `~empty~` |
 
-在“库存类别”分类下使用 `~empty~` 仍会保留“库存名称”分类的数据。`~empty~` 值仅会删除该单元格的分类数据。
+在“库存类别”分类下使用 `~empty~` 仍会保留“库存名称”分类的数据。 `~empty~` 值仅会删除该单元格的分类数据。
 
 ## 删除整个分类行
 
-在任意列中使用 `~deletekey~` 以删除整个分类行。例如：
+在任意列中使用 `~deletekey~` 以删除整个分类行。 例如：
 
 | 库存 SKU (eVar8) | 库存名称 | 库存类别 |
 | --- | --- | --- |
@@ -50,12 +61,12 @@ ht-degree: 96%
 | 948203 | 脚链 | 珠宝 |
 | 174391 | 白色灯芯绒裤子 | `~deletekey~` |
 
-在“库存类别”分类下使用 `~deletekey~` 会删除键值 `174391` 的所有分类数据。该行会变为好像从未进行过分类。
+在“库存类别”分类下使用 `~deletekey~` 会删除键值 `174391` 的所有分类数据。 该行会变为好像从未进行过分类。
 
 ## 陷阱和提示
 
 * 如果使用 `~deletekey~`，则分类文件中每行只需要一个。
-* `~empty~` 和 `~deletekey~` 必须“完全”**&#x200B;匹配。不允许使用空格或大写。
+* `~empty~` 和 `~deletekey~` 必须“完全”**&#x200B;匹配。 不允许使用空格或大写。
 * 您不能删除键列中的值。这些值将直接传递到变量中，并且是永久性的。
-* 如果删除具有子分类的分类值，则也会删除这些子分类。 没有键值的分类无法存在，而子分类的父级是其键值。
-* 可以在保持父分类完整的情况下，删除子分类数据。
+* 如果删除具有子分类的分类值，则也会删除这些子分类。 没有键值不能存在分类，而子分类的父级是其键值。
+* 可以删除子分类数据，而保留其父分类不变。

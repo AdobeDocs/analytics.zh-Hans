@@ -1,18 +1,30 @@
 ---
-description: Adobe Experience Cloud 中的单点登录是通过 Admin Consol 实施的。
+description: Adobe CX Enterprise中的单点登录是通过Admin Console实现的。
 title: 单点登录
 feature: Company Settings
 exl-id: d317d85d-46bc-4857-82d8-3fe3b3fc154e
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+autotag-review: '2026-05-19T13:34:40.184Z'
+TQID: 'https://experienceleague.adobe.com/ijQNTNSX4Yf6MW65kkmCPoW4DsevRygjIet3l28tGqU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 97%
+source-wordcount: 42
+ht-degree: 28%
 
 ---
 
 # 单点登录
 
-Adobe Experience Cloud 中的单点登录是通过 Admin Consol 实施的。
+Adobe CX Enterprise中的单点登录是通过Admin Console实现的。
 
 相关帮助信息，请参阅[管理用户指南](https://www.adobe.com/go/analytics_sso_cn)。

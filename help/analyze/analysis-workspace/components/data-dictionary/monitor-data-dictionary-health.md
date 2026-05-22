@@ -1,17 +1,48 @@
 ---
-description: 管理员负责监测数据词典的健康状况。这包括组件是否正在收集数据、是否获得批准、是否包含描述以及是否没有重复。
-title: 监测数据词典健康状况
+description: 管理员负责监测数据词典的健康状况。 这包括组件是否正在收集数据、是否获得批准、是否包含描述以及是否没有重复。
+title: 监测数据字典健康状况
 feature: Components
 role: Admin
 exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+TQID: https://experienceleague.adobe.com/q-wAiW4oUc9kH-ywKVLfNKtXHdEfnIr01GXSK-g0YqY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: 361
+ht-degree: 66%
 
 ---
 
-# 监测数据词典健康状况
+# 监测数据字典健康状况 {#monitor-data-dictionary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datadictionary_share_primary"
+>title="共享主要组件"
+>abstract="选择此选项后，主组件将与所有有权访问重复组件的用户共享（所有者以及共享这些组件的任何人）。 然后，这些用户可以从组件列表中选择主要组件，以供将来项目使用。 但是，即使他们是已合并的重复组件的所有者，他们也无法编辑该组件。 <br/>仅当主要组件是区段、计算量度或日期范围时，此选项才可用。 量度和维度始终可供所有用户使用。"
+>
+>When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datadictionary_delete_duplicates"
+>title="删除替换的重复项"
+>abstract="选择此选项后，合并的重复项将不再可用。 如果希望重复项继续可用，请取消选择此选项。"
+
+<!-- markdownlint-enable MD034 -->
 
 Analytics 管理员负责维持健康的数据词典。
 
@@ -33,7 +64,7 @@ Analytics 管理员负责维持健康的数据词典。
 
 1. 打开一个 Analysis Workspace 项目。
 
-1. 选择 Analysis Workspace 左侧的“数据词典”图标。（[数据字典概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的“访问数据字典”一节中描述了访问数据词典的其他方法。）
+1. 选择 Analysis Workspace 左侧的“数据词典”图标。 （[数据字典概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的“访问数据字典”一节中描述了访问数据词典的其他方法。）
 
    显示“数据词典”窗口。
 
@@ -51,4 +82,4 @@ Analytics 管理员负责维持健康的数据词典。
 
    根据您的选择，适当的过滤器将应用于数据词典，并且仅显示相关组件。
 
-1. 编辑任何组件以改善数据词典的健康状况。有关如何在数据词典中编辑组件的信息，请参阅[在数据字典中编辑组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。
+1. 编辑任何组件以改善数据词典的健康状况。 有关如何在数据词典中编辑组件的信息，请参阅[在数据字典中编辑组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。

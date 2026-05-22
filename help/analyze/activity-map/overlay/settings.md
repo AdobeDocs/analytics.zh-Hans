@@ -5,10 +5,23 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+TQID: 'https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: 567
+ht-degree: 2%
 
 ---
 
@@ -51,6 +64,6 @@ ht-degree: 4%
 ## 实时设置
 
 * **[!UICONTROL 显示排名最前的]**：根据左侧的数字下拉列表显示获胜方或失败方排名最前的数量。
-* **[!UICONTROL 排除最低值(%)]**：筛选掉链接更改的最低百分比，以便仅查看具有足够数据以显示相关损益的链接。 百分比是根据页面上的链接数量计算的。例如，过滤掉200个链接列表中的后10%将过滤掉后20个链接。
+* **[!UICONTROL 排除最低值(%)]**：筛选掉链接更改的最低百分比，以便仅查看具有足够数据以显示相关损益的链接。 百分比根据该页面上的链接数计算。 例如，过滤掉200个链接列表中的后10%将过滤掉后20个链接。
 * **[!UICONTROL 自动更新数据]**：确定在计算新的时段时，叠加中显示的Analytics数据是否自动更新。
 * **[!UICONTROL 自动更新时段]**：选中后，每次进行新的数据检索时都会刷新页面，以便页面上的链接与收集的数据更紧密地同步。

@@ -4,9 +4,23 @@ description: 一次更改多个 Analytics 变量的值。
 feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/mZDvJ4k5jqazEdHUywoGhHNG9KhDF1JxpdtrwiB5jVc'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 712
 ht-degree: 83%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 83%
 
 {{plug-in}}
 
-`manageVars` 插件允许您同时处理多个 Analytics 变量的值。您还可以将值设置为小写，或一次性从多个变量值中删除不必要的字符。如果要一次清除多个变量的值，Adobe 建议您使用此插件。
+`manageVars` 插件允许您同时处理多个 Analytics 变量的值。 您还可以将值设置为小写，或一次性从多个变量值中删除不必要的字符。 如果要一次清除多个变量的值，Adobe 建议您使用此插件。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -50,7 +64,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,8 +77,8 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 `manageVars` 函数使用以下参数：
 
-* **`cb`**（必需，字符串）：插件用来处理 Analytics 变量的回调函数的名称。您可以使用 Adobe 函数（如 `cleanStr`）或者您自己自定义的函数。
-* **`l`**（可选，字符串）：包含要处理的 Analytics 变量的逗号分隔列表。如果未设置，则将默认包含所有 Adobe Analytics 变量，包括：
+* **`cb`**（必需，字符串）：插件用来处理 Analytics 变量的回调函数的名称。 您可以使用 Adobe 函数（如 `cleanStr`）或者您自己自定义的函数。
+* **`l`**（可选，字符串）：包含要处理的 Analytics 变量的逗号分隔列表。 如果未设置，则将默认包含所有 Adobe Analytics 变量，包括：
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -81,9 +95,9 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
    * 所有层级结构变量
    * 所有列表变量
    * 所有上下文数据变量
-* **`Il`**（可选，布尔）：如果要&#x200B;**“排除”`l` 参数中声明的变量列表，而不是要包含这些变量，则将此参数设置为 `false`。默认为 `true`。
+* **`Il`**（可选，布尔）：如果要&#x200B;**“排除”`l` 参数中声明的变量列表，而不是要包含这些变量，则将此参数设置为 `false`。 默认为 `true`。
 
-调用此函数将不会返回任何内容。相反，此方法会根据所需的回调函数更改 Analytics 变量的值。
+调用此函数将不会返回任何内容。 相反，此方法会根据所需的回调函数更改 Analytics 变量的值。
 
 ## 示例调用
 
@@ -95,7 +109,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 manageVars("lowerCaseVars");
 ```
 
-...会将上述所有变量的值更改为小写版本。唯一的例外是events变量，因为某些事件（如scAdd、scCheckout等）区分大小写，因此不应将其更改为小写
+...会将上述所有变量的值更改为小写版本。  唯一的例外是事件变量，因为某些events变量（例如scAdd、scCheckout等） 区分大小写，因此不应将其更改为小写
 
 ### 示例 2
 
@@ -135,13 +149,13 @@ manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 manageVars("cleanStr");
 ```
 
-...将更改上述所有变量的值，包括 events 变量。具体而言，cleanStr 回调函数将对每个变量的值进行如下处理：
+...将更改上述所有变量的值，包括 events 变量。  具体而言，cleanStr 回调函数将对每个变量的值进行如下处理：
 
 * 删除 HTML 编码
 * 删除值开始和结尾处的空格
 * 将左/右单引号替换为直单引号(`'`)
 * 将制表符、换行符和回车符替换为空格
-* 将所有双（或三等）空格替换为单空格
+* 将双倍（或三倍等）行距全部替换 空格
 
 ## 版本历史记录
 

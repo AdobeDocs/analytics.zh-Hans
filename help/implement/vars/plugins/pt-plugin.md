@@ -4,9 +4,23 @@ description: 对变量列表执行一个函数。
 feature: Appmeasurement Implementation
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/JDOu3ZPBp0KDTSaP45O9K8vy-EiVbinY-SHPQg11dZw'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 619
 ht-degree: 88%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 88%
 
 {{plug-in}}
 
-`pt` 插件可对 Analytics 变量列表执行一个函数或方法。例如，您可以选择性地对多个变量运行 [`clearVars`](../functions/clearvars.md) 函数，而无需每次手动调用该函数。有一些其他插件需要此插件代码才能正常运行。如果您不需要同时对多个 Analytics 变量运行特定函数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
+`pt` 插件可对 Analytics 变量列表执行一个函数或方法。 例如，您可以选择性地对多个变量运行 [`clearVars`](../functions/clearvars.md) 函数，而无需每次手动调用该函数。 有一些其他插件需要此插件代码才能正常运行。 如果您不需要同时对多个 Analytics 变量运行特定函数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -50,7 +64,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,9 +78,9 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 `pt` 函数使用以下参数：
 
 * **`l`**（必需，字符串）：可对其执行 `cf` 参数中包含的函数的变量列表。
-* **`de`**（可选，字符串）：用于分隔 `l` 参数中变量列表的分隔符。默认使用逗号 (`,`)。
+* **`de`**（可选，字符串）：用于分隔 `l` 参数中变量列表的分隔符。 默认使用逗号 (`,`)。
 * **`cf`**（必需，字符串）：包含在 AppMeasurement 对象中且要针对 `l` 参数中所含每个变量而调用的回调函数的名称。
-* **`fa`**（可选，字符串）：如果 `cf` 参数中的函数在运行时需要使用其他参数，请在此处包含这些参数。默认为 `undefined`。
+* **`fa`**（可选，字符串）：如果 `cf` 参数中的函数在运行时需要使用其他参数，请在此处包含这些参数。 默认为 `undefined`。
 
 如果回调函数（在 `cf` 参数中）返回一个值，则调用此函数也将返回一个值。
 
@@ -74,7 +88,7 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ### 示例 1
 
-以下代码是 getQueryParam 插件的一部分。该代码会针对 URL querystring (fullQueryString) 中包含的每个键值对运行 getParameterValue 帮助程序函数。为了提取每个键值对，必须使用与号“&amp;”拆分 fullQueryString。parameterKey 是指插件尝试从查询字符串中提取的特定查询字符串参数
+以下代码是 getQueryParam 插件的一部分。  该代码会针对 URL querystring (fullQueryString) 中包含的每个键值对运行 getParameterValue 帮助程序函数。  为了提取每个键值对，必须使用与号“&amp;”拆分 fullQueryString。 parameterKey 是指插件尝试从查询字符串中提取的特定查询字符串参数
 
 ```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)

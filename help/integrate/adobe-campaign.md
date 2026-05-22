@@ -4,25 +4,41 @@ title: 如何将 Adobe Campaign Standard 报告集成到 Adobe Analytics 中？
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+autotag-review: '2026-05-22T12:17:50.968Z'
+TQID: 'https://experienceleague.adobe.com/r-zrWBcHhMkxptxKlfZ0Xaw-UsYc9QIIqQgSbyTertA'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: b13acd70-7a51-4028-8c44-5f3b1bbe3ad4
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: 520
+ht-degree: 74%
 
 ---
-
 
 # Adobe Campaign Standard 报告
 
 有关如何配置此集成的更多信息，请参阅 [Adobe Campaign 文档](https://helpx.adobe.com/cn/campaign/standard/integrating/using/about-campaign-analytics-integration.html)。
 
 >[!IMPORTANT]
->本文仅适用于 Adobe Campaign **Standard** 报告。有关添加 Adobe Campaign **Classic** 报告，请参阅[此处](/help/integrate/analytics-to-campaign-classic.md)。
+>本文仅适用于 Adobe Campaign **Standard** 报告。 有关添加 Adobe Campaign **Classic** 报告，请参阅[此处](/help/integrate/analytics-to-campaign-classic.md)。
 
 Adobe Analytics 与 Adobe Campaign Standard 之间的此集成：
 
-* 允许您将 KPI（关键绩效指标）数据从 Adobe Campaign Standard 共享到 Adobe Analytics。
-* 通过 Adobe Analytics 参数丰富了跟踪公式。
+* 允许您将从Adobe Campaign Standard的KPI（关键绩效指标）数据共享到Adobe Analytics。
+* 用Adobe Analytics参数丰富跟踪公式。
 * 在 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]** > **[!UICONTROL Adobe Campaign]** 下添加了新报表。
 * 添加了 5 个新的 Adobe Campaign 分类。
 * 添加了 9 个新的 Adobe Campaign 量度。
@@ -42,7 +58,7 @@ Adobe Analytics 与 Adobe Campaign Standard 之间的此集成：
 
 Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Analytics]** > **[!UICONTROL 报告]**&#x200B;下添加了以下报告
 
-* **[!UICONTROL Adobe Campaign 执行的投放 ID]**：显示从 Adobe Campaign 导入的有关从 Adobe Campaign 发送的电子邮件的数据。
+* **[!UICONTROL Adobe Campaign执行的投放ID]**：显示从Adobe Campaign导入的有关从Adobe Campaign发送的电子邮件的数据。 |
 
 ## 步骤 3. 使用 Adobe Campaign 分类 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -62,23 +78,23 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 
 在 Adobe Analytics 报表包的 Campaign 中可以使用以下&#x200B;**指标**：
 
-* Adobe Campaign 已发送
-* Adobe Campaign 已打开
-* Adobe Campaign 已点击
-* Adobe Campaign 已提交
-* Adobe Campaign 唯一打开
-* Adobe Campaign 唯一点击
-* Adobe Campaign 已取消订阅
-* Adobe Campaign 总跳出次数
+* Adobe Campaign已发送
+* Adobe Campaign已打开
+* 已单击Adobe Campaign
+* Adobe Campaign已交付
+* Adobe Campaign独特打开
+* Adobe Campaign独特点击
+* Adobe Campaign已取消订阅
+* Adobe Campaign退回总计
 * Adobe Campaign 执行的投放 ID 实例
 
-在 Adobe Analytics 报表包的 Campaign 中可以使用以下&#x200B;**维度**：
+以下&#x200B;**维度**&#x200B;可从Adobe Analytics报表包中的Campaign中使用：
 
-| 维度名称 | 定义 |
+| Dimension名称 | 定义 |
 | --- | --- |
-| 营销活动 ID | 在活动持续期间为其发送了 KPI 的所有促销活动的 ID |
+| 营销活动 ID | 持续期间已为其发送KPI的所有营销活动的ID |
 | 营销活动标签 | 营销活动 ID 的标签 |
-| 投放 ID | 在活动持续期间为其发送了 KPI 的所有提交的 ID。还包含循环提交和交易提交的主提交的 ID。示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。投放 ID 将显示从 DM1 到 DM5 的所有提交的结果。 |
+| 投放 ID | 持续期间已为其发送KPI的所有投放的ID。 还包括定期投放和交易投放的主投放ID。 示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。  投放 ID 将显示从 DM1 到 DM5 的所有提交的结果。 |
 | 投放标签 | 投放 ID 的标签 |
-| 执行的投放 ID | 仅执行的提交的 ID。不包含循环/交易主提交的 ID。示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。执行的投放 ID 显示从 DM2 到 DM5 的所有提交（即已实际执行的提交）的结果。 |
+| 执行的投放 ID | 仅已执行投放的ID。 没有循环/事务性主投放的ID。 示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。 执行的投放 ID 显示从 DM2 到 DM5 的所有提交（即已实际执行的提交）的结果。 |
 | 执行的投放标签 | 执行的投放 ID 的标签 |

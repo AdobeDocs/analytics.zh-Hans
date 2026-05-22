@@ -4,14 +4,24 @@ keywords: 虚拟报表包
 title: 虚拟报告包工作流程
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/psqP8b-OG8WguflQ1pPJZrEDbxR-pyuFaNTq3nl-Np4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 74%
+source-wordcount: 208
+ht-degree: 63%
 
 ---
 
-# 虚拟报表包工作流程
+# 虚拟报告包工作流程
 
 规划虚拟报表包的实施时需要完成的步骤概述。
 
@@ -23,7 +33,7 @@ ht-degree: 74%
 
 虚拟报表包在虚拟报表包管理器中创建，可通过&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**&#x200B;使用。
 
-创建虚拟报告包后，在整个用户界面中都会像对待基础报告包一样对待虚拟报告包，并且大部分扩展功能通常也支持虚拟报告包。例如，报表包选择器中会显示虚拟报表包，可以像选择任何其他报表包一样逐个选择虚拟报表包。
+创建虚拟报告包后，在整个用户界面中都会像对待基础报告包一样对待虚拟报告包，并且大部分扩展功能通常也支持虚拟报告包。 例如，虚拟报表包显示在报表包选择器中，并可像任何其他报表包一样单独进行选择。
 
 单击报表包名称旁边的“信息”图标可[查看有关该报表包的信息](/help/components/vrs/c-workflow-vrs/vrs-view.md)。
 

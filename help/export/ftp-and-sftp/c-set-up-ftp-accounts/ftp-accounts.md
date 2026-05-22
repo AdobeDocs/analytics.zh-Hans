@@ -4,10 +4,22 @@ keywords: ftp;sftp
 title: 设置 FTP 帐户 — 概述
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
+TQID: 'https://experienceleague.adobe.com/dB-Sb1aM5VYz5FAkvxOunFGeAQvttU7vxCjjqj1pesQ'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 17%
+source-wordcount: 316
+ht-degree: 6%
 
 ---
 
@@ -25,4 +37,4 @@ Adobe客户会通过其标准流程接收维护通知，因为维护事件会按
 
 Adobe FTP 主机名为 `ftp://ftp.omniture.com` 或 `ftp://ftp2.omniture.com`。
 
-该信息连同用户名和密码，应当在 [!UICONTROL Experience Cloud]（对于分类和数据源）中提供，或由负责按照您的请求设置帐户的 Adobe 代表提供。如果您不知道要使用哪个FTP或SFTP地址，请联系您的Adobe客户团队，他们可以提供正确的地址。 此外，对于分类帐户和数据源帐户，Adobe没有一天中用于处理FTP或SFTP文件的特定时间。 相反，Adobe使用不断轮询FTP或SFTP帐户以查找新文件流程的脚本。 系统会尽快处理上载到这些帐户中的文件。
+此信息连同用户名和密码，应当在CX Enterprise中（对于分类和数据源）提供，或由负责按照您的请求设置帐户的Adobe代表提供。 如果您不知道要使用哪个FTP或SFTP地址，请联系您的Adobe客户团队，他们可以提供正确的地址。 此外，对于分类帐户和数据源帐户，Adobe没有一天中用于处理FTP或SFTP文件的特定时间。 相反，Adobe使用不断轮询FTP或SFTP帐户以查找新文件流程的脚本。 系统会尽快处理上载到这些帐户中的文件。

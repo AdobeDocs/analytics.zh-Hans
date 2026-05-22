@@ -4,9 +4,23 @@ description: 从字符分隔的字符串中删除特定值。
 feature: Appmeasurement Implementation
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/oZd0u-66AFoK0544-3VQOnqe8fo20qXMibSqKE60kqA'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: 1074
 ht-degree: 93%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 93%
 
 {{plug-in}}
 
-通过 `rfl` 插件，您可以“安全地”从分隔字符串（如 [`events`](../page-vars/events/events-overview.md)、[`products`](../page-vars/products.md)、[`list`](../page-vars/list.md) 和其他变量）中删除值。如果您希望从分隔字符串中删除特定值且无需顾虑使用的分隔符，则可以使用此插件。有一些其他插件需要此插件代码才能正常运行。如果您不需要同时对多个 Analytics 变量运行特定函数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
+通过 `rfl` 插件，您可以“安全地”从分隔字符串（如 [`events`](../page-vars/events/events-overview.md)、[`products`](../page-vars/products.md)、[`list`](../page-vars/list.md) 和其他变量）中删除值。 如果您希望从分隔字符串中删除特定值且无需顾虑使用的分隔符，则可以使用此插件。 有一些其他插件需要此插件代码才能正常运行。 如果您不需要同时对多个 Analytics 变量运行特定函数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
 此插件将使用以下逻辑：
 
@@ -55,7 +69,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -69,10 +83,10 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 `rfl` 函数使用以下参数：
 
 * **`lv`**（必需，字符串）：包含分隔值列表的变量（或字符串）
-* **`vr`**（必需，字符串）：要从 `lv` 参数中删除的值。Adobe 建议不要在一次 `rfl` 调用期间删除多个值。
-* **`d1`**（可选，字符串）：`lv` 参数使用的分隔符。默认使用逗号 (`,`)。
-* **`d2`**（可选，字符串）：您希望返回字符串使用的分隔符。默认为与 `d1` 参数的相同值。
-* **`df`**（可选，布尔）：如果为 `true`，则仅从 `lv` 参数中强制删除重复的 `vr` 参数实例，而不是所有实例。如果未设置，则默认为 `false`。
+* **`vr`**（必需，字符串）：要从 `lv` 参数中删除的值。 Adobe 建议不要在一次 `rfl` 调用期间删除多个值。
+* **`d1`**（可选，字符串）：`lv` 参数使用的分隔符。 默认使用逗号 (`,`)。
+* **`d2`**（可选，字符串）：您希望返回字符串使用的分隔符。 默认为与 `d1` 参数的相同值。
+* **`df`**（可选，布尔）：如果为 `true`，则仅从 `lv` 参数中强制删除重复的 `vr` 参数实例，而不是所有实例。 如果未设置，则默认为 `false`。
 
 调用此函数将返回一个修改后的字符串，该字符串将包含 `lv` 参数，但不包含 `vr` 参数中指定的值的任何实例（或重复实例）。
 
@@ -336,7 +350,7 @@ s.events = rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-不支持在 `vr` 参数中设置多个值。上例中的 `rfl` 逻辑将先拆分 `lv` 参数（即 s.events）中的各个值，然后再尝试将每个分隔的值与完整的 `vr` 参数值（即 `"event23,event24"`）进行匹配。
+不支持在 `vr` 参数中设置多个值。 上例中的 `rfl` 逻辑将先拆分 `lv` 参数（即 s.events）中的各个值，然后再尝试将每个分隔的值与完整的 `vr` 参数值（即 `"event23,event24"`）进行匹配。
 
 ### 示例 13
 

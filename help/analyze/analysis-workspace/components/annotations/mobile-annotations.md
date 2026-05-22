@@ -5,13 +5,27 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+TQID: https://experienceleague.adobe.com/v-XrDQsKzc7MKVieH-v7P3EBfD37dAgVqSLQFNWQT-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dee9fe88-97f4-4ee3-915e-9abf8abf2b46
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: 307
 ht-degree: 87%
 
 ---
-
 
 # 移动记分卡注释
 
@@ -22,11 +36,11 @@ ht-degree: 87%
 
 要在移动记分卡中显示注释，请首先从 Workspace 项目或组件菜单中创建注释。
 
-有关创建注释的信息，请参阅[创建注释](create-annotations.md)。默认情况下，移动记分卡中的注释处于关闭状态，并且必须为要在移动记分卡中显示的每个记分卡启用。
+有关创建注释的信息，请参阅[创建注释](create-annotations.md)。 默认情况下，移动记分卡中的注释处于关闭状态，并且必须为要在移动记分卡中显示的每个记分卡启用。
 
-1. 打开注释。要打开注释，请参阅[打开或关闭注释](overview.md#turn-annotations-on-or-off)。
+1. 打开注释。 要打开注释，请参阅[打开或关闭注释](overview.md#turn-annotations-on-or-off)。
 
-1. 创建注释并确保将其共享给您的所有项目。有关更多信息，请参阅[创建注释](create-annotations.md)。
+1. 创建注释并确保将其共享给您的所有项目。 有关更多信息，请参阅[创建注释](create-annotations.md)。
 
 1. 选择&#x200B;**[!UICONTROL 显示注释]**&#x200B;可在移动记分卡中显示注释。
 
@@ -36,17 +50,17 @@ ht-degree: 87%
 
 ## 在移动记分卡中查看注释
 
-启用注释后，注释图标在记分卡生成器中可见。注释仅出现在详细视图的图表和表格中。从记分卡的主图块视图中看不到注释。
+启用注释后，注释图标在记分卡生成器中可见。 注释仅出现在详细视图的图表和表格中。 从记分卡的主图块视图中看不到注释。
 
 ![突出显示注释图标的记分卡生成器。](assets/annotations-scorecard.png)
 
-当注释图标可见时，您无法在生成器画布中完全查看注释或与之交互。使用 ![PlayCircle](/help/assets/icons/PlayCircle.svg) **[!UICONTROL 预览]**&#x200B;来查看应用程序中出现的注释并与之交互。
+当注释图标可见时，您无法在生成器画布中完全查看注释或与之交互。 使用 ![PlayCircle](/help/assets/icons/PlayCircle.svg) **[!UICONTROL 预览]**&#x200B;来查看应用程序中出现的注释并与之交互。
 
-在 Workspace 中创建注释时可选择注释颜色。灰色注释表示存在多个注释。
+在 Workspace 中创建注释时可选择注释颜色。 灰色注释表示存在多个注释。
 
 ## 预览注释
 
-您可以使用 ![PlayCircle](/help/assets/icons/PlayCircle.svg) 预览功能来预览注释。选择一项注释来打开该注释的详细信息。
+您可以使用 ![PlayCircle](/help/assets/icons/PlayCircle.svg) 预览功能来预览注释。 选择一项注释来打开该注释的详细信息。
 
 ![Annotation mobile scorecard preview](assets/annotations-scorecard-preview.png)
 

@@ -4,10 +4,27 @@ description: 确定为什么在图像请求中看不到Activity Map数据
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 15%
+source-wordcount: 429
+ht-degree: 16%
 
 ---
 
@@ -19,7 +36,7 @@ ht-degree: 15%
 
 首先，确保AppMeasurement正确收集Activity Map数据。
 
-1. 下载并安装[Adobe Experience Cloud Debugger Chrome扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)。
+1. 下载并安装[Adobe CX Enterprise Debugger Chrome扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)。
 2. 导航到您的网页，然后单击链接。
 3. 加载后续页面时，打开调试器。 验证您是否看到介于`activitymap.`和`.activitymap`之间的Activity Map上下文数据变量：
 
@@ -28,13 +45,13 @@ ht-degree: 15%
 检查以下各项以确保Activity Map组件存在：
 
 * **AppMeasurement版本**： v1.6及更高版本支持Activity Map。 当您升级到最新稳定版本的AppMeasurement时，许多边缘案例问题都已得到解决。
-* **Activity Map模块**：检查`AppMeasurement_Module_Activity_Map`文件中是否存在`AppMeasurement.js`模块。 如果您的实施使用Adobe Experience Platform收集数据，请确保在&#x200B;**[!UICONTROL 链接跟踪]**&#x200B;下配置Analytics扩展时选中&#x200B;**[!UICONTROL 启用ClickMap]**。
+* **Activity Map模块**：检查`AppMeasurement.js`文件中是否存在`AppMeasurement_Module_Activity_Map`模块。 如果您的实施使用Adobe Experience Platform收集数据，请确保在&#x200B;**[!UICONTROL 链接跟踪]**&#x200B;下配置Analytics扩展时选中&#x200B;**[!UICONTROL 启用ClickMap]**。
 * **`s_sq` Cookie**： Activity Map依赖于`s_sq` Cookie进行数据收集。
    * 确保正确设置`cookieDomainPeriods`变量，尤其是为区域域，如`*.co.uk`或`*.co.jp`。
    * 确保`linkInternalFilters`变量设置为所需值。 如果点击的链接与内部过滤器不匹配，Activity Map会将其视为退出链接，因此不会收集数据。
 * **Activity Map覆盖正在运行**：启用AppMeasurement覆盖后，Activity Map不会跟踪您网页的点击数据。
 
-显示与 Activity Map 的使用不兼容的浏览器参数。Adobe建议禁用这些设置。
+显示与 Activity Map 的使用不兼容的浏览器参数。 Adobe建议禁用这些设置。
 
 ## Chrome
 

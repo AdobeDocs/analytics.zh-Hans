@@ -4,13 +4,26 @@ description: 将数据元素分配给 Analytics 变量，以便在 Analysis Work
 feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: 'https://experienceleague.adobe.com/-eif71BEIQnPRQWSaXK5Wb5WL0rTROwRDDxzbUNL98I'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 448
 ht-degree: 96%
 
 ---
-
 
 # 将标记数据元素映射到 Analytics 变量
 
@@ -20,11 +33,11 @@ ht-degree: 96%
 
 [将数据层对象映射到数据元素](layer-to-elements.md)：确保您了解标记数据元素，并且拥有可使用的若干标记数据元素。
 
-[创建解决方案设计文档](../prepare/solution-design.md)：解决方案设计文档是保持有条不紊的关键。遵循解决方案设计文档可简化将数据元素分配给 Analytics 变量的流程。
+[创建解决方案设计文档](../prepare/solution-design.md)：解决方案设计文档是保持有条不紊的关键。 遵循解决方案设计文档可简化将数据元素分配给 Analytics 变量的流程。
 
 ## 将数据元素分配给 Analytics 变量
 
-按照这些步骤发布标记库后，您可以在 Analysis Workspace 中使用自定义维度。您可以在全局范围内设置 Analytics 变量，也可以在单个规则中设置。
+按照这些步骤发布标记库后，您可以在 Analysis Workspace 中使用自定义维度。 您可以在全局范围内设置 Analytics 变量，也可以在单个规则中设置。
 
 ### 设置全局变量
 
@@ -37,20 +50,20 @@ ht-degree: 96%
 
 ### 在规则中设置变量
 
-如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。在规则中定义条件。请参阅 Adobe Experience Platform 标记文档中的[规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hans)。
+如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。 在规则中定义条件。 请参阅 Adobe Experience Platform 标记文档中的[规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hans)。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 单击[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建一个规则）。
 1. 单击[!UICONTROL 操作]下的[!UICONTROL 添加]按钮。
 1. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为设置变量。
-1. 单击所需 Analytics 变量右侧的 ![数据元素](assets/data-element.png) 图标。贵组织的[解决方案设计文档](../prepare/solution-design.md)规定了要使用的 Analytics 变量。
-1. 在模式窗口中选择所需的数据元素。单击[!UICONTROL 选择]。
-1. 数据元素名称将添加到被 `%` 符号包围的文本字段中。例如，如果将数据元素命名为“页面名称”，则在将数据元素分配给变量时，会看到字符串 `%Page name%`。
+1. 单击所需 Analytics 变量右侧的 ![数据元素](assets/data-element.png) 图标。 贵组织的[解决方案设计文档](../prepare/solution-design.md)规定了要使用的 Analytics 变量。
+1. 在模式窗口中选择所需的数据元素。 单击[!UICONTROL 选择]。
+1. 数据元素名称将添加到被 `%` 符号包围的文本字段中。 例如，如果将数据元素命名为“页面名称”，则在将数据元素分配给变量时，会看到字符串 `%Page name%`。
 
 >[!TIP]
 >
->可以在同一变量中将数据元素连接在一起。例如，如果您有“Hostname”数据元素和“Pathname”数据元素，则可以使用 `%Hostname%%Pathname%` 将这两个元素组合到单个变量中。
+>可以在同一变量中将数据元素连接在一起。 例如，如果您有“Hostname”数据元素和“Pathname”数据元素，则可以使用 `%Hostname%%Pathname%` 将这两个元素组合到单个变量中。
 
 ## 后续步骤
 

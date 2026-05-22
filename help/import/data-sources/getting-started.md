@@ -4,10 +4,24 @@ description: 将示例数据上传到开发报表包。
 exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: 'https://experienceleague.adobe.com/ekoyQHdhFXTc4bbOReIbGc-CKnhA3--laugeI91RvnU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: 678
+ht-degree: 1%
 
 ---
 
@@ -58,7 +72,7 @@ ht-degree: 0%
 1. 在所选的Windows资源管理器、Finder或FTP客户端中，导航到[ftp://ftp.omniture.com](ftp://ftp.omniture.com)。
 1. 在系统提示输入登录凭据时，请使用数据源创建向导的最后一步中提供的用户名和密码。 您可以通过导航到[!UICONTROL 数据源]并单击您创建的数据源旁边的&#x200B;**[!UICONTROL FTP信息]**&#x200B;来再次引用它。
 1. 完成身份验证后，将编辑的文件拖到经过身份验证的FTP窗口中。
-1. 在FTP窗口之外的任何位置创建一个空文本文件。 为它指定与您上传到FTP站点的数据源文件相同的文件名，但有一个例外。 请为其指定`.txt`文件类型，而不是`.fin`文件类型。 确保您的操作系统设置允许您查看和更改文件类型。
+1. 在FTP窗口之外的任何位置创建一个空文本文件。 为它指定与您上传到FTP站点的数据源文件相同的文件名，但有一个例外。 请为其指定`.fin`文件类型，而不是`.txt`文件类型。 确保您的操作系统设置允许您查看和更改文件类型。
 1. 将空的`.fin`文件拖到与数据源文件相同的FTP位置。 `.fin`文件的存在告知Adobe数据源文件已完全上传并准备好摄取。
 1. 几分钟后，文件从FTP位置消失，并在报表中可见。
 1. 刷新“数据源”页面并验证文件是否已成功摄取。

@@ -4,16 +4,27 @@ description: 防止在报表中出现由某些 IP 地址生成的数据。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 role: Admin
-source-git-commit: 4b4febd839682d88164b2f505245441d18ef2543
+TQID: https://experienceleague.adobe.com/OfpXjqwAyn6DDwykgQMbYMIZXNPklUVvDFU1CsuC9CU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: 318
 ht-degree: 28%
 
 ---
 
 # 按 IP 地址排除
 
-您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。排除数据可通过排除IP地址数据来提高报表准确性。 此外，您可以从拒绝服务或其他可能扭曲报表数据的恶意事件中删除数据。
+您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。 排除数据可通过排除IP地址数据来提高报表准确性。 此外，您可以从拒绝服务或其他可能扭曲报表数据的恶意事件中删除数据。
 
 要按IP地址排除数据，您可以按如下所述配置排除项，也可以[配置防火墙](/help/technotes/ip-addresses.md)。
 
@@ -24,8 +35,8 @@ ht-degree: 28%
 >在按IP地址配置排除项时，请考虑以下事项：
 >
 >* 按 IP 地址排除的点击按[服务器调用](/help/technotes/terms.md)计费。
->* 无需排除私有 IP 地址。只有外部 IP 地址可抵达 Adobe 数据收集服务器。私有地址包括 `10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*` 和 `169.254.*.*`。
->* 您可以使用通配指示符(&#42;)排除某个范围的地址。 例如，`[!DNL 0.0.*.0]` 将排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之间的所有 IP 地址。最多可以排除 50 个不同的 IP 地址。
+>* 无需排除私有 IP 地址。 只有外部 IP 地址可抵达 Adobe 数据收集服务器。 私有地址包括 `10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*` 和 `169.254.*.*`。
+>* 您可以使用通配指示符(&#42;)排除某个范围的地址。 例如，`[!DNL 0.0.*.0]` 将排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之间的所有 IP 地址。 最多可以排除 50 个不同的 IP 地址。
 >* 对于在设置排除后的5分钟内进入系统的任何新点击，会排除排除排除的IP地址中的数据。
 >* 在对IP地址进行更改之前捕获的点击数据不会受到影响。 IP排除仅适用于未来的数据。
 >* 排除的点击在[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)（标记为`exclude_hit = 4`）中仍可见。

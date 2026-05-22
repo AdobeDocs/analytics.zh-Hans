@@ -4,9 +4,25 @@ title: 取消报告活动管理器中的报告请求
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/zMNTnhG6SP-SAIWBOAWm-etPHvBOykscB90n4UIgdrA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: 1438
 ht-degree: 100%
 
 ---
@@ -19,13 +35,13 @@ ht-degree: 100%
 
 * 您可以取消特定的请求、取消来自特定用户的所有请求或取消与特定项目相关的所有请求。
 
-  当您取消请求时，该操作将记录在[日志](/help/admin/tools/logs.md)中。[!UICONTROL **事件类型**] 列显示为&#x200B;[!UICONTROL **管理员操作**]，[!UICONTROL **事件**]&#x200B;列中提供了取消的描述。
+  当您取消请求时，该操作将记录在[日志](/help/admin/tools/logs.md)中。 [!UICONTROL **事件类型**] 列显示为&#x200B;[!UICONTROL **管理员操作**]，[!UICONTROL **事件**]&#x200B;列中提供了取消的描述。
 
 * 当您取消请求时，您还可以选择在给定的时间段内限制后续请求。
 
-  当您限制后续请求时，该操作将记录在[日志](/help/admin/tools/logs.md)中。[!UICONTROL **事件类型**] 列显示为&#x200B;[!UICONTROL **管理员操作**]，[!UICONTROL **事件**]&#x200B;列中提供了限制的描述。
+  当您限制后续请求时，该操作将记录在[日志](/help/admin/tools/logs.md)中。 [!UICONTROL **事件类型**] 列显示为&#x200B;[!UICONTROL **管理员操作**]，[!UICONTROL **事件**]&#x200B;列中提供了限制的描述。
 
-* 如果请求的&#x200B;[!UICONTROL **用户**]&#x200B;列显示为&#x200B;[!UICONTROL **无法识别**]，则无法取消请求。出现这种情况，则表示用户处于您没有管理权限的登录公司。
+* 如果请求的&#x200B;[!UICONTROL **用户**]&#x200B;列显示为&#x200B;[!UICONTROL **无法识别**]，则无法取消请求。 出现这种情况，则表示用户处于您没有管理权限的登录公司。
 
 有关报告活动管理器的更多信息，包括主要优点和权限要求，请参阅[报告活动管理器概述](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)。
 
@@ -47,7 +63,7 @@ ht-degree: 100%
 
    将显示&#x200B;[!UICONTROL **取消 _x_ 次报告请求**]&#x200B;对话框。
 
-1. 取消消息字段显示在用户的请求被取消时显示的消息。提供了默认消息。您可以更新默认消息以提供更多详细信息。
+1. 取消消息字段显示在用户的请求被取消时显示的消息。 提供了默认消息。 您可以更新默认消息以提供更多详细信息。
 
 1. （可选）要限制给定时间段内的未来请求：
 
@@ -62,13 +78,13 @@ ht-degree: 100%
       | [!UICONTROL **用户和项目**] | 与所选请求相关联的用户将会被暂时限制运行关联项目的报告请求。 |
       | [!UICONTROL **用户**] | 与所选请求相关的用户将会被暂时限制提交任何报告请求。 |
       | [!UICONTROL **项目**] | 与所选请求相关的项目将会被暂时限制提交所有报告请求。 |
-      | [!UICONTROL **限制进行**] | 选择限制请求的时间长度。您可以选择 1 分钟（默认）、5 分钟、10 分钟、15 分钟或 30 分钟。<!-- double-check this --><p>设置限制后，您无法提前将其移除。</p> |
+      | [!UICONTROL **限制进行**] | 选择限制请求的时间长度。 您可以选择 1 分钟（默认）、5 分钟、10 分钟、15 分钟或 30 分钟。<!-- double-check this --><p>设置限制后，您无法提前将其移除。</p> |
 
       {style="table-layout:auto"}
 
 1. 选择&#x200B;[!UICONTROL **继续取消**]。
 
-   Analysis Workspace 中会显示一条通知，告知用户请求已被取消。有关其在 Analysis Workspace 中如何显示的详细信息，请参阅[用户访问已取消的报告时的体验](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中会显示一条通知，告知用户请求已被取消。 有关其在 Analysis Workspace 中如何显示的详细信息，请参阅[用户访问已取消的报告时的体验](#experience-when-users-access-a-cancelled-report)。
 
 ## 按用户取消请求
 
@@ -88,7 +104,7 @@ ht-degree: 100%
 
    将显示&#x200B;[!UICONTROL **取消 x 个用户的 _x_ 次报告请求**]&#x200B;对话框。
 
-1. 取消消息字段显示在用户的请求被取消时显示的消息。提供了默认消息。您可以更新默认消息以提供更多详细信息。
+1. 取消消息字段显示在用户的请求被取消时显示的消息。 提供了默认消息。 您可以更新默认消息以提供更多详细信息。
 
 1. （可选）要限制给定时间段内的未来请求：
 
@@ -103,13 +119,13 @@ ht-degree: 100%
       | [!UICONTROL **用户和项目**] | 所选用户将会被暂时限制提交关联项目的任何报告请求。 |
       | [!UICONTROL **用户**] | 所选用户将会被暂时限制提交任何报告请求。 |
       | [!UICONTROL **项目**] | 与所选用户相关的项目将限制任何用户提交的任何报告请求。 |
-      | [!UICONTROL **限制进行**] | 选择限制请求的时间长度。您可以选择 1 分钟（默认）、5 分钟、10 分钟、15 分钟或 30 分钟。<!--double-check this--> <p>设置限制后，您无法提前将其移除。</p> |
+      | [!UICONTROL **限制进行**] | 选择限制请求的时间长度。 您可以选择 1 分钟（默认）、5 分钟、10 分钟、15 分钟或 30 分钟。<!--double-check this--> <p>设置限制后，您无法提前将其移除。</p> |
 
       {style="table-layout:auto"}
 
 1. 选择&#x200B;[!UICONTROL **继续取消**]。
 
-   Analysis Workspace 中会显示一条通知，告知用户请求已被取消。有关其在 Analysis Workspace 中如何显示的详细信息，请参阅[用户访问已取消的报告时的体验](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中会显示一条通知，告知用户请求已被取消。 有关其在 Analysis Workspace 中如何显示的详细信息，请参阅[用户访问已取消的报告时的体验](#experience-when-users-access-a-cancelled-report)。
 
 ## 按项目取消请求
 
@@ -129,7 +145,7 @@ ht-degree: 100%
 
    将显示&#x200B;[!UICONTROL **取消 x 个项目的 _x_ 次报告请求**]&#x200B;对话框。
 
-1. 取消消息字段显示在用户的请求被取消时显示的消息。提供了默认消息。您可以更新默认消息以提供更多详细信息。
+1. 取消消息字段显示在用户的请求被取消时显示的消息。 提供了默认消息。 您可以更新默认消息以提供更多详细信息。
 
 1. （可选）要限制给定时间段内的未来请求：
 
@@ -144,17 +160,17 @@ ht-degree: 100%
       | [!UICONTROL **用户和项目**] | 所选项目将会被暂时限制关联用户提交的任何报告请求。 |
       | [!UICONTROL **用户**] | 与所选项目相关的用户将会被限制提交任何报告请求。 |
       | [!UICONTROL **项目**] | 所选项目将暂时限制任何用户提交的任何报告请求。 |
-      | [!UICONTROL **限制进行**] | 选择限制请求的时间长度。您可以选择 1 分钟（默认）、5 分钟、10 分钟、15 分钟或 30 分钟。<!--double-check this--> <p>设置限制后，您无法提前将其移除。</p> |
+      | [!UICONTROL **限制进行**] | 选择限制请求的时间长度。 您可以选择 1 分钟（默认）、5 分钟、10 分钟、15 分钟或 30 分钟。<!--double-check this--> <p>设置限制后，您无法提前将其移除。</p> |
 
       {style="table-layout:auto"}
 
 1. 选择&#x200B;[!UICONTROL **继续取消**]。
 
-   Analysis Workspace 中会显示一条通知，告知用户请求已被取消。有关其在 Analysis Workspace 中如何显示的详细信息，请参阅[用户访问已取消的报告时的体验](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中会显示一条通知，告知用户请求已被取消。 有关其在 Analysis Workspace 中如何显示的详细信息，请参阅[用户访问已取消的报告时的体验](#experience-when-users-access-a-cancelled-report)。
 
 ## 按应用程序取消请求
 
-您可以取消与一个或多个应用程序相关联的所有请求。取消与应用程序相关联的请求时，您可以选择在给定时间段内进一步限制与该应用程序相关联的请求。
+您可以取消与一个或多个应用程序相关联的所有请求。 取消与应用程序相关联的请求时，您可以选择在给定时间段内进一步限制与该应用程序相关联的请求。
 
 应用程序包括：
 
@@ -183,7 +199,7 @@ ht-degree: 100%
 
    将显示&#x200B;[!UICONTROL **取消 x 个项目的 _x_ 次报告请求**]&#x200B;对话框。
 
-1. 取消消息字段显示在用户的请求被取消时显示的消息。提供了默认消息。您可以更新默认消息以提供更多详细信息。
+1. 取消消息字段显示在用户的请求被取消时显示的消息。 提供了默认消息。 您可以更新默认消息以提供更多详细信息。
 
 1. （可选）要限制给定时间段内的未来请求：
 
@@ -198,13 +214,13 @@ ht-degree: 100%
       | [!UICONTROL **用户和项目**] | 所选应用程序将会被暂时限制关联用户和项目提交的任何报告请求。<p>这是限制最少的选项。</p> |
       | [!UICONTROL **用户**] | 与所选应用程序相关的用户将会被限制提交任何报告请求。 |
       | [!UICONTROL **项目**] | 与所选应用程序相关的项目将限制任何用户提交的任何报告请求。 |
-      | [!UICONTROL **限制进行**] | 选择限制请求的时间长度。您可以选择 1 分钟（默认）、5 分钟、10 分钟、15 分钟或 30 分钟。<!--double-check this--> <p>设置限制后，您无法提前将其移除。</p> |
+      | [!UICONTROL **限制进行**] | 选择限制请求的时间长度。 您可以选择 1 分钟（默认）、5 分钟、10 分钟、15 分钟或 30 分钟。<!--double-check this--> <p>设置限制后，您无法提前将其移除。</p> |
 
       {style="table-layout:auto"}
 
 1. 选择&#x200B;[!UICONTROL **继续取消**]。
 
-   应用程序中（如在 Analysis Workspace 中）会显示一条通知，告知用户请求已被取消。有关其在 Analysis Workspace 中如何显示的详细信息，请参阅[用户访问已取消的报告时的体验](#experience-when-users-access-a-cancelled-report)。
+   应用程序中（如在 Analysis Workspace 中）会显示一条通知，告知用户请求已被取消。 有关其在 Analysis Workspace 中如何显示的详细信息，请参阅[用户访问已取消的报告时的体验](#experience-when-users-access-a-cancelled-report)。
 
 ## 用户访问已取消报告时的体验
 

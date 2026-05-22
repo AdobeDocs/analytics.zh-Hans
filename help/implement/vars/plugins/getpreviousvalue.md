@@ -4,9 +4,23 @@ description: 获取传递到变量的上一个值。
 feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/z8lUtZH0qHvtysD9haDhmWS3i-Tw--kOsfTU-5NxoPk'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: 784
 ht-degree: 77%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 77%
 
 {{plug-in}}
 
-`getPreviousValue` 插件允许您将一个变量设置为在上一次点击时设置的值。如果您的实施包含当前点击的所有所需值，则无需使用此插件。
+`getPreviousValue` 插件允许您将一个变量设置为在上一次点击时设置的值。 如果您的实施包含当前点击的所有所需值，则无需使用此插件。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -65,7 +79,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /* Adobe Consulting Plugin: getPreviousValue v3.0 */
@@ -77,10 +91,10 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 `getPreviousValue` 函数使用以下参数：
 
-* **`v`**（字符串，必需）：具有要传递给下一个图像请求的值的变量。用于检索上一页值的常用变量为 `s.pageName`。
-* **`c`**（字符串，可选）：用于存储值的 Cookie 的名称。如果未设置此参数，则将默认使用 `"s_gpv"`。
+* **`v`**（字符串，必需）：具有要传递给下一个图像请求的值的变量。 用于检索上一页值的常用变量为 `s.pageName`。
+* **`c`**（字符串，可选）：用于存储值的 Cookie 的名称。  如果未设置此参数，则将默认使用 `"s_gpv"`。
 
-调用此函数时，将返回 Cookie 中包含的字符串值。然后，此插件会重置 Cookie 过期时间，并为其分配 `v` 参数中的变量值。该 Cookie 将在处于非活动状态 30 分钟后过期。
+调用此函数时，将返回 Cookie 中包含的字符串值。 然后，此插件会重置 Cookie 过期时间，并为其分配 `v` 参数中的变量值。 该 Cookie 将在处于非活动状态 30 分钟后过期。
 
 ## 示例
 
@@ -111,14 +125,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-此代码会生成一个服务器调用，其中 `pageName` 为“Home”，并且未设置 prop7。不过，对 `getPreviousValue` 的调用会将 `pageName` 的值存储在 `gpv_Page` Cookie 中。假定以下代码紧接着在同一页面上运行：
+此代码会生成一个服务器调用，其中 `pageName` 为“Home”，并且未设置 prop7。  不过，对 `getPreviousValue` 的调用会将 `pageName` 的值存储在 `gpv_Page` Cookie 中。 假定以下代码紧接着在同一页面上运行：
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-由于此代码块中未运行 `t()` 函数，因此不会发送其他图像请求。然而，如果此时运行 `getPreviousValue` 函数代码，则 `prop7` 将设置为 `pageName` 的上一个值（“Home”），然后将 `pageName` 的新值（“New value”）存储在 `gpv_Page` Cookie 中。接下来，假定访客导航到其他页面，并且以下代码在该页面上运行：
+由于此代码块中未运行 `t()` 函数，因此不会发送其他图像请求。  然而，如果此时运行 `getPreviousValue` 函数代码，则 `prop7` 将设置为 `pageName` 的上一个值（“Home”），然后将 `pageName` 的新值（“New value”）存储在 `gpv_Page` Cookie 中。 接下来，假定访客导航到其他页面，并且以下代码在该页面上运行：
 
 ```js
 s.pageName = "Page 2";
@@ -126,7 +140,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-当 `t()` 函数运行时，会创建一个图像请求，其中 `pageName` 为“Page 2”且 `prop7` 为“New value”，它是上次调用 `getPreviousValue` 时 `pageName` 的值。虽然 `prop7` 的值 `"Home"` 是传递到 `pageName` 的第一个值，但“Home”从未包含在任何实际图像请求中。
+当 `t()` 函数运行时，会创建一个图像请求，其中 `pageName` 为“Page 2”且 `prop7` 为“New value”，它是上次调用 `getPreviousValue` 时 `pageName` 的值。 虽然 `prop7` 的值 `"Home"` 是传递到 `pageName` 的第一个值，但“Home”从未包含在任何实际图像请求中。
 
 ## 版本历史记录
 

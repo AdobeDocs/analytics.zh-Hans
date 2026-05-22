@@ -4,9 +4,23 @@ description: 手动设置 AppMeasurement 的在线状态。
 feature: Appmeasurement Implementation
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/qPSlGDmNTccOtGRvlu-xr-wf1hV18OA-yyiuScnZr7g'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: 157
 ht-degree: 80%
 
 ---
@@ -17,9 +31,9 @@ ht-degree: 80%
 
 >[!WARNING]
 >
-> 仅在启用 [`trackOffline`](../config-vars/trackoffline.md) 时才使用此方法。在离线跟踪之外使用此函数可能会导致数据丢失。
+>仅在启用 [`trackOffline`](../config-vars/trackoffline.md) 时才使用此方法。 在离线跟踪之外使用此函数可能会导致数据丢失。
 
-AppMeasurement 会自动检测设备的在线状态。您可以使用 `forceOnline()` 方法强制 AppMeasurement 处理点击，如同设备处于在线状态一样。此方法不接受任何参数，也不返回任何值。它的唯一用途是覆盖 AppMeasurement 中的在线状态。
+AppMeasurement 会自动检测设备的在线状态。 您可以使用 `forceOnline()` 方法强制 AppMeasurement 处理点击，如同设备处于在线状态一样。 此方法不接受任何参数，也不返回任何值。 它的唯一用途是覆盖 AppMeasurement 中的在线状态。
 
 ## 强制使用Web SDK联机
 

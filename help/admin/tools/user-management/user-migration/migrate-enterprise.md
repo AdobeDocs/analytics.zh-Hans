@@ -4,10 +4,21 @@ title: 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 97%
+source-wordcount: 769
+ht-degree: 71%
 
 ---
 
@@ -19,28 +30,28 @@ ht-degree: 97%
 
 在 Adobe Admin Console 中管理用户的先决条件。
 
-对于新的域和目录，请按照以下步骤执行操作：
+对于新的域和目录，请按照以下步骤操作：
 
 * 设置目录
 * 设置域
 * 将域链接到目录
 
-有关帮助，请参阅[设置身份系统](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html)。
+如需帮助，请参阅[设置标识系统](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html)。
 
-如果其他业务部门或团队已在另一个组织中创建了目录，请按照[目录信任](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html#Directorytrusting)中的步骤，在组织中建立要用于 Analytics 的目录。
+如果目录已由其他业务部门或团队在另一个组织中创建，请按照[目录信任](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html#Directorytrusting)中的步骤在用于Analytics的组织中建立该目录。
 
 ## 迁移用户帐户以使用 Enterprise ID 和 Federated ID {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 在此过程中，您将执行以下操作：
 
-* 从 **[!UICONTROL Analytics]** > **[!UICONTROL Analytics 用户和资产]**&#x200B;下载用户登录列表。
+* 从&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Analytics用户和Assets]**&#x200B;下载用户登录列表。
 
-* 从 **[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**&#x200B;下载当前用户列表。
+* 从&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**&#x200B;下载当前用户列表。
 
 * 比较列表（查找重复项，以避免覆盖 Adobe Admin Console 中的帐户数据）。
 * 将包含 Enterprise ID 或 Federated ID 用户的已完成 [!DNL .csv]（从&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**）上传到 Adobe Admin Console。
 
-如果需要将现有的 Adobe ID 用户帐户迁移到 Enterprise ID 或 Federated ID，请联系 Adobe 客户关怀并请求[批量切换用户身份](https://helpx.adobe.com/cn/enterprise/using/bulk-operations.html)。
+如果您需要将现有Adobe ID用户帐户迁移到Enterprise ID或Federated ID，请联系Adobe客户关怀部门并请求[批量用户标识切换](https://helpx.adobe.com/cn/enterprise/using/bulk-operations.html)。
 
 **迁移用户帐户**
 
@@ -81,7 +92,7 @@ ht-degree: 97%
 
       >[!IMPORTANT]
       >
-      >如果发现重复项，请从 Analytics [!DNL User Logins List.csv] 文件中删除它们。此步骤可帮助避免覆盖 Adobe Admin Console 中的现有 Experience Cloud 用户权限，并且可为您提供要迁移的帐户列表。
+      >如果发现重复项，请从 Analytics [!DNL User Logins List.csv] 文件中删除它们。 此步骤有助于防止覆盖Adobe Admin Console中的现有CX Enterprise用户权限，并为您提供要迁移的帐户列表。
 
 1. 从 Adobe Admin Console 中下载 CSV 模板：
    1. 在“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**，然后单击&#x200B;**[!UICONTROL 下载 CSV 模板]**。
@@ -149,8 +160,8 @@ ht-degree: 97%
 
    ![步骤信息](/help/admin/tools/user-management/user-migration/assets/migrate-as-enterprise.png)
 
-   单击&#x200B;**[!UICONTROL 迁移]**&#x200B;时，会将用户链接到 Adobe Admin Console 中的 Enterprise ID/Federated ID 帐户。Analytics 中旧版用户帐户的权限将与 **[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 产品配置文件]**&#x200B;中授予 Enterprise ID/Federated ID 登录的权限相匹配。用户 ID 将显示在“迁移已完成”分段中。您可以禁用其旧版 [!DNL my.omniture.com] 访问权限。
+   单击&#x200B;**[!UICONTROL 迁移]**&#x200B;时，会将用户链接到 Adobe Admin Console 中的 Enterprise ID/Federated ID 帐户。 Analytics中旧版用户帐户的权限将与&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 产品配置文件]**&#x200B;中授予Enterprise/Federated ID登录的权限相匹配。 用户 ID 将显示在“迁移已完成”分段中。 您可以禁用其旧版 [!DNL my.omniture.com] 访问权限。
 
    在迁移用户后，“迁移状态”列下方的状态将从&#x200B;**[!UICONTROL 未启动]**&#x200B;更改为&#x200B;**[!UICONTROL 已迁移]**。
 
-   迁移工具中显示的 Adobe ID 用户也可以在此过程中迁移。在执行身份切换之前，他们仍旧必须使用 Adobe ID 进行登录。请联系 Adobe 客户关怀，以帮助进行身份切换。
+   显示在迁移工具中的Adobe ID用户也可以在此过程中迁移。 在执行身份切换之前，他们仍必须使用Adobe ID登录。 联系Adobe客户关怀团队以帮助进行身份切换。

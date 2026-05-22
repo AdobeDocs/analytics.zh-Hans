@@ -3,20 +3,35 @@ title: 具有 Experience Cloud ID 的访客
 description: 使用 Adobe Experience Cloud ID 服务的独特访客数。
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: 378
+ht-degree: 76%
 
 ---
 
 # 具有 Experience Cloud ID 的访客
 
-“具有Experience Cloud ID的访客”指标[指标](overview.md)显示Adobe使用[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)识别的独特访客数量。 此指标有助于与[独特访客](unique-visitors.md)指标进行比较，以确保您网站的大多数访客都使用 ID 服务。如果大部分访客不使用 ID 服务 Cookie，则它可能会提示您的实施中存在问题。
+“具有Experience Cloud ID的访客”指标[指标](overview.md)显示Adobe使用[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)识别的独特访客数量。 此指标有助于与[独特访客](unique-visitors.md)指标进行比较，以确保您网站的大多数访客都使用 ID 服务。 如果大部分访客不使用 ID 服务 Cookie，则它可能会提示您的实施中存在问题。
 
 >[!NOTE]
 >
->如果您使用多种 Experience Cloud 服务（例如 Adobe Target 或 Adobe Audience Manager），此指标对调试活动尤为重要。跨 Experience Cloud 产品共享的访客不包括没有 Experience Cloud ID 的客户。
+>如果您使用多个CX Enterprise服务（如Adobe Target或Adobe Audience Manager），此指标对调试活动尤为重要。 在CX企业版产品之间共享的区段不包含没有Experience Cloud ID的访客。
 
 ## 如何计算此指标
 
@@ -24,13 +39,13 @@ ht-degree: 93%
 
 ## 调试您的 Experience Cloud ID 设置
 
-“具有 Experience Cloud ID 的访客”指标可用于对 Experience Cloud 集成进行故障诊断，或识别未部署 ID 服务的站点区域。
+“具有Experience Cloud ID的访客”指标可用于对CX企业集成进行故障诊断，或识别未部署ID服务的站点区域。
 
 将“具有 Experience Cloud ID 的访客”拖动到“独特访客”的并排位置，对二者进行比较：
 
 ![独特访客比较](assets/metric-mcvid1.png)
 
-在该示例中，请注意每个页面的“独特访客”与“具有 Experience Cloud ID 的访客数”相同。但是，独特访客的总数大于具有 Experience Cloud ID 的访客总数。您可以创建[计算指标](../calculated-metrics/cm-overview.md)，以找出哪些页面未设置 ID 服务。您可以使用以下定义：
+在该示例中，请注意每个页面的“独特访客”与“具有 Experience Cloud ID 的访客数”相同。 但是，独特访客的总数大于具有 Experience Cloud ID 的访客总数。 您可以创建[计算指标](../calculated-metrics/cm-overview.md)，以找出哪些页面未设置 ID 服务。 您可以使用以下定义：
 
 ![计算指标定义](assets/metric-mcvid2.png)
 
@@ -38,4 +53,4 @@ ht-degree: 93%
 
 ![无 ID 服务的页面](assets/metric-mcvid3.png)
 
-请注意，“产品快速视图”维度项目未使用身份标识服务正确实施。您可以与组织内的相应团队合作，以尽快更新这些页面。您可以使用任何类型的维度（例如[浏览器类型](../dimensions/browser-type.md)、[网站区域](../dimensions/site-section.md)或任何 [eVar](../dimensions/evar.md)）构建类似报表。
+请注意，“产品快速视图”维度项目未使用身份标识服务正确实施。 您可以与组织内的相应团队合作，以尽快更新这些页面。 您可以使用任何类型的维度（例如[浏览器类型](../dimensions/browser-type.md)、[网站区域](../dimensions/site-section.md)或任何 [eVar](../dimensions/evar.md)）构建类似报表。

@@ -4,18 +4,32 @@ description: 确定设备恢复为在线状态时的点击频率。
 feature: Appmeasurement Implementation
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/FiC4yXkRmNoY0PPO9ouC8-hX5xqWhkbcDVht5f05Yqk'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 195
 ht-degree: 83%
 
 ---
 
 # offlineThrottleDelay
 
-离线跟踪是在 Adobe Analytics 中收集数据的一种可选方式。如果访客断开与 Internet 的连接但继续浏览您的网站，则点击量会存储在离线队列中，直到设备重新连接到 Internet 为止。离线跟踪主要用于移动设备应用程序。
+离线跟踪是在 Adobe Analytics 中收集数据的一种可选方式。 如果访客断开与 Internet 的连接但继续浏览您的网站，则点击量会存储在离线队列中，直到设备重新连接到 Internet 为止。 离线跟踪主要用于移动设备应用程序。
 
-当设备恢复为在线状态时，存储在设备上的所有点击都将被发送到 Adobe 数据收集服务器。如果已排队点击的数量过大，可能会潜在地影响旧设备的性能。使用 `offlineThrottleDelay` 变量可确定将已排队的点击发送到 Adobe 的频率。
+当设备恢复为在线状态时，存储在设备上的所有点击都将被发送到 Adobe 数据收集服务器。 如果已排队点击的数量过大，可能会潜在地影响旧设备的性能。 使用 `offlineThrottleDelay` 变量可确定将已排队的点击发送到 Adobe 的频率。
 
 ## 使用Web SDK的离线限制延迟
 
@@ -27,7 +41,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.offlineThrottleDelay
 
-`s.offlineThrottleDelay` 变量是一个整数，它表示 AppMeasurement 在发送已排队两个点击之间等待的毫秒数。其默认值是 `0`，这意味着会同时发送所有已排队的点击。如果 `trackOffline` 为 `false`，则此变量不执行任何操作。
+`s.offlineThrottleDelay` 变量是一个整数，它表示 AppMeasurement 在发送已排队两个点击之间等待的毫秒数。 其默认值是 `0`，这意味着会同时发送所有已排队的点击。 如果 `trackOffline` 为 `false`，则此变量不执行任何操作。
 
 ```js
 s.offlineThrottleDelay = 500;

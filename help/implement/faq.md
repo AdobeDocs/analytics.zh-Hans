@@ -23,10 +23,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 100%
+source-wordcount: 511
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## Experience Cloud 访客 ID 与 Analytics 访客 ID 之间有何区别？
 
-身份标识服务可分配一个唯一的永久标识符，该标识符可以在 Experience Cloud 中的其他解决方案之间共享。 而 Analytics 访客 ID 仅供 Analytics 使用。 Adobe 建议在您的实施中使用 Experience Cloud 访客 ID 服务。
+Identity Service分配一个唯一的永久标识符，该标识符可以在CX Enterprise中的其他解决方案之间共享。 而 Analytics 访客 ID 仅供 Analytics 使用。 Adobe 建议在您的实施中使用 Experience Cloud 访客 ID 服务。
 
 ## 我该如何实施心率视频跟踪？
 

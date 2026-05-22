@@ -4,25 +4,38 @@ description: 了解将成功事件的点数归因到多个维度项的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: 'https://experienceleague.adobe.com/JVkEgk1Becb6v4066bmg1JzkgFBKprFphrAx-xJroro'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 99%
+source-wordcount: 567
+ht-degree: 87%
 
 ---
 
 # 归因概述
 
-通过归因，分析师能够自定义维度项目获取成功事件点数的方式。例如：
+通过归因，分析师能够自定义维度项目获取成功事件点数的方式。 例如：
 
-1. 网站访客单击指向您的某个产品页面的付费搜索链接。他们将产品添加到购物车，但不购买。
+1. 网站访客单击指向您的某个产品页面的付费搜索链接。 他们将产品添加到购物车，但不购买。
 2. 第二天，他们查看自己朋友的社交媒体帖子，单击链接，然后完成购买。
 
-在某些报告中，您可能希望将订单归因到“付费”搜索。在其他报告中，您可能希望将订单归因到社交。通过归因，您能够控制报告对的各个方面。它适用于 Adobe Analytics Ultimate、Prime、Select 和 Foundation 上的所有组织。如果您不确定您与 Adobe 签订的合同类型，请联系贵组织的 Adobe 客户团队。
+在某些报告中，您可能希望将订单归因到“付费”搜索。 在其他报告中，您可能希望将订单归因到社交。 通过归因，您能够控制报告的这一方面。 它适用于 Adobe Analytics Ultimate、Prime、Select 和 Foundation 上的所有组织。 如果您不确定您与 Adobe 签订的合同类型，请联系贵组织的 Adobe 客户团队。
 
 ## 归因的价值
 
-给定的客户历程不是线性的，而且往往难以预测。每位客户按各自的进度进行；通常，它们会再次返回、延迟、重新启动或参与其他非线性行为。这些免费操作使得我们很难了解营销工作在整个客户历程中所产生的影响。它还会妨碍将多个数据渠道绑定在一起的工作。
+给定的客户历程不是线性的，而且往往难以预测。 每位客户按各自的进度进行；通常，它们会再次返回、延迟、重新启动或参与其他非线性行为。 这些免费操作使得我们很难了解营销工作在整个客户历程中所产生的影响。 它还会妨碍将多个数据渠道绑定在一起的工作。
 
 <!--
 ![Attribution problem](assets/attribution_iq_problem.png)

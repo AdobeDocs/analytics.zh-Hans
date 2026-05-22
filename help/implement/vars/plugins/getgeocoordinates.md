@@ -4,9 +4,23 @@ description: 跟踪访客的地理位置。
 feature: Appmeasurement Implementation
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/LKwWo4v7B8bcwsqsezBt4trAiOQRdIWDm2moqNJLY04'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 598
 ht-degree: 71%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-`getGeoCoordinates` 插件允许您捕获访客设备所在的纬度和经度。如果您想要在 Analytics 变量中捕获地理位置数据，Adobe 建议使用此插件。
+`getGeoCoordinates` 插件允许您捕获访客设备所在的纬度和经度。 如果您想要在 Analytics 变量中捕获地理位置数据，Adobe 建议使用此插件。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -64,7 +78,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -75,15 +89,15 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## 使用此插件
 
-`getGeoCoordinates` 函数不使用任何参数。它会返回以下任一值：
+`getGeoCoordinates` 函数不使用任何参数。 它会返回以下任一值：
 
-* `"geo coordinates not available"`：对于在插件运行时没有可用地理位置数据的设备。此值在首次访问点击时很常见，特别是在访客需要首先准许跟踪其位置时。
+* `"geo coordinates not available"`：对于在插件运行时没有可用地理位置数据的设备。 此值在首次访问点击时很常见，特别是在访客需要首先准许跟踪其位置时。
 * `"error retrieving geo coordinates"`：对于插件尝试检索设备位置时遇到任何错误的情况
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`：其中 [LATITUDE]/[LONGITUDE] 分别表示纬度和经度
 
 >[!NOTE]
 >
->坐标值会四舍五入到最接近的小数点后四位。例如，值 `"40.438635333"` 会舍入到 `"40.4386"` 以限制要捕获的唯一值的数量。这些值足以能够将设备精确定位到 20 英尺内的确切位置。
+>坐标值会四舍五入到最接近的小数点后四位。 例如，值 `"40.438635333"` 会舍入到 `"40.4386"` 以限制要捕获的唯一值的数量。 这些值足以能够将设备精确定位到 20 英尺内的确切位置。
 
 如果需要，此插件会使用名为 `"s_ggc"` 的 Cookie 来存储点击之间的坐标。
 

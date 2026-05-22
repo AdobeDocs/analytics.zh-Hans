@@ -4,10 +4,24 @@ description: 自定义Activity Map收集链接点击量的方式。
 feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/5NCARDGth07l5vixudVzLrE7FVrh82PS4xNrJ61gnow'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 9%
+source-wordcount: 308
+ht-degree: 10%
 
 ---
 
@@ -78,6 +92,6 @@ s.ActivityMap.link = function(ele, linkName) {
 <button type="button" onclick="s.tl(this,'o',customFunction(this)">Add To Cart</button>
 ```
 
-1. 如果传递了`linkName`，则`tl()`调用了该方法。 返回作为`tl()`传入的`linkName`。
+1. 如果传递了`linkName`，则`tl()`调用了该方法。 返回作为`linkName`传入的`tl()`。
 2. 当由Activity Map调用时，永远不会传递`linkName`，因此使用链接元素调用`customFunction()`。 您可以使用任何想要返回值的自定义函数。
 3. 如果以上两个值都不返回，则使用通常收集为回退的链接名称。

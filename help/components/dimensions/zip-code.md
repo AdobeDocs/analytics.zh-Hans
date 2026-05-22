@@ -3,10 +3,26 @@ title: 邮政编码
 description: 访客的邮政编码。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 79%
+source-wordcount: 272
+ht-degree: 80%
 
 ---
 
@@ -16,7 +32,7 @@ ht-degree: 79%
 
 ## 使用数据填充此维度
 
-此维度的独特之处在于，它包含多种使用数据来填充的方法。您可以使用其中一种方法，也可以同时使用两种。
+此维度的独特之处在于，它包含多种使用数据来填充的方法。 您可以使用其中一种方法，也可以同时使用两种。
 
 * 使用 `zip` 变量直接设置邮政编码，或
 * 将其配置为从地理位置数据中提取。
@@ -26,9 +42,9 @@ ht-degree: 79%
 如果您选择使用任何涉及地域邮政编码的选项：
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[!UICONTROL 配置数据流]时启用[地理查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)。
+* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 地理查找]。
 
-## 维度项
+## 维度项目
 
 维度项包括访客的邮政编码。
 

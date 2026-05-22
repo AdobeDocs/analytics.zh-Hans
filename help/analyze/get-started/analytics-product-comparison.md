@@ -3,10 +3,34 @@ description: Analysis Workspace、Report Builder、Data Warehouse 和 Data Workb
 title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
+TQID: https://experienceleague.adobe.com/VQgK6DUSlz-UA3zk-Q18-QOAI5M6xfK7KqBYwW56j6w
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: af53ada8-1b7d-4929-ac91-ac971dd20ec7
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 68%
+source-wordcount: 530
+ht-degree: 67%
 
 ---
 
@@ -18,7 +42,7 @@ ht-degree: 68%
 
 | 产品名称和帮助链接 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [数据馈送](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **访问方法** | [浏览器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | 通过浏览器进行安装。[了解详情](/help/analyze/get-started/sys-reqs.md) | 通过浏览器进行安装。[了解详情](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用 Adobe Developer 凭据登录。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **访问方法** | [浏览器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | 通过浏览器进行安装。 [了解详情](/help/analyze/get-started/sys-reqs.md) | 通过浏览器进行安装。 [了解详情](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。 使用 Adobe Developer 凭据登录。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **数据粒度** | 汇总 | 汇总 | 汇总 | 点击 | 汇总 |
 | **Experience Cloud ID (ECID) 可用** | 否 | 否 | 是 | 是 | 否 |
 | **时间戳可用** | 否 | 否 | 否 | 是 | 否 |

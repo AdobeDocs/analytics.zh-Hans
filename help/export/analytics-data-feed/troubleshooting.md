@@ -3,9 +3,19 @@ title: 数据馈送疑难解答
 description: 了解数据馈送作业可能无法处理或提交数据的原因。 解决数据馈送的潜在问题。
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 471
 ht-degree: 95%
 
 ---
@@ -34,12 +44,12 @@ ht-degree: 95%
 
 如果新的数据馈送引发错误，请通过手动将测试文件上传到 FTP 站点来解决问题。 在大多数情况下，您可以使用这些步骤来确定故障点。
 
-1. 使用“文件资源管理器”(Windows) 或“访达”(Mac) 登录 FTP 站点。确保您使用 FTP 协议 (`ftp://`) 并允许 [Adobe 的 IP 地址](/help/technotes/ip-addresses.md)通过您组织的防火墙。 如果您无法访问 FTP 站点，请与 FTP 站点的所有者一起确定正确的目标。
+1. 使用“文件资源管理器”(Windows) 或“访达”(Mac) 登录 FTP 站点。 确保您使用 FTP 协议 (`ftp://`) 并允许 [Adobe 的 IP 地址](/help/technotes/ip-addresses.md)通过您组织的防火墙。 如果您无法访问 FTP 站点，请与 FTP 站点的所有者一起确定正确的目标。
 
    ![文件资源管理器](assets/file_explorer.png)
 
-2. 会出现一个弹出窗口，要求输入用户名和密码。输入您的身份验证凭据。如果凭据被接受，则窗口会显示 FTP 站点上的当前内容。如果凭据不被接受，请与 FTP 所有者一起确保用户名和密码正确。 如果使用 SFTP，请确保按照 [SFTP 指南](../ftp-and-sftp/c-sftp/ftp-sftp.md)中的每个步骤进行操作。 请注意，Adobe 并不支持所有 SFTP 用例。
-3. 通过将文件拖入已验证的窗口，将其上传到 FTP 站点。任何图像或文本文档就足够了。如果在尝试将文件放置到 FTP 站点上时出错，请与 FTP 站点的所有者合作，一起确认是否具有足够的磁盘空间，以及用户名是否拥有 FTP 站点的写入权限。
+2. 会出现一个弹出窗口，要求输入用户名和密码。 输入您的身份验证凭据。 如果凭据被接受，则窗口会显示 FTP 站点上的当前内容。 如果凭据不被接受，请与 FTP 所有者一起确保用户名和密码正确。 如果使用 SFTP，请确保按照 [SFTP 指南](../ftp-and-sftp/c-sftp/ftp-sftp.md)中的每个步骤进行操作。 请注意，Adobe 并不支持所有 SFTP 用例。
+3. 通过将文件拖入已验证的窗口，将其上传到 FTP 站点。 任何图像或文本文档就足够了。 如果在尝试将文件放置到 FTP 站点上时出错，请与 FTP 站点的所有者合作，一起确认是否具有足够的磁盘空间，以及用户名是否拥有 FTP 站点的写入权限。
 4. 确认文件已在 FTP 站点上之后，可删除上一步中上传的文件。
 
 如果以上所有步骤都有效，但仍然出现 FTP 错误，请联系客户关怀部门。

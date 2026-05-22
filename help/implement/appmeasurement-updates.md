@@ -30,10 +30,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 2843
-ht-degree: 69%
+source-wordcount: 2885
+ht-degree: 53%
 
 ---
 
@@ -192,12 +192,12 @@ ht-degree: 69%
 
 发行日期：**2018 年 9 月 20 日**
 
-此版本可确保 [!DNL AppMeasurement] 库为所有连接类型正确提交 Cookie。
+此版本可确保AppMeasurement库为所有连接类型正确提交Cookie。
 
-* [!DNL AppMeasurement] 会在 POST 期间阻止 Cookie 传输。 (AN-165538)
+* AppMeasurement会在POST期间阻止Cookie传输。 (AN-165538)
 * 删除对XDomainRequest的支持。 (AN-165733)
-* 将 [!DNL AppMeasurement] 默认 Cookie 生命周期从 5 年减少到 2 年。 (AN-158572)
-* 从“代码管理器”删除了“媒体模块”([!DNL AppMeasurement]) (AN-166590)
+* 将AppMeasurement默认Cookie生命周期从5年减少到2年。 (AN-158572)
+* 从代码管理器中删除“媒体模块”( AppMeasurement) (AN-166590)
 
 ## 版本 2.9.0
 
@@ -205,9 +205,9 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->使用 [!DNL Experience Cloud] ID 服务的客户需要安装访客 API 3.0 或更高版本。 Adobe 建议，每当更新关联的代码库（[!DNL at.js] 等）时，请升级至访客 API 的最新版本。[!DNL AppMeasurement.js]
+>使用Experience Cloud ID服务的客户需要安装访客API 3.0或更高版本。 Adobe 建议，每当更新关联的代码库（`at.js` 等）时，请升级至访客 API 的最新版本。`AppMeasurement.js`
 
-* 更新了 [!DNL AppMeasurement] 以使用更新的访客界面来获取请求 ID。 (AN-151483)
+* 更新了AppMeasurement以使用更新的访客界面来获取请求ID。 (AN-151483)
 * 修复了在关闭链接跟踪后链接跟踪Cookie不断被写入的问题。 (AN-156332)
 * 修复了 `registerPreTrackCallback` 和 `registerPostTrackCallback` 在调用多次后中断回调函数签名的问题。 (AN-158566)
 
@@ -215,9 +215,9 @@ ht-degree: 69%
 
 发行日期：**2018 年 4 月 12 日**
 
-* 更新 [!DNL AppMeasurement] 以使用更新的访客界面来获取请求 ID。 (AN-151483)
+* 更新AppMeasurement以使用更新的访客界面来获取请求ID。 (AN-151483)
 * 一旦链接跟踪关闭，链接跟踪Cookie会不断被写入。 (AN-156332)
-* 将 [!DNL AppMeasurement] 默认 Cookie 生命周期从 5 年减少到 2 年。 (AN-158572)
+* 将AppMeasurement默认Cookie生命周期从5年减少到2年。 (AN-158572)
 
 ## 版本 2.8.1
 
@@ -231,9 +231,9 @@ ht-degree: 69%
 
 重新捆绑 Visitor API 3.1.0 (AN-159524)，该版本包含热修复程序：（CORE-11390、CORE-10634）
 
-* 将 VAPI 版本 3.1 与 [!DNL AppMeasurement] 版本 2.8 捆绑在一起。 (AN-158353)
+* 将VAPI v3.1与AppMeasurement v2.8捆绑在一起。 (AN-158353)
 * 重构构建数据收集端点以促进共享。 (AN-156647)
-* 将请求往返计时量度添加到 [!DNL AppMeasurement]。 (AN-158343)
+* 将请求的往返计时量度添加到AppMeasurement。 (AN-158343)
 
 ## 版本 2.7.0
 
@@ -247,13 +247,13 @@ ht-degree: 69%
 
 发行日期：**2017 年 11 月 9 日**
 
-修复在调用 s_gl 时 [!DNL AppMeasurement] 库并非总是设置正确的帐户组合的问题。 (AN-152153)
+修复了在调用s_gl时，AppMeasurement库并非总是设置正确的帐户组合的问题。 (AN-152153)
 
 ## 版本 2.5.0
 
 发行日期：**2017 年 9 月 21 日**
 
-* 添加了 [!DNL dil.js 6.12]（[!DNL Audience Manager] 模块）
+* 包括`dil.js` 6.12（Audience Manager模块）
 * 添加了 Visitor API 2.5.0。
 
 ## 版本 2.4.0
@@ -274,7 +274,7 @@ ht-degree: 69%
 
 发布日期：**2017 年 6 月 8 日**
 
-* 添加了对多个 [!DNL AppMeasurement] 实例化订单的支持。 (AN-138237)
+* 添加了对多个AppMeasurement实例化订单的支持。 (AN-138237)
 * 包括2.2.0版本的访客API。 (AN-144042)
 
 ## 版本 2.1.0
@@ -307,39 +307,39 @@ ht-degree: 69%
 更新日期：**2016 年 11 月 11 日**
 
 * 包含 Visitor API 1.10.1.
-* 使用 Demdex Integration Library (DIL) 6.6 更新 [!DNL Audience Manager] 模块。 (AN-132065)
+* 使用Demdex Integration Library (DIL) 6.6更新Audience Manager模块。 (AN-132065)
 * 包括 Visitor API 1.9.0。 (AN-132072)
-* 通过 DIL 6.5 和额外配置更新 [!DNL AppMeasurement] [!DNL Audience Manager] 模块 (AN-129411)
+* 使用AppMeasurement 6.5和额外配置更新DIL Audience Manager模块(AN-129411)
 * 包括 Visitor API 1.8.0 (AN-129887)
 
 ## 版本 1.6.4
 
 更新日期：**2016 年 8 月 18 日**
 
-* 更新了 [!DNL AppMeasurement] 以读写 AMCV cookie。 (AN-127098)
+* 更新了AppMeasurement以读写AMCV Cookie。 (AN-127098)
 * 包括 Visitor API 1.7.0。
 
 >[!NOTE]
 >
->另请参阅下面的 [!DNL JavaScript] 版本 1.6.3 发行说明，其中包括 Marketing Cloud ID 服务的更新要求。
+>另请参阅以下JavaScript版本1.6.3发行说明，其中包括Experience Cloud ID服务的更新要求。
 
 ## 版本 1.6.3
 
 更新日期：**2016 年 8 月 4 日**
 
-* 修复了 [!DNL AppMeasurement] 过早终止请求连接的问题。 (AN-126448)
+* 修复了AppMeasurement过早终止请求连接的问题。 (AN-126448)
 
 >[!IMPORTANT]
 >
->版本 1.6.0 的 [!DNL Experience Cloud] ID 服务&#x200B;*要求* [!DNL AppMeasurement] for [!DNL JavaScript] 版本 1.6.3 或更高版本。 如果您要升级到版本 1.6.0 的 Experience Cloud ID 服务，请确保您使用的是 AppMeasurement 1.6.3 或更高版本。
+>版本1.6.0的Experience Cloud ID服务&#x200B;*要求* AppMeasurement for JavaScript版本1.6.3或更高版本。 如果您要升级到版本 1.6.0 的 Experience Cloud ID 服务，请确保您使用的是 AppMeasurement 1.6.3 或更高版本。
 
 ## 版本 1.6.2
 
 发行日期：**2016 年 7 月 21 日**
 
 * 包括 Visitor API 1.6.0。
-* 修复了导致 [!DNL AppMeasurement] 在访客 API 中调用错误的模糊处理方法的问题。 (AN-126006)
-* 修复了导致[!DNL JavaScript]错误的问题：“属性仅在v:image上有效”。 (AN-124009)
+* 修复了导致AppMeasurement在访客API中调用错误的模糊处理方法的问题。 (AN-126006)
+* 修复了导致JavaScript错误：“属性仅在v:image上有效”的问题。 (AN-124009)
 
 ## 版本 1.6.1
 
@@ -352,8 +352,8 @@ ht-degree: 69%
 
 发行日期：**2016 年 4 月 21 日**
 
-* [!DNL AppMeasurement] Activity Map 模块已集成在 [!DNL AppMeasurement] 标准模块中，因此，您只需引用一个 [!DNL .js] 文件。 此外，默认情况下会激活Activity Map跟踪。 (AN-112689)
-* 修复了 [!DNL AppMeasurement] 中的查询字符串变量顺序存在的截断问题，以便 *`pageURLRest`* 位于最后。 (AN-114647)
+* AppMeasurement Activity Map模块已集成在AppMeasurement标准模块中，以便您只需引用一个`.js`文件。 此外，默认情况下会激活Activity Map跟踪。 (AN-112689)
+* 修复了AppMeasurement中查询字符串变量顺序存在的截断问题，以便&#x200B;*`pageURLRest`*&#x200B;位于最后。 (AN-114647)
 
 ## 版本 1.5.4
 
@@ -366,7 +366,7 @@ ht-degree: 69%
 
 发行日期：**2016 年 1 月 21 日**
 
-* 修复了在 POST 用于跟踪调用时对 [!DNL Audience Manager] 模块的处理。 (AN-115381)
+* 修复了在POST用于跟踪调用时对Audience Manager模块的处理。 (AN-115381)
 * 已将页面URL (“ — g”)的其余部分移动到跟踪请求查询字符串的末尾。 (AN-114647)
 
 ## 版本 1.5.2
@@ -381,7 +381,7 @@ ht-degree: 69%
 发行日期：**2015 年 9 月 17 日**
 
 * 包括 Visitor API 1.5.2
-* 更新了[!DNL Audience Manager]模块以使用Adobe Audience Manager DIL 6.2 — 从VisitorAPI.js获取Customer ID并在事件调用中将它们传递到Adobe Audience Manager。 (AN-104978)
+* 更新了Audience Manager模块，以使用Adobe Audience Manager DIL 6.2 — 从VisitorAPI.js获取客户ID，并在事件调用中将它们传递到Adobe Audience Manager。 (AN-104978)
 
 ## 版本 1.5
 
@@ -402,7 +402,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->**已知问题**：在访客 API/[!DNL AppMeasurement] [!DNL Audience Manager] 模块集成中，将有两个在 IE6-9 中发出的目标发布 iFrame 请求：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。 如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`。
+>**已知问题**：在访客API/AppMeasurement Audience Manager模块集成中，将有两个在IE6-9中发出的目标发布iFrame请求： `//fast.<subdomain>.demdex.net/dest5.html`和`//fast.<subdomain>.demdex.net/dest4.html`。 如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`。
 
 ## 版本 1.4.4
 
@@ -450,7 +450,7 @@ ht-degree: 69%
 
   >[!IMPORTANT]
   >
-  >对于在 [!DNL Analytics] 中使用 POST 方法而不是 GET 方法（一种用于解决 [!DNL AppMeasurement]IE 中的截断 URL[&#x200B; 的方法）的 &#x200B;](https://helpx.adobe.com/cn/analytics/kb/shortening-image-request-urls.html) 调用，您必须对 Experience Cloud 使用最新的访客 ID 服务实施。
+  >若要让Analytics调用使用`POST`方法，而不是AppMeasurement中的`GET`方法（一种用于解决IE中[截断URL](/help/implement/js/troubleshooting.md)的方法），您必须对CX Enterprise使用最新的访客ID服务实施。
 
 ## 版本 1.4
 
@@ -468,20 +468,20 @@ ht-degree: 69%
 
 发行日期：**2014 年 6 月 19 日**
 
-* 修复了在处理访客 API 字段（例如，原有 [!DNL Analytics] 访客 ID）的已完成和正在等待标记时，会产生错误的问题。
+* 修复了在处理访客API字段（例如，旧版Analytics访客ID）的已完成和正在等待标记时，会产生错误的问题。
 * 支持访客 ID 服务 1.3 中的新增功能。
 
 ## 版本 1.3.1
 
 发行日期：**2014 年 5 月 22 日**
 
-* [!DNL AppMeasurement] for [!DNL JavaScript]`s_gi` 函数无法正确查找使用 H 代码 `s_gi` 创建的实例。 请注意，该问题仅会影响一些双标记实施，在这些实施中，[!DNL AppMeasurement] for [!DNL JavaScript] 和 H 代码位于同一页面上，但却在单独实例中，而且 `s_gi` 被报告包用来查找实例。
+* AppMeasurement for JavaScript `s_gi`函数无法正确查找使用H代码`s_gi`创建的实例。 请注意，该问题仅会影响一些双标记实施，在这些实施中，AppMeasurement for JavaScript和H代码位于同一页面上，但却在单独实例中，而且`s_gi`被报表包用来查找实例。
 
 ## 版本 1.3
 
 发行日期：**2014 年 4 月 17 日**
 
-* 支持 [Experience Cloud 访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* 支持[CX Enterprise Visitor ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 ## 版本 1.2.4
 
@@ -499,7 +499,7 @@ ht-degree: 69%
 
 发行日期：**2014 年 2 月 6 日**
 
-* 修复了 [!DNL Audience Manager] DIL 模块存在的兼容性问题。 [!DNL Audience Manager] 客户还必须更新到 4.8 版本的 DIL 模块。
+* 修复了Audience Manager DIL模块存在的兼容性问题。 Audience Manager客户还必须更新到4.8版本的DIL模块。
 
 ## 版本 1.2.1
 
@@ -531,7 +531,7 @@ ht-degree: 69%
 发行日期：**2013 年 8 月 15 日**
 
 * 增加了对通过 Adobe 标签管理进行部署的支持。
-* 修复了阻止层次结构变量在 [!DNL AppMeasurement] 对象上设置的问题。
+* 修复了阻止层次结构变量在AppMeasurement对象中设置的问题。
 
 ## 版本 1.0.2
 
@@ -549,7 +549,7 @@ ht-degree: 69%
 
 发行日期：**2013 年 5 月 23 日**
 
-代码管理器目前提供了新的 [!DNL JavaScript] [!DNL AppMeasurement] 库。 此库提供了与 [!DNL s_code.js] 相同的核心功能，但它更轻快，更适合在移动网站和桌面网站上使用。
+代码管理器中现在提供了新的JavaScript AppMeasurement库。 此库提供了与 `s_code.js` 相同的核心功能，但它更轻快，更适合在移动网站和桌面网站上使用。
 
 * 比H.25代码快3到7倍。
 * 未压缩的数据仅为21k，而采用gzipped压缩的数据为8k（H.25代码的未压缩数据为33k，采用gzipped的数据为13k）。

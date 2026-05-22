@@ -4,10 +4,21 @@ title: 快速区段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/fHIB-E9w4CRsmqGS8ZmXZVIdeV-SxcPNUPgzNUHgK74
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 76%
+source-wordcount: 117
+ht-degree: 66%
 
 ---
 
@@ -17,7 +28,7 @@ ht-degree: 76%
 
 创建快速区段时，请考虑以下事项：
 
-* 快速区段仅适用于在其中创建它们的项目。此类过滤器在其他项目中不可用，无法共享给其他用户。
+* 快速区段仅适用于在其中创建它们的项目。 此类过滤器在其他项目中不可用，无法共享给其他用户。
 * 最多允许使用 3 个规则。
 * 不支持嵌套容器或顺序规则。
 

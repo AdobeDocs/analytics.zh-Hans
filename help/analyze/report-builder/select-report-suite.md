@@ -6,9 +6,20 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
-source-git-commit: 6f7de360ac24261eabb46c6cfce99449261706de
+TQID: https://experienceleague.adobe.com/eqAH1gQYgJ05VVa7THd7taOB7S3mhzyOk-29zQHoIxM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 383
 ht-degree: 1%
 
 ---
@@ -26,11 +37,11 @@ ht-degree: 1%
 * 结构相似或相同的多个报表包。
 * 包含自定义组件和布局的复杂数据块格式。
 
-要从单元格中选择报表包，请首先构建一个数据块，并将多个报表包分配给数据块以外的单元格。 然后，使用单元格&#x200B;**[!UICONTROL 中的]**&#x200B;报表包面板刷新不同报表包中的数据块。
+要从单元格中选择报表包，请首先构建一个数据块，并将多个报表包分配给数据块以外的单元格。 然后，使用单元格&#x200B;**中的**&#x200B;报表包面板刷新不同报表包中的数据块。
 
 1. 创建数据块。 有关创建数据块的信息，请参阅[创建数据块](/help/analyze/report-builder/create-a-data-block.md)。
 
-1. 选择![报表包](/help/assets/icons/DataViewSelector.svg)中的&#x200B;**[!UICONTROL DataViewSelector]**。
+1. 选择&#x200B;**[!UICONTROL 报表包]**&#x200B;中的![DataViewSelector](/help/assets/icons/DataViewSelector.svg)。
 
 1. 使用数据块外部的![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)选择单元格。
 
@@ -54,4 +65,4 @@ ht-degree: 1%
    ![从单元格更改报表包](assets/change-data-view-from-cell.png){zoomable="yes"}
 1. 可选，选择&#x200B;**[!UICONTROL 更改时刷新数据块]**。
 
-1. 选择&#x200B;**[!UICONTROL 应用]**。Report Builder会根据选定的报表包刷新数据块。
+1. 选择&#x200B;**[!UICONTROL 应用]**。 Report Builder会根据选定的报表包刷新数据块。

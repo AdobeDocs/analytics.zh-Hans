@@ -4,10 +4,24 @@ description: 测量完成一项任务所需的时间。
 feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/GbehSttxbJlbYKbBIHCUy34Bz5JN7LsRMOEO5wAfmg8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 89%
+source-wordcount: 638
+ht-degree: 88%
 
 ---
 
@@ -15,7 +29,7 @@ ht-degree: 89%
 
 {{plug-in}}
 
-`getTimeToComplete` 插件可跟踪用户在网站上完成某个流程所需的时间。“时钟”在调用 `start` 操作时开始，并在调用 `stop` 操作时结束。如果网站上的某个工作流程需要花一些时间才能完成，并且您希望了解访客完成该工作流程所用的时间，Adobe 建议使用此插件。如果网站上的工作流程需要很短时间（少于 3 秒）即可完成，则无需使用此插件，因为可测量的最小时间粒度为 1 秒。
+`getTimeToComplete` 插件可跟踪用户在网站上完成某个流程所需的时间。 “时钟”在调用 `start` 操作时开始，并在调用 `stop` 操作时结束。 如果网站上的某个工作流程需要花一些时间才能完成，并且您希望了解访客完成该工作流程所用的时间，Adobe 建议使用此插件。 如果网站上的工作流程需要很短时间（少于 3 秒）即可完成，则无需使用此插件，因为可测量的最小时间粒度为 1 秒。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -50,7 +64,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,10 +77,10 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 `getTimeToComplete` 函数使用以下参数：
 
-* **`sos`**（可选，字符串）：要启动计时器时设置为 `"start"`。要停止计时器时设置为 `"stop"`。默认为 `"start"`。
-* **`cn`**（可选，字符串）：用于存储开始时间的 Cookie 的名称。默认为 `"s_gttc"`。
-* **`exp`**（可选，整数）：Cookie（和计时器）过期的秒数、小时数或天数（具体取决于 `tp` 分时参数）。默认为 30 分钟。
-* **`tp`**（可选，字符串）：Cookie（和计时器）过期的分时字符串，与 `exp` 参数一起使用。设置为“d”表示天数，设置为“h”表示小时数，设置为“s”表示秒数。如果未设置，Cookie（和计时器）过期时间默认为 30 分钟，无论将 `exp` 参数设置为何值。
+* **`sos`**（可选，字符串）：要启动计时器时设置为 `"start"`。 要停止计时器时设置为 `"stop"`。 默认为 `"start"`。
+* **`cn`**（可选，字符串）：用于存储开始时间的 Cookie 的名称。 默认为 `"s_gttc"`。
+* **`exp`**（可选，整数）：Cookie（和计时器）过期的秒数、小时数或天数（具体取决于 `tp` 分时参数）。 默认为 30 分钟。
+* **`tp`**（可选，字符串）：Cookie（和计时器）过期的分时字符串，与 `exp` 参数一起使用。 设置为“d”表示天数，设置为“h”表示小时数，设置为“s”表示秒数。 如果未设置，Cookie（和计时器）过期时间默认为 30 分钟，无论将 `exp` 参数设置为何值。
 
 调用此函数将返回一个字符串，其中包含从 `"start"` 到 `"stop"` 操作所用的时间（天数、小时数、分钟数和/或秒数）。
 
@@ -96,7 +110,7 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 
 ### 3.1（2019 年 9 月 30 日）
 
-* 添加了要求第一个参数中的值只能为“start”或“stop”的逻辑。传入的所有其他值都会阻止插件运行。
+* 添加了要求第一个参数中的值只能为“start”或“stop”的逻辑。  传入的所有其他值都会阻止插件运行。
 * 已将 `inList 2.0` 插件更新为 `inList 2.1`。
 
 ### 3.0（2018 年 8 月 23 日）

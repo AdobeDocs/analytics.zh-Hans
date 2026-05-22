@@ -4,18 +4,32 @@ description: 填充“跟踪代码”维度。
 feature: Appmeasurement Implementation
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/4OF7xoZs8bLS4UW8wfJYHqSyc-gNVLAfPs5j3NwZCcM'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 88%
+source-wordcount: 244
+ht-degree: 95%
 
 ---
 
 # campaign
 
-`campaign` 变量专门用于在您的网站上收集跟踪代码。在 Adobe Analytics 的早期版本中，该变量具有特殊用途，可用于划分大多数维度。在 Adobe Analytics 的当前版本中，它的作用与 eVar 相同。
+`campaign` 变量专门用于在您的网站上收集跟踪代码。 在 Adobe Analytics 的早期版本中，该变量具有特殊用途，可用于划分大多数维度。 在 Adobe Analytics 的当前版本中，它的作用与 eVar 相同。
 
-此变量填充[跟踪代码](/help/components/dimensions/tracking-code.md)维度。它一般使用 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 实用方法从查询字符串获取其值。但是，由您的组织确定究竟如何设置此变量。
+此变量填充[跟踪代码](/help/components/dimensions/tracking-code.md)维度。 它一般使用 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 实用方法从查询字符串获取其值。 但是，由您的组织确定究竟如何设置此变量。
 
 ## 使用 Web SDK 的营销活动
 
@@ -32,14 +46,14 @@ Campaign会映射到以下变量：
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 促销活动]部分。
 
 您可以将促销活动设置为一个值或一个查询字符串参数。
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.campaign
 
-`s.campaign` 变量是一个字符串，通常包含营销活动中使用的跟踪代码。其最大长度为 255 字节；超过 255 字节的值在发送到 Adobe 时会自动被截断。
+`s.campaign` 变量是一个字符串，通常包含营销活动中使用的跟踪代码。 其最大长度为 255 字节；超过 255 字节的值在发送到 Adobe 时会自动被截断。
 
 ```js
 // Set the campaign variable to a static value

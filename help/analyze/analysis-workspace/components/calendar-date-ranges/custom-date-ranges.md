@@ -5,9 +5,20 @@ title: 自定义日期范围示例
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/aE8L1czTiBKQG3MR-9aCxkBgO2qLp17K-n7Qmnjj-YM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: 118
 ht-degree: 100%
 
 ---
@@ -22,7 +33,7 @@ ht-degree: 100%
 
 +++ 详细信息
 
-您希望定义一个自定义日期范围，用于表示“两个月前”。您可以使用其中一个预设选项。
+您希望定义一个自定义日期范围，用于表示“两个月前”。 您可以使用其中一个预设选项。
 
 ![两个月前](assets/date-range-example-simple.png)
 
@@ -33,7 +44,7 @@ ht-degree: 100%
 
 +++ 详细信息
 
-您要定义一个日期范围，表示从当前日期的前一周起，一直到该周的结束日期（即上周末）这一时间段。例如，如果今天是 2024 年 9 月 11 日星期三。您要定义的日期范围是从 2024 年 9 月 4 日（星期三）至 2024 年 9 月 7 日（星期六）。
+您要定义一个日期范围，表示从当前日期的前一周起，一直到该周的结束日期（即上周末）这一时间段。 例如，如果今天是 2024 年 9 月 11 日星期三。 您要定义的日期范围是从 2024 年 9 月 4 日（星期三）至 2024 年 9 月 7 日（星期六）。
 
 ![日期范围示例](assets/date-range-example.png)
 

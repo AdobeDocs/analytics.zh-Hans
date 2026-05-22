@@ -4,16 +4,28 @@ description: 导航到管理数据源界面。
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: 'https://experienceleague.adobe.com/FgAo4CzdiJlB9u-XJX2XfWL0Zt8Wzg3Uk08Cw17stsw'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 7%
+source-wordcount: 664
+ht-degree: 6%
 
 ---
 
 # 管理数据源
 
-可使用数据源管理器创建、编辑或停用数据源。您还可以使用此界面跟踪上传到数据源 FTP 位置的文件的状态。
+可使用数据源管理器创建、编辑或停用数据源。 您还可以使用此界面跟踪上传到数据源 FTP 位置的文件的状态。
 
 **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**
 
@@ -31,7 +43,7 @@ ht-degree: 7%
 
 每个数据源都有以下选项：
 
-* **[!UICONTROL 重新启动处理]**：重新启动先前由于错误而停止的数据源处理。 处理将继续进行，直到发生下一个错误为止。仅当选择&#x200B;**[!UICONTROL 出错时停止处理]**&#x200B;时，数据源才会停止处理数据源文件。
+* **[!UICONTROL 重新启动处理]**：重新启动先前由于错误而停止的数据源处理。 处理过程将持续进行，直到遇到下一个错误。 仅当选择&#x200B;**[!UICONTROL 出错时停止处理]**&#x200B;时，数据源才会停止处理数据源文件。
 * **[!UICONTROL 完成处理]**：不再使用 — 此按钮仅用于[完全处理数据源](full-processing-eol.md)。
 * **[!UICONTROL 出错时停止处理]**：指示处理服务器在遇到错误时停止处理的复选框。 在选择&#x200B;**[!UICONTROL 重新启动处理]**&#x200B;之前，数据源不会继续处理。 当数据源遇到文件错误时，它会通知您该错误。 Adobe将出错的文件移到FTP服务器上名为`files_with_errors`的文件夹中。 解决问题后，重新提交文件以进行处理。
 * **[!UICONTROL 配置]**：一个链接，可引导您完成此数据源的数据源创建向导。 此向导允许您重命名数据源，或重新配置下载模板文件时自动包含的变量。

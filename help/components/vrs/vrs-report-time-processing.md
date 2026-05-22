@@ -5,10 +5,32 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 44%
+source-wordcount: 1354
+ht-degree: 45%
 
 ---
 
@@ -34,8 +56,8 @@ ht-degree: 44%
 
 以下配置选项当前可用于启用了报表时间处理的虚拟报表包：
 
-* **[!UICONTROL 访问超时]：**&#x200B;访问超时设置定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。 默认为 30 分钟。例如，如果将访问超时设置为15分钟，则会以15分钟的非活动状态进行分隔，为每个收集的点击序列创建一个新的访问分组。 此设置不仅影响您的访问计数，还会影响访问区段容器的评估方式，以及访问时过期的任何eVar的访问过期逻辑。 减少访问超时可能会增加报表中的访问总数，而增加访问超时可能会减少报表中的访问总数。
-* **[!UICONTROL 移动应用程序访问设置]：**&#x200B;对于包含移动应用程序通过 [Adobe Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans) 生成的数据的报表包，可以使用其他访问设置。 这些设置不具有破坏性，只会影响通过 Mobile SDK 收集的点击量。这些设置对通过 Mobile SDK 之外的程序收集的数据没有影响。
+* **[!UICONTROL 访问超时]：**&#x200B;访问超时设置定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。 默认为 30 分钟。 例如，如果将访问超时设置为15分钟，则会以15分钟的非活动状态进行分隔，为每个收集的点击序列创建一个新的访问分组。 此设置不仅影响您的访问计数，还会影响访问区段容器的评估方式，以及访问时过期的任何eVar的访问过期逻辑。 减少访问超时可能会增加报表中的访问总数，而增加访问超时可能会减少报表中的访问总数。
+* **[!UICONTROL 移动应用程序访问设置]：**&#x200B;对于包含移动应用程序通过 [Adobe Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans) 生成的数据的报表包，可以使用其他访问设置。 这些设置不具有破坏性，只会影响通过 Mobile SDK 收集的点击量。 这些设置对通过 Mobile SDK 之外的程序收集的数据没有影响。
 * **[!UICONTROL 避免将后台点击计算为一次新的访问]：**&#x200B;当应用程序处于后台状态时，后台点击由 Mobile SDK 收集。
 * **[!UICONTROL 在每次应用程序启动后即开始一个新访问]：**&#x200B;除了访问超时之外，只要从 Mobile SDK 记录了应用程序启动事件，您就可以强制开始访问，而不管处于非活动状态的时间长短。 此设置会影响访问量度和访问区段容器，以及 eVar 中的访问过期逻辑。
 * **[!UICONTROL 通过事件开始新访问]：**&#x200B;无论会话是否超时，都会在触发事件时启动新会话。 新创建的会话包括启动该会话的事件。 此外，您可以使用多个事件来启动会话，如果在数据中观察到这些事件中的任一事件，则会触发新会话。 此设置将影响您的访问计数、访问分段容器以及eVar上的访问过期逻辑。
@@ -66,9 +88,9 @@ ht-degree: 44%
 * [**原始登入页面**](/help/components/dimensions/entry-dimensions.md)
 * **线性分配eVar**
 * **列表变量**
-* [**“营销渠道”维度**](/help/components/dimensions/marketing-channel.md)
+* [**营销渠道维度**](/help/components/dimensions/marketing-channel.md)
 * [**原始反向链接域**](/help/components/dimensions/original-referring-domain.md)
-* [**回访频度**](/help/components/dimensions/return-frequency.md)
+* [**回访频率**](/help/components/dimensions/return-frequency.md)
 * [**单次存取**](/help/components/metrics/single-access.md)
 * **交易ID数据源**
 * [**访问量**](/help/components/dimensions/visit-number.md)
@@ -77,7 +99,7 @@ ht-degree: 44%
 
 以下是受影响的维度和指标列表，具体取决于所选的报表时间处理设置：
 
-* 如果启用了“避免将后台点击计算为一次新的访问”，则会发生以下更改。有关详细信息，请参阅[上下文感知会话化](vrs-mobile-visit-processing.md)。
+* 如果启用了“避免将后台点击计算为一次新的访问”，则会发生以下更改。 有关详细信息，请参阅[上下文感知会话化](vrs-mobile-visit-processing.md)。
    * [**跳出次数**](/help/components/metrics/bounces.md) / [**跳出率：**](/help/components/metrics/bounce-rate.md)&#x200B;未后跟前台点击的后台点击不被视为跳出，也不会增加跳出率。
    * [**每次访问逗留时间（秒）：**](/help/components/metrics/time-spent-per-visit.md)&#x200B;只有包含前台点击的访问才会计入此指标。
    * **每次访问逗留时间：**&#x200B;只有包含前台点击的访问才会计入此指标。
@@ -85,9 +107,9 @@ ht-degree: 44%
    * [**登录维度**](/help/components/dimensions/entry-dimensions.md) / [**退出维度：**](/help/components/dimensions/exit-dimensions.md)&#x200B;此维度中仅显示具有前台点击的访问中的登录和退出。
    * [**独特访客数指标：**](/help/components/metrics/unique-visitors.md)&#x200B;独特访客数不包括在报表日期范围内只具有后台点击的访客。
 * [**访问次数：**](/help/components/metrics/visits.md)&#x200B;访问次数反映了虚拟报表包配置的任何设置，这些设置可能与基础报表包不同。
-* **使用事件 ID 序列化的事件：**&#x200B;对于一个访客在报表日期范围内发生的事件，只会对使用事件 ID 进行序列化的事件进行重复数据删除。由于报表时间处理存在日期时限，因此，不会在全局范围内对所有日期或访客发生的这些事件进行重复数据删除。
+* **使用事件 ID 序列化的事件：**&#x200B;对于一个访客在报表日期范围内发生的事件，只会对使用事件 ID 进行序列化的事件进行重复数据删除。 由于报表时间处理存在日期时限，因此，不会在全局范围内对所有日期或访客发生的这些事件进行重复数据删除。
 * **购买** / [**收入**](/help/components/metrics/revenue.md) / [**订单**](/help/components/metrics/orders.md) / [**件数：**](/help/components/metrics/units.md)&#x200B;当使用购买ID时，由于报表时间处理存在日期时限，这些量度仅会对一个访客在报表日期范围内出现的重复购买ID进行重复数据删除，而不会在全局范围内对所有日期或访客出现的重复购买ID进行重复数据删除。
 * 由于报表时间处理存在日期时限，在eVar中设置的&#x200B;[**非推销eVars**](/help/components/dimensions/evar.md) / **保留eVars：**&#x200B;只有在报表日期范围内设置了该值时，才会保留该值。 此外，如果持久保留时间跨越夏令时变更，则基于时间的过期可能会提前一小时或延后一小时。
 * [**促销eVar**](/help/components/dimensions/evar-merchandising.md) / **保留eVar：**&#x200B;请参阅上文。 此外，对于将绑定设置为“任何事件”的转化语法，将改用“任何点击”。
 * [**点击类型：**](/help/components/dimensions/hit-type.md)&#x200B;此维度指定点击是前台点击还是后台点击。
-* **具有（低流量）或“超出唯一数”的维度：**（低流量）订单项在使用报表时间处理时的确定略有不同，并且不能保证与在基本报表包上生成报表时观察到的一致。不属于低流量的Dimension行项目不能保证代表该行项目的100%数据。 维度中存在的唯一值数量越多，这些差异就越明显。
+* **具有（低流量）或“超出唯一数”的维度：**（低流量）订单项在使用报表时间处理时的确定略有不同，并且不能保证与在基本报表包上生成报表时观察到的一致。 不属于低流量的Dimension行项目不能保证代表该行项目的100%数据。 维度中存在的唯一值数量越多，这些差异就越明显。

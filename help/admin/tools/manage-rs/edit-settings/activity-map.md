@@ -1,16 +1,33 @@
 ---
 description: 启用维度，以便Activity Map能够收集数据。
-title: Activity Map 报表功能
+title: Activity Map 报告
 feature: Admin Tools
 exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/GiBhdUMAX5P9zxxDAVUZPcaeKpnezKvDn3MB0g95DH0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 3%
+source-wordcount: 170
+ht-degree: 31%
 
 ---
 
-# Activity Map 报表功能
+# Activity Map 报告
 
 允许您启用维度以用于[Activity Map](/help/analyze/activity-map/overview.md)。
 
@@ -20,10 +37,10 @@ ht-degree: 3%
 
 当您选择&#x200B;**[!UICONTROL 启用Activity Map报表]**&#x200B;按钮时，将创建以下维度：
 
-* [[!UICONTROL Activity Map链接]](/help/components/dimensions/activity-map-link.md)：已单击的链接名称。
-* [[!UICONTROL Activity Map地区]](/help/components/dimensions/activity-map-region.md)：被点击的地区名称。
-* [[!UICONTROL Activity Map页面]](/help/components/dimensions/activity-map-page.md)：链接被单击时的页面名称。
-* [[!UICONTROL 按地区]](/help/components/dimensions/activity-map-link-by-region.md)列出的Activity Map链接： Activity Map链接与Activity Map地区的拼接值。
+* [[!UICONTROL Activity Map 链接]](/help/components/dimensions/activity-map-link.md)：所点击的链接名称。
+* [[!UICONTROL Activity Map 区域]](/help/components/dimensions/activity-map-region.md)：所点击的区域名称。
+* [[!UICONTROL Activity Map 页面]](/help/components/dimensions/activity-map-page.md)：点击链接时的页面名称。
+* [[!UICONTROL 按区域的 Activity Map 链接]](/help/components/dimensions/activity-map-link-by-region.md)：Activity Map 链接与 Activity Map 区域的拼接值。
 
 启用后，您的实施可以开始将数据发送到这些维度，以在[Analysis Workspace](/help/analyze/analysis-workspace/home.md)和[浏览器扩展叠加](/help/analyze/activity-map/overlay/overview.md)中使用。
 

@@ -6,10 +6,21 @@ title: 跨设备连接用户
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 role: Developer
-source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
+TQID: 'https://experienceleague.adobe.com/t4NC8Wdgldm6iFgdJ5EtrU13kOnUBuEGKhWnKExf614'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 95%
+source-wordcount: 389
+ht-degree: 94%
 
 ---
 
@@ -17,19 +28,19 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->不再建议使用这种方法来识别跨设备访客。相关信息，请参阅组件用户指南中的[跨设备分析](/help/components/cda/overview.md)。
+>不再建议使用这种方法来识别跨设备访客。 相关信息，请参阅组件用户指南中的[跨设备分析](/help/components/cda/overview.md)。
 
-跨设备访客识别可帮助您连接跨多个设备的访客。跨设备访客识别使用 `visitorID` 变量来关联跨设备的用户。在识别独特访客时，`visitorID` 变量享有最高优先级别。
+跨设备访客识别可帮助您连接跨多个设备的访客。 跨设备访客识别使用 `visitorID` 变量来关联跨设备的用户。 在识别独特访客时，`visitorID` 变量享有最高优先级别。
 
-当您使用自定义访客 ID 发送点击时，Adobe 会检查是否存在任何具有匹配访客 ID 的访客轮廓。如果存在，则会从此时开始使用系统中已存在的该访客轮廓，并且不再使用之前的访客轮廓。
+当您使用自定义访客 ID 发送点击时，Adobe 会检查是否存在任何具有匹配访客 ID 的访客轮廓。 如果存在，则会从此时开始使用系统中已存在的该访客轮廓，并且不再使用之前的访客轮廓。
 
-`visitorID` 变量通常在出现以下情况后进行设置：执行身份验证；或访客执行了某些其他操作，使您能够脱离他们所使用的设备进行唯一识别。有效标识符包含由用户名、电子邮件地址或内部 ID 构成且不含任何个人身份信息的哈希。
+`visitorID` 变量通常在出现以下情况后进行设置：执行身份验证；或访客执行了某些其他操作，使您能够脱离他们所使用的设备进行唯一识别。 有效标识符包含由用户名、电子邮件地址或内部 ID 构成且不含任何个人身份信息的哈希。
 
-客户从每台设备登录后，所有这些设备都会绑定到同一个用户资料。如果访客稍后在设备上注销，则这些设备将继续属于同一访客轮廓，因为 Adobe 可识别出每台设备上的浏览器 Cookie 属于同一访客轮廓。Adobe 建议尽量使用 `visitorID` 变量以防浏览器 Cookie 被删除。
+客户从每台设备登录后，所有这些设备都会绑定到同一个用户资料。 如果访客稍后在设备上注销，则这些设备将继续属于同一访客轮廓，因为 Adobe 可识别出每台设备上的浏览器 Cookie 属于同一访客轮廓。 Adobe 建议尽量使用 `visitorID` 变量以防浏览器 Cookie 被删除。
 
 ## 限制
 
 通过使用您自己的自定义访客 ID，您可以更好地控制访客的识别方式，但这同时也存在限制。
 
-* **无法实现访客计数去重**：如果一位访客在首次访问您的网站后进行身份验证，则会计为两个独特访客。其中，会将自动生成的 Analytics ID 计为一个独特访客，并将登录时使用的自定义访客 ID 计为另一个独特访客。每次访客使用新设备或清除其 Cookie 时，都会按这种方式重复计算独特访客数。
-* **与 Experience Cloud ID 服务不兼容**：自从引入跨设备访客识别功能后，Adobe 推出了更强大、更可靠的跨设备访客跟踪方法。这些新的识别方法与自定义访客 ID 覆盖不兼容。如果您计划使用ID服务或Cross-Device Analytics (CDA)，Adobe强烈建议不要使用`visitorID`变量。
+* **无法实现重复访客计数删除**：如果一位访客在首次访问您的网站后进行身份验证，则会计为两个独特访客。 其中，会将自动生成的 Analytics ID 计为一个独特访客，并将登录时使用的自定义访客 ID 计为另一个独特访客。 每次访客使用新设备或清除其 Cookie 时，都会按这种方式重复计算独特访客数。
+* **与 Experience Cloud ID 服务不兼容**：自从引入跨设备访客识别功能后，Adobe 推出了更强大、更可靠的跨设备访客跟踪方法。 这些新的识别方法与自定义访客 ID 覆盖不兼容。 如果您计划使用ID服务或Cross-Device Analytics (CDA)，Adobe强烈建议不要使用`visitorID`变量。

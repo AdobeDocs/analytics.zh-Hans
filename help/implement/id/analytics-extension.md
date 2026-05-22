@@ -1,10 +1,26 @@
 ---
 title: 使用Adobe Analytics标记扩展进行访客识别
 description: 在实施Adobe Analytics标记扩展时正确识别访客。
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+exl-id: de534c69-0f43-45eb-86da-20d3cd3f363d
+TQID: 'https://experienceleague.adobe.com/i38Vo-39aUwJOp3HoS-bb2jqwSSV0oqeR0lkjOJqcgs'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: 499
+ht-degree: 2%
 
 ---
 
@@ -16,7 +32,7 @@ Adobe Analytics标记扩展允许您使用标记管理界面实施AppMeasurement
 
 要使用Adobe Analytics标记扩展使用访客ID服务，请在标记属性中包含Experience Cloud ID服务标记扩展。
 
-1. 使用您的Adobe ID凭据登录[experience.adobe.com](https://experience.adobe.com)。
+1. 使用您的Adobe ID凭据登录[Adobe CX Enterprise](https://experience.adobe.com)。
 1. 导航到&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 标记]**。
 1. 找到所需的标记属性。
 1. 导航到&#x200B;**[!UICONTROL 扩展]**，然后选择&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡。
@@ -30,7 +46,7 @@ Adobe Analytics标记扩展允许您使用标记管理界面实施AppMeasurement
 >
 >Adobe建议不要使用此方法来识别访客。
 
-如果您的组织不使用访客ID服务标签扩展，则Adobe Analytics标签扩展将使用其自身的访客识别形式。 当访客首次访问您的网站时，扩展会检查[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 当&#x200B;**[!UICONTROL 配置标记扩展]**&#x200B;时，在匹配&#x200B;**[!UICONTROL SSL跟踪服务器]**（对于HTTPS）或[跟踪服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/analytics/overview)（对于HTTP）的域中设置此Cookie。
+如果您的组织不使用访客ID服务标签扩展，则Adobe Analytics标签扩展将使用其自身的访客识别形式。 当访客首次访问您的网站时，扩展会检查[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 当[配置标记扩展](https://experienceleague.adobe.com/cn/docs/experience-platform/tags/extensions/client/analytics/overview)时，在匹配&#x200B;**[!UICONTROL SSL跟踪服务器]**（对于HTTPS）或&#x200B;**[!UICONTROL 跟踪服务器]**（对于HTTP）的域中设置此Cookie。
 
 * 如果您参与[托管证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
 * 如果您未参与托管证书计划，则跟踪服务器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子域，从而使`s_vi` Cookie成为第三方Cookie。 由于现代浏览器隐私标准，第三方Cookie被大多数浏览器拒绝。 被拒绝后，AppMeasurement会尝试改为设置第一方回退Cookie (`fid`)。

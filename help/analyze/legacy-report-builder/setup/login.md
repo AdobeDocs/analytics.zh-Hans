@@ -1,14 +1,23 @@
 ---
-description: 了解如何使用您的Experience Cloud登录帐户登录到Report Builder。
+description: 了解如何使用您的CX Enterprise登录帐户登录到Report Builder。
 title: 如何登录到Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/xkXfYdzVjIIRXRCNrtQxaAl6KgisCVXTmTva0AqNbLA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 17%
+source-wordcount: 264
+ht-degree: 14%
 
 ---
 
@@ -18,21 +27,21 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Report Builder版本5.6.47及更高版本仅支持Experience Cloud登录，不支持旧版登录（如Site Catalyst单点登录或标准登录）。 **在2021年7月22日之前，所有Report Builder用户都必须将Report Builder加载项更新到5.6.47或更高版本，其中包括登录过程的关键更新。**
+>Report Builder版本5.6.47及更高版本仅支持CX Enterprise登录，不支持旧版登录（如Site Catalyst单点登录或标准登录）。 **在2021年7月22日之前，所有Report Builder用户都必须将Report Builder加载项更新到5.6.47或更高版本，其中包括登录过程的关键更新。**
 
-要登录Report Builder，请使用您的Experience Cloud登录帐户。
+要登录到Report Builder ，请使用您的CX Enterprise登录帐户。
 
-## 登录到Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## 登录到Adobe CX Enterprise {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Experience Cloud登录信息允许您使用Enterprise ID（电子邮件和密码）登录到Adobe Experience Cloud。
+CX Enterprise登录名允许您使用Enterprise ID（电子邮件和密码）登录到Adobe CX Enterprise。
 
-单击&#x200B;**[!UICONTROL 登录]** > **[!UICONTROL 使用企业 ID 登录]**&#x200B;可重定向到贵公司的单点登录页面。有关Enterprise ID的详细信息，请参阅[登录到您的公司或学校帐户](https://helpx.adobe.com/cn/enterprise/kb/enterprise-id-faq.html#whatis)。
+单击&#x200B;**[!UICONTROL 登录]** > **[!UICONTROL 使用Enterprise ID登录]**，以重定向到您公司的单点登录页面。 有关Enterprise ID的详细信息，请参阅[登录到您的公司或学校帐户](https://helpx.adobe.com/cn/enterprise/kb/enterprise-id-faq.html#whatis)。
 
-![屏幕截图显示Adobe Experience Cloud登录窗口，其中显示了使用或不使用您的Adobe ID登录的选项](assets/adobe_id_login.png)
+![屏幕截图显示Adobe CX Enterprise登录窗口，其中显示了使用或不使用Adobe ID登录的选项](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
->Experience Cloud登录基于会话，且令牌在30天后过期。
+>CX Enterprise登录基于会话，令牌在30天后过期。
 
 ## 登录 Report Builder
 

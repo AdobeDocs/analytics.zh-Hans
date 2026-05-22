@@ -4,34 +4,46 @@ title: 全局报表包
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: d876f191b2b10dd29b50fae53235e194e29ed1d1
+TQID: https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 95%
+source-wordcount: 413
+ht-degree: 94%
 
 ---
 
 # 全局报表包
 
-全局报表包从您的组织拥有的所有域和应用程序收集数据。它要求实施方式将所有图像请求都发送到单个报表包。
+全局报表包从您的组织拥有的所有域和应用程序收集数据。 它要求实施方式将所有图像请求都发送到单个报表包。
 
-Adobe 建议在大多数情况下实施全局报表包。有关实施全局报表包的优点，请参阅[全局报表包注意事项](/help/implement/prepare/global-rs.md)。
+Adobe 建议在大多数情况下实施全局报表包。 有关实施全局报表包的优点，请参阅[全局报表包注意事项](/help/implement/prepare/global-rs.md)。
 
 可使用&#x200B;*多包标记*&#x200B;和&#x200B;*虚拟报表包*&#x200B;方法将贵公司全局报表包数据的子集提供给不同的最终用户。
 
-* **多包标记**：通过多包标记，可将图像请求不仅发送到全局报表包，还可发送到个别的子报表包。在所有报表包上去除重复的全局报表数据。
+* **多包标记**：通过多包标记，可将图像请求不仅发送到全局报表包，还可发送到个别的子报表包。 在所有报表包上去除重复的全局报表数据。
 
-  例如，您可能将所有数据收集到一个全局报表包中，还根据品牌、区域或另一区分因素设置辅助报表包。贵公司中的不同团队随后即可集中精力处理报表包中与其相关的数据。
+  例如，您可能将所有数据收集到一个全局报表包中，还根据品牌、区域或另一区分因素设置辅助报表包。 贵公司中的不同团队随后即可集中精力处理报表包中与其相关的数据。
 
-  要使用多包标记，请实施子报表包以及一个含有子报表包中所有数据的全局报表包。您的网页和应用程序的跟踪代码将包括全局报表包的报表包 ID (RSID)，还将包括适用的子报表包的 RSID。<!-- Wording/be more specific? And include any links? -->
+  要使用多包标记，请实施子报表包以及一个含有子报表包中所有数据的全局报表包。 您的网页和应用程序的跟踪代码将包括全局报表包的报表包 ID (RSID)，还将包括适用的子报表包的 RSID。<!-- Wording/be more specific? And include any links? -->
 
-  对图像请求中的每个报表包进行单独的服务器调用。对子报表包的调用为辅助调用。
+  对图像请求中的每个报表包进行单独的服务器调用。 对子报表包的调用为辅助调用。
 
-* **虚拟报表包**：[虚拟报表包](/help/components/vrs/vrs-about.md)是对收集到全局报表包中的指定区段的查询，并对指定的用户组可用。通过虚拟报表包，无需使用多包标记，即可为不同的最终用户编排报表元素，从而避免辅助服务器调用。
+* **虚拟报表包**：[虚拟报表包](/help/components/vrs/vrs-about.md)是对收集到全局报表包中的指定区段的查询，并对指定的用户组可用。 通过虚拟报表包，无需使用多包标记，即可为不同的最终用户编排报表元素，从而避免辅助服务器调用。
 
-  要使用虚拟报表包，请实施一个全局报表包，然后解析数据以创建应用了特定区段并具有特定组权限的虚拟报表包。可在虚拟报表包管理器（[!UICONTROL “组件”]>[!UICONTROL “虚拟报表包”]）中创建虚拟报表包。有关详细信息，请参阅[虚拟报表包工作流程](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)。
+  要使用虚拟报表包，请实施一个全局报表包，然后解析数据以创建应用了特定区段并具有特定组权限的虚拟报表包。 可在虚拟报表包管理器（[!UICONTROL “组件”]>[!UICONTROL “虚拟报表包”]）中创建虚拟报表包。 有关详细信息，请参阅[虚拟报表包工作流程](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)。
 
-使用虚拟报表包代替多包标记一般是最佳实践，但虚拟报表包有一些局限。请参阅[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)以确定何种报表包方法对于您的业务需求是最佳选择。有关虚拟报表包与多包标记功能的深入比较，请参阅[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md)。
+使用虚拟报表包代替多包标记一般是最佳实践，但虚拟报表包有一些局限。 请参阅[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)以确定何种报表包方法对于您的业务需求是最佳选择。 有关虚拟报表包与多包标记功能的深入比较，请参阅[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md)。
 
 <!--
 ## Rollup reports

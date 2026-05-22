@@ -5,10 +5,24 @@ title: 只读项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+TQID: https://experienceleague.adobe.com/8PyU15pb5sDqq-qZE-T8ceuDJdXDUXyxPQvJYJGUfwg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 50%
+source-wordcount: 327
+ht-degree: 52%
 
 ---
 
@@ -29,7 +43,7 @@ ht-degree: 50%
 仅查看项目中已禁用的交互包括：
 
 * 隐藏的左侧面板
-* 面板日历日期范围。注意：如果要向收件人授予日历控制权，请添加一个包含日期范围[的](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans)下拉区段。
+* 面板日历日期范围。 注意：如果要向收件人授予日历控制权，请添加一个包含日期范围[&#128279;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans)的下拉区段。
 * 自由格式分段
 * 自由格式的可见行数
 * 自由格式的行、列或可视化图表设置
@@ -44,7 +58,7 @@ ht-degree: 50%
 | 面积图 | 启用的交互 |
 | --- | --- |
 | **自由格式表** | <li>分页和排序</li><li>悬停</li><li>更新链接可视化图表的单元格选择</li><li>从上下文菜单>获取可视化图表链接</li><li>从上下文菜单>复制到剪贴板</li> |
-| **可视化图表** | <li>单击以打开/关闭图例</li><li>悬停</li><li>从上下文菜单>获取可视化图表链接</li><li>折叠/展开</li><li>流量 - 展开流量节点</li><li>地图 - 缩放</li></ul> |
+| **可视化内容** | <li>单击以打开/关闭图例</li><li>悬停</li><li>从上下文菜单>获取可视化图表链接</li><li>折叠/展开</li><li>流量 - 展开流量节点</li><li>地图 - 缩放</li></ul> |
 | **面板** | <li>交互式下拉区段</li><li>从上下文菜单>获取面板链接</li><li>折叠/展开</li> |
 | **项目** | <li>检查所有信息图标</li><li>“项目”菜单 - 新建、打开、设置为登陆页、刷新、下载 CSV/PDF、有限的项目信息和设置</li><li>“共享”菜单 - 获取项目链接，立即发送文件</li><li>“帮助”菜单 - 除“提示和调试器”选项之外的所有操作</li> |
 

@@ -3,16 +3,24 @@ title: 归因最佳实践
 description: 了解最佳实践，以决定使用哪种归因模型。
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: 'https://experienceleague.adobe.com/3h12v3wRMC0SY63jsXBbG6kkTM8ArVOz6ctJVikdKb4'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 66%
+source-wordcount: 444
+ht-degree: 64%
 
 ---
 
 # 归因最佳实践
 
-为您的组织选择适合的归因模型取决于许多考虑因素。本文探索了一种方法论和一些常规的最佳实践：
+为您的组织选择适合的归因模型取决于许多考虑因素。 本文探索了一种方法论和一些常规的最佳实践：
 
 * [探索性分析](#exploratory-analysis)
 * [基于规则的归因](#rule-base-attribution)
@@ -23,16 +31,17 @@ ht-degree: 66%
 >[!NOTE]
 >此分析需要在您选择归因模型之前进行。
 
-此阶段最初包括了解客户行为和定义转化量度。根据转化量度，[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)（针对原始数据）或 Analysis Workspace 等工具可以帮助您更好地理解：
+此阶段最初包括了解客户行为和定义转化量度。 根据转化量度，[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)（针对原始数据）或 Analysis Workspace 等工具可以帮助您更好地理解：
 
 * 在转化前接触了不同的营销渠道的客户数量
 * 这些行为的比例/分布
 
-例如，如果 50% 的客户在转化前接触了 3 个渠道，这 3 个渠道之间有什么互动吗？然后，您可以进行漏斗上层和漏斗下层分析以扩展您的理解。
+例如，如果 50% 的客户在转化前接触了 3 个渠道，这 3 个渠道之间有什么互动吗？
+然后，您可以进行漏斗上层和漏斗下层分析以扩展您的理解。
 
 ### 漏斗上层分析
 
-漏斗上层分析渠道用于创建品牌和产品意识。 例如，大部分电视广告的目标是品牌意识。您可能使用[时间衰减归因模型](/help/analyze/analysis-workspace/attribution/models.md)，因为随着时间的推移，人们会忘记您的电视广告。
+漏斗上层分析渠道用于创建品牌和产品意识。 例如，大部分电视广告的目标是品牌意识。 您可能使用[时间衰减归因模型](/help/analyze/analysis-workspace/attribution/models.md)，因为随着时间的推移，人们会忘记您的电视广告。
 
 ### 漏斗下层分析
 

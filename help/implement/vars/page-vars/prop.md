@@ -4,24 +4,42 @@ description: 可在实施中使用的自定义变量。
 feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/m1zwGOg7Fw26KdnqjqrOSekG8AehjIVsLKWMeaJfPY0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 85%
+source-wordcount: 623
+ht-degree: 87%
 
 ---
 
 # prop
 
-*此帮助页面介绍了如何实施 props。有关 prop 如何用作维度的信息，请参阅《组件用户指南》中的 [prop](/help/components/dimensions/prop.md)。*
+*此帮助页面介绍了如何实施 props。 有关 prop 如何用作维度的信息，请参阅《组件用户指南》中的 [prop](/help/components/dimensions/prop.md)。*
 
-Prop 是自定义变量，您可以根据需要随意使用。它们不会在设置的点击之外继续存在。
+Prop 是自定义变量，您可以根据需要随意使用。 它们不会在设置的点击之外继续存在。
 
 >[!TIP]
 >
->Adobe 建议在大多数情况下使用 [eVar](evar.md)。在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe已改进eVar，现在它们几乎可以满足prop的所有用例。
+>Adobe 建议在大多数情况下使用 [eVar](evar.md)。 在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。 但是，Adobe已改进eVar，现在它们几乎可以满足prop的所有用例。
 
-如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于贵组织的值。可用 prop 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 75 个 prop 可供使用。
+如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于贵组织的值。 可用 prop 的数量取决于您与 Adobe 签署的合同。 如果您与 Adobe 签署的合同支持，则至多有 75 个 prop 可供使用。
 
 ## 使用 Web SDK 的 props 属性
 
@@ -38,14 +56,14 @@ Prop映射到以下变量：
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 属性]部分。
 
-您可以将 prop 设置为值或数据元素。您还可以从其他 Analytics 变量复制值。
+您可以将 prop 设置为值或数据元素。 您还可以从其他 Analytics 变量复制值。
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.prop1 - s.prop75
 
-每个 prop 变量都是一个字符串，其中包含特定于贵组织的自定义值。其值的最大长度为 100 字节；超过 100 字节的值在发送到 Adobe 时会自动被截断。
+每个 prop 变量都是一个字符串，其中包含特定于贵组织的自定义值。 其值的最大长度为 100 字节；超过 100 字节的值在发送到 Adobe 时会自动被截断。
 
 ```js
 s.prop1 = "Example custom value";
@@ -53,19 +71,19 @@ s.prop1 = "Example custom value";
 
 ## 列表属性
 
-列表属性是应用于 prop 的设置，它允许变量在同一点击中包含多个值。如果未启用此设置，或者如果使用了错误的分隔符，则变量将被视为单个值。
+列表属性是应用于 prop 的设置，它允许变量在同一点击中包含多个值。 如果未启用此设置，或者如果使用了错误的分隔符，则变量将被视为单个值。
 
 ### 配置列表属性
 
-在报表包设置下的[流量变量](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)中启用列表 props。 确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
+在报表包设置下的[流量变量](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)中启用列表 props。 确保正确配置所需的分隔符。 Adobe 不提供默认分隔符。
 
 >[!TIP]
 >
->实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何非扩展 ASCII 分隔符。
+>实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。 您可以使用最适合您的实施的任何非扩展 ASCII 分隔符。
 
 ### 使用 Web SDK 设置列表 props {#list-props-web-sdk}
 
-如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则列表属性将映射到`xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`。 Web SDK 会自动使用报表包设置下列出的正确分隔符。如果您在 XDM 字段中设置分隔符（例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则列表属性将映射到`xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`。 Web SDK 会自动使用报表包设置下列出的正确分隔符。 如果您在 XDM 字段中设置分隔符（例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
 
 如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则列表属性使用与标准属性相同的字段并遵循AppMeasurement语法。
 
@@ -80,6 +98,6 @@ s.prop1 = "value1,value2,value3";
 
 >[!IMPORTANT]
 >
->列表属性仍受最大长度为 100 字节的限制。列表属性更容易达到此限制并被截断，因为它们可能会包含多个值。如果可能会达到此 100 字节限制，请考虑使用缩写或将值缩短。
+>列表属性仍受最大长度为 100 字节的限制。 列表属性更容易达到此限制并被截断，因为它们可能会包含多个值。 如果可能会达到此 100 字节限制，请考虑使用缩写或将值缩短。
 
-如果在列表属性中多次设置相同的值，则会在报表中删除重复值。Analysis Workspace 会计算出现某个值的点击次数，而不是计算某个值在数据中存在的次数。
+如果在列表属性中多次设置相同的值，则会在报表中删除重复值。 Analysis Workspace 会计算出现某个值的点击次数，而不是计算某个值在数据中存在的次数。

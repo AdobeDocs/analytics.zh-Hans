@@ -4,9 +4,23 @@ description: 从当前网站路径创建一个简单易读的 pageName。
 feature: Appmeasurement Implementation
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/NBn8IxQAsxWD7yO9L910M7RzB5Wlrd6dno2va0We12g'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 725
 ht-degree: 75%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 75%
 
 {{plug-in}}
 
-`getPageName` 插件可为当前 URL 创建一个简单易读且格式友好的版本。如果您希望在报告中使用易于设置且便于理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建议您使用此插件。如果已经有 `pageName` 变量的命名结构（如通过数据层命名），则无需使用此插件。当没有其他解决方案可用来设置 `pageName` 变量时，最好使用此插件。
+`getPageName` 插件可为当前 URL 创建一个简单易读且格式友好的版本。 如果您希望在报告中使用易于设置且便于理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建议您使用此插件。 如果已经有 `pageName` 变量的命名结构（如通过数据层命名），则无需使用此插件。 当没有其他解决方案可用来设置 `pageName` 变量时，最好使用此插件。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -65,7 +79,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -78,12 +92,12 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 `getPageName` 函数使用以下参数：
 
-* **`si`**（可选，字符串）：插入到字符串开头的 ID，表示网站的 ID。此值可以是数字 ID 或友好名称。如果未设置此值，则将默认使用当前域。
+* **`si`**（可选，字符串）：插入到字符串开头的 ID，表示网站的 ID。 此值可以是数字 ID 或友好名称。 如果未设置此值，则将默认使用当前域。
 * **`qv`**（可选，字符串）：以逗号分隔的查询字符串参数列表，其中包含在 URL 中找到的已添加到字符串的参数（如果可找到）
 * **`hv`**（可选，字符串）：以逗号分隔的参数列表，其中包含在 URL 散列中找到的已添加到字符串的参数（如果可找到）
-* **`de`**（可选，字符串）：用于拆分字符串各个部分的分隔符。默认使用管道分隔符 (`|`)。
+* **`de`**（可选，字符串）：用于拆分字符串各个部分的分隔符。 默认使用管道分隔符 (`|`)。
 
-此函数将返回一个包含 URL 的友好格式版本的字符串。此字符串通常会被分配给 `pageName` 变量，但也可以用于其他变量。
+此函数将返回一个包含 URL 的友好格式版本的字符串。 此字符串通常会被分配给 `pageName` 变量，但也可以用于其他变量。
 
 ## 示例
 
@@ -112,7 +126,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## 从先前的版本升级
 
-不论是否存在 Adobe Analytics 的 AppMeasurement 对象（即 `s` 对象），4.0 版以上的 `getPageName` 插件都可以正常运行。如果升级到此版本，则可从调用中删除 `s` 对象的所有实例来更改用于调用此插件的代码。例如，将 `s.getPageName();` 更改为 `getPageName();`。
+不论是否存在 Adobe Analytics 的 AppMeasurement 对象（即 `s` 对象），4.0 版以上的 `getPageName` 插件都可以正常运行。 如果升级到此版本，则可从调用中删除 `s` 对象的所有实例来更改用于调用此插件的代码。 例如，将 `s.getPageName();` 更改为 `getPageName();`。
 
 ## 版本历史记录
 

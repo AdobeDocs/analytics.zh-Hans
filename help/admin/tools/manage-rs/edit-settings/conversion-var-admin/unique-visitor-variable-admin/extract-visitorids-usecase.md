@@ -1,28 +1,40 @@
 ---
-description: Data Warehouse 提供了一项可提取访客 ID 列表的功能。这些 ID 不是 Cookie ID，而是在您的任一转化变量中捕获的 ID。尽管有其他方法可获取此信息，但是以下示例提供了一种可快速生成 Data Warehouse 请求的方法。
+description: Data Warehouse提供了一项允许您提取访客ID列表的功能。 这些ID不是Cookie ID，而是您在一个转化变量中捕获的ID。 尽管可通过其他方法获取此信息，但以下示例是生成Data Warehouse请求的快捷方式。
 title: 用例 — 提取访客 ID
 feature: Admin Tools
 role: Admin
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/CUpKcu-jVNn77bkWM2mJvlLxYMyvfpRt4o-maC7tUBA'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: 399
+ht-degree: 10%
 
 ---
 
 # 用例 — 提取访客 ID
 
-Data Warehouse 提供了一项可提取访客 ID 列表的功能。这些 ID 不是 Cookie ID，而是在您的任一转化变量中捕获的 ID。尽管有其他方法可获取此信息，但是以下示例提供了一种可快速生成 Data Warehouse 请求的方法。
+Data Warehouse提供了一项允许您提取访客ID列表的功能。 这些ID不是Cookie ID，而是您在一个转化变量中捕获的ID。 尽管可通过其他方法获取此信息，但以下示例是生成Data Warehouse请求的快捷方式。
 
-例如，假设您的企业向客户和潜在客户发送营销电子邮件。则每个电子邮件收件人在您的电子邮件系统中均有一个唯一的 ID（如 *`EMAIL Contact ID`*）。您可以设置您的电子邮件，以便联系人在收到电子邮件并单击其中的某个链接时，到达您网站的访客会具有一个促销活动 ID 和唯一电子邮件联系人 ID。例如，您的电子邮件链接可能解析为：
+例如，假设您的企业向客户和潜在客户发送营销电子邮件。 则每个电子邮件收件人在您的电子邮件系统中均有一个唯一的 ID（如 *`EMAIL Contact ID`*）。 您可以设置电子邮件，以便当联系人收到电子邮件并单击其链接之一时，访客可以使用促销活动ID和唯一的电子邮件联系人ID访问您的网站。 例如，您的电子邮件链接可能会解析为：
 
 ```js
 https://www.example.com/?cid=springmailblast&mid=1363660158
 ```
 
-在转化变量 (eVar) 中对此进行设置，以便您可以了解每个电子邮件的效果如何（通过促销活动 ID）以及每个电子邮件收件人访问网站的频率（通过电子邮件联系人 ID）。
+通过在转化变量(eVar)中设置这些变量，您可以查看每个电子邮件的执行情况（通过促销活动ID）以及每个电子邮件收件人访问网站的频率（通过电子邮件联系人ID）。
 
-假设您要捕获这些 ID。大多数营销商希望对这些网站行为进行细分，以了解是否可对满足特定条件的收件人进行再营销。例如，您可能想要向通过电子邮件访问您网站并查看（或完成）了网站表单的所有电子邮件收件人发送再营销信息。为此，您需要找到一种方法，识别完成了特定表单的收件人的电子邮件联系人 ID。
+假设您正在捕获这些ID。 大多数营销人员希望对其网站行为进行分段，然后查看是否可以向符合特定标准的访客进行再营销。 例如，您可能希望向通过电子邮件访问您的网站并查看（或完成）网站表单的所有电子邮件收件人发送再营销电子邮件。 为此，请找到一种方法来识别完成特定表单的人员的EMAIL Contact ID。
 
-方法之一是使用转化子关系报表按电子邮件联系人 ID eVar 划分表单 ID eVar 值。但是，有一种预置功能也可使用 Data Warehouse 来达到这一目的。此功能可以指定由哪个 eVar 存储您的唯一用户 ID（此案例中的电子邮件联系人 ID），使您可使用 Data Warehouse 轻松提取这些 ID。通过使用此功能，可自动创建数据仓库请求，提取您感兴趣的独特访客 ID。
+这样做的一种方式是使用转化子关系报表，按电子邮件联系人ID eVar划分表单ID eVar值。 但是，预先构建的功能可以通过Data Warehouse来实现这一点。 通过此功能，您可以了解哪个eVar存储了您的独特用户ID（在此例中是电子邮件联系人ID），并可以使用Data Warehouse轻松提取这些ID。 通过使用此功能，您可以自动创建一个Data Warehouse请求，以提取您感兴趣的唯一访客ID。

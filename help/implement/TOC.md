@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
-user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+user-guide-description: 了解各种实施 Adobe Analytics 的方法。 自定义收集什么数据以充分利用 Analytics 数据。
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 100%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [集成模块](vars/integrate.md)
-+ 访客识别  {#id}
++ 访客识别 {#id}
    + [概述](id/overview.md)
    + [使用 Web SDK 扩展](id/web-sdk-extension.md)
    + [使用 Web SDK（Alloy）](id/alloy.md)
@@ -198,7 +198,7 @@ ht-degree: 100%
    + [将 AppMeasurement 与 iFrames 结合使用](use-cases/iframe.md)
    + [营销活动跟踪工作流程](use-cases/campaign-tracking.md)
 + 验证您的实施 {#validate}
-   + [旧版 Adobe Experience Cloud Debugger](validate/debugger.md)
+   + [旧版调试器](validate/debugger.md)
    + [数据收集查询参数](validate/query-parameters.md)
    + [数据包监视器](validate/packet-monitor.md)
    + [哈希冲突](validate/hash-collisions.md)

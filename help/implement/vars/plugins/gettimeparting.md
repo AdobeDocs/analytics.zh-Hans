@@ -4,10 +4,26 @@ description: 测量特定操作发生的时间。
 feature: Appmeasurement Implementation
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/4321rEzlE5cFkTZTHsyyG17E3cl3wXHeJ6BZxdoe6xQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 77%
+source-wordcount: 857
+ht-degree: 78%
 
 ---
 
@@ -15,13 +31,13 @@ ht-degree: 77%
 
 {{plug-in}}
 
-`getTimeParting` 插件允许您捕获网站上发生任何可衡量活动的详细时间。如果您希望按任一可重复分时段对指定日期范围内的量度进行细分，此插件将非常有帮助。例如，您可以比较一周内某两天的转化率，如所有星期日的转化率与所有星期四的转化率。您还可以比较一天内的不同时段，如比较所有上午与所有晚上。
+`getTimeParting` 插件允许您捕获网站上发生任何可衡量活动的详细时间。 如果您希望按任一可重复分时段对指定日期范围内的量度进行细分，此插件将非常有帮助。 例如，您可以比较一周内某两天的转化率，如所有星期日的转化率与所有星期四的转化率。 您还可以比较一天内的不同时段，如比较所有上午与所有晚上。
 
-Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维度的格式略有不同。有关更多信息，请参阅《Analytics 用户指南》中的[时间划分维度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。有些组织发现 Analysis Workspace 提供的开箱即用维度足以满足其需求。
+Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维度的格式略有不同。 有关更多信息，请参阅《Analytics 用户指南》中的[时间划分维度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。 有些组织发现 Analysis Workspace 提供的开箱即用维度足以满足其需求。
 
 >[!IMPORTANT]
 >
->此插件的 4.0+ 版本与以往版本有显著差异。Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
+>此插件的 4.0+ 版本与以往版本有显著差异。 Adobe 强烈建议您“从头开始”实施此插件。 引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -71,7 +87,7 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 
 ## 使用 AppMeasurement 安装此插件
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。 在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -84,7 +100,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 `getTimeParting` 函数使用以下参数：
 
-**`t`**（可选但建议使用的字符串）：要将访客的本地时间转换到的时区的名称。默认为 UTC/GMT 时间。请参阅维基百科上的 [TZ 时区数据库所含时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)，以获取有效值的完整列表。
+**`t`**（可选但建议使用的字符串）：要将访客的本地时间转换到的时区的名称。  默认为 UTC/GMT 时间。 请参阅维基百科上的 [TZ 时区数据库所含时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)，以获取有效值的完整列表。
 
 常见有效值包括：
 
@@ -145,11 +161,11 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.1（2018 年 11 月 26 日）
 
-* 对 Internet Explorer 浏览器问题进行了修复。此类浏览器可以返回时间，但只能返回访客所在地区的本地时间。
+* 对 Internet Explorer 浏览器问题进行了修复。 此类浏览器可以返回时间，但只能返回访客所在地区的本地时间。
 
 ### 6.0（2018 年 8 月 14 日）
 
-* 为符合国际标准，进行了彻底重写。现在可正确转换夏令时和所有时区。
+* 为符合国际标准，进行了彻底重写。 现在可正确转换夏令时和所有时区。
 
 ### 5.0（2018 年 4 月 17 日）
 
@@ -158,7 +174,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->此插件的早期版本无法在将来的所有年份中使用。如果您使用此插件的早期版本，Adobe 强烈建议升级到最新版本，以避免 JavaScript 错误和数据丢失。如果无法升级此插件，请确保插件代码中的 `s._tpdst` 变量包含适当的将来年份。
+>此插件的早期版本无法在将来的所有年份中使用。 如果您使用此插件的早期版本，Adobe 强烈建议升级到最新版本，以避免 JavaScript 错误和数据丢失。 如果无法升级此插件，请确保插件代码中的 `s._tpdst` 变量包含适当的将来年份。
 
 ### 4.0（2016 年 8 月 22 日）
 

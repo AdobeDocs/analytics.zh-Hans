@@ -4,10 +4,20 @@ title: 如何编辑跨越多个请求的量度
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 28%
+source-wordcount: 598
+ht-degree: 25%
 
 ---
 
@@ -22,19 +32,19 @@ ht-degree: 28%
 添加量度时，请考虑以下准则：
 
 * 只能将量度添加到引导布局请求中。
-如果某些选定的请求为自定义布局，则无法添加指标。如果自定义了布局，Report Builder则不知道将新指标放置到电子表格中的哪个位置。
+如果某些选定的请求为自定义布局，则无法添加指标。 如果自定义了布局，Report Builder则不知道将新指标放置到电子表格中的哪个位置。
 * 如果只选择“自定义布局”请求，则&#x200B;**[!UICONTROL 添加量度]**&#x200B;选项不可用。
 * 添加量度会增加请求的大小，并且可能会导致与其他请求重叠。 请确保您的请求周围有足够的空间以允许添加指标。
 * 如果添加的量度已存在于某一个选定的请求中，则不会将其添加到该请求。
 
 添加一个或多个量度
 
-1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑指标]**。（或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > `<choose metric>` > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑指标]**。 （或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > `<choose metric>` > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
 1. 选择 **[!UICONTROL 添加指标]** 并选择要添加的指标。
 
    ![屏幕截图显示了“编辑请求，添加量度”选项处于选定状态。](assets/add_metric.png)
 
-1. 刷新请求以查看实际数据。脱机数据会一直显示到您刷新数据为止。
+1. 刷新请求以查看实际数据。 脱机数据会一直显示到您刷新数据为止。
 
 ## 替换量度
 
@@ -51,14 +61,14 @@ ht-degree: 28%
 
 替换指标
 
-1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑指标]**。或者，您可以单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > **`<choose metric>`** > **[!UICONTROL 编辑组]**&#x200B;以选择要修改的请求组。
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑指标]**。 或者，您可以单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > **`<choose metric>`** > **[!UICONTROL 编辑组]**&#x200B;以选择要修改的请求组。
 
 1. 选择&#x200B;**[!UICONTROL 替换指标]**。
 
    ![已选择“替换量度”的“编辑组”屏幕截图。](assets/replace_metric.png)
 
 1. 选择要替换的指标和替换指标。
-1. 刷新请求。脱机数据会一直显示到您刷新数据为止。
+1. 刷新请求。 脱机数据会一直显示到您刷新数据为止。
 
 ## 删除指标 {#section_D3CD5BAC7670416593B633B2B8423C60}
 
@@ -69,11 +79,11 @@ ht-degree: 28%
 
 要删除指标，请执行以下操作
 
-1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑指标]**。或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > **`<choose metric>`** > **[!UICONTROL 编辑组]**&#x200B;以选择要修改的请求组。
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑指标]**。 或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > **`<choose metric>`** > **[!UICONTROL 编辑组]**&#x200B;以选择要修改的请求组。
 
 1. 选择&#x200B;**[!UICONTROL 删除指标]**。
 
    ![显示已选定“编辑组和删除指标”选项的屏幕截图。](assets/remove_metric.png)
 
 1. 从请求中选择一个或多个要删除的指标。
-1. 刷新请求。在刷新之前，您看到的都是脱机数据。
+1. 刷新请求。 在刷新之前，您将看到离线数据。

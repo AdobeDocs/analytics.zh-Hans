@@ -4,10 +4,24 @@ description: 使用自定义访客 ID。
 feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: de98bf68c57f5453b6662f6e6e57312d8fd3e642
+TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 19%
+source-wordcount: 510
+ht-degree: 20%
 
 ---
 
@@ -17,7 +31,7 @@ Adobe使用多种方法来[识别您网站上的访客](../../id/overview.md)。
 
 >[!IMPORTANT]
 >
->Adobe 建议不要使用此变量。请改用 [Adobe Experience Cloud 身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+>Adobe 建议不要使用此变量。 请改用 [Adobe Experience Cloud 身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 ## Analytics如何使用`visitorID`
 
@@ -46,11 +60,11 @@ Adobe使用多种方法来[识别您网站上的访客](../../id/overview.md)。
 3. 转到[!UICONTROL 扩展]选项卡，然后选择Adobe Analytics下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 访客 ID]字段。
 
-将此字段分配给包含您的自定义访客 ID 的数据元素。**请勿将此字段设置为所有访客的单个静态值。**&#x200B;使用按访客解析并在所有点击中保持不变的数据元素。
+将此字段分配给包含您的自定义访客 ID 的数据元素。 **不要为所有访客将此字段设置为单个静态值。** 使用根据访客解析并在所有点击中保持不变的数据元素。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.visitorID
 
-`s.visitorID` 变量是一个字符串，其中包含访客的自定义唯一标识符。有效值包括最多100字节的字母数字字符。 避免在此变量中使用虚线、空格、下划线或符号。
+`s.visitorID` 变量是一个字符串，其中包含访客的自定义唯一标识符。 有效值包括最多100字节的字母数字字符。 避免在此变量中使用虚线、空格、下划线或符号。
 
 ```js
 s.visitorID = "abc123";

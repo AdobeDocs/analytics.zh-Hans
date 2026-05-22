@@ -37,7 +37,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4148
 ht-degree: 78%
@@ -134,7 +134,7 @@ ht-degree: 78%
 | | **`latlon1`** | 位置（精确到 10 千米） | varchar(255) |
 | | **`latlon23`** | 位置（精确到 100 米） | varchar(255) |
 | | **`latlon45`** | 位置（精确到 1 米） | varchar(255) |
-| | **`mcvisid`** | Experience Cloud 访客 ID。 一个 128 位的数字（由两个 64 位的数字拼接而成），共占据了 19 位数。 | varchar(255) |
+| | **`mcvisid`** | CX Enterprise访客ID。 一个 128 位的数字（由两个 64 位的数字拼接而成），共占据了 19 位数。 | varchar(255) |
 | **`post_`** | **`mc_audiences`** | 列出访客所属的 Audience Manager 区段 ID。 `post_mc_audiences` 列将分隔符更改为 `--**--`。 | 文本 |
 | **`post_`** | **`mobileaction`** | 移动设备操作。 在移动实施中调用 `trackAction` 时会自动收集。 应用程序支持自动的操作路径。 | varchar(100) |
 | **`post_`** | **`mobileappid`** | 移动应用程序 ID。 采用以下格式存储应用程序名称和版本：`[AppName] [BundleVersion]` | varchar(255) |
