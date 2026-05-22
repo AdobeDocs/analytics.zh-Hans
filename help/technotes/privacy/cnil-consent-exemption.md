@@ -4,23 +4,13 @@ title: 关于用户准许和 Cookie 的 CNIL 准则是什么
 feature: Data Governance
 role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-TQID: https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+TQID: 'https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b99602d0-836e-4dbb-979f-c0dec53f883c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 769
 ht-degree: 91%
@@ -38,7 +28,7 @@ ht-degree: 91%
 * Cookie 有效期最长为 13 个月。  可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。 包含Analytics和ECID的CX Enterprise Cookie可延长每次访问的Cookie过期日期。  要设置静态的非滚动Cookie过期时间，您可以：(1)编写自定义代码以设置删除Cookie的日期，或者(2)使用CMP来控制Cookie的重置日期。  [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md)和[CX Enterprise Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hans#ec-cookies?lang=zh-Hans)
 * 范围有限。 Cookie 的范围必须限制在单个网站或应用程序。 [浏览器 Cookie](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * 匿名化。 将 IP 地址的最后一个八位字节数匿名化。 [常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
-* 从报告中隐藏访客 ID。  默认情况下访客 ID 在 Adobe Workspace 和 Adobe Reports and Analytics 中不可见。  可在数据馈送和 Data Warehouse 中找到访客 ID。  [Admin Console 中的“访问权限”](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans)和[数据馈送列引用](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)可限制对数据馈送和数据仓库的访问
+* 从报告中隐藏访客 ID。  默认情况下访客 ID 在 Adobe Workspace 和 Adobe Reports and Analytics 中不可见。  可在数据馈送和 Data Warehouse 中找到访客 ID。  [Admin Console 中的“访问权限”](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)和[数据馈送列引用](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)可限制对数据馈送和数据仓库的访问
 * 地理位置参数。 地理位置再精确，也达不到邮编级别。 [邮编选项](/help/implement/vars/page-vars/zip.md)和[常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * 设置选择加入选项。  通过选择加入服务，可设置访客协议以确定在用户访问您的网站时您能否在用户的设备或浏览器上放置 Cookie。 [选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)
 * 阻止数据共享。  要阻止将数据共享到 Adobe Audience Manager，请将 `opt.dmp` 上下文变量用于[隐私报告](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)以阻止共享点击。

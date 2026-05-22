@@ -3,15 +3,12 @@ title: 数据馈送疑难解答
 description: 了解数据馈送作业可能无法处理或提交数据的原因。 解决数据馈送的潜在问题。
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-TQID: https://experienceleague.adobe.com/JkayhoeQk24AwoDkz25lvZBzq-xNcFjW6l-cN-TwuKk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 95%
@@ -26,7 +23,7 @@ ht-degree: 95%
 
 如果您有一个每小时或每天成功运行但最近失败的数据馈送，请检查以下各项：
 
-* 使用 [Adobe 状态工具](https://status.adobe.com/zh-cn/experience_cloud)确定是否有任何计划的维护时段或可用性问题。 如果当时存在已知问题，Adobe 会在服务恢复后自动处理计划的数据馈送。
+* 使用 [Adobe 状态工具](https://status.adobe.com/en/experience_cloud)确定是否有任何计划的维护时段或可用性问题。 如果当时存在已知问题，Adobe 会在服务恢复后自动处理计划的数据馈送。
 * 确保 FTP 站点上有足够的可用空间。 如果 FTP 站点的磁盘空间不足，请从服务器中删除一些文件，以便为新文件腾出空间。
 * 如果没有已知问题并且 FTP 站点有足够的磁盘空间，您可以重新发送数据馈送。
 

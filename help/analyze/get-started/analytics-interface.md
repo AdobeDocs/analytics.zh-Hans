@@ -3,9 +3,14 @@ description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analyti
 title: 了解 Analytics 界面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: 1993
 ht-degree: 93%
 
 ---
@@ -74,7 +79,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 指的是用于存储和自定义报表的 Analytics 数据副本，您可以通过筛选数据来运行这些数据 <p>请求管理器允许您查看和复制请求，并重新安排请求的优先级。</p> | [管理 Data Warehouse 请求](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map 专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。 让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。 | [Activity Map 概述](/help/analyze/activity-map/overview.md) |
-   | 经典版推荐 | 推荐是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [推荐](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hans) |
+   | 经典版推荐 | 推荐是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [推荐](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 不再支持此功能。 |  |
    | Mobile Services | 不再支持此功能。 |  |
    | Analytics 功能板（移动应用程序） | Adobe Analytics 功能板应用程序可以随时随地从 Adobe Analytics 提供洞察。 通过此应用程序，用户可以查看您使用 Adobe Analytics 桌面 UI 创建的直观记分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 功能板应用程序 |

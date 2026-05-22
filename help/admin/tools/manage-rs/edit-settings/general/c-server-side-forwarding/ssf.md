@@ -5,18 +5,13 @@ title: 服务器端转发概述
 feature: Report Suite Settings
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
-TQID: https://experienceleague.adobe.com/O03-5Ovxy3Lq-LZjPOseTpOlCXaS1kwD8n2ZM1yJuxY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c354699e-6555-4397-8706-1a9a89984069
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 887
 ht-degree: 59%
@@ -44,12 +39,12 @@ ht-degree: 59%
 
 ## ![step1_icon.png 图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) 验证 ECID 服务的实施情况
 
-通过检查 [Analytics 跟踪请求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=zh-Hans)，验证是否实施了 Experience Cloud ID (ECID) 服务。
+通过检查 [Analytics 跟踪请求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)，验证是否实施了 Experience Cloud ID (ECID) 服务。
 
 在“请求”选项卡中，验证是否设置了 ECID 值。 这可让您了解是否正确实施了身份标识服务，该服务是服务器端转发的先决条件。
 
 * 如果您看到了 ECID 值，请继续执行步骤 2。
-* 如果您没有看到 ECID 值，请先[实施身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)，然后再继续执行步骤 2。
+* 如果您没有看到 ECID 值，请先[实施身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)，然后再继续执行步骤 2。
 
 ## ![step2_icon.png 图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) 验证服务器端转发实施版本
 
@@ -63,10 +58,10 @@ ht-degree: 59%
 
    * **拥有 DIL 的 Adobe Audience Manager 客户**：密切配合以下 2 项：
 
-      1. 删除DIL代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)页面代码。
+      1. 删除DIL代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码。
       1. 在Analytics管理员UI中启用服务器端转发，如步骤3中所述。 在删除DIL代码之前启用此设置将复制数据，并创建对Audience Manager的其他计费服务器调用。
 
-   * **新 Adobe Audience Manager 客户**：安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)页面代码并继续执行步骤 3。 在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
+   * **新 Adobe Audience Manager 客户**：安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码并继续执行步骤 3。 在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
 
 ## ![step3_icon.png 图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 验证报表包的服务器端转发实施
 
@@ -82,4 +77,4 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->在全部完成这3个步骤之前，数据将不会显示在其他CX Enterprise解决方案中，如[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans)或[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。 这些设置在启用后需要几个小时才会生效。
+>在全部完成这3个步骤之前，数据将不会显示在其他CX Enterprise解决方案中，如[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)或[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。 这些设置在启用后需要几个小时才会生效。

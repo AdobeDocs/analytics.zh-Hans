@@ -4,20 +4,13 @@ title: 了解和配置机器人规则
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-TQID: https://experienceleague.adobe.com/ppKgywVKg1ikX433Qoz2yYYBFuwjrQfow0kSE-tfQwA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/ppKgywVKg1ikX433Qoz2yYYBFuwjrQfow0kSE-tfQwA'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ec140990-1570-4311-94d4-2d6b38511bbe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1699
 ht-degree: 36%
@@ -36,7 +29,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->Adobe Experience Platform Edge Network提供[机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hans)，该服务将识别为来自机器人的点击标记为机器人点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过Edge Network到达的数据中包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
+>Adobe Experience Platform Edge Network提供[机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html)，该服务将识别为来自机器人的点击标记为机器人点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过Edge Network到达的数据中包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
 
 ## 更新或上传机器人规则
 
@@ -47,7 +40,7 @@ ht-degree: 36%
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"}。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

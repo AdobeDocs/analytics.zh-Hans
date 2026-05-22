@@ -3,16 +3,12 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为 Data Warehouse 请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-TQID: https://experienceleague.adobe.com/Afs4vP-j7tHMr2yx8Evojy-el6insIxLa4VRq0f9OSo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/Afs4vP-j7tHMr2yx8Evojy-el6insIxLa4VRq0f9OSo'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 2160
 ht-degree: 100%
@@ -127,7 +123,7 @@ ht-degree: 100%
       | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。 在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。 有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
       | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。 在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。 有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
       | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。  要配置 Azure SAS，必须使用 Azure 密钥存储库将 SAS 令牌存储为密码。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥存储库 URI 后，在密钥存储库中添加访问策略，以授予对您创建的 Azure 应用程序的访问权限。 有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或者</p><p>如果要在不创建访问策略的情况下直接授予访问角色，请参阅 [Microsoft Azure 文档，了解如何使用 Azure 门户分配 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。 这将为应用程序 ID 添加访问密钥存储库 URI 的角色分配。 </p> |
-      | [!UICONTROL **密钥存储库密码名称**] | 将密码添加到 Azure 密钥存储库时所创建的密码名称。 在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥存储库**&#x200B;设置页面上创建的密钥存储库中。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+      | [!UICONTROL **密钥存储库密码名称**] | 将密码添加到 Azure 密钥存储库时所创建的密码名称。 在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥存储库**&#x200B;设置页面上创建的密钥存储库中。 有关信息，请参阅[有关如何从 Azure 密钥存储库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
       | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。 在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。 有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
       {style="table-layout:auto"}

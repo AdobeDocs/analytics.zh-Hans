@@ -2,22 +2,28 @@
 title: AMO ID
 description: Adobe Media Optimizer ID，用于Adobe Advertising集成。
 feature: Dimensions
-source-git-commit: 408d8db0d1e3c8301a066fe54d611ec7b8e3418a
+exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
+TQID: 'https://experienceleague.adobe.com/SzHWYAzd9iYcd5AU86TVL6Bfca4UsuijV141jBuS0y8'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 3%
+source-wordcount: 793
+ht-degree: 2%
 
 ---
 
 # AMO ID
 
-**[!UICONTROL AMO ID]**&#x200B;是Adobe Advertising集成中使用的连接标识符的集合。 此维度中存储的值会自动组织为更加易于用户识别的单独分类维度，以用于Analytics报表。 启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
+**[!UICONTROL AMO ID]**&#x200B;是Adobe Advertising集成中使用的连接标识符的集合。 此维度中存储的值会自动组织为更加易于用户识别的单独分类维度，以用于Analytics报表。 启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
 
 ## 使用数据填充此维度
 
 此维度通过多种方式收集其值：
 
-* 对于点进流量，数据是从`s_kwcid`页面URL[中的](page-url.md)查询字符串参数收集的，通常是在广告驱动流量进入网站的页面上。
+* 对于点进流量，数据是从[页面URL](page-url.md)中的`s_kwcid`查询字符串参数收集的，通常是在广告驱动流量进入网站的页面上。
 * 当URL不包含跟踪代码，但Adobe Advertising JavaScript在前两分钟内检测到点击时，也可以捕获点进流量。
 * 对于受支持的显示到达流量，Adobe Advertising使用补充ID (`SDID`)补充后端上的值。
 
@@ -35,7 +41,7 @@ AC!{ad key}!{placement key}
 * **`ad key`**： Adobe Advertising生成的广告字母数字标识符。
 * **`placement key`**：投放的Adobe Advertising生成的字母数字标识符。
 
-示例值
+示例值：
 
 ```text
 AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
@@ -110,7 +116,7 @@ AL!{user}!88!{creative}!{placement}!{keyword id}
 * **`placement`**：广告被点击的网站。
 * **`keyword id`**：百度关键字ID。
 
-#### Yahoo!日本广告
+#### Yahoo! 日本广告
 
 ```text
 AL!{user}!94!{creative}!{matchtype}!{network}!{keyword}
@@ -133,30 +139,30 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 分类
 
-启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，会自动创建以下分类。 分类值由集成自动维护。
+启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，会自动创建以下分类。 分类值由集成自动维护。
 
 | 分类 | 描述 | DSP | 搜索、<br>Social和<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL 帐户]** | 帐户名称。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL 广告显示URL]** | 广告中显示的URL。 | | &amp;amp；检查； |
-| **[!UICONTROL 广告描述]** | 广告描述(DSP)或广告正文（搜索、社交和Commerce）。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL 广告目标URL]** | 广告的目标URL。 | | &amp;amp；检查； |
-| **[!UICONTROL 广告组]** | 广告组名称。 | | &amp;amp；检查； |
-| **[!UICONTROL 广告平台]** | 广告DSP或搜索引擎名称。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL 广告标题]** | 广告类型(DSP)或广告标题（搜索、社交和Commerce）。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL 广告类型]** | 广告类型，如`text`、`video`、`display`或`native`。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL AdCloud属性1]** -<br>**[!UICONTROL AdCloud属性5 &#x200B;]** | 预留给未来自定义属性的占位符分类。 当前未使用。 | | |
-| **[!UICONTROL Campaign]** | 营销活动名称。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL Creative体验名称]** | 与广告交互关联的创意体验的名称，表示在测试或个性化中使用的一组创意变体。 | &amp;amp；检查； | |
-| **[!UICONTROL Creative分支名称]** | 创意体验中表示创意体验中特定变体或路径的分支名称。 | &amp;amp；检查； | |
-| **[!UICONTROL Creative分支ID]** | 在创意体验中分配给创意分支的唯一标识符。 | &amp;amp；检查； | |
-| **[!UICONTROL Creative名称]** | 提供给用户的特定广告创意资源的名称。 | &amp;amp；检查； | |
-| **[!UICONTROL Creative变体名称]** | 在创意体验或分支中使用的创意的特定变体的名称。 | &amp;amp；检查； | |
-| **[!UICONTROL 关键字]** | 关键字。 | | &amp;amp；检查； |
-| **[!UICONTROL 关键字匹配类型]** | 关键字和匹配类型。 | | &amp;amp；检查； |
-| **[!UICONTROL 登陆类型]** | 登陆页面条目是浏览还是点进。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL 匹配类型]** | 搜索匹配类型。 | | &amp;amp；检查； |
-| **[!UICONTROL 网络]** | RTB (DSP)或广告网络名称（搜索、社交和Commerce）。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL 优化]** | 包名称(DSP)或项目组合名称（搜索、社交和Commerce）。 | &amp;amp；检查； | &amp;amp；检查； |
-| **[!UICONTROL 投放位置]** | 投放位置名称。 | &amp;amp；检查； | |
-| **[!UICONTROL 产品目标]** | 产品列表广告的产品目标。 | | &amp;amp；检查； |
+| **[!UICONTROL 帐户]** | 帐户名称。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL 广告显示URL]** | 广告中显示的URL。 | | 检查(&amp;C)； |
+| **[!UICONTROL 广告描述]** | 广告描述(DSP)或广告正文（搜索、社交和Commerce）。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL 广告目标URL]** | 广告的目标URL。 | | 检查(&amp;C)； |
+| **[!UICONTROL 广告组]** | 广告组名称。 | | 检查(&amp;C)； |
+| **[!UICONTROL 广告平台]** | 广告DSP或搜索引擎名称。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL 广告标题]** | 广告类型(DSP)或广告标题（搜索、社交和Commerce）。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL 广告类型]** | 广告类型，如`text`、`video`、`display`或`native`。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL AdCloud属性1]** -<br>**[!UICONTROL AdCloud属性5 ]** | 预留给未来自定义属性的占位符分类。 当前未使用。 | | |
+| **[!UICONTROL Campaign]** | 营销活动名称。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL Creative体验名称]** | 与广告交互关联的创意体验的名称，表示在测试或个性化中使用的一组创意变体。 | 检查(&amp;C)； | |
+| **[!UICONTROL Creative分支名称]** | 创意体验中表示创意体验中特定变体或路径的分支名称。 | 检查(&amp;C)； | |
+| **[!UICONTROL Creative分支ID]** | 在创意体验中分配给创意分支的唯一标识符。 | 检查(&amp;C)； | |
+| **[!UICONTROL Creative名称]** | 提供给用户的特定广告创意资源的名称。 | 检查(&amp;C)； | |
+| **[!UICONTROL Creative变体名称]** | 在创意体验或分支中使用的创意的特定变体的名称。 | 检查(&amp;C)； | |
+| **[!UICONTROL 关键字]** | 关键字。 | | 检查(&amp;C)； |
+| **[!UICONTROL 关键字匹配类型]** | 关键字和匹配类型。 | | 检查(&amp;C)； |
+| **[!UICONTROL 登陆类型]** | 登陆页面条目是浏览还是点进。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL 匹配类型]** | 搜索匹配类型。 | | 检查(&amp;C)； |
+| **[!UICONTROL 网络]** | RTB (DSP)或广告网络名称（搜索、社交和Commerce）。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL 优化]** | 包名称(DSP)或项目组合名称（搜索、社交和Commerce）。 | 检查(&amp;C)； | 检查(&amp;C)； |
+| **[!UICONTROL 投放位置]** | 投放位置名称。 | 检查(&amp;C)； | |
+| **[!UICONTROL 产品目标]** | 产品列表广告的产品目标。 | | 检查(&amp;C)； |

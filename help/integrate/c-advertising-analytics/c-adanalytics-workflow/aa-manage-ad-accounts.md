@@ -3,10 +3,16 @@ description: 在 Advertising Analytics 中管理帐户。
 title: 管理广告帐户
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+autotag-review: '2026-05-19T13:32:36.907Z'
+TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1cc
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: 552
+ht-degree: 18%
 
 ---
 
@@ -23,7 +29,7 @@ ht-degree: 7%
 | 名称或元素 | 描述 |
 |---|---|
 | **[!UICONTROL 名称]** | *帐户名称*。 您可以选择名称以编辑搜索引擎设置。 |
-| ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 选择以重命名广告帐户或编辑搜索引擎设置。 |
+| ![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 选择以重命名广告帐户或编辑搜索引擎设置。 |
 | ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 选择以打开上下文菜单，允许您[映射报表包](#map-reporting-suites)、[激活或暂停广告帐户](#activate-or-pause-advertising-accounts)。 |
 | **[!UICONTROL 报表包]** | 列出广告帐户映射到的报表包。 |
 | **[!UICONTROL Type]** | 显示广告帐户的类型。 默认情况下，类型为[!UICONTROL 搜索] |

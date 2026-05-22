@@ -4,9 +4,14 @@ description: 了解定义归因的组件。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: 'https://experienceleague.adobe.com/MTNpygpH4BiCFULvhUiv8yj3QocsNHI6z2Ko3hvbi90'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: 84
 ht-degree: 100%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 100%
 
 Adobe Analytics 中的归因概念涉及三个组件：
 
-* **归因模型：**[模型](#attribution-model)描述了某个群组中点击的转化分布。例如，首次接触或最后接触。
+* **归因模型：**[模型](#attribution-model)描述了某个群组中点击的转化分布。 例如，首次接触或最后接触。
 * **容器**：[容器](#container)定义了归因的范围或者如何将每个模型的点击进行分组。
 * **归因回顾窗口：**[回顾窗口](#lookback-window)描述了所选模型的回顾天数。
 
@@ -30,7 +35,7 @@ Adobe Analytics 中的归因概念涉及三个组件：
 {{attribution-container}}
 
 
-## 回顾时间范围
+## 回顾窗口
 
 {{attribution-lookback-window}}
 
@@ -69,7 +74,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 
