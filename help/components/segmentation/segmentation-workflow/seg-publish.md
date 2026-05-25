@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
 source-wordcount: 1432
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="CX Enterprise发布"
->abstract="您可以将受众发布到受众库，该受众可用于在Target和其他CX Enterprise解决方案中进行营销活动。"
+>title="CX Enterprise 发布"
+>abstract="您可以将受众发布到受众库，以便在 Target 和其他 CX Enterprise 解决方案中用于营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"

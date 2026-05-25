@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
 source-wordcount: 2059
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -149,8 +149,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="需要CX Enterprise身份验证"
->abstract="您的组织要求用户登录CX Enterprise才能使用此链接。"
+>title="要求进行 CX Enterprise 身份验证"
+>abstract="您的组织要求用户登录 CX Enterprise 后才能使用此链接。"
 
 可为无权访问 Adobe Analytics 的人员授予对 Analysis Workspace 项目的[只读访问权限](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 其中可包括：
 
