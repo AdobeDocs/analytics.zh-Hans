@@ -3,17 +3,18 @@ title: 分类集架构
 description: 了解如何在Adobe Analytics中查看和编辑分类集架构。 使用云位置添加、上传、下载或自动化分类数据。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-TQID: https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI
+TQID: 'https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
 subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9472de919011402123603b0383e9e1f4404c5016
 workflow-type: tm+mt
 source-wordcount: 1654
 ht-degree: 9%
@@ -181,8 +182,8 @@ ht-degree: 9%
 >| Analytics数据中心位置 | 将此IP地址范围添加到网络中的 |
 >|---|---:|
 >| 太平洋西北地区 | `52.254.104.0/22` |
->| 伦敦 | `51.138.16.0/22` |
->| 新加坡 | `20.40.0.0/14 ` |
+>| 伦敦 | `51.138.0.0/19` |
+>| 新加坡 | `20.32.0.0/11 ` |
 >
 
 要自动摄取分类，请选择![齿轮](/help/assets/icons/Gear.svg)**[!UICONTROL 自动]**。
