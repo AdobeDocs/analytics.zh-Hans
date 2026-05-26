@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9472de919011402123603b0383e9e1f4404c5016
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
 source-wordcount: 1654
 ht-degree: 9%
@@ -185,6 +185,7 @@ ht-degree: 9%
 >| 伦敦 | `51.138.0.0/19` |
 >| 新加坡 | `20.32.0.0/11 ` |
 >
+
 
 要自动摄取分类，请选择![齿轮](/help/assets/icons/Gear.svg)**[!UICONTROL 自动]**。
 
