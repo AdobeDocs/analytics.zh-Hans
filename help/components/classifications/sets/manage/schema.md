@@ -4,10 +4,16 @@ description: 了解如何在Adobe Analytics中查看和编辑分类集架构。 
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
 TQID: 'https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bceid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
 source-wordcount: 1654
@@ -25,7 +31,7 @@ ht-degree: 9%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要编辑其架构的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，选择&#x200B;**[!UICONTROL 架构]**选项卡。 该选项卡包含以下界面元素：
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 架构]**&#x200B;选项卡。 该选项卡包含以下界面元素：
 
    ![分类集 — 架构](assets/classification-sets-schema.png)
 
@@ -69,7 +75,7 @@ ht-degree: 9%
 
 ![分类集 — 将分类添加到架构](assets/classification-sets-schema-add-classification.png)
 
-在&#x200B;**[!UICONTROL 为&#x200B;_分类集名称_]**添加新分类对话框中，输入&#x200B;**[!UICONTROL 分类名称]**并选择&#x200B;**[!UICONTROL 添加]**。 分类即添加到列表中。
+在&#x200B;**[!UICONTROL 为&#x200B;_分类集名称_]**&#x200B;添加新分类对话框中，输入&#x200B;**[!UICONTROL 分类名称]**&#x200B;并选择&#x200B;**[!UICONTROL 添加]**。 分类即添加到列表中。
 
 ### 上载
 
@@ -107,7 +113,7 @@ ht-degree: 9%
 
 ![分类集 — 架构下载分类数据](assets/classification-sets-schema-download-file.png)
 
-在&#x200B;**[!UICONTROL 下载&#x200B;_分类集名称_]**的数据对话框中：
+在&#x200B;**[!UICONTROL 下载&#x200B;_分类集名称_]**&#x200B;的数据对话框中：
 
 1. 输入要下载的&#x200B;**[!UICONTROL 行数]**。 例如：`10000`。
 1. 要选择要下载分类数据行的期间，请为&#x200B;**[!UICONTROL 下载接收行数（介于]**&#x200B;之间）输入开始日期和结束日期。 或者使用![日历](/help/assets/icons/Calendar.svg)使用日历弹出窗口选择时段。
@@ -137,7 +143,7 @@ ht-degree: 9%
 
 ![分类集架构 — 下载模板](assets/classification-sets-schema-download-template.png)
 
-在&#x200B;_分类集名称&#x200B;_]**对话框的**[!UICONTROL 下载模板中：
+在&#x200B;_分类集名称&#x200B;_&#x200B;**对话框的**&#x200B;下载模板中：
 
 1. 要选择下载的分类数据的[文件格式](/help/components/classifications/sets/data-files.md#general-file-requirements)，请从&#x200B;**[!UICONTROL 文件格式]**&#x200B;下拉菜单中选择一个选项。 选项如下：
 
@@ -185,9 +191,9 @@ ht-degree: 9%
 
 ![分类集架构 — 自动化](assets/classification-sets-schema-automate.png)
 
-在&#x200B;**[!UICONTROL 关联/更新&#x200B;_分类集名称_]**的引入位置对话框中：
+在&#x200B;**[!UICONTROL 关联/更新&#x200B;_分类集名称_]**&#x200B;的引入位置对话框中：
 
-1. 若要选择云位置，请从&#x200B;**[!UICONTROL 位置帐户]**&#x200B;中选择一个选项。 只显示允许导入分类数据](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts)的受支持帐户类型的[位置帐户。 要创建新帐户，请选择&#x200B;**[!UICONTROL 新建帐户]**。
+1. 若要选择云位置，请从&#x200B;**[!UICONTROL 位置帐户]**&#x200B;中选择一个选项。 只显示允许导入分类数据[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts)的受支持帐户类型的位置帐户。 要创建新帐户，请选择&#x200B;**[!UICONTROL 新建帐户]**。
 1. 若要选择位置，请从&#x200B;**[!UICONTROL 位置]**&#x200B;中选择一个选项。 只显示用于导入分类数据的所选帐户类型的位置。 要创建新位置，请选择&#x200B;**[!UICONTROL 新建位置]**。
 
    >[!IMPORTANT]
@@ -208,7 +214,7 @@ ht-degree: 9%
    * **[!UICONTROL 拉丁语–1]**。
 
 1. 要通知用户已完成引入作业，请输入以逗号分隔的电子邮件地址，以便&#x200B;**[!UICONTROL 在引入作业完成时通知电子邮件（以逗号分隔）]**。
-1. 选择&#x200B;**[!UICONTROL 验证]**。 已验证与云位置的连接。 如果验证成功，则会显示Toast消息，显示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置验证成功。 已验证与云存储的连接。]**<br/>如果已创建与云连接的连接，请选择**[!UICONTROL &#x200B;保存&#x200B;]**。 否则，请选择**[!UICONTROL &#x200B;更新&#x200B;]**。 或者选择**[!UICONTROL &#x200B;取消&#x200B;]**以取消云位置的配置。
+1. 选择&#x200B;**[!UICONTROL 验证]**。 已验证与云位置的连接。 如果验证成功，则会显示Toast消息，显示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置验证成功。 已验证与云存储的连接。]**<br/>如果已创建与云连接的连接，请选择&#x200B;**[!UICONTROL &#x200B;保存&#x200B;]**。 否则，请选择&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或者选择&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消云位置的配置。
 
 将文件上传到云位置时，会在15分钟内检测到文件并将其作为导入作业提交。 该导入作业的结果在[分类作业管理器](/help/components/classifications/sets/job-manager.md)中报告。 如果您被添加到要通知引入作业完成情况的用户列表，则还会收到电子邮件。
 
@@ -229,6 +235,6 @@ ht-degree: 9%
 | 图标 | 操作 | 描述 |
 |---|---|---|
 | ![浏览](/help/assets/icons/Browse.svg) | **[!UICONTROL 添加查找]** | 将分类集添加为查找（子分类）。<br/>在&#x200B;**[!UICONTROL 附加查找]**&#x200B;表中： <ol><li>从&#x200B;**[!UICONTROL 分类名称]**&#x200B;下拉菜单中选择查找分类。</li><li>选择&#x200B;**[!UICONTROL 添加]**。</li></ol>查找分类已添加到该分类中，并使用内部ID列在&#x200B;**[!UICONTROL 分类者]**&#x200B;列中。 |
-| ![移除圆圈](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 删除查找]** | 删除分类集作为查找。 若要从分类中永久删除查找，请在&#x200B;**[!UICONTROL 从&#x200B;_分类_]**删除分类集_&#x200B;确认对话框中，选择&#x200B;**[!UICONTROL 删除]**。_ |
-| ![重命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重命名]** | 重命名分类的&#x200B;**[!UICONTROL 分类名称]**。 在&#x200B;**[!UICONTROL 重命名：_分类名称_]**对话框中，输入新名称并选择&#x200B;**[!UICONTROL 重命名]**。 |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 删除]** | 删除分类。 出现&#x200B;**[!UICONTROL 删除&#x200B;_分类名称_]**对话框。 选择&#x200B;**[!UICONTROL 删除]**以删除分类。 |
+| ![移除圆圈](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 删除查找]** | 删除分类集作为查找。 若要从分类中永久删除查找，请在&#x200B;**[!UICONTROL 从&#x200B;_分类_]**&#x200B;删除分类集_&#x200B;确认对话框中，选择&#x200B;**[!UICONTROL 删除]**。_ |
+| ![重命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重命名]** | 重命名分类的&#x200B;**[!UICONTROL 分类名称]**。 在&#x200B;**[!UICONTROL 重命名：_分类名称_]**&#x200B;对话框中，输入新名称并选择&#x200B;**[!UICONTROL 重命名]**。 |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 删除]** | 删除分类。 出现&#x200B;**[!UICONTROL 删除&#x200B;_分类名称_]**&#x200B;对话框。 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以删除分类。 |
