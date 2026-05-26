@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 285
 ht-degree: 24%
@@ -69,3 +69,4 @@ ht-degree: 24%
 
 1. 选择![设置](/help/assets/icons/Setting.svg)。
 1. 选择&#x200B;**[!UICONTROL 将Report Builder请求数据块记录到Web控制台]**。 <br/>请求将发送到您的Web浏览器控制台。 请参阅Web浏览器文档，了解如何作为Web浏览器开发人员工具的一部分打开控制台日志。
+
