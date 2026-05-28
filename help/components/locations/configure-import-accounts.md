@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: 1764
 ht-degree: 69%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 69%
 
    +++Amazon S3 Role ARN
 
-   **注意：**&#x200B;将Amazon S3与数据馈送和Data Warehouse结合使用时，仅支持SSE-S3加密。
+   **注意：**&#x200B;将Amazon S3与数据馈送、Data Warehouse和分类结合使用时，仅支持SSE-S3加密。
 
    若要配置 Amazon S3 角色 ARN 帐户，请指定以下信息：
 
@@ -118,7 +118,7 @@ ht-degree: 69%
    | [!UICONTROL **应用程序 ID**] | 从您创建的 Azure 应用程序复制此 ID。 在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。 有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
    | [!UICONTROL **租户 ID**] | 从您创建的 Azure 应用程序复制此 ID。 在 Microsoft Azure 中，此信息位于应用程序内的&#x200B;**概述**&#x200B;选项卡上。 有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
    | [!UICONTROL **密钥保管库 URI**] | <p>Azure 密钥保管库中 SAS 令牌的路径。  要配置 Azure SAS，必须使用 Azure 密钥存储库将 SAS 令牌存储为密码。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>创建密钥存储库 URI 后，在密钥存储库中添加访问策略，以授予对您创建的 Azure 应用程序的访问权限。 有关信息，请参阅[有关如何分配密钥保管库访问策略的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
-   | [!UICONTROL **密钥存储库密码名称**] | 将密码添加到 Azure 密钥存储库时所创建的密码名称。 在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥存储库**&#x200B;设置页面上创建的密钥存储库中。 有关信息，请参阅[有关如何从 Azure 密钥保管库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+   | [!UICONTROL **密钥存储库密码名称**] | 将密码添加到 Azure 密钥存储库时所创建的密码名称。 在 Microsoft Azure 中，此信息位于您在&#x200B;**密钥存储库**&#x200B;设置页面上创建的密钥存储库中。 有关信息，请参阅[有关如何从 Azure 密钥存储库设置和检索密码的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
    | [!UICONTROL **位置帐户密码**] | 从您创建的 Azure 应用程序复制密码。 在 Microsoft Azure 中，此信息位于应用程序中的&#x200B;**证书和密码**&#x200B;选项卡上。 有关更多信息，请参阅[有关如何向 Microsoft 身份标识平台注册应用程序的 Microsoft Azure 文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。 |
 
    {style="table-layout:auto"}
