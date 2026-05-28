@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
 ht-degree: 31%
@@ -84,7 +84,7 @@ ht-degree: 31%
 1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
    ![发布CX Enterprise](assets/publish-ec.png)
 1. 提供区段的标题和描述。 在保存区段之前，需要填写这些字段。
-1. 在&#x200B;**[!UICONTROL CX Enterprise发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到CX Enterprise （对于&#x200B;*报表包*）]**。
+1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
 
    >[!IMPORTANT]
    >
