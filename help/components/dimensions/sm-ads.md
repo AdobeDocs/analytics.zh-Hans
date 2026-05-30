@@ -33,27 +33,27 @@ ht-degree: 2%
 
 以下维度可供使用：
 
-* [[!UICONTROL 广告]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)
-* [[!UICONTROL 面板中的广告位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
-* [[!UICONTROL 广告长度（变量）]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)
-* [[!UICONTROL 广告名称（变量）]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)
-* [[!UICONTROL 广告播放器名称]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)
-* [[!UICONTROL 广告Pod]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)
-* [[!UICONTROL 广告商]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)
-* [[!UICONTROL 营销活动 ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)
+* [[!UICONTROL 广告]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad)
+* [[!UICONTROL 面板中的广告位置]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
+* [[!UICONTROL 广告长度（变量）]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-length)
+* [[!UICONTROL 广告名称（变量）]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-name)
+* [[!UICONTROL 广告播放器名称]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-player-name)
+* [[!UICONTROL 广告Pod]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-pod)
+* [[!UICONTROL 广告商]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/advertiser)
+* [[!UICONTROL 营销活动 ID]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/campaign-id)
 
 除了上述维度之外，Adobe还会自动创建以下分类维度。 您必须上传分类数据，以查看使用这些维度的报表。
 
 | 分类名称 | 父维度 |
 | --- | --- |
-| [[!UICONTROL 资产ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL 内容]](sm-core.md) |
-| [[!UICONTROL 内容评分]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL 内容]](sm-core.md) |
-| [[!UICONTROL 首次播放日期]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL 内容]](sm-core.md) |
-| [[!UICONTROL 第一个数字日期]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL 内容]](sm-core.md) |
-| [[!UICONTROL 广告长度]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL 广告] |
-| [[!UICONTROL 广告名称]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL 广告] |
-| [[!UICONTROL Creative ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL 广告] |
-| [[!UICONTROL 面板名称]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 广告Pod] |
-| [[!UICONTROL Pod位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 广告Pod] |
+| [[!UICONTROL 资产ID]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL 内容]](sm-core.md) |
+| [[!UICONTROL 内容评分]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL 内容]](sm-core.md) |
+| [[!UICONTROL 首次播放日期]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL 内容]](sm-core.md) |
+| [[!UICONTROL 第一个数字日期]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL 内容]](sm-core.md) |
+| [[!UICONTROL 广告长度]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL 广告] |
+| [[!UICONTROL 广告名称]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL 广告] |
+| [[!UICONTROL Creative ID]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL 广告] |
+| [[!UICONTROL 面板名称]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 广告Pod] |
+| [[!UICONTROL Pod位置]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 广告Pod] |
 
 请参阅[流媒体服务广告量度](../metrics/sm-ads.md)以了解相应的量度。

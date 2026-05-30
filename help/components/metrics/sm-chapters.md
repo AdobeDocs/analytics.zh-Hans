@@ -31,8 +31,8 @@ ht-degree: 0%
 
 可以使用以下量度：
 
-* [[!UICONTROL 章节完成]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
-* [[!UICONTROL 章节开始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
-* [[!UICONTROL 章节逗留时间]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+* [[!UICONTROL 章节完成]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL 章节开始]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL 章节逗留时间]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
 
 有关对应的维度，请参阅[流媒体服务章节维度](../dimensions/sm-chapters.md)。
