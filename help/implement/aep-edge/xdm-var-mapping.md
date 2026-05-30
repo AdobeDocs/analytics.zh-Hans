@@ -94,41 +94,41 @@ ht-degree: 76%
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 按所需的量增加相应的[自定义事件](/help/components/metrics/custom-events.md)量度。 每个事件驻留在其 100 组父项中。 例如，`event567` 的字段为 `xdm._experience.analytics.event501to600.event567.value`。 |
 | `xdm.identityMap.ECID[0].id` | [Adobe Experience Cloud 身份标识服务 ID](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。 |
 | `xdm.marketing.trackingCode` | 设置 [“跟踪代码”](/help/components/dimensions/tracking-code.md) 维度。 |
-| `xdm.media.mediaTimed.completes.value` | 流媒体服务量度[内容完成](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)。 |
+| `xdm.media.mediaTimed.completes.value` | 流媒体服务量度[内容完成](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/content-completes)。 |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`, `a.media.timePlayed`, `a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | 流媒体服务量度[联合数据](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/federated-data)。 |
-| `xdm.media.mediaTimed.firstQuartiles.value` | 流媒体服务量度 [25% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | 流媒体服务量度[内容区段视图](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)。 |
-| `xdm.media.mediaTimed.midpoints.value` | 流媒体服务量度 [50% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.media.mediaTimed.pauseTime.value` | 流媒体服务量度[总暂停时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)。 |
-| `xdm.media.mediaTimed.pauses.value` | 流媒体服务量度[暂停事件](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)。 |
-| `xdm.mediaCollection.sessionDetails.assetID` | 流媒体服务维度[资产 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id)。 |
-| `xdm.mediaCollection.sessionDetails.friendlyName` | 流媒体服务维度[视频名称](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)。 |
-| `xdm.mediaCollection.sessionDetails.originator` | 流媒体服务维度[来源方](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator)。 |
-| `xdm.mediaCollection.sessionDetails.episode` | 流媒体服务维度[剧集](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)。 |
-| `xdm.mediaCollection.sessionDetails.genre` | 流媒体服务维度[流派](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)。 |
-| `xdm.mediaCollection.sessionDetails.rating` | 流媒体服务维度[内容分级](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating)。 |
-| `xdm.mediaCollection.sessionDetails.season` | 流媒体服务维度[季](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)。 |
-| `xdm.mediaCollection.sessionDetails.name` | 流媒体服务维度[内容 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)。 |
-| `xdm.mediaCollection.sessionDetails.show` | 流媒体服务维度[节目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)。 |
-| `xdm.mediaCollection.sessionDetails.showType` | 流媒体服务维度[节目类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)。 |
-| `xdm.mediaCollection.sessionDetails.length` | 流媒体服务维度[视频长度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 流媒体服务维度[媒体会话 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)。 |
-| `xdm.mediaCollection.sessionDetails.channel` | 流媒体服务维度[内容频道](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)。 |
-| `xdm.mediaCollection.sessionDetails.contentType` | 流媒体服务维度[内容类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)。 |
-| `xdm.mediaCollection.sessionDetails.network` | 流媒体服务维度[网络](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 流媒体服务维度[内容区段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)。 |
-| `xdm.mediaCollection.sessionDetails.playerName` | 流媒体服务维度[内容播放器名称](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)。 |
+| `xdm.media.mediaTimed.federated.value` | 流媒体服务量度[联合数据](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/federated-data)。 |
+| `xdm.media.mediaTimed.firstQuartiles.value` | 流媒体服务量度 [25% 进度标记](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | 流媒体服务量度[内容区段视图](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/content-segment-views)。 |
+| `xdm.media.mediaTimed.midpoints.value` | 流媒体服务量度 [50% 进度标记](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.pauseTime.value` | 流媒体服务量度[总暂停时间](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/total-pause-duration)。 |
+| `xdm.media.mediaTimed.pauses.value` | 流媒体服务量度[暂停事件](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/pause-events)。 |
+| `xdm.mediaCollection.sessionDetails.assetID` | 流媒体服务维度[资产 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/asset-id)。 |
+| `xdm.mediaCollection.sessionDetails.friendlyName` | 流媒体服务维度[视频名称](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-name)。 |
+| `xdm.mediaCollection.sessionDetails.originator` | 流媒体服务维度[来源方](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/originator)。 |
+| `xdm.mediaCollection.sessionDetails.episode` | 流媒体服务维度[剧集](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/episode)。 |
+| `xdm.mediaCollection.sessionDetails.genre` | 流媒体服务维度[流派](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/genre)。 |
+| `xdm.mediaCollection.sessionDetails.rating` | 流媒体服务维度[内容分级](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-rating)。 |
+| `xdm.mediaCollection.sessionDetails.season` | 流媒体服务维度[季](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/season)。 |
+| `xdm.mediaCollection.sessionDetails.name` | 流媒体服务维度[内容 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content)。 |
+| `xdm.mediaCollection.sessionDetails.show` | 流媒体服务维度[节目](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/show)。 |
+| `xdm.mediaCollection.sessionDetails.showType` | 流媒体服务维度[节目类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/show-type)。 |
+| `xdm.mediaCollection.sessionDetails.length` | 流媒体服务维度[视频长度](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-length)。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 流媒体服务维度[媒体会话 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-session-id)。 |
+| `xdm.mediaCollection.sessionDetails.channel` | 流媒体服务维度[内容频道](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-channel)。 |
+| `xdm.mediaCollection.sessionDetails.contentType` | 流媒体服务维度[内容类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-type)。 |
+| `xdm.mediaCollection.sessionDetails.network` | 流媒体服务维度[网络](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/network)。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 流媒体服务维度[内容区段](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-segment)。 |
+| `xdm.mediaCollection.sessionDetails.playerName` | 流媒体服务维度[内容播放器名称](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-player-name)。 |
 | `xdm.mediaCollection.sessionDetails.appVersion` | 流媒体服务SDK版本维度。 请参阅[流媒体服务概述](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。 |
-| `xdm.mediaCollection.sessionDetails.feed` | 流媒体服务维度[媒体馈送类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)。 |
-| `xdm.mediaCollection.sessionDetails.streamFormat` | 流媒体服务维度[流传输格式](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-format)。 |
-| `xdm.media.mediaTimed.progress10.value` | 流媒体服务量度 [10% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.media.mediaTimed.progress95.value` | 流媒体服务量度 [95% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.mediaCollection.sessionDetails.hasResume` | 流媒体服务量度[内容继续](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)。 |
-| `xdm.media.mediaTimed.starts.value` | 流媒体服务量度[媒体开始](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)。 |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | 流媒体服务量度 [75% 进度标记](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.media.mediaTimed.timePlayed.value` | 流媒体服务量度[内容逗留时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)。 |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | 流媒体服务量度[媒体逗留时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)。 |
+| `xdm.mediaCollection.sessionDetails.feed` | 流媒体服务维度[媒体馈送类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-feed-type)。 |
+| `xdm.mediaCollection.sessionDetails.streamFormat` | 流媒体服务维度[流传输格式](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/stream-format)。 |
+| `xdm.media.mediaTimed.progress10.value` | 流媒体服务量度 [10% 进度标记](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.progress95.value` | 流媒体服务量度 [95% 进度标记](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.mediaCollection.sessionDetails.hasResume` | 流媒体服务量度[内容继续](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/content-resumes)。 |
+| `xdm.media.mediaTimed.starts.value` | 流媒体服务量度[媒体开始](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/media-starts)。 |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | 流媒体服务量度 [75% 进度标记](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.timePlayed.value` | 流媒体服务量度[内容逗留时间](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/content-time-spent)。 |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | 流媒体服务量度[媒体逗留时间](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/media-time-spent)。 |
 | `xdm.placeContext.geo._schema.latitude` | 访客的纬度位置。 帮助设置[移动生命周期位置](/help/components/dimensions/lifecycle-dimensions.md)维度。 |
 | `xdm.placeContext.geo._schema.longitude` | 访客的经度位置。 帮助设置[移动生命周期位置](/help/components/dimensions/lifecycle-dimensions.md)维度。 |
 | `xdm.placeContext.geo.postalCode` | [“邮政编码”](/help/components/dimensions/zip-code.md) 维度。 |

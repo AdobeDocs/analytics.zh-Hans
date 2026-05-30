@@ -32,6 +32,6 @@ ht-degree: 0%
 
 以下量度可用：
 
-* [[!UICONTROL 已授权]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/authorized)
+* [[!UICONTROL 已授权]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/authorized)
 
 有关相应的维度，请参阅[流媒体服务视频元数据维度](../dimensions/sm-video-metadata.md)。

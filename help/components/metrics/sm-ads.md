@@ -32,9 +32,9 @@ ht-degree: 0%
 
 可以使用以下量度：
 
-* [[!UICONTROL 广告完成]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
-* [[!UICONTROL 广告开始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
-* [[!UICONTROL 广告逗留时间]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
-* [[!UICONTROL 媒体逗留时间]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+* [[!UICONTROL 广告完成]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL 广告开始]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL 广告逗留时间]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL 媒体逗留时间]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/media-time-spent)
 
 有关相应的维度，请参阅[流媒体服务广告维度](../dimensions/sm-ads.md)。

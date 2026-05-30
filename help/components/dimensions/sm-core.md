@@ -31,22 +31,22 @@ ht-degree: 1%
 
 以下维度可供使用：
 
-* [[!UICONTROL 内容]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
-* [[!UICONTROL 内容渠道]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
-* [[!UICONTROL 内容长度（变量）]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
-* [[!UICONTROL 内容名称（变量）]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
-* [[!UICONTROL 内容播放器名称]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
-* [[!UICONTROL 内容区段]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
-* [[!UICONTROL 内容类型]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
-* [[!UICONTROL 媒体路径]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
-* [[!UICONTROL 媒体会话ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
-* [[!UICONTROL 流类型]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
+* [[!UICONTROL 内容]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL 内容渠道]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL 内容长度（变量）]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL 内容名称（变量）]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL 内容播放器名称]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL 内容区段]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL 内容类型]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL 媒体路径]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL 媒体会话ID]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL 流类型]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 除了上述维度之外，Adobe还会自动创建以下分类维度。 您必须上传分类数据，以查看使用这些维度的报表。
 
 | 分类名称 | 父维度 |
 | --- | --- |
-| [[!UICONTROL 视频长度]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL 内容] |
-| [[!UICONTROL 视频名称]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL 内容] |
+| [[!UICONTROL 视频长度]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL 内容] |
+| [[!UICONTROL 视频名称]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL 内容] |
 
 请参阅[流媒体服务核心量度](../metrics/sm-core.md)以了解相应的量度。
