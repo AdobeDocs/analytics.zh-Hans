@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
+source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: 1676
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 9%
 | 列 | 描述 |
 |---|---|
 | **[!UICONTROL 分类名称]** | 您为分类提供的名称。 |
-| **[!UICONTROL 身份名称]** | 系统为分类生成的名称。 此名称是只读值，您可以使用标识名称。 |
+| **[!UICONTROL 身份名称]** | 系统为分类生成的名称。 此名称是只读值，派生自初始分类名称。 标识名称在内部用于持久存储分类，充当可报告维度的ID，且无法更改。 |
 | **[!UICONTROL 分类者]** | 如果使用了，则为用于对此分类进行分类的查找分类集链接。 |
 
 
