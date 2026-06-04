@@ -33,14 +33,14 @@ ht-degree: 0%
 以下维度可供使用：
 
 * [[!UICONTROL 个广告加载]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
-* [[!UICONTROL 天部分]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
-* [[!UICONTROL 集]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
-* [[!UICONTROL 媒体馈送类型]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
-* [[!UICONTROL 流派]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
-* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
-* [[!UICONTROL 网络]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
-* [[!UICONTROL 季]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
-* [[!UICONTROL 节目]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
-* [[!UICONTROL 显示类型]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
+* [[!UICONTROL 天部分]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL 集]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL 媒体馈送类型]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL 流派]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL 网络]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL 季]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL 节目]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL 显示类型]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/show-type)
 
 有关相应的量度，请参阅[流媒体服务视频元数据量度](../metrics/sm-video-metadata.md)。
