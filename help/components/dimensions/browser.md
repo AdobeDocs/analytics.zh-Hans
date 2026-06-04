@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 59%
+source-wordcount: 280
+ht-degree: 43%
 
 ---
 
@@ -42,3 +42,5 @@ ht-degree: 59%
 维度项目包括使用的浏览器名称和版本。 同一浏览器的不同版本是不同的维度项目。
 
 某些维度项目包含 `"(unknown version)"`，而不是版本号。 此维度项目引用Adobe尚未添加到其查找表的最新浏览器版本。 由于浏览器经常更新，因此给定浏览器的 `"(unknown version)"` 很常见，而且是临时的。 Adobe 通常在月度维护版本发布期间更新查找表。
+
+某些维度项包含`.999`作为次要版本号，如`"Chrome 148.999"`。 此值表示Adobe无法可靠地确定浏览器的次要版本。 当Chrome或Edge浏览器发送不带[客户端提示](/help/technotes/client-hints.md)的请求时，用户代理字符串中的次要版本被视为不可信。 Adobe不会用可能不准确的次要版本夸大维度项，而是将这些次要版本替换为`.999`。 同样，如果任何浏览器报告的版本号异常高（高于99999），Adobe会将其标准化为`999.999`。
