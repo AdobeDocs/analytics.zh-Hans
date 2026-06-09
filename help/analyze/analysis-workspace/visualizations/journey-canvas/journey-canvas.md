@@ -3,7 +3,7 @@ description: 了解如何在 Analysis Workspace 中使用历程画布。
 title: 历程画布概述
 feature: Visualizations
 role: User, Admin
-source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
+source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 89%
@@ -41,8 +41,6 @@ ht-degree: 89%
 _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中记录了历程画布可视化图表。<br/><br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[历程画布概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)。_
 
 >[!ENDSHADEBOX]
-
-{{release-limited-testing}}
 
 历程画布可视化图表可帮助您进行分析，获得关于您为用户和客户提供的历程的深入洞察。 它允许您定义历程，然后查看人员如何离开（流失）或继续通过（流过）历程。
 

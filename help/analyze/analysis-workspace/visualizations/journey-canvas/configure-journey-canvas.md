@@ -3,7 +3,7 @@ description: 了解如何配置历程画布可视化图表。
 title: 配置历程画布可视化图表
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
 workflow-type: tm+mt
 source-wordcount: '5783'
 ht-degree: 90%
@@ -17,8 +17,6 @@ ht-degree: 90%
 _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了历程画布可视化图表。<br/><br/>_&#x200B;请参阅[为本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本配置历程画布可视化图表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
 
 >[!ENDSHADEBOX]
-
-{{release-limited-testing}}
 
 历程画布可视化图表可帮助您进行分析，获得关于您为用户和客户提供的历程的深入洞察。
 
