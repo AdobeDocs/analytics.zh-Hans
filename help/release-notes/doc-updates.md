@@ -6,10 +6,31 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b7156124-d291-4de4-ac0c-ed17d8078449
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
 workflow-type: tm+mt
 source-wordcount: 7375
@@ -35,14 +56,14 @@ ht-degree: 94%
 | **2026年5月** | |
 | 流媒体维度和量度 | 流媒体文档的重要更新。 示例链接包括[流媒体服务核心维度](/help/components/dimensions/sm-core.md)和[流媒体服务核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
-| 划分面板 | 重新构建了面板](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的[放置区域文档，以支持新的[划分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
+| 划分面板 | 重新构建了面板[&#128279;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的放置区域文档，以支持新的[划分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
 | 已识别新报表包的IP模糊处理的默认选项 | 添加了信息来声明&#x200B;**删除IP地址**&#x200B;是新报表包的默认[IP模糊处理选项](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。 |
-| 处理订单大修 | 显着改进了Adobe Analytics](/help/technotes/processing-order.md)中的[处理顺序。 |
+| 处理订单大修 | 显着改进了Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中的处理顺序。 |
 | Adobe Advertising集成 | 添加了Adobe Advertising集成维度和指标，包括[AMO ID](/help/components/dimensions/amo-id.md)。 |
 | **2026 年 2 月** |  |
-| 添加了有关使用地理和技术报表的信息 | 添加了有关在不同的Analytics产品](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理和技术报表[时差异的信息。 |
+| 添加了有关使用地理和技术报表的信息 | 添加了有关在不同的Analytics产品[&#128279;](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理和技术报表时差异的信息。 |
 | **2026 年 1 月** | |
-| 分类集规则生成器 | 有关分类集](/help/components/classifications/sets/manage/rules.md)功能中新的[规则生成器功能的文档。 |
+| 分类集规则生成器 | 有关分类集[&#128279;](/help/components/classifications/sets/manage/rules.md)功能中新的规则生成器功能的文档。 |
 | 设备图 | 已删除对[已停用的设备图功能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)的引用。 |
 
 ### 2025 {#year2025}
@@ -211,7 +232,7 @@ ht-degree: 94%
 | 多货币更新 | 有关[多货币支持](/help/implement/vars/config-vars/currencycode.md)的页面已更新。 |
 | **2022 年 10 月** |  |
 | Data Workbench | [生命周期终止通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
-| 客户端提示 | 新的[概述和常见问题解答 ](/help/technotes/client-hints.md)。 |
+| 客户端提示 | 新的[概述和常见问题解答 &#x200B;](/help/technotes/client-hints.md)。 |
 | 关键量度摘要 | 关于[关键量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)可视化的新主题。 |
 | 分类集 | 新用户[分类集](/help/components/classifications/sets/overview.md)体验提供单个界面以管理分类和规则，并更容易看到客户拥有的分类数据。 |
 | 移动设备应用程序：自定义详细信息视图 | 关于[自定义详细视图](/help/analyze/mobile-app/create-scorecard.md)的新主题。 |
