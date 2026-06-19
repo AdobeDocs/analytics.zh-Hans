@@ -6,22 +6,15 @@ feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -64,21 +57,21 @@ ht-degree: 15%
 | --- | --- | --- |
 | **eVar 1-250** | 读取+写入 | [eVar](/help/components/dimensions/evar.md) 维度。 |
 | **Campaign** | 读取+写入 | [跟踪代码](/help/components/dimensions/tracking-code.md)维度。 |
-| **购买ID** | 读取+写入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 实施变量。 |
-| **省/州** | 读取+写入 | （已停用） [`state`](/help/implement/vars/page-vars/state.md)实现变量。 |
+| **购买ID** | 读取+写入 | [购买ID](/help/components/dimensions/purchase-id.md)维度。 |
+| **省/州** | 读取+写入 | （已停用）[访客状态](/help/components/dimensions/overview.md#retired-dimensions)维度。 |
 | **Zip** | 读取+写入 | [邮政编码](/help/components/dimensions/zip-code.md)维度。 |
 | **货币代码** | 读取+写入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 实施变量。 重要信息：如果将此变量设置为无效值，则将丢弃点击。 |
 | **交易 ID** | 读取+写入 | [`transactionID`](/help/import/data-sources/transactionid.md) 实施变量。 |
 
 >[!NOTE]
->Adobe不支持使用处理规则设置[`products`](/help/implement/vars/page-vars/products.md)实现变量。
+>Adobe不支持使用处理规则设置[Product](/help/components/dimensions/product.md)维度。
 
 ## 流量变量
 
 | 变量 | 读/写状态 | 描述 |
 | --- | --- | --- |
 | **Prop 1-75** | 读取+写入 | [Prop](/help/components/dimensions/prop.md) 维度。 |
-| **层次结构1-5** | 读取+写入 | （已停用）[层次结构](/help/components/dimensions/hierarchy.md)维度。 |
+| **层次结构1-5** | 读取+写入 | （已停用）[层次结构](/help/components/dimensions/overview.md#retired-dimensions)维度。 |
 | **服务器** | 读取+写入 | [服务器](/help/components/dimensions/server.md)维度。 |
 | **渠道** | 读取+写入 | [网站分区](/help/components/dimensions/site-section.md)维度。 |
 

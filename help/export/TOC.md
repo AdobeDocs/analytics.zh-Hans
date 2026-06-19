@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送和 Data Warehouse 来检索数据输出。
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 94%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 94%
    + [按量度排序](data-warehouse/sorting-by-metric.md)
    + [管理 Data Warehouse 请求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 中支持的组件](data-warehouse/component-support.md)
+   + [数据仓库区段兼容性](data-warehouse/segment-compatibility.md)
    + [Data Warehouse 最佳实践](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
    + [将FTP和SFTP用于Adobe CX Enterprise](ftp-and-sftp/ftp-overview.md)

@@ -4,22 +4,15 @@ description: 在您的网站上返回错误的 URL。
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 TQID: https://experienceleague.adobe.com/0S2WzNRJrtOa9ZPTg5cmbwxMLJE5tI6Qa3GtZs6GqKc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 78%
+source-wordcount: 232
+ht-degree: 75%
 
 ---
 
@@ -31,6 +24,10 @@ ht-degree: 78%
 
 * 您可以在[流量可视化图表](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)中使用此维度，以查看访客在点击哪些页面时出现错误。 然后，您可以与组织中的开发团队合作，修复每个页面上的问题链接。
 * 您可以将此维度与[反向链接](referrer.md)维度一起使用，以查看访客从外部链接到达您的网站的哪些位置。 然后，您可以实施重定向到所需的位置，或与第三方合作修复链接。
+
+>[!NOTE]
+>
+>在Data Warehouse中，此维度名为“[!UICONTROL Page Type Error]”。
 
 ## 使用数据填充此维度
 

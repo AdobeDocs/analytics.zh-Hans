@@ -4,17 +4,13 @@ title: 为Data Warehouse请求构建报告
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 TQID: https://experienceleague.adobe.com/9ZPqEsJ8Dg-raXva9DfJxPHde3Teb3vFf1IeEcHTC3o
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 36%
+source-wordcount: 251
+ht-degree: 33%
 
 ---
 
@@ -38,9 +34,11 @@ ht-degree: 36%
 
    区段生成器中创建的所有区段并非都与Data Warehouse兼容。 如果选择包含不兼容区段的虚拟报表包，则会显示错误。
 
-   有关区段内支持的函数的列表，请参阅[Data Warehouse区段兼容性](/help/components/segmentation/seg-reference/seg-compatibility.md)。
+   有关Data Warehouse区段内支持的区段结构和维度，请参阅[Data Warehouse区段兼容性](/help/export/data-warehouse/segment-compatibility.md)。
 
 1. 将任意区段、量度和维度拖动到生成器中。 您构建的报表可确定Data Warehouse请求中包含哪些数据。
+
+   有关请求中可用的维度和量度，请参阅Data Warehouse中的[组件支持](/help/export/data-warehouse/component-support.md)。
 
 1. 继续在&#x200B;[!UICONTROL **报告目标**]&#x200B;选项卡上配置Data Warehouse请求。 有关详细信息，请参阅[配置 Data Warehouse 请求的报告目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。
 

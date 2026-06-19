@@ -6,25 +6,15 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
 TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 65%
+source-wordcount: 603
+ht-degree: 69%
 
 ---
 
@@ -32,7 +22,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
-> 本文为（计划）在其网站上实施Adobe Analytics **的** Adobe Analytics客户提供了有关如何为网站用户提供选择退出链接的说明。 <p><p>> 如果您&#x200B;**正在访问已实施Adobe Analytics**&#x200B;的网站，并且希望选择退出，则&#x200B;**<span style="color:red">本文不适合您</span>**。 请参阅[Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html)以控制Adobe如何使用您的信息。
+> 本文为（计划）在其网站上实施Adobe Analytics **的** Adobe Analytics客户提供了有关如何为网站用户提供选择退出链接的说明。 <p><p>> 如果您&#x200B;**正在访问已实施Adobe Analytics**&#x200B;的网站，并且希望选择退出，则&#x200B;**<span style="color:red">本文不适合您</span>**。请参阅[Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html)以控制Adobe如何使用您的信息。
 
 某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。 Adobe让您能够向网站访客提供一种方法，禁止对其信息进行分析。
 
@@ -46,7 +36,7 @@ ht-degree: 65%
 
 ## 选择退出 URL
 
-贵组织的选择退出页面取决于实施中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 变量值。
+贵组织的选择退出页面取决于实施中的 [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 变量值。
 
 * 在Analytics扩展中：
    1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
@@ -58,7 +48,7 @@ ht-degree: 65%
    1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
    1. 记下 `trackingServer` 变量值。
 
-* 使用[Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)：
+* 使用[Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)：
    1. 使用 Chrome 浏览器导航到您的网站。
    1. 打开CX Enterprise Debugger，然后转到[!UICONTROL 网络选项卡]。
    1. 记下[!UICONTROL 请求 URL - 主机名]值。
