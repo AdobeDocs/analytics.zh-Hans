@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。 了解跨设备分析。
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 5fd568b19e6a3381d1a9904d4a5d8e681d1fa1a6
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 97%
 
 ---
@@ -185,6 +185,7 @@ ht-degree: 97%
    + [关于区段](segmentation/seg-overview.md)
    + [关于区段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
+   + {hide-from-toc}[子点击分析](segmentation/sub-hit.md)
    + 工作流 {#segmentation-workflow}
       + [概述](segmentation/segmentation-workflow/seg-workflow.md)
       + [计划区段](segmentation/segmentation-workflow/seg-plan.md)
