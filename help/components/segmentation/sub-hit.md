@@ -3,8 +3,10 @@ title: 子点击分析
 description: 了解子点击分析如何让您在Adobe Analytics中筛选点击中的各个产品，消除产品报表中的归因出血。
 feature: Segmentation
 hide: true
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
 source-git-commit: 5fd568b19e6a3381d1a9904d4a5d8e681d1fa1a6
 workflow-type: tm+mt
 source-wordcount: 808
@@ -35,8 +37,8 @@ ht-degree: 0%
 
 ![显示产品类别为“男性”的点击级别分段的面板](./assets/product-category-segmentation-hits.png)
 
-因此，至少包含一个&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时尚产品类别]**&#x200B;的所有订单都将被考虑，并且这些订单中来自其他产品的收入包含在&#x200B;**[!UICONTROL 在线收入]**量度中。
-当您报告类别时，报告了**[!UICONTROL 零售业：时装产品类别]**&#x200B;的所有其他值，这些值属于包含&#x200B;**[!UICONTROL 男士]** **[!UICONTROL 零售业：时装产品类别]**&#x200B;的产品的订单。
+因此，至少包含一个&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时尚产品类别]**&#x200B;的所有订单都将被考虑，并且这些订单中来自其他产品的收入包含在&#x200B;**[!UICONTROL 在线收入]**&#x200B;量度中。
+当您报告类别时，报告了&#x200B;**[!UICONTROL 零售业：时装产品类别]**&#x200B;的所有其他值，这些值属于包含&#x200B;**[!UICONTROL 男士]** **[!UICONTROL 零售业：时装产品类别]**&#x200B;的产品的订单。
 
 >[!TAB 子点击分析]
 
@@ -44,8 +46,8 @@ ht-degree: 0%
 
 ![显示产品类别Men的子点击级别分段的面板](./assets/product-category-segmentation-sub-hits.png)
 
-因此，至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**&#x200B;的所有订单都被考虑在内，并且在&#x200B;**[!UICONTROL 在线收入]**&#x200B;量度中只包含属于&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**的产品收入。
-当您报告类别时，仅报告**[!UICONTROL 男性]** **[!UICONTROL 零售：时尚产品类别]**。
+因此，至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**&#x200B;的所有订单都被考虑在内，并且在&#x200B;**[!UICONTROL 在线收入]**&#x200B;量度中只包含属于&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**&#x200B;的产品收入。
+当您报告类别时，仅报告&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时尚产品类别]**。
 
 >[!TAB 子点击分析（排除）]
 
