@@ -18,16 +18,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 262
-ht-degree: 94%
+source-wordcount: 314
+ht-degree: 74%
 
 ---
 
 # 点击深度
 
-“点击深度”[维度](overview.md)报告给定点击访问的深度。 此维度对于了解访客在您网站上执行操作的访问深度非常重要。 点击深度计算所有类型的点击，包括页面视图 ([`t()`](/help/implement/vars/functions/t-method.md)) 和链接跟踪点击 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
+“点击深度”[维度](overview.md)报告给定点击访问的深度。 此维度对于了解访客在您网站上执行操作的访问深度非常重要。 点击深度计算所有类型的点击，包括页面视图([`t()`](/help/implement/vars/functions/t-method.md))和链接跟踪点击([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
 ## 使用数据填充此维度
 
@@ -36,6 +36,10 @@ ht-degree: 94%
 ## 维度项目
 
 维度项目包括字符串 `"Hit Depth"`，后跟一个数字，表示点击进行访问的次数。 维度项目 `"Hit Depth 1"` 表示访问的第一次点击，维度项目 `"Hit Depth 8"` 表示访问的第 8 次点击。
+
+>[!NOTE]
+>
+>Adobe Analytics仅以二级精度记录时间戳。 对于每秒共享相同时间戳的点击，Adobe无法保证报表中反映的顺序与点击发生的顺序相同。 如果毫秒级的精度是贵组织的优先事项，请考虑使用Customer Journey Analytics。
 
 ## 与访问深度相比较
 

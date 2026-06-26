@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 82%
+source-wordcount: 304
+ht-degree: 67%
 
 ---
 
@@ -43,11 +43,11 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.timestamp
 
-`s.timestamp` 变量是一个包含点击日期和时间的字符串。 有效的时间戳格式包括[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)和[Unix时间](https://en.wikipedia.org/wiki/Unix_time)（秒）。
+`s.timestamp` 变量是一个包含点击日期和时间的字符串。 有效的时间戳格式包括[ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)和[Unix时间](https://en.wikipedia.org/wiki/Unix_time)（秒）。
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2024-01-01T00:00:00Z";
+s.timestamp = "2026-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -61,24 +61,24 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601 值
 
-以 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 表示的日期和时间可以采用几种不同的形式。 Adobe 并不支持 ISO 8601 中的所有功能。
+以 [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) 表示的日期和时间可以采用几种不同的形式。 Adobe 并不支持 ISO 8601 中的所有功能。
 
 * 必须提供日期和时间，中间由 `T` 隔开。
 * 需要提供小时和分钟；秒是可选的，但建议提供。
 * 不支持周日期和序数日期。
-* 日期可以采用标准格式或扩展格式。 例如，`2024-01-01T00:00:00Z` 和 `20240101T000000Z` 均有效。
-* 从技术上讲，小数分钟数和秒数是有效的，但 Adobe 会忽略小数。
+* 日期可以采用标准格式或扩展格式。 例如，`2026-01-01T00:00:00Z` 和 `20260101T000000Z` 均有效。
+* 从技术上讲，小数分钟数和秒数是有效的，但小数将被忽略。 Adobe Analytics仅支持具有二级精度的时间戳。 如果毫秒级的精度是贵组织的优先事项，请考虑使用Customer Journey Analytics。
 * 采用标准格式和扩展格式的时区均受支持。
 
 以下是 `timestamp` 变量中的有效 ISO 8601 示例值：
 
 ```text
-2024-01-01T00:00:00+00:00
-2024-01-01T00:00:00Z
-2024-01-01T00:00:00
-2024-01-01T00:00
-20240101T000000+0000
-20240101T000000Z
-20240101T000000
-20240101T0000
+2026-01-01T00:00:00+00:00
+2026-01-01T00:00:00Z
+2026-01-01T00:00:00
+2026-01-01T00:00
+20260101T000000+0000
+20260101T000000Z
+20260101T000000
+20260101T0000
 ```
