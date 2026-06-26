@@ -18,7 +18,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 1955
 ht-degree: 76%
@@ -85,7 +85,7 @@ ht-degree: 76%
 | `xdm.environment.operatingSystem` | 移动生命周期维度[操作系统](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | 帮助设置移动生命周期维度[操作系统版本](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 设置相应的 [eVar](/help/components/dimensions/evar.md) 维度。 |
-| `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier5` | 设置相应的[层级](/help/components/dimensions/hierarchy.md)维度。 |
+| `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier5` | 设置相应的[层级](/help/components/dimensions/overview.md#retired-dimensions)维度。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 列表属性分隔符覆盖。 不建议使用此字段，因为会从报告包设置下的[流量变量管理](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)中自动检索分隔符。 使用此字段可能会导致使用的分隔符与 Analytics 需要的分隔符不匹配。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 一个字符串数组，包含相应的 [List Prop](../vars/page-vars/prop.md#list-props) 值。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 将每个 `list[]` 数组中的所有 `value` 字符串连接到其各自的[列表变量](../vars/page-vars/list.md)。 分隔符是根据[报告包设置](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)中的值集自动选择的。 |

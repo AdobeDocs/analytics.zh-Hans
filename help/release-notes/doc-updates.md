@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 7375
+source-wordcount: 7391
 ht-degree: 94%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 94%
 | 功能 | 描述 |
 | --- | --- |
 | **2026年6月** | |
+| 查询字符串引用更新 | 对[数据收集查询参数](/help/implement/validate/query-parameters.md)的重要修订。 |
+| Data Warehouse中的区段 | 更新了[Data Warehouse区段兼容性](/help/export/data-warehouse/segment-compatibility.md)。 |
 | 已将GA更换为AA导轨 | GA到AA指南引用了Universal Analytics，后者于2023年废止。 新指南已替换它，[从Google Analytics 4过渡到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
-| **2026年5月** | |
+| **2026 年 5 月** | |
 | 流媒体维度和量度 | 流媒体文档的重要更新。 示例链接包括[流媒体服务核心维度](/help/components/dimensions/sm-core.md)和[流媒体服务核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
-| 划分面板 | 重新构建了面板[&#128279;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的放置区域文档，以支持新的[划分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
+| 划分面板 | 重新整理了[&#128279;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)面板放置区域文档的结构，以支持新的[划分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
 | 已识别新报表包的IP模糊处理的默认选项 | 添加了信息来声明&#x200B;**删除IP地址**&#x200B;是新报表包的默认[IP模糊处理选项](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。 |
 | 处理订单大修 | 显着改进了Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中的处理顺序。 |
 | Adobe Advertising集成 | 添加了Adobe Advertising集成维度和指标，包括[AMO ID](/help/components/dimensions/amo-id.md)。 |
@@ -78,7 +80,7 @@ ht-degree: 94%
 | 归因配置 | 反映出关于模型、容器和回顾窗口的新的归因配置选项的其他更新。 |
 | 额外访客识别改进 | 添加了[访客识别](/help/implement/id/overview.md)部分，概述了在所有实施类型中识别访客的推荐方法。 |
 | **2025 年 9 月** | |
-| 访客识别改进 | 说明了有关访客识别的最佳做法，重点说明了 AppMeasurement 中 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 和 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 变量的用途。 |
+| 访客识别改进 | 说明了有关访客识别的最佳做法，重点说明了 AppMeasurement 中 `trackingServer` 和 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 变量的用途。 |
 | **2025 年 8 月** | |
 | 数据馈送名称必须唯一 | 说明了为什么[数据馈送名称必须唯一](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)。 |
 | 弃用警告 | 在[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)和[分类导入程序](/help/components/classifications/importer/c-working-with-saint.md)部分的文章中添加了弃用警告。 |
@@ -92,7 +94,7 @@ ht-degree: 94%
 | **2025 年 3 月** |  |
 | 分析库存 | [分析库存](/help/admin/tools/analytics-inventory.md)提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。 |
 | Customer Journey Analytics 升级指南 | 让您生成从 Adobe Analytics 升级到 Customer Journey Analytics 的[分步指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
-| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读 Data Warehouse 导出日期值的信息。 <p>请参阅[在 Data Warehouse 的组件支持](/help/export/data-warehouse/component-support.md)中[以不同方式支持的维度（非标准日期格式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
+| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读 Data Warehouse 导出日期值的信息。 <p>在Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中的组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
 | 关于 IP 排除的更新信息 | 添加了说明 [IP 排除](/help/admin/tools/exclude-ip.md)可能需要长达 5 分钟才能生效，并且更改仅适用于新的点击（设置排除之前捕获的数据不受影响）。 <p>还更新了内容布局以提高可读性。</p> |
 | **2025 年 2 月** |  |
 | 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。 从馈送暂停到重新激活期间不处理数据。 |
@@ -124,7 +126,7 @@ ht-degree: 94%
 | **2024 年 6 月** | |
 | 更新了涉及流媒体服务功能的产品名称 | 当引用收集流媒体数据并将其显示在 Analysis Workspace 中的一组流媒体功能时，将“媒体分析”和“流媒体”的实例替换为名称“流媒体收藏集附加组件”和“流媒体收藏集”。 <p>这些更新可在 Adobe Analytics 文档以及[流媒体收藏集文档](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)中查看。</p> |
 | 改进警报文档 | 更新并改进了有关警报的文档。 这些更新包括有关[创建警报](/help/components/alerts/alert-builder.md)、[管理警报](/help/components/alerts/alert-manager.md)以及[概述信息](/help/components/alerts/alerts-overview.md)的信息。 |
-| 已弃用 `cookieDomainPeriods` | 现在，AppMeasurement 会自动检测正确的域来设置 Cookie，[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 变量已被弃用。 |
+| 已弃用 `cookieDomainPeriods` | 现在，AppMeasurement 会自动检测正确的域来设置 Cookie，[`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 变量已被弃用。 |
 | 停用数据连接器文档 | 将数据连接器停用页面移至[已停产产品](https://experienceleague.adobe.com/zh-hans/docs/discontinued/using/data-connectors)。 |
 | **2024 年 5 月** | |
 | 在数据馈送和数据仓库中使用 Google Cloud Platform 的组织策略约束时所需的信息 | 将 Adobe 拥有的 Google Cloud Platform 组织 ID 添加到[数据馈送](/help/export/analytics-data-feed/create-feed.md)和[数据仓库](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)文档中。 <p>仅当组织在 Google Cloud Platform 中使用[组织策略约束](https://cloud.google.com/storage/docs/org-policy-constraints)时才需要此信息。</p> |
@@ -137,7 +139,7 @@ ht-degree: 94%
 | 删除了分类集中与“所有者”相关的文档 | 已从 [分类集管理器](/help/components/classifications/sets/manage-sets.md) 中删除“所有者”筛选条件和列，并且已从 [分类集设置](/help/components/classifications/sets/manage/settings.md)中删除“所有者”字段。 <p>文档已更新以删除此筛选条件、列和字段。</p> |
 | 删除了文档中有关配置云导入和导出位置的可折叠部分 | 删除了[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中的可折叠部分，以获取解释云帐户类型的信息。 |
 | **2024 年 3 月** | |
-| AppMeasurement 更新 | AppMeasurement 更新 v2.26.0 的[发行说明](/help/implement/appmeasurement-updates.md)。<br/>包括对 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 配置变量文档的引用和更新。 |
+| AppMeasurement 更新 | AppMeasurement 更新 v2.26.0 的[发行说明](/help/implement/appmeasurement-updates.md)。<br/>包括对 [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 配置变量文档的引用和更新。 |
 | 有关“用于”列的使用情况信息仅从 2023 年 9 月开始提供。 | 阐明[项目登陆页面](/help/analyze/landing.md)“**用于**”列的使用情况信息只能追溯到 2023 年 9 月。 |
 | **2024 年 2 月** | |
 | 有关管理 Data Warehouse 请求的信息的更新 | 澄清了默认情况下，用户只能查看他们在[管理 Data Warehouse 请求](/help/export/data-warehouse/data-warehouse-requests-manage.md)时创建的请求。 |

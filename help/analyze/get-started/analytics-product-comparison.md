@@ -27,7 +27,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 67%
@@ -52,7 +52,7 @@ ht-degree: 67%
 | **可见的行限制（分页前）** | 400 | 50000 | 无限制 | 无限制 | 50000 |
 | **多个报告包** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是 | 否 | 是 | 否 |
 | **划分数** | 无限制 | 最高 2 | 无限制 | 无限制 | 无限制，跨多个查询运行 |
-| **区段划分** <br> [了解详情](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 是 | 是 | 是，具有[限制](/help/components/segmentation/seg-reference/seg-compatibility.md) | 否 | 是 |
+| **区段划分** <br> [了解详情](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 是 | 是 | 是，具有[限制](/help/export/data-warehouse/segment-compatibility.md) | 否 | 是 |
 | **计算指标** <br> [了解详情](/help/components/calculated-metrics/cm-overview.md) | 是，具有[归因](/help/analyze/analysis-workspace/attribution/overview.md) | 是，具有归因 | 是 | 否 | 是，具有[归因](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **营销渠道** <br> [了解详情](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 是 | 是 | 是 | 是 - [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 是 |
 | **同类群组分析** | [是](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 是 | 否 | 否 | 否 |

@@ -3,14 +3,13 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
-user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。 了解跨设备分析。
+source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 98%
+source-wordcount: '777'
+ht-degree: 97%
 
 ---
-
 
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
@@ -27,7 +26,7 @@ ht-degree: 98%
    + [所有搜索页面排名](dimensions/all-search-page-rank.md)
    + [AMO ID](dimensions/amo-id.md)
    + [AMO EF ID](dimensions/amo-ef-id.md)
-   + [AMO 元广告点击 ID](dimensions/amo-meta-id.md)
+   + [AMO Meta广告点击ID](dimensions/amo-meta-id.md)
    + [上午/下午](dimensions/am-pm.md)
    + [机器人名称](dimensions/bot-name.md)
    + [浏览器高度](dimensions/browser-height.md)
@@ -59,14 +58,15 @@ ht-degree: 98%
    + [eVar (Merchandising)](dimensions/evar-merchandising.md)
    + [退出维度](dimensions/exit-dimensions.md)
    + [退出链接](dimensions/exit-link.md)
+   + [Experience Cloud 访客 ID](dimensions/experience-cloud-visitor-id.md)
    + [首个联系渠道](dimensions/first-touch-channel.md)
    + [首个联系渠道详细信息](dimensions/first-touch-detail.md)
-   + [层级](dimensions/hierarchy.md)
    + [点击深度](dimensions/hit-depth.md)
    + [点击类型](dimensions/hit-type.md)
    + [每天的某小时](dimensions/hour-of-day.md)
    + [小时](dimensions/hour.md)
    + [识别的状态](dimensions/identified-state.md)
+   + [IP 地址](dimensions/ip-address.md)
    + [已启用 Java](dimensions/java-enabled.md)
    + [语言](dimensions/language.md)
    + [最近联系渠道](dimensions/last-touch-channel.md)
@@ -89,6 +89,7 @@ ht-degree: 98%
    + [永久性 Cookie 支持](dimensions/persistent-cookie-support.md)
    + [产品](dimensions/product.md)
    + [Prop](dimensions/prop.md)
+   + [购买 ID](dimensions/purchase-id.md)
    + [季度](dimensions/quarter-of-year.md)
    + [季度](dimensions/quarter.md)
    + [反向链接类型](dimensions/referrer-type.md)
@@ -117,6 +118,7 @@ ht-degree: 98%
    + [语音维度](dimensions/voice-dimensions.md)
    + [访问深度](dimensions/visit-depth.md)
    + [访问量](dimensions/visit-number.md)
+   + [访客 ID](dimensions/visitor-id.md)
    + [周](dimensions/week.md)
    + [工作日/周末](dimensions/weekday-weekend.md)
    + [年](dimensions/year.md)
@@ -182,6 +184,7 @@ ht-degree: 98%
    + [关于区段](segmentation/seg-overview.md)
    + [关于区段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
+   + {hide-from-toc}[子点击分析](segmentation/sub-hit.md)
    + 工作流 {#segmentation-workflow}
       + [概述](segmentation/segmentation-workflow/seg-workflow.md)
       + [计划区段](segmentation/segmentation-workflow/seg-plan.md)
@@ -201,7 +204,6 @@ ht-degree: 98%
       + [使用区段](segmentation/segmentation-workflow/t-seg-apply.md)
    + 参考 {#segment-reference}
       + [运算符](segmentation/seg-reference/seg-operators.md)
-      + [数据仓库区段兼容性](segmentation/seg-reference/seg-compatibility.md)
       + [按角色划分区段权限](segmentation/seg-reference/seg-rights.md)
       + [故障排除](segmentation/seg-reference/c-troubleshooting.md)
    + [旧版区段常见问题解答](segmentation/seg-transition.md)
@@ -313,4 +315,3 @@ ht-degree: 98%
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
    + [营销渠道常见问题解答和示例](c-marketing-channels/c-faq.md)
-

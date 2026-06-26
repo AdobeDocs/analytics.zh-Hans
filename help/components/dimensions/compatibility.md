@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 47%
@@ -120,7 +120,7 @@ ht-degree: 47%
 | [上午/下午](am-pm.md) | `timepartampm` |
 | [浏览器高度 — 分段统计](browser-height.md) | `browserheightbucketed` |
 | [浏览器宽度 — 分段统计](browser-width.md) | `browserwidthbucketed` |
-| [日](day.md) | `daterangeday` |
+| [其中一天](day.md) | `daterangeday` |
 | [这月的其中一天](day-of-month.md) | `timepartdayofmonth` |
 | [这周的其中一天](day-of-week.md) | `dayofweek` |
 | [这周的其中一天](day-of-week.md) | `timepartdayofweek` |
@@ -136,11 +136,11 @@ ht-degree: 47%
 | [退出服务器](exit-dimensions.md) | `exitserver` |
 | [退出网站区域](exit-dimensions.md) | `exitsitesections` |
 | [点击深度](hit-depth.md) | `hitdepth` |
-| [点击类型](hit-type.md) | `hittype` |
-| [小时](hour.md) | `daterangehour` |
+| [点击类型](hit-type.md) | `customerperspective` |
+| [其中一个小时](hour.md) | `daterangehour` |
 | [这天的其中一个小时](hour-of-day.md) | `timeparthourofday` |
 | [营销渠道详细信息](marketing-detail.md) | `marketingchanneldetail` |
-| [分钟](minute.md) | `daterangeminute` |
+| [其中一分钟](minute.md) | `daterangeminute` |
 | [移动设备最大书签长度](mobile-dimensions.md) | `mobilebookmarklength` |
 | [移动设备号码](mobile-dimensions.md) | `mobiledevicenumber` |
 | [移动设备DRM](mobile-dimensions.md) | `mobiledrm` |
@@ -149,20 +149,20 @@ ht-degree: 47%
 | [移动设备邮件修饰](mobile-dimensions.md) | `mobilemaildecoration` |
 | [移动网络协议](mobile-dimensions.md) | `mobilenetprotocols` |
 | [移动一键通](mobile-dimensions.md) | `mobilepushtotalk` |
-| [月](month.md) | `daterangemonth` |
+| [其中一个月](month.md) | `daterangemonth` |
 | [这年的其中一个月](month-of-year.md) | `timepartmonthofyear` |
 | [操作系统类型](operating-system-types.md) | `operatingsystemgroup` |
 | [付费搜索](paid-search.md) | `paidsearch` |
 | [永久性Cookie支持](persistent-cookie-support.md) | `persistentcookie` |
-| [季度](quarter.md) | `daterangequarter` |
+| [其中一个季度](quarter.md) | `daterangequarter` |
 | [这年的其中一个季度](quarter-of-year.md) | `timepartquarterofyear` |
 | 调查 | `surveybase` |
 | [页面逗留时间 — 分段统计](time-spent-on-page.md) | `averagepagetime` |
 | [页面逗留时间 — 粒度](time-spent-on-page.md) | `pagetimeseconds` |
 | [跟踪选择退出的原因](tracking-opt-out-reason.md) | `optoutreason` |
 | [工作日/周末](weekday-weekend.md) | `timepartweekdayweekend` |
-| [周](week.md) | `daterangeweek` |
-| [年](year.md) | `daterangeyear` |
+| [其中一周](week.md) | `daterangeweek` |
+| [其中一年](year.md) | `daterangeyear` |
 
 ## 仅在 Analysis Workspace 中受支持的内容感知维度
 

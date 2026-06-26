@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 73%
+source-wordcount: 385
+ht-degree: 72%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 73%
 >在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。 Adobe 将不再提供用于在代码管理器中下载 H 代码的选项。
 
 1. **更新核心 JS 文件变量**：编辑 `s_code.js` 文件，并确保已更新以下变量：
-   * `s_account` 包含要将数据发送到的报表包 ID。 请参阅
-   * `s.trackingServer` 包含 Cookie 的存储位置。 请参阅 [trackingServer](../../vars/config-vars/trackingserver.md)。
+   * `s_account` 包含要将数据发送到的报表包 ID。
+   * `s.trackingServerSecure` 包含 Cookie 的存储位置。
 1. **将 `s_code.js` 文件托管在您的网站上**：此文件通常与其他脚本一起驻留在您的 Web 服务器中。
 1. **在所有页面上引用 `s_code.js`**：确保所有页面都调用核心 JavaScript 文件，并在 HTML `<body>` 标记（而非 `<head>` 标记）中调用该文件。
 

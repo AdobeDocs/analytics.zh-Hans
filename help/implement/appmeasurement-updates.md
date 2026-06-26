@@ -30,9 +30,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 2885
+source-wordcount: 2881
 ht-degree: 53%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 53%
 
 发行日期：**2024年3月4日**
 
-* AppMeasurement会自动识别并利用国家/地区代码顶级域的根域，以前需要特定Cookie域配置。 由于这种自动识别，更新可能会产生影响。 有关详细信息，请参阅[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md)。
+* AppMeasurement会自动识别并利用国家/地区代码顶级域的根域，以前需要特定Cookie域配置。 由于这种自动识别，更新可能会产生影响。
 * 该分发版本包括Identity Service Library 5.5.0和Data Integration Library 9.6。
 
 ## 版本 2.25.0

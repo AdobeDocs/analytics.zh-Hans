@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 830
-ht-degree: 17%
+source-wordcount: 862
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,11 @@ ht-degree: 17%
 
 `trackingServerSecure`变量可确定AppMeasurement用于通过HTTPS向Adobe发送数据的域。 如果未正确定义此变量，则您的实施可能会丢失数据。
 
-在[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)之前，此变量还确定第三方Cookie的设置位置。 Adobe强烈建议尽可能在所有实施中使用ID服务。
+>[!NOTE]
+>
+>[`trackingServer`](configuration-variables.md#retired-configuration-variables)是此变量的已弃用变量。 它指定通过HTTP发送的数据的域；如果普遍使用HTTPS，请改用`trackingServerSecure`。 如果`s.trackingServerSecure`为空，则AppMeasurement回退到`s.trackingServer`值。
+
+在[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/cn/docs/id-service/using/home)之前，此变量还确定第三方Cookie的设置位置。 Adobe强烈建议尽可能在所有实施中使用ID服务。
 
 ## 使用Web SDK扩展的Edge域
 
