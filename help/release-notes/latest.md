@@ -2,6 +2,7 @@
 title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,24 +25,27 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 72%
+source-wordcount: 998
+ht-degree: 56%
 
 ---
 
-# 当前Adobe Analytics发行说明（2026年6月）
+# 当前Adobe Analytics发行说明（2026年7月）
 
-**上次更新时间**：2026年6月25日
+**上次更新日期**：2026年7月8日
 
-这些发行说明涵盖2026年6月发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。 因此，这些发行说明每月更新几次。 请定期检查。
+这些发行说明涵盖2026年7月发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。 因此，这些发行说明每月更新几次。 请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
-| **Adobe Analytics 中的历程画布** <br/>历程画布是 Analysis Workspace 中的一种可视化工具，它通过分析人们如何完成或退出某个已定义的用户历程，帮助您深入了解这个历程。 它允许您创建灵活的节点和箭头图，用于表示历程中包含的各种事件、维度项和区段的任意组合。 当您将节点拖到画布上或重新排列历程中的事件和条件时，数据就会更新。<p>历程画布以前仅适用于 Customer Journey Analytics。</p><p>要了解有关 Adobe Analytics 中的历程画布的更多信息，请参阅[历程画布概述](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)。 </p><p>要了解如何构建 Adobe Analytics 中的可视化历程画布，请参阅[配置历程画布](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。</p> | 2026 年 5 月 18 日 | 2026 年 6 月 5 日 |
+| **子点击分析** <br/>子点击分析允许您在比点击级别更精细的级别分析产品数据。 您可以对点击中的单个产品进行分段，而不是对整个点击进行过滤。 例如，按特定产品类别进行分段，而不包括同一订单中购买的所有其他产品。 | 7月8日 | 2026年7月底 |
+| **AA 2.0 API搜索功能指南** <br/>使用搜索功能[返回报告中的维度项子集](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。 | | 2026年7月1日 |
+| **使用AA API自动创建周期性报告** <br/>使用[报告API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)按计划为数据管道设置使用新量度的自动周期性Analytics报告。 | | 2026年7月1日 |
+| **AA的新扩展参数** <br/>使用新的Dimension API扩展参数检索分配类型、过期时间、数据类型和促销的eVar配置字段。 <p>有关详细信息，请参阅[API引用](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions)和[维度终结点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)。</p> | | 2026年7月1日 |
 
 ### Adobe Analytics 中的修复
 
