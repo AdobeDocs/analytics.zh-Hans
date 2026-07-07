@@ -3,7 +3,7 @@ description: 了解如何使用Analysis Workspace中的历程画布可视化图�
 title: 历程画布故障排除
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了历程画布可视化图表。<br/><br/>_&#x200B;对于本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[历程画布概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中记录了历程画布可视化图表。<br/><br/>_&#x200B;对于本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本，请参阅[历程画布概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
 
 >[!ENDSHADEBOX]
 
@@ -94,7 +94,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++起始节点百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**起始节点的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**起始节点的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-higher-percentage.png)
 
@@ -108,7 +108,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++以前的节点百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**前一个节点的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**前一个节点的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-percentage-previous.png)
 
@@ -122,7 +122,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++总数的百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**总数的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**总数的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-percentage-total.png)
 
@@ -151,5 +151,4 @@ The following configurations can result in nodes that show percentages that exce
 * When the **[!UICONTROL Percentage value]** field is set to **[!UICONTROL Percent of total]** or **[!UICONTROL Percent of start node]**, and a primary metric is selected that results in less data for the start node than on subsequent nodes.
 
   For example, if Revenue is selected as the primary metric, and no revenue is being realized on the primary metric, then on any node where revenue is being realized will show as exceeding 100%. 
-
 -->
