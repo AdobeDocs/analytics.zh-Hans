@@ -3,7 +3,7 @@ description: 了解如何配置历程画布可视化图表。
 title: 配置历程画布可视化图表
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '5783'
 ht-degree: 90%
@@ -583,5 +583,4 @@ To change the color of a node or arrow:
 要删除历程画布中节点之间的箭头：
 
 1. 在历程画布可视化图表中，选择您想删除的 2 个节点之间的一个或多个箭头，然后右键单击一个选定的箭头。
-
 1. 选择&#x200B;[!UICONTROL **删除**]。
