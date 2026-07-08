@@ -4,22 +4,14 @@ title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 94%
+source-wordcount: 2004
+ht-degree: 85%
 
 ---
 
@@ -84,7 +76,7 @@ ht-degree: 94%
 您可以配置定义的类型和范围：
 
 1. 要指定定义的类型，请指定是否要生成包含或排除定义。 选择![设置](/help/assets/icons/Setting.svg)**[!UICONTROL 选项]**&#x200B;并从下拉菜单中&#x200B;**[!UICONTROL 包括]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
-1. 要指定定义的范围，请从&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉菜单中选择您希望定义的范围是&#x200B;**[!UICONTROL 点击次数]**、**[!UICONTROL 访问次数]**&#x200B;还是&#x200B;**[!UICONTROL 访客人数]**。
+1. 要指定定义的范围，请从&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉菜单中选择是希望定义的范围是&#x200B;**[!UICONTROL 点击]**、**[!UICONTROL 访问]**、**[!UICONTROL 访客]**&#x200B;还是&#x200B;**[!UICONTROL 产品]**。 您将&#x200B;**[!UICONTROL 产品]**&#x200B;用于[子点击分析](/help/components/segmentation/sub-hit.md)用例。
 
 您稍后可以随时更改这些设置。
 
@@ -96,7 +88,9 @@ ht-degree: 94%
 
 要添加组件，请执行以下操作：
 
-1. 将一个组件从组件面板拖放到 **[!UICONTROL 将量度、区段和/或维度拖放到此处]**。 您可以使用组件栏中的![搜索](/help/assets/icons/Search.svg)来搜索特定组件。
+1. 将一个组件从组件面板拖放到 **[!UICONTROL 将量度、区段和/或维度拖放到此处]**。
+   * 您可以在组件栏中使用![搜索](/help/assets/icons/Search.svg)来搜索特定组件。
+   * 您可以在组件栏中使用![筛选器](/help/assets/icons/Filter.svg)按![复选标记](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已批准]**、![星级](/help/assets/icons/Star.svg) **[!UICONTROL 收藏夹]**、![数据维度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 维度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 区段]**、![日历](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期范围]**&#x200B;进行筛选![层](/help/assets/icons/Layer.svg) **[!UICONTROL 产品]**&#x200B;组件。 您还可以按![标签](/help/assets/icons/Label.svg)标记进行筛选。
 1. 指定组件的详细信息。 例如，从&#x200B;**[!UICONTROL 选择值]**&#x200B;中选择一个值。 或输入一个值。 指定一个或多个值的内容和方式取决于组件和运算符。
 1. 可选择修改默认运算符。 例如，从&#x200B;**[!UICONTROL 等于]**&#x200B;到&#x200B;**[!UICONTROL 等于任意一个]**。 请参阅 [运算符](../seg-reference/seg-operators.md)，了解可用运算符的详细概述。
 
@@ -121,7 +115,7 @@ ht-degree: 94%
 * 要向容器添加另一个组件，请将组件从组件面板拖放到容器中。 使用蓝色插入线作为指南。
 * 要在容器外部添加另一个组件，请将组件从组件面板拖放到容器外部、主定义容器内部。 使用蓝色插入线作为指南。
 * 要修改容器内组件之间、容器之间或容器与组件之间的逻辑，请选择相应的 **[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**。 当您选择 **[!UICONTROL Then]** 时，该区段就会变成一个顺序区段。 有关更多信息，请参阅[创建顺序区段](seg-sequential-build.md)。
-* 要切换容器级别，请选择 ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 点击次数]**、![访问](/help/assets/icons/Visit.svg) **[!UICONTROL 访问次数]**&#x200B;或 ![用户](/help/assets/icons/User.svg) **[!UICONTROL 访客人数]**。
+* 若要切换容器级别，请选择![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 点击]**、![访问](/help/assets/icons/Visit.svg) **[!UICONTROL 访问]**、![用户](/help/assets/icons/User.svg) **[!UICONTROL 访客]**&#x200B;或![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 产品]**。
 
 您可以在容器中使用![设置](/help/assets/icons/Setting.svg)来执行以下操作：
 
@@ -133,6 +127,9 @@ ht-degree: 94%
 | **[!UICONTROL 为容器命名]** | 根据容器的默认描述重命名容器。 在文本字段中输入名称。 如果您未提供任何输入内容，则会使用默认描述。 |
 | **[!UICONTROL 删除容器]** | 从定义中删除容器。 |
 
+将产品维度或量度拖入区段生成器时，系统会自动选择&#x200B;**[!UICONTROL 产品]**&#x200B;容器，并且不使用默认的&#x200B;**[!UICONTROL 点击]**&#x200B;容器。 此行为将区段的范围限制为单个产品，而不是整个点击。
+
+将产品级组件和点击级组件拖入单个区段规则时，系统使用&#x200B;**[!UICONTROL 点击]**&#x200B;容器，这是最高（粒度最小）的共享容器。 如果属于区段规则的所有组件都是产品级别的，则使用&#x200B;**[!UICONTROL Products]**&#x200B;容器。
 
 ## 日期范围
 
@@ -143,7 +140,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的滚动日期范围](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的滚动日期范围](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -271,7 +268,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -332,7 +329,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
