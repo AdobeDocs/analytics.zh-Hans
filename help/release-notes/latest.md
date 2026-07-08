@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 13d4b15d7069a52f4953a49aa0f1f5b7cb16ae77
+source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 63%
+source-wordcount: 959
+ht-degree: 59%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 63%
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
 | **子点击分析** <br/>子点击分析允许您在比点击级别更精细的级别分析产品数据。 您可以对点击中的单个产品进行分段，而不是对整个点击进行过滤。 <p>例如，您可以按特定产品类别进行分段，而不包括同一订单中购买的所有其他产品。</p><p>有关详细信息，请参阅[子点击分析](/help/components/segmentation/sub-hit.md)。</p> | 7月8日 | 2026年7月底 |
+| **Activity Map扩展： Web SDK支持和UI刷新** <br/>Adobe Analytics的Web SDK实施现在可以使用Activity Map覆盖扩展查看其网站上覆盖的点击数据。<p>以前，Activity Map Overlay扩展仅可用于AppMeasurement实施。</p> <p>除了Web SDK支持之外，Activity Map Overlay扩展还包括更新的外观。</p><p>（文档链接见下文。）</p> | | 2026年7月底 |
 | **AA 2.0 API搜索功能指南** <br/>使用搜索功能[返回报告中的维度项子集](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。<p>有关详细信息，请参阅Adobe Developer上的报表端点指南中的[搜索功能](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。 | | 2026年7月1日 |
 | **使用AA API自动定期报告** <br/>使用报表API按计划新鲜指标为数据管道设置自动的定期Adobe Analytics报告。 <p>有关详细信息，请参阅Adobe Developer上的[自动循环Analytics报表端点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)。</p> | | 2026年7月1日 |
 | **AA的新扩展参数** <br/>使用新的Dimension API扩展参数检索分配类型、过期时间、数据类型和促销的eVar配置字段。 <p>有关详细信息，请参阅Adobe Developer上的[API引用](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions)和[维度端点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)。</p> | | 2026年7月1日 |
