@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
+source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
 workflow-type: tm+mt
 source-wordcount: 1895
 ht-degree: 9%
@@ -226,7 +226,7 @@ ht-degree: 9%
 >在成功导入和处理文件后，手动或使用文件轮换策略从云位置删除文件。 否则，将根据文件的最后修改日期并使用30天的日志重新导入和重新处理文件。 请参阅以下示例。
 >
 
-### 示例
+#### 示例
 
 名为`import.csv`的导入文件于2026年5月1日创建并上传，并于2026年6月16日更新和上传。 未删除文件时，位于：
 
