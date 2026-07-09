@@ -4,20 +4,13 @@ description: 了解如何查看从分类集生成的当前和已完成的分类�
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 781
 ht-degree: 2%
 
 ---
@@ -50,9 +43,9 @@ ht-degree: 2%
 | **[!UICONTROL 分类集]** | 与分类作业关联的分类集。 |
 | **[!UICONTROL 大小]** | 作为分类作业的一部分导出或导入的文件的大小。 |
 | **[!UICONTROL 状态]** | 分类作业的状态。 可能的值包括：**[!UICONTROL 已创建]**、**[!UICONTROL 已排队]**、**[!UICONTROL 已验证]**、**[!UICONTROL 已失败的验证]**、**[!UICONTROL 正在处理]**、**[!UICONTROL 已完成处理]**、**[!UICONTROL 已失败的处理]**、**[!UICONTROL 已完成]**&#x200B;或&#x200B;**[!UICONTROL 进度]**。 如果显示，将鼠标悬停在警报![警报](/help/assets/icons/Alert.svg)上以显示其他信息。 |
-| **[!UICONTROL 文件名]** | 标识在分类作业中用于导入或导出文件的名称或功能。 可能的值包括： <ul><li>*没有值*</li><li>分类作业中处理的文件的名称。</li><li>**[!UICONTROL SAINT导出]**：作业是从[旧版分类界面](/help/components/classifications/importer/c-working-with-saint.md)的导出。</li><li>**[!UICONTROL 导出位于&#x200B;_时间戳_]**&#x200B;的_&#x200B;分类集&#x200B;_：作业是从[架构](manage/schema.md#download)界面下载的。</li></ul> |
+| **[!UICONTROL 文件名]** | 标识在分类作业中用于导入或导出文件的名称或功能。 可能的值包括： <ul><li>*没有值*</li><li>分类作业中处理的文件的名称。</li><li>**[!UICONTROL SAINT导出]**：作业是从[旧版分类界面](/help/components/classifications/importer/c-working-with-saint.md)的导出。</li><li>**[!UICONTROL 导出位于&#x200B;_时间戳_]**的_&#x200B;分类集&#x200B;_：作业是从[架构](manage/schema.md#download)界面下载的。</li></ul> |
 | **[!UICONTROL 作业类型]** | 分类作业的类型。 可能的值为： **[!UICONTROL Import]**&#x200B;或&#x200B;**[!UICONTROL Export]**。 |
-| **[!UICONTROL 来源]** | 分类作业的源。 可能的值为： **[!UICONTROL Web API]**、**[!UICONTROL 直接API上传]**、**[!UICONTROL Adobe]**、**[!UICONTROL SAINT]**&#x200B;或&#x200B;**[!UICONTROL 未知]**。 |
+| **[!UICONTROL 来源]** | 分类作业的源。 有关可能源的详细信息，请参阅[筛选器面板](#filter-panel)。 |
 | **[!UICONTROL 已修改的行]** | 分类作业修改的修改行数。 |
 | **[!UICONTROL 总行数]** | 分类作业处理的总行数。 |
 | **[!UICONTROL 完成时间]** | 分类作业的完成时间。 |
@@ -88,6 +81,21 @@ ht-degree: 2%
 * **[!UICONTROL 状态]**。 选择其中一个可能值以按状态筛选分类作业列表。
 * **[!UICONTROL 作业类型]**。 选择一个可能值以根据作业类型筛选分类作业列表。
 * **[!UICONTROL Source]**。 选择一个可能值以筛选源上的分类作业列表。
+
+  **[!UICONTROL Source]**&#x200B;可能的值包括：
+
+  | 来源 | 说明 |
+  |---|---|
+  | **[!UICONTROL Adobe]** | Adobe作为内部流程的一部分创建的作业。 例如，合并。 |
+  | **[!UICONTROL 后端]** | 已弃用的FTP导入过程创建的作业。 |
+  | **[!UICONTROL 云引入]** | 由于从云位置导入分类数据而生成的作业。 |
+  | **[!UICONTROL 直接API导出]** | 由于使用Adobe Analytics 2.0 API导出分类数据而导致的作业。 |
+  | **[!UICONTROL 直接API上传]** | 由于使用Adobe Analytics 2.0 API上传分类数据而导致的作业。 |
+  | **[!UICONTROL 重新发布]** | 由重新发布生成的作业。 |
+  | **[!UICONTROL 基于规则的分类]** | 作为基于规则的分类结果的作业。 |
+  | **[!UICONTROL Saint]** | 作为旧版基于规则的分类结果的作业。 |
+  | **[!UICONTROL Web API]** | 由于使用Web API导出或上载分类数据而生成的作业。 |
+  | **[!UICONTROL 未知]** | 源未知的作业。 |
 
 
 选择![筛选器](/help/assets/icons/Filter.svg) **[!UICONTROL 隐藏筛选器]**&#x200B;以隐藏筛选器面板。
