@@ -35,7 +35,7 @@ Experience Cloud ID为&#39; [metric](overview.md)的“访客”显示Adobe识�
 
 ## 如何计算此指标
 
-此指标基于[独特访客](unique-visitors.md)，只是它仅包含使用 `mid` 查询字符串（基于 [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie）标识的个人。
+此指标基于[独特访客](unique-visitors.md)，只是它仅包含使用 `mid` 查询字符串（基于 [`s_ecid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie）标识的个人。
 
 ## 调试您的ECID设置
 

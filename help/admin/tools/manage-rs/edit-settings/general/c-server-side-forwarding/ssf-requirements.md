@@ -33,7 +33,7 @@ ht-degree: 53%
 
 ## 解决方案要求
 
-服务器端转发适用于 [Analytics](https://www.adobe.com/cn/data-analytics-cloud/analytics.html)、[Audience Manager](https://www.adobe.com/cn/data-analytics-cloud/audience-manager.html) 和/或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
+服务器端转发适用于 [Analytics](https://www.adobe.com/cn/data-analytics-cloud/analytics.html)、[Audience Manager](https://www.adobe.com/cn/data-analytics-cloud/audience-manager.html) 和/或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
 
 ## 服务要求
 

@@ -82,9 +82,9 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 >
 >Adobe建议不要使用此方法来识别访客。
 
-如果贵组织未使用访客ID服务(`VisitorAPI.js`)，则AppMeasurement将使用其自己的旧版访客识别形式。 当访客首次访问您的网站时，库会检查[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie在匹配[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)（对于HTTPS）或`trackingServer`（对于HTTP）的域中设置。
+如果贵组织未使用访客ID服务(`VisitorAPI.js`)，则AppMeasurement将使用其自己的旧版访客识别形式。 当访客首次访问您的网站时，库会检查[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie在匹配[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)（对于HTTPS）或`trackingServer`（对于HTTP）的域中设置。
 
-* 如果您参与[托管证书计划](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
+* 如果您参与[托管证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
 * 如果您未参与托管证书计划，则跟踪服务器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子域，从而使`s_vi` Cookie成为第三方Cookie。 由于现代浏览器隐私标准，第三方Cookie被大多数浏览器拒绝。 被拒绝后，AppMeasurement会尝试改为设置第一方回退Cookie (`fid`)。
 
 如果您正确设置`trackingServerSecure`，则无需进一步的访客识别措施。

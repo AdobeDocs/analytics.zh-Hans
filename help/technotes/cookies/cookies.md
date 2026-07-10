@@ -73,8 +73,8 @@ ITP 策略经常发生改变。 有关最新策略，请查看 Apple 的 [Webkit
 Adobe 设置的所有第一方 Cookie 以及相关的 JavaScript 库均受 ITP 策略影响：
 
 * Adobe Experience Cloud 访客 ID (ECID) 服务库设置的[“AMCV”Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)
-* 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)
-* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
+* 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics)
+* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
 
 #### ITP 对 Safari for Analytics 有什么影响？
 
@@ -197,4 +197,4 @@ Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改�
 
 >[!MORELIKETHIS]
 >
->[减轻浏览器Cookie限制影响的选项Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>[减轻浏览器Cookie限制影响的选项Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=zh-Hans)
