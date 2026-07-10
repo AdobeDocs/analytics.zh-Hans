@@ -5,35 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2881
-ht-degree: 53%
+source-wordcount: 2880
+ht-degree: 52%
 
 ---
 
@@ -58,7 +38,7 @@ ht-degree: 53%
 发行日期：**2024年3月4日**
 
 * AppMeasurement会自动识别并利用国家/地区代码顶级域的根域，以前需要特定Cookie域配置。 由于这种自动识别，更新可能会产生影响。
-* 该分发版本包括Identity Service Library 5.5.0和Data Integration Library 9.6。
+* 该分布范围包括访客ID服务库5.5.0和Data Integration Library 9.6。
 
 ## 版本 2.25.0
 
@@ -178,7 +158,7 @@ ht-degree: 53%
 
 * 已将受众管理模块更新至 DIL 9.1。 (AN-175255)
 * GTM安全策略不允许Activity Map模块。 (AN-174679)
-* 改进了 AppMeasurement，支持未在“选择加入”中身份标识服务时选择退出。 (AN-175259)
+* 改进了AppMeasurement，支持当访客ID服务未在“选择加入”中获得批准时选择退出。 (AN-175259)
 
 ## 版本 2.11.0
 
@@ -205,7 +185,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->使用Experience Cloud ID服务的客户需要安装访客API 3.0或更高版本。 Adobe 建议，每当更新关联的代码库（`at.js` 等）时，请升级至访客 API 的最新版本。`AppMeasurement.js`
+>使用访客ID服务的客户需要安装访客API 3.0或更高版本。 Adobe 建议，每当更新关联的代码库（`at.js` 等）时，请升级至访客 API 的最新版本。`AppMeasurement.js`
 
 * 更新了AppMeasurement以使用更新的访客界面来获取请求ID。 (AN-151483)
 * 修复了在关闭链接跟踪后链接跟踪Cookie不断被写入的问题。 (AN-156332)
@@ -321,7 +301,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->另请参阅以下JavaScript版本1.6.3发行说明，其中包括Experience Cloud ID服务的更新要求。
+>另请参阅以下JavaScript版本1.6.3发行说明，其中包括对访客ID服务的更新要求。
 
 ## 版本 1.6.3
 
@@ -331,7 +311,7 @@ ht-degree: 53%
 
 >[!IMPORTANT]
 >
->版本1.6.0的Experience Cloud ID服务&#x200B;*要求* AppMeasurement for JavaScript版本1.6.3或更高版本。 如果您要升级到版本 1.6.0 的 Experience Cloud ID 服务，请确保您使用的是 AppMeasurement 1.6.3 或更高版本。
+>版本1.6.0的访客ID服务&#x200B;*要求* AppMeasurement for JavaScript版本1.6.3或更高版本。 如果您要升级到版本1.6.0的访客ID服务，请确保您使用的是AppMeasurement 1.6.3或更高版本。
 
 ## 版本 1.6.2
 
@@ -469,7 +449,7 @@ ht-degree: 53%
 发行日期：**2014 年 6 月 19 日**
 
 * 修复了在处理访客API字段（例如，旧版Analytics访客ID）的已完成和正在等待标记时，会产生错误的问题。
-* 支持访客 ID 服务 1.3 中的新增功能。
+* 支持访客ID服务1.3中的新增功能。
 
 ## 版本 1.3.1
 
@@ -481,7 +461,7 @@ ht-degree: 53%
 
 发行日期：**2014 年 4 月 17 日**
 
-* 支持[CX Enterprise Visitor ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* 支持[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。
 
 ## 版本 1.2.4
 
@@ -512,7 +492,7 @@ ht-degree: 53%
 发行日期：**2013 年 11 月 14 日**
 
 * 添加了对[心率视频测量](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)的支持。
-* 添加了 `VisitorAPI.js` 以支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* 添加了 `VisitorAPI.js` 以支持[访客 ID 服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。
 
 ## 版本 1.1.1
 

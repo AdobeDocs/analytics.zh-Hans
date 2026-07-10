@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。 自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '445'
 ht-degree: 98%
 
 ---
@@ -172,11 +172,6 @@ ht-degree: 98%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H 码疑难解答](js/h-code/troubleshooting.md)
-   + 旧版跨设备识别 {#xdevice-visid}
-      + [“跨设备连接用户”概述](js/xdevice-visid/xdevice-connecting.md)
-      + [变量持久性](js/xdevice-visid/variable-persistence.md)
-      + [访问示例](js/xdevice-visid/visit-example.md)
-      + [旧版跨设备识别功能常见问题解答](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 疑难解答](js/troubleshooting.md)
 + 在其他平台上实施 Analytics {#other}
    + [使用硬编码图像请求实施 Analytics](other/hardcoded.md)

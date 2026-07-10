@@ -5,27 +5,15 @@ feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 67%
+source-wordcount: 939
+ht-degree: 66%
 
 ---
 
@@ -49,7 +37,7 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 | 现有报表包中的访客/访问计数 | 高通胀 | 最低通胀 |
 | 使用单独的报表包 | 建议 | 不需要 |
 | 新访客与回访访客 | 不受支持 | 受支持 |
-| 访客ID服务 | 不受支持 | 受支持 |
+| 访客ID服务(`VisitorAPI.js`) | 不受支持 | 受支持 |
 | 视频和链接跟踪 | 部分支持 | 尚不受支持 |
 | 实施难度 | 困难 | 相对容易 |
 | Adobe CX企业集成 | 不受支持 | 部分支持 |
@@ -97,13 +85,13 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 </amp-analytics>
 ```
 
-`<amp-analytics>`标记支持变量替换，因此AMP能够提供它感知到的数据值。 有关详细信息，请参阅GitHub上`amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支持的变量。
+`<amp-analytics>`标记支持变量替换，因此AMP能够提供它感知到的数据值。 有关详细信息，请参阅GitHub上`amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支持的[变量。
 
 >[!NOTE]
 >
 >使用此方法发送到Adobe的图像请求不包含许多默认报表的数据（例如，浏览器、屏幕大小或反向链接）。 如果要在点击中包含此信息，请确保将这些信息作为图像请求查询字符串的一部分包含。 有关图像请求查询参数及其相关变量的完整列表，请参阅[数据收集查询参数](../validate/query-parameters.md)。
 
-Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie。 此访客ID对于由Adobe Analytics设置的任何其他ID都是唯一的。 访客从中检索内容的每个CDN都会计入一个不同的独特访客，这可能会导致访客计数虚增。 由于AMP识别独特访客的方式，强烈建议对AMP页面使用单独的报表包。 不支持Adobe Experience Cloud ID服务。
+Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie。 此访客ID对于由Adobe Analytics设置的任何其他ID都是唯一的。 访客从中检索内容的每个CDN都会计入一个不同的独特访客，这可能会导致访客计数虚增。 由于AMP识别独特访客的方式，强烈建议对AMP页面使用单独的报表包。 不支持Adobe访客ID服务。
 
 此解决方案要求您在 `host` 属性中指定的跟踪服务器必须与您主站点上的跟踪服务器相同，以确保遵守您现有的隐私管控政策。 否则，请为使用 AMP 的页面创建单独的隐私政策。
 
@@ -171,7 +159,7 @@ Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie�
 >
 >必须将您的 `stats.html` 页面托管在不同于托管 AMP 的域的子域上。 AMP 框架不允许 iFrame 来自 AMP 页面本身所在的子域。 例如，如果 AMP 托管在 `amp.example.com` 上，则要将 `stats.html` 页面托管在不同的子域（如 `ampmetrics.example.com`）上。
 
-使用此方法时，若用户在主站点上选择退出跟踪，也会在所有 AMP 页面上选择退出跟踪。 使用此实用工具页面还意味着 AMP 可以支持 Adobe Experience Cloud ID 服务。 无需使用单独的报表包。
+使用此方法时，若用户在主站点上选择退出跟踪，也会在所有 AMP 页面上选择退出跟踪。 使用此实用工具页面还意味着AMP可以支持Adobe访客ID服务。 无需使用单独的报表包。
 
 此方法无法用于链接跟踪和视频跟踪。 AMP 中的 `iframeMessage` 标记在每页上只能加载一次，因此在加载此框架后，您将无法发送任何其他图像请求。 运行此方法还需要更多处理资源，这可能会影响滚动性能。 此方法不会影响页面加载时间，因为所有资源均以异步方式加载。
 

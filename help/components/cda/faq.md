@@ -5,30 +5,15 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1728
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +57,7 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 
 +++ CDA 与自定义访客 ID 有何异同？
 
-使用自定义访客 ID 是[跨设备连接用户](/help/implement/js/xdevice-visid/xdevice-connecting.md)的一种传统方法。 对于自定义访客 ID，您可以使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量明确设置用于访客逻辑的 ID。 `visitorID` 变量会覆盖任何存在的基于 Cookie 的 ID。
+使用自定义访客ID是跨设备连接用户的传统方法。 对于自定义访客 ID，您可以使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量明确设置用于访客逻辑的 ID。 `visitorID` 变量会覆盖任何存在的基于 Cookie 的 ID。
 
 自定义访客 ID 具有多个 CDA 可以消除或最大程度降低的不良副作用。 例如，自定义访客 ID 方法没有[重播](replay.md)功能。 如果用户在访问过程中进行身份验证，则访问的前面部分与访问的后面部分会关联不同的访客 ID。 单独的访客 ID 会导致访问和访客数夸大。 CDA 会重新声明历史数据，这样未经身份验证的点击就会属于正确的用户。
 

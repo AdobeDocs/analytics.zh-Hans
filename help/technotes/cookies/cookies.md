@@ -5,29 +5,15 @@ feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
 TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c8add8f2-4250-4fd9-9cde-9707036c567did: e4f5f438-eabb-4c54-9133-b817e3d125f5id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2106
-ht-degree: 99%
+source-wordcount: 2104
+ht-degree: 93%
 
 ---
 
@@ -48,7 +34,7 @@ ht-degree: 99%
 
 #### 哪些 Adobe 第三方 Cookie 受影响？
 
-访客 ID 服务使用 &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)&quot; Cookie 为访客在不同的客户域中提供永久性标识符。 旧版 Analytics ID 服务 &quot;s_vi&quot; Cookie 被设置为第三方 Cookie，用于不使用自定义 CNAME 收集域的实施。
+访客ID服务使用&quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)&quot; Cookie为访客在不同的客户域中提供永久性标识符。 旧版 Analytics ID 服务 &quot;s_vi&quot; Cookie 被设置为第三方 Cookie，用于不使用自定义 CNAME 收集域的实施。
 
 在阻止第三方 Cookie 的浏览器上，跨域跟踪不可用。
 
@@ -58,7 +44,7 @@ ht-degree: 99%
 
 Adobe 的第一方 Cookie 限制为 7 天过期，对于 Apple 认定来自跟踪器的点进为 24 小时过期。 在 7 天过期的情况下，如果用户访问您的网站，然后在这七天内回访，则该 Cookie 的失效日期另外延长 7 天。 但是，如果某个用户访问您的网站并在第 8 天回访，则会将其第二次访问视为新用户。
 
-目前，ITP 策略仅适用于 Adobe 设置的所有第三方 Cookie，不论您使用的是访客 ID 服务还是旧版 Analytics ID (&quot;s_vi&quot; cookie)。 过去，这些策略仅适用于客户端设置的 Cookie，而不是通过 CNAME 实施在服务器端设置的 Cookie。 但是，在 2020 年 11 月，ITP 进行了更新，同样应用到 CNAME 实施。
+目前，ITP策略适用于Adobe设置的所有第一方Cookie，无论您使用的是访客ID服务还是旧版Analytics ID (&quot;s_vi&quot; Cookie)。 过去，这些策略仅适用于客户端设置的 Cookie，而不是通过 CNAME 实施在服务器端设置的 Cookie。 但是，在 2020 年 11 月，ITP 进行了更新，同样应用到 CNAME 实施。
 
 #### 对 ITP 策略重大更改的时间表 {#ITP-timeline}
 
@@ -73,8 +59,8 @@ ITP 策略经常发生改变。 有关最新策略，请查看 Apple 的 [Webkit
 Adobe 设置的所有第一方 Cookie 以及相关的 JavaScript 库均受 ITP 策略影响：
 
 * Adobe Experience Cloud 访客 ID (ECID) 服务库设置的[“AMCV”Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)
-* 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans)
-* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
+* 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)
+* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
 
 #### ITP 对 Safari for Analytics 有什么影响？
 
@@ -95,7 +81,7 @@ ITP 限制的影响根据用户的行为差别非常大。 只有使用受 ITP �
 
 第三方 Cookie 并非由用户访问的网站创建。
 
-虽然浏览器目前以同样方式处理所有第三方 Cookie 并进行存储，但第三方 Cookie 可能会有不同的行为方式。 对于客户的 Analytics 第三方 Cookie 实施，浏览器存储 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) ID 作为第三方 Cookie，但客户端仅对 Adobe 发出调用，而不会向未知的或可疑的第三方域发出调用。 此 Cookie 提供跨域的持久性标识符并允许安全 (HTTPS) 内容。 有关更多信息，请参阅 [Cookie 和 Experience Platform 身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
+虽然浏览器目前以同样方式处理所有第三方 Cookie 并进行存储，但第三方 Cookie 可能会有不同的行为方式。 对于客户的 Analytics 第三方 Cookie 实施，浏览器存储 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) ID 作为第三方 Cookie，但客户端仅对 Adobe 发出调用，而不会向未知的或可疑的第三方域发出调用。 此 Cookie 提供跨域的持久性标识符并允许安全 (HTTPS) 内容。 有关详细信息，请参阅[Cookie和访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
 
 在 Analytics 实施中，第三方 Cookie 用于跨域跟踪以及用于广告用例，包括重新定位广告。 您可使用第三方 Cookie 在访客访问您拥有的不同域时标识访客，或者在并非您拥有的网站上向其显示广告时进行标识。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -143,13 +129,13 @@ ITP 限制的影响根据用户的行为差别非常大。 只有使用受 ITP �
 
 确认您的 JavaScript 配置为对 Adobe 服务的所有调用使用 HTTPS。
 
-如果您的网站使用 Experience Cloud 访客 ID 服务，则服务将第三方 HTTP 调用重定向到其 HTTPS 端点，这会增加延迟，但意味着您无需更改配置。
+如果您的网站使用访客ID服务，则服务将第三方HTTP调用重定向到其HTTPS端点，这会增加延迟，但意味着您无需更改配置。
 
 #### 为多个域使用一个 CNAME 时更改 SameSite 值 {#samesite-one-cname}
 
 >[!NOTE]
 >
->以下信息仅与不使用 Experience Cloud 访客 ID 服务的网站相关。
+>以下信息仅与未使用访客ID服务的网站相关。
 
 如果在与您网站相同的域中设置了一个 CNAME 实施，则 Cookie 在第一方上下文中创建，并且您无需进行更改。
 
@@ -197,5 +183,4 @@ Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改�
 
 >[!MORELIKETHIS]
 >
->[减轻浏览器Cookie限制影响的选项](cookieless.md)
->[Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=zh-Hans)
+>[减轻浏览器Cookie限制影响的选项Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)

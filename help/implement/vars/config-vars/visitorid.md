@@ -5,23 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 510
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +23,7 @@ Adobe使用多种方法来[识别您网站上的访客](../../id/overview.md)。
 
 >[!IMPORTANT]
 >
->Adobe 建议不要使用此变量。 请改用 [Adobe Experience Cloud 身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+>Adobe 建议不要使用此变量。 请改用[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。
 
 ## Analytics如何使用`visitorID`
 
@@ -72,4 +64,4 @@ s.visitorID = "abc123";
 
 ## 使用Web SDK的访客ID
 
-Adobe Experience Platform Edge Network允许您使用XDM的[身份映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=zh-Hans#using-identitymap)提供多个标识符。 “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为[数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#analytics)的一部分。 一旦配置了此字段，当您发送具有为此命名空间指定的值的事件时，它会自动用作Analytics中的访客ID。
+Adobe Experience Platform Edge Network允许您使用XDM的[身份映射](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)提供多个标识符。 “身份映射”中的每个身份具有不同的命名空间。 您可以指定哪个命名空间应该用于访客ID，作为[数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)的一部分。 一旦配置了此字段，当您发送具有为此命名空间指定的值的事件时，它会自动用作Analytics中的访客ID。

@@ -3,25 +3,15 @@ title: Adobe Analytics中的访客识别
 description: 了解如何使用最新最佳实践在Adobe Analytics中识别访客。
 exl-id: 8d26a556-84fe-4fb5-98d6-a16b69423e5b
 TQID: https://experienceleague.adobe.com/uwEv9cl3234uiWhZEZLqgAVo42b-9L-9YEIGD97Pw-Q
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 617
-ht-degree: 12%
+source-wordcount: 652
+ht-degree: 9%
 
 ---
 
@@ -41,9 +31,9 @@ Adobe Analytics中的访客识别包含以下组件：
 | 使用顺序 | 查询参数 | 前提条件 |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | 已设置 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量。 |
-| **2<sup>nd</sup>** | `aid` | 访客现有[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不实施访客 ID 服务或在实施该服务之前进行设置。 |
-| **3<sup>rd</sup>** | `mid` | 访客现有[`s_ecid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在使用[Adobe Experience Cloud Identity服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的实施上设置。 Adobe建议尽可能对所有实施使用ID服务。 |
-| **4<sup>th</sup>** | `fid` | 访客现有[`s_fid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 如果由于任何原因无法设置`aid`和`mid`，AppMeasurement会自动生成回退ID。 |
+| **2<sup>nd</sup>** | `aid` | 访客现有[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不实施访客ID服务或在实施该服务之前进行设置。 |
+| **3<sup>rd</sup>** | `mid` | 对于使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)的基于AppMeasurement的实施（包括Analytics标记扩展），访客具有现有的[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)或`AMCV` Cookie。 对于基于Web SDK的实施，访客具有现有的[`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/web-sdk)或`AMCV` Cookie。 Adobe建议尽可能使用ECID作为所有实施的主要访客识别形式。 |
+| **4<sup>th</sup>** | `fid` | 访客现有[`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 如果由于任何原因无法设置`aid`和`mid`，AppMeasurement会自动生成回退ID。 |
 | **5<sup>th</sup>** | IP地址+用户代理 | 在访客的浏览器不接受Cookie时用作最后手段来识别独特访客。 在[IP模糊处理](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)之前生成哈希访客ID。 如果IP地址不可用，则改用其他IP详细信息（如网关IP）。 |
 
 然后，选定的访客ID将进行哈希处理，并成为其服务器端标识符。 此服务器端标识符在[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)中可用为`visid_high` + `visid_low`。
