@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1728
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 
 +++ CDA 与自定义访客 ID 有何异同？
 
-使用自定义访客 ID 是[跨设备连接用户](/help/implement/js/xdevice-visid/xdevice-connecting.md)的一种传统方法。 对于自定义访客 ID，您可以使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量明确设置用于访客逻辑的 ID。 `visitorID` 变量会覆盖任何存在的基于 Cookie 的 ID。
+使用自定义访客ID是跨设备连接用户的传统方法。 对于自定义访客 ID，您可以使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量明确设置用于访客逻辑的 ID。 `visitorID` 变量会覆盖任何存在的基于 Cookie 的 ID。
 
 自定义访客 ID 具有多个 CDA 可以消除或最大程度降低的不良副作用。 例如，自定义访客 ID 方法没有[重播](replay.md)功能。 如果用户在访问过程中进行身份验证，则访问的前面部分与访问的后面部分会关联不同的访客 ID。 单独的访客 ID 会导致访问和访客数夸大。 CDA 会重新声明历史数据，这样未经身份验证的点击就会属于正确的用户。
 

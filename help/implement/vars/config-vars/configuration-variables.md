@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 18%
+source-wordcount: 383
+ht-degree: 19%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 18%
 * **`fpCookieDomainPeriods`**： `cookieDomainPeriods`的第一方等效项，用于在第一方域后缀包含额外句点（如`example.co.uk`）时在正确位置设置Cookie。 当前版本的AppMeasurement会自动检测正确的域，从而使此变量失效。
 * **`trackingServer`**：指定用于通过HTTP向Adobe发送数据的域。 它已被弃用，支持优于HTTPS的安全数据收集。 请改用 [`trackingServerSecure`](trackingserversecure.md)。
 * **`trackInlineStats`**：启用或禁用了[Activity Map](/help/analyze/activity-map/overview.md)的早期版本。
-* **`visitorMigrationKey`**：带有用于将访客从第三方迁移到第一方Cookie的密钥。 此令牌已停用，因为现代库设置了第一方回退Cookie (`fid`)，并依赖Experience Cloud ID服务来获取身份。
+* **`visitorMigrationKey`**：带有用于将访客从第三方迁移到第一方Cookie的密钥。 已弃用，因为新式库设置了第一方回退Cookie (`fid`)，并且依靠访客ID服务来获取身份。
 * **`visitorMigrationServer`**：指定在第三方到第一方Cookie迁移期间使用的服务器。
 * **`visitorMigrationServerSecure`**： `visitorMigrationServer`的HTTPS等效项。
-* **`visitorNameSpace`**：帮助确定第三方Cookie域。 此服务已停用，以支持将[`trackingServerSecure`](trackingserversecure.md)变量用于不使用Experience Cloud ID服务的实施。
+* **`visitorNameSpace`**：帮助确定第三方Cookie域。 此服务已停用，以支持将[`trackingServerSecure`](trackingserversecure.md)变量用于不使用访客ID服务的实施。

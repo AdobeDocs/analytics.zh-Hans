@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 414
 ht-degree: 8%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 8%
 
 * **`aamlh`**： Adobe Audience Manager位置提示。
 * **`contextData.key`**： [上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。
-* **`customerID`**： Experience Cloud ID服务变量。 包括 `id`、`authState` 和 `isMCSeed`。
+* **`customerID`**：访客ID服务变量。 包括 `id`、`authState` 和 `isMCSeed`。
 * **`hints`**： [客户端提示](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hans)变量。 包括`bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`和`wow64`。
 * **`ipaddress`**： [IP地址](/help/components/dimensions/ip-address.md)维度。
 * **`language`**： [语言](/help/components/dimensions/language.md)维度。

@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: 497
 ht-degree: 95%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 ## 访客
 
-Adobe用于识别独特访客的所有方法（自定义访客ID、Experience Cloud ID服务等） 最终都被计算为`post_visid_high`和`post_visid_low`中的值。 无论以何种方式标识为独特访客，均可使用这两列的拼接来作为标识独特访客的标准。 如果您想了解 Adobe 使用哪种方法来识别独特访客，请使用列 `post_visid_type`。
+Adobe用于识别独特访客的所有方法（自定义访客ID、ECID等） 最终都被计算为`post_visid_high`和`post_visid_low`中的值。 无论以何种方式标识为独特访客，均可使用这两列的拼接来作为标识独特访客的标准。 如果您想了解 Adobe 使用哪种方法来识别独特访客，请使用列 `post_visid_type`。
 
 1. 拼接 `post_visid_high` 和 `post_visid_low`。
 2. 计算唯一值的数量。

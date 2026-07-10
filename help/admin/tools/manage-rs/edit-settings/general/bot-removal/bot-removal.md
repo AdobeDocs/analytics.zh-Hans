@@ -18,10 +18,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 696020b4275732211c9ee276636a4cf2161176da
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 785
-ht-degree: 60%
+source-wordcount: 784
+ht-degree: 56%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 ## 使用 Adobe 工具组合
 
-此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。 这些功能包括：Experience Cloud ID服务、分段、Data Warehouse、客户属性和虚拟报表包。 这里是如何使用这些工具的概述。
+此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。 这些功能包括：访客ID服务、分段、Data Warehouse、客户属性和虚拟报表包。 这里是如何使用这些工具的概述。
 
 ### 步骤 1：将访客的 Experience Cloud ID 传递到新声明的 ID
 
@@ -50,11 +50,11 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-以下介绍了如何通过数据元素捕获此 ID。 请确保正确地将CX Enterprise OrgID填充到数据元素中。
+以下介绍了如何通过数据元素捕获此ID。 请确保正确地将IMS组织ID填充到数据元素中。
 
 `return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
-设置了数据元素之后，请按照[这些说明](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)将声明的 ID 传递到使用 Adobe Experience Platform 中的标记的 ECID 工具中。
+设置此数据元素后，请按照[这些说明](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)将声明的ID传递到使用Adobe Experience Platform中的标记的ECID工具中。
 
 ### 步骤 2：使用分段识别机器人
 
@@ -68,7 +68,7 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-请记住将CX Enterprise访客ID用作您的维度并应用“机器人”区段。
+请记住将[!UICONTROL Experience Cloud访客ID]用作您的维度并应用“机器人”区段。
 
 ### 步骤4：将此列表作为客户属性传递回Adobe
 

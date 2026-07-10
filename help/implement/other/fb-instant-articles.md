@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 470
-ht-degree: 88%
+source-wordcount: 468
+ht-degree: 89%
 
 ---
 
@@ -107,4 +107,4 @@ Adobe 建议将您的 `stats.html` 页面与最新版本的 `AppMeasurement.js`�
 
 ## Facebook Instant Articles 和隐私政策
 
-只要 Analytics HTML 页面托管在您的 Web 服务器中，Adobe 就能够在所有 Facebook Instant Articles 中支持您现有的隐私政策。 如果用户在主网站上选择退出跟踪，则他们也会在所有 Facebook Instant Articles 上选择退出跟踪。 该应用工具页还支持Adobe Experience Cloud Identity Service ，以便您可以将Facebook Instant Article数据与CX Enterprise的其他部分集成。
+只要 Analytics HTML 页面托管在您的 Web 服务器中，Adobe 就能够在所有 Facebook Instant Articles 中支持您现有的隐私政策。 如果用户在主网站上选择退出跟踪，则他们也会在所有 Facebook Instant Articles 上选择退出跟踪。 该应用工具页还支持访客ID服务，以便您可以将Facebook即时文章数据与CX Enterprise的其他部分集成。

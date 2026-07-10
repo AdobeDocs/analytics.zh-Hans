@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 44%
 
 | 参数 | Analytics 实施变量 | 描述 |
 | --- | --- | --- |
-| `aamlh` | 无 | Audience Manager位置提示。 标识用于通过Experience Cloud ID服务同步Audience Manager ID的区域数据中心。 |
-| `aamb` | 无 | Audience Manager blob. 在通过Experience Cloud ID服务进行ID同步期间传递的编码Audience Manager配置文件数据。 |
+| `aamlh` | 无 | Audience Manager位置提示。 标识用于通过访客ID服务同步Audience Manager ID的区域数据中心。 |
+| `aamb` | 无 | Audience Manager blob. 通过访客ID服务在ID同步过程中传递的编码Audience Manager配置文件数据。 |
 | `aid` | 无 | 旧版Analytics访客ID，存储在`s_vi` Cookie中。 在现代实施中被`mid`参数取代。 |
 | `AQB` | 无 | 指示图像请求查询字符串的开头。 |
 | `AQE` | 无 | 指示图像请求的结尾，这表明该请求未被截断。 |
@@ -71,7 +71,7 @@ ht-degree: 44%
 | `lat` | 无 | **不再使用。** 纬度。 由旧版移动SDK实施设置；当前移动实施通过数据流发送地理位置。 |
 | `lon` | 无 | **不再使用。** 经度。 由旧版移动SDK实施设置；当前移动实施通过数据流发送地理位置。 |
 | `lrt` | 无 | “上次请求时间”，即上次请求的往返时间，以毫秒为单位。 仅当从单个页面发送多个请求时才会发送此请求，例如，在单页应用程序(SPA)中发送。 |
-| `mcorgid` | 无 | Experience Cloud组织ID，用于在Experience Cloud ID服务中标识组织。 |
+| `mcorgid` | 无 | IMS组织ID，用于向访客ID服务标识组织。 |
 | `mid` | 无 | 在[[!UICONTROL Experience Cloud访客ID]](/help/components/dimensions/experience-cloud-visitor-id.md)维度中使用。 |
 | `ms_a` | 无 | 当跟踪的流媒体是音频而不是视频时，Media SDK将设置为`1`。 |
 | `ndh` | 无 | 由AppMeasurement添加到其生成的每个图像请求。 由于硬编码请求通常会忽略它，因此它的存在表示点击来自AppMeasurement。 |

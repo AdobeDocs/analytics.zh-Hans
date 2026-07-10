@@ -23,9 +23,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2340
+source-wordcount: 2341
 ht-degree: 64%
 
 ---
@@ -68,7 +68,7 @@ IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只�
    <td colname="col1"> <p>Cookie ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hans">（旧版）Analytics Cookie</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans"> 身份标识服务 Cookie </a> (ECID)，以前称为 Marketing Cloud ID (MCID) </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/cn/docs/id-service/using/home"> 身份标识服务 Cookie </a> (ECID)，以前称为 Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>这些Cookie标识设备，或者更具体地说，标识设备的用户的浏览器。 对于使用通用登录的共享设备，此ID可应用于设备的任何/所有用户。 Adobe 创建了一些<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">统一的 JavaScript</a>，您可以将它们置于网站中来收集这些 Cookie（如果您希望允许将这些 Cookie 用于数据隐私请求）。 </p> <p>Adobe Analytics Mobile SDK 的用户还拥有 Experience Cloud ID (ECID)。 SDK 内有一些 API 调用可读取此 ID，因此您可以增强应用程序来收集此 ID 以用于数据隐私请求。 </p> <p>许多公司考虑将浏览器 Cookie ID 作为共享设备 ID。 因此，在与法律团队协商后，这些公司可能会选择不支持将它们用作数据隐私请求的可接受 ID。 或者，它们可能会选择在使用这些 ID 时仅返回非常有限的数据量，或者它们可能只接受删除请求。 </p> <p>这些Cookie具有无法更改的ID-DEVICE标签（以及I2和DEL-DEVICE标签）。 默认的Adobe Analytics配置将仅返回有关设备的常规信息，如设备类型、操作系统、浏览器等，以及在使用这些ID时访问您网站的时间/日期。 但是，如果您选择支持将这些 ID 用于数据隐私请求，那么按照下面讨论的内容，您可以添加或删除 ACC-ALL 标签，以配置您希望数据隐私访问请求返回的确切字段集。 </p> <p>如果报告包对应于需要登录的移动应用程序，您可以确定设备的 Experience Cloud ID 确实对应于特定用户。 在这种情况下，您可能希望使用 ACC-ALL 标签标记更多字段，包括访问过的页面名称、查看过的产品等。 </p> </td> 
   </tr> 

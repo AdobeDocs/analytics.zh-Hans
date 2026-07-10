@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 105
+source-wordcount: 106
 ht-degree: 21%
 
 ---
 
 # Experience Cloud 访客 ID
 
-“Experience Cloud访客ID”[维度](overview.md)为每个访客提供Experience Cloud ID (ECID)。 它是一个128位数字，由两个拼接的64位数字组成，补至19位。
+“Experience Cloud访客ID”[维度](overview.md)为每个访客提供ECID。 它是一个128位数字，由两个拼接的64位数字组成，补至19位。
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 ## 使用数据填充此维度
 
-此维度需要使用Experience Cloud ID服务(ECID)的实施。 它对应于数据馈送中的`mcvisid`列。 有关详细信息，请参阅[数据列引用](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+此维度要求实施使用访客ID服务(VisitorAPI)或Experience Platform Identity服务。 它对应于数据馈送中的`mcvisid`列。 有关详细信息，请参阅[数据列引用](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
 ## 维度项目
 

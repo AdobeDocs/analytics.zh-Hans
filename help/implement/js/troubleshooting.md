@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 93%
+source-wordcount: 686
+ht-degree: 89%
 
 ---
 
@@ -103,7 +103,7 @@ s.pageName = "        Home Page";
 
 用较长值填充多个变量的实施有时会遇到图像请求被截断的情况。 某些较旧的浏览器（如 Internet Explorer）对图像请求 URL 施加了 2083 个字符的限制。 如果贵组织遇到了过长的图像请求，请尝试以下操作：
 
-* **使用 Experience Cloud ID 服务**：AppMeasurement 库 1.4.1 及更高版本会在图像请求过长时自动使用 HTTP POST 发送该请求。 无论长度如何，使用此方法发送的数据都不会被截断。 有关更多信息，请参阅 [Adobe Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* **使用最新版本的AppMeasurement**：AppMeasurement库1.4.1及更高版本会在图像请求过长时自动使用HTTP POST发送该请求。 无论长度如何，使用此方法发送的数据都不会被截断。
 * **使用处理规则**：[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)可以将值从一个变量复制到另一个变量。 此方法可使您省去在多个变量中设置相同值的麻烦。 例如：
 
   始终执行：<br>

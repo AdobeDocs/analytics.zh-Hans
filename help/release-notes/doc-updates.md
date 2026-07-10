@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7391
+source-wordcount: 7390
 ht-degree: 94%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 94%
 | 工作区日历和日期范围 | 更新内容以描述相对日期范围、公式计算更新和日程表 UI 更改。 请参阅[关于相对面板日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
 | 移动记分卡 | 新文档部分描述如何显示和隐藏比较日期范围。 请参阅 Customer Journey Analytics 中的[显示比较日期范围](/help/analyze/mobile-app/create-scorecard.md)。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 经过了全面改写，现在发布在 Adobe Developer 上。 |
-| 跟踪各实施类型 | 更新了用例[跟踪不同的实施类型](../implement/id/cross-type-implementation.md)以适应 Experience Cloud ID 服务。 |
+| 跟踪各实施类型 | 更新了跨不同实施类型[跟踪的用例](../implement/id/cross-type-implementation.md)以适应访客ID服务。 |
 | **2023 年 1 月** | |
 | 排序和过滤表格 | 更新了[对表格进行筛选和排序](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)一文中的内容（包括添加过程和解释可用选项）。 本文从“对表格进行分页、筛选和排序”更名而成。 |
 | 文件夹 | [文件夹管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的专用页面。 |

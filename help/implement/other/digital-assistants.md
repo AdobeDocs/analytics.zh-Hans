@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1284
-ht-degree: 78%
+ht-degree: 73%
 
 ---
 
@@ -87,11 +87,11 @@ Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
-## 用户/访客识别
+## 访客识别
 
-Adobe Analytics 可使用 [Adobe Experience Cloud 身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans) 将不同时间的互动与同一人关联起来。 大多数的数字助理将返回 `userID`，可使用该值保留不同用户的活动。 在大多数情况下，可以将该值作为唯一标识符进行传递。 有些平台返回的标识符长于允许的 100 个字符。 在这些情况下，Adobe 建议使用标准哈希算法（如 MD5 或 Sha1）对唯一标识符进行哈希处理，使其变为固定长度值。
+Adobe Analytics使用[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)将不同时间的交互绑定到同一个人。 大多数的数字助理将返回 `userID`，可使用该值保留不同用户的活动。 在大多数情况下，可以将该值作为唯一标识符进行传递。 有些平台返回的标识符长于允许的 100 个字符。 在这些情况下，Adobe建议您使用MD5或SHA1等标准哈希算法，将唯一标识符哈希为固定长度的值。
 
-当您跨不同设备（例如从 Web 到数字助理）映射 ECID 时，使用 ID 服务能发挥最大作用。 如果您的应用程序是移动设备应用程序，请按原样使用 Experience Platform SDK，然后使用 `setCustomerID` 方法发送用户 ID。 但是，如果您的应用程序是一项服务，请使用该服务提供的用户 ID 作为 ECID，并在 `setCustomerID` 中对其进行设置。
+使用访客ID服务可在您跨不同设备（例如，从Web到数字助理）映射ECID时实现最大价值。 如果您的应用程序是移动设备应用程序，请按原样使用 Experience Platform SDK，然后使用 `setCustomerID` 方法发送用户 ID。 但是，如果您的应用程序是一项服务，请使用该服务提供的用户 ID 作为 ECID，并在 `setCustomerID` 中对其进行设置。
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1

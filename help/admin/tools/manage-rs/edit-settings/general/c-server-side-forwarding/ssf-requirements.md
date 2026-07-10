@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 325
-ht-degree: 52%
+source-wordcount: 326
+ht-degree: 53%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 52%
 
 ## 服务要求
 
-服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 Identity Service提供了一个通用ID ，用于在CX Enterprise的所有解决方案中标识站点访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
+服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。 Identity Service提供了一个通用ID ，用于在CX Enterprise的所有解决方案中标识站点访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
 
 ## 代码版本
 
