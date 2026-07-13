@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 3%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 6%
 
 1. （可选）与组织中的其他用户共享该量度，如[共享计算量度](/help/components/calculated-metrics/workflow/cm-sharing.md)中所述。
 
-这种方法可轻松显示哪些营销渠道有助于提高订购数量。或者，从自由格式表中，您可以选择任何量度，然后从上下文菜单中直接从表中调整归因模型。
+这是分辨哪些营销渠道有助于提升订单的简单方法。 或者，从自由格式表中，您可以选择任何量度，然后从上下文菜单中直接从表中调整归因模型。
