@@ -54,7 +54,7 @@ ht-degree: 94%
 | **2026年6月** | |
 | 查询字符串引用更新 | 对[数据收集查询参数](/help/implement/validate/query-parameters.md)的重要修订。 |
 | Data Warehouse中的区段 | 更新了[Data Warehouse区段兼容性](/help/export/data-warehouse/segment-compatibility.md)。 |
-| 已将GA更换为AA导轨 | GA到AA指南引用了Universal Analytics，后者于2023年废止。 新指南已替换它，[从Google Analytics 4过渡到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
+| 已将GA更换为AA导轨 | GA到AA指南引用了Universal Analytics，后者于2023年废止。 新指南已替换它，[从Google Analytics 4过渡到Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026 年 5 月** | |
 | 流媒体维度和量度 | 流媒体文档的重要更新。 示例链接包括[流媒体服务核心维度](/help/components/dimensions/sm-core.md)和[流媒体服务核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
