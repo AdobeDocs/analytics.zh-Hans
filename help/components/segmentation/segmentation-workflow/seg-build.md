@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 85%
+source-wordcount: 1963
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="产品兼容性"
->abstract="部分可用的区段条件并不兼容所有 Adobe Analytics 工具。 与该区段兼容的工具将在此列表中标示。 要使区段与所有 Adobe Analytics 工具兼容，请编辑您的标准。"
+>abstract="某些区段标准与某些Adobe Analytics工具不兼容。 此列表中指明了兼容的工具。 编辑您的标准以确保兼容性。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +38,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="数据预览"
->abstract="将该区段的数据与报告包的数据进行对比。 预览百分比基于&#x200B;**过去 90 天内**&#x200B;的总数计算。<br><br/>如果预览未加载，可能是您的连接仍在进行数据回填。"
+>abstract="将区段数据与报表包数据进行比较。 预览百分比基于&#x200B;**最近90天**。<br><br/>如果未加载预览，则表示您的连接正在回填。"
 
 
 **[!UICONTROL 区段生成器]**&#x200B;对话框可用于创建新区段或编辑现有区段。 对于您通过[[!UICONTROL 区段]管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)创建或管理的区段，该对话框的标题为&#x200B;**[!UICONTROL 新区段]**&#x200B;或&#x200B;**[!UICONTROL 编辑区段]**。
@@ -83,7 +83,7 @@ ht-degree: 85%
 
 您可以配置定义的类型和范围：
 
-1. 要指定定义的类型，请指定是否要生成包含或排除定义。 选择![设置](/help/assets/icons/Setting.svg)**[!UICONTROL 选项]**&#x200B;并从下拉菜单中&#x200B;**[!UICONTROL 包括]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
+1. 要指定定义的类型，请指定是要构建包括定义还是排除定义。 选择![设置](/help/assets/icons/Setting.svg)**[!UICONTROL 选项]**&#x200B;并从下拉菜单中&#x200B;**[!UICONTROL 包括]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
 1. 要指定定义的范围，请从&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉菜单中选择是希望定义的范围是&#x200B;**[!UICONTROL 点击]**、**[!UICONTROL 访问]**、**[!UICONTROL 访客]**&#x200B;还是&#x200B;**[!UICONTROL 产品]**。 您将&#x200B;**[!UICONTROL 产品]**&#x200B;用于[子点击分析](/help/components/segmentation/sub-hit.md)用例。
 
 您稍后可以随时更改这些设置。
@@ -122,7 +122,7 @@ ht-degree: 85%
 * 要将现有组件添加到容器中，请将该组件拖放到容器中。
 * 要向容器添加另一个组件，请将组件从组件面板拖放到容器中。 使用蓝色插入线作为指南。
 * 要在容器外部添加另一个组件，请将组件从组件面板拖放到容器外部、主定义容器内部。 使用蓝色插入线作为指南。
-* 要修改容器内组件之间、容器之间或容器与组件之间的逻辑，请选择相应的 **[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**。 当您选择 **[!UICONTROL Then]** 时，该区段就会变成一个顺序区段。 有关更多信息，请参阅[创建顺序区段](seg-sequential-build.md)。
+* 要修改组件、容器或其组合的逻辑，请选择适当的&#x200B;**[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**。 当您选择 **[!UICONTROL Then]** 时，该区段就会变成一个顺序区段。 有关更多信息，请参阅[创建顺序区段](seg-sequential-build.md)。
 * 若要切换容器级别，请选择![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 点击]**、![访问](/help/assets/icons/Visit.svg) **[!UICONTROL 访问]**、![用户](/help/assets/icons/User.svg) **[!UICONTROL 访客]**&#x200B;或![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 产品]**。
 
 您可以在容器中使用![设置](/help/assets/icons/Setting.svg)来执行以下操作：
@@ -141,7 +141,7 @@ ht-degree: 85%
 
 ## 日期范围
 
-您可以构建包含滚动日期范围的区段。 这样，您就可以回答有关正在进行的营销活动或事件的问题。 例如，您可以构建一个包含&#x200B;*过去 60 天中在线购买过产品的用户*&#x200B;的区段。
+您可以构建包含滚动日期范围的区段。 这样，您就可以回答有关正在进行的营销活动或事件的问题。 例如，您可以生成一个区段，该区段包含&#x200B;*过去60天内进行在线购买的所有人员*。
 
 ![使用滚动日期范围进行区段划分](assets/segment-rolling-date-range.png)
 
@@ -157,11 +157,11 @@ ht-degree: 85%
 
 您可以使用若干区段来构建一个区段。 在一个区段中使用若干区段时，您可以优化该区段，降低复杂性。
 
-假设您想要根据互动渠道（5）和美国联邦州（50）的组合进行分段。 您可以创建 250 个区段，分别对应设备类型（手机或平板）与美国各州之间的唯一组合。 要获取加利福尼亚州的平板用户，您可以使用这 250 个区段中的一个：
+假设您想对交互渠道(5)和美国州(50)的组合进行分段。 您可以创建 250 个区段，分别对应设备类型（手机或平板）与美国各州之间的唯一组合。 要获取加利福尼亚的平板电脑用户，请使用250个区段之一：
 
 ![加利福尼亚州和平板电脑的简单区段](assets/segment-ca-tablet-single.png)
 
-或者，您也可以定义 55 个区段：其中 50 个用于美国各州，5 个用于可能的互动渠道。 然后通过堆叠区段来获得相同的结果。 要获取加利福尼亚州的移动应用用户，您可以叠加使用两个区段：
+或者，定义55个区段：50个区段分别对应于美国各州，5个区段对应于可能的交互渠道。 要获得相同的结果，请栈叠区段。 要获取加利福尼亚的移动应用程序用户，请栈叠两个区段：
 
 ![堆叠加利福尼亚州和平板电脑的区段](assets/segment-ca-tablet-stacked.png)
 
@@ -188,7 +188,7 @@ ht-degree: 85%
 
 
 
-如果您在区段生成器中使用维度，可以选择指定该维度的归因模型。 您选择的归因模型决定了数据是否符合您为维度组件指定的条件。
+在区段生成器中使用维度时，您可以选择指定该维度的归因模型。 您选择的归因模型决定了数据是否符合您为维度组件指定的条件。
 
 选择维度组件中的![设置](/help/assets/icons/Setting.svg)，并从弹出窗口中选择其中一个归因模型：
 
@@ -196,7 +196,7 @@ ht-degree: 85%
 |---|---|
 | **[!UICONTROL 重复模型（默认）]** | 包含维度的实例值和持久值以确定资格。 |
 | **[!UICONTROL 实例]** | 仅包含维度的实例值以确定资格。 |
-| **[!UICONTROL 非重复实例]** | 包括维度的唯一实例（非重复）值以确定资格。 |
+| **[!UICONTROL 非重复实例]** | 包括维度的唯一实例（非重复）值以确定资格。 非重复实例是排除重复实例时在“流量”中应用的模型。 |
 
 
 ![构建区段时使用维度的归因模型](assets/segment-dimension-attribution.png)
@@ -213,16 +213,11 @@ ht-degree: 85%
 下表针对每种归因模型，解释了哪些传入事件符合 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) 该条件。
 
 
-| 女性页面 - 归因 - <br/>*归因模型* | 事件 1：<br/>页面名称等于<br/>女性 | 事件 2：<br/>页面名称等于<br/>男性 | 事件 3：<br/>页面名称等于<br/>女性 | 事件 4：<br/>页面名称等于<br/>女性<br/>（持久） | 事件 5：<br/>页面名称等于<br/>结账 | 事件 6：<br/>页面名称等于<br/>女性 | 事件 7：<br/>页面名称等于<br/>主页 |
+| 女性页面 - 归因 - <br/>*归因模型* | 事件 1：<br/>页面名称等于<br/>女性 | 事件 2：<br/>页面名称等于<br/>男性 | 事件 3：<br/>页面名称等于<br/>女性 | 事件 4：<br/>页面名称等于<br/>女性<br/>（持久） | 事件 5：<br/>页面名称等于<br/>结账 | 事件 6：<br/>页面名称等于<br/>女性 | 事件7：<br/>页面名称等于<br/>女性（显式设置） |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| 重复（默认） | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) |
-| 实例 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) |
+| 重复（默认） | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 实例 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 非重复实例 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) | ![删除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![删除](/help/assets/icons/Remove.svg) |
-
-使用这三个区段的事件报告示例如下：
-
-![将归因模型结果分段](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -380,7 +375,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## 区段模板 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-系统提供了一些常见分段使用情境的区段模板，例如&#x200B;**[!UICONTROL 首次访问]**&#x200B;或&#x200B;**[!UICONTROL 来自移动设备的访问]**。 这些模板可在 Workspace 项目中以及区段构建器中使用，作为新建区段的构建基块。
+系统提供了一些常见分段使用情境的区段模板，例如&#x200B;**[!UICONTROL 首次访问]**&#x200B;或&#x200B;**[!UICONTROL 来自移动设备的访问]**。 它们在Workspace项目和区段生成器中可用作新区段的构建块。
 
 带有 Adobe 标志 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 的即为区段模板。 以下列出部分可用的区段模板示例：
 
