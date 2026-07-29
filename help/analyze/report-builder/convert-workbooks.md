@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1219
 ht-degree: 1%
 
 ---
 
 # 转换旧版Report Builder工作簿
 
-旧版Report Builder将于2026年6月终止生命周期。 您应该将工作簿从旧版Report Builder迁移到新Report Builder。 新的Report Builder提供了一种便捷的方式来快速迁移使用旧版Report Builder创建的工作簿。
+旧版Report Builder将于2026年6月终止生命周期。 将工作簿从旧版Report Builder迁移到新Report Builder。 新的Report Builder提供了一种便捷的方式来快速迁移使用旧版Report Builder创建的工作簿。
 
 >[!IMPORTANT]
 >
->在转换旧版工作簿之前，请复制每个工作簿并重命名一个版本。 确保在需要时始终保留原始旧工作簿的副本。
+>在转换旧版工作簿之前，请复制每个工作簿并重命名一个版本。 这可确保在需要时始终保留原始旧工作簿的副本。
 
 
 >[!BEGINSHADEBOX]
@@ -56,23 +56,23 @@ ht-degree: 1%
 
 * 从[Report Builder中心](report-builder-hub.md)的&#x200B;**[!UICONTROL 计划]**&#x200B;选项卡中打开计划的旧工作簿。 此操作是计划旧版工作簿的首选方法。 您可以选择在[计划转换的旧工作簿后，立即使用与旧工作簿关联的计划](#schedule-a-converted-legacy-workbook)。
 
-   1. 打开[!DNL Excel]并从[!DNL Excel]功能区栏中选择![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
+  1. 打开[!DNL Excel]并从[!DNL Excel]功能区栏中选择![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
 
-   1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
+  1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
 
-   1. 在[Report Builder中心](report-builder-hub.md)中选择&#x200B;**[!UICONTROL 计划]**。
-   1. 选择&#x200B;**[!UICONTROL 旧版]**&#x200B;选项卡。 选项卡列出了您创建的基于Report Builder的旧版计划工作簿。
+  1. 在[Report Builder中心](report-builder-hub.md)中选择&#x200B;**[!UICONTROL 计划]**。
+  1. 选择&#x200B;**[!UICONTROL 旧版]**&#x200B;选项卡。 选项卡列出了您创建的基于Report Builder的旧版计划工作簿。
 
-      ![旧版工作台](assets/upgrade-legacy-schedule.png)
+     ![旧版工作台](assets/upgrade-legacy-schedule.png)
 
-   1. 从列表中选择![SelectBox](/help/assets/icons/SelectBox.svg)要转换的计划工作簿，然后选择![下载](/help/assets/icons/Download.svg)。 在[!DNL Excel]中下载工作簿并在新窗口中打开。 您现在可以[转换旧版Report Builder工作簿](#convert-a--workbook)。
+  1. 从列表中选择![SelectBox](/help/assets/icons/SelectBox.svg)要转换的计划工作簿，然后选择![下载](/help/assets/icons/Download.svg)。 工作簿已下载，并在新的[!DNL Excel]窗口中打开。 您现在可以[转换旧版Report Builder工作簿](#convert-a--workbook)。
 
 
-* 直接从本地计算机或网络打开旧工作簿。 使用此方法时，不提供使用可能与旧版工作簿关联的计划。 <br/>在[!DNL Excel]中打开旧工作簿时：
+* 直接从本地计算机或网络打开旧工作簿。 使用此方法时，不向您提供与旧版工作簿关联的计划。 <br/>在[!DNL Excel]中打开旧工作簿时：
 
-   1. 从[!DNL Excel]功能区栏中选择![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
-   1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
-   1. 然后[转换旧工作簿](#convert-a-workbook)。
+  1. 从[!DNL Excel]功能区栏中选择![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
+  1. 选择&#x200B;**[!UICONTROL 登录]**&#x200B;并登录到Report Builder。
+  1. 然后[转换旧工作簿](#convert-a-workbook)。
 
 
 ## 转换旧工作簿
@@ -116,17 +116,17 @@ ht-degree: 1%
 1. 要计划使用旧版计划转换的旧版工作簿，请执行以下操作：
 
    * 从Report Builder中心选择&#x200B;**[!UICONTROL 发送工作簿]**，或者
-   * 从Report Builder的&#x200B;**[!UICONTROL 计划]**&#x200B;选项卡中提供的&#x200B;**[!UICONTROL 工作簿]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL 计划工作簿]**。
+   * 从Report Builder **[!UICONTROL 计划]**&#x200B;选项卡的&#x200B;**[!UICONTROL 工作簿]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL 计划工作簿]**。
 
 1. 允许您使用旧工作簿中的计划详细信息作为默认计划设置。
 
    ![Report Builder旧版计划设置选项[!DNL Excel]的屏幕截图](assets/upgrade-legacy-schedule-convert.png)
 
    * 选择&#x200B;**[!UICONTROL 使用]**&#x200B;以使用旧版计划详细信息。 已在[发送工作簿](schedule-reportbuilder.md#schedule-a-workbook)界面中预填充计划详细信息。
-   * 选择&#x200B;**[!UICONTROL 不要使用]**&#x200B;以不使用旧版计划详细信息。
+   * 选择&#x200B;**[!UICONTROL 不要使用]**&#x200B;以避免使用旧版计划详细信息。
    * 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
-   选择&#x200B;**[!UICONTROL 从将来使用中删除旧元数据]**，以便将来不使用此工作簿的旧计划详细信息。
+   选择&#x200B;**[!UICONTROL 删除将来使用的旧元数据]**，以避免将来使用此工作簿的旧计划详细信息。
 
 
 ## 从旧版Report Builder迁移
@@ -141,24 +141,25 @@ ht-degree: 1%
 
 * **将工作簿发布到计划报告的[!DNL Power BI]选项**。 计划报表发送至[!DNL Power BI]的选项不再可用。
 
-* **访客指标**。 在转换后的旧工作簿中，以下量度已转换为&#x200B;*独特访客*，即使报表结果可能不完全匹配： `visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`和`visitorsyearly`。 此转换还适用于`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`和`mobilevisitorsyearly`。
+* **访客指标**。 在转换后的旧工作簿中，以下量度已转换为&#x200B;*独特访客*，即使报表结果不完全匹配： `visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`和`visitorsyearly`。 此转换还适用于`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`和`mobilevisitorsyearly`。
 
+* **粒度**： Report Builder没有像旧版Report Builder那样的特定粒度选项。 要在报表中应用粒度级别，请在请求中使用日期维度。
 * **自动重新身份验证**。 打开新的[!DNL Excel]文件时，您需要明确重新进行身份验证。 此重新身份验证是[!DNL Office Add-ins]功能的安全功能。
 
-* **复制具有一组数据块的工作表**。 要支持包含多个数据块的工作表的副本，请执行以下操作：
+* **复制具有一组数据块的工作表**。 要支持包含多个数据块的工作表副本，请执行以下操作：
 
-   1. 在[!DNL Excel]工作簿中选择要复制的工作表选项卡。
-   1. 从选项卡的上下文菜单中，选择&#x200B;**[!UICONTROL 移动或复制……]**
-   1. 在&#x200B;**[!UICONTROL 移动或复制]**&#x200B;对话框中：
-      1. 选择要将复制的工作表复制到何处。
-      1. 确保启用&#x200B;**[!UICONTROL 创建副本]**。
-      1. 选择&#x200B;**[!UICONTROL 确定]**。
-   1. 从源工作表中：
-      1. 选择包含所有数据块的单元格范围。
-      1. 从[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL 复制数据块]**。
-   1. 在目标工作表中：
-      1. 选择要将复制的单元格范围粘贴到的单元格。
-      1. 从[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)中选择![粘贴](/help/assets/icons/Paste.svg) **[!UICONTROL 粘贴数据块]**。
+  1. 在[!DNL Excel]工作簿中选择要复制的工作表选项卡。
+  1. 从选项卡的上下文菜单中，选择&#x200B;**[!UICONTROL 移动或复制……]**
+  1. 在&#x200B;**[!UICONTROL 移动或复制]**&#x200B;对话框中：
+     1. 选择要将复制的工作表复制到何处。
+     1. 确保启用&#x200B;**[!UICONTROL 创建副本]**。
+     1. 选择&#x200B;**[!UICONTROL 确定]**。
+  1. 从源工作表中：
+     1. 选择包含所有数据块的单元格范围。
+     1. 从[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL 复制数据块]**。
+  1. 在目标工作表中：
+     1. 选择要将复制的单元格范围粘贴到的单元格。
+     1. 从[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)中选择![粘贴](/help/assets/icons/Paste.svg) **[!UICONTROL 粘贴数据块]**。
 
 * **日期范围**。 Report Builder不迁移应用于旧版Report Builder中日期范围的行标签的日期范围格式选项&#x200B;**[!UICONTROL 将开始和结束期间显示为]**。
 
