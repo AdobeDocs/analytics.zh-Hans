@@ -31,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
 workflow-type: tm+mt
-source-wordcount: 7390
-ht-degree: 94%
+source-wordcount: 7421
+ht-degree: 93%
 
 ---
 
@@ -51,6 +51,8 @@ ht-degree: 94%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2026年8月** | |
+| 向反向链接类型维度添加了新的对话式人工智能工具 | “反向链接类型”维度现在在Adobe使用的查找表中包含以下其他[对话式人工智能工具](/help/components/dimensions/referrer-type.md#conversational-ai-tools)：<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **2026年6月** | |
 | 查询字符串引用更新 | 对[数据收集查询参数](/help/implement/validate/query-parameters.md)的重要修订。 |
 | Data Warehouse中的区段 | 更新了[Data Warehouse区段兼容性](/help/export/data-warehouse/segment-compatibility.md)。 |
