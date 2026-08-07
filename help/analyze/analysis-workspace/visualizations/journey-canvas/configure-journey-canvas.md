@@ -3,10 +3,10 @@ description: 了解如何配置历程画布可视化图表。
 title: 配置历程画布可视化图表
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
 workflow-type: tm+mt
-source-wordcount: '5783'
-ht-degree: 90%
+source-wordcount: '5926'
+ht-degree: 91%
 
 ---
 
@@ -69,6 +69,33 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 >id="aa_journeycanvas_percentage_value"
 >title="选择如何计算百分比"
 >abstract="每个节点上显示的百分比是基于您配置的主要和辅助量度。 您可以选择这个百分比与起始节点、上一个节点或者与报告包中的所有数据相关联。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_arrow_settings"
+>title="箭头设置"
+>abstract="选择是否要在画布上显示或隐藏标签。 标签是在历程画布中创建的自定义名称。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_show_fallout"
+>title="显示流失"
+>abstract="流失数据显示了那些在历程中从未到达下一个节点的每个节点上的用户或会话的百分比和数量。 他们可能在网站上执行了其他操作，但他们从未满足历程中下一个节点所定义的标准。<br/>流失数据显示了人员或会话（无论您选择了哪个主要量度），并基于历程画布容器设置。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_compare"
+>title="比较"
+>abstract="用于将当前历程数据与前一个时段进行比较的日期范围。 如果您选择了比较日期范围，历程中的每个节点就会根据主要量度显示当前日期范围与选定的比较日期范围之间的百分比变化。 "
 
 <!-- markdownlint-enable MD034 -->
 

@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
 source-wordcount: 1963
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="产品兼容性"
->abstract="某些区段标准与某些Adobe Analytics工具不兼容。 此列表中指明了兼容的工具。 编辑您的标准以确保兼容性。"
+>abstract="有些区段标准与某些 Adobe Analytics 工具不兼容。 这个列表中说明了兼容的工具。 编辑您的标准，以确保兼容性。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +38,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="数据预览"
->abstract="将区段数据与报表包数据进行比较。 预览百分比基于&#x200B;**最近90天**。<br><br/>如果未加载预览，则表示您的连接正在回填。"
+>abstract="将区段数据与报告包数据进行比较。 预览百分比是基于&#x200B;**过去 90 天的数据**。<br><br/>如果预览未加载，说明您的连接仍在回填数据。"
 
 
 **[!UICONTROL 区段生成器]**&#x200B;对话框可用于创建新区段或编辑现有区段。 对于您通过[[!UICONTROL 区段]管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)创建或管理的区段，该对话框的标题为&#x200B;**[!UICONTROL 新区段]**&#x200B;或&#x200B;**[!UICONTROL 编辑区段]**。
