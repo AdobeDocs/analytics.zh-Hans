@@ -14,16 +14,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
+source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: 1937
 ht-degree: 9%
 
 ---
 
 # 分类集架构
 
-架构是您要应用于为分类集定义的关键维度的分类列表。 例如，如果您已将product定义为关键维度，并且此字段包含产品SKU，则使用该架构可添加产品名称、颜色和大小等分类。
+架构是您要应用于为分类集定义的关键维度的分类列表。 例如，如果product是关键维度，则使用架构添加产品名称、颜色和大小等分类。
 
 要编辑分类集的架构，请执行以下操作：
 
@@ -92,7 +92,7 @@ ht-degree: 9%
 
    当列的分类集中未定义分类时，将显示警报![警报](/help/assets/icons/Alert.svg)。 警报说明现有分类架构集中不存在分类，并且会在导入时创建。
 
-1. 选择&#x200B;**[!UICONTROL 在冲突时覆盖数据？]** （如果要使用新导入的数据覆盖当前分类数据）。 例如：
+1. 选择&#x200B;**[!UICONTROL 在冲突时覆盖数据？]** 如果要使用新导入的数据覆盖当前分类数据，请执行以下操作。 例如：
 
    | | 键 | 当前产品颜色 | 导入文件 | 新产品颜色 |
    |---|---|---|---|---|
@@ -133,7 +133,7 @@ ht-degree: 9%
    * **[!UICONTROL 拉丁语–1]**。
 
 
-1. 选择&#x200B;**[!UICONTROL 下载]**&#x200B;以下载分类数据。 您可以在浏览器的默认下载目录中找到下载的文件，该文件标题为<code><i>分类集</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. 如果文件已存在，则序列号为<code>(<i>x</i>)</code> 会添加到文件名中。<br/>如果您指定了不返回任何数据的选项，您会看到&#x200B;**[!UICONTROL 通知]**&#x200B;对话框，通知您更改日期范围和返回数据的选项。
+1. 选择&#x200B;**[!UICONTROL 下载]**&#x200B;以下载分类数据。 您可以在浏览器的默认下载目录中找到下载的文件，该文件标题为<code><i>分类集</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. 如果文件存在，则序列号为<code>(<i>x</i>)</code> 会添加到文件名中。<br/>如果未返回任何数据，则&#x200B;**[!UICONTROL 通知]**&#x200B;对话框将提示您调整日期范围或数据选项。
 
 
 ### 模板
@@ -164,19 +164,19 @@ ht-degree: 9%
 >id="classificationsets_schema_automate_locationaccount"
 >title="位置帐户"
 >abstract="支持导入分类数据的帐户类型的位置帐户列表。 选择&#x200B;**[!UICONTROL 新建帐户]**&#x200B;以创建新的位置帐户。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=zh-Hans" text="配置云导入和导出帐户"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts" text="配置云导入和导出帐户"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="位置"
 >abstract="所选位置帐户下支持导入分类数据的位置列表。 选择&#x200B;**[!UICONTROL 新位置]**&#x200B;以创建新位置。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=zh-Hans" text="配置云导入和导出位置"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-locations" text="配置云导入和导出位置"
 
 您可以通过配置和使用云帐户和云位置来自动摄取分类数据。
 
 >[!IMPORTANT]
->要自动从云帐户提取分类，您（或您的网络管理员）需要指定IP地址范围以允许将数据提取到您的网络中。 根据您使用的Analytics数据中心的位置，配置一个或多个IP地址范围。
+>要自动从云帐户进行分类引入，您（或您的网络管理员）需要指定IP地址范围以允许将数据引入您的网络。 根据您使用的Analytics数据中心的位置，配置一个或多个IP地址范围。
 >
 >| Analytics数据中心位置 | 将此IP地址范围添加到网络中的 |
 >|---|---:|
@@ -253,3 +253,30 @@ ht-degree: 9%
 | ![移除圆圈](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 删除查找]** | 删除分类集作为查找。 若要从分类中永久删除查找，请在&#x200B;**[!UICONTROL 从&#x200B;_分类_]**&#x200B;删除分类集_&#x200B;确认对话框中，选择&#x200B;**[!UICONTROL 删除]**。_ |
 | ![重命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重命名]** | 重命名分类的&#x200B;**[!UICONTROL 分类名称]**。 在&#x200B;**[!UICONTROL 重命名：_分类名称_]**&#x200B;对话框中，输入新名称并选择&#x200B;**[!UICONTROL 重命名]**。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 删除]** | 删除分类。 出现&#x200B;**[!UICONTROL 删除&#x200B;_分类名称_]**&#x200B;对话框。 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以删除分类。 |
+
+
+## 未分类的数据
+
+如果在导入后确实遇到在报表中显示为`none`的非分类数据，则可以重命名`None`分类键。
+
+1. [将分类下载](#download)到本地文件。
+1. 向本地文件添加一行，然后在“键值”列中输入`~none~`。 在相应的列中键入更具描述性的分类名称。
+
+   例如：
+
+   * JSON
+
+     ```json
+     {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+     ...
+     ```
+
+   * CSV：
+
+     ```csv
+     Key, Product Name, Product Category
+     ~none~, Unknown Product Name, Unknown Product Category
+     ...
+     ```
+
+1. [将数据上传](#upload)回Adobe Analytics。

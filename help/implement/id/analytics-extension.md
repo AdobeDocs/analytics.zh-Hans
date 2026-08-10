@@ -62,9 +62,9 @@ Adobe Analytics标记扩展允许您使用标记管理界面实施AppMeasurement
 使用&#x200B;**[!UICONTROL 访客ID]**&#x200B;变量可让您的组织完全独立地控制访客的识别。 如果使用数据元素设置[!UICONTROL 访客ID]，请注意以下限制：
 
 * 每次点击必须包含相同的[!UICONTROL 访客ID]值才能计为单个访客。
-   * 任何忽略[!UICONTROL 访客ID]数据元素的点击都会自动尝试使用其他访客识别方法，将它们视为单独的访客。
-   * 任何包含与上一次点击不同的[!UICONTROL 访客ID]值的点击都将被视为单独的访客。
-   * Adobe不提供在Adobe Analytics中将使用不同访客ID的点击拼合在一起的方法。
+  * 任何忽略[!UICONTROL 访客ID]数据元素的点击都会自动尝试使用其他访客识别方法，将它们视为单独的访客。
+  * 任何包含与上一次点击不同的[!UICONTROL 访客ID]值的点击都将被视为单独的访客。
+  * Adobe不提供在Adobe Analytics中将使用不同访客ID的点击拼合在一起的方法。
 * 使用[!UICONTROL 访客ID]标识的访客不支持共享受众、Analytics for Target和客户属性。
 
 有关使用此变量的实施说明，请参阅[`visitorID`](/help/implement/vars/config-vars/visitorid.md)。
