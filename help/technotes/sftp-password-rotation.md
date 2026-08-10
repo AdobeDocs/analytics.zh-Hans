@@ -4,15 +4,12 @@ description: 了解关于 FTP 和 SFTP 服务器的安全要求。
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 1933
+source-wordcount: 1985
 ht-degree: 100%
 
 ---
@@ -158,7 +155,7 @@ ht-degree: 100%
 1. 将 [!DNL `authorized_keys`] 文件上传到您的 FTP 服务器：
 
    1. 连接到 FTP 服务器，然后使用您的用户名和密码登录。
-这可以是由 Adobe 托管的 FTP 服务器，也可以是您自己的 FTP 服务器。
+      这可以是由 Adobe 托管的 FTP 服务器，也可以是您自己的 FTP 服务器。
    1. 创建一个 [!DNL .ssh] 目录（如果没有）。
    1. 将 [!DNL `authorized_keys`] 文件上传到 [!DNL .ssh] 目录。
 
