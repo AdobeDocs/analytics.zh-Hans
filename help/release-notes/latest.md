@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: aa88b03fa4a562be585e3637ab3999cddf64e8dc
+source-git-commit: 70623a9f205e0d80ace66691277f7fe47d4683ad
 workflow-type: tm+mt
-source-wordcount: 1232
-ht-degree: 44%
+source-wordcount: 1167
+ht-degree: 46%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 44%
 | ----------- | ---------- | ---- |
 | **Activity Map扩展： UI刷新** <br/>Activity Map Overlay扩展具有更新的外观，以及支持即将推出的增强功能的基础改进。<p>有关Activity Map叠加扩展的信息，请参阅[Activity Map扩展接口](/help/analyze/activity-map/overlay/overview.md)。</p> | | 2026年8月5日<p>（原计划于7月底发布）</p> |
 | **历程画布增强功能**<br>&#x200B;现已提供以下历程画布增强功能：<ul><li>将历程与先前的时间范围进行比较。 将当前历程与4周前、2个季度前、1年前或自定义日期范围前的历程进行比较。</li><li>对于所选节点，显示历程中任意时间点上所选节点之后排名最前的维度项目。 当所选节点是分析中的关键事件，并且您想要查看用户随后在任何时候执行的操作时，可使用此选项。<p>以前，只有顶级的直接节点才能显示在选定节点之前或之后。 </p></li><li>更改节点之间箭头的形状和样式。 在节点之间拖动箭头可更改箭头的形状（曲率），右键单击箭头可将其样式更改为下列任一类型：实线、虚线、点线、虚线点或动画。</li></ul><p></p>有关详细信息，请参阅[配置历程画布可视化图表](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。 | | 2026年8月18日 |
-| **Migration Planner： Adobe Analytics到Customer Journey Analytics**<br> Migration Planner提供了一个迁移向导，可自动执行与从Adobe Analytics升级到Customer Journey Analytics相关的一些最复杂和耗时的任务，包括XDM架构创建和从AppMeasurement或Analytics扩展（标记）迁移到Experience Platform Web SDK。 <p>（文档链接见下文。）</p> | | 2026年8月底或9月底 |
 | **Analytics API营销渠道参考**<br/>&#x200B;使用Adobe Analytics 2.0 API营销渠道参考检索Analytics营销渠道信息。 请参阅[Analytics API营销渠道参考](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels)。 | | 2026年8月1日 |
 | **Analytics API营销渠道端点指南**<br/> Adobe Analytics 2.0 API营销渠道端点指南提供了使用该端点的说明和示例。 请参阅[Analytics API营销渠道端点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels)。 | | 2026年8月1日 |
 | **Analytics 1.4 API EOL客户常见问题解答**<br/> Analytics 1.4 API EOL客户常见问题解答提供了有关最近2.0 API开发的信息，以帮助客户离开1.4 API。 | | 2026年8月10日 |
