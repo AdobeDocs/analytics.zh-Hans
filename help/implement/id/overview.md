@@ -41,9 +41,9 @@ Adobe Analytics中的访客识别包含以下组件：
 | 使用顺序 | 查询参数 | 前提条件 |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | 已设置 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量。 |
-| **2<sup>nd</sup>** | `aid` | 访客现有[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不实施访客ID服务或在实施该服务之前进行设置。 |
-| **3<sup>rd</sup>** | `mid` | 对于使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)的基于AppMeasurement的实施（包括Analytics标记扩展），访客具有现有的[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)或`AMCV` Cookie。 对于基于Web SDK的实施，访客具有现有的[`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/web-sdk)或`AMCV` Cookie。 Adobe建议尽可能使用ECID作为所有实施的主要访客识别形式。 |
-| **4<sup>th</sup>** | `fid` | 访客现有[`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 如果由于任何原因无法设置`aid`和`mid`，AppMeasurement会自动生成回退ID。 |
+| **2<sup>nd</sup>** | `aid` | 访客现有[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不实施访客ID服务或在实施该服务之前进行设置。 |
+| **3<sup>rd</sup>** | `mid` | 对于使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)的基于AppMeasurement的实施（包括Analytics标记扩展），访客具有现有的[`s_ecid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics)或`AMCV` Cookie。 对于基于Web SDK的实施，访客具有现有的[`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/web-sdk)或`AMCV` Cookie。 Adobe建议尽可能使用ECID作为所有实施的主要访客识别形式。 |
+| **4<sup>th</sup>** | `fid` | 访客现有[`s_fid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 如果由于任何原因无法设置`aid`和`mid`，AppMeasurement会自动生成回退ID。 |
 | **5<sup>th</sup>** | IP地址+用户代理 | 在访客的浏览器不接受Cookie时用作最后手段来识别独特访客。 在[IP模糊处理](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)之前生成哈希访客ID。 如果IP地址不可用，则改用其他IP详细信息（如网关IP）。 |
 
 然后，选定的访客ID将进行哈希处理，并成为其服务器端标识符。 此服务器端标识符在[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)中可用为`visid_high` + `visid_low`。

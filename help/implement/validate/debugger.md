@@ -29,7 +29,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->Adobe 将不再维护此调试工具。 Adobe建议改用[Adobe CX Enterprise Debugger Chrome扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
+>Adobe 将不再维护此调试工具。 Adobe建议改用[Adobe CX Enterprise Debugger Chrome扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)。
 
 [!UICONTROL 旧版Debugger]可检查大多数Adobe CX Enterprise服务的标签。 通过使用该调试器，您可以查看在网站上的任何给定页面向 Adobe 发送了哪些数据。 您可以使用此信息对贵组织的实施进行故障诊断或验证。
 
