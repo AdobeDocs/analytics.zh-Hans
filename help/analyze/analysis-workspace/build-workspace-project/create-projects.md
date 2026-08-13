@@ -5,22 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 TQID: https://experienceleague.adobe.com/5VXsU74Wcu66eMdDI5kdj2iW9KxUayx1hI7RMpYgT-E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 408
@@ -51,15 +39,15 @@ ht-degree: 87%
 * 将[面板](/help/analyze/analysis-workspace/c-panels/panels.md)添加到您的项目中。 例如，**[!DNL Example Panel]** ➊。
 
 * 在您的面板中添加[可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。 例如：
-   * **[!DNL Line]** [线形图](/help/analyze/analysis-workspace/visualizations/line.md)可视化图表➋
-   * **[!DNL US States]** [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)可视化图表➌
+  * **[!DNL Line]** [线形图](/help/analyze/analysis-workspace/visualizations/line.md)可视化图表➋
+  * **[!DNL US States]** [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)可视化图表➌
 * 在可视化效果中添加[组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 例如：
-   * **[!DNL US States]** [维度](/help/components/dimensions/overview.md) ➍
-   * **[!DNL Unique Visitors]** [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
-   * **[!DNL Average Revenue Per Order]** [计算量度](/help/components/calculated-metrics/cm-overview.md) ➏
-   * **[!DNL Visits from Mobile Devices]** [区段](/help/components/segmentation/seg-overview.md) ➐
-   * **[!DNL Last Month]** [日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
-   * **[!DNL Example]** [注释](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
+  * **[!DNL US States]** [维度](/help/components/dimensions/overview.md) ➍
+  * **[!DNL Unique Visitors]** [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
+  * **[!DNL Average Revenue Per Order]** [计算量度](/help/components/calculated-metrics/cm-overview.md) ➏
+  * **[!DNL Visits from Mobile Devices]** [区段](/help/components/segmentation/seg-overview.md) ➐
+  * **[!DNL Last Month]** [日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
+  * **[!DNL Example]** [注释](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
 
 ## 项目信息和设置 {#project-info-settings}

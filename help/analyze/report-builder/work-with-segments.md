@@ -7,14 +7,9 @@ type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
 TQID: https://experienceleague.adobe.com/oY3qEglLOmMH-VdZuq0190iQxG6FHUWBRUGTAI9LvMw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 641
@@ -38,15 +33,15 @@ ht-degree: 6%
 
 * 或者：
 
-   1. 在&#x200B;**[!UICONTROL 表]**&#x200B;窗格中为特定量度选择![MoreSmall](/help/assets/icons/MoreSmall.svg)，然后选择&#x200B;**[!UICONTROL 筛选量度]**。
+  1. 在&#x200B;**[!UICONTROL 表]**&#x200B;窗格中为特定量度选择![MoreSmall](/help/assets/icons/MoreSmall.svg)，然后选择&#x200B;**[!UICONTROL 筛选量度]**。
 
-      ![区段选项卡显示指标。](./assets/filter-metric.png){zoomable="yes"}
+     ![区段选项卡显示指标。](./assets/filter-metric.png){zoomable="yes"}
 
-   1. 从&#x200B;**[!UICONTROL 段]**&#x200B;下拉菜单中选择一个或多个段。 区段已添加到&#x200B;**[!UICONTROL 应用的区段]**&#x200B;列表。
+  1. 从&#x200B;**[!UICONTROL 段]**&#x200B;下拉菜单中选择一个或多个段。 区段已添加到&#x200B;**[!UICONTROL 应用的区段]**&#x200B;列表。
 
-      已应用![区段](assets/segments-applied.png)
-   1. 选择![CrossSize75](/help/assets/icons/CrossSize75.svg)以从&#x200B;**[!UICONTROL 应用的区段]**&#x200B;列表中删除区段。 或者选择&#x200B;**[!UICONTROL 全部清除]**&#x200B;以从&#x200B;**[!UICONTROL 应用的区段]**&#x200B;列表中删除所有区段。
-   1. 选择&#x200B;**[!UICONTROL 应用]**。
+     已应用![区段](assets/segments-applied.png)
+  1. 选择![CrossSize75](/help/assets/icons/CrossSize75.svg)以从&#x200B;**[!UICONTROL 应用的区段]**&#x200B;列表中删除区段。 或者选择&#x200B;**[!UICONTROL 全部清除]**&#x200B;以从&#x200B;**[!UICONTROL 应用的区段]**&#x200B;列表中删除所有区段。
+  1. 选择&#x200B;**[!UICONTROL 应用]**。
 
 要查看应用的筛选器，请将光标悬停在上方或者在“表”窗格中选择量度。 已应用区段的量度会显示区段图标。
 
@@ -61,14 +56,14 @@ ht-degree: 6%
 
 1. 从一个或多个数据块选择单元格范围。
 
-1. 选择&#x200B;**[!UICONTROL 区段]**&#x200B;链接以启动&#x200B;**[!UICONTROL 快速编辑]**&#x200B;**[!UICONTROL 区段]**&#x200B;面板。
+1. 选择&#x200B;**[!UICONTROL 区段]**&#x200B;链接以启动&#x200B;**[!UICONTROL 快速编辑]****[!UICONTROL 区段]**&#x200B;面板。
 
 
 ### 添加或删除区段
 
 您可以使用“添加/删除”选项添加或删除区段。
 
-1. 在&#x200B;**[!UICONTROL 快速编辑]**&#x200B;**[!UICONTROL 区段]**&#x200B;面板中选择&#x200B;**[!UICONTROL 添加/删除]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 快速编辑]****[!UICONTROL 区段]**&#x200B;面板中选择&#x200B;**[!UICONTROL 添加/删除]**&#x200B;选项卡。
 
 
    1. 从&#x200B;**[!UICONTROL 段]**&#x200B;下拉菜单中选择一个或多个段。 区段已添加到&#x200B;**[!UICONTROL 应用的区段]**&#x200B;列表。
@@ -81,7 +76,7 @@ Report Builder显示消息以确认应用的区段更改。
 
 您可以使用另一个区段替换现有区段，以更改数据的分段方式。
 
-1. 在&#x200B;**[!UICONTROL 快速编辑]**&#x200B;**[!UICONTROL 区段]**&#x200B;面板中选择&#x200B;**[!UICONTROL 替换]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 快速编辑]****[!UICONTROL 区段]**&#x200B;面板中选择&#x200B;**[!UICONTROL 替换]**&#x200B;选项卡。
 
 1. 使用&#x200B;**搜索列表**&#x200B;搜索字段来查找特定区段。
 

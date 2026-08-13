@@ -4,17 +4,11 @@ description: 使用分类导入器时出现的常见上载问题。
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
 TQID: https://experienceleague.adobe.com/YDa--mPqMNfRfRT-xUYTj6jJVEFf2HXWSUtELvuBpy4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 875
@@ -33,8 +27,8 @@ ht-degree: 92%
 分类需要使用特定的文件类型和格式才能上载成功。 如果保存不当，分类文件会引发问题，从而不会处理任何行。 返回的错误通常是&#x200B;*“需要第一列作为键”*，但可能会出现任意数量的错误。 请务必检查以下各项：
 
 * **上传电子表格 (.xlsx) 而不是 .tab 或 .txt 文件**：上传格式不正确的分类文件时，您会收到错误消息&#x200B;*“第一列必须为键”*。 分类导入器不知道如何处理 .xls 或 .xlsx 文件。 在 Excel 的“另存为”对话框中，设置正确的“另存为”类型：
-   * 在 Windows 上，使用文件格式 `Text (Tab delimited) (*.txt)`
-   * 在 Mac 上，使用文件格式 `Windows Formatted Text`。
+  * 在 Windows 上，使用文件格式 `Text (Tab delimited) (*.txt)`
+  * 在 Mac 上，使用文件格式 `Windows Formatted Text`。
 * **将文件另存为工作簿后更改文件扩展名**：尝试直接重命名文件扩展名会生成无效的工作簿。 仅使用 Excel 的“另存为”功能或在文本编辑器（例如 Notepad++）中编辑分类。
 * **使用大写的扩展名**：大写的扩展名（例如 `fileupload.TXT`）无效。 请将文件重命名为小写的扩展名 (`fileupload.txt`)。
 * **字符编码不匹配**：确保下载模板时，保存的分类上载的编码与原始编码匹配。 如果您上载的 UTF-16 文件最初是以 UTF-8 编码，则上载时会产生意外结果。 Adobe 建议使用不带字节顺序标记的 UTF-8 来上载文件。
@@ -50,8 +44,8 @@ ht-degree: 92%
 * **上载的文件中存在额外的制表符**：在编辑分类文件时，有时可能会意外插入额外的制表符。 每行的制表符数量必须相同，才能正确处理。 要检查文件中是否存在额外的制表符，请在纯文本编辑器中突出显示所有文本，并确保没有行在结尾处有额外的空间。
 * **文件中存在重复的键值**：每个键值在每列只能有一个分类。 如果多次尝试对同一值进行分类，导入器会触发错误。
 * **子分类存在但配置不正确**：如果存在子分类，请检查以下各项：
-   * 所有子分类值都有父分类值
-   * 没有两个子分类引用相同的父分类值
+  * 所有子分类值都有父分类值
+  * 没有两个子分类引用相同的父分类值
 * **列不匹配**：如果任意给定行中的列数无效，您会收到错误消息&#x200B;*“行上的键有太多列&quot;*。 例如，您的分类上传中有 3 列，而变量只有一个分类。 验证您的上传文件，确保列数没有超过为该变量配置的分类数。
 
 ## FTP 导入故障诊断

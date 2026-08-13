@@ -3,20 +3,11 @@ title: 从Adobe Analytics标记扩展迁移到Web SDK标记扩展
 description: 更新您在Adobe Experience Platform数据收集标记上的Analytics实施，以使用Web SDK扩展。
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 TQID: 'https://experienceleague.adobe.com/5vssspvj8sB9PyTGe3RwcA994JJl25edeTDaOZFEd8A'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1731
@@ -141,9 +132,9 @@ Adobe建议在以下情况下遵循此实施路径：
    * [!UICONTROL 操作类型]： [!UICONTROL 发送事件]
 1. 在右侧，将操作设置更改为以下内容：
    * [!UICONTROL 类型]：对于`s.t()`，使用&#x200B;**[!UICONTROL Web网页详细信息页面查看次数]**。 对于`s.tl()`，使用&#x200B;**[!UICONTROL Web Webinteraction链接点击次数]**。 如果使用[`s.tl()`](../../vars/functions/tl-method.md)，则还必须在数据对象中包含以下字段。 执行[!UICONTROL 更新变量]操作配置时，这些字段列在[!UICONTROL 其他属性]下：
-      * [链接名称](../../vars/functions/tl-method.md)
-      * [链接类型](../../vars/functions/tl-method.md)
-      * [URL 链接](../../vars/config-vars/linkurl.md)
+     * [链接名称](../../vars/functions/tl-method.md)
+     * [链接类型](../../vars/functions/tl-method.md)
+     * [URL 链接](../../vars/config-vars/linkurl.md)
 1. 选择&#x200B;**[!UICONTROL 保留更改]**。
 1. 对使用Adobe Analytics发送信标的每个操作配置重复这些步骤。
 

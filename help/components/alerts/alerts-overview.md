@@ -4,17 +4,10 @@ title: 警报概述
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 TQID: 'https://experienceleague.adobe.com/FDzJzBjxMc-EkhW0k0NiENt-g53sRnzXQDs1XQWFseI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 435
@@ -34,13 +27,13 @@ Adobe Analytics 中的警报允许您根据变化的百分比或特定数据点�
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
 * 创建可在一个警报中捕获了多个量度的&#x200B;*栈叠*&#x200B;警报。
 * 根据以下条件生成警报：
-   * 量度中的异常存在、高于或低于预期阈值。
+  * 量度中的异常存在、高于或低于预期阈值。
 
-     [异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)使用历史数据构建预期值以及上限和下限。 如果实际度量值高于定义为阈值的上限或低于下限，则该事件在阈值置信度级别被视为异常，并且会触发警报。 阈值越高（例如：99%或99.9%），则警报频度越大，由更极端的异常导致的警报就越少。 较低的阈值（例如：90%）意味着较窄的频带，这会导致由不太极端的异常引起的警报增加。
-   * 按特定百分比列出的量度更改。
-   * 大于、小于或等于特定值的量度。 （仅适用于具有Select、Prime或Ultimate包的Adobe Analytics客户）
+    [异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)使用历史数据构建预期值以及上限和下限。 如果实际度量值高于定义为阈值的上限或低于下限，则该事件在阈值置信度级别被视为异常，并且会触发警报。 阈值越高（例如：99%或99.9%），则警报频度越大，由更极端的异常导致的警报就越少。 较低的阈值（例如：90%）意味着较窄的频带，这会导致由不太极端的异常引起的警报增加。
+  * 按特定百分比列出的量度更改。
+  * 大于、小于或等于特定值的量度。 （仅适用于具有Select、Prime或Ultimate包的Adobe Analytics客户）
 
-此[视频教程](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/data-science/intelligent-alerts)提供了警报的基本概述。
+此[视频教程](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts)提供了警报的基本概述。
 
 
 ## 警报的异常回顾

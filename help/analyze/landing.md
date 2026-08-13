@@ -5,23 +5,10 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1511
@@ -43,7 +30,7 @@ Adobe Analytics登陆页面包含以下子选项卡：
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登录页面](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登录页面](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +76,7 @@ Adobe Analytics登陆页面包含以下子选项卡：
 | [!UICONTROL **上次打开时间**] | 标识当前正在查看“项目”页面的用户上次打开项目的日期。 |
 | [!UICONTROL **上次使用**] | 通过显示组织内任何用户上次打开项目的日期和时间，帮助确定项目对组织中的用户是否有价值。<p>查看本列时请考虑以下事项：</p><ul><li>使用情况信息从 2023 年 9 月开始提供。</li><li>此列仅供系统管理员使用。</li></ul> |
 | [!UICONTROL **项目 ID**] | 可用于调试项目。 |
-| [!UICONTROL **&#x200B;**] | 较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 |
+| [!UICONTROL ****] | 较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 |
 | [!UICONTROL **查询次数**] | 加载项目时向 Analytics 发出的请求总数。 较多的项目查询次数会增加项目的复杂性，并可能增加处理和加载时间。 此数据仅在加载项目或发送计划项目后可用。 |
 | [!UICONTROL **位置**] | 显示项目所在的文件夹。 |
 
@@ -144,8 +131,8 @@ Adobe Analytics登陆页面包含以下子选项卡：
 * **筛选内容：**&#x200B;利用左边栏中的“筛选”图标，可以按经验级别（初学者、中级或高级）和内容类型（文档、视频或导览和教程）筛选学习内容。
 * **跟踪进度：**&#x200B;选择一段内容后，将显示&#x200B;**[!UICONTROL 已查看]**&#x200B;标记。 此标记有助于跟踪您在整个学习内容中的进度。 您可以选择&#x200B;**[!UICONTROL 已查看]**&#x200B;标记以将其从一段内容中删除。
 * **查看附加内容：**&#x200B;在观看任何视频时，选择&#x200B;**[!UICONTROL 了解更多]**&#x200B;按钮以查看 Experience League 的相关文档内容。 或者，从“学习”页面中，选择下列选项之一以查看其他内容：
-   * **[!UICONTROL 访问 YouTube]：**&#x200B;查看完整的 Analysis Workspace YouTube 播放列表。
-   * [!UICONTROL **访问 Experience League**]：查看 Experience League 上的完整 Adobe Analytics 文档集。
+  * **[!UICONTROL 访问 YouTube]：**&#x200B;查看完整的 Analysis Workspace YouTube 播放列表。
+  * [!UICONTROL **访问 Experience League**]：查看 Experience League 上的完整 Adobe Analytics 文档集。
 * **面向新用户的基础知识：**&#x200B;建议新用户使用 [!UICONTROL Workspace 基础知识]导览。 此导览会将您直接转到 Workspace 并向您介绍最常用操作。 也可以随时通过面板标题中的工具提示弹出窗口在 Workspace 中重新启动此导览。
 
 ## 设置您的登陆页面 {#set-landing}

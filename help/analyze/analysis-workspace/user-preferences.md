@@ -6,27 +6,11 @@ role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 autotag-review: '2026-05-22T09:22:51.975Z'
 TQID: 'https://experienceleague.adobe.com/AuXKVYYgnGJ11GtZVv5hO2CIJwiyuRrvv2tv10kFyvM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 3534
@@ -41,7 +25,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好设置](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -124,7 +108,7 @@ ht-degree: 93%
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -139,7 +123,7 @@ ht-degree: 93%
 |  | [面板类型](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>自由格式（默认）</li><li>空白</li><li>快速洞察</li></ul> |
 |  | 数字格式 | <ul><li>1,000.00（默认）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | 计数重复实例 | 指定是否将重复实例计入报告中。 例如，此设置（激活时）会将同一页面的多次连续页面查看视为多次页面查看。 关闭它后，它们将计为单个页面视图。 <p>**注意：**&#x200B;此设置仅影响某些量度（例如单页访问），不适用于流量或流失可视化。</p> |
-|  | CSV 分隔符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线符号</li><li>期间</li><li>空间</li><li>制表符</li></ul> |
+|  | CSV 分隔符字符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线</li><li>句点</li><li>空格</li><li>制表符</li></ul> |
 |  | 显示注释 | 选择注释是否在您的项目中可见。 有关注释的更多信息，请参阅[注释概述](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
 
 ## 自由格式表偏好设置 {#freeform-table-preferences}
@@ -170,7 +154,7 @@ ht-degree: 93%
 | 部分 | 偏好设置 | 选项 |
 | --- | --- | --- |
 | **表格** | | |
-| | 表类型 | <ul><li>自由格式</li><li>表生成器</li></ul> |
+| | 表类型 | <ul><li>自由格式表</li><li>表生成器</li></ul> |
 | | 默认表量度 | <ul><li>发生次数</li><li>独特访客</li><li>访问次数</li></ul> |
 | | 默认表维度 | 从分钟、小时、天、周、月、季度或年中选择。 |
 | | 调整日期 | 选择此选项可将每列的日期与同一行的所有开始日期对齐。 |
@@ -253,11 +237,11 @@ ht-degree: 93%
 | | 计算方法 | 从以下选项中进行选择： <ul><li>点击</li><li>访问</li><li>访客</li></ul> <p>例如，结合页面浏览量使用时，您可以选择“每位访客的页面浏览量”、“每次访问的页面浏览量”或“每次点击的页面浏览量”。 对于点击来说，“发生次数”可作为自由格式表中的 y 轴量度。</p> |
 | **[地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | 绘制维度图 | <ul><li>移动经度/纬度</li><li>地理维度</li></ul> |
-| | 地图类型 | <ul><li>气泡图</li><li>热图</li></ul> |
+| | 地图类型 | <ul><li>气泡</li><li>热图</li></ul> |
 | | 颜色主题 | 从珊瑚色、红色、绿色、蓝色、热图和正/负中进行选择。 |
 | | 地图样式 | 从基本、街道、明亮、浅色、深色和卫星中进行选择。 |
 | **[摘要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比变化</li><li>原始差异</li></ul> |
+| | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>比例更改</li><li>原始差异</li></ul> |
 | | 百分比 | 以百分比显示摘要更改可视化效果的值。 |
 | | 图例可见 | 此设置允许您为摘要变化可视化图表隐藏详细的图例文本。 |
 | | 缩写值 | 选中后，可指定小数位数。 |

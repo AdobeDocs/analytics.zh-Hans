@@ -4,21 +4,14 @@ description: 了解如何创建数据馈送以及提供给 Adobe 的文件信息
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 TQID: 'https://experienceleague.adobe.com/4WmYDRfcQTjKAdIbmsx2CCnLDqwDIBS-KdyN8Epun8s'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 2151
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -82,7 +75,7 @@ ht-degree: 31%
    | 字段 | 功能 |
    |---------|----------|
    | [!UICONTROL **名称**] | 数据馈送的名称。 名称在选定的报表包中必须是唯一的，长度最多为255个字符。 [了解详情](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **标记**] | 将任何标记应用到数据馈送以方便分类。 您可以按照[&#128279;](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)筛选和搜索[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的数据馈送中的说明对标记进行筛选。 |
+   | [!UICONTROL **标记**] | 将任何标记应用到数据馈送以方便分类。 您可以按照[筛选和搜索[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)中的说明对标记进行筛选。 |
    | [!UICONTROL **描述**] | 指定数据馈送的描述。 编辑数据馈送时，您添加的描述可见。 |
 
 1. 在&#x200B;[!UICONTROL **数据格式**]&#x200B;部分中，指定以下信息：
@@ -120,7 +113,7 @@ ht-degree: 31%
 
    | 字段 | 功能 |
    |---------|----------|
-   | [!UICONTROL **频率**] | 选择应发送数据馈送的频率。 可用选项会根据您的报表包配置动态填充。 <p>通常提供以下选项：</p><ul><li>**每日**：馈送包含一天的数据，从报表包时区的午夜到午夜。 此选项可用于回填或历史数据，或者用于连续馈送。</li><li>**小时**：馈送包含一小时的数据。 使用此选项可继续馈送。</li></ul><p>导出频率可以为15分钟，但默认情况下不可用。 要使此选项在您的环境中可用，您必须首先联系Adobe客户关怀团队，并请求将您的报表包配置为支持15分钟导出。</p> |
+   | [!UICONTROL **频率**] | 选择应发送数据馈送的频率。 可用选项会根据您的报表包配置动态填充。 <p>通常提供以下选项：</p><ul><li>**每日**：馈送包含一天的数据，从报表包时区的午夜到午夜。 此选项可用于回填或历史数据，或者用于连续馈送。</li><li>**小时**：馈送包含一小时的数据。 使用此选项可继续馈送。</li></ul><p>导出频率可以为15分钟，但默认情况下不可用。 如要在您的环境中使用此选项，您必须先联系 Adobe 客户关怀团队，请求将您的报告包配置为支持 15 分钟导出。</p> |
    | [!UICONTROL **处理延迟**] | 选择在处理数据馈送文件之前是否等待给定的时长。 延迟可用于为移动设备实施提供使离线设备变为在线并发送数据的机会。 它还可用于在管理以前处理的文件时容纳组织的服务器端进程。 在大多数情况下，无需延迟。 馈送的延迟时间最多可达8小时（480分钟），如果您选择自定义的时间量（延迟9,999分钟或大约1周），则延迟时间会更长。 |
    | [!UICONTROL **持续馈送**] | 选中此选项后，将删除结束日期，允许馈送无限期运行。 当馈送完成历史数据处理时，馈送会等待完成给定小时或天的数据收集。 当当前的小时或天结束时，处理将在指定的延迟后开始。 |
    | [!UICONTROL **开始日期**] | 指定希望数据馈送开始的日期。 要立即开始处理历史数据的数据馈送，可将此日期设置为过去收集数据时的任何日期。 开始日期基于报表包所在时区。 |

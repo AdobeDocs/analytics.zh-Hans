@@ -4,14 +4,10 @@ description: 了解如何导航数据馈送界面。 了解如何创建、编辑
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1329
@@ -177,12 +173,12 @@ ht-degree: 24%
    * **目标**：文件的放置位置。
    * **所有者**：创建馈送时所用的用户帐户。
    * **状态**：馈送的状态。
-      * 活动：馈送正在运行。
-      * 有待批准：在某些情况下，馈送需要先获得 Adobe 的批准，然后才能开始生成作业。
-      * 已删除：馈送已删除。
-      * 已完成：馈送已完成处理。 可以编辑、搁置或取消已完成的馈送。
-      * 待定：馈送已创建但尚未激活。 馈送会在短暂的过渡时间内保持此状态。
-      * 不活动：等同于“已暂停”或“已搁置”状态。 有关在重新激活不活动的馈送时回填馈送和实时馈送会发生什么情况的信息，请参阅[激活数据馈送](#activate-a-data-feed)。
+     * 活动：馈送正在运行。
+     * 有待批准：在某些情况下，馈送需要先获得 Adobe 的批准，然后才能开始生成作业。
+     * 已删除：馈送已删除。
+     * 已完成：馈送已完成处理。 可以编辑、搁置或取消已完成的馈送。
+     * 待定：馈送已创建但尚未激活。 馈送会在短暂的过渡时间内保持此状态。
+     * 不活动：等同于“已暂停”或“已搁置”状态。 有关在重新激活不活动的馈送时回填馈送和实时馈送会发生什么情况的信息，请参阅[激活数据馈送](#activate-a-data-feed)。
    * **上次修改时间**：上次修改馈送的日期。 日期和时间将以报表包的时区显示，且含GMT时差。
    * **开始日期**：此馈送的第一个作业的日期。 日期和时间将以报表包的时区显示，且含GMT时差。
    * **结束日期**：此馈送交付最后一个作业的日期。 持续进行的数据馈送没有结束日期。

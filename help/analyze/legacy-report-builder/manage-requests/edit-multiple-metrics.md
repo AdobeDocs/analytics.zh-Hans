@@ -5,18 +5,12 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 594
 ht-degree: 25%
 
 ---
@@ -50,12 +44,12 @@ ht-degree: 25%
 
 替换量度时，请考虑以下准则：
 
-* 仅允许1:1个替换。 不允许1:many或多:1。
+* 仅允许1:1替换。 不允许1:many或多：1。
 * 如果选定的指标不存在于某一个选定的请求中，则该请求将保持不变。
 * 新量度将被放置在与被替换的量度相同的位置。
 
-   * **在引导布局**&#x200B;中，如果引导布局请求输出日期、访问、访客、每日唯一并且&#x200B;*访客*&#x200B;被替换为&#x200B;*收入*，则更新的请求布局将为：日期、访问、收入和每日唯一。
-   * **在自定义布局**&#x200B;中，如果&#x200B;*访客*&#x200B;量度是在单元格F11中输出，则更新的请求布局将在同一单元格F11中显示&#x200B;*收入*。
+  * **在引导布局**&#x200B;中，如果引导布局请求输出日期、访问、访客、每日唯一并且&#x200B;*访客*&#x200B;被替换为&#x200B;*收入*，则更新的请求布局将为：日期、访问、收入和每日唯一。
+  * **在自定义布局**&#x200B;中，如果&#x200B;*访客*&#x200B;量度是在单元格F11中输出，则更新的请求布局将在同一单元格F11中显示&#x200B;*收入*。
 
 * 如果被替换的指标已经应用了一些操作（平均、前置文本、后置文本、生成 Microchart），这些操作也将随之应用于新指标。
 

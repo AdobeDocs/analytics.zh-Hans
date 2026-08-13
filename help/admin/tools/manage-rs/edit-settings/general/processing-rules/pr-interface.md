@@ -5,18 +5,11 @@ feature: Processing Rules
 role: Admin
 exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
 TQID: https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 476
@@ -50,9 +43,9 @@ ht-degree: 0%
 * **规则标题**：规则的标签。 它不会影响处理规则逻辑，但在帮助跟踪规则的功能方面非常有用。
 * **条件**：显示为文本，“[!UICONTROL 如果以下任何/所有为true]”。 如果不包含条件，则该规则始终会在每次点击时运行。
 * **操作**：如果不存在条件，则文本显示为“[!UICONTROL 始终执行]”。 如果存在条件，则文本显示为“[!UICONTROL ”，然后执行以下操作]”。 如果上述条件的计算结果为`true`，则此部分列出的每个操作都可能会执行。 除了规则的条件之外，您还可以&#x200B;_将_&#x200B;条件附加到单个操作。 以下操作可用：
-   * **[!UICONTROL 覆盖]**&#x200B;的值：用其他变量、静态值或连接值覆盖所需的变量。
-   * **[!UICONTROL 删除]**&#x200B;的值：删除该点击所需的变量值。
-   * **[!UICONTROL 设置事件]**：触发所需的事件。 通常，要将事件设置为自定义值`1`；也允许将事件设置为`1`以外的值，甚至可以将它们设置为上下文数据变量中设置的值。
+  * **[!UICONTROL 覆盖]**&#x200B;的值：用其他变量、静态值或连接值覆盖所需的变量。
+  * **[!UICONTROL 删除]**&#x200B;的值：删除该点击所需的变量值。
+  * **[!UICONTROL 设置事件]**：触发所需的事件。 通常，要将事件设置为自定义值`1`；也允许将事件设置为`1`以外的值，甚至可以将它们设置为上下文数据变量中设置的值。
 * **否则操作**：如果存在条件，则此部分显示为“[!UICONTROL ”，否则执行以下操作]”。 如果上述条件的计算结果为`false`，则此部分列出的每个操作都可能会执行。 本节将遵循与上述相同的规则操作，包括覆盖值、删除值和设置事件的功能。
 * **原因**：记录请求规则的人及其依赖项。 它不会影响处理规则逻辑，但有助于跟踪规则存在的原因。
 

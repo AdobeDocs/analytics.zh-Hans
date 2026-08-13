@@ -6,18 +6,10 @@ feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 TQID: 'https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 567
@@ -39,16 +31,16 @@ ht-degree: 2%
 * **[!UICONTROL 页面名称]**：显示当前页面的名称。
 * **[!UICONTROL 语言]**：更改Activity Map扩展标签的语言。 此设置不会更改您网站上的内容或报表中的链接名称。 支持的语言包括英语、法语、简体中文、繁体中文、德语、日语、韩语、西班牙语和葡萄牙语。
 * **[!UICONTROL 使用]**&#x200B;标记叠加图：确定气泡文本或渐变文本。 默认设置为[!UICONTROL 排名]。 选项包括：
-   * **[!UICONTROL 无标签]**：标签中没有文本，因此为彩色框
-   * **[!UICONTROL 值]**：显示链接点击次数（[发生次数](/help/components/metrics/occurrences.md)）
-   * **[!UICONTROL 百分比]**：显示链接点击次数与页面上链接点击总数的比例
-   * **[!UICONTROL 排名]**：链接的数字排名（按链接点击次数）。
+  * **[!UICONTROL 无标签]**：标签中没有文本，因此为彩色框
+  * **[!UICONTROL 值]**：显示链接点击次数（[发生次数](/help/components/metrics/occurrences.md)）
+  * **[!UICONTROL 百分比]**：显示链接点击次数与页面上链接点击总数的比例
+  * **[!UICONTROL 排名]**：链接的数字排名（按链接点击次数）。
 * **[!UICONTROL 标签字体大小]**：确定气泡或渐变中文本的大小。
 * **[!UICONTROL 渐变颜色]**：允许您在可视化图表类型为[!UICONTROL 渐变]时更改渐变颜色。
 * **[!UICONTROL 气泡颜色]**：允许您在可视化图表类型为[!UICONTROL 气泡]时更改气泡颜色。
 * **[!UICONTROL 基于]**&#x200B;的颜色渐变：确定当可视化图表类型为[!UICONTROL 渐变]时，链接的颜色强度所基于的量度。
-   * **[!UICONTROL 前30位排名]**：针对前30个链接规范化颜色强度。
-   * **[!UICONTROL 绝对量度值]**：颜色强度是绝对量度值的函数。
+  * **[!UICONTROL 前30位排名]**：针对前30个链接规范化颜色强度。
+  * **[!UICONTROL 绝对量度值]**：颜色强度是绝对量度值的函数。
 * **[!UICONTROL 渐变透明度]**：确定可视化图表类型为[!UICONTROL 渐变]时渐变叠加的透明度。 此滑块允许您使颜色叠加完全透明、完全不透明或介于其中的任何位置。
 
 ## 标准设置
@@ -56,9 +48,9 @@ ht-degree: 2%
 调整标准视图的设置。
 
 * **[!UICONTROL 动态数据筛选]**：允许您更改显示的链接。
-   * **[!UICONTROL 前]**：显示最受欢迎的链接。 使用右侧的数字下拉列表可确定要显示的排名最前的链接的数量。 选项包括1、10、50和100。
-   * **[!UICONTROL Bottom]**：根据数字下拉列表显示最不受欢迎的链接。 使用右侧的数字下拉列表可确定要显示的底层链接数量。 选项包括1、10、50和100。
-   * **[!UICONTROL 所有链接]**：不应用动态数据筛选。 选择此选项时，数值下拉列表不适用。
+  * **[!UICONTROL 前]**：显示最受欢迎的链接。 使用右侧的数字下拉列表可确定要显示的排名最前的链接的数量。 选项包括1、10、50和100。
+  * **[!UICONTROL Bottom]**：根据数字下拉列表显示最不受欢迎的链接。 使用右侧的数字下拉列表可确定要显示的底层链接数量。 选项包括1、10、50和100。
+  * **[!UICONTROL 所有链接]**：不应用动态数据筛选。 选择此选项时，数值下拉列表不适用。
 * **[!UICONTROL 隐藏未收到点击量的链接的叠加]**：页面上链接点击次数为零的链接不显示叠加。 这些链接将从动态数据过滤中排除。
 
 ## 实时设置

@@ -5,16 +5,11 @@ feature: Bot Removal
 role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 TQID: 'https://experienceleague.adobe.com/BRcyAaCSCmRppDClCroSL-vGpe7PuU-UEuRhGaKOCHY'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ec140990-1570-4311-94d4-2d6b38511bbe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ec140990-1570-4311-94d4-2d6b38511bbe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 536
@@ -76,7 +71,7 @@ ht-degree: 94%
 
 ## 访问中无 KPI
 
-机器人一般不会将产品添加到购物车或结账。 大多数情况下，它们不提交潜在客户表单或其他成功事件，但某些机器人确实会提交简单的HTML表单。  
+机器人一般不会将产品添加到购物车或结账。 大多数情况下，它们不提交潜在客户表单或其他成功事件，但某些机器人确实会提交简单的HTML表单。 &#x200B;
 
 ## 存在特定的查询字符串
 
@@ -85,5 +80,5 @@ ht-degree: 94%
 ## IP 地址来自分布式计算平台
 
 可能滥用 Amazon Web Services 或 Google Cloud 等 Web 托管充当作机器人农场。 这些IP地址很有可能是机器人：
-
+&#x200B;
 * [Google Cloud](https://cloud.google.com/compute/)：以 `&#x200B;35.199` 或 `35.194&#x200B;` 开头的 IP 地址

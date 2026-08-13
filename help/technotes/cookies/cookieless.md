@@ -5,20 +5,11 @@ feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
 TQID: https://experienceleague.adobe.com/f6gcSRLmsupsIVKYH-bF1T7vuVhoj9Ef8zVh3t6vU2Q
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 590
@@ -50,11 +41,11 @@ Adobe Analytics 依靠第一方 Cookie 记录访客在网站上的活动。 Anal
 
 ## 带 Web SDK 的第一方设备 ID (FPID)
 
-利用 Adobe Experience Platform Web SDK，您可以选择设置和管理您自己的设备标识符，而不是 Adobe 生成的 Experience Cloud ID (ECID)。 这些被称为第一方设备 ID (FPID)。 在[此处](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=zh-Hans)了解详情。
+利用 Adobe Experience Platform Web SDK，您可以选择设置和管理您自己的设备标识符，而不是 Adobe 生成的 Experience Cloud ID (ECID)。 这些被称为第一方设备 ID (FPID)。 在[此处](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)了解详情。
 
 ## 更多信息
 
-有关您的企业为摆脱第三方 Cookie 可以采取的可行步骤，请参阅[使用 Adobe 在无 Cookie 的世界中获取和保留客户](https://business.adobe.com/cn/solutions/cookieless.html)和深入的[超越第三方 Cookie 思考：没有第三方 Cookie 的完整世界指南](https://business.adobe.com/cn/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)。
+有关您的企业为摆脱第三方 Cookie 可以采取的可行步骤，请参阅[使用 Adobe 在无 Cookie 的世界中获取和保留客户](https://business.adobe.com/solutions/cookieless.html)和深入的[超越第三方 Cookie 思考：没有第三方 Cookie 的完整世界指南](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)。
 
 >[!MORELIKETHIS]
 >

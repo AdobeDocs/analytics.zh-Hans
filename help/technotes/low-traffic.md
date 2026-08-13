@@ -4,17 +4,10 @@ title: Adobe Analytics 中的低流量值
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 TQID: https://experienceleague.adobe.com/LxgSEq4RMCwf38uY6HxfhQ7SZxw0e5nupJTAfA1gpbY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 938
@@ -63,8 +56,8 @@ ht-degree: 8%
 * 报告包 ID
 * 要增加阈值的维度
 * 所需的第一和第二阈值：
-   * 默认情况下，第一个阈值（初始分段）设置为&#x200B;**2,000,000**。
-   * 第二个阈值（更激进的过滤）默认设置为&#x200B;**2,100,000**。
+  * 默认情况下，第一个阈值（初始分段）设置为&#x200B;**2,000,000**。
+  * 第二个阈值（更激进的过滤）默认设置为&#x200B;**2,100,000**。
 
 >[!IMPORTANT]
 >
@@ -79,5 +72,5 @@ ht-degree: 8%
 * **Data Warehouse：**&#x200B;在大多数情况下，Data Warehouse报表中的唯一值数量没有限制。 其独特的架构允许报告任意数量的唯一值。 但是，[!UICONTROL 低流量]值在某些有限情况下仍会出现。 示例包括列表变量、列表属性、推销eVar和营销渠道详细信息维度。
 * **分段：**&#x200B;如果区段标准包含具有大量唯一值的维度，则不会包含在[!UICONTROL 低流量]下捕获的值。
 * **分类：**&#x200B;分类报表也受唯一限制的约束。 如果分类的父维度项包含在[!UICONTROL 低流量]下，则不会对该值进行分类。
-   * 通过导入器分类的[!UICONTROL 低流量]值可以在Data Warehouse中查看。<!-- AN-115871 -->
-   * 在Data Warehouse中无法查看通过规则生成器&#x200B;*分类的[!UICONTROL 低流量]值*。<!-- AN-122872 -->
+  * 通过导入器分类的[!UICONTROL 低流量]值可以在Data Warehouse中查看。<!-- AN-115871 -->
+  * 在Data Warehouse中无法查看通过规则生成器&#x200B;*分类的[!UICONTROL 低流量]值*。<!-- AN-122872 -->

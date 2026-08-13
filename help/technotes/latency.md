@@ -5,18 +5,10 @@ title: 数据可用性和滞后
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 823
@@ -58,12 +50,12 @@ Adobe CX Enterprise中的某些功能在标准处理时间的基础上附带固�
 * **通知 Adobe 预期流量尖峰：**&#x200B;虽然不可能预测到您网站的每个流量尖峰，但有时您可能会预料到网站的流量会显著增加。 例如，时间较长的假期，或大型营销活动推送后不久。 在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。 有关如何通知 Adobe 流量增加的信息，请参阅管理员用户指南中的[计划流量尖峰](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)。
 * **在激活新功能时请考虑处理负载问题：**&#x200B;某些功能的处理密集度远高于其他功能。 在报表包上启用的功能越多，延迟的恢复难度就越大。 在报表包中启用功能时，请牢记以下会增加要处理的数据量的功能：
 
-   * 在同一页面上实施的事件超过 20 个
-   * 复杂的VISTA规则
-   * 产品变量中的值超过20个
-   * 事件序列化
+  * 在同一页面上实施的事件超过 20 个
+  * 复杂的VISTA规则
+  * 产品变量中的值超过20个
+  * 事件序列化
 
-* 启用 IAB 机器人过滤：如果机器人或爬网程序经常影响报表包，则[机器人过滤](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)可以显著减少滞后。 推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) &#x200B;](https://www.iab.net/about_the_iab)更新和维护的。 用户可以自定义其自己的机器人规则以补充 IAB 所提供的机器人规则。
+* 启用 IAB 机器人过滤：如果机器人或爬网程序经常影响报表包，则[机器人过滤](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)可以显著减少滞后。 推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) ](https://www.iab.net/about_the_iab)更新和维护的。 用户可以自定义其自己的机器人规则以补充 IAB 所提供的机器人规则。
 
 ## 如何处理滞后
 
