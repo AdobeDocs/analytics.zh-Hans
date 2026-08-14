@@ -51,15 +51,15 @@ ht-degree: 87%
 * 将[面板](/help/analyze/analysis-workspace/c-panels/panels.md)添加到您的项目中。 例如，**[!DNL Example Panel]** ➊。
 
 * 在您的面板中添加[可视化效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。 例如：
-   * **[!DNL Line]** [线形图](/help/analyze/analysis-workspace/visualizations/line.md)可视化图表➋
-   * **[!DNL US States]** [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)可视化图表➌
+  * **[!DNL Line]** [线形图](/help/analyze/analysis-workspace/visualizations/line.md)可视化图表➋
+  * **[!DNL US States]** [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)可视化图表➌
 * 在可视化效果中添加[组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 例如：
-   * **[!DNL US States]** [维度](/help/components/dimensions/overview.md) ➍
-   * **[!DNL Unique Visitors]** [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
-   * **[!DNL Average Revenue Per Order]** [计算量度](/help/components/calculated-metrics/cm-overview.md) ➏
-   * **[!DNL Visits from Mobile Devices]** [区段](/help/components/segmentation/seg-overview.md) ➐
-   * **[!DNL Last Month]** [日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
-   * **[!DNL Example]** [注释](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
+  * **[!DNL US States]** [维度](/help/components/dimensions/overview.md) ➍
+  * **[!DNL Unique Visitors]** [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
+  * **[!DNL Average Revenue Per Order]** [计算量度](/help/components/calculated-metrics/cm-overview.md) ➏
+  * **[!DNL Visits from Mobile Devices]** [区段](/help/components/segmentation/seg-overview.md) ➐
+  * **[!DNL Last Month]** [日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
+  * **[!DNL Example]** [注释](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
 
 ## 项目信息和设置 {#project-info-settings}

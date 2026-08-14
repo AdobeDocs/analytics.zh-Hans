@@ -55,8 +55,8 @@ ht-degree: 96%
 
 * 创建超链接时，不会检查 URL 的有效性。 如果您
 
-   * 创建具有无效 URL 的超链接，或者
-   * 创建引用没有 URL 值的维度项的超链接（通过直接引用维度项或使用 `$value` 或 `$breakdown` 变量），
+  * 创建具有无效 URL 的超链接，或者
+  * 创建引用没有 URL 值的维度项的超链接（通过直接引用维度项或使用 `$value` 或 `$breakdown` 变量），
 
   那么单击超链接的用户会看到一条错误消息，指示该 URL 无效。
 
@@ -70,23 +70,23 @@ ht-degree: 96%
 
    * **为单个维度项创建超链接：**&#x200B;右键单击表格中要创建超链接的维度项，然后选择&#x200B;[!UICONTROL **创建超链接**]。
 
-      1. 打开维度项的上下文菜单。
-      1. 从上下文菜单中选择&#x200B;[!UICONTROL **创建超链接**]。
+     1. 打开维度项的上下文菜单。
+     1. 从上下文菜单中选择&#x200B;[!UICONTROL **创建超链接**]。
 
-         [!UICONTROL **创建超链接**]&#x200B;对话框会显示。 您要为其创建超链接的维度项的名称将显示在对话框中。
+        [!UICONTROL **创建超链接**]&#x200B;对话框会显示。 您要为其创建超链接的维度项的名称将显示在对话框中。
 
-         ![为单个项目创建超链接的对话框](assets/hyperlink-dialog-single.png)
+        ![为单个项目创建超链接的对话框](assets/hyperlink-dialog-single.png)
 
    * **为维度列中的所有维度项创建超链接：**&#x200B;右键单击维度列标题中的维度名称，然后选择&#x200B;[!UICONTROL **为所有维度项创建超链接**]。
 
-      1. 从维度列标题打开上下文菜单。
-      1. 从上下文菜单中选择&#x200B;[!UICONTROL **为所有维度项创建超链接**]。
+     1. 从维度列标题打开上下文菜单。
+     1. 从上下文菜单中选择&#x200B;[!UICONTROL **为所有维度项创建超链接**]。
 
-         <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
+        <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
 
-         [!UICONTROL **为所有维度项创建超链接**]&#x200B;对话框会显示。 您要为其创建超链接的维度的名称将显示在对话框中。
+        [!UICONTROL **为所有维度项创建超链接**]&#x200B;对话框会显示。 您要为其创建超链接的维度的名称将显示在对话框中。
 
-         ![创建超链接对话框](assets/hyperlink-dialog-multiple.png)
+        ![创建超链接对话框](assets/hyperlink-dialog-multiple.png)
 
 1. 从以下选项中进行选择：
 
@@ -123,15 +123,15 @@ ht-degree: 96%
 
    * **编辑单个维度项的超链接：**
 
-      1. 打开维度项的上下文菜单。
-      1. 从上下文菜单中选择&#x200B;[!UICONTROL **编辑超链接**]。
+     1. 打开维度项的上下文菜单。
+     1. 从上下文菜单中选择&#x200B;[!UICONTROL **编辑超链接**]。
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a single dimension item](assets/hyperlink-single-edit.png)-->
 
    * **编辑维度列中所有维度项的超链接：**
 
-      1. 从维度列标题打开上下文菜单。
-      1. 从上下文菜单中选择&#x200B;**[!UICONTROL 为所有维度项编辑超链接]**。
+     1. 从维度列标题打开上下文菜单。
+     1. 从上下文菜单中选择&#x200B;**[!UICONTROL 为所有维度项编辑超链接]**。
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
@@ -157,14 +157,14 @@ ht-degree: 96%
 
    * **从单个维度项中移除超链接：**
 
-      1. 打开维度项的上下文菜单。
-      1. 从上下文菜单中选择&#x200B;[!UICONTROL **移除超链接**]。
-         <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
+     1. 打开维度项的上下文菜单。
+     1. 从上下文菜单中选择&#x200B;[!UICONTROL **移除超链接**]。
+        <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
 
    * **移除维度列中所有维度项的超链接：**
 
-      1. 从维度列标题打开上下文菜单。
-      1. 从上下文菜单中选择&#x200B;**[!UICONTROL 为所有维度项移除超链接]**。
+     1. 从维度列标题打开上下文菜单。
+     1. 从上下文菜单中选择&#x200B;**[!UICONTROL 为所有维度项移除超链接]**。
 
      <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 

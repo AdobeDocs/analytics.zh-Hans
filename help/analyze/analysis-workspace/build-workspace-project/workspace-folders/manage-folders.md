@@ -34,14 +34,14 @@ ht-degree: 81%
 
 * 在[项目列表](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中选择要重命名的文件夹。
 
-   1. 从所选文件夹的上下文菜单![More](/help/assets/icons/More.svg)或蓝色操作栏中的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)中选择&#x200B;**[!UICONTROL 重命名]**。
-   1. 在&#x200B;**[!UICONTROL 重命名：*文件夹名称&#x200B;*]**&#x200B;对话框中，输入新名称并选择&#x200B;**[!UICONTROL 保存&#x200B;]**。
+  1. 从所选文件夹的上下文菜单![More](/help/assets/icons/More.svg)或蓝色操作栏中的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)中选择&#x200B;**[!UICONTROL 重命名]**。
+  1. 在&#x200B;**[!UICONTROL 重命名：*文件夹名称&#x200B;*]**&#x200B;对话框中，输入新名称并选择&#x200B;**[!UICONTROL 保存&#x200B;]**。
 
 * 在您想要重命名的文件夹中。
 
-   1. 在[标题区域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中，从![More](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL 重命名文件夹]**。
+  1. 在[标题区域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中，从![More](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL 重命名文件夹]**。
 
-   1. 在&#x200B;**[!UICONTROL 重命名：*文件夹名称&#x200B;*]**&#x200B;对话框中，输入新名称并选择&#x200B;**[!UICONTROL 保存&#x200B;]**。
+  1. 在&#x200B;**[!UICONTROL 重命名：*文件夹名称&#x200B;*]**&#x200B;对话框中，输入新名称并选择&#x200B;**[!UICONTROL 保存&#x200B;]**。
 
 
 ## 移动文件夹
@@ -52,18 +52,18 @@ ht-degree: 81%
 
 * 在[项目列表](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中选择要移动的文件夹。
 
-   1. 从所选文件夹的上下文菜单![More](/help/assets/icons/More.svg)或蓝色操作栏中的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)中选择&#x200B;**[!UICONTROL 移动至]**。
-   1. 在&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;对话框中，从&#x200B;**[!UICONTROL 文件夹]**&#x200B;下拉菜单中选择一个文件夹以将该文件夹移动到。
+  1. 从所选文件夹的上下文菜单![More](/help/assets/icons/More.svg)或蓝色操作栏中的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)中选择&#x200B;**[!UICONTROL 移动至]**。
+  1. 在&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;对话框中，从&#x200B;**[!UICONTROL 文件夹]**&#x200B;下拉菜单中选择一个文件夹以将该文件夹移动到。
 
-   1. 选择&#x200B;**[!UICONTROL 移动]**。
+  1. 选择&#x200B;**[!UICONTROL 移动]**。
 
 * 在您想要移动的文件夹中。
 
-   1. 在[标题区域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中，从![More](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL 移动文件夹]**。
+  1. 在[标题区域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中，从![More](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL 移动文件夹]**。
 
-   1. 在&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;对话框中，从&#x200B;**[!UICONTROL 文件夹]**&#x200B;下拉菜单中选择一个文件夹以将该文件夹移动到。
+  1. 在&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;对话框中，从&#x200B;**[!UICONTROL 文件夹]**&#x200B;下拉菜单中选择一个文件夹以将该文件夹移动到。
 
-   1. 选择&#x200B;**[!UICONTROL 移动]**。
+  1. 选择&#x200B;**[!UICONTROL 移动]**。
 
 
 ## 删除文件夹
@@ -79,15 +79,15 @@ ht-degree: 81%
 
 * 在[项目列表](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中选择一个或多个要删除的文件夹。
 
-   1. 从所选文件夹的上下文菜单![More](/help/assets/icons/More.svg)或蓝色操作栏中的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)中选择&#x200B;**[!UICONTROL 删除]**。
+  1. 从所选文件夹的上下文菜单![More](/help/assets/icons/More.svg)或蓝色操作栏中的[操作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)中选择&#x200B;**[!UICONTROL 删除]**。
 
-   1. 在&#x200B;**[!UICONTROL 中，是否确定？]** 对话框，选择&#x200B;**[!UICONTROL 确定]**&#x200B;以删除文件夹。
+  1. 在&#x200B;**[!UICONTROL 中，是否确定？]** 对话框，选择&#x200B;**[!UICONTROL 确定]**&#x200B;以删除文件夹。
 
 * 在您想要删除的文件夹中。
 
-   1. 在[标题区域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中，从![More](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL 删除文件夹]**。
+  1. 在[标题区域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中，从![More](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL 删除文件夹]**。
 
-   1. 在&#x200B;**[!UICONTROL 删除&#x200B;*名称*文件夹中？]** 对话框，选择&#x200B;**[!UICONTROL 确定]**。
+  1. 在&#x200B;**[!UICONTROL 删除&#x200B;*名称*文件夹中？]** 对话框，选择&#x200B;**[!UICONTROL 确定]**。
 
 
 <!-- 

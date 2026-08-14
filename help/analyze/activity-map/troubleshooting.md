@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 16%
 * **AppMeasurement版本**： v1.6及更高版本支持Activity Map。 当您升级到最新稳定版本的AppMeasurement时，许多边缘案例问题都已得到解决。
 * **Activity Map模块**：检查`AppMeasurement.js`文件中是否存在`AppMeasurement_Module_Activity_Map`模块。 如果您的实施使用Adobe Experience Platform收集数据，请确保在&#x200B;**[!UICONTROL 链接跟踪]**&#x200B;下配置Analytics扩展时选中&#x200B;**[!UICONTROL 启用ClickMap]**。
 * **`s_sq` Cookie**： Activity Map依赖于`s_sq` Cookie进行数据收集。
-   * 确保正确设置`cookieDomainPeriods`变量，尤其是为区域域，如`*.co.uk`或`*.co.jp`。
-   * 确保`linkInternalFilters`变量设置为所需值。 如果点击的链接与内部过滤器不匹配，Activity Map会将其视为退出链接，因此不会收集数据。
+  * 确保正确设置`cookieDomainPeriods`变量，尤其是为区域域，如`*.co.uk`或`*.co.jp`。
+  * 确保`linkInternalFilters`变量设置为所需值。 如果点击的链接与内部过滤器不匹配，Activity Map会将其视为退出链接，因此不会收集数据。
 * **Activity Map覆盖正在运行**：启用AppMeasurement覆盖后，Activity Map不会跟踪您网页的点击数据。
 
 显示与 Activity Map 的使用不兼容的浏览器参数。 Adobe建议禁用这些设置。

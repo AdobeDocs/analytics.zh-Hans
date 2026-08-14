@@ -93,7 +93,7 @@ ht-degree: 30%
    | 设置 | 在中可见 | 在中不可见 |
    |---------|----------|---------|
    | [!UICONTROL **随时随地可见**] | <ul><li>Analysis Workspace</li><li>区段生成器</li><li>计算指标生成器</li></ul> | 不适用 |
-   | [!UICONTROL **生成器**] | <ul><li>区段生成器</li><li>计算量度生成器</li><li>Analysis Workspace</li></ul> |  |
+   | [!UICONTROL **生成器**] | <ul><li>区段生成器</li><li>计算指标生成器</li><li>Analysis Workspace</li></ul> |  |
    | [!UICONTROL **随时随地隐藏**] | 不适用 | <ul><li>Analysis Workspace</li><li>区段生成器</li><li>计算指标生成器</li></ul> |
 
 1. 在&#x200B;[!UICONTROL **Description**]&#x200B;列中，选中该复选框，然后提供说明。

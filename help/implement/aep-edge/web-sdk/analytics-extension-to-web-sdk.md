@@ -141,9 +141,9 @@ Adobe建议在以下情况下遵循此实施路径：
    * [!UICONTROL 操作类型]： [!UICONTROL 发送事件]
 1. 在右侧，将操作设置更改为以下内容：
    * [!UICONTROL 类型]：对于`s.t()`，使用&#x200B;**[!UICONTROL Web网页详细信息页面查看次数]**。 对于`s.tl()`，使用&#x200B;**[!UICONTROL Web Webinteraction链接点击次数]**。 如果使用[`s.tl()`](../../vars/functions/tl-method.md)，则还必须在数据对象中包含以下字段。 执行[!UICONTROL 更新变量]操作配置时，这些字段列在[!UICONTROL 其他属性]下：
-      * [链接名称](../../vars/functions/tl-method.md)
-      * [链接类型](../../vars/functions/tl-method.md)
-      * [URL 链接](../../vars/config-vars/linkurl.md)
+     * [链接名称](../../vars/functions/tl-method.md)
+     * [链接类型](../../vars/functions/tl-method.md)
+     * [URL 链接](../../vars/config-vars/linkurl.md)
 1. 选择&#x200B;**[!UICONTROL 保留更改]**。
 1. 对使用Adobe Analytics发送信标的每个操作配置重复这些步骤。
 

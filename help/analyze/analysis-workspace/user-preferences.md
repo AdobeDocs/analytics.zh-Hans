@@ -139,7 +139,7 @@ ht-degree: 93%
 |  | [面板类型](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>自由格式（默认）</li><li>空白</li><li>快速洞察</li></ul> |
 |  | 数字格式 | <ul><li>1,000.00（默认）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | 计数重复实例 | 指定是否将重复实例计入报告中。 例如，此设置（激活时）会将同一页面的多次连续页面查看视为多次页面查看。 关闭它后，它们将计为单个页面视图。 <p>**注意：**&#x200B;此设置仅影响某些量度（例如单页访问），不适用于流量或流失可视化。</p> |
-|  | CSV 分隔符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线符号</li><li>期间</li><li>空间</li><li>制表符</li></ul> |
+|  | CSV 分隔符字符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线</li><li>句点</li><li>空格</li><li>制表符</li></ul> |
 |  | 显示注释 | 选择注释是否在您的项目中可见。 有关注释的更多信息，请参阅[注释概述](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
 
 ## 自由格式表偏好设置 {#freeform-table-preferences}
@@ -170,7 +170,7 @@ ht-degree: 93%
 | 部分 | 偏好设置 | 选项 |
 | --- | --- | --- |
 | **表格** | | |
-| | 表类型 | <ul><li>自由格式</li><li>表生成器</li></ul> |
+| | 表类型 | <ul><li>自由格式表</li><li>表生成器</li></ul> |
 | | 默认表量度 | <ul><li>发生次数</li><li>独特访客</li><li>访问次数</li></ul> |
 | | 默认表维度 | 从分钟、小时、天、周、月、季度或年中选择。 |
 | | 调整日期 | 选择此选项可将每列的日期与同一行的所有开始日期对齐。 |
@@ -253,11 +253,11 @@ ht-degree: 93%
 | | 计算方法 | 从以下选项中进行选择： <ul><li>点击</li><li>访问</li><li>访客</li></ul> <p>例如，结合页面浏览量使用时，您可以选择“每位访客的页面浏览量”、“每次访问的页面浏览量”或“每次点击的页面浏览量”。 对于点击来说，“发生次数”可作为自由格式表中的 y 轴量度。</p> |
 | **[地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | 绘制维度图 | <ul><li>移动经度/纬度</li><li>地理维度</li></ul> |
-| | 地图类型 | <ul><li>气泡图</li><li>热图</li></ul> |
+| | 地图类型 | <ul><li>气泡</li><li>热图</li></ul> |
 | | 颜色主题 | 从珊瑚色、红色、绿色、蓝色、热图和正/负中进行选择。 |
 | | 地图样式 | 从基本、街道、明亮、浅色、深色和卫星中进行选择。 |
 | **[摘要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比变化</li><li>原始差异</li></ul> |
+| | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>比例更改</li><li>原始差异</li></ul> |
 | | 百分比 | 以百分比显示摘要更改可视化效果的值。 |
 | | 图例可见 | 此设置允许您为摘要变化可视化图表隐藏详细的图例文本。 |
 | | 缩写值 | 选中后，可指定小数位数。 |

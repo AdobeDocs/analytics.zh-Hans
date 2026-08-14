@@ -48,14 +48,14 @@ Activity Map扩展允许您查看网站上覆盖的点击数据。 您可以通�
 它提供以下设置：
 
 * **标准/实时视图**：在标准视图和实时视图之间切换。
-   * 标准视图：显示基于历史数据的叠加。
-   * 实时视图：显示基于实时数据的叠加图。 日期选择器将更改为下拉菜单，允许您更改实时数据的粒度。
+  * 标准视图：显示基于历史数据的叠加。
+  * 实时视图：显示基于实时数据的叠加图。 日期选择器将更改为下拉菜单，允许您更改实时数据的粒度。
 * **量度选择器**：允许您更改叠加报表的量度。 如果您选择了实时视图，则只有[!UICONTROL 链接点击次数]可用。
 * **区段选择器**：允许您选择一个[区段](/help/components/segmentation/seg-overview.md)，并查看叠加图中的数据子集。 区段在实时视图中不可用。
 * **叠加可视化类型**：允许您更改叠加可视化链接排名的方式。
-   * **[!UICONTROL 气泡]**：热门链接收到一个绿色气泡，显示其在报告期间的数值排名。 您可以在[设置](settings.md)中更改气泡颜色。
-   * **[!UICONTROL 渐变]**：排名最前的链接显示为透明红色。 最受欢迎的链接是最暗的红色。 您可以在[设置](settings.md)中更改渐变颜色。
-   * **[!UICONTROL 关闭]**：禁用链接叠加。
+  * **[!UICONTROL 气泡]**：热门链接收到一个绿色气泡，显示其在报告期间的数值排名。 您可以在[设置](settings.md)中更改气泡颜色。
+  * **[!UICONTROL 渐变]**：排名最前的链接显示为透明红色。 最受欢迎的链接是最暗的红色。 您可以在[设置](settings.md)中更改渐变颜色。
+  * **[!UICONTROL 关闭]**：禁用链接叠加。
 * **日期选择器**：允许您更改报告周期。
 
 此面板的标题包含以下设置：
@@ -63,11 +63,11 @@ Activity Map扩展允许您查看网站上覆盖的点击数据。 您可以通�
 * **展开/折叠顶部面板**：切换顶部面板以水平或垂直显示设置（双箭头图标）。
 * **[!UICONTROL 切换页面详细信息]**：显示或隐藏底部面板（眼睛图标）。
 * **[!UICONTROL 显示设置]**：打开一个菜单，以显示可更改的设置（齿轮图标）：
-   * **[!UICONTROL 设置]**：打开扩展的[设置](settings.md)。
-   * **[!UICONTROL 帮助]**：向Experience League打开文档（此页面）。
-   * **[!UICONTROL Adobe社区]**：打开[Experience League社区](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hans)。
-   * **[!UICONTROL 关于]**：显示扩展版本。
-   * **[!UICONTROL 注销]**：将您从扩展注销，要求您重新登录。
+  * **[!UICONTROL 设置]**：打开扩展的[设置](settings.md)。
+  * **[!UICONTROL 帮助]**：向Experience League打开文档（此页面）。
+  * **[!UICONTROL Adobe社区]**：打开[Experience League社区](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hans)。
+  * **[!UICONTROL 关于]**：显示扩展版本。
+  * **[!UICONTROL 注销]**：将您从扩展注销，要求您重新登录。
 * **[!UICONTROL 退出Activity Map]**：关闭扩展的所有叠加图（X图标）。
 
 ## 页面叠加

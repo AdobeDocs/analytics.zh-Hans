@@ -44,9 +44,9 @@ ht-degree: 40%
 
   所有Windows桌面[!DNL Excel]用户都必须安装Microsoft Edge Webview2才能使用此加载项。 安装控制器：
 
-   1. 转到 <https://aka.ms/webview2installer>。
-   1. 选择并下载 Evergreen 独立安装程序。
-   1. 按照安装提示操作。
+  1. 转到 <https://aka.ms/webview2installer>。
+  1. 选择并下载 Evergreen 独立安装程序。
+  1. 按照安装提示操作。
 
 ### Web Office
 

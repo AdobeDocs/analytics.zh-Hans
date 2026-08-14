@@ -87,7 +87,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!MORELIKETHIS]
 >
->[创建面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[创建一个面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 >
 
 <!--

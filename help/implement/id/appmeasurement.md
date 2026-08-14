@@ -38,11 +38,11 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 * 开发[报表包ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)的所需边缘域。
 * 您的IMS组织ID：
-   1. 使用您的Adobe ID凭据登录[Adobe CX Enterprise](https://experience.adobe.com)。
-   1. 在CX Enterprise界面的任何位置，按`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
-   1. 出现&#x200B;**[!UICONTROL 用户数据调试器]**。 选择&#x200B;**[!UICONTROL 分配的组织]**&#x200B;选项卡。
-   1. 展开所需的IMS组织。
-   1. 找到&#x200B;**[!UICONTROL ID]**&#x200B;字段。
+  1. 使用您的Adobe ID凭据登录[Adobe CX Enterprise](https://experience.adobe.com)。
+  1. 在CX Enterprise界面的任何位置，按`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
+  1. 出现&#x200B;**[!UICONTROL 用户数据调试器]**。 选择&#x200B;**[!UICONTROL 分配的组织]**&#x200B;选项卡。
+  1. 展开所需的IMS组织。
+  1. 找到&#x200B;**[!UICONTROL ID]**&#x200B;字段。
 
 获得上述资源后，以下基本示例页面包含将数据发送到Adobe Analytics所需的最低调用：
 
@@ -98,9 +98,9 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 使用[`visitorID`](/help/implement/vars/config-vars/visitorid.md)变量可让您的组织完成识别访客的独立控制。 如果您使用`visitorID`，请注意以下限制：
 
 * 每次点击必须包含相同的`visitorID`值才能计为单个访客。
-   * 任何忽略`visitorID`的点击都会自动尝试使用其他访客识别方法，将它们视为单独的访客。
-   * 任何包含与上一次点击不同的`visitorID`值的点击都将被视为单独的访客。
-   * Adobe不提供在Adobe Analytics中将使用不同访客ID的点击拼合在一起的方法。
+  * 任何忽略`visitorID`的点击都会自动尝试使用其他访客识别方法，将它们视为单独的访客。
+  * 任何包含与上一次点击不同的`visitorID`值的点击都将被视为单独的访客。
+  * Adobe不提供在Adobe Analytics中将使用不同访客ID的点击拼合在一起的方法。
 * 使用`visitorID`标识的访客不支持共享受众、Analytics for Target和客户属性。
 
 有关使用此变量的实施说明，请参阅[`visitorID`](/help/implement/vars/config-vars/visitorid.md)。

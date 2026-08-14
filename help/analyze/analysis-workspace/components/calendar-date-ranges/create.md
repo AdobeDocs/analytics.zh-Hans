@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 542
 ht-degree: 96%
 
 ---
@@ -76,12 +76,12 @@ Should we really mention API here. If so, we can do it all over the place in the
 
      ![Rolling dates](assets/rolliing-dates.png)
 
-      1. 选择&#x200B;**[!UICONTROL 开始]**、**[!UICONTROL 结束]**&#x200B;或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。 例如：**&#x200B;**&#x200B;**[!UICONTROL 当前季度结束]**&#x200B;**[!UICONTROL 减去]**`20`**[!UICONTROL 天]**。 为表达式的每个部分选择适当的值。
-         * 选择当前时间的值。 例如&#x200B;**[!UICONTROL 当前季度]**。
-         * 选择一个值进行额外的计算。 例如，**[!UICONTROL 减]**。
-         * 当您指定了额外的计算时，请指定一个值。 例如，`20`。
-         * 当您指定了额外的计算时，请选择用于该计算的时段。 例如&#x200B;**[!UICONTROL 天]**。
+     1. 选择&#x200B;**[!UICONTROL 开始]**、**[!UICONTROL 结束]**&#x200B;或&#x200B;**[!UICONTROL 固定日期]**。
+     1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。 例如：**&#x200B;**&#x200B;**[!UICONTROL 当前季度结束]**&#x200B;**[!UICONTROL 减去]**`20`**[!UICONTROL 天]**。 为表达式的每个部分选择适当的值。
+        * 选择当前时间的值。 例如&#x200B;**[!UICONTROL 当前季度]**。
+        * 选择一个值进行额外的计算。 例如，**[!UICONTROL 减]**。
+        * 当您指定了额外的计算时，请指定一个值。 例如，`20`。
+        * 当您指定了额外的计算时，请选择用于该计算的时段。 例如&#x200B;**[!UICONTROL 天]**。
 
      选择&#x200B;**[!UICONTROL 隐藏详细信息]**，以隐藏计算滚动日期的详细信息。
 

@@ -43,7 +43,7 @@ Adobe Analytics 和 Adobe Audience Manager 中有一些访客量度具有相似�
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hans"  > Adobe Audience Manager：实时区段人口</a> </p> </td> 
-   <td colname="col3"> <p>在回顾期间作为区段成员并到达您的资产的设备数(Experience Cloud ID)。 </p> </td> 
+   <td colname="col3"> <p>在回顾期间，作为区段成员并访问您资产的设备(Experience Cloud ID)的数量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：独特访客 </p> </td> 
@@ -51,12 +51,12 @@ Adobe Analytics 和 Adobe Audience Manager 中有一些访客量度具有相似�
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：具有Experience Cloud ID的访客 </p> </td> 
-   <td colname="col3"> <p>显示有Experience Cloud ID的独特访客在报表时段内访问您的资产的数量。 </p> </td> 
+   <td colname="col3"> <p>显示在报表时段内访问您资产的具有Experience Cloud ID的独特访客数量。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-在Adobe Audience Manager报表中使用的Audience Analytics实时区段人口和具有Experience Cloud ID的Analytics访客将最相似。 然而，就近期而言，由于若干因素，两者之间将略有差异。 影响因素包括：
+Audience Analytics报表中使用的Adobe Audience Manager实时区段人口和具有Experience Cloud ID的Analytics访客将最相似。 然而，就近期而言，由于若干因素，两者之间将略有差异。 影响因素包括：
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
