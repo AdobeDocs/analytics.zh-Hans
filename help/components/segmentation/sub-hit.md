@@ -2,13 +2,11 @@
 title: 子点击分析
 description: 了解子点击分析如何让您在Adobe Analytics中筛选点击中的各个产品，消除产品报表中的归因出血。
 feature: Segmentation
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 21f7902e034a998be1f5cc6a1ea19bff5f12584d
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -23,7 +21,9 @@ ht-degree: 0%
 
 在Adobe Analytics中，[Products变量](/help/components/dimensions/product.md)可以在一次点击中捕获多个产品。 如果没有子点击分析，对产品属性进行分段将返回点击中的任何产品与产品属性匹配的所有点击。 结果是不正确的归因和夸大的收入量度。 子点击分析可将过滤器范围设置为点击中的单个产品行，并解决这些问题。
 
-在子点击分析中，排除逻辑的行为与针对Products变量的标准点击级别排除有所不同。 在[!UICONTROL 产品]容器中排除产品属性时，区段会返回&#x200B;**具有产品**&#x200B;但不匹配排除条件的点击。 该区段不会返回完全没有产品的点击。
+在子点击分析中，排除逻辑的行为与针对Products变量的标准点击级别排除有所不同。 在[!UICONTROL 产品]容器中排除产品属性时，区段会返回&#x200B;**具有产品**&#x200B;但不匹配排除条件的点击。
+
+在Adobe Analytics中，每次点击都包含产品列表项，即使该点击没有产品ID也是如此。 因此，子点击分析排除逻辑将返回根本没有产品的点击。
 
 ## 示例
 
@@ -39,7 +39,8 @@ ht-degree: 0%
 
 ![显示产品类别为“男性”的点击级别分段的面板](./assets/product-category-segmentation-hits.png)
 
-因此，至少包含一个&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时尚产品类别]**&#x200B;的所有订单都将被考虑，并且这些订单中来自其他产品的收入包含在&#x200B;**[!UICONTROL 在线收入]**&#x200B;量度中。当您报告类别时，报告了&#x200B;**[!UICONTROL 零售业：时装产品类别]**&#x200B;的所有其他值，这些值属于包含&#x200B;**[!UICONTROL 男士]** **[!UICONTROL 零售业：时装产品类别]**&#x200B;的产品的订单。
+因此，至少包含一个&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时尚产品类别]**&#x200B;的所有订单都将被考虑，并且这些订单中来自其他产品的收入包含在&#x200B;**[!UICONTROL 在线收入]**量度中。
+当您报告类别时，报告了**[!UICONTROL 零售业：时装产品类别]**&#x200B;的所有其他值，这些值属于包含&#x200B;**[!UICONTROL 男士]** **[!UICONTROL 零售业：时装产品类别]**&#x200B;的产品的订单。
 
 >[!TAB 子点击分析]
 
@@ -47,7 +48,8 @@ ht-degree: 0%
 
 ![显示产品类别Men的子点击级别分段的面板](./assets/product-category-segmentation-sub-hits.png)
 
-因此，至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**&#x200B;的所有订单都被考虑在内，并且在&#x200B;**[!UICONTROL 在线收入]**&#x200B;量度中只包含属于&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**&#x200B;的产品收入。当您报告类别时，仅报告&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**。
+因此，至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**&#x200B;的所有订单都被考虑在内，并且在&#x200B;**[!UICONTROL 在线收入]**&#x200B;量度中只包含属于&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**的产品收入。
+当您报告类别时，仅报告**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**。
 
 >[!TAB 子点击分析（排除）]
 
