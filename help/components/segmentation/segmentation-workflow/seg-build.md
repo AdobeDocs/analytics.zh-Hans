@@ -4,22 +4,14 @@ title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 76%
+source-wordcount: 2082
+ht-degree: 72%
 
 ---
 
@@ -100,7 +92,18 @@ ht-degree: 76%
    * 您可以在组件栏中使用![搜索](/help/assets/icons/Search.svg)来搜索特定组件。
    * 您可以在组件栏中使用![筛选器](/help/assets/icons/Filter.svg)按![复选标记](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已批准]**、![星级](/help/assets/icons/Star.svg) **[!UICONTROL 收藏夹]**、![数据维度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 维度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 区段]**、![日历](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期范围]**&#x200B;进行筛选![层](/help/assets/icons/Layer.svg) **[!UICONTROL 产品]**&#x200B;组件。 您还可以按![标签](/help/assets/icons/Label.svg)标记进行筛选。
 1. 指定组件的详细信息。 例如，从&#x200B;**[!UICONTROL 选择值]**&#x200B;中选择一个值。 或输入一个值。 指定一个或多个值的内容和方式取决于组件和运算符。
-1. 可选择修改默认运算符。 例如，从&#x200B;**[!UICONTROL 等于]**&#x200B;到&#x200B;**[!UICONTROL 等于任意一个]**。 请参阅 [运算符](../seg-reference/seg-operators.md)，了解可用运算符的详细概述。
+
+1. （可选）启用选项&#x200B;[!UICONTROL **将结果限制在报表日期范围**]。
+
+   如果您的区段包含日期范围组件，Workspace报表中的数据可能会超过报表的日期范围。
+
+   启用此选项可将结果限制为报表日期范围，而不管区段中包含任何日期组件。
+
+   仅当从&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉菜单中选择&#x200B;[!UICONTROL **人员**]&#x200B;作为定义的范围（容器）时，才会显示此选项。
+
+   **注意**：此功能处于版本的有限测试阶段，可能尚未在您的环境中可用。 当该功能正式可用时，将删除此说明。 有关Customer Journey Analytics发布过程的信息，请参阅[Adobe Analytics功能发布](/help/release-notes/releases.md)。
+
+1. （可选）修改默认运算符。 例如，从&#x200B;**[!UICONTROL 等于]**&#x200B;到&#x200B;**[!UICONTROL 等于任意一个]**。 请参阅 [运算符](../seg-reference/seg-operators.md)，了解可用运算符的详细概述。
 
 要编辑组件，请执行以下操作：
 
@@ -130,9 +133,9 @@ ht-degree: 76%
 | 容器操作 | 描述 |
 |---|---|
 | **[!UICONTROL 添加容器]** | 向容器中添加嵌套容器。 |
-| **[!UICONTROL 排除]** | 在区段定义中排除容器中的结果。 左侧的细红色条身份标识排除容器。 |
-| **[!UICONTROL 包含]** | 在区段定义中包含容器中的结果。 默认为包含。 左侧的细灰色条身份标识了包含容器。 |
-| **[!UICONTROL 为容器命名]** | 根据容器的默认描述重命名容器。 在文本字段中输入名称。 如果您未提供任何输入内容，则会使用默认描述。 |
+| **[!UICONTROL 排除]** | 在区段定义中排除容器中的结果。 左侧的细红色条标识排除容器。 |
+| **[!UICONTROL 包含]** | 在区段定义中包含容器中的结果。 默认为包含。 左侧的细灰色条标识包含容器。 |
+| **[!UICONTROL 为容器命名]** | 将容器从其默认描述重命名。 在文本字段中输入名称。 如果您未提供任何输入内容，则会使用默认描述。 |
 | **[!UICONTROL 删除容器]** | 从定义中删除容器。 |
 
 将产品维度或量度拖入区段生成器时，系统会自动选择&#x200B;**[!UICONTROL 产品]**&#x200B;容器，并且不使用默认的&#x200B;**[!UICONTROL 点击]**&#x200B;容器。 此行为将区段的范围限制为单个产品，而不是整个点击。
@@ -148,7 +151,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的滚动日期范围](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的滚动日期范围](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +160,7 @@ ht-degree: 76%
 
 您可以使用若干区段来构建一个区段。 在一个区段中使用若干区段时，您可以优化该区段，降低复杂性。
 
-假设您想对交互渠道(5)和美国州(50)的组合进行分段。 您可以创建 250 个区段，分别对应设备类型（手机或平板）与美国各州之间的唯一组合。 要获取加利福尼亚的平板电脑用户，请使用250个区段之一：
+假设您想对交互渠道(5)和美国州(50)的组合进行分段。 您可以创建 250 个区段，分别对应设备类型（手机或平板电脑）与美国各州之间的唯一组合。 要获取加利福尼亚的平板电脑用户，请使用250个区段之一：
 
 ![加利福尼亚州和平板电脑的简单区段](assets/segment-ca-tablet-single.png)
 
@@ -171,7 +174,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="重复"
->abstract="包括维度的实例及持续值。"
+>abstract="包括维度的实例和持续保留的值。"
 
 
 >[!CONTEXTUALHELP]
@@ -271,7 +274,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -332,7 +335,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -421,7 +424,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
   </tr> 
   <tr> 
    <td colname="col1"> 查看的产品未添加到购物车 </td> 
-   <td colname="col2">查看浏览了产品但未在购物车加货的访客的数据。  </td> 
+   <td colname="col2">查看浏览了产品但未将任何商品加入购物车的访客的数据。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自促销活动的访问次数 </td> 
@@ -437,7 +440,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
   </tr> 
   <tr> 
    <td colname="col1"> 来自非移动设备的访问次数 </td> 
-   <td colname="col2">查看非使用移动设备的访客的数据。 </td> 
+   <td colname="col2">查看未使用移动设备的访客的数据。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自手机的访问次数 </td> 
@@ -449,7 +452,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
   </tr> 
   <tr> 
    <td colname="col1"> 社交网站访问次数 </td> 
-   <td colname="col2">查看通过社交网站反向链接的访客的数据。</td> 
+   <td colname="col2">查看通过社交网站引荐的访客的数据。</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自平板电脑的访问次数 </td> 
@@ -457,7 +460,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
   </tr> 
   <tr> 
    <td colname="col1"> 使用访客 ID Cookie 的访问次数 </td> 
-   <td colname="col2">查看需要永久性 Cookie 的网站上访客的数据。</td> 
+   <td colname="col2">查看来自您的网站访客的数据，其中需要永久性 Cookie。</td> 
   </tr> 
  </tbody> 
 </table>
