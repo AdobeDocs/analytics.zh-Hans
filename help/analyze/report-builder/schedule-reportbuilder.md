@@ -7,38 +7,34 @@ type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
 TQID: https://experienceleague.adobe.com/57Kc6Mgv1-HwWIEjxYj-zEjJSSIqHMxn5-KHxAeVsUQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 26%
+source-wordcount: 964
+ht-degree: 23%
 
 ---
 
 # 通过电子邮件共享计划工作簿
 
->[!NOTE]
->
->除了计划通过电子邮件共享的工作簿外（如本节所述），您还可以计划要导出到云目标的工作簿（如[计划导出到云目标的工作簿](/help/analyze/report-builder/report-builder-export.md)中所述）。
-
-保存工作簿并完成分析后，您可以使用计划功能轻松地与团队中的其他人共享您的工作簿。 计划功能允许您创建计划，自动刷新工作簿中的数据，并在特定日期和时间将 Excel 工作簿。xlsx 文件作为附件通过电子邮件发送给指定的受众。 设置时间表可为收件人自动提供定期更新。 您还可以使用计划功能将工作簿发送一次，而无需计划自动更新。
+保存工作簿并完成分析后，您可以使用计划功能轻松地与团队中的其他人共享您的工作簿。 计划功能允许您创建计划，自动刷新工作簿中的数据，并在特定日期和时间将 Excel 工作簿 .xlsx 文件作为附件通过电子邮件发送给指定的受众。 设置计划可自动为收件人提供定期更新。 您还可以使用计划功能将工作簿发送一次，而无需计划自动更新。
 
 您可以为单个工作簿创建多个计划。 例如，您可以每天向您的团队发送一份工作簿，也可以通过创建两个不同的时间表每周一次将工作簿发送给您的经理。
 
-计划功能还允许您为工作簿设置密码保护并编辑以前计划的工作簿。
+除了计划通过电子邮件共享的工作簿外（如本节所述），您还可以计划要导出到云目标的工作簿（如[计划导出到云目标的工作簿](/help/analyze/report-builder/report-builder-export.md)中所述）。
 
+“计划”功能还允许您为工作簿设置密码保护并编辑以前计划的工作簿的计划。
+
+>[!NOTE]
+>
+>计划会发送您在创建计划时已存在的工作簿版本。 如果您稍后更改并保存工作簿，则现有计划不会选取这些更改，将继续发送原始版本。 要分发更新的工作簿，请在保存更改后创建新的计划。
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计划工作簿](https://video.tv.adobe.com/v/3417502?captions=chi_hans&quality=12&learn=on){target="_blank"}以观看演示视频。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [计划工作簿](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +51,7 @@ ht-degree: 26%
 
    ![计划工作簿窗口。](./assets/schedule-workbook.png){zoomable="yes"}
 
-   计划窗格显示有关工作簿的一些预定义信息，例如工作簿名称和修改工作簿的最后日期。
+   计划窗格显示有关工作簿的一些预定义信息，例如工作簿名称和工作簿上次修改的日期。
 
 ### 文件
 
@@ -117,7 +113,7 @@ Does no longer seem to be an option?
 
 1. 选择&#x200B;**[!UICONTROL 显示计划选项]**&#x200B;以定义计划。
 
-1. 输入从&#x200B;**开始的**&#x200B;开始日期。 或者，选择![日历](/help/assets/icons/Calendar.svg)以从日历中选择开始日期。
+1. 输入从&#x200B;]**开始的**[!UICONTROL &#x200B;开始日期。 或者，选择![日历](/help/assets/icons/Calendar.svg)以从日历中选择开始日期。
 
 1. 在&#x200B;**[!UICONTROL 结束日期]**&#x200B;中输入结束日期。 或者，选择![日历](/help/assets/icons/Calendar.svg)以从日历中选择结束日期。
 
