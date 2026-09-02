@@ -32,9 +32,9 @@ ht-degree: 0%
 
 以下维度可供使用：
 
-* [[!UICONTROL 相册]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
-* [[!UICONTROL 艺人]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
-* [[!UICONTROL 作者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
-* [[!UICONTROL Label]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
-* [[!UICONTROL 发布者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)
-* [[!UICONTROL 工作站]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)
+* [[!UICONTROL 相册]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL 艺人]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL 作者]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/author)
+* [[!UICONTROL Label]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/label)
+* [[!UICONTROL 发布者]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/publisher)
+* [[!UICONTROL 工作站]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/station)

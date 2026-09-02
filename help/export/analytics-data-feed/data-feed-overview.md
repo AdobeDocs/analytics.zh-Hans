@@ -54,6 +54,6 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-查看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送 ID](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}，获取演示视频。
+查看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送 ID](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]

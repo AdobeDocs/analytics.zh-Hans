@@ -32,17 +32,17 @@ ht-degree: 0%
 
 可以使用以下量度：
 
-* [[!UICONTROL 平均比特率]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-bitrate)
-* [[!UICONTROL 受比特率更改影响的流]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
-* [[!UICONTROL 比特率更改]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-changes)
-* [[!UICONTROL 受缓冲影响的流]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
-* [[!UICONTROL 缓冲事件]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-events)
-* [[!UICONTROL 总缓冲持续时间]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
-* [[!UICONTROL 开始前丢弃]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/drops-before-start)
-* [[!UICONTROL 丢帧]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frames)
-* [[!UICONTROL 受丢帧影响的流]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
-* [[!UICONTROL 错误影响的流]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
-* [[!UICONTROL 错误事件]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-events)
-* [[!UICONTROL 开始时间]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start)
+* [[!UICONTROL 平均比特率]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/average-bitrate)
+* [[!UICONTROL 受比特率更改影响的流]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
+* [[!UICONTROL 比特率更改]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/bitrate-changes)
+* [[!UICONTROL 受缓冲影响的流]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
+* [[!UICONTROL 缓冲事件]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/buffer-events)
+* [[!UICONTROL 总缓冲持续时间]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
+* [[!UICONTROL 开始前丢弃]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/drops-before-start)
+* [[!UICONTROL 丢帧]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/dropped-frames)
+* [[!UICONTROL 受丢帧影响的流]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
+* [[!UICONTROL 错误影响的流]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
+* [[!UICONTROL 错误事件]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/error-events)
+* [[!UICONTROL 开始时间]](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/time-to-start)
 
 有关相应的维度，请参阅[流媒体服务质量维度](../dimensions/sm-quality.md)。

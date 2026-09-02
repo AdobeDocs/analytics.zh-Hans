@@ -42,7 +42,7 @@ ht-degree: 62%
 * 产品配置文件管理员可以向用户组分配或从中移除产品配置文件。
 * 产品配置文件管理员非常适合需要为其团队授予并管理 Adobe Analytics 访问权限的团队领导或经理。 个人无需麻烦系统管理员或产品管理员来授予对 Adobe Analytics 的访问权限。
 
-有关如何分配产品配置文件管理员的信息，请参阅《企业用户指南》的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)一文中的“管理产品配置文件管理员”部分。
+有关如何分配产品配置文件管理员的信息，请参阅《企业用户指南》的[管理企业用户的产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)一文中的“管理产品配置文件管理员”部分。
 
 ## Adobe Analytics 权限项
 

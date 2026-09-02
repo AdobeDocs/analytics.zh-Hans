@@ -105,13 +105,13 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 * [Adobe Debugger](validate/debugger.md)
 * [在 Experience Platform 中创建标记属性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
-* [使用Platform Web SDK设置Adobe Analytics教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
-* [在移动应用程序中实施Adobe CX Enterprise教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
+* [使用Platform Web SDK设置Adobe Analytics教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=zh-Hans)
+* [在移动应用程序中实施Adobe CX Enterprise教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)
 
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hans)
 * [Adobe Analytics资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新发行说明](../release-notes/latest.md)

@@ -36,7 +36,7 @@ Adobe Analytics 通过提供各种计算量度来涵盖最常见的用例。 这
 >
 >您可以：
 >
-> * 为流媒体服务添加默认计算量度，请参阅[计算量度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)
+> * 为流媒体服务添加默认计算量度，请参阅[计算量度](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/calculated-metrics)
 > * 从现有量度中创建自定义计算量度，如[计算量度和高级计算量度](/help/components/calculated-metrics/cm-overview.md)中所述。
 >
 
