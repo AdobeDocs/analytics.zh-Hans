@@ -35,7 +35,7 @@ ht-degree: 100%
 
 # Adobe Analytics 概述
 
-Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获得可操作洞察。 借助深入分析、多功能报告和预测智能，组织可以获得为客户打造更好体验所需的深刻基础。
+Adobe Analytics 使组织能够从任何数字客户互动中收集数据并获得可操作洞察。 借助深入分析、多功能报告和预测智能，组织可以获得为客户打造更好体验所需的深刻基础。
 
 ## Adobe Analytics 快速入门
 
@@ -44,7 +44,7 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
 
 | 文档资源 | 功能 |
 |---------|----------|
-| [快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md) | 提供您需要了解的说明关键功能和任务的详细信息，无论您是管理员、分析师、最终用户还是开发人员。 |
+| [快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md) | 提供详细信息，说明您需要了解的关键功能和任务，无论您是管理员、分析师、最终用户还是开发人员。 |
 | [了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md) | 概述了 Analytics 界面的关键区域。 |
 | [用例](/help/analyze/get-started/use-cases.md) | 说明 Adobe Analytics 帮助组织获得重要洞察以更好地服务客户的一些关键方法。 |
 | [我应该使用哪种 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md) | 包含每个 Adobe Analytics 工具的推荐用例。 |
@@ -65,13 +65,13 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
 
 有关使用哪种工具的问题，请参阅[我应该使用哪种 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)
 
-## 通过 Customer Journey Analytics 走得更远
+## 进一步了解 Customer Journey Analytics
 
-Customer Journey Analytics 是 Adobe 推出的新一代 Analytics 解决方案，可让您运用 Analysis Workspace 的强大功能处理来自 Adobe Experience Platform 的数据。 它可以划分、筛选、查询和可视化数年积累的有价值的数据，并结合 Platform 的功能来保存各种数据架构和类型。
+Customer Journey Analytics 是 Adobe 推出的新一代分析解决方案，可让您运用 Analysis Workspace 的强大功能处理来自 Adobe Experience Platform 的数据。 它可以划分、筛选、查询和可视化数年积累的数据，并结合 Adobe Experience Platform 保存各种数据架构和类型的能力。
 
 以下是 Customer Journey Analytics 相对于 Adobe Analytics 的一些优势：
 
-* **无限量的变量和事件**：eVar、prop 和事件的概念已不复存在。 数据主要侧重于维度和量度。 数据集可以有无限数量的唯一维度和量度。
+* **无限量的变量和事件**：eVar、prop 和事件的概念已不复存在。 数据主要侧重于维度和量度。 数据集中的不同维度和量度数量可以不受限制。
 
 * **无限唯一值**：Adobe Experience Platform 不受任何特有限制的约束。
 

@@ -46,16 +46,16 @@ Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
 * **标准指标**：您在项目中使用的大多数指标都是标准指标。 相关例子包括[页面浏览量](/help/components/metrics/page-views.md)、[收入](/help/components/metrics/revenue.md)或者[自定义事件。](/help/components/metrics/custom-events.md) 有关更多信息，请参阅组件用户指南中的[指标概述。](/help/components/metrics/overview.md)
 
-* **计算指标** ![计算器](/help/assets/icons/Calculator.svg)：基于标准指标、静态数字或算法函数的用户定义指标。 用户定义的计算指标会在可用组件列表中显示一个计算器图标。 有关更多信息，请参阅组件用户指南中的[计算指标概述。](/help/components/calculated-metrics/cm-overview.md)
+* **计算指标** ![计算器](/help/assets/icons/Calculator.svg)：基于标准指标、静态数字或算法函数的用户定义指标。 用户定义的计算量度会在可用组件列表中显示一个计算器图标。 有关更多信息，请参阅组件用户指南中的[计算指标概述。](/help/components/calculated-metrics/cm-overview.md)
 
-* **计算量度模板** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：Adobe定义的与计算量度行为相似的量度。 您可以在 Workspace 项目中按原样使用它们，或保存副本以自定义其逻辑。 计算指标模板会在可用组件列表中显示一个 Adobe 图标。
+* **计算量度模板** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：Adobe定义的与计算量度行为相似的量度。 您可以在 Workspace 项目中按原样使用它们，或保存副本以自定义其逻辑。 计算量度模板会在可用组件列表中显示一个 Adobe 图标。
 
 您可以查看某个量度是否获得批准![批准图标](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)。 如果您想了解有关某个量度的更多详细信息，请将鼠标悬停在该量度上，然后选择![信息图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)。 有关详细信息，请参阅[组件信息](use-components-in-workspace.md#component-info)。
 
 
 ## 在 Analysis Workspace 中使用指标
 
-指标可以在 Analysis Workspace 中以各种方式使用。 有关如何将量度和其他类型的组件添加到Analysis Workspace的信息，请参阅[在Analysis Workspace中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
+量度可以在 Analysis Workspace 中以各种方式使用。 有关如何将量度和其他类型的组件添加到Analysis Workspace的信息，请参阅[在Analysis Workspace中使用组件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
 
 
 >[!BEGINSHADEBOX]

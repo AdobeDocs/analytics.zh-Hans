@@ -36,8 +36,8 @@ ht-degree: 37%
 | --- | --- | --- | --- |
 | 组件列表区段 | 了解如何[创建区段](/help/components/segmentation/segmentation-workflow/seg-create.md)。 | 您的所有工作区项目 | 对于更复杂的区段、顺序区段 |
 | 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 仅用于项目，但可保存并添加到您的区段列表。 | 可用于临时单规则区段（通过拖放），或添加/编辑多个规则（通过单击“区段”图标） |
-| 基于计算量度的区段 | [计算指标生成器](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | 适用于个别计算指标 | 在您的指标定义中应用区段 |
-| 基于虚拟报表包的区段 | [虚拟报表包生成器](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 适用于个别虚拟报表包 | 在您的虚拟报表包定义中应用区段 |
+| 基于计算量度的区段 | [计算指标生成器](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | 适用于个别计算量度 | 在您的量度定义中应用区段 |
+| 基于虚拟报表包的区段 | [虚拟报表包生成器](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 适用于个别虚拟报告包 | 在您的虚拟报表包定义中应用区段 |
 
 ## 视频
 

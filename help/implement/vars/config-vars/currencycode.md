@@ -53,7 +53,7 @@ ht-degree: 96%
 * [XDM对象](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.currencyCode`
 * [数据对象](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.currencyCode`或`data.__adobe.analytics.cc`
 
-## 使用 Adobe Analytics 扩展程序的货币代码
+## 使用 Adobe Analytics 扩展的货币代码
 
 “货币代码”是在配置 Adobe Analytics 扩展时显示在[!UICONTROL 常规]折叠面板中的一个字段。
 
@@ -69,7 +69,7 @@ ht-degree: 96%
 货币代码通过 Adobe Analytics 扩展中的上下文数据变量传递到 Adobe Experience Platform Mobile SDK。
 
 1. 在 `trackState` 或 `trackAction` 期间在上下文数据变量中设置货币代码。
-1. 在 Adobe Analytics 管理工具中为报表包创建处理规则。 设置规则以覆盖货币代码变量。
+1. 在 Adobe Analytics 管理工具中为报告包创建处理规则。 设置规则以覆盖货币代码变量。
 1. 将货币代码传递给 `trackState` 或 `trackAction` 调用中的 `products` 变量。
 
 您可以使用预设货币代码或自定义货币代码。 如果使用自定义货币代码，请确保该代码有效。

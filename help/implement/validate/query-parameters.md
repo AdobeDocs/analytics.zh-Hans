@@ -51,7 +51,7 @@ ht-degree: 46%
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | 点击中使用的货币类型。 |
 | `cdp` | [`cookieDomainPeriods`](../vars/config-vars/configuration-variables.md#retired-configuration-variables) | **不再使用。** 域中的句点数。 |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | 图像请求的字符编码。 |
-| `cl` | [`cookieLifetime`](../vars/config-vars/cookielifetime.md) | 访客 Cookie 的生命周期。 |
+| `cl` | [`cookieLifetime`](../vars/config-vars/cookielifetime.md) | 访客 Cookie 的存留期。 |
 | `ch` | [`channel`](../vars/page-vars/channel.md) | 在[[!UICONTROL 网站区域]](/help/components/dimensions/site-section.md)维度中使用。 |
 | `cp` | [`customerPerspective`](../vars/page-vars/customerperspective.md) | 指定当应用程序处于前台或后台时是否发生了移动设备应用程序点击。 在[[!UICONTROL 点击类型]](/help/components/dimensions/hit-type.md)维度中使用。 |
 | `ct` | 无 | 在[[!UICONTROL 连接类型]](/help/components/dimensions/connection-type.md)维度中使用。 |
@@ -87,7 +87,7 @@ ht-degree: 46%
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 确定点击类型。 有效值包括`lnk_o` （[[!UICONTROL 自定义链接]](/help/components/dimensions/custom-link.md)）、`lnk_d` （[[!UICONTROL 下载链接]](/help/components/dimensions/download-link.md)）、`lnk_e` （[[!UICONTROL 退出链接]](/help/components/dimensions/exit-link.md)）和`tnt` （Analytics for Target点击）。 |
 | `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | 发生自定义链接的URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | [自定义链接](/help/components/dimensions/custom-link.md)的友好名称。 |
-| `pev3` | 无 | **不再使用。** 在早期版本的视频报告中，用于跟踪里程碑。 |
+| `pev3` | 无 | **不再使用。** 早期版本视频报告中跟踪的里程碑。 |
 | `pf` | 无 | 平台标志；仅供 Adobe 使用。 请勿更改。 |
 | `pid` | 无 | **不再使用。** 最后一页的页面标识符。 在 Activity Map 早期版本中使用。 |
 | `pidt` | 无 | **不再使用。** 最后一页的页面标识符类型。 在 Activity Map 早期版本中使用。 |
@@ -112,5 +112,5 @@ ht-degree: 46%
 | `vmf` | [`visitorMigrationServer`](../vars/config-vars/configuration-variables.md#retired-configuration-variables) | **不再使用。** 从第三方迁移到第一方Cookie期间使用的访客迁移服务器。 |
 | `vmt` | [`visitorMigrationKey`](../vars/config-vars/configuration-variables.md#retired-configuration-variables) | **不再使用。** 访客迁移密钥，帮助将实施从第三方迁移到第一方Cookie。 |
 | `vvp` | 无 | **不再使用。** Data Connectors中使用的变量提供程序。 |
-| `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | 与数据源结合使用，将在线和离线数据绑定在一起。 |
+| `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | 与数据源结合使用，将在线和离线数据关联起来。 |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | 在[邮政编码](/help/components/dimensions/zip-code.md)维度中使用。 |

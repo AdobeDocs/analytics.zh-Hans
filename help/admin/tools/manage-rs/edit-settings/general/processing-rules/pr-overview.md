@@ -1,5 +1,5 @@
 ---
-description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
+description: 处理规则简化了数据收集，并在数据被发送到报告时对内容进行管理。
 subtopic: Processing rules
 title: 处理规则概述
 feature: Processing Rules

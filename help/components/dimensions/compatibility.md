@@ -36,7 +36,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->此列表中删除了自定义变量名称、分类和访客属性。 这些维度项目特定于单个报表包。
+>此列表中省略了自定义变量名称、分类和访客属性。 这些维度项目特定于单个报表包。
 
 ## Analysis Workspace中支持的维度
 
@@ -315,17 +315,17 @@ Adobe Social已停用。
 | Nielsen 区段 B | `nielsensegmentb` |
 | Nielsen 区段 A | `nielsensegmenta` |
 | Nielsen 内容 ID | `nielsencontentid` |
-| Nielsen资产/计划 | `nielsenasset` |
+| Nielsen资产/程序 | `nielsenasset` |
 | Nielsen VCID | `nielsenvcid` |
 | Nielsen 选择退出 | `nielsenoptout` |
 | Nielsen 客户 ID + VCID | `nielsenclientidvcid` |
 | Nielsen 客户 ID | `nielsenclientid` |
 | 登录 Nielsen 选择退出 | `entrynielsenoptout` |
 | 退出 Nielsen 选择退出 | `exitnielsenoptout` |
-| 登录 Nielsen 客户端 ID + VCID | `entrynielsenclientidvcid` |
+| 进入 Nielsen 客户端 ID + VCID | `entrynielsenclientidvcid` |
 | 退出 Nielsen 的客户 ID + VCID | `exitnielsenclientidvcid` |
-| 登录 Nielsen 客户端 ID | `entrynielsenclientid` |
-| 退出 Nielsen 的客户 ID | `exitnielsenclientid` |
+| 进入 Nielsen 客户端 ID | `entrynielsenclientid` |
+| 退出 Nielsen 客户端 ID | `exitnielsenclientid` |
 
 ### Adobe Experience Manager (AEM)
 

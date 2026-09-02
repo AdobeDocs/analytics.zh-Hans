@@ -109,7 +109,7 @@ Adobe Experience Platform 数据收集中没有专门用于设置此变量的字
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此变量在同一点击中支持多个产品。 它对于购物车和包含多种产品的购买非常有用。 整个 `products` 字符串的最大长度为 64K 字节。 在字符串中使用逗号 (`,`) 分隔每个产品。
+此变量支持在同一次点击中包含多个产品。 它对于包含多个产品的购物车和购买很有价值。 整个 `products` 字符串的最大长度为 64K 字节。 在字符串中使用逗号 (`,`) 分隔每个产品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -118,7 +118,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->从产品名称、类别和推销 eVar 值中去除所有分号、逗号和管道字符。 如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。 此错误解析会丢掉产品字符串的其余部分，导致维度和报表中的数据不正确。
+>从产品名称、类别和促销 eVar 值中去除所有分号、逗号和管道字符。 如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。 这种错误的解析会扰乱产品字符串的其余部分，导致维度和报告中的数据不正确。
 
 ## 示例
 

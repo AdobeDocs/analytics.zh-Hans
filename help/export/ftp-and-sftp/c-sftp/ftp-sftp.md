@@ -1,5 +1,5 @@
 ---
-description: SFTP 是一种用于传输数据的安全协议，它可确保除你之外，没有人能看到您的数据。 Adobe 工程技术服务可设置一个 SFTP 帐户，以安全保留您的数据。
+description: SFTP 是一种用于传输数据的安全协议，它可确保除您之外，没有人能看到您的数据。 Adobe 工程技术服务可设置一个 SFTP 帐户，以安全保留您的数据。
 keywords: ftp;sftp
 title: 安全文件传输协议 - 概述
 feature: FTP Export

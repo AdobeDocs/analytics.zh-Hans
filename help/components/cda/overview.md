@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 837
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 54%
 
 通过使用 CDA，您可以回答类似下面的问题：
 
-* 有多少人与我的品牌互动？ 他们使用多少台设备？设备的类型如何？ 这些设备如何进行交叠？
-* 出现下面这种情况的频率是多少：人们先是在移动设备上开启一项任务，随后为了完成该任务而移至桌面 PC？ 登陆一台设备后执行的营销活动点进次数是否会导致转换到其他设备上？
+* 有多少人与我的品牌互动？ 他们使用多少台设备？使用的是哪些类型的设备？ 这些设备如何进行交叠？
+* 出现下面这种情况的频率是多少：人们先是在移动设备上开启一项任务，随后为了完成该任务而移至桌面 PC？ 营销活动点击后落地到某一设备，是否会在其他设备上带来转化？
 * 如果考虑跨设备历程，我对营销活动效用的理解会有怎样的变化？ 我的漏斗分析会有怎样的变化？
 * 用户从一台设备转到另一台设备时最常用的路径是什么？ 他们在哪里退出？ 他们在哪里继续？
 * 使用多台设备的用户，其行为与使用单台设备的用户有何区别？
 
-当设备拼合在一起后，变量持久性会在设备之间传递。 例如，用户首先通过台式计算机上的广告访问了您的网站。 然后，该用户找到并安装了您的移动设备应用程序，而且最终在其移动设备上进行了购买。 对于 Cross-Device Analytics，可将移动设备上的收入归因于用户在其桌面计算机上单击的广告。
+当设备拼合在一起后，变量持久性会在设备之间传递。 例如，用户首先通过台式计算机上的广告访问了您的网站。 然后，该用户找到并安装了您的移动应用程序，而且最终在其移动设备上进行了购买。 借助 Cross-Device Analytics，您可以将移动设备上的收入归因于用户在其桌面计算机上单击的广告。
 
 
 
@@ -69,13 +69,13 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * Cross-Device Analytics 不适用于多个报表包，也无法合并多个报表包的数据。
 * Adobe Analytics 报告包无法映射到多个组织 ID。 由于跨设备分析拼合给定报表包中的设备，因此跨设备分析无法用于拼合多个组织ID之间的数据。
 * 跨设备分析使用复杂的处理管道，并具有多个依赖组件。 此管道与基本Analytics报告工作流并行运行。 预计源报表包和Cross-Device Analytics虚拟报表包之间的点击总数的数据不匹配率约为1%。
-* Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。 例如，它们目前不支持营销渠道变量。 有关具体限制的详细信息，请参阅[虚拟报表包](/help/components/vrs/vrs-about.md)和[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)。
+* Cross-Device Analytics 使用虚拟报告包和报告时处理，二者各有其自身的限制。 例如，它们目前不支持营销渠道变量。 有关具体限制的详细信息，请参阅[虚拟报表包](/help/components/vrs/vrs-about.md)和[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)。
 * 专用图形利用CX Enterprise和Adobe Analytics中的[客户属性](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/customer-attributes/attributes)功能所使用的相同ID同步。 但是，Cross-Device Analytics虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。 换句话说，基于客户属性的维度不可用于Cross-Device Analytics虚拟报表包。
 * Cross-Device Analytics当前与A4T不兼容。
 * 不支持 1.4 API。 Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
 * Adobe对跨设备分析拼合过程的主动监视仅适用于生产报表包。
 * Cross-Device Analytics当前与Adobe Analytics [数据修复API](https://developer.adobe.com/analytics-apis/docs/2.0/)不兼容
-* 虚拟报表包中的历史数据会因 Adobe 识别和拼合的设备而发生变化。 源报表包中的数据不会更改。
-* 拼合的数据遵循 8 到 12 小时的延迟。
+* 虚拟报表包中的历史数据会因 Adobe 识别和拼合的设备而发生变化。 源报告包中的数据不会更改。
+* 拼合的数据有 8 到 12 小时的延迟。
 * 给定设备的映射历史记录数据最长存储 1 年。
 * 如果设备在一年内产生的映射历史记录条目非常多，则映射历史记录将被截断。 确切的限制取决于所使用的拼接选项。

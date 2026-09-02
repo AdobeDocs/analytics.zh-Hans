@@ -30,7 +30,7 @@ ht-degree: 89%
 >
 >仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。 当前的AppMeasurement库或Adobe Experience Platform数据收集不支持这些变量。
 
-`s.dynamicAccountList` 变量可动态确定 `s_account` 的值。 如果将 `dynamicAccountSelection` 设置为 `true`，则会将 `dynamicAccountMatch` 变量与 `dynamicAccountList` 进行比较。 如果找到匹配项，则使用匹配的报表包 ID。
+`s.dynamicAccountList` 变量可动态确定 `s_account` 的值。 如果将 `dynamicAccountSelection` 设置为 `true`，则会将 `dynamicAccountMatch` 变量与 `dynamicAccountList` 进行比较。 如果找到匹配项，则使用匹配的报告包 ID。
 
 ## 语法
 
@@ -42,7 +42,7 @@ s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 
 有效输入是以分号分隔的 rsid 和值对列表。 每个列表都包含以下项目：
 
-* 一个或多个报表包 ID（以逗号分隔）
+* 一个或多个报告包 ID（以逗号分隔）
 * 一个等号
 * 要匹配的一个或多个字符串（以逗号分隔）
 

@@ -33,7 +33,7 @@ ht-degree: 68%
 
 这包括选择报表包并为其配置至多3个报表。
 
-1. 选择您要为其启用实时报表的报表包。
+1. 选择您要为其启用实时报告的报告包。
 
    1. 在Analysis Workspace中，选择&#x200B;[!UICONTROL **Workspace**]&#x200B;选项卡，然后选择&#x200B;[!UICONTROL **报表**] > [!UICONTROL **参与**] > **[!UICONTROL 实时]**。
 
@@ -50,7 +50,7 @@ ht-degree: 68%
    （也可以通过 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员 > 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 实时]**&#x200B;获取。）
 
 1. 打开&#x200B;**[!UICONTROL 启用实时设置]**。
-1. 为至多 3 个表报设置实时数据收集，每个报表具有 1 个量度和 3 个维度或分类。
+1. 为至多 3 个报告设置实时数据收集，每个报告具有 1 个量度和 3 个维度或分类。
 
    ![](assets/real_time_admin.png)
 

@@ -27,7 +27,7 @@ ht-degree: 86%
 
 # pageName
 
-`pageName` 变量通常会存储给定页面的名称。 确定哪些个人页面最受欢迎时，此量度非常有用。 此变量填充[页面](/help/components/dimensions/page.md)维度。
+`pageName` 变量通常会存储给定页面的名称。 这有助于确定哪些单个页面最受欢迎。 此变量填充[页面](/help/components/dimensions/page.md)维度。
 
 如果给定的页面跟踪调用中未定义此变量，则将改用 [`pageURL`](pageurl.md) 变量。
 

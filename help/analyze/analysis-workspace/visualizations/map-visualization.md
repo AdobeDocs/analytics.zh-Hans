@@ -95,8 +95,8 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 
    | 来源 | 描述 |
    | --- | --- |
-   | **[!UICONTROL 移动设备经纬度]** | 此选项表示移动应用程序数据。 只有在通过 [!UICONTROL Analytics] > [!UICONTROL 管理员] > [!UICONTROL 报告包] >（选择报告包）> [!UICONTROL 编辑设置] > [!UICONTROL 移动设备管理] > [!UICONTROL 启用位置跟踪]为报告包启用该设置时，才会看到此选项。 这个设置是默认的（如果已启用位置跟踪）。 |
-   | **[!UICONTROL 地理维度]** | 此选项表示有关访客位置（基于访客的 IP 地址）的按地理位置分段的数据。 此数据将被转换为[!UICONTROL 国家]、[!UICONTROL 地区]和[!UICONTROL 城市]。 请注意，它不会转到 DMA 或邮政编码级别。 几乎所有报告包都启用了此维度。 如果您的报告包还没有启用此维度，请联系 Adobe 客户关怀以启用地理报告。 |
+   | **[!UICONTROL 移动设备经纬度]** | 此选项表示移动应用程序数据。 只有在通过 [!UICONTROL Analytics] > [!UICONTROL 管理员] > [!UICONTROL 报告包] >（选择报告包）> [!UICONTROL 编辑设置] > [!UICONTROL 移动设备管理] > [!UICONTROL 启用位置跟踪]为报告包启用该设置时，才会看到此选项。 这是默认设置（如果已启用位置跟踪）。 |
+   | **[!UICONTROL 地理维度]** | 此选项表示有关访客位置（基于访客的 IP 地址）的按地理位置分段的数据。 此数据将被转换为[!UICONTROL 国家]、[!UICONTROL 地区]和[!UICONTROL 城市]。 请注意，它不会细化到 DMA 或邮政编码级别。 几乎所有报告包都启用了此维度。 如果您的报告包还没有启用此维度，请联系 Adobe 客户关怀以启用地理报告。 |
 
 1. 选择&#x200B;**[!UICONTROL 生成]**。
 
@@ -119,7 +119,7 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
    * **使用下面描述的[设置](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)将**&#x200B;切换为其他视图，例如热图。 请注意，气泡视图是默认设置。
 
 1. **保存**&#x200B;项目以保存所有地图设置（坐标、缩放、旋转）。
-1. 通过从左边栏拖入位置维度和量度，填充可视化图表下方的自由格式表。
+1. 可视化图表下方的自由格式表可通过从左边栏拖入位置维度和量度来填充。
 
 
 
@@ -141,7 +141,7 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 | [!UICONTROL 颜色主题] | 显示热图和气泡的颜色方案。 你可以选择珊瑚色、红色、绿色或蓝色。 默认为珊瑚色。 |
 | [!UICONTROL 地图样式] | 您可以从基本、街道、明亮、浅色、深色和卫星中选择。 |
 | **[!UICONTROL 群集半径]** | 将像素数量在指定范围之内的数据点组合在一起。 默认值为 50。 |
-| **[!UICONTROL 自定义最大值]** | 允许您更改地图最大值的阈值 — 调整该值即会调整气泡/热图值（颜色和大小）相对于自定义最大值设置的缩放比例。 |
+| **[!UICONTROL 自定义最大值]** | 允许您更改地图最大值的阈值 — 调整该值即会调整气泡/热图值（颜色和大小）相对于所设置的自定义最大值的缩放比例。 |
 
 <!--
 ## Build a time-parting heatmap

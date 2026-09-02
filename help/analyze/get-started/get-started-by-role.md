@@ -106,12 +106,12 @@ Analytics 管理员应先完成以下任务，然后再向组织中的用户提�
 |---------|----------|---------|
 | 定义管理员角色 | Adobe Analytics 支持各种类型的管理员 | [Adobe Analytics 中的管理员角色](/help/admin/admin-console/admin-roles-in-analytics.md) |
 | 定义权限 | Analytics 管理员需要在 Adobe Analytics、报告包工具和分析工具的 Admin Console 中分配产品轮廓。 | [Admin Console 中的 Analytics 权限](/help/admin/admin-console/permissions/analytics-tools.md) |
-| 设置报告包并为您的公司定义设置 | 报告包是一种数据存储库，Adobe Analytics 使用报告包生成报表。<p>管理员还可以设置[虚拟报告包](/help/components/vrs/vrs-about.md)进一步细分数据。</p> | <ul><li>[创建报告包](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)</li><li>[公司设置概述](/help/admin/tools/company/c-company-settings.md)</li></ul> |
+| 设置报告包并为您的公司定义设置 | 报告包是 Adobe Analytics 用于生成报告的数据存储库。<p>管理员还可以设置[虚拟报告包](/help/components/vrs/vrs-about.md)进一步细分数据。</p> | <ul><li>[创建报告包](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)</li><li>[公司设置概述](/help/admin/tools/company/c-company-settings.md)</li></ul> |
 | 导入数据 | Adobe Analytics 数据源允许您导入其他在线或离线数据以便进行报告。 | [数据源概述](/help/import/data-sources/overview.md) |
 | 使用“分类”对数据进行分类 | “分类”允许您对数据进行分类，以更好地利用变量，从而将更多内容包含到单个变量中。 | [分类概述](/help/components/classifications/classifications-overview.md) |
 | 管理组件 | 使用“数据字典”和每个组件类型的管理区域来定义哪些组件在您的 Analytics 实施中可用，以及哪些组件已批准供您的组织使用。<p>这应该是一项持续的活动，以确保组件在您的组织中得到有效使用。 </p> | <ul><li>[数据词典概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[计算量度管理器](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[管理区段](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
-| 异常检测 | “异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 | [异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| 贡献分析 | “贡献分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。 | [贡献分析概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
+| 异常检测 | 异常检测提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 | [异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
+| 贡献分析 | “贡献度分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。 | [贡献分析概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Analytics 分段 | 允许您使用Analytics功能、Adobe CX Enterprise、Adobe Target和其他集成的Adobe产品构建、管理、共享强大而集中的受众区段，并将其应用于您的报表。 | [Analytics 分段](/help/components/segmentation/seg-home.md) |
 | 将受众发布到 Audience Manager | Adobe Audience Manager 是一个强大的数据管理平台，它帮助您从第一方、第二方（合作伙伴）和第三方的数据集成构建独特的受众轮廓。 | [Audience Analytics 概述](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
 | 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview">流媒体服务</a></li> | [Analytics 集成](/help/integrate/home.md) |
@@ -127,7 +127,7 @@ Analytics 管理员应了解以下可用于帮助监控 Analytics 环境的重�
 | 任务 | 有可能的使用 | 更多信息 |
 |---------|----------|---------|
 | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报告包的报告容量。 它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
-| 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。 提供了“服务器调用使用情况”功能板，来跟踪服务器调用使用情况数据，并将其与合同中的使用限制进行比较。 可以设置警报以防止超额情况。 | [服务器调用使用情况概述](/help/admin/tools/server-call-usage/overage-overview.md) |
+| 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，是指将数据发送到 Adobe 服务器进行处理的一种情况。 提供了“服务器调用使用情况”功能板，来跟踪服务器调用使用情况数据，并将其与合同中的使用限制进行比较。 可以设置警报以防止超额情况。 | [服务器调用使用情况概述](/help/admin/tools/server-call-usage/overage-overview.md) |
 | 日志文件 | 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报告包，以及管理员执行的更改。 | [日志](/help/admin/tools/logs.md) |
 
 {style="table-layout:auto"}
@@ -140,14 +140,14 @@ Analytics 管理员应了解以下可用于帮助监控 Analytics 环境的重�
 
 | 功能 | 有可能的使用 | 更多信息 |
 |---------|----------|---------|
-| 在 Analysis Workspace 中构建和共享项目 | Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让您快速构建和共享洞察。 您可以使用拖放界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集、与组织中的任何人共享项目并设置共享频率与时间。<p>数据分析师通常负责在 Analysis Workspace 中为其组织内的用户创建项目。</p><p>创建项目后，分析师将这些项目共享给[终端用户](#end-users)（非分析师），在其组织中请求数据并帮助他们了解如何解释数据。</p> | <ul><li>[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
-| 归因 | 分析师可以通过在 Analysis Workspace 中采用各种归因模型和回溯 Windows，自定义维度项目如何获得成功事件的功劳。<p>线性归因模型对导致转化的每个接触点给予同等的功劳，而首次接触则对第一个接触点给予全部功劳。 还有许多其他归因模型可用，包括算法模型，该模型使用统计技术来动态确定信用的最佳分配。 </p> | [归因模型和回顾时间范围](/help/analyze/analysis-workspace/attribution/models.md) |
+| 在 Analysis Workspace 中构建和共享项目 | Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让您快速构建分析并共享洞察。 您可以使用拖放界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集、与组织中的任何人共享项目并设置共享频率与时间。<p>数据分析师通常负责在 Analysis Workspace 中为其组织内的用户创建项目。</p><p>创建项目后，分析师将这些项目共享给[终端用户](#end-users)（非分析师），在其组织中请求数据并帮助他们了解如何解释数据。</p> | <ul><li>[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
+| 归因 | 分析师可以通过在 Analysis Workspace 中采用各种归因模型和回溯窗口，自定义维度项目如何因成功事件而获得归因。<p>线性归因对促成转化的每个接触点给予同等的归因，而首次接触则将全部归因给予第一个接触点。 还有许多其他归因模型可用，包括算法模型，该模型使用统计技术来动态确定积分的最佳分配。 </p> | [归因模型和回顾时间范围](/help/analyze/analysis-workspace/attribution/models.md) |
 | 异常检测 | Analysis Workspace 中的统计建模通过分析指标并确定值的下限、上限和预期范围，自动发现数据中的意外趋势。 如果发生意外的尖峰或低谷，系统会在报表中进行警报。 | [异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | 贡献分析 | 使用 Analysis Workspace 发现数据中隐藏的模式，以解释统计异常并识别意外客户行为、越界值以及跨受众区段量度的突增或突减背后存在的关联。 | [异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)中的[贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| 警报 | 基于数据异常和在单个警报中捕获多个量度的“堆叠”警报创建和管理警报。 | [警报概述](/help/components/alerts/alerts-overview.md) |
+| 警报 | 根据数据异常创建和管理警报，以及可在单个警报中捕获多个量度的“堆叠”警报。 | [警报概述](/help/components/alerts/alerts-overview.md) |
 | 数据导出 | Data Warehouse 和“数据馈送”允许您将数据导出到各种云目的地，例如 Google 云平台、Azure RBAC、Azure SAS 和 Amazon S3。 | [Analytics 导出指南](/help/export/home.md) |
-| Activity Map | Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。<p>Activity Map 让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
-| Report Builder | Report Builder 是 Microsoft Excel 的加载项。 通过 Report Builder，您可从插入 Excel 工作表的 Adobe Analytics 数据构建自定义的请求。 请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder](/help/analyze/report-builder/rb-overview.md) |
+| Activity Map | Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析仪表板，以监控受众在您网页上的参与度。<p>Activity Map 让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
+| Report Builder | Report Builder 是 Microsoft Excel 的加载项。 通过 Report Builder，您可以根据 Adobe Analytics 数据构建自定义请求，并将其插入 Excel 工作表中。 请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder](/help/analyze/report-builder/rb-overview.md) |
 
 <!-- * Realtime reporting? -->
 
@@ -175,7 +175,7 @@ Analytics 管理员应了解以下可用于帮助监控 Analytics 环境的重�
 
 如[与分析师合作](#work-with-analysts)中所述，有些用户可能会发现与数据分析师合作在 Analysis Workspace 中设置项目并解释如何解释数据很有帮助；其他用户可能会轻松构建项目并自行解释数据。
 
-利用 Analysis Workspace，可以快速生成分析以收集洞察，然后与其他人共享这些洞察。 可以使用拖放浏览器界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集以及与您选定的任何人员共享和安排项目。
+利用 Analysis Workspace，可以快速生成分析以收集洞察，然后与其他人共享这些洞察。 可以使用拖放浏览器界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集，以及与您选定的任何人员共享项目并为项目设置计划。
 
 有关如何在 Analysis Workspace 中创建分析的信息，请参阅 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)。
 

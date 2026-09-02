@@ -68,9 +68,9 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 
 | 分类 | 描述 |
 | --- | --- |
-| [!UICONTROL 投放 ID] | 您在营销活动中看到的内部投放名称 |
-| [!UICONTROL 投放标签] | 营销活动中的投放 — 个别投放/定期投放/交易投放 |
-| [!UICONTROL 营销活动 ID] | 您在营销活动中看到的内部营销活动名称 |
+| [!UICONTROL 投放 ID] | 您在 Campaign 中看到的内部投放名称 |
+| [!UICONTROL 投放标签] | Campaign 中的投放 — 个别投放/定期投放/交易投放 |
+| [!UICONTROL 营销活动 ID] | 您在 Campaign 中看到的内部营销活动名称 |
 | [!UICONTROL 营销活动标签] | Adobe Campaign 中的营销活动 |
 | [!UICONTROL 执行的投放标签] | 个别执行的投放的列表 |
 
@@ -94,7 +94,7 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 | --- | --- |
 | 营销活动 ID | 持续期间已为其发送KPI的所有营销活动的ID |
 | 营销活动标签 | 营销活动 ID 的标签 |
-| 投放 ID | 持续期间已为其发送KPI的所有投放的ID。 还包括定期投放和交易投放的主投放ID。 示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。  投放 ID 将显示从 DM1 到 DM5 的所有提交的结果。 |
+| 投放 ID | 持续期间已为其发送KPI的所有投放的ID。 还包括定期投放和交易投放的主投放ID。 示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。  投放 ID 将显示从 DM1 到 DM5 的所有投放的结果。 |
 | 投放标签 | 投放 ID 的标签 |
-| 执行的投放 ID | 仅已执行投放的ID。 没有循环/事务性主投放的ID。 示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。 执行的投放 ID 显示从 DM2 到 DM5 的所有提交（即已实际执行的提交）的结果。 |
+| 执行的投放 ID | 仅已执行投放的ID。 没有循环/事务性主投放的ID。 示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。 执行的投放 ID 显示从 DM2 到 DM5 的所有投放（即已实际执行的投放）的结果。 |
 | 执行的投放标签 | 执行的投放 ID 的标签 |

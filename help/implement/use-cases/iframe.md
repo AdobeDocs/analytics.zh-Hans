@@ -1,6 +1,6 @@
 ---
 title: 将 AppMeasurement 与 iframe 一起使用
-description: 访问 iframe 中的 Adobe Analytics 变量或者在 iframe 中时访问父页面
+description: 访问 iframe 中的 Adobe Analytics 变量，或者在 iframe 中时访问父页面上的 Adobe Analytics 变量。
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 role: Admin, Developer, Leader

@@ -33,7 +33,7 @@ Adobe Analytics 使用高熵客户端提示来改进设备和浏览器识别。 
 
 高熵客户端提示是 Web SDK 中的上下文类别的一部分。 有关更多详细信息，请参阅[配置 Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans)。
 
-## 使用 Adobe Analytics Extension 收集高熵提示
+## 使用 Adobe Analytics 扩展收集高熵提示
 
 **[!UICONTROL 收集高熵用户代理提示]**&#x200B;是配置 Adobe Analytics Extension 时“常规”折叠面板下的复选框。
 

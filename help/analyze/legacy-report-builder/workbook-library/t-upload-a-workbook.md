@@ -28,7 +28,7 @@ ht-degree: 41%
 
 {{legacy-arb}}
 
-上载要共享的 Report Builder Excel 工作簿。
+上传要共享的 Report Builder Excel 工作簿。
 
 [!UICONTROL 工作簿库]允许您上载要共享的Report Builder Excel工作簿。 您还可以下载并编辑共享的工作簿。 从ExcelClient迁移到Report Builder时，建议您从ExcelClient存储库下载工作簿，然后将其上载到Report Builder存储库。
 

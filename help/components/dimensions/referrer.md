@@ -34,16 +34,16 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)，才能使用此维度。 无法配置内部 URL 过滤器，可能会包含内部 URL 或阻止出现外部 URL。
+>必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)，才能使用此维度。 未配置内部 URL 过滤器可能会包含内部 URL，或导致外部 URL 不显示。
 
 同一报表在 Analysis Workspace 和 Data Warehouse 中可能会显示不同的结果。 Analysis Workspace 会报告每个页面的反向链接，但不包括与内部 URL 过滤器匹配的值。 Data Warehouse 则仅报告访问的第一个反向链接，并且会忽略内部 URL 过滤器。
 
 ## 使用数据填充此维度
 
-此维度需要在 Analytics 界面中进行配置，并获取图像请求中的数据。
+此维度需要在 Analytics 界面中进行配置，并且需要图像请求中的数据。
 
 * 在实施中，此维度从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 AppMeasurement 使用浏览器中的 JavaScript 变量 `document.referrer` 收集此数据。 您可以使用 [`referrer`](/help/implement/vars/page-vars/referrer.md) 变量覆盖来手动进行设置。 如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在图像请求中包含 `r` 查询字符串参数。
-* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 无法配置内部 URL 过滤器，可能会包含内部 URL 或阻止出现外部 URL。
+* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 未配置内部 URL 过滤器可能会包含内部 URL，或阻止外部 URL 显示。
 
 ## 维度项目
 

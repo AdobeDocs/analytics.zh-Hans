@@ -29,7 +29,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->此维度只能在 Data warehouse 中使用。 如果您要在其他 Analytics 解决方案中使用 URL 维度，请考虑在每次点击时将该值复制到 [eVar](evar.md) 中。
+>此维度只能在 Data Warehouse 中使用。 如果您要在其他 Analytics 解决方案中使用 URL 维度，请考虑在每次点击时将该值复制到 [eVar](evar.md) 中。
 
 ## 使用数据填充此维度
 

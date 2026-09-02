@@ -26,7 +26,7 @@ ht-degree: 56%
 
 # 比较实施方法
 
-了解每种实施 Adobe Analytics 的方法的比较情况。 您可以使用这些表来帮助您的组织确定将数据发送到Adobe的最理想方式。 单击每一列以了解更多具体信息。
+了解实施 Adobe Analytics 的各种方法之间的比较情况。 您可以使用这些表来帮助您的组织确定将数据发送到Adobe的最理想方式。 单击每一列以了解更多具体信息。
 
 ## Web
 
@@ -52,7 +52,7 @@ ht-degree: 56%
 | 实施要求 | 在应用程序中引用标记加载器，然后使用数据收集UI中的直接API调用或规则来构建XDM对象，并使用Edge Network将所需数据发送到Adobe Analytics | 使用Edge Network API构建XDM对象，并使用Edge Network将所需数据发送到Adobe Analytics |
 | 数据目标 | 发送到 Adobe Experience Platform Edge，后者会将数据转发到 Adobe Analytics | 发送到 Adobe Experience Platform Edge，后者会将数据转发到 Adobe Analytics |
 | 难以进行实施调整 | 更改从中进行直接API调用的应用程序代码，或更改数据收集UI | 每次实施更改都需要访问应用程序代码 |
-| 如何处理 A4T | A4T 调用作为单独的点击发送 | A4T 调用作为单独的点击发送 |
+| 如何处理 A4T | A4T 调用作为单独的点击量发送 | A4T 调用作为单独的点击发送 |
 | 上下文数据 | 作为 `a.x.*` 上下文数据变量自动发送所有未映射的字段。 | 所有未映射的字段都会作为`a.x.*`上下文数据变量自动发送 |
 
 {style="table-layout:auto"}

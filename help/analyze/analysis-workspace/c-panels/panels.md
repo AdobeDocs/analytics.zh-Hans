@@ -27,8 +27,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2858
-ht-degree: 40%
+source-wordcount: 2861
+ht-degree: 41%
 
 ---
 
@@ -47,7 +47,7 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 | [Analytics for Target](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活动和体验。 |
 | [自由格式表](freeform-panel.md) | 执行无限制的比较和细分，然后通过添加可视化图表来讲述丰富的数据故事。 |
 | [媒体平均分钟观众数](average-minute-audience-panel.md) | 分析一条特定内容或自定义时间段的平均分钟观众数。 |
-| [媒体并行观众](media-concurrent-viewers.md) | 分析一段时间内的并发查看者，了解有关并发峰值的详细信息，并且可以进行细分和比较。 |
+| [媒体并行观众](media-concurrent-viewers.md) | 分析一段时间内的并发查看者，了解有关并发峰值的详细信息，并且可以进行划分和比较。 |
 | [媒体播放耗时](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | 分析播放耗时以了解发生并发高峰或发生播放量下降的位置。 |
 | [下一项或上一项](next-previous.md) | 显示人们访问的下一个或上一个页面。 |
 | [快速洞察](quickinsight.md) | 快速构建自由格式表和随附的可视化图表，以便更快地分析和发现洞察。 |
@@ -114,7 +114,7 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 
 每个面板都与一个[报告包](/help/admin/tools/manage-rs/report-suites-admin.md)相关联，通过面板右上角下拉菜单中&#x200B;**[!UICONTROL *报告包&#x200B;*]**&#x200B;的![数据](/help/assets/icons/Data.svg)名称进行标识。
 
-当您创建新面板时，默认报告包基于您上次在 Analysis Workspace 项目中处理的面板报告包。
+当您创建新面板时，默认报告包基于您上次在 Analysis Workspace 项目中处理的面板的报告包。
 
 在项目中，您可以根据分析用例，使用一个或[多个报告包](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md)。
 
@@ -158,12 +158,12 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 
      您可以选择括号中的文本（例如&#x200B;**[!UICONTROL 固定开始 — 每日滚动]**）以扩展面板并指定&#x200B;**[!UICONTROL 开始]**&#x200B;和&#x200B;**[!UICONTROL 结束]**&#x200B;的详细信息。
 
-      1. 选择&#x200B;**[!UICONTROL 开始]**、**[!UICONTROL 结束]**&#x200B;或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。 例如：**&#x200B;** **[!UICONTROL 当前年份的结束]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 为表达式的每个部分选择适当的值。
-         * 选择当前时间的值。 例如，**[!UICONTROL 当前年份]**。
-         * 选择一个值进行额外的计算。 例如，**[!UICONTROL 加上]**。
-         * 当您指定了额外的计算时，请指定一个值。 例如，`1`。
-         * 当您指定了额外的计算时，请选择用于该计算的时段。 例如&#x200B;**[!UICONTROL 天]**。
+     1. 选择&#x200B;**[!UICONTROL 开始]**、**[!UICONTROL 结束]**&#x200B;或&#x200B;**[!UICONTROL 固定日期]**。
+     1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。 例如：**&#x200B;** **[!UICONTROL 当前年份的结束]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 为表达式的每个部分选择适当的值。
+        * 选择当前时间的值。 例如，**[!UICONTROL 当前年份]**。
+        * 选择一个值进行额外的计算。 例如，**[!UICONTROL 加上]**。
+        * 当您指定了额外的计算时，请指定一个值。 例如，`1`。
+        * 当您指定了额外的计算时，请选择用于该计算的时段。 例如&#x200B;**[!UICONTROL 天]**。
 
      选择&#x200B;**[!UICONTROL 隐藏详细信息]**，以隐藏计算滚动日期的详细信息。
 
@@ -195,14 +195,14 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
    ![添加或替换到放置区域](assets/add-or-replace-to-drop-zone.png)
 
    * 删除所选内容以创建以下组件：
-      * 您放置❷的任何区段组件的[区段](#segment)。
-      * [您放置了❸的任何非区段组件（日期范围、量度、维度、维度项）的快速区段](#quick-segment)。
+     * 您放置❷的任何区段组件的[区段](#segment)。
+     * [您放置了❸的任何非区段组件（日期范围、量度、维度、维度项）的快速区段](#quick-segment)。
    * 按住&#x200B;**键并⇧(Shift)以创建以下组件时，拖放选项**：
-      * 静态区段[下拉菜单](#drop-down-menu)包含要筛选的项，用于您放置❹的选定区段。
-      * 静态区段[下拉菜单](#drop-down-menu)，其中包含要筛选的项，用于您放置❺的选定日期范围。
-      * 静态区段[下拉菜单](#drop-down-menu)，其中包含要筛选您放置❻的选定量度的项目。
-      * 静态区段[下拉菜单](#drop-down-menu)或划分[下拉菜单](#drop-down-menu)，其中包含要筛选或划分的项，用于您放置❼的所选维度&#x200B;*项*。
-      * 对于您放置❽的选定维度，动态区段[下拉菜单](#drop-down-menu)或划分[下拉菜单](#drop-down-menu)包含要过滤或划分的项。
+     * 静态区段[下拉菜单](#drop-down-menu)包含要筛选的项，用于您放置❹的选定区段。
+     * 静态区段[下拉菜单](#drop-down-menu)，其中包含要筛选的项，用于您放置❺的选定日期范围。
+     * 静态区段[下拉菜单](#drop-down-menu)，其中包含要筛选您放置❻的选定量度的项目。
+     * 静态区段[下拉菜单](#drop-down-menu)或划分[下拉菜单](#drop-down-menu)，其中包含要筛选或划分的项，用于您放置❼的所选维度&#x200B;*项*。
+     * 对于您放置❽的选定维度，动态区段[下拉菜单](#drop-down-menu)或划分[下拉菜单](#drop-down-menu)包含要过滤或划分的项。
 
 
 ### 区段
@@ -320,7 +320,7 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 
 ## 上下文菜单
 
-面板的其他功能可以通过面板标题上的上下文菜单（右键单击）获得。
+面板的其他功能可通过面板标题上的上下文菜单（右键单击）使用。
 
 ![The right-click options for a panel header.](assets/right-click-menu.png)
 
@@ -328,7 +328,7 @@ Analysis Workspace 中为 [!UICONTROL Adobe Analytics] 提供了以下面板类�
 
 | 选项 | 描述 |
 | --- | --- |
-| **[!UICONTROL 插入复制的面板]** | 使用此功能，您可以将复制的面板粘贴到项目中的其他位置或不同的项目中。 |
+| **[!UICONTROL 插入复制的面板]** | 您可以将复制的面板粘贴到项目中的其他位置或不同的项目中。 |
 | **[!UICONTROL 插入复制的可视化图表]** | 将复制的可视化图表粘贴到面板、项目中的其他位置或不同的项目中。 |
 | **[!UICONTROL 将报告包应用于所有面板]** | 将此面板的报表包应用于项目中的所有其他面板。 |
 | **[!UICONTROL 复制面板]** | 复制面板，以将其插入到项目中的其他位置或不同的项目中。 |

@@ -27,7 +27,7 @@ ht-degree: 63%
 
 # cookieLifetime
 
-由 AppMeasurement 设置的 Cookie 通常有 2 年期限。 使用 `cookieLifetime` 变量可覆盖由 AppMeasurement 设置的 Cookie 的过期日期。
+由 AppMeasurement 设置的 Cookie 通常会在 2 年后过期。 使用 `cookieLifetime` 变量可覆盖由 AppMeasurement 设置的 Cookie 的过期日期。
 
 >[!NOTE]
 >

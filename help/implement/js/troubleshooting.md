@@ -54,7 +54,7 @@ ht-degree: 89%
 
 ## 引用 Analytics 对象
 
-发送到 Adobe 的所有变量都会使用 Analytics 对象。 大多数实施都使用 `s` 对象。 确在引用变量时将 Analytics 对象包含在引用中。
+发送到 Adobe 的所有变量都会使用 Analytics 对象。 大多数实施都使用 `s` 对象。 确保在引用变量时将 Analytics 对象包含在引用中。
 
 例如，`s.eVar1 = 'Value'` 有效，但 `eVar1 = 'Value'` 无效。
 
@@ -87,7 +87,7 @@ ht-degree: 89%
 </body>
 ```
 
-在本例中，`document.title` 中填充了 `s.pageName` 变量，该变量将收到值“Home Page”。 但是，有些浏览器可能会按不同方式解读空格。 因此，可能会产生如以下两个示例所示的不同结果：
+在本例中，`document.title` 中填充了 `s.pageName` 变量，该变量将收到值“Home Page”。 但是，有些浏览器可能会按不同方式解读空格。 结果可能是以下两个示例中的任意一个：
 
 ```js
 s.pageName = "Home Page";
@@ -97,7 +97,7 @@ s.pageName = "Home Page";
 s.pageName = "        Home Page";
 ```
 
-在 Adobe Analytics 中，这两个变量值会被视为不同的值。 但是，出于显示目的，系统会自动删除空格。 因此，生成的报表中会显示两个看似相同的“Home Page”行项。 确保变量值中所需值的前后都不包含空格。
+在 Adobe Analytics 中，这两个变量值会被视为不同的值。 但是，出于显示目的，系统会自动删除空格。 因此，生成的报告中会显示两个看似相同的“主页”行项。 确保变量值中所需值的前后都不包含空格。
 
 ## 截断的图像请求
 
@@ -107,9 +107,9 @@ s.pageName = "        Home Page";
 * **使用处理规则**：[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)可以将值从一个变量复制到另一个变量。 此方法可使您省去在多个变量中设置相同值的麻烦。 例如：
 
   始终执行：<br>
-使用eVar1覆盖prop1的值<br>
-使用eVar1覆盖eVar2的值<br>
-使用eVar1<br>覆盖prop2的值
+  使用eVar1覆盖prop1的值<br>
+  使用eVar1覆盖eVar2的值<br>
+  使用eVar1<br>覆盖prop2的值
 
   然后在实施中设置 eVar1：
 

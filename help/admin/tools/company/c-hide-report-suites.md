@@ -1,5 +1,5 @@
 ---
-description: 用于在 Adobe Analytics 用户界面中隐藏报表包。
+description: 用于在 Adobe Analytics 用户界面中隐藏报告包。
 keywords: 删除报表包
 title: 隐藏报表包
 feature: Company Settings
@@ -26,7 +26,7 @@ ht-degree: 57%
 
 # 隐藏报表包
 
-用于在 Adobe Analytics 用户界面中隐藏报表包。
+用于在 Adobe Analytics 用户界面中隐藏报告包。
 
 如果您不希望某个报表包再对您和您的用户可用，则可以将其从视图中隐藏。 您可能希望隐藏报表包的可能原因包括：实施更改或某人错误地创建报表包。
 
@@ -34,7 +34,7 @@ ht-degree: 57%
 
 >[!IMPORTANT]
 >
->会继续收集和处理从网站发送至隐藏报表包的数据，且需要付费。 换句话说，报表包从来不会被完全删除。
+>从您的网站发送到隐藏报告包的数据将继续被收集、处理和计费。 换句话说，报表包从来不会被完全删除。
 
 要隐藏报表包，请转到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 隐藏报表包]**。 选中报表包名称左边的&#x200B;**[!UICONTROL 隐藏]**&#x200B;复选框。
 

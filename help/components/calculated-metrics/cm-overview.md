@@ -22,14 +22,14 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: 328
 ht-degree: 75%
 
 ---
 
 # 计算量度概述
 
-您可以基于现有量度创建的计算量度和自定义量度。
+计算量度是您可以基于现有量度创建的自定义量度。
 
 计算量度是可以基于现有量度创建的自定义量度。 计算量度提供了一种灵活的方式来构建、管理和策划自定义量度，使您无需更改实施方案即可分析数据。
 

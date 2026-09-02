@@ -28,7 +28,7 @@ ht-degree: 78%
 
 # 客户端提示概述和常见问题解答
 
-客户端提示是单独的关于用户设备的信息。 它们由 Chromium 浏览器提供，例如 Google Chrome 和 Microsoft Edge。 对于这些浏览器，客户端提示将逐渐取代 User-Agent 作为设备信息的来源。 Adobe Analytics 将更新其设备查找过程，以使它在 User-Agent 之外使用客户端提示确定设备信息。
+客户端提示是有关用户设备的各项独立信息。 它们由 Chromium 浏览器提供，例如 Google Chrome 和 Microsoft Edge。 对于这些浏览器，客户端提示将逐渐取代 User-Agent 作为设备信息的来源。 Adobe Analytics 将更新其设备查找过程，以使它在 User-Agent 之外使用客户端提示确定设备信息。
 
 ## 低熵和高熵客户端提示
 
@@ -72,12 +72,12 @@ Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您
 
 +++**各种客户端提示值表示什么？**
 
-下表对截至 2022 年 10 月的客户提示进行了说明。
+下表对截至 2022 年 10 月的客户端提示进行了说明。
 
 | 提示 | 描述 | 高熵或低熵 | 示例 |
 | --- | --- | --- | --- |
 | Sec-CH-UA | 浏览器和重要版本 | 低 | `"Google Chrome 84"` |
-| Sec-CH-UA-Mobile | 移动设备类型（true 或 false） | 低 | `true` |
+| Sec-CH-UA-Mobile | 移动设备（真或假） | 低 | `true` |
 | Sec-CH-UA-Platform | 操作系统/平台 | 低 | `"Android"` |
 | 体系结构 | 网站架构 | 高 | `"arm"` |
 | 位数 | 架构位 | 高 | `"64"` |
@@ -85,7 +85,7 @@ Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您
 | 模型 | 设备型号 | 高 | `"Pixel 3"` |
 | 平台版本 | 操作系统/平台版本 | 高 | `"10"` |
 
-* 通过请求头收集底熵提示。
+* 通过请求标头收集低熵提示。
 * 高熵提示通过 JavaScript 收集并通过查询字符串参数值传递。 查询字符串参数使用`h.`作为图像请求中的前缀。 请注意，当前不收集fullVersionList，因为浏览器主版本被捕获为低熵提示。
 
 高熵提示通过 JavaScript 调用收集并通过查询参数传递
@@ -134,7 +134,7 @@ Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您
 
 +++**Adobe 将如何使用客户端提示获取设备信息？**
 
-Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和用户代理程序来派生设备信息。
+Adobe 使用第三方 Device Atlas，后者将同时使用客户端提示和 User-Agent 来派生设备信息。
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-description: 可以将加盖时间戳和未加盖时间戳的数据合并到单个报表包中。
+description: 可以将加盖时间戳和未加盖时间戳的数据合并到单个报告包中。
 title: 时间戳配置
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941

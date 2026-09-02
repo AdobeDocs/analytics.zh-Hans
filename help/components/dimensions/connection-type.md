@@ -32,7 +32,7 @@ ht-degree: 94%
 此维度使用[`ct`查询字符串](/help/implement/validate/query-parameters.md)和 Adobe 服务器端逻辑的组合。 Adobe 使用以下规则来确定其值：
 
 1. 如果 `ct` 查询字符串等于 `"modem"`，则将维度项设置为 `"Modem"`。 AppMeasurement 仅在不受支持的 Internet Explorer 浏览器上收集这些数据，因此该维度项并不常见。
-1. 检查点击的 IP 地址，并将它引用到 Adobe 内部的查找表中。 如果 IP 地址来自移动运营商，则将维度项设置为 `"Mobile Carrier"`。
+1. 检查点击的 IP 地址，并将其与 Adobe 内部的查找表进行比对。 如果 IP 地址来自移动运营商，则将维度项设置为 `"Mobile Carrier"`。
 1. 如果 `ct` 查询字符串等于 `"lan"`，则将维度项设置为 `"LAN/Wifi"`。
 1. 如果点击源自[数据源](/help/import/data-sources/overview.md)或被视为特殊类型的点击，则将维度项设置为 `"Not specified"`。
 1. 如果不满足上述规则，则默认为值 `"LAN/Wifi"`。

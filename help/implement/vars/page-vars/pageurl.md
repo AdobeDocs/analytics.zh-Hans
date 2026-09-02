@@ -44,7 +44,7 @@ AppMeasurement 会在每次点击时自动收集页面 URL。 如果要覆盖由
 
 ## 使用Adobe Analytics扩展的“页面URL”
 
-Adobe Experience Platform数据收集中的Analytics扩展会自动填充页面URL。 但是，您可以在配置 Analytics 扩展时（全局变量）或根据规则设置页面 URL 覆盖。
+Adobe Experience Platform数据收集中的Analytics扩展会自动填充页面URL。 但是，您可以在配置 Analytics 扩展时（全局变量）或在规则下设置页面 URL 覆盖。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。

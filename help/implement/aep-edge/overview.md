@@ -37,7 +37,7 @@ Adobe Experience Platform Edge Network 允许您将发送到多个产品的数�
 
 ## `xdm` 对象
 
-符合您基于 [XDM](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)（体验数据模型）创建的架构。 XDM 可让您灵活地将字段定义为事件的一部分。 如果要使用 Adobe Analytics 特有的预定义架构，可将 [Adobe Analytics ExperienceEvent 架构字段组](https://experienceleague.adobe.com/cn/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)添加到您的架构中。 添加后，您就可以使用 Web SDK 中的 `xdm` 对象填充这个架构，以将数据发送到报告包。 数据到达 Edge Network 后，会将 XDM 对象转换为 Adobe Analytics 可以理解的格式。
+符合您基于 [XDM](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)（体验数据模型）创建的架构。 XDM 让您能够灵活决定哪些字段定义为事件的一部分。 如果要使用 Adobe Analytics 特有的预定义架构，可将 [Adobe Analytics ExperienceEvent 架构字段组](https://experienceleague.adobe.com/cn/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)添加到您的架构中。 添加后，您就可以使用 Web SDK 中的 `xdm` 对象填充这个架构，以将数据发送到报告包。 数据到达 Edge Network 后，会将 XDM 对象转换为 Adobe Analytics 可以理解的格式。
 
 有关 XDM 字段的完整参考以及它们如何映射到 Adobe Analytics 变量，请参阅[映射到 Adobe Analytics 的 XDM 对象变量](xdm-var-mapping.md)。
 
@@ -47,7 +47,7 @@ Adobe Experience Platform Edge Network 允许您将发送到多个产品的数�
 
 ## `data` 对象
 
-如果不使用 `xdm` 对象，您可以改用 `data` 对象。 此数据对象针对当前使用 AppMeasurement 的实施，这使升级到 Web SDK 更加容易。 Edge Network 会检测 Adobe Analytics 特有的字段的存在，而无需符合某个架构。
+如果不使用 `xdm` 对象，您可以改用 `data` 对象。 此数据对象面向当前使用 AppMeasurement 的实施方案，使升级到 Web SDK 更加容易。 Edge Network 会检测 Adobe Analytics 特有的字段的存在，而无需符合某个架构。
 
 有关数据对象字段的完整参考以及它们如何映射到 Analytics 变量，请参阅[映射到 Adobe Analytics 的数据对象变量](data-var-mapping.md)。
 

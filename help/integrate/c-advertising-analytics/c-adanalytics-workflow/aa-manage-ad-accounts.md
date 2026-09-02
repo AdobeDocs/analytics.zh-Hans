@@ -45,8 +45,8 @@ ht-degree: 18%
 - 要使用![搜索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)搜索字段搜索广告帐户，请执行以下操作：
 - 若要选择表中的活动帐户，请选中&#x200B;**[!UICONTROL 活动帐户]**。
 - 要定义要为表显示的列，请选择![列设置](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)。 <br/>在&#x200B;**[!UICONTROL 自定义表]**&#x200B;对话框中：
-   - 选择要显示的列。
-   - 选择&#x200B;**[!UICONTROL 应用]**。
+  - 选择要显示的列。
+  - 选择&#x200B;**[!UICONTROL 应用]**。
 
 当您选择一个或多个广告帐户时，根据所选帐户的状态，蓝色操作栏允许您![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 重命名]**、![刷新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 映射报表包]**、![播放](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 激活]**&#x200B;或![暂停](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 暂停]**&#x200B;您的广告帐户。
 

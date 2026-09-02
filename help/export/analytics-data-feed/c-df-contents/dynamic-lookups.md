@@ -42,13 +42,13 @@ ht-degree: 20%
 如果要接收上述查找文件，则必须满足以下所有先决条件：
 
 * 数据馈送中必须包含键列。
-   * 对于`carrier.tsv`，您必须包含`carrier`。
-   * 对于`mobile_attributes.tsv`，您必须包含`mobile_id`。
-   * 对于`operating_system_type.tsv`，您必须包含`os`。
+  * 对于`carrier.tsv`，您必须包含`carrier`。
+  * 对于`mobile_attributes.tsv`，您必须包含`mobile_id`。
+  * 对于`operating_system_type.tsv`，您必须包含`os`。
 * 以下列必须为&#x200B;**排除**。 如果数据馈送中包含这些列中的任一列，则不会包含`mobile_attributes.tsv`动态查找。
-   * `user_agent`
-   * `ch_hdr`
-   * `ch_js`
+  * `user_agent`
+  * `ch_hdr`
+  * `ch_js`
 
 在您的数据馈送满足列包含和排除要求后，请联系客户关怀团队并提供数据馈送ID以启用动态查找。
 

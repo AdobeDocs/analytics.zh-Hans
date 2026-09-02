@@ -52,7 +52,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 >
 >直方图仅支持标准量度，而不支持计算量度。
 
-在下面的示例中，直方图用于统计人数的存储段会话。 直方图显示大多数人在所选日期范围内确实有 16 至 21 次会话。
+在下面的示例中，直方图用于按人数将会话分桶。 直方图显示大多数人在所选日期范围内确实有 16 至 21 次会话。
 
 ![](assets/histogram.png)
 
@@ -78,5 +78,8 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 >[!MORELIKETHIS]
 >
->[将可视化图表添加到面板可视化图表设置可视化上下文菜单使用直方图识别意外数据值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=zh-Hans)
+>[将可视化图表添加到面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[可视化图表设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[可视化上下文菜单](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[使用直方图识别意外数据值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=zh-Hans)
 

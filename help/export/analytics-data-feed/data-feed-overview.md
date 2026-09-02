@@ -23,7 +23,7 @@ ht-degree: 95%
 
 # Analytics 数据馈送概述
 
-数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。 此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 数据在每小时结束时以小时为单位分批发送，或者在每天结束时以天为单位分批发送。
+数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。 此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 数据会在每小时结束时按小时批次交付，或者在每天结束时按天批次交付。
 
 ## 先决条件
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 * 将数据发送到 Adobe 数据收集服务器的有效实施。 请参阅《实施指南》中的[验证和发布实施](/help/implement/launch/validate-publish-prod.md)。
 * 您的帐户是 Analytics 产品管理员，或者属于有权访问数据馈送的产品配置文件。
-* 在 Amazon S3、Google Cloud Platform、Azure RBAC 或 Azure SAS 上配置的分段。
+* 在 Amazon S3、Google Cloud Platform、Azure RBAC 或 Azure SAS 上配置的桶。
 * （旧版：仅对旧版 FTP 和 SFTP 目标类型是必需的）准备好 FTP 站点和凭据（由您的组织提供的 FTP 凭据。）
 
 ## 后续步骤

@@ -1,5 +1,5 @@
 ---
-description: 显示一些示例来说明如何标记点击数据、访问请求、删除请求的数据
+description: 显示如何为点击数据、访问请求和删除请求的数据添加标签的示例
 title: 标记示例
 feature: Data Governance
 role: Admin
@@ -161,7 +161,7 @@ ht-degree: 88%
 
 ## 删除请求示例 {#delete}
 
-通过使用表格第一行中的 API 值来提出删除请求，点击表格将会发生更新。具体情况如下所示：
+使用表格第一行中的 API 值提出删除请求后，点击表格将更新为如下所示：
 
 <table>
   <tr>

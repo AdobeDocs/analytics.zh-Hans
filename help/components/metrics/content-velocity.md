@@ -1,6 +1,6 @@
 ---
 title: 内容周转率
-description: 内容周转率会测量内容对下游内容的影响。
+description: 内容速度会测量内容对下游内容的影响。
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 TQID: https://experienceleague.adobe.com/KEcYF9OWDaxwZX798AETiAIxcffBAwj29Go-oHLOnaU

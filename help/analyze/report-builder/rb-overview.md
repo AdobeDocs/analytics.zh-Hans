@@ -35,7 +35,7 @@ ht-degree: 81%
 借助适用于Adobe Analytics的Report Builder，您可以：
 
 - 引用现有的工作表单元格，以获得正确的行顺序、日期范围或区段。
-- 使用日程表、单元格引用或日期数学创建自定义日期。
+- 使用日历、单元格引用或日期计算创建自定义日期。
 - 使用熟悉的 Excel 格式设置工具设计您的表格和可视化图表。
 
 Report Builder for Adobe Analytics是一个Microsoft Excel加载项。 该插件可在以下平台上使用：

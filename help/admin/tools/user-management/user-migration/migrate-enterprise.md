@@ -1,5 +1,5 @@
 ---
-description: 如何将 Analytics 用户帐户迁移到 Adobe Admin Console 作为 Enterprise ID 或 Federated ID。
+description: 如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated ID 迁移到 Adobe Admin Console。
 title: 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 # 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 
-如何将 Analytics 用户帐户迁移到 Adobe Admin Console 作为 Enterprise ID 或 Federated ID。
+如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated ID 迁移到 Adobe Admin Console。
 
 ## 先决条件 {#prereqs}
 
@@ -40,7 +40,7 @@ ht-degree: 71%
 
 如果目录已由其他业务部门或团队在另一个组织中创建，请按照[目录信任](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html#Directorytrusting)中的步骤在用于Analytics的组织中建立该目录。
 
-## 迁移用户帐户以使用 Enterprise ID 和 Federated ID {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
+## 迁移 Enterprise ID 和 Federated ID 的用户帐户 {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 在此过程中，您将执行以下操作：
 
@@ -80,7 +80,7 @@ ht-degree: 71%
 
       >[!TIP]
       >
-      >在此步骤中，Adobe 建议精简用户列表，以确保 Enterprise ID 或 Federated ID 迁移中仅包括其电子邮件 ID 有效的用户。
+      >在此步骤中，Adobe 建议精简用户列表，以确保 Enterprise ID 或 Federated ID 迁移中仅包括具有有效电子邮件 ID 的用户。
 
 1. 在 [!UICONTROL Admin Console] 中，下载 Adobe Admin Console 用户列表：
 
@@ -160,7 +160,7 @@ ht-degree: 71%
 
    ![步骤信息](/help/admin/tools/user-management/user-migration/assets/migrate-as-enterprise.png)
 
-   单击&#x200B;**[!UICONTROL 迁移]**&#x200B;时，会将用户链接到 Adobe Admin Console 中的 Enterprise ID/Federated ID 帐户。 Analytics中旧版用户帐户的权限将与&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 产品配置文件]**&#x200B;中授予Enterprise/Federated ID登录的权限相匹配。 用户 ID 将显示在“迁移已完成”分段中。 您可以禁用其旧版 [!DNL my.omniture.com] 访问权限。
+   单击&#x200B;**[!UICONTROL 迁移]**&#x200B;时，会将用户链接到 Adobe Admin Console 中的 Enterprise ID/Federated ID 帐户。 Analytics中旧版用户帐户的权限将与&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 产品配置文件]**&#x200B;中授予Enterprise/Federated ID登录的权限相匹配。 用户 ID 将显示在“迁移已完成”桶中。 您可以禁用其旧版 [!DNL my.omniture.com] 访问权限。
 
    在迁移用户后，“迁移状态”列下方的状态将从&#x200B;**[!UICONTROL 未启动]**&#x200B;更改为&#x200B;**[!UICONTROL 已迁移]**。
 

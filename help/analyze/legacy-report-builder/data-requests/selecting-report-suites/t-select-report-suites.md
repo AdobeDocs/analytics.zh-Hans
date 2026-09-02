@@ -1,5 +1,5 @@
 ---
-description: 帮助您在 Excel 中选择报表包的步骤。
+description: 帮助您在 Excel 中选择报告包的步骤。
 title: 选择报告包
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 feature: Report Builder
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 {{legacy-arb}}
 
-帮助您在 Excel 中选择报表包的步骤。
+帮助您在 Excel 中选择报告包的步骤。
 
 1. 在 Excel 中，单击&#x200B;**[!UICONTROL 外接程序]**。
 1. 在工具栏中，单击&#x200B;**[!UICONTROL 创建]**。

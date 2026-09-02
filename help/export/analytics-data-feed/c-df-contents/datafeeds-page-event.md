@@ -34,13 +34,13 @@ ht-degree: 100%
 
 | `page_event` value | `post_page_event` value | 描述 |
 | --- | --- | --- |
-| `0` | `0` | 所有标准页面浏览量调用。 这是大多数点击的默认值。 |
+| `0` | `0` | 所有标准页面查看调用。 这是大多数点击的默认值。 |
 | `10` | `100` | 自定义链接。 将链接类型设置为`o`（AppMeasurement）或`xdm.web.webInteraction.type`设置为`other`（Web SDK 或 Mobile SDK）。 |
 | `11` | `101` | 下载链接。 将链接类型设置为`d`（AppMeasurement）或`xdm.web.webInteraction.type`设置为`download`（Web SDK 或 Mobile SDK）。 |
 | `12` | `102` | 退出链接。 将链接类型设置为`e`（AppMeasurement）或`xdm.web.webInteraction.type`设置为`exit`（Web SDK 或 Mobile SDK）。 |
 | `31` | `76` | 媒体开始 |
 | `32` | `77` | 媒体更新（无其他变量处理） |
-| `33` | `78` | 媒体更新（和其他变量处理） |
+| `33` | `78` | 媒体更新（有其他变量处理） |
 | `40` | `80` | 调查 |
 | `50` | `50` | 流媒体开始 |
 | `51` | `51` | 流媒体关闭 |

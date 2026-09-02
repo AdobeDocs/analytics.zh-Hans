@@ -37,7 +37,7 @@ ht-degree: 91%
 
 如果要将此维度设置为特定值，必须执行以下步骤：
 
-* 在报表包设置下的“营销渠道管理器”中，将所需的维度项目设置为渠道。
+* 在“报告包设置”下的“营销渠道管理器”中，将所需的维度项设置为渠道。
 * 设置包含点击所需条件的营销渠道处理规则。
 * 访客对网站的点击必须与营销渠道处理规则中所述的条件相匹配，_并且_&#x200B;必须是访客参与期内第一个匹配条件的营销渠道值。
 
@@ -45,4 +45,4 @@ ht-degree: 91%
 
 ## 维度项目
 
-维度项目包括营销渠道管理器中的任何渠道名称。 默认情况下，这些值包括 `"Paid search"`、`"Natural search"`、`"Display"`、`"Email"`、`"Affiliate"`、`"Direct"`、`"Internal"`、`"Social networks"` 和 `"Referring domains"`。 您可以在营销渠道管理器中添加或删除渠道，但这会影响此维度的值。
+维度项目包括营销渠道管理器中的任何渠道名称。 默认情况下，这些值包括 `"Paid search"`、`"Natural search"`、`"Display"`、`"Email"`、`"Affiliate"`、`"Direct"`、`"Internal"`、`"Social networks"` 和 `"Referring domains"`。 您可以在营销渠道管理器中添加或删除渠道，这会影响此维度的值。

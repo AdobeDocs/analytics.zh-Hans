@@ -1,5 +1,5 @@
 ---
-description: Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。 作为诸多创新中的一种，目前所有计算指标都拥有一个全局 ID — 不再局限于单一的报表包之中。
+description: Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。 作为诸多创新中的一种，目前所有计算量度都拥有一个全局 ID — 不再局限于单一的报告包之中。
 title: 计算量度
 feature: Report Builder
 role: User, Admin
@@ -59,6 +59,6 @@ Report Builder 5.2及更高版本支持Adobe Analytics计算指标。 现在，�
 
 ## 应用计算量度 {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-选择筛选器后，单击&#x200B;**[!UICONTROL 应用]**&#x200B;以将其应用到您的请求。 此时，选定的指标会被添加到报表布局中。
+选择筛选器后，单击&#x200B;**[!UICONTROL 应用]**&#x200B;以将其应用到您的请求。 此时，选定的量度会被添加到报告布局中。
 
 ![显示“请求向导：第2步 — 网站总计”的屏幕截图，该屏幕指向“高级过滤器”窗口并应用了报表量度。](assets/filtering_for_metric.png)

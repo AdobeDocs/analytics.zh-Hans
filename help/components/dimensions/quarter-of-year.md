@@ -1,6 +1,6 @@
 ---
 title: 季度
-description: 季度的数字，不管是哪个年份。
+description: 一年中的数值季度，无论是哪个年份。
 feature: Dimensions
 exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
 TQID: https://experienceleague.adobe.com/a41aEgQ2NkPzWzcn59JfOd8LgL3vmhr1y11lsIwHpjI
@@ -30,7 +30,7 @@ ht-degree: 87%
 
 ## 使用数据填充此维度
 
-此维度可开箱即用于所有实施。 如果报表包包含数据，则此维度有效。
+此维度可开箱即用于所有实施。 如果报告包包含数据，则此维度有效。
 
 ## 维度项目
 

@@ -45,19 +45,19 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 * **Web SDK 扩展**：这是一种在为新客户实施 Adobe Analytics 时推荐使用的标准化方法。 在 Adobe Experience Platform Data Collection **标记**&#x200B;中添加 **Adobe Experience Platform Web SDK 扩展**，然后在每个页面上放置一个加载器标记。 该标记将数据发送到 Adobe Experience Platform **Edge Network**，而后者将这些数据转发到 Adobe Analytics。
   ![Web SDK扩展](./assets/websdk-extension-implementation.png)
-请参阅[如何使用Adobe Analytics Web SDK扩展实施Adobe Experience Platform。](./aep-edge/overview.md) 了解更多信息。
+  请参阅[如何使用Adobe Analytics Web SDK扩展实施Adobe Experience Platform。](./aep-edge/overview.md) 了解更多信息。
 
 * **Web SDK**：如果您不想使用 Adobe Experience Platform 数据收集，可以在您的站点上手动加载 Web SDK 库。 在每个页面上引用 Web SDK 库 (`alloy.js`)，并将所需的跟踪调用以您组织方便的格式发送到 Adobe Experience Platform **Edge Network**。 Edge Network 将这些数据转发到 Adobe Analytics。
   ![Web SDK](./assets/websdk-implementation.png)
-有关详细信息，请参阅[如何使用Adobe Experience Platform Web SDK实施Adobe Analytics](./aep-edge/overview.md)。
+  有关详细信息，请参阅[如何使用Adobe Experience Platform Web SDK实施Adobe Analytics](./aep-edge/overview.md)。
 
-* **Analytics 扩展**：在 Adobe Experience Platform 数据收集&#x200B;**标签**&#x200B;中添加 **Adobe Analytics 扩展**，然后在每个页面上放置一个加载器标记。 该标记将数据直接发送到 Adobe Analytics。 如果要利用标记的便利，但不想使用 Edge Network 基础设施，请使用此实施。
+* **Analytics 扩展**：在 Adobe Experience Platform 数据收集&#x200B;**标签**&#x200B;中添加 **Adobe Analytics 扩展**，然后在每个页面上放置一个加载器标记。 该标记将数据直接发送到 Adobe Analytics。 如果要利用标记的便利，但不想使用 Edge Network 基础设施，请使用此实施方法。
   ![Adobe Analytics扩展](./assets/analytics-extension-implementation.png)
-有关更多信息，请参阅[如何使用Adobe Analytics扩展实施Analytics](launch/overview.md)。
+  有关更多信息，请参阅[如何使用Adobe Analytics扩展实施Analytics](launch/overview.md)。
 
 * **旧版 JavaScript**：历史上用于实施 Adobe Analytics 的手动方法。 在每个页面上引用 AppMeasurement 库 (`AppMeasurement.js`)，然后在 JavaScript 中设置变量和各种设置。
   ![如何使用旧版JavaScript实施Adobe Analytics](./assets/appmeasurement-implementation.png)
-此实施方法对于使用自定义代码的实施非常有用，非常适合于其他地方未提供的实施类型，例如[AMP页面](other/amp.md)。
+  此实施方法对于使用自定义代码的实施非常有用，非常适合于其他地方未提供的实施类型，例如[AMP页面](other/amp.md)。
 
 以下决策流程可帮助您选择客户端实施方法：
 
@@ -66,19 +66,19 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 >[!TIP]
 >
->有关根据您的当前状况要选择何种实施的建议和最佳实践，请联系您的 Adobe 客户团队。
+>有关根据您的当前状况要选择何种实施的建议和最佳实践，请联系您的 Adobe 帐户团队。
 
 ### 服务器端
 
-要实施 Adobe Analytics 服务器端，您有以下选项：
+要在服务器端实施 Adobe Analytics，您有以下选项：
 
 * **Edge Network API**：您在使用 Adobe Experience Platform Edge Network API 通过数据流与 Adobe Analytics 进行通信的服务器上实施代码。
   ![服务器端实施](assets/edge-network-server-api.png)
-有关详细信息，请参阅[使用Adobe Experience Platform Edge Network API实施Adobe Analytics](/help/implement/aep-edge/api/overview.md)。
+  有关详细信息，请参阅[使用Adobe Experience Platform Edge Network API实施Adobe Analytics](/help/implement/aep-edge/api/overview.md)。
 
 * **（批量）数据插入 API**：您可以使用 Adobe Analytics（批量）数据插入 API 将服务器端数据直接收集到 Adobe Analytics 中。
   ![数据插入API](assets/analytics-apis.png)
-有关详细信息，请参阅[数据插入API](../import/c-data-insertion-api/c-data-insertion-api.md)。
+  有关详细信息，请参阅[数据插入API](../import/c-data-insertion-api/c-data-insertion-api.md)。
 
 ## 移动应用程序实施方法
 
@@ -113,5 +113,5 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 * [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
 * [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hans)
-* [Adobe Analytics资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hans)
+* [Adobe Analytics资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新发行说明](../release-notes/latest.md)

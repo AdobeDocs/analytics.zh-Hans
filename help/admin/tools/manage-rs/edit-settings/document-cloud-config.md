@@ -28,7 +28,7 @@ ht-degree: 100%
 
 # 配置 Document Cloud 报告
 
-您可以配置特定于 PDF 的维度和量度以便在 Adobe Analytics 中可用。
+您可以配置特定于 PDF 的维度和量度，使其在 Adobe Analytics 中可用。
 
 ## 启用 PDF 报告时添加的组件
 

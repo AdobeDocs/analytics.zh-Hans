@@ -1,6 +1,6 @@
 ---
 title: 移动存留期量度
-description: 基于使用 Mobile SDK 收集的数据的量度。
+description: 基于使用移动 SDK 收集的数据的量度。
 feature: Metrics
 exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
 TQID: 'https://experienceleague.adobe.com/Y1IigGbQygTsS9UD3WEp9z8rLTqkeDuhZZ83AJQMa3o'

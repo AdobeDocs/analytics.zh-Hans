@@ -86,7 +86,7 @@ Advertising Analytics可将以下维度和量度添加到Analysis Workspace、Re
 | **[!UICONTROL 广告(AMO ID)]** | 广告上使用的广告标题+广告描述。 |
 | **[!UICONTROL 关键字(AMO ID)]** | 来自您的搜索引擎帐户的“关键字”值。 |
 | **[!UICONTROL 匹配类型(AMO ID)]** | 分配给您的关键字的关键字匹配类型。 值通常为广泛、精确或无值（如果广告类型没有匹配类型）。 |
-| **[!UICONTROL 广告类型(AMO ID)]** | 投放的广告类型，通常为&quot;文字广告&quot;。 |
+| **[!UICONTROL 广告类型(AMO ID)]** | 投放的广告类型，通常为&quot;文本广告&quot;。 |
 | **[!UICONTROL 广告标题(AMO ID)]** | 广告中使用的Title对象。 |
 | **[!UICONTROL 广告描述(AMO ID)]** | 广告中使用的Ad Description对象。 |
 | **[!UICONTROL 广告显示URL (AMO ID)]** | 广告中使用的广告显示URL对象。 |
@@ -101,11 +101,11 @@ Advertising Analytics可将以下维度和量度添加到Analysis Workspace、Re
 
 >[!IMPORTANT]
 >
->Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。 它们未连接到Analytics访客资料。 它们仅连接到AMO ID变量及其关联的分类维度。 因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。 这样做会导致Analytics为数据显示零。 您可以将它们与其他指标一起纳入计算指标中，但这些计算指标也只应按照 AMO ID 维度进行划分。
+>Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。 它们未连接到Analytics访客资料。 它们仅连接到AMO ID变量及其关联的分类维度。 因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。 这样做会导致Analytics为数据显示零。 您可以将它们与其他量度一起纳入计算量度中，但这些计算量度也只应按照 AMO ID 维度进行划分。
 >
 >这些指标是每日收集的数据，因此不会有当天的数据。 此外，也不应在低于每日的粒度上报告这些事件。
 >
->登陆页面上设置 AMO ID 时，会设置一个 AMO ID 实例数指标（即点进次数）。 此指标是在发生登陆页面点击时实时捕获的，可用来与其他也在登陆页面上设置的维度一起进行划分。
+>登陆页面上设置 AMO ID 时，会设置一个 AMO ID 实例数指标（即点进次数）。 此量度是在发生登陆页面点击时实时捕获的，可用来与其他也在登陆页面上设置的维度一起进行划分。
 
 | 量度名称 | 定义 |
 | --- | --- |

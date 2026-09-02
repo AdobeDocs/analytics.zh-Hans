@@ -28,7 +28,7 @@ ht-degree: 66%
 
 ![行动手册](assets/inherited-impl-playbook.png)
 
-查看技术负责人 Sarah Owen 提供的一些技巧。 Sarah是Adobe Analytics Champion，她分享了有关如何使用《继承实施行动手册》来负责现有实施的想法：
+查看与您同为技术负责人的 Sarah Owen 提供的一些技巧。 Sarah是Adobe Analytics Champion，她分享了有关如何使用《继承实施行动手册》来负责现有实施的想法：
 
 
 >[!BEGINSHADEBOX]

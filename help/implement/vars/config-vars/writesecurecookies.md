@@ -1,6 +1,6 @@
 ---
 title: writeSecureCookies
-description: 允许 AppMeasurement 使用“安全”属性设置 Cookie。
+description: 允许 AppMeasurement 设置带有 Secure 属性的 Cookie。
 feature: Appmeasurement Implementation
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 role: Admin, Developer

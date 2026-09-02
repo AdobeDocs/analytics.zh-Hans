@@ -48,7 +48,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->模板方法将您的分类数据下载限制为单个报表包。
+>模板方法将您的分类数据下载限制为单个报告包。
 
 有关数据文件结构的更多信息，请参阅[关于分类数据文件](/help/components/classifications/importer/c-saint-data-files.md)。
 
@@ -58,7 +58,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->模板方法将您的数据下载限制为单个报表包。
+>模板方法将您的数据下载限制为单个报告包。
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 在&#x200B;**[!UICONTROL 下载模板]**&#x200B;选项卡上，指定[数据模板配置](/help/components/classifications/importer/c-download-saint-data.md)。

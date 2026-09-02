@@ -163,7 +163,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_locationaccount"
 >title="位置帐户"
->abstract="支持导入分类数据的帐户类型的位置帐户列表。 选择&#x200B;**[!UICONTROL 新建帐户]**&#x200B;以创建新的位置帐户。"
+>abstract="属于支持导入分类数据的帐户类型的位置帐户列表。 选择&#x200B;**[!UICONTROL 新建帐户]**&#x200B;以创建新的位置帐户。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts" text="配置云导入和导出帐户"
 
 

@@ -19,7 +19,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: 626
 ht-degree: 78%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 78%
 
 此表中的大多数数据对象字段对应于[映射的XDM字段](xdm-var-mapping.md)。 在Adobe Analytics摄取期间，值首先从XDM映射到Analytics变量。 识别的数据对象字段映射到同一Analytics变量时，会映射并覆盖之前设置的任何值。 例如，如果存在`data.__adobe.analytics.events`，则它替换原本从XDM派生的整个事件集；事件不会跨两个源合并。 数据对象字段中的空字符串(`""`)将遮蔽其点击的映射Analytics变量，即使相应的XDM字段包含值也是如此。
 
-某些数据对象字段还支持其相应的[查询参数值](../validate/query-parameters.md)作为简写值。 您可以交替使用标准的数据对象字段和简写的数据对象字段，只要它们分别用于唯一的变量即可。 应避免同时设置标准数据对象字段及其相应的简写数据对象字段。 Adobe 无法保证哪个字段具有优先级。
+某些数据对象字段还支持其相应的[查询参数值](../validate/query-parameters.md)作为简写值。 您可以交替使用标准的数据对象字段和简写的数据对象字段，只要它们分别用于唯一的变量即可。 应避免同时设置标准数据对象字段及其相应的简写数据对象字段。 Adobe 无法保证哪个字段会优先采用。
 
 ## 数据对象字段映射
 

@@ -35,4 +35,4 @@ ht-degree: 29%
 
 * 贵组织的合同包括Report Builder for Excel。
 * 您的用户名属于预定义的Report Builder用户组。 对于 [!DNL Analytics] 管理员，也同样有此要求。
-* 用户运行的必须是 Windows，并以管理员的身份登录。
+* 用户必须运行 Windows，并以管理员身份登录。

@@ -15,10 +15,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
+source-git-commit: 31fb96e33bec21fd80b5ccaf2d46f607c25d880d
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 99%
 
       * 导入 Adobe Analytics 分类数据时，如[架构](/help/components/classifications/sets/manage/schema.md)中所述。
 
-        不过，不能使用配置用于导入分类数据的任何位置。 相反，请按如下所述添加新目标。
+        不过，任何为导入分类数据而配置的位置都不能使用。 相反，请按如下所述添加新目标。
 
       * 在“位置”区域配置帐户和位置时，如[配置云导入和导出帐户](/help/components/locations/configure-import-accounts.md)和[配置云导入和导出位置](/help/components/locations/configure-import-locations.md)中所述。
 
@@ -155,7 +155,7 @@ ht-degree: 99%
 
       >[!NOTE]
       >
-      >电子邮件帐户只能与[数据馈送](/help/export/analytics-data-feed/create-feed.md)使用。 （电子邮件帐户不支持 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或[分类集](/help/components/classifications/sets/overview.md)）。
+      >电子邮件帐户只能用于Data Warehouse。 （[数据馈送](/help/export/analytics-data-feed/create-feed.md)或[分类集](/help/components/classifications/sets/overview.md)不支持电子邮件帐户）。
 
       若要配置 Azure RBAC 帐户，请指定以下信息：
 
@@ -179,7 +179,7 @@ ht-degree: 99%
 
 ### FTP
 
-Data Warehouse 数据可以提交到由 Adobe 或客户托管的 FTP 位置。 需要 FTP 主机、用户名和密码。 可使用路径字段将馈送文件放置在文件夹中。 文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。
+Data Warehouse 数据可以传送到由 Adobe 或客户托管的 FTP 位置。 需要 FTP 主机、用户名和密码。 可使用路径字段将馈送文件放置在文件夹中。 文件夹必须已存在；如果指定的路径不存在，则馈送会引发错误。
 
 填写可用字段时，请使用以下信息：
 
@@ -243,7 +243,7 @@ Data Warehouse 数据可以提交到由 Adobe 或客户托管的 FTP 位置。 �
 
 ### S3
 
-您可以直接将数据仓库数据发送到 Amazon S3 存储段。 此目标类型需要存储段名称、访问密钥 ID 和密钥。 有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+您可以直接将数据仓库数据发送到 Amazon S3 存储桶。 此目标类型需要存储段名称、访问密钥 ID 和密钥。 有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
 
 您为上传 Data Warehouse 数据提供的用户必须具有以下[权限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 

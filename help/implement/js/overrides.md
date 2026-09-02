@@ -1,6 +1,6 @@
 ---
 title: 变量覆盖
-description: 通过变量覆盖，您可以更改单个跟踪的变量值或跟踪链接调用。
+description: 通过变量覆盖，您可以更改单个跟踪调用或跟踪链接调用的变量值。
 feature: Implementation Basics
 exl-id: e297ef94-c5f7-42b1-a9d0-57e073f0d1a9
 role: Developer

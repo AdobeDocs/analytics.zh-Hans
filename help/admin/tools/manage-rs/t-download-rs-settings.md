@@ -1,5 +1,5 @@
 ---
-description: 描述如何生成 Excel 电子表格以包含选定报表包所有设置的步骤。
+description: 描述如何生成包含选定报告包所有设置的 Excel 电子表格的步骤。
 title: 下载报表包设置
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 # 下载报表包设置
 
-要生成包含选定报表包所有设置的制表符分隔文件，请执行以下操作：
+要生成包含选定报告包所有设置的制表符分隔文件，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 

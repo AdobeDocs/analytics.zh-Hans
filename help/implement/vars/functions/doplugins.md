@@ -61,7 +61,7 @@ alloy("configure", {
 
 Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和自定义代码编辑器中的 s.doPlugins
+## AppMeasurement 和自定义代码中的 s.doPlugins
 
 将 `s.doPlugins` 变量设置为包含所需代码的函数。 当您进行跟踪调用时，该函数会自动运行。
 
@@ -89,4 +89,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
->AppMeasurement 的先前版本具有的 `doPlugins()` 代码略有不同。 Adobe 建议将上述格式作为最佳实践。
+>AppMeasurement 的先前版本具有的 `doPlugins()` 代码略有不同。 Adobe 建议将上述格式作为最佳做法。

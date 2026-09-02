@@ -41,7 +41,7 @@ ht-degree: 38%
 
    ![共享区段](assets/share-segments-dialog.png)
 
-   如果您是管理员，则可以选择“**[!UICONTROL 所有人]**”或组织中的“**[!UICONTROL 组]**”和“用户&#x200B;**[!UICONTROL ”。]** 如果您不是管理员，则只能看到个人用户。 使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段搜索组或用户。 1.
+   如果您是管理员，则可以选择“**[!UICONTROL 所有人]**”或组织中的“**[!UICONTROL 组]**”和“用户&#x200B;**[!UICONTROL ”。]** 如果您不是管理员，则只能看到单个用户。 使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段搜索组或用户。 1.
 
    1. （可选）使用![搜索](/help/assets/icons/Search.svg)到&#x200B;*搜索个人或组*，并限制要与其共享区段的组或个人的列表。
 

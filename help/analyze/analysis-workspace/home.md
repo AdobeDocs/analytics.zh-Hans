@@ -1,6 +1,6 @@
 ---
 title: Analysis Workspace 概述
-description: 了解 Analysis Workspace —— Adobe Analytics 的高级分析工具。 通过项目、面板、表格、可视化图表及其他组件，使数据生动呈现，并进行内容管理与分析共享。
+description: 了解 Analysis Workspace —— Adobe Analytics 的高级分析工具。 通过项目、面板、表格、可视化图表及其他组件，使数据生动呈现，并整理和共享您的分析。
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
@@ -53,7 +53,7 @@ ht-degree: 96%
 | A | 包含项目名称、用于访问功能的菜单结构、返回项目列表的按钮![“返回”按钮](/help/assets/icons/ChevronLeft.svg)，以及[分享 Workspace 项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)的&#x200B;**[!UICONTROL 分享]**&#x200B;按钮。 <br/>随时选择您的项目名称（例如：新项目）即可更改名称。 <br/>选择![取消收藏](/help/assets/icons/StarOutline.svg)将您的项目标记为收藏的项目![收藏](/help/assets/icons/Star.svg)。 |
 | B | **按钮面板：**&#x200B;包含用于访问 Analysis Workspace 的主要[功能](#features)的按钮：<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 可视化]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![策划](/help/assets/icons/Curate.svg) [[!UICONTROL 组件]](/help/components/home.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 目录]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![书签](/help/assets/icons/Bookmark.svg) [[!UICONTROL 数据字典]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **左侧面板：**&#x200B;该区域包含单独的面板、可视化内容、组件或列表。 相关内容取决于按钮面板中选择的按钮。 |
-| D | **画布：**&#x200B;从左侧面板拖动内容以构建项目的主要区域。 当您添加面板、向面板添加可视化效果以及向可视化效果添加组件时，项目会动态更新。 您可以创建多个面板，并且在每个面板内可以创建多个可视化效果。<br/>每个面板都基于所选的报表包。 所选的报表包决定了可用的组件，例如量度和维度。 有关详细信息，请参阅[面板 - 报表包](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite)。 |
+| D | **画布：**&#x200B;从左侧面板拖动内容以构建项目的主要区域。 当您添加面板、向面板添加可视化效果以及向可视化效果添加组件时，项目会动态更新。 您可以创建多个面板，并且在每个面板内可以创建多个可视化效果。<br/>每个面板都基于所选的报表包。 所选的报告包决定了可用的组件，例如量度和维度。 有关详细信息，请参阅[面板 - 报表包](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite)。 |
 
 ## 功能
 
@@ -82,7 +82,7 @@ Analysis Workspace 的大部分功能可通过拖放以及面板、可视化内�
 - **⌥** 表示 **[!UICONTROL *opt *]**（选项）。
 - **⎇** 表示 **[!UICONTROL *alt *]**（备选）。
 
-请参阅下表以了解可用菜单的概述。
+请参阅下表，了解可用菜单的概览。
 
 | **[!UICONTROL 项目]** | Mac 快捷方式 | Windows 快捷方式 | 描述 |
 |---|---|---|---|

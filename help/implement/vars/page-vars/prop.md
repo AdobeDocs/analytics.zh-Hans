@@ -83,13 +83,13 @@ s.prop1 = "Example custom value";
 
 ### 使用 Web SDK 设置列表 props {#list-props-web-sdk}
 
-如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则列表属性将映射到`xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`。 Web SDK 会自动使用报表包设置下列出的正确分隔符。 如果您在 XDM 字段中设置分隔符（例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
+如果使用&#x200B;[**XDM对象**](/help/implement/aep-edge/xdm-var-mapping.md)，则列表属性将映射到`xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`。 Web SDK 会自动使用报告包设置下列出的正确分隔符。 如果您在 XDM 字段中设置分隔符（例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
 
 如果使用&#x200B;[**数据对象**](/help/implement/aep-edge/data-var-mapping.md)，则列表属性使用与标准属性相同的字段并遵循AppMeasurement语法。
 
 ### 使用 Adobe Analytics 扩展和 AppMeasurement 设置列表 props
 
-在报表包设置中使用所需的分隔符配置列表 props 后，除了使用分隔符外，没有任何其他实施差异。
+在报告包设置中使用所需的分隔符配置列表 props 后，除了使用分隔符外，没有任何其他实施差异。
 
 ```js
 // List prop delimited with a comma

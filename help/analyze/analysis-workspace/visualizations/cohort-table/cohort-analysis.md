@@ -58,9 +58,9 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 
 
-*cohort* 是指一组在特定期限内共享相同特性的人员。 例如，在您想了解如何让一个同类群组喜欢某个品牌时，![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL 同类群组表]**&#x200B;可视化图表就能派上用场。 您可以轻松识别趋势中的变化，然后相应地采取回应。 （网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://en.wikipedia.org/wiki/Cohort_analysis)。）
+*cohort* 是指一组在特定期限内共享相同特性的人员。 例如，在您想了解如何让一个同类群组喜欢某个品牌时，![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL 同类群组表]**&#x200B;可视化图表就能派上用场。 您可以轻松识别趋势中的变化，然后作出相应回应。 （网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://en.wikipedia.org/wiki/Cohort_analysis)。）
 
-创建同类群组报告后，您可以组织其组件（特定的维度、量度和过滤器），然后可以与其他任何人员共享这份同类群组报告。 请参阅[策划和共享](/help/analyze/analysis-workspace/curate-share/curate.md)。
+创建同类群组报告后，您可以整理其组件（特定的维度、量度和过滤器），然后与任何人共享该同类群组报告。 请参阅[策划和共享](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
 使用[!UICONTROL 同类群组表]可以实现的作用（示例）：
 
@@ -83,7 +83,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 >
 >[!UICONTROL 同类群组分析]不支持不可过滤的量度（包括计算量度）、非整数量度（如收入）或发生次数。 只有可以在过滤器中使用的量度才能在[!UICONTROL 同类群组分析]中使用，并且它们一次只能递增 1。
 
-Adobe Analytics中的同类群组表支持基于双精度（或任何数字）的量度。 例如，Purchase.Value（双倍）可用作包含/返回量度。 此外，通过 Analytics Source Connector 传递到 Adobe Experience Platform 的所有量度也都是双倍的。
+Adobe Analytics中的同类群组表支持基于双精度（或任何数字）的量度。 例如，Purchase.Value（双倍）可用作包含/返回量度。 此外，通过 Analytics Source Connector 传递到 Adobe Experience Platform 的所有量度也都是双精度值。
 
 ## 同类群组表功能
 

@@ -50,11 +50,11 @@ ht-degree: 88%
 +++
 
 +++如何实施Analysis Workspace？
-无需特殊实施。 Analysis Workspace适用于具有Analytics Standard或Premium的所有公司。 但是，内容（如报告包和项目组件）的标准权限在此适用，并可用于组织和共享项目。 请参阅[管理和访问要求](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。
+无需特殊实施。 Analysis Workspace适用于具有Analytics Standard或Premium的所有公司。 但是，内容（如报表包和项目组件）的标准权限同样适用，也适用于整理和共享项目。 请参阅[管理和访问要求](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。
 +++
 
 +++我能否使用Analysis Workspace for Data Warehouse？
-不建议使用Analysis Workspace来批量导出数据。 它是一个创建类似功能板分析项目的可视化图表工作区。
+不建议使用Analysis Workspace来批量导出数据。 它是一个可创建类似仪表板的分析项目的可视化工作区。
 +++
 
 +++如何优化 Analysis Workspace 的性能？

@@ -28,7 +28,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。 当前的 AppMeasurement 库或 Adobe Experience Platform 中的标记不支持这些变量。
+>仅当使用旧版 JavaScript 实施（H 码）时，才支持动态帐户。 当前的 AppMeasurement 库或 Adobe Experience Platform 中的标记不支持这些变量。
 
 `dynamicAccountMatch` 变量值由 `dynamicAccountList` 进行检查和与其值进行比较。 如果 `dynamicAccountSelection` 未设置为 `true`，则忽略此变量。
 

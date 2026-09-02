@@ -40,7 +40,7 @@ ht-degree: 33%
 
 >[!CAUTION]
 >
->如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。 请确保已正确部署身份标识服务，已部署 App Measurement 模块，已将适用的报表包映射到正确的组织 ID，并且已在 Analytics 管理工具中启用服务器端转发。
+>如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。 请确保已正确部署身份标识服务，已部署 App Measurement 模块，已将适用的报告包映射到正确的组织 ID，并且已在 Analytics 管理工具中启用服务器端转发。
 
 >[!MORELIKETHIS]
 >

@@ -28,9 +28,9 @@ ht-degree: 88%
 
 * 权限
 
-   * [Adobe Analytics 的产品配置文件](/help/admin/admin-console/permissions/product-profile.md)
-   * [“报告包工具”的产品配置文件权限](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Analytics 工具的产品配置文件权限](/help/admin/admin-console/permissions/analytics-tools.md)
+  * [Adobe Analytics 的产品配置文件](/help/admin/admin-console/permissions/product-profile.md)
+  * [报告包工具的产品配置文件权限](/help/admin/admin-console/permissions/report-suite-tools.md)
+  * [Analytics 工具的产品配置文件权限](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## 在 Adobe Analytics 中添加管理员
 

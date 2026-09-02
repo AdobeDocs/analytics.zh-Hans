@@ -31,6 +31,6 @@ Adobe Report Builder 支持 .xlsm 格式，从而允许您计划启用宏的工�
 
 >[!IMPORTANT]
 >
->虽然 Report Builder 允许您计划带有宏的工作簿，但并非在每次计划运行期间都运用这些宏。 仅当在本机Microsoft Excel应用程序中打开工作簿时，才会执行上述操作。
+>虽然 Report Builder 允许您计划带有宏的工作簿，但这些宏不会在每次计划运行期间执行。 仅当在本机Microsoft Excel应用程序中打开工作簿时，才会执行上述操作。
 
 带有宏的计划工作簿只能以启用宏的格式(.xlsm)提交，因为所有其他支持的格式（xls、xlsx、pdf、word、csv或txt）都会从工作簿中删除宏。

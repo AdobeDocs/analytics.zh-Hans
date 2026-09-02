@@ -45,7 +45,7 @@ console.log(`Browser width: ${window.innerWidth} pixels\nScreen width: ${screen.
 
 此维度从图像请求中的 [`bw` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 AppMeasurement 使用浏览器中的 JavaScript 变量 `window.innerWidth` 收集此数据。 如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在每个访问的首次点击时包含 `bw` 查询字符串参数。
 
-Adobe 会保留访问的浏览器宽度。 如果在访问过程中调整了浏览器宽度，则不会记录调整的情况。
+Adobe 会在一次访问期间保留浏览器宽度。 如果在访问过程中调整了浏览器宽度，则不会记录调整的情况。
 
 ## 维度项目
 

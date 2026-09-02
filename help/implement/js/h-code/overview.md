@@ -1,6 +1,6 @@
 ---
-title: H 代码 JavaScript 实施概述
-description: 了解在您的网站上实施 H 代码的工作流。
+title: H 码 JavaScript 实施概述
+description: 了解在您的网站上实施 H 码的工作流。
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
@@ -20,17 +20,17 @@ ht-degree: 72%
 
 ---
 
-# H 代码 JavaScript 实施概述
+# H 码 JavaScript 实施概述
 
 >[!IMPORTANT]
 >
 >不再支持此版本的数据收集。 升级到 [Adobe Experience Platform 中的标记](../../launch/overview.md)或 [AppMeasurement for JavaScript](../overview.md)。
 
-您必须能够访问托管服务器，才能成功为页面实施用于收集数据的代码。 以下步骤详细说明了如何进行基本的 Analytics H 代码实施。
+您必须能够访问托管服务器，才能成功为页面实施用于收集数据的代码。 以下步骤详细说明了如何进行基本的 Analytics H 码实施。
 
 >[!NOTE]
 >
->在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。 Adobe 将不再提供用于在代码管理器中下载 H 代码的选项。
+>在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。 Adobe 将不再提供用于在代码管理器中下载 H 码的选项。
 
 1. **更新核心 JS 文件变量**：编辑 `s_code.js` 文件，并确保已更新以下变量：
    * `s_account` 包含要将数据发送到的报表包 ID。

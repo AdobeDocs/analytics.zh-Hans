@@ -50,9 +50,9 @@ ht-degree: 68%
 
 ## Adobe Analytics 报告用户界面 {#user-interfaces}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。 Adobe 会继续投入人力和物力坚持每月发布此产品的更新。 如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
+**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。 Adobe 会继续投资此产品，并每月发布更新。 如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
 
-通过 **[Adobe Analytics 功能板](/help/analyze/mobile-app/home.md)**，用户可移动访问直观的记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。 iOS 和 Android 操作系统均支持移动设备应用程序。
+通过 **[Adobe Analytics 功能板](/help/analyze/mobile-app/home.md)**，用户可移动访问直观的记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。 该移动应用程序同时支持 iOS 和 Android 操作系统。
 
 **[Report Builder](/help/analyze/report-builder/rb-overview.md)** 是 Microsoft Excel 的一个插件，可在 Mac、Windows 和网络浏览器上运行。 通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。 请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
 
@@ -70,12 +70,12 @@ ht-degree: 68%
 
 * 适用于要将离线数据永久写入 Adobe Analytics 的情况
 * 选项:
-   * 摘要：按日期或有限维度显示简单数据上传
-   * 交易 ID：数据上传将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
+  * 摘要：按日期或有限维度进行简单数据上传
+  * 交易 ID：数据上传将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
 
 **[Adobe Exchange 集成](https://www.adobeexchange.com/experiencecloud.html)**&#x200B;应该用于：
 
-* 与已建立支持的 Adobe Analytics 连接的第三方提供商开展业务的情况。 集成应用程序一般不断自动地将摘要级别的数据永久纳入 Adobe Analytics。
+* 当您与已构建 Adobe Analytics 受支持连接的第三方提供商合作时。 集成应用程序一般不断自动地将摘要级别的数据永久纳入 Adobe Analytics。
 
 **[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
@@ -107,11 +107,11 @@ ht-degree: 68%
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 的使用说明：
 
-* 用于访问隐藏在 UI 中的变量，包括 IP 地址、Experience Cloud ID、Analytics 访客 ID、页面 URL
+* 用于访问在 UI 中原本隐藏的变量，包括 IP 地址、Experience Cloud ID、Analytics 访客 ID、页面 URL）
 * 访问比UI更细粒度的数据（非标准化表视图）
 * 以适合数据透视表输入的格式下载数据
 * 如果客户希望将Adobe数据输入到第三方数据可视化工具中（稍微摘要一下，而不是点击级别）
-* 用于在 Adobe Analytics 中遇到“低流量”的情况下访问所有独特维度项目
+* 用于在 Adobe Analytics 中遇到“低流量”时访问所有唯一维度项
 
 应使用 **[Analytics 数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**：
 

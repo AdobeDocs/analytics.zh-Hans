@@ -1,6 +1,6 @@
 ---
 title: 每位访客逗留时间（秒）
-description: “每位访客逗留时间（秒）”量度显示访客在访客整个生命周期中与给定维度项目交互的平均时间。
+description: “每位访客逗留时间（秒）”量度显示访客在访客整个存留期中与给定维度项交互的平均时间。
 feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
 TQID: https://experienceleague.adobe.com/NFmA2Q80h2WOTRwoJ882aFMG60y2HKngR0Ew0qnxb8o

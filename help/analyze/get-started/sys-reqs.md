@@ -31,7 +31,7 @@ ht-degree: 100%
 
 * 有效的 Adobe Analytics 许可证
 
-  Adobe Analytics 需要站点许可证。 请联系您的 Adobe 客户代表以了解详情。
+  Adobe Analytics 需要网站许可证。 请联系您的 Adobe 客户代表以了解详情。
 
 * 受支持的浏览器
 

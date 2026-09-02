@@ -194,7 +194,7 @@ ht-degree: 69%
 
    +++S3
 
-   您可以直接将数据仓库数据发送到 Amazon S3 存储段。 此目标类型需要存储段名称、访问密钥 ID 和密钥。 有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+   您可以直接将数据仓库数据发送到 Amazon S3 存储桶。 此目标类型需要存储段名称、访问密钥 ID 和密钥。 有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
 
    您为上传 Data Warehouse 数据提供的用户必须具有以下[权限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 

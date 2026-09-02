@@ -49,7 +49,7 @@ Adobe CX Enterprise提供了一个集成式解决方案，它将您品牌的数�
 
 ## GDPR 准备工作和您的 Adobe Analytics 数据
 
-Adobe 认识到您最熟悉您的报告包中的自定义数据，因此我们将为您提供机会来定义数据管理设置和首选项。
+Adobe 认识到您最熟悉您的报告包中的自定义数据，因此我们将为您提供机会来定义数据治理设置和首选项。
 
 为此，Adobe Analytics 提供了“数据管理”用户界面，允许您作为数据控制者，对您的 Analytics 报告包以及这些报告包中的所有维度和量度设置[隐私权标签](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels)。 您可以识别数据集中包含直接可识别数据或间接可识别数据的列，以便提交访问和删除请求以处理该数据。 对于每个请求，Analytics数据管理用户界面中定义的标签将被用于与该请求对应的特定标识符。
 

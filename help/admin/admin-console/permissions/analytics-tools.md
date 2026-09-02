@@ -29,13 +29,13 @@ topic_v2:
 source-git-commit: f2ebe32aed6555a81f9d51e10a297679df5b8d4c
 workflow-type: tm+mt
 source-wordcount: 552
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 
 # Analytics 工具的产品配置文件权限
 
-Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访问权限。 Analytics 工具权限项不适用于单个报表包，而适用于整个 Adobe Analytics。
+Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访问权限。 Analytics 工具权限项不适用于单个报告包，而适用于整个 Adobe Analytics。
 
 | Analytics 工具权限项 | 描述 |
 |----|----|
@@ -69,12 +69,12 @@ Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访�
 | [!UICONTROL 报告活动管理器UI访问权限] | 授予对“管理员”>“报表活动管理器”的访问权限。 |
 | [!UICONTROL Reports &amp; Analytics 访问权限] | 不使用 |
 | [!UICONTROL 安全性] | 授予对“管理员”>“所有管理员”>“公司设置”>“安全管理器”的访问权限。 |
-| [!UICONTROL 区段创建] | 允许在所有 Analytics 功能中创建区段并在功能之间共享区段。 |
+| [!UICONTROL 区段创建] | 允许在所有 Analytics 功能中创建和共享区段。 |
 | [!UICONTROL 区段发布] | 允许在创建或编辑区段时将区段设为CX Enterprise受众。 |
 | [!UICONTROL 服务器调用使用情况] | 授予对“管理员”>“服务器调用使用情况”的访问权限。 |
 | [!UICONTROL 与任何人共享项目链接] | 授予无法访问Analysis Workspace的用户对Adobe Analytics项目的只读访问权限的能力。 |
 | [!UICONTROL 支持] | 授予对“管理员”>“所有管理员”>“公司设置”>“支持信息”的访问权限。 |
 | [!UICONTROL 流量管理] | 授予对“管理员”>“所有管理员”>“流量管理”的访问权限。 |
-| [!UICONTROL Web 服务访问] | 允许使用 API，包括使用 API 进行第三方网站身份验证和发送 API 调用。 |
+| [!UICONTROL Web 服务访问] | 允许使用 API，包括与第三方网站进行身份验证以及发送 API 调用。 |
 | [!UICONTROL Web 服务] | 授予对“管理员”>“所有管理员”>“公司设置”>“Web 服务”的访问权限。 |
 | [!UICONTROL Workspace项目访问权限] | 授予对 Analysis Workspace 的访问权限。 **需要此权限项才能使用Adobe Analytics。** |

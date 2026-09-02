@@ -38,11 +38,11 @@ ht-degree: 2%
    1. 将一个或多个&#x200B;**[!UICONTROL 标记（可选）]**&#x200B;添加到分类集。 从&#x200B;**[!UICONTROL 标记]**&#x200B;下拉菜单中选择现有标记，或输入新标记。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)删除标记。
    1. 在&#x200B;**[!UICONTROL 作业通知]**&#x200B;部分中，选择分类集作业失败或成功时要通知的人员。
       * 要通知用户发生故障，请执行以下操作：
-         1. 启用&#x200B;**[!UICONTROL 失败时通知]**。
-         1. 在&#x200B;**[!UICONTROL 失败电子邮件收件人]**&#x200B;中指定一个或多个逗号分隔的电子邮件地址。
+        1. 启用&#x200B;**[!UICONTROL 失败时通知]**。
+        1. 在&#x200B;**[!UICONTROL 失败电子邮件收件人]**&#x200B;中指定一个或多个逗号分隔的电子邮件地址。
       * 要在成功时通知用户，请执行以下操作：
-         1. 启用&#x200B;**[!UICONTROL 成功时通知]**。
-         1. 在&#x200B;**[!UICONTROL 成功电子邮件收件人]**&#x200B;中指定一个或多个逗号分隔的电子邮件地址。
+        1. 启用&#x200B;**[!UICONTROL 成功时通知]**。
+        1. 在&#x200B;**[!UICONTROL 成功电子邮件收件人]**&#x200B;中指定一个或多个逗号分隔的电子邮件地址。
    1. 编辑&#x200B;**[!UICONTROL 订阅]**。
       * 您可以为分类集定义多个&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL Dimension]**&#x200B;组合。
       * 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)以删除&#x200B;**[!UICONTROL 报表包]**&#x200B;和&#x200B;**[!UICONTROL 键Dimension]**&#x200B;组合。

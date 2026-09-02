@@ -43,9 +43,9 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
-1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+1. 如果您尚未这样做，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心 - 已加载的库（页面顶部）
+   * 事件：核心 - 库已加载（页面顶部）
 1. 使用以下配置向上述规则添加操作：
    * 扩展：常用 Analytics 插件
    * 操作类型：初始化 pt
@@ -88,7 +88,7 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ### 示例 1
 
-以下代码是 getQueryParam 插件的一部分。  该代码会针对 URL querystring (fullQueryString) 中包含的每个键值对运行 getParameterValue 帮助程序函数。  为了提取每个键值对，必须使用与号“&amp;”拆分 fullQueryString。 parameterKey 是指插件尝试从查询字符串中提取的特定查询字符串参数
+以下代码是 getQueryParam 插件的一部分。  该代码会针对 URL querystring (fullQueryString) 中包含的每个键值对运行 getParameterValue 帮助程序函数。  为了提取每个键值对，必须使用与号“&amp;”对 fullQueryString 进行分隔和拆分。 parameterKey 是指插件尝试从查询字符串中提取的特定查询字符串参数
 
 ```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
@@ -120,7 +120,7 @@ for(var i = 0; i < parametersLength; i++)
 ### 2.0（2018 年 4 月 17 日）
 
 * 修正版本（重新编译，代码更小）。
-* 增加了对 H 代码和 AppMeasurement 的支持。
+* 增加了对 H 码和 AppMeasurement 的支持。
 
 ### 1.0（2013 年 9 月 23 日）
 

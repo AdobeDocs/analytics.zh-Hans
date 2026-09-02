@@ -23,8 +23,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 69%
+source-wordcount: 653
+ht-degree: 64%
 
 ---
 
@@ -32,7 +32,8 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
-> 本文为（计划）在其网站上实施Adobe Analytics **的** Adobe Analytics客户提供了有关如何为网站用户提供选择退出链接的说明。 <p><p>> 如果您&#x200B;**正在访问已实施Adobe Analytics**&#x200B;的网站，并且希望选择退出，则&#x200B;**<span style="color:red">本文不适合您</span>**。请参阅[Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html)以控制Adobe如何使用您的信息。
+> 本文为（计划）在其网站上实施Adobe Analytics **的** Adobe Analytics客户提供了有关如何为网站用户提供选择退出链接的说明。 <p><p>
+> 如果您&#x200B;**正在访问已实施Adobe Analytics**&#x200B;的网站，并且希望选择退出，则&#x200B;**<span style="color:red">本文不适合您</span>**。 请参阅[Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html)以控制Adobe如何使用您的信息。
 
 某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。 Adobe让您能够向网站访客提供一种方法，禁止对其信息进行分析。
 
@@ -49,32 +50,32 @@ ht-degree: 69%
 贵组织的选择退出页面取决于实施中的 [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 变量值。
 
 * 在Analytics扩展中：
-   1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-   1. 单击所需的标记属性。
-   1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
-   1. 单击[!UICONTROL 常规]折叠面板，并记下[!UICONTROL 跟踪服务器]值。
+  1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+  1. 单击所需的标记属性。
+  1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
+  1. 单击[!UICONTROL 常规]折叠面板，并记下[!UICONTROL 跟踪服务器]值。
 
 * 在 JavaScript 实施中：
-   1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
-   1. 记下 `trackingServer` 变量值。
+  1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
+  1. 记下 `trackingServer` 变量值。
 
 * 使用[Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)：
-   1. 使用 Chrome 浏览器导航到您的网站。
-   1. 打开CX Enterprise Debugger，然后转到[!UICONTROL 网络选项卡]。
-   1. 记下[!UICONTROL 请求 URL - 主机名]值。
+  1. 使用 Chrome 浏览器导航到您的网站。
+  1. 打开CX Enterprise Debugger，然后转到[!UICONTROL 网络选项卡]。
+  1. 记下[!UICONTROL 请求 URL - 主机名]值。
 
 找到实施的 `trackingServer` 域后，将路径 `/optout.html` 附加到结尾处。 例如：
 
 * 第三方 Cookie：`https://example.data.adobedc.net/optout.html`
 * 第一方 Cookie: `https://stats.example.com/optout.html`
 
-## 选择退出查询字符串参数
+## 选择禁用查询字符串参数
 
 有些设置您可以使用查询字符串自动加载到此页面上。
 
 ### 区域设置
 
-通过包含 `locale` 查询字符串参数自动切换选择退出页面的语言。 为此查询字符串参数分配以下任一值：
+通过包含 `locale` 查询字符串参数自动切换选择退出页面的语言。 将此查询字符串参数设置为以下任一值：
 
 * `en_US` （英语，默认）
 * `bg_BG` （保加利亚语）
@@ -109,7 +110,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->以前，此查询字符串参数会强制作为弹出窗口。 但是，大多数现代浏览器都会控制向最终用户显示弹出窗口。
+>以前，此查询字符串参数会强制页面以弹出窗口形式打开。 但是，大多数现代浏览器都会将弹出窗口的控制权交给最终用户。
 
 ### 单击选择退出
 

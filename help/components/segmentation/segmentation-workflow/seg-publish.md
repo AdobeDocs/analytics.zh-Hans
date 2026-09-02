@@ -88,7 +88,7 @@ ht-degree: 31%
 
    >[!IMPORTANT]
    >
-   >将Experience Cloud数字与Audience Manager数字进行比较时，请确保在&#x200B;**[!UICONTROL 数据预览]**&#x200B;中监视&#x200B;**[!UICONTROL 具有Adobe Analytics ID]**&#x200B;的访客，而不是&#x200B;**[!UICONTROL 独特访客]**。
+   >将Adobe Analytics数字与Audience Manager数字进行比较时，请确保在&#x200B;**[!UICONTROL 数据预览]**&#x200B;中监视&#x200B;**[!UICONTROL 具有Experience Cloud ID]**&#x200B;的访客，而不是&#x200B;**[!UICONTROL 独特访客]**。
    >
 
 | 元素 | 描述 |

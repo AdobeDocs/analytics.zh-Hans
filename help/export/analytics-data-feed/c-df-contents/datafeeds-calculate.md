@@ -28,7 +28,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Analysis Workspace 中不包含的点击通常包含在数据馈送中。 考虑为您相关的查询添加以下条件：
+>Analysis Workspace 中通常排除的点击包含在数据馈送中。 如果这些条件与您的查询相关，请考虑添加以下条件：
 >
 >* **`exclude_hit`**： Analysis Workspace 仅包含符合 `exclude_hit = 0` 的数据。
 >* **`customer_perspective`**： Analysis Workspace 仅包含符合 `customer_perspective = 0` 的数据，除非您使用的虚拟报告包中包含了移动后台点击。
@@ -73,7 +73,7 @@ Adobe用于识别独特访客的所有方法（自定义访客ID、ECID等） �
 
 ## 逗留时间
 
-首先，必须按访问对点击进行分组，然后按照访问中的点击数进行排序。
+首先，必须按访问对点击进行分组，然后根据访问中的点击编号进行排序。
 
 1. 拼接 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 2. 按此拼接值排序，然后按 `visit_page_num` 进行二级排序。

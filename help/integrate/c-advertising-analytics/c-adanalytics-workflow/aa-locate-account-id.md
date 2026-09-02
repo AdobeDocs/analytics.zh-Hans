@@ -56,9 +56,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="帐户 ID"
->abstract="&#39;帐户 ID&#39; 是一个数字值，位于 Microsoft Advertising 界面中。 您可以通过导航至“设置”>“帐户设置”>“帐户 ID”找到该值。"
+>abstract="&#39;帐户 ID&#39; 是一个数值，位于 Microsoft Advertising 界面中。 您可以通过导航至“设置”>“帐户设置”>“帐户 ID”找到该值。"
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
 >title="管理器帐户 ID"
->abstract="&#39;管理器帐户 ID&#39; 是一个数字值，位于 Microsoft Advertising 界面中。 您可以通过导航至“设置”>“管理器帐户设置”>“管理器帐户 ID”找到该值。"
+>abstract="&#39;管理器帐户 ID&#39; 是一个数值，位于 Microsoft Advertising 界面中。 您可以通过导航至“设置”>“管理器帐户设置”>“管理器帐户 ID”找到该值。"

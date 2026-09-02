@@ -35,4 +35,4 @@ ht-degree: 92%
 
 ## 维度项目
 
-维度项目包括您网站上的服务器。 贵组织会确定您要使用的具体维度项目。 有些组织使用 `window.location.hostname`，而另一些组织则制定自定义值。 无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。
+维度项目包括您网站上的服务器。 贵组织会确定您要使用的具体维度项。 有些组织使用 `window.location.hostname`，而另一些组织则制定自定义值。 无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。

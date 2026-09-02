@@ -32,7 +32,7 @@ ht-degree: 98%
 
 Adobe Analytics 依靠第一方 Cookie 记录访客在网站上的活动。 Analytics 还依靠第三方 Cookie 了解访客的站外活动，例如在您拥有的其他域上的活动。 许多浏览器上阻止了第三方 Cookie，并且随着 Chrome 即将停止支持（目前计划于 2024 年底），大量第三方 Cookie 将不可用。 所有浏览器上允许第一方 Cookie，但根据 Apple 的 [ITP 跟踪预防](https://webkit.org/tracking-prevention)措施，在 Safari 和其他浏览器上具有有限的失效期。 有关对浏览器 Cookie 当前限制的更多信息，请参阅 [Adobe Analytics 和浏览器 Cookie](cookies.md)。
 
-这些浏览器限制反映了一个更广泛的趋势，即从匿名第三方跟踪转向用户与他们所信任品牌之间明确的信息共享。 为了支持这种转变，Adobe 为客户提供了方法来补充传统 Cookie，这种方法是包括通过其第一方关系收集的持久标识符。
+这些浏览器限制反映了一个更广泛的趋势，即从匿名第三方跟踪转向用户与他们所信任品牌之间明确的信息共享。 为了支持这种转变，Adobe 为客户提供了通过纳入经由其第一方关系收集的持久标识符来补充传统 Cookie 的方法。
 
 ## Customer Journey Analytics 和 Cross Device Analytics
 

@@ -75,7 +75,7 @@ ht-degree: 24%
    <td colname="col2"> <p>指定Report Builder上次处理请求的日期。 诊断消息也会显示在此表的“<span class="wintitle">上次运行</span>”列中（如果适用）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>加 </p> </td> 
+   <td colname="col1"> <p>添加 </p> </td> 
    <td colname="col2"> <p>显示请求向导对话框。 请参阅<a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   >创建数据请求</a>。 </p> </td> 
   </tr> 
   <tr> 

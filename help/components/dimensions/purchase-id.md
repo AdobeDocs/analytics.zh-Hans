@@ -27,7 +27,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->此维度只能在 Data warehouse 中使用。
+>此维度只能在 Data Warehouse 中使用。
 
 ## 使用数据填充此维度
 

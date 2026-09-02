@@ -71,7 +71,7 @@ ht-degree: 72%
 <tbody> 
 <tr> 
    <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>域特定于当前Analytics用户群的电子邮件ID。 域只能由一个组织的声明，并且只有系统管理员才能声明域。 有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/enterprise/help/request-access-to-claimed-domain.html">请求对声明域的访问权限</a>。 </p> </td> 
+   <td colname="col2"> <p>域特定于当前Analytics用户群的电子邮件ID。 域只能由一个组织声明，并且只有系统管理员才能声明域。 有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/enterprise/help/request-access-to-claimed-domain.html">请求对声明域的访问权限</a>。 </p> </td> 
 </tr> 
 <tr> 
    <td colname="col1"> <p>声明的域 </p> </td> 

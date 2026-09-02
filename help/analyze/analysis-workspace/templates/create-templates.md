@@ -30,7 +30,7 @@ ht-degree: 100%
 
 要创建可供您登录公司中的人员使用的新模板：
 
-1. 在 Analysis Workspace 中，按照所需状态生成项目。
+1. 在 Analysis Workspace 中，将项目构建到所需状态。
 
 1. 选择&#x200B;[!UICONTROL **项目**] > **[!UICONTROL 另存为模板……]**。
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 1. 如果您正在卡片视图![卡片视图图标](assets/card-view-icon.png)中查看模板：
 
-   1. 找到您要编辑或删除模板的位置。
+   1. 找到您要编辑或删除的模板。
 
       ![公司模板卡片视图](assets/company-template-cards.png)
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 1. 在过滤器边栏中，选择 **OTHER FILTERS**，然后选择&#x200B;**公司模板**。
 
-   显示公司模板的列表。 不会显示所有常规项目（除非已固定）。
+   显示公司模板的列表。 所有常规项目都不会显示，除非这些项目已固定。
 
    公司模板可通过模板名称前的![模板图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)识别。
 

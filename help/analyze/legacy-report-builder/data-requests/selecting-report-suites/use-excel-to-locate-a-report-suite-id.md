@@ -1,5 +1,5 @@
 ---
-description: 如果您不知道报表包的 ID，可以将“报表包”菜单中“报表包”字段的值拖放到 Excel 工作簿的单元格中。
+description: 如果您不知道报告包的 ID，可以将“报告包”菜单中“报告包”字段的值拖放到 Excel 工作簿的单元格中。
 title: 使用 Excel 查找报告包 ID
 uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
 feature: Report Builder
@@ -25,4 +25,4 @@ ht-degree: 100%
 
 {{legacy-arb}}
 
-如果您不知道报表包的 ID，可以将“报表包”菜单中“报表包”字段的值拖放到 Excel 工作簿的单元格中。
+如果您不知道报告包的 ID，可以将“报告包”菜单中“报告包”字段的值拖放到 Excel 工作簿的单元格中。

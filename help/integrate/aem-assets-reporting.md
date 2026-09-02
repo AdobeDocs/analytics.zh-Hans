@@ -32,7 +32,7 @@ ht-degree: 100%
 
 使 Analytics 可收集从 AEM Asset Insights 提供的[!UICONTROL 资产]的展示次数和点击次数。 此集成
 
-* 在 Analytics 中启用了报告功能。
+* 在 Analytics 中启用报告功能。
 * 将新维度添加到 Analysis Workspace 中的资源变量：资源 ID、资源来源和已点击的资源 ID
 * 向资产事件中添加了以下新维度：“资产点击次数”和“资产展示次数”
 

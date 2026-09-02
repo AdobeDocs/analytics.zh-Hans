@@ -39,7 +39,7 @@ ht-degree: 94%
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击&#x200B;**[!UICONTROL 新建属性]**。
 1. 为您的属性指定名称（如网站的标题），然后输入要在其中实施 Analytics 的域。 单击&#x200B;**[!UICONTROL 保存]**。
-1. 单击新创建的标记属性以输入其设置。
+1. 单击新创建的标记属性以进入其设置。
 1. 单击&#x200B;**[!UICONTROL 扩展]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 目录]**。
 1. 找到 &#39;Experience Cloud ID 服务&#39;，然后点击 **[!UICONTROL 安装]**.
 1. 应已填写所有设置，包括IMS组织ID。 单击&#x200B;**[!UICONTROL 保存]**。
@@ -77,8 +77,8 @@ ht-degree: 94%
 1. 单击 **[!UICONTROL 规则]** 选项卡，然后单击 **[!UICONTROL 添加规则]**。 将其命名为 `Global Rule`。
 1. 单击事件旁边的&#x200B;**[!UICONTROL 添加]**，然后输入以下设置：
    * 扩展：核心
-   * 事件类型：已加载的库（页面顶部）
-   * 名称：核心 - 已加载的库（页面顶部）
+   * 事件类型：库已加载（页面顶部）
+   * 名称：核心 - 库已加载（页面顶部）
 1. 单击&#x200B;**[!UICONTROL 保留更改]**。
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;下，单击&#x200B;**[!UICONTROL 添加]**，然后输入以下设置：
    * 扩展：Adobe Analytics

@@ -1,6 +1,6 @@
 ---
 title: 同意管理选择加入
-description: 查看访客选择加入的隐私设置。
+description: 查看访客选择启用的隐私设置。
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
 TQID: https://experienceleague.adobe.com/hvtKcglMPFz4FbInpuSs9haS5SwGNQpVWXn12M1x658
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 # 同意管理选择加入
 
-“同意管理选择加入”维度[维度](overview.md)显示访客已选择加入哪些隐私设置。 您可以使用此维度根据隐私设置过滤数据，或查看最常见的隐私选择加入原因。
+“同意管理选择加入”维度[维度](overview.md)显示访客已选择加入哪些隐私设置。 您可以使用此维度根据隐私设置过滤数据，或查看最常见的隐私选择启用原因。
 
 ## 使用数据填充此维度
 
@@ -35,7 +35,7 @@ ht-degree: 90%
 * `contextData.['opt.dmp']`（当设置为 `Y`）。 如果 `opt.dmp` 等于 `N`，则改为填充[同意管理选择退出](cm-opt-out.md)维度。
 * `contextData.['opt.sell']`（当设置为 `Y`）。 如果 `opt.sell` 等于 `N`，则改为填充[同意管理选择退出](cm-opt-out.md)维度。
 
-您的组织确定实现这些上下文数据变量的逻辑。 它们在点击之后便不再存在，因此您必须在每个页面上设置每个上下文数据变量。
+您的组织确定实施这些上下文数据变量的逻辑。 它们在点击之后便不再存在，因此您必须在每个页面上设置每个上下文数据变量。
 
 ## 维度项目
 

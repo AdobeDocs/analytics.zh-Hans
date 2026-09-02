@@ -26,7 +26,7 @@ ht-degree: 87%
 
 ## 使用数据填充此维度
 
-此维度正常使用的唯一要求是：在报表包设置中正确配置[付费搜索检测](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)。 如果付费搜索检测配置正确且报表包包含数据，则此维度始终有效。
+此维度正常使用的唯一要求是：在报表包设置中正确配置[付费搜索检测](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)。 如果付费搜索检测配置正确且报告包包含数据，则此维度始终有效。
 
 ## 维度项目
 

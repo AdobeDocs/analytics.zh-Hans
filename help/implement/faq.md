@@ -42,7 +42,7 @@ Identity Service分配一个唯一的永久标识符，该标识符可以在CX E
 
 请参阅[在 Adobe Analytics 中测量音频和视频](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。
 
-## Adobe 的服务中断会影响库性能吗？
+## Adobe 的服务中断会影响性能吗？
 
 不会。 由于 JavaScript 文件并非是在 Adobe 服务器上托管，因此 Adobe 的故障将不会影响 AppMeasurement 库。 如果您使用 Adobe Experience Platform 中的标记，则 JavaScript 文件由 Akamai 托管，或者托管在由贵组织确定的服务器位置上。
 
@@ -65,7 +65,7 @@ var s = new Object();
 >
 >请勿：
 >
->* 将报表包更改为无效值，因为它会在 Adobe 服务器上产生不必要的负载。
+>* 将报告包更改为无效值，因为它会在 Adobe 服务器上产生不必要的负载。
 >* 同时移除 `s_code.js` 文件，除非您还移除了每个页面上对该文件的所有引用。
 >* 更改 `trackingServer` 变量使其指向 Adobe 之外的服务器。 AppMeasurement 仍会发送图像请求，这会返回 404 错误。
 

@@ -40,12 +40,12 @@ ht-degree: 97%
 
 ## 使用数据填充此维度
 
-此维度需要在 Analytics 界面中进行配置，并获取图像请求中的数据。
+此维度需要在 Analytics 界面中进行配置，并且需要图像请求中的数据。
 
 * 在实施中，此维度从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 AppMeasurement 使用浏览器中的 JavaScript 变量 `document.referrer` 收集此数据。 如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在图像请求中包含 `r` 查询字符串参数。
-* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 无法配置内部 URL 过滤器，可能会包含内部域或阻止出现外部域。
+* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 如果未配置内部 URL 过滤器，则可能会包含内部域，或者阻止外部域显示。
 
-Adobe 继续提供访问的反向链接域。 如果访客离开并在单次访问中点击不同域上的链接，则新值会更新并且在剩余的访问时间内持续存在。 如果只想查看原始值，请参阅[原始反向链接域](original-referring-domain.md)。
+Adobe 会在一次访问期间保留反向链接域。 如果访客离开并在单次访问中点击不同域上的链接，则新值会更新并且在剩余的访问时间内持续存在。 如果只想查看原始值，请参阅[原始反向链接域](original-referring-domain.md)。
 
 ## 维度项目
 

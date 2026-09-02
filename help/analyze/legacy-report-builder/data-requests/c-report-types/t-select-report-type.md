@@ -1,5 +1,5 @@
 ---
-description: 为数据请求选择基本报表类型的步骤。
+description: 为数据请求选择基本报告类型的步骤。
 title: 选择报告类型
 feature: Report Builder
 role: User, Admin
@@ -24,8 +24,8 @@ ht-degree: 100%
 
 {{legacy-arb}}
 
-为数据请求选择基本报表类型的步骤。
+为数据请求选择基本报告类型的步骤。
 
 1. 导航到“[!UICONTROL 请求向导: 第 1 步]”窗口。
 1. 从&#x200B;**[!UICONTROL 报表包]**&#x200B;菜单中选择一个报表包。
-1. 为数据请求选择基本报表类型。
+1. 为数据请求选择基本报告类型。

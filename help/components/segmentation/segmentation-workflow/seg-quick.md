@@ -86,12 +86,12 @@ ht-degree: 70%
 
 ### 标题区域
 
-标题区域决定了快速区段的名称、类型和范围。 它还显示了快速区段结果的视觉效果。
+标头区域决定了快速区段的名称、类型和范围。 它还显示了快速区段结果的视觉效果。
 
 | 元素 | 描述 |
 |---|---|
 | **[!UICONTROL 名称]** | 该名称是从快速区段的定义自动得出的。 |
-| **[!UICONTROL _指标_]** <br/>![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) ![警报](/help/assets/icons/Alert.svg) | 预览由快速区段生成的量度数据。 通过条形图和百分比可以洞察总体数据中有多少是快速区段结果的一部分。 ![警报](/help/assets/icons/AlertRed.svg)表示快速区段未返回数据。 |
+| **[!UICONTROL _指标_]** <br/>![复选标记圆](/help/assets/icons/CheckmarkCircle.svg) ![警报](/help/assets/icons/Alert.svg) | 预览由快速区段生成的量度数据。 条形图和百分比可帮助您了解总体数据中有多少属于快速区段结果。 ![警报](/help/assets/icons/AlertRed.svg)表示快速区段未返回数据。 |
 | **[!UICONTROL 包括]**<br/>**[!UICONTROL 排除]** | 从下拉列表![ChevronDown](/help/assets/icons/ChevronDown.svg)中选择是否要从面板中的数据包括或排除快速区段的结果。 |
 | **[!UICONTROL 事件]**<br/>**[!UICONTROL 会话]**<br/>**[!UICONTROL 人员]**<br/>**[!UICONTROL 产品]** | 从下拉菜单![ChevronDown](/help/assets/icons/ChevronDown.svg)中选择快速区段的范围。 对[子点击分析](/help/components/segmentation/sub-hit.md)用例使用&#x200B;**[!UICONTROL 产品]**。<ul><li>将产品维度或产品量度拖入快速区段面板时，系统会自动选择&#x200B;**[!UICONTROL 产品]**&#x200B;容器，并且不使用默认的&#x200B;**[!UICONTROL 点击]**&#x200B;容器。 此行为将区段的范围限制为单个产品，而不是整个点击。</li><li>将产品级组件和点击级组件拖入单个区段规则时，系统使用&#x200B;**[!UICONTROL 点击]**&#x200B;容器，这是最高（粒度最小）的共享容器。 如果属于区段规则的所有组件都是产品级别的，则使用&#x200B;**[!UICONTROL Products]**&#x200B;容器。</li></ul> |
 
@@ -102,7 +102,7 @@ ht-degree: 70%
 | 元素 | 描述 |
 |---|---|
 | **[!UICONTROL 维度]**<br/>**[!UICONTROL 量度]**<br/>**[!UICONTROL 日期范围]** | 从下拉菜单![ChevronDown](/help/assets/icons/ChevronDown.svg)中选择是否要为维度、量度或日期范围指定条件。 |
-| **[!UICONTROL *组件&#x200B;*]** | 条件的组件字段。 您可以&#x200B;[!UICONTROL *通过输入来添加*]&#x200B;组件，从列表中选择组件，或者从组件面板中拖放组件。 您只能将相似的组件放在条件的组件字段上。 例如，您只能将维度组件从组件面板拖放到维度条件上。 <br/>您还可以通过拖放操作来替换现有组件。<br/>选择 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 从组件字段中删除该组件。 |
+| **[!UICONTROL *组件&#x200B;*]** | 条件的组件字段。 您可以&#x200B;[!UICONTROL *通过输入来添加*]&#x200B;组件，从列表中选择组件，或者从组件面板中拖放组件。 您只能将相似的组件拖放到条件的组件字段中。 例如，您只能将维度组件从组件面板拖放到维度条件上。 <br/>您还可以通过拖放操作来替换现有组件。<br/>选择 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 从组件字段中删除该组件。 |
 | **[!UICONTROL *运算符&#x200B;*]** | 组件的运算符。 有关更多信息，请参阅[运算符](../seg-reference/seg-operators.md)。 仅适用于维度和量度。 |
 | **[!UICONTROL *值&#x200B;*]** | 条件的值。 根据所选的运算符，可以从列表中选择值或者输入一个值。 |
 | ![CrossSize75](/help/assets/icons/CrossSize75.svg) | 选择从快速区段中删除一个条件。 |
@@ -115,7 +115,7 @@ ht-degree: 70%
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | 在您的快速区段中添加另一个条件。 只有在您为快速区段定义了一个或两个条件后，此按钮才可用。 |
 | **[!UICONTROL 应用]** | 将更改应用于快速区段。 |
 | **[!UICONTROL 打开生成器]** | 系统将提示您使用&#x200B;**[!UICONTROL 进行确认。是否确定？]** 对话框。 如果您选择&#x200B;**[!UICONTROL 确定]**，您将无法再在[快速区段生成器](#quick-segment-builder)中更改您的区段。您的快速区段已重命名为&#x200B;**[!UICONTROL 区段]**，并且现在有一个深蓝色的细长左侧边栏。<br/>常规[区段生成器](seg-build.md)打开时会显示以下选项：**[!UICONTROL 使此区段可用于您的所有项目，并将其添加到您的组件列表中]**。 <ul><li>如果选择此选项并选择&#x200B;**[!UICONTROL 应用]**，则该区段将添加到组件面板中的![区段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 区段]**&#x200B;组件列表中。</li><li>如果您不选择此选项，并选择&#x200B;**[!UICONTROL 应用]**，该区段就仍然是仅限于工作区项目的区段。</li></ul> |
-| **[!UICONTROL 取消]** | 选择取消创建或编辑快速区段。 |
+| **[!UICONTROL 取消]** | 选择以取消创建或编辑快速区段。 |
 
 ## 快速区段与区段
 

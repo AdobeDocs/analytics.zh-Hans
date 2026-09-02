@@ -36,7 +36,7 @@ ht-degree: 95%
 
 ## 使用数据填充这些维度
 
-这些维度参考 Adobe 内部的查找规则。
+这些维度引用 Adobe 内部的查找规则。
 
 * 对于[!UICONTROL 移动运营商]维度，Adobe 与 [Digital Element](https://www.digitalelement.com/) 合作，使用 NetAcuity 来维护 IP 地址和移动运营商之间的查找。
 * 对于所有其他移动维度，Adobe 与 [DeviceAtlas](https://deviceatlas.com/) 合作，维护用户代理和各个移动维度之间的查找。
@@ -78,12 +78,12 @@ ht-degree: 95%
 
 ## 按型号或版本区分 iPhone
 
-移动设备会报告用户代理字符串中的固件版本，而非设备版本。 例如，如果当代 iPhone 与上一代 iPhone 使用相同的固件版本，则二者包含相同的用户代理。 由于无法使用 JavaScript 确定 iPhone 的设备版本，所有 iPhone 都属于同一存储桶。 移动设备维度完全基于引用用户代理的查找，因此所有 iPhone 显示的移动屏幕尺寸均为 `320 x 480`。
+移动设备会在用户代理字符串中报告其固件版本，而非设备版本。 例如，如果当代 iPhone 与上一代 iPhone 使用相同的固件版本，则二者包含相同的用户代理。 由于无法使用 JavaScript 确定 iPhone 的设备版本，所有 iPhone 都属于同一存储桶。 移动设备维度完全基于引用用户代理的查找，因此所有 iPhone 显示的移动屏幕尺寸均为 `320 x 480`。
 
 如果要收集 iPhone 设备版本，有两种方法可以规避此限制。
 
 * **使用 Mobile SDK**：Mobile SDK 包含用于报告的设备版本维度。 与网站相比，此方法更适合于移动设备应用程序。
-* **使用通过 JavaScript 提供的其他变量**：某些变量（例如 `screen.height` 和 `screen.width`）可用于推断设备版本。 例如，您可以在网站上使用以下代码片断：
+* **使用通过 JavaScript 提供的其他变量**：某些变量（例如 `screen.height` 和 `screen.width`）可用于推断设备版本。 例如，您可以在网站上使用以下代码片段：
 
   ```js
   if (navigator.userAgent.indexOf('iPhone') > -1) {
@@ -91,4 +91,4 @@ ht-degree: 95%
     }
   ```
 
-  此代码块首先会检测设备是否为 iPhone。 如果是，则代码会使用 JavaScript 将屏幕分辨率拉入 eVar。 如果屏幕分辨率是唯一的，此方法让您能够大致检测设备版本。
+  此代码块首先会检测设备是否为 iPhone。 如果是，则代码会使用 JavaScript 将屏幕分辨率提取到 eVar 中。 如果屏幕分辨率是唯一的，此方法让您能够大致检测设备版本。

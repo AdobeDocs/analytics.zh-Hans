@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 383
+source-wordcount: 387
 ht-degree: 6%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 6%
    ![计划的历史记录](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    使用![搜索](/help/assets/icons/Search.svg)搜索列表中的特定工作簿。
-使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定义要显示的列。
+   使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定义要显示的列。
 
    使用&#x200B;**[!UICONTROL 历史记录]**&#x200B;选项卡可复查每个计划任务的状态。 单独的行记录每个计划任务的状态更改。
 

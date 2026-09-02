@@ -42,7 +42,7 @@ Web SDK会在发送的每个事件中自动包含`web.webReferrer.URL`（如果�
 
 ## 使用Adobe Analytics扩展的反向链接
 
-您可以在配置 Analytics 扩展时（全局变量）或根据规则设置反向链接。
+您可以在配置 Analytics 扩展时（全局变量）或在规则下设置反向链接。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
@@ -73,7 +73,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 ## 示例
 
-许多组织都会处理有关重定向的实施。 如果您的网站可使用 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 实用程序，则可以使用该实用程序从 URL 获取反向链接。 确保您会对查询字符串中包含的任何值进行 URL 编码。
+许多组织都会处理与重定向相关的实施工作。 如果您的网站可使用 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 实用程序，则可以使用该实用程序从 URL 获取反向链接。 确保您会对查询字符串中包含的任何值进行 URL 编码。
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org

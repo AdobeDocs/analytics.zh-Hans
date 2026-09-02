@@ -15,8 +15,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 121
-ht-degree: 64%
+source-wordcount: 125
+ht-degree: 62%
 
 ---
 
@@ -30,4 +30,4 @@ ht-degree: 64%
 
 ## 维度项目
 
-此维度始终只包含两个维度项目：`"AM"` 和 `"PM"`。 维度项`"AM"`适用于从午夜12:00到上午11:59的所有点击，而维度项`"PM"`适用于从正午12:00到下午11:59的所有点击。
+此维度始终只包含两个维度项目：`"AM"` 和 `"PM"`。 维度项`"AM"`适用于从午夜12:00到上午11:59的所有点击，而维度项`"PM"`则适用于从正午12:00到晚上11:59的所有点击。

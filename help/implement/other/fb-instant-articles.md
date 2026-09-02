@@ -93,7 +93,7 @@ Adobe 建议将您的 `stats.html` 页面与最新版本的 `AppMeasurement.js`�
 您可以通过两种不同方法，在您的 Analytics HTML 中跟踪自定义变量和事件：
 
 * 直接将变量值和事件包含到 `stats.html` 页面中。 此处定义的变量最适合存储通常对所有 Facebook Instant Articles 而言都相同的值。
-* 将变量值包含到引用 iFrame 的查询字符串中。 此方法允许您将变量值从 Facebook Instant Articles 发送到托管 Analytics 代码的 iFrame。
+* 将变量值包含到引用 iFrame 的查询字符串中。 此方法允许您将变量值从 Facebook Instant Article 发送到托管 Analytics 代码的 iFrame。
 
 以下示例显示了查询字符串中包含的几个自定义变量。 `stats.html` 中的 JavaScript 随后将使用 `s.Util.getQueryParam()` 检查查询字符串。
 
@@ -107,4 +107,4 @@ Adobe 建议将您的 `stats.html` 页面与最新版本的 `AppMeasurement.js`�
 
 ## Facebook Instant Articles 和隐私政策
 
-只要 Analytics HTML 页面托管在您的 Web 服务器中，Adobe 就能够在所有 Facebook Instant Articles 中支持您现有的隐私政策。 如果用户在主网站上选择退出跟踪，则他们也会在所有 Facebook Instant Articles 上选择退出跟踪。 该应用工具页还支持访客ID服务，以便您可以将Facebook即时文章数据与CX Enterprise的其他部分集成。
+只要 Analytics HTML 页面托管在您的 Web 服务器上，Adobe 就会在所有 Facebook Instant Articles 中遵循您现有的隐私政策。 如果用户在主网站上选择退出跟踪，则他们也会在所有 Facebook Instant Articles 上选择退出跟踪。 该应用工具页还支持访客ID服务，以便您可以将Facebook即时文章数据与CX Enterprise的其他部分集成。

@@ -30,13 +30,13 @@ ht-degree: 80%
 
 >[!TAB 紧凑]
 
-这是最浓缩的视图版本。
+这是视图最紧凑的版本。
 
 ![紧凑的视图密度。](assets/view-density-compact.png)
 
 >[!TAB 舒适]
 
-这是您在工作区中最常用的视图。
+这是您在 Workspace 中习惯使用的视图。
 
 ![扩展的视图密度。](assets/view-density-comfortable.png)
 
