@@ -6,14 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 TQID: https://experienceleague.adobe.com/0UyYFqVn5qAIimI3obHdsBbTsRirLl6llZf8Y3endLo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 475
@@ -59,11 +54,11 @@ ht-degree: 19%
 
 ## 工作流 {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 
-我们假定工作簿 A 具有一个请求，该工作簿处于锁定状态，且由用户 A 创建。
+我们假定工作簿 A 有一个请求，该请求处于锁定状态，且由用户 A 创建。
 
 **示例 1：管理员用户（或用户 A）**
 
-1. 用户登录到 Report Builder 并打开工作簿
+1. 用户登录到 Report Builder 并打开工作簿 A。
 1. 工作簿 A 当前已锁定，因此“创建请求”按钮在工具栏中处于停用状态，且所有其他按钮的功能均因锁定而被禁用。
 1. 如果用户尝试使用其中一个已停用的按钮，则会显示一条消息，指出工作簿当前已被锁定。
 1. 用户可以解锁工作簿，从而启用完整的编辑功能。
@@ -71,6 +66,6 @@ ht-degree: 19%
 
 **示例 2：非管理员用户（用户 B）**
 
-1. 用户登录到 Report Builder 并打开工作簿
+1. 用户登录到 Report Builder 并打开工作簿 A。
 1. 用户无法添加/编辑请求。
 1. 用户无法解锁工作簿。

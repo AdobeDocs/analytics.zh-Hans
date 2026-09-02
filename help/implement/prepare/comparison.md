@@ -5,18 +5,10 @@ exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/Tx3YIRJv4Qztv-Bsa9XJFMFVE0PW9SnvgrYeMmrULiA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 500
@@ -26,7 +18,7 @@ ht-degree: 56%
 
 # 比较实施方法
 
-了解每种实施 Adobe Analytics 的方法的比较情况。 您可以使用这些表来帮助您的组织确定将数据发送到Adobe的最理想方式。 单击每一列以了解更多具体信息。
+了解实施 Adobe Analytics 的各种方法之间的比较情况。 您可以使用这些表来帮助您的组织确定将数据发送到Adobe的最理想方式。 单击每一列以了解更多具体信息。
 
 ## Web
 
@@ -52,7 +44,7 @@ ht-degree: 56%
 | 实施要求 | 在应用程序中引用标记加载器，然后使用数据收集UI中的直接API调用或规则来构建XDM对象，并使用Edge Network将所需数据发送到Adobe Analytics | 使用Edge Network API构建XDM对象，并使用Edge Network将所需数据发送到Adobe Analytics |
 | 数据目标 | 发送到 Adobe Experience Platform Edge，后者会将数据转发到 Adobe Analytics | 发送到 Adobe Experience Platform Edge，后者会将数据转发到 Adobe Analytics |
 | 难以进行实施调整 | 更改从中进行直接API调用的应用程序代码，或更改数据收集UI | 每次实施更改都需要访问应用程序代码 |
-| 如何处理 A4T | A4T 调用作为单独的点击发送 | A4T 调用作为单独的点击发送 |
+| 如何处理 A4T | A4T 调用作为单独的点击量发送 | A4T 调用作为单独的点击发送 |
 | 上下文数据 | 作为 `a.x.*` 上下文数据变量自动发送所有未映射的字段。 | 所有未映射的字段都会作为`a.x.*`上下文数据变量自动发送 |
 
 {style="table-layout:auto"}

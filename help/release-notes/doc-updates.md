@@ -6,31 +6,10 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
 workflow-type: tm+mt
 source-wordcount: 7421
@@ -42,7 +21,7 @@ ht-degree: 93%
 
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
-* 有关[!UICONTROL Customer Journey Analytics]的信息，请参阅[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans)。
+* 有关[!UICONTROL Customer Journey Analytics]的信息，请参阅[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)。
 * 有关 Adobe 流媒体服务的信息，请参阅[在 Analytics 中测量音频和视频](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。
 
 ## 有关主要文档更新的详细信息
@@ -56,19 +35,19 @@ ht-degree: 93%
 | **2026年6月** | |
 | 查询字符串引用更新 | 对[数据收集查询参数](/help/implement/validate/query-parameters.md)的重要修订。 |
 | Data Warehouse中的区段 | 更新了[Data Warehouse区段兼容性](/help/export/data-warehouse/segment-compatibility.md)。 |
-| 已将GA更换为AA导轨 | GA到AA指南引用了Universal Analytics，后者于2023年废止。 新指南已替换它，[从Google Analytics 4过渡到Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
+| 已将GA更换为AA导轨 | GA到AA指南引用了Universal Analytics，后者于2023年废止。 新指南已替换它，[从Google Analytics 4过渡到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026 年 5 月** | |
 | 流媒体维度和量度 | 流媒体文档的重要更新。 示例链接包括[流媒体服务核心维度](/help/components/dimensions/sm-core.md)和[流媒体服务核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
-| 划分面板 | 重新整理了[&#128279;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)面板放置区域文档的结构，以支持新的[划分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
+| 划分面板 | 重新整理了](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)面板放置区域[文档的结构，以支持新的[划分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
 | 已识别新报表包的IP模糊处理的默认选项 | 添加了信息来声明&#x200B;**删除IP地址**&#x200B;是新报表包的默认[IP模糊处理选项](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。 |
-| 处理订单大修 | 显着改进了Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中的处理顺序。 |
+| 处理订单大修 | 显着改进了Adobe Analytics](/help/technotes/processing-order.md)中的[处理顺序。 |
 | Adobe Advertising集成 | 添加了Adobe Advertising集成维度和指标，包括[AMO ID](/help/components/dimensions/amo-id.md)。 |
 | **2026 年 2 月** |  |
-| 添加了有关使用地理和技术报表的信息 | 添加了有关在不同的Analytics产品[&#128279;](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理和技术报表时差异的信息。 |
+| 添加了有关使用地理和技术报表的信息 | 添加了有关在不同的Analytics产品](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理和技术报表[时差异的信息。 |
 | **2026 年 1 月** | |
-| 分类集规则生成器 | 有关分类集[&#128279;](/help/components/classifications/sets/manage/rules.md)功能中新的规则生成器功能的文档。 |
-| 设备图 | 已删除对[已停用的设备图功能](https://experienceleague.adobe.com/zh-hans/docs/discontinued/using/device-graph)的引用。 |
+| 分类集规则生成器 | 有关分类集](/help/components/classifications/sets/manage/rules.md)功能中新的[规则生成器功能的文档。 |
+| 设备图 | 已删除对[已停用的设备图功能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)的引用。 |
 
 ### 2025 {#year2025}
 
@@ -79,7 +58,7 @@ ht-degree: 93%
 | 为会话式 AI 工具添加数据列 ID | 在 ref_type 列中为会话式 AI 工具添加了[数据列引用 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
 | **2025 年 10 月** | |
 | 分类集 | [分类集](/help/components/classifications/sets/overview.md)文档的更新。 |
-| 归因配置 | 反映出关于模型、容器和回顾窗口的新的归因配置选项的其他更新。 |
+| 归因配置 | 进行了其他更新，以反映模型、容器和回顾窗口的新归因配置选项。 |
 | 额外访客识别改进 | 添加了[访客识别](/help/implement/id/overview.md)部分，概述了在所有实施类型中识别访客的推荐方法。 |
 | **2025 年 9 月** | |
 | 访客识别改进 | 说明了有关访客识别的最佳做法，重点说明了 AppMeasurement 中 `trackingServer` 和 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 变量的用途。 |
@@ -88,18 +67,18 @@ ht-degree: 93%
 | 弃用警告 | 在[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)和[分类导入程序](/help/components/classifications/importer/c-working-with-saint.md)部分的文章中添加了弃用警告。 |
 | **2025 年 7 月** | |
 | 处理规则 | 处理规则相关文档已全面重写，提供了有关界面和当前使用场景的更多详细信息。 |
-| 调试程序 | 新文章介绍如何在 Analysis Workspace 中启用、使用及停用项目调试器。 |
-| 流量可视化性能优化建议 | 新增信息指出，在单个流量可视化中展开超过 10 个节点可能会影响报告加载时间。 |
+| 调试程序 | 新文章介绍如何在 Analysis Workspace 中启用、使用及禁用项目调试器。 |
+| 流量可视化性能推荐 | 新增信息指出，在单个流量可视化中展开超过 10 个节点可能会影响报告加载时间。 |
 | 审查和更新 | 审查和更新 Analysis Workspace 文档。 在适当的情况下，文档现已与 Customer Journey Analytics 中关于 Analysis Workspace 的文档保持一致。 |
 | **2025 年 6 月** | |
 | 新的快捷键操作 | 现在，Analysis Workspace 中的新键盘快捷键允许您[在项目中上下移动工作区面板](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) 。 |
 | **2025 年 3 月** |  |
 | 分析库存 | [分析库存](/help/admin/tools/analytics-inventory.md)提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。 |
 | Customer Journey Analytics 升级指南 | 让您生成从 Adobe Analytics 升级到 Customer Journey Analytics 的[分步指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
-| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读 Data Warehouse 导出日期值的信息。 <p>在Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中的组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
+| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读 Data Warehouse 导出中的日期值的信息。 <p>在Data Warehouse](/help/export/data-warehouse/component-support.md)中的[组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
 | 关于 IP 排除的更新信息 | 添加了说明 [IP 排除](/help/admin/tools/exclude-ip.md)可能需要长达 5 分钟才能生效，并且更改仅适用于新的点击（设置排除之前捕获的数据不受影响）。 <p>还更新了内容布局以提高可读性。</p> |
 | **2025 年 2 月** |  |
-| 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。 从馈送暂停到重新激活期间不处理数据。 |
+| 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。 从馈送暂停到重新激活期间，不会进行数据处理。 |
 | 更改了交易 ID 保留期限 | 交易 ID 保留期从 90 天延长至 25 个月。 transactionID 变量可唯一地标识交易，以便将点击绑定到通过数据源上传的数据。 查看[页面变量](/help/implement/vars/page-vars/transactionid.md)和[数据源](/help/import/data-sources/transactionid.md)。 |
 | 直播 API - 客户端实施 | 使用[直播客户端实施](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)来使用直播数据。 |
 | 分类 API 更新 | 您现在可以[从服务器移除单个分类字段或键值](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)。 这是使用 DELETE 方法删除整个分类数据集的另一种方法。 |
@@ -121,9 +100,9 @@ ht-degree: 93%
 | **2024 年 7 月** | |
 | 成功事件 | 关于[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)的简化文档。 为了清晰和准确而更新。 |
 | 在管理位置时，必须选择至少一种帐户类型 | 澄清一下，当管理员[限制用于导出和导入的帐户类型](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)时，必须选择至少一种帐户类型。 |
-| 添加了有关快速计算量度的信息 | 更新了[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的信息，以阐明[在计算量度构建器中创建的计算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)与[在单个项目内作为快速计算量度创建的计算量度之间的区别](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)。 还添加了有关软管的更多详细信息，以创建快速计算的量度。<p>在计算量度构建器中创建的计算量度在组件列表中可用，并可应用于整个组织的项目，而作为快速计算量度创建的计算量度仅在创建它们的项目中可用。</p><p>还更新了 [构建量度](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) 中的信息，以做出类似的澄清。</p> |
+| 添加了有关快速计算量度的信息 | 更新了[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的信息，以阐明[在计算量度构建器中创建的计算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)与[在单个项目内作为快速计算量度创建的计算量度之间的区别](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)。 还添加了有关如何创建快速计算量度的更多详细信息。<p>在计算量度构建器中创建的计算量度在组件列表中可用，并可应用于整个组织的项目，而作为快速计算量度创建的计算量度仅在创建它们的项目中可用。</p><p>还更新了 [构建量度](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) 中的信息，以做出类似的澄清。</p> |
 | 将 threads.net 添加到“反向链接类型”维度 | 将 threads.net 添加到[“反向链接类型”维度](/help/components/dimensions/referrer-type.md)中使用的社交网络列表中。 |
-| 更新了管理数据馈送的文档 | 更新了 [管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md) 中的信息以提高清晰度。 <p>更新包括：</p><ul><li>为各种任务创建单独的部分，以便更轻松地扫描和使用信息。</li><li>添加了有关重新激活的实时供稿行为变化的信息。 这些更改目前处于有限可用性状态，尚未向所有客户开放。</li><li>添加的信息表明数据馈送必须具有活动状态才可以删除。</li> |
+| 更新了管理数据馈送的文档 | 更新了 [管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md) 中的信息以提高清晰度。 <p>更新包括：</p><ul><li>为各种任务创建单独的部分，以便更轻松地扫描和使用信息。</li><li>添加了有关重新激活的实时馈送行为变化的信息。 这些更改目前处于有限可用性状态，尚未向所有客户开放。</li><li>添加的信息表明，数据馈送必须处于“活跃”状态才能删除。</li> |
 | 已更新的常见错误消息 | 对[常见错误消息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)做了小更新。 |
 | **2024 年 6 月** | |
 | 更新了涉及流媒体服务功能的产品名称 | 当引用收集流媒体数据并将其显示在 Analysis Workspace 中的一组流媒体功能时，将“媒体分析”和“流媒体”的实例替换为名称“流媒体收藏集附加组件”和“流媒体收藏集”。 <p>这些更新可在 Adobe Analytics 文档以及[流媒体收藏集文档](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)中查看。</p> |
@@ -135,7 +114,7 @@ ht-degree: 93%
 | 有关向项目添加组件的文档 | 添加了有关如何[将各种类型的组件添加到 Analysis Workspace 中的项目](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般信息。 |
 | 更新了 Advertising Analytics 文档 | 根据对 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 用户界面所做的更新来更新文档。 |
 | 将 XDM 对象变量显式映射到上下文数据变量 | 记录了使用 XDM 对象变量映射[明确设置上下文数据变量的能力](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)。 |
-| 有关从 Adobe Analytics 升级到 Customer Journey Analytics 的新文档 | 对于从 Adobe Analytics 升级到 Customer Journey Analytics 的组织，需要考虑组织当前的 Adobe Analytics 实施和长期目标，有多种升级选项和许多注意事项需要牢记。<p>现提供新的文档资产来帮助您更好地理解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[开始升级到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
+| 有关从 Adobe Analytics 升级到 Customer Journey Analytics 的新文档 | 对于从 Adobe Analytics 升级到 Customer Journey Analytics 的组织，基于组织当前的 Adobe Analytics 实施情况和长期目标，有多种升级选项以及许多需要牢记的注意事项。<p>现提供新的文档资产来帮助您更好地理解：</p><ul><li>现有的各种升级路径</li><li>根据组织当前的 Adobe Analytics 实施情况，有哪些升级路径可用</li><li>每种升级路径的优缺点</li><li>每种升级路径的分步指导</li><li>处理历史数据的注意事项</li><li>等等！</li></ul><p>[开始升级到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
 | 更新了有关自定义日期范围的文档 | 更新了与 [创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 相关的屏幕截图和程序，以匹配当前的产品功能和设计。 |
 | **2024 年 4 月** | |
 | 删除了分类集中与“所有者”相关的文档 | 已从 [分类集管理器](/help/components/classifications/sets/manage-sets.md) 中删除“所有者”筛选条件和列，并且已从 [分类集设置](/help/components/classifications/sets/manage/settings.md)中删除“所有者”字段。 <p>文档已更新以删除此筛选条件、列和字段。</p> |
@@ -147,11 +126,11 @@ ht-degree: 93%
 | 有关管理 Data Warehouse 请求的信息的更新 | 澄清了默认情况下，用户只能查看他们在[管理 Data Warehouse 请求](/help/export/data-warehouse/data-warehouse-requests-manage.md)时创建的请求。 |
 | 项目共享文档更新 | 添加了有关如何[查看共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)的信息。<p>还简化了有关[共享单个或多个项目](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的信息。</p> |
 | 添加了将文件上传到 Data Warehouse 和数据馈送中的 Azure SAS 和 Azure RBAC 的权限要求 | 添加了在以下情况下将文件上传到 Azure SAS 和 Azure RBAC 时的确切权限要求：[配置 Data Warehouse 的目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[配置数据馈送的目标](/help/export/analytics-data-feed/create-feed.md)。 |
-| 添加了将文件上传到 Data Warehouse 和数据馈送中的 Amazon S3 和 GCP 存储段的权限要求 | 添加了在以下情况下将文件上传到 Amazon S3 和 Google Cloud Platform 存储段的确切权限要求：[配置 Data Warehouse 的目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[配置数据馈送的目标](/help/export/analytics-data-feed/create-feed.md)。 |
+| 添加了将文件上传到用于 Data Warehouse 和数据馈送的 Amazon S3 和 GCP 存储桶的权限要求 | 添加了在以下情况下将文件上传到 Amazon S3 和 Google Cloud Platform 存储段的确切权限要求：[配置 Data Warehouse 的目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[配置数据馈送的目标](/help/export/analytics-data-feed/create-feed.md)。 |
 | **2024 年 1 月** | |
 | 组件迁移适用于单独的 IMS 组织 | 阐明了[组件迁移](/help/admin/tools/component-migration/component-migration.md)不支持跨 IMS 组织迁移。 |
-| 阐明了仅管理员有某些信息可用 | 添加了陈述仅系统管理员有在[计算量度管理器](/help/components/calculated-metrics/workflow/cm-manager.md)和[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中所述的“上次使用时间”和“用在”列可用的信息。 |
-| 媒体平均受众访问分钟数文档更新 | 更新了[媒体平均受众访问分钟数面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的信息，以提高清晰度。<p>其中的改进包括：</p> <ul><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li></ul> |
+| 阐明了某些信息仅供管理员使用 | 添加了陈述仅系统管理员有在[计算量度管理器](/help/components/calculated-metrics/workflow/cm-manager.md)和[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中所述的“上次使用时间”和“用在”列可用的信息。 |
+| 媒体平均分钟受众文档更新 | 更新了[媒体平均受众访问分钟数面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的信息，以提高清晰度。<p>其中的改进包括：</p> <ul><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li></ul> |
 
 ### 2023 {#year2023}
 
@@ -160,16 +139,16 @@ ht-degree: 93%
 | **2023 年 12 月** | |
 | 改进了机器人规则文档 | 更新了[了解和配置机器人规则](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)中的信息以使其更明确。<p>其中的改进包括：</p> <ul><li>更新了文章标题以使其更具描述性</li><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li><li>关于在上传机器人规则时对 CSV 文件的要求添加了更多详细信息</li></ul> |
 | 新报告部分 | 添加了新的报告部分，其中包含有关[使用模板](/help/analyze/analysis-workspace/templates/use-templates.md)和[创建公司模板](/help/analyze/analysis-workspace/templates/create-templates.md)的信息。 |
-| 异常检测和贡献分析文档的更新 | 异常检测和贡献分析的文档以前位于有关 Virtual Analyst 的部分中。 进行了以下更改： <ul><li>术语 Virtual Analyst 已从文档中删除。</li><li>关于[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)的部分已直接移至 Analysis Workspace 部分下方。</li><li>贡献分析文档已合并到异常检测文档中。</li></ul> |
+| 异常检测和贡献度分析文档的更新 | 异常检测和贡献度分析的文档以前位于有关 Virtual Analyst 的部分中。 进行了以下更改： <ul><li>术语 Virtual Analyst 已从文档中删除。</li><li>关于[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)的部分已直接移至 Analysis Workspace 部分下方。</li><li>贡献度分析文档已合并到异常检测文档中。</li></ul> |
 | “Attribution IQ”已更名为“Attribution” | 将整个文档中“Attribution IQ”的所有实例更改为“[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)”。 |
 | **2023 年 11 月** | |
 | 更新了 Activity Map 激活/启用主题 | 添加了 [Web SDK](/help/analyze/activity-map/getting-started.md)（手动和通过 Adobe Experience Platform 标记扩展）内容。 |
 | **2023 年 10 月** | |
 | 将日志信息添加到报告活动管理器 | 添加了一条信息，该信息表示在报告活动管理器中对于[报告活动的任何取消和后续限制](/help/admin/tools/reporting-activity-manager/reporting-activity-cancel-requests.md)都被记录在[日志](/help/admin/tools/logs.md)中。 |
-| 更新了 Data Warehouse 对组件的支持情况 | 增加了 Data Warehouse 的一些组件的可用性并删除了其他组件的可用性。 这些更改反映在 [Data Warehouse 中的组件支持](/help/export/data-warehouse/component-support.md)中。 <ul><li>增加了对“访问深度”维度的支持（从不支持的维度的列表中删除了“访问深度”）</li><li>删除了对参与率量度的支持（已将参与率量度添加到不支持的量度的列表）</li><li>增加了对以下基于时间的维度的支持：年、季度、月、周、日、小时和分钟（从不支持的维度的列表中删除了这些维度） <p>以前在选择粒度时，Data Warehouse 仅在自由格式表的第一列中支持这些维度。 现在始终支持这些维度。</p><p>但是，在使用这些维度时，日期的输出不是标准格式。 年份为减去 1900 所得，月份从零开始。</li></ul> |
+| 更新了 Data Warehouse 对组件的支持情况 | 为 Data Warehouse 中的某些组件增加了可用性，并删除了其他组件的可用性。 这些更改反映在 [Data Warehouse 中的组件支持](/help/export/data-warehouse/component-support.md)中。 <ul><li>增加了对“访问深度”维度的支持（从不支持的维度的列表中删除了“访问深度”）</li><li>删除了对参与量度的支持（已将参与量度添加到不支持的量度的列表）</li><li>增加了对以下基于时间的维度的支持：年、季度、月、周、日、小时和分钟（从不支持的维度的列表中删除了这些维度） <p>以前在选择粒度时，Data Warehouse 仅在自由格式表的第一列中支持这些维度。 现在始终支持这些维度。</p><p>但是，在使用这些维度时，日期的输出不是标准格式。 年份为减去 1900 所得，月份从零开始。</li></ul> |
 | **2023 年 9 月** | |
 | 更新了“媒体播放耗时”面板的文章结构 | 删除了名为“媒体播放耗时”的文件夹，并将该文件夹的内容合并为一篇文章：[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此更改与其他面板的文档更一致。</p> |
-| 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资产。 以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
+| 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资源。 以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
 | 对流媒体收藏集的报告文档进行了改进 | 重新整理了流媒体收藏集指南的“报告”部分中的一些内容，包括将 API 文档并入其自己的部分中并调整了一些文章的顺序。 |
 | **2023 年 8 月** | |
 | 数据馈送说明 | 更新了[开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md)以说明在处理历史数据的数据馈送时，可将开始日期设置为任何过去收集数据时的日期。 |
@@ -177,8 +156,8 @@ ht-degree: 93%
 | “媒体播放耗时”面板 | 更新了[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)的内容以提高可读性。 |
 | 移动了关于管理计划项目的内容 | 在《Analytics 组件指南》中创建了一篇名为[计划项目](/help/components/scheduled-projects-manager.md)的新文章。 此内容以前位于《Analytics 工具指南》中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
 | 比较实施方法 | 更新了比较不同实施方法的文档。 [了解详情](../implement/prepare/comparison.md) |
-| 阐明为数据馈送配置 SFTP 不需要 Adob&#x200B;e 客户服务 | 在[将 Adobe 数据发送到 SFTP 的外部 FTP 帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中说明，客户无需联系 Adobe 客户服务，即可为数据馈送配置 SFTP。 <p>还添加了一条注释，即不再建议使用 SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
-| 对流媒体收藏集的文档进行了改进 | 对流媒体收藏集进行了以下文档改进： <ul><li>更新了[一般概述](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)以使文档表述更加清晰并包括与 Customer Journey Analytics 相关的信息。</li><li>更新了[实施概述](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/overview)以明确地区分 Edge 实施和仅 Analytics 实施。 还加入了图表以说明各种实施方法。</li><li>添加了 [Edge 实施](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge)和[仅 Analytics 实施](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics)特有的先决条件。 还更新了[一般先决条件](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/getting-started/prereqs)。</li><li>更新了[获取媒体 SDK、使用标记的扩展和 OTT SDK](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/getting-started/download-sdks) 文章中的表以加入新的&#x200B;*支持的解决方案*&#x200B;和&#x200B;*实施方法*&#x200B;列。</li><li>简化了文档的[实施](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/overview)区域中文章的内容和组织方式。 其中包括按 Edge 实施和仅 Analytics 实施为实施分类。</li><li>删除了在[跟踪](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/tracking/track-core-overview)下一个用不到的额外层级，并在此部分中添加了重定向到已更改的 URL。</li><ul> |
+| 阐明为数据馈送配置 SFTP 不需要 Adobe 客户关怀 | 在[将 Adobe 数据发送到 SFTP 的外部 FTP 帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中说明，客户无需联系 Adobe 客户服务，即可为数据馈送配置 SFTP。 <p>还添加了一条注释，即不再建议使用 SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
+| 对流媒体收藏集的文档进行了改进 | 对流媒体收集进行了以下文档改进： <ul><li>更新了[一般概述](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)以使文档表述更加清晰并包括与 Customer Journey Analytics 相关的信息。</li><li>更新了[实施概述](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview)以明确地区分 Edge 实施和仅 Analytics 实施。 还加入了图表以说明各种实施方法。</li><li>添加了 [Edge 实施](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge)和[仅 Analytics 实施](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics)特有的先决条件。 还更新了[一般先决条件](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/prereqs)。</li><li>更新了[获取媒体 SDK、使用标记的扩展和 OTT SDK](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/download-sdks) 文章中的表以加入新的&#x200B;*支持的解决方案*&#x200B;和&#x200B;*实施方法*&#x200B;列。</li><li>简化了文档的[实施](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview)区域中文章的内容和组织方式。 其中包括按 Edge 实施和仅 Analytics 实施为实施分类。</li><li>删除了在[跟踪](https://experienceleague.adobe.com/en/docs/media-analytics/using/tracking/track-core-overview)下一个用不到的额外层级，并在此部分中添加了重定向到已更改的 URL。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network API | 添加了关于何时以及如何使用 [Adobe Experience Platform Edge Network API](../implement/aep-edge/api/overview.md) 通过 Adobe Analytics 实施数据收集的更全面的文档。 例如，在桌面应用程序、物联网设备、机顶盒中通过 Adobe Analytics 实施数据收集。 |
 | 全球公司 ID | 已为您登录的 Analytics 公司记录[如何查找全球公司 ID](../admin/tools/company/web-services-admin.md)。 Analytics 2.0 API 需要此 ID。 |
@@ -192,7 +171,7 @@ ht-degree: 93%
 | 数据馈送导出到安全目标 | 现在可以将数据馈送发送到以下云存储目标：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再推荐以前可用的目标（FTP、SFTP、S3 和 Azure Blob）。 [了解详情](/help/export/analytics-data-feed/create-feed.md) |
 | Workspace 中的机器人报告 | Analysis Workspace 中现在有机器人报表可用。 此功能附带了几项额外功能：<ul><li>一个新维度：[机器人名称](/help/components/dimensions/bot-name.md)</li><li>两个新量度：[机器人页面查看次数](/help/components/metrics/bot-page-views.md)和[机器人发生次数](/help/components/metrics/bot-occurrences.md)。</li><li>一个新的计算量度模板：[机器人页面查看率](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md)</li><li>一个新的 Workspace 报告：机器人报告</li></ul>新维度和量度包含自 2023 年 3 月起开始回填的数据。 |
 | **2023 年 5 月** | |
-| 深层链接（移动设备应用程序）文档 | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。 [了解详情](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
+| 深层链接（移动应用程序）文档 | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。 [了解详情](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | 关于 Analytics 功能板应用程序（移动设备应用程序）更新的主屏幕的文档 | 通过新近更新的主屏幕，可在一个合并的记分卡列表中查看您的所有记分卡。 [了解详情](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 图标 | 已适当地将文档中用户界面图标的屏幕截图替换为引用 [Adobe 的 Spectrum 设计系统](https://spectrum.adobe.com/page/icons/)中的同等图标。 |
 | 报告活动管理器 | 更新了此 Beta 文档，尤其是更新了关于[查看个别报告包的报告活动](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)的部分。 |
@@ -205,18 +184,18 @@ ht-degree: 93%
 | 转移用户资产和设置帐户有效期 | 添加了关于如何[转移用户资产和设置帐户有效期](/help/admin/tools/user-management/users-assets.md)的信息。 |
 | 面向 Adobe Analytics 2.0 API 的 2 个新端点指南 | <ul><li>[Analytics 维度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | 项目区段（临时区段和快速区段） | 简化了有关项目区段的文档并删除了重复的信息。 创建临时区段的步骤现在与[创建快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的步骤合并在一起。 |
-| 动态查找 | 添加了关于[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的其他信息。 以前对于移动属性仅存在“信息”，而它仅为若干动态查找之一。 |
+| 动态查找 | 添加了关于[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的其他信息。 以前，只有移动属性提供了相关信息，而移动属性只是多个动态查找之一。 |
 | **2023 年 3 月** | |
 | Web SDK 对 Activity Map 的支持 | 更新了[实施 Adobe Analytics](/help/implement/home.md)。 |
-| 流量变量 (prop) 概述 | 添加了章节和分步过程以阐明和改善文章内容。 合并了标题为“启用流量变量报告”一文的内容并删除了这篇文章。 请参阅[流量变量 (prop) 概述](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)。 |
-| 内部 URL 过滤器 | 添加了章节和分步过程以阐明和改善文章内容。 请参阅[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 |
+| 流量变量 (prop) 概述 | 添加了章节和分步过程以阐明和改善文章内容。 合并了题为“启用流量变量报告”的文章内容，并删除了该文章。 请参阅[流量变量 (prop) 概述](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)。 |
+| 内部 URL 过滤器 | 添加了章节和分步说明，以阐明并改进文章内容。 请参阅[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 |
 | 在移动记分卡中创建数据故事 | [数据故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)是围绕中心主题或量度构建的辅助数据点、业务背景和相关量度的集合。 |
 | 默认计算量度 | 添加了解释 [Adobe 提供的默认计算量度](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md)的内容。 |
 | 数据词典 | <p>添加了数据词典的新文档，包括[概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[查看](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[编辑](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)和[监控](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)数据词典。</p><p>更新了[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中的信息以解释数据词典功能。</p> |
 | 共享项目链接（无需登录） | <p>更新了现有文档以说明如何与无权访问 Analysis Workspace 的人员共享项目的只读链接。</p> <p>更新后的用户文档包括[共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)和[创建可共享链接](/help/analyze/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已将管理员的选项添加到[偏好设置](/help/analyze/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** | |
 | 实施 | 更新了有关如何[为 Web 和移动设备实施 Adobe Analytics](../implement/home.md) 的内容。 |
-| 工作区日历和日期范围 | 更新内容以描述相对日期范围、公式计算更新和日程表 UI 更改。 请参阅[关于相对面板日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
+| 工作区日历和日期范围 | 更新内容以描述相对日期范围、公式计算更新和日历 UI 更改。 请参阅[关于相对面板日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
 | 移动记分卡 | 新文档部分描述如何显示和隐藏比较日期范围。 请参阅 Customer Journey Analytics 中的[显示比较日期范围](/help/analyze/mobile-app/create-scorecard.md)。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 经过了全面改写，现在发布在 Adobe Developer 上。 |
 | 跟踪各实施类型 | 更新了跨不同实施类型[跟踪的用例](../implement/id/cross-type-implementation.md)以适应访客ID服务。 |
@@ -235,11 +214,11 @@ ht-degree: 93%
 | 同意管理变量 | [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)和[同意管理选择退出](/help/components/dimensions/cm-opt-out.md)的专用页面。 |
 | 多货币更新 | 有关[多货币支持](/help/implement/vars/config-vars/currencycode.md)的页面已更新。 |
 | **2022 年 10 月** |  |
-| Data Workbench | [生命周期终止通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans) |
-| 客户端提示 | 新的[概述和常见问题解答 &#x200B;](/help/technotes/client-hints.md)。 |
+| Data Workbench | [生命周期终止通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
+| 客户端提示 | 新的[概述和常见问题解答 ](/help/technotes/client-hints.md)。 |
 | 关键量度摘要 | 关于[关键量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)可视化的新主题。 |
 | 分类集 | 新用户[分类集](/help/components/classifications/sets/overview.md)体验提供单个界面以管理分类和规则，并更容易看到客户拥有的分类数据。 |
-| 移动设备应用程序：自定义详细信息视图 | 关于[自定义详细视图](/help/analyze/mobile-app/create-scorecard.md)的新主题。 |
+| 移动应用程序：自定义详细信息视图 | 关于[自定义详细视图](/help/analyze/mobile-app/create-scorecard.md)的新主题。 |
 | VISTA | 新页面解释了 [VISTA 规则](/help/technotes/vista.md)的基本信息。 |
 | **2022 年 9 月** | |
 | 组合图表 | 有关[组合图表](/help/analyze/analysis-workspace/visualizations/combo-charts.md)可视化的新主题。 |
@@ -248,7 +227,7 @@ ht-degree: 93%
 | 高熵客户端提示 | 关于 Adobe 如何在 User-Agent 之外使用[客户端提示](/help/technotes/client-hints.md)确定设备信息的新主题。 |
 | 处理顺序 | 我们已聚合多个帮助页面以仅提供一个关于[处理顺序](/help/technotes/processing-order.md)的帮助主题。 |
 | **2022 年 8 月** | |
-| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使客户能够通过 Web SDK 收集数据，以使用 XDM 指定列表变量内容。 [了解详情](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
+| 在用于 Edge Collection 的 XDM 中支持列表变量 | 让使用 Web SDK 收集数据的客户能够使用 XDM 指定列表变量内容。 [了解详情](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
 | 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 使客户能够通过 Web SDK 收集数据，以使用 SKU 值设置产品变量中的产品字段。 [了解详情](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022 年 6 月** |  |
 | 用于 Edge Collection 的 XDM 中的促销变量 | 关于[支持用于 Edge Collection 的 XDM 中促销变量的文档](/help/components/dimensions/evar-merchandising.md) |
@@ -271,7 +250,7 @@ ht-degree: 93%
 | **2022 年 2 月** | |
 | 移动记分卡项目预览模式 | 该[预览模式](/help/analyze/mobile-app/create-scorecard.md#preview)允许您在保存和共享记分卡之前预览体验。 |
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| 暂停旧版计划 Report Builder 任务更新主题 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有在大于两年之前创建的计划 Report Builder 任务](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md)。 |
+| 有关暂停旧版 Report Builder 计划任务的主题已更新 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有在大于两年之前创建的计划 Report Builder 任务](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md)。 |
 
 ### 2021 {#year2021}
 
@@ -325,7 +304,7 @@ ht-degree: 93%
 | **2020 年 10 月** | |
 | 2020 年 10 月 23 日 | 工作区线形图可视化图表：[均线趋势线选项](/help/analyze/analysis-workspace/visualizations/line.md)：此设置已添加到[!UICONTROL 线形图]可视化图表趋势线设置。 均线也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定），对其求平均值，并将平均值用作折线中的点。 |
 | 2020 年 10 月 23 日 | 工作区[性能帮助页面](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)显示影响项目性能的不同因素以及指向优化提示的链接。 |
-| 2020 年 10 月 23 日 | 向 Adobe Analytics 功能板文档添加了增强功能。 在工作区中构建移动记分卡时，记分卡的样式现在与应用程序匹配。 |
+| 2020 年 10 月 23 日 | 增强了 Adobe Analytics 功能板文档。 在工作区中的移动记分卡中，记分卡的样式现在与应用程序匹配。 |
 | **2020 年 9 月** | |
 | 2020 年 9 月 17 日 | [下载单个维度的 5 万个项目](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items)：现在可以为自由格式表中的单个维度下载 50,000 个项目，并应用区段和过滤器。 这允许您访问 Analysis Workspace 以外的 400 多行数据。 |
 | 2020 年 9 月 17 日 | [线形图可视化图表的增强功能](/help/analyze/analysis-workspace/visualizations/line.md)： <ul><li>可显示或隐藏任何[!UICONTROL 线形图]可视化图表的 X 轴和 Y 轴。 如果想让[!UICONTROL 线形图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何线形图可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何线形图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。 相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
@@ -335,16 +314,16 @@ ht-degree: 93%
 | 2020 年 8 月 31 日 | 向 Cross-Device Analytics 中的[基于字段的拼合文档](/help/components/cda/field-based-stitching.md)添加了增强功能。 |
 | **2020 年 7 月** | |
 | 2020 年 7 月 21 日 | [跨设备分析](/help/components/cda/overview.md)的主要更新和修订。 添加了[基于字段的拼合](/help/components/cda/field-based-stitching.md)。 |
-| 2020 年 7 月 16 日 | 工作区中的新日期范围预设。 添加了 4 个新的日期范围：（[!UICONTROL 本周/月/季度/年（不包括今天）]）。 这允许您从不包括今天的部分日期数据的日期范围中进行选择。 |
+| 2020 年 7 月 16 日 | 工作区中的新日期范围预设。 添加了 4 个新的日期范围：（[!UICONTROL 本周/月/季度/年（不包括今天）]）。 这使您可以从不包含今天当天部分数据的日期范围中进行选择。 |
 | **2020 年 6 月** | |
-| 2020 年 6 月 25 日 | 新增有关 Workspace 中的[“快速洞察”面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)的文档。 它可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。 |
-| 2020 年 6 月 25 日 | 新增有关工作区中的[“Analytics for Target”面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)的文档。 它可让您轻松自信地分析 Adobe Target 活动和体验。 |
+| 2020 年 6 月 25 日 | 新增有关 Workspace 中的[“快速洞察”面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)的文档。 它为 Analysis Workspace 的非分析师和新用户提供指导，帮助他们了解如何快速轻松地回答业务问题。 |
+| 2020 年 6 月 25 日 | 新增有关工作区中的[“Analytics for Target”面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)的文档。 它可让您借助提升度和置信度分析 Adobe Target 活动和体验。 |
 | 2020 年 6 月 18 日 | 新增有关[归因：算法归因](/help/analyze/analysis-workspace/attribution/algorithmic.md)的文档 |
 | 2020 年 6 月 18 日 | 新增有关[归因：自定义回溯时段](/help/analyze/analysis-workspace/attribution/models.md#lookback-windows)的文档 |
 | 2020 年 6 月 18 日 | 新增有关共享工作区项目的[项目角色](/help/analyze/analysis-workspace/curate-share/share-projects.md)的文档。 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。 |
 | 2020 年 6 月 18 日 | 新增有关[“仅查看”工作区项目](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)的文档。 只能以“可查看”的形式将项目共享给用户。 当具有查看角色的收件人打开共享项目时，他们将会获得较为受限的项目体验，即，无左边栏而且只能进行有限的交互。 |
 | 2020 年 6 月 18 日 | 新增有关共享工作区项目的[项目角色](/help/analyze/analysis-workspace/curate-share/share-projects.md)的文档。 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。 |
-| 2020 年 6 月 18 日 | 新增有关[协同编辑工作区项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)的文档。 添加到“可编辑”角色的收件人可以保存已共享给他们的项目。 这同时适用于管理员和非管理员用户。 |
+| 2020 年 6 月 18 日 | 新增有关[协同编辑工作区项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)的文档。 添加到“可编辑”角色的收件人可以覆盖保存已共享给他们的项目。 这同时适用于管理员和非管理员用户。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日 | 新增有关 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 的文档 |
 | 2020 年 5 月 21 日 | 新增有关 [Adobe Analytics 功能板](/help/analyze/mobile-app/home.md)的文档 |
@@ -356,14 +335,14 @@ ht-degree: 93%
 | 2020 年 3 月 12 日 | 添加了[将区段发布到CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)的更新。 |
 | 2020 年 3 月 12 日 | 更新了 CDA 拼合延迟。 |
 | 2020 年 3 月 12 日 | 支持工作区中的多个报告包。 您现在可以将多个报告包中的数据并入一个项目，以便并排查看。 [了解详情...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
-| 2020 年 3 月 12 日 | 工作区中的培训教程模板。 这个新的标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。 该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。 [了解详情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| 2020 年 3 月 12 日 | 工作区中的培训教程模板。 这个新的标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。 该模板可作为“新建项目”对话框中的标准模板，并替换当前为列表中没有其他项目的新用户提供的示例项目。 [了解详情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 | **2020 年 2 月** |  |
 | 2020 年 2 月 27 日 | 添加了有关 [Adobe Analytics Labs](/help/analyze/labs.md) 的文档。 |
 | 2020 年 2 月 25 日 | 添加了 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 变量。 |
-| 2020 年 2 月 20 日 | 适用于使用 Cross-Device Analytics 的组织的新工作区模板。 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和量度知识。 需要使用 CDA 的报告包。 有关更多信息，请参阅[设置 Cross-Device Analytics](/help/components/cda/setup.md)。 |
+| 2020 年 2 月 20 日 | 适用于使用 Cross-Device Analytics 的组织的新工作区模板。 此模板显示 CDA 在拼合访问次数方面的有效性，并帮助您了解 CDA 专属的维度和量度。 需要使用 CDA 的报告包。 有关更多信息，请参阅[设置 Cross-Device Analytics](/help/components/cda/setup.md)。 |
 | 2020 年 2 月 20 日 | 工作区中的新热键：<ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板: `alt + ctrl + m`</li><li>搜索左边栏: `ctrl + /`</li><li>移到下一个面板: `alt + Right Key`</li><li>移到上一个面板: `alt + Left Key`</li></ul>[了解详情...](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
 | 2020 年 2 月 20 日 | 工作区增强功能： <ul><li>将面板或可视化图表放入工作区后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的量度和区段列表提供了 + 按钮，可在找不到所需内容时添加新组件。</li></ul> |
-| 2020 年 2 月 20 日 | 工作区调试器已添加到“帮助”菜单，可让您根据调试工作区请求更加无缝地启用该调试器。 [了解详情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 2020 年 2 月 20 日 | Workspace 调试器已添加到“帮助”菜单，让您能够更顺畅地启用它来调试 Workspace 请求。 [了解详情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020 年 2 月 18 日 | 添加了 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 变量。 |
 | 2020 年 2 月 12 日 | 更新并重新整理了[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文档。 |
 | 2020 年 2 月 12 日 | 已将新热键添加到[此工作区页面](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
@@ -371,7 +350,7 @@ ht-degree: 93%
 | 2020 年 2 月 4 日 | 完全重写[实施用户指南](/help/implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页面，现在包含有关新的[自由格式表构建器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的信息。 |
 | **2020 年 1 月** | |
-| 2020 年 1 月 24 日 | 更新了工作区中的[行设置](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=zh-Hans#cja-workspace)页面。 |
+| 2020 年 1 月 24 日 | 更新了工作区中的[行设置](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace)页面。 |
 | 2020 年 1 月 16 日 | 新增有关[自由格式表构建器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的文档。 启用表构建器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。 数据不会立即更新， 相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。 此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。 以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。 以前，静态行只能按量度列或按字母顺序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 修改了[我应该使用哪种 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)页面。 |
@@ -383,13 +362,13 @@ ht-degree: 93%
 | 2020 年 12 月 19 日 | 已将默认 [FTP 数据存储限制](/help/export/ftp-and-sftp/ftp-limits.md)更改为 10 GB。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了有关强制 IP 登录限制终止使用的主题。 |
-| 2019 年 11 月 21 日 | 新增了 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans) 文档集 |
+| 2019 年 11 月 21 日 | 新增了 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 文档集 |
 | 2019 年 11 月 21 日 | 更新了 [Audience Analytics 工作流程常见问题解答](/help/integrate/c-audience-analytics/mc-audiences-faqs.md)以指示 LiveStream 中的可用性。 |
 | 2019 年 10 月 25 日 | 更新了 [Adobe Analytics 关键概念](/help/technotes/terms.md)页面。 |
-| 2019 年 10 月 10 日 | 更新了自由格式表总计：它们现在包含两个总计，即&#x200B;**[!UICONTROL 表总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。 表格总计行会将已应用的[报告过滤器](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)计入在内。 以前，只有区段会影响总数的计算。 [了解更多](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>此外，**[!UICONTROL 显示总计]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**。<br/>鉴于自由格式表的这项更改，与之相关的可视化图表（例如，链接的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将更新，导出的CSV和PDF数据也一样。 |
+| 2019 年 10 月 10 日 | 更新了自由格式表总计：它们现在包含两个总计，即&#x200B;**[!UICONTROL 表总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。 表格总计行会将已应用的[报告过滤器](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)计入在内。 以前，只有分段会影响总数的计算。 [了解更多](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>此外，**[!UICONTROL 显示总计]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**。<br/>鉴于自由格式表的这项更改，与之相关的可视化图表（例如，链接的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将更新，导出的CSV和PDF数据也一样。 |
 | 10,2019 年 10 月 | 在 Workspace 中，已将轻松地删除“未指定（无）”作为一个选项添加到报告过滤器。 |
 | 10,2019 年 10 月 | 在工作区中，紫色粒度组件（分钟、小时、天、周、月、季度、年）已被弃用。 即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
-| 2019 年 10 月 1 日 | 新增有关[工作区总计](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans#cja-workspace)的文章。 |
+| 2019 年 10 月 1 日 | 新增有关[工作区总计](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace)的文章。 |
 | 2019 年 9 月 28 日 | 新增了有关[用于 Javascript 实施的配置变量](/help/implement/vars/config-vars/configuration-variables.md)的文章 |
 | 2019 年 9 月 19 日 | 修订了分段文档以说明[逻辑组容器](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md#logic-group-containers)。 |
 | 2019 年 9 月 12 日 | [跨设备分析](/help/components/cda/overview.md)全新文档上线 |
@@ -401,7 +380,7 @@ ht-degree: 93%
 | 2019 年 8 月 2 日 | [Analytics 词汇表](/help/technotes/terms.md)的主要更新 |
 | 2019 年 7 月 22 日 | 将“Magento：营销和商务”模板添加到 [Analysis Workspace 模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)文档。 |
 | 2019 年 7 月 18 日 | 更新了[同类群组表格设置](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
-| 2019 年 7 月 18 日 | 在工作区中的左边栏中，用户现在可以选择&#x200B;_显示过去 18 个月内的项目_。 以前，回看周期最长为 6 个月。 这样，用户就可以更轻松地比较去年（最长 18 个月前）的页面或营销活动。 |
+| 2019 年 7 月 18 日 | 在工作区中的左边栏中，用户现在可以选择&#x200B;_显示过去 18 个月内的项目_。 以前，回看周期最长为 6 个月。 这样，用户就可以更轻松地比较最远可追溯到 18 个月前的页面或营销活动。 |
 | 2019 年 7 月 18 日 | 有关在 Analysis Workspace 中新增的名为[“Magento：营销与商务”](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 的工作区模板的文档。 它专为 Magento 电子商务客户设计，不过任何零售商都可使用它来获得有关其商务活动的独特洞察。 |
 | 2019 年 6 月 13 日 | 工作区中的左边栏搜索新增了开箱即用的过滤器。 除了您现在看到的这些过滤器（维度、量度、已批准等）之外，还添加了计算量度、客户属性、eVar、Prop、视频等新过滤器，以便更轻松地查找所需的组件。 |
 | 2019 年 6 月 4 日 | 编写了标题为从第三方分析平台过渡到Adobe Analytics的新指南。 |
@@ -409,9 +388,9 @@ ht-degree: 93%
 | 2019 年 5 月 9 日 | 流量可视化图表设置中添加了一个新设置：包含重复实例。 请参阅[流量设置](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 2019 年 4 月 11 日 | 工作区增强功能优化最佳实践：优化性能 |
 | 2019 年 4 月 11 日 | 更新了[优化工作区性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
-| 2019 年 3 月 14 日 | 对地区数据收藏集进行了重大更新。 |
+| 2019 年 3 月 14 日 | 对地区数据收集进行了重大更新。 |
 | 2019 年 2 月 7 日 | 对[常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)中的“将 IP 地址的最后一个八位字节替换为 0”设置和“IP 模糊处理”设置进行了小幅更新。 |
 | 2019 年 2 月 1 日 | 对 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 实施插件进行了重大更新。 |
-| 2019 年 1 月 17 日 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回量度。 </li><li>显示流失率而不是保留率。</li><li>显示延迟表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个量度添加到包含和回访字段中，并应用区段。 （不支持计算量度）</li></ul> |
+| 2019 年 1 月 17 日 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回量度。 </li><li>显示流失率而不是保留率。</li><li>显示延迟表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个量度添加到包含和回访字段中，并应用区段。 （不支持计算量度）</li></ul> |
 | 2019 年 1 月 17 日 | [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。 此新设置可减少左边栏、自由格式表和同类群组表中的垂直边距，从而使您能够在单个屏幕上查看更多数据。 可通过项目 > 项目信息和设置进行访问。 |
-| 2019 年 1 月 17 日 | [在归因中支持多值变量](/help/analyze/analysis-workspace/attribution/overview.md)。 Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。 Analysis Workspace 使您可将归因应用于点击级别的任何此类变量。 |
+| 2019 年 1 月 17 日 | [在归因中支持多值变量](/help/analyze/analysis-workspace/attribution/overview.md)。 Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或促销 eVar。 Analysis Workspace 使您可将归因应用于点击级别的任何此类变量。 |

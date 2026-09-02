@@ -6,15 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
 TQID: https://experienceleague.adobe.com/Qwd6RD0nq7mnMte5UFJVDuLqzqnKGHoOHlm-kYqtsog
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 328
@@ -26,7 +20,7 @@ ht-degree: 49%
 
 {{legacy-arb}}
 
-您可以基于请求的报表包、粒度和日期范围同时更改多个请求。
+您可以基于请求的报告包、粒度和日期范围同时更改多个请求。
 
 您可以根据请求的报表包、区段、粒度和日期范围同时更改多个请求。 例如，您可以更新报表的参数，以便所有请求均基于相同的报表包或区段，或者，如果您保留相同的期间数，则可以将每日报表转换为每周或每月报表。 您可以编辑当前工作表或电子表格的所有工作表的多个请求。
 
@@ -46,7 +40,7 @@ ht-degree: 49%
    * **按报表包**：按报表包对显示的请求进行分组。
    * **按区段**：根据区段名称对请求进行分组。
 
-      * **选择区段**：当请求不存在区段时显示。 要添加区段，请单击&#x200B;**[!UICONTROL 编辑组]**，然后从[!UICONTROL 编辑组]面板中选择一个区段。
+     * **选择区段**：当请求不存在区段时显示。 要添加区段，请单击&#x200B;**[!UICONTROL 编辑组]**，然后从[!UICONTROL 编辑组]面板中选择一个区段。
 
    * **按量度：**&#x200B;请参阅[编辑跨越多个请求的量度](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md)。
 
@@ -59,4 +53,4 @@ ht-degree: 49%
 
 以下是一段演示该过程的视频：
 
-https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

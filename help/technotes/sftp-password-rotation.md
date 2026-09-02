@@ -1,15 +1,12 @@
 ---
 title: FTP 和 SFTP 服务器的安全要求
-description: 了解关于 FTP 和 SFTP 服务器的安全要求。
+description: 了解 FTP 和 SFTP 服务器的安全要求。
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1985
@@ -63,7 +60,7 @@ ht-degree: 100%
 
 确保您可以在用于连接到 SFTP 站点（例如 SFTP 客户端、自动脚本或第三方平台）的任何工具或脚本中更新 SFTP 密码。
 
-所有客户端都应通过 SFTP 连接，并使用密码作为后备。
+所有客户端都应通过 SFTP 连接，并使用密码作为后备身份验证方法。
 
 ## 升级 FTP 服务器以使用 SFTP
 
@@ -162,7 +159,7 @@ ht-degree: 100%
    1. 创建一个 [!DNL .ssh] 目录（如果没有）。
    1. 将 [!DNL `authorized_keys`] 文件上传到 [!DNL .ssh] 目录。
 
-1. 更新您的防火墙设置，允许来自 SFTP 服务器的入站连接。 如果使用 Adobe 托管的 SFTP 服务器，请允许来自端口 22 上 Adobe IP 范围的入站连接。
+1. 更新您的防火墙设置，允许来自 SFTP 服务器的入站连接。 如果使用 Adobe 托管的 SFTP 服务器，请允许来自 Adobe IP 范围、通过端口 22 建立的入站连接。
 
 1. 用您的 SFTP 客户端登录到服务器，测试连接是否正常。
 
@@ -256,7 +253,7 @@ ht-degree: 100%
 
 从 FTP 升级到 SFTP 后，请尽快轮换 SFTP 密码。 密码应根据您制定的策略持续定期轮换。
 
-1. 联系 Adobe 客户关怀团队，请求获取新密码。
+1. 联系 Adobe 客户服务并申请新密码。
 
 1. 为每一个 SFTP 帐户提供&#x200B;**主机名**&#x200B;和&#x200B;**用户名**。
 

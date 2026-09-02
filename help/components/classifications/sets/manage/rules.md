@@ -4,18 +4,14 @@ description: 了解如何使用分类集规则来定义分类数据的规则。
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1692
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -33,25 +29,25 @@ ht-degree: 12%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要为其定义规则的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**对话框中，选择&#x200B;**[!UICONTROL 规则]**选项卡。
 
    * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您目前决定继续使用旧版规则生成器界面，则将显示一个对话框，允许您选择如何开始使用。 选项包括：
 
-      * **迁移现有规则**。 导入当前分类规则，并在新界面中继续使用这些规则。 您的现有规则将被保留并转换为新格式。
-         * 选择&#x200B;**[!UICONTROL 迁移规则]**&#x200B;以继续。
-         * 在&#x200B;**[!UICONTROL 确认迁移]**&#x200B;对话框中，阅读迁移的影响。
-            * 选择&#x200B;**[!UICONTROL 迁移规则]**&#x200B;以确认迁移。 迁移完成后，使用[规则集接口](#rule-set-interface)创建新规则并编辑现有迁移规则。
-            * 选择&#x200B;**[!UICONTROL 取消]**&#x200B;以取消迁移
+     * **迁移现有规则**。 导入当前分类规则，并在新界面中继续使用这些规则。 您的现有规则将被保留并转换为新格式。
+       * 选择&#x200B;**[!UICONTROL 迁移规则]**&#x200B;以继续。
+       * 在&#x200B;**[!UICONTROL 确认迁移]**&#x200B;对话框中，阅读迁移的影响。
+         * 选择&#x200B;**[!UICONTROL 迁移规则]**&#x200B;以确认迁移。 迁移完成后，使用[规则集接口](#rule-set-interface)创建新规则并编辑现有迁移规则。
+         * 选择&#x200B;**[!UICONTROL 取消]**&#x200B;以取消迁移
 
-      * **重新开始**。 使用新的规则生成器从头开始创建新分类规则。 如果要重新设计分类逻辑或使用新的分类规则从头开始，请选择此选项。
-         * 选择&#x200B;**[!UICONTROL 创建新规则]**&#x200B;以继续。
-         * 在&#x200B;**[!UICONTROL 确认重新开始]**&#x200B;对话框中，阅读重新开始的含义。
-            * 选择&#x200B;**[!UICONTROL 重新开始]**&#x200B;以确认重新开始并放弃任何现有规则。 使用[规则集接口](#rule-set-interface)创建新规则。
-            * 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
+     * **重新开始**。 使用新的规则生成器从头开始创建新分类规则。 如果要重新设计分类逻辑或使用新的分类规则从头开始，请选择此选项。
+       * 选择&#x200B;**[!UICONTROL 创建新规则]**&#x200B;以继续。
+       * 在&#x200B;**[!UICONTROL 确认重新开始]**&#x200B;对话框中，阅读重新开始的含义。
+         * 选择&#x200B;**[!UICONTROL 重新开始]**&#x200B;以确认重新开始并放弃任何现有规则。 使用[规则集接口](#rule-set-interface)创建新规则。
+         * 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。
 
 
-      * **使用旧版接口**。 继续使用以前的规则生成器界面。 您可以在准备就绪后随时迁移到新Experience。
-         * 选择&#x200B;**[!UICONTROL 转到旧版接口]**&#x200B;以继续。 您将被定向到旧版&#x200B;**[!UICONTROL 分类规则生成器]**&#x200B;界面。
+     * **使用旧版接口**。 继续使用以前的规则生成器界面。 您可以在准备就绪后随时迁移到新Experience。
+       * 选择&#x200B;**[!UICONTROL 转到旧版接口]**&#x200B;以继续。 您将被定向到旧版&#x200B;**[!UICONTROL 分类规则生成器]**&#x200B;界面。
 
    * 如果您已经为分类集迁移规则或创建新规则，则最终将直接进入规则集界面。
 
@@ -265,7 +261,7 @@ ht-degree: 12%
 | `\S` | 任意非空白字符 |
 | `\d` | 任意数字 |
 | `\D` | 任意非数字 |
-| `\w` | 任意单词字符（字母、数字、下划线） |
+| `\w` | 任意字字符（字母、数字、下划线） |
 | `\W` | 任意非单词字符 |
 | `\b` | 任意单词边界 |
 | `(...)` | 捕获包含的任何内容 |

@@ -4,21 +4,15 @@ title: 顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 TQID: https://experienceleague.adobe.com/Wvy6Kl84IzHS1VpA0k0H2rUIGMgpDIhEuG4kK-qAwt4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2424
-ht-degree: 4%
+source-wordcount: 2429
+ht-degree: 3%
 
 ---
 
@@ -31,7 +25,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [顺序分段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +75,7 @@ ht-degree: 4%
 
 ## [!UICONTROL After]和[!UICONTROL Within]
 
-您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;运算符为点击、访问或维度[&#128279;](#event-session-and-dimension-constraints)定义其他[时间约束](#time-constraints)或约束。
+您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;运算符为点击、访问或维度](#event-session-and-dimension-constraints)定义其他[时间约束](#time-constraints)或[约束。
 
 ### 时间限制
 
@@ -90,7 +84,7 @@ ht-degree: 4%
 1. 选择![时钟](/help/assets/icons/Clock.svg)。
 1. 从上下文菜单中选择&#x200B;**[!UICONTROL Within]**&#x200B;或&#x200B;**[!UICONTROL After]**。
 1. 指定一个时间段（**[!UICONTROL 分钟]**，**[!UICONTROL 小时]**，最多&#x200B;**[!UICONTROL 年]**）。
-1. 选择![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;以打开一个弹出窗口，允许您使用&#x200B;**[!UICONTROL -]**&#x200B;或&#x200B;**[!UICONTROL +]**&#x200B;键入或指定数字。
+1. 选择![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**以打开一个弹出窗口，允许您使用**[!UICONTROL -]**或**[!UICONTROL +]**键入或指定数字。
 
 若要移除时间限制，请使用![CrossSize75](/help/assets/icons/CrossSize75.svg)。
 
@@ -113,7 +107,7 @@ ht-degree: 4%
 
 ![序列在](assets/sequence-after.png)之后
 
-如果主页的页面查看发生在2024年6月1日00:01，则页面查看针对页面女性 |只要2024年6月15日:01之后出现该页面查看，鞋就会匹配。
+如果主页的页面查看发生在2024年6月1日00:01，则页面查看针对页面女性 |只要2024年6月15日00:01之后出现该页面查看，鞋就会匹配。
 
 ##### [!UICONTROL Within]运算符
 
@@ -129,7 +123,7 @@ ht-degree: 4%
 
 ![序列晚于](assets/sequence-afterbutwithin.png)但在此范围内
 
-2024年6月1日点击主页并回访妇女的任何访客 | 2019年6月15日之后00:01，但2019年7月1日之前的“鞋子”页面符合该区段的条件。
+2024年6月1日点击主页并回访妇女的任何访客 |在2019年6月15日00:01之后，但在2019年7月1日之前的“鞋子”页面符合该区段的条件。
 
 
 ### [!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL Dimension]约束
@@ -250,7 +244,7 @@ ht-degree: 4%
 >
 >[!UICONTROL 逻辑组]只能在顺序区段中定义，这意味着容器中使用[!UICONTROL Then]运算符。
 
-使用逻辑组，您可以将条件分组到一个顺序区段检查点。 作为序列的一部分，在标识为逻辑组的容器中定义的逻辑将在任何先前顺序检查点之后和任何后续顺序检查点之前进行评估。
+使用逻辑组，您可以将条件归入一个顺序区段检查点。 作为序列的一部分，在标识为逻辑组的容器中定义的逻辑将在任何先前顺序检查点之后和任何后续顺序检查点之前进行评估。
 
 可以按任意顺序满足逻辑组本身中的条件。 相反，非顺序容器（点击、访问、访客）不要求在整个序列中满足其条件，如果与&#x200B;**[!UICONTROL Then]**&#x200B;运算符一起使用，则会产生可能不直观的结果。
 
@@ -314,4 +308,4 @@ An example of a complex sequential segment if you want to find the visitors that
 
 >[!MORELIKETHIS]
 >
-> * [掌握AA和CJA中的顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=zh-Hans)
+> * [掌握AA和CJA中的顺序逻辑： THEN简介](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

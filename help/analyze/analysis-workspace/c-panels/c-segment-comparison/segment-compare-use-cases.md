@@ -1,28 +1,16 @@
 ---
 title: 区段比较用例
-description: 了解有关如何使用“区段比较”面板洞察营销策略的实际用例。
+description: 了解有关如何使用“区段比较”面板来深入洞察营销策略的实际用例。
 keywords: 区段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 TQID: https://experienceleague.adobe.com/RSrhYA6EYk3UhFqMQ1FJVHzqA7RFIqdvSyvatTF0goE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074cid: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5e560c5a1c241a297a7bc876978f2996e793e1ea
 workflow-type: tm+mt
 source-wordcount: 859
@@ -73,7 +61,7 @@ ht-degree: 13%
 {style="table-layout:fixed"}
 
 
-## 用例 4：对来自付费搜索的访客和其他每个人进行比较
+## 用例 4：对来自付费搜索的访客和其他所有访客进行比较
 
 > *“从搜索引擎访问您网站的访客在向上销售方面的可能性比其他每个人高出3倍。 因此，您提高了在特定关键词上的支出，并使向上销售增长了56%。”*
 

@@ -5,18 +5,10 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 TQID: https://experienceleague.adobe.com/hP5X4gRBiRB1wmGziYT25iGS-Enpuu0C--3qeGxrvb4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 576
@@ -30,9 +22,9 @@ ht-degree: 80%
 
 ## 动态维度项
 
-动态维度项会随时间而改变，并且取决于自由格式表中按其排序的量度。 如果要分析给定时间段内排名靠前的项目，可首选使用动态维度项。
+动态维度项会随时间而改变，并且取决于自由格式表中按其排序的量度。 如果要分析给定时段内排名靠前的项目，可首选使用动态维度项。
 
-将维度拖放到自由格式表后，将返回动态行。 这些动态行表示与给定量度和时间段的维度对应的排名靠前的项目。 此外，您还可以将某个维度拖放到自由格式表的列中，该维度会自动扩展为排名前 5 的维度项。
+将维度拖放到自由格式表后，将返回动态行。 这些动态行表示与给定量度和时段的维度对应的排名靠前的项目。 此外，您还可以将某个维度拖放到自由格式表的列中，该维度会自动扩展为排名前 5 的维度项。
 
 例如，将“浏览器类型”维度拖入表中后，则排名靠前的“浏览器类型”维度项目（例如Microsoft、Apple、Google等） 会动态返回到表行。 如果拖放到列中，则会动态返回排名前 5 的“浏览器类型”维度项。
 
@@ -57,7 +49,7 @@ ht-degree: 80%
 
 ## 混合维度项
 
-来自不同维度的维度项可以添加到同一个表中。 在这些情况下，行标题会显示&#x200B;**[!UICONTROL 混合维度]**。 这些维度项是静态的。 例如，从“浏览器组维度”维度添加特定维度项，以及从“浏览器名称”维度添加其他维度项。
+来自不同维度的维度项可以添加到同一个表中。 在这些情况下，行标题会显示&#x200B;**[!UICONTROL 混合维度]**。 这些维度项是静态的。 例如，从“浏览器组”维度添加特定维度项，以及从“浏览器名称”维度添加其他维度项。
 
 ![突出显示混合维度列的自由格式表。](assets/mixed-dimensions.png)
 
@@ -65,13 +57,13 @@ ht-degree: 80%
 
 动态行和静态行在自由格式表总计行中的行为方式有所不同。 默认情况下：
 
-* 动态行是服务器端总和，并且去除了重复量度（如会话和人员）。
+* 动态行在服务器端求和，并且会对会话或人员等量度去重。
 * 静态行是客户端总和，并且&#x200B;**不会**&#x200B;去除重复量度。 要计算服务器端总计行，请将“行”设置更改为&#x200B;**“显示总计”**。 [了解详情](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [重新排序静态行](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/reordering-static-rows-in-analysis-workspace){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [重新排序静态行](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/reordering-static-rows-in-analysis-workspace){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

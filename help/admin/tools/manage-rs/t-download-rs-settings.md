@@ -1,21 +1,15 @@
 ---
-description: 描述如何生成 Excel 电子表格以包含选定报表包所有设置的步骤。
+description: 描述如何生成包含选定报告包所有设置的 Excel 电子表格的步骤。
 title: 下载报表包设置
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 autotag-review: '2026-05-19T13:35:43.340Z'
 TQID: 'https://experienceleague.adobe.com/BbRHNbT2FVGCo5YZ0JfkvVT-hKwra-UcA06QB2krsC8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 125
@@ -25,7 +19,7 @@ ht-degree: 100%
 
 # 下载报表包设置
 
-要生成包含选定报表包所有设置的制表符分隔文件，请执行以下操作：
+要生成包含选定报告包所有设置的制表符分隔文件，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 

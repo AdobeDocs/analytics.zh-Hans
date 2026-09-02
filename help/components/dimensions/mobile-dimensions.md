@@ -4,23 +4,11 @@ description: 基于设备的 IP 地址和用户代理的维度。
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 961
@@ -36,7 +24,7 @@ ht-degree: 95%
 
 ## 使用数据填充这些维度
 
-这些维度参考 Adobe 内部的查找规则。
+这些维度引用 Adobe 内部的查找规则。
 
 * 对于[!UICONTROL 移动运营商]维度，Adobe 与 [Digital Element](https://www.digitalelement.com/) 合作，使用 NetAcuity 来维护 IP 地址和移动运营商之间的查找。
 * 对于所有其他移动维度，Adobe 与 [DeviceAtlas](https://deviceatlas.com/) 合作，维护用户代理和各个移动维度之间的查找。
@@ -44,7 +32,7 @@ ht-degree: 95%
 这些维度的可用性取决于实施类型：
 
 * 对于 AppMeasurement 实施，这些维度开箱即用。
-* 对于 Web SDK 实施，在[!UICONTROL 配置数据流]时启用[!UICONTROL 地理查找]（针对移动运营商）或[设备查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)（针对所有其他维度）。
+* 对于 Web SDK 实施，在[!UICONTROL 配置数据流]时启用[!UICONTROL 地理查找]（针对移动运营商）或[设备查找](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)（针对所有其他维度）。
 
 ## 移动设备维度描述
 
@@ -78,12 +66,12 @@ ht-degree: 95%
 
 ## 按型号或版本区分 iPhone
 
-移动设备会报告用户代理字符串中的固件版本，而非设备版本。 例如，如果当代 iPhone 与上一代 iPhone 使用相同的固件版本，则二者包含相同的用户代理。 由于无法使用 JavaScript 确定 iPhone 的设备版本，所有 iPhone 都属于同一存储桶。 移动设备维度完全基于引用用户代理的查找，因此所有 iPhone 显示的移动屏幕尺寸均为 `320 x 480`。
+移动设备会在用户代理字符串中报告其固件版本，而非设备版本。 例如，如果当代 iPhone 与上一代 iPhone 使用相同的固件版本，则二者包含相同的用户代理。 由于无法使用 JavaScript 确定 iPhone 的设备版本，所有 iPhone 都属于同一存储桶。 移动设备维度完全基于引用用户代理的查找，因此所有 iPhone 显示的移动屏幕尺寸均为 `320 x 480`。
 
 如果要收集 iPhone 设备版本，有两种方法可以规避此限制。
 
 * **使用 Mobile SDK**：Mobile SDK 包含用于报告的设备版本维度。 与网站相比，此方法更适合于移动设备应用程序。
-* **使用通过 JavaScript 提供的其他变量**：某些变量（例如 `screen.height` 和 `screen.width`）可用于推断设备版本。 例如，您可以在网站上使用以下代码片断：
+* **使用通过 JavaScript 提供的其他变量**：某些变量（例如 `screen.height` 和 `screen.width`）可用于推断设备版本。 例如，您可以在网站上使用以下代码片段：
 
   ```js
   if (navigator.userAgent.indexOf('iPhone') > -1) {
@@ -91,4 +79,4 @@ ht-degree: 95%
     }
   ```
 
-  此代码块首先会检测设备是否为 iPhone。 如果是，则代码会使用 JavaScript 将屏幕分辨率拉入 eVar。 如果屏幕分辨率是唯一的，此方法让您能够大致检测设备版本。
+  此代码块首先会检测设备是否为 iPhone。 如果是，则代码会使用 JavaScript 将屏幕分辨率提取到 eVar 中。 如果屏幕分辨率是唯一的，此方法让您能够大致检测设备版本。

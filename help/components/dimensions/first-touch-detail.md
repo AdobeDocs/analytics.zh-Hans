@@ -4,16 +4,10 @@ description: 访客参与有效期限内的第一个营销渠道的详细信息�
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 TQID: https://experienceleague.adobe.com/duNfZhq3nb1kAjVkbUEUkuFPixk-FaTZX3-TA25AifQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 362
@@ -42,4 +36,4 @@ ht-degree: 82%
 
 Dimension项目取决于适用营销渠道处理规则的下拉列表中列出的渠道值。 例如，如果将渠道值设置为“页面 URL”，则维度项目包括您网站上的页面 URL。 如果将渠道值设置为“反向链接域”，则维度项目包括访客通过点击进入您网站的域。 此维度汇总所有详细维度项目，而不管这些维度项目位于哪个渠道。
 
-Adobe 建议设置与营销渠道相关的渠道值，以便洞察渠道详细信息。
+Adobe 建议设置与营销渠道相关的渠道值，以便深入了解渠道详细信息。

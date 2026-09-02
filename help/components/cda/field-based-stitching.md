@@ -5,17 +5,11 @@ exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 582
@@ -27,7 +21,7 @@ ht-degree: 83%
 
 {{available-existing-customers}}
 
-Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。 此方法依靠 Analytics 变量（如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)）包含人员标识符。 它使用该变量作为将设备联系在一起的基础。 Adobe 推荐此拼接选项，以提高访客跟踪的透明度和可预测性。
+Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。 此方法依靠 Analytics 变量（如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)）包含人员标识符。 它使用该变量作为将设备关联在一起的基础。 Adobe 推荐此拼接选项，以提高访客跟踪的透明度和可预测性。
 
 ## 基于字段的拼合的特定先决条件
 
@@ -44,8 +38,8 @@ Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。 �
 ## 基于字段的拼合的特定限制
 
 * 基于字段的拼接对于用户识别率/身份验证率较高的报表包效果最好。
-* 虽然 prop 和 eVar 针对为报表用途处理大小写字符的方式都制定了规则，但基于字段的拼接不转换以任何方式用于拼接的 prop 或 eVar。 基于字段的拼接使用指定字段中的值，因为它在 VISTA 规则之后和处理规则之后才存在。 拼接过程区分大小写。 例如，如果 prop/eVar 中有时出现“Bob”一词，有时出现“BOB”一词，则拼接过程将这两个词视为单独的两人。
-* 鉴于基于字段的拼接区分大小写，因此 Adobe 建议复查适用于基于字段的拼接所使用的 prop 或 eVar 的任何 VISTA 规则或处理规则。 需要复查它们以确保这些规则中的任何规则都不会引入同一 ID 的新形式。 例如，应确保任何 VISTA 或处理规则都不会在仅一部分点击上将小写引入 prop 或 eVar。
+* 虽然 prop 和 eVar 针对为报表用途处理大小写字符的方式都制定了规则，但基于字段的拼接不转换以任何方式用于拼接的 prop 或 eVar。 基于字段的拼接使用指定字段在经过 VISTA 规则和处理规则之后的值。 拼接过程区分大小写。 例如，如果 prop/eVar 中有时出现“Bob”一词，有时出现“BOB”一词，则拼接过程将这两个词视为单独的两人。
+* 鉴于基于字段的拼接区分大小写，因此 Adobe 建议复查适用于基于字段的拼接所使用的 prop 或 eVar 的任何 VISTA 规则或处理规则。 需要复查它们，以确保这些规则都不会引入同一 ID 的新形式。 例如，应确保任何 VISTA 或处理规则都不会仅对一部分点击中的 prop 或 eVar 执行小写转换。
 * 基于字段的拼接不支持使用多个 prop 或 eVar 作拼接用途。 例如，如果 eVar12 包含登录 ID，而 eVar20 包含电子邮件 ID，则必须二选其一。
 * 基于字段的拼接不组合或连接多个字段（如 eVar10 + prop5）。
 * prop 或 eVar 应仅包含一种类型的 ID。 例如，prop 或 eVar 不应包含登录 ID 和电子邮件 ID 的组合。

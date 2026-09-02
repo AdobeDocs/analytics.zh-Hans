@@ -1,21 +1,14 @@
 ---
-description: Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。 作为诸多创新中的一种，目前所有计算指标都拥有一个全局 ID — 不再局限于单一的报表包之中。
+description: Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。 作为诸多创新中的一种，目前所有计算量度都拥有一个全局 ID — 不再局限于单一的报告包之中。
 title: 计算量度
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 TQID: https://experienceleague.adobe.com/Ae-k-aIMg3n3kXYWFngOzYihtlexLCoD5CmnEN3afhI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 396
@@ -59,6 +52,6 @@ Report Builder 5.2及更高版本支持Adobe Analytics计算指标。 现在，�
 
 ## 应用计算量度 {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-选择筛选器后，单击&#x200B;**[!UICONTROL 应用]**&#x200B;以将其应用到您的请求。 此时，选定的指标会被添加到报表布局中。
+选择筛选器后，单击&#x200B;**[!UICONTROL 应用]**&#x200B;以将其应用到您的请求。 此时，选定的量度会被添加到报告布局中。
 
 ![显示“请求向导：第2步 — 网站总计”的屏幕截图，该屏幕指向“高级过滤器”窗口并应用了报表量度。](assets/filtering_for_metric.png)

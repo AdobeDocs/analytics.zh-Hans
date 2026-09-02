@@ -5,33 +5,24 @@ title: 创建虚拟报告包
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 702
 ht-degree: 41%
 
 ---
 
 # 创建虚拟报告包
 
-在您开始创建虚拟报表包之前，请注意下面一些事项。
+在您开始创建虚拟报告包之前，请注意下面一些事项。
 
 * 非管理员用户看不到虚拟报表包管理器。
 * 无法共享虚拟报表包。 “共享”通过组/权限完成。
-* 在虚拟报表包管理器中，您只能看到自己的虚拟报表包。 您需要单击“显示所有”才能看到其他所有人的虚拟报表包。
+* 在虚拟报表包管理器中，您只能看到自己的虚拟报表包。 您需要单击“显示所有”才能看到其他所有人的虚拟报告包。
 
 1. 导航到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**。
 1. 单击&#x200B;**[!UICONTROL 添加 +]**。
@@ -48,8 +39,8 @@ ht-degree: 41%
 | 描述 | 为了业务用户的利益，添加准确的描述。 |
 | 标记 | 您可以添加标记以组织报表包。 |
 | 来源 | 此虚拟报表包会从中继承以下设置的报表包。 大多数服务级别和功能（例如，eVar设置、处理规则、分类等）都是继承的。 要更改虚拟报表包中的这些继承设置，您必须编辑父报表包（“管理员”>“报表包”）。 |
-| 时区 | 选择时区为可选操作。 如果您选择了时区，则该时区会与虚拟报表包一起保存。 如果您没有选择时区，则使用父报表包的时区。  编辑虚拟报表包时，与虚拟报表包一起保存的时区会显示在下拉选择器中。 如果虚拟报表包是在添加时区支持之前创建的，则父报表包的时区将显示在下拉选择器中。 |
-| 区段 | 您可以仅添加一个区段，也可以堆叠区段。   注意：堆叠两个区段时，将使用 AND 语句联接它们。 无法更改为 OR 语句。 当您尝试删除或修改虚拟报表包中当前使用的某个区段时，会显示一条警告。 |
+| 时区 | 选择时区为可选操作。 如果您选择了时区，则该时区会与虚拟报表包一起保存。 如果您没有选择时区，则使用父报告包的时区。  编辑虚拟报表包时，与虚拟报表包一起保存的时区会显示在下拉选择器中。 如果虚拟报表包是在添加时区支持之前创建的，则父报表包的时区将显示在下拉选择器中。 |
+| 区段 | 您可以仅添加一个区段，也可以堆叠区段。   注意：堆叠两个区段时，将使用 AND 语句联接它们。 无法更改为 OR 语句。 当您尝试删除或修改虚拟报告包中当前使用的某个区段时，会显示一条警告。 |
 
 ## 定义访问定义
 
@@ -60,7 +51,7 @@ ht-degree: 41%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [调整演示视频的访问定义](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

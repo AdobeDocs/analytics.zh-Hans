@@ -1,22 +1,16 @@
 ---
-description: 本节介绍数据馈送提交中包含的文件。
-keywords: 数据馈送;作业;内容;清单;文件;查找;点击数据;交付内容
+description: 本节介绍数据馈送传递中包含的文件。
+keywords: 数据馈送;作业;内容;清单;文件;查找;点击数据;传递内容
 subtopic: data feeds
 title: 数据馈送内容 - 概述
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 TQID: 'https://experienceleague.adobe.com/Kz7pQS0KRjABbAx84Q16K1cA5zEB28Zx9lDoOTGSKAE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1004
@@ -112,7 +106,7 @@ Datafeed-Manifest-Version: 1.0
 
 点击数据在 `hit_data.tsv` 文件中提供。 此文件中的数据量取决于传递格式（每小时或每日，单个或多个文件）。 此文件仅包含点击数据。 列标题与查找文件分开传输。 此文件中的每行均包含一个服务器调用。
 
-根据您所配置的数据馈送类型，Adobe 提交的文件会有所不同。 所有文件都使用 ISO-8859-1 进行编码。
+Adobe 传递的文件因您配置的数据馈送类型而异。 所有文件都使用 ISO-8859-1 进行编码。
 
 * `[rsid]` 是指作为数据馈送来源的报表包 ID。
 * `[index]` 仅用于多文件馈送，它是指分页文件的正确顺序。
@@ -155,4 +149,4 @@ Datafeed-Manifest-Version: 1.0
 
 ## 数据文件大小
 
-根据当前使用的变量数量和发送到报表包的流量，点击数据文件大小会有很大差异。 但是，一行数据平均约为 500 B（压缩）或 2 KB（未压缩）。 将此值乘以服务器调用数，即可粗略估计数据馈送文件的大小。 在您的组织开始接收数据馈送文件后，您可以通过使用 `hit_data.tsv` 中的行数除以其总文件大小，得到更准确的数字。
+根据当前使用的变量数量和发送到报告包的流量，点击数据文件大小会有很大差异。 但是，一行数据平均约为 500 B（压缩）或 2 KB（未压缩）。 将此值乘以服务器调用数，即可粗略估计数据馈送文件的大小。 在您的组织开始接收数据馈送文件后，您可以通过使用 `hit_data.tsv` 中的行数除以其总文件大小，得到更准确的数字。

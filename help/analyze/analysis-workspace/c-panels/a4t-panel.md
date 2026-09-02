@@ -5,25 +5,11 @@ feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1287
@@ -53,7 +39,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了Analytics for Target面板。_<br/>_有关如何比较_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._中的不同用户体验、营销或消息变化的信息，请参阅[实验面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了Analytics for Target面板。_<br/>_有关如何比较_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._中的不同用户体验、营销或消息变化的信息，请参阅[实验面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +48,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -84,10 +70,10 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 | 设置 | 描述 |
 |---|---|
-| **[!UICONTROL 目标活动]** | 从目标活动列表中选择。 该列表填充了过去 6 个月至少被点击 1 次的活动。 如果您在列表中未看到某个活动，则可能是因为该活动是在 6 个月前进行的。 在这种情况下，仍可从左边栏添加该活动，因为左边栏的回顾窗口最长为 18 个月。 |
+| **[!UICONTROL 目标活动]** | 从目标活动列表中选择。 该列表填充了过去 6 个月内至少有 1 次点击的活动。 如果您在列表中未看到某个活动，则该活动可能已超过 6 个月。 在这种情况下，仍可从左边栏添加该活动，因为左边栏的回顾窗口最长为 18 个月。 |
 | **[!UICONTROL 控制体验]** | 选择控制体验。 |
 | **[!UICONTROL 标准化量度]** | 选择访客、访问次数或展示次数。 对于大多数分析用例，建议使用[!UICONTROL 访客]。 此量度（也称为计数方法）将作为提升计算的分母。 此外，它也会在应用置信度计算之前影响数据汇总的方式。 |
-| **[!UICONTROL 成功量度]** | 从下拉菜单中最多选择 3 个标准（非计算）成功量度，或从组件边栏的“量度”中拖放量度。 每个量度在呈现的面板中都有一个专用表格和可视化图表。 |
+| **[!UICONTROL 成功量度]** | 从下拉菜单中最多选择 3 个标准（非计算）成功事件，或从组件边栏的“量度”中拖放量度。 每个量度在呈现的面板中都有一个专用表格和可视化图表。 |
 
 选择&#x200B;**[!UICONTROL 生成]**&#x200B;以生成面板。
 
@@ -104,13 +90,13 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | **[!UICONTROL 标准化量度]** | 输入面板中选择的标准化量度：独特访客量、访问次数或活动展示次数。 |
 | **[!UICONTROL 成功量度]** | 输入面板中选择的成功量度。 |
 | **[!UICONTROL 转化率]** | 成功量度/标准化量度。 |
-| **[!UICONTROL 提升度]** | 每个体验与对照体验比较转化率。 注意：提升度是目标体验的&#x200B;*锁定量度*，不能对其细分或将其与其他维度一起使用。 |
-| **[!UICONTROL 提升度（下限）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的最差提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hans) Excel 文件。 |
-| **[!UICONTROL 提升度（中等）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的中等提升度。 <br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hans) Excel 文件。 |
-| **[!UICONTROL 提升度（上限）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的最佳提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hans) Excel 文件。 |
-| **[!UICONTROL 置信度]** | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。 已对量度应用了 75%/85%/95% 的固定条件格式化范围。 如果需要，可以在“列”设置下自定义此格式化范围。 注意：置信度是 Target 体验的“固定量度”；无法细分它或将它与其他维度一起使用。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hans) Excel 文件。 |
+| **[!UICONTROL 提升度]** | 将每个体验的转化率与控制体验进行比较。 注意：提升度是目标体验的&#x200B;*锁定量度*，不能对其细分或将其与其他维度一起使用。 |
+| **[!UICONTROL 提升度（下限）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的最差提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 文件。 |
+| **[!UICONTROL 提升度（中等）]** | 这个值表示在 95% 的置信区间内，变体体验相对于控制体验可能达到的中点提升度。 <br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 文件。 |
+| **[!UICONTROL 提升度（上限）]** | 这个值代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的最佳提升度。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 文件。 |
+| **[!UICONTROL 置信度]** | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。 已对量度应用了 75%/85%/95% 的固定条件格式化范围。 如果需要，可以在“列”设置下自定义此格式化范围。 注意：置信度是 Target 体验的“固定量度”；无法细分它或将它与其他维度一起使用。<br>有关更多信息，请参阅[统计计算](https://experienceleague.adobe.com/zh-hans/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 文件。 |
 
-与 Analysis Workspace 中的任何其他面板一样，通过添加其他帮助您分析 Adobe Target 活动的表和[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)即可继续进行分析。 还可在面板级别或自由格式表内应用区段。 请注意，如果在自由格式表内添加它，则必须让它横跨整个表以保留提升和置信度计算结果。 目前不支持列级区段。
+与 Analysis Workspace 中的任何其他面板一样，通过添加其他帮助您分析 Adobe Target 活动的表和[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)即可继续进行分析。 还可在面板级别或自由格式表内应用区段。 请注意，如果在自由格式表内添加它，则必须将其叠加到整个表上，以保留提升和置信度计算结果。 目前不支持列级区段。
 
 使用![编辑](/help/assets/icons/Edit.svg)重新配置并重新生成面板。
 
@@ -119,11 +105,11 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | 问题 | 回答 |
 |---|---|
 | Analytics for Target 支持哪些活动类型？ | [深入了解](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup)支持的活动类型。 |
-| 提升度和置信度计算是否支持计算量度？ | 不支持。 [深入了解](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence)提升度和置信度量度为何不支持计算量度。 但是，可以在 Analytics for Target 报告中使用这些量度以外的计算量度。 |
-| 为何 Target 和 Analytics 中的独特访客量会不一样？ | [了解更多](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports)有关不同产品中独特访客量之间的差异。 |
+| 提升度和置信度计算是否支持计算量度？ | 不支持。 [深入了解](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence)提升度和置信度量度为何不支持计算量度。 但是，计算量度可以在这些量度之外用于 Analytics for Target 报告。 |
+| 为何 Target 和 Analytics 中的独特访客会不一样？ | [了解更多](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports)有关不同产品中独特访客量之间的差异。 |
 | 当我在分析中为特定 Target 活动应用点击区段时，为何会看到返回的不相关体验？ | Analytics for Target 维度是一个列表变量，这意味着它可以同时包含多项活动（和体验）。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
 | 置信度量度是否会将极端订单计入在内或对多个产品建议活动应用 Bonferroni 校正？ | 不会。 [深入了解](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) Analytics 如何计算置信度。 |
 | 提升度和置信度量度能否与其他维度或划分一起使用？ | 提升度和置信度是“目标体验”维度的“锁定量度”，因为它们需要一个控件和变量才能计算。 因此，不能对这两个量度划分或将这两个量度与其他维度一起使用。 |
-| 何时会重新计算提升度和置信度？ | 只要生成面板、面板日期范围发生变化或将区段应用于面板或表，即可随时重新计算提升度和置信度。 当您将区段过滤器应用于自由格式表时，必须横跨所有列应用区段，否则提升度和置信度无法正确更新。 不支持列级区段。 |
+| 何时会重新计算提升度和置信度？ | 只要构建面板、面板日期范围发生变化，或将区段应用于面板或表，即可随时重新计算提升度和置信度。 当您将区段过滤器应用于自由格式表时，必须横跨所有列应用区段，否则提升度和置信度无法正确更新。 不支持列级区段。 |
 
 有关 Analytics for Target 报告的更多信息，请访问[Analytics for Target 报告](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/reporting)

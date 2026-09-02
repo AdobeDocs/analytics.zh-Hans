@@ -1,23 +1,15 @@
 ---
-description: 了解如何实施多包标记以将图像请求发送到多个报表包。
+description: 了解如何实施多包标记以将图像请求发送到多个报告包。
 title: 实施多包标记
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/djrzQEjvc--wnh2wR1HNV-LVEn6RPcyiaLKLha5pfSY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 302
@@ -29,7 +21,7 @@ ht-degree: 93%
 
 利用[多包标记](/help/admin/tools/manage-rs/rollup-report-suite.md)，您不仅可以将图像请求发送到全局报表包，还可以发送到各个子报表包，以便您可以向不同的最终用户提供公司全局报表包数据的子集。
 
-要实施多包标记，您必须在网页和应用程序的跟踪代码中包含全局报表包的报表包 ID (RSID)，还要包括适用子报表包的 RSID。
+要实施多包标记，您必须在网页和应用程序的跟踪代码中包含全局报告包的报告包 ID (RSID)，还要包括适用子报告包的 RSID。
 
 * 对于 Adobe Experience Platform 标记实施，请为[[!DNL Analytics] 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans)指定每个报表包。
 
@@ -39,9 +31,9 @@ ht-degree: 93%
 
 >[!TIP]
 >
-> 最佳实践是首先列出全局报表包或报表包 ID。
+> 最佳做法是首先列出全局报告包或报告包 ID。
 
-多包标记会导致对每个图像请求进行多个服务器调用：对全局报表包进行主调用，对每个子报表包进行次调用。
+多包标记会导致对每个图像请求进行多个服务器调用：对全局报告包进行主调用，对每个子报告包进行次调用。
 
 >[!NOTE]
 >
@@ -49,6 +41,6 @@ ht-degree: 93%
 
 ## 我是应该实施多包标记还是虚拟报表包？
 
-使用虚拟报表包代替多包标记通常是最佳实践，但您的业务需求决定了适合您组织的最佳报表包方法。
+使用虚拟报告包代替多包标记通常是最佳做法，但您的业务需求决定了适合您组织的最佳报告包方法。
 
 要了解虚拟报表包是否是您的最佳方法，请参阅“[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)”。 另请参阅“[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)”，以比较多包标记和虚拟报表包功能。

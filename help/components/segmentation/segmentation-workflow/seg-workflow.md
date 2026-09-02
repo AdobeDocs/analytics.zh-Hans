@@ -4,15 +4,10 @@ title: 分段工作流程概述
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 TQID: https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 265
@@ -30,7 +25,7 @@ ht-degree: 33%
 | 1 | [计划区段](/help/components/segmentation/segmentation-workflow/seg-plan.md) | 在构建区段和设置区段管理环境之前，您是否已问过自己所有正确的问题？ 您设计区段时是否考虑到了区段的用途和用法？ <br/>请参阅[区段规划核对清单](seg-plan.md)，获取有关规划和组织区段的帮助。 |
 | 2 | [创建区段](seg-create.md) | 使用可用的各种选项创建新区段。 |
 | 3 | [生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md) | 生成和编辑区段以用于所有Analytics功能。 <br/>有关如何使用THEN运算符生成区段的信息，请参阅[生成顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。 |
-| 4 | [标记区段](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 为区段加标签便于整理和共享。 请参阅如何规划和分配标签以进行简单和高级搜索和整理。 |
+| 4 | [标记区段](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 为区段加标记便于整理和共享。 请参阅如何规划和分配标签以进行简单和高级搜索和整理。 |
 | 5 | [批准区段](/help/components/segmentation/segmentation-workflow/seg-approve.md) | 批准区段作为规范区段。 |
 | 6 | [使用区段](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | 您可以将区段组件中的区段直接应用于报表。 |
 | 7 | [共享区段](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 将区段共享给其他Analytics工具中的目标受众，以及Adobe Target和Adobe CX Enterprise。 |

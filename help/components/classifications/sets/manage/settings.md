@@ -4,15 +4,10 @@ description: 了解如何在Adobe Analytics中编辑现有分类集的名称、�
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
 TQID: https://experienceleague.adobe.com/D-6P27NSFWF5tHze-wopbkHrDMpMUQWA-zlEbZbzSzk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 253
@@ -29,7 +24,7 @@ ht-degree: 2%
 1. 从Adobe Analytics顶部菜单栏中选择&#x200B;**[!UICONTROL 组件]**，然后选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;中，选择&#x200B;**[!UICONTROL 分类集]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要编辑其架构的分类集。
-1. 在&#x200B;**[!UICONTROL 分类集： _分类集_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡以编辑设置：
+1. 在&#x200B;**[!UICONTROL 分类集： _分类集_]**对话框中，选择&#x200B;**[!UICONTROL 设置]**选项卡以编辑设置：
 
    ![分类集 — 设置](assets/classification-sets-settings.png)
 
@@ -38,11 +33,11 @@ ht-degree: 2%
    1. 将一个或多个&#x200B;**[!UICONTROL 标记（可选）]**&#x200B;添加到分类集。 从&#x200B;**[!UICONTROL 标记]**&#x200B;下拉菜单中选择现有标记，或输入新标记。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)删除标记。
    1. 在&#x200B;**[!UICONTROL 作业通知]**&#x200B;部分中，选择分类集作业失败或成功时要通知的人员。
       * 要通知用户发生故障，请执行以下操作：
-         1. 启用&#x200B;**[!UICONTROL 失败时通知]**。
-         1. 在&#x200B;**[!UICONTROL 失败电子邮件收件人]**&#x200B;中指定一个或多个逗号分隔的电子邮件地址。
+        1. 启用&#x200B;**[!UICONTROL 失败时通知]**。
+        1. 在&#x200B;**[!UICONTROL 失败电子邮件收件人]**&#x200B;中指定一个或多个逗号分隔的电子邮件地址。
       * 要在成功时通知用户，请执行以下操作：
-         1. 启用&#x200B;**[!UICONTROL 成功时通知]**。
-         1. 在&#x200B;**[!UICONTROL 成功电子邮件收件人]**&#x200B;中指定一个或多个逗号分隔的电子邮件地址。
+        1. 启用&#x200B;**[!UICONTROL 成功时通知]**。
+        1. 在&#x200B;**[!UICONTROL 成功电子邮件收件人]**&#x200B;中指定一个或多个逗号分隔的电子邮件地址。
    1. 编辑&#x200B;**[!UICONTROL 订阅]**。
       * 您可以为分类集定义多个&#x200B;**[!UICONTROL 报告包]**&#x200B;和&#x200B;**[!UICONTROL Dimension]**&#x200B;组合。
       * 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)以删除&#x200B;**[!UICONTROL 报表包]**&#x200B;和&#x200B;**[!UICONTROL 键Dimension]**&#x200B;组合。

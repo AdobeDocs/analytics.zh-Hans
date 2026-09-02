@@ -4,20 +4,11 @@ description: 有关计划进行的 SFTP 服务升级的常见问题解答。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 TQID: 'https://experienceleague.adobe.com/HKI-iOTx-gHbsmL8BJszgs5e5nlflk67s64eqs2dd-k'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 444
@@ -27,15 +18,15 @@ ht-degree: 95%
 
 # SFTP 服务升级 — 常见问题解答
 
-Adobe Analytics 将于 2022 年 9 月 20 日升级其安全文件传输协议 ([SFTP]) 服务，以增强文件传输的安全性。 作出此更改后，将不再支持某些 SFTP 客户端配置。 这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据。 而不影响 FTP 协议。 为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与下文详述的更改一致。
+Adobe Analytics 将于 2022 年 9 月 20 日升级其安全文件传输协议 ([SFTP]) 服务，以增强文件传输的安全性。 作出此更改后，将不再支持某些 SFTP 客户端配置。 这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据。 FTP 协议不会受到影响。 为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与下文详述的更改一致。
 
 ## 如何确定我所在的组织当前使用何种算法、连接类型和协议？
 
-所使用的 FTP/SFTP 软件应指示在配置为与 Adobe Analytics 交换数据的连接中使用了什么具体设置。 此软件还应包括有关对于连接可用的各种选项的文档。 在此更新之后支持的选项在业内受到广泛支持和认可。
+所使用的 FTP/SFTP 软件应指示在配置为与 Adobe Analytics 交换数据的连接中使用了什么具体设置。 此软件还应包含有关连接可用的不同选项的文档。 在此更新之后支持的选项在业内受到广泛支持和认可。
 
-一般将删除的连接选项视为过时，并在当前的软件中不使用这些选项。 如果过去三年内升级过 FTP/SFTP 软件，则连接可能已符合要求。
+将被删除的连接选项通常被视为已过时，并且在当前软件中不再使用。 如果过去三年内升级过 FTP/SFTP 软件，则连接可能已符合要求。
 
-## 哪些 Adobe Analytics 功能使用 SFTP 引入数据？
+## 哪些 Adobe Analytics 功能使用 SFTP 进行数据摄取？
 
 以下功能可使用 SFTP 将数据上传到 Adobe Analytics。
 
@@ -58,24 +49,24 @@ Adobe Analytics 将于 2022 年 9 月 20 日升级其安全文件传输协议 ([
 
 * SFTP 协议 mac 算法：
 
-   * 我们将不再支持：hmac-md5、hmac-md5-96、hmac-ripemd160、hmacripemd160@openssh.com、hmac-sha1、hmac-sha1-96、hmac-sha1-etm@openssh.com、umac-64-etm@openssh.com、umac-64@openssh.com
+  * 我们将不再支持：hmac-md5、hmac-md5-96、hmac-ripemd160、hmacripemd160@openssh.com、hmac-sha1、hmac-sha1-96、hmac-sha1-etm@openssh.com、umac-64-etm@openssh.com、umac-64@openssh.com
 
-   * 我们将仅支持：hmac-sha2-512-etm@openssh.com、hmac-sha2-256-etm@openssh.com、umac-128-etm@openssh.com、hmac-sha2-512、hmacsha2-256、umac-128@openssh.com
+  * 我们将仅支持：hmac-sha2-512-etm@openssh.com、hmac-sha2-256-etm@openssh.com、umac-128-etm@openssh.com、hmac-sha2-512、hmacsha2-256、umac-128@openssh.com
 
 * SFTP 协议密码算法：
 
-   * 我们将不再支持：3des-cbc、aes128-cbc、aes128-gcm@openssh.com、aes192-cbc、aes256-cbc、aes256-gcm@openssh.com、arcfour、arcfour128、arcfour256、blowfish-cbc、cast128-cbc、rijndael-cbc@lysator.liu.se
+  * 我们将不再支持：3des-cbc、aes128-cbc、aes128-gcm@openssh.com、aes192-cbc、aes256-cbc、aes256-gcm@openssh.com、arcfour、arcfour128、arcfour256、blowfish-cbc、cast128-cbc、rijndael-cbc@lysator.liu.se
 
-   * 我们将仅支持：aes128-ctr、aes192-ctr、aes256-ctr
+  * 我们将仅支持：aes128-ctr、aes192-ctr、aes256-ctr
 
 * SFTP 协议支持的连接：
 
-   * 我们将不再支持通过 sftp 协议使用 scp 和 rsync 命令或连接
+  * 我们将不再支持通过 sftp 协议使用 scp 和 rsync 命令或连接
 
-   * 我们将仅支持纯 SFTP 协议连接
+  * 我们将仅支持纯 SFTP 协议连接
 
 * 支持的 FTP/SFTP 客户端/协议：
 
-   * FTP：vsftpd 版本 3.0.2-25 或更高版本
+  * FTP：vsftpd 版本 3.0.2-25 或更高版本
 
-   * SFTP：openssh 版本 7.4p1-21 或更高版本
+  * SFTP：openssh 版本 7.4p1-21 或更高版本

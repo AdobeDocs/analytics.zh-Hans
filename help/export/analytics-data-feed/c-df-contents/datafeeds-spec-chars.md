@@ -1,22 +1,16 @@
 ---
 description: 有关数据馈送中使用的特殊字符的信息。
-keywords: 数据馈送;作业;特殊字符;hit_data;多值变量;events_list;products_list;mvvar
+keywords: 数据馈送;作业；特殊字符；hit_data；多值变量；events_list；products_list；mvvars
 subtopic: data feeds
 title: 数据馈送中的特殊字符
 feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 TQID: 'https://experienceleague.adobe.com/jNnPgkpVea1R-uUcOiV7UDRc8TdGjhov9yFCvgfitMA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 333
@@ -34,9 +28,9 @@ Adobe 使用转义逻辑确保发送到数据收集服务器的值不会损坏�
 |--- |--- |
 | `\t` | 表示制表符。 标记列或数据字段的结尾。 |
 | `\n` | 表示换行符。 标记行或点击的结尾。 |
-| `\` | 反斜线。 作为数据收集的一部分发送时的转义字符。 |
+| `\` | 反斜线。 作为数据收集的一部分发送时，对字符进行转义。 |
 
-当这些保留值前面有反斜线时，将作为数据收集的一部分发送它们。
+当这些保留值前面有反斜线时，它们是作为数据收集的一部分发送的。
 
 | 字符 | 描述 |
 |--- |--- |
@@ -46,7 +40,7 @@ Adobe 使用转义逻辑确保发送到数据收集服务器的值不会损坏�
 
 例如，您网站的访客使用内部搜索并搜索`"search\nstring"`。 您使用`"search\nstring"`填充eVar1，并将该值发送到Adobe。 Adobe 接收该点击，并对字符串中包含的换行符进行转义处理。 原始数据中的实际值为`"search\\nstring"`。
 
-## 多值变量（events_list、products_list、mvvar）中的特殊字符
+## 多值变量（events_list、products_list、mvvars）中的特殊字符
 
 以下字符在可包含多个值的列中具有特殊含义。
 
@@ -55,9 +49,9 @@ Adobe 使用转义逻辑确保发送到数据收集服务器的值不会损坏�
 | `,` | 逗号。 表示单个值的结尾。 用于分隔产品字符串、事件 ID 或其他值。 |
 | `;` | 分号。 表示 `product_list` 中单个值的结尾。 用于分隔单个产品字符串中的字段。 |
 | `=` | 等号。 将值分配到 `product_list` 中的事件。 |
-| `^` | 脱字符号。 作为数据收集的一部分发送时的转义字符。 |
+| `^` | 脱字符号。 在作为数据收集的一部分发送时，对字符进行转义。 |
 
-当这些保留值前面有脱字符号时，将作为数据收集的一部分发送它们。
+当这些保留值前面有脱字符时，它们是作为数据收集的一部分发送的。
 
 | 字符 | 描述 |
 |--- |--- |

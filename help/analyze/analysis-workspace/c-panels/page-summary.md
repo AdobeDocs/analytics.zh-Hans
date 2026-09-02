@@ -5,18 +5,10 @@ feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 TQID: https://experienceleague.adobe.com/WI5opV6DcvJRF--HuX8PJcJd7G-3XU0-E0hWvvdlwmM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 642
@@ -31,7 +23,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_button"
 >title="页面摘要"
->abstract="快速查看一些高级量度以及有关特定页面的移入和移出。"
+>abstract="快速查看一些高级量度以及流入和流出特定页面的情况。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,14 +32,14 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="页面摘要面板"
->abstract="快速查看部分高层级量度，以及围绕特定页面的流入与流出路径。<br/><br/>**参数&#x200B;**<br/>**添加页面维度项**：打开组件栏，找到“页面”维度，点击展开箭头以查看维度项。 然后，将您需要了解的特定页面拖放到生成器中。 拖放维度项后，报告将会自动使用有关页面的关键信息进行填充。"
+>abstract="快速查看部分高层级量度，以及围绕特定页面的流入与流出路径。<br/><br/>**参数&#x200B;**<br/>**添加页面维度项**：打开组件栏，找到“页面”维度，点击展开箭头以查看维度项。 然后，将您需要了解的特定页面拖放到生成器中。 拖放维度项后，报告会自动填充有关该页面的关键信息。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了页面摘要面板。_<br/>_在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中没有等效的面板。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了页面摘要面板。_<br/>_在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中没有等效的面板。_
 
 >[!ENDSHADEBOX]
 
@@ -99,7 +91,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 | **[!UICONTROL 页面查看次数] - 4 周前** | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)可视化图表，显示该页面上个月的页面查看次数。 |
 | **[!UICONTROL 页面查看次数] - 52 周前** | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)可视化图表，显示该页面去年的页面查看次数。 |
 | **[!UICONTROL 趋势]** | 本月、4 周前和 52 周前的页面查看次数趋势[线形图](/help/analyze/analysis-workspace/visualizations/line.md)可视化图表。 |
-| **[!UICONTROL 所有页面查看次数的百分比]** | 访问该页面所有页面查看次数的百分比摘要数字。 |
+| **[!UICONTROL 所有页面查看次数的百分比]** | 转到此页面的所有页面查看次数所占百分比的摘要数字。 |
 | **[!UICONTROL 页面逗留时间]** | [水平条形图](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)可视化图表，显示在该页面上逗留的时间。 |
 | **[!UICONTROL 单页面访问次数]** | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)，显示该页面是唯一被访问页面的页面查看次数。 |
 | **[!UICONTROL 重新载入]** | [摘要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)，显示重新载入过程中维度项的出现次数。 访客刷新其浏览器是触发重新载入的最常见方式。 |

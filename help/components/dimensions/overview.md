@@ -1,20 +1,13 @@
 ---
 title: 维度概述
-description: 了解什么是维度，以及它们在 Adobe Analytics 中如何使用。
+description: 了解什么是维度，以及维度在 Adobe Analytics 中如何使用。
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 TQID: https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 436
@@ -52,7 +45,7 @@ Analytics 管理员可以在“报告包”中或直接在 Analysis Workspace �
 * **JavaScript版本**：报告访客浏览器支持的JavaScript版本。 不再收集的旧版维度。
 * **下一页**：一个路径维度，显示访客查看的下一页。 对Analysis Workspace中的当前路径维度使用[流量可视化图表](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
 * **上一页**：一个路径维度，显示访客查看的上一页。 对Analysis Workspace中的当前路径维度使用[流量可视化图表](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
-* **时区**：访客的时区，派生自AppMeasurement图像请求中的时间戳偏移。 Web SDK使用[`placeContext`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/context)收集时区。
+* **时区**：访客的时区，派生自AppMeasurement图像请求中的时间戳偏移。 Web SDK使用[`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context)收集时区。
 * **顶级域**：访客访问点的顶级域。 旧版Reports &amp; Analytics报表；请改用[域](domain.md)维度。
 * **访问页码**：访问中的页码。 旧版Reports &amp; Analytics报表；请改用[点击深度](hit-depth.md)维度。
 * **访客状态**：从`s.state`变量报告了美国的状态。 已弃用，改用使用地域划分的[美国州](us-states.md)维度。

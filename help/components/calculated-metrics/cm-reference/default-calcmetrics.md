@@ -4,19 +4,11 @@ title: 默认计算量度
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 TQID: 'https://experienceleague.adobe.com/91Q7PzYSgj-Wam7DZhSAQ9rdm-I2HJK-qq2IZA0hy-M'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 779
@@ -36,7 +28,7 @@ Adobe Analytics 通过提供各种计算量度来涵盖最常见的用例。 这
 >
 >您可以：
 >
-> * 为流媒体服务添加默认计算量度，请参阅[计算量度](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/calculated-metrics)
+> * 为流媒体服务添加默认计算量度，请参阅[计算量度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)
 > * 从现有量度中创建自定义计算量度，如[计算量度和高级计算量度](/help/components/calculated-metrics/cm-overview.md)中所述。
 >
 
@@ -54,15 +46,15 @@ Adobe Analytics 通过提供各种计算量度来涵盖最常见的用例。 这
 | 应用程序用户数 | 移动应用程序的用户总数 | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
 | 平均会话时长（移动） | 单次会话期间访客在网站上逗留的平均时长。 | 空白 |
 | 网站平均逗留时间 | 访客在离开或导航到别处之前在网站上逗留的平均时长。 | `[Average Time Spent on Site (Seconds)]` |
-| 跳出率 | 包含一次点击的访问次数与该页面上的访问次数之间的比率。 此量度可以帮助您了解哪个维度项的跳出率最高，或查看一段时间内网站的累计总跳出率。 | `[Bounces] / [Entries]` |
-| 机器人页面查看率 | 机器人页面查看率与页面查看总次数之比。 | `[Bot Page Views] / [Page Views]` |
+| 跳出率 | 恰好包含一次点击的访问次数与该页面上的访问次数之间的比率。 此量度可以帮助您了解哪个维度项的跳出率最高，或查看一段时间内网站的累计总跳出率。 | `[Bounces] / [Entries]` |
+| 机器人页面查看率 | 机器人页面查看次数与页面查看总次数之比。 | `[Bot Page Views] / [Page Views]` |
 | 内容周转率 | 在网站上创建和发布新内容的速度以及新内容能够多快地吸引用户参与。 | `[Page Views] / [Visits]` |
 | 转化率 | 执行了所需操作（如进行了购买）的访客的百分比。 | `[Orders] / [Visits]` |
 | 登录率 | 在指定页面上进入网站的访客占网站上会话总数的百分比。 | `[Entries] / [Visits]` |
-| 估计的独特访客量（ITP 2.1） | 对于 ITP 访客（Safari 浏览器上的用户），将独特访客量除以 2 或更少。 该计算量度假设您使用客户端 JavaScript（而不是使用 CNAME 实施）设置 Cookie。 从ITP 2.1开始，使用客户端JavaScript设置Cookie的实施会受到影响。 有关详细信息，请参阅[智能防跟踪](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| 估计的独特访客量（ITP 2.1） | 对于 ITP 访客（Safari 浏览器上的用户），将独特访客量除以 2 或更小的数值。 该计算量度假设您使用客户端 JavaScript（而不是使用 CNAME 实施）设置 Cookie。 从ITP 2.1开始，使用客户端JavaScript设置Cookie的实施会受到影响。 有关详细信息，请参阅[智能防跟踪](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID 覆盖 | 拥有 Experience Cloud ID 的访客的百分比。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 退出率 | 查看特定页面后离开网站的访客的百分比。 | `[Exits] / [Visits]` |
-| ITP 2.1 独特访客量 / 独特访客量 | 使用受 ITP 2.1 Cookie 限制影响的浏览器的独特访客量百分比。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
+| ITP 2.1 独特访客量 / 独特访客量 | 使用受 ITP 2.1 Cookie 限制影响的浏览器的独特访客百分比。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | 订单助手 | 渠道或来源促成客户历程向购买推进但最终未购买的次数。 | `[Orders (Visit Participation)] - [Orders]` |
 | 订单 / 访问次数 | 访问网站并完成交易的百分比。 | `[Orders] / [Visits]` |
 | 订单 / 访客人数 | 每个访问网站的单独访客产生的平均订单数或交易数 | `[Orders] / [Unique Visitors]` |

@@ -4,17 +4,10 @@ description: 了解营销渠道工作流程、自动设置以及如何将模板�
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 TQID: https://experienceleague.adobe.com/ZPF3XewOODBtH3XFLBoULMQmdkcQnCsF08KN-1QbSjI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 812
@@ -91,13 +84,13 @@ ht-degree: 97%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 将模板报表包设置应用于多个报表包
+## 将模板报告包设置应用于多个报告包
 
 如何使用主报告包作为模板来测试您的营销渠道配置。 为了节省时间，您可以在批量更新中将此模板应用于一个或多个生产报告包。 您需要为渠道和规则集分别执行此任务。
 
 >[!NOTE]
 >
->在应用规则集之前，需要先应用模板中的渠道。 在执行此步骤时，您的渠道在所有报表包上必须相同。
+>在应用规则集之前，需要先应用模板中的渠道。 在执行此步骤时，您的渠道在所有报告包上必须相同。
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 在&#x200B;**[!UICONTROL “报表包管理器”]**&#x200B;页面上，选择模板报表包，以及一个或多个目标报表包。
@@ -106,6 +99,6 @@ ht-degree: 97%
 1. 单击&#x200B;**[!UICONTROL 全部保存]**。
 1. 将模板中的规则应用于多个报表包：
    1. 返回到[!UICONTROL “报表包管理器”]页面。
-   1. 选择模板报表包，以及一个或多个目标报表包。
+   1. 选择模板报告包，以及一个或多个目标报告包。
    1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**。
    1. 单击&#x200B;**[!UICONTROL 保存]**。 如果“保存”按钮在此步骤中处于禁用状态，请通过展开其中一项规则来启用它。

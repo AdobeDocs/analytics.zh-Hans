@@ -6,18 +6,11 @@ feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
 TQID: 'https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 832
@@ -46,14 +39,14 @@ ht-degree: 21%
 
 ![显示上下文数据变量用法的处理规则界面屏幕截图](assets/set-context-data.png)
 
-当要填充的 eVar 只有几个时，以上示例非常有用。 如果贵组织有数百个上下文数据变量，而每个变量都需要自己的 eVar，则可以使用条件语句。 一条处理规则中可以包含数十个条件语句，这使您的组织能够在报表包中填充所有 eVar，而不会遇到 150 条规则的处理规则限制。
+当要填充的 eVar 只有几个时，以上示例非常有用。 如果贵组织有数百个上下文数据变量，而每个变量都需要自己的 eVar，则可以使用条件语句。 一条处理规则中可以包含数十个条件语句，这使您的组织能够在报告包中填充所有 eVar，而不会遇到 150 条规则的处理规则限制。
 
 以下示例使用变化的上下文数据变量填充多个变量。 一个操作还包含一个条件语句：
 
 | 规则集 | 值 |
 | --- | --- |
 | 操作 | [!UICONTROL 用`spa.billing_customer_name`覆盖]的eVar55值（上下文数据） |
-| 操作 | 如果设置了`testhierarchy` （上下文数据），则使用`testhierarchy` （上下文数据）覆盖 Prop7的值 |
+| 操作 | 如果设置了`testhierarchy` （上下文数据），则使用`testhierarchy` （上下文数据）覆盖] Prop7的值[!UICONTROL  |
 | 操作 | [!UICONTROL 用`spa.ims_org`覆盖] eVar8的值（上下文数据） |
 
 ![显示如何有条件地设置值的处理规则界面屏幕截图](assets/add-conditional.png)
@@ -116,7 +109,7 @@ ht-degree: 21%
 
 +++通过连接类别和页面名称添加子类别
 
-您可以使用关联选项通过组合其他值来填充值。
+您可以使用连接选项通过组合其他值来填充值。
 
 | 规则集 | 值 |
 | --- | --- |

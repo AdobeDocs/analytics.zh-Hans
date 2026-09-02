@@ -4,16 +4,10 @@ title: 删除分类数据
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 TQID: https://experienceleague.adobe.com/NZhXTXSwpA-E-6JaGRInMf3TMwHp5A1uMSjaAU1whts
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 366
@@ -33,7 +27,7 @@ ht-degree: 85%
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 单击&#x200B;**[!UICONTROL 浏览器导出]**。
-1. 选择您要从中删除分类数据的报表包和数据集。
+1. 选择您要从中删除分类数据的报告包和数据集。
 1. 调整任何可选设置，以便过滤要查找的特定数据，然后单击&#x200B;**[!UICONTROL 导出文件]**。
 1. 下载文件后，打开该文件并使用 `~empty~` 或 `~deletekey~` 替换所有分类值。
 1. 将该文件另存为制表符分隔的文本文件。
@@ -61,7 +55,7 @@ ht-degree: 85%
 | 948203 | 脚链 | 珠宝 |
 | 174391 | 白色灯芯绒裤子 | `~deletekey~` |
 
-在“库存类别”分类下使用 `~deletekey~` 会删除键值 `174391` 的所有分类数据。 该行会变为好像从未进行过分类。
+在“库存类别”分类下使用 `~deletekey~` 会删除键值 `174391` 的所有分类数据。 该行就如同从未分类过一样。
 
 ## 陷阱和提示
 

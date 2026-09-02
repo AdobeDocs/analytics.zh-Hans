@@ -5,20 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/r-L330P6HA5qWBmEW-2LwECo-d3dhVK1ovWsfraErXE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 474
@@ -38,7 +29,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->收入不是乘以数量字段。 例如，`s.products="Womens;Socks;5;4.50"`不会向收入传递$22.50，而是传递$4.50。 确保您的实施传递了所列数量的总收入。 例如，`s.products="Womens;Socks;5;22.50"`。
+>收入不会乘以数量字段的值。 例如，`s.products="Womens;Socks;5;4.50"`不会向收入传递$22.50，而是传递$4.50。 确保您的实施传递了所列数量的总收入。 例如，`s.products="Womens;Socks;5;22.50"`。
 
 ## 使用Web SDK设置购买事件
 
@@ -101,6 +92,6 @@ s.events = "purchase,event1,event2";
 
 当您触发购买事件时，Adobe 会检查以下各项：
 
-* 点击是否包含 `purchaseID` 变量？ 如果不包含，Adobe 将使用点击中的信息创建“临时购买 ID”。 此临时购买 ID 仅适用于点击对应的访客。 每个报表包为每个访客 ID 存储先前 5 个临时购买 ID。
+* 点击是否包含 `purchaseID` 变量？ 如果不包含，Adobe 将使用点击中的信息创建“临时购买 ID”。 此临时购买 ID 仅适用于点击对应的访客。 每个报告包为每个访客 ID 存储先前 5 个临时购买 ID。
 * 临时购买 ID 是否与存储的最近五个临时购买 ID 中的任意一个 ID 相匹配？ 如果是，则会将图像请求视为重复购买。 所有转化变量（包括购买事件）都不会出现在报表中。
 * 如果定义了 `purchaseID` 变量，它是否与报表包中已收集的所有访客的任何值匹配？ 如果是，则会将图像请求视为重复购买。 所有转化变量（包括购买事件）都不会出现在报表中。

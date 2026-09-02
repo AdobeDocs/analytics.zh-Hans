@@ -6,37 +6,11 @@ title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9id: e7d92df1-c5ba-4e93-85df-f83171b889beid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fe0a7292-80bc-407a-b456-64170267d1cc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4163
@@ -50,21 +24,21 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->对于任何给定的列（例如，定义为 255 个字符的列），由于在字符串中添加了字符转义值，数据馈送可能会发送额外的字符。 如果您的实施发送的值经常超出字符限制，请记住这些潜在的额外字符。
+>对于任何给定的列（例如，定义为 255 个字符的列），由于会添加用于对字符串中的值进行转义的字符，数据馈送可能会发送额外的字符。 如果您的实施发送的值经常超出字符限制，请记住这些潜在的额外字符。
 
 ## 列、说明和数据类型
 
 >[!NOTE]
 >
->大多数列中包含一个以 `post_` 为前缀的相似列。 post 列包含应用服务器端逻辑、处理规则和 VISTA 规则后得出的值。 大多数情况下，Adobe 建议使用 post_ 列。 有关更多信息，请参阅[数据馈送常见问题解答](../df-faq.md)。
+>大多数列中包含一个以 `post_` 为前缀的相似列。 post 列包含应用服务器端逻辑、处理规则和 VISTA 规则后得出的值。 大多数情况下，Adobe 建议使用 post 列。 有关更多信息，请参阅[数据馈送常见问题解答](../df-faq.md)。
 
-可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.zh-Hans/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到此表之前的更新内容。
+可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到此表之前的更新内容。
 
 | Post | 列名称 | 列说明 | 数据类型 |
 | ---: | :--- | --- | --- |
 | | **`accept_language`** | 列出所有已接受的语言，如图像请求中的 Accept-Language HTTP 标头所示。 | char(20) |
 | **`post_`** | **`adload`** | 媒体广告加载 | varchar(255) |
-| **`post_`** | **`aemassetid`** | 一个多值变量与一组 Adobe Experience Manager Assets 的资产 ID (GUID) 相对应。 可增加展示事件的计数。 | 文本 |
+| **`post_`** | **`aemassetid`** | 一个多值变量，对应于一组 Adobe Experience Manager Assets 的资产 ID (GUID)。 可增加展示事件的计数。 | 文本 |
 | **`post_`** | **`aemassetsource`** | 标识资产事件的来源。 在 Adobe Experience Manager 中使用。 | varchar(255) |
 | **`post_`** | **`aemclickedassetid`** | Adobe Experience Manager 资产的资产 ID。 增加点击事件的数量。 | varchar(255) |
 | **`post_`** | **`amo_cid`** | [AMO ID](/help/components/dimensions/amo-id.md)维度，用于Adobe Advertising集成。 | varchar(255) |
@@ -87,10 +61,10 @@ ht-degree: 78%
 | **`post_`** | **`cookies`** | [Cookie支持](/help/components/dimensions/cookie-support.md)维度。<br>Y：已启用<br>N：已禁用<br>U：未知 | char(1) |
 | | **`country`** | 表示访客所在国家/地区的数值 ID。 引用 `country.tsv` 查找表。 | 无符号 smallint |
 | **`post_`** | **`currency`** | 交易过程中使用的货币代码。 用 [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 设置。 | char(8) |
-| | **`ct_connect_type`** | 与 `connection_type` 列相关。 最常见的值为 LAN/Wifi、Mobile Carrier 和 Modem。 | char(20) |
+| | **`ct_connect_type`** | 与 `connection_type` 列相关。 最常见的值为 LAN/Wifi、移动运营商和 Modem。 | char(20) |
 | | **`curr_factor`** | 确定货币的小数位。 用于货币换算。 例如，美元使用两个小数位，因此该列的值为 `2`。 | tinyint |
 | | **`curr_rate`** | 交易时的汇率。 Adobe 与 XE 合作，以确定当天的汇率。 | decimal(24,12) |
-| **`post_`** | **`customer_perspective`** | 决定点击是否为移动后台点击。 更多信息请参阅[上下文感知会话](/help/components/vrs/vrs-mobile-visit-processing.md)。 | 无符号 tinyint |
+| **`post_`** | **`customer_perspective`** | 确定点击是否为移动后台点击。 更多信息请参阅[上下文感知会话](/help/components/vrs/vrs-mobile-visit-processing.md)。 | 无符号 tinyint |
 | **`post_`** | **`cust_hit_time_gmt`** | 仅限启用了时间戳的报表包。 随点击发送的时间戳（基于 UNIX® 时间）。 | int |
 | **`post_`** | **`cust_visid`** | 在用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 设置情况下的自定义访客 ID。 | varchar(255) |
 | | **`c_color`** | 调色板的位深度。 在计算[颜色深度](/help/components/dimensions/color-depth.md)维度时用到。 AppMeasurement 使用 JavaScript 函数 `screen.colorDepth()`。 | char(20) |
@@ -99,17 +73,17 @@ ht-degree: 78%
 | | **`dataprivacyconsentoptout`** | [同意管理选择禁用](/help/components/dimensions/cm-opt-out.md)维度。 每次点击可以出现多个值，各个值之间用竖线 (`\|`) 隔开。 有效值包括 `SSF`, `DMP` 和 `SELL`。 | varchar(100) |
 | | **`date_time`** | 以可读格式表示的点击时间（基于报表包所在时区）。 | datetime |
 | | **`domain`** | [域](/help/components/dimensions/domain.md)维度。 基于访客的网络接入点。 | varchar(100) |
-| | **`duplicated_from`** | 仅在包含点击复制 VISTA 规则的报表包中使用。 指示从中复制点击的报表包。 | varchar(40) |
+| | **`duplicated_from`** | 仅在包含点击副本 VISTA 规则的报表包中使用。 指示从中复制点击的报表包。 | varchar(40) |
 | | **`duplicate_events`** | 列出每一个算作重复的事件。 | varchar(255) |
-| | **`duplicate_purchase`** | 确定此次点击对应的购买事件是重复事件因而被忽略的标记。 | 无符号 tinyint |
+| | **`duplicate_purchase`** | 用于确定此次点击的购买事件是否因重复而被忽略的标志。 | 无符号 tinyint |
 | **`post_`** | **`ef_id`** | EF ID，用于Adobe Advertising集成。 | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | 自定义变量 1 至 250。 在 [eVar](/help/components/dimensions/evar.md) 维度中用到。 每个公司使用 eVar 的方式有所不同。 要了解有关您的组织如何填充各个 eVar 的更多信息，您最好参阅您的组织特有的[解决方案设计文档](/help/implement/prepare/solution-design.md)。 | varchar(255) |
 | **`post_`** | **`event_list`** | 以逗号分隔的数值 ID 列表，各 ID 表示点击时所触发的事件。 包括商务事件和[自定义事件1-1000](/help/components/metrics/custom-events.md)。 使用 `event.tsv` 查找。 | 文本 |
-| | **`exclude_hit`** | 确定报告中是否包含此点击的标记。 对于被排除的点击，`visit_num`列不递增。<br>1：未使用。 属于已弃用的功能。<br>2：未使用。 属于已弃用的功能。<br>3：不再使用。 用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。 替代特定于帐户的排除。<br>9：未使用。 属于已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。 属于已弃用的功能。<br>13：未使用。 属于已弃用的功能。<br>14： Target点击与Analytics点击不匹配<br>15：当前未使用。<br>16： Adobe Advertising点击与Analytics点击不匹配 | 无符号 tinyint |
+| | **`exclude_hit`** | 用于确定该点击是否被排除在报告之外的标志。 对于被排除的点击，`visit_num`列不递增。<br>1：未使用。 属于已弃用的功能。<br>2：未使用。 属于已弃用的功能。<br>3：不再使用。 用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。 替代特定于帐户的排除。<br>9：未使用。 属于已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。 属于已弃用的功能。<br>13：未使用。 属于已弃用的功能。<br>14： Target点击与Analytics点击不匹配<br>15：当前未使用。<br>16： Adobe Advertising点击与Analytics点击不匹配 | 无符号 tinyint |
 | | **`first_hit_pagename`** | [原始登入页面](/help/components/dimensions/entry-dimensions.md)维度。 访客访问的原始登入页面的名称。 | varchar(100) |
 | | **`first_hit_page_url`** | 访客访问的第一个 URL。 | varchar(255) |
 | | **`first_hit_referrer`** | 访客访问的第一个反向链接 URL。 | varchar(255) |
-| | **`first_hit_ref_domain`** | [原始反向链接域](/help/components/dimensions/original-referring-domain.md)维度。 基于 `first_hit_referrer`。 访客首次访问的反向链接域。 | varchar(100) |
+| | **`first_hit_ref_domain`** | [原始反向链接域](/help/components/dimensions/original-referring-domain.md)维度。 基于 `first_hit_referrer`。 访客的第一个反向链接域。 | varchar(100) |
 | | **`first_hit_ref_type`** | 表示访客使用的第一个反向链接的反向链接类型的数值 ID。 引用 `referrer_type.tsv` 查找表。 | 无符号 tinyint |
 | | **`first_hit_time_gmt`** | 访客第一次点击的时间戳（基于 UNIX® 时间）。 | int |
 | | **`geo_city`** | 根据 IP 地址判断的点击来源城市的名称。 在[城市](/help/components/dimensions/cities.md)维度中用到。 | char(32) |
@@ -120,7 +94,7 @@ ht-degree: 78%
 | | **`hitid_high`** | 与 `hitid_low` 配合使用可标识某次点击。 | 无符号 bigint |
 | | **`hitid_low`** | 与 `hitid_high` 配合使用可标识某次点击。 | 无符号 bigint |
 | | **`hit_source`** | 点击的来源。 点击源1和2将计费。 <br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：不再使用；完全处理数据源上载<br>7：TransactionID数据源上载<br>8：不再使用；Adobe Advertising数据源的以前版本<br>9：不再使用；Adobe Social概要量度<br>10：使用了Audience Manager服务器端转发 | 无符号 tinyint |
-| | **`hit_time_gmt`** | Adobe 数据收集服务器接收到点击的时间戳（基于 UNIX® 时间）。 | int |
+| | **`hit_time_gmt`** | Adobe 数据收集服务器收到该点击时的时间戳（基于 UNIX® 时间）。 | int |
 | | **`hourly_visitor`** | 用于确定点击是否为新小时访客的标记。 | 无符号 tinyint |
 | | **`ip`** | IPv4 地址，基于图像请求的 HTTP 标头。 与 `ipv6` 互斥；如果此列包含未进行模糊处理的 IP 地址，则 `ipv6` 为空白。 | char(20) |
 | | **`ipv6`** | 压缩的 IPv6 地址（如果有）。 与 `ip` 互斥；如果此列包含未进行模糊处理的 IP 地址，则 `ip` 为空白。 | varchar(40) |
@@ -150,12 +124,12 @@ ht-degree: 78%
 | **`post_`** | **`mobilecampaignname`** | 营销活动的名称，也存储在营销活动变量中。 由移动设备应用程序客户获取填充。 | varchar(255) |
 | **`post_`** | **`mobilecampaignsource`** | 原始反向链接，例如商务通讯或社交媒体网络。 由移动设备应用程序客户获取填充。 | varchar(255) |
 | **`post_`** | **`mobilecampaignterm`** | 要在此客户获取中跟踪的付费关键字或其他搜索词。 由移动设备应用程序客户获取填充。 | varchar(255) |
-| **`post_`** | **`mobiledayofweek`** | 应用程序启动的时间（星期几）。 | varchar(255) |
+| **`post_`** | **`mobiledayofweek`** | 应用程序启动当天是星期几的编号。 | varchar(255) |
 | **`post_`** | **`mobiledayssincefirstuse`** | 距应用程序首次运行的间隔天数。 | varchar(255) |
 | **`post_`** | **`mobiledayssincelastuse`** | 距应用程序上次运行的间隔天数。 | varchar(255) |
 | | **`mobiledeeplinkid`** | 从上下文数据变量 `a.deeplink.id` 收集。 在客户获取报表中用作移动客户获取链接的标识符。 | varchar(255) |
 | **`post_`** | **`mobiledevice`** | 移动设备名称。 在 iOS 上，该变量存储为用逗号分隔的 2 位数的字符串。 第一个数字表示设备是第几代的，而另一个数字则表示设备所属的系列。 | varchar(255) |
-| **`post_`** | **`mobilehourofday`** | 确定应用程序启动的具体时间。 采用 24 小时数字格式。 | varchar(255) |
+| **`post_`** | **`mobilehourofday`** | 定义应用程序启动时的时间。 采用 24 小时数字格式。 | varchar(255) |
 | **`post_`** | **`mobileinstalldate`** | 移动设备安装日期。 提供用户首次打开移动应用程序的日期。 | varchar(255) |
 | **`post_`** | **`mobilelaunchnumber`** | 应用程序每启动一次，该变量值便会递增。 | varchar(255) |
 | **`post_`** | **`mobilemessagebuttonname`** | 从上下文数据变量 `a.message.button.id` 收集。 用于应用程序内消息传递，以标识关闭消息的按钮。 | varchar(100) |
@@ -176,10 +150,10 @@ ht-degree: 78%
 | | **`mobilerelaunchcampaigntrackingcode`** | 从上下文数据变量 `a.launch.campaign.trackingcode` 收集。 在客户获取中用作启动促销活动的跟踪代码。 | varchar(255) |
 | **`post_`** | **`mobileresolution`** | 移动设备的分辨率。 `[Width] x [Height]` 以像素为单位。 | varchar(255) |
 | | **`mobile_id`** | 如果用户使用了移动设备，则为移动设备的数字 ID。 `mobile_attributes.tsv`[动态查找](dynamic-lookups.md)的关键值。 | int |
-| | **`monthly_visitor`** | 确定访客是否在当月首次出现的标记。 | 无符号 tinyint |
+| | **`monthly_visitor`** | 确定访客是否在当月首次出现的标志。 | 无符号 tinyint |
 | **`post_`** | **`mvvar1`** - **`mvvar3`** | [列出变量](/help/implement/vars/page-vars/list.md)值。 包含分隔的自定义值列表（取决于实施）。 `post_mvvar1` - `post_mvvar3` 列将原始分隔符替换为 `--**--`。 | 文本 |
 | **`post_`** | **`mvvar1_instances`** - **`mvvar3_instances`** | 在当前点击上设置的列表变量值。 将原始分隔符替换为 `--**--`。 `post` 列通常不包含数据。 | 文本 |
-| | **`new_visit`** | 确定当前点击是否为新访问的标记。 在不活跃的访问状态持续 30 分钟后，由 Adobe 设置。 | 无符号 tinyint |
+| | **`new_visit`** | 确定当前点击是否为新访问的标志。 在访问不活跃 30 分钟后，由 Adobe 设置。 | 无符号 tinyint |
 | | **`os`** | 表示访客的操作系统的数值 ID。 基于 `user_agent` 列。 `operating_system.tsv` 标准查找和 `operating_system_type.tsv` [动态查找](dynamic-lookups.md)的关键值。 | 无符号 int |
 | **`post_`** | **`pagename`** | [页面](/help/components/dimensions/page.md)维度。 如果 [`pagename`](/help/implement/vars/page-vars/pagename.md) 变量为空，则 Analytics 改用 `page_url`。 | varchar(100) |
 | **`post_`** | **`pagename_no_url`** | 与 `pagename` 类似，但它不会回退到 `page_url`。 仅 `post` 列可用。 | varchar(100) |
@@ -219,59 +193,59 @@ ht-degree: 78%
 | | **`user_hash`** | 没有用处。 报告包 ID 的哈希值。 请改用 `username`。 | 无符号 int |
 | **`post_`** | **`user_server`** | 在[服务器](/help/components/dimensions/server.md)维度中用到。 | varchar(100) |
 | | **`va_closer_detail`** | [最近接触详情](/help/components/dimensions/last-touch-detail.md)维度。 | varchar(255) |
-| | **`va_closer_id`** | 用于表示[最近接触渠道](/help/components/dimensions/last-touch-channel.md)维度的数值 ID。 此 ID 的查找位于营销渠道管理器。 | 无符号 tinyint |
+| | **`va_closer_id`** | 用于表示[最近接触渠道](/help/components/dimensions/last-touch-channel.md)维度的数值 ID。 可在营销渠道管理器中找到此 ID 的查找值。 | 无符号 tinyint |
 | | **`va_finder_detail`** | [首次接触详情](/help/components/dimensions/first-touch-detail.md)维度。 | varchar(255) |
 | | **`va_finder_id`** | 用于表示[首次接触渠道](/help/components/dimensions/first-touch-channel.md)维度的数值 ID。 此 ID 的查找位于营销渠道管理器。 | 无符号 tinyint |
 | | **`va_instance_event`** | 表示营销渠道[实例](/help/components/metrics/instances.md)的标记。 | 无符号 tinyint |
 | | **`va_new_engagement`** | 表示营销渠道[新参与度](/help/components/metrics/new-engagements.md)的标记。 | 无符号 tinyint |
-| **`post_`** | **`video`** | [内容](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoad`** | [广告](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadinpod`** | [广告在 Pod 中的位置](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadlength`** | [广告长度（变量）](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-length)流媒体服务维度。 | 整数 |
-| **`post_`** | **`videoadname`** | [广告名称（变量）](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-name)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadplayername`** | [广告播放器名称](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-player-name)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadpod`** | [广告 Pod](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-pod) 流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadvertiser`** | [广告商](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/advertiser)流媒体服务维度。 | varchar(255) |
-| | **`videoaudioalbum`** | [相册](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/album)流媒体服务维度。 | varchar(255) |
-| | **`videoaudioartist`** | [艺术家](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/artist)流媒体服务维度。 | varchar(255) |
-| | **`videoaudioauthor`** | [作者](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/author)流媒体服务维度。 | varchar(255) |
-| | **`videoaudiolabel`** | [标签](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/label)流媒体服务维度。 | varchar(255) |
-| | **`videoaudiopublisher`** | [发布者](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/publisher)流媒体服务维度。 | varchar(255) |
-| | **`videoaudiostation`** | [站](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/station)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videocampaign`** | [营销活动 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/campaign-id) 流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videochannel`** | [内容渠道](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-channel)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videochapter`** | [章节](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/chapter)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videocontenttype`** | [内容类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-type)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videodaypart`** | [日间时段](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/day-part)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoepisode`** | [剧集](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/episode)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videofeedtype`** | [媒体馈送类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-feed-type)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videogenre`** | [流派](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/genre)流媒体服务维度。 此维度允许在同一次点击中有多个值，值之间用逗号分隔。 | 文本 |
-| **`post_`** | **`videolength`** | [内容长度（变量）](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-length)流媒体服务维度。 | 整数 |
-| **`post_`** | **`videomvpd`** | [MVPD](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/mvpd) 流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoname`** | [内容名称（变量）](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-name)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videonetwork`** | [网络](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/network)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videopath`** | [媒体路径](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-path)流媒体服务维度。 | varchar(100) |
-| **`post_`** | **`videoplayername`** | [内容播放器名称](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-player-name)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | [平均码率](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/average-bitrate)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | [码率变化](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/bitrate-changes)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoebuffercountevar`** | [缓冲事件](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/buffer-events)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | [缓冲总持续时间](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | [丢帧](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/dropped-frames)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | [错误](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/errors)流媒体服务维度。 | varchar(255) |
-| | **`videoqoeextneralerrors`** | [外部错误 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/external-error-ids) 流媒体服务维度。 此维度允许在同一次点击中有多个值。 | 文本 |
-| **`post_`** | **`videoqoeplayersdkerrors`** | [播放器 SDK 错误 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) 流媒体服务维度。 此维度允许在同一次点击中有多个值。 | 文本 |
-| **`post_`** | **`videoqoetimetostartevar`** | [开始时间](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/time-to-start)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoseason`** | [季](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/season)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videosegment`** | [内容区段](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-segment)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videosessionid`** | [媒体会话ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-session-id)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoshow`** | [节目](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/show)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoshowtype`** | [节目类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/show-type)流媒体服务维度。 | varchar(255) |
-| | **`videostreamtype`** | [流传输类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/stream-type)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`video`** | [内容](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoad`** | [广告](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadinpod`** | [广告在 Pod 中的位置](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadlength`** | [广告长度（变量）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)流媒体服务维度。 | 整数 |
+| **`post_`** | **`videoadname`** | [广告名称（变量）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadplayername`** | [广告播放器名称](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadpod`** | [广告 Pod](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod) 流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadvertiser`** | [广告商](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)流媒体服务维度。 | varchar(255) |
+| | **`videoaudioalbum`** | [相册](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)流媒体服务维度。 | varchar(255) |
+| | **`videoaudioartist`** | [艺术家](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)流媒体服务维度。 | varchar(255) |
+| | **`videoaudioauthor`** | [作者](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)流媒体服务维度。 | varchar(255) |
+| | **`videoaudiolabel`** | [标签](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)流媒体服务维度。 | varchar(255) |
+| | **`videoaudiopublisher`** | [发布者](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)流媒体服务维度。 | varchar(255) |
+| | **`videoaudiostation`** | [站](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videocampaign`** | [营销活动 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id) 流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videochannel`** | [内容渠道](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videochapter`** | [章节](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videocontenttype`** | [内容类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videodaypart`** | [日间时段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoepisode`** | [剧集](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videofeedtype`** | [媒体馈送类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videogenre`** | [流派](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)流媒体服务维度。 此维度允许在同一次点击中有多个值，值之间用逗号分隔。 | 文本 |
+| **`post_`** | **`videolength`** | [内容长度（变量）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)流媒体服务维度。 | 整数 |
+| **`post_`** | **`videomvpd`** | [MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd) 流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoname`** | [内容名称（变量）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videonetwork`** | [网络](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videopath`** | [媒体路径](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)流媒体服务维度。 | varchar(100) |
+| **`post_`** | **`videoplayername`** | [内容播放器名称](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | [平均码率](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | [码率变化](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoebuffercountevar`** | [缓冲事件](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | [缓冲总持续时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | [丢帧](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | [错误](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)流媒体服务维度。 | varchar(255) |
+| | **`videoqoeextneralerrors`** | [外部错误 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids) 流媒体服务维度。 此维度允许在同一次点击中有多个值。 | 文本 |
+| **`post_`** | **`videoqoeplayersdkerrors`** | [播放器 SDK 错误 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) 流媒体服务维度。 此维度允许在同一次点击中有多个值。 | 文本 |
+| **`post_`** | **`videoqoetimetostartevar`** | [开始时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoseason`** | [季](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videosegment`** | [内容区段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videosessionid`** | [媒体会话ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoshow`** | [节目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoshowtype`** | [节目类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)流媒体服务维度。 | varchar(255) |
+| | **`videostreamtype`** | [流传输类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)流媒体服务维度。 | varchar(255) |
 | **`post_`** | **`visid_high`** | 与 `visid_low` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | **`post_`** | **`visid_low`** | 与 `visid_high` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | | **`visid_new`** | 确定此点击是否包含新生成访客 ID 的标记。 | char(1) |
 | | **`visid_timestamp`** | 如果新生成了访客 ID，就会在生成时提供 UNIX® 时间戳。 | int |
-| **`post_`** | **`visid_type`** | 不能用于外部用途；Adobe 内部用于处理优化。 数字ID，表示用于识别访客的方法。<br>`0`：自定义访客ID或未知/不适用<br>`1`： IP和用户代理回退<br>`2`： HTTP移动订阅者标头<br>`3`：旧版Cookie值(`s_vi`) <br>`4`：回退Cookie值(`s_fid`) <br>`5`：身份服务 | 无符号 tinyint |
+| **`post_`** | **`visid_type`** | 不供外部使用；Adobe 内部用于处理优化。 数字ID，表示用于识别访客的方法。<br>`0`：自定义访客ID或未知/不适用<br>`1`： IP和用户代理回退<br>`2`： HTTP移动订阅者标头<br>`3`：旧版Cookie值(`s_vi`) <br>`4`：回退Cookie值(`s_fid`) <br>`5`：身份服务 | 无符号 tinyint |
 | **`post_`** | **`visit_keywords`** | [搜索关键词](/help/components/dimensions/search-keyword.md)维度。 此列使用 varchar(244) 的非标准字符限制容纳 Adobe 使用的后端逻辑。 后处理列是`**post_keywords**`，而不是`**post_visit_keywords**`。 | varchar(244) |
 | | **`visit_num`** | [访问次数](/help/components/dimensions/visit-number.md)维度。 起始值为 1，每当每个访客开始新的访问时，此项就会递增。 | 无符号 int |
 | | **`visit_page_num`** | [点击深度](/help/components/dimensions/hit-depth.md)维度。 访客每产生一次点击，此值就增加 1。 重置每一个访问。 | 无符号 int |

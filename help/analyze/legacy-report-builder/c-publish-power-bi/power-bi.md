@@ -1,24 +1,15 @@
 ---
-description: 将 Report Builder 用于 Microsoft Power BI。
+description: 将 Report Builder 与 Microsoft Power BI 配合使用。
 title: 发布到 Power BI — 概述
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 TQID: https://experienceleague.adobe.com/cbxgWbtfj-VSPgIoc9WTd3COG8EL6Vg-U-WRv11KZaY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1181
@@ -41,11 +32,11 @@ Microsoft Power BI是一套business analytics功能板，用于分析数据和�
 ## 系统要求 {#section_0B71092D853446F38FA36447DAC0D32B}
 
 * [已安装](/help/analyze/legacy-report-builder/setup/t-install-arb.md) Adobe Report Builder 5.5
-* 有效的 Microsoft 帐户允许您登录到 Power BI
+* 可用于登录 Power BI 的活跃 Microsoft 帐户
 
 ## 将工作簿发布到 Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
-计划工作簿是带格式的 Excel 电子表格，其中填充了来自 Adobe Analytics 的数据，这些数据会按计划定期分发。
+计划工作簿是带格式的 Excel 电子表格，其中填充了来自 Adobe Analytics 的数据，并按计划定期分发。
 
 **发布 Report Builder 中的工作簿**
 
@@ -73,7 +64,7 @@ Microsoft Power BI是一套business analytics功能板，用于分析数据和�
 
 1. 您随后可以固定此工作簿的一个区域，以便将其包含在您的任意 Power BI 仪表板中。
 
-## 作为 Power BI 数据集表，发布工作簿中所有带格式的表 {#section_7C54A54E75184DD6BAEF4ACCE241239A}
+## 将工作簿中所有带格式的表发布为 Power BI 数据集表 {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
 >[!NOTE]
 >
@@ -85,7 +76,7 @@ Microsoft Power BI是一套business analytics功能板，用于分析数据和�
 
 **发布 Report Builder 中带格式的表**
 
-1. 在 Report Builder 中，生成一个数据表，其中包含一个标题行，后面接有一个数据行。
+1. 在 Report Builder 中，生成一个数据表，其中包含一个标头行，后跟一个数据行。
 1. 选择此表，然后从[!UICONTROL 主页]菜单中选择&#x200B;**[!UICONTROL 套用表格式]**。 此表将得到默认命名（Table 1, Table 2 等），但是您可以在[!UICONTROL 设计]菜单中更改名称。
 
 1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]** > **[!UICONTROL 新建]**。

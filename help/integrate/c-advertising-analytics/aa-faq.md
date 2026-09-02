@@ -4,26 +4,14 @@ title: Advertising analytics 常见问题解答
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 TQID: https://experienceleague.adobe.com/HC9F-en-nLFRkxsaY6Szdtb3jR5NgdpsbjSAX6kTBlQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1299
 ht-degree: 17%
 
 ---
@@ -142,7 +130,7 @@ Advertising Analytics利用一系列自定义API，将数据从搜索引擎通�
 
 +++ 何时将搜索数据提取到Analytics？ 
 
-您所在Analytics数据中心时区的上午6点(06:00)左右，系统会从搜索引擎中提取搜索数据。 此时收集 AMO 数据并将其插入报表包。 然后，在将数据插入 Analytics 的过程中，将该时间转换为报表包所在的时区。
+您所在Analytics数据中心时区的上午6点(06:00)左右，系统会从搜索引擎中提取搜索数据。 此时收集 AMO 数据并将其插入报告包。 然后，在将数据插入 Analytics 的过程中，将该时间转换为报告包所在的时区。
 
 +++
 
@@ -156,7 +144,7 @@ AMO ID将捕获以下搜索引擎指标：展示次数、成本、点击次数�
 
 搜索引擎量度是在点击级别捕获的，且关联到AMO ID（及其分类）。 此类数据是摘要级别的数据，未关联到访问次数/访客数。 因此，搜索引擎指标只能在属于点击级别范围且基于 AMO ID（或其分类）的区段中使用。
 
-AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 ID 关联到访问/访客），此 ID 将保留到下游，以便获取其他 Analytics 指标的点数（直到此 ID 过期或被新的 AMO ID 覆盖）。 它像任何其他eVar一样完全纳入数据集。
+AMO ID 也会在登陆页面对应的点击中被捕获（这会将其关联到访问/访客），并会在后续流程中持续存在，以便获取其他 Analytics 量度的点数（直到其过期或被新的 AMO ID 覆盖）。 它像任何其他eVar一样完全纳入数据集。
 
 +++
 

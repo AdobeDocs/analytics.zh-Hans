@@ -5,17 +5,10 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 TQID: https://experienceleague.adobe.com/V8PedR6QHmx-SeNbsriwCf47rBygRfJ5r4IqgY4wMs0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 582
@@ -42,7 +35,7 @@ Analytics 管理员负责整理有关数据字典中每个组件的信息，并�
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 的数据字典](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"}，以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 的数据字典](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"}，以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +61,7 @@ Analytics 管理员负责整理有关数据字典中每个组件的信息，并�
 
 数据字典帮助系统管理员跟踪和管理其 Analytics 环境中的组件。
 
-Analytics 管理员可通过数据字典实现以下用途：
+Analytics 管理员可将数据字典用于以下目的：
 
 * 识别需要合并的重复组件。
 
@@ -117,7 +110,7 @@ Adobe Analytics 管理员负责为其组织维护健康的数据字典，如[监
 
   最小化时，数据字典在 Analysis Workspace 的右下角显示为蓝色选项卡。
 
-  当您选择蓝色选项卡时，数据字典将打开您最近查看的组件。
+  当您选择蓝色选项卡时，数据字典将打开到您最近查看的组件。
 
 * 关闭窗口。
 
@@ -132,7 +125,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

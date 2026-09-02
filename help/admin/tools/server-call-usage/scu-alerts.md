@@ -1,20 +1,15 @@
 ---
-description: 添加或管理服务器所有使用情况警报。 设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
+description: 添加或管理服务器所有使用情况警报。 设置警报后，该警报将应用于计费公司旗下的所有登录公司所具有的全部报告包。
 title: “服务器调用使用情况”警报
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
 TQID: https://experienceleague.adobe.com/aF3SxS36Y1xQN-saS6NTRJoN6H5XwgCx2iRmWPvUPm0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5e560c5a1c241a297a7bc876978f2996e793e1ea
 workflow-type: tm+mt
 source-wordcount: 517
@@ -24,7 +19,7 @@ ht-degree: 44%
 
 # 服务器调用使用情况警报
 
-设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
+设置警报后，该警报将应用于计费公司旗下的所有登录公司所具有的全部报告包。
 
 服务器调用使用情况警报是[警报](/help/components/alerts/alert-manager.md)用户界面的一部分。
 

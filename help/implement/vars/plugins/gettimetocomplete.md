@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/GbehSttxbJlbYKbBIHCUy34Bz5JN7LsRMOEO5wAfmg8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 638
@@ -29,7 +21,7 @@ ht-degree: 88%
 
 {{plug-in}}
 
-`getTimeToComplete` 插件可跟踪用户在网站上完成某个流程所需的时间。 “时钟”在调用 `start` 操作时开始，并在调用 `stop` 操作时结束。 如果网站上的某个工作流程需要花一些时间才能完成，并且您希望了解访客完成该工作流程所用的时间，Adobe 建议使用此插件。 如果网站上的工作流程需要很短时间（少于 3 秒）即可完成，则无需使用此插件，因为可测量的最小时间粒度为 1 秒。
+`getTimeToComplete` 插件可跟踪用户在网站上完成某个流程所需的时间。 “时钟”在调用 `start` 操作时开始，并在调用 `stop` 操作时结束。 如果网站上的某个工作流需要花一些时间才能完成，并且您希望了解访客完成该工作流所用的时间，Adobe 建议使用此插件。 如果网站上的工作流程需要很短时间（少于 3 秒）即可完成，则无需使用此插件，因为可测量的最小时间粒度为 1 秒。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -43,9 +35,9 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
-1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+1. 如果您尚未这样做，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心 - 已加载的库（页面顶部）
+   * 事件：核心 - 库已加载（页面顶部）
 1. 使用以下配置向上述规则添加操作：
    * 扩展：常用 Analytics 插件
    * 操作类型：初始化 getTimeToComplete
@@ -119,11 +111,11 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 
 ### 3.0（2018 年 4 月 17 日）
 
-* 修正版本（重新编译，代码更小）。
+* 小版本发布（重新编译，代码更小）。
 * 若干小错误修复。
 
 ### 2.0（2016 年 6 月 21 日）
 
 * 消除了对 `p_fo` 插件的依赖性。
-* 增加了与 H 代码和 AppMeasurement 的兼容性。
+* 增加了与 H 码和 AppMeasurement 的兼容性。
 * 添加了控制台日志记录。

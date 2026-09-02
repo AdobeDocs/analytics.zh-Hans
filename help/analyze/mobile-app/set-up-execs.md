@@ -1,24 +1,15 @@
 ---
-description: 执行用户可能需要一些额外的协助才能访问和使用该应用程序。 此部分介绍如何帮助您提供这种协助。
+description: 执行用户可能需要一些额外的协助才能访问和使用该应用程序。 此部分提供相关信息，帮助您提供这种协助。
 title: 为该应用程序设置执行用户
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 TQID: https://experienceleague.adobe.com/mejoGlgRAOHkpBAXtlVef4LcheWPXtg9TT7hHYIPtHU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 755
@@ -28,7 +19,7 @@ ht-degree: 96%
 
 # 为该应用程序设置执行用户
 
-在某些情况下，执行用户可能需要一些其他帮助才能访问和使用应用程序。 此部分介绍如何帮助您提供这种协助。
+在某些情况下，执行用户可能需要一些其他帮助才能访问和使用应用程序。 本节提供相关信息，帮助您提供这种协助。
 
 ## 确保应用程序用户具有 Adobe Analytics 访问权限
 
@@ -41,7 +32,7 @@ ht-degree: 96%
 要确保执行用户可以在应用程序上访问您的记分卡，请确保：
 
 * 他们的设备上的移动操作系统需要满足以下最低要求：iOS 版本 10 或更高版本，或者 Android 版本 4.4 (KitKat) 或更高版本
-* 他们已有效登录 Adobe Analytics。
+* 他们拥有有效的 Adobe Analytics 登录信息。
 * 您已为执行用户正确创建了移动记分卡，并与他们共享了这些记分卡。
 * 执行用户有权访问记分卡中包含的组件。 请注意，在共享记分卡时，您可以选择&#x200B;**[!UICONTROL 共享嵌入的组件]**&#x200B;选项。
 
@@ -98,15 +89,15 @@ ht-degree: 96%
   * 您可以通过下拉屏幕来刷新记分卡。
 
 
-1. 点按图块以显示图块的详细划分方式。
+1. 点按图块以显示图块的详细细分方式。
 
    ![“划分”视图](assets/sparkline.png)
 
    * 点按线形图上的任一点，可查看与线上的这个点相关联的数据。
 
-   * 将包含一个表以显示已添加到图块的各维度的数据。 点按向下箭头以选择维度。 如果未将维度添加到图块，则表将显示图表数据。
+   * 包含一个表格，用于显示已添加到图块的各维度的数据。 点按向下箭头以选择维度。 如果未将维度添加到图块，则表将显示图表数据。
 
-1. 要更改记分卡的日期范围，请单击“日期”标题，然后选择要查看的主要和比较日期范围组合。
+1. 要更改记分卡的日期范围，请点按“日期”标头，然后选择要查看的主要和比较日期范围组合。
 
    ![更改日期](assets/changedate.png)
 
@@ -129,4 +120,4 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->从 2020 年 10 月开始，Adobe 逐步推出一系列增强功能，以优化“Adobe Analytics 功能板”应用程序的性能。 这些增强功能的重心在于缓存用于填充特定日期（不包括当天）记分卡的历史 Analytics 数据。 该数据将在安全的 Microsoft Azure 公共云存储帐户中缓存长达 24 小时。 如果您想要选择禁用这些性能增强功能，请联系您的 Adobe 帐户团队。
+>从 2020 年 10 月开始，Adobe 逐步推出一系列增强功能，以优化“Adobe Analytics 功能板”应用程序的性能。 这些增强功能的重心在于缓存用于填充特定日期（不包括当天）记分卡的历史 Analytics 数据。 该数据将在安全的 Microsoft Azure 公共云存储帐户中缓存长达 24 小时。 如果您想要选择退出这些性能增强功能，请联系您的 Adobe 帐户团队。

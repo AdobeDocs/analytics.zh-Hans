@@ -5,17 +5,11 @@ keywords: 登入页面，登入网站区域，登入服务器，登入自定义�
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 TQID: https://experienceleague.adobe.com/6a6Xy8SEqjcnuB1Acbwkesw6OA7Nggld5ppWtjYaj5k
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 292
@@ -38,7 +32,7 @@ ht-degree: 75%
 
 ## 维度项目
 
-由于登入变量通常基于实施中的自定义字符串，因此，由您的组织来确定这些维度项目。 给定登入维度中的值与其关联的非登入维度中的维度项目相匹配。 例如，“登入页面”维度中的维度项目包含“页面”维度中的类似维度项目。
+由于登入变量通常基于实施中的自定义字符串，因此，由您的组织来确定这些维度项目。 给定登入维度中的值与其关联的非登入维度中的维度项目相匹配。 例如，“登入页面”维度中的维度项与“页面”维度中的维度项类似。
 
 ## 原始登入页面
 

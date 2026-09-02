@@ -5,22 +5,13 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 TQID: https://experienceleague.adobe.com/878FKpZVmm9-cCzRv0liWtppRRnHV3NqU1fMneDz4EU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 898
+source-wordcount: 908
 ht-degree: 30%
 
 ---
@@ -50,7 +41,7 @@ ht-degree: 30%
 
 1. 继续添加接触点，直到您的序列完成。
 
-   条形图灰色部分中的带圆圈数字显示接触点之间的流失（而不是到接触点的整体流失）。 栏的绿色部分中的圆圈数字显示从上一个接触点到当前接触点的成功流失。
+   条形图灰色部分中的带圆圈数字显示接触点之间的流失（而不是截至该点的整体流失）。 栏的绿色部分中的圆圈数字显示从上一个接触点到当前接触点的成功流失。
 
    ![流失可视化](assets/fallout-visualization.png)
 
@@ -106,7 +97,7 @@ ht-degree: 30%
 
 | 选项 | 描述 |
 |--- |--- |
-| **[!UICONTROL 显示接触点趋势]** | 在预先生成了一些异常检测数据的线形图中查看接触点的趋势数据。 |
+| **[!UICONTROL 显示接触点趋势]** | 在折线图中查看接触点的趋势数据，其中包含一些预建的异常检测数据。 |
 | **[!UICONTROL 显示接触点趋势（%）]** | 显示总流失百分比趋势。 |
 | **[!UICONTROL 显示所有接触点趋势（%）]** | 在同一图表上显示流失中所有接触点百分比的趋势（如果包含&#x200B;**[!UICONTROL 所有访客]**，则将其排除）。 |
 | 在此接触点上&#x200B;**[!UICONTROL 划分流过]** | 查看访客在两个接触点（此触点和下一个触点）之间的行为（如果他们继续到下一个触点）。 此选项会创建一个自由格式表，其中显示您的维度。 可以替换表的尺寸和其他元素。 例如，一个标记为&#x200B;**[!UICONTROL 流过：所有访客>页面等于任何主页]**，并包含&#x200B;**[!UICONTROL 页面]**&#x200B;作为维度以及按[仅用于项目的快速区段](/help/components/segmentation/segmentation-workflow/seg-quick.md)分段的&#x200B;**[!UICONTROL 独特访客]**&#x200B;作为量度的表。**[!UICONTROL 流过：所有访客>页面等于任何主页]**。 检查区段以了解如何确定流过区段。 |

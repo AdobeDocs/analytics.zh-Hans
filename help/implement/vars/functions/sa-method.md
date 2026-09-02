@@ -1,23 +1,15 @@
 ---
 title: sa
-description: 在您的实施中随时更改报表包。
+description: 在您的实施中随时更改报告包。
 feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/xA02rmiZkiSsFwmACdN-YUlwKVGgeprnySEKEO0w3l8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 447
@@ -27,7 +19,7 @@ ht-degree: 44%
 
 # sa
 
-`sa()` 方法可让您随时在页面上动态更改报表包。 如果要在不重新加载页面的情况下将数据发送到不同的报表包，则可以使用此方法。
+`sa()` 方法可让您随时在页面上动态更改报表包。 如果要在不重新加载页面的情况下将数据发送到不同的报告包，则可以使用此方法。
 
 ## 使用Web SDK处理报表包
 
@@ -65,11 +57,11 @@ alloy("configure", {
 
 ## 使用Adobe Analytics扩展更改报表包
 
-界面中没有提供任何灵活的方法来更改报表包。 配置 Adobe Analytics 扩展时，可以在[!UICONTROL 库管理]折叠面板下设置报表包。 但是，您不能使用规则更改或更新报表包。 如果要在设置报表包值后更新这些值，请按照 AppMeasurement 语法使用自定义代码编辑器。
+界面中没有提供任何灵活的方法来更改报告包。 配置 Adobe Analytics 扩展时，可以在[!UICONTROL 库管理]折叠面板下设置报表包。 但是，您不能使用规则更改或更新报告包。 如果要在设置报告包值后更新这些值，请按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.sa()
 
-调用 `s.sa()` 方法以更改目标报表包。 其唯一参数是包含报表包 ID 或以逗号分隔的多个报表包 ID 的字符串。 报表包 ID 参数为必需参数。 请勿在字符串参数中使用空格。
+调用 `s.sa()` 方法以更改目标报表包。 其唯一参数是包含报告包 ID 或以逗号分隔的多个报告包 ID 的字符串。 报表包 ID 参数为必需参数。 请勿在字符串参数中使用空格。
 
 ```js
 s.sa("examplersid");

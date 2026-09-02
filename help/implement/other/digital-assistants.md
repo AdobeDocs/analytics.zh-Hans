@@ -5,22 +5,14 @@ feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
 TQID: 'https://experienceleague.adobe.com/QKlchx0r3ZDourRQaQAJaMn9Fh3bXiEWHprCkLVALsk'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1286
 ht-degree: 73%
 
 ---
@@ -54,11 +46,11 @@ ht-degree: 73%
 1. 在将请求发送至应用程序时。
 1. 在应用程序返回响应后。
 
-如果您只想记录客户发生的事情，以便日后进行优化，则可以在应用程序返回响应后向 Adobe Analytics 发送请求。 这样，您就可以了解到请求以及系统响应的全部相关信息。
+如果您只想记录客户经历了什么，以便日后进行优化，则可以在应用程序返回响应后向 Adobe Analytics 发送请求。 这样，您就可以了解到请求以及系统响应的全部相关信息。
 
 ## 新安装
 
-对于某些数字助理，当有人安装相应技能（特别是涉及身份验证）时，您会收到通知。 Adobe 建议通过设置上下文数据变量 `a.InstallEvent=1` 来发送安装事件。 此功能并非在所有数字助理上都可用，但当此功能可用于查看客户维系情况时将很有用。 以下代码示例会将安装事件、安装日期及应用程序 ID 值发送到上下文数据变量。
+对于某些数字助理，当有人安装相应技能（特别是涉及身份验证）时，您会收到通知。 Adobe 建议通过设置上下文数据变量 `a.InstallEvent=1` 来发送安装事件。 此功能并非在所有数字助理上都可用，但如果具备此功能，则有助于查看留存情况。 以下代码示例会将安装事件、安装日期及应用程序 ID 值发送到上下文数据变量。
 
 ```text
 GET
@@ -73,7 +65,7 @@ Host:
 
 ## 多个助理或多个应用程序
 
-贵组织可能希望使用适用于多个平台的应用程序。 最佳实践是在每个请求中各包含一个应用程序 ID。 此变量可以在 `a.AppID` 上下文数据变量中进行设置。 格式应遵循 `[AppName] [BundleVersion]`，例如 BigMac for Alexa 1.2：
+贵组织可能希望为多个平台提供应用程序。 最佳做法是在每个请求中包含一个应用程序 ID。 此变量可以在 `a.AppID` 上下文数据变量中进行设置。 格式应遵循 `[AppName] [BundleVersion]`，例如 BigMac for Alexa 1.2：
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
@@ -109,9 +101,9 @@ Cache-Control: no-cache
 
 **消费者：**“8:30pm”
 
-**Google：** “不错，驱动程序将在8:30pm前到达”
+**Google：** “不错，司机八点半会准时到达”
 
-会话对于保持语境非常重要，并有助于收集更多详细信息，从而使数字助理更加自然。 如果对会话实施 Analytics，则会在启动新会话时执行以下两个操作：
+会话对于保持语境非常重要，并有助于收集更多详细信息，从而使数字助理更加自然。 在对话中实施 Analytics 时，在启动新会话时需要执行以下两个操作：
 
 1. **访问 Audience Manager**：获取用户所属的相应区段，以便能够对响应进行自定义。 （例如，该用户当前符合多渠道折扣的条件。）
 2. **发送新会话或启动事件**：将首个响应发送至 Analytics 时，包括启动事件。 通常，可以通过设置 `a.LaunchEvent=1` 上下文数据来发送此响应。
@@ -146,7 +138,7 @@ Cache-Control: no-cache
 
 ## 参数/插槽/实体
 
-除了意图之外，数字助理通常还会使用一系列键值对来提供意图详情。 这些键值对被称作槽、实体或参数。 例如，“Siri，从我的银行应用中向 John 支付昨晚的晚餐费 20 美元”这一请求将具有以下参数：
+除了意图之外，数字助理通常还会使用一系列键值对来提供意图详情。 这些键值对被称作槽、实体或参数。 例如，“Siri，从我的银行应用程序中向 John 支付昨晚的晚餐费 20 美元”这一请求将具有以下参数：
 
 * 谁=约翰
 * 金额= 20
@@ -162,9 +154,9 @@ Cache-Control: no-cache
 
 ## 错误状态
 
-有时，数字助理会向应用程序提供它不知道要如何处理的输入内容。 例如，“Siri，从我的银行应用中向 John 支付昨晚的晚餐费 20 袋煤”。
+有时，数字助理会向应用程序提供它不知道要如何处理的输入内容。 例如，“Siri，从我的银行应用程序中向 John 支付昨晚的晚餐费 20 袋煤”。
 
-若出现这种情况，请让应用程序请求数字助理做出澄清说明。 此外，还要向 Adobe 发送相应数据以指示应用程序出现错误状态，并同时发送用于指定所发生错误类型的 eVar。 请务必包括输入内容不正确和应用程序遇到问题等错误。
+若出现这种情况，请让应用程序请求澄清。 此外，还要向 Adobe 发送相应数据以指示应用程序出现错误状态，并同时发送用于指定所发生错误类型的 eVar。 请务必包括输入内容不正确和应用程序遇到问题等错误。
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1

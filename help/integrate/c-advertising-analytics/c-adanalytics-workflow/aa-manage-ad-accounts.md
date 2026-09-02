@@ -5,14 +5,10 @@ feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 autotag-review: '2026-05-19T13:32:36.907Z'
 TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1cc
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 552
@@ -45,8 +41,8 @@ ht-degree: 18%
 - 要使用![搜索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)搜索字段搜索广告帐户，请执行以下操作：
 - 若要选择表中的活动帐户，请选中&#x200B;**[!UICONTROL 活动帐户]**。
 - 要定义要为表显示的列，请选择![列设置](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)。 <br/>在&#x200B;**[!UICONTROL 自定义表]**&#x200B;对话框中：
-   - 选择要显示的列。
-   - 选择&#x200B;**[!UICONTROL 应用]**。
+  - 选择要显示的列。
+  - 选择&#x200B;**[!UICONTROL 应用]**。
 
 当您选择一个或多个广告帐户时，根据所选帐户的状态，蓝色操作栏允许您![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 重命名]**、![刷新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 映射报表包]**、![播放](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 激活]**&#x200B;或![暂停](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 暂停]**&#x200B;您的广告帐户。
 

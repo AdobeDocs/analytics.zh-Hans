@@ -5,27 +5,11 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 TQID: https://experienceleague.adobe.com/1-o8wAr6cY8jSR2facQEvh--wvXByJf6R01r4RcVEhI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 634
@@ -40,18 +24,18 @@ Adobe Analytics Activity Map 是 Adobe Analytics 中的一项功能，它用视�
 作为一个概念，Activity Map 由几个重要组件组成：
 
 * **报告包设置**：报告包必须先启用 Activity Map，然后您才能开始使用。 请参阅报告包设置中的 [Activity Map 报告](/help/admin/tools/manage-rs/edit-settings/activity-map.md)。
-* **实施**：大多数 Activity Map 报告都是现成可用的。 但是，某些网站可能需要额外的实施才能充分利用链接跟踪。 以下实施变量现在可用：
-   * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：按链接名称筛选点击数据。
-   * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：按区域名称筛选点击数据。
-   * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)：更改用于填充 Activity Map 区域维度的属性。
-   * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md)：自定义 Activity Map 用于填充 Activity Map 链接维度的逻辑。
-   * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md)：自定义 Activity Map 用于填充 Activity Map 区域维度的逻辑。
+* **实施**：大多数 Activity Map 报告都是现成可用的。 但是，某些网站可能需要额外的实施才能充分利用链接跟踪。 以下实施变量可用：
+  * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：按链接名称筛选点击数据。
+  * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：按区域名称筛选点击数据。
+  * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)：更改用于填充 Activity Map 区域维度的属性。
+  * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md)：自定义 Activity Map 用于填充 Activity Map 链接维度的逻辑。
+  * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md)：自定义 Activity Map 用于填充 Activity Map 区域维度的逻辑。
 * **叠加**：一种允许您查看网站上叠加点击数据的浏览器扩展。 更多信息请参阅 [Activity Map 扩展界面](overlay/overview.md)。 此功能不适用于 Web SDK 实施。
 * **维度**：除了叠加扩展外，Activity Map 还提供多个可在 Analysis Workspace 中使用的维度。
-   * [Activity Map 链接](/help/components/dimensions/activity-map-link.md)：所点击的链接名称。
-   * [Activity Map 区域](/help/components/dimensions/activity-map-region.md)：所点击的区域名称。
-   * [Activity Map 页面](/help/components/dimensions/activity-map-page.md)：点击链接时的页面名称。
-   * [按区域的 Activity Map 链接](/help/components/dimensions/activity-map-link-by-region.md)：Activity Map 链接与 Activity Map 区域的拼接值。
+  * [Activity Map 链接](/help/components/dimensions/activity-map-link.md)：所点击的链接名称。
+  * [Activity Map 区域](/help/components/dimensions/activity-map-region.md)：所点击的区域名称。
+  * [Activity Map 页面](/help/components/dimensions/activity-map-page.md)：点击链接时的页面名称。
+  * [按区域的 Activity Map 链接](/help/components/dimensions/activity-map-link-by-region.md)：Activity Map 链接与 Activity Map 区域的拼接值。
 
 ## 功能和好处
 

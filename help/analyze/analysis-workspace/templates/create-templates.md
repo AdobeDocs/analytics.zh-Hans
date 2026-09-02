@@ -5,14 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 TQID: 'https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-subfeature_v2:
-  - id: afb76b85-c4c7-4167-959c-8c31401f54be
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+subfeature_v2: id: afb76b85-c4c7-4167-959c-8c31401f54be
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 726
@@ -30,7 +25,7 @@ ht-degree: 100%
 
 要创建可供您登录公司中的人员使用的新模板：
 
-1. 在 Analysis Workspace 中，按照所需状态生成项目。
+1. 在 Analysis Workspace 中，将项目构建到所需状态。
 
 1. 选择&#x200B;[!UICONTROL **项目**] > **[!UICONTROL 另存为模板……]**。
 
@@ -70,7 +65,7 @@ ht-degree: 100%
 
 1. 如果您正在卡片视图![卡片视图图标](assets/card-view-icon.png)中查看模板：
 
-   1. 找到您要编辑或删除模板的位置。
+   1. 找到您要编辑或删除的模板。
 
       ![公司模板卡片视图](assets/company-template-cards.png)
 
@@ -104,7 +99,7 @@ ht-degree: 100%
 
 1. 在过滤器边栏中，选择 **OTHER FILTERS**，然后选择&#x200B;**公司模板**。
 
-   显示公司模板的列表。 不会显示所有常规项目（除非已固定）。
+   显示公司模板的列表。 所有常规项目都不会显示，除非这些项目已固定。
 
    公司模板可通过模板名称前的![模板图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)识别。
 

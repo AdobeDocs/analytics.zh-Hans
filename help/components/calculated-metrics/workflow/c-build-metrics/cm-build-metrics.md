@@ -4,27 +4,20 @@ title: 生成度量
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 TQID: https://experienceleague.adobe.com/ds8aD51DynOEJ7uYZ5Id-kTng2JPN4nZYuMTaKj-ZvE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1489
+source-wordcount: 1495
 ht-degree: 99%
 
 ---
 
 # 生成计算量度 {#build-metrics}
 
-Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和函数，以基于容器层次结构逻辑、规则和运算符创建自定义量度。 通过这种集成式开发工具，您可以生成并保存简单或复杂的计算量度。
+Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和函数，以基于容器层级逻辑、规则和运算符创建自定义量度。 通过这种集成式开发工具，您可以生成并保存简单或复杂的计算量度。
 
 您可以使用计算量度生成器来创建或编辑计算量度。 以这种方式创建时，计算量度可在组件列表中使用，然后可在整个组织的项目中使用。 或者，您可以快速创建仅适用于创建它的项目的计算量度，如[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中[为单个项目创建计算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)所述。
 
@@ -79,7 +72,7 @@ Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和�
 
 ![创建计算量度](assets/create-calculated-metric.gif)
 
-在&#x200B;**[!UICONTROL 定义]**&#x200B;区域中，仅会将量度定义为单一组件。 所有其他组件都会被定义为容器、包装量度或其他容器。 有关更多信息，请参阅[容器](#containers)。
+在&#x200B;**[!UICONTROL 定义]**&#x200B;区域中，仅会将量度定义为单一组件。 所有其他组件都定义为容器，用于包装量度或其他容器。 有关更多信息，请参阅[容器](#containers)。
 
 ### 量度
 
@@ -126,7 +119,7 @@ Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和�
 
 ### 容器
 
-您可以将维度、区段和函数作为容器添加到计算量度定义中。 您还可以添加通用容器。 容器的作用类似于数学表达式，它们决定着运算的顺序。 容器内的任何内容都会在下一个组件或容器之前得导出理。
+您可以将维度、区段和函数作为容器添加到计算量度定义中。 您还可以添加通用容器。 容器的作用类似于数学表达式，它们决定着运算的顺序。 容器内的任何内容都会在下一个组件或容器之前得到处理。
 
 
 #### 区段容器
@@ -135,22 +128,22 @@ Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和�
 
 * 要从某个维度添加区段容器：
 
-   1. 将![维度](/help/assets/icons/Dimensions.svg) **[!UICONTROL 维度]**&#x200B;组件从组件面板拖放到 **[!UICONTROL 将量度、维度、维度项、区段和/或函数拖放到此处]**。 您可以使用组件栏中的![搜索](/help/assets/icons/Search.svg)来搜索特定组件。
-   1. 在&#x200B;**[!UICONTROL 从维度创建区段]**&#x200B;弹出窗口中，定义该区段的条件。 从运算符列表中选择，并选择一个值或输入一个值。 例如，**[!UICONTROL 月份]**&#x200B;**[!UICONTROL 等于]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`。
-   1. 选择&#x200B;**[!UICONTROL 完成]**。 现在，**[!UICONTROL 定义]**&#x200B;中添加了一个区段容器。
+  1. 将![维度](/help/assets/icons/Dimensions.svg) **[!UICONTROL 维度]**&#x200B;组件从组件面板拖放到 **[!UICONTROL 将量度、维度、维度项、区段和/或函数拖放到此处]**。 您可以使用组件栏中的![搜索](/help/assets/icons/Search.svg)来搜索特定组件。
+  1. 在&#x200B;**[!UICONTROL 从维度创建区段]**&#x200B;弹出窗口中，定义该区段的条件。 从运算符列表中选择，并选择一个值或输入一个值。 例如，**[!UICONTROL 月份]****[!UICONTROL 等于]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`。
+  1. 选择&#x200B;**[!UICONTROL 完成]**。 现在，**[!UICONTROL 定义]**&#x200B;中添加了一个区段容器。
 
 
 * 要从某个区段添加区段容器，您可以使用：
 
-   * 将![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 区段]**&#x200B;组件从组件面板拖放到 **[!UICONTROL 将量度、维度、维度项、区段和/或函数拖放到此处]**。 您可以使用组件栏中的![搜索](/help/assets/icons/Search.svg)来搜索特定区段。
-使用区段的名称，区段容器被自动添加到&#x200B;**[!UICONTROL 定义]**&#x200B;中。
+  * 将![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 区段]**&#x200B;组件从组件面板拖放到 **[!UICONTROL 将量度、维度、维度项、区段和/或函数拖放到此处]**。 您可以使用组件栏中的![搜索](/help/assets/icons/Search.svg)来搜索特定区段。
+    使用区段的名称，区段容器被自动添加到**[!UICONTROL 定义]**&#x200B;中。
 
-   * 将![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 区段]**&#x200B;组件从组件面板拖放到通用容器上。 该容器变成了一个区段容器。
+  * 将![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 区段]**&#x200B;组件从组件面板拖放到通用容器上。 该容器变成了一个区段容器。
 
-   * 从容器内选择 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 添加]**：
+  * 从容器内选择 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 添加]**：
 
-      1. 选择&#x200B;**[!UICONTROL 区段]**。 现在，**[!UICONTROL 定义]**&#x200B;中添加了一个区段容器。
-      1. 在这个新的区段容器中，从&#x200B;[!UICONTROL *选择……*]&#x200B;下拉菜单中选择一个区段。
+    1. 选择&#x200B;**[!UICONTROL 区段]**。 现在，**[!UICONTROL 定义]**&#x200B;中添加了一个区段容器。
+    1. 在这个新的区段容器中，从&#x200B;[!UICONTROL *选择……*]&#x200B;下拉菜单中选择一个区段。
 
   >[!TIP]
   >
@@ -170,13 +163,13 @@ Adobe Analytics 提供了一个画布，用于拖放维度、量度、区段和�
 
 * 拖放：
 
-   1. 将 ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL 函数]**&#x200B;组件从组件面板拖放到 **[!UICONTROL 将量度、维度、维度项、区段和/或函数拖放到此处]**。 您可以使用组件栏中的![搜索](/help/assets/icons/Search.svg)来搜索特定函数。
-   1. 使用函数的名称自动将函数容器添加到&#x200B;**[!UICONTROL 定义]**。
+  1. 将 ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL 函数]**&#x200B;组件从组件面板拖放到 **[!UICONTROL 将量度、维度、维度项、区段和/或函数拖放到此处]**。 您可以使用组件栏中的![搜索](/help/assets/icons/Search.svg)来搜索特定函数。
+  1. 使用函数的名称自动将函数容器添加到&#x200B;**[!UICONTROL 定义]**。
 
 * 从容器内选择 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 添加]**：
 
-   1. 选择&#x200B;**[!UICONTROL 函数]**。
-   1. 在容器中，从&#x200B;[!UICONTROL *选择……*]&#x200B;下拉菜单中选择一个函数。
+  1. 选择&#x200B;**[!UICONTROL 函数]**。
+  1. 在容器中，从&#x200B;[!UICONTROL *选择……*]&#x200B;下拉菜单中选择一个函数。
 
 函数容器以函数组件命名。 例如，![函数](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根（量度）]**。 选择 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 来显示一个带有函数详细信息的弹出窗口。 选择&#x200B;**[!UICONTROL 了解更多]**，以了解有关该函数的更多信息。
 

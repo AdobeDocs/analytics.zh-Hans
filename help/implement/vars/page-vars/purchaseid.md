@@ -5,21 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/A8QIQQbtDhZcQmnokBcQdMqJVAbu1PD7N363QdHcSJc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 369
@@ -29,7 +19,7 @@ ht-degree: 78%
 
 # purchaseID
 
-`purchaseID` 变量有助于防止包含相同购买的点击使报表虚增。 例如，如果访客进入您的购买确认页面，您通常会将交易产生收入的相关数据发送至 Adobe。 如果用户多次刷新此页面或将页面添加到书签以供稍后访问，则这些点击会使报表虚增。 当多次点击具有相同的购买 ID 时，`purchaseID` 变量会删除重复量度。
+`purchaseID` 变量有助于防止包含相同购买的点击使报表虚增。 例如，如果访客进入您的购买确认页面，您通常会将交易产生的收入相关数据发送至 Adobe。 如果用户多次刷新此页面或将页面添加到书签以供稍后访问，则这些点击会使报表虚增。 当多次点击具有相同的购买 ID 时，`purchaseID` 变量会删除重复量度。
 
 当 Adobe 将点击识别为重复购买时，所有转化数据（如 eVar 和事件）都不会显示在报表中。 在数据馈送中，`duplicate_purchase` 列被设置为 `1`。
 
@@ -57,9 +47,9 @@ ht-degree: 78%
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.purchaseID
 
-`s.purchaseID` 变量是一个字符串，其中包含购买的唯一标识符。 它在相同的点击中被设置为购买事件。 仅使用字母数字字符填充此变量。
+`s.purchaseID` 变量是一个字符串，其中包含购买的唯一标识符。 它是在与购买事件相同的点击中设置的。 仅使用字母数字字符填充此变量。
 
-此变量最多可存储 20 字节；长于 20 字节的值会被截断。 如果此截断值与后续截断值匹配，则会删除这些后续点击中的重复项。
+此变量最多可存储 20 字节；长于 20 字节的值会被截断。 如果此截断值与后续截断值匹配，则这些后续点击会进行重复数据删除。
 
 ```js
 s.purchaseID = "ABC123";

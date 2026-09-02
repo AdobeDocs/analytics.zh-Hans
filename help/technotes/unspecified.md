@@ -4,19 +4,11 @@ title: 报表中的“未指定”、“无”、“其他”和“未知”
 feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
 TQID: https://experienceleague.adobe.com/JWT1oVZ-3Qcg9IxtPcEw9R9b8WHpe0O5GhDb3q-l7jo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 527
@@ -42,7 +34,7 @@ Adobe Analytics 中的各种报表可显示“未指定”、“其他”或“�
 尽管“其他”在报表中稍微少见，但在几种情况下，还是会出现。
 
 * **页面在内部 URL 过滤器之外触发：**&#x200B;该值旨在帮助防止数据欺诈，例如，如果其他组织窃取您的源代码并在其自己的网站进行实施。 要更正此问题，请确保您实施代码的所有 URL 与您在报表包中设置的内部 URL 过滤器相匹配。
-* **使用不常用浏览器的访客：**&#x200B;在“浏览器类型”报表中，如果访客使用的浏览器不是常见的浏览器类型，则显示“其他”作为划分。 有许多组织生产浏览器。 大型组织未创建的所有浏览器都会存储到“其他”中，以防止报表混乱。
+* **使用不常用浏览器的访客：**&#x200B;在“浏览器类型”报表中，如果访客使用的浏览器不是常见的浏览器类型，则显示“其他”作为划分。 有许多组织生产浏览器。 大型组织未创建的所有浏览器都会被归入“其他”，以防止报表杂乱。
 
 ## 报表中的“未知” {#unknown}
 
@@ -53,6 +45,6 @@ Adobe Analytics 中的各种报表可显示“未指定”、“其他”或“�
 
 ## 在报表中过滤这些值 {#filter}
 
-在大多数情况下，可以忽略这些行项目，这不会出现问题。 如果需要，可以使用搜索过滤器删除这些行项目。
+在大多数情况下，可以放心地忽略这些行项目。 如果需要，可以使用搜索过滤器删除这些行项目。
 
 尽管未在界面中显示，但有些后端数据变量会在报表中使用值 `::unspecified::`。 如果搜索过滤器无法排除数据，请尝试使用此值（包括冒号）。

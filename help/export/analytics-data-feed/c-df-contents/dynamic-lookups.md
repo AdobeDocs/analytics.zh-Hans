@@ -4,15 +4,10 @@ description: 了解什么是动态查找以及如何启用它们。 包括运营
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 TQID: 'https://experienceleague.adobe.com/mjETTk3o2-H60wOWr6svwUtIY00-dsmDfnfd-mxtrdU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 306
@@ -42,13 +37,13 @@ ht-degree: 20%
 如果要接收上述查找文件，则必须满足以下所有先决条件：
 
 * 数据馈送中必须包含键列。
-   * 对于`carrier.tsv`，您必须包含`carrier`。
-   * 对于`mobile_attributes.tsv`，您必须包含`mobile_id`。
-   * 对于`operating_system_type.tsv`，您必须包含`os`。
+  * 对于`carrier.tsv`，您必须包含`carrier`。
+  * 对于`mobile_attributes.tsv`，您必须包含`mobile_id`。
+  * 对于`operating_system_type.tsv`，您必须包含`os`。
 * 以下列必须为&#x200B;**排除**。 如果数据馈送中包含这些列中的任一列，则不会包含`mobile_attributes.tsv`动态查找。
-   * `user_agent`
-   * `ch_hdr`
-   * `ch_js`
+  * `user_agent`
+  * `ch_hdr`
+  * `ch_js`
 
 在您的数据馈送满足列包含和排除要求后，请联系客户关怀团队并提供数据馈送ID以启用动态查找。
 

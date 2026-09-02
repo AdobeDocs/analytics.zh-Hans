@@ -4,15 +4,10 @@ description: 无法登录 Adobe Analytics 时应采取的步骤。
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 607
@@ -30,7 +25,7 @@ Adobe Analytics 使用多种身份验证方法来登录：
 
 **如果您经常访问 Analytics 但开始随机遇到登录问题，则清理浏览器的 Cookie 和缓存可解决大多数问题。**
 
-有时候，可用性问题也会影响到登录的能力。 有关任何维护事件，请查看 [status.adobe.com](https://status.adobe.com/zh-cn)。 否则，请根据组织的身份验证方法使用相应的部分。
+有时候，可用性问题也会影响登录。 有关任何维护事件，请查看 [status.adobe.com](https://status.adobe.com)。 否则，请根据组织的身份验证方法使用相应的部分。
 
 ## Adobe ID
 
@@ -44,7 +39,7 @@ Adobe Analytics 使用多种身份验证方法来登录：
 
 ## 旧版 Analytics ID
 
-组织中的用户在尝试登录时收到以下错误：
+组织中的用户在尝试登录时可能会收到以下错误：
 
 *作为安全防范措施，由于登录失败尝试次数过多，此帐户已锁定。*
 
@@ -70,7 +65,7 @@ Adobe Analytics 使用多种身份验证方法来登录：
 
 *错误：此登录已过期。*
 
-此错误按其设计意图工作。 Adobe Analytics 为管理员提供了设置用户帐户的有效日期范围的功能。 如果当前日期在帐户的有效日期范围之外，则这些帐户无法登录。 与组织的 Analytics 管理员合作，延长登录的有效日期范围。 Adobe 客户关怀部门无权更改用户帐户的有效登录日期范围。
+此错误按其设计意图工作。 Adobe Analytics 为管理员提供了设置用户帐户的有效日期范围的功能。 如果当前日期超出帐户的有效日期范围，则用户无法登录。 与组织的 Analytics 管理员合作，延长登录的有效日期范围。 Adobe 客户关怀部门无权更改用户帐户的有效登录日期范围。
 
 ## 其他登录问题
 

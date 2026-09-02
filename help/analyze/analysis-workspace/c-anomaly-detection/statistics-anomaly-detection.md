@@ -5,21 +5,11 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 TQID: 'https://experienceleague.adobe.com/4DIICc89-1ppuJWmUpJBrDrOU7MH78dYBTCHTqkBE2E'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eed
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1101
@@ -87,9 +77,9 @@ Analysis Workspace 中的异常检测使用一系列高级统计技术来确定�
 1. 调整盒形图函数：此函数确定给定输入数据的最大异常数。
 1. GESD函数：使用步骤1的输出应用于输入数据。
 
-然后，假日和按年季节性异常检测步骤会从今年的数据中减去去年的数据。 然后使用上述两步流程再次遍历数据，以验证异常的发生是否存在季节性。 上述每种日期粒度均使用 15 个回顾周期作为参照，其中包含选择的报告日期范围（15 个月或 15 周）及 1 年前的相应日期范围。
+然后，假日和按年季节性异常检测步骤会从今年的数据中减去去年的数据。 然后使用上述两步流程再次遍历数据，以验证异常的发生是否存在季节性。 上述每种日期粒度均使用 15 个回顾周期作为参照，其中包含所选报告日期范围（15 个月或 15 周）以及 1 年前用于训练的相应日期范围。
 
-## 贡献分析中使用的统计技术
+## 贡献度分析中使用的统计技术
 
 贡献分析是一个密集型机器学习过程，旨在揭示导致Adobe Analytics中观察到的异常现象的因素。 意图在于协助用户以远快于其他方式的速度找到焦点领域或时机以供进行其他分析。
 
@@ -99,7 +89,7 @@ Analysis Workspace 中的异常检测使用一系列高级统计技术来确定�
 
    ![](assets/contingency_table.png)
 
-   在表1中，克莱姆V系数可用于测量分别对应时间段1（例如历史）和时间段2（例如异常发生的日子）的页面查看次数（按国家/地区划分）之间的关联。 克莱姆 V 系数的值较低意味着低级别的关联。 克莱姆 V 系数的范围介于 0（无关联）到 1（完全关联）之间。 克莱姆 V 系数统计量是可计算的：
+   在表1中，克莱姆V系数可用于测量分别对应时间段1（例如历史）和时间段2（例如异常发生的日子）的页面查看次数（按国家/地区划分）之间的关联。 克莱姆 V 系数的值较低意味着关联程度较低。 克莱姆 V 系数的范围从 0（无关联）到 1（完全关联）。 克莱姆 V 系数统计量是可计算的：
 
    ![](assets/cramers-v.png)
 

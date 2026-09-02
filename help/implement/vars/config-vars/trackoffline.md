@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/6VDAO0-QMXqia2Ddy1uPcxnTrlJi49B8zjaLcC0HawU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 283
@@ -27,21 +19,21 @@ ht-degree: 89%
 
 # trackOffline
 
-离线跟踪是在 Adobe Analytics 中收集数据的一种可选方式。 如果访客断开与 Internet 的连接但继续浏览您的网站，则点击量会存储在离线队列中，直到设备重新连接到 Internet 为止。 离线跟踪主要用于移动设备应用程序。
+离线跟踪是在 Adobe Analytics 中收集数据的一种可选方式。 如果访客断开与 Internet 的连接但继续浏览您的网站，则点击量会存储在离线队列中，直到设备重新连接到 Internet 为止。 离线跟踪主要用于移动应用程序。
 
 `trackOffline` 变量可决定您是否要在实施中使用离线跟踪。
 
 >[!WARNING]
 >
->在启用此变量之前，必须配置报表包以接受带有时间戳的点击。 如果报表包不接受带有时间戳的点击并且已启用此变量，则数据将丢失且无法恢复。
+>在启用此变量之前，必须配置报告包以接受带有时间戳的点击。 如果报告包不接受带有时间戳的点击并且已启用此变量，则数据将丢失且无法恢复。
 
 启用后，AppMeasurement 使用以下过程将数据发送到 Adobe：
 
 * 在编译图像请求时，将包含时间戳查询字符串参数。
 * 如果设备无法访问 Adobe 数据收集服务器，则将点击存储在设备本地。
 * 在随后的每次点击中，AppMeasurement 都会尝试将图像请求发送到 Adobe。
-   * 如果无法访问 Adobe 数据收集服务器，则会将点击添加到设备上的队列中。
-   * 如果可以访问 Adobe 数据收集服务器，则会发送设备处于离线状态时的点击和点击队列。
+  * 如果无法访问 Adobe 数据收集服务器，则会将点击添加到设备上的队列中。
+  * 如果可以访问 Adobe 数据收集服务器，则会发送设备处于离线状态时的点击和点击队列。
 
 ## 使用Web SDK进行离线跟踪
 

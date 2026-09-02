@@ -5,30 +5,19 @@ feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 TQID: https://experienceleague.adobe.com/FDpA78ggEgaRqX5aeZOrU6SLXCAxyvMfqNinmG3YN0k
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1268
 ht-degree: 87%
 
 ---
 
-# 媒体并行查看者面板 {#media-concurrent-viewers-panel}
+# 媒体并发查看者面板 {#media-concurrent-viewers-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -51,7 +40,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**&#x200B;中记录了“媒体并行查看者”面板。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[媒体并行查看者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**&#x200B;中记录了“媒体并行查看者”面板。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[媒体并行查看者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)。_
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +61,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体并行查看者面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒体并行查看者面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -92,13 +81,13 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 ### 面板输入
 
-您可以使用以下输入设置来配置媒体并行查看者面板：
+您可以使用以下输入设置来配置媒体并发查看者面板：
 
 | 设置 | 描述 |
 |---|---|
 | **[!UICONTROL 面板日期范围]** | 面板日期范围的默认值为“今天”。  您可以对其进行编辑以一次查看一天或几个月的数据。<br> <br>这个可视化图表限制为 1440 行数据（例如，以分钟作为粒度级别来表示 24 小时）。  如果日期范围和粒度的组合产生的行数超过了 1440 行，则将自动更新粒度以适应完整的日期范围。 |
 | **[!UICONTROL 粒度]** | 粒度的默认值为“分钟”。<br>此可视化图表限制为1440行数据（例如，以分钟级别的粒度为24小时）。  如果日期范围和粒度的组合产生的行数超过了 1440 行，则将自动更新粒度以适应完整的日期范围。 |
-| **[!UICONTROL 面板概要数字]** | 要查看并发查看者的日期或时间详细信息，可以使用摘要数字。 “最大值”显示并发峰值的详细信息。 **[!UICONTROL 最小值]**&#x200B;显示低谷期的详细信息。  面板默认值仅显示“最大值”，但您可以将其更改为显示“最小值”或“最大值”和“最小值”两者。<br><br>如果您使用细分，则会为每一项显示概要数字。 |
+| **[!UICONTROL 面板概要数字]** | 要查看并发查看者的日期或时间详细信息，可以使用摘要数值。 “最大值”显示并发峰值的详细信息。 **[!UICONTROL 最小值]**&#x200B;显示低谷期的详细信息。  面板默认值仅显示“最大值”，但您可以将其更改为显示“最小值”或“最大值”和“最小值”两者。<br><br>如果您使用细分，则会为每一项显示概要数字。 |
 | **[!UICONTROL 系列细分]** | （可选）您可以按过滤器、维度、维度项或日期范围细分可视化图表。<br>一次最多可以查看 10 行。 细分仅限一个级别。<br>在拖动一个维度时，将根据所选面板日期范围，自动选择顶部维度项。<br>要比较日期范围，请将 2 个或更多日期范围拖入系列细分过滤器中。 |
 
 下面是一个按&#x200B;**[!UICONTROL 分钟]**&#x200B;粒度配置面板的示例，**[!UICONTROL 最大值仅为]**&#x200B;摘要数字。 并按&#x200B;**[!UICONTROL 其他]**、**[!UICONTROL 表]**、**[!UICONTROL 手机]**、**[!UICONTROL 游戏机]**、**[!UICONTROL 媒体播放器]**、**[!UICONTROL 机顶盒]**、**[!UICONTROL 电视]**&#x200B;进行细分。
@@ -134,11 +123,11 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 | 自由格式表在什么位置？ 如何查看数据源？ | 自由格式表在此视图中不可用。  您可以从线形图上下文菜单下载数据源，然后选择&#x200B;**[!UICONTROL 将数据下载为 CSV]**。 |
 | 为什么我的粒度发生了变化？ | 这个可视化图表限制为 1440 行数据（例如，以分钟作为粒度级别来表示 24 小时）。  如果日期范围和粒度的组合产生 1440 行以上，则将自动更新粒度以容纳这个完整的日期范围。<br><br>如果从较大的日期范围更改到较小的日期范围，粒度在日期范围更改后自动更新为允许的最低明细级别。 要查看较高的粒度，请编辑面板并重建。 |
 | 如何比较视频名称、过滤器、内容类型等？ | 要在单个可视化图表中比较这些项，请将过滤器、维度或特定维度项拖至系列细分过滤器中。<br><br>视图限制为 10 个细分。  要查看 10 个以上的细分，您必须使用多个面板。 |
-| 如何比较日期范围？ | 要在单个可视化图表中比较日期范围，请通过拖动 2 个或更多日期范围来使用系列细分。  这些日期范围覆盖面板日期范围。 |
-| 如何更改可视化图表类型？ | 此面板仅允许时间系列的线形图可视化图表。 |
+| 如何比较日期范围？ | 要在单个可视化图表中比较日期范围，请通过拖动 2 个或更多日期范围来使用系列细分。  这些日期范围会覆盖面板的日期范围。 |
+| 如何更改可视化图表类型？ | 此面板仅允许时间序列的折线图可视化。 |
 | 能否运行异常检测？ | 否。  异常检测对此面板不可用。 |
-| 为什么使用独特人员而不是活动会话？ | 使用独特人员可以消除在节目边界处（即同时结束和开始会话时）不需要的峰值。 |
-| 比分钟更高的粒度下的并发查看者是什么意思？ | 使用比分钟更高的粒度，并发查看者是该时间范围内所有分钟下的独特并发查看者的总和。  例如，在小时级别的粒度上，并发查看者是该小时内所有分钟下的独特并发查看者的总和。 |
+| 为什么使用独特人员数量而不是活动会话？ | 使用独特人员可以消除在节目边界处（即同时结束和开始会话时）不需要的峰值。 |
+| 比分钟更高的粒度下的并发查看者是什么意思？ | 使用大于分钟的粒度时，并发查看者是该时间范围内所有分钟的独特并发查看者总和。  例如，在小时级别的粒度上，并发查看者是该小时内所有分钟下的独特并发查看者的总和。 |
 | 工作区面板是否会显示与并行查看者报告相同的信息？ | 否。  在 Analysis Workspace 中，“并发查看者量度”定义为在特定时间点查看媒体流的独特人员数量。 与会话数无关。<br><br>此量度不同于报告部分中的并发查看者报告，该报告使用的是“并发活动会话”。 使用独特人员帐户以消除在节目边界处（即同时结束和开始会话时）不需要的峰值。 |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
@@ -161,7 +150,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
 
 ## Panel Inputs {#Input}
 

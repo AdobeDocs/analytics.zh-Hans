@@ -14,7 +14,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了历程画布可视化图表。<br/><br/>_&#x200B;对于本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[历程画布概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中记录了历程画布可视化图表。<br/><br/>_&#x200B;对于本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本，请参阅[历程画布概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
 
 >[!ENDSHADEBOX]
 
@@ -26,13 +26,13 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 ## 节点的百分比或值高于之前的节点
 
-在历程画布中，较晚进入历程的节点可能会显示比较早进入历程的节点更高的百分比或数量。
+在历程画布中，历程中较晚出现的节点显示的百分比或数量可能高于历程中较早出现的节点。
 
 换句话说，与始终是漏斗形状的流失图不同（参与率随每一步减少），历程画布可视化图表在历程的较晚步骤中的参与率可能高于之前的步骤。
 
 这可能发生在以下场景中：
 
-* 使用不是“人员”和“会话”的主要量度
+* 使用“人员”和“会话”以外的主要量度时
 
 * 多个路径汇聚到一个节点
 
@@ -48,7 +48,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 * **[!UICONTROL 事件]**&#x200B;设置为主要量度
 
-#### 场景 1：用户 A 遵循第一个会话中的历程路径。 在接下来的会话中，用户有一个事件仅与一个较晚的节点匹配。
+#### 场景 1：用户 A 在首次会话中沿着历程路径前进。 在接下来的会话中，用户有一个事件仅与一个较晚的节点匹配。
 
 假设用户 A 访问网站并完成了历程（节点 1：“访问网站” > 节点 2：“查看产品 A” > 节点 3：“结账”）。 由于用户 A 有一个按顺序匹配历程中每个节点的事件，因此历程的每个节点上都会计入一个事件。
 
@@ -68,7 +68,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 
 ### 历程中有多个路径汇聚到一个节点
 
-历程画布允许您在一个历程中包含多个起始节点，这会导致有多个路径。 这些路径可能汇聚到一个共用节点，从而导致历程中较晚的节点显示的百分比或数量高于历程中较早的节点。
+历程画布允许您在一个历程中包含多个起始节点，从而形成多个路径。 这些路径可能汇聚到一个共用节点，从而导致历程中较晚的节点显示的百分比或数量高于历程中较早的节点。
 
 ![历程中有多个路径汇聚到一个节点](assets/journey-canvas-percentage-converge.png)
 
@@ -94,7 +94,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++起始节点百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**起始节点的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**起始节点的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-higher-percentage.png)
 
@@ -108,7 +108,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++以前的节点百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**前一个节点的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**前一个节点的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-percentage-previous.png)
 
@@ -122,7 +122,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++总数的百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**总数的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**总数的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-percentage-total.png)
 

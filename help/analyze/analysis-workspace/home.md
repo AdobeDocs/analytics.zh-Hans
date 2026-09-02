@@ -1,30 +1,16 @@
 ---
 title: Analysis Workspace 概述
-description: 了解 Analysis Workspace —— Adobe Analytics 的高级分析工具。 通过项目、面板、表格、可视化图表及其他组件，使数据生动呈现，并进行内容管理与分析共享。
+description: 了解 Analysis Workspace —— Adobe Analytics 的高级分析工具。 通过项目、面板、表格、可视化图表及其他组件，使数据生动呈现，并整理和共享您的分析。
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 autotag-review: '2026-05-22T09:19:57.382Z'
 TQID: 'https://experienceleague.adobe.com/O1TMjrV56s5v-x3waE7oKGog18sasEjo06eYiquAWjI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: eb853e43-1634-4181-adf2-a44d64395ec3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -38,7 +24,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概述](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -51,9 +37,9 @@ ht-degree: 96%
 | 位置 | 名称和功能 |
 |:---------:|----------|
 | A | 包含项目名称、用于访问功能的菜单结构、返回项目列表的按钮![“返回”按钮](/help/assets/icons/ChevronLeft.svg)，以及[分享 Workspace 项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)的&#x200B;**[!UICONTROL 分享]**&#x200B;按钮。 <br/>随时选择您的项目名称（例如：新项目）即可更改名称。 <br/>选择![取消收藏](/help/assets/icons/StarOutline.svg)将您的项目标记为收藏的项目![收藏](/help/assets/icons/Star.svg)。 |
-| B | **按钮面板：**&#x200B;包含用于访问 Analysis Workspace 的主要[功能](#features)的按钮：<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 可视化]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![策划](/help/assets/icons/Curate.svg) [[!UICONTROL 组件]](/help/components/home.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 目录]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![书签](/help/assets/icons/Bookmark.svg) [[!UICONTROL 数据字典]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| B | **按钮面板：**&#x200B;包含用于访问 Analysis Workspace 的主要[功能](#features)的按钮：<ul><li>![WebPage](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 可视化]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![策划](/help/assets/icons/Curate.svg)[[!UICONTROL 组件]](/help/components/home.md)</li><li>![ViewList](/help/assets/icons/ViewList.svg) [[!UICONTROL 目录]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![书签](/help/assets/icons/Bookmark.svg) [[!UICONTROL 数据字典]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **左侧面板：**&#x200B;该区域包含单独的面板、可视化内容、组件或列表。 相关内容取决于按钮面板中选择的按钮。 |
-| D | **画布：**&#x200B;从左侧面板拖动内容以构建项目的主要区域。 当您添加面板、向面板添加可视化效果以及向可视化效果添加组件时，项目会动态更新。 您可以创建多个面板，并且在每个面板内可以创建多个可视化效果。<br/>每个面板都基于所选的报表包。 所选的报表包决定了可用的组件，例如量度和维度。 有关详细信息，请参阅[面板 - 报表包](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite)。 |
+| D | **画布：**&#x200B;从左侧面板拖动内容以构建项目的主要区域。 当您添加面板、向面板添加可视化效果以及向可视化效果添加组件时，项目会动态更新。 您可以创建多个面板，并且在每个面板内可以创建多个可视化效果。<br/>每个面板都基于所选的报表包。 所选的报告包决定了可用的组件，例如量度和维度。 有关详细信息，请参阅[面板 - 报表包](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite)。 |
 
 ## 功能
 
@@ -76,13 +62,13 @@ Analysis Workspace 的大部分功能可通过拖放以及面板、可视化内�
 
 请注意，您的键盘上可能会使用以下符号：
 
-- **⇧** 表示 **[!UICONTROL *shift *]**&#x200B;键。
+- **⇧** 表示 **[!UICONTROL *shift *]**键。
 - **⌘** 表示 **[!UICONTROL *cmd *]**（命令）。
 - **⌃** 表示 **[!UICONTROL *ctrl *]**（控制）。
 - **⌥** 表示 **[!UICONTROL *opt *]**（选项）。
 - **⎇** 表示 **[!UICONTROL *alt *]**（备选）。
 
-请参阅下表以了解可用菜单的概述。
+请参阅下表，了解可用菜单的概览。
 
 | **[!UICONTROL 项目]** | Mac 快捷方式 | Windows 快捷方式 | 描述 |
 |---|---|---|---|

@@ -4,27 +4,11 @@ title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 TQID: https://experienceleague.adobe.com/BY9Zpnhu8FzGDHePD-MuWtyMWOuJKRgC-wTr42-rlyU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1132
@@ -86,7 +70,7 @@ Advertising Analytics可将以下维度和量度添加到Analysis Workspace、Re
 | **[!UICONTROL 广告(AMO ID)]** | 广告上使用的广告标题+广告描述。 |
 | **[!UICONTROL 关键字(AMO ID)]** | 来自您的搜索引擎帐户的“关键字”值。 |
 | **[!UICONTROL 匹配类型(AMO ID)]** | 分配给您的关键字的关键字匹配类型。 值通常为广泛、精确或无值（如果广告类型没有匹配类型）。 |
-| **[!UICONTROL 广告类型(AMO ID)]** | 投放的广告类型，通常为&quot;文字广告&quot;。 |
+| **[!UICONTROL 广告类型(AMO ID)]** | 投放的广告类型，通常为&quot;文本广告&quot;。 |
 | **[!UICONTROL 广告标题(AMO ID)]** | 广告中使用的Title对象。 |
 | **[!UICONTROL 广告描述(AMO ID)]** | 广告中使用的Ad Description对象。 |
 | **[!UICONTROL 广告显示URL (AMO ID)]** | 广告中使用的广告显示URL对象。 |
@@ -101,11 +85,11 @@ Advertising Analytics可将以下维度和量度添加到Analysis Workspace、Re
 
 >[!IMPORTANT]
 >
->Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。 它们未连接到Analytics访客资料。 它们仅连接到AMO ID变量及其关联的分类维度。 因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。 这样做会导致Analytics为数据显示零。 您可以将它们与其他指标一起纳入计算指标中，但这些计算指标也只应按照 AMO ID 维度进行划分。
+>Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。 它们未连接到Analytics访客资料。 它们仅连接到AMO ID变量及其关联的分类维度。 因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。 这样做会导致Analytics为数据显示零。 您可以将它们与其他量度一起纳入计算量度中，但这些计算量度也只应按照 AMO ID 维度进行划分。
 >
 >这些指标是每日收集的数据，因此不会有当天的数据。 此外，也不应在低于每日的粒度上报告这些事件。
 >
->登陆页面上设置 AMO ID 时，会设置一个 AMO ID 实例数指标（即点进次数）。 此指标是在发生登陆页面点击时实时捕获的，可用来与其他也在登陆页面上设置的维度一起进行划分。
+>登陆页面上设置 AMO ID 时，会设置一个 AMO ID 实例数指标（即点进次数）。 此量度是在发生登陆页面点击时实时捕获的，可用来与其他也在登陆页面上设置的维度一起进行划分。
 
 | 量度名称 | 定义 |
 | --- | --- |

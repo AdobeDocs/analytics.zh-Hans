@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/YCY2XuAIxZ89vqX6ENve2d6aAL3TltlYhAHartYdMgM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 742
@@ -29,7 +21,7 @@ ht-degree: 77%
 
 {{plug-in}}
 
-`p_fo` 插件是用于检查特定 JavaScript 对象是否存在的实用工具。 如果特定对象不存在，则此插件将创建该对象并返回 `true`。 如果页面上已存在特定 JavaScript 对象，则将返回 `false`。 此插件可用于确保代码仅在页面上运行一次。 有一些其他插件需要此插件代码才能正常运行。 如果您不担心代码在某个页面上运行的次数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
+`p_fo` 插件是用于检查特定 JavaScript 对象是否存在的实用工具。 如果特定对象不存在，则此插件将创建该对象并返回 `true`。 如果页面上已存在特定 JavaScript 对象，则将返回 `false`。 此插件可用于确保代码仅在页面上运行一次。 有一些其他插件需要此代码才能正常运行。 如果您不担心代码在某个页面上运行的次数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -57,9 +49,9 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
-1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+1. 如果您尚未这样做，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心 - 已加载的库（页面顶部）
+   * 事件：核心 - 库已加载（页面顶部）
 1. 使用以下配置向上述规则添加操作：
    * 扩展：常用 Analytics 插件
    * 操作类型：初始化 p_fo
@@ -120,7 +112,7 @@ if(p_fo("myobject"))
 
 ### 2.0
 
-* 修正版本（重新编译，代码更小）。
+* 修正版本（重新编译，代码大小更小）。
 * 将返回值类型从整数更改为布尔值
 
 ### 1.0

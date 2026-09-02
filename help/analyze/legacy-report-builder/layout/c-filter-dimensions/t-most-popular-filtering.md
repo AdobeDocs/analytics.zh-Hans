@@ -6,15 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 TQID: https://experienceleague.adobe.com/TLo2RytIM7ZQlpFMqXsTdoz7vFAXnwqoTJGHDG7gWLg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 633
@@ -48,7 +42,7 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   >对现有请求应用过滤器会导致提供的数据发生变化。 假设您将前10个[!UICONTROL 页面]映射到单元格$A$1到$A$10，其中1表示[!UICONTROL 起始排名]，10表示[!UICONTROL 条目数]。 如果您将这些值更改为[!UICONTROL 起始排名]显示1，而[!UICONTROL 条目数]仅显示3，则以前填充单元格$A$4到$A$10的数据将不再显示。
+   >对现有请求应用过滤器会导致显示的数据发生变化。 假设您将前10个[!UICONTROL 页面]映射到单元格$A$1到$A$10，其中1表示[!UICONTROL 起始排名]，10表示[!UICONTROL 条目数]。 如果您将这些值更改为[!UICONTROL 起始排名]显示1，而[!UICONTROL 条目数]仅显示3，则以前填充单元格$A$4到$A$10的数据将不再显示。
 
 1. 要创建搜索表达式，请单击&#x200B;**[!UICONTROL 添加]**。
 

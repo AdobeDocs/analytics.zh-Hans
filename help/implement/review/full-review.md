@@ -5,21 +5,11 @@ feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
 TQID: https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 404
@@ -27,7 +17,7 @@ ht-degree: 73%
 
 ---
 
-# 全面审查（用于每年两次审查实施）
+# 全面审查（用于每年两次审查您的实施）
 
 为何要每 6 个月审查一次您的实施？ 因为您需要确保您的实施与业务需求保持一致！ 此外，您还希望在数据存在的任何质量问题还是小问题，并未演变成可能会削弱利益相关者信心的主要数据问题时解决它们。 除了每 6 个月进行一次全面审查外，您还应在每个网站发布后执行[重点审查](/help/implement/review/focused-review.md)。
 
@@ -42,7 +32,7 @@ ht-degree: 73%
 * 创建功能板以查看这些关键量度和变量每月的趋势视图（或为每个量度和变量设置[警报](/help/components/alerts/alerts-overview.md)），确保您能获得所需数据并且数据正确。 如果发现任何误差，请检查数据层、标签管理器规则及处理规则，并找出原因。
 * 重新运行 [Analytics 运行状况功能板](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c)，以监控量度和变量的总体趋势。
 
-不要让您的实施充斥着不需要的量度和变量。 禁用企业不再需要或使用的量度或变量。 您可能需要稍后将其删除或重新设定其用途。
+不要让您的实施充斥着不需要的量度和变量。 禁用业务不再需要或使用的量度或变量。 您可能需要稍后将其删除或重新设定其用途。
 
 ## &#x200B;3. 刷新KPI
 

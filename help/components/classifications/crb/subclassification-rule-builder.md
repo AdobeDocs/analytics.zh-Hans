@@ -4,17 +4,11 @@ title: 子分类和规则生成器
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 TQID: https://experienceleague.adobe.com/Qlqt3scXHVUv6EODq57zzaF2007Vvf5x324CHjrsNE0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 403
@@ -80,7 +74,7 @@ ht-degree: 41%
    | &#42; |  | 111 | 品牌 | 苏桑 |  |
    | &#42; |  | 222 | 品牌 | 弗兰克 |  |
 
-1. 要维护查找表，请上载一个小文件（如上方所示）。
+1. 要维护查找表，请上传一个小文件（如上方所示）。
 
    例如，当引入新 *`Broad Campaign code`* 时，您需要上载此文件。 此文件将应用于以前分类的值。 同样，如果您创建新的子分类（如&#x200B;*`Creative Theme`*&#x200B;作为&#x200B;*`Creative code`*&#x200B;的子分类），则只上载子分类文件，而不是上载整个分类文件。
 

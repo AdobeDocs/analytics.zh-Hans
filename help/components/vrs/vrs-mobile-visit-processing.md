@@ -4,20 +4,11 @@ title: 上下文感知会话
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 TQID: https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1600
@@ -27,14 +18,14 @@ ht-degree: 24%
 
 # 上下文感知会话
 
-虚拟报表包中的上下文感知会话会更改 Adobe Analytics 计算任何设备访问次数的方式。 本文还介绍了后台点击处理和应用程序启动事件处理（均由 Mobile SDK 设置）对移动设备访问定义方式的影响。
+虚拟报告包中的上下文感知会话会更改 Adobe Analytics 计算来自任何设备的访问次数的方式。 本文还介绍了后台点击处理和应用程序启动事件处理（均由 Mobile SDK 设置）对移动设备访问定义方式的影响。
 
 您可以采用任何所需的方式定义访问，而无需更改基础数据，以便匹配您的访客与数字体验进行交互的方式。
 
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [上下文感知会话](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [上下文感知会话](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -128,9 +119,9 @@ Adobe Analytics数据收集流程允许您设置指定客户观点的查询字�
 
 ![](assets/nogoodexample4.jpg)
 
-即使该点击不被视为一次访问，任何设有访问过期时间的 eVar 都会将其值保留到此次“后台访问”的其他后台点击中。
+即使这不被视为一次访问，任何设有访问过期时间的 eVar 都会将其值保留到此次“后台访问”的其他后台点击中。
 
-示例 5：如果在一系列前台点击之后连续发生多次后台点击，则根据超时时间设置，这些后台点击可能会保留访问一直处于活动状态，且保留时间长于访问超时时段。 例如，如果&#x200B;*t1*&#x200B;和&#x200B;*t2*&#x200B;加总大于虚拟报表包访问超时，但单独小于超时，则访问仍会扩展以包含这两个后台点击：
+示例 5：如果在一系列前台点击之后连续发生多次后台点击，则根据超时时间设置，这些后台点击可能会使访问保持活动状态的时间长于访问超时时段。 例如，如果&#x200B;*t1*&#x200B;和&#x200B;*t2*&#x200B;加总大于虚拟报表包访问超时，但单独小于超时，则访问仍会扩展以包含这两个后台点击：
 
 ![](assets/nogoodexample5.jpg)
 

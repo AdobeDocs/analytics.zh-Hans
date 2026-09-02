@@ -5,21 +5,14 @@ feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: 626
 ht-degree: 78%
 
 ---
@@ -34,11 +27,11 @@ ht-degree: 78%
 
 此表中的大多数数据对象字段对应于[映射的XDM字段](xdm-var-mapping.md)。 在Adobe Analytics摄取期间，值首先从XDM映射到Analytics变量。 识别的数据对象字段映射到同一Analytics变量时，会映射并覆盖之前设置的任何值。 例如，如果存在`data.__adobe.analytics.events`，则它替换原本从XDM派生的整个事件集；事件不会跨两个源合并。 数据对象字段中的空字符串(`""`)将遮蔽其点击的映射Analytics变量，即使相应的XDM字段包含值也是如此。
 
-某些数据对象字段还支持其相应的[查询参数值](../validate/query-parameters.md)作为简写值。 您可以交替使用标准的数据对象字段和简写的数据对象字段，只要它们分别用于唯一的变量即可。 应避免同时设置标准数据对象字段及其相应的简写数据对象字段。 Adobe 无法保证哪个字段具有优先级。
+某些数据对象字段还支持其相应的[查询参数值](../validate/query-parameters.md)作为简写值。 您可以交替使用标准的数据对象字段和简写的数据对象字段，只要它们分别用于唯一的变量即可。 应避免同时设置标准数据对象字段及其相应的简写数据对象字段。 Adobe 无法保证哪个字段会优先采用。
 
 ## 数据对象字段映射
 
-可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.zh-Hans/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到此表之前的更新内容。 与 AppMeasurement 变量类似，所有数据对象字段都区分大小写。
+可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到此表之前的更新内容。 与 AppMeasurement 变量类似，所有数据对象字段都区分大小写。
 
 | 数据对象字段路径 | Analytics 变量和描述 |
 | --- | --- |
@@ -48,7 +41,7 @@ ht-degree: 78%
 | `data.__adobe.analytics.channel` | [网站分区](../../components/dimensions/site-section.md)维度。 也支持简写字段 `data.__adobe.analytics.ch`。 |
 | `data.__adobe.analytics.colorDepth` | [颜色深度](../../components/dimensions/color-depth.md)维度。 也支持简写字段 `data.__adobe.analytics.c`。 |
 | `data.__adobe.analytics.connectionType` | [连接类型](../../components/dimensions/connection-type.md)维度。 也支持简写字段 `data.__adobe.analytics.ct`。 |
-| `data.__adobe.analytics.contextData` | [&#x200B; 上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。 |
+| `data.__adobe.analytics.contextData` | [ 上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。 |
 | `data.__adobe.analytics.cookiesEnabled` | [Cookie 支持](../../components/dimensions/cookie-support.md)维度。 也支持简写字段 `data.__adobe.analytics.k`。 |
 | `data.__adobe.analytics.currencyCode` | [`currencyCode`](../vars/config-vars/currencycode.md) 实施变量。 也支持简写字段 `data.__adobe.analytics.cc`。 |
 | `data.__adobe.analytics.dynamicVariablePrefix` | [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md) 实施变量。 |

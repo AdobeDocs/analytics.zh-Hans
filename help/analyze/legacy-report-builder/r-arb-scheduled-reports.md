@@ -5,20 +5,11 @@ feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
 TQID: https://experienceleague.adobe.com/bH-sAinp0Hf0X9qesfrJMIUYdDqjrev5Hd7mRpihDLM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 788
@@ -43,9 +34,9 @@ ht-degree: 82%
 
 具体而言，这一暂停适用于 **2020 年 1 月 31 日之前创建的任何任务**。 任何任务、工作簿或数据都不会被删除。 超过两年的任务将暂停，并且不会发送其他计划任务。
 
-您希望继续发送的任何任务都可以重新激活。 登录 Report Builder，启动[!UICONTROL 计划任务管理器]。 若您想继续发送任何计划任务，请点击&#x200B;**[!UICONTROL 重新激活]**。 任何重新激活的任务都将拥有 18 个月默认到期日期，除非选择更短的到期日期。
+您希望恢复发送的任何任务都可以重新激活。 登录 Report Builder，启动[!UICONTROL 计划任务管理器]。 若您想继续发送任何计划任务，请点击&#x200B;**[!UICONTROL 重新激活]**。 任何重新激活的任务都将拥有 18 个月默认到期日期，除非选择更短的到期日期。
 
-此外，任何创建日期少于两年且无当前到期日期（或到期日期超过两年）的任务将有 18 个月的默认到期日期。 新的到期日期为 2023 年 10 月 15 日。 您可以将此到期日期编辑为小于 18 个月，但不能大于 18 个月。 到期时，任务将暂停。 但是，您可以在新的 18 个月到期日期内重新激活任务。 任何任务、工作簿或数据都不会被删除。
+此外，任何创建日期少于两年且无当前到期日期（或到期日期超过两年）的任务将有 18 个月的默认到期日期。 新的到期日期为 2023 年 10 月 15 日。 您可以将此到期日期编辑为少于 18 个月，但不能超过 18 个月。 到期时，任务将暂停。 但是，您可以使用新的 18 个月到期日期重新激活该任务。 任何任务、工作簿或数据都不会被删除。
 
 暂停的目的是有效地管理和维护我们的计划任务数据库，确保所需任务和工作簿的最佳性能和交付。 这将成为我们今后的新治理政策。 2023年1月31日之后，所有任务的最长有效期为18个月。 18 个月后，到期的任务将暂停，并可根据需要重新激活。
 

@@ -6,27 +6,11 @@ feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 TQID: https://experienceleague.adobe.com/wOWG6t9fsrfkd4FE-BNkwIrPW6DEGxBKDc2XItyRaoc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 962
@@ -38,7 +22,7 @@ ht-degree: 30%
 
 成功事件（也称为转化事件或自定义事件）是可以跟踪的操作。 什么是成功事件完全由您来决定。 例如，如果访客购买一件产品，该购买事件可被视为成功事件。
 
-有关成功事件的视频概述，请参阅Analytics教程指南中的[转化事件简介](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)。
+有关成功事件的视频概述，请参阅Analytics教程指南中的[转化事件简介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)。
 
 ## 成功事件示例
 
@@ -70,7 +54,7 @@ ht-degree: 30%
 
 1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;列中，选中该项旁边的复选框以启用编辑，然后指定所需的名称。
 
-   为网站上使用的成功事件提供有意义的名称。 例如，如果 event1 用于跟踪注册，则在此处更改名称，使 event1 在所有转化报告中都表示为“注册”量度。
+   为网站上使用的成功事件提供有意义的名称。 例如，如果 event1 用于跟踪注册，则在此处更改名称，以便 event1 在所有转化报告中都显示为“注册”量度。
 
 1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;列中，选中该项旁边的复选框以启用下拉列表，然后选择所需的类型。
 
@@ -82,7 +66,7 @@ ht-degree: 30%
 
 1. 在&#x200B;**[!UICONTROL 极性]**&#x200B;列中，选中复选框，然后从下拉菜单中选择此量度的上升趋势是好还是坏。
 
-   这允许您指示Adobe Analytics将给定的自定义事件（指标）上升的情况视为好还是坏。 它激活各种量度的方向指示器（箭头）以添加上下文（例如，逐周比较）。  示例：如果“提交的错误数”呈逐周上升趋势，Adobe Analytics应将其视为好事或坏事？ 电子邮件注册量增加可能是好事。 但“表单提交错误数”的上升可能是坏的。  在Analysis Workspace中，极性应用于：自由格式表条件格式、概要变化可视化，以及地图可视化的正/负配色方案。
+   这允许您指示Adobe Analytics将给定的自定义事件（指标）上升的情况视为好还是坏。 它激活各种量度的方向指示器（箭头）以添加上下文（例如，逐周比较）。  示例：如果“提交的错误数”呈逐周上升趋势，Adobe Analytics应将其视为好事或坏事？ 电子邮件注册量增加可能是好事。 但“表单提交错误数”的上升可能不是好事。  在Analysis Workspace中，极性应用于：自由格式表条件格式、概要变化可视化，以及地图可视化的正/负配色方案。
 
 1. 在&#x200B;**[!UICONTROL 可见性]**&#x200B;列中，选中复选框，然后从下拉菜单中选择是否在菜单、量度选择器、计算量度生成器和区段生成器中隐藏标准（内置）量度、自定义事件和内置事件。
 
@@ -110,6 +94,6 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >您最多可以为 100 个自定义事件启用参与率。 除此之外，您还可以在[计算量度](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)生成器中创建参与率量度。
+   >您最多可以为 100 个自定义事件启用参与。 除此之外，您还可以在[计算量度](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)生成器中创建参与率量度。
 
 1. 选择&#x200B;**[!UICONTROL 保存]**。

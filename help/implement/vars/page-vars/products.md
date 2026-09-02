@@ -5,20 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 663
@@ -109,7 +100,7 @@ Adobe Experience Platform 数据收集中没有专门用于设置此变量的字
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此变量在同一点击中支持多个产品。 它对于购物车和包含多种产品的购买非常有用。 整个 `products` 字符串的最大长度为 64K 字节。 在字符串中使用逗号 (`,`) 分隔每个产品。
+此变量支持在同一次点击中包含多个产品。 它对于包含多个产品的购物车和购买很有价值。 整个 `products` 字符串的最大长度为 64K 字节。 在字符串中使用逗号 (`,`) 分隔每个产品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -118,7 +109,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->从产品名称、类别和推销 eVar 值中去除所有分号、逗号和管道字符。 如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。 此错误解析会丢掉产品字符串的其余部分，导致维度和报表中的数据不正确。
+>从产品名称、类别和促销 eVar 值中去除所有分号、逗号和管道字符。 如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。 这种错误的解析会扰乱产品字符串的其余部分，导致维度和报告中的数据不正确。
 
 ## 示例
 

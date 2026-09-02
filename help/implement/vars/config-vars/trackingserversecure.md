@@ -5,21 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 870
@@ -54,7 +44,7 @@ Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器�
 
 ## Edge域手动实施Web SDK
 
-使用[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/edgedomain)配置SDK。 字段是一个字符串，可确定要将数据发送到的域。
+使用[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)配置SDK。 字段是一个字符串，可确定要将数据发送到的域。
 
 ```json
 alloy("configure", {
@@ -89,7 +79,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 您为`trackingServerSecure`（或`edgeDomain`）使用的值取决于几个因素：
 
-* 您参与了[Adobe管理的证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)
+* 您参与了[Adobe管理的证书计划](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
 * 如果已实施并正确设置[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)
 
 **如果您的组织参与了Adobe管理的证书计划**，请将该值设置为设置证书时选择的第一方域。 通常此值是您的组织拥有的子域。 例如：`data.example.com`。 贵组织中的CNAME记录将该数据重定向到Adobe。
@@ -114,8 +104,8 @@ Adobe强烈建议在[解决方案设计文档](../../prepare/solution-design.md)
 
 Adobe强烈建议在所有实施中使用ECID作为访客身份的主要形式。 可以通过多种不同的方式收集ECID，具体取决于实施类型：
 
-* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[为Analytics实施访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/setup-analytics)。
-* 使用Adobe Analytics标记扩展的实施使用[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)，该扩展实现了访客ID服务。 添加后，无需其他配置。
+* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[为Analytics实施访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)。
+* 使用Adobe Analytics标记扩展的实施使用[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)，该扩展实现了访客ID服务。 添加后，无需其他配置。
 * 使用任何形式的Web SDK（`alloy.js`或Web SDK标记扩展）的实施会自动包含Experience Platform Identity服务。 设置`edgeDomain`值后无需进行配置。
 
 **如果您的实施不使用ECID**，请考虑对您的实施产生以下影响：

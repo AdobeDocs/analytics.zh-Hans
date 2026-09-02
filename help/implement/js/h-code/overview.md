@@ -1,18 +1,13 @@
 ---
-title: H 代码 JavaScript 实施概述
-description: 了解在您的网站上实施 H 代码的工作流。
+title: H 码 JavaScript 实施概述
+description: 了解在您的网站上实施 H 码的工作流。
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
 TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 385
@@ -20,17 +15,17 @@ ht-degree: 72%
 
 ---
 
-# H 代码 JavaScript 实施概述
+# H 码 JavaScript 实施概述
 
 >[!IMPORTANT]
 >
 >不再支持此版本的数据收集。 升级到 [Adobe Experience Platform 中的标记](../../launch/overview.md)或 [AppMeasurement for JavaScript](../overview.md)。
 
-您必须能够访问托管服务器，才能成功为页面实施用于收集数据的代码。 以下步骤详细说明了如何进行基本的 Analytics H 代码实施。
+您必须能够访问托管服务器，才能成功为页面实施用于收集数据的代码。 以下步骤详细说明了如何进行基本的 Analytics H 码实施。
 
 >[!NOTE]
 >
->在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。 Adobe 将不再提供用于在代码管理器中下载 H 代码的选项。
+>在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。 Adobe 将不再提供用于在代码管理器中下载 H 码的选项。
 
 1. **更新核心 JS 文件变量**：编辑 `s_code.js` 文件，并确保已更新以下变量：
    * `s_account` 包含要将数据发送到的报表包 ID。

@@ -4,15 +4,10 @@ description: Adobe Media Optimizer EF ID，用于Adobe Advertising集成。
 feature: Dimensions
 exl-id: 129b0235-9b00-4d75-8b02-0443dfdef091
 TQID: 'https://experienceleague.adobe.com/gye9CwGtFwPppmrTbpB5CErZjIdKeAtSPr6VPUtPod4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 299
@@ -22,7 +17,7 @@ ht-degree: 4%
 
 # AMO EF ID
 
-**[!UICONTROL AMO EF ID]**&#x200B;是Adobe Advertising集成中使用的广告点击标识符。 它是Adobe Advertising用于将活动与访客级别的在线点击或广告曝光度关联的唯一令牌。 启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
+**[!UICONTROL AMO EF ID]**&#x200B;是Adobe Advertising集成中使用的广告点击标识符。 它是Adobe Advertising用于将活动与访客级别的在线点击或广告曝光度关联的唯一令牌。 启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
 
 ## 使用数据填充此维度
 
@@ -67,9 +62,9 @@ Dimension项目包括由支持的广告网络生成的广告点击标识符。 �
 * **`amovid`**： Adobe Advertising访客ID，也称为冲浪者ID。
 * **`ts`**： Adobe Advertising生成的时间戳。
 * **`channel`**：负责点击或曝光的渠道类型：
-   * **`d`**：点击DSP显示广告（显示点进）。
-   * **`i`**： DSP显示广告（显示显示显示到达）的展示。
-   * **`s`**：点击搜索广告（搜索点进）。
+  * **`d`**：点击DSP显示广告（显示点进）。
+  * **`i`**： DSP显示广告（显示显示显示到达）的展示。
+  * **`s`**：点击搜索广告（搜索点进）。
 
 ### 示例
 

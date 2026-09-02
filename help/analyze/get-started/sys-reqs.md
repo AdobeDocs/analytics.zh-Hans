@@ -4,16 +4,10 @@ description: 为使用 Adobe Analytics 而需满足的系统要求。
 feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 TQID: 'https://experienceleague.adobe.com/g1vx8w5-xediBUnktEPyZyV6iBFHd-thXhbuBdSYBYw'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 193
@@ -31,7 +25,7 @@ ht-degree: 100%
 
 * 有效的 Adobe Analytics 许可证
 
-  Adobe Analytics 需要站点许可证。 请联系您的 Adobe 客户代表以了解详情。
+  Adobe Analytics 需要网站许可证。 请联系您的 Adobe 客户代表以了解详情。
 
 * 受支持的浏览器
 

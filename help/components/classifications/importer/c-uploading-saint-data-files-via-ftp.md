@@ -4,17 +4,11 @@ title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 TQID: https://experienceleague.adobe.com/CMHQpWtGl14Z7kHaZ7ufp6-tDIfQ-pCEzSI47XMi-pA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 727
@@ -46,7 +40,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->拥有太多小文件或单个大文件都会在处理服务器上产生不必要的处理负载。 Adobe 建议将大文件拆分为大小为 50 MB 的块，并将小文件组合在一起。
+>过多的小文件或单个大文件都会给处理服务器带来不必要的处理负载。 Adobe 建议将大文件拆分为大小为 50 MB 的块，并将小文件组合在一起。
 
 初始设置会使用大量原始数据填充分类数据库，或重新构建分类，而不是重新分类几行或添加行。
 
@@ -74,7 +68,7 @@ ht-degree: 84%
    | 元素 | 描述 |
    |---|---|
    | **名称** | FTP 帐户名称。 |
-   | **要分类的数据集** | 从下拉列表中，选择要进行分类的数据集（市场营销报告变量）。 |
+   | **要分类的数据集** | 从下拉列表中，选择要进行分类的数据集（营销报告变量）。 |
    | **选择报告包** | 选择要将所选数据集进行分类的报告包。 要选择多个报告包，每个所选报告包的分类必须完全相同。 |
    | **覆盖冲突的数据** | 选择此选项可覆盖重复数据。 如果要更新现有分类，此选项非常有用。 如果您使用了[最新的分类架构](../sets/overview.md)，则此设置始终启用。 |
    | **导入完成后** | 选择此选项，可在导入完成后，在指定了接收此 FTP 帐户相关通知的电子邮件地址的情况下，自动将更新的数据集导出到同一 FTP 帐户。 如果您使用了[最新的分类架构](../sets/overview.md)，则此选项不可用。 |
@@ -91,7 +85,7 @@ ht-degree: 84%
 
 ## 通过 FTP 导入分类
 
-您可以使用 FTP 帐户将分类导入 Adobe Analytics 的步骤。
+您可以使用 FTP 帐户将分类导入 Adobe Analytics。
 
 通过 FTP 导入分类：
 
@@ -100,7 +94,7 @@ ht-degree: 84%
 1. 在要使用的 FTP 帐户旁边，单击&#x200B;**[!UICONTROL 查看]**。
 1. 使用 FTP 访问信息（主机、登录名、密码），通过您选择的 FTP 客户端访问 FTP 服务器。
 1. 将数据文件（`.tab` 或 `.txt`）上传到 FTP 服务器。
-1. 上传数据文件之后，再上传指示可以处理文件的 FIN 文件。
+1. 上传数据文件后，再上传一个表明该文件已准备好进行处理的 FIN 文件。
 
    FIN 文件是一个与您的数据文件同名的空文件，扩展名为 `.fin`。 例如，如果您的数据文件为 `classdata1.tab`，则 文件名为 `classdata1.fin`.fin。
 

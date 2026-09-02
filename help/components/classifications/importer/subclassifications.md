@@ -1,21 +1,14 @@
 ---
-description: Adobe Analytics 支持单级别和多级别分类模型。 使用分类层次结构可以将分类应用到分类。
+description: Adobe Analytics 支持单级别和多级别分类模型。 使用分类层级可以将分类应用到分类。
 title: 子分类
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 TQID: https://experienceleague.adobe.com/Gla7xVOKKBnfRJu06NOzNsN6IsRr741fDRrd-z8Dy-A
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 682
@@ -27,7 +20,7 @@ ht-degree: 54%
 
 {{classification-importer-deprecation}}
 
-Adobe Analytics 支持单级别和多级别分类模型。 使用分类层次结构可以将分类应用到分类。
+Adobe Analytics 支持单级别和多级别分类模型。 使用分类层级可以将分类应用到分类。
 
 >[!NOTE]
 >
@@ -79,9 +72,9 @@ Adobe Analytics 支持单级别和多级别分类模型。 使用分类层次结
 
 >[!NOTE]
 >
->产品分类数据仅受与产品直接相关的数据属性的限制， 这些数据不仅限于产品在网站上的分类或销售方式。 销售类别、网站浏览节点或销售项目等数据元素不是产品分类数据。 相反，这些元素是在报告转化变量中捕获的。
+>产品分类数据仅限于与产品直接相关的数据属性。 这些数据不仅限于产品在网站上的分类或销售方式。 销售类别、网站浏览节点或销售项目等数据元素不是产品分类数据。 相反，这些元素是在报告转化变量中捕获的。
 
-在上传此产品分类的数据文件时，您可以将分类数据作为单个或多个文件进行上传（请参阅下文）。 通过分隔文件1中的颜色代码和文件2中的颜色名称，只有在创建新的颜色代码时才需要更新颜色名称数据（可能只有几行）。 这会从更新较频繁的文件1中消除颜色名称(CODE^COLOR)字段，并在生成数据文件时降低文件大小和复杂性。
+在上传此产品分类的数据文件时，您可以将分类数据作为单个文件或多个文件进行上传（请参阅下文）。 通过分隔文件1中的颜色代码和文件2中的颜色名称，只有在创建新的颜色代码时才需要更新颜色名称数据（可能只有几行）。 这会从更新较频繁的文件1中消除颜色名称(CODE^COLOR)字段，并在生成数据文件时降低文件大小和复杂性。
 
 ### 产品分类 — 单个文件 {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 

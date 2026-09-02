@@ -4,21 +4,11 @@ description: 配置Adobe Analytics以跟踪您的付费搜索指标（如Google 
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
 TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1206
@@ -87,14 +77,14 @@ ht-degree: 78%
    ![映射](assets/data-source-mapping.png)
 
 1. 选择数据维度
-选中“跟踪代码”旁边的框，然后单击&#x200B;**[!UICONTROL 下一步]**。
+选中“跟踪代码”旁边的框，然后单击**[!UICONTROL 下一步]**。
 1. 映射数据维度。
-将导入的数据维度（属性）映射到要将它存入的 Adobe Analytics 属性。 这可以是标准维度或 eVar。 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;之后，将在摘要中显示所得的映射：
+将导入的数据维度（属性）映射到要将它存入的 Adobe Analytics 属性。 这可以是标准维度或 eVar。 单击**[!UICONTROL 下一步]**&#x200B;之后，将在摘要中显示所得的映射：
 
    ![摘要](assets/data-source-summary.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 单击&#x200B;**[!UICONTROL 下载]**&#x200B;以下载此数据源的模板文件。
+1. 单击&#x200B;**[!UICONTROL 下载]**以下载此数据源的模板文件。
 文件名对应于您最初指定的数据源类型 — 在本例中为“Generic Pay-Per-Click Service template.txt”。
 1. 在您喜爱的文本编辑器中打开该模板。
 已为该文件填入了指标和维度及其映射。
@@ -106,7 +96,7 @@ ht-degree: 78%
 ### 导出数据
 
 1. 登录到您的 PPC 帐户，然后创建新报表或导出。
-确保该导出包括以下字段：日期、目标 URL（登陆页）、展示次数、点击次数和成本。 该导出可能包括其他字段，但您将在下方的步骤中删除它们。
+确保该导出包括以下字段：日期、目标 URL（登陆页面）、展示次数、点击次数和成本。 该导出可能包括其他字段，但您将在下方的步骤中删除它们。
 1. 如有可能，请将该报表另存为 `.csv` 或制表符分隔的文件。 这样将使其在以下步骤中更易用。
 1. 在 Microsoft Excel 中打开该文件。
 
@@ -116,9 +106,9 @@ ht-degree: 78%
 1. 删除位于顶部的任何多余的行。
 1. 要从目标URL中分离出跟踪代码，请执行以下操作：
 a. 从所有列复制并粘贴数据。
-b. 单击&#x200B;**[!UICONTROL 数据>分列]**。
-c. 在向导的第1步中，确保选中&#x200B;**[!UICONTROL 分隔符]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
-d. 在向导的第2步中，根据创建URL的方式指定分隔符(？ 或&amp;)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+b. 单击**[!UICONTROL 数据>分列]**。
+c. 在向导的第1步中，确保选中**[!UICONTROL 分隔符]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
+d. 在向导的第2步中，根据创建URL的方式指定分隔符(？ 或&amp;)，然后单击**[!UICONTROL 下一步]**。
 e. 在向导的第3步中，预览您的数据，并确保其中一列为“trackingcodename=trackingcode”。 如果有其他变量，请（使用 &amp; 作为分隔符）重复这些步骤。
 f. 删除跟踪代码、展示次数、点击次数和成本之外的所有列。 添加一个名为 Date 的新列，并按以下顺序整理您的各个列：Date :: Tracking code :: Impressions :: Clicks :: Cost。
 1. 将这些数据添加到您在上方的“设置数据源”部分中下载的模板。
@@ -141,9 +131,9 @@ f. 删除跟踪代码、展示次数、点击次数和成本之外的所有列�
 | 每次访问的页面查看次数 | 页面查看次数/访问次数 | 数值 | 在网站级别应用时：显示每次访问的平均页面数。 在“最受欢迎页面”报表中应用时：显示每次访问查看特定页面的平均次数。 |
 | 平均订单价值 | 收入/订单 | 货币 | 显示每订单的平均收入。 |
 | 每次访问的收入 | 收入/访问次数 | 货币 | 显示每次访问的平均收入。 |
-| 点进率 (CTR) | 点击次数/展示次数 | 数值 | 衡量在线广告或电子邮件市场营销活动的点击次数与展示次数之比。 |
+| 点进率 (CTR) | 点击次数/展示次数 | 数值 | 衡量在线广告或电子邮件营销活动的点击次数与展示次数之比。 |
 | 利润 | 收入 — 成本 | 货币 | 显示营销活动的收入减去成本。 |
-| 每次展示的利润 (PPI) | (收入 — 成本)/展示次数 | 货币 | 显示每次展示广告产生了多少收入，并扣除成本。 |
+| 每次展示的利润 (PPI) | (收入 — 成本)/展示次数 | 货币 | 显示每次广告展示产生了多少收入，并兼顾成本。 |
 | 广告支出回报率 (ROAS) | 销售额/广告支出 | 货币 | (ROI) 表示在相应的广告上每花费一元可赚到几元。 |
 
 ## 配置并运行报表

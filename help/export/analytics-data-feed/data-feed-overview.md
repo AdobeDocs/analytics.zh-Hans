@@ -5,15 +5,10 @@ title: Analytics 数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 TQID: 'https://experienceleague.adobe.com/XVFQdMEfIM7lQlnU3b-zRbQ9-RliqtaBjr-7ptxkI1o'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 335
@@ -23,7 +18,7 @@ ht-degree: 95%
 
 # Analytics 数据馈送概述
 
-数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。 此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 数据在每小时结束时以小时为单位分批发送，或者在每天结束时以天为单位分批发送。
+数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。 此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 数据会在每小时结束时按小时批次交付，或者在每天结束时按天批次交付。
 
 ## 先决条件
 
@@ -31,7 +26,7 @@ ht-degree: 95%
 
 * 将数据发送到 Adobe 数据收集服务器的有效实施。 请参阅《实施指南》中的[验证和发布实施](/help/implement/launch/validate-publish-prod.md)。
 * 您的帐户是 Analytics 产品管理员，或者属于有权访问数据馈送的产品配置文件。
-* 在 Amazon S3、Google Cloud Platform、Azure RBAC 或 Azure SAS 上配置的分段。
+* 在 Amazon S3、Google Cloud Platform、Azure RBAC 或 Azure SAS 上配置的桶。
 * （旧版：仅对旧版 FTP 和 SFTP 目标类型是必需的）准备好 FTP 站点和凭据（由您的组织提供的 FTP 凭据。）
 
 ## 后续步骤
@@ -54,6 +49,6 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-查看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送 ID](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}，获取演示视频。
+查看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [查找您的数据馈送 ID](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}，获取演示视频。
 
 >[!ENDSHADEBOX]

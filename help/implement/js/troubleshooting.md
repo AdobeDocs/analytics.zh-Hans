@@ -5,21 +5,11 @@ feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
 TQID: https://experienceleague.adobe.com/U97L94cxnWYpnqsJ3FJh7EBbdIHpFHxfJP7uqoqrGgU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 686
@@ -54,7 +44,7 @@ ht-degree: 89%
 
 ## 引用 Analytics 对象
 
-发送到 Adobe 的所有变量都会使用 Analytics 对象。 大多数实施都使用 `s` 对象。 确在引用变量时将 Analytics 对象包含在引用中。
+发送到 Adobe 的所有变量都会使用 Analytics 对象。 大多数实施都使用 `s` 对象。 确保在引用变量时将 Analytics 对象包含在引用中。
 
 例如，`s.eVar1 = 'Value'` 有效，但 `eVar1 = 'Value'` 无效。
 
@@ -87,7 +77,7 @@ ht-degree: 89%
 </body>
 ```
 
-在本例中，`document.title` 中填充了 `s.pageName` 变量，该变量将收到值“Home Page”。 但是，有些浏览器可能会按不同方式解读空格。 因此，可能会产生如以下两个示例所示的不同结果：
+在本例中，`document.title` 中填充了 `s.pageName` 变量，该变量将收到值“Home Page”。 但是，有些浏览器可能会按不同方式解读空格。 结果可能是以下两个示例中的任意一个：
 
 ```js
 s.pageName = "Home Page";
@@ -97,7 +87,7 @@ s.pageName = "Home Page";
 s.pageName = "        Home Page";
 ```
 
-在 Adobe Analytics 中，这两个变量值会被视为不同的值。 但是，出于显示目的，系统会自动删除空格。 因此，生成的报表中会显示两个看似相同的“Home Page”行项。 确保变量值中所需值的前后都不包含空格。
+在 Adobe Analytics 中，这两个变量值会被视为不同的值。 但是，出于显示目的，系统会自动删除空格。 因此，生成的报告中会显示两个看似相同的“主页”行项。 确保变量值中所需值的前后都不包含空格。
 
 ## 截断的图像请求
 
@@ -107,9 +97,9 @@ s.pageName = "        Home Page";
 * **使用处理规则**：[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)可以将值从一个变量复制到另一个变量。 此方法可使您省去在多个变量中设置相同值的麻烦。 例如：
 
   始终执行：<br>
-使用eVar1覆盖prop1的值<br>
-使用eVar1覆盖eVar2的值<br>
-使用eVar1<br>覆盖prop2的值
+  使用eVar1覆盖prop1的值<br>
+  使用eVar1覆盖eVar2的值<br>
+  使用eVar1<br>覆盖prop2的值
 
   然后在实施中设置 eVar1：
 

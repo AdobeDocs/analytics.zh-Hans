@@ -5,23 +5,11 @@ feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 939
@@ -46,8 +34,8 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 
 |   | **`"adobeanalytics"`模板** | **`"adobeanalytics_nativeConfig"`模板** |
 |---|---|---|
-| 现有报表包中的访客/访问计数 | 高通胀 | 最低通胀 |
-| 使用单独的报表包 | 建议 | 不需要 |
+| 现有报告包中的访客/访问计数 | 高通胀 | 最低通胀 |
+| 使用单独的报告包 | 建议 | 不需要 |
 | 新访客与回访访客 | 不受支持 | 受支持 |
 | 访客ID服务(`VisitorAPI.js`) | 不受支持 | 受支持 |
 | 视频和链接跟踪 | 部分支持 | 尚不受支持 |
@@ -58,11 +46,11 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 
 >[!WARNING]
 >
->请不要在同一个使用 AMP 的页面上同时使用 `"adobeanalytics"` 和 `"adobeanalytics_nativeConfig"` 模板。 如果尝试这样做，浏览器控制台中可能会生成错误，并导致访客数加倍。
+>请不要在同一个使用 AMP 的页面上同时使用 `"adobeanalytics"` 和 `"adobeanalytics_nativeConfig"` 模板。 如果尝试这样做，浏览器控制台中可能会生成错误，并导致重复计算访客。
 
 ## 方法1：将`<amp-analytics>`标记与`"adobeanalytics"`模板一起使用
 
-`"adobeanalytics"` 跟踪模板可利用 `<amp-analytics>` HTML 标记直接构建跟踪请求。 您可以指定在发生特定页面事件（如页面可见或单击时）时触发的点击请求。 通过指定一个选择器，可自定义若干个单击事件，以应用到某些元素 ID 或类中。 将 `type="adobeanalytics"` 添加至 amp-analytics 标记后，即可加载该模板。
+`"adobeanalytics"` 跟踪模板可利用 `<amp-analytics>` HTML 标记直接构建跟踪请求。 您可以指定在发生特定页面事件（如页面可见或单击时）时触发的点击请求。 通过指定选择器，可以自定义单击事件，使其应用于某些元素 ID 或类。 将 `type="adobeanalytics"` 添加至 amp-analytics 标记后，即可加载该模板。
 
 在下列代码示例中，定义了两个触发程序：`pageLoad` 和 `click`。 当文档变为可见并包含在 `vars` 部分中定义的 `pageName` 变量时，`pageLoad` 触发程序将触发。 第二个触发程序 `click` 在单击按钮时触发。 为此事件设置了`eVar1`变量，其值为`button clicked`。
 
@@ -97,7 +85,7 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 </amp-analytics>
 ```
 
-`<amp-analytics>`标记支持变量替换，因此AMP能够提供它感知到的数据值。 有关详细信息，请参阅GitHub上`amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支持的变量。
+`<amp-analytics>`标记支持变量替换，因此AMP能够提供它感知到的数据值。 有关详细信息，请参阅GitHub上`amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支持的[变量。
 
 >[!NOTE]
 >
@@ -131,7 +119,7 @@ Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie�
 </amp-analytics>
 ```
 
-还需要在 Web 服务器上托管的 HTML 页面：
+还需要一个托管在您的 Web 服务器上的 HTML 页面：
 
 ```html
 <html>
@@ -169,9 +157,9 @@ Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie�
 
 >[!IMPORTANT]
 >
->必须将您的 `stats.html` 页面托管在不同于托管 AMP 的域的子域上。 AMP 框架不允许 iFrame 来自 AMP 页面本身所在的子域。 例如，如果 AMP 托管在 `amp.example.com` 上，则要将 `stats.html` 页面托管在不同的子域（如 `ampmetrics.example.com`）上。
+>必须将您的 `stats.html` 页面托管在不同于托管 AMP 的域的子域上。 AMP 框架不允许使用来自与 AMP 页面本身所在子域相同的 iframe。 例如，如果 AMP 托管在 `amp.example.com` 上，则要将 `stats.html` 页面托管在不同的子域（如 `ampmetrics.example.com`）上。
 
-使用此方法时，若用户在主站点上选择退出跟踪，也会在所有 AMP 页面上选择退出跟踪。 使用此实用工具页面还意味着AMP可以支持Adobe访客ID服务。 无需使用单独的报表包。
+使用此方法时，若用户在主站点上选择退出跟踪，也会在所有 AMP 页面上选择退出跟踪。 使用此实用工具页面还意味着AMP可以支持Adobe访客ID服务。 无需使用单独的报告包。
 
 此方法无法用于链接跟踪和视频跟踪。 AMP 中的 `iframeMessage` 标记在每页上只能加载一次，因此在加载此框架后，您将无法发送任何其他图像请求。 运行此方法还需要更多处理资源，这可能会影响滚动性能。 此方法不会影响页面加载时间，因为所有资源均以异步方式加载。
 

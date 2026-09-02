@@ -5,16 +5,11 @@ exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/x7zHG4xkSr1yDLZ2dfosn5PaK4JVxiMWC6xksSTLypE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 288
@@ -40,7 +35,7 @@ ht-degree: 41%
 
 接下来，创建将日期范围放入排除容器中的点击区段，该容器位于另一个排除容器中。 这就是“排除 — 排除”。
 
-选择“排除 — 排除”的原因是日期范围旨在覆盖报表的日期范围。 因此，如果您只包括 6 月 1 日之后的日期，这会使报表的日期范围始终为 6 月 1 日以后的日期。 随之会带来不符合要求的结果。 当您“排除 — 排除”时，它会覆盖此行为，而只限制您可从相应日期范围中提取的数据。
+选择“排除 — 排除”的原因是日期范围旨在覆盖报表的日期范围。 因此，如果您只包括 6 月 1 日之后的日期，这会使报表的日期范围始终为 6 月 1 日以后的日期。 随之会带来不理想的结果。 当您“排除 — 排除”时，它会覆盖此行为，而只限制您可从相应日期范围中提取的数据。
 
 ![](assets/exclude-exclude.png)
 
@@ -48,7 +43,7 @@ ht-degree: 41%
 
 ![](assets/apply-segment.png)
 
-## 第 4 步：在报表中查看结果
+## 第 4 步：在报告中查看结果
 
 请注意，报表现在从所需的日期开始，即开始实施合并的同一天：
 

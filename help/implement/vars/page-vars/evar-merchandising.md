@@ -6,19 +6,11 @@ exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/BdChWcR9AJqLZ0KjOxSvFAjB8-58JmmGahrpvTyFeFI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 573
@@ -38,7 +30,7 @@ ht-degree: 90%
 
 >[!WARNING]
 >
->未能正确配置推销 eVar 会导致变量出现意外值或数据丢失。 确保为您的实施正确配置推销 eVar。
+>未能正确配置促销 eVar 会导致变量出现意外值或数据丢失。 确保针对您的实施正确配置它。
 
 ## 使用产品语法实施
 
@@ -105,9 +97,9 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ## 使用转化变量语法实施
 
-如果在 `products` 变量中无法设置 eVar 值，应使用转化变量语法。 这种情况通常意味着您的页面没有推销渠道的任何上下文或查找方法。 在这类情况下，请先设置推销变量，然后再进入产品页，该值会持续到捆绑事件发生为止。
+如果在 `products` 变量中无法设置 eVar 值，应使用转化变量语法。 这种情况通常意味着您的页面没有推销渠道的任何上下文或查找方法。 在这类情况下，请先设置促销变量，然后再进入产品页，该值会持续到捆绑事件发生为止。
 
-当在配置期间选择捆绑事件时，eVar 的这个持久值将与该产品关联。 例如，如果 `prodView` 指定为捆绑事件，那么只有当该事件发生时，推销类别才会与当前产品列表绑定。 只有后续捆绑事件才能更新已分配给产品的推销 eVar。
+当在配置期间选择捆绑事件时，eVar 的这个持久值将与该产品关联。 例如，如果 `prodView` 指定为捆绑事件，那么只有当该事件发生时，推销类别才会与当前产品列表绑定。 只有后续捆绑事件才能更新已分配给产品的促销 eVar。
 
 ```js
 // Place on the same or previous page before the binding event:
@@ -118,10 +110,10 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-`eVar1` 的值 `"Aviary"` 已分配给产品 `"Canary"`。 所有与本产品相关的后续成功事件将计入 `"Canary"`。 另外，推销变量的当前值将被绑定到所有后续产品，直到满足以下其中一个条件为止：
+`eVar1` 的值 `"Aviary"` 已分配给产品 `"Canary"`。 所有与本产品相关的后续成功事件将计入 `"Canary"`。 另外，促销变量的当前值将被绑定到所有后续产品，直到满足以下其中一个条件为止：
 
 * eVar 过期（根据“过期时间”设置）
-* 推销 eVar 被新值覆盖。
+* 促销 eVar 被新值覆盖。
 
 ### 使用 Web SDK 的转化变量语法
 

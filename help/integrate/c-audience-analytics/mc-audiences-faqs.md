@@ -5,14 +5,9 @@ title: Audience Analytics 常见问题解答。
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-subfeature_v2:
-  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1120
@@ -82,7 +77,7 @@ ht-degree: 16%
 
 +++ 如果我的某些报表包包含个人数据，而另一些没有，该怎么办？&lt;
 
-提示：创建两个维度 — 将个人数据报表包添加到其中一个维度，并将非个人数据报表包添加到另一个维度。
+提示：创建两个目标 — 将个人数据报告包添加到其中一个目标，并将非个人数据报告包添加到另一个目标。
 
 +++
 
@@ -118,7 +113,7 @@ ht-degree: 16%
 
 默认情况下，Adobe Audience Manager的Audience Analytics集成会按每次点击将所有访客符合条件的区段发送到Analytics。 如果某位访客在一次点击中属于超过150个Adobe Audience Manager区段，则会将&#x200B;**150个最近限定的区段**&#x200B;发送到Analytics，而其余列表将被截断。 此外，还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。
 
-虽然访客不太可能在一次点击中有资格使用 150 个以上的区段，但这种情况依然有极小的概率发生。 如果您在报表中遇到“已达到受众限制”，可选择以下两个选项：
+虽然访客不太可能在单次点击中符合 150 多个区段的条件，但这种情况依然有极小的概率发生。 如果您在报表中遇到“已达到受众限制”，可选择以下两个选项：
 
 * 选项1：继续让集成以现成状态工作，为特定访客发送150个最近符合条件的区段。
 

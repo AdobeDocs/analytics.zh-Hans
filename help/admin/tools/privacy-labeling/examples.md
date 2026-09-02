@@ -1,23 +1,15 @@
 ---
-description: 显示一些示例来说明如何标记点击数据、访问请求、删除请求的数据
+description: 显示如何为点击数据、访问请求和删除请求的数据添加标签的示例
 title: 标记示例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 TQID: 'https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b99602d0-836e-4dbb-979f-c0dec53f883c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 734
@@ -161,7 +153,7 @@ ht-degree: 88%
 
 ## 删除请求示例 {#delete}
 
-通过使用表格第一行中的 API 值来提出删除请求，点击表格将会发生更新。具体情况如下所示：
+使用表格第一行中的 API 值提出删除请求后，点击表格将更新为如下所示：
 
 <table>
   <tr>

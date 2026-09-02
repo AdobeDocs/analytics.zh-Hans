@@ -5,19 +5,11 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 TQID: https://experienceleague.adobe.com/fnZHje0EEPxVHPI0PROI6P-FGmuXc6GlvoTDzRhqrr4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 2614
@@ -39,7 +31,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [移动记分卡生成器](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [移动记分卡生成器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -123,7 +115,7 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 ![新记分卡 4](assets/new_score_card4.png)
 
-如果尚未创建您所需的日期范围，您可以单击日程表图标以创建一个新的日期范围。
+如果尚未创建您所需的日期范围，您可以单击日历图标以创建一个新的日期范围。
 
 ![新记分卡 5](assets/new_score_card5.png)
 
@@ -144,12 +136,12 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [可视化图表](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [可视化图表](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
-Analytics 功能板提供了四种可视化图表，可让您洞察维度项和量度。 通过更改磁贴的[!UICONTROL 属性]的[!UICONTROL 图表类型]来更改为其他可视化图表。 只需选择正确的磁贴，然后更改图表类型。
+Analytics 功能板提供了四种可视化图表，可让您深入洞察维度项和量度。 通过更改磁贴的[!UICONTROL 属性]的[!UICONTROL 图表类型]来更改为其他可视化图表。 只需选择正确的磁贴，然后更改图表类型。
 
 ![磁贴属性](assets/properties.png)
 
@@ -171,7 +163,7 @@ Analytics 功能板提供了四种可视化图表，可让您洞察维度项和�
 
 ### [!UICONTROL 折线图]
 
-此线形图可视化图表使用线条来表示指标，以显示一段时间内值的变化情况。 线形图显示随时间变化的维度，但适用于任何可视化图表。 在此示例中，您将对产品类别维度进行可视化。
+此线形图可视化图表使用线条来表示指标，以显示一段时间内值的变化情况。 折线图显示随时间变化的维度，但适用于任何可视化图表。 在此示例中，您将对产品类别维度进行可视化。
 
 ![线形图可视化图表](assets/line.png)
 
@@ -211,7 +203,7 @@ Analytics 功能板提供了四种可视化图表，可让您洞察维度项和�
 
 ![Breakdown_view](assets/break_view.png)
 
-添加到详细信息幻灯片的每个维度都将显示在应用程序中详细信息幻灯片中的一个下拉列表中。 然后，执行用户可从该下拉列表中列出的各个选项中进行选择。
+添加到详细信息幻灯片的每个维度都将显示在应用程序中详细信息幻灯片视图的下拉列表中。 然后，执行用户可从该下拉列表中列出的各个选项中进行选择。
 
 ## 自定义详细信息幻灯片 {#customize-detail-slide}
 
@@ -220,7 +212,7 @@ Analytics 功能板提供了四种可视化图表，可让您洞察维度项和�
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自定义详细信息视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}以观看演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自定义详细信息视图](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}以观看演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -241,7 +233,7 @@ Analytics 功能板提供了四种可视化图表，可让您洞察维度项和�
 
 ### 将描述性文本添加到幻灯片
 
-可添加文本以提供关于图表中包含的内容的有意义信息或关于数据的细微差别。
+可添加文本，提供有关图表内容或数据细微差异的有意义信息。
 
 要将文本添加到详细信息幻灯片，请选择显示 `T` 符号的布局，或将文本可视化图表组件从左侧边栏拖放过来。 在添加新的文本可视化图表或选择带有文本的幻灯片布局时，将自动打开文本编辑器。 文本编辑器提供用于设置文本格式的所有标准选项。 可应用段落、标题和副标题等文本样式，并可应用粗体和斜体字体。 可两端对齐文本、添加带项目符号和编号的列表以及添加链接。 编辑完毕后，选择文本编辑器右上角的最小化按钮以关闭它。 要编辑已添加的文本，请选择铅笔图标以再次打开文本编辑器。
 
@@ -257,12 +249,12 @@ Analytics 功能板提供了四种可视化图表，可让您洞察维度项和�
 
 数据故事是围绕中心主题或量度生成的辅助数据点、业务背景和相关量度的集合。
 
-例如，如果您关注 Web 流量，则对您最重要的量度可能是访问次数，但您也可能对新访客和独特访客感兴趣，并且您可能要查看按网页或流量来源设备类型细分的数据。 通过移动记分卡项目中的数据故事，可重点介绍对您最重要的量度，同时用多张详细信息幻灯片讲述这些量度背后的整个故事。
+例如，如果您关注网络流量，则对您最重要的量度可能是访问次数，但您也可能对新访客和独特访客感兴趣，并且您可能要查看按网页或流量来源设备类型细分的数据。 通过移动记分卡项目中的数据故事，可重点介绍对您最重要的量度，同时用多张详细信息幻灯片讲述这些量度背后的整个故事。
 
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [创建数据故事](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [创建数据故事](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -297,7 +289,7 @@ Analytics 功能板提供了四种可视化图表，可让您洞察维度项和�
 
 **自定义磁贴**
 
-1. 点按磁贴。 所选磁贴加入蓝色轮廓，并且右侧面板显示该磁贴属性。
+1. 点按磁贴。 所选磁贴以蓝色轮廓显示，并且右侧面板显示该磁贴的属性。
 1. 更改标题、图表类型和其他磁贴选项。
 1. 将组件拖动到磁贴上。
 
@@ -393,7 +385,7 @@ Analytics 功能板提供了四种可视化图表，可让您洞察维度项和�
 
    当收件人使用桌面应用程序或浏览器打开链接时，移动记分卡项目将在工作区中打开。
 
-   当收件人在移动设备上打开链接时，记分卡将直接在 Analytics 仪表板应用程序中打开。
+   当收件人在移动设备上打开链接时，记分卡将直接在 Analytics 功能板应用程序中打开。
 
    如果收件人尚未下载移动应用程序，他们将被引向 App Store 或 Google Play Store 中的应用程序列表，然后可以在那里下载。
 

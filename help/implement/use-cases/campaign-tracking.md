@@ -5,21 +5,11 @@ feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 583
@@ -33,10 +23,10 @@ ht-degree: 98%
 
 1. [建立跟踪代码生成过程](#establish-a-tracking-code-generation-process)
 1. [将所需的跟踪代码添加到电子邮件](#add-the-desired-tracking-code-to-the-email)
-1. [设置或调整您的 Adobe Analytics 实施以使其加入跟踪代码数据](#include-campaign-variables-in-your-implementation)
+1. [设置或调整您的 Adobe Analytics 实施以包含跟踪代码数据](#include-campaign-variables-in-your-implementation)
 1. [在 Analysis Workspace 中查看报告](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/cn/products/campaign/adobe-campaign.html) 可帮助简化其中每个步骤，以使您的营销工作发挥最大作用。 有关更多信息，请与您的 Adobe 销售代表联系。
+[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) 可帮助简化其中每个步骤，以使您的营销工作发挥最大作用。 有关更多信息，请与您的 Adobe 销售代表联系。
 
 ## 建立跟踪代码生成过程
 

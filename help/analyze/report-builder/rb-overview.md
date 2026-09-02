@@ -7,20 +7,11 @@ type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
 TQID: https://experienceleague.adobe.com/4BaqA2FPfve4sF2K-Tpxd0hcbVlAWw2QeVhl4xxeb9s
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 514
@@ -35,7 +26,7 @@ ht-degree: 81%
 借助适用于Adobe Analytics的Report Builder，您可以：
 
 - 引用现有的工作表单元格，以获得正确的行顺序、日期范围或区段。
-- 使用日程表、单元格引用或日期数学创建自定义日期。
+- 使用日历、单元格引用或日期计算创建自定义日期。
 - 使用熟悉的 Excel 格式设置工具设计您的表格和可视化图表。
 
 Report Builder for Adobe Analytics是一个Microsoft Excel加载项。 该插件可在以下平台上使用：
@@ -91,7 +82,7 @@ Report Builder for Adobe Analytics是一个Microsoft Excel加载项。 该插件
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder 概述](https://video.tv.adobe.com/v/3452590?captions=chi_hans&quality=12&learn=on){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder 概述](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

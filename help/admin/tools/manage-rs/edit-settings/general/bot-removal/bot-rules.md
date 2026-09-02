@@ -5,21 +5,11 @@ feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 TQID: 'https://experienceleague.adobe.com/ppKgywVKg1ikX433Qoz2yYYBFuwjrQfow0kSE-tfQwA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ec140990-1570-4311-94d4-2d6b38511bbe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ec140990-1570-4311-94d4-2d6b38511bbe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1699
@@ -29,9 +19,9 @@ ht-degree: 36%
 
 # 了解和配置机器人规则
 
-机器人规则允许您从由已知蜘蛛程序和机器人生成的报表包中删除流量。 删除机器人流量可更准确地衡量您网站上的用户活动。
+机器人规则允许您从报告包中移除由已知蜘蛛程序和机器人生成的流量。 删除机器人流量可更准确地衡量您网站上的用户活动。
 
-定义机器人规则之后，所有传入的流量会与定义的规则进行比较。 报告包中不会收集符合这些规则的流量，并且不会包括在流量量度中。
+定义机器人规则之后，所有传入的流量会与定义的规则进行比较。 符合这些规则的流量不会在报告包中收集，也不会包括在流量量度中。
 
 删除机器人流量通常会减少流量和转化量度。 许多客户发现，删除机器人流量会导致转化率提高，并导致其他可用性量度增加。
 
@@ -39,18 +29,18 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->Adobe Experience Platform Edge Network提供[机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hans)，该服务将识别为来自机器人的点击标记为机器人点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过Edge Network到达的数据中包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
+>Adobe Experience Platform Edge Network提供[机器人检测服务](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html)，该服务将识别为来自机器人的点击标记为机器人点击。 Adobe Analytics中使用的机器人检测过程是单独的，不会引用通过Edge Network到达的数据中包含的机器人分数。 但是，两个系统使用相同的IAB机器人列表。
 
 ## 更新或上传机器人规则
 
 >[!IMPORTANT]
 >
->在删除机器人流量之前，请与利益相关者沟通，确保他们能够作为此更改的结果对关键绩效指标进行必要的调整。 如有可能，我们建议您首先从小型报表包中删除机器人程序流量以评估潜在的影响。
+>在删除机器人流量之前，请与利益相关者沟通，确保他们能够作为此更改的结果对关键绩效指标进行必要的调整。 如有可能，我们建议您首先从小型报告包中删除机器人程序流量以评估潜在的影响。
 
 
 >[!BEGINSHADEBOX]
 
-请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"}。
+请参阅![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [为演示视频配置机器人规则](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +71,7 @@ ht-degree: 36%
 
 ## 标准 IAB 机器人规则
 
-可以通过选中[!UICONTROL 启用 IAB 机器人过滤规则]复选框来打开标准 IAB 机器人规则。 此选择将删除 IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。 Adobe 每月从 IAB 更新此列表。
+可以通过选中[!UICONTROL 启用 IAB 机器人过滤规则]复选框来打开标准 IAB 机器人规则。 此选择将删除 IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。 Adobe 每月从 IAB 获取此列表的更新。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-iab-checkbox.png)
 

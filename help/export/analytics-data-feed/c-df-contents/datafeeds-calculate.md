@@ -5,16 +5,10 @@ title: 计算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 497
@@ -28,7 +22,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Analysis Workspace 中不包含的点击通常包含在数据馈送中。 考虑为您相关的查询添加以下条件：
+>Analysis Workspace 中通常排除的点击包含在数据馈送中。 如果这些条件与您的查询相关，请考虑添加以下条件：
 >
 >* **`exclude_hit`**： Analysis Workspace 仅包含符合 `exclude_hit = 0` 的数据。
 >* **`customer_perspective`**： Analysis Workspace 仅包含符合 `customer_perspective = 0` 的数据，除非您使用的虚拟报告包中包含了移动后台点击。
@@ -73,7 +67,7 @@ Adobe用于识别独特访客的所有方法（自定义访客ID、ECID等） �
 
 ## 逗留时间
 
-首先，必须按访问对点击进行分组，然后按照访问中的点击数进行排序。
+首先，必须按访问对点击进行分组，然后根据访问中的点击编号进行排序。
 
 1. 拼接 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 2. 按此拼接值排序，然后按 `visit_page_num` 进行二级排序。

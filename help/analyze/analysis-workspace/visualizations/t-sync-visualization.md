@@ -1,21 +1,15 @@
 ---
 description: 了解如何将自由格式表或数据源同步到相应的可视化图表。
-keywords: Analysis Workspace 将可视化图表与数据源同步
+keywords: Analysis Workspace；将可视化图表与数据源同步
 title: 管理数据源
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 TQID: https://experienceleague.adobe.com/ZteQfWHbl29KbcI-OUvvjEXgKytSIuR8l5R40zWQ-Rk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 437
@@ -68,7 +62,7 @@ Managing a data source lets you show the data source or lock the selection. Thes
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/328029?captions=chi_hans&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -79,4 +73,4 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source sett
 | **[!UICONTROL 数据源]** | 从下拉菜单中选择可视化图表所基于的数据源。 |
 | **[!UICONTROL 链接的可视化图表]** | 列出所有链接的可视化图表。 适用于数据源（自由格式表）。 |
 | **[!UICONTROL 显示数据源]** | 可显示或隐藏与可视化图表对应的数据源（自由格式表）。 |
-| **[!UICONTROL 锁定选择]** | 选择此选项后，可将可视化图表 ![LockClosed](/help/assets/icons/LockClosed.svg) 锁定到相应数据表中当前选择的数据。 启用后，您可以选择以下两项：  <ul><li>**选定位置**：可视化图表锁定在相应数据表中选定的&#x200B;**位置**。 即使当这些位置上的具体项目发生变化时（例如由于排序或过滤），这些位置仍会被可视化。 例如，如果您想要在此可视化图表中始终显示数据源中列出的前五个营销活动名称，请选择此选项。 无论出现哪个营销活动名称。</li> <li>**选定项目**：可视化图表锁定在相应数据表中当前选定的特定&#x200B;**项目**&#x200B;上。 即使这些项目更改了它们在表中的排名，仍继续保持可视化状态。 例如，如果您想要在此可视化图表中始终显示数据源中列出的五个相同的具体营销活动名称，请选择此选项。 无论这些营销活动名称的排名如何。</li></ul>如果可视化图表被锁定到连接的数据表中不再可见的数据，则可以生成一个新表。 选择&#x200B;**[!UICONTROL 显示表格]**&#x200B;以为当前可视化图表生成一个新的数据源，并将其与原始数据源分开。 |
+| **[!UICONTROL 锁定选择]** | 选择此选项后，可将可视化图表 ![LockClosed](/help/assets/icons/LockClosed.svg) 锁定到相应数据表中当前选择的数据。 启用后，您可以选择以下两项：  <ul><li>**选定位置**：可视化图表锁定在相应数据表中选定的&#x200B;**位置**。 即使当这些位置上的具体项目发生变化时（例如由于排序或过滤），这些位置仍会被可视化。 例如，如果您想要在此可视化图表中始终显示数据源中列出的前五个营销活动名称，请选择此选项。 无论出现哪个营销活动名称。</li> <li>**选定项目**：可视化图表锁定在相应数据表中当前选定的特定&#x200B;**项目**&#x200B;上。 即使这些项目在表中的排名发生变化，它们仍会继续显示。 例如，如果您想要在此可视化图表中始终显示数据源中列出的同样五个特定营销活动名称，请选择此选项。 无论这些营销活动名称的排名如何。</li></ul>如果可视化图表被锁定到连接的数据表中不再可见的数据，则可以生成一个新表。 选择&#x200B;**[!UICONTROL 显示表格]**&#x200B;以为当前可视化图表生成一个新的数据源，并将其与原始数据源分开。 |

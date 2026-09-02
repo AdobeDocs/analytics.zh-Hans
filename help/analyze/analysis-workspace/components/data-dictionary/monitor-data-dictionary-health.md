@@ -5,16 +5,10 @@ feature: Components
 role: Admin
 exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
 TQID: https://experienceleague.adobe.com/q-wAiW4oUc9kH-ywKVLfNKtXHdEfnIr01GXSK-g0YqY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
 source-wordcount: 361
@@ -46,9 +40,9 @@ ht-degree: 100%
 
 Analytics 管理员负责维持健康的数据词典。
 
-## 健康数据词典的特征
+## 健康数据字典的特征
 
-在一个健康的数据词典中，所有组件：
+在一个健康的数据字典中，所有组件：
 
 * 均使用并收集数据
 
@@ -58,9 +52,9 @@ Analytics 管理员负责维持健康的数据词典。
 
 * 经管理员批准
 
-## 检查数据词典的健康状况
+## 检查数据字典的健康状况
 
-要在您的数据词典中识别健康问题：
+要在您的数据字典中识别健康问题：
 
 1. 打开一个 Analysis Workspace 项目。
 
@@ -80,6 +74,6 @@ Analytics 管理员负责维持健康的数据词典。
 
    * [!UICONTROL **个组件没有数据连接**]
 
-   根据您的选择，适当的过滤器将应用于数据词典，并且仅显示相关组件。
+   根据您的选择，相应的过滤器将应用于数据字典，并且仅显示相关组件。
 
-1. 编辑任何组件以改善数据词典的健康状况。 有关如何在数据词典中编辑组件的信息，请参阅[在数据字典中编辑组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。
+1. 编辑任何组件以改善数据字典的健康状况。 有关如何在数据词典中编辑组件的信息，请参阅[在数据字典中编辑组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。

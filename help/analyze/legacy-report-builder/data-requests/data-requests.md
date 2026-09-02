@@ -5,20 +5,11 @@ feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
 TQID: https://experienceleague.adobe.com/87MzdxBePRZKBttF3P6XhuDq5hR6XpEWaLdrYDMu-5Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 401
@@ -30,7 +21,7 @@ ht-degree: 70%
 
 {{legacy-arb}}
 
-在“请求向导: 第 1 步”窗体上，您可以选择报表包、报表类型、区段并配置日期。
+在“请求向导: 第 1 步”窗体上，您可以选择报告包、报告类型、区段并配置日期。
 
 ![显示“请求向导：第1步”表单的屏幕截图。](assets/rw1_overview.png)
 
@@ -42,7 +33,7 @@ ht-degree: 70%
 
    例如，您可以运行[!UICONTROL 页面报表]，然后应用“首次访问”区段。
 
-1. **允许发布列表覆盖**：发布列表是Reports &amp; Analytics中的一项功能，其生命周期已结束[&#128279;](https://new.express.adobe.com/webpage/WFCyq7w8kijmB？)。
+1. **允许发布列表覆盖**：发布列表是Reports &amp; Analytics中的一项功能，其生命周期已结束[](https://new.express.adobe.com/webpage/WFCyq7w8kijmB？)。
 
 1. **报表类型**：指定要在数据请求中运行的基础报表。 每个请求运行一个报表，并且报表可以包含一对多维度和一对多指标。 报表类型的指标和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。 请参阅[选择报表类型](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md)。
 
@@ -54,7 +45,7 @@ ht-degree: 70%
 
 有时，请求向导会显示在屏幕外，尤其是对于在不同显示器设置之间切换的用户而言更是如此。 例如，您在办公室使用扩展坞，但在家中使用的是笔记本电脑屏幕。 如果在请求向导已打开的情况下再次单击“创建”，则将出现以下错误：
 
-“您需要先完成请求向导过程，然后再启动新过程。”
+“您需要先完成请求向导，然后才能启动新的请求向导。”
 
 将请求向导移回屏幕上即可解决此问题。
 
@@ -63,5 +54,5 @@ ht-degree: 70%
 3. 按 `[Alt]` + `[Space]`。
 4. 按 `[M]`。
 5. 按任意箭头键。
-6. 移动鼠标，将请求向导附加到光标上。
+6. 移动鼠标，请求向导将附加到光标上。
 7. 单击鼠标，在屏幕上松开请求向导。

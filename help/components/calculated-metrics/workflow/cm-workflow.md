@@ -4,15 +4,10 @@ title: 创建计算指标
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
 TQID: https://experienceleague.adobe.com/KuWD2kus9wcFW7yULWbLwfj4hfVHJgTjDeCJzEWwKFU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 367
@@ -50,4 +45,4 @@ ht-degree: 15%
 | 使用计算量度 | 在项目中使用计算量度。 |
 | [共享](cm-sharing.md)计算量度 | 与其他个人、组或组织共享您的计算指标。 |
 | [筛选器](cm-filter.md)计算量度 | 按标记、所有者和其他过滤器（“全部显示”、“我的”、“已与我共享”、“收藏”和“已批准”）过滤计算量度。 |
-| 将计算量度标记为[收藏夹](cm-finding.md) | 将量度标记为收藏是另一种组织量度以便进行使用的方式。 |
+| 将计算量度标记为[收藏夹](cm-finding.md) | 将量度标记为收藏是另一种组织量度以便于使用的方式。 |

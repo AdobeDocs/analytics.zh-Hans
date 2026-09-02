@@ -5,19 +5,11 @@ feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2wGsyulntC5-iSfcM9HEWXqBCAL-SUXWHM2r-4ylITg'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 603
@@ -35,7 +27,7 @@ ht-degree: 91%
 
 ## 创建适配器和环境
 
-标记在部署代码方面提供了许多组织工作流程。 请按照以下步骤为 Analytics 实施创建所需的最少组件。 作为标记管理员，您可以在组织内部建立用于部署 Adobe 解决方案的合适工作流程。
+标记可适应部署代码时的多种组织工作流。 请按照以下步骤为 Analytics 实施创建所需的最少组件。 作为标记管理员，您可以在组织内部建立用于部署 Adobe 解决方案的合适工作流程。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击要在网站上实施的标记属性。
@@ -49,11 +41,11 @@ ht-degree: 91%
 
 ## 构建开发库
 
-尽管到目前为止您已进行所有更改和配置，但实际上尚未发布任何代码。 创建一个库（大致意思为更改集合）以在您的网站上用于发布代码。
+尽管到目前为止您已进行所有更改和配置，但实际上尚未发布任何代码。 创建一个库（大致可理解为更改集合）可以发布代码，以便在您的网站上使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击要在网站上实施的标记属性。
-3. 单击 **[!UICONTROL 发布流]** 选项卡，然后单击 **[!UICONTROL 添加库]**。 有关此页面的更多信息，请参阅标记文档中的[发布概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hans)。
+3. 单击 **[!UICONTROL 发布流]** 选项卡，然后单击 **[!UICONTROL 添加库]**。 有关此页面的更多信息，请参阅标记文档中的[发布概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)。
 4. 为此库命名`'Initial changes'`，并选择您的开发环境。
 5. 单击&#x200B;**[!UICONTROL 添加所有更改的资源]**，自动列出 Adobe Analytics、身份标识服务和核心。
 6. 单击&#x200B;**[!UICONTROL 保存]**。
@@ -90,7 +82,7 @@ ht-degree: 91%
 
 **尝试构建失败。**
 
-失败的一个常见原因是其他要推送到测试或生产的库中已存在这些元素。 最初创建库时，请确保仅将已更改的资源添加到库。
+失败的一个常见原因是这些元素已存在于其他已推送到测试或生产环境的库中。 最初创建库时，请确保仅将已更改的资源添加到库。
 
 ## 后续步骤
 

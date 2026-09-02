@@ -1,25 +1,15 @@
 ---
 title: list
-description: 在同一点击中保留多个值的自定义变量。
+description: 在同一点击中包含多个值的自定义变量。
 feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/LpUX55ZGYgm7Z2-P4uAwH-rV88JMbi2661i4f9RYd-Q
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 503
@@ -102,7 +92,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->如果在同一点击中设置重复值，Adobe 会删除这些值的所有重复实例。 例如，如果设置 `s.list1 = "Brick,Brick";`，则报告中会计入一个实例。
+>如果在同一点击中设置重复值，Adobe 会对这些值进行重复数据删除。 例如，如果设置 `s.list1 = "Brick,Brick";`，则报告中会计入一个实例。
 
 ## 比较列表属性与列表变量
 
@@ -110,4 +100,4 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 * 任何 prop 都可以成为列表属性。 如果每个 prop 都是列表属性，则实际上最多可以拥有 75 个列表属性。 只有 3 个列表变量可用。
 * 对于整个变量，列表属性具有 100 字节的限制。 列表变量中每个值的长度限制为 255 字节，没有总字节限制。
-* 列表属性不会在设置的点击之外继续存在。 列表变量具有您需要的任何过期设置。 但是，通过[报告时间处理](/help/components/vrs/vrs-report-time-processing.md)，您可以将自定义属性同时应用于列表属性和列表变量。
+* 列表属性不会在设置的点击之外继续存在。 列表变量可以使用您想要的任何过期设置。 但是，通过[报告时间处理](/help/components/vrs/vrs-report-time-processing.md)，您可以将自定义属性同时应用于列表属性和列表变量。

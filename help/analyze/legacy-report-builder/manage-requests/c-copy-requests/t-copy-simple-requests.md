@@ -6,14 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 TQID: https://experienceleague.adobe.com/Zd6s6l-sW40WlEtk2Z8AFcNLkC-l4wxcmo67XajqAJs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 527
@@ -41,7 +36,7 @@ ht-degree: 18%
    为了防止丢失或损坏已创建的请求，不能将包含请求的单元格粘贴到当前已映射请求的单元格。 如果复制或剪切包含请求的单元格，则右键单击包含请求的单元格（或单元格集）时，快捷菜单不会显示[!UICONTROL 粘贴请求]选项。 您必须选择其他单元格作为粘贴操作的目标，以便请求不会重叠。 无论您是选择带有待粘贴请求的单个单元格，还是包含请求的单元格区域，此参数均适用。
 1. 单击&#x200B;**[!UICONTROL 粘贴请求]**。
 
-   系统会根据原始请求的布置将原始请求的副本放置在一个或多个位置的单元格中。
+   原始请求的副本会放置在一个或多个单元格中，其位置相对于原始请求。
 
    >[!NOTE]
    >

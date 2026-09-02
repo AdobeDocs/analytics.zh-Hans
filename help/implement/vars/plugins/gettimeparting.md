@@ -5,21 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/4321rEzlE5cFkTZTHsyyG17E3cl3wXHeJ6BZxdoe6xQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 857
@@ -66,9 +56,9 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
-1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+1. 如果您尚未这样做，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心 - 已加载的库（页面顶部）
+   * 事件：核心 - 库已加载（页面顶部）
 1. 使用以下配置向上述规则添加操作：
    * 扩展：常用 Analytics 插件
    * 操作类型：初始化 getTimeParting
@@ -169,13 +159,13 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 5.0（2018 年 4 月 17 日）
 
-* 修正版本（重新编译，代码更小）
+* 小版本发布（重新编译，代码更小）
 * 由于现在可自动检测到夏令时开始/结束日期，因此无需再使用 `tpDST` 参数。
 
 >[!CAUTION]
 >
->此插件的早期版本无法在将来的所有年份中使用。 如果您使用此插件的早期版本，Adobe 强烈建议升级到最新版本，以避免 JavaScript 错误和数据丢失。 如果无法升级此插件，请确保插件代码中的 `s._tpdst` 变量包含适当的将来年份。
+>此插件的早期版本无法适用于未来的所有年份。 如果您使用此插件的早期版本，Adobe 强烈建议升级到最新版本，以避免 JavaScript 错误和数据丢失。 如果无法升级此插件，请确保插件代码中的 `s._tpdst` 变量包含适当的将来年份。
 
 ### 4.0（2016 年 8 月 22 日）
 
-* 提供了全新的解决方案，现在可包含年份、月份和日期信息。
+* 提供了全新的解决方案，现已包含年份、月份和日期信息。

@@ -5,18 +5,11 @@ feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 role: Developer
 TQID: https://experienceleague.adobe.com/PCeDSQpYH3wym7oG5CYbQblnXkiOQRF4YlcHU6zYfKA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 243
@@ -30,13 +23,13 @@ ht-degree: 100%
 >
 >仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。 当前的 AppMeasurement 库或 Adobe Experience Platform 中的标记不支持这些变量。
 
-动态帐户是一项实施功能，允许您根据自己定义的条件确定要使用的报表包。 如果贵组织需要多个报表包，但希望在各网站之间使用相同的实施，则动态帐户是一个很好的解决方案。
+动态帐户是一项实施功能，允许您根据自己定义的条件确定要使用的报告包。 如果贵组织需要多个报告包，但希望在各网站之间使用相同的实施，则动态帐户是一个很好的解决方案。
 
 >[!TIP]
 >
->Adobe 建议先将数据发送到单个报表包，然后根据需要使用虚拟报表包来分离数据。 有关更多信息，请参阅[全局报表包注意事项](../../../prepare/global-rs.md)。
+>Adobe 建议先将数据发送到单个报告包，然后根据需要使用虚拟报告包来分离数据。 有关更多信息，请参阅[全局报表包注意事项](../../../prepare/global-rs.md)。
 
-可使用 3 个变量来动态选择报表包。
+可使用 3 个变量来动态选择报告包。
 
 * [`dynamicAccountSelection`](dynamicaccountselection.md)：启用或禁用动态帐户选择。
 * [`dynamicAccountMatch`](dynamicaccountmatch.md)：确定要观察的值。 例如，URL 或查询字符串。
