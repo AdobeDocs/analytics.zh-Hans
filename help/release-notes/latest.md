@@ -2,6 +2,7 @@
 title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,51 +25,50 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
+source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
 workflow-type: tm+mt
-source-wordcount: 1246
-ht-degree: 43%
+source-wordcount: 1096
+ht-degree: 47%
 
 ---
 
-# 当前Adobe Analytics发行说明（2026年8月）
+# 当前Adobe Analytics发行说明（2026年9月）
 
-**上次更新日期**：2026年8月5日
+**上次更新日期**：2026年9月8日
 
-这些发行说明涵盖2026年8月发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。 因此，这些发行说明每月更新几次。 请定期检查。
+这些发行说明涵盖2026年9月发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。 因此，这些发行说明每月更新几次。 请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
-| **Activity Map扩展： UI刷新** <br/>Activity Map Overlay扩展具有更新的外观，以及支持即将推出的增强功能的基础改进。<p>有关Activity Map叠加扩展的信息，请参阅[Activity Map扩展接口](/help/analyze/activity-map/overlay/overview.md)。</p> | | 2026年8月5日<p>（原计划于7月底发布）</p> |
-| **历程画布增强功能**<br>&#x200B;现已提供以下历程画布增强功能：<ul><li>将历程与先前的时间范围进行比较。 将当前历程与4周前、2个季度前、1年前或自定义日期范围前的历程进行比较。</li><li>对于所选节点，显示历程中任意时间点上所选节点之后排名最前的维度项目。 当所选节点是分析中的关键事件，并且您想要查看用户随后在任何时候执行的操作时，可使用此选项。<p>以前，只有顶级的直接节点才能显示在选定节点之前或之后。 </p></li><li>更改节点之间箭头的形状和样式。 在节点之间拖动箭头可更改箭头的形状（曲率），右键单击箭头可将其样式更改为下列任一类型：实线、虚线、点线、虚线点或动画。</li></ul><p></p>有关详细信息，请参阅[配置历程画布可视化图表](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。 | | 2026年8月18日 |
-| **将区段限制为报表日期范围**<br/>&#x200B;当区段包含日期范围组件时，Workspace报表中的数据可能会超出报表日期范围。<p>现在提供了一个新选项，通过该选项可将结果限制为报表日期范围，而不管该区段中包含的任何日期组件如何。 <p>创建或修改顶级容器为“访客”的区段时，此选项可用。</p><p>有关详细信息，请参阅[生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
-| **Analytics API营销渠道参考**<br/>&#x200B;使用Adobe Analytics 2.0 API营销渠道参考检索Analytics营销渠道信息。 请参阅[Analytics API营销渠道参考](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels)。 | | 2026年8月1日 |
-| **Analytics API营销渠道端点指南**<br/> Adobe Analytics 2.0 API营销渠道端点指南提供了使用该端点的说明和示例。 请参阅[Analytics API营销渠道端点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels)。 | | 2026年8月1日 |
-| **Analytics 1.4 API EOL客户常见问题解答**<br/> Analytics 1.4 API EOL客户常见问题解答提供了有关最近2.0 API开发的信息，以帮助客户离开1.4 API。 | | 2026年8月10日 |
+| **将区段限制为报表日期范围**<br/>&#x200B;当区段包含日期范围组件时，Workspace报表中的数据可能会超出报表日期范围。<p>现在提供了一个新选项，通过该选项可将结果限制为报表日期范围，而不管该区段中包含的任何日期组件如何。</p><p>创建或修改顶级容器为“访客”的区段时，此选项可用。</p><p>有关详细信息，请参阅[生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
+| **机器人检测更新**<br/>&#x200B;在将Edge数据收集与Web SDK结合使用时，可以使用以下机器人检测更新：<ul><li>现在，您可以创建机器人检测规则，以识别通信量中的异常，这些异常将被视为机器人生成的异常。 现有和未来的规则将继续默认将匹配流量标记为机器人生成。</li><li>现在，自定义机器人规则先于IAB机器人检测规则运行。 此更改不会影响机器人得分，但与事件关联的机器人规则名称可能会更改。</li></ul><p>注意：此更新仅适用于使用Web SDK的Edge数据收集实施。 它不适用于旧版库，例如AppMeasurement。</p><p>（文档链接将随后提供。）</p> | | 2026年9月初 |
+| **Adobe Brand Visibility集成**<br/>&#x200B;将Adobe Brand Visibility与贵组织的Adobe Analytics数据连接起来，以便您可以衡量AI驱动的发现如何转化为真正的网站参与度和业务成果。<p>（文档链接将随后提供。）</p> | | 2026年9月 |
+| **分类集API更新**<br/>&#x200B;分类集API文档现在包含用于配置分类集API请求的更新的端点和参数信息。<p>有关详细信息，请参阅[分类终结点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)。</p> | 2026年9月5日 | 2026年9月30日 |
+| **2.0 API报告指南中的日期itemId编码指南**<br/> Adobe Analytics 2.0 API日期趋势报告指南现在包含新章节，说明日期`itemId`参数和值的编码方式。 这可以帮助您从现已弃用的1.4 API配置和迁移到2.0 API服务。<p>有关详细信息，请参阅[KPI报告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)和[高级报告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)。</p> | 2026年9月5日 | 2026年9月30日 |
 
 ### Adobe Analytics 中的修复
 
-**Activity Map**： AN-404862
-**Analysis Workspace**： AN-466867、AN-465995、AN-465315、AN-465313、AN-464375、AN-463634、AN-463248、AN-463175、AN-463049、AN-462347、AN-462124、AN-461922、AN-458398、AN-457849、AN-455002、AN-453357、AN-456863、AN-459816、AN-459034、AN-460774、AN-460671、AN-457760、AN-443594
-**分类**： AN-467138、AN-467118、AN-467069、AN-466054、AN-465987、AN-465636、AN-465380、AN-464650、AN-464286、AN-463688、AN-462413、AN-462252、AN-462141、AN-462063、AN-462005、AN-461862、AN-461806、AN-461777、AN-461158、AN-460954、AN-460905、AN-460850、AN-460803 AN-460272、AN-460023、AN-459814、AN-459367、AN-459328、AN-459300、AN-459279、AN-459006、AN-458417、AN-458403、AN-457829、AN-457400、AN-454408、AN-449670、AN-460956、AN-459269、AN-458789、AN-461778、AN-461191、AN-460996、AN-460506、AN-459988、AN-459854、AN-458994、AN-457561 AN-457055， AN-454224， AN-454172， AN-459473 459277 459026 455270
-**数据馈送和Data Warehouse**：AN-465273、AN-464245、AN-462435、AN-461000、AN-460700、AN-459225、AN-459192
-**迁移**： AN-458185、AN-454285、AN-459239
-**导出**：
-**Report Builder**： AN-465346、AN-464768、AN-464580、AN-464301、AN-463048、AN-462800、AN-457042、AN-461033、AN-459042、AN-454250、AN-451735、AN-450776、AN-450200、AN-451665
-**报告**： AN-467107、AN-459010、AN-455619、AN-459530、AN-454103
-**报表包**： AN-464246、AN-463756、AN-462101
-**计划报告**： AN-455009、AN-460037、AN-462093
-**分段**： AN-459002、AN-457730、AN-457146
-**Other**： AN-467386、AN-466935、AN-462116、AN-458836、AN-451292、AN-454160、AN-458354、AN-455771、AN-426869、AN-437975
+**Activity Map**： AN-488579， AN-487247
+**Analysis Workspace**： AN-487374、AN-487119、AN-468907、AN-468810、AN-468363、AN-468096、AN-467414、AN-466986、AN-466982、AN-465073、AN-463571、AN-462373
+**分类**： AN-490825、AN-490802、AN-490549、AN-490472、AN-487782、AN-487286、AN-486531、AN-478859、AN-469929、AN-469033、AN-468944、AN-468827、AN-468592、AN-468326、AN-467115、AN-466995、AN-465636、AN-465616、AN-465380、AN-464911、AN-464338、AN-463677、AN-462729 AN-462577 461040 459316
+**数据馈送和Data Warehouse**： AN-487624、AN-487287、AN-479923、AN-479166、AN-479109、AN-468483
+**迁移**：
+**导出**： AN-467131
+**Report Builder**： AN-487486、AN-478944、AN-470036、AN-468589、AN-468436、AN-456747、AN-456700、AN-442695
+**报告**： AN-468621、AN-465383、AN-463924
+**报表包**： AN-468484、AN-468460、AN-465385
+**计划报告**：
+**分段**： AN-486561
+**Other**： AN-488549、AN-467426、AN-465265、AN-464645、AN-459714、AN-459323、AN-454514
 
 ### 生命周期终止 (EOL) 通知 {#eol}
 
 | 产品或功能生命周期结束 | 添加或更新日期 | 描述 |
 | --- | --- | --- |
 | **旧版 Report Builder** | 2025 年 6 月 18 日 | 旧版 Report Builder 插件将于 2026 年 6 月停用。 所有用户都应开始将其旧工作簿升级到[新的 Report Builder](/help/analyze/report-builder/rb-overview.md)。 新的 Report Builder 可供 Adobe Analytics 和 Customer Journey Analytics 客户使用。 它具有[几乎相同的功能](/help/analyze/report-builder/convert-workbooks.md#unsupported)以及许多新的便捷功能和 UI 增强功能。 为了便于升级，新版 Report Builder 包含一个简便的工作簿转换功能。 新的 Report Builder 仅通过 Microsoft Store 作为插件提供。 许多组织要求在向用户提供加载项之前先完成内部审批流程。 请留出时间完成此流程并立即开始与您的组织合作，以确保有足够的时间在 EOL 日期之前升级您的工作簿。 |
-| **Adobe Analytics API（版本 1.4）** | 2024 年 7 月 17 日 | **2026 年 8 月 12 日**，以下 Analytics 旧版 API 服务将终止使用并关闭，使用这些服务构建的当前集成也将停止工作：<ul><li>Adobe Analytics API（版本 1.4）</li><li>Adobe Analytics WSSE 身份验证</li></ul><p>使用 Adobe Analytics API（版本 1.4）的集成必须迁移到 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)，而 WSSE 集成必须迁移到 [Adobe Developer Console](https://developer.adobe.com/console) 中基于 OAuth 的身份验证协议。</p><p>请参阅  [Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) ，获取常见问题的解答和进一步的指导。</p> |
+| **Adobe Analytics API（版本 1.4）** | 2024 年 7 月 17 日 | 在&#x200B;**2026年8月31日**，以下Analytics旧版API服务达到其生命周期结束并被关闭，并且任何使用这些服务构建的集成不再起作用：<ul><li>Adobe Analytics API（版本 1.4）</li><li>Adobe Analytics WSSE 身份验证</li></ul><p>使用 Adobe Analytics API（版本 1.4）的集成必须迁移到 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)，而 WSSE 集成必须迁移到 [Adobe Developer Console](https://developer.adobe.com/console) 中基于 OAuth 的身份验证协议。</p><p>请参阅  [Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) ，获取常见问题的解答和进一步的指导。</p> |
 
 ## AppMeasurement
 
