@@ -25,10 +25,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
+source-git-commit: 6dd4e1e089cf72c03c8d2fd43ac87e919efa0602
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 47%
+source-wordcount: 1061
+ht-degree: 49%
 
 ---
 
@@ -44,7 +44,6 @@ ht-degree: 47%
 | ----------- | ---------- | ---- |
 | **将区段限制为报表日期范围**<br/>&#x200B;当区段包含日期范围组件时，Workspace报表中的数据可能会超出报表日期范围。<p>现在提供了一个新选项，通过该选项可将结果限制为报表日期范围，而不管该区段中包含的任何日期组件如何。</p><p>创建或修改顶级容器为“访客”的区段时，此选项可用。</p><p>有关详细信息，请参阅[生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
 | **机器人检测更新**<br/>&#x200B;在将Edge数据收集与Web SDK结合使用时，可以使用以下机器人检测更新：<ul><li>现在，您可以创建机器人检测规则，以识别通信量中的异常，这些异常将被视为机器人生成的异常。 现有和未来的规则将继续默认将匹配流量标记为机器人生成。</li><li>现在，自定义机器人规则先于IAB机器人检测规则运行。 此更改不会影响机器人得分，但与事件关联的机器人规则名称可能会更改。</li></ul><p>注意：此更新仅适用于使用Web SDK的Edge数据收集实施。 它不适用于旧版库，例如AppMeasurement。</p><p>（文档链接将随后提供。）</p> | | 2026年9月初 |
-| **Adobe Brand Visibility集成**<br/>&#x200B;将Adobe Brand Visibility与贵组织的Adobe Analytics数据连接起来，以便您可以衡量AI驱动的发现如何转化为真正的网站参与度和业务成果。<p>（文档链接将随后提供。）</p> | | 2026年9月 |
 | **分类集API更新**<br/>&#x200B;分类集API文档现在包含用于配置分类集API请求的更新的端点和参数信息。<p>有关详细信息，请参阅[分类终结点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)。</p> | 2026年9月5日 | 2026年9月30日 |
 | **2.0 API报告指南中的日期itemId编码指南**<br/> Adobe Analytics 2.0 API日期趋势报告指南现在包含新章节，说明日期`itemId`参数和值的编码方式。 这可以帮助您从现已弃用的1.4 API配置和迁移到2.0 API服务。<p>有关详细信息，请参阅[KPI报告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)和[高级报告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)。</p> | 2026年9月5日 | 2026年9月30日 |
 
