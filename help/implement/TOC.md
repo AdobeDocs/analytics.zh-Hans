@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。 自定义要收集的数据，以充分利用 Analytics 数据。
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 98%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -144,6 +144,8 @@ ht-degree: 98%
   + [Edge Network 事件类型](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK 概述](aep-edge/web-sdk/overview.md)
+    + 迁移规划者 {#planner}
+      + [Planner概述](aep-edge/web-sdk/planner/overview.md)
     + [使用标记迁移到 Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [使用 JavaScript 迁移到 Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [使用标记的新实施](aep-edge/web-sdk/web-sdk-tag-extension.md)
