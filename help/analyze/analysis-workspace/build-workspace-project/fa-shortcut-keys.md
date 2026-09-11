@@ -6,26 +6,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 TQID: https://experienceleague.adobe.com/3JPl-XhV9gv2qzMAhpCr3-Aq8WUHR0BBZJilP3WlMvI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: eb853e43-1634-4181-adf2-a44d64395ec3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -35,11 +24,11 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 
 请注意，您的键盘上可能会使用以下符号：
 
-- **⇧** 表示 **[!UICONTROL **&#x200B; shift &#x200B;**]** 键。
-- **⌘** 表示 **[!UICONTROL **&#x200B; cmd &#x200B;**]**（命令）。
-- **⌃** 表示 **[!UICONTROL **&#x200B; ctrl &#x200B;**]**（控制）。
-- **⌥** 表示 **[!UICONTROL **&#x200B; opt &#x200B;**]**（选项）。
-- **⎇** 表示 **[!UICONTROL **&#x200B; alt &#x200B;**]**（备选）。
+- **⇧** 表示 **[!UICONTROL ** shift **]** 键。
+- **⌘** 表示 **[!UICONTROL ** cmd **]**（命令）。
+- **⌃** 表示 **[!UICONTROL ** ctrl **]**（控制）。
+- **⌥** 表示 **[!UICONTROL ** opt **]**（选项）。
+- **⎇** 表示 **[!UICONTROL ** alt **]**（备选）。
 
 ## 导航操作
 
@@ -70,7 +59,7 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 | 撤销 | **[!UICONTROL *cmd + z *]** | **[!UICONTROL *ctrl + z *]** |
 | 刷新组件 | **[!UICONTROL *opt + shift + r *]** | **[!UICONTROL *alt + shift + r *]** |
 | 刷新项目 | **[!UICONTROL *opt + r *]** | **[!UICONTROL *alt + r *]** |
-| 设置为“登录”页面 | **[!UICONTROL *cmd + shift + l *]** | **[!UICONTROL *ctrl + shift + l *]** |
+| 设置为登陆页面 | **[!UICONTROL *cmd + shift + l *]** | **[!UICONTROL *ctrl + shift + l *]** |
 
 ## 添加面板和可视化内容操作
 
@@ -91,6 +80,17 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 | --- | --- | --- |
 | 将面板上移 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
 | 下移面板 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
+
+## 调整面板或可视化图表操作的大小
+
+| 操作 | Mac 快捷方式 | Windows 快捷方式 |
+| --- | --- | --- |
+| 调整更宽的大小 | **[!UICONTROL *cmd + opt + shift + right *]** | **[!UICONTROL *ctrl + alt + shift + right *]** |
+| 将大小调整得较窄 | **[!UICONTROL *cmd + opt + shift + left *]** | **[!UICONTROL *ctrl + alt + shift + left *]** |
+| 调整较高的大小 | **[!UICONTROL *cmd + opt + shift + down *]** | **[!UICONTROL *ctrl + alt + shift + down *]** |
+| 调整更短的大小 | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + shift + up *]** |
+
+宽度在一个网格列的步长内调整大小，高度在一个网格单元的步长内调整大小（大约25像素）。
 
 ## 民主化操作
 
