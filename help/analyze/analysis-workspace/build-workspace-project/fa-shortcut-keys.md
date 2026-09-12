@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -70,7 +70,7 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 | 撤销 | **[!UICONTROL *cmd + z *]** | **[!UICONTROL *ctrl + z *]** |
 | 刷新组件 | **[!UICONTROL *opt + shift + r *]** | **[!UICONTROL *alt + shift + r *]** |
 | 刷新项目 | **[!UICONTROL *opt + r *]** | **[!UICONTROL *alt + r *]** |
-| 设置为“登录”页面 | **[!UICONTROL *cmd + shift + l *]** | **[!UICONTROL *ctrl + shift + l *]** |
+| 设置为登陆页面 | **[!UICONTROL *cmd + shift + l *]** | **[!UICONTROL *ctrl + shift + l *]** |
 
 ## 添加面板和可视化内容操作
 
@@ -91,6 +91,17 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 | --- | --- | --- |
 | 将面板上移 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
 | 下移面板 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
+
+## 调整面板或可视化图表操作的大小
+
+| 操作 | Mac 快捷方式 | Windows 快捷方式 |
+| --- | --- | --- |
+| 调整更宽的大小 | **[!UICONTROL *cmd + opt + shift + right *]** | **[!UICONTROL *ctrl + alt + shift + right *]** |
+| 将大小调整得较窄 | **[!UICONTROL *cmd + opt + shift + left *]** | **[!UICONTROL *ctrl + alt + shift + left *]** |
+| 调整较高的大小 | **[!UICONTROL *cmd + opt + shift + down *]** | **[!UICONTROL *ctrl + alt + shift + down *]** |
+| 调整更短的大小 | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + shift + up *]** |
+
+宽度在一个网格列的步长内调整大小，高度在一个网格单元的步长内调整大小（大约25像素）。
 
 ## 民主化操作
 
