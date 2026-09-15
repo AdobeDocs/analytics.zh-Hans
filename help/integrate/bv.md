@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >作为这种集成的一部分，美国会对品牌可见度数据进行一些临时处理。 数据最终会存储在您在Adobe Analytics合同中配置的指定区域。
 
-如果您使用Customer历程分析，则更丰富的单独入站集成会通过Adobe Experience Platform将相同的基础CDN流量数据接入Customer Journey Analytics。 该集成现已推出。 查看[品牌可见度与Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)的集成。 如果您拥有Customer Journey Analytics，请首先查看该集成，因为它会公开更多字段，并支持将品牌可见度数据与其他数据集联接起来。 本指南中描述的Analytics集成专为使用Adobe Analytics但没有访问权限或Customer Journey Analytics许可证的客户而设计。
+如果您使用Customer历程分析，则更丰富的单独入站集成会通过Adobe Experience Platform将相同的基础CDN流量数据接入Customer Journey Analytics。 该集成现已推出。 查看[品牌可见度与Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/integrations/bv)的集成。 如果您拥有Customer Journey Analytics，请首先查看该集成，因为它会公开更多字段，并支持将品牌可见度数据与其他数据集联接起来。 本指南中描述的Analytics集成专为使用Adobe Analytics但没有访问权限或Customer Journey Analytics许可证的客户而设计。
 
 
 ## 用例
@@ -74,7 +74,7 @@ ht-degree: 1%
 >
 >BYOCDN日志转发提供用于代理流量分析的服务器端CDN请求数据。 数据并不依赖于浏览器中运行的JavaScript标记。 如果没有所需的CDN日志馈送，连接器将没有要引入报表包的流量数据。
 >
->有关详细信息，请参阅[BYOCDN日志转发引用](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。
+>有关详细信息，请参阅[BYOCDN日志转发引用](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。
 
 
 >[!IMPORTANT]
@@ -232,8 +232,8 @@ CJA入站集成基于更广泛的CDN请求摘要数据集构建，并支持其�
 
 >[!MORELIKETHIS]
 >
->[品牌可见度/LLMO集成参考](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
->[BYOCDN日志转发引用](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
+>[品牌可见度/LLMO集成参考](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/integrations/bv)
+>[BYOCDN日志转发引用](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 &#x200B;---
 
@@ -253,4 +253,4 @@ CJA入站集成基于更广泛的CDN请求摘要数据集构建，并支持其�
 
 ## 出站集成
 
-本指南仅介绍入站品牌可见度集成，该集成会将机器人和自动代理流量数据添加到Analytics报表包。 发布的集成文档还描述了出站方向，在该方向中，Analytics性能数据可用于品牌可见度在品牌可见度产品中。 该方向不在本指南的范围之内。 有关出站集成的详细信息，请参阅[品牌可见度文档](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration)。
+本指南仅介绍入站品牌可见度集成，该集成会将机器人和自动代理流量数据添加到Analytics报表包。 发布的集成文档还描述了出站方向，在该方向中，Analytics性能数据可用于品牌可见度在品牌可见度产品中。 该方向不在本指南的范围之内。 有关出站集成的详细信息，请参阅[品牌可见度文档](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/resources/adobe-analytics-integration)。
