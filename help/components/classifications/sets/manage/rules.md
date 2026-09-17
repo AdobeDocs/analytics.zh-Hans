@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: '1694'
 ht-degree: 13%
-
 ---
-
 # 分类集规则
 
-在关键维度不断更改的情况下，可使用规则支持自动分类。 通过[上传](/help/components/classifications/sets/manage/schema.md#upload)或[自动化](/help/components/classifications/sets/manage/schema.md#automate)更新分类的过程变得繁琐或落后于新维度值的正确分类。 例如，内部营销活动、跟踪代码或产品SKU。
+在关键维度不断更改的情况下，可使用规则支持自动分类。 通过[上传](/help/components/classifications/sets/manage/schema.md#upload)或[自动化](/help/components/classifications/sets/manage/schema.md#automate)更新分类的过程变得繁琐或缺少对新维度值的正确分类。 例如，内部营销活动、跟踪代码或产品SKU。
 
 维度必须包含允许您应用一个或多个规则的值，以便您可以从维度值中派生分类数据。
 
 您可以在分类集的上下文中定义规则。 此上下文意味着将规则（激活时）应用于订阅分类集的所有报表包和键维度组合。 此实施与旧版分类规则生成器的工作方式不同。 在分类规则生成器中，将一个或多个规则单独定义为规则集的一部分，然后将规则集与一个或多个报表包关联。 在新界面中，分类集中的规则也称为规则集。 但是，规则集是在配置其他分类集属性的同一界面中定义的。
+
+>[!IMPORTANT]
+>
+>新规则生成器使用的不同上下文意味着子分类是根据直接父分类列的值而不是根据原始根维度值进行评估的。
+
 
 
 要为分类集定义规则集，请执行以下操作：
@@ -35,7 +42,7 @@ ht-degree: 13%
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择要为其定义规则的分类集。
 1. 在&#x200B;**[!UICONTROL 分类集：_分类集名称_]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
 
-   * 如果您是首次访问分类集的&#x200B;**[!UICONTROL 规则]**&#x200B;界面，或者您目前决定继续使用旧版规则生成器界面，则将显示一个对话框，允许您选择如何开始使用。 选项包括：
+   * 如果首次访问&#x200B;**[!UICONTROL Rules]**&#x200B;界面，或者如果使用旧版生成器，则将显示一个对话框来帮助您入门。 选项包括：
 
      * **迁移现有规则**。 导入当前分类规则，并在新界面中继续使用这些规则。 您的现有规则将被保留并转换为新格式。
        * 选择&#x200B;**[!UICONTROL 迁移规则]**&#x200B;以继续。
@@ -168,7 +175,7 @@ ht-degree: 13%
 
 #### 用例
 
-当Internal Campaign的键维度值包含`Winter`时（例如：`fb:Winter:FY2024`），要定义规则以将`Winter Sale`分配为&#x200B;**[!UICONTROL Type]**&#x200B;分类的值。
+当键维度Internal Campaign的值包含`Winter`时（例如： `fb:Winter:FY2024`），要定义规则以将`Winter Sale`分配为&#x200B;**[!UICONTROL Type]**&#x200B;分类的值。
 
 
 >[!BEGINTABS]
@@ -228,7 +235,7 @@ ht-degree: 13%
 
 #### 用例
 
-要定义规则以分配值给&#x200B;**[!UICONTROL Channel]**、**[!UICONTROL Type]**&#x200B;和&#x200B;**[!UICONTROL Year]**&#x200B;分类，方法是应用正则表达式`^(.+)\:(.+)\:FY(.+)$`并将匹配组（`$1`、`$2`和`$3`）用于关键维度Internal Campaign的值。
+通过应用正则表达式`^(.+)\:(.+)\:FY(.+)$`并将匹配组（`$1`、`$2`和`$3`）用于内部营销活动键维度，定义用于为&#x200B;**[!UICONTROL Channel]**、**[!UICONTROL Type]**&#x200B;和&#x200B;**[!UICONTROL Year]**&#x200B;分类分配值的规则。
 
 >[!BEGINTABS]
 
@@ -315,7 +322,7 @@ ht-degree: 13%
 * 关键维度值匹配到多个规则。
 * 规则集包含具有相同&#x200B;**[!UICONTROL 设置分类]**&#x200B;操作的规则。
 
-因此，您应该将最重要的&#x200B;**[!UICONTROL 设置分类]**&#x200B;操作作为规则集中最后一个规则的一部分进行排名。
+将最重要的&#x200B;**[!UICONTROL 设置分类]**&#x200B;操作排入规则集的最后一个规则中。
 
 如果创建的多个规则不共享同一&#x200B;**[!UICONTROL 设置分类]**&#x200B;操作，则处理顺序无关紧要。
 
