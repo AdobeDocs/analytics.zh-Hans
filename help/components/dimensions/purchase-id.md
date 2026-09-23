@@ -41,7 +41,7 @@ ht-degree: 18%
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) |
-| **Web SDK / XDM字段** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Web SDK / XDM字段** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **查询参数** | [`purchaseID`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<purchaseId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 20字节 |

@@ -47,20 +47,20 @@ Adobe使用标准[操作顺序](overview.md)标识访客： `vid`，然后是`ai
 
 ECID（作为`mid`发送）是在Adobe Analytics、Adobe Target和Adobe Audience Manager中共享的现代跨解决方案访客标识符。 Adobe建议尽可能使用它。
 
-使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home) (`VisitorAPI.js`)获取ECID。 在浏览器中，使用[`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance)以您的IMS组织ID初始化服务，然后使用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)读取ECID：
+使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home) (`VisitorAPI.js`)获取ECID。 在浏览器中，使用[`getInstance`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/getinstance)以您的IMS组织ID初始化服务，然后使用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/getmcvid)读取ECID：
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-在每次点击时将该值作为`mid`查询参数或`<marketingCloudVisitorId>` XML标记发送。 如果您的数据转发到Audience Manager，则同时从[`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint)发送区域作为`aamlh`参数（或`<imsRegion>`标记）。 要将您自己的客户标识符与访客相关联，请使用[`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids)。
+在每次点击时将该值作为`mid`查询参数或`<marketingCloudVisitorId>` XML标记发送。 如果您的数据转发到Audience Manager，则同时从[`getLocationHint`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/getlocationhint)发送区域作为`aamlh`参数（或`<imsRegion>`标记）。 要将您自己的客户标识符与访客相关联，请使用[`setCustomerIDs`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/setcustomerids)。
 
-对于服务器端收集，请在客户端获取ECID，并将其转发到您的服务器，以便在每次点击时发送。 若要在没有客户端的情况下完全在服务器端生成ECID，请使用ID服务的[直接集成](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration)。
+对于服务器端收集，请在客户端获取ECID，并将其转发到您的服务器，以便在每次点击时发送。 若要在没有客户端的情况下完全在服务器端生成ECID，请使用ID服务的[直接集成](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/direct-integration)。
 
 ## 使用Analytics访客标识
 
-Analytics访客ID (`aid`)存储在[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie中。 当点击到达时没有标识符，则收集服务器分配`aid`并在响应正文中返回它。 某些[响应类型](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)在响应正文中也包含此标识符。 谁将存储该ID并重新发送它，这是两种实施样式之间的区别。
+Analytics访客ID (`aid`)存储在[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie中。 当点击到达时没有标识符，则收集服务器分配`aid`并在响应正文中返回它。 某些[响应类型](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)在响应正文中也包含此标识符。 谁将存储该ID并重新发送它，这是两种实施样式之间的区别。
 
 * **客户端（直接图像请求）。** 浏览器存储服务器返回的`s_vi` Cookie，并在以后每次请求时将其发送到同一收集域，以便自动识别访客。 要使此功能正常工作，收集域必须能够设置和读取Cookie — 使用第一方CNAME跟踪服务器。 由于此模型依赖于Cookie，因此它降低了浏览器限制它们的位置（第三方Cookie阻止、智能跟踪预防）；偏好使用ECID以实现持久身份。
 

@@ -47,7 +47,7 @@ ht-degree: 54%
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
-| **Web SDK / XDM字段** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM字段** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/data-types/webpage-details) |
 | **查询参数** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 100字节 |

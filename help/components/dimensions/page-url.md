@@ -43,7 +43,7 @@ AppMeasurement在每个[页面查看调用(`t()`)](/help/implement/vars/function
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
-| **Web SDK / XDM字段** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM字段** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/data-types/webpage-details) |
 | **查询参数** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 255字节（没有带溢出的固定限制） |

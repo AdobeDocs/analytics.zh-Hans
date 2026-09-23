@@ -52,7 +52,7 @@ AppMeasurement 使用 [`pageType`](/help/implement/vars/page-vars/pagetype.md) �
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
-| **Web SDK / XDM字段** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM字段** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/data-types/webpage-details) |
 | **查询参数** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 不适用 |

@@ -55,7 +55,7 @@ AppMeasurement自动从浏览器的`document.referrer`值中收集反向链接�
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`referrer`](/help/implement/vars/page-vars/referrer.md) |
-| **Web SDK / XDM字段** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/web-information) |
+| **Web SDK / XDM字段** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/data-types/web-information) |
 | **查询参数** | [`r`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<referrer>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 255字节 |

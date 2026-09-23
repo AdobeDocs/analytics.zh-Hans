@@ -41,7 +41,7 @@ ht-degree: 58%
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`products`](/help/implement/vars/page-vars/products.md) |
-| **Web SDK / XDM字段** | [`productListItems[].name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Web SDK / XDM字段** | [`productListItems[].name`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **查询参数** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 100字节 |
