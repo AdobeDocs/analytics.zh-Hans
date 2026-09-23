@@ -7,28 +7,38 @@ role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: CX Enterprise integration
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 939
-ht-degree: 66%
-
+source-wordcount: '949'
+ht-degree: 65%
 ---
-
 # 使用 AMP 实施
 
 [AMP](https://amp.dev) 是一个开源 HTML 框架，为创建可快速且顺畅加载的网页提供了一种简单的方法。
@@ -52,7 +62,7 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 | 访客ID服务(`VisitorAPI.js`) | 不受支持 | 受支持 |
 | 视频和链接跟踪 | 部分支持 | 尚不受支持 |
 | 实施难度 | 困难 | 相对容易 |
-| Adobe CX企业集成 | 不受支持 | 部分支持 |
+| Adobe CX Enterprise集成 | 不受支持 | 部分支持 |
 
 权衡利弊，以便您能够为组织选择最佳的实施方法。
 
@@ -101,7 +111,7 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 
 >[!NOTE]
 >
->使用此方法发送到Adobe的图像请求不包含许多默认报表的数据（例如，浏览器、屏幕大小或反向链接）。 如果要在点击中包含此信息，请确保将这些信息作为图像请求查询字符串的一部分包含。 有关图像请求查询参数及其相关变量的完整列表，请参阅[数据收集查询参数](../validate/query-parameters.md)。
+>使用此方法发送到Adobe的图像请求不包含许多默认报表的数据（例如，浏览器、屏幕大小或反向链接）。 如果要在点击中包含此信息，请确保将这些信息作为图像请求查询字符串的一部分包含。 有关图像请求查询参数及其相关变量的完整列表，请参阅[数据收集查询参数](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)。
 
 Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie。 此访客ID对于由Adobe Analytics设置的任何其他ID都是唯一的。 访客从中检索内容的每个CDN都会计入一个不同的独特访客，这可能会导致访客计数虚增。 由于AMP识别独特访客的方式，强烈建议对AMP页面使用单独的报表包。 不支持Adobe访客ID服务。
 

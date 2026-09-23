@@ -6,34 +6,52 @@ exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 TQID: https://experienceleague.adobe.com/tAr9M0IgZcpRzElFfQSJx43JJjIXEtlo-pgDAKpSwq0
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 375
-ht-degree: 74%
-
+source-wordcount: '415'
+ht-degree: 64%
 ---
-
 # 城市
 
 “城市”[维度](overview.md)报告点击源自的城市。 此维度可帮助确定访客在访问您的网站时最有可能所在的城市。 您可以通过这些数据来关注这些城市的本地广告，例如，广告牌或商业广告。
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的查找规则。 查找值基于随点击发送的 IP 地址。 Adobe与[Digital Element](https://www.digitalelement.com/)合作，共同维护IP地址与城市之间的查找服务。
+Adobe从访客的IP地址派生此维度服务器端，并将其与内部查找表进行匹配。 Adobe与[Digital Element](https://www.digitalelement.com/)合作，共同维护IP地址与城市之间的查找服务。 没有要设置的变量。
+
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（派生自访客的IP地址） |
+| **Web SDK / XDM字段** | 无（派生自访客的IP地址） |
+| **查询参数** | 不适用 |
+| **XML标记** | 不适用 |
+| **字节限制** | 不适用 |
+| **持久性** | 不适用 |
 
 * 对于AppMeasurement实施，此维度可开箱即用。
 * 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 地理查找]。

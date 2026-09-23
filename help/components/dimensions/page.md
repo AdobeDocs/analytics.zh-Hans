@@ -6,26 +6,34 @@ exl-id: 579963c8-8460-425f-b716-3b30d7a259af
 TQID: https://experienceleague.adobe.com/npKfFB-zOPzNGJJ6YZvtz0oA3NDWuQiHYBraH09lc58
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 188
-ht-degree: 80%
-
+source-wordcount: '226'
+ht-degree: 54%
 ---
-
 # 页面
 
 “页面”[维度](overview.md)列出了您网站上的页面名称。 它是 Adobe Analytics 中最常用的维度之一，因为它可让您洞察网站上的哪些页面效果最佳。
@@ -34,9 +42,16 @@ ht-degree: 80%
 
 ## 使用数据填充此维度
 
-此维度从[页面查看调用 (`t()`)](/help/implement/vars/functions/t-method.md) 中的 [`pageName` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 [链接跟踪调用 (`tl()`)](/help/implement/vars/functions/tl-method.md) 始终剥离此维度，即使存在 `pageName` 查询字符串也是如此。
+在[页面查看调用(`t()`)](/help/implement/vars/functions/t-method.md)中设置[`pageName`](/help/implement/vars/page-vars/pagename.md)变量。 如果未设置`pageName`变量，则此维度将回退为使用[`pageURL`](/help/implement/vars/page-vars/pageurl.md)变量。 [链接跟踪调用(`tl()`)](/help/implement/vars/functions/tl-method.md)始终剥离此维度，即使存在`pageName`值也是如此。
 
-AppMeasurement 使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) 变量收集此数据。 如果未设置`pageName`变量，则此维度将回退为使用[`pageURL`](/help/implement/vars/page-vars/pageurl.md)变量。
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
+| **Web SDK / XDM字段** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/data-types/webpage-details) |
+| **查询参数** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML标记** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **字节限制** | 100字节 |
+| **持久性** | 点击 |
 
 ## 维度项目
 
@@ -44,4 +59,4 @@ AppMeasurement 使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) �
 
 >[!NOTE]
 >
->Analysis Workspace 默认使用上一个归因，并且可以选择使用任何归因模型。
+>Analysis Workspace 默认使用最后接触归因，并且可以选择使用任何归因模型。

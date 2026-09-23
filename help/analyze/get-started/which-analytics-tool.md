@@ -6,34 +6,50 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 TQID: https://experienceleague.adobe.com/xk485fKU7Q2DeZIYaTtN-a4JKnyVamAygW03z7ffAOk
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 68%
-
+source-wordcount: '1172'
+ht-degree: 67%
 ---
-
 # 我应该使用哪种 Adobe Analytics 工具？
 
 此帮助页包含每个Adobe Analytics工具的推荐用例。 工具应按照列出的顺序进行考虑。 如果某个工具无法满足此需要，请移至下一个工具以供考虑。
@@ -77,7 +93,7 @@ ht-degree: 68%
 
 * 当您与已构建 Adobe Analytics 受支持连接的第三方提供商合作时。 集成应用程序一般不断自动地将摘要级别的数据永久纳入 Adobe Analytics。
 
-**[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[批量数据插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)**
 
 * “批量数据插入 API”接受包含事件数据在内的 CSV 格式的文件，其中每行有一个事件。 对于任何需要服务器端代码或者否则就无法使用 AppMeasurement 或 Web SDK 进行数据收集的实施，Adobe 建议使用“批量插入 API”。
 
@@ -87,7 +103,7 @@ ht-degree: 68%
 
 应在以下情况下使用&#x200B;**[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)**：
 
-* 如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，并希望将该数据上传到CX Enterprise。
+* 适用于您在客户关系管理(CRM)数据库中捕获了企业客户数据，并希望将该数据上传到CX Enterprise的情况。
 * 如果要使用CRM数据在Analytics中进行更深入的分析，或希望在Adobe Target中用作定位标准。
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** 的使用说明：

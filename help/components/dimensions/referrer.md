@@ -6,28 +6,38 @@ exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 TQID: https://experienceleague.adobe.com/VE1bJD2ah1N9t-fHKc5GC0-pC4YmXEDkCwhVmI5rHZQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 96%
-
+source-wordcount: '418'
+ht-degree: 76%
 ---
-
 # 反向链接
 
 “反向链接”[维度](overview.md)报告访客点击访问您的网站时所在的URL。 此维度有助于了解哪些特定 URL 给您的网站带来了最多的流量。 链接必须存在于外部 URL 上，且访客必须单击该链接才能显示维度项目。
@@ -40,10 +50,16 @@ ht-degree: 96%
 
 ## 使用数据填充此维度
 
-此维度需要在 Analytics 界面中进行配置，并且需要图像请求中的数据。
+AppMeasurement自动从浏览器的`document.referrer`值中收集反向链接。 您可以使用 [`referrer`](/help/implement/vars/page-vars/referrer.md) 变量覆盖收集的值。 您还必须配置报表包的[内部URL过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)；否则，可能会包含内部URL或阻止显示外部URL。
 
-* 在实施中，此维度从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 AppMeasurement 使用浏览器中的 JavaScript 变量 `document.referrer` 收集此数据。 您可以使用 [`referrer`](/help/implement/vars/page-vars/referrer.md) 变量覆盖来手动进行设置。 如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在图像请求中包含 `r` 查询字符串参数。
-* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 未配置内部 URL 过滤器可能会包含内部 URL，或阻止外部 URL 显示。
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | [`referrer`](/help/implement/vars/page-vars/referrer.md) |
+| **Web SDK / XDM字段** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/data-types/web-information) |
+| **查询参数** | [`r`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML标记** | [`<referrer>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **字节限制** | 255字节 |
+| **持久性** | 不适用 |
 
 ## 维度项目
 

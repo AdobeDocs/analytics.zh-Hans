@@ -6,34 +6,50 @@ exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 TQID: https://experienceleague.adobe.com/cktusukSxy7fHIIUi-7MSmx8Gl9FlUObfmJGS3VC3Jw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 364
-ht-degree: 81%
-
+source-wordcount: '413'
+ht-degree: 69%
 ---
-
 # 每天的某小时
 
 “小时”[维度](overview.md)将任何给定日期的小时数字报告为维度项目。 例如，如果某个报表的时间跨度为 1 月 1 日至 1 月 7 日，则每天的第一个小时会分组到同一个维度项目中。 当您希望报表按一天中的相对时间划分，但不希望静态小时作为维度项目时，此报表很有价值。 由于此维度会随着选定日期范围滚动，因此，将其作为计划报表中的维度特别有价值。
 
-此维度基于报表包的时区，而不是访客的本地时区。 例如，如果您的报表包为山区时间，而加利福尼亚的访客在太平洋时间上午10:00访问您的网站，则该点击会分组到`11:00 AM`维度项目下。 如果想要一个记录本地访客时间的维度，Adobe 建议使用 [getTimeParting](/help/implement/vars/plugins/gettimeparting.md) 插件。
+此维度基于报告包的时区，而不是访客的本地时区。 例如，如果您的报表包为山区时间，而加利福尼亚的访客在太平洋时间上午10:00访问您的网站，则该点击会分组到`11:00 AM`维度项目下。 如果想要一个记录本地访客时间的维度，Adobe 建议使用 [getTimeParting](/help/implement/vars/plugins/gettimeparting.md) 插件。
 
 ## 使用数据填充此维度
 
-此维度可开箱即用于所有实施。 如果报表包包含数据，则此维度有效。
+此维度从每次点击的时间戳派生；没有要设置的变量。 如上所述，小时反映了报表包的时区，而不是访客的本地时区。
+
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（派生自点击时间戳） |
+| **Web SDK / XDM字段** | 无（派生自点击时间戳） |
+| **查询参数** | 不适用 |
+| **XML标记** | 不适用 |
+| **字节限制** | 不适用 |
+| **持久性** | 点击 |
 
 ## 维度项目
 
@@ -41,7 +57,7 @@ ht-degree: 81%
 
 ## 夏令时
 
-夏令时是一种在春季将时钟拨快一个小时，在秋季将时钟拨回一个小时的做法。 如果报表包的时区使用夏令时，则 Adobe 将相应地调整该小时的数据。
+夏令时是一种在春季将时钟拨快一个小时，在秋季将时钟拨回一个小时的做法。 如果报告包的时区使用夏令时，则 Adobe 将相应地调整该小时的数据。
 
 * **夏令时开始时**：在 3 月份，报表通常会在夏令时开始时在数据中显示一小时的空档。 这个小时并不存在，因此它不是数据收集的一部分。 请注意，少量数据仍然可以归入到这一小时中。 Adobe 数据收集服务器需要花费几秒钟（最多一分钟）时间来将夏令时调整考虑在内。
 * **夏令时结束时**：在 11 月份，报表通常会在夏令时结束时显示两个堆叠的小时。 这个小时出现了两次，因此这两个小时都会在报表中汇总。

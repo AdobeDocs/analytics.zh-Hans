@@ -4,13 +4,11 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。 自定义要收集的数据，以充分利用 Analytics 数据。
-source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
-
+source-wordcount: '444'
+ht-degree: 96%
 ---
-
 
 # Adobe Analytics 实施指南 {#implementation}
 
@@ -128,6 +126,7 @@ ht-degree: 97%
   + [使用 Web SDK（Alloy）](id/alloy.md)
   + [使用 Analytics 扩展](id/analytics-extension.md)
   + [使用 AppMeasurement](id/appmeasurement.md)
+  + [使用数据插入API](id/data-insertion.md)
   + [迁移到访客 ID 服务](id/migration.md)
   + [跨实施类型跟踪](id/cross-type-implementation.md)
 + 准备实施 Adobe Analytics {#prepare}
@@ -176,7 +175,6 @@ ht-degree: 97%
     + [H 码疑难解答](js/h-code/troubleshooting.md)
   + [AppMeasurement 疑难解答](js/troubleshooting.md)
 + 在其他平台上实施 Analytics {#other}
-  + [使用硬编码图像请求实施 Analytics](other/hardcoded.md)
   + [在 AJAX 上实施 Analytics](other/ajax.md)
   + [在 AMP 上实施 Analytics](other/amp.md)
   + [在数字助理中实施 Analytics](other/digital-assistants.md)
@@ -187,7 +185,6 @@ ht-degree: 97%
   + [营销活动跟踪工作流程](use-cases/campaign-tracking.md)
 + 验证您的实施 {#validate}
   + [旧版调试器](validate/debugger.md)
-  + [数据收集查询参数](validate/query-parameters.md)
   + [数据包监视器](validate/packet-monitor.md)
   + [哈希冲突](validate/hash-collisions.md)
 + [常见问题解答](faq.md)

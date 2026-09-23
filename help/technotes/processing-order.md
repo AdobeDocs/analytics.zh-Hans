@@ -6,26 +6,35 @@ feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Adobe Analytics 中处理数据的顺序
 
 Adobe 提供多种方式，可在报表中出现数据之前更改或操纵数据。 此页面展示各项 Adobe Analytics 功能处理数据的顺序。 可使用此列表解决数据不一致的问题或确定最适合在需要调整数据时使用的功能。
@@ -34,12 +43,12 @@ Adobe 提供多种方式，可在报表中出现数据之前更改或操纵数�
 
 ## 将数据发送到 Adobe 之前
 
-将数据发送到 Adobe 之前，自动使用以下方法之一在客户端编译数据：
+将数据发送到 Adobe 之前，通常使用以下方法之一在客户端编译数据：
 
 * **AppMeasurement**：一个托管在您的站点上并在每个页面上都引用的 JavaScript 文件。 数据直接发送到 Adobe Analytics。
 * **Adobe Experience Platform Web SDK**：一个托管在您的站点上并在每个页面上都引用的 JavaScript 文件。 数据会发送到Adobe Experience Platform Edge Network。
 * Adobe Experience Platform数据收集中的&#x200B;**标记**：一个在每个页面上引用的JavaScript文件，其中包含在数据收集UI中创建的规则。 Adobe Analytics 扩展提供一种更容易实施 AppMeasurement 的方式。 Web SDK 扩展提供一种更容易实施 Web SDK 的方式。
-* **API**： AppMeasurement和Edge Network均提供编程方法将数据发送到Adobe。 AppMeasurement提供[数据插入API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/)和[批量数据插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)；Edge Network提供[数据收集API](https://developer.adobe.com/data-collection-apis/docs/)。
+* **API**： AppMeasurement和Edge Network均提供编程方法将数据发送到Adobe。 AppMeasurement提供[数据插入API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)和[批量数据插入API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)；Edge Network提供[数据收集API](https://developer.adobe.com/data-collection-apis/docs/)。
 
 如果将数据发送到Edge Network，则可将其配置为将数据转发到Adobe Analytics（以及许多其他Adobe CX Enterprise解决方案）。 无论采用何种实施方法，收集的点击数据最终都会以可解析的格式到达Adobe Analytics处理服务器。
 
@@ -83,7 +92,7 @@ Adobe 提供多种方式，可在报表中出现数据之前更改或操纵数�
 1. **交易ID**：如果点击包含新的[`transactionID`](/help/implement/vars/page-vars/transactionid.md)值，则存储所有受支持值的“快照”。 当数据源上载包含匹配的事务ID时，该数据源行中将包含此快照支持的所有值。
 1. [**IP模糊处理（删除IP）**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)：如果您的报表包配置为完全模糊处理IP地址，则在所有其他处理完成后将在此处应用该模糊处理。
 
-此时，将这次单独的点击记录在报表包数据表中。 在标准[延迟](latency.md)间隔过后，可在报表中找到它。
+此时，将这次单独的点击记录在报告包数据表中。 在标准[延迟](latency.md)间隔过后，可在报表中找到它。
 
 ## 处理数据之后更改数据
 

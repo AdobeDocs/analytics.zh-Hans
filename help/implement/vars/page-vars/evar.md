@@ -7,27 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/7GS-wW0K3hh-uZ4fTi8yajH9wgFGBW-BQjT9m1mhXuU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 96%
-
 ---
-
 # eVar
 
+>[!BEGINSHADEBOX]
+
 *此帮助页面介绍了如何实施 eVar。 有关 eVar 如何用作维度的信息，请参阅《组件用户指南》中的 [eVar](/help/components/dimensions/evar.md)。*
+
+>[!ENDSHADEBOX]
 
 eVar 是自定义变量，您可以根据需要随意使用。 如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则大多数特定于您的组织的维度最终都会成为 eVar。 默认情况下，eVar 会在其设置的点击之外继续存在。 您可以在报告包设置的[转换变量](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)下自定义其有效期限和分配情况。
 
@@ -46,7 +56,7 @@ eVar映射到以下变量：
 
 ## 使用 Adobe Analytics 扩展的 eVar
 
-您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 eVar。
+您可以在配置 Analytics 扩展时（全局变量）或在规则下设置 eVar。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
@@ -57,7 +67,7 @@ eVar映射到以下变量：
 
 您可以将 eVar 设置为一个值或一个数据元素。 您还可以从其他 Analytics 变量复制值。
 
-## AppMeasurement 和 Analytics 扩展代码编辑器中的 s.eVar1 - s.eVar250
+## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.eVar1 - s.eVar250
 
 每个 eVar 都是一个字符串，其中包含特定于贵组织的自定义值。 这些值的最大长度为 255 字节；超过 255 字节的值在发送到 Adobe 时会自动被截断。
 

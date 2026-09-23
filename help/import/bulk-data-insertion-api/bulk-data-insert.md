@@ -8,24 +8,30 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/TVa-LtTWKi6lQKGQKhH2bu5UcKsSJ2-KVqlfU5tQROQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 201
-ht-degree: 85%
-
+source-wordcount: '228'
+ht-degree: 53%
 ---
-
 # 批量数据插入 API
 
 批量数据插入解决数个用例，比如：
@@ -36,4 +42,6 @@ ht-degree: 85%
 
 * 从只能断断续续连接到网络的设备收集数据。 这些设备存储交互数据，直到接收网络连接。 然后，设备可以通过 BDIA 一次上传所有数据。
 
-数据插入 API 和[&#x200B; 批量数据插入 API &#x200B;](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)是将服务器端收集的数据提交到 Adobe Analytics 的两种方式。 “数据插入 API”每次调用处理一个事件。 “批量数据插入 API”接受包含事件数据在内的 CSV 格式的文件，其中每行有一个事件。 如果您正在实施新的服务器端收集，我们建议您使用“批量数据插入 API”。
+数据插入API和[批量数据插入API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)是将服务器端收集的数据提交到Adobe Analytics的两种方式。 “数据插入 API”每次调用处理一个事件。 “批量数据插入 API”接受包含事件数据在内的 CSV 格式的文件，其中每行有一个事件。 如果您正在实施新的服务器端收集，Adobe建议使用批量数据插入API。
+
+有关身份验证、端点、文件格式、列引用和疑难解答，请参阅Adobe Developer上的[批量数据插入API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)文档。

@@ -6,33 +6,50 @@ exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 TQID: https://experienceleague.adobe.com/J6rDfVwmRZpRLrultdurQkRih2HcPygjcjwO0bkms5E
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 280
-ht-degree: 43%
-
+source-wordcount: '310'
+ht-degree: 35%
 ---
-
 # 浏览器
 
 “[!UICONTROL 浏览器]”[维度](overview.md)报告发送点击的浏览器的名称和版本。 当您想要测量访客最常使用的浏览器时，此维度很有用。 测试网站的新版本时，您可以在此维度中的热门浏览器上运行这些测试，以便最大限度地做好质量控制工作。
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的一个查找表。 查找值基于图像请求中的 `User-Agent` HTTP 标头。 Adobe与[DeviceAtlas](https://deviceatlas.com/)合作，共同在用户代理和浏览器之间维护查找。
+Adobe从`User-Agent` HTTP标头派生此维度，并将其与Adobe与[DeviceAtlas](https://deviceatlas.com/)合作维护的内部查找表进行匹配。 没有要设置的变量。
+
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（派生自用户代理） |
+| **Web SDK / XDM字段** | 无（派生自用户代理） |
+| **查询参数** | 不适用 |
+| **XML标记** | 不适用 |
+| **字节限制** | 不适用 |
+| **持久性** | 不适用 |
 
 * 对于AppMeasurement实施，此维度可开箱即用。
 * 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 设备查找]。

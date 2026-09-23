@@ -6,23 +6,28 @@ exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
 TQID: https://experienceleague.adobe.com/4naavrC42ddsxGFJfkOJ0wzHLTa7tdMeI9nKDgVWrBY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 251
-ht-degree: 94%
-
+source-wordcount: '296'
+ht-degree: 70%
 ---
-
 # 搜索关键词
 
 “搜索关键词”[维度](overview.md)报告访客用来访问您的网站的搜索关键词。
@@ -44,7 +49,16 @@ ht-degree: 94%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的多个查找表。 每个值都基于点击的[反向链接](referrer.md)，具体取决于[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 确保正确配置反向链接维度和内部 URL 过滤器。
+Adobe从每次点击的搜索引擎[反向链接](referrer.md)派生此维度，并从反向链接的查询字符串中提取关键字。 没有要设置的变量。 由于每个值都依赖于反向链接，因此请确保正确配置了反向链接维度和[内部URL过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。
+
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（派生自搜索引擎反向链接） |
+| **Web SDK / XDM字段** | 无（派生自搜索引擎反向链接） |
+| **查询参数** | 不适用 |
+| **XML标记** | 不适用 |
+| **字节限制** | 不适用 |
+| **持久性** | 不适用 |
 
 ## 维度项目
 

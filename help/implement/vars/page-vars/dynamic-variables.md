@@ -7,31 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/1fooxiu-eZGsWtpSQ-illBbooJveqzPIEvEHevc-ukM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 82%
-
+source-wordcount: '454'
+ht-degree: 80%
 ---
-
 # 动态变量
 
 动态变量允许您在不增加图像请求长度的情况下将值从一个变量复制到另一个变量。 在多个变量中获取相同的数据时，这些功能非常有用。
 
 在 Analytics 的早期版本中，图像请求长度对于防止数据被截断很重要。 AppMeasurement 的改进支持更长的图像请求查询字符串，因此通常不需要动态变量。
 
-动态变量在图像请求中支持查询字符串参数或 HTTP 标头。 有关可引用的可用参数的完整列表，请参阅[数据收集查询参数](../../validate/query-parameters.md)。 有关可引用的可用 HTTP 请求字段的完整列表，请参阅维基百科上的[标准请求字段](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)。
+动态变量在图像请求中支持查询字符串参数或 HTTP 标头。 有关可引用的可用参数的完整列表，请参阅[数据收集查询参数](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)。 有关可引用的可用 HTTP 请求字段的完整列表，请参阅维基百科上的[标准请求字段](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)。
 
 当 Adobe 识别动态变量前缀时，它会自动复制报告包中的查询字符串或 HTTP 标头值。 此操作在任何其他处理（包括处理规则和 VISTA 规则）之前执行。
 
