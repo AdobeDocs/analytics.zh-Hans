@@ -6,23 +6,28 @@ exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 TQID: https://experienceleague.adobe.com/k0H7kOCgrBRY3cZckPXaJ9UgLBPTYWHxKT8gzeMQjcI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 267
-ht-degree: 94%
-
+source-wordcount: '282'
+ht-degree: 76%
 ---
-
 # 回访频率
 
 “回访频度”[维度](overview.md)显示回访访客两次访问之间经过的时间长度。 当访客回访您的网站时，Adobe 会查看上次访问的时间，并将点击记录在相应的维度项目中。 此维度有助于评估网站在一段时间内对访客的吸引力和相关性。 它还有助于确定网站内容和促销活动对访客的影响。
@@ -33,9 +38,16 @@ ht-degree: 94%
 
 ## 使用数据填充此维度
 
-此维度可开箱即用于所有实施。 如果报表包包含数据，则此维度有效。
+Adobe通过比较当前访问和访客上次访问来计算此维度服务器端。 没有变量可供设置；它可开箱即用于所有实施。
 
-此维度的数据是在访问的第一次点击时设置的，并在整个访问期间保留。 此值不能在访问中更改。
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（由Adobe计算） |
+| **Web SDK / XDM字段** | 无（由Adobe计算） |
+| **查询参数** | 不适用 |
+| **XML标记** | 不适用 |
+| **字节限制** | 不适用 |
+| **持久性** | 访问 |
 
 ## 维度项目
 

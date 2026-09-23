@@ -6,30 +6,45 @@ exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 TQID: 'https://experienceleague.adobe.com/KPTS2iWls0V8I2gI0xcH1V89w0stZyVq6jWdQyEyrLY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 5a76fa85cdcc109ee92d6116d30510841a4c6ab1
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 502
-ht-degree: 88%
-
+source-wordcount: '542'
+ht-degree: 76%
 ---
-
 # 反向链接类型
 
 “反向链接类型”[维度](overview.md)报告访客点击了哪些通用渠道进入您的网站。 Adobe 将维护每个维度项目的规则，它与[营销渠道](marketing-channel.md)不同，营销渠道是贵组织负责维护每个渠道的规则。
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的多个查找表。 每个值都基于点击的[反向链接](referrer.md)，具体取决于[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 确保正确配置反向链接维度和内部 URL 过滤器。
+Adobe从每次点击的[反向链接](referrer.md)派生此维度，并将其与Adobe内部的多个查找表进行匹配。 没有要设置的变量。 由于每个值都依赖于反向链接，因此请确保正确配置了反向链接维度和[内部URL过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。
+
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（派生自反向链接） |
+| **Web SDK / XDM字段** | 无（派生自反向链接） |
+| **查询参数** | 不适用 |
+| **XML标记** | 不适用 |
+| **字节限制** | 不适用 |
+| **持久性** | 不适用 |
 
 ## 维度项目
 

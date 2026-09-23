@@ -7,29 +7,37 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3NSbjRWl0GsomjsEXo8XczQ1RWOPGpqW4OM2YeUo3Wk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 8%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # 完全处理数据源生命周期结束
 
-过去，完全处理数据源使组织能够将点击级别的数据提交到Adobe Analytics。 此数据的处理方式与通过AppMeasurement等传统数据收集手段收集的数据的处理方式相同。 2020年，Adobe发布了[批量数据插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，它执行与完全处理数据源相同的功能，但具有附加功能。 本页详细介绍了Bulk Data Insertion API提供的其他功能，并概述了文件格式的差异。
+过去，完全处理数据源使组织能够将点击级别的数据提交到Adobe Analytics。 此数据的处理方式与通过AppMeasurement等传统数据收集手段收集的数据的处理方式相同。 2020年，Adobe发布了[批量数据插入API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)，它执行与完全处理数据源相同的功能，但具有附加功能。 本页详细介绍了Bulk Data Insertion API提供的其他功能，并概述了文件格式的差异。
 
 2021年3月25日，Adobe禁止创建新的完全处理数据源连接。 2022年1月31日，所有完全处理数据服务被停用。
 
@@ -39,7 +47,7 @@ ht-degree: 8%
 * Bulk Data Insertion具有数据验证和错误处理功能，消除了提交点击数据中的一些管理工作。
 * 批量数据插入支持多种访客ID识别方法。
 * 批量数据插入有一些额外的必填字段：访客标识列、`pageName`（或等效链接）、`reportSuiteID`、`timestamp`和`userAgent`。
-* 为确保访客连续性和归因，批量数据插入要求文件中的行按时间排序。 如需了解跨多个文件对访客活动排序，请参阅[访客组](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/)。
+* 为确保访客连续性和归因，批量数据插入要求文件中的行按时间排序。 如需了解跨多个文件对访客活动排序，请参阅[访客组](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/)。
 * 批量数据插入要求文件以.gzip格式压缩。
 * BDIA使用`timestamp`而不是`date`。
 
@@ -50,12 +58,12 @@ ht-degree: 8%
 * **`aamlh`**： Adobe Audience Manager位置提示。
 * **`contextData.key`**： [上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。
 * **`customerID`**：访客ID服务变量。 包括 `id`、`authState` 和 `isMCSeed`。
-* **`hints`**： [客户端提示](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hans)变量。 包括`bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`和`wow64`。
+* **`hints`**： [客户端提示](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)变量。 包括`bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`和`wow64`。
 * **`ipaddress`**： [IP地址](/help/components/dimensions/ip-address.md)维度。
 * **`language`**： [语言](/help/components/dimensions/language.md)维度。
 * **`list1`** - **`list3`**： [列表变量](/help/implement/vars/page-vars/list.md)。
 * **`marketingCloudVisitorID`**：访客的Experience Cloud ID。
-* **`tnta`**： [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)集成中使用的Target数据有效负载。
+* **`tnta`**： [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)集成中使用的Target数据有效负载。
 * **`trackingServer`**： [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md)变量。
 * **`transactionID`**： [`transactionID`](/help/implement/vars/page-vars/transactionid.md)变量。
 * **`userAgent`**：设备的用户代理字符串。

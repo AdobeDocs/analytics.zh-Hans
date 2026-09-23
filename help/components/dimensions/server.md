@@ -6,23 +6,28 @@ exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
 TQID: https://experienceleague.adobe.com/BDVwwy3jCtHrcWLy2nOHVnDRbFiAoR-EeOzp-35XjBs
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 92%
-
+source-wordcount: '183'
+ht-degree: 61%
 ---
-
 # 服务器
 
 “服务器”[维度](overview.md)通常列出网站的主机名。 对于组合多个域或子域的报表包，当想要了解哪些域或子域的性能最佳时，此维度很有价值。
@@ -31,7 +36,16 @@ ht-degree: 92%
 
 ## 使用数据填充此维度
 
-此维度从图像请求中的 [`server` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 AppMeasurement 使用 [`server`](/help/implement/vars/page-vars/server.md) 变量收集此数据。
+AppMeasurement使用[`server`](/help/implement/vars/page-vars/server.md)变量收集此数据，该变量在功能上与prop相同。
+
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | [`server`](/help/implement/vars/page-vars/server.md) |
+| **Web SDK / XDM字段** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **查询参数** | [`server`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML标记** | [`<server>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **字节限制** | 100字节 |
+| **持久性** | 点击 |
 
 ## 维度项目
 

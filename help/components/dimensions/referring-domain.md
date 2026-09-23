@@ -6,28 +6,38 @@ exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
 TQID: https://experienceleague.adobe.com/iLpQGPuxOFmhb-WCU0EEfhmGgHgeQaPgBmOETdCczGQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 494
-ht-degree: 97%
-
+source-wordcount: '458'
+ht-degree: 81%
 ---
-
 # 反向链接域
 
 “反向链接域”[维度](overview.md)报告访客点击了哪些域才能访问您的网站。 此维度有助于了解哪些第三方网站给您的网站带来了最多的流量。 链接必须存在于外部网站上，且访客必须单击该链接才能显示维度项目。
@@ -40,10 +50,16 @@ ht-degree: 97%
 
 ## 使用数据填充此维度
 
-此维度需要在 Analytics 界面中进行配置，并且需要图像请求中的数据。
+Adobe使用反向链接URL的域部分，从每次点击的[反向链接](referrer.md)派生此维度。 没有要设置的变量。 必须配置报表包的[内部URL过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)；否则，可能会包含内部域或阻止出现外部域。
 
-* 在实施中，此维度从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 AppMeasurement 使用浏览器中的 JavaScript 变量 `document.referrer` 收集此数据。 如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在图像请求中包含 `r` 查询字符串参数。
-* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 如果未配置内部 URL 过滤器，则可能会包含内部域，或者阻止外部域显示。
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（派生自反向链接） |
+| **Web SDK / XDM字段** | 无（派生自反向链接） |
+| **查询参数** | 不适用 |
+| **XML标记** | 不适用 |
+| **字节限制** | 不适用 |
+| **持久性** | 访问 |
 
 Adobe 会在一次访问期间保留反向链接域。 如果访客离开并在单次访问中点击不同域上的链接，则新值会更新并且在剩余的访问时间内持续存在。 如果只想查看原始值，请参阅[原始反向链接域](original-referring-domain.md)。
 

@@ -6,43 +6,55 @@ exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 272
-ht-degree: 80%
-
+source-wordcount: '330'
+ht-degree: 61%
 ---
-
 # 邮政编码
 
 “邮政编码”[维度](overview.md)报告访客的邮政编码。 利用此维度，您可以进一步了解本地广告是否成功或了解网站在全球哪个地区的表现最好。
 
 ## 使用数据填充此维度
 
-此维度的独特之处在于，可通过多种方式用数据填充它。 您可以使用其中一种方法，也可以同时使用两种。
+此维度的独特之处在于，可通过多种方式用数据填充它。 您可以使用其中一种方法，也可以同时使用两种：
 
-* 使用 `zip` 变量直接设置邮政编码，或
-* 将其配置为从地理位置数据中提取。
+* 使用[`zip`](/help/implement/vars/page-vars/zip.md)变量直接设置邮政编码。
+* 将其配置为从地理位置数据中提取。 使用地域zip时，未设置变量。 对于AppMeasurement实施，此维度可开箱即用。 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)时启用[!UICONTROL 地理查找]。
 
-[常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)下的[!UICONTROL 邮编选项]控制着填充此维度的方式。
+[常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)下的[!UICONTROL 邮编选项]控制着填充此维度的方式。 当您直接设置`zip`变量时，将应用下面的参考表。
 
-如果您选择使用任何涉及地域邮政编码的选项：
-
-* 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 地理查找]。
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | [`zip`](/help/implement/vars/page-vars/zip.md) |
+| **Web SDK / XDM字段** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **查询参数** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML标记** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **字节限制** | 50字节 |
+| **持久性** | 点击 |
 
 ## 维度项目
 

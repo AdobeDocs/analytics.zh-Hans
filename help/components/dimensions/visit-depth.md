@@ -6,32 +6,48 @@ exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 TQID: https://experienceleague.adobe.com/mT5dQzR6edNpvU6Fbf9LlLwQuxW6RA-ZCZJDaIFkyAw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 170
-ht-degree: 90%
-
+source-wordcount: '209'
+ht-degree: 68%
 ---
-
 # 访问深度
 
-“访问深度”[维度](overview.md)报告访客在整个访问中查看的页面查看次数。 仅当点击为页面查看，且[页面](page.md)维度与最后页面查看的维度项目不同时，访问深度才会增加。 它是一个基于访问的维度，这意味着它在整个访问期间包含的值是相同的。 该变量针对访问结束后访问中的所有点击设置。
+“访问深度”[维度](overview.md)报告访客在整个访问中查看的页面查看次数。 仅当点击为页面查看，且[页面](page.md)维度与最后页面查看的维度项目不同时，访问深度才会增加。 它是一个基于访问的维度，这意味着它在整个访问期间包含的值是相同的。 该变量会在访问结束后为该次访问中的所有点击设置。
 
 ## 使用数据填充此维度
 
-此维度可开箱即用于所有实施。 如果报表包包含数据，则此维度有效。
+Adobe根据每次访问的页面查看量计算此维度服务器端。 没有变量可供设置；它可开箱即用于所有实施。
+
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（由Adobe计算） |
+| **Web SDK / XDM字段** | 无（由Adobe计算） |
+| **查询参数** | 不适用 |
+| **XML标记** | 不适用 |
+| **字节限制** | 不适用 |
+| **持久性** | 访问 |
 
 ## 维度项目
 

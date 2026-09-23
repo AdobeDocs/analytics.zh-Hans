@@ -6,23 +6,28 @@ exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 TQID: https://experienceleague.adobe.com/8e9126PxGCNXJqo4a3XYTgXwrcHdf34FVwygpHXm5JI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 560
-ht-degree: 100%
-
+source-wordcount: '625'
+ht-degree: 88%
 ---
-
 # 跟踪代码
 
 “跟踪代码”[维度](overview.md)会列出您的网站上跟踪代码的名称。 您可以将具有不同查询字符串参数值的链接放在互联网的不同位置。 此维度可以帮助您了解哪些链接最能成功为您的网站带来流量。
@@ -31,7 +36,16 @@ ht-degree: 100%
 
 ## 使用数据填充此维度
 
-此维度从图像请求中的 [`v0` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 AppMeasurement 使用 [`campaign`](/help/implement/vars/page-vars/campaign.md) 变量收集此数据。
+AppMeasurement 使用 [`campaign`](/help/implement/vars/page-vars/campaign.md) 变量收集此数据。 此变量通常使用[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md)实用工具方法从查询字符串获取其值，但您的组织会确切确定如何设置它。
+
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
+| **Web SDK / XDM字段** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **查询参数** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML标记** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **字节限制** | 255字节 |
+| **持久性** | 可配置 |
 
 ## 维度项目
 

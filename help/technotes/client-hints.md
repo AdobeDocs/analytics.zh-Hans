@@ -7,25 +7,33 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/0dV7b-gqSjMC-4anyH9dTzXCiv4Yfi1tKijaDQw2dSE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Customer journeys
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1283
-ht-degree: 78%
-
+source-wordcount: '1278'
+ht-degree: 76%
 ---
-
 # 客户端提示概述和常见问题解答
 
 客户端提示是有关用户设备的各项独立信息。 它们由 Chromium 浏览器提供，例如 Google Chrome 和 Microsoft Edge。 对于这些浏览器，客户端提示将逐渐取代 User-Agent 作为设备信息的来源。 Adobe Analytics 将更新其设备查找过程，以使它在 User-Agent 之外使用客户端提示确定设备信息。
@@ -58,7 +66,7 @@ Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您
 
 这两个库&#x200B;**在默认情况下禁用**&#x200B;高熵提示的收集。
 
-对于通过 API（例如，通过[数据插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 或[批量数据插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)）提交的数据，提示必须明确包含在负载中。 请参阅相应文档以了解详细信息。
+对于通过 API（例如，通过[数据插入 API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) 或[批量数据插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)）提交的数据，提示必须明确包含在负载中。 请参阅相应文档以了解详细信息。
 
 +++
 
@@ -152,7 +160,7 @@ Adobe 使用第三方 Device Atlas，后者将同时使用客户端提示和 Use
 
 +++**使用 API 提交时如何包含客户端提示数据？**
 
-请参阅有关通过[批量数据插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/) 包含这些数据的文档。
+请参阅有关通过[批量数据插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/) 包含这些数据的文档。
 
 +++
 

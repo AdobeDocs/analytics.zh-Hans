@@ -6,25 +6,32 @@ exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
 TQID: https://experienceleague.adobe.com/f9AknIwL-9ZMJ8tnGMxpUNmlkQiFmbjI3gtlP3KZtSQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 296
-ht-degree: 75%
-
+source-wordcount: '318'
+ht-degree: 45%
 ---
-
 # 浏览器宽度
 
 “浏览器宽度 — 分段统计”维度[维度](overview.md)显示浏览器窗口的宽度，并将其分类为预定义的组。 当您想要了解访客查看内容的范围时，此维度非常有用。 了解您的内容通常在中查看的宽度可以让您优化该内容。
@@ -43,9 +50,16 @@ console.log(`Browser width: ${window.innerWidth} pixels\nScreen width: ${screen.
 
 ## 使用数据填充此维度
 
-此维度从图像请求中的 [`bw` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。 AppMeasurement 使用浏览器中的 JavaScript 变量 `window.innerWidth` 收集此数据。 如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在每个访问的首次点击时包含 `bw` 查询字符串参数。
+从浏览器的`window.innerWidth`属性自动在客户端收集浏览器宽度。 它可以在任何AppMeasurement或Web SDK（标记）实施中开箱即用 — 没有要设置的变量。 如果您在AppMeasurement或Web SDK之外收集数据（例如通过API），请在每次访问首次点击时发送值。 如果在访问过程中调整了浏览器宽度，则不会记录调整的情况。
 
-Adobe 会在一次访问期间保留浏览器宽度。 如果在访问过程中调整了浏览器宽度，则不会记录调整的情况。
+| 属性 | 值 |
+| --- | --- |
+| **AppMeasurement变量** | 无（自动收集） |
+| **Web SDK / XDM字段** | 无（自动收集） |
+| **查询参数** | [`bw`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML标记** | [`<browserWidth>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **值范围** | 0-65,535 |
+| **持久性** | 访问 |
 
 ## 维度项目
 
