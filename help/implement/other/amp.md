@@ -111,7 +111,7 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 </amp-analytics>
 ```
 
-`<amp-analytics>`标记支持变量替换，因此AMP能够提供它感知到的数据值。 有关详细信息，请参阅GitHub上`amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支持的[变量。
+`<amp-analytics>`标记支持变量替换，因此AMP能够提供它感知到的数据值。 有关详细信息，请参阅GitHub上`amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支持的变量。
 
 >[!NOTE]
 >

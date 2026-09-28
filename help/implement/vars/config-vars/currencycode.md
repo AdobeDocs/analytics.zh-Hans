@@ -71,7 +71,7 @@ ht-degree: 96%
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
 1. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 货币代码]字段。
 
 您可以使用预设货币代码或自定义货币代码。 如果使用自定义货币代码，请确保该代码有效。

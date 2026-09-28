@@ -51,7 +51,7 @@ Web SDK尚不提供对其设置的Cookie生命周期的自定义。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
 1. 展开[!UICONTROL Cookie]折叠面板，这会显示[!UICONTROL Cookie生命周期]下拉列表。
 
 此下拉列表包含以下值：

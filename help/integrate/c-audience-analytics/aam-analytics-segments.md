@@ -47,7 +47,7 @@ Audience Manager区段会员资格不稳。 用户可以输入或退出区段，
 
 Audience Manager区段在Analytics中表示为受众。
 
-有关详细信息，请参阅区段生成器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hans)中的[特征和区段人口数据[信号、特征和区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=zh-Hans)。
+有关详细信息，请参阅区段生成器[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hans)中的特征和区段人口数据[信号、特征和区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=zh-Hans)。
 
 ## Analytics 区段 {#analytics-segments}
 

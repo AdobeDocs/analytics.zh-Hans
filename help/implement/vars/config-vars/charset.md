@@ -53,7 +53,7 @@ Web SDK当前仅支持UTF-8，不提供更改编码的选项。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
 1. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 字符集]字段。
 
 您可以使用预设字符集或自定义字符集。 除非您在报表中看到乱码值，否则避免更改 `UTF-8` 值。

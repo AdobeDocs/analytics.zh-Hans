@@ -57,7 +57,7 @@ ht-degree: 2%
 | **[!UICONTROL 分类集]** | 与分类作业关联的分类集。 |
 | **[!UICONTROL 大小]** | 作为分类作业的一部分导出或导入的文件的大小。 |
 | **[!UICONTROL 状态]** | 分类作业的状态。 可能的值包括：**[!UICONTROL 已创建]**、**[!UICONTROL 已排队]**、**[!UICONTROL 已验证]**、**[!UICONTROL 已失败的验证]**、**[!UICONTROL 正在处理]**、**[!UICONTROL 已完成处理]**、**[!UICONTROL 已失败的处理]**、**[!UICONTROL 已完成]**&#x200B;或&#x200B;**[!UICONTROL 进度]**。 如果显示，将鼠标悬停在警报![警报](/help/assets/icons/Alert.svg)上以显示其他信息。 |
-| **[!UICONTROL 文件名]** | 标识在分类作业中用于导入或导出文件的名称或功能。 可能的值包括： <ul><li>*没有值*</li><li>分类作业中处理的文件的名称。</li><li>**[!UICONTROL SAINT导出]**：作业是从[旧版分类界面](/help/components/classifications/importer/c-working-with-saint.md)的导出。</li><li>**[!UICONTROL 导出位于&#x200B;_时间戳_]**的_&#x200B;分类集&#x200B;_：作业是从[架构](manage/schema.md#download)界面下载的。</li></ul> |
+| **[!UICONTROL 文件名]** | 标识在分类作业中用于导入或导出文件的名称或功能。 可能的值包括： <ul><li>*没有值*</li><li>分类作业中处理的文件的名称。</li><li>**[!UICONTROL SAINT导出]**：作业是从[旧版分类界面](/help/components/classifications/importer/c-working-with-saint.md)的导出。</li><li>**[!UICONTROL 导出位于&#x200B;_时间戳_]**&#x200B;的_&#x200B;分类集&#x200B;_：作业是从[架构](manage/schema.md#download)界面下载的。</li></ul> |
 | **[!UICONTROL 作业类型]** | 分类作业的类型。 可能的值为： **[!UICONTROL Import]**&#x200B;或&#x200B;**[!UICONTROL Export]**。 |
 | **[!UICONTROL 来源]** | 分类作业的源。 有关可能源的详细信息，请参阅[筛选器面板](#filter-panel)。 |
 | **[!UICONTROL 已修改的行]** | 分类作业修改的修改行数。 |

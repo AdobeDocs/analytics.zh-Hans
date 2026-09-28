@@ -71,7 +71,7 @@ ht-degree: 37%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[区段中的滚动日期范围](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [区段中的滚动日期范围](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +81,7 @@ ht-degree: 37%
 可在 Analysis Workspace 中创建不同类型的区段：
 
 * [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [您在[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中创建并且最终位于[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中的常规区段](/help/components/segmentation/segmentation-workflow/seg-create.md)
+* [&#128279;](/help/components/segmentation/segmentation-workflow/seg-create.md)您在[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中创建并且最终位于[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中的常规区段
 
 
 >[!BEGINSHADEBOX]
