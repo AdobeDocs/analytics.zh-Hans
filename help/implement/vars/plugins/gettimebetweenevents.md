@@ -7,29 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/czmpdg5-e3fQre5aPKg9uWGpHW-JzIPuOv0kCyETGeo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 91%
-
 ---
-
 # Adobe 插件：getTimeBetweenEvents
 
 {{plug-in}}
 
-`getTimeBetweenEvents` 插件允许您跟踪任意两个 Analytics 事件（包括购物车事件和自定义事件）之间间隔的时长。 此插件可用于跟踪完成结帐流程所需的时间，也可以用于跟踪您想要测量的任何其他流程所需的时间。 如果您的任何转化流程都不需要测量所用的时间，则无需使用此插件。
+`getTimeBetweenEvents` 插件允许您跟踪任意两个 Analytics 事件（包括购物车事件和自定义事件）之间间隔的时长。 此插件可用于跟踪完成结账过程所需的时间，也可以用于跟踪您想要测量的任何其他流程所需的时间。 如果您的任何转化流程都不需要测量所用的时间，则无需使用此插件。
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
@@ -43,9 +51,9 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
-1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+1. 如果您尚未这样做，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心 - 已加载的库（页面顶部）
+   * 事件：核心 - 库已加载（页面顶部）
 1. 使用以下配置向上述规则添加操作：
    * 扩展：常用 Analytics 插件
    * 操作类型：初始化 getTimeBetweenEvents
@@ -76,7 +84,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 `getTimeBetweenEvents` 函数使用以下参数：
 
-* **`ste`**（必需，字符串）：“启动计时器”事件。 由 Analytics“启动计时器”事件构成的以逗号分隔的字符串。
+* **`ste`**（必需，字符串）：“启动计时器”事件。 用于“启动计时器”的 Analytics 事件的逗号分隔字符串。
 * **`rt`**（必需，布尔）：“重新启动计时器”选项。 如果希望每当 `events` 变量包含“启动计时器”事件时便重新启动计时器，则设置为 `true`。 如果不希望在遇到“启动计时器”事件时重新启动计时器，则设置为 `false`。
 * **`stp`**（必需，字符串）：“停止计时器”事件。 由 Analytics“停止计时器”事件构成的以逗号分隔的字符串。
 * **`res`**（必需，布尔）：“重置计时器”选项。 如果要在计时器启动时开始记录时间，并在计时器停止后重置计时器，则设置为 `true`。 如果要记录时间但不停止计时器，则设置为 `false`。 如果设置为 `false`，则在 events 变量记录到停止事件后，计时器将继续运行。
@@ -87,15 +95,15 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`cn`**（可选，字符串）：存储了首个事件的时间的 Cookie 名称。 默认值为 `"s_tbe"`。
 * **`etd`**（可选，整数）：Cookie 的过期时间（以天为单位）。 如果希望 Cookie 在浏览器会话结束时过期，则设置为 `0`。 如果未设置任何值，则将使用默认值，即 1 天。
 * **`fmt`**（可选，字符串）：返回秒数时采用的时间格式（默认值为“无”）
-   * `"s"` 表示秒
-   * `"m"` 表示分钟
-   * `"h"` 表示小时
-   * `"d"` 表示天
-   * 如果未设置，则返回值的格式将遵循以下规则：
-      * 若返回值小于 1 分钟，则会以“5 秒”为基准四舍五入到最接近的值。 例如：10 秒、15 秒
-      * 若返回值介于 1 分钟和 1 小时之间，则会以“0.5 分钟”为基准四舍五入到最接近的值。 例如，30.5 分钟、31 分钟
-      * 若返回值介于 1 小时和 1 天之间，则会以“0.25 小时”为基准四舍五入到最接近的值。 例如，2.25 小时、3.5 小时
-      * 若返回值大于 1 天，则会以“1 天”为基准四舍五入到最接近的值。 例如，1 天、3 天、9 天
+  * `"s"` 表示秒
+  * `"m"` 表示分钟
+  * `"h"` 表示小时
+  * `"d"` 表示天
+  * 如果未设置，则返回值的格式将遵循以下规则：
+    * 若返回值小于 1 分钟，则会以“5 秒”为基准四舍五入到最接近的值。 例如：10 秒、15 秒
+    * 若返回值介于 1 分钟和 1 小时之间，则会以“0.5 分钟”为基准四舍五入到最接近的值。 例如，30.5 分钟、31 分钟
+    * 若返回值介于 1 小时和 1 天之间，则会以“0.25 小时”为基准四舍五入到最接近的值。 例如，2.25 小时、3.5 小时
+    * 任何大于一天的值都会四舍五入到最接近的天数基准。 例如，1 天、3 天、9 天
 * **`bml`**（可选，数字）：根据 `fmt` 参数的格式，作为四舍五入基准的时长。 例如，如果 `fmt` 参数为 `"s"` 且此参数为 `2`，则返回值将以“2 秒”为基准四舍五入到最接近的值。 如果 `fmt` 参数为 `"m"` 且此参数为 `0.5`，则返回值将以“0.5 分钟”为基准四舍五入到最接近的值。
 * **`rte`**（可选，字符串）：由 Analytics“删除计时器”事件构成的以逗号分隔的字符串。 默认值为“无”。
 

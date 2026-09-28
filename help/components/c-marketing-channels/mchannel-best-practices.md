@@ -3,26 +3,35 @@ title: 实施 Adobe Analytics 营销渠道的最佳实践
 description: 将营销渠道用于归因和 Customer Journey Analytics 的更新后最佳实践
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
+TQID: 'https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '669'
 ht-degree: 78%
-
 ---
-
 # 归因和营销渠道 - 最佳实践
 
 [营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)是 Adobe Analytics 宝贵且强大的功能。 在制定有关营销渠道的当前指南时，[归因](/help/analyze/analysis-workspace/attribution/overview.md)和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hans#cja-usecases) 都还不存在。

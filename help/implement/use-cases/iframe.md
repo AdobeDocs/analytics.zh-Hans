@@ -4,25 +4,35 @@ description: 访问 iframe 中的 Adobe Analytics 变量，或者在 iframe 中�
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/og9yeHUn5BJVm8-22V2l1frcpluXdlI-f0LnyjFacnk
+TQID: 'https://experienceleague.adobe.com/og9yeHUn5BJVm8-22V2l1frcpluXdlI-f0LnyjFacnk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '319'
 ht-degree: 95%
-
 ---
-
 # 将 AppMeasurement 与 iframe 一起使用
 
 您可从子和父 iframe 引用 AppMeasurement 变量。 必须在与 AppMeasurement 库所在的相同位置定义所有变量。 以下示例说明了如何在 iframe 内部和外部设置基本 AppMeasurement 变量和方法。

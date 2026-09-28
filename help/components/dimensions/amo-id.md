@@ -17,6 +17,11 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -24,18 +29,18 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 3%
 ---
 # AMO ID
 
-**[!UICONTROL AMO ID]**&#x200B;是Adobe Advertising集成中使用的连接标识符的集合。 此维度中存储的值会自动组织为更加易于用户识别的单独分类维度，以用于Analytics报表。 启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
+**[!UICONTROL AMO ID]**&#x200B;是Adobe Advertising集成中使用的连接标识符的集合。 此维度中存储的值会自动组织为更加易于用户识别的单独分类维度，以用于Analytics报表。 启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。
 
 ## 使用数据填充此维度
 
-此维度由[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成自动填充；没有可设置的变量。
+此维度由[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成自动填充；没有可设置的变量。
 
 | 属性 | 值 |
 | --- | --- |
@@ -164,7 +169,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 分类
 
-启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，会自动创建以下分类。 分类值由集成自动维护。
+启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，会自动创建以下分类。 分类值由集成自动维护。
 
 | 分类 | 描述 | DSP | 搜索、<br>Social和<br>Commerce |
 | --- | --- | :---: | :---: |
@@ -176,7 +181,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 | **[!UICONTROL 广告平台]** | 广告DSP或搜索引擎名称。 | 检查(&amp;C)； | 检查(&amp;C)； |
 | **[!UICONTROL 广告标题]** | 广告类型(DSP)或广告标题（搜索、社交和Commerce）。 | 检查(&amp;C)； | 检查(&amp;C)； |
 | **[!UICONTROL 广告类型]** | 广告类型，如`text`、`video`、`display`或`native`。 | 检查(&amp;C)； | 检查(&amp;C)； |
-| **[!UICONTROL AdCloud属性1]** -<br>**[!UICONTROL AdCloud属性5 &#x200B;]** | 预留给未来自定义属性的占位符分类。 当前未使用。 | | |
+| **[!UICONTROL AdCloud属性1]** -<br>**[!UICONTROL AdCloud属性5 ]** | 预留给未来自定义属性的占位符分类。 当前未使用。 | | |
 | **[!UICONTROL Campaign]** | 营销活动名称。 | 检查(&amp;C)； | 检查(&amp;C)； |
 | **[!UICONTROL Creative体验名称]** | 与广告交互关联的创意体验的名称，表示在测试或个性化中使用的一组创意变体。 | 检查(&amp;C)； | |
 | **[!UICONTROL Creative分支名称]** | 创意体验中表示创意体验中特定变体或路径的分支名称。 | 检查(&amp;C)； | |

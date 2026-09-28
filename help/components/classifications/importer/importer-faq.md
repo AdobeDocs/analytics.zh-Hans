@@ -3,27 +3,35 @@ title: 分类常见问题解答
 description: 使用分类的常见问题解答。
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-TQID: https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew
+TQID: 'https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 86%
-
 ---
-
 # 分类导入器常见问题解答
 
 {{classification-importer-deprecation}}
@@ -40,7 +48,7 @@ ht-degree: 86%
 
   *如果[维度]等于 `0`，则使用自定义值 `Zero` 覆盖[维度]的值。*
 
-* **请求设置 VISTA 规则**：工程服务顾问可为您设置服务器端规则，但需支付额外费用。 请联系您的 Adobe 客户团队以请求 VISTA 规则。
+* **请求设置 VISTA 规则**：工程服务顾问可为您设置服务器端规则，但需支付额外费用。 请联系您的 Adobe 帐户团队以请求 VISTA 规则。
 
 ## 是否可以使用分类导入器对尚不存在的维度项目进行分类？
 
@@ -60,7 +68,7 @@ ht-degree: 86%
 3. 配置导出设置，并确保未选中“引用输出”。
 4. 单击&#x200B;**[!UICONTROL 导出文件]**，然后在电子表格编辑器中打开下载的文件。
 5. 在第 1 行，找到包含值 `v:2.0` 的单元格 C1。 将该值更改为 `v:2.1` 并将所需的分类应用到工作簿。
-6. 像上载任何其他分类一样上载该文件。
+6. 像上传任何其他分类一样上传该文件。
 
 ## 什么是数值 2 分类？
 

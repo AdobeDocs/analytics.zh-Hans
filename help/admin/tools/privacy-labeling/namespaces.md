@@ -1,5 +1,5 @@
 ---
-description: 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在所有报告包之间使用的任何变量中识别该 ID。
+description: 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在您的所有报告包中使用该 ID 的任何变量中识别该 ID。
 title: 命名空间
 feature: Data Governance
 role: Admin
@@ -7,25 +7,34 @@ exl-id: 421572c2-2789-48bc-b530-d48216799724
 TQID: 'https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: '942'
 ht-degree: 81%
-
 ---
-
 # 命名空间
 
 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在所有报告包之间使用的任何变量中识别该 ID。
@@ -36,7 +45,7 @@ ht-degree: 81%
 * 对于大多数Adobe Analytics请求而言，包含值“analytics”的“type”字段。
 * “value”字段，其中包含 Analytics 应在每个报告包的关联命名空间变量中搜索的 ID。
 
-有关更多详细信息和[标准身份命名空间列表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix#standard-namespaces)，请参阅[CX企业数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。 请参阅[创建一个访问/删除作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/privacy-jobs#access-delete)中的一个请求示例。
+有关更多详细信息和[标准身份命名空间列表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/appendix#standard-namespaces)，请参阅[CX Enterprise数据隐私API文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。 请参阅[创建一个访问/删除作业](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/privacy-jobs#access-delete)中的一个请求示例。
 
 ## Cookie ID
 
@@ -76,7 +85,7 @@ ht-degree: 81%
 }
 ```
 
-该值必须指定为一个 38 位十进制数。 如果您要从数据馈送或 Data Warehouse 报告的 mcvisid\_high/low 或 post\_msvisid\_high/low 两列中提取该数字，则必须将这两个数字都补零为 19 位，然后先将它们与高值连接起来。
+该值必须指定为一个 38 位十进制数。 如果您要从数据馈送或 Data Warehouse 报告的 mcvisid\_high/low 或 post\_msvisid\_high/low 两列中提取该数字，则必须将这两个数字都补零为 19 位，然后按高值在前的顺序将它们连接起来。
 
 此外，也可以转而使用 `"namespaceId": 4` 作为 `"namespace": "ECID"` 的代替或补充，您可能会看到其他一些 Adobe 产品使用该表单。
 
@@ -84,7 +93,7 @@ ht-degree: 81%
 >
 >Experience Cloud ID (ECID) 以前称为 Marketing Cloud ID (MCID)，在一些现有的文档中依然会采用这种旧称。
 >
->这些 ID 是 Analytics 支持的唯一 ID，使用“type”值而不是“analytics”值。
+>这些 ID 是 Analytics 支持的唯一一类 ID，其“type”值不是“analytics”。
 
 若任何这些 Cookie ID 的值格式与规定的该 ID 格式不符，则数据隐私请求会失败，并出现“值格式不正确”的错误消息。
 
@@ -125,7 +134,7 @@ ht-degree: 81%
 
 >[!TIP]
 >
->在为数据隐私 API 指定命名空间时，请避免使用变量的友好名称（报告 UI 中显示的名称）或变量的编号（如 eVar12），除非该友好名称或变量编号也是您在应用 ID-DEVICE 或 ID-PERSON 标签时指定的命名空间。 使用命名空间而不是友好名称可以使相同的用户身份标识块为多个报告包指定正确的变量： 例如，当 ID 在某些报告包中位于不同的 eVar 中时，或者友好名称不匹配时（例如，友好名称已在特定的报告包中本地化）。
+>在为数据隐私 API 指定命名空间时，请避免使用变量的友好名称（报告 UI 中显示的名称）或变量的编号（如 eVar12），除非该友好名称或变量编号也是您在应用 ID-DEVICE 或 ID-PERSON 标签时指定的命名空间。 使用命名空间而不是友好名称，可以使相同的用户身份标识块为多个报告包指定正确的变量。 例如，当 ID 在某些报告包中位于不同的 eVar 中时，或者友好名称不匹配时（例如，友好名称已在特定的报告包中本地化）。
 
 >[!CAUTION]
 >

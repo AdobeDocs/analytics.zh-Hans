@@ -8,22 +8,28 @@ exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 TQID: 'https://experienceleague.adobe.com/EFK6z98koW7Ho6GRLyIhEd3UVIAF9XccIdcmzoNRFsc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '307'
 ht-degree: 53%
-
 ---
-
 # 分类层次结构
 
 “分类层次结构”页面可让您定义分类层次结构，将其用于创建具有相同名称的“层次结构”报表。
@@ -47,10 +53,10 @@ ht-degree: 53%
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**。
 1. 选择某个报表包。
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 分类层次结构]**。
-1. 从&#x200B;**&#x200B;**&#x200B;要构建层次结构的对象下拉列表中，选择要创建分类层次结构的变量。
+1. 从&#x200B;****&#x200B;要构建层次结构的对象下拉列表中，选择要创建分类层次结构的变量。
 
    分类列表将自动显示所选变量可用的分类。
-1. 将一个分类拖入&#x200B;**&#x200B;**&#x200B;将新的层次结构根级别拖到此处字段，使其包括在分类层次结构中。
+1. 将一个分类拖入&#x200B;****&#x200B;将新的层次结构根级别拖到此处字段，使其包括在分类层次结构中。
 
    将分类以您希望它们在层次结构中显示的顺序拖入层次结构中。 第一个分类是层次结构根，第二个分类是第一个子分类，依此类推。
 1. 单击&#x200B;**[!UICONTROL 保存]**。

@@ -1,30 +1,40 @@
 ---
 title: 迁移到 AppMeasurement for JavaScript
-description: 确定从 H 码迁移实施所需的内容。
+description: 确定使您的实施迁离 H 码所需的内容。
 feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 role: Developer
 TQID: 'https://experienceleague.adobe.com/Ml3fp170Ggn8-lpJCvDOAMBMF1izsmrG0BAnWcS-BUo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 297
+source-wordcount: '297'
 ht-degree: 90%
-
 ---
-
 # 迁移到 AppMeasurement for JavaScript
 
 如果您的实施仍使用 H 码，Adobe 强烈建议迁移到最新版 AppMeasurement。 建议通过 [Adobe Experience Platform 中的标记](../launch/overview.md) 实施 Analytics，但也可以使用更新的 JavaScript 实施。
@@ -35,10 +45,10 @@ ht-degree: 90%
 * 比 H 码更轻 - 21kb（未压缩）相对于 H 码的 33kb（未压缩）。
 * 库和页面代码可以部署在 `<head>` 标记中。
 * 现有的页面级别 H 码与 AppMeasurement 兼容。
-* 该库提供了一些本地实用工具，用来获取查询参数、读取和写入 Cookie，以及执行高级链接跟踪。
+* 该库提供了一些原生实用工具，用来获取查询参数、读取和写入 Cookie，以及执行高级链接跟踪。
 * 该库不支持动态帐户配置变量（包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`）。
 
-以下步骤概述了典型的迁移工作流程。
+以下步骤概述了典型的迁移工作流。
 
 1. **下载新的 AppMeasurement 文件**：登录到 Adobe Analytics，然后导航到“管理员”>“所有管理员”>“代码管理器”以访问新文件。 下载的压缩文件包含一个缩小的 `AppMeasurement.js` 文件，以及媒体和集成模块。
 1. **将 `s_code.js` 自定义项复制到`AppMeasurement.js`**：将 `s_code.js` 中 `DO NOT ALTER ANYTHING BELOW THIS LINE` 部分之前的所有代码移到 `AppMeasurement.js` 的开头。

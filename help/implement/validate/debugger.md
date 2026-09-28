@@ -8,9 +8,14 @@ TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +32,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 74%
@@ -36,7 +41,7 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->Adobe 将不再维护此调试工具。 Adobe建议改用[Adobe CX Enterprise Debugger Chrome扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)。
+>Adobe 将不再维护此调试工具。 Adobe建议改用[Adobe CX Enterprise Debugger Chrome扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
 
 [!UICONTROL 旧版Debugger]可检查大多数Adobe CX Enterprise服务的标签。 通过使用该调试器，您可以查看在您网站上的任何给定页面上向 Adobe 发送了哪些数据。 您可以使用此信息对贵组织的实施进行故障诊断或验证。
 

@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/fmbMByXfPMR4C0gUmt3HIAoY1vwIXqTVzE97o9F1rK0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '873'
 ht-degree: 62%
-
 ---
-
 # tl
 
 `tl()` 方法是 Adobe Analytics 的一个重要核心组件。 它将获取页面上定义的所有 Analytics 变量，将其编译为图像请求，并将该数据发送到 Adobe 数据收集服务器。 它的工作方式与 [`t()`](t-method.md) 方法类似，但此方法不会增加页面查看次数。 它对于跟踪链接和其他不会被视为完整页面加载的元素很有用。
@@ -193,7 +201,7 @@ function trackClickInteraction(name){
 
 ### 避免跟踪重复链接
 
-如果已启用 `trackDownloadLinks` 或 `trackExternalLinks`，则在正确的过滤器匹配的情况下，AppMeasurement 会自动进行链接跟踪调用。 如果您还为这些链接点击手动调用 `s.tl()`，则可以向 Adobe 发送重复数据。 重复数据会虚增报表数量，使其不太准确。
+如果已启用 `trackDownloadLinks` 或 `trackExternalLinks`，则在正确的过滤器匹配的情况下，AppMeasurement 会自动进行链接跟踪调用。 如果您还为这些链接点击手动调用 `s.tl()`，则可以向 Adobe 发送重复数据。 重复数据会虚增报告数字，使其不太准确。
 
 例如，以下函数将为同一链接点击（手动和自动下载链接）发送两个链接跟踪调用：
 

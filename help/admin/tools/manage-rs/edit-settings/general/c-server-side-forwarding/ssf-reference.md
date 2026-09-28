@@ -1,32 +1,43 @@
 ---
 description: 服务器端转发调用中的配置变量、HTTP 头和数据信号的综合列表及描述。
-title: 服务器端转发数据和代码引用
+title: 服务器端转发数据和代码参考
 feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
 TQID: 'https://experienceleague.adobe.com/DuHi1F4wU6EfxGe8s9EWZ54TX7KnkN3MmAOUE8a9oqw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 88%
-
 ---
-
-# 服务器端转发数据和代码引用
+# 服务器端转发数据和代码参考
 
 服务器端转发调用中的配置变量、HTTP 头和数据信号的综合列表及描述。
 
@@ -79,7 +90,7 @@ ht-degree: 88%
 | `c_latitude` | 数值纬度 |
 | `c_linkClick` | 选项包括：自定义、下载退出 |
 | `c_linkCustomName` | 为链接提供的自定义名称（如果有）。 |
-| `c_linkDownloadURL` | 下载链接 URL。 |
+| `c_linkDownloadURL` | 下载链接的 URL。 |
 | `c_linkExitURL` | 退出链接 URL。 |
 | `c_list#` | 自定义列表变量。 |
 | `c_longitude` | 数值经度。 |

@@ -7,17 +7,23 @@ exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 TQID: 'https://experienceleague.adobe.com/jPLoQcRU8bpCGjKJ37mioUdZOFDUwNehmyBhdx7lj8c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '296'
 ht-degree: 38%
-
 ---
-
 # 算法归因
 
 Analysis Workspace 中的算法[归因模型](models.md)与其他模型有所不同，因为该模型会使用统计技术为报表或自由格式表中的各维度项目分配点数。 与Analysis Workspace中的所有其他归因模型一样，算法归因可用于任何维度或量度。 算法归因支持无限分段和细分，并为表中的一个或多个维度分配100%的转化（也称为“分数”归因）。
@@ -25,7 +31,7 @@ Analysis Workspace 中的算法[归因模型](models.md)与其他模型有所不
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [算法归因](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[算法归因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

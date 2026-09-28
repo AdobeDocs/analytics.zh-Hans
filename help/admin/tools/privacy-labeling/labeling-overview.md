@@ -1,39 +1,53 @@
 ---
-description: 为报告包数据设置标签即是向给定报告包中的每个变量分配身份标识、敏感性和数据管理标签。
+description: 为报告包数据设置标签即是向给定报告包中的每个变量分配身份标识、敏感性和数据治理标签。
 title: 隐私标签概述
 feature: Data Governance
 role: Admin
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-TQID: https://experienceleague.adobe.com/xEs37qiYjTVJWRDKa7HwJqfTtyBYKstA6ehq1-0qKt0
+TQID: 'https://experienceleague.adobe.com/xEs37qiYjTVJWRDKa7HwJqfTtyBYKstA6ehq1-0qKt0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: '534'
 ht-degree: 89%
-
 ---
-
 # 隐私标签概述
 
-为报告包数据设置标签即是向给定报告包中的每个变量分配身份标识、敏感性和数据管理标签。 请确保您首先要熟悉[标签及其定义](/help/admin/tools/privacy-labeling/labels.md)。
+为报告包数据设置标签即是向给定报告包中的每个变量分配身份标识、敏感性和数据治理标签。 请确保您首先要熟悉[标签及其定义](/help/admin/tools/privacy-labeling/labels.md)。
 
 >[!NOTE]
 >
@@ -54,7 +68,7 @@ ht-degree: 89%
    * **标准组件** – 标准组件是在 Analytics 实施中默认收集的现成的 Analytics 维度和量度。
    * **转化变量** – 自定义洞察转化变量（或 eVar）置于您网站所选网页的 Adobe 代码中。 其主要目的是在自定义市场营销报告中划分转化成功量度区段。 eVar 可以是基于访问的，其功能与 Cookie 类似。 在预先设定的一段时间内，传递到 eVar 变量的值将始终“跟随”着用户。
    * **列表变量** – 列表变量是自定义变量，您可以根据需要随意使用。 它们的工作方式与 eVar 类似，只是它们可以在同一点击中包含多个值。 列表变量没有字符限制。
-   * **流量变量** – 自定义洞察流量变量（或 props）可让您将自定义数据与特定流量相关事件进行关联。 prop 变量会嵌入网站每个页面的执行代码中。
+   * **流量变量** – 自定义洞察流量变量（或 props）可让您将自定义数据与特定流量相关事件进行关联。 prop 变量会嵌入网站每个页面的实施代码中。
    * **成功事件** – 成功事件（也称为转化事件或自定义事件）是可以跟踪的操作。 什么是成功事件完全由您来决定。 例如，如果访客购买一件产品，该购买事件可被视为成功事件。
    * **分类** – 分类用于将 Analytics 报告数据映射到相关属性。 分类的用途广泛，但最常用于对促销活动跟踪代码（内部和外部）和产品 ID 进行分类。
 

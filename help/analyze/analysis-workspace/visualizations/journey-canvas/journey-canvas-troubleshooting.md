@@ -3,18 +3,30 @@ description: 了解如何使用Analysis Workspace中的历程画布可视化图�
 title: 历程画布故障排除
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
-
 ---
-
 # 历程画布故障排除
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了历程画布可视化图表。<br/><br/>_&#x200B;对于本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[历程画布概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中记录了历程画布可视化图表。<br/><br/>_&#x200B;对于本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本，请参阅[历程画布概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
 
 >[!ENDSHADEBOX]
 
@@ -94,7 +106,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++起始节点百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**起始节点的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**起始节点的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-higher-percentage.png)
 
@@ -108,7 +120,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++以前的节点百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**前一个节点的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**前一个节点的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-percentage-previous.png)
 
@@ -122,7 +134,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++总数的百分比
 
-如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;**总数的百分比**，此历程中的节点会包含以下统计数据：
+如果&#x200B;**[!UICONTROL 百分比值]**&#x200B;字段设置为&#x200B;]**总数的百分比**[!UICONTROL ，此历程中的节点会包含以下统计数据：
 
 ![历程中节点的百分比高于之前的节点](assets/journey-canvas-percentage-total.png)
 

@@ -3,31 +3,39 @@ title: 最佳实践
 description: 了解一些分段最佳实践。
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-TQID: https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88
+TQID: 'https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 60%
-
 ---
-
 # 分段最佳实践
 
 要获得理想的数据，通常需要复杂的区段。 如果复杂的区段效率低下并应用于大型报表包，则可能需要很长时间来运行报表。 在创建或编辑区段时，请考虑使用以下资源来最大限度地降低复杂性。
 
 ## 仅使用`Contains`运算符作为最后手段
 
-[**[!UICONTROL Contains &#x200B;]**&#x200B;运算符](/help/components/segmentation/seg-reference/seg-operators.md)是分段中处理最密集的功能之一，因为该运算符必须分析每个值的全部内容。 如果所需值位于字符串的开头或结尾，请考虑使用其他运算符，如&#x200B;**[!UICONTROL &#x200B; Starts with &#x200B;]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; Ends with &#x200B;]**。
+[**[!UICONTROL Contains ]**运算符](/help/components/segmentation/seg-reference/seg-operators.md)是分段中处理最密集的功能之一，因为该运算符必须分析每个值的全部内容。 如果所需值位于字符串的开头或结尾，请考虑使用其他运算符，如**[!UICONTROL  Starts with ]**或**[!UICONTROL  Ends with ]**。
 
 如果区段中的&#x200B;**[!UICONTROL Contains]**&#x200B;运算符返回大量结果，报表通常会超时。 例如，如果您创建了一个区段，其中&#x200B;**[!UICONTROL 反向链接]** **[!UICONTROL 等于]** `"."`，则该区段会搜索每个值的内容。 请考虑改用&#x200B;**[!UICONTROL 存在]**&#x200B;运算符。
 

@@ -3,28 +3,37 @@ description: 创建用于在 Adobe Analytics 中收集数据的基本容器
 title: 创建报表包
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-TQID: https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4
+TQID: 'https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: '312'
 ht-degree: 87%
-
 ---
-
 # 创建报表包
 
 报告包是 Adobe Analytics 用于提取报告的数据存储库。 一个组织可以有多个报表包，每个报表包中包含不同的数据集。 过去，有必要设置多个独立报告包，但现在单个报告包的优势变得日益凸显。 通过引入[虚拟报表包](/help/components/vrs/vrs-about.md#virtual-report-suites)和报表时间处理，管理员可创建您自己的数据子集，使得可灵活地获取全局数据和站点专属数据。
@@ -33,7 +42,7 @@ ht-degree: 87%
 
 ## 先决条件
 
-[Adobe Analytics管理入门指南](/help/admin/admin-console/first-admin-guide.md)：确保系统级别管理员已通过CX Enterprise Admin Console授予您访问Adobe Analytics的权限。
+[Adobe Analytics管理入门指南](/help/admin/admin-console/first-admin-guide.md)：确保系统级别管理员已通过CX Enterprise Admin Console向您授予Adobe Analytics的访问权限。
 
 ## 创建报表包 {#create-report-suite}
 

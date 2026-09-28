@@ -4,31 +4,45 @@ title: 错误和故障排除
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-TQID: https://experienceleague.adobe.com/Kr34CyT7YxRqKRdwpaLN-DZwHhLbaT663Gj-pc5Wd8s
+TQID: 'https://experienceleague.adobe.com/Kr34CyT7YxRqKRdwpaLN-DZwHhLbaT663Gj-pc5Wd8s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Optimization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '588'
 ht-degree: 100%
-
 ---
-
 # 错误和故障排除
 
 当您与 Analysis Workspace 交互时，可能会遇到影响其功能或性能的错误。 下面列出了最常见的错误类型、发生原因以及优化方案。
@@ -54,7 +68,7 @@ ht-degree: 100%
 | 问题 | 如何排除故障 |
 |---|---|
 | 当我拖动一个量度时，它会显示&#x200B;*无效数据*。 | 无效数据意味着 Adobe 无法通过报告中使用的维度和量度组合返回数据。 例如，两个彼此堆叠的量度不能作为数据返回，因为无法以这种堆叠方式显示这两个量度。 相反，应将两个量度并排放置。 |
-| 当我将量度拖动到上面时，看不到任何实际数据 - 只有零。 | 如果您成功创建了 Workspace 报告，但报告中没有数据，则可以检查以下几项内容：<ul><li>如果在报告中应用了区段，区段标准可能与所有数据不匹配。 请尝试移除区段或调整区段定义。</li><li>检查右上角的日期范围，并确保它已设置为预期的值。</li><li>导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 验证正在收集的数据。</li></ul> |
+| 当我将量度拖动到上面时，看不到任何实际数据 - 只有零。 | 如果您成功创建了 Workspace 报告，但报告中没有数据，则可以检查以下几项内容：<ul><li>如果在报告中应用了区段，区段标准可能与所有数据不匹配。 请尝试移除区段或调整区段定义。</li><li>检查右上角的日期范围，并确保它已设置为预期的值。</li><li>导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 验证正在收集的数据。</li></ul> |
 
 
 

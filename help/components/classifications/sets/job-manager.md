@@ -3,25 +3,32 @@ title: 分类作业管理器
 description: 了解如何查看从分类集生成的当前和已完成的分类作业。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
+TQID: 'https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '781'
 ht-degree: 2%
-
 ---
-
 # 查看分类作业并根据作业执行操作
 
 分类作业管理器显示为分类集生成的当前和已完成的分类作业。 您还可以使用管理器下载特定作业的分类数据或模板。
@@ -50,7 +57,7 @@ ht-degree: 2%
 | **[!UICONTROL 分类集]** | 与分类作业关联的分类集。 |
 | **[!UICONTROL 大小]** | 作为分类作业的一部分导出或导入的文件的大小。 |
 | **[!UICONTROL 状态]** | 分类作业的状态。 可能的值包括：**[!UICONTROL 已创建]**、**[!UICONTROL 已排队]**、**[!UICONTROL 已验证]**、**[!UICONTROL 已失败的验证]**、**[!UICONTROL 正在处理]**、**[!UICONTROL 已完成处理]**、**[!UICONTROL 已失败的处理]**、**[!UICONTROL 已完成]**&#x200B;或&#x200B;**[!UICONTROL 进度]**。 如果显示，将鼠标悬停在警报![警报](/help/assets/icons/Alert.svg)上以显示其他信息。 |
-| **[!UICONTROL 文件名]** | 标识在分类作业中用于导入或导出文件的名称或功能。 可能的值包括： <ul><li>*没有值*</li><li>分类作业中处理的文件的名称。</li><li>**[!UICONTROL SAINT导出]**：作业是从[旧版分类界面](/help/components/classifications/importer/c-working-with-saint.md)的导出。</li><li>**[!UICONTROL 导出位于&#x200B;_时间戳_]**&#x200B;的_&#x200B;分类集&#x200B;_：作业是从[架构](manage/schema.md#download)界面下载的。</li></ul> |
+| **[!UICONTROL 文件名]** | 标识在分类作业中用于导入或导出文件的名称或功能。 可能的值包括： <ul><li>*没有值*</li><li>分类作业中处理的文件的名称。</li><li>**[!UICONTROL SAINT导出]**：作业是从[旧版分类界面](/help/components/classifications/importer/c-working-with-saint.md)的导出。</li><li>**[!UICONTROL 导出位于&#x200B;_时间戳_]**的_&#x200B;分类集&#x200B;_：作业是从[架构](manage/schema.md#download)界面下载的。</li></ul> |
 | **[!UICONTROL 作业类型]** | 分类作业的类型。 可能的值为： **[!UICONTROL Import]**&#x200B;或&#x200B;**[!UICONTROL Export]**。 |
 | **[!UICONTROL 来源]** | 分类作业的源。 有关可能源的详细信息，请参阅[筛选器面板](#filter-panel)。 |
 | **[!UICONTROL 已修改的行]** | 分类作业修改的修改行数。 |

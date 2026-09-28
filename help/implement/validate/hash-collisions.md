@@ -7,22 +7,30 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/yjYX-h-8jJA7k-jzRMOJ0l2BxN5-no2kCfySkGYss8w'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: '539'
 ht-degree: 5%
-
 ---
-
 # 哈希冲突
 
 Adobe Analytics中的维度收集字符串值。 这些字符串有时长达数百个字符，有时则较短。 为了提高性能，在报表时间处理中不会直接使用这些字符串值。 相反，为每个值计算散列，产生大小一致的标识符。 对于大多数字段，该值会在进行哈希处理之前转换为小写，从而减少唯一值的总数。 所有报表都基于这些哈希值运行，这会显着提升其性能。
@@ -54,7 +62,7 @@ Adobe Analytics对大多数维度使用32位哈希，这意味着可能有2<sup>
 * **更改日期范围**：哈希表每月更改。 将日期范围更改为跨越另一个月，可能会为每个值赋予不同的哈希值，而不会产生冲突。 它通常是清除特定报表中可见异常的最快方式。
 * **减少唯一值的数量**：您可以调整实施或使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)来帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
 * **使用[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)或[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)**：这些工具不依赖哈希表。
-* **移动到[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans)**： Customer Journey Analytics没有哈希层，并且[维度没有基数限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果哈希冲突或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)经常影响您的报表，请考虑转移到此产品。
+* **移动到[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)**： Customer Journey Analytics没有哈希层，并且[维度没有基数限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果哈希冲突或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)经常影响您的报表，请考虑转移到此产品。
 
 >[!MORELIKETHIS]
 >

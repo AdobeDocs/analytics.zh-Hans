@@ -7,24 +7,34 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '468'
 ht-degree: 89%
-
 ---
-
 # 使用 Facebook Instant Articles 实施
 
 Facebook Instant Articles 允许发布者在 Facebook 上快速构建交互式文章。 Instant Articles 的内容加载速度比移动网页快 10 倍。
@@ -107,4 +117,4 @@ Adobe 建议将您的 `stats.html` 页面与最新版本的 `AppMeasurement.js`�
 
 ## Facebook Instant Articles 和隐私政策
 
-只要 Analytics HTML 页面托管在您的 Web 服务器上，Adobe 就会在所有 Facebook Instant Articles 中遵循您现有的隐私政策。 如果用户在主网站上选择退出跟踪，则他们也会在所有 Facebook Instant Articles 上选择退出跟踪。 该应用工具页还支持访客ID服务，以便您可以将Facebook即时文章数据与CX Enterprise的其他部分集成。
+只要 Analytics HTML 页面托管在您的 Web 服务器上，Adobe 就会在所有 Facebook Instant Articles 中遵循您现有的隐私政策。 如果用户在主网站上选择退出跟踪，则他们也会在所有 Facebook Instant Articles 上选择退出跟踪。 该实用工具页面还支持访客ID服务，以便您可以将Facebook即时文章数据与CX Enterprise的其他部分集成。

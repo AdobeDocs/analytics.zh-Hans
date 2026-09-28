@@ -4,32 +4,47 @@ title: Analytics 变量的数据隐私标签
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+TQID: 'https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3848
+source-wordcount: '3848'
 ht-degree: 78%
-
 ---
-
 # Analytics 变量的数据隐私标签
 
 作为数据控制者，Adobe 的客户有责任遵守适用的数据隐私法，例如《通用数据保护条例》（GDPR）和《加利福尼亚州消费者隐私法案》（CCPA）。 客户应咨询自己的法律团队，确定应如何处理其数据才符合数据隐私法。 Adobe 了解每个客户都有与隐私相关的独特需求，这就是为什么 Adobe 允许客户自定义其所需的数据隐私数据处理设置。 这允许每个独特客户采用对其品牌和独特数据集最为合理的方式处理数据隐私请求。

@@ -7,32 +7,37 @@ exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 TQID: 'https://experienceleague.adobe.com/BRcyAaCSCmRppDClCroSL-vGpe7PuU-UEuRhGaKOCHY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: '536'
 ht-degree: 94%
-
 ---
-
 # 常见的机器人签名
 
 虽然识别数据集中的机器人因环境而异，但还是有下面这些共通的方法可识别机器人。
 
 ## 每次访问的页面查看次数很大
 
-可拉取一个其中具有 IP 地址、页面查看次数和独特访客数的 Data Warehouse 报表。 然后，在 Excel 中为每次访问的页面查看次数创建一个计算，并从最高到最低排序。 机器人每次访问的页面查看次数一般都很大（数百至数千）。 当转入真实流量时，就会发现次数急剧下降。
+您可以提取一份包含 IP 地址、页面查看次数和独特访客数的 Data Warehouse 报告。 然后，在 Excel 中为每次访问的页面查看次数创建一个计算，并从最高到最低排序。 机器人每次访问的页面查看次数一般都很大（数百至数千）。 当转入真实流量时，就会发现次数急剧下降。
 
 ## 无反向链接
 
-机器人一般不具备引用 URL。 在分段时，可将这种情况过滤为 `Referring Domain equals Typed/Bookmarked`。
+机器人通常没有引荐 URL。 在分段时，可将这种情况过滤为 `Referring Domain equals Typed/Bookmarked`。
 
 ## 用户代理异常
 
@@ -44,7 +49,7 @@ ht-degree: 94%
 
 ## 页面查看次数 = 访问次数 = 独特访客数
 
-这种情况尤其适用于用户代理报表。 正如您可在下方的屏幕快照中所见，这些浏览器的“未知版本”的访问次数与独特访客数几乎相同（与页面查看次数也几乎相同）。 通过为 `Single Page Visits equals Enabled` 或 `Hit Depth is less than 2` 构建[!UICONTROL 包括]容器，可在分段时发现这种情况。
+这种情况尤其适用于用户代理报表。 正如您可在下方的屏幕快照中所见，这些浏览器的“未知版本”的访客数与独特访客数几乎相同（与页面查看次数也几乎相同）。 通过为 `Single Page Visits equals Enabled` 或 `Hit Depth is less than 2` 构建[!UICONTROL 包括]容器，可在分段时发现这种情况。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bots-browsers-unknown.png)
 
@@ -72,18 +77,18 @@ ht-degree: 94%
 
 ## 未登录
 
-用户在其访问期间从未登录，并且其用户标识 eVar 并非与以前的访问保持相同。 虽然某些机器人可被设置为进行身份验证，但大多数没有那么智能。
+用户在其访问期间从未登录，并且其用户标识 eVar 不会从之前的访问中持续保留。 虽然某些机器人可被设置为进行身份验证，但大多数没有那么智能。
 
 ## 访问中无 KPI
 
-机器人一般不会将产品添加到购物车或结账。 大多数情况下，它们不提交潜在客户表单或其他成功事件，但某些机器人确实会提交简单的HTML表单。 &#x200B;
+机器人通常不会将产品添加到购物车，也不会进行结账。 大多数情况下，它们不提交潜在客户表单或其他成功事件，但某些机器人确实会提交简单的HTML表单。 &#x200B;
 
 ## 存在特定的查询字符串
 
 有时，机器人通过点击异常的 URL 或不存在的 URL（如典型的 LAMP 或 Wordpress 管理页面）或追加特定的查询字符串，试图占满缓存或破坏网站。
 
-## IP 地址来自分布式计算平台
+## 来自分布式计算平台的 IP 地址
 
-可能滥用 Amazon Web Services 或 Google Cloud 等 Web 托管充当作机器人农场。 这些IP地址很有可能是机器人：
+Amazon Web Services 或 Google Cloud 等 Web 托管服务可能被滥用为机器人农场。 这些IP地址很有可能是机器人：
 &#x200B;
 * [Google Cloud](https://cloud.google.com/compute/)：以 `&#x200B;35.199` 或 `35.194&#x200B;` 开头的 IP 地址

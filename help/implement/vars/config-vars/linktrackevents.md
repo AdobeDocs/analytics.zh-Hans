@@ -4,31 +4,43 @@ description: 确定要包含在链接跟踪图像请求中的事件。
 feature: Appmeasurement Implementation
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/7BKaDxchTRu39doWzm8f32DOemgpvj1s-4uzfjJkOEA
+TQID: 'https://experienceleague.adobe.com/7BKaDxchTRu39doWzm8f32DOemgpvj1s-4uzfjJkOEA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: '325'
 ht-degree: 66%
-
 ---
-
 # linkTrackEvents
 
 某些实施不希望将所有变量包含在所有链接跟踪图像请求中。 使用 [`linkTrackVars`](linktrackvars.md) 和 `linkTrackEvents` 变量可在 [`tl()`](../functions/tl-method.md) 调用中有选择地包含维度和量度。
@@ -37,7 +49,7 @@ ht-degree: 66%
 
 ## 使用Web SDK确定要包含在XDM事件中的Analytics事件
 
-Web SDK不排除链接跟踪调用的某些字段。 但是，您可以在将数据发送到Adobe之前使用`onBeforeEventSend`回调清除或设置所需字段。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+Web SDK不排除链接跟踪调用的某些字段。 但是，您可以在将数据发送到Adobe之前使用`onBeforeEventSend`回调清除或设置所需字段。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ## 使用Adobe Analytics扩展程序的链接跟踪调用中的事件
 

@@ -7,25 +7,36 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/lvnplKx6dPwmmbZWgSShGvZXD2TtUoigi-HNiKutZSg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b3e5f43e-2e2f-43c0-810a-044a5f91e31a
+    internal-label: Experience Platform Edge integration
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 42%
-
 ---
-
 # 使用Adobe Experience Platform Edge Network API实施Adobe Analytics
 
 从物联网设备、机顶盒、桌面应用程序等设备收集数据时，通常使用Experience Platform Edge Network API在服务器端而不是客户端收集数据。 然后，将该数据发送到Edge网络和Adobe Analytics等服务。
@@ -57,13 +68,13 @@ ht-degree: 42%
 <tr>
 <td>3</td>
 <td><b>配置数据流</b>。 数据流表示使用Adobe Experience Platform Edge Network API中的API时的服务器端配置。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans">配置数据流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">配置数据流<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
 <td><b>使用单事件数据和批次事件数据收集API实施和测试数据收集</b>。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans">单事件数据收集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=zh-Hans">批次事件数据收集</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans">单事件数据收集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">批次事件数据收集</a>
 </tr>
 
 <td>5</td>

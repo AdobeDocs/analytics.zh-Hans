@@ -4,27 +4,36 @@ description: 了解如何使用自由格式表，这是Analysis Workspace中进�
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-TQID: https://experienceleague.adobe.com/03oGltlXUfi3TG82i1UyHvCRWoCKy8j10KpcBEkpk0k
+TQID: 'https://experienceleague.adobe.com/03oGltlXUfi3TG82i1UyHvCRWoCKy8j10KpcBEkpk0k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
+    internal-label: View density
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: '888'
 ht-degree: 88%
-
 ---
-
 # 自由格式表概述 {#freeform-table-overview}
 
 
@@ -40,7 +49,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的自由格式表可视化图表。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[自由格式表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的自由格式表可视化图表。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[自由格式表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)。_
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +70,7 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 ## 自由格式表生成器
 
-如果您希望先向表中添加多个组件，然后再渲染数据，可以选择&#x200B;**[!UICONTROL 启用表生成器]**。 启用该生成器后，您可以通过拖放维度、细分、量度和过滤器来生成可解答更复杂业务问题的表。 选择&#x200B;**[!UICONTROL 生成]**&#x200B;后数据会更新。
+如果您希望先向表中添加多个组件，然后再渲染数据，可以选择&#x200B;**[!UICONTROL 启用表生成器]**。 启用该生成器后，您可以通过拖放维度、细分、量度和过滤器来构建可解答更复杂业务问题的表。 选择&#x200B;**[!UICONTROL 生成]**&#x200B;后数据会更新。
 
 ![自由格式表生成器显示](assets/table-builder.png)
 
@@ -112,15 +121,15 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 | 选项 | 描述 |
 | --- | --- |
-| **[!UICONTROL 插入复制的可视化图表]**&#x200B;n | 将复制的可视化图表粘贴（插入）到项目中的其他位置或完全不同的项目中。 |
+| **[!UICONTROL 插入复制的可视化图表]**n | 将复制的可视化图表粘贴（插入）到项目中的其他位置或完全不同的项目中。 |
 | **[!UICONTROL 将数据复制到剪贴板]** | 将可视化图表中的数据复制到剪贴板上。 |
-| **[!UICONTROL 将选择复制到剪贴板]** | 将可视化图表中的选择复制到剪贴板上。 |
+| **[!UICONTROL 将选择复制到剪贴板]** | 将可视化图表中的所选内容复制到剪贴板上。 |
 | **[!UICONTROL 将项目下载为 CSV（*维度名称*）]** | 将可视化图表的维度项（最多 50,000 个）立即下载到本地设备。 所选维度最多可有 50,000 个维度项。 |
 | **[!UICONTROL 复制可视化图表]** | 复制可视化图表，您可以将其插入到项目中的其他位置或完全不同的项目中。 |
 | **[!UICONTROL 下载数据 CSV]** | 将可视化图表显示的数据立即下载到本地设备。 |
 | **[!UICONTROL 复制可视化]** | 生成一个与可视化图表完全相同的副本。 |
 | **[!UICONTROL 编辑描述]** | 添加（或编辑）可视化图表的文本描述。 请参阅[文本](../text.md)。 |
-| **[!UICONTROL 获取可视化图表链接]** | 将链接直接复制并共享到可视化图表。 共享链接对话框会显示该链接。 选择“复制”将链接复制到剪贴板。 |
+| **[!UICONTROL 获取可视化图表链接]** | 直接复制并共享指向该可视化图表的链接。 共享链接对话框会显示该链接。 选择“复制”将链接复制到剪贴板。 |
 | **[!UICONTROL 从头开始]** | 删除当前可视化图表的设置，以便您从头开始重新配置。 |
 
 
@@ -129,19 +138,19 @@ _本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表生成器概述](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表过滤器](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表过滤器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表总计](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 

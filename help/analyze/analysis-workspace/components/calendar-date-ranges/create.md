@@ -4,23 +4,28 @@ description: 了解如何创建可在Analysis Workspace中使用的日期范围�
 feature: Date Ranges
 role: User
 exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
-TQID: https://experienceleague.adobe.com/79QwrgEU9OG45PKPlMW6bmO916hUNwSAfYKpTC7zft4
+TQID: 'https://experienceleague.adobe.com/79QwrgEU9OG45PKPlMW6bmO916hUNwSAfYKpTC7zft4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: '542'
 ht-degree: 96%
-
 ---
-
 # 创建日期范围
 
 任何人都可以创建自定义日期范围。 您可以通过以下方式创建日期范围：
@@ -77,7 +82,7 @@ Should we really mention API here. If so, we can do it all over the place in the
      ![Rolling dates](assets/rolliing-dates.png)
 
      1. 选择&#x200B;**[!UICONTROL 开始]**、**[!UICONTROL 结束]**&#x200B;或&#x200B;**[!UICONTROL 固定日期]**。
-     1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。 例如：**&#x200B;**&#x200B;**[!UICONTROL 当前季度结束]**&#x200B;**[!UICONTROL 减去]**`20`**[!UICONTROL 天]**。 为表达式的每个部分选择适当的值。
+     1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。 例如：******[!UICONTROL 当前季度结束]****[!UICONTROL 减去]**`20`**[!UICONTROL 天]**。 为表达式的每个部分选择适当的值。
         * 选择当前时间的值。 例如&#x200B;**[!UICONTROL 当前季度]**。
         * 选择一个值进行额外的计算。 例如，**[!UICONTROL 减]**。
         * 当您指定了额外的计算时，请指定一个值。 例如，`20`。

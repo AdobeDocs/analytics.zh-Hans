@@ -6,25 +6,37 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 TQID: 'https://experienceleague.adobe.com/4WmYDRfcQTjKAdIbmsx2CCnLDqwDIBS-KdyN8Epun8s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2151
+source-wordcount: '2151'
 ht-degree: 32%
-
 ---
-
 # 创建数据馈送
 
-创建数据馈送时，您为 Adobe 提供：
+创建数据馈送时，您向 Adobe 提供：
 
 * 您想将原始数据文件发送到那里的目标的信息
 
@@ -82,7 +94,7 @@ ht-degree: 32%
    | 字段 | 功能 |
    |---------|----------|
    | [!UICONTROL **名称**] | 数据馈送的名称。 名称在选定的报表包中必须是唯一的，长度最多为255个字符。 [了解详情](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **标记**] | 将任何标记应用到数据馈送以方便分类。 您可以按照[&#128279;](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)筛选和搜索[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的数据馈送中的说明对标记进行筛选。 |
+   | [!UICONTROL **标记**] | 将任何标记应用到数据馈送以方便分类。 您可以按照[筛选和搜索[管理数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md)中的数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)中的说明对标记进行筛选。 |
    | [!UICONTROL **描述**] | 指定数据馈送的描述。 编辑数据馈送时，您添加的描述可见。 |
 
 1. 在&#x200B;[!UICONTROL **数据格式**]&#x200B;部分中，指定以下信息：

@@ -1,39 +1,58 @@
 ---
 title: Activity Map 快速入门
-description: Activity Map 叠加和维度快速入门。
+description: 开始使用 Activity Map 叠加和维度。
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-TQID: https://experienceleague.adobe.com/Wt30b3LTZWyzAQFOKqkqBdWH2Ifatq5FLp-Z0z7nktA
+TQID: 'https://experienceleague.adobe.com/Wt30b3LTZWyzAQFOKqkqBdWH2Ifatq5FLp-Z0z7nktA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
+  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 933
+source-wordcount: '933'
 ht-degree: 97%
-
 ---
-
 # Activity Map 快速入门
 
 Adobe Analytics 中的 Activity Map 由四个主要元素组成：
@@ -57,7 +76,7 @@ Adobe Analytics 中的 Activity Map 由四个主要元素组成：
 
 +++Web SDK 标记扩展
 
-Activity Map 数据收集需要 **[!UICONTROL Adobe Experience Platform Web SDK]** 扩展 v2.23 或更高版本。 v2.16 及以下的扩展版本的支持受限。 这些以前的扩展版本通过一个与您的其余数据不同的单独的事件发送 Activity Map 数据。 这个额外的事件会增加您发送到 Adobe Analytics 或 Adobe Experience Platform 的点击数。
+Activity Map 数据收集需要 **[!UICONTROL Adobe Experience Platform Web SDK]** 扩展 v2.23 或更高版本。 v2.16 及以下的扩展版本的支持受限。 这些较早的扩展版本会在与其余数据分开的单独事件中发送 Activity Map 数据。 这个额外的事件会增加您发送到 Adobe Analytics 或 Adobe Experience Platform 的点击数。
 
 **[!UICONTROL 点击数据收集]**&#x200B;配置设置会处理 Activity Map 数据收集，通常在默认情况下会启用该设置。 您可以检查确保在扩展的配置设置中启用了它：
 
@@ -115,7 +134,7 @@ Activity Map 模块会处理 Activity Map 数据收集，它包含在所有 v1.6
 
 1. 导航到 GitHub 上的[最新 Adobe Analytics AppMeasurement 发行版本](https://github.com/adobe/appmeasurement/releases/latest)。
 1. 下载压缩的 AppMeasurement 库文件，然后打开其中包含的 `AppMeasurement.js`。
-1. Activity Map 模块包含在此文件的顶部附近。 确保此模块包含在您的网站使用的 AppMeasurement 库中。
+1. Activity Map 模块位于此文件靠近顶部的位置。 确保您的网站使用的 AppMeasurement 库中包含此模块。
 
 +++
 
@@ -130,7 +149,7 @@ Activity Map 模块会处理 Activity Map 数据收集，它包含在所有 v1.6
 
 ## 下载并安装浏览器扩展或附加组件
 
-除了 Analysis Workspace 中可用的维度之外，您还可以以网站上的叠加方式查看 Activity Map 数据。 要查看这样的叠加，请下载并安装 Activity Map 浏览器扩展或附加组件。
+除了 Analysis Workspace 中可用的维度之外，您还可以在网站上以叠加层形式查看 Activity Map 数据。 要查看这样的叠加，请下载并安装 Activity Map 浏览器扩展或附加组件。
 
 **[!UICONTROL 工具]** > **[!UICONTROL Activity Map]** > **[!UICONTROL 下载 Activity Map]**
 

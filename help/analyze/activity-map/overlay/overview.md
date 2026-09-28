@@ -8,25 +8,36 @@ exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
 TQID: 'https://experienceleague.adobe.com/d62-fefaDOC5lOHBnGKgrTzD4euEMcnMlBArhi8RfMc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 681
+source-wordcount: '681'
 ht-degree: 2%
-
 ---
-
 # Activity Map扩展界面
 
 Activity Map扩展允许您查看网站上覆盖的点击数据。 您可以通过导航到以下页面来下载扩展，其中提供了指向网络商店的链接：
@@ -65,7 +76,7 @@ Activity Map扩展允许您查看网站上覆盖的点击数据。 您可以通�
 * **[!UICONTROL 显示设置]**：打开一个菜单，以显示可更改的设置（齿轮图标）：
   * **[!UICONTROL 设置]**：打开扩展的[设置](settings.md)。
   * **[!UICONTROL 帮助]**：向Experience League打开文档（此页面）。
-  * **[!UICONTROL Adobe社区]**：打开[Experience League社区](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hans)。
+  * **[!UICONTROL Adobe社区]**：打开[Experience League社区](https://experienceleaguecommunities.adobe.com/)。
   * **[!UICONTROL 关于]**：显示扩展版本。
   * **[!UICONTROL 注销]**：将您从扩展注销，要求您重新登录。
 * **[!UICONTROL 退出Activity Map]**：关闭扩展的所有叠加图（X图标）。
@@ -82,10 +93,10 @@ Activity Map扩展允许您查看网站上覆盖的点击数据。 您可以通�
 
 底部面板显示在叠加图上显示的链接的汇总视图。
 
-* **报表类型**：切换底部面板以显示&#x200B;**页面上的**&#x200B;链接报表或&#x200B;**[!UICONTROL 页面详细信息]**&#x200B;报表。
+* **报表类型**：切换底部面板以显示&#x200B;]**页面上的**[!UICONTROL &#x200B;链接报表或&#x200B;**[!UICONTROL 页面详细信息]**&#x200B;报表。
 * **[!UICONTROL 页面名称]**：当前[页面](/help/components/dimensions/page.md)维度名称。
 * **[!UICONTROL 搜索]**：筛选报告以仅显示与输入文本匹配的链接名称。
-* **[!UICONTROL 下载]**：将报表导出为CSV。 您可以将页面上的链接报表、[!UICONTROL 页面]报表和[!UICONTROL 页面流量]报表包含在同一个下载文件中。
+* **[!UICONTROL 下载]**：将报表导出为CSV。 您可以将页面]上的[!UICONTROL 链接报表、[!UICONTROL 页面]报表和[!UICONTROL 页面流量]报表包含在同一个下载文件中。
 * **[!UICONTROL 更改报表停靠位置]**：切换此面板的位置，使其显示在浏览器窗口的底部或顶部。
 * **[!UICONTROL 关闭报告]**：关闭此面板。 您可以使用顶部面板中的&#x200B;**[!UICONTROL 切换页面详细信息]**&#x200B;按钮（眼睛图标）再次打开该面板。
 

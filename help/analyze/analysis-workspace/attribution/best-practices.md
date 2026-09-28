@@ -6,21 +6,28 @@ exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 TQID: 'https://experienceleague.adobe.com/3h12v3wRMC0SY63jsXBbG6kkTM8ArVOz6ctJVikdKb4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: '444'
 ht-degree: 64%
-
 ---
-
 # 归因最佳实践
 
-为您的组织选择适合的归因模型取决于许多考虑因素。 本文探索了一种方法论和一些常规的最佳实践：
+为您的组织选择合适的归因模型取决于多种因素。 本文探索了一种方法论和一些常规的最佳实践：
 
 * [探索性分析](#exploratory-analysis)
 * [基于规则的归因](#rule-base-attribution)
@@ -37,7 +44,7 @@ ht-degree: 64%
 * 这些行为的比例/分布
 
 例如，如果 50% 的客户在转化前接触了 3 个渠道，这 3 个渠道之间有什么互动吗？
-然后，您可以进行漏斗上层和漏斗下层分析以扩展您的理解。
+然后，您可以进行漏斗上层和漏斗下层分析，以加深您的理解。
 
 ### 漏斗上层分析
 
@@ -55,7 +62,7 @@ ht-degree: 64%
 
 假设您的假设是：“*我的首次联系渠道比最后一次联系渠道对转化的影响更大。*”
 
-在这种情况下，您将使用[反向J型归因模型](/help/analyze/analysis-workspace/attribution/models.md)来检验这个假设。 此模型将 60% 的点数分给第一个接触点。
+在这种情况下，您将使用[反向J型归因模型](/help/analyze/analysis-workspace/attribution/models.md)来检验这个假设。 此模型将 60% 的点数分配给第一个接触点。
 
 **示例 2**
 
@@ -65,10 +72,10 @@ ht-degree: 64%
 
 ## 使用算法归因
 
-如果您还没有归因模型可以为您的所有问题提供令人满意的答案，您可以使用[算法归因](/help/analyze/analysis-workspace/attribution/algorithmic.md)。 因为要验证大量可能的假设和组合非常困难，所以可以使用算法归因，让内置算法来跨维度项目分配信用。
+如果您还没有归因模型可以为您的所有问题提供令人满意的答案，您可以使用[算法归因](/help/analyze/analysis-workspace/attribution/algorithmic.md)。 由于很难验证大量可能的假设和组合，因此算法归因使用内置算法在各个维度项之间分配点数。
 
 ## 其他注意事项
 
 * 您可能需要使用数据科学家的服务，而不是仅仅依靠 Analysis Workspace。
 * 您可以依赖原始数据，就像在 Adobe 数据馈送中一样。
-* 例如，如果您要考虑展示数据，请考虑使用[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。
+* 例如，如果您要考虑展示数据，请考虑使用[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。

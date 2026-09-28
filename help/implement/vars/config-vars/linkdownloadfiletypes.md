@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Qt6o34l2I96kZhsuK6zh3L8OsP7vJI4QiEUYeH6SeP4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 57%
-
 ---
-
 # linkDownloadFileTypes
 
 当启用了[`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement)或[`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK)并且访客单击某个链接时，AppMeasurement会检查该链接的URL以获取文件类型扩展。 如果链接URL包含匹配的文件类型，则会自动发送下载链接图像请求。
@@ -55,7 +63,7 @@ ht-degree: 57%
 
 ## 手动实施Web SDK的下载链接限定符
 
-[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans)使用[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hans#automaticLinkTracking)配置 SDK。 该字段对单击的URL使用正则表达式来确定它是否为有效的下载链接。 如果未定义`downloadLinkQualifier`，则默认值设置为`\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`。
+[使用[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans) SDK。 该字段对单击的URL使用正则表达式来确定它是否为有效的下载链接。 如果未定义`downloadLinkQualifier`，则默认值设置为`\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`。
 
 ```json
 alloy("configure", {
@@ -69,7 +77,7 @@ alloy("configure", {
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**配置**&#x200B;按钮。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示&#x200B;**[!UICONTROL 下载扩展]**&#x200B;字段。
 
 通过在字段中输入文本并单击&#x200B;**[!UICONTROL 添加]**，可将文件扩展名添加到列表中。 通过单击相应的&#x200B;**&#39;X&#39;**&#x200B;图标，可从列表中删除文件扩展名。

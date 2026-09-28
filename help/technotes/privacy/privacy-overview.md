@@ -7,35 +7,49 @@ exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: '1004'
 ht-degree: 88%
-
 ---
-
 # 隐私概述
 
-Adobe 希望帮助您的组织遵守适用的法律法规。 有关详细信息，请参阅[Adobe CX Enterprise隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target=_blank}。 在 Adobe Analytics 和您的组织之间，Adobe 充当“数据处理者”，而您是“数据控制者”（或适用隐私和数据保护法下的同等角色）。 这取决于贵组织是否披露 Adobe 产品和服务的用途，因为贵组织对于如何实施 Adobe 解决方案具有完全控制权。 在使用 Adobe Analytics 时，组织有责任遵守自己的隐私政策、您与 Adobe 签订的服务协议以及所有适用法律。
+Adobe 希望帮助您的组织遵守适用的法律法规。 有关详细信息，请参阅[Adobe CX Enterprise隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target=_blank}。 在 Adobe Analytics 和您的组织之间，Adobe 充当“数据处理者”，而您是“数据控制者”（或适用隐私和数据保护法下的同等角色）。 这取决于贵组织是否披露 Adobe 产品和服务的用途，因为贵组织对于如何实施 Adobe 解决方案具有完全控制权。 在使用 Adobe Analytics 时，贵组织有责任遵守自己的隐私政策、与 Adobe 签订的服务协议以及所有适用法律。
 
-Adobe 强烈建议遵守以下总体概念：
+Adobe 强烈建议遵循以下总体原则：
 
 * **如果收集个人数据，请确保遵守隐私法律法规。** 自定义变量允许您收集几乎任何您可以访问的内容；但是，您还必须考虑组织的隐私政策和适用法律。
 * **向您的客户提供易于查找和理解的组织隐私信息。** 有用信息包括选择退出链接、如何使用其浏览数据以及您如何使用或计划使用Adobe的服务。
@@ -54,7 +68,7 @@ Adobe Analytics 可以收集以下类型的数据：
 | 数据类型 | 详细信息 | 包含此数据的示例变量 |
 | --- | --- | --- |
 | 您网站上网页的页面名称或 URL | Adobe Analytics 需要这些数据才能运行。 每次点击都需要一个 URL 或页面名称。 | [页面](/help/components/dimensions/page.md)，[页面 URL](/help/components/dimensions/page-url.md) |
-| 基于时间的数据 | Adobe Analytics 需要这些数据才能运行。 数据采集需要时间戳，基于时间的数据是从时间戳派生的。 | [在页面上停留的时间](/help/components/dimensions/time-spent-on-page.md)、[一天中的时间](/help/components/dimensions/hour-of-day.md)、[上午/下午](/help/components/dimensions/am-pm.md)、[工作日/周末](/help/components/dimensions/weekday-weekend.md)、[一周中的日子](/help/components/dimensions/day-of-week.md)、[一年中的月份](/help/components/dimensions/month-of-year.md) |
+| 基于时间的数据 | Adobe Analytics 需要这些数据才能运行。 数据收集需要时间戳，基于时间的数据是从时间戳派生的。 | [在页面上停留的时间](/help/components/dimensions/time-spent-on-page.md)、[一天中的时间](/help/components/dimensions/hour-of-day.md)、[上午/下午](/help/components/dimensions/am-pm.md)、[工作日/周末](/help/components/dimensions/weekday-weekend.md)、[一周中的日子](/help/components/dimensions/day-of-week.md)、[一年中的月份](/help/components/dimensions/month-of-year.md) |
 | 反向链接数据 | 当访客到达您的网站时，数据收集库会默认收集引用 URL。 您可以自定义实施，以收集反向链接查询字符串中的数据。 这种做法在营销活动和跟踪广告效果中很常见。 | [反向链接](/help/components/dimensions/referrer.md)，[反向链接域](/help/components/dimensions/referring-domain.md) |
 | 匿名访客 ID | 数据收集库为访问您网站的每个浏览器生成并引用访客 ID。 此 ID 存储在 Cookie 中。 如果数据收集库无法设置 Cookie 标识符，则该库将会使用匿名访客标识的回退方法。 此方法涉及使用访客的 IP 地址和用户代理字符串将相关点击与同一访问联系起来。 如果您的组织已启用 IP 模糊处理，则会遵守此设置。 请参阅 [Adobe Analytics 和浏览器 Cookie](../cookies/cookies.md)，了解更多信息。 | [独特访客](/help/components/metrics/unique-visitors.md) |
 | 可识别的访客 ID | Adobe 不会自动收集自定义访客 ID。 但是，您可以通过对您的实施进行自定义来收集这些数据。 | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) |
@@ -73,4 +87,4 @@ Adobe Analytics 可以收集以下类型的数据：
 
 ## 数据处理位置
 
-Adobe 为 Adobe Analytics 维护三个数据处理位置。 这些站点会接收原始数据，并将其处理成报表包，该报表包针对数据存储和报告检索进行了优化。 这些数据处理地点目前位于美国（俄勒冈州）、英国（伦敦）和新加坡。 有关详细信息，请参阅[Adobe Analytics安全概述](https://www.adobe.com/cn/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}。
+Adobe 为 Adobe Analytics 维护三个数据处理位置。 这些站点会接收原始数据，并将其处理成报告包，该报告包针对数据存储和报告检索进行了优化。 这些数据处理地点目前位于美国（俄勒冈州）、英国（伦敦）和新加坡。 有关详细信息，请参阅[Adobe Analytics安全概述](https://www.adobe.com/cn/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}。

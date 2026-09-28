@@ -3,7 +3,7 @@ title: 邮政编码
 description: 访客的邮政编码。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
+TQID: 'https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,11 +14,15 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
     internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,7 +33,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 61%
@@ -43,14 +47,14 @@ ht-degree: 61%
 此维度的独特之处在于，可通过多种方式用数据填充它。 您可以使用其中一种方法，也可以同时使用两种：
 
 * 使用[`zip`](/help/implement/vars/page-vars/zip.md)变量直接设置邮政编码。
-* 将其配置为从地理位置数据中提取。 使用地域zip时，未设置变量。 对于AppMeasurement实施，此维度可开箱即用。 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 地理查找]。
+* 将其配置为从地理位置数据中提取。 使用地域zip时，未设置变量。 对于AppMeasurement实施，此维度可开箱即用。 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)时启用[!UICONTROL 地理查找]。
 
 [常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)下的[!UICONTROL 邮编选项]控制着填充此维度的方式。 当您直接设置`zip`变量时，将应用下面的参考表。
 
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`zip`](/help/implement/vars/page-vars/zip.md) |
-| **Web SDK / XDM字段** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/data-types/geo) |
+| **Web SDK / XDM字段** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
 | **查询参数** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 50字节 |

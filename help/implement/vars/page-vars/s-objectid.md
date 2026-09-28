@@ -7,25 +7,34 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/20feFPXM4DBWp41J8WDrCgZmcrfnrhYFHL46MnNRtxE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 390
+source-wordcount: '390'
 ht-degree: 80%
-
 ---
-
 # s_objectID
 
 `s_objectID` 变量为链接提供唯一标识符。 此变量可使 [Activity Map](/help/analyze/activity-map/overview.md) 中的报表更准确。 如果页面上的链接经常更改，则可以使用 `s_objectID` 变量告知 Activity Map 唯一链接位置，以便它可以根据需要正确地对数据进行分组。
@@ -48,7 +57,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 >[!NOTE]
 >
->将始终包含用于结束 JavaScript 语句的分号。 Activity Map 需要分号才能正常工作。
+>始终包含用于结束 JavaScript 语句的分号。 Activity Map 需要分号才能正常工作。
 
 ## 用例
 
@@ -56,7 +65,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ### 从高动态内容中聚合链接
 
-某些网站具有高动态内容，例如新闻网站或项目频繁轮换的零售网站。 由于 Activity Map 默认使用链接 URL 作为标识符，因此很难了解链接频繁更改的页面上点击次数最多的区域。 如果您在这些链接中使用 `s_objectID`，则 Activity Map 会了解哪些链接可以聚合，而不管它们指向哪些 URL。
+某些网站具有高度动态的内容，例如新闻网站或项目频繁轮换的零售网站。 由于 Activity Map 默认使用链接 URL 作为标识符，因此很难了解链接频繁更改的页面上点击次数最多的区域。 如果您在这些链接中使用 `s_objectID`，则 Activity Map 会了解哪些链接可以聚合，而不管它们指向哪些 URL。
 
 ```HTML
 <a href="story1.html" onClick="s_objectID='Top left link';">Story 1</a>

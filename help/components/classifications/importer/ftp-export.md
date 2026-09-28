@@ -1,39 +1,44 @@
 ---
 title: 通过 FTP 导出分类数据
-description: FTP 导出在数据集下载方面提供了更好的灵活性，包括从多个报表包下载数据以及下载超过 50,000 个数据行的数据集文件
+description: FTP 导出在数据集下载方面提供了更好的灵活性，包括从多个报告包下载数据以及下载超过 50,000 个数据行的数据集文件
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
+TQID: 'https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: '632'
 ht-degree: 66%
-
 ---
-
 # FTP导出（旧版）
 
 {{classification-importer-deprecation}}
 
-FTP 选项在下载数据集方面提供了更多灵活性，包括能够从多个报表包下载数据，以及下载超过 50,000 个数据行的数据集文件。 在通过 FTP 下载分类数据之前，请先创建 FTP 帐户。
+FTP 选项在下载数据集方面提供了更多灵活性，包括能够从多个报告包下载数据，以及下载超过 50,000 个数据行的数据集文件。 在通过 FTP 下载分类数据之前，请先创建 FTP 帐户。
 
 应用数据过滤器时，请考虑以下问题：
 
 * 定义数据过滤器时，您可以使用通配符。 使用星号 `*` 可匹配零个或多个字符，使用问号 `?` 可完全匹配一个字符。 使用 `?*` 可匹配一个或多个字符。
 * 通常，在将这两种类型的数据过滤器应用于下载时，将只下载与两个规则都匹配的行。 但是，以下情况例外：
-   * 如果带有空列的行 = 所有列，则除了第一个规则中指定的列以外，系统会检查所有列是否空白。 此例外情况可确保该工具下载的任意行具有的列与第一条规则匹配，并且所有其他列为空。
-   * 在下载基于空列的数据行时，除了在第一条规则中指定的列之外，系统会检查所有列是否空白。
-   * 如果为两个筛选规则指定相同的列（几乎不可能同时满足这两个条件），则只下载与第一个规则匹配的行。
-   * FTP 导出具有 30 列的限制。
+  * 如果带有空列的行 = 所有列，则除了第一个规则中指定的列以外，系统会检查所有列是否空白。 此例外情况可确保该工具下载的任意行具有的列与第一条规则匹配，并且所有其他列为空。
+  * 在下载基于空列的数据行时，除了在第一条规则中指定的列之外，系统会检查所有列是否空白。
+  * 如果为两个筛选规则指定相同的列（几乎不可能同时满足这两个条件），则只下载与第一个规则匹配的行。
+  * FTP 导出具有 30 列的限制。
 
 ## 使用 FTP 导出分类
 
@@ -59,4 +64,4 @@ FTP 选项在下载数据集方面提供了更多灵活性，包括能够从多�
 | [!UICONTROL 导出数值 2] | 您可以使用导入器将数值 2 分类导入系统。 数值 2 分类很适合用于针对不同项目（例如营销渠道报表的成本与预算值）随时间变化的变量。 |
 | [!UICONTROL FTP 帐户] | 指定您希望 Adobe 从中下载数据文件的 FTP 服务器信息，包括主机名和端口、目标目录的路径、用户名以及密码。 |
 | [!UICONTROL 通知] | 指定电子邮件地址来接收有关此 FTP 下载的通知。 |
-| [!UICONTROL 编码] | 选择数据文件的字符编码。 默认的编码格式为 UTF-8 或 ISO-8859-1，具体情况取决于用来分类而上传的编码。 UTF-8 到 UTF-16 可将您的使用 UTF-8 编码的分类转换为 UTF-16 编码。 ISO-8859-1到UTF-16可将您的ISO-8859-1编码分类转换为UTF-16编码。<br>**注意：**&#x200B;如果您选择转换为UTF-16，则源编码必须与原始上传的编码相匹配，否则会出现意外结果。 我们建议使用不带 BOM 的 UTF-8 格式编码所有已上传的文件。 |
+| [!UICONTROL 编码] | 选择数据文件的字符编码。 默认编码格式为 UTF-8 或 ISO-8859-1，具体取决于上传分类时所使用的编码。 UTF-8 到 UTF-16 可将您的使用 UTF-8 编码的分类转换为 UTF-16 编码。 ISO-8859-1到UTF-16可将您的ISO-8859-1编码分类转换为UTF-16编码。<br>**注意：**&#x200B;如果您选择转换为UTF-16，则源编码必须与原始上传的编码相匹配，否则会出现意外结果。 我们建议使用不带 BOM 的 UTF-8 格式编码所有已上传的文件。 |

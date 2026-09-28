@@ -3,23 +3,30 @@ description: 介绍了可在规划区段时遵循的步骤和最佳实践。
 title: 计划区段
 feature: Segmentation
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
-TQID: https://experienceleague.adobe.com/EthxbJ5QdMGwx3pUQ-ipLlGvINLVJEIxFvPV0Cxmylc
+TQID: 'https://experienceleague.adobe.com/EthxbJ5QdMGwx3pUQ-ipLlGvINLVJEIxFvPV0Cxmylc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '208'
 ht-degree: 53%
-
 ---
-
 # 计划区段
 
 介绍了可在规划区段时遵循的步骤和最佳实践。
@@ -36,4 +43,4 @@ ht-degree: 53%
 1. 决定区段定义中要包含哪些&#x200B;**元素**&#x200B;以及哪些值。 在此决策中考虑[变量持久性](/help/components/segmentation/seg-overview.md)。
 
 1. 考虑您希望如何展开&#x200B;**审批流程**。 区段是由一个人进行审查和批准，还是由委员会做出决定？
-1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[&#128279;](/help/components/segmentation/segmentation-workflow/seg-build.md) 需要定义哪些“模块”才能实现此库？
+1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[](/help/components/segmentation/segmentation-workflow/seg-build.md) 需要定义哪些“模块”才能实现此库？

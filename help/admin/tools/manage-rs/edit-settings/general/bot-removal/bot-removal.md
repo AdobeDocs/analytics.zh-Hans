@@ -4,27 +4,37 @@ description: 如何删除 Adobe Analytics 中的机器人
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-TQID: https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M
+TQID: 'https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 784
+source-wordcount: '784'
 ht-degree: 56%
-
 ---
-
 # 在 Adobe Analytics 中删除机器人
 
 Adobe Analytics提供了多个用于从报表中删除机器人流量的选项：
@@ -35,14 +45,14 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 | 规则类型 | 描述 |
 |--- |--- |
-| 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**&#x200B;可使用 [IAB &#x200B;](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。 大多数客户至少都会选择此选项。 |
+| 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**&#x200B;可使用 [IAB ](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。 大多数客户至少都会选择此选项。 |
 | 自定义机器人规则 | 您可以根据用户代理、IP 地址或 IP 范围定义和添加自定义的机器人规则。 |
 
 有关详细信息，请参阅[了解和配置机器人规则](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)。
 
 ## 使用 Adobe 工具组合
 
-此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。 这些功能包括：访客ID服务、分段、Data Warehouse、客户属性和虚拟报表包。 这里是如何使用这些工具的概述。
+此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。 这些功能包括：访客ID服务、分段、Data Warehouse、客户属性和虚拟报表包。 以下概述了如何使用这些工具。
 
 ### 步骤 1：将访客的 Experience Cloud ID 传递到新声明的 ID
 
@@ -72,7 +82,7 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 ### 步骤4：将此列表作为客户属性传递回Adobe
 
-Data Warehouse 报表到达之后，您就有了必须从历史数据中筛选出去的 ECID 列表。 将这些 ECID 复制并粘贴到一个空白的 .CSV 文件中，该文件只包含两列：ECID 和机器人标记。
+Data Warehouse 报表到达之后，您就有了必须从历史数据中筛选出去的 ECID 列表。 将这些 ECID 复制并粘贴到一个空白的 .CSV 文件中，该文件只包含两列：ECID 和机器人标志。
 
 * **ECID**：确保此列标题与您为以上新声明的 ID 提供的名称相匹配。
 * **机器人标记**：添加“机器人标记”作为客户属性架构维度。
@@ -101,7 +111,7 @@ Data Warehouse 报表到达之后，您就有了必须从历史数据中筛选�
 
 >[!MORELIKETHIS]
 >
->* [更好的机器人阻止（第1部分）：基本知识](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=zh-Hans)
->* [更好的机器人阻止（第2部分）：识别机器人并利用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=zh-Hans)
->* [更好的机器人阻止（第3部分）：点击调控器](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=zh-Hans)
+>* [更好的机器人阻止（第1部分）：基本知识](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [更好的机器人阻止（第2部分）：识别机器人并利用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [更好的机器人阻止（第3部分）：点击调控器](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

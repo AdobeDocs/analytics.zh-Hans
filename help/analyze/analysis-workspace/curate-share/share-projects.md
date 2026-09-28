@@ -5,31 +5,45 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+TQID: 'https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2059
+source-wordcount: '2059'
 ht-degree: 89%
-
 ---
-
 # 共享项目 {#share-projects}
 
 >[!CONTEXTUALHELP]
@@ -59,7 +73,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共享项目](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[共享项目](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -78,9 +92,9 @@ ht-degree: 89%
 
 与组织中的用户和组共享特定项目角色时，请考虑以下事项：
 
-* 项目角色（**[!UICONTROL 编辑原始版本]**、**[!UICONTROL 编辑副本]**&#x200B;和&#x200B;**[!UICONTROL 只读]**）与用户和特定项目 ID 关联。 项目角色与[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)中管理的用户权限无关。
+* 项目角色（**[!UICONTROL 编辑原始版本]**、**[!UICONTROL 编辑副本]**&#x200B;和&#x200B;**[!UICONTROL 只读]**）与用户和特定项目 ID 关联。 项目角色与[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)中管理的用户权限无关。
 
-* 在Adobe Analytics中，组由[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)中的产品配置文件定义。 管理员可以共享到任何组，包括“全部”组。 除“全部”组外，非管理员可以共享到其所属的任何组。
+* 在Adobe Analytics中，组由[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)中的产品配置文件定义。 管理员可以共享到任何组，包括“全部”组。 除“全部”组外，非管理员可以共享到其所属的任何组。
 
 * 如果用户分配到了多个角色，将始终获得权限最高的角色体验。 如果同时将用户添加为个人和组成员，则可能发生这种情况。 例如，如果作为个人授予用户&#x200B;**[!UICONTROL 编辑原始版本]**&#x200B;角色，并作为组成员授予用户&#x200B;**[!UICONTROL 只读]**&#x200B;角色，则该用户将获得&#x200B;**[!UICONTROL 编辑原始版本]**&#x200B;项目体验。
 
@@ -175,7 +189,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [与任何人共享链接](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}以获取演示视频。
+查看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [与任何人共享链接](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
@@ -200,13 +214,13 @@ ht-degree: 89%
 
    * **[!UICONTROL 需要CX Enterprise身份验证]：**
 
-     启用此选项后，唯一能够访问项目的用户是那些能够登录到创建您共享的项目的Adobe CX Enterprise组织的用户。 但是，您与其共享的用户无需有权访问 Adobe Analytics。
+     启用此选项后，唯一能够访问项目的用户是那些能够登录到您共享的项目所在的Adobe CX Enterprise组织的用户。 但是，您与其共享的用户无需有权访问 Adobe Analytics。
 
      Analytics 管理员可为公司配置此首选项，如[首选项](/help/analyze/analysis-workspace/user-preferences.md)所述。 根据管理员如何配置此选项，您可能会遇到以下情况：
 
      * 如果此选项不可见，则您的 Analytics 管理员未启用此功能。
 
-     * 如果此选项已启用且灰显，则Analytics管理员要求所有访问Analysis Workspace项目的用户都使用CX企业身份验证。
+     * 如果启用此选项且变暗，则Analytics管理员要求对所有访问Analysis Workspace项目的用户进行CX Enterprise身份验证。
 
 1. 在&#x200B;**[!UICONTROL 与任何人共享（无需登录）]**&#x200B;字段旁，单击&#x200B;**复制链接**&#x200B;图标 ![复制链接图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) 以将链接复制到您的系统剪贴板。
 
@@ -230,7 +244,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共享嵌入的组件](https://video.tv.adobe.com/v/327500?captions=chi_hans&quality=12&learn=on){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[共享嵌入的组件](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

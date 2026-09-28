@@ -8,31 +8,39 @@ autotag-review: '2026-05-22T07:53:09.657Z'
 TQID: 'https://experienceleague.adobe.com/3RASISgJtY29aSGrGzO7070ZyH-B5cl3Cgv3aN7xjEU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: '343'
 ht-degree: 39%
-
 ---
-
 # abort
 
 `abort`变量是一个布尔值，用于阻止将下一个跟踪调用发送到Adobe。 Web SDK中存在类似的功能，允许您在发送XDM事件之前返回`false`。
 
 ## 使用Web SDK扩展取消发送事件
 
-在事件发送回调代码编辑器之前使用On并返回`false`。
+在事件发送回调]代码编辑器之前使用[!UICONTROL On并返回`false`。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -46,7 +54,7 @@ return false;
 
 ## 取消手动发送事件以实施Web SDK
 
-使用`onBeforeEventSend`回调并返回`false`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
+使用`onBeforeEventSend`回调并返回`false`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 alloy("configure"), {

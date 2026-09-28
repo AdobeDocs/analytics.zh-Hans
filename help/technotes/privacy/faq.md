@@ -4,37 +4,50 @@ title: 数据治理的常见问题解答
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+TQID: 'https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2101
+source-wordcount: '2101'
 ht-degree: 85%
-
 ---
-
 # Adobe Analytics隐私常见问题解答
 
 +++ **Adobe Analytics 如何支持由最终用户（数据主体）提出、并由客户（数据控制者）进行验证的访问请求和删除请求？**
 
-各种数据隐私规则(GDPR、CCPA)生效后，Adobe Analytics将支持处理数据控制者向CX企业数据隐私API提交的已验证请求，以实现更加自动化的流程。 Adobe的数据隐私API旨在帮助处理跨Adobe CX企业解决方案存储的客户数据的个人权利请求（例如，访问和删除请求）。 它具有灵活性和伸缩性，具体情况将依据贵公司从“数据主体”接收到的数据访问和删除请求数量。
+各种数据隐私规则(GDPR、CCPA)生效后，Adobe Analytics将支持处理数据控制者向CX Enterprise数据隐私API提交的已验证请求，以实现更加自动化的流程。 Adobe的数据隐私API旨在帮助处理跨Adobe CX Enterprise解决方案存储的客户数据的个人权利请求（例如，访问和删除请求）。 它具有灵活性和伸缩性，具体情况将依据贵公司从“数据主体”接收到的数据访问和删除请求数量。
 
-此外，Privacy Service API 还允许客户检查数据访问和删除请求的履行状态。 有关更多详细信息，请参阅 [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文档。
+此外，Privacy Service API 还允许客户检查数据访问和删除请求的履行状态。 有关更多详细信息，请参阅 [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文档。
 
 +++
 
@@ -78,7 +91,7 @@ ht-degree: 85%
 
 在将数据隐私请求应用于所有报告包之前，您仍可以使用以下几种方法测试您的数据隐私处理：
 
-* 一种选择是设置一个单独的CX Enterprise组织，其中只包含测试报告包。 然后，使用此CX Enterprise组织进行数据隐私测试，并使用常规的CX Enterprise组织进行实际的数据隐私处理。
+* 一种选择是，设置一个单独的CX Enterprise组织，其中仅包含测试报表包。 然后，使用此CX Enterprise组织进行数据隐私测试，并将您的正常CX Enterprise组织用于实际的数据隐私处理。
 
 * 另一种选择是，为测试报告包中的 ID 分配与生产报告包中的 ID 不同的命名空间。 例如，您可以在测试报告包中为每个命名空间添加“qa-”作为前缀。 当您提交仅包含带有 qa 前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报告包运行。 之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报告包。 **除非您使用`visitorId`、AAID、ECID或`customVisitorId`命名空间，否则建议使用此方法。 这些命名空间经硬编码，无法在测试报告包中为其指定替代名称。**
 
@@ -86,7 +99,7 @@ ht-degree: 85%
 
 +++ **我该从哪里开始着手准备 Adobe Analytics 以支持数据隐私法？**
 
-有关为数据隐私做好准备的分步说明，请参阅[&#x200B; Adobe Analytics 数据隐私工作流程](privacy-workflow.md)。
+有关为数据隐私做好准备的分步说明，请参阅[ Adobe Analytics 数据隐私工作流程](privacy-workflow.md)。
 
 +++
 

@@ -7,31 +7,39 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/R5uYQzbQiyGuvM9ng4Eux7pNdPoecJl4rLQ5L18seak'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: '803'
 ht-degree: 73%
-
 ---
-
 # Adobe 插件：getQueryParam
 
 {{plug-in}}
 
-`getQueryParam` 插件允许您提取 URL 中包含的任意查询字符串参数的值。 在从登录页面 URL 中提取内部和外部促销活动代码时，此插件非常有用。 在提取搜索词或其他查询字符串参数时，此插件也非常有价值。
+`getQueryParam` 插件允许您提取 URL 中包含的任意查询字符串参数的值。 在从登陆页面 URL 中提取内部和外部促销活动代码时，此插件非常有用。 在提取搜索词或其他查询字符串参数时，此插件也非常有价值。
 
-此插件在解析复杂 URL（包括散列和包含多个查询字符串参数的 URL）方面提供了强大的功能。 如果您只需要处理简单的查询字符串参数，Adobe建议您使用URL参数功能，这些功能使用Web SDK或Adobe Analytics扩展或者AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法。
+此插件在解析复杂 URL（包括哈希和包含多个查询字符串参数的 URL）方面提供了强大的功能。 如果您只需要处理简单的查询字符串参数，Adobe建议您使用URL参数功能，这些功能使用Web SDK或Adobe Analytics扩展或者AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法。
 
 ## 使用Web SDK扩展安装此插件
 
@@ -60,9 +68,9 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
-1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+1. 如果您尚未这样做，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心 - 已加载的库（页面顶部）
+   * 事件：核心 - 库已加载（页面顶部）
 1. 使用以下配置向上述规则添加操作：
    * 扩展：常用 Analytics 插件
    * 操作类型：初始化 getQueryParam
@@ -166,9 +174,9 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 3.0（2018 年 4 月 16 日）
 
-* 修正版本（重新编译，代码更小）。
+* 小版本（重新编译，代码更小）。
 * 出于可读性目的，将帮助程序函数重命名 `findParameterValue` 和 `getParameterValue`。
-* 消除了添加参数来查找 URL 散列中所包含参数的需要
+* 消除了添加参数来查找 URL 哈希中所包含参数的需要
 
 ### 2.5（2016 年 1 月 8 日）
 
@@ -180,7 +188,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 2.3
 
-* 修复了插件仅在跟踪代码后存在井号的情况下才能正常运行的回归问题
+* 修复了插件仅在跟踪代码后存在哈希的情况下才能正常运行的回归问题
 
 ### 2.2
 

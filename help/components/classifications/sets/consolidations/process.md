@@ -3,24 +3,30 @@ title: 创建和编辑分类合并
 description: 介绍如何创建、验证、运行、批准和取消分类合并。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-TQID: https://experienceleague.adobe.com/XWCDhuponeZ47al1ARXQTA0yzde0-XUnnAhoEU41p2w
+TQID: 'https://experienceleague.adobe.com/XWCDhuponeZ47al1ARXQTA0yzde0-XUnnAhoEU41p2w'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 998
+source-wordcount: '998'
 ht-degree: 10%
-
 ---
-
 # 创建和编辑分类合并
 
 分类集合并允许您从多个分类集获取分类并将它们组合到一个分类集中。 使用此界面从头到尾创建分类集合并。 此界面对于从旧版分类迁移到分类集的组织最有价值。 使用分类集的组织已经不需要使用此合并工作流。
@@ -84,7 +90,7 @@ ht-degree: 10%
 1. 从&#x200B;**[!UICONTROL 组件]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 分类集]**。
 1. 在&#x200B;**[!UICONTROL 分类集]**&#x200B;管理器中，选择&#x200B;**[!UICONTROL 合并]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL 分类集合并]**&#x200B;管理器中：
-   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**&#x200B;对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
+   1. 选择分类合并的名称。 出现&#x200B;**[!UICONTROL 合并： _分类合并名称_]**对话框。 外观和可用操作取决于合并的当前状态，以及您是否仍可以选择修改分类合并。
 
       | 可用操作 | 描述 |
       |---|---|
