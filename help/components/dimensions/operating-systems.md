@@ -54,7 +54,7 @@ Adobe从`User-Agent` HTTP标头派生此维度，并将其与Adobe与[DeviceAtla
 | **持久性** | 不适用 |
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)时启用[!UICONTROL 设备查找]。
+* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 设备查找]。
 
 ## 维度项目
 

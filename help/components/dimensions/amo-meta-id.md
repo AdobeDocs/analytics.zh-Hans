@@ -30,11 +30,11 @@ ht-degree: 7%
 ---
 # AMO Meta广告点击ID
 
-**[!UICONTROL AMO Meta广告点击ID]**&#x200B;是在Adobe Advertising集成中使用的广告点击标识符。 启用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。 它主要用作原始跟踪标识符，而不是人类可读的报表维度。
+**[!UICONTROL AMO Meta广告点击ID]**&#x200B;是在Adobe Advertising集成中使用的广告点击标识符。 启用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成时，将自动创建维度。 它主要用作原始跟踪标识符，而不是人类可读的报表维度。
 
 ## 使用数据填充此维度
 
-此维度由[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)集成自动填充；没有可设置的变量。
+此维度由[Analytics for Advertising](https://experienceleague.adobe.com/zh-hans/docs/advertising/integrations/analytics/overview)集成自动填充；没有可设置的变量。
 
 | 属性 | 值 |
 | --- | --- |

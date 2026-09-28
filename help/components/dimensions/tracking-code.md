@@ -45,7 +45,7 @@ AppMeasurement 使用 [`campaign`](/help/implement/vars/page-vars/campaign.md) �
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Web SDK / XDM字段** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Web SDK / XDM字段** | [`marketing.trackingCode`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **查询参数** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 255字节 |

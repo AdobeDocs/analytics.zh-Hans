@@ -62,7 +62,7 @@ Adobe从访客的IP地址派生此维度服务器端，它使用多种方法（�
 | **持久性** | 不适用 |
 
 * 对于AppMeasurement实施，此维度可开箱即用。
-* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)时启用[!UICONTROL 网络查找]。
+* 对于Web SDK实施，请在[配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans)时启用[!UICONTROL 网络查找]。
 
 ## 维度项目
 

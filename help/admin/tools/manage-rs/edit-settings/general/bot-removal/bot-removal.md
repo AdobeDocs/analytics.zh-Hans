@@ -111,7 +111,7 @@ Data Warehouse 报表到达之后，您就有了必须从历史数据中筛选�
 
 >[!MORELIKETHIS]
 >
->* [更好的机器人阻止（第1部分）：基本知识](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
->* [更好的机器人阻止（第2部分）：识别机器人并利用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
->* [更好的机器人阻止（第3部分）：点击调控器](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [更好的机器人阻止（第1部分）：基本知识](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=zh-Hans)
+>* [更好的机器人阻止（第2部分）：识别机器人并利用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=zh-Hans)
+>* [更好的机器人阻止（第3部分）：点击调控器](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=zh-Hans)
 

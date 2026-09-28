@@ -59,7 +59,7 @@ Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数�
 
 ## 手动实施Web SDK的预跟踪回调
 
-Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用`onBeforeEventSend`注册一个函数，以便在发送数据之前执行，类似于`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
+Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用`onBeforeEventSend`注册一个函数，以便在发送数据之前执行，类似于`doPlugins`。 有关详细信息，请参阅Web SDK文档中的[全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"
