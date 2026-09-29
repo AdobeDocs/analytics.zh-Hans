@@ -7,21 +7,24 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '769'
 ht-degree: 71%
-
 ---
-
 # 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 
 如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated ID 迁移到 Adobe Admin Console。
@@ -113,46 +116,46 @@ ht-degree: 71%
 
 1. 在模板 ([!DNL sample.csv]) 中，完成以下必填字段：
 
-<table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 字段 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>电子邮件 </p> </td> 
-   <td colname="col2"> <p>从 <span class="filepath">User Logins List.tab</span> 复制。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>名字 </p> </td> 
-   <td colname="col2"> <p>从 <span class="filepath">User Logins List.tab</span> 复制。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>姓氏 </p> </td> 
-   <td colname="col2"> <p>从 <span class="filepath">User Logins List.tab</span> 复制。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>身份标识类型 </p> </td> 
-   <td colname="col2"> <p><span class="term">Federated ID</span> 或 <span class="term">Enterprise ID </span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>确保<span class="term">域</span>和<span class="term">电子邮件</span>列中的域与先决条件</a>中建立的域匹配。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>国家/地区代码 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> 字段 </th> 
+      <th colname="col2" class="entry"> 描述 </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>电子邮件 </p> </td> 
+      <td colname="col2"> <p>从 <span class="filepath">User Logins List.tab</span> 复制。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>名字 </p> </td> 
+      <td colname="col2"> <p>从 <span class="filepath">User Logins List.tab</span> 复制。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>姓氏 </p> </td> 
+      <td colname="col2"> <p>从 <span class="filepath">User Logins List.tab</span> 复制。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>身份标识类型 </p> </td> 
+      <td colname="col2"> <p><span class="term">Federated ID</span> 或 <span class="term">Enterprise ID </span>。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>域 </p> </td> 
+      <td colname="col2"> <p>确保<span class="term">域</span>和<span class="term">电子邮件</span>列中的域与先决条件</a>中建立的域匹配。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>国家/地区代码 </p> </td> 
+      <td colname="col2"> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
-有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/cn/enterprise/using/users.html)。
+   有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/cn/enterprise/using/users.html)。
 
->[!NOTE]
->
->[!UICONTROL 产品配置]和[!UICONTROL 管理员角色]等其他列可为空。
+   >[!NOTE]
+   >
+   >[!UICONTROL 产品配置]和[!UICONTROL 管理员角色]等其他列可为空。
 
 1. 在 Adobe Admin Console 的“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**（如步骤 3 中所示）以上传模板文件。
 1. 在 Analytics 中，运行迁移工具（如[迁移 Analytics 用户帐户](/help/admin/tools/user-management/user-migration/t-migrate-users.md)中所述）。
