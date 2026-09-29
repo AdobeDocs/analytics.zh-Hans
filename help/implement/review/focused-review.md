@@ -4,31 +4,42 @@ description: 按照以下步骤操作以确保您的实施无误并与 KPI 保�
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o
+TQID: 'https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 62%
-
 ---
-
 # 重点审查（每个网站发布后）
 
-为何要每几个月审查一次您的实施？ 这样您可以在数据存在的任何质量问题还是小问题时解决它们。 如果您在每个网站发布后都能坚持进行这种“重点审查”，您会发现一年两次的[全面审查](/help/implement/review/full-review.md)会更加容易。 您还将防止小问题演变成可能会削弱利益相关者信心的大数据问题。
+为何要每几个月审查一次您的实施？ 这样您就可以在数据质量问题还较小时解决这些问题。 如果您在每个网站发布后都能坚持进行这种“重点审查”，您会发现一年两次的[全面审查](/help/implement/review/full-review.md)会更加容易。 您还将防止小问题演变成可能会削弱利益相关者信心的大数据问题。
 
 ## &#x200B;1. 从您的5大KPI开始
 
@@ -38,7 +49,7 @@ ht-degree: 62%
 
 请记住，随着时间的推移，代码更新可能会产生意想不到的结果。 您需要确保与 [5 大 KPI](/help/implement/review/define-kpis.md) 相关的所有量度和维度仍然正常运行。 理想情况下，此操作在网站发布后立即执行；如果您在最近几个月内未执行此操作，请&#x200B;*立即*。 请按以下步骤执行此操作：
 
-* 创建功能板以查看这些关键量度和变量每小时的趋势视图（或为每个量度设置[警报](/help/components/alerts/alerts-overview.md)）。 然后，对其进行一到两天的监控，确保您能获得所需数据并且数据正确。 寻找拐点。 准备好立即纠正任何严重问题。 如果发现任何误差，请查看数据层、标签管理器规则及处理规则，并找出原因。
+* 创建功能板以查看这些关键量度和变量每小时的趋势视图（或为每个量度设置[警报](/help/components/alerts/alerts-overview.md)）。 然后，对其进行一到两天的监控，确保您能获得所需数据并且数据正确。 寻找拐点。 准备好立即纠正任何重要问题。 如果发现任何误差，请查看数据层、标签管理器规则及处理规则，并找出原因。
 * 重新运行 [Analytics 运行状况功能板](https://express.adobe.com/page/tnNQGNlfzta3b/)，以监控 KPI 量度和变量的总体趋势。
 
 *有关如何确保量度和变量正常工作的更多详细信息，[请参阅 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=zh-Hans)Adobe Analytics 冠军 Sarah Owen 给出的这些提示。*

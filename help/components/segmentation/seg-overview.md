@@ -3,41 +3,58 @@ description: 了解如何通过区段根据访客特征或其在网站上的互�
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-TQID: https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE
+TQID: 'https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+    internal-label: Folders
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: '1052'
 ht-degree: 79%
-
 ---
-
 # 关于区段
 
-通过区段，可根据特性或网站交互标识访客的子集。 区段被设计为受众洞察，您可根据自己的特定需求生成区段，然后验证、编辑区段和与其他团队成员共享区段或在其他 Adobe 产品和 Analytics 功能中使用区段。
+通过区段，可根据特征或网站交互识别出访客的子集。 区段被设计为受众洞察，您可根据自己的特定需求生成区段，然后验证、编辑区段和与其他团队成员共享区段或在其他 Adobe 产品和 Analytics 功能中使用区段。
 
 区段基于使用嵌套容器模型的[!UICONTROL 访客]、[!UICONTROL 访问]和[!UICONTROL 点击]级别层次结构。 您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。 可在Adobe CX Enterprise的多个产品和功能中生成、批准、共享、保存和运行Analytics区段。 区段可通过报告生成、可内建于功能板报告中，或添加书签以便快速访问。
 
-可在 Segment Builder 中构建和保存区段，也可从流失报告（在 [!UICONTROL Analysis Workspace] 中）生成区段。 还可以根据嵌套容器之间的特定规则采用和扩展预建区段，从而可以过滤结果并应用于报告。 此外，区段可以一起用作[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+可在 Segment Builder 中构建和保存区段，也可从流失报告（在 [!UICONTROL Analysis Workspace] 中）生成区段。 还可以根据嵌套容器之间的特定规则使用和扩展预建区段，从而筛选结果并将其应用于报告。 此外，区段可以一起用作[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 
 区段可确定
 
@@ -135,7 +152,7 @@ ht-degree: 79%
 - 您可以通过[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中的区段共享、标记、验证和批准功能，来设置[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 - 您可以通过[为区段添加标签](/help/components/segmentation/segmentation-workflow/seg-tag.md)来整理和搜索区段，而无需使用文件夹。
 - 您可以创建[顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
-- [!UICONTROL 页面浏览量]容器现在改名为[!UICONTROL 点击]容器，以表明该容器可用于细分所有类型的数据，而不仅限于页面浏览量。 例如，链接跟踪调用以及来自移动 SDK 的操作跟踪调用，都会被点击容器包含或排除在外。
+- [!UICONTROL 页面浏览量]容器现在改名为[!UICONTROL 点击]容器，以表明该容器可用于细分所有类型的数据，而不仅限于页面浏览量。 例如，链接跟踪调用以及来自移动 SDK 的跟踪操作调用，都会被点击容器包含或排除在外。
 
 ## Analysis Workspace 中的分段
 
@@ -151,7 +168,7 @@ Analysis Workspace 包含以下附加功能：
 
 ## Adobe 提供的区段
 
-组件左侧栏显示由您本人、您的公司创建的区段，以及 Adobe 提供的开箱即用区段。 当您单击&#x200B;**[!UICONTROL 显示所有]**&#x200B;时，一般将在列表的底部出现这些区段，并通过 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 标识这些区段。
+组件左边栏显示由您本人、您的公司创建的区段，以及 Adobe 提供的开箱即用区段。 当您单击&#x200B;**[!UICONTROL 显示所有]**&#x200B;时，一般将在列表的底部出现这些区段，并通过 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 标识这些区段。
 
 ## 顺序区段 {#sequential}
 
@@ -159,12 +176,12 @@ Analysis Workspace 包含以下附加功能：
 
 | 访问1 | 访问2 | 访问三 |
 |---|---|---|
-| 在第一次访问中，访客转到主登录页面 A，排除促销活动页面 B，然后查看产品页面 C。 | 在第二次访问中，访客再次转到主登录页面 A，排除促销活动页面 B，再次转到产品页面 C，然后转到新页面 D。 | 在第三次访问中，访客进入并按照第一和第二次访问中的相同路线操作，然后排除页面 F，直接转到目标产品页面 G。 |
+| 在第一次访问中，访客转到主登录页面 A，排除促销活动页面 B，然后查看产品页面 C。 | 在第二次访问中，访客再次转到主登录页面 A，排除促销活动页面 B，再次转到产品页面 C，然后转到新页面 D。 | 在第三次访问中，访客进入并按照第一和第二次访问中的相同路径操作，然后排除页面 F，直接转到目标产品页面 G。 |
 
 顺序区段可基于以下点击值：
 
-- 基于页面点击顺序的访客：单次访问中的页面查看、跨各单独访问的页面查看、排除页面查看的访问。
-- 基于页面查看之间和之后时间的访客：时间限制之后、两次点击之间、事件之后。
+- 基于页面点击序列的访客：单次访问中的页面查看、跨各单独访问的页面查看、排除页面查看的访问。
+- 基于页面查看之间和页面查看之后时间的访客：时间限制之后、两次点击之间、事件之后。
 
 <table style="table-layout:fixed; border: none;">
 

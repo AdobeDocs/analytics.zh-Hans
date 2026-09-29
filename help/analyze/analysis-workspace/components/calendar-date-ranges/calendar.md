@@ -4,26 +4,34 @@ title: 日期范围概述
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-TQID: https://experienceleague.adobe.com/UsXBUB8vK-aIiQBoMfahyU9vt5rVfZadDojwKstFnj4
+TQID: 'https://experienceleague.adobe.com/UsXBUB8vK-aIiQBoMfahyU9vt5rVfZadDojwKstFnj4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '530'
 ht-degree: 100%
-
 ---
-
 # 日期范围概述
 
 在工作区项目中，您通常会使用[面板中的日程表](/help/analyze/analysis-workspace/c-panels/panels.md#calendar)来指定该面板中可视化图表的日期范围。
@@ -44,7 +52,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->当您在自由格式表中使用日期范围时，这些日期范围会覆盖为自由表格所属面板指定的日程表。
+>当您在自由格式表中使用日期范围时，这些日期范围会覆盖为自由格式表所属面板指定的日程表。
 >
 
 您可以像[使用任何组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)一样使用日期范围。 从 ![日程表](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期范围]**&#x200B;组件面板中拖动日期范围，并将该组件放置在：
@@ -54,7 +62,7 @@ ht-degree: 100%
 - **维度列标题**：![切换](/help/assets/icons/Switch.svg) **[!UICONTROL 替换]**&#x200B;当前的维度。 现在的新维度是&#x200B;**[!UICONTROL 日期范围]**。 当维度是日期范围时，您就可以将其他日期范围 ![添加](/help/assets/icons/Add.svg)**[!UICONTROL  添加&#x200B;]**为维度项。
 - **维度项**：按日期范围 ![细分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 细分]**&#x200B;特定维度项。
 
-您还可以通过直接在自由格式表格可视化中添加日期范围列：
+您还可以直接在自由格式表可视化中添加日期范围列：
 
 1. 在量度列中，从上下文菜单中选择：
 

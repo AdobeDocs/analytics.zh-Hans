@@ -8,25 +8,36 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 53%
-
 ---
-
 # 服务器端转发要求
 
 您必须满足这些CX Enterprise解决方案、服务和代码要求才能实施服务器端转发。 这些要求还包括有关如何检查代码版本以及在何处获取最新代码库的说明。
@@ -37,7 +48,7 @@ ht-degree: 53%
 
 ## 服务要求
 
-服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。 Identity Service提供了一个通用ID ，用于在CX Enterprise的所有解决方案中标识站点访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
+服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。 Identity Service提供了一个通用ID，用于在CX Enterprise的所有解决方案中标识网站访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
 
 ## 代码版本
 

@@ -3,23 +3,30 @@ description: 了解使用区段生成器创建区段并通过区段管理器管�
 title: 分段工作流程概述
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-TQID: https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY
+TQID: 'https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: '265'
 ht-degree: 33%
-
 ---
-
 # 分段工作流程概述
 
 本文介绍了使用区段生成器创建区段以及通过区段管理器管理区段的建议工作流程。
@@ -33,7 +40,7 @@ ht-degree: 33%
 | 4 | [标记区段](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 为区段加标记便于整理和共享。 请参阅如何规划和分配标签以进行简单和高级搜索和整理。 |
 | 5 | [批准区段](/help/components/segmentation/segmentation-workflow/seg-approve.md) | 批准区段作为规范区段。 |
 | 6 | [使用区段](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | 您可以将区段组件中的区段直接应用于报表。 |
-| 7 | [共享区段](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 将区段共享给其他Analytics工具中的目标受众，以及Adobe Target和Adobe CX Enterprise。 |
+| 7 | [共享区段](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 将区段与其他Analytics工具中的目标受众共享，以及共享到Adobe Target和Adobe CX Enterprise。 |
 | 8 | [过滤区段](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | 按照标记、所有者和其他过滤器（全部显示、我的、已与我共享、收藏和已批准）进行过滤。 |
 | 9 | [将区段标记为收藏](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | 将区段标记为收藏是另一种组织区段以便于使用的方式。 |
 

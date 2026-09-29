@@ -31,6 +31,11 @@ feature_v2:
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
     internal-label: Release notes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -52,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7522'
 ht-degree: 92%
 ---
 # Adobe Analytics 技术文档更新
@@ -71,6 +76,7 @@ ht-degree: 92%
 | 功能 | 描述 |
 | --- | --- |
 | **2026年9月** | |
+| 箭头和流失的历程画布比较 | 更新了[中的“[!UICONTROL 与]”比较设置。配置历程画布可视化图表](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)以显示历程中的每个节点、箭头和流失上现在显示日期范围之间的百分比变化。 |
 | 新的调整大小快捷方式操作 | Analysis Workspace中新增的键盘快捷键现在允许您[调整面板或可视化图表的大小](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)：更宽、更窄、更高或更短。 |
 | [Adobe Analytics数据收集API](https://developer.adobe.com/analytics-collection-apis/) | 新的开发人员存储库，无需使用AppMeasurement或标记即可为Adobe Analytics聚合数据收集策略并使其现代化。 |
 | **2026年8月** | |

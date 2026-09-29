@@ -5,35 +5,46 @@ title: 创建可共享链接
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-TQID: https://experienceleague.adobe.com/eR53u4V-gSwhSRXrSmGlyuMx68cO-7kU1XKgz7teSjE
+TQID: 'https://experienceleague.adobe.com/eR53u4V-gSwhSRXrSmGlyuMx68cO-7kU1XKgz7teSjE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 61%
-
 ---
-
 # 创建可共享链接
 
 Analysis Workspace 提供了多种将项目共享给用户的方法，包括能够获得指向项目或项目特定部分的链接。 某些链接类型要求收件人登录到 Adobe Analytics 后再访问项目，而其他链接类型无此要求。
 
 ## 获取项目链接以与其他 Workspace 用户共享
 
-要共享项目链接，请转到要共享的项目，然后选择转到&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 获取项目链接]**（或&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 与Workspace用户共享]** > **[!UICONTROL 通过链接共享]**）。 要求您与其共享该链接的用户登录。
+要共享项目链接，请转到要共享的项目，然后选择转到&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 获取项目链接]**（或&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 与Workspace用户共享]** > **[!UICONTROL 通过链接共享]**）。 与您共享该链接的用户必须登录。
 
 如果尚未为链接的收件人分配[项目角色](/help/analyze/analysis-workspace/curate-share/share-projects.md)，则管理员将获得&#x200B;**[!UICONTROL 编辑原始项目]**，非管理员将获得&#x200B;**[!UICONTROL 编辑副本]**&#x200B;体验。
 
@@ -56,7 +67,7 @@ Analysis Workspace 提供了多种将项目共享给用户的方法，包括能�
 
 ## 在目录中使用链接 {#TOC}
 
-使用各种链接选项的一个技巧是，始终将目录置于工作区项目顶部。 在目录中，您可以链接到其他相关项目、特定面板和特定可视化图表。 这可帮助项目收件人更加轻松地进行导航。
+使用各种链接选项的一个技巧是，始终在 Workspace 项目顶部包含目录。 在目录中，您可以链接到其他相关项目、特定面板和特定可视化图表。 这有助于项目接收者更轻松地导航。
 
 请[观看视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=zh-Hans)，了解如何通过使用链接和工作区的富文本编辑器来构建目录。
 

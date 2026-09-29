@@ -3,31 +3,45 @@ description: 了解如何管理旧版区段。
 title: 旧版区段常见问题解答
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-TQID: https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk
+TQID: 'https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 25%
-
 ---
-
 # 旧版区段
 
 本文解答了有关管理旧版区段的最佳实践的常见问题。 旧版区段是指在2014年之前创建的区段。
@@ -80,7 +94,7 @@ ht-degree: 25%
 
 +++
 
-+++ **CX企业版（套件）区段发生了什么情况：**
++++ **CX Enterprise（包）区段发生了什么情况：**
 
 * 非顾客
 * 顾客
@@ -148,7 +162,7 @@ ht-degree: 25%
 | 浏览器高度 — 粒度 | 浏览器高度 | 此维度已重命名，现在仅与Data Warehouse兼容。 在定义与所有界面兼容的区段时，使用枚举类型“浏览器高度 — 分段统计”。 |
 | Cookie 支持 | Cookie | - |
 | 颜色深度 | 显示器颜色深度 | - |
-| - | &quot;应用程序 — *&quot; | “应用程序 — ”前缀已从许多维度类型中删除。 由于移动设备应用程序数据通常是在不包含 Web 数据的报表包中捕获的，因此没有必要保留这些前缀。 |
+| - | &quot;应用程序 — *&quot; | “应用程序 — ”前缀已从许多维度类型中删除。 由于移动应用程序数据通常是在不包含 Web 数据的报告包中捕获的，因此没有必要保留这些前缀。 |
 | 原始登入页面 | 原始登入页面 | - |
 | 已启用 Java | Java | - |
 | 移动设备浏览器 URL 最大长度 | 移动设备浏览器 URL 长度 | - |
@@ -190,7 +204,7 @@ ht-degree: 25%
 
 ## 更改具有已知值的基于整数的维度 {#integer-based-dims}
 
-具有已知值集的基于整数的维度（如浏览器宽度）将拆分为枚举范围，以便您可以快速定义特定范围的区段。 这些枚举列表会在维度名称后附加“- 分段统计”。 以下屏幕演示了如何使用以前的区段生成器界面和新区段生成器界面来分段这些维度：
+具有已知值集的基于整数的维度（如浏览器宽度）将拆分为枚举范围，以便您可以快速定义特定范围的区段。 这些枚举列表会在维度名称后附加“ - 分桶”。 以下屏幕演示了如何使用以前的区段生成器界面和新区段生成器界面来分段这些维度：
 
 ![](assets/seg_browser_dimension.png)
 

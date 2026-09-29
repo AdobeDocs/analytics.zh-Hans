@@ -3,23 +3,28 @@ title: 管理分类集合并
 description: 了解如何将一个或多个分类集合并到单个分类集中。
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
+TQID: 'https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 597
+source-wordcount: '597'
 ht-degree: 3%
-
 ---
-
 # 管理分类合并
 
 如果您有多个包含相似分类数据的分类集，则可以将它们合并到单个分类集中。 合并两个或多个分类集时，Adobe会生成一个新的分类集，其中包含来自每个单独分类集的所有分类数据。 当您将数据上传到多个报表包时，合并会很有用。 或者，当您具有包含相同分类数据并希望将它们合并到单个工作流中的维度时。

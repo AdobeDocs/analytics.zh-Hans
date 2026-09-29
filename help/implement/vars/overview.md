@@ -8,24 +8,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Jyw64eX30vu3tLyimiM5A-t9aTqkAZE0wrsd4i0BCmc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: '417'
 ht-degree: 100%
-
 ---
-
 # 变量、函数、方法及插件概述
 
 Analytics 提供了多个变量来收集 Analytics 数据。 此部分中的变量可分为以下几类：
@@ -48,7 +56,7 @@ Adobe 提供了多种实施 Adobe Analytics 的方法。 每个页面都提供�
 
 ## 操作顺序
 
-在向 Adobe 发送数据时，由 Adobe Analytics 发布的 AppMeasurement 库将按特定顺序依次执行。 如果您不按顺序执行任务，则数据可能不完整。
+由 Adobe Analytics 发布的 AppMeasurement 库在向 Adobe 发送数据时遵循特定顺序。 如果您不按顺序执行任务，则数据可能不完整。
 
 1. 如果您的网站使用数据层，请确保首先填充所有适用变量。 例如，您用页面标题填充 `adobeDataLayer.page.title`。 有关更多信息，请参阅[数据层](../prepare/data-layer.md)。
 2. 使用数据层填充 Analytics 变量。 <br/>如果您使用 Adobe Experience Platform 中的标记，就可以通过使用这些标记之间的数据元素来完成这个任务。 通过数据层中的值填充数据元素。 例如，数据元素 `Page Title` 从数据层变量 `adobeDataLayer.page.title` 中获得值。 <br/>然后您可以使用这个数据元素填充 Analytics 变量。 例如，`eVar4` 从数据元素 `Page Title` 中获得值。 <br/>有关更多信息，请查阅[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)、[将数据层对象映射到数据元素](../launch/layer-to-elements.md)以及[将标记数据元素映射到 Analytics 变量](../launch/elements-to-variable.md)

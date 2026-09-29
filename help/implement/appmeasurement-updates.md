@@ -4,39 +4,59 @@ description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
+TQID: 'https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2880
+source-wordcount: '2880'
 ht-degree: 52%
-
 ---
-
 # AppMeasurement for JavaScript 发行说明
 
 >[!IMPORTANT]
@@ -103,13 +123,13 @@ ht-degree: 52%
 
 发行日期：**2021 年 8 月 17 日**
 
-* 使用选择退出的客户可能已发现在跟踪链接时未遵循服务器端转发选择退出参数。 此版本中的修复会导致在跟踪链接时发送选择退出标志（如果有）。
+* 使用选择禁用的客户可能已经发现，在跟踪链接时，服务器端转发选择禁用参数未生效。 此版本中的修复会导致在跟踪链接时发送选择退出标志（如果有）。
 
 ## 版本 2.22.0
 
 发行日期：**2020 年 8 月 4 日**
 
-* 修复了由于用户选择退出偏好设置而未发送首次点击时缺少的反向链接。
+* 修复了由于用户选择禁用偏好设置而未发送首次点击时缺少反向链接的问题。
 
 ## 版本 2.21.0
 
@@ -133,20 +153,20 @@ ht-degree: 52%
 
 发行日期：**2020 年 2 月 13 日**
 
-* 现在，AppMeasurement 可以通过设置 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 变量强制 Cookie 包含“安全”属性。 此变量的要求是安全地服务于整个客户端网站 (HTTPS)。 (AN-204604)
+* 现在，AppMeasurement 可以通过设置 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 变量强制 Cookie 包含“安全”属性。 此变量的要求是整个客户端网站必须通过安全的 HTTPS 提供服务。 (AN-204604)
 
 ## 版本 2.17.0
 
 发行日期：**2019 年 8 月 23 日**
 
 * 增加了对百度查询字符串重新排序的支持。 (AN-182483)
-* 修复了导致等待选择加入时已排队点击中的访客值过期的问题。 (AN-184391)
+* 修复了导致等待选择启用时已排队点击中的访客值过期的问题。 (AN-184391)
 
 ## 版本 2.16.0
 
 发行日期：**2019 年 8 月 15 日**
 
-* 在 [!UICONTROL AppMeasurement] 中针对退出链接实施了 `sendBeacon` 支持。 如果点击使用 `sendBeacon` 并卸载页面，则仍然会完成请求。 这对退出链接非常有用，因为点击很可能会到达数据收集服务器。 (AN-175142)
+* 在 [!UICONTROL AppMeasurement] 中针对退出链接实施了 `sendBeacon` 支持。 如果点击使用 `sendBeacon` 并卸载页面，则仍然会完成请求。 这对退出链接非常有用，因为这样一来，点击更有可能到达数据收集服务器。 (AN-175142)
 * 即使 OptIn 设置发生更改，ECID/fid 值现在也会在首次点击时缓存。 (AN-175142)
 * 已将受众管理模块更新至 DIL 9.3。 (AN-182704)
 * 显示了 `s.ActivityMap.trackScrollReach` 中用于打开或关闭滚动覆盖范围跟踪的开关。 (AN-182754)
@@ -170,7 +190,7 @@ ht-degree: 52%
 
 发行日期：**2019 年 4 月 10 日**
 
-* 修复了很多报告的 clearVars 问题。 在跟踪器准备就绪之前发送点击时，会出现问题。 在跟踪器准备就绪时，库可以设置已被清除或更改的变量。 (AN-176931、AN-176629、DTM-12758)
+* 修复了许多已报告的 clearVars 问题。 在跟踪器准备就绪之前发送点击时，会出现问题。 在跟踪器准备就绪时，库可以设置已被清除或更改的变量。 (AN-176931、AN-176629、DTM-12758)
 
 ## 版本 2.12.0
 
@@ -184,7 +204,7 @@ ht-degree: 52%
 
 发行日期：**2019 年 2 月 11 日**
 
-* 在 AppMeasurement 中添加了对新的 Adobe“选择加入”服务功能的支持。 (AN-163546)
+* 在 AppMeasurement 中添加了对新的 Adobe“选择启用”服务功能的支持。 (AN-163546)
 * 添加了对在会话存储上存储链接跟踪数据的支持。 (AN-162272)
 * 为音频分析添加了对媒体流类型的支持。 (AN-173265)
 
@@ -360,7 +380,7 @@ ht-degree: 52%
 发行日期：**2016 年 3 月 17 日**
 
 * 包括 Visitor API 1.5.4
-* 支持 Visitor API 1.5.4+ 选择退出
+* 支持 Visitor API 1.5.4+ 选择禁用
 
 ## 版本 1.5.3
 
@@ -408,7 +428,7 @@ ht-degree: 52%
 
 发行日期：**2015 年 4 月 16 日**
 
-* 您现在可以包含具有生命周期量度的自定义上下文数据变量。
+* 您现在可以在生命周期量度中包含自定义上下文数据变量。
 * 现在，`trackBeacon` 和 `clearCurrentBeacon` 调用在 PhoneGap 中可用。
 * 进行了小修复，以便在 `trackLight` 调用之后清除轻量级服务器调用轮廓 ID。
 
@@ -462,7 +482,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->H 代码不支持这些附加的 eVar 和事件。
+>H 码不支持这些附加的 eVar 和事件。
 
 ## 版本 1.3.2
 
@@ -505,7 +525,7 @@ ht-degree: 52%
 
 发行日期：**2013 年 11 月 15 日**
 
-* 修复了用于心率视频测量的页面事件。
+* 修复了用于 Heartbeat 视频测量的页面事件。
 
 ## 版本 1.2
 
@@ -516,7 +536,7 @@ ht-degree: 52%
 
 ## 版本 1.1.1
 
-* 对于以“opera:”开始的链接，链接跟踪调用不能从 Opera 浏览器发送（“opera:”类似于其他浏览器中的“about:”和“chrome:”）。
+* 阻止了 Opera 浏览器针对以“opera:”开头的链接发送链接跟踪调用（“opera:”类似于其他浏览器中的“about:”和“chrome:”）。
 * 向所有图像对象增加了 `alt=""` 以遵守通信和视频接入法案。
 
 ## 版本 1.1

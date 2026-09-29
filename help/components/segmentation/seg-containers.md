@@ -4,30 +4,40 @@ keywords: 分段；区段
 title: 区段容器
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+TQID: 'https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3545
+source-wordcount: '3545'
 ht-degree: 70%
-
 ---
-
 # 区段容器
 
-区段会设置条件，以根据访客的属性或与网站的交互来筛选访客。 要在区段中设置条件，您可以设置规则以根据访客特征和/或导航特征筛选访客。 要进一步划分访客数据，可以根据每个访客的特定访问和/或页面查看点击来进行过滤。 区段生成器提供了一个简单的架构来生成这些子集，并将规则应用为嵌套的分层“访客”、“访问”或“点击”容器。
+区段会设置条件，以根据访客的属性或与网站的交互来筛选访客。 要在区段中设置条件，您可以设置规则以根据访客特征和/或导航特征筛选访客。 要进一步划分访客数据，可以根据每个访客的特定访问和/或页面查看点击进行过滤。 区段生成器提供了一个简单的架构来生成这些子集，并将规则应用为嵌套的分层“访客”、“访问”或“点击”容器。
 
 [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中使用的容器架构定义：
 
@@ -67,7 +77,7 @@ ht-degree: 70%
 
 ## 访客容器
 
-访客容器包含指定时间段内访客的每次访问和页面查看。 访客级别的区段会返回满足条件的页面，以及访客查看的所有其他页面（仅受定义的日期范围的约束）。 作为定义最为广泛的容器，访客容器级别生成的报表将返回跨所有访问的页面查看并允许您生成多访问分析。 因此，根据定义的日期范围，访客容器是最容易更改的。
+访客容器包含指定时间段内访客的每次访问和页面查看。 访客级别的区段会返回满足条件的页面，以及访客查看的所有其他页面（仅受定义的日期范围的约束）。 作为定义最为广泛的容器，访客容器级别生成的报表将返回跨所有访问的页面查看并允许您生成多访问分析。 因此，访客容器最容易因定义的日期范围而发生变化。
 
 访客容器可以包含基于访客总体历史记录的值：
 
@@ -104,7 +114,7 @@ ht-degree: 70%
 
 ## 逻辑组容器
 
-利用逻辑组容器，可在区段规则中提供一个单独的容器，以筛选不基于层次结构的实体。 例如，您可能需要提供嵌套在区段中的容器，用于根据访客进行过滤。 这一类型的逻辑要求您打破层次结构（因为您已经使用一个顶级访客容器），从而只过滤选定的访客。 请参阅[逻辑组示例](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)以了解其他信息。
+利用逻辑组容器，可在区段规则中提供一个单独的容器，以筛选不基于层次结构的实体。 例如，您可能需要提供嵌套在区段中的容器，用于根据访客进行过滤。 这一类型的逻辑要求您打破层级（因为您已经使用一个顶级访客容器），从而只过滤选定的访客。 请参阅[逻辑组示例](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)以了解其他信息。
 
 ## 嵌套容器 {#nest-containers}
 
@@ -141,7 +151,7 @@ Country = United States + Order = True
 
 1. 此区段首先会查看您的全部数据并确定美国国内的所有访客。
 2. 然后，此区段会再次查看您的全部数据，搜索是否有访客下了订单。
-3. 接着，这两个数据集都将应用到报表中。
+3. 接着，这两个数据集都将应用到报告中。
 
 ## 顺序区段的容器 {#containers-sequential}
 
@@ -255,7 +265,7 @@ Country = United States + Order = True
 
 通过容器，您可以在划分区段并将它们应用于报表时，根据报表值以不同方式筛选不同的数据。
 
-在访客>访问>点击容器层次结构的每个级别捕获的数据会影响您构建区段的方式。 如果您将同一区段应用到使用相同数据集的同一报表，获得的值将根据生成报表的容器而有所不同。 容器报表级别和跨点击的值的持续性等因素可能对报表的准确性产生重大影响。
+在访客>访问>点击容器层次结构的每个级别捕获的数据会影响您构建区段的方式。 如果您将同一区段应用到使用相同数据集的同一报表，获得的值将根据生成报表的容器而有所不同。 容器报告级别和跨点击的值的持续性等因素可能对报告的准确性产生重大影响。
 
 ### 容器数据基础 {#container-data}
 
@@ -264,7 +274,7 @@ Country = United States + Order = True
 下面的 `Pages equals Winter Coat` 区段适用于&#x200B;**页面报表**。
 
 
-根据选定容器，报表显示访客的以下访问和页面查看的不同结果。
+根据所选容器，报表会针对某位访客的以下访问和页面查看显示不同的结果。
 
 <table style="table-layout:auto; border: 0;">
 
@@ -315,7 +325,7 @@ Country = United States + Order = True
 
 <!--![](assets/container_overview_PV.png)-->
 
-通过从点击容器报告可以看到从不同的容器报告会对总体报告值产生什么影响。 通过查看区段报表可以注意到，页面查看次数大致与访问次数相同（约 2,000 名访客在一次访问中查看了重复页面，而此数量计入了页面查看总数中）。 并且独特访客数大致与访问次数相同（约 2,000 名独特访客的访问次数超过一次）。
+通过从点击容器报告可以看到从不同的容器报告会对总体报告值产生什么影响。 通过查看区段报表可以注意到，页面查看次数大致与访问次数相同（约 2,000 名访客在一次访问中查看了重复页面，而此数量计入了页面查看总数中）。 并且独特访客数大致与访问次数相同（约 2,000 名独特访客访问了不止一次）。
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
 |---|---|--:|--:|
@@ -377,7 +387,7 @@ Country = United States + Order = True
 
 <!--![](assets/container_overview_visitors.png)-->
 
-通过显示访客容器的区段可以看到，页面查看次数和访问次数都增加了。 之所以出现增加情况，是因为在访客级别中，如果访客只访问了一次“冬季外套”页面（使条件生效），那么将捕获该访客的所有其他页面查看和访问。
+显示来自访客容器的区段时，您可以看到页面查看次数和访问次数都增加了。 之所以出现增加情况，是因为在访客级别中，如果访客只访问了一次“冬季外套”页面（使条件生效），那么将捕获该访客的所有其他页面查看和访问。
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
 |---|---|--:|--:|
@@ -389,7 +399,7 @@ Country = United States + Order = True
 
 ## 以容器为基础报告 {#reporting}
 
-区段数据的每个划分都有一个应用范围。 大多数划分基于&#x200B;*页面查看*，但是很多有用的区段基于&#x200B;*访问*&#x200B;容器，少量基于&#x200B;*访客*&#x200B;容器。 所以，以容器范围为基础了解报表非常关键。
+区段数据的每个细分都有一个应用范围。 大多数划分基于&#x200B;*页面查看*，但是很多有用的区段基于&#x200B;*访问*&#x200B;容器，少量基于&#x200B;*访客*&#x200B;容器。 了解基于容器范围的报告非常重要。
 
 使用 `Page equals Winter Coats` 区段示例，此区段结果的以下示例根据容器数据的应用方式，以及数据范围与区段类型的匹配方式。
 
@@ -403,7 +413,7 @@ Country = United States + Order = True
 
 ### 访问容器级别的页面查看
 
-许多区段规则会确定每次访问的页面查看。 出现此识别时，只有当单个点击符合此规则时，才会应用整个访客容器。 此区段报表特别有价值，因为基于访问的页面查看次数可提供基于每次访问的页面查看次数的insight。
+许多区段规则会按每次访问识别页面查看。 出现此识别时，只有当单个点击符合此规则时，才会应用整个访客容器。 此区段报表特别有价值，因为基于访问的页面查看次数可提供基于每次访问的页面查看次数的insight。
 
 - **页面=“冬季外套”页面的访问容器**：在“访客”容器级别的“页面”报表中，显示包含“冬季服饰”页面视图的访问的所有页面视图。 如果页面与区段规则匹配，则与该访问关联的所有页面查看都将包含在报表中。
 - **页面 =“主页”的访问容器**：在包含此区段的页面报表中，只显示首次访问的数据，因为在第二次访问中，访客没有查看“主页”。
@@ -544,7 +554,7 @@ Country = United States + Order = True
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
 
-当您查看访客容器中的数据时，请注意页面查看次数会显著增加（从 98,248 增加到 112,925）。 之所以出现增加情况，是因为访客的所有页面查看（包括在访客容器级别保存的其他反向链接域值的页面查看）均已列出。 还有该访客的其他访问，让访问次数从 33,203 增加到 43,448。
+当您查看访客容器中的数据时，请注意页面查看次数会显著增加（从 98,248 增加到 112,925）。 之所以出现这种增加，是因为访客的所有页面查看都已列出（包括那些在访客容器级别保存了其他反向链接域值的页面）。 还有该访客的其他访问，让访问次数从 33,203 增加到 43,448。
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
 |---|---|--:|--:|

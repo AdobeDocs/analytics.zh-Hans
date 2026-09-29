@@ -1,26 +1,35 @@
 ---
-description: 报表包定义针对某个所选网站、网站集合或网页子集的完整、独立的报表。
+description: 报告包定义针对某个所选网站、网站集合或网页子集的完整、独立的报告。
 title: 报告包管理器
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-TQID: https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo
+TQID: 'https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '423'
 ht-degree: 77%
-
 ---
-
 # 报告包管理器
 
 报表包定义针对以下任意数据存储的完整、独立的报表：
@@ -29,13 +38,13 @@ ht-degree: 77%
 
 * 单个网站的一部分或子集
 
-* 为获得总数而合并的若干个网站数的全局区段
+* 由多个网站的数字组成以获得总数的全局区段
 
 Analytics解决方案对这些数据存储进行汇总和报告。 通过管理员报表包管理器，可定义用于控制如何在报表包中处理数据的规则。
 
 在登录到任何 Adobe Analytics 解决方案时，您需要选择一个要使用的报表包（除非您使用的是合并各报表包的统计报表包）。
 
-要访问报表包，请执行以下操作：
+要访问报告包，请执行以下操作：
 
 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 报表包]**
 
@@ -43,7 +52,7 @@ Analytics解决方案对这些数据存储进行汇总和报告。 通过管理�
 >
 >可通过&#x200B;**[!UICONTROL “Analytics”]**>**[!UICONTROL “组件]**”>**[!UICONTROL “虚拟报表包”]**&#x200B;管理虚拟报表包。 请参阅[虚拟报表包文档](/help/components/vrs/vrs-about.md)。
 
-## 报表包管理器描述 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
+## 报告包管理器描述 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
 下表介绍了[!UICONTROL 报表包管理器]页面上的元素。
 

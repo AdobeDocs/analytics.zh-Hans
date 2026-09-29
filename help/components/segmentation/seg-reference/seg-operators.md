@@ -3,23 +3,30 @@ description: 了解如何使用区段生成器中的运算符来比较和约束�
 title: 运算符
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-TQID: https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY
+TQID: 'https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 30%
-
 ---
-
 # 区段的比较运算符
 
 通过区段生成器，您可以使用选定的运算符比较和约束值。 运算符分为三类：[标准](#standard-operators)、[Data Warehouse](#data-warehouse-operators)和[非重复计数](#distinct-count-operators)。
@@ -47,7 +54,7 @@ ht-degree: 30%
 
 | 运算符 | 选定的维度、区段或量度事件…… |
 |--- |--- |
-| **[!UICONTROL 等于]** | 返回与某一数字或字符串值完全匹配的项目。 注意：如果使用通配符，则使用&#x200B;**[!UICONTROL 匹配]**&#x200B;运算符。 |
+| **[!UICONTROL 等于]** | 返回与某一数值或字符串值完全匹配的项目。 注意：如果使用通配符，则使用&#x200B;**[!UICONTROL 匹配]**&#x200B;运算符。 |
 | **[!UICONTROL 不等于]** | 返回不包含输入值的完全匹配项的所有项目。  注意：如果使用通配符，则使用&#x200B;**[!UICONTROL 与]**&#x200B;运算符不匹配。 |
 | **[!UICONTROL 等于任何]** | 返回与输入字段中的任何值完全匹配的项目（最多 500 个项目）。 例如，使用此运算符输入&#x200B;**[!UICONTROL 页面名称]**&#x200B;维度的`Search Results, Homepage`将匹配&#x200B;*搜索结果*&#x200B;和&#x200B;*主页*，并计为2个项目。 此运算符的输入字段以逗号分隔。 |
 | **[!UICONTROL 不等于]**&#x200B;中的任何一个 | 识别与输入字段中的任何值完全匹配的项目（最多 500 个项目），然后只返回不包含这些值的项目。 例如，为&#x200B;**[!UICONTROL Page Name]**&#x200B;维度输入带有此运算符的`Search Results, Homepage`将识别&#x200B;*搜索结果*&#x200B;和&#x200B;*主页*，然后从返回的项目中&#x200B;**排除**&#x200B;这些结果。 此示例将计为 2 个项目。 此运算符的输入字段以逗号分隔。 |
@@ -61,7 +68,7 @@ ht-degree: 30%
 | **[!UICONTROL 不以]**&#x200B;开头 | 返回不是以输入的字符串值开头的所有项目。 这与&#x200B;**[!UICONTROL 开头为]**&#x200B;运算符的相反。 |
 | **[!UICONTROL 结尾为]** | 返回以输入的字符串值结束的项目。 |
 | **[!UICONTROL 结尾不是]** | 返回未以输入的字符串值结尾的所有项目。 这与&#x200B;**[!UICONTROL 结尾为]**&#x200B;运算符的相反。 |
-| **[!UICONTROL 个匹配项]** | 返回与给定的数字或字符串值完全匹配的项目。 **[!UICONTROL matches]**&#x200B;子句在Adobe Analytics和Customer Journey Analytics中区分大小写。 **注意**：在使用[通配符](#wildcards) （通配）功能时使用此运算符。 “通配”示例：<ul><li>`a*e` 将匹配 `ae`、`abcde`、`adobe` 和 `a whole sentence`</li><li>`adob*` 将匹配 `adobe`、`adobe analytics` 和 `adobo recipe`</li><li>`*dobe` 将匹配 `dobe`、`adobe` 和 `cute little dobe`</li></ul> |
+| **[!UICONTROL 个匹配项]** | 返回与给定的数值或字符串值完全匹配的项目。 **[!UICONTROL matches]**&#x200B;子句在Adobe Analytics和Customer Journey Analytics中区分大小写。 **注意**：在使用[通配符](#wildcards) （通配）功能时使用此运算符。 “通配”示例：<ul><li>`a*e` 将匹配 `ae`、`abcde`、`adobe` 和 `a whole sentence`</li><li>`adob*` 将匹配 `adobe`、`adobe analytics` 和 `adobo recipe`</li><li>`*dobe` 将匹配 `dobe`、`adobe` 和 `cute little dobe`</li></ul> |
 | **[!UICONTROL 不匹配]** | 返回不包含输入值的完全匹配项的所有项目。 注意：在使用[通配符](#wildcards) （通配）功能时使用此运算符。 |
 | **[!UICONTROL 存在]** | 返回存在的项目的数量。 例如，如果您使用&#x200B;**[!UICONTROL exist]**&#x200B;运算符评估&#x200B;**[!UICONTROL 页面未找到]**&#x200B;维度，则会返回错误页面的数量。 |
 | **[!UICONTROL 不存在]** | 返回所有不存在的项目。 例如，如果您使用&#x200B;**[!UICONTROL 不存在]**&#x200B;运算符评估&#x200B;**[!UICONTROL 页面未找到]**&#x200B;维度，则会返回不存在此错误页面的页面数。 |
@@ -70,14 +77,14 @@ ht-degree: 30%
 
 | 运算符 | 选定的维度、区段或量度事件…… |
 | --- | --- |
-| **[!UICONTROL 小于]** | 返回数字计数小于输入值的项目。 |
-| **[!UICONTROL 小于或等于]** | 返回数字计数小于或等于输入值的项目。 |
-| **[!UICONTROL 大于]** | 返回数字计数大于输入值的项目。 |
-| **[!UICONTROL 大于或等于]** | 返回数字计数大于或等于输入值的项目。 |
+| **[!UICONTROL 小于]** | 返回数值计数小于输入值的项目。 |
+| **[!UICONTROL 小于或等于]** | 返回数值计数小于或等于输入值的项目。 |
+| **[!UICONTROL 大于]** | 返回数值计数大于输入值的项目。 |
+| **[!UICONTROL 大于或等于]** | 返回数值计数大于或等于输入值的项目。 |
 
 ## 不同的计数运算符
 
-您可以按维度中项目的非重复计数进行分段。 示例： *查看超过5个不同产品的访客*，或&#x200B;*查看超过5个不同页面的访问*。
+您可以按维度中项目的非重复计数创建区段。 示例： *查看超过5个不同产品的访客*，或&#x200B;*查看超过5个不同页面的访问*。
 
 | 运算符 | 选定的维度、区段或量度事件…… |
 | --- | --- |

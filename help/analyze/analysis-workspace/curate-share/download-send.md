@@ -4,28 +4,40 @@ title: 下载项目和数据
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
+TQID: 'https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1131'
 ht-degree: 25%
-
 ---
-
 # 下载项目和数据
 
 您可以将Analysis Workspace项目和数据下载到本地设备。 此下载内容可以是复制的数据、CSV（逗号分隔值数据）文件或PDF（可移植文档格式）文档。
@@ -113,7 +125,7 @@ Only relevant as soon as CJA supports Map visualization
 
 >[!TIP]
 >
-> 如果您的维度超过 50,000 项，请下载应用了不同排序量度的文件或者应用一个区段。 例如，在一次下载中按访问量降序排序，然后在第二次下载中按访问量升序排序。 此提示可以帮助您检索较长尾项。
+> 如果您的维度超过 50,000 项，请下载应用了不同排序量度的文件或者应用一个区段。 例如，在一次下载中按访问量降序排序，然后在第二次下载中按访问量升序排序。 此提示可以帮助您检索更长尾的项。
 
 您可以在项目中执行多项任务，甚至可以在下载过程中导航到同一选项卡中的新工作区项目。 如果打开新的浏览器标签页，则下载暂停。 如果完全离开 Workspace 或关闭浏览器标签页，则取消下载。
 

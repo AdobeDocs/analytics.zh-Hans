@@ -4,31 +4,45 @@ description: 设置事件变量，该变量可控制网站上的大多数量度�
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM
+TQID: 'https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 100%
-
 ---
-
 # events
 
 维度和量度是报表的重要组成部分。 `events` 变量负责收集您网站上许多量度的数据。 事件通常会递增报表中的[量度](/help/components/metrics/overview.md)。
@@ -60,7 +74,7 @@ ht-degree: 100%
 
 ## 使用 Adobe Analytics 扩展的事件
 
-您可以在配置 Analytics 扩展时（全局变量）或根据规则设置事件。
+您可以在配置 Analytics 扩展时（全局变量）或在规则下设置事件。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
@@ -73,7 +87,7 @@ ht-degree: 100%
 
 * 用于选择要包含哪个事件的下拉列表
 * 用于序列化的可选文本字段。 请参阅[事件序列化](event-serialization.md)以了解更多信息。
-* 用于事件值的可选文本字段。 您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。 例如，在下拉列表中选择 `event1`，然后在此字段中包含 `10`，报告中的 `event1` 就会增加 10。
+* 用于事件值的可选文本字段。 您可以为货币事件输入货币值，或为非货币事件输入整数，以使其递增多次。 例如，在下拉列表中选择 `event1`，然后在此字段中包含 `10`，报告中的 `event1` 就会增加 10。
 * 用于添加其他事件的按钮。 您可以在合理的范围内向单个规则添加所需数量的事件。
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.events
@@ -103,7 +117,7 @@ s.events = "event1,event13,purchase";
 
 ### 多次增加计数器事件
 
-如果需要，可以多次计算自定义事件。 为字符串中的所需事件分配一个整数。 默认情况下，在报表包设置中创建的事件是计数器事件。
+如果需要，可以多次计算自定义事件。 为字符串中的所需事件分配一个整数。 默认情况下，在报告包设置中创建的事件是计数器事件。
 
 ```js
 // Count event1 ten times
@@ -119,7 +133,7 @@ s.events = "event1=2,event2";
 
 ### 使用货币事件
 
-您可以更改自定义事件以使用货币而不是整数。 如果报表包货币与 `currencyCode` 变量不匹配，货币事件会自动转换为报表包的货币。 它们有助于计算运费、折扣或退款。 如果要将货币事件仅归因于该产品，则可以在 `products` 变量中设置该事件。
+您可以将自定义事件更改为使用货币而不是整数。 如果报表包货币与 `currencyCode` 变量不匹配，货币事件会自动转换为报表包的货币。 它们有助于计算运费、折扣或退款。 如果要将货币事件仅归因于该产品，则可以在 `products` 变量中设置该事件。
 
 在实施货币事件之前，请确保在报表包设置的[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)下将所需事件设置为“货币”。
 
@@ -140,7 +154,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 ### 使用数值事件
 
-您可以更改自定义事件以接受小数值而不是整数。 数值事件的行为与货币事件类似，只是它们不使用货币换算。 如果要将数值事件仅归因于该产品，您可以在 `products` 变量中设置该事件。
+您可以将自定义事件更改为接受小数值而不是整数。 数值事件的行为与货币事件类似，只是它们不使用货币换算。 如果要将数值事件仅归因于该产品，您可以在 `products` 变量中设置该事件。
 
 在实施数值事件之前，请确保在报表包设置的[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)下将所需事件设置为“数值”。
 

@@ -7,24 +7,32 @@ exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 TQID: 'https://experienceleague.adobe.com/G-3emGJR0FMicoTI8WUlWdM3SSoWjGb7sr6lxqceBdg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 55%
-
 ---
-
 # Adobe Analytics 和 GDPR
 
 本文档描述了您需要在Adobe Analytics中执行哪些操作来支持数据主体的GDPR访问和删除权限。
@@ -43,7 +51,7 @@ Adobe 向企业提供软件和服务时，作为提供服务的一部分，Adobe
 
 ## Adobe 如何处理 GDPR 数据
 
-Adobe CX Enterprise提供了一个集成式解决方案，它将您品牌的数据治理基础架构与其用于创建和管理消费者体验的Adobe工具连接在一起。 Adobe CX Enterprise的数据管理功能实现了数据管理策略与数据使用的直接关联。
+Adobe CX Enterprise提供了一个集成解决方案，可将您品牌的数据治理基础架构与其用于创建和管理消费者体验的Adobe工具连接起来。 Adobe CX Enterprise的数据治理功能可将数据治理策略与数据使用直接联系起来。
 
 熟悉[Adobe Analytics如何处理GDPR](https://www.adobe.com/cn/data-analytics-cloud/analytics/general-data-protection-regulation.html)，该页面介绍了做好GDPR准备工作的步骤，以及如何集成Adobe CX Enterprise GDPR API。
 

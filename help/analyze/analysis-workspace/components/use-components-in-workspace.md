@@ -4,32 +4,47 @@ title: 在项目中使用组件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+TQID: 'https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 77%
-
+source-wordcount: '986'
+ht-degree: 74%
 ---
-
 # 在项目中使用组件
 
 组件构成了 Analysis Workspace 中任何项目的实际数据。 组件由维度、量度、区段和日期范围组成。 要在项目中添加组件，您可以将其拖放到可视化图表或面板中。
@@ -44,7 +59,7 @@ ht-degree: 77%
 
 1. [在 Analysis Workspace 中创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。
 
-1. 给 Analysis Workspace 中的项目[添加面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)或者[添加可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。 如果您将组件添加到一个空白项目，就会创建一个自由格式表可视化图表。
+1. 给 Analysis Workspace 中的项目[添加面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)或者[添加可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。 如果您将组件添加到一个空白项目，系统会为您创建一个自由格式表可视化图表。
 
 1. 从按钮面板选择![策划](/help/assets/icons/Curate.svg) **[!UICONTROL 组件]**。 您可以在左侧面板中看到所有可用的组件。 请参阅[界面](/help/analyze/analysis-workspace/home.md#interface)了解更多详细信息。
 
@@ -65,7 +80,7 @@ ht-degree: 77%
 
 ### 在项目中添加维度
 
-[维度](/help/components/dimensions/overview.md)是Adobe Analytics中通常包含字符串值的变量。 相反，[量度](/help/components/calculated-metrics/cm-overview.md)包含与维度相关的数字值。 基本报告根据数值列（量度）显示字符串值的行（维度）。
+[维度](/help/components/dimensions/overview.md)是Adobe Analytics中通常包含字符串值的变量。 相反，[量度](/help/components/calculated-metrics/cm-overview.md)包含与维度相关的数字值。 基本报告显示字符串值的行（维度）以及数值的列（量度）。
 
 1. 如[在项目中添加组件](#add-components-to-a-project)中所述，开始在 Analysis Workspace 的项目中添加维度。
 
@@ -99,11 +114,11 @@ ht-degree: 77%
 
    * 有维度存在时拖动一个量度，可为每个维度项查看该量度。
 
-   * 将量度拖到某个现有量度标题的顶部，可将其替换。
+   * 将量度拖到某个现有量度标头的顶部，可将其替换。
 
    * 将量度拖到某个现有量度标题的左侧或右侧附近，可添加新量度。
 
-   * 将量度拖到某个现有量度标题的上方或下方，可创建量度重叠。
+   * 将量度拖到某个现有量度标头的上方或下方，可创建量度重叠。
 
 
 请参阅[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)了解有关量度的更多信息。

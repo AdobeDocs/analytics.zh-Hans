@@ -3,38 +3,46 @@ description: 设置实时报表的管理步骤。
 title: 实时报表配置
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-TQID: https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0
+TQID: 'https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+subfeature_v2:
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: '226'
 ht-degree: 68%
-
 ---
-
 # 实时报表配置
 
 设置实时报表的管理步骤。
 
 在Adobe Analytics中设置实时报表包括选择报表包并为其配置至多3个报表。 默认情况下，所有用户均有权访问实时报表。
 
-1. 选择您要为其启用实时报表的报表包。
+1. 选择您要为其启用实时报告的报告包。
 
    导航至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员>报表包]**。
 
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 实时]**。
 
-1. 为至多 3 个表报设置实时数据收集，每个报表具有 1 个量度和 3 个维度或分类。
+1. 为至多 3 个报告设置实时数据收集，每个报告具有 1 个量度和 3 个维度或分类。
 
    ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/real_time_admin.png)
 

@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/VxNoO8-K6rE8NdIgQSA0ubuBwaHXu2OPLCexzNCXdHQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: '131'
 ht-degree: 70%
-
 ---
-
 # Util.cookieWrite
 
 Cookie 可以在同一域上的不同页面中存储和检索信息。 使用 `Util.cookieWrite()` 方法将值设置为 Cookie。 您可以使用 [`Util.cookieRead()`](util-cookieread.md) 方法检索使用 `Util.cookieWrite()` 设置的值。
@@ -41,7 +49,7 @@ Adobe Experience Platform数据收集不提供在界面中设置Cookie的功能�
 s.Util.cookieWrite("example_cookie","Example cookie value")
 ```
 
-可选的第三个参数可用，该参数用于确定 Cookie 的过期时间。 默认情况下，使用 `s.Util.cookieWrite()` 设置的 Cookie 在浏览器会话结束时过期。
+可以使用一个可选的第三个参数来确定 Cookie 的过期时间。 默认情况下，使用 `s.Util.cookieWrite()` 设置的 Cookie 在浏览器会话结束时过期。
 
 ```js
 // Set a cookie with an expiration 6 months from now

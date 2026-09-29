@@ -4,35 +4,46 @@ description: 帮助删除网站上的重复量度。
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/43YfbDVjSH7ZJ8kqlXwAnb8UsIEoG3Ei-NRnkLLW63Q
+TQID: 'https://experienceleague.adobe.com/43YfbDVjSH7ZJ8kqlXwAnb8UsIEoG3Ei-NRnkLLW63Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 87%
-
 ---
-
 # 事件 ID 序列化
 
-事件序列化是实施措施以防止重复事件进入 Analytics 报告的过程。 如果您不希望量度由于访客刷新页面而虚增，删除重复事件很重要。
+事件序列化是实施措施以防止重复事件进入 Analytics 报告的过程。 如果您不希望量度因访客刷新页面而虚增，对事件进行重复数据删除很重要。
 
 >[!NOTE]
 >
->数据源不支持事件序列化或删除重复事件。
+>数据源不支持事件序列化或重复数据删除。
 
 ## 设置事件序列化
 
@@ -41,7 +52,7 @@ ht-degree: 87%
 使用事件 ID 时，会在以下级别进行重复数据删除：
 
 * 每个变量都使用自己的表进行重复数据删除。 例如，`event1:ABC` 和 `event2:ABC` 都被计入到报表中。
-* 可在所有访客中进行重复数据删除。 如果访客 A 发送 `event1:ABC`，然后访客 B 也发送 `event1:ABC`，则 Adobe 会忽略访客 B 的第二个实例。
+* 重复数据删除会在所有访客中全局进行。 如果访客 A 发送 `event1:ABC`，然后访客 B 也发送 `event1:ABC`，则 Adobe 会忽略访客 B 的第二个实例。
 * 重复数据删除不会过期。 如果访客发送 `event1:ABC`，然后 2 年后返回并再次发送 `event1:ABC`，则 Adobe 将忽略第二个实例。
 
 >[!TIP]
@@ -58,7 +69,7 @@ ht-degree: 87%
 
 ## 通过 Adobe Analytics 扩展使用事件 ID
 
-您可以在配置 Analytics 扩展时（全局变量）设置事件 ID 字段，也可以根据规则执行此操作。
+您可以在配置 Analytics 扩展时（全局变量）设置事件 ID 字段，也可以将其设置为规则中的一个操作。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。

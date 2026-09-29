@@ -5,29 +5,41 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+TQID: 'https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: '653'
 ht-degree: 64%
-
 ---
-
 # 实施选择退出链接
 
 >[!IMPORTANT]
@@ -37,7 +49,7 @@ ht-degree: 64%
 
 某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。 Adobe让您能够向网站访客提供一种方法，禁止对其信息进行分析。
 
-通过选择退出链接，您可以允许网站的访客在Analytics报表中忽略其数据。 这些链接仅限于AppMeasurement实施；Adobe建议改用[Adobe CX Enterprise选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。 选择加入服务更加可靠，适用于包括Adobe Analytics和AppMeasurement在内的多种Adobe CX Enterprise产品。
+通过选择退出链接，您可以允许网站的访客在Analytics报表中忽略其数据。 这些链接仅限于AppMeasurement实施；Adobe建议改用[Adobe CX Enterprise选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。 选择加入服务更加稳健，可跨多个Adobe CX Enterprise产品（包括Adobe Analytics和AppMeasurement）使用。
 
 当访客访问选择退出 URL 时，系统会提示他们安装选择退出 Cookie。 如果用户选择不被跟踪，并设置了选择退出Cookie，则AppMeasurement将继续向Adobe发送数据。 但是，该数据不会进行处理或包含在报表中。
 

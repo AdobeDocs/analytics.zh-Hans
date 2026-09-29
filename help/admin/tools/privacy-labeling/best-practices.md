@@ -4,46 +4,61 @@ title: 标签设置最佳实践
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-TQID: https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM
+TQID: 'https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2341
+source-wordcount: '2341'
 ht-degree: 64%
-
 ---
-
 # 标签设置最佳实践
 
 每次创建新报告包或在现有报告包中启用一个新变量时，都需要对标签设置进行审核。 在启用新的解决方案集成时，您可能还需要审核标签设置，因为它们可能会公开需要设置标签的新变量。 重新实施您的移动设备应用程序或网站可能会更改现有变量的使用方式，这或许也需要更新标签。
 
-I1、I2、S1 和 S2 标签与 Adobe Experience Platform 中具有相应名称的 DULE 标签具有相同的含义。 但是它们的用途截然不同。 在 Adobe Analytics 中，这些标签用于帮助识别那些由于隐私服务请求而需要匿名化的字段。 在 Adobe Experience Platform 中，它们用于访问控制、同意管理以及用于对有标签的字段强制执行营销限制。 Adobe Experience Platform 支持许多 Adobe Analytics 不使用的附加标签。 如果您使用 Analytics 数据连接器将 Adobe Analytics 数据导入 Adobe Experience Platform，就应确保在 Adobe Analytics 中应用的任何 I1、I2、S1 和 S2 标签也应用于 Adobe Experience Platform 中被导入的报告包所使用的架构。
+I1、I2、S1 和 S2 标签与 Adobe Experience Platform 中具有相应名称的 DULE 标签具有相同的含义。 但是它们的用途截然不同。 在 Adobe Analytics 中，这些标签用于帮助识别那些由于隐私服务请求而需要匿名化的字段。 在 Adobe Experience Platform 中，它们用于访问控制、同意管理以及对有标签的字段强制执行营销限制。 Adobe Experience Platform 支持许多 Adobe Analytics 不使用的附加标签。 如果您使用 Analytics 数据连接器将 Adobe Analytics 数据导入 Adobe Experience Platform，就应确保在 Adobe Analytics 中应用的任何 I1、I2、S1 和 S2 标签也应用于 Adobe Experience Platform 中由这些报告包使用的架构。
 
 ## 直接与间接可识别 ID {#direct-vs-indirect}
 
-在您搞清楚要将哪些标签应用于哪些变量/字段之前，首先需要知道您在 Analytics 数据中捕获的 ID，并确定要将哪些 ID 用于数据隐私请求。 数据隐私法扩展了可视为 ID 的范围。 ID可分为两大类：可直接识别（身份标签：I1）和间接识别（身份标签：I2）。
+在您搞清楚要将哪些标签应用于哪些变量/字段之前，首先需要知道您在 Analytics 数据中捕获的 ID，并确定要将哪些 ID 用于数据隐私请求。 数据隐私扩展了可视为 ID 的范围。 ID可分为两大类：可直接识别（身份标签：I1）和间接识别（身份标签：I2）。
 
 * **可直接识别身份的ID (I1)**：可命名人员或提供直接联系人员的方法。 例如：某人的姓名（甚至包括像“约翰”这样可能会被数百人分享的常见姓名）、任何电子邮件地址或电话号码等。一个没有名字的邮寄地址可能会被认为可以直接识别，尽管它只能识别一个家庭或企业，而不是该家庭或企业中的特定人员。
-* **可间接识别身份的ID (I2)**：不允许单独识别个人，但可以与其他信息（可能拥有也可能不拥有）结合使用，以识别某人。 间接可识别 ID 的示例包括客户会员号，或公司的 CRM 系统为其每个客户使用的唯一 ID。 按照数据隐私法规定，Analytics 使用的跟踪 Cookie 中存储的匿名 ID 虽然只能识别设备而不能识别个人，但也被视为间接可识别 ID；在一台共享设备上，这些 Cookie 无法区分该系统的不同用户。 例如，虽然 Cookie 不能用于查找包含该 Cookie 的计算机，但如果有人能够访问该计算机并找到该 Cookie，则他们可以将该 Analytics Cookie 数据绑定到该计算机。
+* **可间接识别身份的ID (I2)**：不允许单独识别个人，但可以与其他信息（可能拥有也可能不拥有）结合使用，以识别某人。 间接可识别 ID 的示例包括客户忠诚度编号，或公司的 CRM 系统为其每个客户使用的唯一 ID。 按照数据隐私法规定，Analytics 使用的跟踪 Cookie 中存储的匿名 ID 虽然只能识别设备而不能识别个人，但也被视为间接可识别 ID；在一台共享设备上，这些 Cookie 无法区分该系统的不同用户。 例如，虽然 Cookie 不能用于查找包含该 Cookie 的计算机，但如果有人能够访问该计算机并找到该 Cookie，则他们可以将该 Analytics Cookie 数据与该计算机关联起来。
 
-IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只能被分配到一个设备。 但是，ISP可以而且经常会定期更改大多数用户的IP地址，因此随着时间的推移，IP地址可能已被他们的任何用户使用。 ISP的许多客户或同一企业内联网上同一企业的多个员工共享同一外部IP地址的情况也很常见。 因此，Adobe 不支持使用 IP 地址作为数据隐私请求的 ID。 但是，当我们接受的 ID 用于删除请求时，我们也会清除随该 ID 发生的 IP 地址。 您必须确定是否存在其他一些收集的 ID 属于此类别（I1 或 I2），但不适合用作数据隐私请求的标识 ID。
+IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只能被分配到一个设备。 但是，ISP可以而且经常会定期更改大多数用户的IP地址，因此随着时间的推移，IP地址可能已被他们的任何用户使用。 ISP的许多客户或同一企业内联网上同一企业的多个员工共享同一外部IP地址的情况也很常见。 因此，Adobe 不支持使用 IP 地址作为数据隐私请求的 ID。 但是，当我们接受的 ID 用于删除请求时，我们也会清除与该 ID 相关联的 IP 地址。 您必须确定是否存在其他一些收集的 ID 属于此类别（I1 或 I2），但不适合用作数据隐私请求的标识 ID。
 
 即使贵公司在 Analytics 数据内收集了许多不同的 ID，您也可以选择只使用这些 ID 中的一部分用于数据隐私请求。 原因可能包括：
 
@@ -97,7 +112,7 @@ IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只�
 删除标签 DEL-DEVICE 和 DEL-PERSON 应当谨慎使用。 当应用到的变量不包含数据隐私请求中使用的 ID 时，历史 Analytics 报告中的计数（量度）几乎总要发生更改。
 
 * 我们建议将其中一个标签应用于标记为 I1、I2 或 S1 的任何变量。 它们无法应用于未标记为 I1、I2 或 S1 的任何变量。
-* DEL- 标签将导致这些变量[匿名化](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels)（ID 将被前缀为“Data Privacy-”的随机字符串替换）。 在由请求中使用的 ID 所识别的所有点击量当中，将使用相同的匿名值替代原始值的所有实例。 如果此字段中的原始值为这些 ID 之一，则报告量度将不会发生更改。
+* DEL- 标签将导致这些变量[匿名化](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels)（ID 将被前缀为“Data Privacy-”的随机字符串替换）。 在由请求中使用的 ID 所识别的所有点击中，将使用相同的匿名值替代原始值的所有实例。 如果此字段中的原始值为这些 ID 之一，则报告量度将不会发生更改。
 * 通常，如果某个字段的标签为ID-DEVICE ，那么您也应该为标签指定DEL-DEVICE 。
 * 同样，如果字段的标签为ID-PERSON，则您也应该为字段分配标签DEL-PERSON。
 * 如果字段没有ID — 标签，但包含您希望匿名处理的标识信息，则应根据您的实施采用相应的标签（DEVICE或PERSON）。 如果您只将 Cookie ID 用于数据隐私请求，则您应当使用 DEL-DEVICE。
@@ -108,7 +123,7 @@ IP 地址也被视为间接可识别 ID，因为在任何给定时刻，它只�
 
 ## 设置访问标签的最佳实践 {#best-practices-access}
 
-通常大量字段将具有 ACC 标签，不过也有很少字段将具有任何其他标签。 哪个访问标签适用将取决于您用于隐私数据请求的 ID。
+虽然只有极少数字段会具有其他标签，但大量字段具有 ACC 标签是很常见的。 哪个访问标签适用将取决于您用于隐私数据请求的 ID。
 
 <table id="table_A5B834CC08C641D99E2691A2361997E4"> 
  <thead> 

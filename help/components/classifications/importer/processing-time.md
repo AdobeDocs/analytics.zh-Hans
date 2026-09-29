@@ -3,23 +3,28 @@ title: 分类导入器处理时间
 description: 了解 Adobe 处理分类文件的时间范围，以及如何最大限度地缩短处理时间。
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-TQID: https://experienceleague.adobe.com/D53-pBQ6RKbTCjEIyAgXmh1ZGx9FEtj5sLF8nHUp7P0
+TQID: 'https://experienceleague.adobe.com/D53-pBQ6RKbTCjEIyAgXmh1ZGx9FEtj5sLF8nHUp7P0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '430'
 ht-degree: 100%
-
 ---
-
 # 分类导入器处理时间
 
 {{classification-importer-deprecation}}
@@ -29,7 +34,7 @@ ht-degree: 100%
 如果要查看分类文件是否已完成，请执行以下操作：
 
 1. 登录到 Adobe Analytics，然后导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
-2. 选择相关的报表包和数据集。
+2. 选择相关的报告包和数据集。
 3. 如果处理未完成，则会出现以下任一消息：
 
    * ![注意](assets/icon_notice_notice.gif) 选定的报表有一个分类导入正在处理中。
@@ -42,5 +47,5 @@ ht-degree: 100%
 * **提前计划**：尽快开始上载分类数据，尤其是当假日季节需要使用此数据时。
 * **尽可能合并分类文件**：如果单个变量具有多个分类，请上载包含所有适用分类的单个文件。 避免上载同一变量的多个分类。
 * **避免上载超过 500 MB 的文件**：如果处理大量分类数据，Adobe 建议将文件拆分为多个 100 MB 至 500 MB 的文件。
-* **避免将大量文件上载到 FTP**：如果您计划通过 FTP 将相同的文件上载到多个报表包，请限制每次上载的文件数量。 Adobe 建议，文件数量乘以适用的报表包数量应小于 1000。 如果需要将 100 个文件上载到 100 个报表包，则文件总数为 10,000。 在这种情况下，不应一次上载所有 100 个文件，而应将它们分为 10 组，每次上载 10 个文件。
+* **避免将大量文件上载到 FTP**：如果您计划通过 FTP 将相同的文件上载到多个报表包，请限制每次上载的文件数量。 Adobe 建议，文件数量乘以适用的报表包数量应小于 1000。 如果需要将 100 个文件上载到 100 个报表包，则文件总数为 10,000。 不要一次上传所有 100 个文件，而应将其分成 10 组，每组 10 个文件。
 * **通过浏览器导入程序上载小文件**：如果文件小于 1 MB（少于 50,000 行）,Adobe 建议使用浏览器导入程序。 浏览器导入的速度几乎总是比 FTP 导入快。

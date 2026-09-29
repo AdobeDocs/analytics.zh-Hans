@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/vpopS2WlO27GSPIGw5sn-Zm-X7UsGq5P-My-n9tGmG0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '410'
 ht-degree: 79%
-
 ---
-
 # transactionID
 
 `transactionID`变量唯一标识交易，以便点击可以为通过[交易ID数据源](/help/import/data-sources/transactionid.md)上传的数据提供维度值。 如果您希望使用从在线渠道数据中收集的值填写离线渠道数据，此变量很有用。
@@ -44,7 +52,7 @@ ht-degree: 79%
 
 ## 使用 Adobe Analytics 扩展的交易 ID
 
-您可以在配置 Analytics 扩展时（全局变量）或根据规则设置交易 ID。
+您可以在配置 Analytics 扩展时（全局变量）或在规则下设置交易 ID。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
@@ -71,4 +79,4 @@ s.transactionID = "ABC123,XYZ456";
 
 >[!TIP]
 >
->如果您使用此变量集成多个离线渠道，请确保各个渠道不会与交易 ID 重叠。 例如，如果呼叫中心交易 ID 值为 `1234`，而潜在销售顾客交易 ID 值为 `1234`，则它们可能会发生冲突并导致意外结果。 确保每个离线渠道的交易 ID 都包含唯一的格式，并在必要时加以区分。 例如，在数据源和 AppMeasurement 中将呼叫中心交易 ID 设置为 `call_1234`，并将潜在销售顾客交易 ID 设置为 `lead_1234`。
+>如果您使用此变量集成多个离线渠道，请确保不同渠道的交易 ID 不会重叠。 例如，如果呼叫中心交易 ID 值为 `1234`，而潜在销售顾客交易 ID 值为 `1234`，则它们可能会发生冲突并导致意外结果。 确保每个离线渠道的交易 ID 都包含唯一的格式，并在必要时加以区分。 例如，在数据源和 AppMeasurement 中将呼叫中心交易 ID 设置为 `call_1234`，并将潜在销售顾客交易 ID 设置为 `lead_1234`。

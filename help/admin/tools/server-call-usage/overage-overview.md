@@ -4,27 +4,37 @@ title: “服务器调用使用情况”概述
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+TQID: 'https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 24%
-
 ---
-
 # 服务器调用使用情况
 
 Adobe Analytics服务器调用使用情况可以满足您对浏览器和移动设备服务器调用使用情况数据的透明度请求。 它允许您访问：
@@ -59,7 +69,7 @@ Adobe Analytics服务器调用使用情况可以满足您对浏览器和移动�
   </tr> 
   <tr> 
    <td colname="col1"> <p>账单公司（账单ID） </p> </td> 
-   <td colname="col2"> <p>对服务器调用记帐的法人。 例如，adobe.com。 每个账单公司都有一个账单ID，用于唯一标识账单客户。 计费ID可以绑定到多个CX Enterprise组织；组织与计费ID之间并不总是存在1:1的关系。 </p> </td> 
+   <td colname="col2"> <p>对服务器调用记帐的法人。 例如，adobe.com。 每个账单公司都有一个账单ID，用于唯一标识账单客户。 计费ID可以绑定到多个CX Enterprise组织；组织和计费ID之间并不总是存在1:1的关系。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>登录公司 </p> </td> 
@@ -73,7 +83,7 @@ Adobe Analytics服务器调用使用情况可以满足您对浏览器和移动�
   </tr> 
   <tr> 
    <td colname="col1"> <p>CX Enterprise组织 </p> </td> 
-   <td colname="col2"> <p>组织是一个实体，它允许管理员配置组和用户，并控制CX Enterprise中的单点登录。 组织的作用类似于一个跨所有CX Enterprise产品和解决方案的登录公司。 </p> <p>大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。 </p> </td> 
+   <td colname="col2"> <p>组织是一个实体，它允许管理员配置群组和用户，并控制CX Enterprise中的单点登录。 组织的作用类似于一个衔接所有CX Enterprise产品和解决方案的登录公司。 </p> <p>大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>服务器调用承诺 </p> </td> 

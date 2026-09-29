@@ -3,28 +3,41 @@ title: 数据激增和骤减故障诊断
 description: 了解趋势报表中出现数据急剧增加或减少的可能原因。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+TQID: 'https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: '856'
 ht-degree: 100%
-
 ---
-
 # 数据激增和骤减故障诊断
 
 当您的网站收集数据时，有很多外部因素会极大地影响数据收集或报告。 下面是一系列潜在的原因，解释为什么特定变量或总流量会急剧增加或减少。
@@ -35,7 +48,7 @@ ht-degree: 100%
 
 流量骤减分为两部分：部分数据和零数据。
 
-### 完全缺失数据（报告零）的潜在原因
+### 完全缺失数据（报告显示为零）的潜在原因
 
 * **报表包延迟**：有时，报表包会因为多种因素而出现[延迟](../latency.md)。 许多滞后问题可在数小时内得到解决。 如果您担心特定报表包可能存在问题，请联系 Adobe 客户关怀团队，向其提供受影响的报表包 ID。
 * **移除实施**：有时，在组织更改实施或重新构建其网站时，重新实施 Analytics 的步骤会被忽略。 请与组织中的开发人员合作，在您的网站上重新实施代码。
@@ -48,15 +61,15 @@ ht-degree: 100%
 * **反向链接流量减少**：如果删除其他网站上的热门横幅广告或超链接，可能会导致流量急剧减少。 可了解[反向链接域](/help/components/dimensions/referring-domain.md)维度在流量骤减前后的趋势，以便进一步研究。
 * **网站性能问题**：通过负载均衡器的流量分配不正确或托管网站的服务器问题，可能会导致 Analytics 报表中的流量减少。 与组织内负责管理网站完整性和运行状况的团队合作，调查任何潜在的性能问题。
 * **免费搜索排名的变更**：如果其他网站取代您在某些关键字的免费搜索排名，流量可能会减少。 如果您的网站不再位于搜索结果的第一页，则这种流量减少尤为明显。 可了解[搜索引擎](/help/components/dimensions/search-engine.md)维度的趋势，以便进一步研究。
-* **PPC 广告的变更**：更改现有促销活动的广告标题和说明，可能会影响广告的质量分数。 通常，高质量分数意味着关键字触发的广告位于更高位置，并且每次点击的成本更低。 可了解[搜索关键字 - 付费](/help/components/dimensions/search-keyword.md)维度的趋势，以便进一步研究。
+* **PPC 广告的变更**：更改现有促销活动的广告标题和说明，可能会影响广告的质量分数。 通常，高质量分数意味着关键词触发的广告位于更高位置，并且每次点击成本更低。 可了解[搜索关键字 - 付费](/help/components/dimensions/search-keyword.md)维度的趋势，以便进一步研究。
 
 ## 流量激增
 
-流量激增分为两部分：近双倍数据以及其他原因。
+流量激增分为两部分：接近双倍的数据和其他原因。
 
 ### 接近或恰好是预期数据两倍的潜在原因
 
-* **实施中有多个图像请求**：如果实施中的每个页面包含多个 [`t()`](/help/implement/vars/functions/t-method.md) 方法调用，这会有效地使收集的所有数据翻倍。 可在您的网站上使用调试器，并监测多个图像请求以捕获重复数据。
+* **实施中有多个图像请求**：如果实施中的每个页面包含多个 [`t()`](/help/implement/vars/functions/t-method.md) 方法调用，这会有效地使收集的所有数据翻倍。 使用您网站上的调试器，并留意多个图像请求以发现重复项。
 * **上载了重复的数据源文件**：如果贵组织使用[数据源](/help/import/data-sources/overview.md)，则组织中的用户可以将同一文件上载到 Adobe Analytics 两次。 执行此项重复上载操作，会有效地使报表中的数据翻倍，从而导致流量激增。
 
 ### 流量增加的其他潜在原因
@@ -65,4 +78,4 @@ ht-degree: 100%
 * **启动的促销活动**：电子邮件促销活动或搜索引擎优化等营销工作，可能会导致您网站的流量激增。 可了解[跟踪代码](/help/components/dimensions/tracking-code.md)维度的趋势，以便进一步研究。 此外，也可以联系您的营销团队，确保流量激增是有意为之的行为。
 * **环境或间接原因**：如果发生假期或间接事件（您的网站是已知资源的重要事件，或其他组织的追加营销工作），您网站的流量可能会增加。 诊断确切的原因比较困难，因为存在几乎无限数量的间接原因会导致流量增加。 但是，这些原因是确定具体原因的最重要因素之一，贵组织可以充分利用这些原因并据此做出明智的业务决策。 了解[页面](/help/components/dimensions/page.md)或[反向链接](/help/components/dimensions/referrer.md)维度的趋势，是最有可能确定流量来源的最佳着眼点。
 
-如果以上原因都不是导致您网站流量增加或减少的潜在原因，请联系 Adobe 客户关怀团队。 他们可以协助查找流量激增或骤减的根源。 创建支持事件后，请告知代理应如何重新创建明确显示流量激增或骤减的特定报表。
+如果以上原因都不是导致您网站流量增加或减少的潜在原因，请联系 Adobe 客户关怀团队。 他们可以协助查找流量尖峰或骤减的根源。 创建问题后，请告知代理应如何重新创建明确显示流量激增或骤减的特定报表。

@@ -3,23 +3,30 @@ description: 了解区段创建用户界面。
 title: 创建区段
 feature: Segmentation
 exl-id: 0cec43bd-c2cc-4c8a-ae16-e8b5ad61f281
-TQID: https://experienceleague.adobe.com/s8SCegMSTdPKWLB7DF4LhpcoVcbwgPO2rwBT3v3w-tY
+TQID: 'https://experienceleague.adobe.com/s8SCegMSTdPKWLB7DF4LhpcoVcbwgPO2rwBT3v3w-tY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # 创建区段
 
 您可以在Adobe Analytics中创建不同类型的区段。  您选择的类型取决于区段需要达到的复杂程度以及区段是应仅应用于当前Workspace项目还是应应用于所有项目。 可直接在Adobe Analytics的主界面中或在Workspace项目中工作时创建区段。

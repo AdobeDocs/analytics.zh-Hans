@@ -4,25 +4,31 @@ description: 与 Adobe 合作以确保大流量事件不会遇到延迟。
 feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-TQID: https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI
+TQID: 'https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+    internal-label: Traffic Management
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: '750'
 ht-degree: 97%
-
 ---
-
 # 安排流量尖峰
 
 Adobe 尝试与客户合作，确保高流量活动取得成功。 计划好流量尖峰是合作过程的起点。 您可以通过安排流量尖峰部分提醒 Adobe 出现临时流量尖峰，以便可以分配适合的资源来处理。 您可以评估以往服务器调用次数，以便更好地了解您需要安排的流量尖峰的大小。
@@ -59,11 +65,11 @@ Adobe 尝试与客户合作，确保高流量活动取得成功。 计划好流�
 
    >[!NOTE]
    >
-   >要安排流量尖峰，请将电话号码包括在您的用户联系信息中，以便 Adobe 在需要时可以与您沟通有关问题。
+   >要安排流量尖峰，请在您的用户联系信息中提供电话号码，以便 Adobe 在需要时就相关问题与您联系。
 
-## 始终安排流量尖峰为什么很重要
+## 为什么始终安排流量尖峰很重要
 
-当客户通知 Adobe 每个报告包的流量尖峰时，Adobe 将尽一切可能确保降低它对报告产生的影响。
+当客户就每个报告包的流量尖峰通知 Adobe 时，Adobe 会尽一切可能确保其对报告的影响降至最低。
 
 * 如果数据开始发生延迟，则安排了流量尖峰的组织即获得优先权。 此概念的重要性在节假日尤为关键，因为许多组织在此期间都安排了流量尖峰。
 * 如果 Adobe 注意到您比往年明显高估/低估了预计的流量，则可能会联系您以确保准确性。
@@ -71,8 +77,8 @@ Adobe 尝试与客户合作，确保高流量活动取得成功。 计划好流�
 
 ## 您的组织可采取的措施
 
-Adobe 希望确保您对于最新报告的体验保持一致。 为了最有效地执行此任务，Adobe 强烈建议采取以下各项措施：
+Adobe 希望确保您获得最新报告的体验始终保持一致。 为了最有效地执行此任务，Adobe 强烈建议采取以下各项措施：
 
-* 为所有流量尖峰安排前置时间。 **尤为重要的是将任何预计在 11 月至 12 月出现的流量尖峰安排在 9 月 15 日之前。** 如果错过最后期限，请尽快安排尖峰。 即使准备时间较少，也比完全没有准备时间更好，Adobe 将配合现有的资源，更好地提供您的报告包。
-* 如果 Adobe 就所安排的流量尖峰与您联系，请务必告知是实时报告还是完全处理报告更重要。 比起其他报告，某些组织更加依赖实时报告。 了解您使用何种类型的报告可帮助 Adobe 相应地决定优先顺序。
+* 为所有流量尖峰安排前置时间。 **尤为重要的是将任何预计在 11 月至 12 月出现的流量尖峰安排在 9 月 15 日之前。** 如果错过最后期限，请尽快安排流量尖峰。 即使准备时间较少，也比完全没有准备时间更好，Adobe 将配合现有的资源，更好地提供您的报告包。
+* 如果 Adobe 就所安排的流量尖峰与您联系，请务必告知是实时报告还是完全处理报告更重要。 某些组织比其他组织更依赖实时报告。 了解您使用何种类型的报告可帮助 Adobe 相应地决定优先顺序。
 * 告知您的Adobe客户团队最重要的报表以及您何时提取这些报表可帮助他们为您宣传。

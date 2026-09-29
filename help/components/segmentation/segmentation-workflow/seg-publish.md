@@ -3,28 +3,39 @@ description: 了解如何在Audience Library、Target和Audience Manager中发�
 title: 发布区段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
+TQID: 'https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1432'
 ht-degree: 31%
-
 ---
-
 # 发布区段 {#publish-segments}
 
 >[!CONTEXTUALHELP]
@@ -56,14 +67,14 @@ ht-degree: 31%
 
 ## 先决条件
 
-* 确保要保存此区段的目标报表包为CX Enterprise [启用了](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 否则，您无法将其发布到CX Enterprise。
+* 请确保要保存此区段的报表包已[启用CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 否则，您无法将其发布到CX Enterprise。
 * 确保您的组织使用的是 Experience Cloud ID。
 * 在发布区段之前，您的管理员需要先在[管理控制台](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-tool-experience-cloud)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
 
 ## 注意事项
 
 * **报告包限制**：每个报告包最多可发布 75 个区段。 此限制是强制实施的。 如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
-* **成员资格限制**：从Adobe Analytics共享到CX Enterprise的受众数量不能超过2000万个独特成员。
+* **成员限制**：从Adobe Analytics共享到CX Enterprise的受众数量不能超过2000万个独特成员。
 * **数据隐私**：受众并非基于访客的身份验证状态进行过滤。 访客可能能够在未验证和已验证状态下浏览您的网站。 在访客未经过身份验证时发生的操作仍可能会导致将访客包含在受众中。 请查看[Adobe CX Enterprise隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
 * 有关[!DNL Adobe Analytics]和Audience Manager **中区段之间的**&#x200B;差异的讨论，请参阅[了解Analytics和Audience Manager中的区段](/help/integrate/c-audience-analytics/aam-analytics-segments.md)。
 
@@ -71,7 +82,7 @@ ht-degree: 31%
 
 | 可用内容 | 可用时间 | 可用位置 |
 |---|---|---|
-| 元数据（区段标题和定义） | 发布后立即 | Audience Manager 、 CX Enterprise Audience Library 、 Target |
+| 元数据（区段标题和定义） | 发布后立即 | Audience Manager、CX Enterprise受众库、Target |
 | 具有会员资格的可用区段 | 发布后约 8 小时 | Audience Manager中的访客资料查看器 |
 | 特性和会员人群 | 24 - 48 小时内 | Audience Manager |
 
@@ -93,9 +104,9 @@ ht-degree: 31%
 
 | 元素 | 描述 |
 |---|---|
-| **[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]** | 启用此选项后，区段标题和定义会立即与CX Enterprise共享，而区段成员资格则每4小时进行一次评估和共享。<br> 例如，当该受众与Target中的某个活动关联时，[!DNL Analytics]将开始发送具有CX Enterprise和Target受众资格的访客的ID。 此时，受众名称和相应的数据开始显示在CX Enterprise的[!DNL Audience Library]页上。</br> |
+| **[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]** | 启用此选项后，区段标题和定义会立即与CX Enterprise共享，而区段会员资格则每4小时进行一次评估和共享。<br> 例如，当该受众与Target中的某个活动关联时，[!DNL Analytics]将开始发送具有CX Enterprise和Target受众资格的访客的ID。 此时，受众名称和相应的数据开始显示在CX Enterprise的[!DNL Audience Library]页面上。</br> |
 | **[!UICONTROL 受众创建窗口]** | 您选择的时间范围用于按滚动日历创建受众。 例如，**[!UICONTROL 最近30天]**（默认）包括从今天日期（不是创建区段的原始日期）起最近30天内符合受众条件的访客。 |
-| **[!UICONTROL 在受众库中创建]** | 在CX Enterprise中，您创建和发布的区段可在[!DNL Audience Library]页面上无延迟地提供。 它们不依赖于 Analytics 更新。 这些区段不会计入 75 个已发布区段的限制。 |
+| **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在CX Enterprise的[!DNL Audience Library]页面上无延迟地提供。 它们不依赖于 Analytics 更新。 这些区段不会计入 75 个已发布区段的限制。 |
 | **[!UICONTROL 已发布 x 个（限制为 75 个）]** | 已发布到CX Enterprise的区段数。 单击该链接可查看已发布的区段，及其关联的报告包和所有者的列表。 |
 | **[!UICONTROL 保存]** | 保存此区段。 |
 
@@ -124,12 +135,12 @@ ht-degree: 31%
 
 有两种方法可捕获当前与浏览器关联的Adobe Audience Manager UUID：
 
-* Adobe CX企业调试器
+* Adobe CX Enterprise调试器
 * 浏览器中的本机开发人员工具（例如，Chrome Developer Tools）
 
 以下屏幕截图显示了如何在浏览器中检索Adobe Audience Manager UUID，并在Audience Manager访客资料查看器中使用它来验证特征和区段成员资格。
 
-### 方法1：使用Adobe CX Enterprise Debugger
+### 方法1：使用Adobe CX Enterprise调试器
 
 1. 在Chrome网上应用商店中下载并安装[Adobe CX Enterprise Debugger](/help/implement/validate/debugger.md)。
 1. 加载页面时启动该调试器。

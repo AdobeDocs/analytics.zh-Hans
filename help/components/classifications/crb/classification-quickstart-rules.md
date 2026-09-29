@@ -1,34 +1,42 @@
 ---
-description: 分类规则会定期查找未分类的术语。 如果找到匹配规则的术语，规则会自动将其添加到分类数据表。 您还可以使用分类规则覆盖现有键值。
+description: 分类规则会定期查找未分类的术语。 如果找到规则匹配项，规则会自动将这些术语添加到您的分类数据表中。 您还可以使用分类规则覆盖现有键值。
 title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+TQID: 'https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1981
+source-wordcount: '1981'
 ht-degree: 86%
-
 ---
-
 # 分类规则（旧版）
 
 {{classification-rulebuilder-deprecation}}
 
-分类规则会定期查找未分类的术语。 如果找到匹配规则的术语，规则会自动将其添加到分类数据表。 您还可以使用分类规则覆盖现有键值。
+分类规则会定期查找未分类的术语。 如果找到规则匹配项，规则会自动将这些术语添加到您的分类数据表中。 您还可以使用分类规则覆盖现有键。
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 分类规则生成器]**
 
@@ -41,7 +49,7 @@ ht-degree: 86%
 * **跟踪代码**：创建分类规则可对由跟踪代码中的字符串派生的键值进行分类，并将其与您定义的特定条件进行匹配。
 * **搜索词**：使用[正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)和通配符简化搜索词分类。 例如，如果搜索词包含 *`baseball`*，则可以将 *`Sports League`* 分类设置为 *`MLB`*。
 
-例如，假设电子邮件促销活动 ID 的跟踪代码为：
+例如，假设电子邮件营销活动 ID 的跟踪代码为：
 
 `em:Summer:20XX:Sale`。
 
@@ -119,7 +127,7 @@ about_classification_rules.xml
 >
 >如果跟踪代码采用URL编码，它将&#x200B;**不**&#x200B;由规则生成器分类。
 
-在此示例中，假设您要对以下促销活动 ID 进行分类：
+在此示例中，假设您要对以下营销活动 ID 进行分类：
 
 示例密钥： `em:JuneSale:20XX0601`
 
@@ -131,7 +139,7 @@ about_classification_rules.xml
 
 正则表达式： `^(.+)\:(.+)\:(.+)$`
 
-正则表达式与促销活动 ID 的关联方式：
+正则表达式与营销活动 ID 的关联方式：
 
 ![](assets/regex.png)
 
@@ -160,7 +168,7 @@ about_classification_rules.xml
 
 ## 正则表达式 - 对特定字符进行分类 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
-使用正则表达式的一种方式是对一串字符中的特定字符进行分类。 例如，假设以下跟踪代码包含两个重要字符：
+使用正则表达式的一种方式是对字符串中的特定字符进行分类。 例如，假设以下跟踪代码包含两个重要字符：
 
 示例密钥： `4s3234`
 
@@ -180,7 +188,7 @@ about_classification_rules.xml
 
 ## 正则表达式 - 匹配不同长度的跟踪代码 {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
-此示例显示当跟踪代码具有不同的长度时，如何识别逗号分隔符之间的特定字符。 Adobe 建议为每个跟踪代码使用一个正则表达式。
+此示例显示当跟踪代码具有不同长度时，如何识别冒号分隔符之间的特定字符。 Adobe 建议为每个跟踪代码使用一个正则表达式。
 
 示例关键值：
 
@@ -239,13 +247,13 @@ c:d:yoyo
 | 表达式 | 描述 |
 |---|---|
 | `(?ms)` | 使整个正则表达式与一个多行输入匹配，这允许 . 通配符匹配任何新行字符 |
-| (`?i`) | 使整个正则表达式区分大小写 |
+| (`?i`) | 使整个正则表达式不区分大小写 |
 | [`abc`] | 单个字符：a、b 或 c |
 | [`^abc`] | 除以下字符外的任意单个字符：a、b 或 c |
 | [`a-z`] | a 到 z 之间的任意单个字符 |
 | [`a-zA-Z`] | a 到 z 或 A 到 Z 之间的任意单个字符 |
 | `^` | 行的开始（匹配行的开始） |
-| `$` | 匹配行的结尾（或在结尾新行的前面） |
+| `$` | 匹配行尾（或末尾换行符之前） |
 | `\A` | 字符串的开始 |
 | `\z` | 字符串的结尾 |
 | `.` | 匹配任意字符（不包括新行） |
@@ -253,7 +261,7 @@ c:d:yoyo
 | `\S` | 任意非空白字符 |
 | `\d` | 任意数字 |
 | `\D` | 任意非数字 |
-| `\w` | 任意单词字符（字母、数字、下划线） |
+| `\w` | 任意字字符（字母、数字、下划线） |
 | `\W` | 任意非单词字符 |
 | `\b` | 任意单词边界 |
 | `(...)` | 捕获包含的任何内容 |

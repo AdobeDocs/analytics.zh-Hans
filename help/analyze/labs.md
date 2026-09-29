@@ -4,28 +4,39 @@ description: 预览 Adobe Analytics 的原型项目
 feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
-TQID: https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI
+TQID: 'https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: e69d6e08-d70a-4d1e-9168-b9061b2e860c
+    internal-label: Labs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL Labs] 用户指南
 
 [!UICONTROL Labs] 允许更快地为早期创意制作原型。 它以客户为中心，整合了工具和流程，可加快开发速度并提高开发透明度。 它允许用户与新兴技术交互，发掘有价值的洞察，并影响未来的功能开发和优先级。 您可以通过 Labs 抢先试用 Adobe Analytics 创新，并在您自己的业务用例和数据范围内评估即将推出的功能。
@@ -34,7 +45,7 @@ ht-degree: 100%
 
 已为所有管理员自动启用 [!UICONTROL Labs]。 其他团队成员应联系其产品管理员并请求获取访问权限。
 
-如果您尚未这样做，请阅读并签署适用的“保密协议”和“条款与条件”表格。
+如果您尚未这样做，请阅读并签署适用的“保密协议”和“条款与条件”文件。
 
 ## 访问 [!UICONTROL Labs] 门户
 
@@ -64,7 +75,7 @@ ht-degree: 100%
 
 * 您在原型中进行的任何更改不会影响数据收集或处理。
 
-* 通过创建或修改区段、计算量度和警报所做的更改将在原型环境之外持续保留。
+* 通过创建或修改区段、计算量度和警报所做的更改会在原型环境之外保留下来。
 
 ## 提供反馈
 

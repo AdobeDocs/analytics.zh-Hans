@@ -7,19 +7,30 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1120'
 ht-degree: 16%
-
 ---
-
 # 常见问题解答
 
 实施 Audience Analytics 时可能遇到的问题的解答。
@@ -36,7 +47,7 @@ ht-degree: 16%
 
 这不适用于将Adobe Analytics数据发送到Adobe Audience Manager。 问问自己：
 
-* 您是否将与CX Enterprise中的MCA维度共享Analytics共享区段？
+* 您是否会将与MCA维度共享的Analytics共享区段返回到CX Enterprise？
 
 * 是否导出（例如通过数据馈送）到用于这些目的的Business Intelligence (BI)系统？
 
@@ -142,7 +153,7 @@ ht-degree: 16%
 
 +++ 为什么我无法在Analytics管理员中为某些报表包启用SSF？
 
-只能启用映射到您的CX Enterprise Org的套件。
+只能启用映射到您的CX Enterprise组织的报表包。
 
 有关此主题的更多常见问题解答，请参阅[服务器端转发常见问题解答](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)。
 
@@ -164,7 +175,7 @@ ht-degree: 16%
 
 +++ 从Adobe Audience Manager集成的客户属性和客户数据之间有何区别？
 
-客户属性不是基于时间的；它们可以追溯应用，并可以向前发展。 Adobe Audience Manager集成数据是基于时间的，并且仅用于前进。 此外，客户属性是CX Enterprise访客ID的查找表，而Adobe Audience Manager集成将数据拼合到访客的每次点击中。
+客户属性不是基于时间的；它们可以追溯应用，并可以向前发展。 Adobe Audience Manager集成数据是基于时间的，并且仅用于前进。 此外，客户属性是CX Enterprise访客ID的查找表，而Adobe Audience Manager集成是将数据拼合到访客的每次点击中。
 
 +++
 
