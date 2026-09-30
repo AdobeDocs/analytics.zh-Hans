@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7e61f4cc5b87712012ff894878dd0aba7ceccd4f
+source-git-commit: c5e3cadb1de372d9be8a9cdbcfffc729ba0a66a4
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 40%
@@ -56,7 +56,7 @@ ht-degree: 40%
 | ----------- | ---------- | ---- |
 | **将区段限制为报表日期范围**<br/>&#x200B;当区段包含日期范围组件时，Workspace报表中的数据可能会超出报表日期范围。<p>现在提供了一个新选项，通过该选项可将结果限制为报表日期范围，而不管该区段中包含的任何日期组件如何。</p><p>创建或修改顶级容器为“访客”的区段时，此选项可用。</p><p>有关详细信息，请参阅[生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
 | **机器人检测更新**<br/>&#x200B;在将Edge数据收集与Web SDK结合使用时，可以使用以下机器人检测更新：<ul><li>现在，您可以创建机器人检测规则，以识别通信量中的异常，这些异常将被视为机器人生成的异常。 现有和未来的规则将继续默认将匹配流量标记为机器人生成。</li><li>现在，自定义机器人规则先于IAB机器人检测规则运行。 此更改不会影响机器人得分，但与事件关联的机器人规则名称可能会更改。</li></ul><p>注意：此更新仅适用于使用Web SDK的Edge数据收集实施。 它不适用于旧版库，例如AppMeasurement。</p><p>（文档链接将随后提供。）</p> | | 2026年9月初 |
-| **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics数据** <br/>Adobe CX Enterprise Coworker Chat现在可以执行以前只能在Analysis Workspace中进行的高级数据分析。 同事聊天可访问您的Adobe Analytics报表包中的数据，让您浏览这些数据并获得自然语言提示的答案。<p>（文档链接将随后提供。）</p> | | 2026年9月29日<p>（原计划于2026年9月25日）</p> |
+| **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics数据** <br/>Adobe CX Enterprise Coworker Chat现在可以执行以前只能在Analysis Workspace中进行的高级数据分析。 同事聊天可访问您的Adobe Analytics报表包中的数据，让您浏览这些数据并获得自然语言提示的答案。<p>（文档链接将随后提供。）</p> | | 2026年10月2<p>（原计划于2026年9月25日）</p> |
 | **CX Enterprise Coworker：根本原因分析技能** <br/>Adobe CX Enterprise Coworker Chat现在可以执行根本原因分析，解释量度发生更改的原因，而不仅仅是更改了什么内容。 Co-worker Chat可确定班次发生的日期，并比较班次前后数据，然后按推动班次发生的维度和班次大小划分班次变化，同时显示百分比和绝对值。 如果未检测到有意义的更改，同事聊天会让您知道而不是猜测原因。<p>（文档链接将随后提供。）</p> | | 2026年10月2 |
 | **CX Enterprise Coworker：在Analysis Workspace中打开可视化图表** <br/>在同事聊天中开始数据分析，然后直接在Analysis Workspace中将此分析作为可视化图表打开，以继续构建、优化和探索。</p><p>（文档链接将随后提供。）</p> | | 2026年10月2 |
 | **分类集API更新**<br/>&#x200B;分类集API文档现在包含用于配置分类集API请求的更新的端点和参数信息。<p>有关详细信息，请参阅[分类终结点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)。</p> | 2026年9月5日 | 2026年9月30日 |
