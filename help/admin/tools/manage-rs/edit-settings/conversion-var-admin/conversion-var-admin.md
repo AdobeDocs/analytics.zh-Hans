@@ -8,26 +8,34 @@ exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 TQID: https://experienceleague.adobe.com/rYLxVYB1oDyfEk8gQyesTSRRPHid-6zJ8QaqFG2b0Kc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: 1745
-ht-degree: 52%
-
+source-wordcount: '1726'
+ht-degree: 25%
 ---
-
 # 转化变量 (eVar)
 
 Custom Insight转化变量（或eVar）会放置在网站所选网页的Adobe代码中。 其主要目的是在自定义市场营销报告中划分转化成功量度区段。 eVar可以基于访问，其功能与Cookie类似。 在预先设定的一段时间内，传递到 eVar 变量的值将始终“跟随”着用户。
@@ -50,22 +58,22 @@ eVar最适合用于衡量原因和结果，例如：
 
 >[!NOTE]
 >
->在图像请求中，一个 eVar 中只能存储一个值。 如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](/help/implement/vars/page-vars/page-variables.md)。
+>在图像请求中，一个 eVar 中只能存储一个值。 如果eVar值中需要多个值，请使用[列表变量](/help/implement/vars/page-vars/page-variables.md)。
 
 ### 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-[编辑转化变量](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)时所用字段的描述。
-
 | 元素 | 描述 |
 | --- | --- |
-| [!UICONTROL 名称] | 转化变量的易记名称。 此名称是常规报告引用 eVar 时所用的名称，并且该名称将是左侧菜单中报告/维度的名称。 |
-| [!UICONTROL 类型]（仅限 eVar） | 变量值类型：<ul><li>**[!UICONTROL 文本字符串]**：捕获您网站上使用的文本值。 这是eVar最常见的类型，也是默认设置。 它的作用与其他变量类似，其中的值是静态文本字符串。 如果要跟踪内部营销活动或内部搜索关键词等内容，则建议使用此设置。</li><li>**[!UICONTROL 计数器]**：计算在成功事件之前某个动作的发生次数。 例如，如果使用 eVar 跟踪网站上的内部搜索，则将此值设置为[!UICONTROL 文本字符串]以跟踪搜索词的使用。 将此值设置为[!UICONTROL 计数器]可累计搜索的次数，与使用的搜索词无关。 例如，您可以使用计数器eVar来跟踪某人在购买前使用您的内部搜索的次数。</li></ul> |
-| [!UICONTROL 分配] | 确定变量在事件之前收到多个值时，Analytics 如何分配成功事件的点数。 支持的值包括：<ul><li>**[!UICONTROL 最近]**：始终由最后一个 eVar 值接收成功事件的信用，直至该 eVar 过期。</li><li>**[!UICONTROL 原始值]**：始终由第一个 eVar 接收成功事件的信用，直至该 eVar 过期。</li><li>**[!UICONTROL 线性]**：对所有 eVar 值平均分配成功事件。 由于线性分配实际仅能在一次访问内分配值，所以应将线性分配与 eVar 访问过期结合使用。</li></ul> **注意**：将分配切换至线性或从线性切换分配可防止显示历史数据。 在报告界面中混合多种分配类型可导致在报告中错报数据。 例如，线性分配可能会将收入分配给多个不同的eVar值。 在改回最近分配后，该收入的100%将与最近的单个值相关联。 这种关联可能会导致用户做出错误的结论。<br><br>为避免在报告中可能产生混淆，Adobe Analytics 在界面中不显示历史数据。 如果您决定将给定的eVar更改回初始分配设置，则可以查看此项，但您不应仅为了访问历史数据而更改eVar分配设置。 Adobe建议在需要为已记录的数据设置新的分配设置时使用新的eVar，而不是在已积累大量历史数据的eVar上更改分配设置。 |
-| [!UICONTROL 过期时间] | 指定一个时段或事件，eVar值将在此时段或事件之后过期（即，不再接收成功事件的信用）。 如果在 eVar 过期之后发生成功事件，则由“无”值接收该事件的信用（不激活任何 eVar）。  如果选择某个事件作为过期值，则变量仅在该事件发生时过期。 如果未发生该事件，则变量从不过期。  可用的过期选项可分为四个主要类别：<ul><li>**在页面查看或访问级别。** 页面查看或访问以外的转化事件与eVar无关联。</li><li>**基于时段，如日、周、月或年。** 指定时间段以外的转化事件与eVar无关联。 设置变量后，有效期即会开始。 eVar的过期期限从设置的时间调整到秒（分钟、小时、天、月等）： <ul><li>MINUTE=60秒</li><li>HOUR=3600秒（60分钟）</li><li>DAY=86400秒（24小时）</li><li>WEEK=604800秒（7天）</li><li>MONTH=2678400秒（31天）</li><li>QUARTER=8035200秒（93天 — 31天中的3个月）</li><li>YEAR=31536000秒（365天）</li><br>如果访问从星期一上午7:00开始，并在该访问期间于上午7:15设置了eVar，则过期时间如下所示：<li>当天过期：eVar将于星期二早上7:15过期。</li><li>每周过期：eVar将于下周一早上7:15过期。</li><li>当月过期：eVar将于星期一的31天后早上7:15过期。</li></ul><li>**特定转化事件。** 在指定与eVar关联的特定事件之后触发的任何其他转化事件。</li><li>**从不。** 只要访客使用相同的标识符，eVar与事件之间可以经过任意长的时间。</li></ul> |
-| [!UICONTROL 状态]（仅限 eVar） | 定义 [!UICONTROL eVar] 状态：<ul><li>**禁用**：禁用 [!UICONTROL eVar]。 从转化变量列表中删除 [!UICONTROL eVar]。</li><li>**无子关系**：阻止您根据维度划分 [!UICONTROL eVar]。</li><li>**基本子关系**：可让您根据任何完整维度（例如“产品”或“营销活动”）来划分 eVar。</li></ul> |
-| [!UICONTROL 重置] | 在 eVar 中重置任何现有值。 在重新利用eVar时，请使用此设置，这样您就不会将旧值混合到新报表中。 重置不会擦除历史数据。 |
-| [!UICONTROL 促销]（仅限 eVar） | 促销变量可遵循以下两种语法之一：<ul><li>**[!UICONTROL 产品语法]**：将 eVar 值与产品关联。 **注意**：如果选择“[!UICONTROL 产品语法]”，则“[!UICONTROL 促销捆绑事件]”部分会处于禁用状态，且无法选择该部分来进行编辑。 对于此语法，“[!UICONTROL 捆绑事件]”不适用。</li><li>**[!UICONTROL 转化变量语法]**：仅在发生捆绑事件时才将 eVar 与产品关联。 在此情况下，您可以选择充当“[!UICONTROL 捆绑事件]”的事件。  更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。 请参阅[促销变量](/help/components/dimensions/evar-merchandising.md)。</li></ul> |
-| [!UICONTROL 促销捆绑事件]（仅限 eVar） | 如果将“促销”设置为[!UICONTROL 转化变量语法]，则所选事件会将当前 eVar 值与产品进行捆绑。 要使用“[!UICONTROL 捆绑事件]”，请将“[!UICONTROL 分配]”设置为“[!UICONTROL 最近]”。 如果将“[!UICONTROL 分配]”设置为“[!UICONTROL 原始值]”，则第一个 eVar 产品捆绑将在 eVar 过期之前一直有效。 通过按住 ctrl (Windows) 或 cmd (Mac) 并单击列表中的多个项目，可选择多个事件。 只有在选择了“[!UICONTROL 转化变量语法]”后才能选择事件。 |
+| [!UICONTROL 状态] | 确定eVar是否处于活动状态：<ul><li>**[!UICONTROL 已启用]**： eVar处于活动状态。</li><li>**[!UICONTROL 已禁用]**：禁用eVar并将其从转化变量列表中删除。</li></ul> |
+| [!UICONTROL 描述] | eVar的可选描述。 使用它来记录eVar捕获的内容及其实施方式。 |
+| [!UICONTROL 名称] | 转化变量的友好维度名称。 这是常规报表中引用eVar的方式。 |
+| [!UICONTROL 分配] | 确定变量在事件之前收到多个值时，Analytics 如何分配成功事件的点数。 支持的值包括：<ul><li>**[!UICONTROL 最近（最后一个）]**：始终由最后一个eVar值接收成功事件的信用，直至该eVar过期。</li><li>**[!UICONTROL 原始值（第一个）]**：始终由第一个eVar接收成功事件的信用，直至该eVar过期。</li><li>**[!UICONTROL 线性]**：对所有 eVar 值平均分配成功事件。 由于线性分配仅在访问内分配值，因此请将eVar到期时间设置为访问或更短时间的线性分配。 此选项不适用于推销eVar。</li></ul>**重要信息**： Adobe建议不要切换到[!UICONTROL 线性]分配，或从中切换到，因为它会在报表中隐藏历史数据，直到您切换回为止。 要更改具有大量历史记录的eVar上的分配，Adobe建议改用新的eVar。 |
+| [!UICONTROL 过期时间] | 指定eVar值何时过期（不再接收成功事件的信用）。 如果在 eVar 过期之后发生成功事件，则由“无”值接收该事件的信用（不激活任何 eVar）。 支持的值包括：<ul><li>**[!UICONTROL 访问]**：该值将在访问结束时过期。</li><li>**[!UICONTROL 点击]**：该值仅适用于设置它的点击。</li><li>**[!UICONTROL Minute]**、**[!UICONTROL Hour]**、**[!UICONTROL Day]**、**[!UICONTROL Week]**、**[!UICONTROL Month]**、**[!UICONTROL Quarter]**&#x200B;或&#x200B;**[!UICONTROL Year]**：该值在设置后的一定时间内过期，截止时间为秒：<ul><li>分钟= 60秒</li><li>小时= 3600秒（60分钟）</li><li>日= 86400秒（24小时）</li><li>周= 604800秒（7天）</li><li>月= 2678400秒（31天）</li><li>季度= 8035200秒（93天 — 31天中的3个月）</li><li>年份= 31536000秒（365天）</li></ul>例如，如果eVar设置为星期一上午7:15，[!UICONTROL 天]的过期时间于星期二上午7:15结束，[!UICONTROL 周]的过期时间于下星期一上午7:15结束，[!UICONTROL 月]的过期时间于31天后上午7:15结束。</li><li>**[!UICONTROL 自定义]**：该值将在您输入的天数（每天86400秒）后过期。</li><li>**事件** （[!UICONTROL 购买]、[!UICONTROL 产品查看]、[!UICONTROL 购物车打开]、[!UICONTROL 购物车结帐]、[!UICONTROL 购物车添加]、[!UICONTROL 购物车删除]、[!UICONTROL 购物车查看]或自定义事件）：值将在所选事件发生时过期。 如果事件从未发生，则值永不过期。</li><li>**[!UICONTROL 从不]**：只要访客使用相同的标识符，eVar和事件之间就可以经过任意长的时间。</li></ul> |
+| [!UICONTROL Type] | 变量值类型：<ul><li>**[!UICONTROL 文本字符串]**：捕获文本值。 它是eVar最常见的类型，也是默认设置。 它的作用与其他变量类似，其中的值是静态文本字符串。 如果跟踪内部营销活动或内部搜索关键词等，则建议使用此设置。</li><li>**[!UICONTROL 计数器]**：计算在成功事件之前某个动作的发生次数。 例如，您可以计算在成功事件之前执行的搜索次数，而不管使用的搜索词如何。</li></ul> |
+| [!UICONTROL 重置] | 保存后，将立即过期所有访客中此变量的所有服务器端保留值，包括促销产品捆绑。 重新利用eVar时使用[!UICONTROL 重置]，这样您就不会在新报表中混合使用旧值。 **重置不会擦除历史数据。** |
+| [!UICONTROL 启用促销] | 支持的值包括：<ul><li>**[!UICONTROL 已禁用]**： eVar将成功事件归因于访客仍然存在的值。</li><li>**[!UICONTROL 已启用]**： eVar将成为一个将值捆绑到单个产品的推销eVar。 每个产品的成功事件将计入捆绑到该产品的值。 启用促销会显示[!UICONTROL 促销]和[!UICONTROL 促销捆绑事件]设置，并删除[!UICONTROL 线性]分配。</li></ul>仅对描述如何发现或购买产品的eVar启用推销。 推销eVar不再归功于未与产品关联的成功事件。 请参阅[eVar（推销）](/help/components/dimensions/evar-merchandising.md)。 |
+| [!UICONTROL 促销] | 确定捆绑到产品的值来自何处：<ul><li>**[!UICONTROL 产品语法]**：该值在`products`变量中的每个产品上设置，并在该点击上绑定到该产品。 每个产品可以具有不同的值。 未使用捆绑事件，因此[!UICONTROL 促销捆绑事件]已禁用。</li><li>**[!UICONTROL 转化变量语法]**：该值在eVar本身中设置，并作为暂存值保留，始终反映发送的最新值，而不考虑[!UICONTROL 分配]。 仅当点击包含选定的[!UICONTROL 促销捆绑事件]时，该值才会捆绑到该点击上的产品。 该点击上的每个产品都会收到相同的值。</li></ul>更改此设置而不相应地更新实施会导致数据丢失。 有关实现详细信息，请参阅[eVar （促销变量）](/help/implement/vars/page-vars/evar-merchandising.md)。 |
+| [!UICONTROL 促销捆绑事件] | 仅当[!UICONTROL 促销]设置为[!UICONTROL 转化变量语法]时可用。 确定哪些事件或eVar会将eVar的暂存值捆绑到同一点击中的产品。 如果不选择捆绑事件，则使用[!UICONTROL 所有]。 支持的值包括：<ul><li>**[!UICONTROL All]**：点击触发器绑定上的任何其他事件或eVar。 此设置是默认设置。</li><li>**[!UICONTROL 购买事件]**、**[!UICONTROL 产品查看事件]**、**[!UICONTROL 购物车打开事件]**、**[!UICONTROL 购物车结账事件]**、**[!UICONTROL 购物车添加事件]**、**[!UICONTROL 购物车删除事件]**&#x200B;或&#x200B;**[!UICONTROL 购物车查看事件]**：包含所选事件的点击发生绑定。</li><li>**[!UICONTROL 促销活动事件]**：绑定发生在包含[跟踪代码](/help/components/dimensions/tracking-code.md)维度（[`campaign`](/help/implement/vars/page-vars/campaign.md)变量）的实例的点击上。</li><li>**自定义事件**：绑定发生在包含所选自定义事件的点击上。</li><li>**自定义eVar**：在设置所选eVar的点击上发生绑定。</li></ul>Prop无法触发绑定。 通过按住ctrl (Windows)或cmd (Mac)并单击列表中的多个项目来选择多个值。 当已绑定到eVar的特定产品收到与同一eVar的另一个绑定时，[!UICONTROL 分配]将确定保留哪个值。 |
 
 ### 有效期限
 
@@ -74,7 +82,7 @@ eVar最适合用于衡量原因和结果，例如：
 有两种方式可使eVar过期：
 
 * 您可以将eVar设置为在指定的时间段或事件后过期。
-* 您可以通过重置 eVar 强制使其过期，在重新利用变量时这非常有用。
+* 您可以通过重置eVar来强制使其过期，在重新利用变量时这非常有用。
 
 例如，如果将 eVar 的过期时间从 30 天更改为 90 天，则收集的 eVar 值将在设置的新过期期间（在此例中为 90 天）内继续保留。 系统只查看所收集 eVar 值的当前过期设置以及最后设置时间戳来确定过期时间。 只有&#x200B;**[!UICONTROL 重置]**&#x200B;选项可以使值立即过期。
 

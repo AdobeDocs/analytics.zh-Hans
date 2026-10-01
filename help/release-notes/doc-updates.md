@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '7522'
+source-wordcount: '7553'
 ht-degree: 92%
 ---
 # Adobe Analytics 技术文档更新
@@ -77,6 +77,7 @@ ht-degree: 92%
 | --- | --- |
 | **2026年9月** | |
 | 箭头和流失的历程画布比较 | 更新了[中的“[!UICONTROL 与]”比较设置。配置历程画布可视化图表](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)以显示历程中的每个节点、箭头和流失上现在显示日期范围之间的百分比变化。 |
+| 促销 eVar | 将经过修订和整合的促销变量文档转换为相关组件：<ul><li>组件指南中的[eVar （促销）](/help/components/dimensions/evar-merchandising.md)维度</li><li>实施指南中的[eVar (Merchandising)](/help/implement/vars/page-vars/evar-merchandising.md)变量</li><li>管理员指南中的[转化变量](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)</li></ul> |
 | 新的调整大小快捷方式操作 | Analysis Workspace中新增的键盘快捷键现在允许您[调整面板或可视化图表的大小](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)：更宽、更窄、更高或更短。 |
 | [Adobe Analytics数据收集API](https://developer.adobe.com/analytics-collection-apis/) | 新的开发人员存储库，无需使用AppMeasurement或标记即可为Adobe Analytics聚合数据收集策略并使其现代化。 |
 | **2026年8月** | |
@@ -317,7 +318,7 @@ ht-degree: 92%
 | 2021 年 8 月 5 日 | 更新了有关[模板](/help/components/classifications/importer/c-download-saint-data.md)、[浏览器导入](/help/components/classifications/importer/browser-import.md)和[浏览器导出](/help/components/classifications/importer/browser-export.md)的分类文档，以指示对启用新分类架构的报告包不可用的选项。 |
 | 2021 年 8 月 2 日 | 更新了多个页面以反映 [Adobe Experience Platform Launch](/help/implement/launch/overview.md) 的重新品牌化 |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日 | 对[促销 eVar](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md) 的全新深入讨论 |
+| 2021 年 7 月 23 日 | 对[促销 eVar](/help/components/dimensions/evar-merchandising.md) 的全新深入讨论 |
 | 2021 年 7 月 15 日 | 新增有关新的 [Adobe Analytics 登陆页面](/help/analyze/landing.md)的文档 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日 | 更新了[营销渠道最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md) |

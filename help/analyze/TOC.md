@@ -5,13 +5,11 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和旧版 Report Builder，以及 Activity Map。
 index: true
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
-
+source-wordcount: '892'
+ht-degree: 99%
 ---
-
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
@@ -34,6 +32,7 @@ ht-degree: 100%
     + [创建项目](analysis-workspace/build-workspace-project/create-projects.md)
     + [打开项目](analysis-workspace/build-workspace-project/open-projects.md)
     + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
+    + {hide-from-toc}[使用缓存的结果](analysis-workspace/build-workspace-project/cached-results.md)
     + [目录](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Workspace 中的文件夹 {#workspace-folders}
       + [概述](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)

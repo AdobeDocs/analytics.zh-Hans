@@ -67,10 +67,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 371cf3de49f5a4a001ae6058e7f6422c23334e39
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 78%
+source-wordcount: '4286'
+ht-degree: 75%
 ---
 # 数据列引用
 
@@ -235,8 +235,8 @@ ht-degree: 78%
 | | **`stats_server`** | 没有用处。 处理点击的 Adobe 内部服务器。 | char(30) |
 | **`post_`** | **`s_kwcid`** | Adobe Advertising 集成中使用的关键词 ID。 | varchar(255) |
 | | **`s_resolution`** | 原始屏幕分辨率值。 使用 JavaScript 函数 `screen.width x screen.height` 收集而得。 | char(20) |
-| **`post_`** | **`tnt`** | 在 Adobe Target 集成中使用。 表示所有当前符合条件的测试。 格式为：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文本 |
-| **`post_`** | **`tnt_action`** | 在 Adobe Target 集成中使用。 表示点击符合条件的所有测试。 | 文本 |
+| **`post_`** | **`tnt`** | 在 Adobe Target 集成中使用。 列出访客符合条件的Target活动和体验。 `post_tnt`列保留以前点击中的值，与eVar类似。 要仅查看当前点击的活动和事件，请使用`tnt_action`。 多个条目以逗号分隔。 每个条目使用与`tnt_action`相同的格式，但没有事件ID。 | 文本 |
+| **`post_`** | **`tnt_action`** | 在 Adobe Target 集成中使用。 仅列出当前点击符合条件的Target活动和体验以及相关事件。 与`post_tnt`不同，值不会从以前的点击中保留。 多个条目以逗号分隔。 每个条目都使用以下格式之一：<ul><li>大多数活动： `activityID:experienceID:trafficType\|eventID`</li><li>某些自动化活动，如自动定位： `activityID:experienceID:trafficType:algorithmID\|eventID`</li></ul>算法ID值是Target的内部值。 某些事件包含附加为`\|value`的值。 事件ID包括`0` （活动条目）、`1` （访问）、`2` （展示）和`32767` （转化）。 如果点击针对同一活动和体验具有多个事件，则每个事件都是一个单独的条目。 | 文本 |
 | | **`tnt_instances`** | 在 Adobe Target 集成中使用。 Target 实例变量。 | 文本 |
 | **`post_`** | **`transactionid`** | 稍后可通过数据源上传各种数据点的唯一标识符。 使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
 | | **`truncated_hit`** | 表示图像请求被截断（收到部分点击）的标记。 <br>Y：点击被截断；接收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
