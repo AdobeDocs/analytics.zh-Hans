@@ -67,10 +67,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 371cf3de49f5a4a001ae6058e7f6422c23334e39
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 78%
+source-wordcount: '4286'
+ht-degree: 75%
 ---
 # 数据列引用
 
@@ -86,7 +86,7 @@ ht-degree: 78%
 >
 >大多数列中包含一个以 `post_` 为前缀的相似列。 post 列包含应用服务器端逻辑、处理规则和 VISTA 规则后得出的值。 大多数情况下，Adobe 建议使用 post 列。 有关更多信息，请参阅[数据馈送常见问题解答](../df-faq.md)。
 
-可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.zh-Hans/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到此表之前的更新内容。
+可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到此表之前的更新内容。
 
 | Post | 列名称 | 列说明 | 数据类型 |
 | ---: | :--- | --- | --- |
@@ -235,8 +235,8 @@ ht-degree: 78%
 | | **`stats_server`** | 没有用处。 处理点击的 Adobe 内部服务器。 | char(30) |
 | **`post_`** | **`s_kwcid`** | Adobe Advertising 集成中使用的关键词 ID。 | varchar(255) |
 | | **`s_resolution`** | 原始屏幕分辨率值。 使用 JavaScript 函数 `screen.width x screen.height` 收集而得。 | char(20) |
-| **`post_`** | **`tnt`** | 在 Adobe Target 集成中使用。 表示所有当前符合条件的测试。 格式为：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文本 |
-| **`post_`** | **`tnt_action`** | 在 Adobe Target 集成中使用。 表示点击符合条件的所有测试。 | 文本 |
+| **`post_`** | **`tnt`** | 在 Adobe Target 集成中使用。 列出访客符合条件的Target活动和体验。 `post_tnt`列保留以前点击中的值，与eVar类似。 要仅查看当前点击的活动和事件，请使用`tnt_action`。 多个条目以逗号分隔。 每个条目使用与`tnt_action`相同的格式，但没有事件ID。 | 文本 |
+| **`post_`** | **`tnt_action`** | 在 Adobe Target 集成中使用。 仅列出当前点击符合条件的Target活动和体验以及相关事件。 与`post_tnt`不同，值不会从以前的点击中保留。 多个条目以逗号分隔。 每个条目都使用以下格式之一：<ul><li>大多数活动： `activityID:experienceID:trafficType\|eventID`</li><li>某些自动化活动，如自动定位： `activityID:experienceID:trafficType:algorithmID\|eventID`</li></ul>算法ID值是Target的内部值。 某些事件包含附加为`\|value`的值。 事件ID包括`0` （活动条目）、`1` （访问）、`2` （展示）和`32767` （转化）。 如果点击针对同一活动和体验具有多个事件，则每个事件都是一个单独的条目。 | 文本 |
 | | **`tnt_instances`** | 在 Adobe Target 集成中使用。 Target 实例变量。 | 文本 |
 | **`post_`** | **`transactionid`** | 稍后可通过数据源上传各种数据点的唯一标识符。 使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
 | | **`truncated_hit`** | 表示图像请求被截断（收到部分点击）的标记。 <br>Y：点击被截断；接收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
@@ -252,49 +252,49 @@ ht-degree: 78%
 | | **`va_finder_id`** | 用于表示[首次接触渠道](/help/components/dimensions/first-touch-channel.md)维度的数值 ID。 此 ID 的查找位于营销渠道管理器。 | 无符号 tinyint |
 | | **`va_instance_event`** | 表示营销渠道[实例](/help/components/metrics/instances.md)的标记。 | 无符号 tinyint |
 | | **`va_new_engagement`** | 表示营销渠道[新参与度](/help/components/metrics/new-engagements.md)的标记。 | 无符号 tinyint |
-| **`post_`** | **`video`** | [内容](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoad`** | [广告](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadinpod`** | [广告在 Pod 中的位置](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadlength`** | [广告长度（变量）](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-length)流媒体服务维度。 | 整数 |
-| **`post_`** | **`videoadname`** | [广告名称（变量）](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-name)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadplayername`** | [广告播放器名称](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-player-name)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadpod`** | [广告 Pod](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/ad-pod) 流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoadvertiser`** | [广告商](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/advertiser)流媒体服务维度。 | varchar(255) |
-| | **`videoaudioalbum`** | [相册](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/album)流媒体服务维度。 | varchar(255) |
-| | **`videoaudioartist`** | [艺术家](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/artist)流媒体服务维度。 | varchar(255) |
-| | **`videoaudioauthor`** | [作者](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/author)流媒体服务维度。 | varchar(255) |
-| | **`videoaudiolabel`** | [标签](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/label)流媒体服务维度。 | varchar(255) |
-| | **`videoaudiopublisher`** | [发布者](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/publisher)流媒体服务维度。 | varchar(255) |
-| | **`videoaudiostation`** | [站](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/station)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videocampaign`** | [营销活动 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/campaign-id) 流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videochannel`** | [内容渠道](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-channel)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videochapter`** | [章节](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/chapter)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videocontenttype`** | [内容类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-type)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videodaypart`** | [日间时段](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/day-part)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoepisode`** | [剧集](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/episode)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videofeedtype`** | [媒体馈送类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-feed-type)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videogenre`** | [流派](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/genre)流媒体服务维度。 此维度允许在同一次点击中有多个值，值之间用逗号分隔。 | 文本 |
-| **`post_`** | **`videolength`** | [内容长度（变量）](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-length)流媒体服务维度。 | 整数 |
-| **`post_`** | **`videomvpd`** | [MVPD](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/mvpd) 流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoname`** | [内容名称（变量）](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-name)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videonetwork`** | [网络](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/network)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videopath`** | [媒体路径](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-path)流媒体服务维度。 | varchar(100) |
-| **`post_`** | **`videoplayername`** | [内容播放器名称](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-player-name)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | [平均码率](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/average-bitrate)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | [码率变化](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/bitrate-changes)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoebuffercountevar`** | [缓冲事件](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/buffer-events)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | [缓冲总持续时间](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | [丢帧](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/dropped-frames)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | [错误](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/errors)流媒体服务维度。 | varchar(255) |
-| | **`videoqoeextneralerrors`** | [外部错误 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/external-error-ids) 流媒体服务维度。 此维度允许在同一次点击中有多个值。 | 文本 |
-| **`post_`** | **`videoqoeplayersdkerrors`** | [播放器 SDK 错误 ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) 流媒体服务维度。 此维度允许在同一次点击中有多个值。 | 文本 |
-| **`post_`** | **`videoqoetimetostartevar`** | [开始时间](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/time-to-start)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoseason`** | [季](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/season)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videosegment`** | [内容区段](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/content-segment)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videosessionid`** | [媒体会话ID](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/media-session-id)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoshow`** | [节目](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/show)流媒体服务维度。 | varchar(255) |
-| **`post_`** | **`videoshowtype`** | [节目类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/show-type)流媒体服务维度。 | varchar(255) |
-| | **`videostreamtype`** | [流传输类型](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/stream-type)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`video`** | [内容](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoad`** | [广告](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadinpod`** | [广告在 Pod 中的位置](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadlength`** | [广告长度（变量）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)流媒体服务维度。 | 整数 |
+| **`post_`** | **`videoadname`** | [广告名称（变量）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadplayername`** | [广告播放器名称](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadpod`** | [广告 Pod](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod) 流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoadvertiser`** | [广告商](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)流媒体服务维度。 | varchar(255) |
+| | **`videoaudioalbum`** | [相册](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)流媒体服务维度。 | varchar(255) |
+| | **`videoaudioartist`** | [艺术家](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)流媒体服务维度。 | varchar(255) |
+| | **`videoaudioauthor`** | [作者](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)流媒体服务维度。 | varchar(255) |
+| | **`videoaudiolabel`** | [标签](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)流媒体服务维度。 | varchar(255) |
+| | **`videoaudiopublisher`** | [发布者](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)流媒体服务维度。 | varchar(255) |
+| | **`videoaudiostation`** | [站](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videocampaign`** | [营销活动 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id) 流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videochannel`** | [内容渠道](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videochapter`** | [章节](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videocontenttype`** | [内容类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videodaypart`** | [日间时段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoepisode`** | [剧集](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videofeedtype`** | [媒体馈送类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videogenre`** | [流派](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)流媒体服务维度。 此维度允许在同一次点击中有多个值，值之间用逗号分隔。 | 文本 |
+| **`post_`** | **`videolength`** | [内容长度（变量）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)流媒体服务维度。 | 整数 |
+| **`post_`** | **`videomvpd`** | [MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd) 流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoname`** | [内容名称（变量）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videonetwork`** | [网络](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videopath`** | [媒体路径](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)流媒体服务维度。 | varchar(100) |
+| **`post_`** | **`videoplayername`** | [内容播放器名称](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | [平均码率](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | [码率变化](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoebuffercountevar`** | [缓冲事件](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | [缓冲总持续时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | [丢帧](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | [错误](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)流媒体服务维度。 | varchar(255) |
+| | **`videoqoeextneralerrors`** | [外部错误 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids) 流媒体服务维度。 此维度允许在同一次点击中有多个值。 | 文本 |
+| **`post_`** | **`videoqoeplayersdkerrors`** | [播放器 SDK 错误 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) 流媒体服务维度。 此维度允许在同一次点击中有多个值。 | 文本 |
+| **`post_`** | **`videoqoetimetostartevar`** | [开始时间](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoseason`** | [季](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videosegment`** | [内容区段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videosessionid`** | [媒体会话ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoshow`** | [节目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)流媒体服务维度。 | varchar(255) |
+| **`post_`** | **`videoshowtype`** | [节目类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)流媒体服务维度。 | varchar(255) |
+| | **`videostreamtype`** | [流传输类型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)流媒体服务维度。 | varchar(255) |
 | **`post_`** | **`visid_high`** | 与 `visid_low` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | **`post_`** | **`visid_low`** | 与 `visid_high` 配合使用可唯一地标识某位访客。 | 无符号 bigint |
 | | **`visid_new`** | 确定此点击是否包含新生成访客 ID 的标记。 | char(1) |
