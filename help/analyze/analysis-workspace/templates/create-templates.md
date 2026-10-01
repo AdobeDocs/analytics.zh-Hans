@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '720'
 ht-degree: 100%
 ---
 # 创建和管理模板
@@ -114,7 +114,7 @@ ht-degree: 100%
 
    显示公司模板的列表。 所有常规项目都不会显示，除非这些项目已固定。
 
-   公司模板可通过模板名称前的![模板图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)识别。
+   公司模板可通过模板名称前的![模板图标](/help/assets/icons/FileTemplate.svg)识别。
 
    ![显示公司模板过滤器](assets/company-templates-filter.png)
 

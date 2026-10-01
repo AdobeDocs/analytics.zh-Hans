@@ -8,29 +8,40 @@ exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 TQID: https://experienceleague.adobe.com/5yrcNh-n0rOA-PZr5hmZD4ykJCKBE-EId9eVY5rOj54
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Customer engagement
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 87%
-
+source-wordcount: '902'
+ht-degree: 86%
 ---
-
 # 列设置
 
 [!UICONTROL 列设置]允许您配置列格式，其中一些可以是条件格式。
@@ -43,24 +54,24 @@ ht-degree: 87%
 >[!ENDSHADEBOX]
 
 
-要访问[!UICONTROL 列设置]，请在列标题中选择![列设置](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)。
+要访问[!UICONTROL 列设置]，请在列标题中选择![列设置](/help/assets/icons/Setting.svg)。
 
 ![列设置](assets/column-settings.png)
 
 
-您可以一次编辑多个列设置。 选择多个列，然后在选定的任意一列中选择![设置](/help/assets/icons/Setting.svg)。 您所做的任何更改将应用于有单元格被选中的所有列。
+您可以一次编辑多个列的设置。 选择多个列，然后在选定的任意一列中选择![设置](/help/assets/icons/Setting.svg)。 您所做的任何更改将应用于有单元格被选中的所有列。
 
 | 选项 | 描述 |
 | --- | --- |
 | **[!UICONTROL 显示总计]** | 显示客户端列的总和。 此总计&#x200B;**不会**&#x200B;去除会话或人员等重复量度。 |
 | **[!UICONTROL 显示全部总计]** | 显示服务器端列的总和。 全部总计会去除会话或人员等重复量度。 |
-| **[!UICONTROL 显示迷您图]** | 在列标题处显示线形图。 |
+| **[!UICONTROL 显示迷您图]** | 在列标题处显示折线图。 |
 | **[!UICONTROL 数值]** | 确定单元格是否显示/隐藏量度的数值。 例如，如果量度是页面查看次数，则数值是行项目的页面查看次数。 |
-| **[!UICONTROL Percent]** | 确定单元格是否显示/隐藏量度的百分比值。 例如，如果量度是“页面查看次数”，则百分比值等于行项目的页面查看次数，除以该列的总页面查看次数。  注释：为了确保准确性，百分比可以大于 100%。 上限可以调整为 1,000%，以防止列宽变得太大。 |
-| **[!UICONTROL 显示异常情况]** | 确定此列中的值是否要运行异常检测。 |
+| **[!UICONTROL Percent]** | 确定单元格是否显示/隐藏量度的百分比值。 例如，如果量度是“页面查看次数”，则百分比值等于行项目的页面查看次数，除以该列的总页面查看次数。  注意：为了确保准确性，百分比可以大于 100%。 上限可以调整为 1,000%，以防止列宽变得太大。 |
+| **[!UICONTROL 显示异常情况]** | 确定是否对此列中的值运行异常检测。 |
 | **[!UICONTROL 显示预测]** | 确定预测值是否显示在此列中。 |
 | **[!UICONTROL 标题文本换行]** | 让自由格式表中的标题文本换行，以使标题更加易读，表格更易共享。 换行对 PDF 渲染和名称较长的量度非常有用。 默认处于启用状态。 |
-| **[!UICONTROL 将零解释为没有值]** | 对于具有 0 值的单元格，确定将其显示为 0 还是空白单元格。 当您查看一个月中每一天的数据，而有些天将在未来发生时，这种解释就很有用。  可以为未来日期显示空白单元格，而不是 0。 各种图表也遵循这种设置（即，线形图或条形图将不显示值为 0 的部分）。 |
+| **[!UICONTROL 将零解释为没有值]** | 对于具有 0 值的单元格，确定将其显示为 0 还是空白单元格。 当您查看一个月中每一天的数据，而有些日期尚未来到时，这种解释就很有用。  可以为未来日期显示空白单元格，而不是 0。 各种图表也遵循这种设置（即，线形图或条形图将不显示值为 0 的部分）。 |
 | **[!UICONTROL 背景]** | 确定单元格是否显示/隐藏所有单元格格式，包括条形图和条件格式。 |
 | **[!UICONTROL 条形图]** | 显示一个水平条形图，表示单元格相对于列总数的值。 |
 | **[!UICONTROL 条件格式]** | 使用条件格式。 请参阅以下[部分](#conditional-formatting)。 |

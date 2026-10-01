@@ -7,22 +7,27 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 22%
-
+source-wordcount: '964'
+ht-degree: 20%
 ---
-
 # 管理区段
 
 {{legacy-arb}}
@@ -66,7 +71,7 @@ Report Builder在“请求向导”的第1步中提供了一个分段面板，�
 
 ## 搜索并应用区段
 
-此区段列表中会显示在Reports &amp; Analytics（现已终止使用）、Report Builder或Data Warehouse中创建的任何区段。 要刷新列表，请单击“刷新”图标![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)。
+此区段列表中会显示在Reports &amp; Analytics（现已终止使用）、Report Builder或Data Warehouse中创建的任何区段。 要刷新该列表，请单击“刷新”图标![](/help/assets/icons/Refresh.svg)。
 
 您可以将一个或多个区段应用于任何给定请求。 这包括顺序区段。
 
@@ -82,7 +87,7 @@ Report Builder在“请求向导”的第1步中提供了一个分段面板，�
 
 ## 过滤区段 {#filter}
 
-单击“筛选器”图标![筛选器图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)以筛选&#x200B;**区段**
+单击“筛选器”图标![筛选器图标](/help/assets/icons/Filter.svg)以筛选&#x200B;**区段**
 
 可用的过滤器包括：
 
@@ -100,7 +105,7 @@ Report Builder在“请求向导”的第1步中提供了一个分段面板，�
 
 通过添加区段控件，您可以从工作簿中切换区段，而不必转至“请求向导”。
 
-1. 单击区段下拉列表旁边的“控件”图标![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)。
+1. 单击区段下拉列表旁边的“控件”图标![](/help/assets/icons/Filter.svg)。
 
 1. 选中所有要显示在区段控件中的区段，或选中&#x200B;**[!UICONTROL 全选]**。
 
@@ -119,7 +124,7 @@ Report Builder在“请求向导”的第1步中提供了一个分段面板，�
 
 ## 刷新区段列表 {#refresh}
 
-每次添加新区段或编辑现有区段时，都应单击“刷新”图标![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)以刷新缓存的区段列表。
+每次添加新区段或编辑现有区段时，都应单击“刷新”图标![](/help/assets/icons/Refresh.svg)以刷新缓存的区段列表。
 
 ## 在请求间管理区段 {#manage}
 

@@ -6,20 +6,23 @@ exl-id: bef185d6-72c0-4068-80f8-57261369573f
 TQID: https://experienceleague.adobe.com/KATQCXbw-92hpWIzjMMl8K6WCB4ePASY0fZ7g0zRYtc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 5%
-
+source-wordcount: '185'
+ht-degree: 2%
 ---
-
 # 参与率量度
 
 
@@ -29,7 +32,7 @@ ht-degree: 5%
 
 1. [创建计算量度](../cm-workflow.md)，在[计算量度生成器](cm-build-metrics.md)中，将量度命名为`Orders (Visit Participation)`或类似名称。
 1. 将包含成功事件的量度（例如[!DNL Online Orders]）拖入[!UICONTROL **[!UICONTROL 定义]**]区域。
-1. 为量度选择![齿轮](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)。
+1. 为量度选择![齿轮](/help/assets/icons/Setting.svg)。
 1. 在出现的弹出窗口中，选择&#x200B;**[!UICONTROL 使用非默认归因模型]**&#x200B;将该事件的[归因模型](m-metric-type-alloc.md#attribution-models)定义为&#x200B;**[!UICONTROL 参与率]**，并为[!UICONTROL 容器]选择&#x200B;**[!UICONTROL 访问次数]**。 选择&#x200B;**[!UICONTROL 应用]**&#x200B;以确认。
 
 

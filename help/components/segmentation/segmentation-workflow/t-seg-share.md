@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 38%
+source-wordcount: '425'
+ht-degree: 37%
 ---
 # 共享区段
 
@@ -57,7 +57,7 @@ ht-degree: 38%
 
 
 
-   “共享”图标将在区段旁边显示：![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   “共享”图标显示在区段旁边： ![](/help/assets/icons/Share.svg)
 
 1. 您可以过滤与您共享的区段，方法是：转到“**[!UICONTROL 过滤器]**”>“**[!UICONTROL 其他过滤器]**”>“**[!UICONTROL 与我共享]**”。
 

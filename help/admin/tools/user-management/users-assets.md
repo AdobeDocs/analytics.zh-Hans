@@ -7,22 +7,26 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 455
-ht-degree: 9%
-
+source-wordcount: '399'
+ht-degree: 5%
 ---
-
 # 管理旧版用户帐户、资产和过期日期
 
 您可以使用&#x200B;**[!UICONTROL 管理员] > [!UICONTROL 所有管理员] > [!UICONTROL Analytics用户和管理员]**&#x200B;管理旧版用户帐户、其迁移状态、到期数据、将资产传输到其他用户等。
@@ -42,18 +46,18 @@ ht-degree: 9%
 
 ![用户](assets/users.png)
 
-- 要搜索特定用户，请使用![搜索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *按标题搜索*&#x200B;字段。
-- 要筛选迁移状态列表，请选择![V形](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL 迁移状态]**。
-- 要按旧登录状态筛选列表，请选择![V形](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL 旧登录]**。
-- 要更改列的显示，请选择![列设置](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)并从弹出窗口中选择列。
+- 要搜索特定用户，请使用![搜索](/help/assets/icons/Search.svg) *按标题搜索*&#x200B;字段。
+- 要筛选迁移状态列表，请选择![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 迁移状态]**。
+- 要按旧登录状态筛选列表，请选择![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 旧登录]**。
+- 要更改列的显示，请选择![列设置](/help/assets/icons/ColumnSetting.svg)并从弹出窗口中选择列。
 
 从列表中选择一个或多个用户时，可以应用各种操作：
 
 | 操作 | 描述 |
 |---|---|
-| ![迁移](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg)**[!UICONTROL 迁移]** | 您可以将一个或多个用户迁移到Enterprise ID或Adobe ID。 |
-| ![日历已锁定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL 设置过期时间]** | 您可以为所选用户设置使用旧版Adobe Analytics登录的过期日期。  选择日期，以使用日历弹出窗口指定日期。 选择&#x200B;**[!UICONTROL 完成]**&#x200B;以确认过期。 |
-| ![转移资产](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg)**[!UICONTROL 转移资产]** | 此操作仅在选择一个用户时可用。 如果用户拥有可转移的资产，则可以选择帐户项目（如书签、功能板等）。 选择&#x200B;**[!UICONTROL 转移]**&#x200B;以完成转移。<br/>![转移资产](assets/transfer-assets.png) |
-| ![删除帐户](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 删除帐户]** | 将显示一个对话框，确认删除选定的帐户。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;以删除帐户。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。 |
-| ![导出到CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL 导出到CSV]** | 此操作会立即下载一个文件，其中包含所选用户的逗号分隔值列表及其详细信息（名称、迁移状态、电子邮件等）。 |
+| ![迁移](/help/assets/icons/Briefcase.svg)**[!UICONTROL 迁移]** | 您可以将一个或多个用户迁移到Enterprise ID或Adobe ID。 |
+| ![日历已锁定](/help/assets/icons/CalendarLocked.svg) **[!UICONTROL 设置过期时间]** | 您可以为所选用户设置使用旧版Adobe Analytics登录的过期日期。  选择日期，以使用日历弹出窗口指定日期。 选择&#x200B;**[!UICONTROL 完成]**&#x200B;以确认过期。 |
+| ![转移资产](/help/assets/icons/Switch.svg)**[!UICONTROL 转移资产]** | 此操作仅在选择一个用户时可用。 如果用户拥有可转移的资产，则可以选择帐户项目（如书签、功能板等）。 选择&#x200B;**[!UICONTROL 转移]**&#x200B;以完成转移。<br/>![转移资产](assets/transfer-assets.png) |
+| ![删除帐户](/help/assets/icons/Delete.svg) **[!UICONTROL 删除帐户]** | 将显示一个对话框，确认删除选定的帐户。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;以删除帐户。 选择&#x200B;**[!UICONTROL 取消]**&#x200B;即可取消。 |
+| ![导出到CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 导出到CSV]** | 此操作会立即下载一个文件，其中包含所选用户的逗号分隔值列表及其详细信息（名称、迁移状态、电子邮件等）。 |
 

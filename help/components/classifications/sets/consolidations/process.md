@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 10%
+source-wordcount: '992'
+ht-degree: 9%
 ---
 # 创建和编辑分类合并
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="分类集优先级"
->abstract="![键](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分类集*&#x200B;是基础分类集，用于定义整体架构，并在发生任何合并冲突时具有优先权。 其他分类集将按照从上到下的顺序依次应用。"
+>abstract="![键](/help/assets/icons/Key.svg) *分类集*&#x200B;是基础分类集，用于定义整体架构，并在发生任何合并冲突时具有优先权。 其他分类集将按照从上到下的顺序依次应用。"
 
 
 要创建分类合并，请在Adobe Analytics主界面中：

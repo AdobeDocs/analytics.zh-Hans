@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 18%
+source-wordcount: '443'
+ht-degree: 4%
 ---
 # 管理广告帐户
 
@@ -44,28 +44,28 @@ ht-degree: 18%
 | 名称或元素 | 描述 |
 |---|---|
 | **[!UICONTROL 名称]** | *帐户名称*。 您可以选择名称以编辑搜索引擎设置。 |
-| ![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 选择以重命名广告帐户或编辑搜索引擎设置。 |
-| ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 选择以打开上下文菜单，允许您[映射报表包](#map-reporting-suites)、[激活或暂停广告帐户](#activate-or-pause-advertising-accounts)。 |
+| ![编辑](/help/assets/icons/Edit.svg) | 选择以重命名广告帐户或编辑搜索引擎设置。 |
+| ![更多](/help/assets/icons/More.svg) | 选择以打开上下文菜单，允许您[映射报表包](#map-reporting-suites)、[激活或暂停广告帐户](#activate-or-pause-advertising-accounts)。 |
 | **[!UICONTROL 报表包]** | 列出广告帐户映射到的报表包。 |
 | **[!UICONTROL Type]** | 显示广告帐户的类型。 默认情况下，类型为[!UICONTROL 搜索] |
 | **[!UICONTROL 帐户]** | 显示帐户类型[!UICONTROL Bing Ads]或[!UICONTROL Google Adwords]。 |
 | **[!UICONTROL 状态]** | 广告帐户的状态： *已暂停*&#x200B;或活动。 |
 
 
-- 要按报表包、类型和状态筛选列表，请选择![筛选器](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
-- 要使用![搜索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)搜索字段搜索广告帐户，请执行以下操作：
+- 要按报表包、类型和状态筛选列表，请选择![筛选器](/help/assets/icons/Filter.svg)
+- 要使用![搜索](/help/assets/icons/Search.svg)搜索字段搜索广告帐户，请执行以下操作：
 - 若要选择表中的活动帐户，请选中&#x200B;**[!UICONTROL 活动帐户]**。
-- 要定义要为表显示的列，请选择![列设置](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)。 <br/>在&#x200B;**[!UICONTROL 自定义表]**&#x200B;对话框中：
+- 要定义要为表显示的列，请选择![列设置](/help/assets/icons/ColumnSetting.svg)。 <br/>在&#x200B;**[!UICONTROL 自定义表]**&#x200B;对话框中：
   - 选择要显示的列。
   - 选择&#x200B;**[!UICONTROL 应用]**。
 
-当您选择一个或多个广告帐户时，根据所选帐户的状态，蓝色操作栏允许您![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 重命名]**、![刷新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 映射报表包]**、![播放](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 激活]**&#x200B;或![暂停](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 暂停]**&#x200B;您的广告帐户。
+当您选择一个或多个广告帐户时，根据所选帐户的状态，蓝色操作栏允许您![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL 重命名]**、![刷新](/help/assets/icons/Refresh.svg) **[!UICONTROL 映射报表包]**、![播放](/help/assets/icons/Play.svg) **[!UICONTROL 激活]**&#x200B;或![暂停](/help/assets/icons/Pause.svg) **[!UICONTROL 暂停]**&#x200B;您的广告帐户。
 
 ## 创建广告帐户
 
 要创建新的广告帐户，请执行以下操作：
 
-1. 选择![添加](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) **[!UICONTROL 添加]**。
+1. 选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL 添加]**。
 1. 您会看到[!UICONTROL Advertising帐户] > **[!UICONTROL 新帐户]**&#x200B;对话框以允许您定义新的广告帐户。 有关详细信息，请参阅[设置Advertising帐户](aa-create-ad-account.md)。
 
 
@@ -74,16 +74,16 @@ ht-degree: 18%
 要编辑广告帐户的搜索引擎设置：
 
 - 选择广告帐户的名称。
-- 选择广告帐户名称旁边的![编辑](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)。
+- 选择广告帐户名称旁边的![编辑](/help/assets/icons/Edit.svg)。
 
 ## 映射报表包
 
 要将一个或多个广告帐户映射到报表包，请执行以下操作：
 
 1. （可选）选择多个广告帐户。
-1. 为特定广告帐户选择![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)。
-1. 从上下文菜单中选择![刷新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 映射报表包]**。
-1. 在映射报表包对话框中，从下拉菜单中选择一个或多个报表包。 您可以使用![交叉](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg)从映射中删除报表包。
+1. 为特定广告帐户选择![更多](/help/assets/icons/More.svg)。
+1. 从上下文菜单中选择![刷新](/help/assets/icons/Refresh.svg) **[!UICONTROL 映射报表包]**。
+1. 在映射报表包对话框中，从下拉菜单中选择一个或多个报表包。 您可以使用![交叉](/help/assets/icons/CrossSize400.svg)从映射中删除报表包。
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存映射。
 
 
@@ -92,12 +92,12 @@ ht-degree: 18%
 要激活一个或多个广告帐户，请执行以下操作：
 
 1. （可选）选择多个广告帐户。
-1. 为特定广告帐户选择![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)。
-1. 从上下文菜单中选择![播放](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg)**[!UICONTROL 激活]**。
+1. 为特定广告帐户选择![更多](/help/assets/icons/More.svg)。
+1. 从上下文菜单中选择![播放](/help/assets/icons/Play.svg)**[!UICONTROL 激活]**。
 
 要暂停一个或多个广告帐户，请执行以下操作：
 
 1. （可选）选择多个广告帐户。
-1. 为特定广告帐户选择![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)。
-1. 从上下文菜单中选择![暂停](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 暂停]**。
+1. 为特定广告帐户选择![更多](/help/assets/icons/More.svg)。
+1. 从上下文菜单中选择![暂停](/help/assets/icons/Pause.svg) **[!UICONTROL 暂停]**。
 

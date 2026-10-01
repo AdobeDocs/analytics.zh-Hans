@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2047'
 ht-degree: 89%
 ---
 # 共享项目 {#share-projects}
@@ -222,13 +222,13 @@ ht-degree: 89%
 
      * 如果启用此选项且变暗，则Analytics管理员要求对所有访问Analysis Workspace项目的用户进行CX Enterprise身份验证。
 
-1. 在&#x200B;**[!UICONTROL 与任何人共享（无需登录）]**&#x200B;字段旁，单击&#x200B;**复制链接**&#x200B;图标 ![复制链接图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) 以将链接复制到您的系统剪贴板。
+1. 在&#x200B;**[!UICONTROL 与任何人共享（无需登录）]**&#x200B;字段旁，单击&#x200B;**复制链接**&#x200B;图标 ![复制链接图标](/help/assets/icons/Link.svg) 以将链接复制到您的系统剪贴板。
 
 1. 与您希望其有权访问该项目的人员共享该链接。 例如，可将该链接粘贴到电子邮件中。
 
    您与其共享该链接的任何人均可查看该 Analysis Workspace 项目。
 
-1. （可选）可单击&#x200B;**生成新链接**&#x200B;图标 ![生成链接图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 以阻止以前收到该项目链接的用户访问。 随后将生成一个可与您希望其访问该项目的用户共享的新链接。
+1. （可选）可单击&#x200B;**生成新链接**&#x200B;图标 ![生成链接图标](/help/assets/icons/Refresh.svg) 以阻止以前收到该项目链接的用户访问。 随后将生成一个可与您希望其访问该项目的用户共享的新链接。
 
 1. 选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以关闭共享对话框。 随后自动保存您的更改。
 

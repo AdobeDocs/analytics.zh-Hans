@@ -7,24 +7,31 @@ exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
 TQID: https://experienceleague.adobe.com/N4hzk5uKr5Mh3FA6V1x8KqyCod6ZIK8TO7l2TZvzR4A
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: '1095'
 ht-degree: 98%
-
 ---
-
 # 查看数据字典中的组件信息
 
 “数据词典”允许您查看有关组件的信息，包括组件描述、相似组件、组件经常使用的其他组件等等。
@@ -45,9 +52,9 @@ ht-degree: 98%
 
 1. （可选）在搜索字段中，开始键入要查看组件的名称。
 
-   组件的类型可以通过颜色和图标来识别。 **维度** ![维度图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色的，**区段** ![区段图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是蓝色的，**日期范围** ![日期范围图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的，**指标** ![指标图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是绿色的。 Adobe 图标表示计算指标模板或区段模板，计算器图标 ![计算器图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示由您组织的 Analytics 管理员创建的计算指标。
+   组件的类型可以通过颜色和图标来识别。 **维度** ![维度图标](/help/assets/icons/Data.svg) 是橙色的，**区段** ![区段图标](/help/assets/icons/Segmentation.svg) 是蓝色的，**日期范围** ![日期范围图标](/help/assets/icons/Calendar.svg) 是紫色的，**指标** ![指标图标](/help/assets/icons/Event.svg) 是绿色的。 Adobe 图标表示计算指标模板或区段模板，计算器图标 ![计算器图标](/help/assets/icons/Calculator.svg) 表示由您组织的 Analytics 管理员创建的计算指标。
 
-1. （可选）选择&#x200B;**过滤**&#x200B;图标![，即“数据词典过滤”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然后选择以下任一过滤器选项过滤组件列表：
+1. （可选）选择&#x200B;**过滤**&#x200B;图标![，即“数据词典过滤”图标](/help/assets/icons/Filter.svg)，然后选择以下任一过滤器选项过滤组件列表：
 
    | 选项 | 功能 |
    |---------|----------|
@@ -66,7 +73,7 @@ ht-degree: 98%
 
    {style="table-layout:auto"}
 
-1. （可选）选择&#x200B;**排序**&#x200B;图标![对组件图标进行排序](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然后选择以下任一过滤器选项对组件列表进行排序：
+1. （可选）选择&#x200B;**排序**&#x200B;图标![对组件图标进行排序](/help/assets/icons/SortOrderDown.svg)，然后选择以下任一过滤器选项对组件列表进行排序：
 
    {{components-sort-options}}
 
