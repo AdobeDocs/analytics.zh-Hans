@@ -3,14 +3,12 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
-user-guide-description: 了解Analytics管理任务，如在CX Enterprise Admin Console中管理用户和产品、配置报表包等。
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+user-guide-description: 了解Analytics管理任务，例如在CX Enterprise Admin Console中管理用户和产品、配置报表包等。
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 95%
-
 ---
-
 
 # Adobe Analytics 管理员指南 {#admin}
 
@@ -22,7 +20,7 @@ ht-degree: 95%
   + [Adobe Analytics 中的管理员角色](admin-console/admin-roles-in-analytics.md)
   + Analytics 工具权限摘要 {#permissions}
     + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
-    + [“报告包工具”的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
+    + [报告包工具的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
     + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
 + Analytics 管理员工具 {#admin-tools}
   + [管理员工具概述](tools/c-admin-tools.md)
@@ -66,7 +64,7 @@ ht-degree: 95%
           + [GDPR/ePrivacy 合规和服务器端转发](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)
           + [服务器端转发要求](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-requirements.md)
           + [服务器端转发数据和代码引用](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-reference.md)
-          + [如何验证服务器端转发的实施情况](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-verify.md)
+          + [如何验证服务器端转发实施](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-verify.md)
           + [服务器端转发常见问题解答](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)
       + 流量 {#traffic-variables}
         + [流量变量](tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
@@ -82,7 +80,6 @@ ht-degree: 95%
         + [成功事件](tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)
         + [分类层次结构](tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)
         + [列表变量](tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)
-        + [促销 eVar](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + 营销渠道 {#marketing-channels}
         + [营销渠道管理器](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
         + [营销渠道处理规则](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
@@ -153,10 +150,10 @@ ht-degree: 95%
     + [服务器调用使用情况常见问题解答](tools/server-call-usage/overage-faq.md)
   + 用户和产品管理（旧版） {#user-product-management}
     + [用户和产品管理（旧版）](tools/user-management/user-management.md)
-    + [管理旧版用户帐户、资源和有效期限](tools/user-management/users-assets.md)
+    + [管理旧版用户帐户、资产和有效期限](tools/user-management/users-assets.md)
     + 将用户迁移到 Adobe Admin Console {#migrate-users}
       + [将 Analytics 用户迁移到 Admin Console](tools/user-management/user-migration/c-migration-tool.md)
       + [为 Adobe ID 迁移 Analytics 用户帐户](tools/user-management/user-migration/t-migrate-users.md)
-      + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](tools/user-management/user-migration/migrate-enterprise.md)
+      + [迁移用于 Enterprise ID 和 Federated ID 的 Analytics 用户帐户](tools/user-management/user-migration/migrate-enterprise.md)
       + [禁用旧版登录](tools/user-management/user-migration/t-disable-legacy-login.md)
       + [受迁移影响的 API](tools/user-management/user-migration/developer.md)
