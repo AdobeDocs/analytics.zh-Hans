@@ -51,7 +51,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->要将持久值绑定到产品以外的维度，请考虑在Customer Journey Analytics中使用[[!UICONTROL 绑定维度]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension)。
+>要将持久值绑定到产品以外的维度，请考虑在Customer Journey Analytics中使用[[!UICONTROL 绑定维度]](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension)。
 
 ## 为何使用推销eVar
 
