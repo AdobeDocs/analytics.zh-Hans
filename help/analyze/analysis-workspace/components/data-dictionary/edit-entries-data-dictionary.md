@@ -7,23 +7,29 @@ exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 TQID: https://experienceleague.adobe.com/qik-sXUm4ldjmWLyjowFcz0EVYDWU9ex0dyPsE-BiRU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 1207
+source-wordcount: '1153'
 ht-degree: 89%
-
 ---
-
 # 编辑数据字典中的组件条目
 
 Analytics 管理员可以为给定的报告包编辑数据字典中的组件条目。 报告包的所有用户都可以看到所做的任何更改。
@@ -42,9 +48,9 @@ Analytics 管理员可以为给定的报告包编辑数据字典中的组件条�
 
 1. （可选）在搜索字段中，开始键入要编辑的组件的名称。
 
-   组件的类型可以通过颜色和图标来识别。 **维度** ![维度图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色的，**区段** ![区段图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是蓝色的，**日期范围** ![日期范围图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的，**指标** ![指标图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是绿色的。 Adobe 图标表示计算指标模板或区段模板，计算器图标 ![计算器图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示由您组织的 Analytics 管理员创建的计算指标。
+   组件的类型可以通过颜色和图标来识别。 **维度** ![维度图标](/help/assets/icons/Data.svg) 是橙色的，**区段** ![区段图标](/help/assets/icons/Segmentation.svg) 是蓝色的，**日期范围** ![日期范围图标](/help/assets/icons/Calendar.svg) 是紫色的，**指标** ![指标图标](/help/assets/icons/Event.svg) 是绿色的。 Adobe 图标表示计算指标模板或区段模板，计算器图标 ![计算器图标](/help/assets/icons/Calculator.svg) 表示由您组织的 Analytics 管理员创建的计算指标。
 
-1. （可选）选择&#x200B;**过滤**&#x200B;图标![，即“数据词典过滤”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然后选择以下任一过滤器选项过滤组件列表：
+1. （可选）选择&#x200B;**过滤**&#x200B;图标![，即“数据词典过滤”图标](/help/assets/icons/Filter.svg)，然后选择以下任一过滤器选项过滤组件列表：
 
    | 选项 | 功能 |
    |---------|----------|
@@ -63,7 +69,7 @@ Analytics 管理员可以为给定的报告包编辑数据字典中的组件条�
 
    {style="table-layout:auto"}
 
-1. （可选）选择&#x200B;**排序**&#x200B;图标![对组件图标进行排序](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然后选择以下任一过滤器选项对组件列表进行排序：
+1. （可选）选择&#x200B;**排序**&#x200B;图标![对组件图标进行排序](/help/assets/icons/SortOrderDown.svg)，然后选择以下任一过滤器选项对组件列表进行排序：
 
    | 选项 | 功能 |
    |---------|----------|
@@ -75,7 +81,7 @@ Analytics 管理员可以为给定的报告包编辑数据字典中的组件条�
 
 1. 从组件列表中，选择要编辑的组件。
 
-1. 选择组件名称旁边的&#x200B;**编辑**&#x200B;图标，即![“数据词典编辑”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)。
+1. 选择组件名称旁边的&#x200B;**编辑**&#x200B;图标，即![“数据词典编辑”图标](/help/assets/icons/Edit.svg)。
 
 1. 编辑有关组件的以下任何信息：
 
@@ -85,7 +91,7 @@ Analytics 管理员可以为给定的报告包编辑数据字典中的组件条�
    | **[!UICONTROL 需要批准]** | <p>表示该组件尚未获得管理员审阅和批准。</p><p>管理员会看到&#x200B;**[!UICONTROL 批准]**&#x200B;选项。 选择此选项会为用户将组件标记为“已批准”。</p> |
    | **[!UICONTROL 描述]** | 描述组件的预期功能。 （此信息由 Analytics 管理员添加，如[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中所述。） |
    | **[!UICONTROL 常常与以下组件一同使用]** | <p>显示最常与您正在查看的组件一起使用的组件。</p><p>在 5 种主要组件类型中，最多显示 5 个组件：量度、计算量度、维度、区段和日期范围。</p><p>此列表基于过去 90 天的数据。 其中仅列出您有权查看的组件。</p><p>管理员可通过在&#x200B;**[!UICONTROL 始终包括]**&#x200B;和&#x200B;**[!UICONTROL 始终排除]**&#x200B;下拉字段中选择所需的组件而编排用户可在此部分中看到的组件。 在您编排用户可看到的组件之前，请首先应用&#x200B;**全部显示**&#x200B;过滤器以确保您可看到任何不与您共享的组件。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
-   | **[!UICONTROL 类似于]** | <p>显示与您正在查看的组件名称类似的组件。</p><p>在 5 种主要组件类型中，最多显示 5 个组件：量度、计算量度、维度、区段和日期范围。</p><p>其中仅列出您有权查看的组件。</p><p>此处还显示报告包中任何重复的组件。 Analytics 管理员应识别并删除所有重复的组件，如[监视数据词典运行状况](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)中所述。</p><p>管理员可通过在&#x200B;**[!UICONTROL 始终包括]**&#x200B;和&#x200B;**[!UICONTROL 始终排除]**&#x200B;下拉字段中选择所需的组件而编排用户可在此部分中看到的组件。 在您编排用户可看到的组件之前，请首先应用&#x200B;**全部显示**&#x200B;过滤器以确保您可看到任何不与您共享的组件。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**注意：**&#x200B;**类似于**&#x200B;部分当前仅包括您创建的组件，而不包括 Adobe 提供的组件。 将在未来的版本中添加 Adobe 提供的组件。</p> |
+   | **[!UICONTROL 类似于]** | <p>显示与您正在查看的组件名称类似的组件。</p><p>在 5 种主要组件类型中，最多显示 5 个组件：量度、计算量度、维度、区段和日期范围。</p><p>其中仅列出您有权查看的组件。</p><p>此处还显示报告包中任何重复的组件。 Analytics 管理员应识别并删除所有重复的组件，如[监视数据词典运行状况](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)中所述。</p><p>管理员可通过在&#x200B;**[!UICONTROL 始终包括]**&#x200B;和&#x200B;**[!UICONTROL 始终排除]**&#x200B;下拉字段中选择所需的组件而编排用户可在此部分中看到的组件。 在您编排用户可看到的组件之前，请首先应用&#x200B;**全部显示**&#x200B;过滤器以确保您可看到任何不与您共享的组件。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**注意：****类似于**&#x200B;部分当前仅包括您创建的组件，而不包括 Adobe 提供的组件。 将在未来的版本中添加 Adobe 提供的组件。</p> |
    | **[!UICONTROL 标记]** | 显示应用于组件的所有标记。 具有管理员访问权限的用户可以在编辑组件时添加标记。 |
    | **[!UICONTROL 组件类型]** | 列出组件的类型，无论是维度、量度、区段还是日期范围。 |
    | **[!UICONTROL 创建者]** | 显示创建组件的用户名称。 |
@@ -94,4 +100,4 @@ Analytics 管理员可以为给定的报告包编辑数据字典中的组件条�
 
    {style="table-layout:auto"}
 
-1. 单击&#x200B;**保存**&#x200B;图标，即![“数据词典保存”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg)来保存您的更改。
+1. 单击&#x200B;**保存**&#x200B;图标，即![“数据词典保存”图标](/help/assets/icons/SaveFloppy.svg)来保存您的更改。

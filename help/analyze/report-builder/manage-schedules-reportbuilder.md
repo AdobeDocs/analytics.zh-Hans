@@ -9,18 +9,20 @@ exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
 TQID: https://experienceleague.adobe.com/QbA2xh07-E4WMt70tLIoR-TL30qfnvFSCToTVi3COXU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: User
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 6%
-
+source-wordcount: '381'
+ht-degree: 4%
 ---
-
 # 管理已安排的工作簿
 
 您可以计划工作簿以通过电子邮件共享，也可以通过导出到云目标进行共享，如以下文章所述：
@@ -49,7 +51,7 @@ ht-degree: 6%
 
    * 选择列图标![ColumnSetting](/help/assets/icons/ColumnSetting.svg)以定义要显示的列。
 
-   * 选择过滤器图标![过滤器图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然后选择&#x200B;[!UICONTROL **全部显示**]&#x200B;以显示给定组织的所有计划工作簿。
+   * 选择过滤器图标![过滤器图标](/help/assets/icons/Filter.svg)，然后选择&#x200B;[!UICONTROL **全部显示**]&#x200B;以显示给定组织的所有计划工作簿。
 
 1. 选择一个或多个工作簿。
 
