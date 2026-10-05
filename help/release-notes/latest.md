@@ -2,6 +2,7 @@
 title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -39,10 +40,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e799ccd83844b80268377a1b7094baee6a1cbc0e
+source-git-commit: 2a63351b022c63d7c2cd5d89b9ca4598c63952d0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 44%
+source-wordcount: '957'
+ht-degree: 54%
 ---
 # 当前Adobe Analytics发行说明（2026年9月）
 
@@ -54,11 +55,9 @@ ht-degree: 44%
 
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
-| **将区段限制为报表日期范围**<br/>&#x200B;当区段包含日期范围组件时，Workspace报表中的数据可能会超出报表日期范围。<p>现在提供了一个新选项，通过该选项可将结果限制为报表日期范围，而不管该区段中包含的任何日期组件如何。</p><p>创建或修改顶级容器为“访客”的区段时，此选项可用。</p><p>有关详细信息，请参阅[生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
-| **机器人检测更新**<br/>&#x200B;在将Edge数据收集与Web SDK结合使用时，可以使用以下机器人检测更新：<ul><li>现在，您可以创建机器人检测规则，以识别通信量中的异常，这些异常将被视为机器人生成的异常。 现有和未来的规则将继续默认将匹配流量标记为机器人生成。</li><li>现在，自定义机器人规则先于IAB机器人检测规则运行。 此更改不会影响机器人得分，但与事件关联的机器人规则名称可能会更改。</li></ul><p>注意：此更新仅适用于使用Web SDK的Edge数据收集实施。 它不适用于旧版库，例如AppMeasurement。</p><p>有关详细信息，请参阅[为数据流配置机器人检测](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/bot-detection)。</p> | | 2026年9月初 |
+| **自动生成组件描述** <br/>您现在可以自动生成维度、量度、计算量度、区段和日期范围的描述。 这使得Workspace用户能够了解要使用的组件，尤其是在具有大型组件库的组织中。 <p>您可以为单个组件生成描述，或同时为多个组件生成描述。</p> <p>（文档链接见下文。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日 |
+| **Adobe Brand Visibility集成**<br/>&#x200B;将Adobe Brand Visibility与贵组织的Adobe Analytics数据连接起来，以便您可以衡量AI驱动的发现如何转化为真正的网站参与度和业务成果。<p>（文档链接将随后提供。）</p> | | 2026年10</p> |
 | **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics数据** <br/>Adobe CX Enterprise Coworker Chat现在可以执行以前只能在Analysis Workspace中进行的高级数据分析。 同事聊天可访问您的Adobe Analytics报表包中的数据，让您浏览这些数据并获得自然语言提示的答案。<p>（文档链接将随后提供。）</p> | 2026年10月2 | 待定<p>（原计划于2026年9月25日）</p> |
-| **分类集API更新**<br/>&#x200B;分类集API文档现在包含用于配置分类集API请求的更新的端点和参数信息。<p>有关详细信息，请参阅[分类终结点指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)。</p> | 2026年9月5日 | 2026年9月30日 |
-| **2.0 API报告指南中的日期itemId编码指南**<br/> Adobe Analytics 2.0 API日期趋势报告指南现在包含新章节，说明日期`itemId`参数和值的编码方式。 这可以帮助您从现已弃用的1.4 API配置和迁移到2.0 API服务。<p>有关详细信息，请参阅[KPI报告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)和[高级报告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)。</p> | 2026年9月5日 | 2026年9月30日 |
 
 ### Adobe Analytics 中的修复
 
@@ -96,7 +95,7 @@ ht-degree: 44%
 >[!MORELIKETHIS]
 >
 >* [以前的2026年发行说明](/help/release-notes/2026.md)
->* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
+>* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 >* [流媒体服务发行说明](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
+>* [Adobe CX Enterprise 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
 
