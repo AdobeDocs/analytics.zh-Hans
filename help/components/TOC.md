@@ -5,13 +5,11 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。 了解跨设备分析。
 nudge: red
-source-git-commit: 4cdd860f83b81128d289c68201500d14f27bda8b
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '780'
 ht-degree: 97%
-
 ---
-
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
 + [Analytics 组件指南](home.md)
@@ -133,6 +131,7 @@ ht-degree: 97%
   + [网站平均逗留时间](metrics/average-time-on-site.md)
   + [机器人发生次数](metrics/bot-occurrences.md)
   + [机器人页面查看次数](metrics/bot-page-views.md)
+  + [机器人产品发生次数](metrics/bot-product-occurrences.md)
   + [跳出率](metrics/bounce-rate.md)
   + [跳出次数](metrics/bounces.md)
   + [购物车加货](metrics/cart-additions.md)

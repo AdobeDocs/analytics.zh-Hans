@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '7551'
+source-wordcount: '7591'
 ht-degree: 91%
 ---
 # Adobe Analytics 技术文档更新
@@ -75,6 +75,8 @@ ht-degree: 91%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2026年10月** | |
+| 机器人产品出现次数量度 | 添加了[机器人产品发生次数](/help/components/metrics/bot-product-occurrences.md)量度，该量度显示与机器人规则匹配的产品字符串子点击数。 <p>还更新了[机器人名称](/help/components/dimensions/bot-name.md)维度和[机器人发生次数](/help/components/metrics/bot-occurrences.md)量度以引用新量度。</p> |
 | **2026年9月** | |
 | 箭头和流失的历程画布比较 | 更新了[中的“[!UICONTROL 与]”比较设置。配置历程画布可视化图表](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)以显示历程中的每个节点、箭头和流失上现在显示日期范围之间的百分比变化。 |
 | 促销 eVar | 将经过修订和整合的促销变量文档转换为相关组件：<ul><li>组件指南中的[eVar （促销）](/help/components/dimensions/evar-merchandising.md)维度</li><li>实施指南中的[eVar (Merchandising)](/help/implement/vars/page-vars/evar-merchandising.md)变量</li><li>管理员指南中的[转化变量](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)</li></ul> |
@@ -125,7 +127,7 @@ ht-degree: 91%
 | **2025 年 3 月** |  |
 | 分析库存 | [分析库存](/help/admin/tools/analytics-inventory.md)提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。 |
 | Customer Journey Analytics 升级指南 | 让您生成从 Adobe Analytics 升级到 Customer Journey Analytics 的[分步指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
-| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读 Data Warehouse 导出中的日期值的信息。 <p>在Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中的组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
+| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读来自 Data Warehouse 导出的日期值的信息。 <p>在Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中的组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
 | 关于 IP 排除的更新信息 | 添加了说明 [IP 排除](/help/admin/tools/exclude-ip.md)可能需要长达 5 分钟才能生效，并且更改仅适用于新的点击（设置排除之前捕获的数据不受影响）。 <p>还更新了内容布局以提高可读性。</p> |
 | **2025 年 2 月** |  |
 | 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。 从馈送暂停到重新激活期间，不会进行数据处理。 |
