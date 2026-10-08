@@ -69,7 +69,7 @@ Web SDK使用[体验数据模型(XDM)](https://experienceleague.adobe.com/zh-han
 
 <!-- markdownlint-enable MD034 -->
 
-创建新方案时，您还可以选择升级助手是支持标准字段组还是自定义字段组。 标准字段组由Adobe定义，而自定义字段组由您的组织定义。 请参阅XDM文档中的[字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#field-group)。
+创建新方案时，您还可以选择升级助手是支持标准字段组还是自定义字段组。 标准字段组由Adobe定义，而自定义字段组由您的组织定义。 请参阅XDM文档中的[字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)。
 
 ## 查看映射 {#review}
 
