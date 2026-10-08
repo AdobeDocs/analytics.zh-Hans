@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 2%
 ---
 # 审计结果
@@ -58,7 +58,7 @@ ht-degree: 2%
 * 您可以合并的重复数据元素
 * 可能未使用，但您可以禁用它的数据元素
 
-此步骤是可选的。 您可以解决任意数量的调查结果，或直接继续[报告包验证](rs-verification.md)。
+此步骤是可选的。 您可以解析任意数量的查找结果，或直接继续进行[映射器准备](mapper-prep.md)。
 
 ## 查看调查结果 {#review}
 

@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '534'
 ht-degree: 3%
 ---
 # Web SDK升级助手
@@ -54,7 +54,7 @@ Web SDK升级助手可帮助您规划并执行Adobe Analytics标记扩展到Adob
 
 1. **[组件选择](component-selection.md)**：选择要包含在迁移中的规则、数据元素和扩展。
 1. **[审核结果](audit-findings.md)**：查看所选组件的可选清理建议。
-1. **[报表包验证](rs-verification.md)**：查看报表包中的Analytics变量，并选择要结转的变量。
+1. **[映射器准备](mapper-prep.md)**：查看报表包中的Analytics变量，并选择要结转的变量。
 1. **[XDM映射](xdm-mapping.md)**：将Analytics变量映射到XDM架构中的字段。
 1. **[Web SDK实施](web-sdk-implementation.md)**：查看升级助手添加到您规则的Web SDK操作。
 1. **[最终审核](final-review.md)**：选择Experience Platform沙盒，审核迁移所创建的内容，然后完成迁移。
@@ -79,7 +79,7 @@ Web SDK升级助手可帮助您规划并执行Adobe Analytics标记扩展到Adob
 
 | 访问类型 | 必需 |
 | --- | --- |
-| [Experience Platform 权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 查看架构]</li><li>[!UICONTROL 管理架构]</li><li>[!UICONTROL 查看数据集]</li><li>[!UICONTROL 管理数据集]</li><li>[!UICONTROL 查看身份标识命名空间]</li></ul> |
+| [Experience Platform 权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 查看架构]</li><li>[!UICONTROL 管理架构]</li><li>[!UICONTROL 查看数据集]</li><li>[!UICONTROL 管理数据集]</li><li>[!UICONTROL 查看身份标识命名空间]</li></ul> |
 | 产品访问 | <ul><li>数据收集（标记）</li><li>Adobe Analytics</li></ul> |
 | [标记权限](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL 管理属性] |
 

@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # XDM映射
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Web SDK使用[体验数据模型(XDM)](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)字段发送数据，因此您从[报表包验证](rs-verification.md)结转的每个Analytics变量都需要XDM架构中的匹配字段。 在此步骤中，您可以选择架构并将变量映射到其字段。
+Web SDK使用[体验数据模型(XDM)](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)字段发送数据，因此从[映射器准备](mapper-prep.md)结转的每个Analytics变量都需要XDM架构中的匹配字段。 在此步骤中，您可以选择架构并将变量映射到其字段。
 
 ## 选择架构 {#schema}
 
@@ -69,7 +69,7 @@ Web SDK使用[体验数据模型(XDM)](https://experienceleague.adobe.com/zh-han
 
 <!-- markdownlint-enable MD034 -->
 
-创建新方案时，您还可以选择升级助手是支持标准字段组还是自定义字段组。 标准字段组由Adobe定义，而自定义字段组由您的组织定义。 请参阅XDM文档中的[字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#field-group)。
+创建新方案时，您还可以选择升级助手是支持标准字段组还是自定义字段组。 标准字段组由Adobe定义，而自定义字段组由您的组织定义。 请参阅XDM文档中的[字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)。
 
 ## 查看映射 {#review}
 
