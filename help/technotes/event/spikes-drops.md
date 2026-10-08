@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # 数据激增和骤减故障诊断
 
@@ -53,11 +53,11 @@ ht-degree: 100%
 * **报表包延迟**：有时，报表包会因为多种因素而出现[延迟](../latency.md)。 许多滞后问题可在数小时内得到解决。 如果您担心特定报表包可能存在问题，请联系 Adobe 客户关怀团队，向其提供受影响的报表包 ID。
 * **移除实施**：有时，在组织更改实施或重新构建其网站时，重新实施 Analytics 的步骤会被忽略。 请与组织中的开发人员合作，在您的网站上重新实施代码。
 * **Analytics 界面/缓存问题**：在极少数情况下，浏览器的缓存会包含使所有报表返回零的无效数据。 清除浏览器的 Cookie 和缓存可解决此问题。 如果清除 Cookie/缓存不起作用，请联系客户关怀团队，向其提供缺失的报表和日期范围；他们可以重现问题并提供其他信息。
-* **Analytics 可用性**：访问 [status.adobe.com](https://status.adobe.com/cn/products/1173/)，了解有关数据收集或处理的任何问题。
+* **Analytics 可用性**：访问 [status.adobe.com](https://status.adobe.com/products/1173/)，了解有关数据收集或处理的任何问题。
 
 ### 部分缺失数据或流量减少的潜在原因
 
-* **实施更改**：使用[调试器](/help/implement/validate/debugger.md)验证所需的维度是否有效。
+* **实施更改**：使用[调试工具](/help/implement/validate/debugging-tools.md)验证所需的维度是否有效。
 * **反向链接流量减少**：如果删除其他网站上的热门横幅广告或超链接，可能会导致流量急剧减少。 可了解[反向链接域](/help/components/dimensions/referring-domain.md)维度在流量骤减前后的趋势，以便进一步研究。
 * **网站性能问题**：通过负载均衡器的流量分配不正确或托管网站的服务器问题，可能会导致 Analytics 报表中的流量减少。 与组织内负责管理网站完整性和运行状况的团队合作，调查任何潜在的性能问题。
 * **免费搜索排名的变更**：如果其他网站取代您在某些关键字的免费搜索排名，流量可能会减少。 如果您的网站不再位于搜索结果的第一页，则这种流量减少尤为明显。 可了解[搜索引擎](/help/components/dimensions/search-engine.md)维度的趋势，以便进一步研究。

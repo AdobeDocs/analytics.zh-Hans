@@ -7,30 +7,42 @@ role: Admin
 TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 2104
+source-wordcount: '2102'
 ht-degree: 93%
-
 ---
-
 # Adobe Analytics 和浏览器 Cookie
 
 本文档说明主流浏览器的跟踪预防措施如何影响 Adobe Analytics 设置的第三方 Cookie 和第一方 Cookie。 其中包括有关 Apple 的 Intelligent Tracking Prevention (ITP) 计划以及 Chrome 通过 SameSite 属性对第三方 Cookie 的限制。
@@ -42,25 +54,25 @@ ht-degree: 93%
 
 ### 第三方 Cookie 限制
 
-在第三方上下文中使用的 Cookie 已经广泛弃用。 Firefox 和 Safari 分别在 2019 和 2020 年开始默认阻止第三方 Cookie。 Chrome 宣布，其将在 2023 年的某个时候停止支持第三方 Cookie。 在这样做的时候，第三方 Cookie 将直接不可用。
+在第三方上下文中使用的 Cookie 正在被广泛弃用。 Firefox 和 Safari 分别在 2019 和 2020 年开始默认阻止第三方 Cookie。 Chrome 宣布，其将在 2023 年的某个时候停止支持第三方 Cookie。 届时，第三方 Cookie 实际上将无法使用。
 
-此外，Chrome 目前仅允许当第三方上下文中将“SameSite”属性设置为“None”并且已标记为安全时，才允许 Cookie 发挥作用，这意味着它们只能用在 HTTPS 上。 更多信息在“[什么是 SameSite Cookie 属性以及它如何影响 Analytics？](#samesite-effect)”部分中提供
+此外，Chrome 目前仅允许 Cookie 在第三方上下文中发挥作用，前提是其“SameSite”属性设置为“None”且被标记为安全，这意味着它们只能通过 HTTPS 使用。 更多信息在“[什么是 SameSite Cookie 属性以及它如何影响 Analytics？](#samesite-effect)”部分中提供
 
 #### 哪些 Adobe 第三方 Cookie 受影响？
 
-访客ID服务使用&quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)&quot; Cookie为访客在不同的客户域中提供永久性标识符。 旧版 Analytics ID 服务 &quot;s_vi&quot; Cookie 被设置为第三方 Cookie，用于不使用自定义 CNAME 收集域的实施。
+访客ID服务使用&quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)&quot; Cookie为访客在不同的客户域中提供永久性标识符。 对于未使用自定义 CNAME 收集域的实施，旧版 Analytics ID 服务“s_vi”Cookie 会被设置为第三方 Cookie。
 
 在阻止第三方 Cookie 的浏览器上，跨域跟踪不可用。
 
 ### 第一方 Cookie 限制 {#limitations-first-party-cookies}
 
-仅在所有主流浏览器上允许第一方 Cookie。 但是，Apple 通过 Intelligent Tracking Program (ITP)，限制 Adobe 设置的第一方 Cookie 的生命周期。 这将影响 Safari 以及 iOS 和 iPadOS 上的所有浏览器。
+所有主流浏览器都允许第一方 Cookie。 但是，Apple 通过 Intelligent Tracking Program (ITP)，限制 Adobe 设置的第一方 Cookie 的生命周期。 这将影响 Safari 以及 iOS 和 iPadOS 上的所有浏览器。
 
-Adobe 的第一方 Cookie 限制为 7 天过期，对于 Apple 认定来自跟踪器的点进为 24 小时过期。 在 7 天过期的情况下，如果用户访问您的网站，然后在这七天内回访，则该 Cookie 的失效日期另外延长 7 天。 但是，如果某个用户访问您的网站并在第 8 天回访，则会将其第二次访问视为新用户。
+Adobe 的第一方 Cookie 的有效期限制为 7 天；对于 Apple 认定为来自跟踪器的点击进入，其有效期限制为 24 小时。 在 7 天过期的情况下，如果用户访问您的网站，然后在这七天内回访，则该 Cookie 的失效日期另外延长 7 天。 但是，如果某个用户访问您的网站并在第 8 天回访，则会在第二次访问时将其视为新用户。
 
 目前，ITP策略适用于Adobe设置的所有第一方Cookie，无论您使用的是访客ID服务还是旧版Analytics ID (&quot;s_vi&quot; Cookie)。 过去，这些策略仅适用于客户端设置的 Cookie，而不是通过 CNAME 实施在服务器端设置的 Cookie。 但是，在 2020 年 11 月，ITP 进行了更新，同样应用到 CNAME 实施。
 
-#### 对 ITP 策略重大更改的时间表 {#ITP-timeline}
+#### ITP 策略重大更改时间线 {#ITP-timeline}
 
 * 2019 年 2 月的 [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)：客户端 Cookie 限制为 7 天过期
 * 2019 年 4 月的 [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/)：对于广告点击，当引用域满足以下条件时，客户端 Cookie 限制为 24 小时过期：a) 涉及到跨站点跟踪，以及 b) 最终 URL 包含了查询字符串和/或片段标识符。
@@ -72,9 +84,9 @@ ITP 策略经常发生改变。 有关最新策略，请查看 Apple 的 [Webkit
 
 Adobe 设置的所有第一方 Cookie 以及相关的 JavaScript 库均受 ITP 策略影响：
 
-* Adobe Experience Cloud 访客 ID (ECID) 服务库设置的[“AMCV”Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)
-* 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics)
-* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
+* 由Adobe访客ID服务(ECID)库设置的[&quot;AMCV&quot; Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)
+* 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)
+* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
 
 #### ITP 对 Safari for Analytics 有什么影响？
 
@@ -83,7 +95,7 @@ ITP 限制的影响根据用户的行为差别非常大。 只有使用受 ITP �
 如果这些限制确实会影响您的数据，您将看到：
 
 1. 访客计数增加，回访访客由于 Cookie 过期被视为新访客。 基于“访客”量度的任何量度（例如“每位访客的销售额”）也会受影响。
-2. 对归因的更改。 归因依赖于将转化事件与同一访问者之前的活动相关联。 Cookie 过期后，后续事件将与新访客相关联。 新访客的活动不能与前一访客的活动相关联。
+2. 对归因的更改。 归因依赖于将转化事件与同一访客之前的活动相关联。 Cookie 过期后，后续事件将与新访客相关联。 新访客的活动不能与前一访客的活动相关联。
 
 >[!NOTE]
 >
@@ -139,7 +151,7 @@ ITP 限制的影响根据用户的行为差别非常大。 只有使用受 ITP �
 
 ### 网站如何解决对 SameSite 属性的要求？
 
-#### 使用 HTTPS 提供所有网站页面服务
+#### 通过 HTTPS 提供网站的所有页面
 
 确认您的 JavaScript 配置为对 Adobe 服务的所有调用使用 HTTPS。
 
@@ -157,37 +169,37 @@ ITP 限制的影响根据用户的行为差别非常大。 只有使用受 ITP �
 
 ## 如何确定 Safari 更改是否影响我的业务？ {#measure-itp-effect}
 
-Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改的影响。 您可以使用 Analysis Workspace 衡量 ITP 跟踪预防对您单独业务的影响：
+Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改的影响。 您可以使用 Analysis Workspace 衡量 ITP 跟踪预防对您自身业务的影响：
 
 * 从受 ITP 控制的浏览器衡量流量的百分比：
 
-   1. 创建一个区段以查看有多少访客使用 ITP 平台。
+  1. 创建一个区段以查看有多少访客使用 ITP 平台。
 
-      >[!NOTE]
-      >
-      >受 ITP 影响的特定浏览器取决于您是否使用 CNAME 实施。 有关更多详细信息，请参阅“[对 ITP 策略重大更改的时间表](#ITP-timeline)”。
+     >[!NOTE]
+     >
+     >受 ITP 影响的特定浏览器取决于您是否使用 CNAME 实施。 有关更多详细信息，请参阅“[对 ITP 策略重大更改的时间表](#ITP-timeline)”。
 
-      ![ITP 访客的区段](/help/technotes/assets/itp-visitor-segment.png)
+     ![ITP 访客的区段](/help/technotes/assets/itp-visitor-segment.png)
 
-   2. 将区段应用到访客的数量以了解您的用户群中 Safari 的相对使用量。 这让您可创建类似于下面的表：
+  2. 将区段应用到访客的数量以了解您的用户群中 Safari 的相对使用量。 这让您可创建类似于下面的表：
 
-      ![按 ITP 访客统计的访客百分比](/help/technotes/assets/visits-vs-safari-visits.png)
+     ![按 ITP 访客统计的访客百分比](/help/technotes/assets/visits-vs-safari-visits.png)
 
-* 使用非 Safari 浏览器衡量未在 7 天内回访的访客百分比。 如果您的非 Safari 访客在 7 天内重复回访，则 Safari 流量不会受到明显的影响。
+* 衡量使用非 Safari 浏览器且未在 7 天内回访的访客百分比。 如果您的非 Safari 访客在 7 天内重复回访，则 Safari 流量不会受到明显的影响。
 
-   1. 为非 Safari 流量创建类似于下文的区段。
+  1. 为非 Safari 流量创建类似于下文的区段。
 
-      ![7 天后回访访客的区段](/help/technotes/assets/visits-after-seven-days.png)
+     ![7 天后回访访客的区段](/help/technotes/assets/visits-after-seven-days.png)
 
-   2. 将区段应用到访客的数量以了解您的用户群中 Safari 的相对使用量。 这让您可创建类似于下面的表：
+  2. 将区段应用到访客的数量以了解您的用户群中 Safari 的相对使用量。 这让您可创建类似于下面的表：
 
-      ![7 天后回访访客的百分比](/help/technotes/assets/percent-visits-after-seven-days.png)
+     ![7 天后回访访客的百分比](/help/technotes/assets/percent-visits-after-seven-days.png)
 
 ### 报告期间调整数据的方法
 
 如果您的业务受 ITP 跟踪预防的影响，则可以考虑在报告期间采取以下措施来调整数据。
 
-* 创建区段以过滤出 ITP 用户。
+* 创建区段以过滤掉 ITP 用户。
 
   ![非 ITP 访客的区段](/help/technotes/assets/non-itp-visitor-segment.png)
 
@@ -197,4 +209,5 @@ Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改�
 
 >[!MORELIKETHIS]
 >
->[减轻浏览器Cookie限制影响的选项Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=zh-Hans)
+>[减轻浏览器Cookie限制影响的选项](cookieless.md)
+>[Apple 的新应用程序跟踪透明度框架对 Adobe Analytics 的影响](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)

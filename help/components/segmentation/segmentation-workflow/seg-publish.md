@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1441'
 ht-degree: 31%
 ---
 # 发布区段 {#publish-segments}
@@ -56,7 +56,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [发布区段](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[发布区段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -92,7 +92,7 @@ ht-degree: 31%
 ## 在[!UICONTROL 区段生成器]中发布区段
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
-1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
+1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
    ![发布CX Enterprise](assets/publish-ec.png)
 1. 提供区段的标题和描述。 在保存区段之前，需要填写这些字段。
 1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
@@ -135,14 +135,14 @@ ht-degree: 31%
 
 有两种方法可捕获当前与浏览器关联的Adobe Audience Manager UUID：
 
-* Adobe CX Enterprise调试器
+* Adobe Experience Platform Debugger
 * 浏览器中的本机开发人员工具（例如，Chrome Developer Tools）
 
 以下屏幕截图显示了如何在浏览器中检索Adobe Audience Manager UUID，并在Audience Manager访客资料查看器中使用它来验证特征和区段成员资格。
 
-### 方法1：使用Adobe CX Enterprise调试器
+### 方法1：使用Adobe Experience Platform Debugger
 
-1. 在Chrome网上应用商店中下载并安装[Adobe CX Enterprise Debugger](/help/implement/validate/debugger.md)。
+1. 在Chrome网上应用商店中下载并安装[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)。
 1. 加载页面时启动该调试器。
 1. 滚动到Audience Manager部分，然后找到在当前浏览器页面上设置的Adobe Audience Manager UUID
 （以下示例中的`35721780439475290181087231320657663953`）
@@ -153,14 +153,14 @@ ht-degree: 31%
 
 1. 在加载页面之前启动 Chrome 开发人员工具
 1. 加载页面，并选中“应用程序”>“Cookie”。 Adobe Audience Manager UUID应在第三方中设置
-Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/reference/demdex-calls)）。 字段demdex是Adobe Audience Manager UUID集
+Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 字段demdex是Adobe Audience Manager UUID集
 在浏览器上（以下示例中为`35721780439475290181087231320657663953`）。
 
    ![Chrome 开发人员工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 访客轮廓查看器]
 
-默认情况下，加载[!UICONTROL 访客资料查看器]时，浏览器上的Adobe Audience Manager UUID是默认的。 如果验证其他用户的特性实现，请在UUID字段中输入UUID，然后单击[!UICONTROL 刷新]。 请参阅[访客轮廓查看器](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/features/visitor-profile-viewer)，以了解详细信息。
+默认情况下，加载[!UICONTROL 访客资料查看器]时，浏览器上的Adobe Audience Manager UUID是默认的。 如果验证其他用户的特性实现，请在UUID字段中输入UUID，然后单击[!UICONTROL 刷新]。 请参阅[访客轮廓查看器](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)，以了解详细信息。
 
 ## 在Audience Manager中查看区段特征
 

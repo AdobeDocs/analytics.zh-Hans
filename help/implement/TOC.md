@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。 自定义要收集的数据，以充分利用 Analytics 数据。
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 96%
+source-wordcount: '459'
+ht-degree: 92%
 ---
 
 # Adobe Analytics 实施指南 {#implementation}
@@ -143,8 +143,15 @@ ht-degree: 96%
   + [Edge Network 事件类型](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK 概述](aep-edge/web-sdk/overview.md)
-    + 迁移规划者 {#planner}
-      + [Planner概述](aep-edge/web-sdk/planner/overview.md)
+    + 升级助手 {#upgrade-assistant}
+      + [升级助手概述](aep-edge/web-sdk/upgrade-assistant/overview.md)
+      + [管理迁移](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [组件选择](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
+      + [审计结果](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [报表包验证](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [XDM映射](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
+      + [Web SDK实施](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [最终审阅](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [使用标记迁移到 Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [使用 JavaScript 迁移到 Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [使用标记的新实施](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -184,8 +191,7 @@ ht-degree: 96%
   + [将 AppMeasurement 与 iFrames 结合使用](use-cases/iframe.md)
   + [营销活动跟踪工作流程](use-cases/campaign-tracking.md)
 + 验证您的实施 {#validate}
-  + [旧版调试器](validate/debugger.md)
-  + [数据包监视器](validate/packet-monitor.md)
+  + [调试工具](validate/debugging-tools.md)
   + [哈希冲突](validate/hash-collisions.md)
 + [常见问题解答](faq.md)
 + 审查您的实施 {#review}

@@ -7,27 +7,36 @@ exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
 TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 18%
-
+source-wordcount: '426'
+ht-degree: 16%
 ---
-
 # Activity Map数据收集疑难解答
 
 如果您没有看到Activity Map维度的数据，请使用此页帮助确定原因。
@@ -36,7 +45,7 @@ ht-degree: 18%
 
 首先，确保AppMeasurement正确收集Activity Map数据。
 
-1. 下载并安装[Adobe CX Enterprise Debugger Chrome扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)。
+1. 下载并安装[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)。
 2. 导航到您的网页，然后单击链接。
 3. 加载后续页面时，打开调试器。 验证您是否看到介于`activitymap.`和`.activitymap`之间的Activity Map上下文数据变量：
 
@@ -78,14 +87,14 @@ ht-degree: 18%
 
 **验证**
 
-使用 Developer Console“网络”选项卡来交互调用：
+使用 Developer Console“网络”选项卡的互动调用：
 
 1. 在站点上加载 Development Launch 脚本。
-1. 在“点击元素”上，在“网络”选项卡中搜索“/ee”
+1. 单击元素时，在“网络”选项卡中搜索“/ee”
 
 Adobe Experience Platform Debugger：
 
-1. 下载并安装 [Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)。
+1. 下载并安装[Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)。
 1. 转到[!UICONTROL 日志] > [!UICONTROL Edge] > [!UICONTROL 连接到 Edge]。
 
 * **在“网络”选项卡中未触发interact调用**：收集调用中的click数据收集，请使用`"/ee"`或`"collect?"`进行筛选。

@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 72%
+source-wordcount: '393'
+ht-degree: 73%
 ---
 # H 码 JavaScript 实施概述
 
@@ -51,7 +51,7 @@ ht-degree: 72%
    >
    >H 代码要求在 `s_code.js` 标记中调用 `<body>` 脚本。 这与其他实施方法有所不同，因为大多数实施方法要求在 `<head>` 标记中引用脚本。
 1. **在每个页面上定义特定于页面的变量**：应在每个页面上定义各个变量，如页面名称或 eVar。 在每个页面上通常使用内联 `<script>` 标记来定义各个变量。
-1. **使用调试器验证数据收集**：下载并安装[CX Enterprise调试器](../../validate/debugger.md)，以确保将数据发送到Adobe，且已正确定义页面变量。
+1. **使用调试器验证数据收集**：下载并安装[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)，以确保将数据发送到Adobe，且已正确定义页面变量。
 
 ## 缓存
 

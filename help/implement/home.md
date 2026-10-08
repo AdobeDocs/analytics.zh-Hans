@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 83%
+ht-degree: 82%
 ---
 # 实施 Adobe Analytics
 
@@ -118,16 +118,16 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 ## 重要 Analytics 实施文章
 
 * [负责现有的 Adobe Analytics 实施](/help/implement/prepare/existing-implementation.md)
-* [Adobe Debugger](validate/debugger.md)
+* [调试工具](validate/debugging-tools.md)
 * [在 Experience Platform 中创建标记属性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
-* [使用Platform Web SDK设置Adobe Analytics教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=zh-Hans)
-* [在移动应用程序中实施Adobe CX Enterprise教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)
+* [使用Platform Web SDK设置Adobe Analytics教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [在移动应用程序中实施Adobe CX Enterprise教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
 
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hans)
+* [联系客户关怀团队](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新发行说明](../release-notes/latest.md)
