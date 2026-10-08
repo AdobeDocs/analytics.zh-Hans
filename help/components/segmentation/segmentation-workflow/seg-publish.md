@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1441'
 ht-degree: 31%
 ---
 # 发布区段 {#publish-segments}
@@ -135,14 +135,14 @@ ht-degree: 31%
 
 有两种方法可捕获当前与浏览器关联的Adobe Audience Manager UUID：
 
-* Adobe CX Enterprise调试器
+* Adobe Experience Platform Debugger
 * 浏览器中的本机开发人员工具（例如，Chrome Developer Tools）
 
 以下屏幕截图显示了如何在浏览器中检索Adobe Audience Manager UUID，并在Audience Manager访客资料查看器中使用它来验证特征和区段成员资格。
 
-### 方法1：使用Adobe CX Enterprise调试器
+### 方法1：使用Adobe Experience Platform Debugger
 
-1. 在Chrome网上应用商店中下载并安装[Adobe CX Enterprise Debugger](/help/implement/validate/debugger.md)。
+1. 在Chrome网上应用商店中下载并安装[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)。
 1. 加载页面时启动该调试器。
 1. 滚动到Audience Manager部分，然后找到在当前浏览器页面上设置的Adobe Audience Manager UUID
 （以下示例中的`35721780439475290181087231320657663953`）

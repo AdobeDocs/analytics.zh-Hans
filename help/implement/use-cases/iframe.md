@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '318'
+ht-degree: 96%
 ---
 # 将 AppMeasurement 与 iframe 一起使用
 
@@ -89,5 +89,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * 与其他 JavaScript 代码一样，iframe 只能在域和协议匹配时通信。 如果 iframe 内容位于与父页面不同的域，这些示例无法使用。
 * 如果 AppMeasurement 位于 iframe 中，则 [`referrer`](../vars/page-vars/referrer.md) 变量设置为父 URL，而不是实际的引用 URL。 您可以手动设置 `referrer` 变量来解决此问题。
-* [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)无法识别在iframe中触发的图像请求。
-* Activity Map 不显示在 iframe 中单击的链接的热图。 而是改为突出显示整个 iframe。
+* [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)无法识别在iframe中触发的图像请求。
+* Activity Map 不会在 iframe 中单击的链接上显示热图。 而是改为突出显示整个 iframe。

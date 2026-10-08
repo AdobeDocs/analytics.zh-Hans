@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 53%
+source-wordcount: '333'
+ht-degree: 43%
 ---
 # 服务器端转发要求
 
@@ -62,5 +62,5 @@ ht-degree: 53%
 
 任何用于监视浏览器发起的 HTTP 请求的工具，都可以显示您的 AppMeasurement 和访客 API 代码的版本号。 `AppMeasurement_Module_AudienceManagement.js` 不包含或不会返回版本 ID。 以下示例向您显示了 `AppMeasurement.js` 和 `VisitorAPI.js` 代码版本 ID 的显示格式。
 
-* `AppMeasurement.js`：[Adobe 调试器](/help/implement/validate/debugger.md)会返回如下的 AppMeasurement 版本：`Version of Code | JS-1.5.1`。 其他工具可能使用不同的标签，但值始终遵循模式 `JS-X.X.X`，其中 `X` 为版本号。
+* `AppMeasurement.js`：该版本显示在请求URL中的响应类型之后，如`/b/ss/examplersid/1/JS-X.X.X/s234234238479`。 [对请求进行解码的调试工具](/help/implement/validate/debugging-tools.md)可以使用其他标签，但值始终遵循模式`JS-X.X.X`，其中`X`是版本号。
 * `VisitorAPI.js`：查找 `d_visid_ver` 参数。 它将以如下形式显示访客 ID 服务：`d_visid_ver: 1.5.5`。 早于版本1.5.2的访客API代码不包含版本号。 如果您的监视结果未返回版本号，则可能是使用旧版代码库（需要升级）。

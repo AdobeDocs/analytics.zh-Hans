@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 68%
+source-wordcount: '1140'
+ht-degree: 67%
 ---
 # 重定向和别名
 
@@ -135,11 +135,11 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaii.example"
 ```
 
-## 利用 Adobe Debugger 验证反向链接 {#verify}
+## 使用Adobe Experience Platform Debugger验证反向链接 {#verify}
 
 运行测试以验证是否正在捕获反向链接、原始 URL (*`s_server`*) 和促销活动变量。
 
-这些变量将在[CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)中表示为以下参数。
+这些变量将在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)中表示为以下参数。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 

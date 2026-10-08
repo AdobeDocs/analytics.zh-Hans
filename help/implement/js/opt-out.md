@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 64%
+ht-degree: 65%
 ---
 # 实施选择退出链接
 
@@ -71,9 +71,9 @@ ht-degree: 64%
   1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
   1. 记下 `trackingServer` 变量值。
 
-* 使用[Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hans)：
-  1. 使用 Chrome 浏览器导航到您的网站。
-  1. 打开CX Enterprise Debugger，然后转到[!UICONTROL 网络选项卡]。
+* 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)：
+  1. 使用 Chrome 浏览器访问您的网站。
+  1. 打开Adobe Experience Platform Debugger，然后转到[!UICONTROL 网络选项卡]。
   1. 记下[!UICONTROL 请求 URL - 主机名]值。
 
 找到实施的 `trackingServer` 域后，将路径 `/optout.html` 附加到结尾处。 例如：

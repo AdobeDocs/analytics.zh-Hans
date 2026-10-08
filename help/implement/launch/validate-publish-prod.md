@@ -7,28 +7,38 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 78%
-
+source-wordcount: '631'
+ht-degree: 75%
 ---
-
 # 验证开发实施并发布到生产环境
 
 将标记库推送到生产环境后，您的组织可以开始使用 Adobe Analytics 提取基本报表。
@@ -37,18 +47,18 @@ ht-degree: 78%
 
 [将 Analytics 实施部署到开发环境](deploy-dev.md)：必须将 Analytics 实施发布到您的开发环境，才能遵循本页进行操作。
 
-## 使用CX企业调试器验证您的开发实施
+## 使用Adobe Experience Platform Debugger验证开发实施
 
-CX Enterprise Debugger是一个可显示页面上存在的所有CX Enterprise标记的扩展。
+Adobe Experience Platform Debugger是一个可显示页面上存在的所有CX Enterprise标记的扩展。
 
 1. 安装[Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)或Firefox的扩展。
 2. 导航到已实施标记的开发网站。
-3. 单击浏览器中的Adobe CX Enterprise Debugger图标。
-4. 如果一切都已正确实施，则应会看到 Adobe Analytics、标记和 Adobe Experience Cloud 访客 ID 服务中的内容。
+3. 单击浏览器中的Adobe Experience Platform Debugger图标。
+4. 如果一切都已正确实施，则应会在Adobe Analytics、标记和Adobe访客ID服务中看到内容。
 
 ## 将开发实施部署到测试/生产环境
 
-一旦确认看到数据，则可在网站实时版本推出实施。
+一旦确认看到数据，您就可以将实施推送到网站的实时版本。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
@@ -59,20 +69,20 @@ CX Enterprise Debugger是一个可显示页面上存在的所有CX Enterprise标
 1. 再次单击库的下拉列表，然后选择&#x200B;**[!UICONTROL 批准以供发布]**。
 1. 再次单击库的下拉列表（现在位于[!UICONTROL 已批准]列中），然后选择&#x200B;**[!UICONTROL 生成并发布到生产环境]**。
 1. 转到“环境”选项卡，单击&#x200B;**[!UICONTROL 生产环境]**。
-1. 复制生产安装代码块并将其提供给网站所有者。 请求他们在网站的生产环境中实施此代码。
+1. 复制生产安装代码，并将其提供给网站所有者。 请求他们在网站的生产环境中实施此代码。
 
 ## 验证您的生产实施
 
 确认您会在网站的在线版本上看到数据，然后开始正式收集 Adobe Analytics 的数据。
 
-1. 向网站所有者确认他们已将标记代码推送到生产环境后，请在Chrome中导航到您网站的主页并打开Adobe CX Enterprise Debugger。
-2. 如果一切运行正常，您应会在开发环境中看到与测试类似的数据。 此时，您将可收集网站上的数据，并且可以立即开始使用 Adobe Analytics 进行报告。
+1. 向网站所有者确认他们已将标记代码推送到生产环境后，请在Chrome中导航到您网站的主页并打开Adobe Experience Platform Debugger。
+2. 如果一切运行正常，您应会看到与您在开发环境中测试时类似的数据。 此时，您将可收集网站上的数据，并且可以立即开始使用 Adobe Analytics 进行报告。
 
 ## 故障排除
 
 **调试器中不显示任何数据。**
 
-在您的网站上，打开浏览器的开发人员控制台（通常按 F12）。 查看页面的源代码，确保符合以下情况：
+在您的网站上，打开浏览器的开发人员控制台（通常按 F12）。 查看页面的源代码，并确保满足以下条件：
 
 * 控制台中没有 JavaScript 错误。 与贵组织的网站所有者合作，确保解决了所有 JS 错误。
 * 正确实施了页眉代码：确保页眉代码位于 `<head>` 标记内部，并且文件存在。
@@ -81,7 +91,7 @@ CX Enterprise Debugger是一个可显示页面上存在的所有CX Enterprise标
 
 ## 后续步骤
 
-现在，基本实施已设置，您在组织中的角色会影响您所要了解详情的路径：
+现在，基本实施已设置，您在组织中的角色会影响您想进一步了解哪条路径：
 
 * [创建解决方案设计文档](../prepare/solution-design.md)：制定有关如何使用自定义变量的计划，然后将其包含在实施中
 * [开始使用 Analysis Workspace](/help/analyze/analysis-workspace/home.md)：通过使用该工具的主要功能，深入研究 Adobe Analytics。

@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 88%
+source-wordcount: '601'
+ht-degree: 85%
 ---
 # 常见问题解答
 
@@ -104,7 +104,7 @@ ht-degree: 88%
 * 仔细检查报告包，并确保报告包中已填充数据。
 * 如果在报告中应用了区段，区段标准可能与所有数据不匹配。 请尝试移除区段或调整区段定义。
 * 检查右上角的日期范围，并确保它已设置为预期的值。
-* 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 验证正在收集的数据。
+* 导航到您的网站，然后使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/home)验证正在收集的数据。
 
 
 +++

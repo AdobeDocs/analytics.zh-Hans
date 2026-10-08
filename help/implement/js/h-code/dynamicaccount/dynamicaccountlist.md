@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 89%
+source-wordcount: '267'
+ht-degree: 90%
 ---
 # s.dynamicAccountList
 
@@ -81,4 +81,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * 如果没有匹配的规则，则使用 `s_account` 中的默认报表包。
 * 如果页面被保存到某个人的硬盘，或通过基于 Web 的翻译引擎（如 Google 的翻译页面）进行了翻译，则动态帐户选择可能无效。
 * `dynamicAccountSelection` 规则仅适用于 `dynamicAccountMatch` 中指定的 URL 部分。
-* 使用Adobe CX Enterprise Debugger测试目标报表包。
+* 使用Adobe Experience Platform Debugger测试目标报表包。
