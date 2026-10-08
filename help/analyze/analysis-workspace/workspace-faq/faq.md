@@ -81,13 +81,13 @@ ht-degree: 85%
 
 +++数据如何进入您的 Analysis Workspace 项目？
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数据输入 Analysis Workspace](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"}以获取演示视频。
 
 +++
 
 +++如何跟踪 Workspace 使用情况？
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日志跟踪](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} 以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日志跟踪](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} 以获取演示视频。
 
 +++
 

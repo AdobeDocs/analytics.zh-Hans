@@ -113,4 +113,4 @@ Adobe Analytics收集请求在请求URL或有效负载中包含Analytics变量�
 
 取消的请求并不一定意味着数据丢失。 浏览器可能已发送完整请求，并且仅停止等待响应。 浏览器开发工具通常无法显示差异，但HTTP调试代理可以。
 
-与`navigator.sendBeacon()`一起发送的请求在导航时未取消。 AppMeasurement使用`sendBeacon`作为退出链接以及启用[`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)时使用。 Web SDK将其用于与[`documentUnloading`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/documentunloading)一起发送的事件。 如果经常取消链接跟踪请求，请使用这些选项。
+与`navigator.sendBeacon()`一起发送的请求在导航时未取消。 AppMeasurement使用`sendBeacon`作为退出链接以及启用[`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)时使用。 Web SDK将其用于与[`documentUnloading`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/sendevent/documentunloading)一起发送的事件。 如果经常取消链接跟踪请求，请使用这些选项。
