@@ -1,5 +1,5 @@
 ---
-title: Web SDK升级助手中的报表包验证
+title: Web SDK升级助手中的映射器准备
 description: 查看报表包中的Analytics变量，并选择要转入XDM映射的变量。
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 ---
-# 报表包验证
+# 映射器准备
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="报表包验证"
+>id="aa_upgradeassistant_mapperprep"
+>title="映射器准备"
 >abstract="查看Tags属性发送到每个报表包的Analytics变量。 您在此处选择的变量将结转到XDM映射。 使用选项卡检查最近数据，查找重复变量，并在报表包间比较设置。"
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="刷新报表包数据"
 >abstract="再次检查链接到此标记属性的报表包，包括其变量设置和最近数据，然后重新运行变量分析。 如果升级助手尚未找到任何报表包，则会先在标记属性中查找它们。 您的选择和决策将被保留。"
 

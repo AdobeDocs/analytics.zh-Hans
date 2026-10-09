@@ -7,28 +7,38 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 TQID: https://experienceleague.adobe.com/C9HUL-UJiicjOhUX8wjq4HFgAsr2eqLghtRLfnnG-zc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: '1224'
 ht-degree: 22%
-
 ---
-
 # 分析库存 {#analytics-inventory}
 
 <!-- markdownlint-disable MD034 -->
@@ -127,7 +137,7 @@ Analytics清单的目标是帮助您回答以下问题：
    | --- | --- |
    | 名称 | 报表包的名称 |
    | ID | 报表包ID (rsid)。 指定只能包含字母数字字符的唯一ID。 此ID在创建后无法更改。 Adobe 会设置所需的 ID 前缀，该前缀也无法更改。 |
-   | 发生次数（最近 90 天） | “发生次数”量度显示设置或保留给定维度的点击次数。 此报表包在过去90天内接收了多少次点击？ |
+   | 发生次数（最近 90 天） | “发生次数”量度显示设置了给定维度或该维度持续存在的点击次数。 此报表包在过去90天内接收了多少次点击？ |
    | 量度 | 此报告包中定义了多少个量度？ |
    | 维度 | 此报表包中定义了多少个维度？ |
    | Analytics for Target (A4T) 已启用 | [默认隐藏]是否为[Analytics for Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/a4t/a4t)启用此报表包？ |
