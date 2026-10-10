@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c7bf23667e8dad862d73106345c08047039e945a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 77%
+source-wordcount: '645'
+ht-degree: 66%
 ---
 # 数据对象字段映射到Adobe Analytics
 
 下表显示了Adobe Experience Platform Edge Network自动映射到Adobe Analytics的数据对象字段。 如果使用这些数据对象字段路径，则无需额外配置即可将数据发送到 Adobe Analytics。
 
-如果您打算将来使用 Customer Journey Analytics，建议使用这些字段。 这种实施方法允许您的组织使用 Web SDK 将数据发送到 Adobe，无需遵循 XDM 架构。 如果您的组织准备好将数据发送到 Adobe Experience Platform，您就可以使用[数据流映射](https://experienceleague.adobe.com/cn/docs/experience-platform/datastreams/data-prep#mapping)将数据对象字段指向它们各自的 XDM 字段。
+如果您打算将来迁移到Customer Journey Analytics，建议使用这些字段。 这种实施方法允许贵组织使用Web SDK将数据发送到Adobe Analytics，而不遵循XDM架构。 这些映射仅适用于Adobe Analytics。 当您的组织准备好将数据发送到Adobe Experience Platform时，请使用[数据流映射](https://experienceleague.adobe.com/cn/docs/experience-platform/datastreams/data-prep#mapping)将数据对象字段映射到XDM架构中的字段。
 
 ## 值的优先级
 
