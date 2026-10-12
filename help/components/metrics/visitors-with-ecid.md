@@ -34,7 +34,7 @@ ht-degree: 25%
 ---
 # 具有 Experience Cloud ID 的访客
 
-Experience Cloud ID为]&#39; [metric](overview.md)的“[!UICONTROL 访客”显示Adobe识别的具有ECID （使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)或[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)）的独特访客数。 此量度有助于与[独特访客](unique-visitors.md)量度进行比较，以确保您网站的大多数访客都使用ECID。 如果大部分访客不使用此标识符，则它可能会指示您的实施中存在问题。
+Experience Cloud ID为&#39; [metric](overview.md)的“访客”显示Adobe识别的具有ECID （使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)或[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)）的独特访客数。 此量度有助于与[独特访客](unique-visitors.md)量度进行比较，以确保您网站的大多数访客都使用ECID。 如果大部分访客不使用此标识符，则它可能会指示您的实施中存在问题。
 
 >[!NOTE]
 >
@@ -48,11 +48,11 @@ Experience Cloud ID为]&#39; [metric](overview.md)的“[!UICONTROL 访客”显
 
 “[!UICONTROL Experience Cloud ID为]”的访客量度可用于对CX Enterprise集成进行故障诊断，或识别未部署访客ID服务或Experience Platform Identity服务的网站区域。
 
-将Experience Cloud ID为]的“[!UICONTROL 访客”拖动到“独特访客”的并排位置，以比较它们：
+将Experience Cloud ID为的“访客”拖动到“独特访客”的并排位置，以比较它们：
 
 ![独特访客比较](assets/metric-mcvid1.png)
 
-在此示例中，请注意每个页面的“[!UICONTROL 独特访客]”数与“[!UICONTROL 个Experience Cloud ID为]的访客数相同。 但是，“[!UICONTROL 独特访客]”的总数大于Experience Cloud ID为]的“[!UICONTROL 访客”的总数。 您可以使用以下定义创建一个[计算量度](../calculated-metrics/cm-overview.md)，以找出哪些页面未使用ECID：
+在此示例中，请注意每个页面的“[!UICONTROL 独特访客]”数与“[!UICONTROL 个Experience Cloud ID为]的访客数相同。 但是，“[!UICONTROL 独特访客]”的总数大于Experience Cloud ID为的“访客”的总数。 您可以使用以下定义创建一个[计算量度](../calculated-metrics/cm-overview.md)，以找出哪些页面未使用ECID：
 
 ![计算指标定义](assets/metric-mcvid2.png)
 
