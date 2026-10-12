@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 0%
+ht-degree: 18%
 ---
 # 映射器准备
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
 >title="映射器准备"
->abstract="查看Tags属性发送到每个报表包的Analytics变量。 您在此处选择的变量将结转到XDM映射。 使用选项卡检查最近数据，查找重复变量，并在报表包间比较设置。"
+>abstract="审阅标记属性发送到每个报告包的 Analytics 变量。 您在此处选择的变量将包括在 XDM 映射中。 使用选项卡检查最近数据，查找重复变量，并在各报告包间比较设置。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -75,14 +75,14 @@ ht-degree: 0%
 
 如果标记属性将数据发送到多个报表包，则&#x200B;**[!UICONTROL 比较报表包]**&#x200B;选项卡最多可在其中三个报表包中比较每个变量的设置。 使用它查找在报表包之间配置不同的变量，然后再将它们映射到架构。
 
-## 更新报表包数据 {#refresh}
+## 更新报告包数据 {#refresh}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep_refresh"
->title="刷新报表包数据"
->abstract="再次检查链接到此标记属性的报表包，包括其变量设置和最近数据，然后重新运行变量分析。 如果升级助手尚未找到任何报表包，则会先在标记属性中查找它们。 您的选择和决策将被保留。"
+>title="刷新报告包数据"
+>abstract="再次检查链接到此标记属性的报告包，包括其变量设置和最近数据，然后重新运行变量分析。 如果升级助手尚未找到任何报告包，会先在标记属性中查找。 保留了您的选择和决定。"
 
 <!-- markdownlint-enable MD034 -->
 

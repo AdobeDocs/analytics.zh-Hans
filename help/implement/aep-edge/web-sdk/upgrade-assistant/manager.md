@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 0%
+ht-degree: 23%
 ---
 # 管理迁移
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_migrations"
 >title="迁移"
->abstract="每次迁移都会将一个tags属性中的Adobe Analytics实施升级到Web SDK。 打开迁移以从之前停止的位置继续，或选择“新建”以开始迁移。"
+>abstract="每次迁移都会将一个标记属性中的 Adobe Analytics 实施升级到 Web SDK。 打开迁移，从之前中断的地方继续，或者选择“新”，开始迁移。"
 
 **[!UICONTROL 迁移]**&#x200B;页面是Web SDK升级助手的起点。 其中列出了您组织中的迁移，包括每个迁移的进度、状态以及创建者。 此页用于创建迁移或打开现有迁移。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_newmigration"
 >title="新迁移"
->abstract="选择要迁移的tags属性以及该属性中的库。 在创建迁移时，升级助手会拍摄库的快照。 迁移快照后对库所做的更改不包括在内。 在完成迁移之前，标记属性不会发生更改。"
+>abstract="选择要迁移的标记属性以及此属性中的库。 您创建迁移时，升级助手会拍摄此库的快照。 迁移快照后对库所做的更改不包括在内。 在完成迁移之前，您的标记属性不会发生更改。"
 
 <!-- markdownlint-enable MD034 -->
 

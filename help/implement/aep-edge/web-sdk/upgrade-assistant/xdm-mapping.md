@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 3%
+ht-degree: 22%
 ---
-# XDM映射
+# XDM 映射
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping"
->title="XDM映射"
->abstract="将您选择的Analytics变量映射到XDM架构中的字段。 升级助手可以使用人工智能建议的映射创建新架构，也可以将变量映射到已拥有的架构。 在继续操作之前，请查看所有映射。"
+>title="XDM 映射"
+>abstract="将您选择的 Analytics 变量映射到 XDM 架构的字段。 升级助手可以使用 AI 建议的映射创建一个新的架构，您也可以将变量映射到已有的架构。 请先审阅所有映射，然后继续。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,11 +65,11 @@ Web SDK使用[体验数据模型(XDM)](https://experienceleague.adobe.com/zh-han
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping_fieldgroups"
 >title="字段组首选项"
->abstract="选择升级助手在构建架构时支持的字段组类型。 标准字段组由Adobe定义。 自定义字段组由您的组织定义。"
+>abstract="选择升级助手在构建您的架构时首选的字段组类型。 标准字段组由 Adobe 定义。 自定义字段组由您的组织定义。"
 
 <!-- markdownlint-enable MD034 -->
 
-创建新方案时，您还可以选择升级助手是支持标准字段组还是自定义字段组。 标准字段组由Adobe定义，而自定义字段组由您的组织定义。 请参阅XDM文档中的[字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition#field-group)。
+创建新方案时，您还可以选择升级助手是支持标准字段组还是自定义字段组。 标准字段组由Adobe定义，而自定义字段组由您的组织定义。 请参阅XDM文档中的[字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)。
 
 ## 查看映射 {#review}
 

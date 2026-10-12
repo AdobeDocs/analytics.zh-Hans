@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
 # 组件选择
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection"
 >title="组件选择"
->abstract="选择要包含在此迁移中的规则、数据元素和扩展。 默认情况下，将选择主动对Adobe Analytics实施做出贡献的组件。 之后的步骤仅适用于您在此处选择的组件。"
+>abstract="选择要包含在此迁移中的规则、数据元素和扩展。 在默认情况下会选择那些对您的 Adobe Analytics 实施做出积极贡献的组件。 之后的步骤必须与您在此处选择的组件一起工作。"
 
 组件选择是迁移的第一步。 使用它从标记属性中选择要包含在迁移中的规则、数据元素和扩展。
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
->title="标记使用"
->abstract="使用此组件的规则、数据元素和扩展。 扩展用法仅涵盖扩展配置设置。 规则内的用法显示在规则用法下。"
+>title="标记的使用"
+>abstract="使用此组件的规则、数据元素和扩展。 扩展的使用仅限于扩展配置设置。 在某条规则内的使用显示在规则使用的下方。"
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"
->title="Analytics使用情况"
->abstract="此组件分配给的Adobe Analytics变量，按变量类型分组。"
+>title="分析的使用"
+>abstract="被分配了此组件的 Adobe Analytics 变量，按变量类型分组。"
 
 <!-- markdownlint-enable MD034 -->
 
