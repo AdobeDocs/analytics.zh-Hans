@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Reports
   - id: a421fb65-2c82-457a-921c-28c46b697a39
     internal-label: Analytics basics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
@@ -26,7 +28,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 5%
@@ -62,7 +64,7 @@ Adobe Analytics对大多数维度使用32位哈希，这意味着可能有2<sup>
 * **更改日期范围**：哈希表每月更改。 将日期范围更改为跨越另一个月，可能会为每个值赋予不同的哈希值，而不会产生冲突。 它通常是清除特定报表中可见异常的最快方式。
 * **减少唯一值的数量**：您可以调整实施或使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)来帮助减少维度收集的唯一值的数量。 例如，如果您的维度收集URL，则可以剥离查询字符串或协议。
 * **使用[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)或[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)**：这些工具不依赖哈希表。
-* **移动到[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans)**： Customer Journey Analytics没有哈希层，并且[维度没有基数限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果哈希冲突或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)经常影响您的报表，请考虑转移到此产品。
+* **移动到[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)**： Customer Journey Analytics没有哈希层，并且[维度没有基数限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果哈希冲突或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)经常影响您的报表，请考虑转移到此产品。
 
 >[!MORELIKETHIS]
 >

@@ -10,13 +10,15 @@ product_v2:
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
     internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 5%
@@ -150,7 +152,7 @@ Analysis Workspace将按照最初配置的方式缓存项目结果，包括选�
 
 当显示缓存的结果时，项目顶部会显示一个时间戳。 时间戳指定是缓存所有结果，还是只缓存部分结果：
 
-* **[!UICONTROL 显示来自] [_日期和时间_]**&#x200B;的结果：项目中的所有面板都显示来自所显示日期和时间的缓存结果。
+* **[!UICONTROL 显示来自] [_日期和时间_]**的结果：项目中的所有面板都显示来自所显示日期和时间的缓存结果。
 
 * **[!UICONTROL 显示从] [_日期和时间开始的一些结果_]**：某些面板显示从显示的日期和时间开始缓存的结果，而其他面板则刷新得更近。
 
@@ -158,7 +160,7 @@ Analysis Workspace将按照最初配置的方式缓存项目结果，包括选�
 
 面板还会显示一个时间戳，显示何时缓存结果：
 
-* **[!UICONTROL 显示来自] [_日期和时间_]**&#x200B;的结果：面板显示来自所显示日期和时间的缓存结果。
+* **[!UICONTROL 显示来自] [_日期和时间_]**的结果：面板显示来自所显示日期和时间的缓存结果。
 
   >[!NOTE]
   >
