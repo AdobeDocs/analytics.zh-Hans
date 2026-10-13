@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 16%
 ---
-# Web SDK实施
+# Web SDK 实施
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_websdkimplementation"
->title="Web SDK实施"
->abstract="查看升级助手添加到规则中的Web SDK操作。 您的Adobe Analytics操作将保持不变。 选择一个组件，以并排比较其当前配置和Web SDK配置。 只有排队的组件会添加到迁移中。"
+>title="Web SDK 实施"
+>abstract="审阅升级助手添加到您规则中的 Web SDK 操作。 您的 Adobe Analytics 操作保持不变。 选择一个组件，将其当前配置和 Web SDK 配置进行并排比较。 只有您将其排成队列的组件会添加到迁移中。"
 
 <!-- markdownlint-enable MD034 -->
 

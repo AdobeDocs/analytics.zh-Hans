@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 13%
 ---
 # 最终审阅
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_finalreview"
 >title="最终审阅"
->abstract="选择要使用的Experience Platform沙盒，然后查看此迁移创建或更改的所有内容。 在完成迁移之前，不会发生任何更改。 完成后，升级助手会一次创建所有内容，将标记更改添加到新库中，并使此迁移成为只读迁移。 然后，您可以自行将该库发布到生产环境。"
+>abstract="选择要使用的 Experience Platform 沙盒，然后审阅此迁移进行的所有创建或更改。 在您完成迁移之前，不会发生任何更改。 完成后，升级助手会一次性创建所有内容，将标记更改添加到一个新库中，并将这个迁移设为只读。 然后，您可以自行将这个库发布到生产环境。"
 
 <!-- markdownlint-enable MD034 -->
 

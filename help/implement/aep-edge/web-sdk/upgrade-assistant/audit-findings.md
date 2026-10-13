@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 17%
 ---
-# 审计结果
+# 审核发现
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_auditfindings"
->title="审计结果"
->abstract="调查结果会指出迁移之前可能需要清理的规则和数据元素，例如没有任何内容引用的数据元素。 接受发现以将其建议的更改包含在迁移中，或拒绝它以保持组件的原样。 此步骤是可选的。"
+>title="审核发现"
+>abstract="发现了在您迁移之前可能需要清理的规则和数据元素，例如完全没有被引用的数据元素。 接受某项发现，将其建议的更改包含在迁移中，或者拒绝某项发现，使组件保持原样。 此步骤是可选的。"
 
 <!-- markdownlint-enable MD034 -->
 
