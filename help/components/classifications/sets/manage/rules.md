@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: adb1abb0c0eab08dff8debe57bb52ec098df2a56
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 13%
@@ -336,10 +336,10 @@ ht-degree: 13%
 
 ### 示例
 
-您要使用分类&#x200B;**[!UICONTROL 类型]**&#x200B;来分类，用户如何使用搜索字符串作为关键维度来搜索运动员。 例如，使用此规则集：
+您要使用分类&#x200B;**[!UICONTROL 类型]**&#x200B;对用户使用搜索字符串作为关键维度执行的搜索类型进行分类。 例如，使用此规则集：
 
 ![规则优先级](assets/rule-priority.png)
 
-* 当用户搜索`Cowboys Fantasy Tony Romo`时，`Romo`被分类为&#x200B;**[!UICONTROL 类型]**。
-* 当用户搜索`Cowboys Fantasy Tony Romeo`时，`Fantasy`被分类为&#x200B;**[!UICONTROL 类型]**。
+* 当用户搜索`Cowboys with Tony Romo`时，`Team`被分类为&#x200B;**[!UICONTROL 类型]**。
+* 当用户搜索`Cowboys vs. Broncos with Tony Romeo`时，`Player`被分类为&#x200B;**[!UICONTROL 类型]**。
 * 当用户搜索`Cowboys vs. Broncos`时，`Team`被分类为&#x200B;**[!UICONTROL 类型]**。
