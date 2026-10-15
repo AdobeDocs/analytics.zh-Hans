@@ -60,7 +60,7 @@ Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器�
 
 ## Edge域手动实施Web SDK
 
-使用[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)配置SDK。 字段是一个字符串，可确定要将数据发送到的域。
+使用[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/edgedomain)配置SDK。 字段是一个字符串，可确定要将数据发送到的域。
 
 ```json
 alloy("configure", {
@@ -95,7 +95,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 您为`trackingServerSecure`（或`edgeDomain`）使用的值取决于您的组织如何向Adobe发送数据：
 
-* **如果贵组织使用第一方域**，例如通过[Adobe管理的证书计划](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)、[客户管理的证书](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)或[内容交付网络(CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)，请将该值设置为该域。 例如：`data.example.com`。
+* **如果贵组织使用第一方域**，例如通过[Adobe管理的证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)、[客户管理的证书](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)或[内容交付网络(CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)，请将该值设置为该域。 例如：`data.example.com`。
 * **如果您的组织使用第三方域**，请将该值设置为您的租户ID子域`data.adobedc.net`。 例如：`example.data.adobedc.net`。
 
 有关每个选项的详细信息，包括如何查找租户ID，请参阅CX Enterprise界面和管理指南中的[选择数据收集域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)。
@@ -106,8 +106,8 @@ Adobe强烈建议在[解决方案设计文档](../../prepare/solution-design.md)
 
 Adobe强烈建议在所有实施中使用ECID作为访客身份的主要形式。 可以通过多种不同的方式收集ECID，具体取决于实施类型：
 
-* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[为Analytics实施访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)。
-* 使用Adobe Analytics标记扩展的实施使用[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)，该扩展实现了访客ID服务。 添加后，无需其他配置。
+* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[为Analytics实施访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/setup-analytics)。
+* 使用Adobe Analytics标记扩展的实施使用[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)，该扩展实现了访客ID服务。 添加后，无需其他配置。
 * 使用任何形式的Web SDK（`alloy.js`或Web SDK标记扩展）的实施会自动包含Experience Platform Identity服务。 设置`edgeDomain`值后无需进行配置。
 
 **如果您的实施不使用ECID**，请考虑对您的实施产生以下影响：
