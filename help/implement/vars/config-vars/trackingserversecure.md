@@ -7,26 +7,34 @@ role: Admin, Developer
 TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 15%
-
+source-wordcount: '753'
+ht-degree: 11%
 ---
-
 # trackingServerSecure
 
 `trackingServerSecure`变量可确定AppMeasurement用于通过HTTPS向Adobe发送数据的域。 如果未正确定义此变量，则您的实施可能会丢失数据。
@@ -34,8 +42,6 @@ ht-degree: 15%
 >[!NOTE]
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables)是此变量的已弃用变量。 它指定通过HTTP发送的数据的域；如果普遍使用HTTPS，请改用`trackingServerSecure`。 如果`s.trackingServerSecure`为空，则AppMeasurement回退到`s.trackingServer`值。
-
-在[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home) (`VisitorAPI.js`)之前，此变量还确定第三方Cookie的设置位置。 Adobe强烈建议尽可能在所有实施中使用访客ID服务。
 
 ## 使用Web SDK扩展的Edge域
 
@@ -54,7 +60,7 @@ Web SDK使用[!UICONTROL Edge域]处理跟踪服务器和安全跟踪服务器�
 
 ## Edge域手动实施Web SDK
 
-使用[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/edgedomain)配置SDK。 字段是一个字符串，可确定要将数据发送到的域。
+使用[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)配置SDK。 字段是一个字符串，可确定要将数据发送到的域。
 
 ```json
 alloy("configure", {
@@ -78,35 +84,21 @@ alloy("configure", {
 `s.trackingServerSecure`变量是一个字符串，其中包含要向Adobe发送数据的域。 它只是域；省略协议、路径、端口和斜杠。 如果此变量为空，它将使用`s.trackingServer`变量中的值。 如果`s.trackingServerSecure`和`s.trackingServer`都为空，则默认为`[rsid].2o7.net`。
 
 ```js
-// Example value when participating in the Adobe-managed certificate program
+// Example value when using a first-party domain
 s.trackingServerSecure = "data.example.com";
 
-// Example value sending data directly to Adobe
+// Example value when using a third-party domain
 s.trackingServerSecure = "example.data.adobedc.net";
 ```
 
 ## 确定`trackingServerSecure`值的注意事项
 
-您为`trackingServerSecure`（或`edgeDomain`）使用的值取决于几个因素：
+您为`trackingServerSecure`（或`edgeDomain`）使用的值取决于您的组织如何向Adobe发送数据：
 
-* 您参与了[Adobe管理的证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)
-* 如果已实施并正确设置[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)
+* **如果贵组织使用第一方域**，例如通过[Adobe管理的证书计划](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)、[客户管理的证书](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)或[内容交付网络(CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)，请将该值设置为该域。 例如：`data.example.com`。
+* **如果您的组织使用第三方域**，请将该值设置为您的租户ID子域`data.adobedc.net`。 例如：`example.data.adobedc.net`。
 
-**如果您的组织参与了Adobe管理的证书计划**，请将该值设置为设置证书时选择的第一方域。 通常此值是您的组织拥有的子域。 例如：`data.example.com`。 贵组织中的CNAME记录将该数据重定向到Adobe。
-
-**如果不参与证书计划**，则将该值设置为`data.adobedc.net`的子域。 Adobe建议使用贵组织的公司ID来保持一致性。 例如：`example.data.adobedc.net`。 使用以下步骤可确定您的公司ID：
-
-1. 使用您的Adobe ID凭据登录[Adobe CX Enterprise](https://experience.adobe.com)。
-1. 在CX Enterprise界面的任何位置，按`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
-1. 出现&#x200B;**[!UICONTROL 用户数据调试器]**。 选择&#x200B;**[!UICONTROL 分配的组织]**&#x200B;选项卡。
-1. 展开所需的IMS组织。
-1. 找到&#x200B;**[!UICONTROL 租户]**&#x200B;字段。 建议使用`data.adobedc.net`的子域使用此值。
-
->[!NOTE]
->
->请勿使用比 `example.data.adobedc.net` 更深的子域。 例如，`custom.example.data.adobedc.net` 不是有效的跟踪服务器。
-
-较旧的实施可能具有诸如`sc.omtrdc.net`或`2o7.net`之类的值。 这些服务器主要用于 Adobe Analytics 以前的版本并且仍有效。
+有关每个选项的详细信息，包括如何查找租户ID，请参阅CX Enterprise界面和管理指南中的[选择数据收集域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)。
 
 Adobe强烈建议在[解决方案设计文档](../../prepare/solution-design.md)中维护此信息，以保持整个组织的一致性。
 
@@ -114,8 +106,8 @@ Adobe强烈建议在[解决方案设计文档](../../prepare/solution-design.md)
 
 Adobe强烈建议在所有实施中使用ECID作为访客身份的主要形式。 可以通过多种不同的方式收集ECID，具体取决于实施类型：
 
-* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[为Analytics实施访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/setup-analytics)。
-* 使用Adobe Analytics标记扩展的实施使用[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)，该扩展实现了访客ID服务。 添加后，无需其他配置。
+* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[为Analytics实施访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)。
+* 使用Adobe Analytics标记扩展的实施使用[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)，该扩展实现了访客ID服务。 添加后，无需其他配置。
 * 使用任何形式的Web SDK（`alloy.js`或Web SDK标记扩展）的实施会自动包含Experience Platform Identity服务。 设置`edgeDomain`值后无需进行配置。
 
 **如果您的实施不使用ECID**，请考虑对您的实施产生以下影响：
