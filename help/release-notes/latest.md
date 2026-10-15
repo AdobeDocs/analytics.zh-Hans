@@ -39,14 +39,14 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: cf020d4d2b873668a17c978ed69a311db37e7cd0
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 52%
+source-wordcount: '1118'
+ht-degree: 45%
 ---
 # 当前Adobe Analytics发行说明（2026年10月）
 
-**上次更新时间**：2026年10月7日
+**上次更新时间**：2026年10月14日
 
 这些发行说明涵盖2026年10月发行期。 Adobe Analytics 发布采用[持续交付模型](releases.md)，这样即可用一种更具可扩展性、分阶段的方法部署各项功能。 因此，这些发行说明每月更新几次。 请定期检查。
 
@@ -55,6 +55,7 @@ ht-degree: 52%
 | 功能和描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ---- |
 | **Adobe Analytics MCP服务器的只读权限**<br/>&#x200B;管理员现在可以授予用户对Adobe Analytics MCP服务器的只读访问权限。 新的[!UICONTROL MCP只读访问]权限项允许用户访问所有只读工具，而不允许用户创建项目、区段或计算量度。<p>现有的[!UICONTROL MCP访问]权限项已重命名为[!UICONTROL MCP完全访问]。 具有此权限的用户可保留对所有工具的访问权限，包括创建、更改或删除组件的工具。</p><p>有关详细信息，请参阅Adobe Analytics MCP服务器文档中的[设置权限](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)。</p> | | 2026年10月6日 |
+| **Data Warehouse报表中的分类数据改进**<br/> Data Warehouse报表中的分类数据现在更准确。 通过这些改进，您可能会注意到Data Warehouse报表中的以下差异：<ul><li>**您以前看到分类值的空白值**：从分类集中删除分类值时，Data Warehouse现在可以正确显示空白。 以前，已删除的分类值可能会继续显示在以后的报表中。</li><li>**更完整的分类值**：在某些情况下，Data Warehouse以前只显示几个不同分类值中的一个。 Data Warehouse现在显示每个值。</li><li>**在Analysis Workspace中，分类值的表示方式可能有所不同（不常见）**： Data Warehouse可以显示所有关联的分类值，而Analysis Workspace只显示一个值。 因此，Data Warehouse和Analysis Workspace之间的分类值有时可能会有所不同。</li></ul><p>有关详细信息，请参阅Data Warehouse中的[分类维度](/help/export/data-warehouse/component-support.md#classifications)。</p> | 2026年10月14 | 2027年1月 |
 | **自动生成组件描述** <br/>您现在可以自动生成维度、量度、计算量度、区段和日期范围的描述。 这有助于Workspace用户了解要使用的组件，尤其是在具有大型组件库的组织中。 <p>您可以为单个组件生成描述，或同时为多个组件生成描述。</p> <p>（文档链接见下文。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日 |
 | **Adobe Brand Visibility集成**<br/>&#x200B;将Adobe Brand Visibility与贵组织的Adobe Analytics数据连接起来，以便您可以衡量AI驱动的发现如何转化为真正的网站参与度和业务成果。<p>（文档链接将随后提供。）</p> | | 2026年10 |
 | **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics数据** <br/>Adobe CX Enterprise Coworker Chat现在可以执行以前只能在Analysis Workspace中进行的高级数据分析。 同事聊天可访问您的Adobe Analytics报表包中的数据，让您浏览这些数据并获得自然语言提示的答案。<p>（文档链接将随后提供。）</p> | 2026年10月2 | 待定<p>（原计划于2026年9月25日）</p> |
@@ -95,7 +96,7 @@ ht-degree: 52%
 >[!MORELIKETHIS]
 >
 >* [以前的2026年发行说明](/help/release-notes/2026.md)
->* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
+>* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 >* [流媒体服务发行说明](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
+>* [Adobe CX Enterprise 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
 
