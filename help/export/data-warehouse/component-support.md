@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 8%
 ---
 # Data Warehouse 中的组件支持
 
@@ -88,6 +88,15 @@ Data Warehouse报表支持以下基于时间的维度，但其输出使用非标
 * **月**：从零开始。 一月= `00`，二月= `01`， ...，十二月= `11`。
 
 例如，如果“日期范围周”字段显示`1260901`，则年份为1900 + 126 = **2026**，而月份为09 = **10月**。
+
+## Data Warehouse中的分类维度 {#classifications}
+
+{{release-limited-testing-section}}
+
+Data Warehouse报表直接从[分类集](/help/components/classifications/sets/overview.md)获取分类数据。 因此，Data Warehouse报表中的分类维度可能不同于Analysis Workspace中的相同维度：
+
+* **已删除的分类值显示为空白**：从分类集中删除分类数据时，Data Warehouse报表会显示该分类的空白值。 要了解如何删除分类数据，请参阅[分类集文件格式](/help/components/classifications/sets/data-files.md)。
+* **在Analysis Workspace显示一个（不常见）的情况下，可能会显示多个分类值**：在不常见的情况下，Analysis Workspace会将多个不同的分类值显示为单个值。 Data Warehouse会显示其中的每个值。 因此，Data Warehouse和Analysis Workspace之间的分类值有时可能会有所不同。
 
 ## Data Warehouse中定义不同的量度
 
