@@ -76,7 +76,7 @@ ht-degree: 90%
 | 功能 | 描述 |
 | --- | --- |
 | **2026年10月** | |
-| 通过CDN收集数据 | 已将[通过CDN将数据收集路由](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)添加到CX Enterprise界面和管理指南。 |
+| 通过CDN收集数据 | 已将[通过CDN将数据收集路由](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cdn)添加到CX Enterprise界面和管理指南。 |
 | 机器人产品出现次数量度 | 添加了[机器人产品发生次数](/help/components/metrics/bot-product-occurrences.md)量度，该量度显示与机器人规则匹配的产品字符串子点击数。 <p>还更新了[机器人名称](/help/components/dimensions/bot-name.md)维度和[机器人发生次数](/help/components/metrics/bot-occurrences.md)量度以引用新量度。</p> |
 | **2026年9月** | |
 | 箭头和流失的历程画布比较 | 更新了[中的“[!UICONTROL 与]”比较设置。配置历程画布可视化图表](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)以显示历程中的每个节点、箭头和流失上现在显示日期范围之间的百分比变化。 |
