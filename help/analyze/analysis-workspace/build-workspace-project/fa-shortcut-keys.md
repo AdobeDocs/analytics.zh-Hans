@@ -8,38 +8,47 @@ exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 TQID: https://experienceleague.adobe.com/3JPl-XhV9gv2qzMAhpCr3-Aq8WUHR0BBZJilP3WlMvI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: eb853e43-1634-4181-adf2-a44d64395ec3
+    internal-label: Hotkeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
+    internal-label: Insights
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 78%
-
+source-wordcount: '527'
+ht-degree: 72%
 ---
-
 # 热键
 
 Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导航、分析和民主化。
 
 请注意，您的键盘上可能会使用以下符号：
 
-- **⇧** 表示 **[!UICONTROL **&#x200B; shift &#x200B;**]** 键。
-- **⌘** 表示 **[!UICONTROL **&#x200B; cmd &#x200B;**]**（命令）。
-- **⌃** 表示 **[!UICONTROL **&#x200B; ctrl &#x200B;**]**（控制）。
-- **⌥** 表示 **[!UICONTROL **&#x200B; opt &#x200B;**]**（选项）。
-- **⎇** 表示 **[!UICONTROL **&#x200B; alt &#x200B;**]**（备选）。
+- **⇧** 表示 **[!UICONTROL ** shift **]** 键。
+- **⌘** 表示 **[!UICONTROL ** cmd **]**（命令）。
+- **⌃** 表示 **[!UICONTROL ** ctrl **]**（控制）。
+- **⌥** 表示 **[!UICONTROL ** opt **]**（选项）。
+- **⎇** 表示 **[!UICONTROL ** alt **]**（备选）。
 
 ## 导航操作
 
@@ -102,6 +111,10 @@ Analysis Workspace 中提供了热键（键盘快捷键），以实现无缝导�
 | 调整更短的大小 | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + shift + up *]** |
 
 宽度在一个网格列的步长内调整大小，高度在一个网格单元的步长内调整大小（大约25像素）。
+
+## 表列操作
+
+您可以使用键盘调整表格列的大小和重新排列表格列。 这些操作不是全局热键。 当列大小调整分隔符或列标题的&#x200B;**[!UICONTROL 重新排列]**&#x200B;按钮具有焦点时，它们可用。 请参阅表列](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns)的[键盘导航。
 
 ## 民主化操作
 
