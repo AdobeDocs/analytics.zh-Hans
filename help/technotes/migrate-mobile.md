@@ -101,4 +101,4 @@ ht-degree: 89%
 
 * 对于客户获取链接，我们可以将您引导至 Adobe Partners 以满足您的需求。
 * 推送消息传送和应用程序内消息传送在 Adobe Campaign Standard 和 Adobe Campaign Classic（仅限推送）中可用。 但是，用于定位的底层数据集是不同的。 我们建议您与 Adobe 帐户团队合作来确定消息传送数据的迁移选项。
-* 对于位置功能，建议您采用新的[Adobe Experience Platform位置服务](https://www.adobe.com/experience-platform/location-service.html)，该服务对所有Adobe Experience Platform客户免费。
+* 对于位置功能，建议您采用新的[Adobe Experience Platform位置服务](https://www.adobe.com/cn/experience-platform/location-service.html)，该服务对所有Adobe Experience Platform客户免费。

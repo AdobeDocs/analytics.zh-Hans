@@ -46,7 +46,7 @@ Advertising Analytics可用于Adobe Analytics
 
 * [Prime](https://www.adobe.com/cn/data-analytics-cloud/analytics/prime.html)
 
-* [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html)
+* [Ultimate](https://www.adobe.com/cn/data-analytics-cloud/analytics/ultimate.html)
 
 +++
 
