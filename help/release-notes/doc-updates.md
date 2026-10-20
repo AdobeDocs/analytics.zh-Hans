@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: '7621'
+source-wordcount: '7653'
 ht-degree: 90%
 ---
 # Adobe Analytics 技术文档更新
@@ -76,6 +76,7 @@ ht-degree: 90%
 | 功能 | 描述 |
 | --- | --- |
 | **2026年10月** | |
+| 表格列的键盘导航 | 记录如何使用键盘（包括屏幕阅读器反馈）在Analysis Workspace中[调整](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)和[重新排列](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)表列。 还向热键添加了[表列操作](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions)部分。 |
 | 通过CDN收集数据 | 已将[通过CDN将数据收集路由](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cdn)添加到CX Enterprise界面和管理指南。 |
 | 机器人产品出现次数量度 | 添加了[机器人产品发生次数](/help/components/metrics/bot-product-occurrences.md)量度，该量度显示与机器人规则匹配的产品字符串子点击数。 <p>还更新了[机器人名称](/help/components/dimensions/bot-name.md)维度和[机器人发生次数](/help/components/metrics/bot-occurrences.md)量度以引用新量度。</p> |
 | **2026年9月** | |
