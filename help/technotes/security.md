@@ -30,7 +30,7 @@ ht-degree: 31%
 ---
 # Adobe Analytics 安全资源
 
-Adobe遵循已建立的安全流程和控制措施，以遵守行业公认的标准、法规和认证。 有关Adobe公司范围内的安全实践的更多信息，请参阅[Adobe安全性](https://www.adobe.com/trust/security.html)。
+Adobe遵循已建立的安全流程和控制措施，以遵守行业公认的标准、法规和认证。 有关Adobe公司范围内的安全实践的更多信息，请参阅[Adobe安全性](https://www.adobe.com/cn/trust/security.html)。
 
 有关特定于Adobe Analytics的实践的信息，请参阅[Adobe Analytics安全概述](https://www.adobe.com/cn/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf)。 它概述了围绕架构、身份验证、数据中心、网络和人员所遵循的流程。
 

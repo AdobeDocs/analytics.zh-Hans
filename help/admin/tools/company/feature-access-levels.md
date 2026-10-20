@@ -27,6 +27,6 @@ ht-degree: 100%
 
 **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 查看功能访问级别]**
 
-通过这组设置，可查看对于贵公司有权访问的 Adobe Analytics 包和功能的访问级别。 仅限更高级的产品包 (SKU)（如 [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html)）才有某些功能。
+通过这组设置，可查看对于贵公司有权访问的 Adobe Analytics 包和功能的访问级别。 仅限更高级的产品包 (SKU)（如 [Adobe Analytics Ultimate](https://www.adobe.com/cn/data-analytics-cloud/analytics/ultimate.html)）才有某些功能。
 
 ![](assets/feature-access-levels.png)
