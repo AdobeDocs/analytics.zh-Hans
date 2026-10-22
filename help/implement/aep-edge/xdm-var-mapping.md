@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1978'
 ht-degree: 75%
 ---
 # XDM对象字段映射到Adobe Analytics
@@ -84,6 +84,7 @@ ht-degree: 75%
 | `xdm.environment.browserDetails.acceptLanguage` | 帮助设置 [“语言”](/help/components/dimensions/language.md) 维度。 |
 | `xdm.environment.browserDetails.cookiesEnabled` | 设置 [“Cookie 支持”](/help/components/dimensions/cookie-support.md) 维度。 有效值包括 `Y`（浏览器接受 Cookie）和 `N`（浏览器拒绝 Cookie）。 |
 | `xdm.environment.browserDetails.javaEnabled` | 设置 [“启用 Java”](/help/components/dimensions/java-enabled.md) 维度。 有效值包括 `Y`（Java 已启用）和 `N`（Java 已禁用）。 |
+| `xdm.environment.browserDetails.javaScriptVersion` | 设置[JavaScript版本](/help/components/dimensions/javascript-version.md)维度。 |
 | `xdm.environment.browserDetails.userAgent` | 用作后备的[独特访客](/help/components/metrics/unique-visitors.md)识别方法。 通常使用 `User-Agent` HTTP 请求头填充。 如果要在报告中使用此字段，可以将其映射到 eVar。 |
 | `xdm.environment.browserDetails.viewportHeight` | 设置 [“浏览器高度”](/help/components/dimensions/browser-height.md) 维度。 |
 | `xdm.environment.browserDetails.viewportWidth` | 设置 [“浏览器宽度”](/help/components/dimensions/browser-width.md) 维度。 |
@@ -163,7 +164,7 @@ ht-degree: 75%
 
 {style="table-layout:auto"}
 
-<!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!-- `web.webPageDetails.homePage` was included in the original table, but it no longer exists in Analytics. -->
 
 ## 将其他 XDM 字段映射到 Analytics 变量
 
