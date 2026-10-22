@@ -26,10 +26,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 37%
+source-wordcount: '418'
+ht-degree: 38%
 ---
 # 维度概述
 
@@ -58,10 +58,9 @@ Analytics 管理员可以在“报告包”中或直接在 Analysis Workspace �
 * **层次结构**：自定义维度(`hier1`-`hier5`)，用于捕获报表的网站层次结构。 该功能已停用，在Analysis Workspace中不可用。 请改用[eVar](evar.md)和分类。
 * **主页**：指示当前页面是否为访客浏览器主页的标志。 它是一个旧版维度，由于现代浏览器隐私惯例，没有现代等效项。
 * **JavaScript支持**：指示访客的浏览器是否支持JavaScript。 对于现代测量不再有意义的旧版维度。
-* **JavaScript版本**：报告访客浏览器支持的JavaScript版本。 不再收集的旧版维度。
 * **下一页**：一个路径维度，显示访客查看的下一页。 对Analysis Workspace中的当前路径维度使用[流量可视化图表](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
 * **上一页**：一个路径维度，显示访客查看的上一页。 对Analysis Workspace中的当前路径维度使用[流量可视化图表](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
-* **时区**：访客的时区，派生自AppMeasurement图像请求中的时间戳偏移。 Web SDK使用[`placeContext`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/context)收集时区。
+* **时区**：访客的时区，派生自AppMeasurement图像请求中的时间戳偏移。 Web SDK使用[`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context)收集时区。
 * **顶级域**：访客访问点的顶级域。 旧版Reports &amp; Analytics报表；请改用[域](domain.md)维度。
 * **访问页码**：访问中的页码。 旧版Reports &amp; Analytics报表；请改用[点击深度](hit-depth.md)维度。
 * **访客状态**：从`s.state`变量报告了美国的状态。 已弃用，改用使用地域划分的[美国州](us-states.md)维度。

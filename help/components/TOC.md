@@ -5,10 +5,10 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。 了解跨设备分析。
 nudge: red
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 97%
+source-wordcount: '782'
+ht-degree: 96%
 ---
 # [!DNL Adobe Analytics] 组件指南 {#components}
 
@@ -67,6 +67,7 @@ ht-degree: 97%
   + [识别的状态](dimensions/identified-state.md)
   + [IP 地址](dimensions/ip-address.md)
   + [已启用 Java](dimensions/java-enabled.md)
+  + [JavaScript版本](dimensions/javascript-version.md)
   + [语言](dimensions/language.md)
   + [最近联系渠道](dimensions/last-touch-channel.md)
   + [最近联系渠道详细信息](dimensions/last-touch-detail.md)
