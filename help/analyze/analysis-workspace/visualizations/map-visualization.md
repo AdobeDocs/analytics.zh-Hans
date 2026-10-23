@@ -8,26 +8,35 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 TQID: https://experienceleague.adobe.com/x5ln-HzjHf2kK-mmCJxoLHxbkzox7BpN2i-G5-oAsc8
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 727
+source-wordcount: '727'
 ht-degree: 66%
-
 ---
-
 # 地图 {#map}
 
 <!-- markdownlint-disable MD034 -->
@@ -62,7 +71,7 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的地图可视化。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[地图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/map)。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的地图可视化。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[地图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)。_
 
 >[!ENDSHADEBOX]
 
@@ -79,14 +88,14 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 
 >[!BEGINSHADEBOX]
 
-请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的地图可视化图表](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}以获取演示视频。
+请参阅 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的地图可视化图表](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}以获取演示视频。
 
 >[!ENDSHADEBOX]
 
 
 ## 使用
 
-1. 添加![地图](/help/assets/icons/Globe.svg) [!UICONTROL 地图]可视化图表。 请参阅[将可视化图表添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。 您只能将地图可视化图表拖到自由格式表的顶部。
+1. 添加![地图](/help/assets/icons/Globe.svg)[!UICONTROL 地图]可视化图表。 请参阅[将可视化图表添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。 您只能将地图可视化图表拖到自由格式表的顶部。
 
    ![地图配置](assets/map-configuration.png){width="50%"} -
 
@@ -148,7 +157,7 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 
