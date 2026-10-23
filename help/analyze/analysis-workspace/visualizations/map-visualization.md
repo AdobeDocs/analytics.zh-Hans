@@ -71,7 +71,7 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的地图可视化。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[地图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)。_
+_本文记录了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的地图可视化。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[地图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)。_
 
 >[!ENDSHADEBOX]
 
@@ -95,7 +95,7 @@ Analysis Workspace 中的![全球](/help/assets/icons/Globe.svg)**[!UICONTROL �
 
 ## 使用
 
-1. 添加![地图](/help/assets/icons/Globe.svg)[!UICONTROL 地图]可视化图表。 请参阅[将可视化图表添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。 您只能将地图可视化图表拖到自由格式表的顶部。
+1. 添加![地图](/help/assets/icons/Globe.svg) [!UICONTROL 地图]可视化图表。 请参阅[将可视化图表添加到面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。 您只能将地图可视化图表拖到自由格式表的顶部。
 
    ![地图配置](assets/map-configuration.png){width="50%"} -
 
