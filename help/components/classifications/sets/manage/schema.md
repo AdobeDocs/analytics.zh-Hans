@@ -170,14 +170,14 @@ ht-degree: 9%
 >id="classificationsets_schema_automate_locationaccount"
 >title="位置帐户"
 >abstract="属于支持导入分类数据的帐户类型的位置帐户列表。 选择&#x200B;**[!UICONTROL 新建帐户]**&#x200B;以创建新的位置帐户。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-accounts" text="配置云导入和导出帐户"
+>additional-url="https://experienceleague.adobe.com/zh-Hans/docs/analytics/components/locations/configure-import-accounts" text="配置云导入和导出帐户"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="位置"
 >abstract="所选位置帐户下支持导入分类数据的位置列表。 选择&#x200B;**[!UICONTROL 新位置]**&#x200B;以创建新位置。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/analytics/components/locations/configure-import-locations" text="配置云导入和导出位置"
+>additional-url="https://experienceleague.adobe.com/zh-Hans/docs/analytics/components/locations/configure-import-locations" text="配置云导入和导出位置"
 
 您可以通过配置和使用云帐户和云位置来自动摄取分类数据。
 
