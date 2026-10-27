@@ -59,9 +59,9 @@ ht-degree: 35%
 | **自动生成组件描述** <br/>您现在可以自动生成维度、量度、计算量度、区段和日期范围的描述。 这有助于Workspace用户了解要使用的组件，尤其是在具有大型组件库的组织中。 <p>您可以为单个组件生成描述，或同时为多个组件生成描述。</p> <p>（文档链接见下文。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日 |
 | **Data Warehouse报表中的分类数据改进**<br/> Data Warehouse报表中的分类数据现在更准确。 通过这些改进，您可能会注意到Data Warehouse报表中的以下差异：<ul><li>**您以前看到分类值的空白值**：从分类集中删除分类值时，Data Warehouse现在可以正确显示空白。 以前，已删除的分类值可能会继续显示在以后的报表中。</li><li>**更完整的分类值**：在某些情况下，Data Warehouse以前只显示几个不同分类值中的一个。 Data Warehouse现在显示每个值。</li><li>**在Analysis Workspace中，分类值的表示方式可能有所不同（不常见）**： Data Warehouse可以显示所有关联的分类值，而Analysis Workspace只显示一个值。 因此，Data Warehouse和Analysis Workspace之间的分类值有时可能会有所不同。</li></ul><p>有关详细信息，请参阅Data Warehouse中的[分类维度](/help/export/data-warehouse/component-support.md#classifications)。</p> | 2026年10月14 | 2027年1月 |
 | **Adobe Brand Visibility集成**<br/>&#x200B;将Adobe Brand Visibility与贵组织的Adobe Analytics数据连接起来，以便您可以衡量AI驱动的发现如何转化为真正的网站参与度和业务成果。<p>（文档链接将随后提供。）</p> | | 待定<br/>（原计划于2026年10月发布） |
-| **CX Enterprise Coworker： Adobe Analytics数据的根本原因分析**<br/>&#x200B;同事聊天现在可以调查为什么某个指标在您的Adobe Analytics报表包中发生了更改，而不是只报告该指标发生了更改。 询问已知量度在已知时间段内的变化（例如“为什么周二收入激增？”），同事聊天会揭示出促成该变化的维度和区段。<p>有关详细信息，请参阅Adobe CX Enterprise Coworker文档中的[业务绩效概述](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/business-performance/business-performance)。</p> | 2026年10月13 | 2026年10月29日 |
-| **CX Enterprise Coworker：在Analysis Workspace中打开可视化图表**<br/>&#x200B;当同事聊天根据您的Adobe Analytics数据创建可视化图表时，您现在可以在新的Analysis Workspace项目中打开该可视化图表，以便进行更深入的分析并更精细地控制。 <p>有关详细信息，请参阅Adobe CX Enterprise Coworker文档中的[在Analysis Workspace中打开可视化图表](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat#open-a-visualization-in-analysis-workspace)。</p> | 2026年10月13 | 2026年10月29日 |
-| **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics数据** <br/>Adobe CX Enterprise Coworker Chat现在可以执行以前只能在Analysis Workspace中进行的高级数据分析。 同事聊天可访问您的Adobe Analytics报表包中的数据，让您浏览这些数据并获得自然语言提示的答案。<p>有关详细信息，请参阅Adobe CX Enterprise Coworker文档中的[使用同事聊天分析数据](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)。</p> | 2026年10月2 | 2026年10月29日<p>（原计划于2026年9月25日）</p> |
+| **CX Enterprise Coworker： Adobe Analytics数据的根本原因分析**<br/>&#x200B;同事聊天现在可以调查为什么某个指标在您的Adobe Analytics报表包中发生了更改，而不是只报告该指标发生了更改。 询问已知量度在已知时间段内的变化（例如“为什么周二收入激增？”），同事聊天会揭示出促成该变化的维度和区段。<p>有关详细信息，请参阅Adobe CX Enterprise Coworker文档中的[业务绩效概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/use-cases/data-insights/business-performance/business-performance)。</p> | 2026年10月13 | 2026年10月29日 |
+| **CX Enterprise Coworker：在Analysis Workspace中打开可视化图表**<br/>&#x200B;当同事聊天根据您的Adobe Analytics数据创建可视化图表时，您现在可以在新的Analysis Workspace项目中打开该可视化图表，以便进行更深入的分析并更精细地控制。 <p>有关详细信息，请参阅Adobe CX Enterprise Coworker文档中的[在Analysis Workspace中打开可视化图表](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/use-cases/data-insights/analytics-chat#open-a-visualization-in-analysis-workspace)。</p> | 2026年10月13 | 2026年10月29日 |
+| **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics数据** <br/>Adobe CX Enterprise Coworker Chat现在可以执行以前只能在Analysis Workspace中进行的高级数据分析。 同事聊天可访问您的Adobe Analytics报表包中的数据，让您浏览这些数据并获得自然语言提示的答案。<p>有关详细信息，请参阅Adobe CX Enterprise Coworker文档中的[使用同事聊天分析数据](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)。</p> | 2026年10月2 | 2026年10月29日<p>（原计划于2026年9月25日）</p> |
 
 ### Adobe Analytics 中的修复
 
@@ -99,7 +99,7 @@ ht-degree: 35%
 >[!MORELIKETHIS]
 >
 >* [以前的2026年发行说明](/help/release-notes/2026.md)
->* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+>* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
 >* [流媒体服务发行说明](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新发布更新
+>* [Adobe CX Enterprise 产品](https://business.adobe.com/cn/products/adobe-experience-cloud-products.html)的最新发布更新
 
