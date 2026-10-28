@@ -6,33 +6,41 @@ exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 TQID: https://experienceleague.adobe.com/MneXzLSy9umkfoSWXFBrUn3zc-exo2OUTbiQZ1N3ZbA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1052'
 ht-degree: 8%
-
 ---
-
 # 准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 
-在您组织中的任何人开始按照[将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md)中的说明迁移项目之前，请完成以下部分。
+在贵组织中的任何人开始迁移项目之前（如[将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md)或使用[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)中所述），请完成以下部分。
 
 ## 先决条件
 
-在项目及其相关组件准备好迁移之前，您首先需要遵循Adobe Customer Journey Analytics指南中[从Adobe Analytics演变](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hans)中的步骤。 这些步骤包括：
+在项目及其相关组件准备好迁移之前，您首先需要遵循Adobe Customer Journey Analytics指南中[从Adobe Analytics演变](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html)中的步骤。 这些步骤包括：
 
 1. 使用以下任一方法将数据摄取到Adobe Experience Platform中，以便在Customer Journey Analytics中查看Adobe Analytics报表包数据：
 
@@ -43,21 +51,21 @@ ht-degree: 8%
 
    * 要使用Adobe Analytics源连接器，您需要：
 
-     1. [设置报表包以引入Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=zh-Hans#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [设置报表包以引入Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
      1. [摄取和使用数据](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=zh-Hans)
 
    * 要使用WebSDK，您需要：
 
-     1. [设置报表包以引入Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=zh-Hans#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [设置报表包以引入Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-     1. [通过Adobe Experience Platform Web SDK引入数据](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=zh-Hans)
+     1. [通过Adobe Experience Platform Web SDK引入数据](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. 创建包含已摄取数据的[连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=zh-Hans)和[数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hans)。
+1. 创建包含已摄取数据的[连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html)和[数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)。
 
 1. 确保Customer Journey Analytics中的用户已设置到映射数据的数据视图。
 
-   有关详细信息，请参阅[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=zh-Hans)中的[Admin Console中的Customer Journey Analytics权限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=zh-Hans#customer-journey-analytics-permissions-in-admin-console)。
+   有关详细信息，请参阅[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)中的[Admin Console中的Customer Journey Analytics权限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)。
 
    权限选项卡是Admin Console中每个产品配置文件的一部分。 您可以将用户添加到特定的产品配置文件。 然后，将权限分配给特定的数据视图，并指定用户在产品配置文件中拥有的权限。
 
@@ -128,6 +136,12 @@ Customer Journey Analytics不支持以下可视化和面板。 如果在迁移�
 * [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
 * [贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
+
+### 不支持的报表包
+
+<!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
+
+无法迁移使用[虚拟报表包](/help/components/vrs/vrs-about.md)的面板。 确保项目中的每个面板都使用基本报表包。
 
 ## 作为组织决定如何映射组件
 

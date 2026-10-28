@@ -6,23 +6,29 @@ exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
 TQID: https://experienceleague.adobe.com/vTGy--9PQ9T5HTYm3ISws71ItH2DBBJFrk-XdaguBjU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: '1691'
 ht-degree: 5%
-
 ---
-
 # 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 
 Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁移到 Customer Journey Analytics。
@@ -41,22 +47,26 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 >
 >本页上的信息介绍了如何使用用户界面迁移项目及其关联的组件。
 >
->或者，您可以使用API执行迁移。 有关详细信息，请参阅[Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)。 在&#x200B;**[!UICONTROL 选择定义]**&#x200B;下拉菜单中可以使用所有API定义。
+>或者，您可以使用以下任一方法执行迁移。 具有[!UICONTROL 组件迁移]权限的用户可以使用这些方法，即使他们不是管理员。<!-- FLAG: Non-admin access with the Component migration permission, for both the APIs and Coworker, is from SME Scott Tomko (October 2026). The intro says only administrators can migrate in the user interface, but analytics-tools.md says the Component migration permission grants access to Admin > All admin > Component migration. Confirm which is correct. -->
+>
+>* Adobe Analytics API。 有关详细信息，请参阅[Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)。 在&#x200B;**[!UICONTROL 选择定义]**&#x200B;下拉菜单中可以使用所有API定义。
+>
+>* Adobe CX Enterprise Coworker。 有关详细信息，请参阅Adobe Analytics文档中的[与同事一起将Adobe CX Enterprise Coworker项目迁移到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)。
 
 
 ## 准备迁移
 
-在将任何项目迁移到Customer Journey Analytics之前，请在[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md)中了解有关迁移项目的更多信息。
+在将任何项目迁移到Customer Journey Analytics之前：
 
-此外，使用Analytics管理员可以使用的工具进行[Adobe Analytics清点](/help/admin/tools/analytics-inventory.md)。
+* 在[中了解有关迁移项目的详细信息准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md)。
+
+* 使用Analytics管理员可以使用的工具执行[Adobe Analytics清单](/help/admin/tools/analytics-inventory.md)。
 
 ## 将Adobe Analytics项目迁移到Customer Journey Analytics
 
->[!NOTE]
+>[!IMPORTANT]
 >
->在按照本节所述将任何项目迁移到Customer Journey Analytics之前，请在[准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md)中了解有关迁移项目的更多信息。
->
->**映射到此项目以及整个IMS组织中所有未来项目的任何维度或量度，无论哪个用户正在执行迁移。 迁移未来的项目时，可以更新这些映射。**
+>任何映射到此项目以及整个IMS组织中所有未来项目的维度或量度，无论哪个用户正在执行迁移。 迁移未来项目时，可以更新这些映射。
 
 1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**]&#x200B;选项卡，然后选择&#x200B;[!UICONTROL **所有管理员**]。
 
