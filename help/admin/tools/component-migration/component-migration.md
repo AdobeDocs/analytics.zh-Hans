@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
+source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1695'
 ht-degree: 5%
 ---
 # 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
@@ -51,7 +51,7 @@ Adobe Analytics 管理员可将 Adobe Analytics 项目及其关联的组件迁�
 >
 >* Adobe Analytics API。 有关详细信息，请参阅[Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)。 在&#x200B;**[!UICONTROL 选择定义]**&#x200B;下拉菜单中可以使用所有API定义。
 >
->* Adobe CX Enterprise Coworker。 有关详细信息，请参阅Adobe Analytics文档中的[与同事一起将Adobe CX Enterprise Coworker项目迁移到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)。
+>* Adobe CX Enterprise Coworker。 有关详细信息，请参阅Adobe Analytics文档中的[与同事一起将Adobe CX Enterprise Coworker项目迁移到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)。
 
 
 ## 准备迁移
