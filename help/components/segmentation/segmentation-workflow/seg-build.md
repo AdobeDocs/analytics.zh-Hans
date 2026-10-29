@@ -68,7 +68,7 @@ ht-degree: 70%
    | **[!UICONTROL 报告包]** | 您可以为该区段选择报告包。 |
    | **[!UICONTROL 仅限项目的区段]** | 信息框用于解释该区段仅在创建它的项目中可见。 并且该区段不会添加到您的组件列表中。 启用&#x200B;**[!UICONTROL 提供此区段给您的所有项目，并将其添加到组件列表中]**，以更改该设置。 此信息框仅在您创建[快速区段](seg-quick.md)，并通过[!UICONTROL 快速区段]界面中的&#x200B;**[!UICONTROL 打开生成器]**&#x200B;将此快速区段转换为常规区段时可见。 |
    | **[!UICONTROL 标题]**![必填](/help/assets/icons/Required.svg) | 命名该区段，例如，`Last month mobile visitors`。 |
-   | **[!UICONTROL 描述]** | <p>提供关于该区段的描述，例如，`Segment to define the mobile customers for the last month`。</p><p>要让Adobe为您生成描述，请选择&#x200B;**[!UICONTROL 生成描述]**。 在创建区段定义之前，此选项不可用。</p><p>生成的描述包括Adobe使用AI ]**生成的文本**[!UICONTROL ，生成后您可以编辑这些描述。 有关详细信息，请参阅[自动生成描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
+   | **[!UICONTROL 描述]** | <p>提供关于该区段的描述，例如，`Segment to define the mobile customers for the last month`。</p><p>要让Adobe为您生成描述，请选择&#x200B;**[!UICONTROL 生成描述]**。 在创建区段定义之前，此选项不可用。</p><p>生成的描述包括Adobe使用AI **生成的文本**，生成后您可以编辑这些描述。 有关详细信息，请参阅[自动生成描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
    | **[!UICONTROL 标记]** | 通过创建或应用一个或多个标记来组织区段。 开始键入，以查找您可以选择的现有标记。 或者按&#x200B;**[!UICONTROL 输入]**&#x200B;键添加新的标记。 选择 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 以移除标记。 |
    | **[!UICONTROL 定义]**![必填](/help/assets/icons/Required.svg) | 使用[定义生成器](#definition-builder)来定义区段。 |
 
