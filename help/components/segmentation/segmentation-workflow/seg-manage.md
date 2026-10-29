@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 64%
+source-wordcount: '632'
+ht-degree: 58%
 ---
 # 管理区段
 
@@ -79,6 +79,7 @@ ht-degree: 64%
 | ![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL 重命名]** | 重命名单个选定的区段。 选中后，您可以通过内联的方式重命名该区段。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 批准]** | 批准选定的区段。 有关更多信息，请参阅[批准区段](seg-approve.md)。 |
 | ![复制](/help/assets/icons/Copy.svg)  **[!UICONTROL 复制]** | 复制选定的区段。 使用相同的名称和后缀创建新的区段 `(Copy)`。 |
+| ![AI](/help/assets/icons/AI.svg) **[!UICONTROL 生成描述]** | <p>生成选定区段的描述，并替换任何现有的描述。</p><p>为避免覆盖现有描述，请先[筛选](#filter-panel)列表以仅显示没有描述的区段（在筛选器中的&#x200B;[!UICONTROL **其他筛选器**]&#x200B;下，选择&#x200B;[!UICONTROL **缺少描述**]）。</p><p>系统将提示您进行确认。 大型请求在后台运行，您可以在完成时收到通知。</p><p>有关详细信息，请参阅[自动生成描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 导出为 CSV]** | 将区段导出至 `Segments List.csv` 文件。 |
 
 ### 活动过滤器栏
