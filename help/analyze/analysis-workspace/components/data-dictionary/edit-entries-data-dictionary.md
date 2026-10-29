@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 89%
+source-wordcount: '1420'
+ht-degree: 71%
 ---
 # 编辑数据字典中的组件条目
 
@@ -82,6 +82,7 @@ Analytics 管理员可以为给定的报告包编辑数据字典中的组件条�
 1. 从组件列表中，选择要编辑的组件。
 
 1. 选择组件名称旁边的&#x200B;**编辑**&#x200B;图标，即![“数据词典编辑”图标](/help/assets/icons/Edit.svg)。
+   ![数据字典中的“编辑组件”对话框](assets/data-dictionary-edit-component.png)
 
 1. 编辑有关组件的以下任何信息：
 
@@ -89,9 +90,9 @@ Analytics 管理员可以为给定的报告包编辑数据字典中的组件条�
    |---------|----------|
    | **[!UICONTROL 已批准]** | <p>表示该组件已获管理员审阅和批准。</p><p>在组件获得批准后，管理员可通过选择&#x200B;**已批准**&#x200B;按钮而撤销批准。</p> |
    | **[!UICONTROL 需要批准]** | <p>表示该组件尚未获得管理员审阅和批准。</p><p>管理员会看到&#x200B;**[!UICONTROL 批准]**&#x200B;选项。 选择此选项会为用户将组件标记为“已批准”。</p> |
-   | **[!UICONTROL 描述]** | 描述组件的预期功能。 （此信息由 Analytics 管理员添加，如[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中所述。） |
+   | **[!UICONTROL 描述]** | 描述组件的预期功能。 只有Analytics管理员可以添加组件描述。 <p>您可以通过以下任一方式添加说明：</p><ul><li>手动键入描述</li><li>选择&#x200B;**[!UICONTROL 生成描述]**&#x200B;以使Adobe为您生成描述 <p>生成的描述包括Adobe使用AI ]**生成的文本**[!UICONTROL ，生成后您可以编辑这些描述。</p><p>要同时为多个组件生成描述，请参阅[为多个组件生成描述](#generate-descriptions-for-multiple-components)。</p></li></ul> <p>有关详细信息，请参阅[自动生成描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
    | **[!UICONTROL 常常与以下组件一同使用]** | <p>显示最常与您正在查看的组件一起使用的组件。</p><p>在 5 种主要组件类型中，最多显示 5 个组件：量度、计算量度、维度、区段和日期范围。</p><p>此列表基于过去 90 天的数据。 其中仅列出您有权查看的组件。</p><p>管理员可通过在&#x200B;**[!UICONTROL 始终包括]**&#x200B;和&#x200B;**[!UICONTROL 始终排除]**&#x200B;下拉字段中选择所需的组件而编排用户可在此部分中看到的组件。 在您编排用户可看到的组件之前，请首先应用&#x200B;**全部显示**&#x200B;过滤器以确保您可看到任何不与您共享的组件。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
-   | **[!UICONTROL 类似于]** | <p>显示与您正在查看的组件名称类似的组件。</p><p>在 5 种主要组件类型中，最多显示 5 个组件：量度、计算量度、维度、区段和日期范围。</p><p>其中仅列出您有权查看的组件。</p><p>此处还显示报告包中任何重复的组件。 Analytics 管理员应识别并删除所有重复的组件，如[监视数据词典运行状况](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)中所述。</p><p>管理员可通过在&#x200B;**[!UICONTROL 始终包括]**&#x200B;和&#x200B;**[!UICONTROL 始终排除]**&#x200B;下拉字段中选择所需的组件而编排用户可在此部分中看到的组件。 在您编排用户可看到的组件之前，请首先应用&#x200B;**全部显示**&#x200B;过滤器以确保您可看到任何不与您共享的组件。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**注意：**&#x200B;**类似于**&#x200B;部分当前仅包括您创建的组件，而不包括 Adobe 提供的组件。 将在未来的版本中添加 Adobe 提供的组件。</p> |
+   | **[!UICONTROL 类似于]** | <p>显示与您正在查看的组件名称类似的组件。</p><p>在 5 种主要组件类型中，最多显示 5 个组件：量度、计算量度、维度、区段和日期范围。</p><p>其中仅列出您有权查看的组件。</p><p>此处还显示报告包中任何重复的组件。 Analytics 管理员应识别并删除所有重复的组件，如[监视数据词典运行状况](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)中所述。</p><p>管理员可通过在&#x200B;**[!UICONTROL 始终包括]**&#x200B;和&#x200B;**[!UICONTROL 始终排除]**&#x200B;下拉字段中选择所需的组件而编排用户可在此部分中看到的组件。 在您编排用户可看到的组件之前，请首先应用&#x200B;**全部显示**&#x200B;过滤器以确保您可看到任何不与您共享的组件。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**注意：****类似于**&#x200B;部分当前仅包括您创建的组件，而不包括 Adobe 提供的组件。 将在未来的版本中添加 Adobe 提供的组件。</p> |
    | **[!UICONTROL 标记]** | 显示应用于组件的所有标记。 具有管理员访问权限的用户可以在编辑组件时添加标记。 |
    | **[!UICONTROL 组件类型]** | 列出组件的类型，无论是维度、量度、区段还是日期范围。 |
    | **[!UICONTROL 创建者]** | 显示创建组件的用户名称。 |
@@ -101,3 +102,29 @@ Analytics 管理员可以为给定的报告包编辑数据字典中的组件条�
    {style="table-layout:auto"}
 
 1. 单击&#x200B;**保存**&#x200B;图标，即![“数据词典保存”图标](/help/assets/icons/SaveFloppy.svg)来保存您的更改。
+
+## 为多个组件生成描述
+
+Analytics管理员可以让Adobe同时为多个组件生成描述。 有关详细信息，请参阅[自动生成描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。
+
+>[!IMPORTANT]
+>
+>为多个组件生成说明将替换所选组件的任何现有说明。 要避免覆盖现有描述，请在选择组件之前，筛选列表以仅显示尚未具有描述的组件。
+
+要为数据字典中的多个组件生成说明：
+
+1. 打开数据字典，如[访问数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)中所述。
+
+1. 确保在下拉菜单中选择正确的报表包。
+
+1. （推荐）选择&#x200B;**筛选器**&#x200B;图标![数据字典筛选器图标](/help/assets/icons/Filter.svg)，然后选择&#x200B;**[!UICONTROL 缺少描述]**&#x200B;以仅显示没有描述的组件。
+
+1. 选择要生成说明的组件。
+
+1. 在组件列表上选择![AI](/help/assets/icons/AI.svg) **[!UICONTROL 生成描述]**。
+
+1. 选择&#x200B;**[!UICONTROL 生成描述]**&#x200B;以确认。
+
+   确认消息会显示已添加的描述数。
+
+   如果选择了大量组件，则说明将在后台生成。 请求完成后，您会收到应用程序内[通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)，其中显示了生成的描述数量以及失败的描述数量。

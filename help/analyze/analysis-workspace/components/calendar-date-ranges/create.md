@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 96%
+source-wordcount: '589'
+ht-degree: 89%
 ---
 # 创建日期范围
 
@@ -68,6 +68,11 @@ Should we really mention API here. If so, we can do it all over the place in the
 
 1. 为日期范围指定一个&#x200B;**[!UICONTROL 标题]**。 例如，**[!UICONTROL 每季度]**。
 1. （可选）指定&#x200B;**[!UICONTROL 描述]**。
+
+   要让Adobe为您生成描述，请选择&#x200B;**[!UICONTROL 生成描述]**。 在创建日期范围定义之前，此选项不可用。
+
+   生成的描述包括Adobe使用AI ]**生成的文本**[!UICONTROL ，生成后您可以编辑这些描述。 有关详细信息，请参阅[自动生成描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。
+
 1. 通过创建或应用一个或多个&#x200B;**[!UICONTROL 标记]**&#x200B;来组织区段。 开始键入，以查找您可以选择的现有标记。 或者按&#x200B;**[!UICONTROL 输入]**&#x200B;键添加新的标记。 选择 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 以移除标记。 |
 1. 通过先选择开始日期，然后选择结束日期来选择&#x200B;**[!UICONTROL 日期范围]**。
 或者，您也可以从[!UICONTROL *选择预设*]&#x200B;下拉菜单中选择一个&#x200B;**[!UICONTROL 预设]**。
@@ -82,7 +87,7 @@ Should we really mention API here. If so, we can do it all over the place in the
      ![Rolling dates](assets/rolliing-dates.png)
 
      1. 选择&#x200B;**[!UICONTROL 开始]**、**[!UICONTROL 结束]**&#x200B;或&#x200B;**[!UICONTROL 固定日期]**。
-     1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。 例如：**&#x200B;**&#x200B;**[!UICONTROL 当前季度结束]**&#x200B;**[!UICONTROL 减去]**`20`**[!UICONTROL 天]**。 为表达式的每个部分选择适当的值。
+     1. 当选择了&#x200B;**[!UICONTROL 开始]**&#x200B;或&#x200B;**[!UICONTROL 结束]**&#x200B;时，您可以生成一个完整的表达式。 例如：******[!UICONTROL 当前季度结束]****[!UICONTROL 减去]**`20`**[!UICONTROL 天]**。 为表达式的每个部分选择适当的值。
         * 选择当前时间的值。 例如&#x200B;**[!UICONTROL 当前季度]**。
         * 选择一个值进行额外的计算。 例如，**[!UICONTROL 减]**。
         * 当您指定了额外的计算时，请指定一个值。 例如，`20`。
