@@ -44,7 +44,7 @@ ht-degree: 2%
 | --- | --- | --- |
 | AppMeasurement或Analytics标记扩展 | 从浏览器直接向Analytics数据收集服务器发出的请求 | [AppMeasurement](#appmeasurement) |
 | Web SDK | Edge跟踪，在Edge Network将您的事件转换为Analytics点击后 | [Web SDK](#web-sdk) |
-| Mobile SDK | Assurance中的“Analytics事件”视图。 如果您使用Edge Network或Edge Bridge扩展，请打开&#x200B;**[!UICONTROL Analytics Edge视图]**。 | Assurance中的[Adobe Analytics事件视图](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/adobe-analytics) |
+| Mobile SDK | Assurance中的“Analytics事件”视图。 如果您使用Edge Network或Edge Bridge扩展，请打开&#x200B;**[!UICONTROL Analytics Edge视图]**。 | Assurance中的[Adobe Analytics事件视图](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/adobe-analytics) |
 | 数据插入 API | 服务器的传出请求及其响应 | [数据插入API请求疑难解答](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting) |
 
 ## AppMeasurement和Analytics扩展 {#appmeasurement}
@@ -81,7 +81,7 @@ AppMeasurement通过`navigator.sendBeacon()`发送退出链接请求以及启用
 
 使用Web SDK时，浏览器将事件发送到Edge Network，而不是直接发送到Analytics，因此您不会看到`/b/ss/`请求。 [检查Edge Network请求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests)并确认以下内容：
 
-* `configId`参数与您启用了[Adobe Analytics服务](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#analytics)的数据流匹配，并包含您期望的报表包。
+* `configId`参数与您启用了[Adobe Analytics服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure#analytics)的数据流匹配，并包含您期望的报表包。
 * 有效负载符合页面查看或链接事件的条件。 Analytics会忽略不包含页面详细信息或Web交互类型的负载。 查看Adobe Analytics中的[Edge Network事件类型](../aep-edge/hit-types.md)。
 
 ### 检查Analytics接收的内容 {#web-sdk-contents}
