@@ -103,7 +103,7 @@ AppMeasurement通过`navigator.sendBeacon()`发送退出链接请求以及启用
 到达Analytics的点击不会立即出现在报表中，并且报告的值可能与请求中的值不同：
 
 * **延迟**：收集后大约两小时，报表中通常会显示完整数据。 某些数据（例如带有时间戳的点击）可能需要更长的时间。 查看[数据可用性和延迟](/help/technotes/latency.md)。
-* **正在处理**：处理规则、VISTA规则、机器人规则和其他处理步骤可以在收集后更改或排除值。 查看Adobe Analytics](/help/technotes/processing-order.md)中数据的处理顺序[。 Assurance后处理数据显示单个点击的处理结果。
+* **正在处理**：处理规则、VISTA规则、机器人规则和其他处理步骤可以在收集后更改或排除值。 查看Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中数据的处理顺序。 Assurance后处理数据显示单个点击的处理结果。
 * **报表包**：确认您查看的报表包与请求或数据流针对的报表包相同。
 * **意外值**：如果维度显示意外峰值或值，请参阅[哈希冲突](hash-collisions.md)。
 
