@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 76%
@@ -160,7 +160,7 @@ Adobe 使用第三方 Device Atlas，后者将同时使用客户端提示和 Use
 
 +++**使用 API 提交时如何包含客户端提示数据？**
 
-请参阅有关通过[批量数据插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/) 包含这些数据的文档。
+请参阅有关通过[批量数据插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format) 包含这些数据的文档。
 
 +++
 

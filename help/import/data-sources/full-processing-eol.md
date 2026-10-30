@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
@@ -47,7 +47,7 @@ ht-degree: 5%
 * Bulk Data Insertion具有数据验证和错误处理功能，消除了提交点击数据中的一些管理工作。
 * 批量数据插入支持多种访客ID识别方法。
 * 批量数据插入有一些额外的必填字段：访客标识列、`pageName`（或等效链接）、`reportSuiteID`、`timestamp`和`userAgent`。
-* 为确保访客连续性和归因，批量数据插入要求文件中的行按时间排序。 如需了解跨多个文件对访客活动排序，请参阅[访客组](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/)。
+* 为确保访客连续性和归因，批量数据插入要求文件中的行按时间排序。 如需了解跨多个文件对访客活动排序，请参阅[访客组](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups)。
 * 批量数据插入要求文件以.gzip格式压缩。
 * BDIA使用`timestamp`而不是`date`。
 

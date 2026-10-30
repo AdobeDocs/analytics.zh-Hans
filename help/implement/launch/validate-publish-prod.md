@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 75%
+source-wordcount: '516'
+ht-degree: 66%
 ---
 # 验证开发实施并发布到生产环境
 
@@ -80,14 +80,7 @@ Adobe Experience Platform Debugger是一个可显示页面上存在的所有CX E
 
 ## 故障排除
 
-**调试器中不显示任何数据。**
-
-在您的网站上，打开浏览器的开发人员控制台（通常按 F12）。 查看页面的源代码，并确保满足以下条件：
-
-* 控制台中没有 JavaScript 错误。 与贵组织的网站所有者合作，确保解决了所有 JS 错误。
-* 正确实施了页眉代码：确保页眉代码位于 `<head>` 标记内部，并且文件存在。
-* AppMeasurement 库存在：直接导航到 JS 源，以确保 JS 文件包含代码。 如果不包含，请确保创建了每个环境，并且库已发布到各自对应的环境。
-* 干扰扩展：一些扩展，如广告拦截器，可以阻止触发图像请求。 禁用任何可能阻止数据发送到 Adobe 的扩展。
+如果调试器中未出现Analytics数据，或者该数据不符合您的预期，请参阅[调试Analytics数据收集](../validate/debugging.md#appmeasurement)。
 
 ## 后续步骤
 
