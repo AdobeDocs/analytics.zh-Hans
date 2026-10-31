@@ -38,7 +38,7 @@ ht-degree: 2%
 
 本文介绍了在调试发送到Adobe Analytics的数据时应检查的内容。 在下表中找到您的实施方法，并关注其部分。 如果您正在调查意外的报告数据，请从[将请求与报告进行比较](#reports)开始。
 
-有关适用于所有Adobe数据收集的步骤和工具，如捕获网络请求、启用调试日志记录和调查已取消的请求，请参阅[调试和解决数据收集问题](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/overview)。
+有关适用于所有Adobe数据收集的步骤和工具，如捕获网络请求、启用调试日志记录和调查已取消的请求，请参阅[调试和解决数据收集问题](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/debugging/overview)。
 
 | 实施方法 | 在何处查看Analytics接收的数据 | 指引 |
 | --- | --- | --- |
@@ -51,12 +51,12 @@ ht-degree: 2%
 
 ### 查找请求 {#appmeasurement-find}
 
-[捕获网络请求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#web)并筛选`/b/ss/`。 标记调试器（如Adobe Experience Platform Debugger）会为您标识和解码这些请求。
+[捕获网络请求](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/debugging/inspect-requests#web)并筛选`/b/ss/`。 标记调试器（如Adobe Experience Platform Debugger）会为您标识和解码这些请求。
 
 如果未显示`/b/ss/`请求：
 
 * 检查浏览器控制台中是否存在JavaScript错误。
-* 如果您使用Analytics标记扩展，请确认标记嵌入代码位于页面的`<head>`元素中，并且您的库已发布到要测试的环境。 [标记调试模式](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/logging)显示发送点击的规则是否触发。
+* 如果您使用Analytics标记扩展，请确认标记嵌入代码位于页面的`<head>`元素中，并且您的库已发布到要测试的环境。 [标记调试模式](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/debugging/logging)显示发送点击的规则是否触发。
 * 如果您自行托管AppMeasurement，请直接打开库的URL，以确认文件已加载并包含代码。
 * 禁用浏览器扩展（如广告拦截器），这些扩展可能会阻止发送请求。
 * Debugger无法识别从iframe中发送的请求。 请改用浏览器开发人员工具。 请参阅[将AppMeasurement与iFrame结合使用](../use-cases/iframe.md)。
@@ -73,20 +73,20 @@ ht-degree: 2%
 
 `2xx`响应仅确认数据收集服务器已收到请求，而不确认点击已记录。 使用默认响应类型时，即使丢弃点击，请求也可以返回成功。 新访客的第一个请求应该有`302`响应。 请参阅[HTTP响应代码](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes)。
 
-AppMeasurement通过`navigator.sendBeacon()`发送退出链接请求以及启用[`useBeacon`](../vars/config-vars/usebeacon.md)时发送的所有请求。 开发人员工具可以将这些请求标记为已取消，即使浏览器发送了这些请求也是如此。 查看[已中止的请求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests)。
+AppMeasurement通过`navigator.sendBeacon()`发送退出链接请求以及启用[`useBeacon`](../vars/config-vars/usebeacon.md)时发送的所有请求。 开发人员工具可以将这些请求标记为已取消，即使浏览器发送了这些请求也是如此。 查看[已中止的请求](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests)。
 
 ## Web SDK {#web-sdk}
 
 ### 查找请求 {#web-sdk-find}
 
-使用Web SDK时，浏览器将事件发送到Edge Network，而不是直接发送到Analytics，因此您不会看到`/b/ss/`请求。 [检查Edge Network请求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests)并确认以下内容：
+使用Web SDK时，浏览器将事件发送到Edge Network，而不是直接发送到Analytics，因此您不会看到`/b/ss/`请求。 [检查Edge Network请求](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests)并确认以下内容：
 
 * `configId`参数与您启用了[Adobe Analytics服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure#analytics)的数据流匹配，并包含您期望的报表包。
 * 有效负载符合页面查看或链接事件的条件。 Analytics会忽略不包含页面详细信息或Web交互类型的负载。 查看Adobe Analytics中的[Edge Network事件类型](../aep-edge/hit-types.md)。
 
 ### 检查Analytics接收的内容 {#web-sdk-contents}
 
-启动[Edge跟踪](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/edge-trace)并重现操作。 找到以&#x200B;**[!UICONTROL Analytics自动映射]**&#x200B;开头的行，然后展开`mappedQueryParams`及其下的报表包ID。
+启动[Edge跟踪](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/debugger/edge-trace)并重现操作。 找到以&#x200B;**[!UICONTROL Analytics自动映射]**&#x200B;开头的行，然后展开`mappedQueryParams`及其下的报表包ID。
 
 * **变量**：映射的值使用与AppMeasurement请求相同的查询参数名称，有时使用简写形式，例如`gn`表示页面名称，`pl`表示产品。 查看[XDM对象字段映射](../aep-edge/xdm-var-mapping.md)和[数据对象字段映射](../aep-edge/data-var-mapping.md)。
 * **上下文数据**：未映射到Analytics变量的XDM字段显示为前缀为`c.a.x.`的上下文数据。 使用[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)将它们分配给变量。
