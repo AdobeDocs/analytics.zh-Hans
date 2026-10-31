@@ -25,7 +25,7 @@ role_v2:
 source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 18%
+ht-degree: 22%
 ---
 # 管理数据源 {#manage-data-sources}
 
@@ -37,7 +37,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="显示表格"
->abstract="选择&#x200B;**[!UICONTROL 显示表]**&#x200B;将为当前可视化图表生成新的数据源，该数据源与原始数据源不同。"
+>abstract="选择&#x200B;**[!UICONTROL 显示表格]**&#x200B;后，会为您当前的可视化图表生成一个新的数据源，并将其与原始数据源分开。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"

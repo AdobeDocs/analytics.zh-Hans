@@ -41,7 +41,7 @@ ht-degree: 42%
 
 从物联网设备、机顶盒、桌面应用程序等设备收集数据时，通常使用Experience Platform Edge Network API在服务器端而不是客户端收集数据。 然后，将该数据发送到Edge网络和Adobe Analytics等服务。
 
-当您要求安全地收集敏感数据并在整个网络中进行身份验证时，还可以考虑Edge Network API。 有关详细信息，请参阅[身份验证](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)。
+当您要求安全地收集敏感数据并在整个网络中进行身份验证时，还可以考虑Edge Network API。 有关详细信息，请参阅[身份验证](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=zh-Hans)。
 
 实施任务的高级概述：
 
