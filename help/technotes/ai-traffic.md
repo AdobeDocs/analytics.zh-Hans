@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 2%
-
+source-wordcount: '681'
+ht-degree: 0%
 ---
-
 # 分析来自对话式人工智能工具的流量
 
 Adobe Analytics提供了用于分析您网站上的AI流量的工具。
@@ -72,9 +70,11 @@ Adobe Analytics提供了用于分析您网站上的AI流量的工具。
 
 * 代理工作流
 
-反向链接类型维度包括[对话AI工具维度项](/help/components/dimensions/referrer-type.md#conversational-ai-tools)。 此维度项包括预定义的 AI 聊天机器人列表。
+反向链接类型维度包括[对话AI工具维度项](/help/components/dimensions/referrer-type.md#conversational-ai-tools)。 此维度项目仅包含具有来自预定义的AI聊天机器人列表中的反向链接的访问。
 
-有关详细信息，请参阅[反向链接类型](/help/components/dimensions/referrer-type.md)。
+>[!IMPORTANT]
+>
+>某些对话式AI工具（如ChatGPT）在打开链接时不会发送反向链接，因此其访问不会包含在此维度项目中。 有关详细信息，请参阅[包含没有反向链接的AI流量](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer)。
 
 ### 使用机器人检测分析AI流量
 

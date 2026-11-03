@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 76%
+source-wordcount: '871'
+ht-degree: 47%
 ---
 # 反向链接类型
 
@@ -50,7 +50,7 @@ Adobe从每次点击的[反向链接](referrer.md)派生此维度，并将其与
 
 维度项目包括点击的反向链接类型。 具体值包括：
 
-* **已输入/添加书签**：点击不存在反向链接数据。
+* **已输入/添加书签**：点击不存在反向链接数据。 此值包括来自[对话AI工具的访问，这些工具打开链接而没有反向链接](#include-ai-traffic-that-has-no-referrer)。
 * **搜索引擎**：反向链接来自于包括关键词查询字符串的可识别搜索引擎。
 * **对话AI工具**：反向链接来自公认的对话AI工具。
 * **社交网络**：反向链接数据属于 Adobe 可识别的社交网络。
@@ -60,6 +60,10 @@ Adobe从每次点击的[反向链接](referrer.md)派生此维度，并将其与
 * **电子邮件**：反向链接源于使用 `imap://` 或 `mail://` 协议的 URL。 不包括在线电子邮件服务，因为这些服务通常使用 `https://` 协议。
 
 ### 对话式人工智能工具
+
+>[!IMPORTANT]
+>
+>此值仅包含具有来自以下列表的反向链接的访问。 某些对话式人工智能工具（如ChatGPT）在打开链接时不会发送反向链接，因此不包括其访问。 有关详细信息，请参阅[包含没有反向链接的AI流量](#include-ai-traffic-that-has-no-referrer)。
 
 以下列表引用了Adobe使用的“对话式人工智能工具”查找表。 Adobe 向 Adobe Analytics 客户提供此列表以示便利。 如果您希望向 Adobe 提出建议将某个域添加到此列表，请让贵组织的支持代表联系客户服务部门。
 
@@ -84,6 +88,18 @@ Adobe从每次点击的[反向链接](referrer.md)派生此维度，并将其与
 * `https://chat.mistral.ai`
 * `https://meta.ai`
 * `https://you.com`
+
+#### 包括没有反向链接的AI流量
+
+包括ChatGPT在内的一些对话式人工智能工具会打开链接，而不发送反向链接。 Adobe在“键入/书签式”而不是“对话式AI工具”下报告这些访问。 AI工具可以随时更改其打开链接的方式。 如果“对话式人工智能工具”流量下降，则工具可能已停止发送反向链接。 这一下降并不意味着Adobe Analytics会丢失数据。
+
+某些工具会将UTM查询字符串参数添加到其打开的链接（如`utm_source=chatgpt.com`或`utm_source=perplexity`），而不是反向链接。 要从对话人工智能工具获取更完整的流量计数，请将UTM参数与“对话人工智能工具”值一起使用：
+
+* **在变量中捕获UTM参数**：将eVar设置为登陆页面URL的`utm_source`值。 使用[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md)插件、Web SDK或Adobe Analytics扩展中的URL参数功能，或读取查询字符串参数的[处理规则](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md)。
+* **为AI工具创建营销渠道**：创建一个在任何条件为true时匹配的[营销渠道处理规则](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)。 为人工智能工具使用的每个值（如`chatgpt.com`或`perplexity`）添加&#x200B;**[!UICONTROL Referrer Is Conversational AI]**&#x200B;条件和&#x200B;**[!UICONTROL 查询字符串参数]** `utm_source`条件。
+* **创建区段**：创建一个与“反向链接类型”等于“对话式人工智能工具”或您的UTM eVar包含人工智能工具使用的值匹配的[区段](/help/components/segmentation/seg-overview.md)。 由于[页面URL](page-url.md)维度包含查询字符串，因此您还可以匹配包含`utm_source=chatgpt.com`的页面URL。 此选项无需更改实施即可使用。
+
+某些AI工具既不发送反向链接，也不发送UTM参数。 您无法将来自这些工具的流量识别为AI流量。
 
 ### 社交网站
 

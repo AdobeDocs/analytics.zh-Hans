@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
+source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
 workflow-type: tm+mt
-source-wordcount: '7701'
-ht-degree: 89%
+source-wordcount: '7790'
+ht-degree: 88%
 ---
 # Adobe Analytics 技术文档更新
 
@@ -75,6 +75,8 @@ ht-degree: 89%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2026年11月** | |
+| 包括没有反向链接的AI流量 | 由于ChatGPT等某些AI工具会打开链接而不发送反向链接，因此“对话式AI工具”反向链接类型不会计算这些访问。 文档现在将对此进行说明，并显示如何报告此流量：<ul><li>添加了有关[使用UTM参数](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer)捕获没有反向链接的AI流量的部分。</li><li>向“反向链接类型”维度的[对话人工智能工具](/help/components/dimensions/referrer-type.md#conversational-ai-tools)部分添加了有关此行为的说明。</li><li>向[分析来自对话AI工具的流量](/help/technotes/ai-traffic.md)添加了有关此行为的说明。</li></ul> |
 | **2026年10月** | |
 | 锁定可视化图表的选择 | 已重新构建[管理数据源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)，以将配置数据源设置与锁定选择分开。 还阐明当可视化图表锁定到自由格式表中的行时，[锁定选择](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)的工作方式，包括当锁定的划分行不再位于表中时发生的情况。 |
 | 表格列的键盘导航 | 记录如何使用键盘（包括屏幕阅读器反馈）在Analysis Workspace中[调整](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)和[重新排列](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)表列。 还向热键添加了[表列操作](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions)部分。 |
@@ -130,7 +132,7 @@ ht-degree: 89%
 | **2025 年 3 月** |  |
 | 分析库存 | [分析库存](/help/admin/tools/analytics-inventory.md)提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。 |
 | Customer Journey Analytics 升级指南 | 让您生成从 Adobe Analytics 升级到 Customer Journey Analytics 的[分步指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
-| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读来自 Data Warehouse 导出的日期值的信息。 <p>在Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中的组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
+| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读 Data Warehouse 导出中的日期值的信息。 <p>在Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中的组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
 | 关于 IP 排除的更新信息 | 添加了说明 [IP 排除](/help/admin/tools/exclude-ip.md)可能需要长达 5 分钟才能生效，并且更改仅适用于新的点击（设置排除之前捕获的数据不受影响）。 <p>还更新了内容布局以提高可读性。</p> |
 | **2025 年 2 月** |  |
 | 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。 从馈送暂停到重新激活期间，不会进行数据处理。 |
