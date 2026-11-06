@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # 使用AppMeasurement进行访客识别
 
 AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽然AppMeasurement本身提供了用于识别访客的本机方法，但许多现代浏览器会拒绝它尝试设置的第三方Cookie。 Adobe强烈建议在所有实施中使用[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)以符合现代浏览器隐私标准。 所有版本的AppMeasurement都与`VisitorAPI.js`捆绑在一起，JavaScript库用于实施访客ID服务。
@@ -50,7 +48,7 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)的所需边缘域。
 * 您的IMS组织ID：
   1. 使用您的Adobe ID凭据登录[Adobe CX Enterprise](https://experience.adobe.com)。
-  1. 在CX Enterprise界面的任何位置，按`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
+  1. 在CX Enterprise界面中的任意位置，按`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
   1. 出现&#x200B;**[!UICONTROL 用户数据调试器]**。 选择&#x200B;**[!UICONTROL 分配的组织]**&#x200B;选项卡。
   1. 展开所需的IMS组织。
   1. 找到&#x200B;**[!UICONTROL ID]**&#x200B;字段。
@@ -93,9 +91,9 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 >
 >Adobe建议不要使用此方法来识别访客。
 
-如果贵组织未使用访客ID服务(`VisitorAPI.js`)，则AppMeasurement将使用其自己的旧版访客识别形式。 当访客首次访问您的网站时，库会检查[`s_vi`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie在匹配[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)（对于HTTPS）或`trackingServer`（对于HTTP）的域中设置。
+如果贵组织未使用访客ID服务(`VisitorAPI.js`)，则AppMeasurement将使用其自己的旧版访客识别形式。 当访客首次访问您的网站时，库会检查[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie在匹配[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)（对于HTTPS）或`trackingServer`（对于HTTP）的域中设置。
 
-* 如果您参与[托管证书计划](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
+* 如果您参与[托管证书计划](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)，您的跟踪服务器通常是第一方域，使`s_vi` Cookie成为第一方。
 * 如果您未参与托管证书计划，则跟踪服务器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子域，从而使`s_vi` Cookie成为第三方Cookie。 由于现代浏览器隐私标准，第三方Cookie被大多数浏览器拒绝。 被拒绝后，AppMeasurement会尝试改为设置第一方回退Cookie (`fid`)。
 
 如果您正确设置`trackingServerSecure`，则无需进一步的访客识别措施。

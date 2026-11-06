@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '432'
 ht-degree: 43%
-
 ---
-
 # 查看报表包使用情况
 
 “报表包使用情况”选项卡提供与您的账单公司关联的所有登录公司所具有的各个报表包在当前使用时段内的服务器调用使用情况数据。
@@ -37,11 +35,11 @@ ht-degree: 43%
 
 >[!IMPORTANT]
 >
->如果报表包未关联到CX Enterprise组织，则该功能板中将不会反映此报表包的使用情况数据。 另外，一个账单ID可以绑定到多个CX Enterprise组织；一个组织与账单ID之间并不总是有1:1关系。
+>如果报表包未关联到Adobe组织，则该功能板中将不会反映此报表包的使用情况数据。 此外，计费ID可以绑定到多个组织；组织与计费ID之间并不总是存在1:1的关系。
 
 报表包使用情况仪表板
 
-* 显示CX Enterprise组织中每个报表包的当前使用时段的服务器调用使用情况（所有调用、主要、次要、移动设备主要、移动设备次要）。
+* 显示贵组织中每个报表包的当前使用时段的服务器调用使用情况（所有调用、主报表包、次级报表包、移动设备主报表包、移动设备次级报表包）。
 * 显示每个服务器调用类别的整体使用率的百分比。
 * 每日更新。
 * 可下载。
@@ -82,6 +80,6 @@ ht-degree: 43%
 
 1. 单击&#x200B;**[!UICONTROL 下载]**。
 
-以下是下载的 .csv 文件内容的屏幕截图。 它包括报表包 ID 的列。 报表包 ID 指定了只能包含字母数字字符的唯一 ID。 创建报表包后，无法更改此 ID。
+以下是下载的 .csv 文件内容的屏幕截图。 其中包含一个报告包 ID 列。 报表包 ID 指定了只能包含字母数字字符的唯一 ID。 创建报告包后，无法更改此 ID。
 
 ![](/help/admin/tools/server-call-usage/assets/download-usage.png)

@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 96%
-
+source-wordcount: '777'
+ht-degree: 95%
 ---
-
 # 默认计算量度
 
 Adobe Analytics 通过提供各种计算量度来涵盖最常见的用例。 这些计算量度在 Analysis Workspace 中默认可用。
@@ -44,7 +42,7 @@ Adobe Analytics 通过提供各种计算量度来涵盖最常见的用例。 这
 >
 >您可以：
 >
-> * 为流媒体服务添加默认计算量度，请参阅[计算量度](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/calculated-metrics)
+> * 为流媒体服务添加默认计算量度，请参阅[计算量度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)
 > * 从现有量度中创建自定义计算量度，如[计算量度和高级计算量度](/help/components/calculated-metrics/cm-overview.md)中所述。
 >
 
@@ -68,7 +66,7 @@ Adobe Analytics 通过提供各种计算量度来涵盖最常见的用例。 这
 | 转化率 | 执行了所需操作（如进行了购买）的访客的百分比。 | `[Orders] / [Visits]` |
 | 登录率 | 在指定页面上进入网站的访客占网站上会话总数的百分比。 | `[Entries] / [Visits]` |
 | 估计的独特访客量（ITP 2.1） | 对于 ITP 访客（Safari 浏览器上的用户），将独特访客量除以 2 或更小的数值。 该计算量度假设您使用客户端 JavaScript（而不是使用 CNAME 实施）设置 Cookie。 从ITP 2.1开始，使用客户端JavaScript设置Cookie的实施会受到影响。 有关详细信息，请参阅[智能防跟踪](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Experience Cloud ID 覆盖 | 拥有 Experience Cloud ID 的访客的百分比。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Experience Cloud ID 覆盖 | 具有ECID的访客所占的百分比。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 退出率 | 查看特定页面后离开网站的访客的百分比。 | `[Exits] / [Visits]` |
 | ITP 2.1 独特访客量 / 独特访客量 | 使用受 ITP 2.1 Cookie 限制影响的浏览器的独特访客百分比。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | 订单助手 | 渠道或来源促成客户历程向购买推进但最终未购买的次数。 | `[Orders (Visit Participation)] - [Orders]` |

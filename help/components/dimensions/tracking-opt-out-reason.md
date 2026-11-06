@@ -33,26 +33,26 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 13%
 ---
 # 跟踪选择禁用的原因
 
 >[!BEGINSHADEBOX]
 
-*此页面引用了[维度](overview.md)，通过该维度，您可以查看启用某些报表包设置可能会产生的数据影响。 它与[Adobe Experience Cloud ID选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)无关。*
+*此页面引用了[维度](overview.md)，通过该维度，您可以查看启用某些报表包设置可能会产生的数据影响。 它与访客ID服务[选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)无关。*
 
 >[!ENDSHADEBOX]
 
-“跟踪选择退出原因”维度充当在您启用隐私设置时将排除的数据的预览。 此维度主要用于确定如果您在报表包设置下启用[隐私设置](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=zh-Hans)，您的实施是否会受到负面影响。
+“跟踪选择退出原因”维度充当在您启用隐私设置时将排除的数据的预览。 此维度主要用于确定如果您在报表包设置下启用[隐私设置](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html)，您的实施是否会受到负面影响。
 
 如果尚未启用隐私设置，则典型实施会在此维度下看到其总报表包流量的1%或更少。 所有流量中高于1%的百分比表明可能存在导致AppMeasurement无法设置第一方Cookie的实施问题。
 
 ## 使用数据填充此维度
 
-此维度可开箱即用于所有尚未启用[隐私设置](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=zh-Hans)的实施。 如果贵组织已经为桌面浏览器和移动设备浏览器启用了&#x200B;**[!UICONTROL 删除已阻止所有Cookie]**&#x200B;设置的用户，则此维度不包含数据。
+此维度可开箱即用于所有尚未启用[隐私设置](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html)的实施。 如果贵组织已经为桌面浏览器和移动设备浏览器启用了&#x200B;**[!UICONTROL 删除已阻止所有Cookie]**&#x200B;设置的用户，则此维度不包含数据。
 
 | 属性 | 值 |
 | --- | --- |

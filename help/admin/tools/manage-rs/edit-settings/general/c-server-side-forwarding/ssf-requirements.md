@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 43%
+source-wordcount: '336'
+ht-degree: 34%
 ---
 # 服务器端转发要求
 
@@ -44,11 +44,11 @@ ht-degree: 43%
 
 ## 解决方案要求
 
-服务器端转发适用于 [Analytics](https://www.adobe.com/cn/data-analytics-cloud/analytics.html)、[Audience Manager](https://www.adobe.com/cn/data-analytics-cloud/audience-manager.html) 和/或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
+服务器端转发适用于 [Analytics](https://www.adobe.com/cn/data-analytics-cloud/analytics.html)、[Audience Manager](https://www.adobe.com/cn/data-analytics-cloud/audience-manager.html) 和/或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 
 ## 服务要求
 
-服务器端转发需要[身份标识服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。 Identity Service提供了一个通用ID，用于在CX Enterprise的所有解决方案中标识网站访客。 您需要先实施该 ID 服务，然后服务器端转发才能正常工作。
+服务器端转发需要[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)。 访客ID服务提供了一个通用ID，用于在CX Enterprise的所有解决方案中标识网站访客。 您需要先实施访客ID服务，然后服务器端转发才能正常工作。
 
 ## 代码版本
 
@@ -63,4 +63,4 @@ ht-degree: 43%
 任何用于监视浏览器发起的 HTTP 请求的工具，都可以显示您的 AppMeasurement 和访客 API 代码的版本号。 `AppMeasurement_Module_AudienceManagement.js` 不包含或不会返回版本 ID。 以下示例向您显示了 `AppMeasurement.js` 和 `VisitorAPI.js` 代码版本 ID 的显示格式。
 
 * `AppMeasurement.js`：该版本显示在请求URL中的响应类型之后，如`/b/ss/examplersid/1/JS-X.X.X/s234234238479`。 [对请求进行解码的调试工具](/help/implement/validate/debugging.md)可以使用其他标签，但值始终遵循模式`JS-X.X.X`，其中`X`是版本号。
-* `VisitorAPI.js`：查找 `d_visid_ver` 参数。 它将以如下形式显示访客 ID 服务：`d_visid_ver: 1.5.5`。 早于版本1.5.2的访客API代码不包含版本号。 如果您的监视结果未返回版本号，则可能是使用旧版代码库（需要升级）。
+* `VisitorAPI.js`：查找 `d_visid_ver` 参数。 它将以如下形式显示访客ID服务： `d_visid_ver: 1.5.5`。 早于版本1.5.2的访客API代码不包含版本号。 如果您的监视结果未返回版本号，则可能是使用旧版代码库（需要升级）。

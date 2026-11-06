@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 56%
+source-wordcount: '778'
+ht-degree: 48%
 ---
 # 在 Adobe Analytics 中删除机器人
 
@@ -45,7 +45,7 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 | 规则类型 | 描述 |
 |--- |--- |
-| 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**&#x200B;可使用 [IAB &#x200B;](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。 大多数客户至少都会选择此选项。 |
+| 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**&#x200B;可使用 [IAB ](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。 大多数客户至少都会选择此选项。 |
 | 自定义机器人规则 | 您可以根据用户代理、IP 地址或 IP 范围定义和添加自定义的机器人规则。 |
 
 有关详细信息，请参阅[了解和配置机器人规则](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)。
@@ -54,9 +54,9 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。 这些功能包括：访客ID服务、分段、Data Warehouse、客户属性和虚拟报表包。 以下概述了如何使用这些工具。
 
-### 步骤 1：将访客的 Experience Cloud ID 传递到新声明的 ID
+### 步骤1：将访客的ECID传递到新声明的ID {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hans) 中创建新声明的 ID。 将您的访客 Experience Cloud ID 传递到此新声明的 ID 中，这可以使用 [Adobe Experience Platform 中的标记](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)快速轻松地完成。 我们使用名称“ECID”作为声明的 ID。
+要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hans) 中创建新声明的 ID。 将访客的ECID传递到此新声明的ID中，这可以使用Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)中的[标记快速轻松地完成。 我们使用名称“ECID”作为声明的 ID。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -72,9 +72,9 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
-### 步骤 3：通过 Data Warehouse 导出区段中的所有 [!DNL Experience Cloud IDs]
+### 步骤 3：通过 Data Warehouse 导出区段中的所有 [!DNL ECIDs] {#step-3-export-all-experience-cloud-ids-from-the-segment-via-data-warehouse}
 
-现在，您已使用区段确定了机器人，下一步是使用 Data Warehouse 提取与此区段关联的所有 Experience Cloud ID。 此屏幕截图显示了应如何设置 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 请求：
+现在，您已使用区段识别了机器人，下一步是使用Data Warehouse提取与此区段关联的所有ECID。 此屏幕截图显示了应如何设置 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 请求：
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
@@ -111,7 +111,7 @@ Data Warehouse 报表到达之后，您就有了必须从历史数据中筛选�
 
 >[!MORELIKETHIS]
 >
->* [更好的机器人阻止（第1部分）：基本知识](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=zh-Hans)
->* [更好的机器人阻止（第2部分）：识别机器人并利用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=zh-Hans)
->* [更好的机器人阻止（第3部分）：点击调控器](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=zh-Hans)
+>* [更好的机器人阻止（第1部分）：基本知识](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [更好的机器人阻止（第2部分）：识别机器人并利用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [更好的机器人阻止（第3部分）：点击调控器](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

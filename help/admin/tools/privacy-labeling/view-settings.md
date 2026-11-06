@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 90%
+source-wordcount: '814'
+ht-degree: 91%
 ---
 # 查看/管理数据治理的隐私标签
 
@@ -79,7 +79,7 @@ ht-degree: 90%
 
    >[!IMPORTANT]
    >
-   >请记住，您选择的所有报表包都必须映射到您的CX Enterprise组织。
+   >请记住，您选择的所有报表包都必须映射到您的Adobe组织。
 
    将一个变量或一组变量的标签复制到不同的报告包时，复制的标签会转到目标报告包中相应位置的变量中。 对于标准组件、列表变量和成功事件，标签将被复制到目标报告包中具有&#x200B;**相同名称**&#x200B;的变量中。
 

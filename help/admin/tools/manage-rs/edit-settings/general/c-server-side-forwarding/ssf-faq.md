@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 47%
+source-wordcount: '687'
+ht-degree: 48%
 ---
 # 服务器端转发常见问题解答
 
@@ -51,11 +51,11 @@ ht-degree: 47%
 | 问题 | 回答 |
 |--- |--- |
 | 问：如果我的网站上有多包标记，该怎么办？ 服务器端转发会将我对 Audience Manager 的服务器调用次数加倍吗？ | 不会，从 Analytics 转发到 Audience Manager 的点击将只会转发到 Audience Manager 一次，这与点击中的报表包数量无关。 如果您在 Audience Manager 中为点击中的每个报告包都设有相应的数据源，则每个数据源都会从该单次点击中得到相应填充。  但是请记住，如果您当前使用客户端数据收集 (DIL)，并且在未安装受众管理模块的情况下启用了服务器端转发，则无论您的 Analytics 点击中有多少个报表包，都会使您对 Audience Manager 的服务器调用次数加倍。 |
-| 问：如果我的多包标记报表包映射到不同的CX Enterprise组织，该怎么办？ | 您决不应该将来自单个Analytics点击的数据发送到两个属于不同CX Enterprise组织的报表包，但如果这样做了，我们只会将点击转发到与页面上的Identity Service设置匹配的CX Enterprise组织。 |
-| 问：如果我有多包标记并且只有一个报表包映射到我的CX Enterprise组织，而其他报表包则没有映射，该怎么办？ | 我们会将点击转发到映射的报表包上的CX Enterprise组织对应的数据收集服务器，但是由于未映射的报表包在Audience Manager中没有关联的数据源，因此不会在Audience Manager中为未映射的报表包记录任何数据。 |
-| 问：如果我有一个报表包被映射到多个CX Enterprise组织，该怎么办？ | Analytics会将此报表包视为未映射，不允许为此报表包启用服务器端转发。 请联系客户关怀以解决此映射问题。 |
+| 问：如果我的多包标记报表包映射到不同的Adobe组织，该怎么办？ | 您决不应该将来自单个Analytics点击的数据发送到属于不同组织的两个报表包，但如果这样做了，我们只会将点击转发到与页面上的访客ID服务设置匹配的组织。 |
+| 问：如果我有多包标记并且只有一个报表包映射到我的组织，而其他报表包则没有映射，该怎么办？ | 我们会将点击转发到映射的报表包上组织的相应数据收集服务器，但是由于未映射的报表包在Audience Manager中没有关联的数据源，因此不会在Audience Manager中为未映射的报表包记录任何数据。 |
+| 问：如果我有一个报表包映射到多个组织，该怎么办？ | Analytics会将此报表包视为未映射，不允许为此报表包启用服务器端转发。 请联系客户关怀以解决此映射问题。 |
 | 问：基于报告包的服务器端转发方法会比基于跟踪服务器的服务器端转发更慢吗？ | 不会，响应时间相同。 |
-| 问：如果我有两个CX Enterprise组织（或Adobe Audience Manager实例）并希望在这两个CX Enterprise组织之间共享数据，该怎么办？ 我能否在服务器端将单个Analytics点击转发到多个CX Enterprise组织？ | 否。 如果您需要将在一个CX Enterprise组织下收集的数据共享到另一个CX Enterprise组织，我们建议使用受众市场将一个Audience Manager实例中的任何适用受众发送到另一个实例。 |
+| 问：如果我们有两个组织（或Adobe Audience Manager实例），并且希望在两个组织之间共享数据，该怎么办？ 我是否可以在服务器端将单个Analytics点击转发到多个组织？ | 不会。 如果您需要将在一个组织下收集的数据共享到另一个组织，我们建议使用受众市场将任何适用受众从一个Audience Manager实例发送到另一个实例。 |
 | 问：服务器端转发会导致 Audience Manager 或 Analytics 中产生任何额外计费吗？ | 在 Analytics 中，不会产生任何额外计费。 在 Audience Manager 中，转发的点击将会像任何其他点击一样进行处理并加以计费。  这就是为什么切勿同时启用 DIL 和服务器端转发的原因，因为这样做会导致双重计费以及数据重复。 |
 
 >[!MORELIKETHIS]

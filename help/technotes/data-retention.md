@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '616'
 ht-degree: 92%
 ---
 # 数据保留策略
@@ -63,7 +63,7 @@ Adobe 作为您的数据处理者，必须采取适当措施协助其客户实�
 
 ## 查看/管理当前数据保留策略
 
-[!UICONTROL Admin] 工具中的“数据治理”对话框概述了为数据治理配置了哪些报表包。 它还指示它们是否已映射到CX Enterprise组织，以及是否为此报表包制定了数据保留策略。
+[!UICONTROL Admin] 工具中的“数据治理”对话框概述了为数据治理配置了哪些报表包。 它还指示它们是否已映射到Adobe组织，以及是否为此报表包制定了数据保留策略。
 
 ## 常见问题解答
 

@@ -31,20 +31,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 42%
+ht-degree: 35%
 ---
 # 工作流程概述
 
 配置Advertising Analytics的工作流包含以下步骤：
 
 <!--
->[!VIDEO](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
-1. [为每个报表包启用 Advertising Analytics 报告功能](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)。 为启用了 Experience Cloud 的报表包启用 [!UICONTROL Advertising Analytics] 报告。
+1. [为每个报表包启用 Advertising Analytics 报告功能](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)。 为启用了CX-Enterprise的报表包启用[!UICONTROL Advertising Analytics]报告。
 2. [设置 Advertising Analytics 帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。 在 Analytics 管理员工具中进行设置。
 3. [在 Analytics 中报告广告数据](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)。 您所在Adobe Analytics数据中心时区的上午6点(06:00)左右，系统会从搜索引擎中提取搜索数据。 Adobe Advertising数据会被收集并插入到报表包中。 然后在将数据插入Analytics的过程中转换为报表包时区。 报表在Analysis Workspace（付费搜索性能模板）、Report Builder和Analytics报表API中可用。
 4. [管理广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)。 您可以检查帐户状态，以及编辑/暂停帐户。

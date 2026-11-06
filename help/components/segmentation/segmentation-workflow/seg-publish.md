@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1438'
 ht-degree: 31%
 ---
 # 发布区段 {#publish-segments}
@@ -56,7 +56,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [发布区段](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}。
+观看演示视频的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[发布区段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ ht-degree: 31%
 ## 先决条件
 
 * 请确保要保存此区段的报表包已[启用CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 否则，您无法将其发布到CX Enterprise。
-* 确保您的组织使用的是 Experience Cloud ID。
+* 确保您的组织使用的是ECID。
 * 在发布区段之前，您的管理员需要先在[管理控制台](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-tool-experience-cloud)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
 
 ## 注意事项
@@ -92,7 +92,7 @@ ht-degree: 31%
 ## 在[!UICONTROL 区段生成器]中发布区段
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**
-1. 选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建新区段。
+1. 选择&#x200B;**[!UICONTROL 添加]**以创建新区段。
    ![发布CX Enterprise](assets/publish-ec.png)
 1. 提供区段的标题和描述。 在保存区段之前，需要填写这些字段。
 1. 在&#x200B;**[!UICONTROL Experience Cloud发布]**&#x200B;部分中，选择选项&#x200B;**[!UICONTROL 将此区段发布到Experience Cloud（对于&#x200B;*报表包*）]**。
@@ -153,20 +153,20 @@ ht-degree: 31%
 
 1. 在加载页面之前启动 Chrome 开发人员工具
 1. 加载页面，并选中“应用程序”>“Cookie”。 Adobe Audience Manager UUID应在第三方中设置
-Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/reference/demdex-calls)）。 字段demdex是Adobe Audience Manager UUID集
+Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 字段demdex是Adobe Audience Manager UUID集
 在浏览器上（以下示例中为`35721780439475290181087231320657663953`）。
 
    ![Chrome 开发人员工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 访客轮廓查看器]
 
-默认情况下，加载[!UICONTROL 访客资料查看器]时，浏览器上的Adobe Audience Manager UUID是默认的。 如果验证其他用户的特性实现，请在UUID字段中输入UUID，然后单击[!UICONTROL 刷新]。 请参阅[访客轮廓查看器](https://experienceleague.adobe.com/zh-hans/docs/audience-manager/user-guide/features/visitor-profile-viewer)，以了解详细信息。
+默认情况下，加载[!UICONTROL 访客资料查看器]时，浏览器上的Adobe Audience Manager UUID是默认的。 如果验证其他用户的特性实现，请在UUID字段中输入UUID，然后单击[!UICONTROL 刷新]。 请参阅[访客轮廓查看器](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)，以了解详细信息。
 
 ## 在Audience Manager中查看区段特征
 
 在Adobe Audience Manager中，当Analytics与CX Enterprise共享区段时，将对给定区段的具有ECID的访客列表进行评估。
 
-1. 在Audience Manager中，转到&#x200B;**[!UICONTROL 受众数据]** > **[!UICONTROL 特征]** > **[!UICONTROL Analytics特征]**。 您将看到每个Analytics报表包对应的文件夹，这些报表包已映射到您的CX Enterprise组织。 在启动或置备轮廓和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
+1. 在Audience Manager中，转到&#x200B;**[!UICONTROL 受众数据]** > **[!UICONTROL 特征]** > **[!UICONTROL Analytics特征]**。 您将看到每个Analytics报表包对应的文件夹，这些报表包已映射到您的Adobe组织。 在启动或置备轮廓和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
 1. 选择报表包对应的文件夹，您之前在该报表包中创建了要与Audience Manager共享的区段。 您会看到所创建的区段/受众。 当您共享区段时，Audience Manager中会发生以下两种情况：
    * 将创建一个特性，起初该特性中没有数据。 在 在[!DNL Analytics]中发布该区段大约8小时后，会载入一个ECID列表，并将其与Audience Manager和其他CX Enterprise解决方案共享。
 

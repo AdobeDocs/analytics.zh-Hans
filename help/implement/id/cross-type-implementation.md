@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 46%
+source-wordcount: '617'
+ht-degree: 43%
 ---
 # 跨不同的实施类型跟踪
 
@@ -53,16 +53,16 @@ Adobe 建议通过在所有页面使用相同的实施类型来保持站点实�
 
 >[!NOTE]
 >
->所有实施类型必须使用相同的访客标识类型（旧版Analytics ID、访客ID服务或Experience Platform Identity Service）。 Adobe建议尽可能在所有实施中使用ECID。
+>所有实施类型必须使用相同的访客标识类型（旧版Analytics ID、访客ID服务或Web SDK）。 Adobe建议尽可能在所有实施中使用ECID。
 
 | 变量 | Web SDK 标记扩展 | Web SDK(Alloy) | Analytics 扩展 | AppMeasurement | 硬编码图像请求 |
 |---|---|---|---|---|---|
 | 报告包 ID | [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)时添加 Adobe Analytics 作为服务 | [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)时添加 Adobe Analytics 作为服务 | [配置扩展](https://experienceleague.adobe.com/cn/docs/experience-platform/tags/extensions/client/analytics/overview)时的[!UICONTROL 库管理]部分下的[!UICONTROL 报告包] | [`s_gi`](../vars/functions/s-gi.md)中的字符串参数 | URL `pathname` 的一部分（`/b/ss/` 之后） |
-| 访客ID服务 | 本机包含[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)；需要[`idMigrationEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)才能读取访客ID服务Cookie | 本机包含[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)；需要[[!UICONTROL 将ECID从VisitorAPI迁移到Web SDK]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity)以读取访客ID服务Cookie | 使用实现[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)的[“[!UICONTROL Experience Cloud ID服务]”标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview) | 实施[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home) (`VisitorAPI.js`) | 对访客ID服务[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/direct-integration)进行单独调用以获取所需的ID，并在查询字符串中包含`mid` |
-| Edge域 | [配置扩展时[!UICONTROL Edge域]字段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) | [配置 Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview) 时的 `edgeDomain` 属性 | 当[配置扩展](https://experienceleague.adobe.com/cn/docs/experience-platform/tags/extensions/client/analytics/overview)时，位于[!UICONTROL 常规]部分下的[!UICONTROL SSL跟踪服务器] | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md)变量 | 图像请求 URL 的 `hostname` |
+| 访客ID服务 | 本机包含[Edge Network标识](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)；需要[`idMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)才能读取访客ID服务Cookie | 本机包含[Edge Network标识](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)；需要[[!UICONTROL 将ECID从VisitorAPI迁移到Web SDK]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity)以读取访客ID服务Cookie | 使用实现[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)的[“[!UICONTROL Experience Cloud ID服务]”标记扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) | 实施[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home) (`VisitorAPI.js`) | 对访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration)进行单独调用[以获取所需的ID，并在查询字符串中包含`mid` |
+| Edge域 | [配置扩展时[!UICONTROL Edge域]字段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) | [配置 Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 时的 `edgeDomain` 属性 | 当[配置扩展](https://experienceleague.adobe.com/cn/docs/experience-platform/tags/extensions/client/analytics/overview)时，位于[!UICONTROL 常规]部分下的[!UICONTROL SSL跟踪服务器] | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md)变量 | 图像请求 URL 的 `hostname` |
 
 >[!NOTE]
 >
->基于AppMeasurement的实施（包括Analytics标记扩展）与[Experience Platform Identity Service](https://experienceleague.adobe.com/cn/docs/id-service/using/home)不兼容。 您必须使用访客标识的最低通用分母形式才能跨实施类型进行同步，通常是[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home) (`VisitorAPI.js`)。
+>基于AppMeasurement的实施（包括Analytics标记扩展）与[Edge Network身份](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)不兼容。 您必须使用访客标识的最低通用分母形式才能跨实施类型进行同步，通常是[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home) (`VisitorAPI.js`)。
 
 如果这些变量中的任何一个变量在每种实施类型中不一致，Adobe可能会将它们视为单独的访客。 如果未在您的网站上跨实施类型无缝跟踪访客，则最常见的原因是访客识别配置不正确。 确保每个实施类型在整个网站上正确获取相同的ECID （`mid` [查询字符串](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)）。

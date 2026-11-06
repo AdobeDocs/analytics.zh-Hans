@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '754'
 ht-degree: 96%
-
 ---
-
 # 为该应用程序设置执行用户
 
 在某些情况下，执行用户可能需要一些其他帮助才能访问和使用应用程序。 本节提供相关信息，帮助您提供这种协助。
@@ -78,7 +76,7 @@ ht-degree: 96%
 
    这将显示&#x200B;**[!UICONTROL 选择公司]**&#x200B;屏幕。 该屏幕列出了执行用户所属的登录公司。
 
-1. 让他们点按应用于您共享的记分卡的登录公司或CX Enterprise Org的名称。
+1. 让他们点按应用于您共享的记分卡的登录公司或Adobe组织的名称。
 
    然后，记分卡列表会显示与该登录公司下的执行用户共享的所有记分卡。
 
