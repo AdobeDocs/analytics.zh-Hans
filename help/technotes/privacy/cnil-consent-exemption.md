@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 91%
+source-wordcount: '772'
+ht-degree: 90%
 ---
 # CNIL 准许豁免
 
@@ -50,7 +50,7 @@ ht-degree: 91%
 该准则提供对同意要求的有限豁免（下称“同意豁免”）。 同意豁免适用于分析 Cookie，其目的仅限于代表 Web 发布者衡量网站或应用程序的受众。 准则规定，要适用准许豁免，必须满足以下条件：
 
 * 数据保留期最长为 25 个月。  可在“[!UICONTROL Analytics]”>“[!UICONTROL 管理]”>“[!UICONTROL 数据治理]”下查看当前的数据保留设置。  [数据保留](/help/technotes/data-retention.md)
-* 在 ECID 中禁用第三方 Cookie。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hans#id-service-api?lang=zh-Hans)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hans#id-service-api?lang=zh-Hans) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hans#id-service-api?lang=zh-Hans)
+* 在访客ID服务中禁用第三方Cookie。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hans#id-service-api?lang=zh-Hans)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hans#id-service-api?lang=zh-Hans) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hans#id-service-api?lang=zh-Hans)
 * Cookie 有效期最长为 13 个月。  可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。 包含Analytics和ECID的CX Enterprise Cookie可延长每次访问的Cookie过期日期。  要设置静态的非滚动Cookie过期时间，您可以：(1)编写自定义代码以设置删除Cookie的日期，或者(2)使用CMP来控制Cookie的重置日期。  [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md)和[CX Enterprise Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hans#ec-cookies?lang=zh-Hans)
 * 范围有限。 Cookie 的范围必须限制在单个网站或应用程序。 [浏览器 Cookie](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * 匿名化。 将 IP 地址的最后一个八位字节匿名化。 [常规帐户设置](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)

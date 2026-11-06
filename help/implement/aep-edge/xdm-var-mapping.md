@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1977'
 ht-degree: 75%
 ---
 # XDM对象字段映射到Adobe Analytics
@@ -103,7 +103,7 @@ ht-degree: 75%
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | 设置相应的 [Prop](/help/components/dimensions/prop.md) 维度。 |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于相应的[自定义事件](/help/components/metrics/custom-events.md)量度。 每个事件 ID 驻留在其 100 组父项中。 例如，要将序列化应用于 `event678`，请使用 `xdm._experience.analytics.event601to700.event678.id`。 |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 按所需的量增加相应的[自定义事件](/help/components/metrics/custom-events.md)量度。 每个事件驻留在其 100 组父项中。 例如，`event567` 的字段为 `xdm._experience.analytics.event501to600.event567.value`。 |
-| `xdm.identityMap.ECID[0].id` | 使用[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)或[Experience Platform标识服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)收集的ECID。 |
+| `xdm.identityMap.ECID[0].id` | 使用[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)或[Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/identity/overview)收集的ECID。 |
 | `xdm.marketing.trackingCode` | 设置 [“跟踪代码”](/help/components/dimensions/tracking-code.md) 维度。 |
 | `xdm.media.mediaTimed.completes.value` | 流媒体服务量度[内容完成](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/metrics/content-completes)。 |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`, `a.media.timePlayed`, `a.media.play` |

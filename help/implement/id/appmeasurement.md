@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # 使用AppMeasurement进行访客识别
 
 AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽然AppMeasurement本身提供了用于识别访客的本机方法，但许多现代浏览器会拒绝它尝试设置的第三方Cookie。 Adobe强烈建议在所有实施中使用[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)以符合现代浏览器隐私标准。 所有版本的AppMeasurement都与`VisitorAPI.js`捆绑在一起，JavaScript库用于实施访客ID服务。
@@ -50,7 +48,7 @@ AppMeasurement是Adobe Analytics用于数据收集的旧版JavaScript库。 虽�
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)的所需边缘域。
 * 您的IMS组织ID：
   1. 使用您的Adobe ID凭据登录[Adobe CX Enterprise](https://experience.adobe.com)。
-  1. 在CX Enterprise界面的任何位置，按`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
+  1. 在CX Enterprise界面中的任意位置，按`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
   1. 出现&#x200B;**[!UICONTROL 用户数据调试器]**。 选择&#x200B;**[!UICONTROL 分配的组织]**&#x200B;选项卡。
   1. 展开所需的IMS组织。
   1. 找到&#x200B;**[!UICONTROL ID]**&#x200B;字段。

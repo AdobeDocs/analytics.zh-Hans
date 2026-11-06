@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # 适用于Adobe Analytics的访客ID服务迁移注意事项
 
 如果您的组织计划使用现有的Analytics实施迁移到访客ID服务，则需要考虑一些重要主题。 这些注意事项允许您保持访客标识的完整性，并了解访客ID服务如何在现有Analytics实施的情况下运行。
 
 >[!TIP]
 >
->本页仅适用于现有AppMeasurement或Analytics扩展实施，并且是添加访客ID服务还是升级到Web SDK实施。 换言之，您的实施使用的是旧版Analytics ID (`aid`)，并且正在转为使用ECID (`mid`)。 所有Web SDK实施都使用[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)，该服务默认使用ECID (`mid`)。
+>本页仅适用于现有AppMeasurement或Analytics扩展实施，并且是添加访客ID服务还是升级到Web SDK实施。 换言之，您的实施使用的是旧版Analytics ID (`aid`)，并且正在转为使用ECID (`mid`)。 所有Web SDK实施都使用[Edge Network标识](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/identity/overview)，默认情况下它使用ECID (`mid`)。
 
 ## 访客ID服务如何与旧版Analytics访客Cookie进行交互
 

@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2101'
 ht-degree: 93%
 ---
 # Adobe Analytics 和浏览器 Cookie
@@ -84,7 +84,7 @@ ITP 策略经常发生改变。 有关最新策略，请查看 Apple 的 [Webkit
 
 Adobe 设置的所有第一方 Cookie 以及相关的 JavaScript 库均受 ITP 策略影响：
 
-* 由Adobe访客ID服务(ECID)库设置的[&quot;AMCV&quot; Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)
+* 由Adobe访客ID服务库设置的[&quot;AMCV&quot; Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)
 * 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics)
 * Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
 

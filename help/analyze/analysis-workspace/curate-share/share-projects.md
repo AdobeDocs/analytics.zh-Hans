@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2045'
 ht-degree: 89%
 ---
 # 共享项目 {#share-projects}
@@ -214,7 +214,7 @@ ht-degree: 89%
 
    * **[!UICONTROL 需要CX Enterprise身份验证]：**
 
-     启用此选项后，唯一能够访问项目的用户是那些能够登录到您共享的项目所在的Adobe CX Enterprise组织的用户。 但是，您与其共享的用户无需有权访问 Adobe Analytics。
+     启用此选项后，唯一能够访问项目的用户是那些能够登录到您共享的项目所在的Adobe组织的用户。 但是，您与其共享的用户无需有权访问 Adobe Analytics。
 
      Analytics 管理员可为公司配置此首选项，如[首选项](/help/analyze/analysis-workspace/user-preferences.md)所述。 根据管理员如何配置此选项，您可能会遇到以下情况：
 

@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 44%
+source-wordcount: '306'
+ht-degree: 40%
 ---
 # 访客计数差异
 
@@ -46,11 +46,11 @@ Adobe Analytics 和 Adobe Audience Manager 中有一些访客量度具有相似�
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hans"  > Adobe Audience Manager：总区段人口</a> </p> </td> 
-   <td colname="col3"> <p>在回顾期间作为区段成员的设备 (Experience Cloud ID) 计数。 </p> </td> 
+   <td colname="col3"> <p>回顾期间属于区段成员的设备(ECID)计数。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hans"  > Adobe Audience Manager：实时区段人口</a> </p> </td> 
-   <td colname="col3"> <p>在回顾期间，作为区段成员并访问您资产的设备(Experience Cloud ID)的数量。 </p> </td> 
+   <td colname="col3"> <p>在回顾期间作为区段成员并到达您的资产的设备(ECID)计数。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：独特访客 </p> </td> 
@@ -58,7 +58,7 @@ Adobe Analytics 和 Adobe Audience Manager 中有一些访客量度具有相似�
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：具有Experience Cloud ID的访客 </p> </td> 
-   <td colname="col3"> <p>显示在报表时段内访问您资产的具有Experience Cloud ID的独特访客数量。 </p> </td> 
+   <td colname="col3"> <p>显示有ECID的独特访客在报表时段内访问您的资产的数量。 </p> </td>
   </tr> 
  </tbody> 
 </table>

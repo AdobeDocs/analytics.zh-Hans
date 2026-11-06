@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 13%
 ---
 # 跟踪选择禁用的原因
 
 >[!BEGINSHADEBOX]
 
-*此页面引用了[维度](overview.md)，通过该维度，您可以查看启用某些报表包设置可能会产生的数据影响。 它与[Adobe Experience Cloud ID选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)无关。*
+*此页面引用了[维度](overview.md)，通过该维度，您可以查看启用某些报表包设置可能会产生的数据影响。 它与访客ID服务[选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)无关。*
 
 >[!ENDSHADEBOX]
 

@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 59%
+source-wordcount: '888'
+ht-degree: 51%
 ---
 # 服务器端转发概述
 
@@ -59,14 +59,14 @@ ht-degree: 59%
 
 要了解您的组织在实施服务器端转发方面的进展，请执行以下验证步骤：
 
-## ![step1_icon.png 图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) 验证 ECID 服务的实施情况
+## ![step1_icon.png图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png)验证访客ID服务的实施
 
-通过检查 [Analytics 跟踪请求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=zh-Hans)，验证是否实施了 Experience Cloud ID (ECID) 服务。
+通过检查[Analytics跟踪请求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=zh-Hans)，验证是否已实施访客ID服务。
 
-在“请求”选项卡中，验证是否设置了 ECID 值。 这可让您了解是否正确实施了身份标识服务，该服务是服务器端转发的先决条件。
+在“请求”选项卡中，验证是否设置了ECID值。 这可让您了解访客ID服务是否已正确实施，该服务是服务器端转发的先决条件。
 
 * 如果您看到了 ECID 值，请继续执行步骤 2。
-* 如果您没有看到 ECID 值，请先[实施身份标识服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)，然后再继续执行步骤 2。
+* 如果您没有看到ECID值，请先实施[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)，然后再继续执行步骤2。
 
 ## ![step2_icon.png 图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) 验证服务器端转发实施版本
 

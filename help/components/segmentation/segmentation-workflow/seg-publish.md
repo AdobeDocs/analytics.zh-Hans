@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1438'
 ht-degree: 31%
 ---
 # 发布区段 {#publish-segments}
@@ -68,7 +68,7 @@ ht-degree: 31%
 ## 先决条件
 
 * 请确保要保存此区段的报表包已[启用CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 否则，您无法将其发布到CX Enterprise。
-* 确保您的组织使用的是 Experience Cloud ID。
+* 确保您的组织使用的是ECID。
 * 在发布区段之前，您的管理员需要先在[管理控制台](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/admin-tool-experience-cloud)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
 
 ## 注意事项
@@ -166,7 +166,7 @@ Demdex Cookie （以下示例中为[adobe.demdex.net](https://experienceleague.a
 
 在Adobe Audience Manager中，当Analytics与CX Enterprise共享区段时，将对给定区段的具有ECID的访客列表进行评估。
 
-1. 在Audience Manager中，转到&#x200B;**[!UICONTROL 受众数据]** > **[!UICONTROL 特征]** > **[!UICONTROL Analytics特征]**。 您将看到每个Analytics报表包对应的文件夹，这些报表包已映射到您的CX Enterprise组织。 在启动或置备轮廓和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
+1. 在Audience Manager中，转到&#x200B;**[!UICONTROL 受众数据]** > **[!UICONTROL 特征]** > **[!UICONTROL Analytics特征]**。 您将看到每个Analytics报表包对应的文件夹，这些报表包已映射到您的Adobe组织。 在启动或置备轮廓和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
 1. 选择报表包对应的文件夹，您之前在该报表包中创建了要与Audience Manager共享的区段。 您会看到所创建的区段/受众。 当您共享区段时，Audience Manager中会发生以下两种情况：
    * 将创建一个特性，起初该特性中没有数据。 在 在[!DNL Analytics]中发布该区段大约8小时后，会载入一个ECID列表，并将其与Audience Manager和其他CX Enterprise解决方案共享。
 

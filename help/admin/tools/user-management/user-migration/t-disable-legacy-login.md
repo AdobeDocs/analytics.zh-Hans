@@ -20,18 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: '185'
 ht-degree: 52%
-
 ---
-
 # 禁用旧版登录
 
 了解如何为Analytics用户禁用旧版登录。
 
-当用户从旧版Analytics用户管理系统迁移到Adobe Admin Console后，您可以禁用其旧版登录。 如果用户尝试使用旧版登录，则禁用旧版登录会将用户重定向到CX Enterprise登录。
+当用户从旧版Analytics用户管理系统迁移到Adobe Admin Console后，您可以禁用其旧版登录。 如果禁用旧版登录，则当用户尝试使用旧版登录时，会将用户重定向到CX Enterprise登录。
 
 1. 在 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户 ID 迁移]**&#x200B;中打开迁移工具。
 1. 在 [!DNL User Information] 部分中，找到包含待处理用户的域，然后单击&#x200B;**[!UICONTROL 选择用户]**。
@@ -44,4 +42,4 @@ ht-degree: 52%
 
    “禁用旧版登录”可指示哪些用户可以继续使用其旧版 [!DNL my.omniture.com] 用户名和密码。
 
-   您无法为尚未迁移的用户禁用旧版登录。 禁用后，用户必须使用其Experience Cloud ID登录和访问Analytics。
+   您无法为尚未迁移的用户禁用旧版登录。 禁用后，用户必须使用其CX Enterprise凭据登录和访问Analytics。

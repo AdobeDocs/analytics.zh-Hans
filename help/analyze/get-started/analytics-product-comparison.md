@@ -46,13 +46,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '527'
 ht-degree: 67%
-
 ---
-
 # Analytics 产品比较和要求
 
 此页面包含各种 Adobe Analytics 产品的比较：Analysis Workspace、Report Builder、Data Warehouse、数据馈送和 Analytics API 2.0。
@@ -63,7 +61,7 @@ ht-degree: 67%
 |---|---|---|---|---|---|
 | **访问方法** | [浏览器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | 通过浏览器进行安装。 [了解详情](/help/analyze/get-started/sys-reqs.md) | 通过浏览器进行安装。 [了解详情](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。 使用 Adobe Developer 凭据登录。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **数据粒度** | 汇总 | 汇总 | 汇总 | 点击 | 汇总 |
-| **Experience Cloud ID (ECID) 可用** | 否 | 否 | 是 | 是 | 否 |
+| **ECID可用** | 否 | 否 | 是 | 是 | 否 |
 | **时间戳可用** | 否 | 否 | 否 | 是 | 否 |
 | **处理级别** | 完全处理 | 完全处理，具有单独的[实时报告](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) | 完全处理 | 完全处理 | 完全处理 |
 | **包含管理员机器人过滤器数据**<br> [了解详情](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | 否 | 是 - 单独的机器人报告 | 否 | 否 | 否 |

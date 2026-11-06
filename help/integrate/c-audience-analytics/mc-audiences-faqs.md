@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1119'
 ht-degree: 16%
 ---
 # 常见问题解答
@@ -155,7 +155,7 @@ ht-degree: 16%
 
 +++ 为什么我无法在Analytics管理员中为某些报表包启用SSF？
 
-只能启用映射到您的CX Enterprise组织的报表包。
+只能启用映射到您的Adobe组织的报表包。
 
 有关此主题的更多常见问题解答，请参阅[服务器端转发常见问题解答](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)。
 

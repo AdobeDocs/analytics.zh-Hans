@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 18%
 ---
 # 为 Advertising Analytics 启用报表包
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 1. 导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 
-1. 选择已映射到您的CX Enterprise组织的报表包。
+1. 选择已映射到您的Adobe组织的报表包。
 1. 单击 **[!UICONTROL 编辑设置]**>**[!UICONTROL Advertising Analytics 配置]**。
 
    ![报表](assets/aa-reporting.png)

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 88%
+source-wordcount: '559'
+ht-degree: 87%
 ---
 # 服务器端转发数据和代码参考
 
@@ -50,7 +50,7 @@ ht-degree: 88%
 | `d_rs` | （通过基于旧版/跟踪服务器的服务器端转发进行设置）。<br>设置为将点击数据传递到 Analytics 的报表包。 |
 | `d_dst_filter` | （通过基于报表包的服务器端转发进行设置）。<br>设置为将报表包 ID 传递到 Analytics 的点击。 |
 | `d_dst` | 如果对 Analytics 的请求需要有关要发送回客户端的目标的内容，请设置 `d_dst=1`。<br> |
-| `d_mid` | 传递到 Analytics 的 Experience Cloud ID。 |
+| `d_mid` | 传递到Analytics的ECID。 |
 
 ## HTTP 头 {#section_0549705E76004F9585224AEF872066C0}
 

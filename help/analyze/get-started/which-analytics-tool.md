@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 67%
+source-wordcount: '1170'
+ht-degree: 65%
 ---
 # 我应该使用哪种 Adobe Analytics 工具？
 
@@ -123,7 +123,7 @@ ht-degree: 67%
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 的使用说明：
 
-* 用于访问在 UI 中原本隐藏的变量，包括 IP 地址、Experience Cloud ID、Analytics 访客 ID、页面 URL）
+* 用于访问隐藏在UI中的变量（IP地址、ECID、Analytics访客ID、页面URL）
 * 访问比UI更细粒度的数据（非标准化表视图）
 * 以适合数据透视表输入的格式下载数据
 * 如果客户希望将Adobe数据输入到第三方数据可视化工具中（稍微摘要一下，而不是点击级别）

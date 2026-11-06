@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '747'
 ht-degree: 11%
 ---
 # trackingServerSecure
@@ -102,15 +102,15 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Adobe强烈建议在[解决方案设计文档](../../prepare/solution-design.md)中维护此信息，以保持整个组织的一致性。
 
-## 不使用访客ID服务或Experience Platform Identity服务所产生的影响
+## 不使用访客ID服务或Web SDK的后果 {#ramifications-for-not-using-the-visitor-id-service-or-experience-platform-identity-service}
 
 Adobe强烈建议在所有实施中使用ECID作为访客身份的主要形式。 可以通过多种不同的方式收集ECID，具体取决于实施类型：
 
 * 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[为Analytics实施访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/setup-analytics)。
 * 使用Adobe Analytics标记扩展的实施使用[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)，该扩展实现了访客ID服务。 添加后，无需其他配置。
-* 使用任何形式的Web SDK（`alloy.js`或Web SDK标记扩展）的实施会自动包含Experience Platform Identity服务。 设置`edgeDomain`值后无需进行配置。
+* 使用任何形式的Web SDK（`alloy.js`或Web SDK标记扩展）的实施都会自动包含Edge Network标识。 设置`edgeDomain`值后无需进行配置。
 
 **如果您的实施不使用ECID**，请考虑对您的实施产生以下影响：
 
-* 如果未使用访客ID服务或Experience Platform Identity服务，`trackingServerSecure`将确定Cookie位置。 将此变量设置为第三方域会强制AppMeasurement使用回退Cookie，因为大多数现代浏览器会拒绝第三方Cookie。
+* 如果不使用访客ID服务或Web SDK，`trackingServerSecure`将确定Cookie位置。 将此变量设置为第三方域会强制AppMeasurement使用回退Cookie，因为大多数现代浏览器会拒绝第三方Cookie。
 * 内部链接跟踪和Activity Map可能不太可靠。

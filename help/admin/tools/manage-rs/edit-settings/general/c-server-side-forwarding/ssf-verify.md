@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 33%
+source-wordcount: '247'
+ht-degree: 17%
 ---
 # 如何验证服务器端转发的实施情况
 
@@ -50,7 +50,7 @@ ht-degree: 33%
 
 >[!CAUTION]
 >
->如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。 请确保已正确部署身份标识服务，已部署 App Measurement 模块，已将适用的报告包映射到正确的组织 ID，并且已在 Analytics 管理工具中启用服务器端转发。
+>如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。 请确保已正确部署访客ID服务，已部署App Measurement模块，已将适用的报表包映射到正确的组织ID，并且已在Analytics管理工具中启用服务器端转发。
 
 >[!MORELIKETHIS]
 >

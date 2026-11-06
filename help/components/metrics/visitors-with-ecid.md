@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 25%
+source-wordcount: '381'
+ht-degree: 23%
 ---
 # 具有 Experience Cloud ID 的访客
 
-Experience Cloud ID为&#39; [metric](overview.md)的“访客”显示Adobe识别的具有ECID （使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)或[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)）的独特访客数。 此量度有助于与[独特访客](unique-visitors.md)量度进行比较，以确保您网站的大多数访客都使用ECID。 如果大部分访客不使用此标识符，则它可能会指示您的实施中存在问题。
+Experience Cloud ID为&#39; [metric](overview.md)的“访客”显示Adobe识别的具有ECID （使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)或[Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/identity/overview)）的独特访客数。 此量度有助于与[独特访客](unique-visitors.md)量度进行比较，以确保您网站的大多数访客都使用ECID。 如果大部分访客不使用此标识符，则它可能会指示您的实施中存在问题。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Experience Cloud ID为&#39; [metric](overview.md)的“访客”显示Adobe识�
 
 ## 调试您的ECID设置
 
-“[!UICONTROL Experience Cloud ID为]”的访客量度可用于对CX Enterprise集成进行故障诊断，或识别未部署访客ID服务或Experience Platform Identity服务的网站区域。
+“[!UICONTROL Experience Cloud ID为]”的访客量度可用于对CX Enterprise集成进行故障诊断，或识别未部署访客ID服务或Web SDK的网站区域。
 
 将Experience Cloud ID为的“访客”拖动到“独特访客”的并排位置，以比较它们：
 

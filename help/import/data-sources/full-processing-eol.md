@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 5%
 ---
 # 完全处理数据源生命周期结束
@@ -62,7 +62,7 @@ ht-degree: 5%
 * **`ipaddress`**： [IP地址](/help/components/dimensions/ip-address.md)维度。
 * **`language`**： [语言](/help/components/dimensions/language.md)维度。
 * **`list1`** - **`list3`**： [列表变量](/help/implement/vars/page-vars/list.md)。
-* **`marketingCloudVisitorID`**：访客的Experience Cloud ID。
+* **`marketingCloudVisitorID`**：访客的ECID。
 * **`tnta`**： [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)集成中使用的Target数据有效负载。
 * **`trackingServer`**： [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md)变量。
 * **`transactionID`**： [`transactionID`](/help/implement/vars/page-vars/transactionid.md)变量。

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 24%
 ---
 # 服务器调用使用情况
@@ -69,7 +69,7 @@ Adobe Analytics服务器调用使用情况可以满足您对浏览器和移动�
   </tr> 
   <tr> 
    <td colname="col1"> <p>账单公司（账单ID） </p> </td> 
-   <td colname="col2"> <p>对服务器调用记帐的法人。 例如，adobe.com。 每个账单公司都有一个账单ID，用于唯一标识账单客户。 计费ID可以绑定到多个CX Enterprise组织；组织和计费ID之间并不总是存在1:1的关系。 </p> </td> 
+   <td colname="col2"> <p>对服务器调用记帐的法人。 例如，adobe.com。 每个账单公司都有一个账单ID，用于唯一标识账单客户。 计费ID可以绑定到多个Adobe组织；组织和计费ID之间并不总是存在1:1的关系。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>登录公司 </p> </td> 
@@ -82,7 +82,7 @@ Adobe Analytics服务器调用使用情况可以满足您对浏览器和移动�
     </ul> <p>注意：一个账单公司所拥有的<u>所有</u>报表包的服务器调用使用情况数据对具有相应<a href="/help/admin/admin-console/permissions/analytics-tools.md">权限</a>的所有用户都可见。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CX Enterprise组织 </p> </td> 
+   <td colname="col1"> <p>Adobe组织 </p> </td> 
    <td colname="col2"> <p>组织是一个实体，它允许管理员配置群组和用户，并控制CX Enterprise中的单点登录。 组织的作用类似于一个衔接所有CX Enterprise产品和解决方案的登录公司。 </p> <p>大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。 </p> </td> 
   </tr> 
   <tr> 

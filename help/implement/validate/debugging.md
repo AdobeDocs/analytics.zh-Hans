@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 2%
 ---
 # 调试Analytics数据收集
@@ -94,7 +94,7 @@ AppMeasurement通过`navigator.sendBeacon()`发送退出链接请求以及启用
 
 ### 支票处理 {#web-sdk-processing}
 
-在Edge跟踪打开的Assurance会话中，搜索`hitdebugger`的事件。 这些事件使用供应商`com.adobe.analytics.hitdebugger`，并且其负载在Analytics处理后显示值，例如Experience Cloud ID (`mcvisId`)和`pageName`。
+在Edge跟踪打开的Assurance会话中，搜索`hitdebugger`的事件。 这些事件使用供应商`com.adobe.analytics.hitdebugger`，并且其负载在Analytics处理后显示值，如ECID (`mcvisId`)和`pageName`。
 
 有关引导式演练，请参阅[使用Adobe Experience Platform Web SDK设置Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics)。
 

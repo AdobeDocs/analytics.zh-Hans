@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 ---
 # 使用数据插入API识别访客
@@ -62,7 +62,7 @@ var ecid = visitor.getMarketingCloudVisitorID();
 
 在每次点击时将该值作为`mid`查询参数发送，并将您的IMS组织ID作为`mcorgid`参数发送，以便ECID正确解析。 如果您的数据转发到Audience Manager，则也从[`getLocationHint`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/getlocationhint)发送区域作为`aamlh`参数。 要将您自己的客户标识符与访客相关联，请使用[`setCustomerIDs`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/setcustomerids)。
 
-对于服务器端收集，请在客户端获取ECID，并将其转发到您的服务器，以便在每次点击时发送。 若要在没有客户端的情况下完全在服务器端生成ECID，请使用ID服务的[直接集成](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/direct-integration)。
+对于服务器端收集，请在客户端获取ECID，并将其转发到您的服务器，以便在每次点击时发送。 若要在没有客户端的情况下完全在服务器端生成ECID，请使用访客ID服务的[直接集成](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/direct-integration)。
 
 ## 使用Analytics访客标识
 
