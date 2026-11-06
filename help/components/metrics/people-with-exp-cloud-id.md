@@ -25,11 +25,11 @@ ht-degree: 28%
 ---
 # 具有 Experience Cloud ID 的人员
 
-“具有Experience Cloud ID的人员”是一个[跨设备分析](../cda/overview.md)指标，它显示Adobe使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)或[Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)识别的[人员](people.md)的数量。
+“具有Experience Cloud ID的人员”是一个[跨设备分析](../cda/overview.md)指标，它显示Adobe使用[访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)或[Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/identity/overview)识别的[人员](people.md)的数量。
 
 ## 如何计算此指标
 
-考虑到每个[人员](people.md)（已识别或未识别），如果点击包含`mid`查询字符串（基于[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie），则此[指标](overview.md)将增加。
+考虑到每个[人员](people.md)（已识别或未识别），如果点击包含`mid`查询字符串（基于[`s_ecid`](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/analytics) Cookie），则此[指标](overview.md)将增加。
 
 可创建计算指标 `[People with ECID] ÷ [People]` 以使用 ID 服务获取您网站访客所占的百分比。
 

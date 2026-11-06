@@ -61,12 +61,12 @@ ht-degree: 51%
 
 ## ![step1_icon.png图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png)验证访客ID服务的实施
 
-通过检查[Analytics跟踪请求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)，验证是否已实施访客ID服务。
+通过检查[Analytics跟踪请求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=zh-Hans)，验证是否已实施访客ID服务。
 
 在“请求”选项卡中，验证是否设置了ECID值。 这可让您了解访客ID服务是否已正确实施，该服务是服务器端转发的先决条件。
 
 * 如果您看到了 ECID 值，请继续执行步骤 2。
-* 如果您没有看到ECID值，请先实施[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)，然后再继续执行步骤2。
+* 如果您没有看到ECID值，请先实施[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)，然后再继续执行步骤2。
 
 ## ![step2_icon.png 图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) 验证服务器端转发实施版本
 
@@ -80,10 +80,10 @@ ht-degree: 51%
 
   * **拥有 DIL 的 Adobe Audience Manager 客户**：密切配合以下 2 项：
 
-    1. 删除DIL代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码。
+    1. 删除DIL代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)页面代码。
     1. 在Analytics管理员UI中启用服务器端转发，如步骤3中所述。 在删除DIL代码之前启用此设置将复制数据，并创建对Audience Manager的其他计费服务器调用。
 
-  * **新 Adobe Audience Manager 客户**：安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码并继续执行步骤 3。 在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
+  * **新 Adobe Audience Manager 客户**：安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)页面代码并继续执行步骤 3。 在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
 
 ## ![step3_icon.png 图像](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 验证报表包的服务器端转发实施
 
@@ -99,4 +99,4 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->在全部完成这3个步骤之后，数据才会显示在其他CX Enterprise解决方案中，例如[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)或[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。 这些设置在启用后需要几个小时才会生效。
+>在全部完成这3个步骤之后，数据才会显示在其他CX Enterprise解决方案中，例如[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans)或[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。 这些设置在启用后需要几个小时才会生效。

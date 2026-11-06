@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->本页仅适用于现有AppMeasurement或Analytics扩展实施，并且是添加访客ID服务还是升级到Web SDK实施。 换言之，您的实施使用的是旧版Analytics ID (`aid`)，并且正在转为使用ECID (`mid`)。 所有Web SDK实施都使用[Edge Network标识](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)，默认情况下它使用ECID (`mid`)。
+>本页仅适用于现有AppMeasurement或Analytics扩展实施，并且是添加访客ID服务还是升级到Web SDK实施。 换言之，您的实施使用的是旧版Analytics ID (`aid`)，并且正在转为使用ECID (`mid`)。 所有Web SDK实施都使用[Edge Network标识](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/identity/overview)，默认情况下它使用ECID (`mid`)。
 
 ## 访客ID服务如何与旧版Analytics访客Cookie进行交互
 
@@ -55,8 +55,8 @@ ht-degree: 0%
 
 某些旧版Analytics访客ID实施可能使用“友好的第三方Cookie”，其中两个域在像`data.example.com`这样的公共域上共享相同的访客Cookie。 由于友好的第三方Cookie仍然是第三方Cookie，因此许多现代浏览器会拒绝它们，从而导致Analytics依赖回退ID (`fid`)来识别访客。 迁移到访客ID服务后，所有域都可以在第一方上下文中设置`AMCV` Cookie，从而提高它们保留访客ID的可行性。
 
-当访客ID服务尝试为跨域跟踪设置第三方Cookie([`demdex` Cookie](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies))时，它经常被现代浏览器拒绝。 考虑使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid)方法在您拥有的域之间传递访客的ECID (`mid`)。
+当访客ID服务尝试为跨域跟踪设置第三方Cookie([`demdex` Cookie](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/intro/cookies))时，它经常被现代浏览器拒绝。 考虑使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/appendvisitorid)方法在您拥有的域之间传递访客的ECID (`mid`)。
 
 ## 服务器端跟踪
 
-您可以调用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)以获取ECID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以获取旧版Analytics ID (`aid`)。 Adobe建议同时检查这两个变量，以保留访客识别逻辑。
+您可以调用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/getmcvid)以获取ECID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以获取旧版Analytics ID (`aid`)。 Adobe建议同时检查这两个变量，以保留访客识别逻辑。
