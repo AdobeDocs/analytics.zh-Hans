@@ -45,7 +45,7 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 | 规则类型 | 描述 |
 |--- |--- |
-| 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**&#x200B;可使用 [IAB ](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。 大多数客户至少都会选择此选项。 |
+| 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**&#x200B;可使用 [IAB &#x200B;](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。 大多数客户至少都会选择此选项。 |
 | 自定义机器人规则 | 您可以根据用户代理、IP 地址或 IP 范围定义和添加自定义的机器人规则。 |
 
 有关详细信息，请参阅[了解和配置机器人规则](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)。
@@ -56,7 +56,7 @@ Adobe Analytics提供了多个用于从报表中删除机器人流量的选项�
 
 ### 步骤1：将访客的ECID传递到新声明的ID {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hans) 中创建新声明的 ID。 将访客的ECID传递到此新声明的ID中，这可以使用Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)中的[标记快速轻松地完成。 我们使用名称“ECID”作为声明的 ID。
+要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hans) 中创建新声明的 ID。 将访客的ECID传递到此新声明的ID中，这可以使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)中的标记快速轻松地完成。 我们使用名称“ECID”作为声明的 ID。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
