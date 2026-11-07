@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: 7932703bb459e84628099858c62d3be0392a7cf8
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2120'
 ht-degree: 70%
 ---
 # 生成区段
@@ -94,6 +94,10 @@ ht-degree: 70%
 
 您稍后可以随时更改这些设置。
 
+>[!NOTE]
+>
+>区段生成器界面不支持通过[API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/segments/#create-a-segment)创建的所有区段定义。 此页面可能无法成功加载，或者会为这些区段引发错误。
+
 ### 组件
 
 构建区段定义的一个重要部分是使用维度、量度、现有区段和日期范围。 所有这些组件都可以从区段生成器中的组件面板中获得。
@@ -115,7 +119,6 @@ ht-degree: 70%
 
    仅当从&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉菜单中选择&#x200B;[!UICONTROL **人员**]&#x200B;作为定义的范围（容器）时，才会显示此选项。
 
-   **注意**：此功能处于版本的有限测试阶段，可能尚未在您的环境中可用。 当该功能正式可用时，将删除此说明。 有关Customer Journey Analytics发布过程的信息，请参阅[Adobe Analytics功能发布](/help/release-notes/releases.md)。
 
 1. （可选）修改默认运算符。 例如，从&#x200B;**[!UICONTROL 等于]**&#x200B;到&#x200B;**[!UICONTROL 等于任意一个]**。 请参阅 [运算符](../seg-reference/seg-operators.md)，了解可用运算符的详细概述。
 
