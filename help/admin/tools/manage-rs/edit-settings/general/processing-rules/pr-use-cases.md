@@ -58,7 +58,7 @@ ht-degree: 21%
 | 规则集 | 值 |
 | --- | --- |
 | 操作 | [!UICONTROL 用`spa.billing_customer_name`覆盖]的eVar55值（上下文数据） |
-| 操作 | 如果设置了`testhierarchy` （上下文数据），则使用`testhierarchy` （上下文数据）覆盖] Prop7的值[!UICONTROL  |
+| 操作 | 如果设置了`testhierarchy` （上下文数据），则使用`testhierarchy` （上下文数据）覆盖 Prop7的值 |
 | 操作 | [!UICONTROL 用`spa.ims_org`覆盖] eVar8的值（上下文数据） |
 
 ![显示如何有条件地设置值的处理规则界面屏幕截图](assets/add-conditional.png)
