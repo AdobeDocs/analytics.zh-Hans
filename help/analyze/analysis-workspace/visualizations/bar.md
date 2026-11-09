@@ -24,18 +24,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 212
-ht-degree: 76%
-
+source-wordcount: '222'
+ht-degree: 71%
 ---
-
 # 条形图（堆叠）
 
 >[!BEGINSHADEBOX]
 
-_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中记录了条形图和栈叠条形图可视化图表。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，请参阅[栈叠条形图和栈叠条形图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/bar)。_
+_本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中记录了条形图和栈叠条形图可视化图表。_<br/>_对于本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，请参阅[栈叠条形图和栈叠条形图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/bar)。_
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +64,7 @@ _本文在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**
 >[!CONTEXTUALHELP]
 >id="workspace_barstacked_button"
 >title="条形图堆叠"
->abstract="创建条形图可视化图表来表示一个或多个堆叠量度中的多个值。"
+>abstract="创建条形图可视化图表来表示一个或多个堆叠量度的各种值。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 21%
-
 ---
-
 # 处理规则用例
 
 在组织中使用处理规则的应用场合非常广泛。 以下部分将详细介绍一些对您有利的常用方法。
@@ -60,7 +58,7 @@ ht-degree: 21%
 | 规则集 | 值 |
 | --- | --- |
 | 操作 | [!UICONTROL 用`spa.billing_customer_name`覆盖]的eVar55值（上下文数据） |
-| 操作 | 如果设置了`testhierarchy` （上下文数据），则使用`testhierarchy` （上下文数据）覆盖 Prop7的值 |
+| 操作 | 如果设置了`testhierarchy` （上下文数据），则使用`testhierarchy` （上下文数据）覆盖] Prop7的值[!UICONTROL  |
 | 操作 | [!UICONTROL 用`spa.ims_org`覆盖] eVar8的值（上下文数据） |
 
 ![显示如何有条件地设置值的处理规则界面屏幕截图](assets/add-conditional.png)
@@ -157,6 +155,6 @@ Adobe建议使用最严格的匹配选项，以避免不需要的覆盖。 您�
 |条件 |无（始终执行） |
 |操作 | [!UICONTROL 将event] Event1设置为[!UICONTROL 自定义值] `0` |
 
-![显示给以移除事件的处理规则界面的屏幕截图](assets/remove_event.png)
+![显示如何删除事件的处理规则界面屏幕截图](assets/remove_event.png)
 
 +++

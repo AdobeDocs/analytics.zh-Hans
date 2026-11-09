@@ -27,10 +27,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 71%
+ht-degree: 70%
 ---
 # 日期比较
 
@@ -94,7 +94,7 @@ Analysis Workspace中的日期比较允许您采用包含日期范围的任何�
 
 1. 时段会被插入到选定列的顶部：
 
-   ![自由格式表格，显示当前日历周期与上一个日历月份的事件发生次数。](assets/add-time-period-column2.png)
+   ![显示当前日历期间和上一个日历月发生次数的自由格式表。](assets/add-time-period-column2.png)
 
 1. 您可以根据需要添加任意数量的时间列，还可以混合和匹配不同的日期范围：
 
@@ -128,7 +128,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

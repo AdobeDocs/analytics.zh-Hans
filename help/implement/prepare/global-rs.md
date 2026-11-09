@@ -48,10 +48,10 @@ topic_v2:
     internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 95%
+ht-degree: 92%
 ---
 # 全局报表包注意事项
 
@@ -66,7 +66,7 @@ ht-degree: 95%
 * **无需多个报表包：**&#x200B;可以将所有数据收集到一个报表包中，如此一来，开发人员便不太可能将数据误发到错误的报表包。
 * **无需汇总**：汇总是一个比较过时的功能，是指每天对各个报表包的数据进行汇总。 汇总不会删除重复的访问或访客数据，因此会导致数字虚增。 有关详细信息，请参阅《管理员用户指南》中的[汇总](../../admin/tools/manage-rs/rollup-report-suite.md)。
 * **节省时间：**&#x200B;工作区项目、分类、区段和计算量度都与同一全局报表包相关联。 因此，可以节省管理员在管理这些组件和数据上所花费的时间。
-* **更准确的跨品牌归因：**&#x200B;如果在触发成功事件之前，访客首先访问了您的一个网站，然后又点击了您的另一个网站，则系统会收集准确的归因信息。 例如，访客先点击付费搜索链接并登陆网站 A。在此之后，访客又点击指向网站 B 的链接，然后进行购买。 在这种情况下，全局报告包可正确地将购买归因于付费搜索。
+* **更准确的跨品牌归因：**&#x200B;如果在触发成功事件之前，访客首先访问了您的一个网站，然后又点击了您的另一个网站，则系统会收集准确的归因信息。 例如，访客点击付费搜索链接并登陆网站A。然后，他们单击指向网站B的链接，然后进行购买。 在这种情况下，全局报告包可正确地将购买归因于付费搜索。
 * **简化的实施：**&#x200B;由于所有品牌/网站都将数据发送到同一报表包，因此您在每个网站上的实施都将保持一致。 这一强制性管理功能可确保将特定维度或量度保存在同一 eVar 或事件中。 管理员、测试人员、标签管理负责人员和分析师都将从这项简化中受益。
 
 >[!NOTE]
@@ -85,7 +85,7 @@ ht-degree: 95%
    >
    >请确保任何给定的自定义变量在各个域中的使用方式都类似。 请勿在不同网站上将同一 eVar 或事件用于不同目的。
 1. 请确保每个域都有一个数据层，以便能够简化数据收集流程。 如果没有数据层，虽然仍然可以收集数据，但实施的可靠性和持久性都会降低，在对您的网站进行重新设计时尤其如此。
-1. 使用 Adobe Experience Platform 中的标记实施 Analytics。 不同的网站可能需要不同的数据元素。 请使用特定于每个域的规则以确保正确填充每个数据元素，然后将这些数据元素分配给相应的 eVar 和事件。 请参阅[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)。
+1. 使用 Adobe Experience Platform 中的标记实施 Analytics。 不同的网站可能需要不同的数据元素。 请使用特定于每个域的规则以确保正确填充每个数据元素，然后将这些数据元素分配给相应的 eVar 和事件。 请参阅[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 1. 包含[Adobe访客ID服务](https://experienceleague.adobe.com/cn/docs/id-service/using/home)并使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=zh-Hans)函数。 当用户从一个域单击到另一个域时，此函数将合并访客数据。
 
 ## 使用全局报告包修改现有的实施

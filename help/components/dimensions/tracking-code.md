@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 88%
+source-wordcount: '624'
+ht-degree: 84%
 ---
 # 跟踪代码
 
@@ -45,7 +45,7 @@ AppMeasurement 使用 [`campaign`](/help/implement/vars/page-vars/campaign.md) �
 | 属性 | 值 |
 | --- | --- |
 | **AppMeasurement变量** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Web SDK / XDM字段** | [`marketing.trackingCode`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Web SDK / XDM字段** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **查询参数** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML标记** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **字节限制** | 255字节 |

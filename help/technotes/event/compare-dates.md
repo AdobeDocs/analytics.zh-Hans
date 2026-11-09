@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 2. 右键单击日期范围，然后单击&#x200B;**[!UICONTROL 添加时间段列]** > **[!UICONTROL 自定义日期范围到此日期范围]**。
    * 对于逐周比较，请选择事件的范围减去7天。 确保事件与此日期范围之间在一周中的哪几天保持一致。
    * 对于月同比比较，请选择上月事件的范围。 如果要调整一周中的天数，还可以选择事件减去28天的范围。
-   * 对于年度同期比较，请选择去年的事件范围。
+   * 对于年度同期比较，请选择去年事件的范围。
 3. 选择所需的日期范围后，这些日期范围将添加到您的自由格式表中。 您可以右键单击并添加任意多个要比较的日期范围。
 
    ![日期对齐趋势](assets/date_aligned_trends.png)

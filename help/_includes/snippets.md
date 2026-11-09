@@ -1,5 +1,5 @@
 ---
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3238'
 ht-degree: 93%
@@ -20,7 +20,7 @@ ht-degree: 93%
 >经过简化的新版 [Report Builder](/help/analyze/report-builder/rb-overview.md) 自 2024 年 10 月 16 日起可用。 macOS、Windows 和 Web 浏览器支持此版 Report Builder，它可与 Adobe Analytics 和 Customer Journey Analytics 一起使用。
 >旧版 Report Builder 插件版本仍然有效。 您可以[将您的旧版工作簿转换](/help/analyze/report-builder/convert-workbooks.md)到新的 Report Builder。
 
-## Reports & Analytics 生命周期结束公告 {#ra-eol}
+## Reports &amp; Analytics 生命周期结束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -99,7 +99,7 @@ ht-degree: 93%
 * **访问**：从“访问”容器的范围查看转化情况。 如果选择了&#x200B;**[!UICONTROL 访问]**，[归因回顾窗口](#atribution-lookback-window)就会自动设置为&#x200B;**[!UICONTROL 报告窗口]**，且无法更改。
 * **访客**：从“访客”容器的范围查看转化情况。
 
-## 归因回顾窗口 {#attribution-lookback-window}
+## 归因回顾时间范围 {#attribution-lookback-window}
 
 回顾窗口是指为包含接触点而向前回溯的转化时间范围。 如果一个维度项设置在回顾窗口之外，该值就不包含在任何归因计算中。
 
@@ -165,7 +165,7 @@ Customer Journey Analytics 中的各种可视化图表旨在分析您为客户�
 
 | 报告包 | 描述 |
 |---|---|
-| ![报告包](/help/assets/filter-reportsuite.png){width="300"} | 在&#x200B;**[!UICONTROL 报告包]**&#x200B;部分可以筛选报告包。 <ul><li>您可以![搜索](/help/assets/icons/Search.svg) *搜索报告包*，搜索可以用于进行筛选的报告包。</li><li>您可以选择多个报告包。 可用的报告包取决于在筛选面板的其他部分中所做的选择。</li><li>这些数字表明：<ul><li>**(2)**：所选报告包的数量（如果选择了一个或多个报告包）。</li><li>**3︎⃣**：当前筛选条件产生的结果项可用的报告包数量。</li><li>4︎⃣：与特定的报告包相关联的项数。</li></ul></li></ul> |
+| ![报告包](/help/assets/filter-reportsuite.png){width="300"} | 通过&#x200B;**[!UICONTROL 报表包]**&#x200B;部分，可筛选报表包。 <ul><li>您可以![搜索](/help/assets/icons/Search.svg) *搜索报告包*，搜索可以用于进行筛选的报告包。</li><li>您可以选择多个报告包。 可用的报告包取决于在筛选面板的其他部分中所做的选择。</li><li>这些数字表明：<ul><li>**(2)**：所选报告包的数量（如果选择了一个或多个报告包）。</li><li>**3︎⃣**：当前筛选条件产生的结果项可用的报告包数量。</li><li>4︎⃣：与特定的报告包相关联的项数。</li></ul></li></ul> |
 
 ## 已启用状态过滤器部分 {#enabledstatusfiltersection}
 
