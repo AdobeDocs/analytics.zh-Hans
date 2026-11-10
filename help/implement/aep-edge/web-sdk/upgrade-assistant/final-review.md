@@ -86,4 +86,4 @@ ht-degree: 13%
 1. 提交库以供审批，并在暂存环境中测试它。
 1. 批准库并将其发布到生产环境。
 
-请参阅标记用户指南中的[发布流](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
+请参阅标记用户指南中的[发布流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)。

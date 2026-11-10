@@ -71,7 +71,7 @@ Web SDK升级助手可帮助您规划并执行Adobe Analytics标记扩展到Adob
 
 * 升级助手所需的[权限](#permissions)。
 * 使用Adobe Analytics扩展的tags属性。
-* 该属性中的一个库，其中包含您要迁移的实施。 库可以处于任何状态，包括已发布。 请参阅标记用户指南中的[库](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)。
+* 该属性中的一个库，其中包含您要迁移的实施。 库可以处于任何状态，包括已发布。 请参阅标记用户指南中的[库](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/libraries)。
 
 ### 权限 {#permissions}
 
@@ -79,8 +79,8 @@ Web SDK升级助手可帮助您规划并执行Adobe Analytics标记扩展到Adob
 
 | 访问类型 | 必需 |
 | --- | --- |
-| [Experience Platform 权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 查看架构]</li><li>[!UICONTROL 管理架构]</li><li>[!UICONTROL 查看数据集]</li><li>[!UICONTROL 管理数据集]</li><li>[!UICONTROL 查看身份标识命名空间]</li></ul> |
+| [Experience Platform 权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 查看架构]</li><li>[!UICONTROL 管理架构]</li><li>[!UICONTROL 查看数据集]</li><li>[!UICONTROL 管理数据集]</li><li>[!UICONTROL 查看身份标识命名空间]</li></ul> |
 | 产品访问 | <ul><li>数据收集（标记）</li><li>Adobe Analytics</li></ul> |
-| [标记权限](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL 管理属性] |
+| [标记权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL 管理属性] |
 
 准备就绪后，[创建迁移](manager.md#create)。
