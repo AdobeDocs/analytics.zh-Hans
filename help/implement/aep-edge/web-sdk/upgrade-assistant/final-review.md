@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 13%
 ---
 # 最终审阅
@@ -86,4 +86,4 @@ ht-degree: 13%
 1. 提交库以供审批，并在暂存环境中测试它。
 1. 批准库并将其发布到生产环境。
 
-请参阅标记用户指南中的[发布流](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/publishing-flow)。
+请参阅标记用户指南中的[发布流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/publishing-flow)。

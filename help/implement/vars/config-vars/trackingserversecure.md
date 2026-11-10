@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 11%
+source-wordcount: '734'
+ht-degree: 12%
 ---
 # trackingServerSecure
 
@@ -106,7 +106,7 @@ Adobe强烈建议在[解决方案设计文档](../../prepare/solution-design.md)
 
 Adobe强烈建议在所有实施中使用ECID作为访客身份的主要形式。 可以通过多种不同的方式收集ECID，具体取决于实施类型：
 
-* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅[为Analytics实施访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/setup-analytics)。
+* 手动AppMeasurement实施使用`VisitorAPI.js`并调用`getInstance`方法。 有关详细信息，请参阅使用AppMeasurement的[访客识别](/help/implement/id/appmeasurement.md)。
 * 使用Adobe Analytics标记扩展的实施使用[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)，该扩展实现了访客ID服务。 添加后，无需其他配置。
 * 使用任何形式的Web SDK（`alloy.js`或Web SDK标记扩展）的实施都会自动包含Edge Network标识。 设置`edgeDomain`值后无需进行配置。
 
