@@ -18,13 +18,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 86%
-
+source-wordcount: '216'
+ht-degree: 82%
 ---
-
 # 可视化图表颜色调色板 {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
@@ -32,12 +30,12 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_project_colorpalette"
 >title="项目调颜色调色板"
->abstract="更改此项目中使用的颜色调色板。"
+>abstract="更改此项目中使用的调色板。"
 
 <!-- markdownlint-enable MD034 -->
 
 
-您可以更改工作区中使用的可视化调色板。 您可以选择预定义的调色板，也可以指定与您公司品牌颜色相匹配的调色板。 此功能影响工作区中的大部分可视化效果，但它&#x200B;**不**&#x200B;影响摘要变化、自由格式表格中的条件格式和地图可视化效果。
+您可以更改工作区中使用的可视化调色板。 您可以选择预定义的调色板，也可以指定您自己的、与您公司品牌颜色相匹配的调色板。 此功能影响工作区中的大部分可视化效果，但它&#x200B;**不**&#x200B;影响摘要变化、自由格式表格中的条件格式和地图可视化效果。
 
 >[!NOTE]
 >
@@ -48,7 +46,7 @@ ht-degree: 86%
 请牢记：
 
 * 有 6 种预设调色板可供选择。 默认调色板和第二个列出的调色板都针对对比度进行了优化，并且对于色盲用户来说，这两个调色板都更容易使用。
-* 其他调色板已针对色彩和谐进行了优化。
+* 其他调色板已针对颜色和谐度进行了优化。
 
 ## 更改调色板：
 

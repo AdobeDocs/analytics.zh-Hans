@@ -30,13 +30,11 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1704
-ht-degree: 85%
-
+source-wordcount: '1703'
+ht-degree: 84%
 ---
-
 # 配置流量可视化图表 {#configure-a-flow-visualization}
 
 >[!CONTEXTUALHELP]
@@ -158,7 +156,7 @@ ht-degree: 85%
 
 流量配置的摘要显示在可视化图表的顶部。 图中的路径是成比例的。 活动量较大的路径看起来较粗。
 
-![显示访问结束、路径维度的流量输出示例：页面和流量容器：访客。](assets/flow-output.png)
+![显示以访问结束的流量输出示例，路径维度：页面，以及流量容器：访客。](assets/flow-output.png)
 
 要进一步深入分析数据，您有几个选项：
 
@@ -201,7 +199,7 @@ ht-degree: 85%
 | **[!UICONTROL 排除项]**&#x200B;或&#x200B;**[!UICONTROL 还原排除项]** | 从列中删除特定节点，并将其自动创建为列顶部的过滤器。 要还原排除项，请从上下文菜单中选择&#x200B;**[!UICONTROL 还原排除项]**。 您也可以打开列顶部的过滤器，移除带有您刚刚排除的项目的 Pillbox。 |
 | **[!UICONTROL 趋势]** | 为节点创建趋势图表。 |
 | **[!UICONTROL 显示下一列]**/**[!UICONTROL 显示上一列]** | 显示可视化图表的下一列（右）或上一列（左）。 |
-| **[!UICONTROL 隐藏列]**&#x200B;n | 在可视化图表中隐藏选定的列。 |
+| **[!UICONTROL 隐藏列]** | 在可视化图表中隐藏选定的列。 |
 | **[!UICONTROL 扩展整列]** | 展开列以显示所有节点。 默认情况下，仅显示前五个节点。 |
 | **[!UICONTROL 从选择创建受众]** | 根据所选的列创建受众。 |
 | **[!UICONTROL 折叠整列]** | 隐藏某一列中的所有节点。 |

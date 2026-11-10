@@ -19,13 +19,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 503
+source-wordcount: '502'
 ht-degree: 6%
-
 ---
-
 # 将Report Builder函数与Microsoft Excel结合使用
 
 {{legacy-arb}}
@@ -48,7 +46,7 @@ ht-degree: 6%
 | AsyncRefreshActiveWorksheet() | 字符串 | 刷新活动工作表中存在的所有Report Builder请求。 |
 | AsyncRefreshWorksheet(string worksheetName) | 字符串 | 刷新指定工作表中存在的所有Report Builder请求（显示在选项卡上的工作表名称）。 |
 | AsyncRefreshWorksheetAltTextParam()； | 字符串 | 刷新通过Ms表单控件的替换文本传递的特定工作表名称中存在的所有Report Builder请求 |
-| tring GetLastRunStatus() | 字符串 | 返回描述上次运行状态的字符串。 |
+| GetLastRunStatus() | 字符串 | 返回描述上次运行状态的字符串。 |
 
 若要访问Report Builder函数，请转到&#x200B;**[!UICONTROL 公式]** > **[!UICONTROL 插入函数]**。 使用搜索字段搜索函数，或者选择一个类别以列出该类别中的函数。
 

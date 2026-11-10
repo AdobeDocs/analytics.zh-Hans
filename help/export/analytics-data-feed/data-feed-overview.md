@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 95%
@@ -49,7 +49,7 @@ ht-degree: 95%
 * [数据馈送最佳实践](/help/export/analytics-data-feed/data-feeds-best-practices.md)：有关创建和管理数据馈送的最佳实践。
 * [创建数据馈送](create-feed.md)：有关创建数据馈送的技术详细信息，更加详细地阐述各个字段
 * [管理数据馈送](df-manage-feeds.md)：了解有关导览数据馈送界面的更多信息
-* [数据馈送内容](c-df-contents/datafeeds-contents.md)：了解压缩文件 <!-- Is this still the output users can download from the destination? I aske Jun. --> 中的内容
+* [数据馈送内容](c-df-contents/datafeeds-contents.md)：了解压缩文件 <!-- Is this still the output users can download from the destination? I asked Jun. --> 中的内容
 * [数据列定义](c-df-contents/datafeeds-reference.md)：所有可用列的完整列表。
 
 >[!BEGINSHADEBOX]

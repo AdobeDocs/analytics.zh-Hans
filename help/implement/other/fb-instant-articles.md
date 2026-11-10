@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 89%
+ht-degree: 87%
 ---
 # 使用 Facebook Instant Articles 实施
 
@@ -48,7 +48,7 @@ Facebook Instant Articles 允许发布者在 Facebook 上快速构建交互式�
 1. 创建 `stats.html` 页面。 对此页进行编码，以便从 URL 中提取查询字符串参数，并将每个参数分配给 Analytics 变量
 1. 将 `stats.html` 页面托管在 Web 服务器上
 1. 通过在 iFrame 中引用 `stats.html` 文件在 Facebook Instant Articles 上实施 Analytics
-1. 将查询字符串参数包含到 iFrame `src` 属性中
+1. 在iframe `src`属性中包含查询字符串参数
 
 ### 第 1 步：创建 `stats.html` 页面
 

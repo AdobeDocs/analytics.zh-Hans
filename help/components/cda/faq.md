@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # 常见问题解答
 
@@ -59,7 +59,7 @@ ht-degree: 96%
 
 1. 登录到 Adobe Analytics，并创建一个新的空白工作区项目。
 2. 单击左侧的“可视化图表”选项卡，然后将流量可视化图表拖到右侧的画布上。
-3. 单击左侧的“组件”选项卡，然后将“移动设备类型”维度拖到标记为“维度或项目”的中心位置。
+3. 单击左侧的“组件”选项卡，然后将“移动设备类型”维度拖动到标记为“Dimension或项目”的中心位置。
 4. 此流量报告是交互式的。 单击任意值可将流量展开到后续或之前的页面。 使用右键菜单可展开或折叠列。 此外，还可以在同一流量报告中使用不同的维度。
 
 +++

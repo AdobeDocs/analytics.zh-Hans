@@ -67,13 +67,11 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1699
+source-wordcount: '1699'
 ht-degree: 98%
-
 ---
-
 # 管理员、分析师、最终用户和开发人员快速入门
 
 典型组织中有 4 种类型的 Adobe Analytics 用户：
@@ -141,7 +139,7 @@ Analytics 管理员应先完成以下任务，然后再向组织中的用户提�
 | 管理组件 | 使用“数据字典”和每个组件类型的管理区域来定义哪些组件在您的 Analytics 实施中可用，以及哪些组件已批准供您的组织使用。<p>这应该是一项持续的活动，以确保组件在您的组织中得到有效使用。 </p> | <ul><li>[数据词典概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[计算量度管理器](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[管理区段](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[创建自定义日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
 | 异常检测 | 异常检测提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 | [异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | 贡献分析 | “贡献度分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。 | [贡献分析概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| Analytics 分段 | 允许您使用Analytics功能、Adobe CX Enterprise、Adobe Target和其他集成的Adobe产品构建、管理、共享强大而集中的受众区段，并将其应用于您的报表。 | [Analytics 分段](/help/components/segmentation/seg-home.md) |
+| Analytics 分段 | 让您可以使用Analytics功能、Adobe CX Enterprise、Adobe Target和其他集成的Adobe产品生成、管理、共享强大而集中的受众区段并将它们应用到您的报表。 | [Analytics 分段](/help/components/segmentation/seg-home.md) |
 | 将受众发布到 Audience Manager | Adobe Audience Manager 是一个强大的数据管理平台，它帮助您从第一方、第二方（合作伙伴）和第三方的数据集成构建独特的受众轮廓。 | [Audience Analytics 概述](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
 | 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview">流媒体服务</a></li> | [Analytics 集成](/help/integrate/home.md) |
 

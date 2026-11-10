@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7789'
 ht-degree: 88%
 ---
 # Adobe Analytics 技术文档更新
@@ -132,7 +132,7 @@ ht-degree: 88%
 | **2025 年 3 月** |  |
 | 分析库存 | [分析库存](/help/admin/tools/analytics-inventory.md)提供 Adobe Analytics 环境的全面概述，包括项目和组件的数量、报告包、用户等。 |
 | Customer Journey Analytics 升级指南 | 让您生成从 Adobe Analytics 升级到 Customer Journey Analytics 的[分步指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
-| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读 Data Warehouse 导出中的日期值的信息。 <p>在Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中的组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
+| 阐明了 Data Warehouse 导出中的日期格式 | Data Warehouse 导出中基于时间的维度值具有非标准日期格式。 添加了解释如何解读来自 Data Warehouse 导出的日期值的信息。 <p>在Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中的组件支持中查看具有非标准日期格式的[维度](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
 | 关于 IP 排除的更新信息 | 添加了说明 [IP 排除](/help/admin/tools/exclude-ip.md)可能需要长达 5 分钟才能生效，并且更改仅适用于新的点击（设置排除之前捕获的数据不受影响）。 <p>还更新了内容布局以提高可读性。</p> |
 | **2025 年 2 月** |  |
 | 有关暂停和重新激活数据馈送的更新信息 | 当[暂停和重新激活数据馈送](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)时，解释了实时馈送的行为。 从馈送暂停到重新激活期间，不会进行数据处理。 |
@@ -206,7 +206,7 @@ ht-degree: 88%
 | **2023 年 9 月** | |
 | 更新了“媒体播放耗时”面板的文章结构 | 删除了名为“媒体播放耗时”的文件夹，并将该文件夹的内容合并为一篇文章：[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此更改与其他面板的文档更一致。</p> |
 | 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资源。 以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
-| 对流媒体收藏集的报告文档进行了改进 | 重新整理了流媒体收藏集指南的“报告”部分中的一些内容，包括将 API 文档并入其自己的部分中并调整了一些文章的顺序。 |
+| 对流媒体收藏集的报告文档进行了改进 | 重新组织了流媒体收集指南报表部分中的一些内容，包括将API文档合并到其自己的部分并调整了一些文章的顺序。 |
 | **2023 年 8 月** | |
 | 数据馈送说明 | 更新了[开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md)以说明在处理历史数据的数据馈送时，可将开始日期设置为任何过去收集数据时的日期。 |
 | Adobe Experience Platform Edge Network 数据处理 | 添加了有关 Adobe Analytics 如何[处理来自 Edge Network 数据](../implement/aep-edge/overview.md)的内容。 |
@@ -361,7 +361,7 @@ ht-degree: 88%
 | **2020 年 10 月** | |
 | 2020 年 10 月 23 日 | 工作区线形图可视化图表：[均线趋势线选项](/help/analyze/analysis-workspace/visualizations/line.md)：此设置已添加到[!UICONTROL 线形图]可视化图表趋势线设置。 均线也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定），对其求平均值，并将平均值用作折线中的点。 |
 | 2020 年 10 月 23 日 | 工作区[性能帮助页面](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)显示影响项目性能的不同因素以及指向优化提示的链接。 |
-| 2020 年 10 月 23 日 | 增强了 Adobe Analytics 功能板文档。 在工作区中的移动记分卡中，记分卡的样式现在与应用程序匹配。 |
+| 2020 年 10 月 23 日 | 向Adobe Analytics功能板文档添加了增强功能。 在工作区中的移动记分卡中，记分卡的样式现在与应用程序匹配。 |
 | **2020 年 9 月** | |
 | 2020 年 9 月 17 日 | [下载单个维度的 5 万个项目](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items)：现在可以为自由格式表中的单个维度下载 50,000 个项目，并应用区段和过滤器。 这允许您访问 Analysis Workspace 以外的 400 多行数据。 |
 | 2020 年 9 月 17 日 | [线形图可视化图表的增强功能](/help/analyze/analysis-workspace/visualizations/line.md)： <ul><li>可显示或隐藏任何[!UICONTROL 线形图]可视化图表的 X 轴和 Y 轴。 如果想让[!UICONTROL 线形图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何线形图可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何线形图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。 相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |

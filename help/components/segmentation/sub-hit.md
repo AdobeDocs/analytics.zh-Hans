@@ -20,7 +20,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 在分段生成器中，或作为&#x200B;**[!UICONTROL 快速区段]**&#x200B;的一部分，您指定在&#x200B;**[!UICONTROL 点击数]**&#x200B;容器中&#x200B;**[!UICONTROL 包含]** **[!UICONTROL Dimension]** **[!UICONTROL 零售业：时尚产品类别]** **[!UICONTROL 等于]** **[!UICONTROL 男性]**。
 
-![显示产品类别为“男性”的点击级别分段的面板](./assets/product-category-segmentation-hits.png)
+![在产品类别为“男性”的点击级别显示区段的面板](./assets/product-category-segmentation-hits.png)
 
 因此，至少包含一个&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时尚产品类别]**&#x200B;的所有订单都将被考虑，并且这些订单中来自其他产品的收入包含在&#x200B;**[!UICONTROL 在线收入]**&#x200B;量度中。
 当您报告类别时，报告了&#x200B;**[!UICONTROL 零售业：时装产品类别]**&#x200B;的所有其他值，这些值属于包含&#x200B;**[!UICONTROL 男士]** **[!UICONTROL 零售业：时装产品类别]**&#x200B;的产品的订单。
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 在分段生成器中，或作为&#x200B;**[!UICONTROL 快速区段]**&#x200B;的一部分，您指定在&#x200B;**[!UICONTROL 产品]**&#x200B;容器中&#x200B;**[!UICONTROL 包含]** **[!UICONTROL Dimension]** **[!UICONTROL 零售业：时尚产品类别]** **[!UICONTROL 等于]** **[!UICONTROL 男性]**。
 
-![显示产品类别Men的子点击级别分段的面板](./assets/product-category-segmentation-sub-hits.png)
+![显示产品类别为“男性”的子点击级别的分段的面板](./assets/product-category-segmentation-sub-hits.png)
 
 因此，至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**&#x200B;的所有订单都被考虑在内，并且在&#x200B;**[!UICONTROL 在线收入]**&#x200B;量度中只包含属于&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**&#x200B;的产品收入。
 当您报告类别时，仅报告&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：时装产品类别]**。
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 在分段生成器中，或作为&#x200B;**[!UICONTROL 快速区段]**&#x200B;的一部分，您指定在&#x200B;**[!UICONTROL 产品]**&#x200B;容器中&#x200B;**[!UICONTROL 排除]** **[!UICONTROL Dimension]** **[!UICONTROL 零售业：时尚产品类别]** **[!UICONTROL 等于]** **[!UICONTROL 男性]**。
 
-![显示子点击级别的分段以排除产品类别门槛的面板](./assets/product-category-segmentation-sub-hits-exclude.png)
+![显示子点击级别的分段以排除产品类别男士的面板](./assets/product-category-segmentation-sub-hits-exclude.png)
 
 要在产品级别排除，将包含至少包含一个产品的点击，然后在该范围内应用子点击级别的排除。 此排除项与点击级别的排除项不同，点击级别的排除项会排除整个点击。
 

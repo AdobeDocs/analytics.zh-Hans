@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: '822'
 ht-degree: 4%
-
 ---
-
 # 营销渠道处理规则
 
 _此页面指的是将营销渠道分配给点击的处理规则。 请参阅[处理规则](../general/processing-rules/pr-overview.md)以了解允许您调整数据收集方式的功能。_
@@ -102,6 +100,6 @@ _此页面指的是将营销渠道分配给点击的处理规则。 请参阅[�
 
 **转化变量**&#x200B;允许您指定自定义eVar、匹配运算符和要查找的值。
 
-| 转化变量条件 | 描述 |
+| 会话变量条件 | 描述 |
 |---|---|
 | **eVar 1-250** | 关联的[eVar](/help/components/dimensions/evar.md)维度。 |

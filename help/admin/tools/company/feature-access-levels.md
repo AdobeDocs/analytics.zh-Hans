@@ -1,5 +1,5 @@
 ---
-description: 如何查看对于贵公司有权访问的 Adobe Analytics 包和功能的访问级别。
+description: 如何查看对贵公司有权访问的Adobe Analytics包和功能的访问级别。
 title: 功能访问级别
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
@@ -22,17 +22,15 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 82
-ht-degree: 100%
-
+source-wordcount: '81'
+ht-degree: 76%
 ---
-
 # 功能访问级别
 
 **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 查看功能访问级别]**
 
-通过这组设置，可查看对于贵公司有权访问的 Adobe Analytics 包和功能的访问级别。 仅限更高级的产品包 (SKU)（如 [Adobe Analytics Ultimate](https://www.adobe.com/cn/data-analytics-cloud/analytics/ultimate.html)）才有某些功能。
+这组设置允许您查看贵公司有权享有的 Adobe Analytics 包和功能的访问级别。 仅限更高级的产品包 (SKU)（如 [Adobe Analytics Ultimate](https://www.adobe.com/cn/data-analytics-cloud/analytics/ultimate.html)）才有某些功能。
 
 ![](assets/feature-access-levels.png)

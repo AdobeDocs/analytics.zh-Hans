@@ -24,7 +24,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Adobe Analytics提供了用于分析您网站上的AI流量的工具。
 
 | AI流量类型 | 生成点击 | 注意事项 |
 |---------|----------|---------|
-| **预培训** | 是 | 将网站中的内容引入到AI中时，会在预培训期间生成点击。 但是，预培训并不经常发生，并且包含在AI预培训中的内容可以在未来的响应中重复使用，而无需在网站上生成进一步的点击。 <p>换言之，在AI预培训期间发生的单个点击可以重复用于多个按需响应，而不会在您的网站上生成其他点击。</p><p>有关如何在Analysis Workspace中分析此类AI流量的信息，请参阅[使用机器人检测分析AI流量](#analyze-ai-traffic-using-bot-detection)。</p> |
+| **预培训** | 是 | 将网站中的内容引入到AI中时，会在预培训期间生成点击。 但是，预培训并不经常发生，并且包含在AI预培训中的内容可以在未来的响应中重复使用，而不会在您的网站上生成进一步的点击。 <p>换言之，在AI预培训期间发生的单个点击可以重复用于多个按需响应，而不会在您的网站上生成其他点击。</p><p>有关如何在Analysis Workspace中分析此类AI流量的信息，请参阅[使用机器人检测分析AI流量](#analyze-ai-traffic-using-bot-detection)。</p> |
 | **按需提示** | 否 | AI响应不会生成任何点击，因为此响应使用以下项的组合：<ul><li>经过预训练的数据<br/>信息已包含在AI的经过预训练的知识中，因此AI不会在页面上执行JavaScript。</li><li>On-demand Web Search <br/>在Web搜索期间仅获取网页的原始HTML，因此AI不会在页面上执行JavaScript。</li></ul> |
 | AI响应中的&#x200B;**Source材料链接** | 是 | 当用户单击指向AI响应中包含的源资料的链接时，会生成点击。 如果响应中包含链接且用户未单击该链接，则不会生成点击。 <p>有些AI聊天机器人响应包含指向源材料的链接，而另一些则没有。 </p><p>有关如何在Analysis Workspace中分析此类型的AI流量的信息，请参阅[按反向链接类型分析AI流量](#analyze-ai-traffic-by-referrer-type)。</p> |
 | **代理工作流** | 是 | 当AI代理代表用户通过工作流进行点击时，将在每个页面上生成点击。 <p>有关如何在Analysis Workspace中分析此类型的AI流量的信息，请参阅[按反向链接类型分析AI流量](#analyze-ai-traffic-by-referrer-type)。</p> |
