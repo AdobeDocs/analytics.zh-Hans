@@ -72,5 +72,6 @@ ht-degree: 98%
 * [联系客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=Analytics#support)
 * [Experience League上的Adobe Analytics社区](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hans)
 * [Adobe Analytics资源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hans)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League] (https://experienceleague.adobe.com/zh-hans
+)
 
