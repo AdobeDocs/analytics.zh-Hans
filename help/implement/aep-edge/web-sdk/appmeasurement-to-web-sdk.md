@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: '1475'
 ht-degree: 9%
-
 ---
-
 # 从AppMeasurement迁移到Web SDK
 
 此实施路径涉及系统地从AppMeasurement实施迁移到Web SDK JavaScript库实施的方法。 其他实施路径将在单独的页面上介绍：
@@ -85,9 +83,9 @@ Adobe建议在以下情况下遵循此实施路径：
 
 +++**3. 配置Web SDK**
 
-使用Web SDK [`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
+使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令将您的实施设置为指向上一步中创建的数据流。 必须在每个页面上设置`configure`命令，以便您可以将其与库安装代码一起包含。
 
-在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
+在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)属性：
 
 * 将`datastreamId`设置为从上一步检索到的数据流ID。
 * 将`orgId`设置为您组织的IMS组织。
@@ -99,13 +97,13 @@ alloy("configure", {
 });
 ```
 
-您可以选择在[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中设置其他属性，具体取决于贵组织的实施要求。
+您可以选择在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中设置其他属性，具体取决于贵组织的实施要求。
 
 +++
 
 +++**4. 更新代码逻辑以使用JSON有效负载**
 
-更改您的Analytics实施，使其不依赖于`AppMeasurement.js`或`s`对象。 相反，应将变量设置为格式正确的JavaScript对象，该对象在发送到Adobe时会转换为JSON对象。 在网站上设置[数据层](../../prepare/data-layer.md)在设置值时非常有用，因为您可以继续引用这些相同的值。
+更改您的Analytics实施，使其不依赖于`AppMeasurement.js`或`s`对象。 相反，应将变量设置为格式正确的JavaScript对象，该对象在发送到Adobe时会转换为JSON对象。 在网站上设置[数据层](../../prepare/data-layer.md)在设置值时非常有用，因为您可以继续引用这些相同的值。 如果您的网站使用Adobe客户端数据层，请参阅[使用Web SDK发送Adobe客户端数据层数据](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)，以了解如何在调用`sendEvent`时读取数据层值。
 
 若要将数据发送到Adobe Analytics，Web SDK有效负载必须将`data.__adobe.analytics`与此对象中设置的所有Analytics变量一起使用。 此对象中的变量与其AppMeasurement变量的对应变量具有相同的名称和格式。 例如，如果设置`products`变量，请勿像使用XDM时那样将其拆分为单独的对象。 相反，如果设置`s.products`变量，请完全将其作为字符串包含：
 
@@ -140,7 +138,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. 更新方法调用以使用Web SDK**
 
-更新调用[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有实例，将它们替换为[`sendEvent`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 需要考虑三种情况：
+更新调用[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有实例，将它们替换为[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 需要考虑三种情况：
 
 * **页面查看跟踪**：将页面查看跟踪调用替换为Web SDK `sendEvent`命令：
 
@@ -152,7 +150,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **自动链接跟踪**：默认情况下启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/cn/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)配置属性。 它会自动设置正确的链接跟踪变量，以将数据发送到Adobe Analytics。 如果要禁用自动链接跟踪，请在[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中将此属性设置为`false`。
+* **自动链接跟踪**：默认情况下启用[`clickCollectionEnabled`](https://experienceleague.adobe.com/cn/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)配置属性。 它会自动设置正确的链接跟踪变量，以将数据发送到Adobe Analytics。 如果要禁用自动链接跟踪，请在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中将此属性设置为`false`。
 
 * **手动链接跟踪**： Web SDK在pageview调用与非页面视图调用之间没有单独的命令。 在有效负荷对象中提供该区别。
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 85%
 ---
 # 变量、函数、方法及插件概述
 
@@ -58,8 +58,8 @@ Adobe 提供了多种实施 Adobe Analytics 的方法。 每个页面都提供�
 
 由 Adobe Analytics 发布的 AppMeasurement 库在向 Adobe 发送数据时遵循特定顺序。 如果您不按顺序执行任务，则数据可能不完整。
 
-1. 如果您的网站使用数据层，请确保首先填充所有适用变量。 例如，您用页面标题填充 `adobeDataLayer.page.title`。 有关更多信息，请参阅[数据层](../prepare/data-layer.md)。
-2. 使用数据层填充 Analytics 变量。 <br/>如果您使用 Adobe Experience Platform 中的标记，就可以通过使用这些标记之间的数据元素来完成这个任务。 通过数据层中的值填充数据元素。 例如，数据元素 `Page Title` 从数据层变量 `adobeDataLayer.page.title` 中获得值。 <br/>然后您可以使用这个数据元素填充 Analytics 变量。 例如，`eVar4` 从数据元素 `Page Title` 中获得值。 <br/>有关更多信息，请查阅[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)、[将数据层对象映射到数据元素](../launch/layer-to-elements.md)以及[将标记数据元素映射到 Analytics 变量](../launch/elements-to-variable.md)
+1. 如果您的网站使用数据层，请确保首先填充所有适用变量。 例如，使用[Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)时，您的网站代码将以`adobeDataLayer.push({ page: { name: "Home" } })`推送页面名称。 有关更多信息，请参阅[数据层](../prepare/data-layer.md)。
+2. 使用数据层填充 Analytics 变量。 <br/>如果您使用 Adobe Experience Platform 中的标记，就可以通过使用这些标记之间的数据元素来完成这个任务。 通过数据层中的值填充数据元素。 例如，数据元素`Page name`使用Adobe客户端数据层扩展的[数据层计算状态](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)数据元素类型，获取数据层中路径`page.name`处的值。 <br/>然后您可以使用这个数据元素填充 Analytics 变量。 例如，`eVar4` 从数据元素 `Page name` 中获得值。 <br/>有关更多信息，请查阅[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)、[将数据层对象映射到数据元素](../launch/layer-to-elements.md)以及[将标记数据元素映射到 Analytics 变量](../launch/elements-to-variable.md)
 3. 最后，调用跟踪函数。 大多数 AppMeasurement 库都使用 `t()` 方法，但某些 Mobile SDK 使用 `track()`。 调用跟踪函数时，在 Analytics 对象中定义的所有受支持变量都将以图像请求的形式发送到 Adobe。
 
 ## 非法字符

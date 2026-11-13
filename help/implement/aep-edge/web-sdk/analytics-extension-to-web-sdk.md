@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 6%
-
+source-wordcount: '1728'
+ht-degree: 7%
 ---
-
 # 从Adobe Analytics标记扩展迁移到Web SDK标记扩展
 
 此实施路径包含一种从Adobe Analytics标记扩展迁移到Web SDK标记扩展的方法体系。 其他实施路径将在单独的页面上介绍：
@@ -106,7 +104,7 @@ Adobe建议在以下情况下遵循此实施路径：
 1. 在标记界面的左侧导航中，选择&#x200B;**[!UICONTROL 数据元素]**。
 1. 选择&#x200B;**[!UICONTROL 添加数据元素]**
 1. 为数据元素指定以下设置：
-   * [!UICONTROL 名称]：您需要的任何内容，如“数据层”或“数据对象”
+   * [!UICONTROL 名称]：您需要的任何内容，如“数据对象”
    * [!UICONTROL 扩展]：[!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL 数据元素类型]： [!UICONTROL 变量]
    * 复选框可以保持原样
