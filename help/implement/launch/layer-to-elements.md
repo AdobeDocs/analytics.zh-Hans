@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 46%
 ---
 # 将数据层对象映射到数据元素
 
@@ -45,17 +45,25 @@ ht-degree: 93%
 
 [数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)是 Adobe Experience Platform 数据收集中的组件，您可以在整个工具中使用这些组件。 您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
 
+以下步骤使用[Adobe Client Data Layer扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/client-data-layer/overview)，该扩展必须安装在标记属性中。
+
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击所需的标记属性。
-1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加新数据元素]**。
+1. 选择所需的标记属性。
+1. 选择&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 添加数据元素]**。
 
    ![创建数据元素](assets/createelement.png)
 
-1. 输入数据元素的名称。 它可以是一个简单标签，对应于要跟踪的数据层中的 JavaScript 变量。
-1. 在&#x200B;**[!UICONTROL 扩展]**&#x200B;下拉列表下，选择&#x200B;**[!UICONTROL 核心]**。
-1. 在&#x200B;**[!UICONTROL 数据元素类型]**&#x200B;下拉列表下，选择&#x200B;**[!UICONTROL JavaScript变量]**。 右侧会显示一个文本字段，允许您输入要映射到此数据元素的 JavaScript 变量。
-1. 输入所需的 Javascript 变量，该变量通常位于数据层中。 例如，如果贵组织的数据层比较符合 Adobe 的建议做法，则该值可能为 `digitalData.page.pageInfo.pageName`。 您可以使用浏览器的控制台来验证 JavaScript 变量语法和值。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 输入数据元素的名称，如`Page name`。
+1. 在&#x200B;**[!UICONTROL 扩展]**&#x200B;下拉列表下，选择&#x200B;**[!UICONTROL Adobe Client Data Layer]**。
+1. 在&#x200B;**[!UICONTROL 数据元素类型]**&#x200B;下拉列表下，选择&#x200B;**[!UICONTROL 数据层计算状态]**。
+1. 在&#x200B;**[!UICONTROL 返回值]**&#x200B;下，选择&#x200B;**[!UICONTROL 特定路径]**，然后输入数据层中值的路径，如`page.name`。 要验证路径，请在浏览器的控制台中运行`adobeDataLayer.getState("page.name")`。
+1. 选择&#x200B;**[!UICONTROL 保存]**。
+
+在扩展的&#x200B;**[!UICONTROL 数据层推送]**&#x200B;事件触发的规则中使用这些数据元素，以便数据层已加载并包含来自推送的数据。 请参阅[数据元素类型](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)。
+
+### 基于对象的数据层 {#object-based}
+
+如果数据层是JavaScript对象（如CEDDL `digitalData`对象），请改用&#x200B;**[!UICONTROL Core]**&#x200B;扩展中的&#x200B;**[!UICONTROL JavaScript Variable]**&#x200B;数据元素类型。 输入值的路径，如`digitalData.page.pageInfo.pageName`。 此数据元素类型无法读取Adobe Client Data Layer，后者将其数据存储在计算状态而不是对象属性中。
 
 ## 后续步骤
 

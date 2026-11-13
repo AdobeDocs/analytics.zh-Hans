@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 85%
+source-wordcount: '318'
+ht-degree: 78%
 ---
 # referrer
 
@@ -71,10 +71,10 @@ Web SDK会在发送的每个事件中自动包含`web.webReferrer.URL`（如果�
 s.referrer = "https://example.com";
 ```
 
-如果使用`digitalData` [数据层](../../prepare/data-layer.md)：
+如果您使用[Adobe Client Data Layer](../../prepare/data-layer.md)，请使用`getState()`读取值。 请参阅[使用AppMeasurement读取数据层](../../prepare/data-layer.md#appmeasurement)，以了解调用它的时间。
 
 ```js
-s.referrer = digitalData.page.pageInfo.referringURL;
+s.referrer = adobeDataLayer.getState("page.referrer");
 ```
 
 >[!CAUTION]

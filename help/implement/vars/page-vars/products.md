@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 95%
 ---
 # 产品
 
@@ -113,7 +113,7 @@ Adobe Experience Platform 数据收集中没有专门用于设置此变量的字
 * **数量**（可选）：购物车中此产品的数量。 此字段仅适用于具有购买事件的点击。
 * **价格**（可选）：以小数表示的产品总价格。 如果数量大于 1，则将价格设置为总价，而不是产品单价。 调整此值的货币以与 [`currencyCode`](../config-vars/currencycode.md) 变量匹配。 请勿在此字段中包含货币符号。 此字段仅适用于具有购买事件的点击。
 * **事件**（可选）：与产品绑定的事件。 使用管道字符 (`|`) 分隔多个事件。 有关更多信息，请参阅[事件](events/events-overview.md)。
-* **eVar**（可选）：与产品绑定的推销 eVar。 使用管道字符 (`|`) 分隔多个推销 eVar。 有关更多信息，请参阅[推销 eVar ](evar-merchandising.md)。
+* **eVar**（可选）：与产品绑定的推销 eVar。 使用管道字符 (`|`) 分隔多个推销 eVar。 有关更多信息，请参阅[推销 eVar &#x200B;](evar-merchandising.md)。
 
 ```js
 // Set a single product using all available fields
@@ -172,15 +172,12 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-如果使用 `digitalData` [数据层](../../prepare/data-layer.md)，则可通过 `digitalData.product` 对象数组进行迭代：
+如果您使用[Adobe Client Data Layer](../../prepare/data-layer.md)，则可以从`products`数组构建处于计算状态的Product String。 请参阅[使用AppMeasurement读取数据层](../../prepare/data-layer.md#appmeasurement)，以了解何时调用`getState()`。
 
 ```js
-for(var i = 0; i < digitalData.product.length; i++) {
-    // Add individual product info to the product string
-    s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
-    // If there are more products, add a comma
-    if(i != digitalData.product.length - 1) {
-        s.products += ",";
-    }
-}
+var products = adobeDataLayer.getState("products") || [];
+s.products = products.map(function(product) {
+    // Add the category and name of each product, separated by commas
+    return product.category + ";" + product.name;
+}).join(",");
 ```
