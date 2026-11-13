@@ -45,7 +45,7 @@ ht-degree: 46%
 
 [数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)是 Adobe Experience Platform 数据收集中的组件，您可以在整个工具中使用这些组件。 您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
 
-以下步骤使用[Adobe Client Data Layer扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview)，该扩展必须安装在标记属性中。
+以下步骤使用[Adobe Client Data Layer扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/client-data-layer/overview)，该扩展必须安装在标记属性中。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 选择所需的标记属性。
