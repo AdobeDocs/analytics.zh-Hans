@@ -107,7 +107,7 @@ ht-degree: 85%
 * **数据收集服务器：**&#x200B;接收和处理数据的 Adobe 自有服务器。 图像请求将发送到 Adobe 的数据收集服务器，用于报告。
 * **Data Connectors：**&#x200B;已停用的开发解决方案，允许第三方自动将数据上载到Adobe Analytics。 该第三方的客户可以使用数据连接器在 Adobe Analytics 中丰富其数据。 已替换为[Adobe Exchange市场](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE)。
 * **数据馈送：**&#x200B;将每次点击列为行，将变量列为单独的列的原始数据导出。 最常用于将 Adobe Analytics 数据导出到第三方数据库。 请参阅《导出用户指南》中的[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。
-* **数据层：** [数据层](/help/implement/prepare/data-layer.md)是网站上的JavaScript结构，用于公开Analytics实施中使用的数据。 在为 Analytics 变量分配值时，它可以实现更好的控制和更轻松的维护。 Adobe建议使用[Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)，它使用全局`adobeDataLayer`阵列。
+* **数据层：** [数据层](/help/implement/prepare/data-layer.md)是网站上的JavaScript结构，用于公开Analytics实施中使用的数据。 在为 Analytics 变量分配值时，它可以实现更好的控制和更轻松的维护。 Adobe建议使用[Adobe Client Data Layer](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/acdl/overview)，它使用全局`adobeDataLayer`阵列。
 * **数据源：**&#x200B;允许用户将数据从文件上载到 Adobe Analytics。 文件通常从 FTP 站点中提取。 请参阅《导入用户指南》中的[数据源](/help/import/data-sources/overview.md)。
 * **Data Warehouse：** Adobe Analytics 中的一项功能，允许您请求更大的报表。 请参阅《导出用户指南》中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
 * **Data Workbench：** [已停用](https://experienceleague.adobe.com/zh-hans/docs/discontinued/using/data-workbench)分析工具，用于收集、处理、分析和可视化来自多个渠道间在线和离线客户交互的数据。

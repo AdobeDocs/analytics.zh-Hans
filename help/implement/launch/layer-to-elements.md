@@ -59,7 +59,7 @@ ht-degree: 46%
 1. 在&#x200B;**[!UICONTROL 返回值]**&#x200B;下，选择&#x200B;**[!UICONTROL 特定路径]**，然后输入数据层中值的路径，如`page.name`。 要验证路径，请在浏览器的控制台中运行`adobeDataLayer.getState("page.name")`。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-在扩展的&#x200B;**[!UICONTROL 数据层推送]**&#x200B;事件触发的规则中使用这些数据元素，以便数据层已加载并包含来自推送的数据。 请参阅[数据元素类型](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)。
+在扩展的&#x200B;**[!UICONTROL 数据层推送]**&#x200B;事件触发的规则中使用这些数据元素，以便数据层已加载并包含来自推送的数据。 请参阅[数据元素类型](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)。
 
 ### 基于对象的数据层 {#object-based}
 

@@ -103,7 +103,7 @@ alloy("configure", {
 
 +++**4. 更新代码逻辑以使用JSON有效负载**
 
-更改您的Analytics实施，使其不依赖于`AppMeasurement.js`或`s`对象。 相反，应将变量设置为格式正确的JavaScript对象，该对象在发送到Adobe时会转换为JSON对象。 在网站上设置[数据层](../../prepare/data-layer.md)在设置值时非常有用，因为您可以继续引用这些相同的值。 如果您的网站使用Adobe客户端数据层，请参阅[使用Web SDK发送Adobe客户端数据层数据](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)，以了解如何在调用`sendEvent`时读取数据层值。
+更改您的Analytics实施，使其不依赖于`AppMeasurement.js`或`s`对象。 相反，应将变量设置为格式正确的JavaScript对象，该对象在发送到Adobe时会转换为JSON对象。 在网站上设置[数据层](../../prepare/data-layer.md)在设置值时非常有用，因为您可以继续引用这些相同的值。 如果您的网站使用Adobe客户端数据层，请参阅[使用Web SDK发送Adobe客户端数据层数据](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/acdl/web-sdk)，以了解如何在调用`sendEvent`时读取数据层值。
 
 若要将数据发送到Adobe Analytics，Web SDK有效负载必须将`data.__adobe.analytics`与此对象中设置的所有Analytics变量一起使用。 此对象中的变量与其AppMeasurement变量的对应变量具有相同的名称和格式。 例如，如果设置`products`变量，请勿像使用XDM时那样将其拆分为单独的对象。 相反，如果设置`s.products`变量，请完全将其作为字符串包含：
 
