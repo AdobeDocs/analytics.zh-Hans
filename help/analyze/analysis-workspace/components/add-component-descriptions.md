@@ -54,7 +54,7 @@ Analytics管理员可以在报表包中或直接使用Analysis Workspace中的�
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}。
+观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
