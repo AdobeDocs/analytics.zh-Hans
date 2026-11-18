@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 20%
@@ -44,17 +44,17 @@ Analytics管理员可以在报表包中或直接使用Analysis Workspace中的�
 
 您可以向报表包中的组件添加描述。
 
-1. 选择&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 报表包]**。
-1. 在报表包管理器中选择要为其提供组件说明的报表包。
-1. 选择&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化变量]**。
-1. 选择![添加](/help/assets/icons/Add.svg)以显示转化变量的详细信息。
-1. 选中&#x200B;**[!UICONTROL 描述]**&#x200B;的复选框并添加描述。
+1. Select **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 报表包]**。
+1. 在报表包管理器中Select要为其提供组件说明的报表包。
+1. Select **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化变量]**。
+1. Select ![添加](/help/assets/icons/Add.svg)以显示转化变量的详细信息。
+1. Select选中&#x200B;**[!UICONTROL Description]**&#x200B;的复选框并添加说明。
 1. 对要添加说明的任何其他变量重复步骤4和5。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
 >[!BEGINSHADEBOX]
 
-观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}。
+观看演示视频，请参阅![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [添加组件描述](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -75,14 +75,12 @@ Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好�
 
 ## 自动生成描述
 
-{{release-limited-testing-section}}
-
 Adobe Analytics可以使用创新型人工智能来为您编写描述，而不是手动编写每个描述。 您可以为单个组件生成说明，也可以同时为多个组件生成说明。
 
 生成的描述：
 
 * 长度不超过3个句子。
-* 以Adobe使用AI **生成的文本**&#x200B;结尾，以便用户知道已生成描述。
+* 以Adobe使用AI ]**生成的文本**[!UICONTROL &#x200B;结尾，以便用户知道已生成描述。
 * 可以在生成后进行编辑。
 
 ### 先决条件
@@ -102,7 +100,7 @@ Adobe Analytics可以使用创新型人工智能来为您编写描述，而不�
 
 您可以在Adobe Analytics的以下区域中生成描述。 某些位置允许您为多个组件生成描述，而其他位置则没有。
 
-选择一个位置以了解如何在该位置生成描述。
+Select是一个学习如何在该处生成描述的位置。
 
 | 位置 | 支持的组件 | 单个组件 | 多个组件 |
 | --- | --- | --- | --- |
